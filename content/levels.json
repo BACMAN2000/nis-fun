@@ -1,0 +1,7 @@
+{
+  "levels": [
+    { "id": "starters", "name": "Fun for Nordic 1", "exam": "Pre A1 Starters", "cast": "Los Exploradores del Faro", "mascot": "pip", "color": "#d97d0d" },
+    { "id": "movers",   "name": "Fun for Nordic 2", "exam": "A1 Movers",       "cast": "El Club del Fiordo",       "mascot": "luna", "color": "#2f9268" },
+    { "id": "flyers",   "name": "Fun for Nordic 3", "exam": "A2 Flyers",       "cast": "La Expedición Aurora",     "mascot": "kili", "color": "#3b6fb5" }
+  ]
+}

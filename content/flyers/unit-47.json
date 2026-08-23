@@ -1,0 +1,53 @@
+{
+  "id": "flyers-47", "level": "flyers", "number": 47,
+  "title": "If it rains on Saturday…", "topic": "if / when",
+  "grammar": "primera condicional (if + presente, will)",
+  "wordlist": ["if", "when", "plan", "picnic", "inside", "outside", "instead", "bring", "cancel", "still"],
+  "exam_focus": { "paper": "Reading & Writing", "part": 6, "skill": "gapped sentences" },
+  "characters": ["ingrid", "kili"],
+  "scene": { "speaker": "ingrid", "pose": { "ingrid": 4, "kili": 4 },
+    "bubble": "Every good captain has a plan B. If it rains on Saturday, the picnic moves to the lighthouse!" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the if-half with the will-half.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "If…", "right_label": "…then",
+        "pairs": [
+          { "left": "If it rains on Saturday,", "right": "we'll have the picnic inside" },
+          { "left": "If it's sunny,", "right": "we'll swim in the sea" },
+          { "left": "If you forget your coat,", "right": "you'll be cold on the boat" },
+          { "left": "If we finish early,", "right": "we'll play one more game" },
+          { "left": "If Kili smells biscuits,", "right": "he'll appear in three seconds" },
+          { "left": "If you practise every day,", "right": "you'll pass the exam easily" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Choose the correct form.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Complete each first conditional sentence.",
+        "items": [
+          { "sentence": "If it ___ tomorrow, we'll stay at home.", "options": ["rains", "will rain", "rained"], "answer": 0 },
+          { "sentence": "If you study, you ___ the test.", "options": ["will pass", "pass", "passed"], "answer": 0 },
+          { "sentence": "We'll cancel the match ___ the field is wet.", "options": ["if", "so", "than"], "answer": 0 },
+          { "sentence": "If she ___ her umbrella, she won't get wet.", "options": ["brings", "will bring", "brought"], "answer": 0 },
+          { "sentence": "___ I see Kili, I'll give him your message.", "options": ["When", "Until", "Because"], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to the plan B meeting. Write a word in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "flyers/u47-c.mp3",
+      "data": { "voice_note": "Voces: Ingrid (con la pizarra de planes) y Kili (miembro del comité).",
+        "script": "Ingrid: Saturday planning meeting! Plan A: picnic on the beach at twelve. … Ingrid: If it rains, plan B: we'll move everything to the lighthouse. … Ingrid: If the wind is too strong for the boat, we'll walk along the cliff path. … Ingrid: If Oliver forgets the sandwiches — again — Maya will bring emergency biscuits. … Ingrid: And if everything goes wrong… we'll still be together, and that's the real plan. … Ingrid: Kili agrees. Meeting closed! Team hands in… and wing!",
+        "questions": [
+          { "q": "Plan A is a picnic on the beach at …", "answer": "twelve" },
+          { "q": "If it rains, they move to the …", "answer": "lighthouse" },
+          { "q": "If the wind is strong, they'll walk along the cliff …", "answer": "path" },
+          { "q": "Maya will bring emergency …", "answer": "biscuits" },
+          { "q": "If everything goes wrong, they'll still be …", "answer": "together" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "If the film is boring, we'll leave and play football …", "options": ["instead", "inside", "still"], "answer": 0 },
+          { "sentence": "If it's cold, we'll eat ___ the house, not in the garden.", "options": ["inside", "outside", "under"], "answer": 0 },
+          { "sentence": "To stop a plan completely is to ___ it.", "options": ["cancel", "bring", "dig"], "answer": 0 },
+          { "sentence": "If you're late, we'll ___ wait for you. Team rule!", "options": ["still", "never", "yet"], "answer": 0 },
+          { "sentence": "Please ___ your swimming things if it's sunny.", "options": ["bring", "cancel", "lose"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Chain of consequences: Student A starts \"If I wake up late…\". B continues \"…you'll miss the bus. If you miss the bus…\". Keep the chain for 6 links — the crazier, the better!" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Write your weekend plan A and plan B: If it's sunny, I'll… If it rains, I'll… (4 sentences)." } ]
+}

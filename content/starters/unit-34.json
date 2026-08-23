@@ -1,0 +1,53 @@
+{
+  "id": "starters-34", "level": "starters", "number": 34,
+  "title": "Breakfast time", "topic": "breakfast",
+  "grammar": "I have… for breakfast",
+  "wordlist": ["breakfast", "milk", "bread", "jam", "egg", "banana", "juice", "spoon", "cup", "morning"],
+  "exam_focus": { "paper": "Listening", "part": 4, "skill": "breakfast" },
+  "characters": ["freya", "astrid"],
+  "scene": { "speaker": "freya", "pose": { "freya": 1, "astrid": 3 },
+    "bubble": "Good morning! Milk, bread with jam, one banana… breakfast makes explorers strong!" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the breakfast thing with its friend.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Thing", "right_label": "Friend",
+        "pairs": [
+          { "left": "bread", "right": "with butter and jam" },
+          { "left": "milk", "right": "in a big cup" },
+          { "left": "an egg", "right": "with a little salt" },
+          { "left": "cereal", "right": "with cold milk" },
+          { "left": "juice", "right": "made of oranges" },
+          { "left": "a banana", "right": "easy to take to school" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Complete each sentence.",
+        "items": [
+          { "sentence": "Breakfast is in the …", "options": ["morning", "night", "afternoon"], "answer": 0 },
+          { "sentence": "I drink milk from a …", "options": ["cup", "plate", "box"], "answer": 0 },
+          { "sentence": "I eat cereal with a …", "options": ["spoon", "pencil", "ruler"], "answer": 0 },
+          { "sentence": "I ___ eggs and bread for breakfast.", "options": ["have", "has", "am"], "answer": 0 },
+          { "sentence": "Orange ___ is my favourite drink.", "options": ["juice", "soup", "sand"], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen at breakfast. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "starters/u34-c.mp3",
+      "data": { "voice_note": "Voces: Freya y Astrid (desayunando).",
+        "script": "Freya: Breakfast time! I have bread with strawberry jam. … Astrid: I have cereal with milk. And one banana. … Freya: My juice is orange juice. Fresh! … Astrid: Dad makes two eggs for Tomás. He is always hungry! … Freya: And Pip? … Astrid: Pip has three little fish. Puffin breakfast! … Freya: Strong breakfast, strong explorers!",
+        "questions": [
+          { "q": "Freya has bread with … jam.", "answer": "strawberry" },
+          { "q": "Astrid has cereal with …", "answer": "milk" },
+          { "q": "Dad makes two … for Tomás.", "answer": "eggs" },
+          { "q": "Pip has three little …", "answer": "fish" },
+          { "q": "Strong breakfast, strong …!", "answer": "explorers" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "The first meal of the day is …", "options": ["breakfast", "dinner", "lunch"], "answer": 0 },
+          { "sentence": "Jam is …", "options": ["sweet", "salty", "cold always"], "answer": 0 },
+          { "sentence": "Cows give us …", "options": ["milk", "juice", "jam"], "answer": 0 },
+          { "sentence": "Hens give us …", "options": ["eggs", "bread", "bananas"], "answer": 0 },
+          { "sentence": "\"What do you ___ for breakfast?\"", "options": ["have", "has", "make being"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Breakfast interview: \"What do you have for breakfast?\" Ask about food and drink. Find one thing you both have!" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Draw your breakfast table and write: For breakfast I have… (3 sentences)." } ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "movers-49", "level": "movers", "number": 49,
+  "title": "Exam day tips", "topic": "exam practice",
+  "grammar": "estrategias para el examen Movers",
+  "wordlist": ["exam", "example", "listen", "twice", "colour", "pencil", "check", "calm", "try", "smile"],
+  "exam_focus": { "paper": "Listening", "part": 1, "skill": "estrategia general" },
+  "characters": ["valentina", "mateo"],
+  "scene": { "speaker": "valentina", "pose": { "valentina": 3, "mateo": 1 },
+    "bubble": "Exam secrets from the Fjord Club: listen twice, colour carefully… and remember to breathe!" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the exam rule with its reason.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Rule", "right_label": "Reason",
+        "pairs": [
+          { "left": "Listen to the example first.", "right": "it shows you how to answer" },
+          { "left": "You hear everything twice.", "right": "the second time you check" },
+          { "left": "Bring coloured pencils.", "right": "one part asks you to colour" },
+          { "left": "Write clearly.", "right": "the examiner must read it" },
+          { "left": "Answer every question.", "right": "an empty box wins nothing" },
+          { "left": "Stay calm and smile.", "right": "a calm brain remembers more" } ] } },
+    { "code": "B", "type": "exam_task", "title": "What should you do? Choose the best option.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the best exam strategy.",
+        "items": [
+          { "sentence": "You hear \"colour the small fish green\". You…", "options": ["colour the small fish green", "colour all the fish", "wait for instructions again"], "answer": 0 },
+          { "sentence": "You don't understand a word in a question. You…", "options": ["look at the picture for help", "leave it empty", "cry quietly"], "answer": 0 },
+          { "sentence": "You finish early. You…", "options": ["check your answers again", "sleep", "draw dinosaurs"], "answer": 0 },
+          { "sentence": "The audio starts. You…", "options": ["stay silent and listen", "talk to your friend", "sing along"], "answer": 0 },
+          { "sentence": "Before the exam you should…", "options": ["sleep well and have breakfast", "study all night", "drink five colas"], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Mini practice! Listen and write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "movers/u49-c.mp3",
+      "data": { "voice_note": "Voces: Valentina (examinadora de práctica) — formato Movers real.",
+        "script": "Valentina: Practice test! Listen carefully and write. … Valentina: The exam is on Saturday. Saturday, S-A-T-U-R-D-A-Y. … Valentina: It starts at ten o'clock in the morning. … Valentina: Bring two pencils and your coloured pencils. … Valentina: The listening has five parts. Five. … Valentina: And after the exam… ice cream at Café Aurora, of course! … Valentina: Now check your answers. Well done, team!",
+        "questions": [
+          { "q": "The exam is on …", "answer": "Saturday" },
+          { "q": "It starts at … o'clock.", "answer": "ten" },
+          { "q": "Bring two … and your coloured ones.", "answer": "pencils" },
+          { "q": "The listening has … parts.", "answer": "five" },
+          { "q": "After the exam: ice cream at Café …", "answer": "Aurora" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "Every listening part starts with an …", "options": ["example", "exam", "exit"], "answer": 0 },
+          { "sentence": "You hear each recording …", "options": ["twice", "once", "ten times"], "answer": 0 },
+          { "sentence": "In one part you ___ pictures.", "options": ["colour", "cut", "cook"], "answer": 0 },
+          { "sentence": "At the end, ___ your answers.", "options": ["check", "change all", "forget"], "answer": 0 },
+          { "sentence": "Nervous? Breathe and stay …", "options": ["calm", "cold", "curly"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Teach-back: tell your partner your 3 favourite exam tips in English. Together choose the best 5 for a class poster." } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Write your exam-day plan: what time you wake up, what you bring, your personal rule. 4 sentences." } ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "starters-38", "level": "starters", "number": 38,
+  "title": "Animals can…", "topic": "animals + can",
+  "grammar": "can + animales (repaso)",
+  "wordlist": ["fly", "swim", "jump", "run", "climb", "sing", "walk", "sleep", "fast", "high"],
+  "exam_focus": { "paper": "Reading & Writing", "part": 2, "skill": "true sentences" },
+  "characters": ["nico", "pip"],
+  "scene": { "speaker": "nico", "pose": { "nico": 3, "pip": 1 },
+    "bubble": "Animal talents! Birds can fly, fish can swim, monkeys can climb… and Pip can do almost everything!" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the animal with its talent.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Animal", "right_label": "Talent",
+        "pairs": [
+          { "left": "the bird", "right": "can fly high" },
+          { "left": "the fish", "right": "can swim all day" },
+          { "left": "the frog", "right": "can jump far" },
+          { "left": "the horse", "right": "can run fast" },
+          { "left": "the monkey", "right": "can climb trees" },
+          { "left": "the cat", "right": "can sleep anywhere" } ] } },
+    { "code": "B", "type": "exam_task", "title": "True or not? Choose the correct option.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct sentence ending.",
+        "items": [
+          { "sentence": "A fish can ___ but it can't walk.", "options": ["swim", "fly", "sing"], "answer": 0 },
+          { "sentence": "A bird can fly and …", "options": ["sing", "drive", "read"], "answer": 0 },
+          { "sentence": "An elephant can walk but it can't …", "options": ["jump high", "eat", "drink"], "answer": 0 },
+          { "sentence": "A monkey can ___ very well.", "options": ["climb", "swim only", "fly"], "answer": 0 },
+          { "sentence": "A horse can run very …", "options": ["fast", "slow only", "high"], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to the talent quiz. Write a word in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "starters/u38-c.mp3",
+      "data": { "voice_note": "Voces: Nico (preguntando) y Astrid (respondiendo).",
+        "script": "Nico: Animal quiz! Can a fish fly? … Astrid: No, it can't! But it can swim. … Nico: Can a monkey climb? … Astrid: Yes, it can! Very high! … Nico: Can an elephant jump? … Astrid: No! Elephants can't jump. True fact! … Nico: Can Pip swim AND fly? … Astrid: Yes, he can! Puffins are amazing. … Nico: Winner: Astrid, four out of four!",
+        "questions": [
+          { "q": "A fish can't fly but it can …", "answer": "swim" },
+          { "q": "A monkey can climb very …", "answer": "high" },
+          { "q": "Elephants can't …", "answer": "jump" },
+          { "q": "Pip can swim and …", "answer": "fly" },
+          { "q": "Astrid wins: four out of …", "answer": "four" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "Birds fly ___ in the sky.", "options": ["high", "under", "slow"], "answer": 0 },
+          { "sentence": "A cheetah runs very …", "options": ["fast", "slowly", "sadly"], "answer": 0 },
+          { "sentence": "Cats sleep many ___ every day.", "options": ["hours", "books", "shoes"], "answer": 0 },
+          { "sentence": "Frogs can ___ from leaf to leaf.", "options": ["jump", "read", "cook"], "answer": 0 },
+          { "sentence": "\"Can you swim?\" — \"Yes, I ___!\"", "options": ["can", "am", "do"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Animal quiz battle: 4 questions each (\"Can a … fly?\"). Answer with full short answers: \"Yes, it can! / No, it can't!\"" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Choose 3 animals. For each, write one can and one can't: A duck can swim but it can't climb." } ]
+}

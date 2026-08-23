@@ -1,0 +1,52 @@
+{
+  "id": "starters-08", "level": "starters", "number": 8,
+  "title": "My face", "topic": "face",
+  "grammar": "He / She has got…",
+  "wordlist": ["face", "eyes", "ears", "nose", "mouth", "hair", "teeth", "smile", "long", "short"],
+  "exam_focus": { "paper": "Reading & Writing", "part": 1, "skill": "word–picture" },
+  "characters": ["freya", "nico"],
+  "scene": { "speaker": "freya", "pose": { "freya": 3, "nico": 1 },
+    "bubble": "Funny faces game! Big eyes, silly nose, giant smile… Nico always wins this game." },
+  "activities": [
+    { "code": "A", "type": "crossword", "title": "Write the face words.",
+      "outputs": ["book", "digital"],
+      "data": { "words": [
+        { "word": "EYES", "clue": "You see with them. You have two." },
+        { "word": "NOSE", "clue": "You smell with it. It is in the middle." },
+        { "word": "MOUTH", "clue": "You eat and talk with it." },
+        { "word": "EARS", "clue": "You hear with them." },
+        { "word": "HAIR", "clue": "It grows on your head." } ] } },
+    { "code": "B", "type": "match_words", "title": "Match the face part with what it does.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Part", "right_label": "What it does",
+        "pairs": [
+          { "left": "my eyes", "right": "see the colours" },
+          { "left": "my ears", "right": "hear the music" },
+          { "left": "my nose", "right": "smells the cake" },
+          { "left": "my mouth", "right": "says hello" },
+          { "left": "my teeth", "right": "eat the apple" },
+          { "left": "my smile", "right": "makes friends happy" } ] } },
+    { "code": "C", "type": "listening", "title": "Listen. Who is it? Write a word in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "starters/u08-c.mp3",
+      "data": { "voice_note": "Voces: Freya (describiendo) y Nico (adivinando).",
+        "script": "Freya: Guess who! She has got long yellow hair. … Nico: That's you, Freya! … Freya: Yes! Now: he has got short black hair and a big smile. … Nico: That's me! I love this game. … Freya: This one has got two black eyes and an orange nose… … Nico: Wait… feathers? That's Pip! … Freya: Last one: she has got brown hair and she is very tidy. … Nico: Astrid! Four out of four!",
+        "questions": [
+          { "q": "Freya has got long … hair.", "answer": "yellow" },
+          { "q": "Nico has got … black hair.", "answer": "short" },
+          { "q": "Pip has got an … nose.", "answer": "orange" },
+          { "q": "Astrid has got … hair.", "answer": "brown" },
+          { "q": "Nico got four out of …", "answer": "four" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "You see with your …", "options": ["eyes", "ears", "teeth"], "answer": 0 },
+          { "sentence": "You hear with your …", "options": ["ears", "nose", "hair"], "answer": 0 },
+          { "sentence": "She ___ got long hair.", "options": ["has", "have", "is"], "answer": 0 },
+          { "sentence": "You brush your ___ every day.", "options": ["teeth", "eyes", "ears"], "answer": 0 },
+          { "sentence": "A happy mouth makes a …", "options": ["smile", "nose", "hand"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Draw a funny face (big nose? three eyes?). Describe it: \"It has got…\" Your partner draws what they hear. Compare!" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Draw a family member's face and write 3 sentences: He/She has got…" } ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "flyers-45", "level": "flyers", "number": 45,
+  "title": "The treasure map", "topic": "position words",
+  "grammar": "preposiciones + instrucciones de mapa",
+  "wordlist": ["treasure", "map", "north", "south", "east", "west", "cross", "dig", "step", "secret"],
+  "exam_focus": { "paper": "Listening", "part": 5, "skill": "colour and write" },
+  "characters": ["kili", "ingrid"],
+  "scene": { "speaker": "ingrid", "pose": { "ingrid": 8, "kili": 2 },
+    "bubble": "Kili found an old bottle on the beach… with a REAL treasure map inside! Expedition, assemble!" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the map word with its meaning.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Word", "right_label": "Meaning",
+        "pairs": [
+          { "left": "north", "right": "the direction of the top of the map" },
+          { "left": "south", "right": "the direction of the bottom of the map" },
+          { "left": "a cross", "right": "the X that marks the treasure" },
+          { "left": "to dig", "right": "to make a hole in the ground" },
+          { "left": "a step", "right": "one walk of one foot" },
+          { "left": "a secret", "right": "something only few people know" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Follow the map instructions.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "Start at the old tree and walk ten steps ___ the beach.", "options": ["towards", "of", "at"], "answer": 0 },
+          { "sentence": "Turn ___ at the big white rock.", "options": ["east", "easts", "easting"], "answer": 0 },
+          { "sentence": "The treasure is ___ the two palm trees.", "options": ["between", "through", "along"], "answer": 0 },
+          { "sentence": "___ exactly where the cross is!", "options": ["Dig", "Sing", "Cook"], "answer": 0 },
+          { "sentence": "Tell nobody — it's a ___!", "options": ["secret", "queue", "chore"], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to the treasure hunt. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "flyers/u45-c.mp3",
+      "data": { "voice_note": "Voces: Ingrid (leyendo el mapa) y Kili (explorando desde el aire).",
+        "script": "Ingrid: The map says: start at the lighthouse door. … Ingrid: Walk thirty steps north, to the three black rocks. … Ingrid: Now turn east, towards the old boat. … Ingrid: Kili sees something from the sky — a circle of white stones! … Ingrid: The cross is in the middle of the circle. Dig, team, dig! … Ingrid: There's a wooden box! Inside… old coins and a letter! … Ingrid: The letter says: \"Congratulations, explorers. This treasure was hidden by the lighthouse keepers of 1926.\" … Ingrid: One hundred years ago! This goes straight to the town museum!",
+        "questions": [
+          { "q": "Start at the lighthouse …", "answer": "door" },
+          { "q": "Walk thirty steps …", "answer": "north" },
+          { "q": "Kili sees a circle of white …", "answer": "stones" },
+          { "q": "Inside the box there are old coins and a …", "answer": "letter" },
+          { "q": "The treasure goes to the town …", "answer": "museum" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "The sun rises in the …", "options": ["east", "west", "north"], "answer": 0 },
+          { "sentence": "The sun goes down in the …", "options": ["south", "west", "north"], "answer": 1 },
+          { "sentence": "X marks the spot — X is a …", "options": ["cross", "step", "coin"], "answer": 0 },
+          { "sentence": "Dogs love to ___ holes in the garden.", "options": ["dig", "sing", "spin"], "answer": 0 },
+          { "sentence": "Gold, silver and old coins can be a …", "options": ["treasure", "ticket", "temperature"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Hide a \"treasure\" (an eraser) in the classroom while your partner closes their eyes. Write 4 map instructions. Can they find it in one minute?" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Draw a treasure map of your home or street and write the 5 instructions to find the treasure." } ]
+}

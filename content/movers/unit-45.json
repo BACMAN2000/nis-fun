@@ -1,0 +1,53 @@
+{
+  "id": "movers-45", "level": "movers", "number": 45,
+  "title": "The birthday party", "topic": "celebrations",
+  "grammar": "fechas + How old",
+  "wordlist": ["birthday", "party", "present", "candle", "balloon", "guest", "game", "wish", "cake", "celebrate"],
+  "exam_focus": { "paper": "Listening", "part": 4, "skill": "multiple choice" },
+  "characters": ["sofia", "erik"],
+  "scene": { "speaker": "sofia", "pose": { "sofia": 10, "erik": 10 },
+    "bubble": "SURPRISE! It worked! Ten guests, thirty balloons, one confetti storm… and the best club in the world!" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the party thing with its moment.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Thing", "right_label": "Moment",
+        "pairs": [
+          { "left": "the balloons", "right": "you blow them up before the party" },
+          { "left": "the guests", "right": "they arrive and shout SURPRISE" },
+          { "left": "the games", "right": "everyone plays together" },
+          { "left": "the candles", "right": "you blow them out and make a wish" },
+          { "left": "the cake", "right": "everyone gets a piece" },
+          { "left": "the presents", "right": "the birthday person opens them" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Choose the correct party words.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Complete each sentence.",
+        "items": [
+          { "sentence": "\"How ___ are you today?\" — \"I'm ten!\"", "options": ["old", "many", "much"], "answer": 0 },
+          { "sentence": "Blow out the ___ and make a wish!", "options": ["candles", "balloons", "presents"], "answer": 0 },
+          { "sentence": "Everyone sings Happy ___ to You.", "options": ["Birthday", "Sunday", "Holiday"], "answer": 0 },
+          { "sentence": "The people at a party are the …", "options": ["guests", "drivers", "sellers"], "answer": 0 },
+          { "sentence": "Don't tell the wish — it's a ___!", "options": ["secret", "song", "sandwich"], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to the surprise party. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "movers/u45-c.mp3",
+      "data": { "voice_note": "Voces: Sofía (cumpleañera feliz) y Erik (maestro del confeti).",
+        "script": "Sofia: I opened the door and… SURPRISE! Ten friends, thirty balloons! … Erik: And my confetti machine! One minute of paper rain, as planned. … Sofia: The cake had ten candles. I blew them all out in one go! … Erik: What did you wish? … Sofia: Secret! But it has four legs and says woof. … Erik: We played three games and Mateo won the chocolate coin hunt. … Sofia: Grandma's cake was chocolate with strawberries. Perfect. … Sofia: Best birthday ever. Thank you, Fjord Club!",
+        "questions": [
+          { "q": "There were ten friends and … balloons.", "answer": "thirty" },
+          { "q": "The confetti rain lasted one …", "answer": "minute" },
+          { "q": "The cake had … candles.", "answer": "ten" },
+          { "q": "The secret wish has four legs and says …", "answer": "woof" },
+          { "q": "… won the chocolate coin hunt.", "answer": "Mateo" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "On your birthday you get …", "options": ["presents", "homework", "rules"], "answer": 0 },
+          { "sentence": "Balloons are full of …", "options": ["air", "water", "juice"], "answer": 0 },
+          { "sentence": "To have a party for something special is to ___ it.", "options": ["celebrate", "calculate", "climb"], "answer": 0 },
+          { "sentence": "A party ___ can be musical chairs.", "options": ["game", "gate", "goat"], "answer": 0 },
+          { "sentence": "When you blow out the candles, you make a …", "options": ["wish", "wash", "watch"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Party memory: tell your partner about your best birthday — how old you were, who came, the best moment. They ask 2 questions. Then swap." } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Plan your next birthday: date, 3 guests, one game, the cake and one wish (you can invent it!). 5 sentences." } ]
+}

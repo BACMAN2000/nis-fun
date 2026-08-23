@@ -1,0 +1,52 @@
+{
+  "id": "starters-07", "level": "starters", "number": 7,
+  "title": "My body", "topic": "body",
+  "grammar": "I have got…",
+  "wordlist": ["head", "arm", "hand", "leg", "foot", "feet", "body", "fingers", "knee", "toes"],
+  "exam_focus": { "paper": "Listening", "part": 4, "skill": "body words" },
+  "characters": ["tomas", "pip"],
+  "scene": { "speaker": "tomas", "pose": { "tomas": 7, "pip": 1 },
+    "bubble": "Head, arms, legs, feet — my body loves to MOVE! Ready for body gymnastics?" },
+  "activities": [
+    { "code": "A", "type": "crossword", "title": "Write the body words.",
+      "outputs": ["book", "digital"],
+      "data": { "words": [
+        { "word": "HEAD", "clue": "Your hair is on it." },
+        { "word": "ARM", "clue": "It is between your shoulder and your hand." },
+        { "word": "HAND", "clue": "It has five fingers." },
+        { "word": "LEG", "clue": "You walk and run with it." },
+        { "word": "FOOT", "clue": "You put a shoe on it." } ] } },
+    { "code": "B", "type": "match_words", "title": "Match the body part with what it does.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Body part", "right_label": "What it does",
+        "pairs": [
+          { "left": "my legs", "right": "run and jump" },
+          { "left": "my hands", "right": "clap and draw" },
+          { "left": "my head", "right": "thinks and nods" },
+          { "left": "my fingers", "right": "count to ten" },
+          { "left": "my feet", "right": "kick the ball" },
+          { "left": "my arms", "right": "hug my family" } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to body gymnastics. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "starters/u07-c.mp3",
+      "data": { "voice_note": "Voces: Tomás (instructor) y Freya (siguiendo).",
+        "script": "Tomas: Body gymnastics! Touch your head with two hands. … Freya: Done! This is easy. … Tomas: Now stand on one leg. One, two, three… … Freya: I'm a flamingo! … Tomas: Clap your hands five times! … Freya: One, two, three, four, five! … Tomas: Now touch your toes… and jump like Pip! … Freya: Pip doesn't jump, he flies! … Tomas: Then flap your arms! Great gymnastics, team!",
+        "questions": [
+          { "q": "Touch your head with two …", "answer": "hands" },
+          { "q": "Stand on one …", "answer": "leg" },
+          { "q": "Clap your hands … times.", "answer": "five" },
+          { "q": "Touch your …", "answer": "toes" },
+          { "q": "Flap your … like Pip!", "answer": "arms" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "One hand has five …", "options": ["fingers", "feet", "heads"], "answer": 0 },
+          { "sentence": "You walk with your …", "options": ["legs", "arms", "ears"], "answer": 0 },
+          { "sentence": "Two foot = two …", "options": ["feet", "foots", "feets"], "answer": 0 },
+          { "sentence": "I have ___ two arms.", "options": ["got", "get", "go"], "answer": 0 },
+          { "sentence": "Your leg bends at the …", "options": ["knee", "nose", "neck"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Play Touch: say a body part, your partner touches it fast (\"Touch your knee!\"). Five each — faster every time!" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Draw yourself and label 6 body parts. Write: I have got two arms…" } ]
+}

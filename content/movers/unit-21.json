@@ -1,0 +1,53 @@
+{
+  "id": "movers-21", "level": "movers", "number": 21,
+  "title": "Where is the cat?", "topic": "prepositions",
+  "grammar": "in, on, under, behind, next to, between",
+  "wordlist": ["in", "on", "under", "behind", "in front of", "next to", "between", "above", "here", "there"],
+  "exam_focus": { "paper": "Listening", "part": 5, "skill": "colour and place" },
+  "characters": ["valentina", "mateo"],
+  "scene": { "speaker": "valentina", "pose": { "valentina": 4, "mateo": 5 },
+    "bubble": "The neighbour's cat is somewhere in our club house — and Luna is NOT happy about it!" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the preposition with the picture idea.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Preposition", "right_label": "Idea",
+        "pairs": [
+          { "left": "in", "right": "inside the box" },
+          { "left": "on", "right": "on top, touching" },
+          { "left": "under", "right": "below it" },
+          { "left": "behind", "right": "you can't see it from the front" },
+          { "left": "next to", "right": "at its side" },
+          { "left": "between", "right": "in the middle of two things" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Where is it? Choose the correct preposition.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Complete each sentence.",
+        "items": [
+          { "sentence": "The cat is ___ the sofa — I can see its tail!", "options": ["under", "on", "in"], "answer": 0 },
+          { "sentence": "The clock is ___ the door, up on the wall.", "options": ["above", "under", "between"], "answer": 0 },
+          { "sentence": "The bin is ___ the desk and the wall.", "options": ["between", "on", "in"], "answer": 0 },
+          { "sentence": "My bag is ___ the chair. Look behind it!", "options": ["behind", "above", "on"], "answer": 0 },
+          { "sentence": "The keys are ___ the drawer, inside.", "options": ["in", "on", "next to"], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to the cat hunt. Write a word in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "movers/u21-c.mp3",
+      "data": { "voice_note": "Voces: Valentina (buscando) y Mateo (reportando posiciones).",
+        "script": "Valentina: Operation Find The Cat! Mateo, look under the sofa. … Mateo: Not under the sofa. Only three biscuits. Old ones. … Valentina: Behind the curtains? … Mateo: No… wait! White hairs ON the armchair. She was here! … Valentina: Check between the bookshelf and the window. … Mateo: There she is! Sleeping in Erik's toolbox! … Valentina: In the toolbox! And where is Luna? … Mateo: Hiding behind the door. I think the cat won this game.",
+        "questions": [
+          { "q": "Under the sofa there are only three old …", "answer": "biscuits" },
+          { "q": "There are white hairs on the …", "answer": "armchair" },
+          { "q": "The cat is between the bookshelf and the …", "answer": "window" },
+          { "q": "She is sleeping in Erik's …", "answer": "toolbox" },
+          { "q": "Luna is hiding behind the …", "answer": "door" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "The lamp is ___ the table. It touches it.", "options": ["on", "under", "behind"], "answer": 0 },
+          { "sentence": "The fish is ___ the water.", "options": ["in", "on", "above"], "answer": 0 },
+          { "sentence": "The opposite of here is …", "options": ["there", "then", "this"], "answer": 0 },
+          { "sentence": "B is ___ A and C in the alphabet.", "options": ["between", "behind", "under"], "answer": 0 },
+          { "sentence": "The sun is ___ the clouds today.", "options": ["behind", "in front of", "next to"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Hide-and-tell: put your rubber somewhere (under the book, behind the case…). Your partner asks: \"Is it under…? Is it behind…?\" Maximum 6 questions. Then swap." } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Write 6 sentences about where things are in your room, one for each preposition of activity A." } ]
+}

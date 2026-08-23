@@ -1,0 +1,53 @@
+{
+  "id": "movers-50", "level": "movers", "number": 50,
+  "title": "The Fjord Club graduation", "topic": "review & celebration",
+  "grammar": "repaso general del curso",
+  "wordlist": ["graduation", "certificate", "proud", "team", "remember", "adventure", "thank you", "goodbye", "next", "celebrate"],
+  "exam_focus": { "paper": "Review", "part": 0, "skill": "todo el curso" },
+  "characters": ["erik", "valentina", "sofia", "mateo"],
+  "scene": { "speaker": "sofia", "pose": { "sofia": 10, "erik": 10, "valentina": 10, "mateo": 10 },
+    "bubble": "Fifty units! The Fjord Club did it — and Luna gets a diploma too. Next stop: FLYERS!" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match each member with their best moment.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Member", "right_label": "Best moment",
+        "pairs": [
+          { "left": "Erik", "right": "the confetti machine and the barking clock" },
+          { "left": "Valentina", "right": "twenty posters in ten minutes" },
+          { "left": "Sofia", "right": "the eight-second race record" },
+          { "left": "Mateo", "right": "the biggest smile in every photo" },
+          { "left": "Luna", "right": "found the key AND the bakery" },
+          { "left": "You", "right": "finished all fifty units!" } ] } },
+    { "code": "B", "type": "exam_task", "title": "The final review · Choose the correct answer.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "One question from different units — can you still do it?",
+        "items": [
+          { "sentence": "A panda eats …", "options": ["bamboo", "pizza", "cheese"], "answer": 0 },
+          { "sentence": "Yesterday we ___ to the funfair.", "options": ["went", "go", "goed"], "answer": 0 },
+          { "sentence": "An elephant is ___ than a horse.", "options": ["bigger", "big", "biggest"], "answer": 0 },
+          { "sentence": "You ___ run next to the swimming pool.", "options": ["mustn't", "must", "should to"], "answer": 0 },
+          { "sentence": "We ___ going to celebrate today!", "options": ["are", "is", "am"], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to the graduation. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "movers/u50-c.mp3",
+      "data": { "voice_note": "Voces: todo el Club — ceremonia alegre.",
+        "script": "Sofia: Welcome to the Fjord Club graduation, here at the lake! … Erik: Fifty units, hundreds of words, and only one flooded invention. Good statistics! … Valentina: Each explorer receives a green certificate with a golden fjord. … Mateo: And a chocolate medal. Mine is already… gone. … Sofia: Luna receives the Best Assistant diploma. She's wearing her red scarf! … Erik: Next year: Flyers, with the Aurora team! … Valentina: Three cheers for the Fjord Club! … Everyone: Hip hip… HOORAY!",
+        "questions": [
+          { "q": "The graduation is at the …", "answer": "lake" },
+          { "q": "The certificate is green with a golden …", "answer": "fjord" },
+          { "q": "The medal is made of …", "answer": "chocolate" },
+          { "q": "Luna wears her red …", "answer": "scarf" },
+          { "q": "Next year they go to …", "answer": "Flyers" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "The paper that says you finished is a …", "options": ["certificate", "ticket", "menu"], "answer": 0 },
+          { "sentence": "Your family feels ___ of you today.", "options": ["proud", "worried", "bored"], "answer": 0 },
+          { "sentence": "A group that works together is a …", "options": ["team", "queue", "list"], "answer": 0 },
+          { "sentence": "\"___ you for everything, teachers!\"", "options": ["Thank", "Please", "Sorry"], "answer": 0 },
+          { "sentence": "To keep something in your mind forever is to ___ it.", "options": ["remember", "forget", "sell"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · The graduation speech", "outputs": ["book"],
+      "data": { "text": "Give a 20-second speech: your favourite unit, the funniest moment and a thank-you. The class claps for everyone!" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Write a letter to next year's Movers class: 4 tips and one secret about the course. Sign it!" } ]
+}

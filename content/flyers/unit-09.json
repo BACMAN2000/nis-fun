@@ -1,0 +1,53 @@
+{
+  "id": "flyers-09", "level": "flyers", "number": 9,
+  "title": "Around the house", "topic": "home",
+  "grammar": "prepositions of place",
+  "wordlist": ["balcony", "basement", "stairs", "lift", "gate", "roof", "shelf", "cupboard", "fridge", "corner"],
+  "exam_focus": { "paper": "Reading & Writing", "part": 2, "skill": "gapped text" },
+  "characters": ["maya", "ingrid"],
+  "scene": { "speaker": "maya", "pose": { "maya": 2, "ingrid": 1 },
+    "bubble": "Welcome to my new flat! The lift is broken, so… ninety-eight stairs to the fifth floor!" },
+  "activities": [
+    { "code": "A", "type": "crossword", "title": "Read the sentences and write the house words.",
+      "outputs": ["book", "digital"],
+      "data": { "words": [
+        { "word": "BALCONY", "clue": "A small outside place upstairs where you can sit in the sun." },
+        { "word": "BASEMENT", "clue": "The room under the house. It is often dark." },
+        { "word": "STAIRS", "clue": "You walk up and down these inside a building." },
+        { "word": "ROOF", "clue": "The top of a house. Birds like to sit on it." },
+        { "word": "SHELF", "clue": "You put books on it, on the wall." },
+        { "word": "FRIDGE", "clue": "A cold cupboard in the kitchen for milk and yoghurt." } ] } },
+    { "code": "B", "type": "match_words", "title": "Where is Kili hiding? Match the sentence halves.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Kili is…", "right_label": "place",
+        "pairs": [
+          { "left": "behind", "right": "the kitchen door" },
+          { "left": "under", "right": "Maya's bed" },
+          { "left": "on top of", "right": "the fridge" },
+          { "left": "inside", "right": "the big cupboard" },
+          { "left": "between", "right": "the two plants on the balcony" },
+          { "left": "in the corner of", "right": "the basement" } ] } },
+    { "code": "C", "type": "listening", "title": "Listen. Maya shows Ingrid the new flat. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "flyers/u09-c.mp3",
+      "data": { "voice_note": "Voces: Maya (orgullosa) e Ingrid (visitante).",
+        "script": "Maya: Come in, Ingrid! This is the living room. … Ingrid: I love the yellow sofa! And what a big shelf! … Maya: Yes, it has space for two hundred books. … Ingrid: Where is your science laboratory? … Maya: In the basement! It's a bit dark, but very quiet. … Ingrid: And this door? … Maya: That's the balcony. You can see the sea from there! … Ingrid: Beautiful! Where does Kili sleep when he visits? … Maya: On the roof, of course. He says it's the best bedroom in the city!",
+        "questions": [
+          { "q": "The sofa in the living room is …", "answer": "yellow" },
+          { "q": "The shelf has space for two hundred …", "answer": "books" },
+          { "q": "Maya's laboratory is in the …", "answer": "basement" },
+          { "q": "From the balcony you can see the …", "answer": "sea" },
+          { "q": "Kili sleeps on the …", "answer": "roof" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "You keep cold food in the …", "options": ["shelf", "fridge", "roof"], "answer": 1 },
+          { "sentence": "If the lift is broken, use the …", "options": ["stairs", "gate", "balcony"], "answer": 0 },
+          { "sentence": "The room under the house is the …", "options": ["balcony", "roof", "basement"], "answer": 2 },
+          { "sentence": "The cat is ___ the two chairs.", "options": ["between", "inside", "on"], "answer": 0 },
+          { "sentence": "You open the ___ to enter the garden.", "options": ["fridge", "gate", "shelf"], "answer": 1 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Student A hides an imaginary treasure somewhere in the school. Student B asks where-questions with prepositions: \"Is it under the teacher's desk? Behind the door?\" Ten questions maximum!" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Draw a plan of your home and label 6 places from the wordlist. Write: My favourite place is… because…" } ]
+}

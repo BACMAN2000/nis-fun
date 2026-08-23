@@ -1,0 +1,53 @@
+{
+  "id": "starters-45", "level": "starters", "number": 45,
+  "title": "The Lighthouse party", "topic": "review & celebration",
+  "grammar": "repaso general del curso",
+  "wordlist": ["party", "lighthouse", "certificate", "star", "sing", "dance", "proud", "friends", "thank you", "hooray"],
+  "exam_focus": { "paper": "Review", "part": 0, "skill": "todo el curso" },
+  "characters": ["freya", "nico", "astrid", "tomas"],
+  "scene": { "speaker": "freya", "pose": { "freya": 10, "nico": 10, "astrid": 10, "tomas": 10 },
+    "bubble": "Forty-five units! The Explorers did it! Party at the lighthouse — and Pip turns on the great light for us!" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match each explorer with their star moment.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Explorer", "right_label": "Star moment",
+        "pairs": [
+          { "left": "Freya", "right": "asked one thousand questions" },
+          { "left": "Nico", "right": "made everyone laugh" },
+          { "left": "Astrid", "right": "kept everything tidy" },
+          { "left": "Tomás", "right": "never stopped moving" },
+          { "left": "Pip", "right": "was in every single unit!" },
+          { "left": "You", "right": "finished the whole book!" } ] } },
+    { "code": "B", "type": "exam_task", "title": "The final review · Choose the correct answer.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "One question from the whole course!",
+        "items": [
+          { "sentence": "A frog is …", "options": ["green", "purple", "grey"], "answer": 0 },
+          { "sentence": "Ten plus ten is …", "options": ["twenty", "twelve", "two"], "answer": 0 },
+          { "sentence": "You sleep in the …", "options": ["bedroom", "kitchen", "garden"], "answer": 0 },
+          { "sentence": "A bird ___ fly.", "options": ["can", "can't", "isn't"], "answer": 0 },
+          { "sentence": "This is Freya. ___ is happy.", "options": ["She", "He", "It"], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to the lighthouse party. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "starters/u45-c.mp3",
+      "data": { "voice_note": "Voces: los cuatro exploradores — fiesta final.",
+        "script": "Freya: Welcome to the lighthouse party! Forty-five units — we did it! … Nico: There is a big cake with a lighthouse on top! … Astrid: Every explorer gets a certificate with a golden star. … Tomas: And we dance the moving song one more time! … Freya: Look up! Pip is turning on the great light! … Nico: The sea is all bright! … Everyone: One, two, three… HOORAY FOR THE EXPLORERS!",
+        "questions": [
+          { "q": "They finished forty-five …", "answer": "units" },
+          { "q": "The cake has a … on top.", "answer": "lighthouse" },
+          { "q": "The certificate has a golden …", "answer": "star" },
+          { "q": "They dance the … song.", "answer": "moving" },
+          { "q": "… turns on the great light.", "answer": "Pip" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "The paper with the golden star is a …", "options": ["certificate", "ticket", "letter"], "answer": 0 },
+          { "sentence": "Your family is ___ of you!", "options": ["proud", "tired", "cold"], "answer": 0 },
+          { "sentence": "At a party we sing and …", "options": ["dance", "sleep", "study"], "answer": 0 },
+          { "sentence": "\"___ you, teachers!\"", "options": ["Thank", "Please", "Sorry"], "answer": 0 },
+          { "sentence": "Next book: Fun for Nordic 2 — …!", "options": ["Movers", "Flyers", "Starters"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · The star speech", "outputs": ["book"],
+      "data": { "text": "Say 3 sentences to the class: your favourite unit, one word you love in English, and thank you to someone. Big clap for everyone!" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Draw yourself as an English explorer with your certificate. Write: I can… (3 things you learned this year!)" } ]
+}

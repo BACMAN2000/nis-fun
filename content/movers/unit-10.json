@@ -1,0 +1,53 @@
+{
+  "id": "movers-10", "level": "movers", "number": 10,
+  "title": "A day at the farm", "topic": "farm animals",
+  "grammar": "can / can't + animales",
+  "wordlist": ["cow", "sheep", "goat", "horse", "duck", "hen", "donkey", "field", "milk", "egg"],
+  "exam_focus": { "paper": "Listening", "part": 1, "skill": "identify animals" },
+  "characters": ["mateo", "sofia"],
+  "scene": { "speaker": "sofia", "pose": { "sofia": 1, "mateo": 5 },
+    "bubble": "Farm trip! Mateo, that's not a small horse… that's a donkey, and he likes your sandwich!" },
+  "activities": [
+    { "code": "A", "type": "crossword", "title": "Read the sentences and write the farm animals.",
+      "outputs": ["book", "digital"],
+      "data": { "words": [
+        { "word": "SHEEP", "clue": "White and woolly. It says baa!" },
+        { "word": "GOAT", "clue": "It climbs everywhere and eats everything!" },
+        { "word": "HORSE", "clue": "You can ride it. It runs fast." },
+        { "word": "DONKEY", "clue": "Like a small grey horse with long ears." },
+        { "word": "HEN", "clue": "She gives us eggs every morning." },
+        { "word": "DUCK", "clue": "It swims on the pond and says quack." } ] } },
+    { "code": "B", "type": "match_words", "title": "Match the animal with what it gives or does.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Animal", "right_label": "It gives / does",
+        "pairs": [
+          { "left": "the cow", "right": "gives us milk" },
+          { "left": "the hen", "right": "gives us eggs" },
+          { "left": "the sheep", "right": "gives us wool" },
+          { "left": "the horse", "right": "carries people fast" },
+          { "left": "the donkey", "right": "carries heavy bags slowly" },
+          { "left": "the duck", "right": "swims on the pond" } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to the farm visit. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "movers/u10-c.mp3",
+      "data": { "voice_note": "Voces: Sofía (guía) y Mateo (víctima del burro).",
+        "script": "Sofia: Welcome to Grandpa Pablo's farm! First, the field with twelve cows. … Mateo: They are so big! And so calm. … Sofia: Now the hens. Grandpa collects thirty eggs every morning! … Mateo: Hey! The donkey is eating my sandwich! … Sofia: That's Paco. He loves cheese sandwiches. … Mateo: Now he's my best friend. Can I ride the horse? … Sofia: Yes, the brown one. Hold on well! … Mateo: Best. Trip. Ever!",
+        "questions": [
+          { "q": "In the field there are twelve …", "answer": "cows" },
+          { "q": "Grandpa collects thirty … every morning.", "answer": "eggs" },
+          { "q": "The donkey is called …", "answer": "Paco" },
+          { "q": "Paco loves cheese …", "answer": "sandwiches" },
+          { "q": "Mateo rides the … horse.", "answer": "brown" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "Milk comes from the …", "options": ["cow", "hen", "duck"], "answer": 0 },
+          { "sentence": "A sheep ___ fly.", "options": ["can", "can't", "don't"], "answer": 1 },
+          { "sentence": "A horse ___ run very fast.", "options": ["can", "can't", "isn't"], "answer": 0 },
+          { "sentence": "The cows eat grass in the …", "options": ["field", "kitchen", "wardrobe"], "answer": 0 },
+          { "sentence": "The animal with long ears that carries bags is the …", "options": ["donkey", "duck", "hen"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Animal quiz: \"It can swim but it can't fly high. It says quack.\" Your partner guesses. Three animals each — use can/can't in every clue!" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Choose 3 farm animals. Write what each can and can't do: A hen can walk but it can't swim." } ]
+}

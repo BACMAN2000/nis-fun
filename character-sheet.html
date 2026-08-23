@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8"><title>Fun for Nordic — Character sheet</title>
+<style>
+ body{font-family:system-ui;background:#f6f9fb;color:#1b2b3d;margin:2rem}
+ h2{margin:2rem 0 .5rem} .row{display:flex;gap:8px;flex-wrap:wrap;align-items:flex-end}
+ figure{margin:0;text-align:center;background:#fff;border:1px solid #d7e1e9;border-radius:8px;padding:6px}
+ img{width:96px;display:block} figcaption{font-size:.65rem;color:#4a5d70}
+</style></head><body>
+<h1>Character sheet — verificación</h1>
+<div id="out"></div>
+<script>
+const KIDS={starters:['freya','nico','astrid','tomas'],movers:['erik','valentina','sofia','mateo'],flyers:['ingrid','diego','maya','oliver']};
+const MASCOTS={starters:'pip',movers:'luna',flyers:'kili'};
+const POSES=['waving','pointing','talking','thinking','surprised','sitting','running','holding','back','celebrating'];
+const MPOSES=['waving','pointing','talking','thinking','surprised','sleeping'];
+let h='';
+for(const [lvl,names] of Object.entries(KIDS)){
+  for(const n of names){
+    h+=`<h2>${lvl} · ${n}</h2><div class="row">`;
+    POSES.forEach((p,i)=>{h+=`<figure><img src="assets/characters/${lvl}/${n}/pose-${String(i+1).padStart(2,'0')}.svg"><figcaption>${String(i+1).padStart(2,'0')} ${p}</figcaption></figure>`});
+    h+='</div>';
+  }
+  const m=MASCOTS[lvl];
+  h+=`<h2>${lvl} · ${m} (mascota)</h2><div class="row">`;
+  MPOSES.forEach((p,i)=>{h+=`<figure><img src="assets/characters/${lvl}/${m}/pose-${String(i+1).padStart(2,'0')}.svg"><figcaption>${String(i+1).padStart(2,'0')} ${p}</figcaption></figure>`});
+  h+='</div>';
+}
+document.getElementById('out').innerHTML=h;
+</script></body></html>

@@ -1,0 +1,53 @@
+{
+  "id": "movers-05", "level": "movers", "number": 5,
+  "title": "Clothes for the week", "topic": "clothes",
+  "grammar": "present simple + wearing",
+  "wordlist": ["jacket", "jumper", "scarf", "boots", "trousers", "skirt", "shirt", "cap", "gloves", "socks"],
+  "exam_focus": { "paper": "Reading & Writing", "part": 1, "skill": "definitions" },
+  "characters": ["sofia", "erik"],
+  "scene": { "speaker": "sofia", "pose": { "sofia": 2, "erik": 1 },
+    "bubble": "A traveller packs smart: one jacket, two jumpers, and boots for every adventure!" },
+  "activities": [
+    { "code": "A", "type": "crossword", "title": "Read the sentences and write the clothes words.",
+      "outputs": ["book", "digital"],
+      "data": { "words": [
+        { "word": "JACKET", "clue": "You wear it outside when it is cool." },
+        { "word": "JUMPER", "clue": "A warm top for cold days." },
+        { "word": "BOOTS", "clue": "Strong shoes for rain and mountains." },
+        { "word": "SCARF", "clue": "You wear it round your neck." },
+        { "word": "SKIRT", "clue": "Some girls wear this instead of trousers." },
+        { "word": "CAP", "clue": "A hat for sunny days, often with a team name." } ] } },
+    { "code": "B", "type": "match_words", "title": "Match the clothes with the body part.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Clothes", "right_label": "Where you wear it",
+        "pairs": [
+          { "left": "a cap", "right": "on your head" },
+          { "left": "a scarf", "right": "round your neck" },
+          { "left": "gloves", "right": "on your hands" },
+          { "left": "socks", "right": "on your feet" },
+          { "left": "a jumper", "right": "over your shirt" },
+          { "left": "trousers", "right": "on your legs" } ] } },
+    { "code": "C", "type": "listening", "title": "Listen. What is everyone wearing today? Write a word in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "movers/u05-c.mp3",
+      "data": { "voice_note": "Voces: Sofía (describiendo) y Erik (apuntando).",
+        "script": "Sofia: Look at the Club today, Erik! … Sofia: Valentina is wearing her purple jumper and a grey skirt. … Sofia: Mateo has got his green jacket — and two different socks, as always! … Erik: Ha! And you? … Sofia: My new boots! Brown, for walking in the hills. … Sofia: You are wearing your orange cap backwards again. … Erik: It helps me think! … Sofia: And Luna is wearing her red winter scarf. The most elegant dog in town!",
+        "questions": [
+          { "q": "Valentina is wearing a purple … and a grey skirt.", "answer": "jumper" },
+          { "q": "Mateo has got his green …", "answer": "jacket" },
+          { "q": "Sofía's new boots are …", "answer": "brown" },
+          { "q": "Erik wears his orange cap …", "answer": "backwards" },
+          { "q": "Luna is wearing her red winter …", "answer": "scarf" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "On cold days I wear a warm …", "options": ["jumper", "cap", "skirt"], "answer": 0 },
+          { "sentence": "You wear ___ on your hands in winter.", "options": ["socks", "gloves", "boots"], "answer": 1 },
+          { "sentence": "He is ___ a blue shirt today.", "options": ["wearing", "wear", "wears"], "answer": 0 },
+          { "sentence": "For the rain, put on your …", "options": ["boots", "cap", "skirt"], "answer": 0 },
+          { "sentence": "A ___ keeps your neck warm.", "options": ["scarf", "sock", "shirt"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Describe a classmate's clothes without saying the name: \"This person is wearing a red jumper…\" Your partner guesses who. Two people each." } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Draw yourself in your favourite clothes and write 4 sentences: I am wearing…" } ]
+}

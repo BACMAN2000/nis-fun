@@ -1,0 +1,53 @@
+{
+  "id": "flyers-41", "level": "flyers", "number": 41,
+  "title": "Our town: old and new", "topic": "comparatives",
+  "grammar": "comparativos + than (repaso profundo)",
+  "wordlist": ["modern", "ancient", "noisy", "peaceful", "crowded", "empty", "narrow", "wide", "square", "market"],
+  "exam_focus": { "paper": "Reading & Writing", "part": 6, "skill": "gapped sentences" },
+  "characters": ["diego", "maya"],
+  "scene": { "speaker": "diego", "pose": { "diego": 3, "maya": 2 },
+    "bubble": "Special report: our town, 50 years ago and today! Grandpa says the main square was much quieter… and had more pigeons." },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the opposites.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Word", "right_label": "Opposite",
+        "pairs": [
+          { "left": "modern", "right": "ancient" },
+          { "left": "noisy", "right": "peaceful" },
+          { "left": "crowded", "right": "empty" },
+          { "left": "narrow", "right": "wide" },
+          { "left": "clean", "right": "dirty" },
+          { "left": "fast", "right": "slow" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Choose the correct comparative.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Complete each sentence.",
+        "items": [
+          { "sentence": "The new streets are ___ than the old ones.", "options": ["wider", "more wide", "widest"], "answer": 0 },
+          { "sentence": "The town centre is ___ than before — so many cars!", "options": ["noisier", "noisyer", "more noisy"], "answer": 0 },
+          { "sentence": "The old market was ___ than the new supermarket.", "options": ["more friendly", "friendlier", "friendliest"], "answer": 1 },
+          { "sentence": "Life in the countryside is ___ peaceful than in the city.", "options": ["more", "most", "much"], "answer": 0 },
+          { "sentence": "The library is much ___ than the sports centre.", "options": ["quieter", "quiet", "quietest"], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to Grandpa's memories. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "flyers/u41-c.mp3",
+      "data": { "voice_note": "Voces: Diego (entrevistando) y el Abuelo (voz mayor, cálida).",
+        "script": "Diego: Grandpa, what was the town like fifty years ago? … Grandpa: Much smaller, Diego! The main street was narrow, with stone houses. … Grandpa: There were only two cars in the whole town. Two! … Diego: And the square? … Grandpa: More peaceful than today. We played football there every evening. … Grandpa: The market was the heart of everything. My mother sold cheese there. … Diego: Is anything better now? … Grandpa: Oh yes! The hospital is much better. And the library is bigger. … Grandpa: But the ice cream… the ice cream was definitely better before!",
+        "questions": [
+          { "q": "The main street was narrow, with … houses.", "answer": "stone" },
+          { "q": "There were only … cars in the whole town.", "answer": "two" },
+          { "q": "They played … in the square every evening.", "answer": "football" },
+          { "q": "Grandpa's mother sold … at the market.", "answer": "cheese" },
+          { "q": "Grandpa says the … was better before.", "answer": "ice cream" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "A very old building is …", "options": ["ancient", "modern", "narrow"], "answer": 0 },
+          { "sentence": "When a bus is full of people, it is …", "options": ["empty", "crowded", "peaceful"], "answer": 1 },
+          { "sentence": "The open place in the town centre is the …", "options": ["square", "shelf", "screen"], "answer": 0 },
+          { "sentence": "You can buy fruit and cheese at the …", "options": ["market", "pole", "platform"], "answer": 0 },
+          { "sentence": "The night here is ___ than in the city — no cars, no music.", "options": ["more peaceful", "peacefuler", "most peaceful"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Compare your neighbourhood with the school area: 4 sentences with comparatives (noisier, cleaner, more crowded…). Do you agree with each other?" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Ask an older person how the neighbourhood was before. Write 4 comparative sentences: The streets were narrower…" } ]
+}

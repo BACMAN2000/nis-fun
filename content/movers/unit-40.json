@@ -1,0 +1,53 @@
+{
+  "id": "movers-40", "level": "movers", "number": 40,
+  "title": "My favourite animal", "topic": "can + descriptions",
+  "grammar": "can / can't + descripciones",
+  "wordlist": ["parrot", "rabbit", "penguin", "dolphin", "kangaroo", "clever", "wing", "tail", "hop", "favourite"],
+  "exam_focus": { "paper": "Listening", "part": 1, "skill": "identify animals" },
+  "characters": ["sofia", "mateo"],
+  "scene": { "speaker": "sofia", "pose": { "sofia": 1, "mateo": 3 },
+    "bubble": "Show and tell: my favourite animal! Mine can jump three metres. Mateo's can sleep twenty hours. Guess them!" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the animal with what it can do.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Animal", "right_label": "It can…",
+        "pairs": [
+          { "left": "a parrot", "right": "say hello and whistle" },
+          { "left": "a rabbit", "right": "hop very fast" },
+          { "left": "a penguin", "right": "swim like a torpedo" },
+          { "left": "a dolphin", "right": "jump high out of the sea" },
+          { "left": "a kangaroo", "right": "carry a baby in its pocket" },
+          { "left": "a dog like Luna", "right": "find biscuits anywhere" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Choose can or can't.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Complete each sentence.",
+        "items": [
+          { "sentence": "A penguin ___ swim, but it ___ fly.", "options": ["can / can't", "can't / can", "can / can"], "answer": 0 },
+          { "sentence": "Parrots ___ repeat words!", "options": ["can", "can't", "aren't"], "answer": 0 },
+          { "sentence": "A rabbit ___ hop very fast.", "options": ["can", "can't", "isn't"], "answer": 0 },
+          { "sentence": "Fish ___ walk on land.", "options": ["can't", "can", "don't can"], "answer": 0 },
+          { "sentence": "___ dolphins sing? — Yes, in their way!", "options": ["Can", "Do can", "Are"], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to show and tell. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "movers/u40-c.mp3",
+      "data": { "voice_note": "Voces: Sofía (presentando) y Mateo (su turno).",
+        "script": "Sofia: My favourite animal is the kangaroo. It can jump three metres in one hop! … Sofia: And the baby travels in the mother's pocket. First class ticket! … Mateo: Mine is the cat. It can sleep twenty hours a day. My hero! … Sofia: Erik chose the parrot. His uncle's parrot can say fourteen words. … Mateo: Including PIZZA. It's a very smart parrot. … Sofia: And Valentina loves the dolphin, because it can jump and it always smiles. … Mateo: Best show and tell ever. Next week: favourite dinosaurs!",
+        "questions": [
+          { "q": "A kangaroo can jump three … in one hop.", "answer": "metres" },
+          { "q": "The cat can sleep … hours a day.", "answer": "twenty" },
+          { "q": "The parrot can say … words.", "answer": "fourteen" },
+          { "q": "One of the parrot's words is …", "answer": "PIZZA" },
+          { "q": "Next week: favourite …", "answer": "dinosaurs" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "Birds fly with their …", "options": ["wings", "tails", "ears"], "answer": 0 },
+          { "sentence": "A rabbit doesn't walk, it …", "options": ["hops", "swims", "sings"], "answer": 0 },
+          { "sentence": "A very intelligent animal is …", "options": ["clever", "curly", "cloudy"], "answer": 0 },
+          { "sentence": "The animal you love most is your ___ animal.", "options": ["favourite", "fastest", "funniest"], "answer": 0 },
+          { "sentence": "Dogs are happy when they move their …", "options": ["tail", "teeth", "toes"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Present your favourite animal in 4 sentences: what it is, what it can do, what it can't do, why you love it. Your partner asks one question." } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Write about your favourite animal: 5 sentences, at least two with can and one with can't." } ]
+}

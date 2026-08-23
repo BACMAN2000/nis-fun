@@ -1,0 +1,53 @@
+{
+  "id": "movers-42", "level": "movers", "number": 42,
+  "title": "Under the sea", "topic": "sea animals",
+  "grammar": "presente + descripciones",
+  "wordlist": ["sea", "wave", "shell", "crab", "octopus", "starfish", "jellyfish", "shark", "swim", "deep"],
+  "exam_focus": { "paper": "Reading & Writing", "part": 1, "skill": "definitions" },
+  "characters": ["valentina", "mateo"],
+  "scene": { "speaker": "valentina", "pose": { "valentina": 3, "mateo": 5 },
+    "bubble": "Story time: the octopus who wanted to hug everyone! Eight arms, eight hugs at the same time." },
+  "activities": [
+    { "code": "A", "type": "crossword", "title": "Read the sentences and write the sea words.",
+      "outputs": ["book", "digital"],
+      "data": { "words": [
+        { "word": "OCTOPUS", "clue": "It has eight arms!" },
+        { "word": "CRAB", "clue": "It walks sideways on the beach." },
+        { "word": "STARFISH", "clue": "A sea animal with the shape of a star." },
+        { "word": "SHELL", "clue": "You find it on the sand. Put it to your ear!" },
+        { "word": "SHARK", "clue": "A big fish with many sharp teeth." },
+        { "word": "WAVE", "clue": "The sea moves up and down in these." } ] } },
+    { "code": "B", "type": "match_words", "title": "Match the sea animal with its special thing.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Animal", "right_label": "Special thing",
+        "pairs": [
+          { "left": "the octopus", "right": "has eight arms" },
+          { "left": "the crab", "right": "walks sideways" },
+          { "left": "the starfish", "right": "looks like a star" },
+          { "left": "the jellyfish", "right": "is soft like jelly — don't touch!" },
+          { "left": "the shark", "right": "never stops swimming" },
+          { "left": "the dolphin", "right": "talks with clicks and whistles" } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to the octopus story. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "movers/u42-c.mp3",
+      "data": { "voice_note": "Voces: Valentina (cuentacuentos) y Mateo (efectos de sonido marinos).",
+        "script": "Valentina: Once upon a time, deep under the sea, lived Otto the octopus. … Valentina: Otto had eight arms and one big dream: to hug every animal in the ocean. … Valentina: He hugged the crab — carefully, because of the claws. … Valentina: He hugged five starfish at the same time! … Valentina: But the jellyfish said: better a smile than a hug, dear Otto. … Valentina: And the shark? Otto waved at him… from far away. … Valentina: At the end, all the animals made a circle and hugged Otto together. … Mateo: Eight arms were not enough for so much love!",
+        "questions": [
+          { "q": "The octopus is called …", "answer": "Otto" },
+          { "q": "He hugged the crab carefully because of the …", "answer": "claws" },
+          { "q": "He hugged … starfish at the same time.", "answer": "five" },
+          { "q": "The … preferred a smile.", "answer": "jellyfish" },
+          { "q": "Otto waved at the shark from … away.", "answer": "far" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "An octopus has ___ arms.", "options": ["eight", "six", "ten"], "answer": 0 },
+          { "sentence": "You hear the sea inside a …", "options": ["shell", "wave", "rock"], "answer": 0 },
+          { "sentence": "The bottom of the ocean is very …", "options": ["deep", "dry", "sunny"], "answer": 0 },
+          { "sentence": "Fish ___ all day long.", "options": ["swim", "run", "fly"], "answer": 0 },
+          { "sentence": "The ___ moves the boats up and down.", "options": ["wave", "star", "shell"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Invent a sea character together (name, animal, dream) and tell its 30-second story to another pair. Sound effects welcome!" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Draw the sea with 5 animals and write one sentence about each." } ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "movers-20", "level": "movers", "number": 20,
+  "title": "Around the town", "topic": "places",
+  "grammar": "Where…? + lugares",
+  "wordlist": ["library", "swimming pool", "cinema", "shop", "supermarket", "hospital", "school", "café", "playground", "bank"],
+  "exam_focus": { "paper": "Reading & Writing", "part": 1, "skill": "definitions" },
+  "characters": ["mateo", "sofia"],
+  "scene": { "speaker": "mateo", "pose": { "mateo": 2, "sofia": 1 },
+    "bubble": "Town tour for my cousin! First the playground, then the café… and the library, because Valentina says so." },
+  "activities": [
+    { "code": "A", "type": "crossword", "title": "Read the sentences and write the places.",
+      "outputs": ["book", "digital"],
+      "data": { "words": [
+        { "word": "LIBRARY", "clue": "A quiet place full of books." },
+        { "word": "CINEMA", "clue": "You watch films on a big screen here." },
+        { "word": "HOSPITAL", "clue": "Doctors and nurses work here." },
+        { "word": "SUPERMARKET", "clue": "A big shop where you buy food." },
+        { "word": "PLAYGROUND", "clue": "Children play here after school." },
+        { "word": "CAFE", "clue": "You drink hot chocolate and eat cake here." } ] } },
+    { "code": "B", "type": "match_words", "title": "Match the place with what you do there.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Place", "right_label": "What you do",
+        "pairs": [
+          { "left": "the swimming pool", "right": "swim and jump in the water" },
+          { "left": "the library", "right": "read and borrow books" },
+          { "left": "the cinema", "right": "watch a film with popcorn" },
+          { "left": "the supermarket", "right": "buy food for the week" },
+          { "left": "the playground", "right": "play on the slide and swings" },
+          { "left": "the café", "right": "drink hot chocolate" } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to the town tour. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "movers/u20-c.mp3",
+      "data": { "voice_note": "Voces: Mateo (guía turístico) y Sofía (apoyo).",
+        "script": "Mateo: Town tour! First stop: the playground. The new slide is red and very fast! … Sofia: Then the café on the square. Their hot chocolate has little clouds of cream. … Mateo: Next, the library. Shhh! Valentina lives here… well, almost. … Sofia: The swimming pool opens at nine. The small pool is warm for beginners. … Mateo: And the cinema! On Saturdays the first film starts at ten. … Sofia: Last stop: the ice cream shop next to the bank. … Mateo: Every good tour ends with two scoops of chocolate!",
+        "questions": [
+          { "q": "The new slide is … and very fast.", "answer": "red" },
+          { "q": "The hot chocolate has little clouds of …", "answer": "cream" },
+          { "q": "The swimming pool opens at …", "answer": "nine" },
+          { "q": "On Saturdays the first film starts at …", "answer": "ten" },
+          { "q": "The ice cream shop is next to the …", "answer": "bank" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "You borrow books from the …", "options": ["library", "cinema", "bank"], "answer": 0 },
+          { "sentence": "Ill people go to the …", "options": ["hospital", "playground", "café"], "answer": 0 },
+          { "sentence": "\"___ is the pool?\" — \"Next to the park.\"", "options": ["Where", "When", "Who"], "answer": 0 },
+          { "sentence": "You watch films at the …", "options": ["cinema", "supermarket", "school"], "answer": 0 },
+          { "sentence": "Children play on the swings at the …", "options": ["playground", "hospital", "bank"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Design the perfect town: each of you adds 4 places and says why. Draw a simple map together and present it: \"There is a cinema next to…\"" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Write about 4 real places in your neighbourhood: name, where it is, what you do there." } ]
+}

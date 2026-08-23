@@ -1,0 +1,53 @@
+{
+  "id": "flyers-43", "level": "flyers", "number": 43,
+  "title": "Places to stay", "topic": "holidays",
+  "grammar": "going to + planes",
+  "wordlist": ["hotel", "tent", "caravan", "lighthouse", "farm", "suitcase", "book a room", "guest", "view", "stay"],
+  "exam_focus": { "paper": "Reading & Writing", "part": 1, "skill": "definitions" },
+  "characters": ["ingrid", "maya"],
+  "scene": { "speaker": "ingrid", "pose": { "ingrid": 2, "maya": 1 },
+    "bubble": "Summer plans! We're going to stay ONE night in each place: a farm, a caravan… and a real lighthouse!" },
+  "activities": [
+    { "code": "A", "type": "crossword", "title": "Read the sentences and write the places to stay.",
+      "outputs": ["book", "digital"],
+      "data": { "words": [
+        { "word": "HOTEL", "clue": "A building with many rooms for guests." },
+        { "word": "TENT", "clue": "You sleep in it when you go camping." },
+        { "word": "CARAVAN", "clue": "A little house on wheels that a car pulls." },
+        { "word": "LIGHTHOUSE", "clue": "A tall tower with a big light that helps ships at night." },
+        { "word": "FARM", "clue": "A place in the countryside with animals and fields." },
+        { "word": "GUEST", "clue": "A person who stays in a hotel." } ] } },
+    { "code": "B", "type": "match_words", "title": "Match the place with its best detail.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Place", "right_label": "Best detail",
+        "pairs": [
+          { "left": "the hotel", "right": "breakfast in bed" },
+          { "left": "the tent", "right": "the sound of rain on the roof" },
+          { "left": "the caravan", "right": "a new view every morning" },
+          { "left": "the lighthouse", "right": "the sea on every side" },
+          { "left": "the farm", "right": "fresh eggs at seven o'clock" },
+          { "left": "grandma's house", "right": "the best cakes in the world" } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to the summer plan. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "flyers/u43-c.mp3",
+      "data": { "voice_note": "Voces: Ingrid (planificando) y Maya (con la lista).",
+        "script": "Ingrid: Summer adventure plan! Night one: the farm. We're going to help with the cows in the morning. … Maya: I'm going to take photos of the baby goats! … Ingrid: Night two: the caravan by the lake. Diego is going to cook sausages. … Maya: Night three is my favourite: the lighthouse! … Ingrid: Yes! The lighthouse keeper is Grandpa Sven's friend. We're going to sleep at the top, next to the great light. … Maya: And Kili is going to sleep outside, on the highest window. … Ingrid: Four friends, three nights, one great adventure. Pack your suitcases!",
+        "questions": [
+          { "q": "On the farm they are going to help with the …", "answer": "cows" },
+          { "q": "Maya will photograph the baby …", "answer": "goats" },
+          { "q": "In the caravan, Diego is going to cook …", "answer": "sausages" },
+          { "q": "The lighthouse keeper is Grandpa Sven's …", "answer": "friend" },
+          { "q": "Kili is going to sleep on the highest …", "answer": "window" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "Before a trip, you pack your …", "options": ["suitcase", "shelf", "curtain"], "answer": 0 },
+          { "sentence": "To reserve a hotel room is to ___ it.", "options": ["book", "read", "sign"], "answer": 0 },
+          { "sentence": "We ___ going to stay two nights.", "options": ["is", "are", "am"], "answer": 1 },
+          { "sentence": "From our room there is a beautiful ___ of the sea.", "options": ["view", "voice", "visit"], "answer": 0 },
+          { "sentence": "A house on wheels is a …", "options": ["caravan", "lighthouse", "basement"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Hotel role play: Student A is the receptionist, Student B books a room (how many nights, what view, breakfast?). Use \"I'd like to…\" and \"We're going to…\". Then swap." } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Plan a 3-night trip: where are you going to stay each night and why? 5 sentences with going to." } ]
+}

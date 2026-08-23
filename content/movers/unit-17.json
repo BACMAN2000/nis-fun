@@ -1,0 +1,53 @@
+{
+  "id": "movers-17", "level": "movers", "number": 17,
+  "title": "The picnic", "topic": "food & drink",
+  "grammar": "Would you like…? (ofrecer)",
+  "wordlist": ["sandwich", "juice", "water", "biscuits", "apple", "banana", "cake", "bottle", "blanket", "hungry"],
+  "exam_focus": { "paper": "Listening", "part": 1, "skill": "identify objects" },
+  "characters": ["mateo", "valentina"],
+  "scene": { "speaker": "mateo", "pose": { "mateo": 8, "valentina": 1 },
+    "bubble": "Picnic day! I'm carrying the biscuits… well, most of the biscuits. Some fell into my mouth." },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the picnic thing with its use.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Thing", "right_label": "Use",
+        "pairs": [
+          { "left": "the blanket", "right": "you sit on it" },
+          { "left": "the bottle", "right": "it keeps the juice inside" },
+          { "left": "the sandwiches", "right": "the main food, in a box" },
+          { "left": "the biscuits", "right": "sweet, round and crunchy" },
+          { "left": "the apples", "right": "healthy and easy to carry" },
+          { "left": "the cake", "right": "the big sweet surprise at the end" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Choose the polite words.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Complete each offer or answer.",
+        "items": [
+          { "sentence": "___ you like a sandwich?", "options": ["Would", "Do", "Are"], "answer": 0 },
+          { "sentence": "\"Would you like some juice?\" — \"Yes, ___.\"", "options": ["please", "here", "juice"], "answer": 0 },
+          { "sentence": "\"More cake?\" — \"No, ___ you. I'm full!\"", "options": ["thank", "please", "sorry"], "answer": 0 },
+          { "sentence": "I'm ___ — when do we eat?", "options": ["hungry", "angry", "heavy"], "answer": 0 },
+          { "sentence": "Can you ___ the biscuits, please?", "options": ["pass", "kick", "wash"], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen at the picnic. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "movers/u17-c.mp3",
+      "data": { "voice_note": "Voces: Valentina (repartiendo) y Mateo (con hambre).",
+        "script": "Valentina: Picnic time! The blanket goes under the big tree. … Mateo: I'm so hungry! What have we got? … Valentina: Ten sandwiches: cheese, chicken and one special with banana. … Mateo: Banana sandwich? That one is mine! … Valentina: Would you like apple juice or water? … Mateo: Juice, please. In the blue cup! … Valentina: And for dessert, grandma's lemon cake. … Mateo: Wait… where are the biscuits? … Valentina: Mateo! There are only three left! … Mateo: The bag was open! It was an accident!",
+        "questions": [
+          { "q": "The blanket goes under the big …", "answer": "tree" },
+          { "q": "There are … sandwiches.", "answer": "ten" },
+          { "q": "The special sandwich is with …", "answer": "banana" },
+          { "q": "Mateo wants juice in the … cup.", "answer": "blue" },
+          { "q": "There are only … biscuits left!", "answer": "three" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "Juice comes in a …", "options": ["bottle", "blanket", "basket"], "answer": 0 },
+          { "sentence": "A yellow fruit that monkeys love is a …", "options": ["banana", "biscuit", "bottle"], "answer": 0 },
+          { "sentence": "When you need food, you are …", "options": ["hungry", "sleepy", "noisy"], "answer": 0 },
+          { "sentence": "Bread with cheese inside is a …", "options": ["sandwich", "salad", "soup"], "answer": 0 },
+          { "sentence": "\"Would you like some water?\" — \"Yes, ___.\"", "options": ["please", "goodbye", "sorry"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Picnic offers: Student A offers 4 foods (Would you like…?), Student B accepts or refuses politely. Then swap. Extra point for the most British \"No, thank you\"!" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Plan a picnic for 4 people: write the food list (6 things) and 2 offers with Would you like…?" } ]
+}

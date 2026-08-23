@@ -1,0 +1,53 @@
+{
+  "id": "flyers-40", "level": "flyers", "number": 40,
+  "title": "The best day ever", "topic": "superlatives",
+  "grammar": "superlativos: the best, the biggest, the most…",
+  "wordlist": ["best", "worst", "biggest", "smallest", "funniest", "most beautiful", "most exciting", "ever", "moment", "memory"],
+  "exam_focus": { "paper": "Listening", "part": 4, "skill": "multiple choice" },
+  "characters": ["oliver", "ingrid"],
+  "scene": { "speaker": "oliver", "pose": { "oliver": 10, "ingrid": 1 },
+    "bubble": "Question of the week: what was the best day of your life? Mine had a stage, a storm and 500 people singing!" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the adjective with its superlative.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Adjective", "right_label": "Superlative",
+        "pairs": [
+          { "left": "good", "right": "the best" },
+          { "left": "bad", "right": "the worst" },
+          { "left": "big", "right": "the biggest" },
+          { "left": "funny", "right": "the funniest" },
+          { "left": "beautiful", "right": "the most beautiful" },
+          { "left": "exciting", "right": "the most exciting" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Choose the correct superlative.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Complete each sentence.",
+        "items": [
+          { "sentence": "That was the ___ film I have ever seen!", "options": ["better", "best", "good"], "answer": 1 },
+          { "sentence": "The blue whale is the ___ animal in the world.", "options": ["bigger", "biggest", "most big"], "answer": 1 },
+          { "sentence": "This is the ___ interesting museum in the city.", "options": ["most", "more", "much"], "answer": 0 },
+          { "sentence": "Monday was the ___ day of my week — everything went wrong!", "options": ["worst", "worse", "bad"], "answer": 0 },
+          { "sentence": "Kili is the ___ postman ever!", "options": ["funnier", "funniest", "most funny"], "answer": 1 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to Oliver's best day. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "flyers/u40-c.mp3",
+      "data": { "voice_note": "Voces: Oliver (contando) e Ingrid (preguntando).",
+        "script": "Ingrid: So Oliver, tell us about the best day ever! … Oliver: The summer festival, last year. Our band played on the big stage! … Ingrid: How many people were there? … Oliver: Five hundred! The biggest audience of my life. … Ingrid: But wasn't there a storm? … Oliver: Yes! In the middle of our song the rain started. And you know what? Nobody left! … Oliver: Everybody sang under their umbrellas. It was the most beautiful sound I've ever heard. … Ingrid: And the worst moment? … Oliver: When my guitar string broke… but Maya fixed it in two minutes. Best team ever!",
+        "questions": [
+          { "q": "The band played at the summer …", "answer": "festival" },
+          { "q": "There were five hundred …", "answer": "people" },
+          { "q": "In the middle of the song the … started.", "answer": "rain" },
+          { "q": "Everybody sang under their …", "answer": "umbrellas" },
+          { "q": "Maya fixed the guitar string in two …", "answer": "minutes" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "A special time you always remember is a …", "options": ["memory", "chore", "channel"], "answer": 0 },
+          { "sentence": "\"This is the best pizza ___!\"", "options": ["ever", "never", "yet"], "answer": 0 },
+          { "sentence": "The mouse is one of the ___ animals on the farm.", "options": ["smallest", "smaller", "most small"], "answer": 0 },
+          { "sentence": "The ___ exciting part of the film was the end.", "options": ["most", "more", "very"], "answer": 0 },
+          { "sentence": "My ___ subject is maths — I always get low marks!", "options": ["worst", "best", "biggest"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Tell your partner about your best day ever: where, who with, the best moment and one small problem. Your partner asks 2 questions. Then swap." } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Write about the best day of your life: 5 sentences with at least 3 superlatives (the best, the funniest, the most…)." } ]
+}

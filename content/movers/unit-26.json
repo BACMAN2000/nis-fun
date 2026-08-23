@@ -1,0 +1,53 @@
+{
+  "id": "movers-26", "level": "movers", "number": 26,
+  "title": "At the doctor's", "topic": "health",
+  "grammar": "should / shouldn't (introducción)",
+  "wordlist": ["doctor", "nurse", "dentist", "tooth", "medicine", "open your mouth", "strong", "healthy", "fruit", "sleep"],
+  "exam_focus": { "paper": "Reading & Writing", "part": 3, "skill": "conversation" },
+  "characters": ["erik", "mateo"],
+  "scene": { "speaker": "erik", "pose": { "erik": 4, "mateo": 5 },
+    "bubble": "Mateo's dentist day! Don't worry — Doctor Ana counts your teeth and gives you a sticker. Science says: painless!" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the health helper with their work.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Person", "right_label": "Work",
+        "pairs": [
+          { "left": "the doctor", "right": "checks you when you are ill" },
+          { "left": "the dentist", "right": "looks after your teeth" },
+          { "left": "the nurse", "right": "helps and gives medicine" },
+          { "left": "fruit and vegetables", "right": "keep you strong and healthy" },
+          { "left": "ten hours of sleep", "right": "give you energy for school" },
+          { "left": "washing your hands", "right": "keeps the germs away" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Choose should or shouldn't.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Complete each sentence.",
+        "items": [
+          { "sentence": "You ___ brush your teeth twice a day.", "options": ["should", "shouldn't", "aren't"], "answer": 0 },
+          { "sentence": "You ___ eat sweets before bed.", "options": ["should", "shouldn't", "don't"], "answer": 1 },
+          { "sentence": "Children ___ sleep ten hours.", "options": ["should", "shouldn't", "can't"], "answer": 0 },
+          { "sentence": "You ___ watch TV all afternoon.", "options": ["should", "shouldn't", "must to"], "answer": 1 },
+          { "sentence": "You ___ drink lots of water every day.", "options": ["should", "shouldn't", "won't"], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen at the dentist's. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "movers/u26-c.mp3",
+      "data": { "voice_note": "Voces: Mateo (valiente) y la dentista Ana (voz adulta amable).",
+        "script": "Mateo: Hello, Doctor Ana. I'm a little nervous. … Mateo: She says: open your mouth, please. One, two, three… she's counting my teeth! … Mateo: Twenty-four teeth, all strong! … Mateo: She says I should brush for two minutes, morning and night. … Mateo: And I shouldn't eat sweets every day. Only on Saturdays! … Mateo: The best part: the sticker box. I choose the dinosaur sticker. … Mateo: See you in six months, Doctor Ana!",
+        "questions": [
+          { "q": "Doctor Ana counts … teeth.", "answer": "twenty-four" },
+          { "q": "Mateo should brush for two …", "answer": "minutes" },
+          { "q": "He can eat sweets only on …", "answer": "Saturdays" },
+          { "q": "He chooses the … sticker.", "answer": "dinosaur" },
+          { "q": "The next visit is in six …", "answer": "months" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "The ___ says: open your mouth, please.", "options": ["dentist", "driver", "waiter"], "answer": 0 },
+          { "sentence": "Eating fruit keeps you …", "options": ["healthy", "hungry", "heavy"], "answer": 0 },
+          { "sentence": "The doctor gives you ___ when you are ill.", "options": ["medicine", "stickers", "sweets"], "answer": 0 },
+          { "sentence": "Milk and cheese make your ___ strong.", "options": ["teeth", "hair", "socks"], "answer": 0 },
+          { "sentence": "A good night's ___ gives you energy.", "options": ["sleep", "soup", "song"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Health poster team: write 4 rules for a healthy life (2 should, 2 shouldn't) and draw one icon for each. Present it in 30 seconds." } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Write your healthy day: 5 sentences with should/shouldn't about food, sleep and sport." } ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "starters-30", "level": "starters", "number": 30,
+  "title": "The beach", "topic": "beach",
+  "grammar": "presente + playa",
+  "wordlist": ["beach", "sun", "sand", "sea", "shell", "ice cream", "hat", "castle", "hot", "swim"],
+  "exam_focus": { "paper": "Listening", "part": 4, "skill": "beach words" },
+  "characters": ["nico", "pip"],
+  "scene": { "speaker": "nico", "pose": { "nico": 10, "pip": 1 },
+    "bubble": "Beach day! Sun, sand, a giant castle… and Pip swimming like a champion!" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the beach thing with its use.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Thing", "right_label": "Use",
+        "pairs": [
+          { "left": "the sunhat", "right": "protects your head from the sun" },
+          { "left": "the sand", "right": "you build castles with it" },
+          { "left": "the bucket", "right": "you carry water in it" },
+          { "left": "the shells", "right": "you collect them" },
+          { "left": "the ice cream", "right": "you eat it before it melts!" },
+          { "left": "the sea", "right": "you swim and jump the waves" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Complete each sentence.",
+        "items": [
+          { "sentence": "At the beach the sun is very …", "options": ["hot", "cold", "green"], "answer": 0 },
+          { "sentence": "We build a sand …", "options": ["castle", "car", "chair"], "answer": 0 },
+          { "sentence": "I ___ in the sea with my dad.", "options": ["swim", "sleep", "write"], "answer": 0 },
+          { "sentence": "Put on your ___ — the sun is strong!", "options": ["hat", "boots", "gloves"], "answer": 0 },
+          { "sentence": "Ice cream ___ in the sun. Eat it fast!", "options": ["melts", "grows", "sings"], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen at the beach. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "starters/u30-c.mp3",
+      "data": { "voice_note": "Voces: Nico (arquitecto de castillos) y Freya (coleccionista).",
+        "script": "Nico: Beach day! Our castle has three towers! … Freya: I found six shells. One is pink! … Nico: The water is cold but so fun. Jump the waves! … Freya: Pip is swimming! He's faster than everyone. … Nico: Ice cream time! I want chocolate. … Freya: And me, strawberry. … Nico: Oh no, a big wave… goodbye, castle! … Freya: Tomorrow we build a bigger one!",
+        "questions": [
+          { "q": "The castle has … towers.", "answer": "three" },
+          { "q": "Freya found … shells.", "answer": "six" },
+          { "q": "One shell is …", "answer": "pink" },
+          { "q": "Nico wants … ice cream.", "answer": "chocolate" },
+          { "q": "A big … destroys the castle.", "answer": "wave" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "The beach has yellow …", "options": ["sand", "snow", "grass"], "answer": 0 },
+          { "sentence": "You find ___ on the sand.", "options": ["shells", "books", "shoes"], "answer": 0 },
+          { "sentence": "The ___ is big, blue and salty.", "options": ["sea", "pool", "glass"], "answer": 0 },
+          { "sentence": "On hot days we eat …", "options": ["ice cream", "hot soup", "toast"], "answer": 0 },
+          { "sentence": "The ___ shines in the sky.", "options": ["sun", "sand", "shell"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Pack the beach bag: take turns adding things (\"In my bag there is a hat… a hat and a bucket…\"). Remember the whole list — who forgets first?" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Draw a beach day and write 4 sentences about what you do there." } ]
+}

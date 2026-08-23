@@ -1,0 +1,53 @@
+{
+  "id": "flyers-26", "level": "flyers", "number": 26,
+  "title": "Have you ever met a famous person?", "topic": "present perfect: ever",
+  "grammar": "Have you ever…? + never",
+  "wordlist": ["ever", "never", "meet", "met", "fly", "flown", "swim", "swum", "climb", "famous"],
+  "exam_focus": { "paper": "Listening", "part": 4, "skill": "multiple choice" },
+  "characters": ["diego", "ingrid"],
+  "scene": { "speaker": "diego", "pose": { "diego": 3, "ingrid": 4 },
+    "bubble": "Today's big question for the whole school: have you ever met a famous person? You won't believe the answers!" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the verb with its past participle.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Verb", "right_label": "Past participle",
+        "pairs": [
+          { "left": "meet", "right": "met" },
+          { "left": "fly", "right": "flown" },
+          { "left": "swim", "right": "swum" },
+          { "left": "ride", "right": "ridden" },
+          { "left": "win", "right": "won" },
+          { "left": "climb", "right": "climbed" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Choose ever or never.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Complete each sentence.",
+        "items": [
+          { "sentence": "Have you ___ flown in a helicopter?", "options": ["ever", "never", "just"], "answer": 0 },
+          { "sentence": "I have ___ swum in the ocean — I'm afraid of waves!", "options": ["ever", "never", "yet"], "answer": 1 },
+          { "sentence": "She has ___ won a gold medal. She's amazing!", "options": ["never", "just", "ever"], "answer": 1 },
+          { "sentence": "___ you ever climbed a mountain?", "options": ["Do", "Have", "Are"], "answer": 1 },
+          { "sentence": "We have ___ been to Australia, but we want to go.", "options": ["ever", "already", "never"], "answer": 2 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to Diego's street interviews. Write a word in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "flyers/u26-c.mp3",
+      "data": { "voice_note": "Voces: Diego (reportero) e Ingrid (primera entrevistada).",
+        "script": "Diego: Ingrid! Have you ever met a famous person? … Ingrid: Yes! I met a famous swimmer at the pool. She signed my swimming cap! … Diego: Cool! Our cook says he has never met anyone famous… … Diego: …but he has cooked dinner for two hundred people at once! … Diego: The music teacher has flown in a hot air balloon over the mountains. … Diego: And the school cat? It has slept in every classroom of the school. Every single one! … Diego: Me? I've never met anyone famous… but after this report, maybe I'll BE famous!",
+        "questions": [
+          { "q": "The famous swimmer signed Ingrid's swimming …", "answer": "cap" },
+          { "q": "The cook has cooked dinner for two hundred … at once.", "answer": "people" },
+          { "q": "The music teacher has flown in a hot air …", "answer": "balloon" },
+          { "q": "The school cat has slept in every …", "answer": "classroom" },
+          { "q": "Diego thinks that maybe he will be …", "answer": "famous" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct form.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct form.",
+        "items": [
+          { "sentence": "Have you ever ___ a famous person?", "options": ["meet", "met", "meeting"], "answer": 1 },
+          { "sentence": "I have never ___ in a helicopter.", "options": ["flown", "flew", "fly"], "answer": 0 },
+          { "sentence": "She has ___ across the widest part of the lake.", "options": ["swim", "swam", "swum"], "answer": 2 },
+          { "sentence": "\"Have you ever won a prize?\" — \"Yes, I ___.\"", "options": ["did", "have", "won"], "answer": 1 },
+          { "sentence": "They have ___ ridden a camel. It was in Egypt.", "options": ["ever", "never", "already"], "answer": 2 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Find something your partner has done that you have never done. Ask: \"Have you ever…?\" (ridden a horse, flown in a plane, won a medal…). Report the most surprising answer." } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Write 3 true sentences with I have… and 2 with I have never… Choose interesting ones!" } ]
+}

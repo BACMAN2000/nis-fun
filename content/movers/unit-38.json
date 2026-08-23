@@ -1,0 +1,53 @@
+{
+  "id": "movers-38", "level": "movers", "number": 38,
+  "title": "Quiet, please!", "topic": "imperatives",
+  "grammar": "imperativos: Do… / Don't…",
+  "wordlist": ["listen", "look", "stop", "wait", "open", "close", "sit down", "stand up", "be careful", "don't"],
+  "exam_focus": { "paper": "Listening", "part": 4, "skill": "multiple choice" },
+  "characters": ["sofia", "erik"],
+  "scene": { "speaker": "sofia", "pose": { "sofia": 2, "erik": 5 },
+    "bubble": "Simon Says, club edition! Stand up, turn around, don't laugh… Erik always laughs." },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the instruction with the place you hear it.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Instruction", "right_label": "Place",
+        "pairs": [
+          { "left": "Quiet, please!", "right": "in the library" },
+          { "left": "Look both ways!", "right": "before crossing the street" },
+          { "left": "Sit down, please.", "right": "when the lesson starts" },
+          { "left": "Don't run!", "right": "next to the swimming pool" },
+          { "left": "Be careful!", "right": "when you carry glass" },
+          { "left": "Wait for the green light.", "right": "at the traffic lights" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Choose the correct imperative.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Complete each sentence.",
+        "items": [
+          { "sentence": "___ the window, please. It's cold!", "options": ["Close", "Closing", "Closed"], "answer": 0 },
+          { "sentence": "___ touch the wet paint!", "options": ["Don't", "Doesn't", "Not"], "answer": 0 },
+          { "sentence": "___ up, everyone! The teacher is here.", "options": ["Stand", "Standing", "Stands"], "answer": 0 },
+          { "sentence": "___ carefully — this is the important part.", "options": ["Listen", "Listening", "Listened"], "answer": 0 },
+          { "sentence": "___ be late for the show!", "options": ["Don't", "Doesn't", "No"], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to the Simon Says game. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "movers/u38-c.mp3",
+      "data": { "voice_note": "Voces: Sofía (Simon) y Erik (jugador que ríe).",
+        "script": "Sofia: Simon says: stand up! … Sofia: Simon says: touch your nose with your left hand. … Sofia: Now… jump three times! Ha! I didn't say Simon says. Erik is out! … Erik: Nooo! Okay, okay. I'm the judge now. … Sofia: Simon says: turn around slowly. … Sofia: Simon says: don't laugh… don't laugh… … Erik: Mateo is laughing! Out! … Sofia: And the winner is… Valentina! Serious face champion, five minutes without laughing!",
+        "questions": [
+          { "q": "Simon says: touch your nose with your … hand.", "answer": "left" },
+          { "q": "The trap was: jump … times.", "answer": "three" },
+          { "q": "… became the judge.", "answer": "Erik" },
+          { "q": "… laughed and was out.", "answer": "Mateo" },
+          { "q": "Valentina won: … minutes without laughing.", "answer": "five" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "The teacher says: \"___ your books at page ten.\"", "options": ["Open", "Opens", "Opening"], "answer": 0 },
+          { "sentence": "\"___!\" means: don't move, don't continue.", "options": ["Stop", "Start", "Sing"], "answer": 0 },
+          { "sentence": "Before you answer, ___ to the question.", "options": ["listen", "cook", "jump"], "answer": 0 },
+          { "sentence": "\"Be ___ with the scissors!\"", "options": ["careful", "curly", "cloudy"], "answer": 0 },
+          { "sentence": "\"___ here, please. The doctor will call you.\"", "options": ["Wait", "Waits", "Waiting"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Play Simon Says in pairs: 10 instructions each, at least 3 with Don't. The listener does only the Simon says ones!" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Write 6 rules for taking care of a pet, using imperatives: Feed it every day. Don't…" } ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "movers-23", "level": "movers", "number": 23,
+  "title": "My grandparents' village", "topic": "countryside",
+  "grammar": "There was / There were",
+  "wordlist": ["village", "field", "river", "bridge", "church", "path", "quiet", "star", "fresh", "visit"],
+  "exam_focus": { "paper": "Reading & Writing", "part": 2, "skill": "gapped text" },
+  "characters": ["valentina", "sofia"],
+  "scene": { "speaker": "valentina", "pose": { "valentina": 3, "sofia": 9 },
+    "bubble": "In my grandparents' village the bread smells like morning and the stars are SO close!" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the two halves about the village.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "In the village…", "right_label": "…detail",
+        "pairs": [
+          { "left": "the river", "right": "runs under the old bridge" },
+          { "left": "the fields", "right": "are full of corn in summer" },
+          { "left": "the church", "right": "has a bell that rings at midday" },
+          { "left": "the path", "right": "goes up the hill to the cross" },
+          { "left": "the bread", "right": "is fresh every morning" },
+          { "left": "the nights", "right": "are quiet and full of stars" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Choose There was or There were.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Complete each sentence about last summer.",
+        "items": [
+          { "sentence": "___ a big fiesta in the village square.", "options": ["There was", "There were", "There is"], "answer": 0 },
+          { "sentence": "___ three white horses in the field.", "options": ["There was", "There were", "There are"], "answer": 1 },
+          { "sentence": "___ music and dancing until late.", "options": ["There was", "There were", "There am"], "answer": 0 },
+          { "sentence": "___ hundreds of stars every night.", "options": ["There was", "There were", "There be"], "answer": 1 },
+          { "sentence": "___ a small shop next to the church.", "options": ["There was", "There were", "There have"], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to Valentina's village memories. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "movers/u23-c.mp3",
+      "data": { "voice_note": "Voces: Valentina (recordando) y Sofía (escuchando).",
+        "script": "Valentina: Every summer I visit my grandparents' village in the mountains. … Valentina: Grandpa wakes up at five to make bread. The whole house smells wonderful. … Sofia: What do you do all day? … Valentina: I help collect eggs — the hens know me now! … Valentina: In the afternoon we swim in the river, near the old bridge. … Sofia: And at night? … Valentina: Grandma tells stories on the balcony and we count the stars. … Valentina: Last summer I counted two hundred before I fell asleep!",
+        "questions": [
+          { "q": "The village is in the …", "answer": "mountains" },
+          { "q": "Grandpa wakes up at … to make bread.", "answer": "five" },
+          { "q": "Valentina helps collect …", "answer": "eggs" },
+          { "q": "They swim in the river near the old …", "answer": "bridge" },
+          { "q": "Last summer she counted two hundred …", "answer": "stars" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "A very small town in the countryside is a …", "options": ["village", "city", "playground"], "answer": 0 },
+          { "sentence": "You cross the river over the …", "options": ["bridge", "field", "path"], "answer": 0 },
+          { "sentence": "The opposite of noisy is …", "options": ["quiet", "fresh", "old"], "answer": 0 },
+          { "sentence": "Bread made this morning is …", "options": ["fresh", "cold", "curly"], "answer": 0 },
+          { "sentence": "To go and see somebody is to ___ them.", "options": ["visit", "count", "carry"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Tell your partner about a place you visit in holidays: who lives there, what there is, your favourite moment. They ask 2 questions. Then swap." } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Write about a visit to family: 5 sentences, two with There was / There were." } ]
+}

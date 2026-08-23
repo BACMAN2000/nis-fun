@@ -1,0 +1,52 @@
+{
+  "id": "starters-06", "level": "starters", "number": 6,
+  "title": "Colours everywhere", "topic": "colours",
+  "grammar": "What colour is…?",
+  "wordlist": ["red", "blue", "green", "yellow", "orange", "purple", "pink", "black", "white", "brown"],
+  "exam_focus": { "paper": "Listening", "part": 4, "skill": "colours" },
+  "characters": ["nico", "pip"],
+  "scene": { "speaker": "nico", "pose": { "nico": 1, "pip": 1 },
+    "bubble": "Colour hunt! Find something red, something blue… Pip found something black and white: himself!" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the thing with its colour.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Thing", "right_label": "Colour",
+        "pairs": [
+          { "left": "the sun", "right": "yellow" },
+          { "left": "the sky", "right": "blue" },
+          { "left": "the grass", "right": "green" },
+          { "left": "a strawberry", "right": "red" },
+          { "left": "a pig", "right": "pink" },
+          { "left": "chocolate", "right": "brown" } ] } },
+    { "code": "B", "type": "crossword", "title": "Write the colours.",
+      "outputs": ["book", "digital"],
+      "data": { "words": [
+        { "word": "RED", "clue": "The colour of an apple and a fire truck." },
+        { "word": "BLUE", "clue": "The colour of the sea and the sky." },
+        { "word": "GREEN", "clue": "The colour of the grass and frogs." },
+        { "word": "BLACK", "clue": "The colour of the night." },
+        { "word": "WHITE", "clue": "The colour of snow and milk." } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to the colour hunt. Write a colour in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "starters/u06-c.mp3",
+      "data": { "voice_note": "Voces: Nico (buscando) y Freya (encontrando).",
+        "script": "Nico: Colour hunt! Find something red. … Freya: Easy! Astrid's pen is red. … Nico: Something yellow? … Freya: The little duck in the picture. It's yellow! … Nico: Now something purple. Purple is hard… … Freya: My crayon! My crayon is purple. … Nico: Last one: black and white together. … Freya: PIP! Pip is black and white! … Nico: Winner: Freya! Prize: one orange sweet.",
+        "questions": [
+          { "q": "Astrid's pen is …", "answer": "red" },
+          { "q": "The little duck is …", "answer": "yellow" },
+          { "q": "Freya's crayon is …", "answer": "purple" },
+          { "q": "Pip is black and …", "answer": "white" },
+          { "q": "The prize is an … sweet.", "answer": "orange" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Choose the correct colour.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "Milk is …", "options": ["white", "black", "green"], "answer": 0 },
+          { "sentence": "A banana is …", "options": ["yellow", "blue", "purple"], "answer": 0 },
+          { "sentence": "The night sky is …", "options": ["black", "pink", "orange"], "answer": 0 },
+          { "sentence": "\"What ___ is the frog?\" — \"Green!\"", "options": ["colour", "name", "number"], "answer": 0 },
+          { "sentence": "Red and yellow make …", "options": ["orange", "blue", "black"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "I spy colours: \"I can see something blue…\" Your partner finds it in the classroom. Three colours each!" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Draw a rainbow and label the colours. Write: My favourite colour is…" } ]
+}

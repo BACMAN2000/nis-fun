@@ -1,0 +1,53 @@
+{
+  "id": "flyers-06", "level": "flyers", "number": 6,
+  "title": "What's the matter?", "topic": "health",
+  "grammar": "should / shouldn't",
+  "wordlist": ["headache", "toothache", "cold", "cough", "temperature", "medicine", "chemist's", "doctor", "hurt", "ill"],
+  "exam_focus": { "paper": "Listening", "part": 1, "skill": "identify people" },
+  "characters": ["oliver", "kili"],
+  "scene": { "speaker": "oliver", "pose": { "oliver": 4, "kili": 4 },
+    "bubble": "Atchoo! I've got a cold and the concert is on Friday… What should I do, Kili?" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the problem with the advice.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Problem", "right_label": "Advice",
+        "pairs": [
+          { "left": "a headache", "right": "you should rest in a quiet room" },
+          { "left": "a toothache", "right": "you should see the dentist" },
+          { "left": "a cold", "right": "you should drink hot lemon" },
+          { "left": "a temperature", "right": "you should stay in bed" },
+          { "left": "a cough", "right": "you shouldn't talk too much" },
+          { "left": "a hurt knee", "right": "you shouldn't play football today" } ] } },
+    { "code": "B", "type": "exam_task", "title": "What do you say? Choose the best answer.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the best response, like in the Speaking exam.",
+        "items": [
+          { "sentence": "\"What's the matter?\"", "options": ["I've got a headache.", "It's half past two.", "Yes, please."], "answer": 0 },
+          { "sentence": "\"How do you feel today?\"", "options": ["By bus.", "Much better, thanks.", "It's made of wood."], "answer": 1 },
+          { "sentence": "\"Should I go to school with a temperature?\"", "options": ["Yes, it's sunny.", "No, you should stay in bed.", "It's next to the bank."], "answer": 1 },
+          { "sentence": "\"Where can I buy this medicine?\"", "options": ["At the chemist's.", "Last Tuesday.", "With my aunt."], "answer": 0 },
+          { "sentence": "\"My tooth hurts!\"", "options": ["You should see the dentist.", "It's too loud.", "He's a pilot."], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen. Who is ill at school today? Write a word in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "flyers/u06-c.mp3",
+      "data": { "voice_note": "Voces: Oliver (resfriado) y Kili (enfermero improvisado).",
+        "script": "Oliver: Hello? Ingrid? I can't come to practice today. … Oliver: I've got a terrible cold and a cough. … Oliver: My mum took my temperature — it's thirty-eight degrees! … Oliver: The doctor says I should stay in bed for two days. … Oliver: Kili has just brought my medicine from the chemist's. Thanks, Kili! … Oliver: Don't worry — I'll be fine for the concert on Friday. I've already practised the new song a hundred times!",
+        "questions": [
+          { "q": "Oliver has got a cold and a …", "answer": "cough" },
+          { "q": "His temperature is thirty-eight …", "answer": "degrees" },
+          { "q": "He should stay in bed for two …", "answer": "days" },
+          { "q": "Kili brought the medicine from the …", "answer": "chemist's" },
+          { "q": "The concert is on …", "answer": "Friday" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "When your head hurts, you have a …", "options": ["cough", "headache", "cold"], "answer": 1 },
+          { "sentence": "You buy medicine at the …", "options": ["chemist's", "stadium", "funfair"], "answer": 0 },
+          { "sentence": "If you are very hot and ill, you have a …", "options": ["timetable", "temperature", "toothache"], "answer": 1 },
+          { "sentence": "You ___ eat lots of sweets before bed.", "options": ["should", "shouldn't", "have"], "answer": 1 },
+          { "sentence": "A person who helps you when you are ill is a …", "options": ["driver", "singer", "doctor"], "answer": 2 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Role play: Student A is the doctor, Student B is the patient with a funny illness (a dragon bit my elbow!). The doctor asks \"What's the matter?\" and gives advice with should/shouldn't. Then swap." } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Write a get-well card to Oliver: three sentences with should or shouldn't. Example: You should drink hot lemon." } ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "movers-34", "level": "movers", "number": 34,
+  "title": "The weather today", "topic": "weather & seasons",
+  "grammar": "It's + weather / seasons",
+  "wordlist": ["spring", "summer", "autumn", "winter", "cloud", "rainbow", "wind", "snow", "sunshine", "season"],
+  "exam_focus": { "paper": "Listening", "part": 5, "skill": "colour and write" },
+  "characters": ["valentina", "erik"],
+  "scene": { "speaker": "valentina", "pose": { "valentina": 1, "erik": 2 },
+    "bubble": "Four seasons, four adventures: flowers in spring, the lake in summer, leaves in autumn and snowmen in winter!" },
+  "activities": [
+    { "code": "A", "type": "crossword", "title": "Read the sentences and write the season and weather words.",
+      "outputs": ["book", "digital"],
+      "data": { "words": [
+        { "word": "SPRING", "clue": "The season when flowers open." },
+        { "word": "SUMMER", "clue": "The hottest season — holidays!" },
+        { "word": "WINTER", "clue": "The coldest season of the year." },
+        { "word": "RAINBOW", "clue": "Seven colours in the sky after rain." },
+        { "word": "CLOUD", "clue": "White or grey, it floats in the sky." },
+        { "word": "SNOW", "clue": "Cold and white — perfect for snowmen." } ] } },
+    { "code": "B", "type": "match_words", "title": "Match the season with its activity.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Season", "right_label": "Activity",
+        "pairs": [
+          { "left": "in spring", "right": "we plant flowers in the garden" },
+          { "left": "in summer", "right": "we swim in the lake" },
+          { "left": "in autumn", "right": "we jump on the dry leaves" },
+          { "left": "in winter", "right": "we make snowmen" },
+          { "left": "after the rain", "right": "we look for the rainbow" },
+          { "left": "on windy days", "right": "we fly our kites" } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to the seasons game. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "movers/u34-c.mp3",
+      "data": { "voice_note": "Voces: Valentina (preguntas) y Erik (respuestas).",
+        "script": "Valentina: Seasons quiz, Erik! My favourite season has orange leaves. … Erik: Autumn! Mine has snow and hot chocolate. … Valentina: Winter! Question two: when do the flowers open? … Erik: In spring. Our garden becomes a rainbow of colours! … Valentina: And the best season for the lake? … Erik: Summer, when the water is warm. We swim every afternoon. … Valentina: Last one: what do you see after rain and sun together? … Erik: A rainbow! Last week we saw one with both ends in the lake! … Valentina: Full marks! Winner of the seasons quiz!",
+        "questions": [
+          { "q": "Valentina's favourite season has orange …", "answer": "leaves" },
+          { "q": "Erik's has snow and hot …", "answer": "chocolate" },
+          { "q": "The flowers open in …", "answer": "spring" },
+          { "q": "In summer they swim every …", "answer": "afternoon" },
+          { "q": "Last week the rainbow had both ends in the …", "answer": "lake" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "The year has ___ seasons.", "options": ["four", "seven", "twelve"], "answer": 0 },
+          { "sentence": "The leaves fall in …", "options": ["autumn", "spring", "summer"], "answer": 0 },
+          { "sentence": "A ___ has seven colours.", "options": ["rainbow", "cloud", "wind"], "answer": 0 },
+          { "sentence": "The sun gives us light and …", "options": ["sunshine", "snow", "storms"], "answer": 0 },
+          { "sentence": "\"What's the weather like?\" — \"___ cloudy.\"", "options": ["It's", "He's", "I'm"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Season debate: each chooses a favourite season and gives 3 reasons. Try to convince your partner to change their mind!" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Write one sentence per season about what your family does: In summer we…" } ]
+}

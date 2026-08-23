@@ -1,0 +1,53 @@
+{
+  "id": "movers-47", "level": "movers", "number": 47,
+  "title": "The photo album", "topic": "past + family",
+  "grammar": "pasado + when I was little",
+  "wordlist": ["photo", "album", "baby", "little", "remember", "smile", "camera", "old", "memory", "family"],
+  "exam_focus": { "paper": "Listening", "part": 2, "skill": "note-taking" },
+  "characters": ["valentina", "erik"],
+  "scene": { "speaker": "valentina", "pose": { "valentina": 6, "erik": 1 },
+    "bubble": "Grandma's photo album! Look — my mum when she was little… with the SAME smile as me!" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the photo with the moment.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Photo", "right_label": "Moment",
+        "pairs": [
+          { "left": "a baby with a tiny hat", "right": "Valentina, six months old" },
+          { "left": "a boy with a toy robot", "right": "Erik, four years old" },
+          { "left": "two girls on one bike", "right": "Sofia and her sister" },
+          { "left": "a puppy in a shoe box", "right": "Luna on her first day" },
+          { "left": "a wedding under the trees", "right": "Grandma and Grandpa" },
+          { "left": "the whole club with medals", "right": "sports day last year" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Choose was or were.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Complete each sentence.",
+        "items": [
+          { "sentence": "When I ___ little, I had curly hair.", "options": ["was", "were", "am"], "answer": 0 },
+          { "sentence": "My grandparents ___ very young in this photo.", "options": ["was", "were", "are being"], "answer": 1 },
+          { "sentence": "Luna ___ smaller than a shoe!", "options": ["was", "were", "is being"], "answer": 0 },
+          { "sentence": "___ you a quiet baby? — No! I cried a lot.", "options": ["Was", "Were", "Did"], "answer": 1 },
+          { "sentence": "The photos ___ black and white in grandpa's time.", "options": ["was", "were", "be"], "answer": 1 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to the album afternoon. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "movers/u47-c.mp3",
+      "data": { "voice_note": "Voces: Valentina (con el álbum) y Erik (invitado curioso).",
+        "script": "Valentina: This album is forty years old. Grandma keeps it in a wooden box. … Erik: Look! Is that your mum on a horse? … Valentina: Yes! She was seven. It was her uncle's farm. … Erik: And this baby with the enormous cake? … Valentina: Me! My first birthday. I put my whole hand in the cake. … Erik: Classic! Who took all these photos? … Valentina: Grandpa, with his old silver camera. He still has it! … Valentina: Grandma says: photos keep the smiles safe forever.",
+        "questions": [
+          { "q": "The album is … years old.", "answer": "forty" },
+          { "q": "Grandma keeps it in a … box.", "answer": "wooden" },
+          { "q": "Valentina's mum was on a horse at her uncle's …", "answer": "farm" },
+          { "q": "Baby Valentina put her hand in the …", "answer": "cake" },
+          { "q": "Grandpa's old camera is …", "answer": "silver" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "You keep photos in an …", "options": ["album", "envelope", "oven"], "answer": 0 },
+          { "sentence": "You take photos with a …", "options": ["camera", "candle", "carrot"], "answer": 0 },
+          { "sentence": "\"Do you ___ your first day of school?\"", "options": ["remember", "reply", "return"], "answer": 0 },
+          { "sentence": "A very young child is a …", "options": ["baby", "guest", "waiter"], "answer": 0 },
+          { "sentence": "A moment you keep in your mind is a …", "options": ["memory", "menu", "medal"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Describe a family photo you love (from memory): who was there, where it was, why you like it. Your partner asks 2 questions." } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Ask your family for an old photo. Write 4 sentences: who, where, when, and one funny detail. Use was/were." } ]
+}

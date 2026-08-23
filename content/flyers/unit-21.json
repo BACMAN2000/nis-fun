@@ -1,0 +1,53 @@
+{
+  "id": "flyers-21", "level": "flyers", "number": 21,
+  "title": "In the countryside", "topic": "nature",
+  "grammar": "there is / there are + descriptions",
+  "wordlist": ["island", "waterfall", "cave", "hill", "path", "wood", "stream", "tent", "fire", "sky"],
+  "exam_focus": { "paper": "Listening", "part": 5, "skill": "colour and write" },
+  "characters": ["ingrid", "oliver"],
+  "scene": { "speaker": "ingrid", "pose": { "ingrid": 9, "oliver": 1 },
+    "bubble": "Camping weekend! Follow the path up the hill — our camp is next to the waterfall." },
+  "activities": [
+    { "code": "A", "type": "crossword", "title": "Read the sentences and write the nature words.",
+      "outputs": ["book", "digital"],
+      "data": { "words": [
+        { "word": "WATERFALL", "clue": "Water that falls from high rocks. It is very loud!" },
+        { "word": "ISLAND", "clue": "Land with water all around it." },
+        { "word": "CAVE", "clue": "A dark hole in a mountain. Bats live here." },
+        { "word": "STREAM", "clue": "A very small river." },
+        { "word": "PATH", "clue": "A small way to walk in the countryside." },
+        { "word": "TENT", "clue": "You sleep inside it when you go camping." } ] } },
+    { "code": "B", "type": "match_words", "title": "Match the place with what you can do there.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Place", "right_label": "Activity",
+        "pairs": [
+          { "left": "the stream", "right": "catch small fish" },
+          { "left": "the cave", "right": "explore with a torch" },
+          { "left": "the hill", "right": "climb to see the view" },
+          { "left": "the wood", "right": "collect dry sticks" },
+          { "left": "the campfire", "right": "cook marshmallows" },
+          { "left": "the night sky", "right": "count the stars" } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to the camping story. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "flyers/u21-c.mp3",
+      "data": { "voice_note": "Voces: Ingrid (capitana de campamento) y Oliver (con la guitarra).",
+        "script": "Ingrid: We walked up the path for two hours to reach the camp. … Oliver: My legs hurt! But the view from the hill was fantastic. … Ingrid: We put our tents next to the waterfall. … Oliver: The water was so loud that I sang louder than ever! … Ingrid: In the evening we made a fire and cooked soup. … Oliver: Then we explored the cave behind the waterfall — we saw six little bats! … Ingrid: At night the sky was full of stars. We counted more than a hundred. … Oliver: Best camping trip ever. Next time, Kili comes too!",
+        "questions": [
+          { "q": "They walked up the path for two …", "answer": "hours" },
+          { "q": "They put the tents next to the …", "answer": "waterfall" },
+          { "q": "In the evening they cooked … on the fire.", "answer": "soup" },
+          { "q": "In the cave they saw six little …", "answer": "bats" },
+          { "q": "At night they counted more than a hundred …", "answer": "stars" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "Land with water all around it is an …", "options": ["island", "hill", "cave"], "answer": 0 },
+          { "sentence": "A very small river is a …", "options": ["waterfall", "stream", "flood"], "answer": 1 },
+          { "sentence": "There ___ two tents next to the trees.", "options": ["is", "are", "was"], "answer": 1 },
+          { "sentence": "Bats sleep in dark …", "options": ["caves", "streams", "paths"], "answer": 0 },
+          { "sentence": "We walked along the ___ through the wood.", "options": ["sky", "path", "fire"], "answer": 1 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Design your dream campsite: draw a simple map (hill, stream, tents, fire) and describe it to your partner with there is / there are. They draw what they hear — compare maps!" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Describe a natural place you know with 5 sentences using there is / there are: There is a stream. There are tall trees…" } ]
+}

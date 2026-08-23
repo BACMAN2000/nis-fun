@@ -1,0 +1,53 @@
+{
+  "id": "starters-25", "level": "starters", "number": 25,
+  "title": "The toy box game", "topic": "in / on / under",
+  "grammar": "in, on, under",
+  "wordlist": ["in", "on", "under", "box", "table", "chair", "bed", "where", "here", "there"],
+  "exam_focus": { "paper": "Listening", "part": 1, "skill": "position" },
+  "characters": ["astrid", "pip"],
+  "scene": { "speaker": "astrid", "pose": { "astrid": 4, "pip": 4 },
+    "bubble": "Where is the little car? In the box? On the chair? Under the bed? Let's find all the toys!" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the toy with its place.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Toy", "right_label": "Place",
+        "pairs": [
+          { "left": "the ball", "right": "under the bed" },
+          { "left": "the teddy", "right": "on the pillow" },
+          { "left": "the cars", "right": "in the toy box" },
+          { "left": "the kite", "right": "on the cupboard" },
+          { "left": "the doll", "right": "on the chair" },
+          { "left": "Pip", "right": "in the toy box too!" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Choose in, on or under.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Complete each sentence.",
+        "items": [
+          { "sentence": "The cat is ___ the table. On top!", "options": ["on", "in", "under"], "answer": 0 },
+          { "sentence": "The shoes are ___ the bed. Below it!", "options": ["under", "on", "in"], "answer": 0 },
+          { "sentence": "The pencils are ___ the pencil case. Inside!", "options": ["in", "on", "under"], "answer": 0 },
+          { "sentence": "\"___ is my ball?\" — \"Under the chair!\"", "options": ["Where", "What", "Who"], "answer": 0 },
+          { "sentence": "The book is ___ the shelf.", "options": ["on", "in", "under"], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to the toy hunt. Write a word in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "starters/u25-c.mp3",
+      "data": { "voice_note": "Voces: Astrid (buscando) y Nico (encontrando).",
+        "script": "Astrid: Toy hunt! Where is the red car? … Nico: Under the chair! Found it! … Astrid: Where is the teddy? … Nico: On the bed, on the pillow. … Astrid: And the little boat? … Nico: In the toy box, at the bottom. … Astrid: Last one: where is the yellow kite? … Nico: On the cupboard… no wait, ON PIP! He's wearing it like a hat!",
+        "questions": [
+          { "q": "The red car is under the …", "answer": "chair" },
+          { "q": "The teddy is on the …", "answer": "pillow" },
+          { "q": "The boat is in the toy …", "answer": "box" },
+          { "q": "The kite is yellow like a …", "answer": "hat" },
+          { "q": "The kite is on …!", "answer": "Pip" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "The fish is ___ the water.", "options": ["in", "on", "under"], "answer": 0 },
+          { "sentence": "The hat is ___ my head.", "options": ["on", "in", "under"], "answer": 0 },
+          { "sentence": "The dog sleeps ___ the table.", "options": ["under", "in", "on top on"], "answer": 0 },
+          { "sentence": "The juice is ___ the glass.", "options": ["in", "on", "under"], "answer": 0 },
+          { "sentence": "\"Here\" is close, \"___\" is far.", "options": ["there", "then", "the"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Hide your eraser (in, on or under something). Your partner asks: \"Is it under the…?\" Maximum 5 questions. Then swap!" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Draw your room with 4 toys in different places. Write: The ball is under… The teddy is on…" } ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "flyers-25", "level": "flyers", "number": 25,
+  "title": "About people", "topic": "personality",
+  "grammar": "adjectives of personality",
+  "wordlist": ["friendly", "clever", "lazy", "brave", "kind", "quiet", "noisy", "funny", "careful", "polite"],
+  "exam_focus": { "paper": "Reading & Writing", "part": 3, "skill": "conversation" },
+  "characters": ["ingrid", "maya"],
+  "scene": { "speaker": "ingrid", "pose": { "ingrid": 3, "maya": 1 },
+    "bubble": "A good expedition team needs all kinds of people: brave ones, careful ones, funny ones… and one who brings snacks!" },
+  "activities": [
+    { "code": "A", "type": "crossword", "title": "Read the sentences and write the personality words.",
+      "outputs": ["book", "digital"],
+      "data": { "words": [
+        { "word": "FRIENDLY", "clue": "This person smiles and talks to everybody." },
+        { "word": "CLEVER", "clue": "This person learns fast and has good ideas." },
+        { "word": "BRAVE", "clue": "This person is not afraid of difficult things." },
+        { "word": "LAZY", "clue": "This person never wants to work or help!" },
+        { "word": "POLITE", "clue": "This person always says please and thank you." },
+        { "word": "QUIET", "clue": "This person doesn't talk much or make noise." } ] } },
+    { "code": "B", "type": "match_words", "title": "Match the person with the adjective.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Situation", "right_label": "Adjective",
+        "pairs": [
+          { "left": "She helped a lost little boy find his mum.", "right": "kind" },
+          { "left": "He climbed the tree to rescue the cat.", "right": "brave" },
+          { "left": "She always checks her work twice.", "right": "careful" },
+          { "left": "He tells jokes that make everyone laugh.", "right": "funny" },
+          { "left": "He stayed on the sofa all Sunday.", "right": "lazy" },
+          { "left": "They shout and play loud music at night.", "right": "noisy" } ] } },
+    { "code": "C", "type": "listening", "title": "Listen. Ingrid describes her team. Write a word in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "flyers/u25-c.mp3",
+      "data": { "voice_note": "Voces: Ingrid (capitana) y Maya (apuntando).",
+        "script": "Ingrid: Every explorer in my team is special, Maya. … Ingrid: Diego is the bravest — he interviewed a shark once. From a boat, but still! … Ingrid: Oliver is the funniest. His jokes are terrible, and that's why we laugh. … Ingrid: You are the most careful — you check the map three times before we go. … Maya: Four times, actually. … Ingrid: And Kili is the kindest. He shares his biscuits with the small birds. … Maya: And you, captain? … Ingrid: Me? I'm the loudest when we win!",
+        "questions": [
+          { "q": "Diego once interviewed a … from a boat.", "answer": "shark" },
+          { "q": "Oliver's terrible … make everyone laugh.", "answer": "jokes" },
+          { "q": "Maya checks the map … times.", "answer": "four" },
+          { "q": "Kili shares his … with the small birds.", "answer": "biscuits" },
+          { "q": "Ingrid is the … when they win.", "answer": "loudest" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "She always says \"please\" — she is very …", "options": ["polite", "lazy", "noisy"], "answer": 0 },
+          { "sentence": "The opposite of quiet is …", "options": ["kind", "noisy", "brave"], "answer": 1 },
+          { "sentence": "A person with lots of good ideas is …", "options": ["clever", "lazy", "tall"], "answer": 0 },
+          { "sentence": "Firefighters must be very …", "options": ["lazy", "brave", "noisy"], "answer": 1 },
+          { "sentence": "Be ___ with that glass vase!", "options": ["careful", "funny", "friendly"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Describe a classmate with 3 personality adjectives (only nice ones!) without saying the name. Your partner guesses who it is. Two people each." } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Write about your best friend: three adjectives and one example for each: Sara is brave. Once she…" } ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "starters-24", "level": "starters", "number": 24,
+  "title": "Run and play", "topic": "action verbs",
+  "grammar": "imperativos de acción",
+  "wordlist": ["walk", "stop", "look", "listen", "clap", "turn", "touch", "point", "stand", "sit"],
+  "exam_focus": { "paper": "Listening", "part": 4, "skill": "instructions" },
+  "characters": ["nico", "freya"],
+  "scene": { "speaker": "nico", "pose": { "nico": 7, "freya": 1 },
+    "bubble": "Action time! Walk, stop, turn, jump… my favourite class is the moving class!" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the action with the body part.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Action", "right_label": "Body part",
+        "pairs": [
+          { "left": "clap", "right": "with your hands" },
+          { "left": "walk", "right": "with your legs" },
+          { "left": "look", "right": "with your eyes" },
+          { "left": "listen", "right": "with your ears" },
+          { "left": "touch", "right": "with your fingers" },
+          { "left": "sing", "right": "with your mouth" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Choose the correct action.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Complete each instruction.",
+        "items": [
+          { "sentence": "___ to the music!", "options": ["Listen", "Eat", "Sleep"], "answer": 0 },
+          { "sentence": "___ your hands three times!", "options": ["Clap", "Wash only", "Close"], "answer": 0 },
+          { "sentence": "___ at the board, please.", "options": ["Look", "Jump", "Sing"], "answer": 0 },
+          { "sentence": "___ down on your chair.", "options": ["Sit", "Stand", "Run"], "answer": 0 },
+          { "sentence": "Red light! ___!", "options": ["Stop", "Go", "Dance"], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen and do! Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "starters/u24-c.mp3",
+      "data": { "voice_note": "Voces: Nico (dando instrucciones) y Freya (jugando).",
+        "script": "Nico: Action game! Stand up, everyone! … Nico: Walk to the window… and stop! … Freya: Stopped! What now? … Nico: Turn around two times. … Freya: One… two! I'm dizzy! … Nico: Point to the door. Now point to the board! … Nico: Clap four times… and sit down! … Freya: That was fun! Now you play and I say the actions!",
+        "questions": [
+          { "q": "Walk to the … and stop.", "answer": "window" },
+          { "q": "Turn around … times.", "answer": "two" },
+          { "q": "Freya is …!", "answer": "dizzy" },
+          { "q": "Point to the door and to the …", "answer": "board" },
+          { "q": "Clap … times.", "answer": "four" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "The opposite of stand up is …", "options": ["sit down", "jump up", "turn around"], "answer": 0 },
+          { "sentence": "The opposite of go is …", "options": ["stop", "run", "walk"], "answer": 0 },
+          { "sentence": "You ___ with your finger to show something.", "options": ["point", "clap", "sit"], "answer": 0 },
+          { "sentence": "Slow feet ___, fast feet run.", "options": ["walk", "fly", "swim"], "answer": 0 },
+          { "sentence": "\"___ the table with one hand!\"", "options": ["Touch", "Eat", "Listen"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Robot game: give your robot-partner 5 instructions (walk, stop, turn, clap, sit). The robot only moves with clear English! Then swap." } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Write your own action game with 5 instructions. Play it with someone at home!" } ]
+}

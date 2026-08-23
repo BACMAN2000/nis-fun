@@ -1,0 +1,53 @@
+{
+  "id": "movers-08", "level": "movers", "number": 8,
+  "title": "My home, my room", "topic": "home",
+  "grammar": "There is / There are",
+  "wordlist": ["kitchen", "bathroom", "bedroom", "living room", "hall", "bed", "desk", "wardrobe", "poster", "clock"],
+  "exam_focus": { "paper": "Listening", "part": 2, "skill": "note-taking" },
+  "characters": ["valentina", "mateo"],
+  "scene": { "speaker": "valentina", "pose": { "valentina": 2, "mateo": 3 },
+    "bubble": "Every room tells a story. Mateo's room tells the story of fifteen lost socks!" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the room with what you do there.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Room", "right_label": "What you do",
+        "pairs": [
+          { "left": "the kitchen", "right": "cook and eat" },
+          { "left": "the bathroom", "right": "wash and brush your teeth" },
+          { "left": "the bedroom", "right": "sleep and dream" },
+          { "left": "the living room", "right": "watch TV together" },
+          { "left": "the hall", "right": "hang your jacket when you come in" },
+          { "left": "the garden", "right": "play outside" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Choose There is or There are.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Complete each sentence.",
+        "items": [
+          { "sentence": "___ a big clock in the kitchen.", "options": ["There is", "There are", "It is"], "answer": 0 },
+          { "sentence": "___ two beds in my room — one is for visits.", "options": ["There is", "There are", "They are"], "answer": 1 },
+          { "sentence": "___ there a TV in your bedroom?", "options": ["Is", "Are", "Do"], "answer": 0 },
+          { "sentence": "There ___ four posters on my wall.", "options": ["is", "are", "am"], "answer": 1 },
+          { "sentence": "There ___ a wardrobe next to the desk.", "options": ["is", "are", "be"], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen. Mateo shows his room. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "movers/u08-c.mp3",
+      "data": { "voice_note": "Voces: Mateo (tour de su cuarto) y Valentina (riéndose).",
+        "script": "Mateo: Welcome to my room! There is a bed, a desk and a big wardrobe. … Mateo: On the wall there are three posters of planets. … Valentina: What's under the bed, Mateo? … Mateo: Emm… my sock museum. Fifteen socks, all without their partner. … Valentina: Fifteen! And what's on the desk? … Mateo: My homework, my robot and a cup with seven pencils. … Valentina: And that noise in the wardrobe? … Mateo: Luna! She sleeps there when it rains. It's her cave!",
+        "questions": [
+          { "q": "On the wall there are three posters of …", "answer": "planets" },
+          { "q": "Under the bed there are … socks.", "answer": "fifteen" },
+          { "q": "On the desk there is a cup with seven …", "answer": "pencils" },
+          { "q": "… sleeps in the wardrobe when it rains.", "answer": "Luna" },
+          { "q": "The wardrobe is her …", "answer": "cave" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "You keep your clothes in a …", "options": ["wardrobe", "clock", "poster"], "answer": 0 },
+          { "sentence": "You do your homework at your …", "options": ["bed", "desk", "bath"], "answer": 1 },
+          { "sentence": "The ___ tells you the time.", "options": ["clock", "poster", "pillow"], "answer": 0 },
+          { "sentence": "You cook dinner in the …", "options": ["bathroom", "kitchen", "hall"], "answer": 1 },
+          { "sentence": "A picture on your wall is a …", "options": ["poster", "wardrobe", "desk"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Describe your room with 5 sentences (There is / There are). Your partner draws it. Compare the drawing with the truth!" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Write 6 sentences about your home: one for each room, with There is / There are." } ]
+}

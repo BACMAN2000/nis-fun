@@ -1,0 +1,53 @@
+{
+  "id": "flyers-08", "level": "flyers", "number": 8,
+  "title": "Let's make a pizza", "topic": "food · some/any",
+  "grammar": "some / any + imperatives",
+  "wordlist": ["cheese", "tomato", "mushroom", "olives", "onion", "oven", "cut", "mix", "add", "ready"],
+  "exam_focus": { "paper": "Listening", "part": 2, "skill": "note-taking" },
+  "characters": ["ingrid", "oliver"],
+  "scene": { "speaker": "ingrid", "pose": { "ingrid": 3, "oliver": 1 },
+    "bubble": "Expedition dinner tonight! Oliver, wash your hands — we're making pizza for the whole team." },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the cooking verb with the action.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Verb", "right_label": "Action",
+        "pairs": [
+          { "left": "cut", "right": "the tomatoes into small pieces" },
+          { "left": "mix", "right": "the flour and the water" },
+          { "left": "add", "right": "some cheese on top" },
+          { "left": "wash", "right": "the mushrooms in cold water" },
+          { "left": "open", "right": "the hot oven carefully" },
+          { "left": "wait", "right": "fifteen minutes until it's ready" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Choose some or any.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Complete each sentence with the correct word.",
+        "items": [
+          { "sentence": "We've got ___ cheese, but we haven't got ___ olives.", "options": ["some / any", "any / some", "some / some"], "answer": 0 },
+          { "sentence": "Are there ___ mushrooms in the fridge?", "options": ["some", "any", "a"], "answer": 1 },
+          { "sentence": "Can I have ___ water, please?", "options": ["any", "an", "some"], "answer": 2 },
+          { "sentence": "There isn't ___ flour left!", "options": ["any", "some", "no"], "answer": 0 },
+          { "sentence": "Let's buy ___ tomatoes at the market.", "options": ["any", "some", "much"], "answer": 1 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to the pizza recipe. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "flyers/u08-c.mp3",
+      "data": { "voice_note": "Voces: Ingrid (da instrucciones) y Oliver (ayudante).",
+        "script": "Ingrid: Ready, Oliver? First, mix the flour with warm water. … Oliver: Done! It looks like a white ball. … Ingrid: Perfect. Now cut two tomatoes and one onion. … Oliver: Ouch — onions make my eyes cry! … Ingrid: Ha! Now add the cheese. We've got some yellow cheese from Grandpa's farm. … Oliver: Can I add mushrooms? … Ingrid: Yes, wash them first. But no olives — Diego doesn't like them. … Oliver: Okay! Into the oven? … Ingrid: Yes, for fifteen minutes. Then it's ready!",
+        "questions": [
+          { "q": "First, mix the flour with warm …", "answer": "water" },
+          { "q": "Cut two tomatoes and one …", "answer": "onion" },
+          { "q": "The yellow cheese is from Grandpa's …", "answer": "farm" },
+          { "q": "They don't add olives because … doesn't like them.", "answer": "Diego" },
+          { "q": "The pizza is in the oven for … minutes.", "answer": "fifteen" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Put the recipe in order. Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word for each step.",
+        "items": [
+          { "sentence": "First, ___ the flour and the water.", "options": ["mix", "eat", "open"], "answer": 0 },
+          { "sentence": "Then ___ the tomatoes into pieces.", "options": ["drink", "cut", "close"], "answer": 1 },
+          { "sentence": "___ some cheese and mushrooms on top.", "options": ["Add", "Wash", "Read"], "answer": 0 },
+          { "sentence": "Put the pizza in the hot …", "options": ["fridge", "oven", "cupboard"], "answer": 1 },
+          { "sentence": "After fifteen minutes, the pizza is …", "options": ["ready", "cold", "empty"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Invent a crazy pizza with your partner (chocolate and banana pizza?). Write the 4 steps of the recipe with imperatives and read them to another pair. They vote: delicious or disgusting?" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Write the recipe of your favourite sandwich in 4 steps. Use: first, then, add, ready." } ]
+}

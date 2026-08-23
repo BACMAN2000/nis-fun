@@ -1,0 +1,53 @@
+{
+  "id": "movers-15", "level": "movers", "number": 15,
+  "title": "Sports day", "topic": "sports",
+  "grammar": "adverbios: well, fast, high",
+  "wordlist": ["run", "jump", "throw", "catch", "kick", "race", "team", "winner", "medal", "clap"],
+  "exam_focus": { "paper": "Listening", "part": 4, "skill": "multiple choice" },
+  "characters": ["sofia", "mateo"],
+  "scene": { "speaker": "sofia", "pose": { "sofia": 7, "mateo": 10 },
+    "bubble": "Sports day! Green team against blue team — and Luna is the official ball-fetcher!" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the action with the sport moment.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Action", "right_label": "Moment",
+        "pairs": [
+          { "left": "run", "right": "in the 100-metre race" },
+          { "left": "jump", "right": "over the high bar" },
+          { "left": "throw", "right": "the ball to your friend" },
+          { "left": "catch", "right": "the ball with two hands" },
+          { "left": "kick", "right": "the ball into the goal" },
+          { "left": "clap", "right": "when someone wins" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Complete each sentence.",
+        "items": [
+          { "sentence": "Sofia runs very ___ — nobody catches her!", "options": ["fast", "slow", "high"], "answer": 0 },
+          { "sentence": "Mateo can jump really ___ — over one metre!", "options": ["high", "loud", "tasty"], "answer": 0 },
+          { "sentence": "Valentina throws the ball very …", "options": ["well", "good", "best"], "answer": 0 },
+          { "sentence": "The ___ gets a gold medal.", "options": ["winner", "team", "race"], "answer": 0 },
+          { "sentence": "Our ___ wears green shirts.", "options": ["team", "medal", "goal"], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to sports day. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "movers/u15-c.mp3",
+      "data": { "voice_note": "Voces: Mateo (comentarista) y Sofía (estrella del día).",
+        "script": "Mateo: Sports day, live! First race: one hundred metres. … Mateo: Sofia runs like the wind… and wins! Green team, five points. … Mateo: Now the high jump. Erik jumps… one metre ten! … Mateo: The ball race: Valentina throws, I catch… oops, I dropped it. Blue team laughs. … Mateo: But Luna catches the next one IN THE AIR. The crowd goes crazy! … Mateo: Final score: green twenty, blue eighteen. … Sofia: And everyone gets ice cream, because on sports day everybody wins something!",
+        "questions": [
+          { "q": "The first race is one hundred …", "answer": "metres" },
+          { "q": "Sofía wins … points for the green team.", "answer": "five" },
+          { "q": "Erik jumps one metre …", "answer": "ten" },
+          { "q": "… catches the ball in the air.", "answer": "Luna" },
+          { "q": "Final score: green twenty, blue …", "answer": "eighteen" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "You ___ the ball with your foot.", "options": ["kick", "catch", "clap"], "answer": 0 },
+          { "sentence": "You ___ the ball with your hands.", "options": ["catch", "kick", "run"], "answer": 0 },
+          { "sentence": "A competition of speed is a …", "options": ["race", "rule", "roof"], "answer": 0 },
+          { "sentence": "The winner receives a gold …", "options": ["medal", "middle", "meal"], "answer": 0 },
+          { "sentence": "When we are happy with a player, we …", "options": ["clap", "cry", "sleep"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Commentator practice: narrate 20 seconds of your partner miming a sport (running, jumping, kicking). Use fast, high, well. Then swap!" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Write about your sports day or PE class: 5 sentences with run, jump, throw, catch, kick." } ]
+}

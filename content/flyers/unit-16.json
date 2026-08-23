@@ -1,0 +1,53 @@
+{
+  "id": "flyers-16", "level": "flyers", "number": 16,
+  "title": "At the sports centre", "topic": "past continuous",
+  "grammar": "past continuous: was/were + -ing",
+  "wordlist": ["gym", "pool", "court", "changing room", "whistle", "practise", "fall", "slip", "carry", "shout"],
+  "exam_focus": { "paper": "Listening", "part": 3, "skill": "matching" },
+  "characters": ["ingrid", "maya"],
+  "scene": { "speaker": "ingrid", "pose": { "ingrid": 5, "maya": 3 },
+    "bubble": "When the lights went out at the sports centre, everyone was doing something different. Let's find out what!" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the verb with its -ing form.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Verb", "right_label": "-ing form",
+        "pairs": [
+          { "left": "swim", "right": "swimming" },
+          { "left": "run", "right": "running" },
+          { "left": "practise", "right": "practising" },
+          { "left": "carry", "right": "carrying" },
+          { "left": "slip", "right": "slipping" },
+          { "left": "shout", "right": "shouting" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Choose was or were.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Complete each sentence.",
+        "items": [
+          { "sentence": "At six o'clock, Ingrid ___ swimming in the pool.", "options": ["was", "were", "is"], "answer": 0 },
+          { "sentence": "The boys ___ playing volleyball on the court.", "options": ["was", "were", "are"], "answer": 1 },
+          { "sentence": "What ___ you doing when the lights went out?", "options": ["was", "were", "did"], "answer": 1 },
+          { "sentence": "Maya ___ reading in the changing room.", "options": ["were", "was", "be"], "answer": 1 },
+          { "sentence": "We ___ not sleeping — we were training!", "options": ["was", "were", "are"], "answer": 1 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen. What was everyone doing at 6 o'clock? Write a word in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "flyers/u16-c.mp3",
+      "data": { "voice_note": "Voces: Maya (investigando) e Ingrid (testigo).",
+        "script": "Maya: So, Ingrid — at six o'clock the lights went out. What were you doing? … Ingrid: I was swimming in the pool. It was very dark and very funny! … Maya: And Oliver? … Ingrid: He was practising basketball on the court. He was carrying three balls! … Maya: What about Diego? … Ingrid: He was interviewing the trainer next to the gym. … Maya: And the little kids? … Ingrid: They were shouting happily in the dark — they thought it was a game! … Maya: And Kili? … Ingrid: Ha! He was sleeping on the roof. He didn't notice anything!",
+        "questions": [
+          { "q": "Ingrid was swimming in the …", "answer": "pool" },
+          { "q": "Oliver was carrying three …", "answer": "balls" },
+          { "q": "Diego was interviewing the …", "answer": "trainer" },
+          { "q": "The little kids were … happily.", "answer": "shouting" },
+          { "q": "Kili was sleeping on the …", "answer": "roof" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct form.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct past continuous form.",
+        "items": [
+          { "sentence": "I ___ my homework when you phoned.", "options": ["was doing", "were doing", "am doing"], "answer": 0 },
+          { "sentence": "They ___ in the gym at five o'clock.", "options": ["was training", "were training", "training"], "answer": 1 },
+          { "sentence": "He slipped while he ___ to the pool.", "options": ["was running", "were running", "runs"], "answer": 0 },
+          { "sentence": "___ she carrying the sports bag?", "options": ["Were", "Was", "Did"], "answer": 1 },
+          { "sentence": "The trainer blew the ___ to stop the game.", "options": ["whistle", "shelf", "prize"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Alibi game: yesterday at 6 pm something happened at school. Student A is the detective: \"What were you doing at six?\" Student B invents an alibi. The detective asks 3 more questions to find contradictions!" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Write what 4 people in your family were doing yesterday at 8 pm: My dad was cooking dinner…" } ]
+}

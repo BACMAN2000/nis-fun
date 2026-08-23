@@ -1,0 +1,53 @@
+{
+  "id": "starters-19", "level": "starters", "number": 19,
+  "title": "People", "topic": "people",
+  "grammar": "man / woman / boy / girl",
+  "wordlist": ["man", "woman", "boy", "girl", "baby", "child", "children", "person", "people", "name"],
+  "exam_focus": { "paper": "Reading & Writing", "part": 1, "skill": "people words" },
+  "characters": ["astrid", "nico"],
+  "scene": { "speaker": "astrid", "pose": { "astrid": 2, "nico": 3 },
+    "bubble": "Look at the square: a man with a dog, a woman with flowers, three children playing… and one puffin watching!" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the word with the person.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Word", "right_label": "Person",
+        "pairs": [
+          { "left": "a man", "right": "Nico's father" },
+          { "left": "a woman", "right": "the teacher Miss Lily" },
+          { "left": "a boy", "right": "Tomás" },
+          { "left": "a girl", "right": "Freya" },
+          { "left": "a baby", "right": "Nico's little cousin" },
+          { "left": "children", "right": "all the class together" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Complete each sentence.",
+        "items": [
+          { "sentence": "One child, two …", "options": ["children", "childs", "childrens"], "answer": 0 },
+          { "sentence": "Freya is a …", "options": ["girl", "boy", "man"], "answer": 0 },
+          { "sentence": "My dad is a …", "options": ["man", "woman", "baby"], "answer": 0 },
+          { "sentence": "One person, many …", "options": ["people", "persons", "peoples"], "answer": 0 },
+          { "sentence": "\"What's your ___?\" — \"Tomás!\"", "options": ["name", "colour", "number"], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen in the square. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "starters/u19-c.mp3",
+      "data": { "voice_note": "Voces: Astrid (observando) y Nico (contando gente).",
+        "script": "Astrid: Look at the square! A man is walking with a big white dog. … Nico: And a woman has got red flowers. Many flowers! … Astrid: Three children are playing with a ball. … Nico: A baby is sleeping in a little car. So small! … Astrid: The ice cream man has a blue hat. … Nico: How many people in the square? … Astrid: One, two… ten people! And one Pip.",
+        "questions": [
+          { "q": "The man walks with a big … dog.", "answer": "white" },
+          { "q": "The woman has got red …", "answer": "flowers" },
+          { "q": "… children are playing with a ball.", "answer": "Three" },
+          { "q": "The ice cream man has a … hat.", "answer": "blue" },
+          { "q": "There are … people in the square.", "answer": "ten" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "A young girl or boy is a …", "options": ["child", "man", "woman"], "answer": 0 },
+          { "sentence": "Grandma is a …", "options": ["woman", "man", "boy"], "answer": 0 },
+          { "sentence": "The smallest person in a family is the …", "options": ["baby", "father", "teacher"], "answer": 0 },
+          { "sentence": "Many persons together are …", "options": ["people", "peoples", "childs"], "answer": 0 },
+          { "sentence": "Tomás and Nico are two …", "options": ["boys", "girls", "women"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Look at a picture in your book: find and say \"a man, a woman, a boy, a girl…\" Who finds more people in one minute?" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Draw your street with 4 people and write who they are: There is a man… There are two children…" } ]
+}

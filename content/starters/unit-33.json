@@ -1,0 +1,53 @@
+{
+  "id": "starters-33", "level": "starters", "number": 33,
+  "title": "Morning and night", "topic": "day parts",
+  "grammar": "in the morning / at night",
+  "wordlist": ["morning", "afternoon", "evening", "night", "wake up", "sleep", "sun", "moon", "star", "dream"],
+  "exam_focus": { "paper": "Listening", "part": 4, "skill": "day parts" },
+  "characters": ["tomas", "pip"],
+  "scene": { "speaker": "tomas", "pose": { "tomas": 1, "pip": 6 },
+    "bubble": "The sun says good morning, the moon says good night… and Pip sleeps at both times!" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the time with what you do.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Time", "right_label": "What you do",
+        "pairs": [
+          { "left": "in the morning", "right": "wake up and have breakfast" },
+          { "left": "at midday", "right": "eat lunch" },
+          { "left": "in the afternoon", "right": "play after school" },
+          { "left": "in the evening", "right": "have dinner with family" },
+          { "left": "at night", "right": "sleep and dream" },
+          { "left": "the moon and stars", "right": "shine in the dark sky" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Complete each sentence.",
+        "items": [
+          { "sentence": "The sun comes up in the …", "options": ["morning", "night", "evening"], "answer": 0 },
+          { "sentence": "We see the ___ at night.", "options": ["moon", "sun", "rainbow"], "answer": 0 },
+          { "sentence": "I sleep ___ night.", "options": ["at", "on", "in"], "answer": 0 },
+          { "sentence": "\"Good ___!\" — you say it before bed.", "options": ["night", "morning", "afternoon"], "answer": 0 },
+          { "sentence": "When you sleep, you can …", "options": ["dream", "run", "cook"], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to Tomás's day. Write a word in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "starters/u33-c.mp3",
+      "data": { "voice_note": "Voces: Tomás (contando su día) y Freya (preguntando).",
+        "script": "Freya: Tell me your day, Tomás! … Tomas: In the morning I wake up at seven and eat bread with jam. … Tomas: At midday, lunch at school. Rice day! … Tomas: In the afternoon, football at the park. … Tomas: In the evening I have dinner and a warm shower. … Freya: And at night? … Tomas: I look at the stars from my window… and sleep at nine. … Freya: Sweet dreams, Tomás!",
+        "questions": [
+          { "q": "Tomás wakes up at …", "answer": "seven" },
+          { "q": "He eats bread with …", "answer": "jam" },
+          { "q": "In the afternoon: … at the park.", "answer": "football" },
+          { "q": "At night he looks at the …", "answer": "stars" },
+          { "q": "He sleeps at …", "answer": "nine" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "Breakfast is in the …", "options": ["morning", "night", "evening"], "answer": 0 },
+          { "sentence": "Dinner is in the …", "options": ["evening", "morning", "midday"], "answer": 0 },
+          { "sentence": "The sky is dark at …", "options": ["night", "midday", "morning"], "answer": 0 },
+          { "sentence": "You ___ up when the sun rises.", "options": ["wake", "sleep", "sit"], "answer": 0 },
+          { "sentence": "Little lights in the night sky are …", "options": ["stars", "sums", "socks"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Day theatre: mime a moment of the day (waking up, having lunch, sleeping). Your partner guesses: \"It's the morning! You are waking up!\"" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Divide a paper in 4 (morning, afternoon, evening, night). Draw and write what you do in each part." } ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "starters-09", "level": "starters", "number": 9,
+  "title": "Clothes I wear", "topic": "clothes",
+  "grammar": "I am wearing…",
+  "wordlist": ["t-shirt", "trousers", "dress", "shoes", "socks", "jacket", "hat", "shorts", "skirt", "wear"],
+  "exam_focus": { "paper": "Listening", "part": 4, "skill": "clothes & colours" },
+  "characters": ["astrid", "tomas"],
+  "scene": { "speaker": "astrid", "pose": { "astrid": 2, "tomas": 1 },
+    "bubble": "Dress-up day at school! I am wearing my green dress and Tomás is wearing… a pirate hat?" },
+  "activities": [
+    { "code": "A", "type": "crossword", "title": "Write the clothes words.",
+      "outputs": ["book", "digital"],
+      "data": { "words": [
+        { "word": "SHOES", "clue": "You wear them on your feet." },
+        { "word": "HAT", "clue": "You wear it on your head." },
+        { "word": "DRESS", "clue": "Some girls wear it. It is one piece." },
+        { "word": "SOCKS", "clue": "They go on your feet, under the shoes." },
+        { "word": "JACKET", "clue": "You wear it when it is cold." } ] } },
+    { "code": "B", "type": "match_words", "title": "Match the clothes with the place on your body.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Clothes", "right_label": "Where",
+        "pairs": [
+          { "left": "a hat", "right": "on your head" },
+          { "left": "a t-shirt", "right": "on your body" },
+          { "left": "trousers", "right": "on your legs" },
+          { "left": "socks", "right": "on your feet, first" },
+          { "left": "shoes", "right": "on your feet, on top" },
+          { "left": "shorts", "right": "on your legs in summer" } ] } },
+    { "code": "C", "type": "listening", "title": "Listen. What is everyone wearing? Write a word in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "starters/u09-c.mp3",
+      "data": { "voice_note": "Voces: Astrid (describiendo) y Tomás (pirata).",
+        "script": "Astrid: Dress-up day! I am wearing my green dress. … Tomas: I am a pirate! Big black hat and one red boot. … Astrid: One boot, Tomás? … Tomas: I can't find the other one! … Astrid: Freya is wearing a yellow dress, like a princess. … Tomas: And Nico is a dinosaur. His costume has a long green tail! … Astrid: And Pip? … Tomas: Pip is wearing a tiny blue hat. The smallest hat in the world!",
+        "questions": [
+          { "q": "Astrid is wearing a … dress.", "answer": "green" },
+          { "q": "Tomás has one red …", "answer": "boot" },
+          { "q": "Freya is wearing a … dress.", "answer": "yellow" },
+          { "q": "Nico's costume has a long green …", "answer": "tail" },
+          { "q": "Pip is wearing a tiny … hat.", "answer": "blue" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "You wear ___ on your feet.", "options": ["shoes", "hats", "dresses"], "answer": 0 },
+          { "sentence": "In summer I wear …", "options": ["shorts", "a jacket", "two coats"], "answer": 0 },
+          { "sentence": "I am ___ a red t-shirt today.", "options": ["wearing", "eating", "reading"], "answer": 0 },
+          { "sentence": "When it is cold, put on your …", "options": ["jacket", "shorts", "sunglasses"], "answer": 0 },
+          { "sentence": "Socks go ___ the shoes.", "options": ["under", "on top of", "behind"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Look at your partner for 5 seconds, close your eyes, and say what they are wearing: \"You are wearing…\" How much do you remember?" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Draw your favourite clothes and write 4 sentences: I am wearing my blue…" } ]
+}

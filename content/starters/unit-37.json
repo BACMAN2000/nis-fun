@@ -1,0 +1,53 @@
+{
+  "id": "starters-37", "level": "starters", "number": 37,
+  "title": "Head and hands", "topic": "body actions",
+  "grammar": "TPR: toca, mueve, levanta",
+  "wordlist": ["shake", "nod", "raise", "wave", "stamp", "wiggle", "touch", "close", "open", "hands up"],
+  "exam_focus": { "paper": "Listening", "part": 4, "skill": "body actions" },
+  "characters": ["tomas", "freya"],
+  "scene": { "speaker": "tomas", "pose": { "tomas": 10, "freya": 1 },
+    "bubble": "The moving song! Shake your hands, stamp your feet, wiggle your fingers… don't stop!" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the action with the body part.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Action", "right_label": "Body part",
+        "pairs": [
+          { "left": "nod", "right": "your head — yes, yes!" },
+          { "left": "wave", "right": "your hand — hello!" },
+          { "left": "stamp", "right": "your feet — boom boom!" },
+          { "left": "wiggle", "right": "your fingers like worms" },
+          { "left": "close", "right": "your eyes — all dark!" },
+          { "left": "raise", "right": "your arm to the sky" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Choose the correct action.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Complete each instruction.",
+        "items": [
+          { "sentence": "___ your head to say yes.", "options": ["Nod", "Wave", "Stamp"], "answer": 0 },
+          { "sentence": "___ your hand to say hello.", "options": ["Wave", "Close", "Eat"], "answer": 0 },
+          { "sentence": "___ your eyes and count to ten.", "options": ["Close", "Open", "Wiggle"], "answer": 0 },
+          { "sentence": "Hands ___! Reach the sky!", "options": ["up", "down", "in"], "answer": 0 },
+          { "sentence": "___ your feet like a big elephant.", "options": ["Stamp", "Nod", "Draw"], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to the moving song. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "starters/u37-c.mp3",
+      "data": { "voice_note": "Voces: Tomás (cantando) y Freya (bailando).",
+        "script": "Tomas: The moving song! Shake your hands — one, two, three! … Freya: Shaking, shaking! … Tomas: Stamp your feet four times! … Freya: Boom, boom, boom, boom! … Tomas: Wiggle your fingers like little worms. … Freya: They are dancing! … Tomas: Now close your eyes… open your eyes… and WAVE! … Freya: Even Pip is waving with his wing! … Tomas: Big finish: hands up and jump!",
+        "questions": [
+          { "q": "Shake your hands — one, two, …!", "answer": "three" },
+          { "q": "Stamp your feet … times.", "answer": "four" },
+          { "q": "Wiggle your fingers like little …", "answer": "worms" },
+          { "q": "Pip waves with his …", "answer": "wing" },
+          { "q": "Big finish: hands up and …!", "answer": "jump" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "To say yes without words, you ___ your head.", "options": ["nod", "close", "wash"], "answer": 0 },
+          { "sentence": "To say no, you ___ your head.", "options": ["shake", "raise", "stamp"], "answer": 0 },
+          { "sentence": "You wave with your …", "options": ["hand", "foot", "nose"], "answer": 0 },
+          { "sentence": "The opposite of open your eyes is ___ them.", "options": ["close", "wiggle", "raise"], "answer": 0 },
+          { "sentence": "In class, ___ your hand to speak.", "options": ["raise", "stamp", "shake"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Invent a 4-move dance with your partner (shake, stamp, wiggle, jump…). Teach it to another pair in English!" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Write your own moving song with 5 instructions. Sing it at home!" } ]
+}

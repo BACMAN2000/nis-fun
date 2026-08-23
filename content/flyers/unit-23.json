@@ -1,0 +1,53 @@
+{
+  "id": "flyers-23", "level": "flyers", "number": 23,
+  "title": "What a strange planet!", "topic": "space",
+  "grammar": "What + adjective + noun! (exclamations)",
+  "wordlist": ["planet", "moon", "star", "rocket", "spaceship", "alien", "Earth", "astronaut", "space", "round"],
+  "exam_focus": { "paper": "Reading & Writing", "part": 5, "skill": "story completion" },
+  "characters": ["oliver", "maya"],
+  "scene": { "speaker": "oliver", "pose": { "oliver": 5, "maya": 2 },
+    "bubble": "I dreamed we landed on a purple planet where the rivers were made of lemonade! What a strange dream!" },
+  "activities": [
+    { "code": "A", "type": "crossword", "title": "Read the sentences and write the space words.",
+      "outputs": ["book", "digital"],
+      "data": { "words": [
+        { "word": "PLANET", "clue": "Earth is one. Mars is another." },
+        { "word": "ROCKET", "clue": "It flies up into space with fire under it." },
+        { "word": "ASTRONAUT", "clue": "A person who travels to space." },
+        { "word": "STAR", "clue": "A small light in the night sky. The Sun is one!" },
+        { "word": "ALIEN", "clue": "A person from another planet — in stories!" },
+        { "word": "MOON", "clue": "It goes round the Earth. You see it at night." } ] } },
+    { "code": "B", "type": "match_words", "title": "Match the two halves of the exclamations.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "What…", "right_label": "…!",
+        "pairs": [
+          { "left": "What a strange", "right": "planet!" },
+          { "left": "What a bright", "right": "star!" },
+          { "left": "What an enormous", "right": "spaceship!" },
+          { "left": "What friendly", "right": "aliens!" },
+          { "left": "What a fast", "right": "rocket!" },
+          { "left": "What a beautiful", "right": "view of Earth!" } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to Oliver's space dream. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "flyers/u23-c.mp3",
+      "data": { "voice_note": "Voces: Oliver (contando el sueño) y Maya (tomando notas científicas).",
+        "script": "Oliver: In my dream, our spaceship was yellow, like a banana! … Maya: A banana spaceship. Noted. Where did you land? … Oliver: On a purple planet with three moons in the sky. … Maya: Three moons! And the aliens? … Oliver: They were small and green, with four ears each. Very friendly! … Maya: What did they give you? … Oliver: A concert! They played music on glass drums. … Oliver: And the rivers, Maya… the rivers were made of lemonade. I drank from one! … Maya: What a strange and delicious planet!",
+        "questions": [
+          { "q": "The spaceship was yellow like a …", "answer": "banana" },
+          { "q": "The purple planet had three …", "answer": "moons" },
+          { "q": "The aliens had four … each.", "answer": "ears" },
+          { "q": "The aliens played music on glass …", "answer": "drums" },
+          { "q": "The rivers were made of …", "answer": "lemonade" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "We live on the planet …", "options": ["Moon", "Earth", "Star"], "answer": 1 },
+          { "sentence": "\"___ a strange planet!\"", "options": ["What", "How", "Which"], "answer": 0 },
+          { "sentence": "An ___ travels in a spaceship.", "options": ["alien", "astronaut", "engineer"], "answer": 1 },
+          { "sentence": "The Earth is ___, like a ball.", "options": ["round", "square", "flat"], "answer": 0 },
+          { "sentence": "At night the sky is full of …", "options": ["rockets", "stars", "floods"], "answer": 1 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Invent a planet with your partner: name, colour, what the rivers are made of, what the aliens look like. Present it with at least two exclamations: \"What a … planet!\"" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Draw your invented planet and write 5 sentences about it. Use one exclamation with What a…!" } ]
+}

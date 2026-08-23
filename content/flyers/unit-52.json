@@ -1,0 +1,53 @@
+{
+  "id": "flyers-52", "level": "flyers", "number": 52,
+  "title": "Word games", "topic": "vocabulary review",
+  "grammar": "repaso general de vocabulario",
+  "wordlist": ["dictionary", "spelling", "alphabet", "letter", "vowel", "sound", "rhyme", "opposite", "pair", "meaning"],
+  "exam_focus": { "paper": "Reading & Writing", "part": 1, "skill": "definitions" },
+  "characters": ["ingrid", "oliver"],
+  "scene": { "speaker": "ingrid", "pose": { "ingrid": 10, "oliver": 3 },
+    "bubble": "Word Games Championship! Six rounds, two teams, one dictionary as the judge. May the best spellers win!" },
+  "activities": [
+    { "code": "A", "type": "crossword", "title": "Words about words! Read and write.",
+      "outputs": ["book", "digital"],
+      "data": { "words": [
+        { "word": "DICTIONARY", "clue": "The book where all the words live, from A to Z." },
+        { "word": "SPELLING", "clue": "Saying a word letter by letter: C-A-T." },
+        { "word": "ALPHABET", "clue": "All the letters in order, from A to Z." },
+        { "word": "VOWEL", "clue": "A, E, I, O or U." },
+        { "word": "RHYME", "clue": "When two words end with the same sound, like cat and hat." },
+        { "word": "OPPOSITE", "clue": "Hot and cold, big and small — they are this." } ] } },
+    { "code": "B", "type": "match_words", "title": "Match the rhyming pairs.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Word", "right_label": "It rhymes with…",
+        "pairs": [
+          { "left": "night", "right": "light" },
+          { "left": "rain", "right": "train" },
+          { "left": "bear", "right": "chair" },
+          { "left": "moon", "right": "spoon" },
+          { "left": "whale", "right": "tail" },
+          { "left": "star", "right": "guitar" } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to the championship. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "flyers/u52-c.mp3",
+      "data": { "voice_note": "Voces: Ingrid (árbitro) y Oliver (capitán del equipo Puffins).",
+        "script": "Ingrid: Round one: spelling! Team Puffins, spell the word LIGHTHOUSE. … Oliver: L-I-G-H-T-H-O-U-S-E. Lighthouse! … Ingrid: Correct! Ten points. Round two: find a rhyme for GUITAR. … Oliver: Star! A star for my guitar! … Ingrid: Round three: the opposite of ANCIENT. … Oliver: Modern! … Ingrid: Round four: how many vowels are in the word EDUCATION? … Oliver: E-U-A-I-O… five! … Ingrid: Amazing! Final score: Puffins ninety, Dolphins eighty-five. … Oliver: We won by five points! Kili, bring the trophy!",
+        "questions": [
+          { "q": "Team Puffins spelled the word …", "answer": "LIGHTHOUSE" },
+          { "q": "The rhyme for guitar is …", "answer": "star" },
+          { "q": "The opposite of ancient is …", "answer": "modern" },
+          { "q": "EDUCATION has … vowels.", "answer": "five" },
+          { "q": "The Puffins won by … points.", "answer": "five" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "A, E, I, O, U are the …", "options": ["vowels", "rhymes", "pairs"], "answer": 0 },
+          { "sentence": "\"Dog\" and \"frog\" …", "options": ["rhyme", "spell", "mean"], "answer": 0 },
+          { "sentence": "You look up a word's ___ in the dictionary.", "options": ["meaning", "queue", "prize"], "answer": 0 },
+          { "sentence": "The English ___ has 26 letters.", "options": ["alphabet", "dictionary", "sound"], "answer": 0 },
+          { "sentence": "\"Empty\" is the ___ of \"full\".", "options": ["opposite", "spelling", "vowel"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Mini championship: 3 rounds against your partner — spell a word, find a rhyme, say an opposite. Use words from any unit of this book. Keep score!" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Invent a word game for the class: write its 3 rules in English. The best game will be played on Friday!" } ]
+}

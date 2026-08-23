@@ -1,0 +1,53 @@
+{
+  "id": "movers-25", "level": "movers", "number": 25,
+  "title": "I'm ill!", "topic": "health",
+  "grammar": "What's the matter? + have got",
+  "wordlist": ["ill", "cold", "cough", "headache", "stomach-ache", "temperature", "bed", "rest", "soup", "better"],
+  "exam_focus": { "paper": "Listening", "part": 4, "skill": "multiple choice" },
+  "characters": ["sofia", "valentina"],
+  "scene": { "speaker": "valentina", "pose": { "valentina": 4, "sofia": 3 },
+    "bubble": "Sofía has got a cold, so today the Club meets at her window — with soup, comics and songs from the garden!" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the problem with what helps.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Problem", "right_label": "What helps",
+        "pairs": [
+          { "left": "a cold", "right": "hot lemon and honey" },
+          { "left": "a headache", "right": "rest in a dark room" },
+          { "left": "a stomach-ache", "right": "warm tea and no sweets" },
+          { "left": "a temperature", "right": "stay in bed all day" },
+          { "left": "a cough", "right": "warm scarf and quiet voice" },
+          { "left": "feeling sad and ill", "right": "a visit from your friends" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Choose the correct answer.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the best response.",
+        "items": [
+          { "sentence": "\"What's the matter?\"", "options": ["I've got a headache.", "It's on the shelf.", "Two kilos, please."], "answer": 0 },
+          { "sentence": "\"Have you got a temperature?\"", "options": ["Yes, thirty-eight degrees.", "No, it's Tuesday.", "By bus."], "answer": 0 },
+          { "sentence": "\"How do you feel today?\"", "options": ["Much better, thanks!", "Under the sofa.", "Three stops."], "answer": 0 },
+          { "sentence": "\"You should rest.\"", "options": ["Okay, I'll stay in bed.", "It's made of wood.", "On Friday."], "answer": 0 },
+          { "sentence": "\"Get well soon!\"", "options": ["Thank you!", "How much is it?", "Turn left."], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to the window visit. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "movers/u25-c.mp3",
+      "data": { "voice_note": "Voces: Valentina (desde el jardín) y Sofía (desde la ventana, resfriada).",
+        "script": "Valentina: Sofia! How do you feel today? … Sofia: A little better. My temperature is only thirty-seven now. … Valentina: We brought you chicken soup from my grandma. … Sofia: My favourite! Put it in the basket and I'll pull it up. … Valentina: Mateo brought you three comics and Erik made you a card… with a robot on it. … Sofia: Of course with a robot! Thank you, team! … Valentina: Rest a lot. On Saturday you'll be ready for the picnic. … Sofia: Doctor's orders: soup, sleep and friends. Working already!",
+        "questions": [
+          { "q": "Sofía's temperature is only thirty-… now.", "answer": "seven" },
+          { "q": "They brought her chicken … from grandma.", "answer": "soup" },
+          { "q": "They put the soup in the … and she pulls it up.", "answer": "basket" },
+          { "q": "Mateo brought three …", "answer": "comics" },
+          { "q": "Erik's card has a … on it.", "answer": "robot" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "When your head hurts you have got a …", "options": ["headache", "cough", "cold"], "answer": 0 },
+          { "sentence": "When you are ill you should ___ a lot.", "options": ["rest", "run", "shout"], "answer": 0 },
+          { "sentence": "Atchoo! I think I've got a …", "options": ["cold", "gold", "goal"], "answer": 0 },
+          { "sentence": "After medicine and sleep you feel …", "options": ["better", "bigger", "later"], "answer": 0 },
+          { "sentence": "Hot ___ is perfect food for ill days.", "options": ["soup", "ice cream", "candy floss"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Doctor role play: patient invents a problem (I've got…), doctor asks 2 questions and gives advice (You should…). Then swap." } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Design a get-well card for an ill friend: greeting, 2 pieces of advice and a funny drawing." } ]
+}

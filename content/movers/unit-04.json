@@ -1,0 +1,53 @@
+{
+  "id": "movers-04", "level": "movers", "number": 4,
+  "title": "My busy morning", "topic": "daily routine",
+  "grammar": "present simple: rutinas",
+  "wordlist": ["wake up", "get up", "wash", "brush", "get dressed", "breakfast", "catch the bus", "comb", "towel", "toothbrush"],
+  "exam_focus": { "paper": "Listening", "part": 2, "skill": "note-taking" },
+  "characters": ["mateo", "valentina"],
+  "scene": { "speaker": "valentina", "pose": { "valentina": 3, "mateo": 5 },
+    "bubble": "Mateo wakes up at seven… but he always loses one sock, so he catches the bus at the last second!" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the action with the thing you need.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Action", "right_label": "Thing",
+        "pairs": [
+          { "left": "brush your teeth", "right": "a toothbrush" },
+          { "left": "wash your face", "right": "water and soap" },
+          { "left": "dry your hands", "right": "a towel" },
+          { "left": "comb your hair", "right": "a comb" },
+          { "left": "have breakfast", "right": "a bowl and a spoon" },
+          { "left": "catch the bus", "right": "fast legs!" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Put Mateo's morning in order. Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "First, Mateo ___ up at seven o'clock.", "options": ["wakes", "washes", "catches"], "answer": 0 },
+          { "sentence": "Then he ___ his face with cold water.", "options": ["combs", "washes", "eats"], "answer": 1 },
+          { "sentence": "He gets ___ quickly — where is that sock?!", "options": ["dressed", "breakfast", "bus"], "answer": 0 },
+          { "sentence": "He has ___ : bread with jam and milk.", "options": ["a towel", "breakfast", "a comb"], "answer": 1 },
+          { "sentence": "At eight he ___ the school bus.", "options": ["catches", "brushes", "dries"], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to Mateo's crazy morning. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "movers/u04-c.mp3",
+      "data": { "voice_note": "Voces: Valentina (narradora) y Mateo (con sueño).",
+        "script": "Valentina: Tell us about your morning, Mateo! … Mateo: I wake up at seven, when Luna jumps on my bed. … Mateo: I wash my face and brush my teeth for two minutes. … Mateo: Then the problem: today I found one blue sock and one red sock! … Valentina: So what did you wear? … Mateo: Both! Nobody looks at socks. … Mateo: I had bread with honey for breakfast and ran to the bus. … Valentina: And you caught it? … Mateo: Yes! The driver knows me. He always waits ten extra seconds.",
+        "questions": [
+          { "q": "Mateo wakes up when … jumps on his bed.", "answer": "Luna" },
+          { "q": "He brushes his teeth for two …", "answer": "minutes" },
+          { "q": "He found one blue sock and one … sock.", "answer": "red" },
+          { "q": "For breakfast he had bread with …", "answer": "honey" },
+          { "q": "The driver waits ten extra …", "answer": "seconds" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "You dry your hands with a …", "options": ["towel", "comb", "spoon"], "answer": 0 },
+          { "sentence": "She ___ her hair every morning.", "options": ["combs", "comb", "combing"], "answer": 0 },
+          { "sentence": "The first meal of the day is …", "options": ["dinner", "breakfast", "lunch"], "answer": 1 },
+          { "sentence": "I get ___ before school: shirt, trousers, shoes.", "options": ["dressed", "washed", "up"], "answer": 0 },
+          { "sentence": "\"Hurry or you'll miss the ___!\"", "options": ["bus", "towel", "sock"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Mime your morning routine step by step. Your partner says each action: \"You wake up! You brush your teeth!\" Then swap. Who has the funniest routine?" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Write your morning in 5 steps: First I wake up at… Then I… Draw a clock next to each step." } ]
+}

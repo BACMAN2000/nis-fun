@@ -1,0 +1,53 @@
+{
+  "id": "flyers-51", "level": "flyers", "number": 51,
+  "title": "All about you", "topic": "personal questions",
+  "grammar": "preguntas personales (repaso Speaking)",
+  "wordlist": ["surname", "age", "hometown", "favourite", "hobby", "family", "pet", "subject", "wish", "yourself"],
+  "exam_focus": { "paper": "Speaking", "part": 4, "skill": "personal questions" },
+  "characters": ["diego", "kili"],
+  "scene": { "speaker": "diego", "pose": { "diego": 3, "kili": 1 },
+    "bubble": "The examiner will ask about YOU: your family, your hobbies, your school. Let's practise with my microphone!" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the question with the topic.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Question", "right_label": "Topic",
+        "pairs": [
+          { "left": "What's your surname?", "right": "your name" },
+          { "left": "How old are you?", "right": "your age" },
+          { "left": "Who do you live with?", "right": "your family" },
+          { "left": "What do you do after school?", "right": "your hobbies" },
+          { "left": "Have you got any animals at home?", "right": "your pets" },
+          { "left": "What's your favourite subject?", "right": "your school" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Choose the best answer for the examiner.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the best, most complete answer.",
+        "items": [
+          { "sentence": "\"Tell me about your family.\"", "options": ["I live with my parents and my little sister.", "Yes.", "At half past two."], "answer": 0 },
+          { "sentence": "\"What do you do at the weekend?\"", "options": ["I usually play football and visit my grandma.", "Blue.", "It's too heavy."], "answer": 0 },
+          { "sentence": "\"What's your favourite subject?\"", "options": ["Science, because we do experiments.", "No, she isn't.", "By tram."], "answer": 0 },
+          { "sentence": "\"Have you got a pet?\"", "options": ["Yes, a cat called Misha. She's very lazy!", "It's opposite the bank.", "Ninety-two spoons."], "answer": 0 },
+          { "sentence": "\"What did you do yesterday?\"", "options": ["I did my homework and then watched a film.", "Perhaps.", "The most beautiful."], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to the practice interview. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "flyers/u51-c.mp3",
+      "data": { "voice_note": "Voces: Diego (examinador) y una alumna (Carla, tímida pero valiente).",
+        "script": "Diego: Practice exam! What's your name and surname? … Carla: My name is Carla Quispe. … Diego: How old are you, Carla? … Carla: I'm eleven. My birthday was in June. … Diego: Tell me about your family. … Carla: I live with my mum, my grandpa and my two brothers. … Diego: What do you like doing after school? … Carla: I love drawing. I draw animals — mostly llamas! … Diego: And what do you want to be in the future? … Carla: An artist… or maybe a vet for llamas. … Diego: Perfect answers, Carla! The real exam will be easy for you.",
+        "questions": [
+          { "q": "Carla's surname is …", "answer": "Quispe" },
+          { "q": "Her birthday was in …", "answer": "June" },
+          { "q": "She lives with her mum, her grandpa and two …", "answer": "brothers" },
+          { "q": "She loves drawing … mostly.", "answer": "llamas" },
+          { "q": "She wants to be an artist or a … for llamas.", "answer": "vet" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "Your family name is your …", "options": ["surname", "hobby", "age"], "answer": 0 },
+          { "sentence": "The town where you were born is your …", "options": ["hometown", "homework", "household"], "answer": 0 },
+          { "sentence": "\"How ___ are you?\" — \"I'm twelve.\"", "options": ["old", "much", "long"], "answer": 0 },
+          { "sentence": "Talk about ___ : your likes, your family, your school.", "options": ["yourself", "himself", "itself"], "answer": 0 },
+          { "sentence": "\"What's your ___ colour?\" — \"Green!\"", "options": ["favourite", "heaviest", "worst"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Full exam simulation: Student A is the examiner with the 6 questions from activity A. Student B answers with COMPLETE sentences (2 ideas per answer). Then swap. Time it: 3 minutes each!" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Write your own introduction card: name, age, family, hobby, favourite subject and one wish. 6 sentences — memorise it for the exam!" } ]
+}

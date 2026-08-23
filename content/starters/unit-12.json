@@ -1,0 +1,52 @@
+{
+  "id": "starters-12", "level": "starters", "number": 12,
+  "title": "Food I like", "topic": "food",
+  "grammar": "I like… / I don't like…",
+  "wordlist": ["bread", "cheese", "egg", "rice", "chicken", "fish", "cake", "ice cream", "pizza", "yummy"],
+  "exam_focus": { "paper": "Listening", "part": 4, "skill": "food words" },
+  "characters": ["tomas", "nico"],
+  "scene": { "speaker": "tomas", "pose": { "tomas": 3, "nico": 1 },
+    "bubble": "Lunch time! I like chicken and rice. Nico likes pizza. Pip likes… everything!" },
+  "activities": [
+    { "code": "A", "type": "crossword", "title": "Write the food words.",
+      "outputs": ["book", "digital"],
+      "data": { "words": [
+        { "word": "BREAD", "clue": "You eat it with butter or cheese." },
+        { "word": "EGG", "clue": "It is white outside and yellow inside." },
+        { "word": "RICE", "clue": "Small and white. Very popular in Peru!" },
+        { "word": "CAKE", "clue": "Sweet! You eat it on your birthday." },
+        { "word": "PIZZA", "clue": "Round, with cheese and tomato on top." } ] } },
+    { "code": "B", "type": "match_words", "title": "Match the food with its friend.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Food", "right_label": "Goes with…",
+        "pairs": [
+          { "left": "bread", "right": "butter and jam" },
+          { "left": "rice", "right": "chicken" },
+          { "left": "fish", "right": "lemon" },
+          { "left": "cake", "right": "birthday candles" },
+          { "left": "ice cream", "right": "a hot summer day" },
+          { "left": "eggs", "right": "breakfast time" } ] } },
+    { "code": "C", "type": "listening", "title": "Listen at lunch. Write a word in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "starters/u12-c.mp3",
+      "data": { "voice_note": "Voces: Tomás y Nico (almorzando).",
+        "script": "Tomas: Lunch time! I have chicken and rice. Yummy! … Nico: I have pizza. My favourite! … Tomas: Do you like fish, Nico? … Nico: Yes! With lemon. But I don't like eggs. … Tomas: Astrid has cheese sandwiches and an apple. … Nico: And Freya has soup. It's orange — pumpkin soup! … Tomas: Look at Pip. He wants my rice! … Nico: Pip likes everything. Everything!",
+        "questions": [
+          { "q": "Tomás has chicken and …", "answer": "rice" },
+          { "q": "Nico has …", "answer": "pizza" },
+          { "q": "Nico doesn't like …", "answer": "eggs" },
+          { "q": "Freya's soup is … soup.", "answer": "pumpkin" },
+          { "q": "Pip wants Tomás's …", "answer": "rice" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "I ___ ice cream. It's my favourite!", "options": ["like", "likes", "am"], "answer": 0 },
+          { "sentence": "He ___ like fish.", "options": ["doesn't", "don't", "isn't"], "answer": 0 },
+          { "sentence": "On my birthday I eat …", "options": ["cake", "soup", "rice"], "answer": 0 },
+          { "sentence": "Pizza has cheese and ___ on top.", "options": ["tomato", "ice cream", "cake"], "answer": 0 },
+          { "sentence": "\"Do you like bread?\" — \"Yes, I ___!\"", "options": ["do", "am", "like do"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Food interview: ask 4 questions (\"Do you like…?\"). Then tell the class one thing: \"Ana likes pizza but she doesn't like fish.\"" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Draw your favourite plate of food. Write: I like… I don't like… (4 sentences)." } ]
+}

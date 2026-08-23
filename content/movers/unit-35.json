@@ -1,0 +1,53 @@
+{
+  "id": "movers-35", "level": "movers", "number": 35,
+  "title": "Whose toys?", "topic": "possessives",
+  "grammar": "posesivo 's + Whose",
+  "wordlist": ["whose", "mine", "yours", "toy", "robot", "kite", "ball", "doll", "game", "owner"],
+  "exam_focus": { "paper": "Listening", "part": 1, "skill": "identify objects" },
+  "characters": ["mateo", "sofia"],
+  "scene": { "speaker": "sofia", "pose": { "sofia": 4, "mateo": 3 },
+    "bubble": "Toy sale for the school garden! Everything on this table needs a price… and first, an owner!" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the toy with its owner.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Toy", "right_label": "Owner",
+        "pairs": [
+          { "left": "the blue robot", "right": "It's Erik's, of course." },
+          { "left": "the orange kite", "right": "It's Sofia's." },
+          { "left": "the story books", "right": "They're Valentina's." },
+          { "left": "the old football", "right": "It's Mateo's." },
+          { "left": "the rubber bone", "right": "It's Luna's — not for sale!" },
+          { "left": "the puzzle of 500 pieces", "right": "It's the whole club's." } ] } },
+    { "code": "B", "type": "exam_task", "title": "Choose the correct possessive.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Complete each sentence.",
+        "items": [
+          { "sentence": "___ kite is this? — It's Sofia's.", "options": ["Whose", "Who", "Which"], "answer": 0 },
+          { "sentence": "This robot isn't yours, it's ___!", "options": ["mine", "my", "me"], "answer": 0 },
+          { "sentence": "Is this ball ___, Mateo?", "options": ["yours", "your", "you"], "answer": 0 },
+          { "sentence": "That's my ___ doll — she's had it for years.", "options": ["sister's", "sisters", "sister"], "answer": 0 },
+          { "sentence": "The bone belongs to Luna. She is the …", "options": ["owner", "seller", "driver"], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen at the toy sale. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "movers/u35-c.mp3",
+      "data": { "voice_note": "Voces: Sofía (vendedora) y Mateo (etiquetando).",
+        "script": "Sofia: Toy sale for the school garden! Everything must have a price tag. … Mateo: Whose robot is this? The blue one with one arm. … Sofia: Erik's! He says two soles — the arm is in the box. … Mateo: These five story books are Valentina's. One sol each. … Sofia: My old kite goes for three soles. It still flies! … Mateo: And this rubber bone? … Sofia: Careful! That's Luna's. NOT for sale. She's watching us. … Mateo: Total after one hour: twenty-eight soles for the garden!",
+        "questions": [
+          { "q": "The blue robot has one …", "answer": "arm" },
+          { "q": "Erik's robot costs two …", "answer": "soles" },
+          { "q": "Valentina sells … story books.", "answer": "five" },
+          { "q": "The rubber bone is …'s.", "answer": "Luna" },
+          { "q": "They made twenty-… soles for the garden.", "answer": "eight" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "\"___ pencil is on the floor?\" — \"It's Ana's.\"", "options": ["Whose", "Who's the", "Which of"], "answer": 0 },
+          { "sentence": "This is Erik's robot. It's ___ favourite toy.", "options": ["his", "her", "its owner"], "answer": 0 },
+          { "sentence": "That doll is my sister's. It's ___.", "options": ["hers", "her", "she"], "answer": 0 },
+          { "sentence": "The classroom games are ___ — they belong to all of us.", "options": ["ours", "mine", "theirs only"], "answer": 0 },
+          { "sentence": "The person a thing belongs to is its …", "options": ["owner", "winner", "driver"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Whose is it? Collect 5 small objects from classmates (with permission). Your partner guesses the owner of each: \"I think it's Marco's.\" Check and return everything!" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Write about 5 things at home and their owners: The red cup is my dad's…" } ]
+}

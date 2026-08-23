@@ -1,0 +1,53 @@
+{
+  "id": "movers-14", "level": "movers", "number": 14,
+  "title": "After school", "topic": "free time",
+  "grammar": "like + -ing",
+  "wordlist": ["play outside", "ride a bike", "read", "draw", "watch TV", "video game", "skateboard", "kite", "park", "fun"],
+  "exam_focus": { "paper": "Listening", "part": 3, "skill": "matching" },
+  "characters": ["mateo", "erik"],
+  "scene": { "speaker": "mateo", "pose": { "mateo": 1, "erik": 3 },
+    "bubble": "The best hour of the day: after school! Bikes, the park, and Luna running behind us." },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the activity with where you do it.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Activity", "right_label": "Where",
+        "pairs": [
+          { "left": "riding a bike", "right": "on the cycle path" },
+          { "left": "flying a kite", "right": "in the windy park" },
+          { "left": "reading comics", "right": "in a quiet corner" },
+          { "left": "playing video games", "right": "at home, one hour only" },
+          { "left": "skateboarding", "right": "at the skate park" },
+          { "left": "drawing", "right": "anywhere with paper" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Choose the correct -ing form.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Complete each sentence.",
+        "items": [
+          { "sentence": "I like ___ my bike by the river.", "options": ["riding", "ride", "rode"], "answer": 0 },
+          { "sentence": "She loves ___ dragons and castles.", "options": ["drawing", "draw", "draws"], "answer": 0 },
+          { "sentence": "They enjoy ___ football after school.", "options": ["playing", "play", "played"], "answer": 0 },
+          { "sentence": "He doesn't like ___ TV in the morning.", "options": ["watching", "watch", "watches"], "answer": 0 },
+          { "sentence": "We love ___ our kite on the hill.", "options": ["flying", "fly", "flew"], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen. What does everyone do after school? Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "movers/u14-c.mp3",
+      "data": { "voice_note": "Voces: Mateo (feliz) y Erik (con agenda).",
+        "script": "Erik: After-school report! Monday and Wednesday I build my robots. … Mateo: I ride my bike every day. Yesterday I rode around the lake twice! … Erik: Valentina reads in the library on Tuesdays. She reads four books every month. … Mateo: Sofia flies her kite when it's windy. The orange one with a long tail. … Erik: And on Fridays we all meet at the park at four o'clock. … Mateo: With Luna! She catches the ball better than all of us. … Erik: Free time: officially the best time.",
+        "questions": [
+          { "q": "Erik builds robots on Monday and …", "answer": "Wednesday" },
+          { "q": "Mateo rode around the lake … yesterday.", "answer": "twice" },
+          { "q": "Valentina reads four … every month.", "answer": "books" },
+          { "q": "Sofía's kite is orange with a long …", "answer": "tail" },
+          { "q": "On Fridays they meet at the park at … o'clock.", "answer": "four" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "You fly a ___ on a windy day.", "options": ["kite", "bike", "book"], "answer": 0 },
+          { "sentence": "A board with four wheels is a …", "options": ["skateboard", "kite", "ruler"], "answer": 0 },
+          { "sentence": "Children play outside in the …", "options": ["park", "fridge", "wardrobe"], "answer": 0 },
+          { "sentence": "\"What do you do after school?\" — \"I ___ my bike.\"", "options": ["ride", "riding", "rides"], "answer": 0 },
+          { "sentence": "Something you enjoy a lot is …", "options": ["fun", "flat", "full"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Find 2 things you BOTH like doing after school and 1 thing only one of you likes. Report: \"We both like… but only Ana likes…\"" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Write your perfect afternoon: 5 sentences with like/love + -ing." } ]
+}

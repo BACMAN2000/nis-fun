@@ -1,0 +1,52 @@
+{
+  "id": "starters-11", "level": "starters", "number": 11,
+  "title": "In my bedroom", "topic": "bedroom",
+  "grammar": "There is… + colores",
+  "wordlist": ["bed", "lamp", "toy box", "picture", "clock", "cupboard", "pillow", "blanket", "shelf", "rug"],
+  "exam_focus": { "paper": "Reading & Writing", "part": 2, "skill": "sentences about a picture" },
+  "characters": ["freya", "pip"],
+  "scene": { "speaker": "freya", "pose": { "freya": 1, "pip": 6 },
+    "bubble": "My bedroom is my little world: my bed, my books, my toy box… and Pip sleeping on my pillow!" },
+  "activities": [
+    { "code": "A", "type": "crossword", "title": "Write the bedroom words.",
+      "outputs": ["book", "digital"],
+      "data": { "words": [
+        { "word": "BED", "clue": "You sleep on it." },
+        { "word": "LAMP", "clue": "It gives you light at night." },
+        { "word": "CLOCK", "clue": "It tells the time. Tick tock!" },
+        { "word": "PILLOW", "clue": "Your head sleeps on it." },
+        { "word": "SHELF", "clue": "Your books stand on it." } ] } },
+    { "code": "B", "type": "match_words", "title": "Match the thing with its place.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Thing", "right_label": "Place",
+        "pairs": [
+          { "left": "the pillow", "right": "on the bed" },
+          { "left": "the lamp", "right": "next to the bed" },
+          { "left": "the toys", "right": "in the toy box" },
+          { "left": "the picture", "right": "on the wall" },
+          { "left": "the rug", "right": "on the floor" },
+          { "left": "the clothes", "right": "in the cupboard" } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to Freya's bedroom. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "starters/u11-c.mp3",
+      "data": { "voice_note": "Voces: Freya (mostrando) y Tomás (curioso).",
+        "script": "Freya: This is my bedroom! My bed has a pink blanket. … Tomas: And what a big toy box! … Freya: There are twenty toys inside. My favourite is the little boat. … Tomas: What is on the wall? … Freya: A picture of the lighthouse. Grandpa painted it! … Tomas: And on the shelf? … Freya: My books. Seven books! … Tomas: And who is sleeping on your pillow?! … Freya: Pip! Every afternoon. It's his favourite place.",
+        "questions": [
+          { "q": "The blanket is …", "answer": "pink" },
+          { "q": "There are … toys in the box.", "answer": "twenty" },
+          { "q": "The picture shows the …", "answer": "lighthouse" },
+          { "q": "There are … books on the shelf.", "answer": "seven" },
+          { "q": "… sleeps on the pillow.", "answer": "Pip" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "At night I turn on my …", "options": ["lamp", "pillow", "rug"], "answer": 0 },
+          { "sentence": "There ___ a clock on the wall.", "options": ["is", "are", "am"], "answer": 0 },
+          { "sentence": "Your head sleeps on the …", "options": ["pillow", "shelf", "clock"], "answer": 0 },
+          { "sentence": "The toys live in the toy …", "options": ["box", "bed", "wall"], "answer": 0 },
+          { "sentence": "When it is cold, I sleep under my …", "options": ["blanket", "lamp", "picture"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Describe your bedroom with 4 sentences (There is… / My bed is…). Your partner draws it fast. Show and laugh together!" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Write 5 sentences about your bedroom with There is / colours: There is a blue lamp…" } ]
+}

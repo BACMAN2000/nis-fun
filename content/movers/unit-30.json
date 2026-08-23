@@ -1,0 +1,53 @@
+{
+  "id": "movers-30", "level": "movers", "number": 30,
+  "title": "Bigger and smaller", "topic": "comparatives",
+  "grammar": "comparativos con -er + than",
+  "wordlist": ["bigger", "smaller", "taller", "shorter", "faster", "slower", "older", "younger", "longer", "than"],
+  "exam_focus": { "paper": "Reading & Writing", "part": 6, "skill": "gapped sentences" },
+  "characters": ["erik", "valentina"],
+  "scene": { "speaker": "erik", "pose": { "erik": 2, "valentina": 1 },
+    "bubble": "Science of sizes! My robot is smaller than Luna, but Luna is faster than my robot. Data collected!" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the opposites.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Comparative", "right_label": "Opposite",
+        "pairs": [
+          { "left": "bigger", "right": "smaller" },
+          { "left": "taller", "right": "shorter" },
+          { "left": "faster", "right": "slower" },
+          { "left": "older", "right": "younger" },
+          { "left": "longer", "right": "shorter in length" },
+          { "left": "heavier", "right": "lighter" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Choose the correct comparative.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Complete each sentence.",
+        "items": [
+          { "sentence": "An elephant is ___ than a horse.", "options": ["bigger", "big", "biggest"], "answer": 0 },
+          { "sentence": "A mouse is ___ than a cat.", "options": ["smaller", "small", "smallest"], "answer": 0 },
+          { "sentence": "My brother is two years ___ than me.", "options": ["older", "old", "oldest"], "answer": 0 },
+          { "sentence": "A bike is ___ than a plane.", "options": ["slower", "slow", "slowest"], "answer": 0 },
+          { "sentence": "The river is longer ___ the street.", "options": ["than", "that", "then"], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to the measuring day. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "movers/u30-c.mp3",
+      "data": { "voice_note": "Voces: Erik (con la cinta métrica) y Valentina (anotando).",
+        "script": "Erik: Measuring day! Valentina, you are one metre forty. … Valentina: And you are one metre thirty-eight. I'm taller than you! … Erik: Only by two centimetres! Now the jump test. … Valentina: Mateo jumped one metre — he's the best jumper. … Erik: And in the race, Sofia was faster than everyone. Eight seconds! … Valentina: What about Luna? … Erik: Luna is faster than Sofia. But she doesn't follow the rules — she starts before the whistle! … Valentina: Conclusion: everyone is the best at something!",
+        "questions": [
+          { "q": "Valentina is one metre …", "answer": "forty" },
+          { "q": "She is taller by two …", "answer": "centimetres" },
+          { "q": "Mateo jumped one …", "answer": "metre" },
+          { "q": "Sofía ran the race in eight …", "answer": "seconds" },
+          { "q": "Luna starts before the …", "answer": "whistle" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "A giraffe is ___ than a sheep.", "options": ["taller", "shorter", "younger"], "answer": 0 },
+          { "sentence": "A train is ___ than a bike.", "options": ["faster", "slower", "smaller"], "answer": 0 },
+          { "sentence": "Grandpa is ___ than Dad.", "options": ["older", "younger", "taller"], "answer": 0 },
+          { "sentence": "A snake is ___ than a worm.", "options": ["longer", "shorter", "slower"], "answer": 0 },
+          { "sentence": "My bag is heavy, but yours is ___!", "options": ["heavier", "heavy", "heaviest"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Compare 5 things on your desks: \"My pencil is longer than yours. Your book is heavier…\" Check each one — is it true?" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Compare yourself with someone in your family: 5 sentences with -er than (taller, older, faster…)." } ]
+}

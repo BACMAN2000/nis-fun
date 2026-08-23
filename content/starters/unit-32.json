@@ -1,0 +1,53 @@
+{
+  "id": "starters-32", "level": "starters", "number": 32,
+  "title": "Days of fun", "topic": "days",
+  "grammar": "on + día",
+  "wordlist": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday", "week", "today", "tomorrow"],
+  "exam_focus": { "paper": "Reading & Writing", "part": 1, "skill": "days" },
+  "characters": ["astrid", "nico"],
+  "scene": { "speaker": "astrid", "pose": { "astrid": 2, "nico": 1 },
+    "bubble": "Seven days, seven plans! My favourite is Saturday — pancakes and park with the whole family." },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the day with the plan.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Day", "right_label": "Plan",
+        "pairs": [
+          { "left": "on Monday", "right": "swimming class" },
+          { "left": "on Wednesday", "right": "library books" },
+          { "left": "on Friday", "right": "games at the club" },
+          { "left": "on Saturday", "right": "pancakes and park" },
+          { "left": "on Sunday", "right": "lunch at grandma's" },
+          { "left": "every day", "right": "play with Pip" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Choose the correct day.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Complete each sentence.",
+        "items": [
+          { "sentence": "The first school day is …", "options": ["Monday", "Sunday", "Friday"], "answer": 0 },
+          { "sentence": "After Tuesday comes …", "options": ["Wednesday", "Monday", "Sunday"], "answer": 0 },
+          { "sentence": "The weekend days are Saturday and …", "options": ["Sunday", "Monday", "Friday"], "answer": 0 },
+          { "sentence": "My party is ___ Saturday.", "options": ["on", "in", "at"], "answer": 0 },
+          { "sentence": "A week has ___ days.", "options": ["seven", "five", "ten"], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to the week song. Write a day in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "starters/u32-c.mp3",
+      "data": { "voice_note": "Voces: Astrid (cantando la semana) y Nico (acompañando).",
+        "script": "Astrid: The week song! Monday — school and swimming. … Nico: Tuesday — football at break! … Astrid: Wednesday — library day. New books! … Nico: Thursday — Grandpa visits with cookies. … Astrid: Friday — club day at the lighthouse! … Nico: Saturday — pancakes and park! … Astrid: And Sunday — family day, slow and happy. … Nico: Seven days, seven smiles!",
+        "questions": [
+          { "q": "Swimming is on …", "answer": "Monday" },
+          { "q": "Library day is on …", "answer": "Wednesday" },
+          { "q": "Grandpa visits on …", "answer": "Thursday" },
+          { "q": "Club day is on …", "answer": "Friday" },
+          { "q": "Pancakes day is on …", "answer": "Saturday" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "Yesterday, ___, tomorrow.", "options": ["today", "Sunday", "week"], "answer": 0 },
+          { "sentence": "Before Friday comes …", "options": ["Thursday", "Saturday", "Monday"], "answer": 0 },
+          { "sentence": "If today is Saturday, tomorrow is …", "options": ["Sunday", "Friday", "Monday"], "answer": 0 },
+          { "sentence": "School days are Monday to …", "options": ["Friday", "Sunday", "Saturday"], "answer": 0 },
+          { "sentence": "Seven days make a …", "options": ["week", "day", "year"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Say the days in order, taking turns, faster each time. Then ask: \"What do you do on Saturday?\" — two questions each." } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Write your week: one thing for each day. On Monday I… (7 short sentences)." } ]
+}

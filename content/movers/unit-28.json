@@ -1,0 +1,53 @@
+{
+  "id": "movers-28", "level": "movers", "number": 28,
+  "title": "Yesterday's adventure", "topic": "irregular pasts",
+  "grammar": "pasado irregular: went, saw, had, got, came",
+  "wordlist": ["went", "saw", "had", "got", "came", "took", "found", "made", "said", "adventure"],
+  "exam_focus": { "paper": "Listening", "part": 2, "skill": "note-taking" },
+  "characters": ["mateo", "sofia"],
+  "scene": { "speaker": "mateo", "pose": { "mateo": 1, "sofia": 5 },
+    "bubble": "Yesterday Luna found something in the park… and that's how our small adventure began!" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the verb with its irregular past.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Verb", "right_label": "Past",
+        "pairs": [
+          { "left": "go", "right": "went" },
+          { "left": "see", "right": "saw" },
+          { "left": "have", "right": "had" },
+          { "left": "come", "right": "came" },
+          { "left": "take", "right": "took" },
+          { "left": "find", "right": "found" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Choose the correct past form.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Complete each sentence.",
+        "items": [
+          { "sentence": "Yesterday we ___ to the park after school.", "options": ["went", "go", "goed"], "answer": 0 },
+          { "sentence": "Luna ___ an old key in the grass!", "options": ["found", "find", "finded"], "answer": 0 },
+          { "sentence": "We ___ a map on the back of the key ring.", "options": ["saw", "see", "seed"], "answer": 0 },
+          { "sentence": "Erik ___ his torch and we followed the map.", "options": ["took", "take", "taked"], "answer": 0 },
+          { "sentence": "The adventure ___ a happy ending!", "options": ["had", "have", "haved"], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to the key adventure. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "movers/u28-c.mp3",
+      "data": { "voice_note": "Voces: Mateo (narrador de la aventura) y Sofía (co-protagonista).",
+        "script": "Mateo: Yesterday at four, Luna found an old key under the park bench. … Sofia: It had a little label: Boat House Number Nine. … Mateo: So we went to the lake and found boat house nine. … Sofia: Inside there was an old rowing boat… full of flower pots! … Mateo: Then an old man came. It was Mr Torres, the gardener! … Sofia: He lost the key two weeks ago. The boat house is his little garden. … Mateo: He said thank you and gave us a bag of strawberries. … Sofia: Small adventure, sweet ending!",
+        "questions": [
+          { "q": "Luna found the key under the park …", "answer": "bench" },
+          { "q": "The label said Boat House Number …", "answer": "Nine" },
+          { "q": "The old boat was full of flower …", "answer": "pots" },
+          { "q": "Mr Torres is the …", "answer": "gardener" },
+          { "q": "He gave them a bag of …", "answer": "strawberries" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "She ___ to my party last Saturday.", "options": ["came", "come", "comed"], "answer": 0 },
+          { "sentence": "I ___ my homework before dinner.", "options": ["made", "maked", "make"], "answer": 0 },
+          { "sentence": "\"Thank you!\" he ___.", "options": ["said", "say", "sayed"], "answer": 0 },
+          { "sentence": "We ___ a beautiful rainbow after the rain.", "options": ["saw", "see", "seen"], "answer": 0 },
+          { "sentence": "An exciting story that happens to you is an …", "options": ["adventure", "answer", "address"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Invent a mini adventure in 6 sentences using went, saw, found, took, came, said. Tell it to another pair — best adventure wins!" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Write a real or invented adventure of your pet (or a neighbour's pet) with 5 irregular pasts." } ]
+}

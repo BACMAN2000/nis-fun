@@ -1,0 +1,53 @@
+{
+  "id": "starters-40", "level": "starters", "number": 40,
+  "title": "The alphabet", "topic": "letters",
+  "grammar": "el abecedario",
+  "wordlist": ["alphabet", "letter", "first", "last", "big letter", "small letter", "A", "B", "Z", "sing"],
+  "exam_focus": { "paper": "Reading & Writing", "part": 1, "skill": "letters" },
+  "characters": ["freya", "pip"],
+  "scene": { "speaker": "freya", "pose": { "freya": 1, "pip": 3 },
+    "bubble": "A-B-C-D… the alphabet song! Twenty-six letters, one big song, and Pip whistling along!" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the letter with the word that starts with it.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Letter", "right_label": "Word",
+        "pairs": [
+          { "left": "A", "right": "apple" },
+          { "left": "B", "right": "ball" },
+          { "left": "C", "right": "cat" },
+          { "left": "D", "right": "dog" },
+          { "left": "S", "right": "sun" },
+          { "left": "Z", "right": "zoo" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Choose the correct letter fact.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Complete each sentence.",
+        "items": [
+          { "sentence": "The first letter of the alphabet is …", "options": ["A", "B", "Z"], "answer": 0 },
+          { "sentence": "The last letter is …", "options": ["Z", "Y", "A"], "answer": 0 },
+          { "sentence": "The alphabet has twenty-six …", "options": ["letters", "numbers", "colours"], "answer": 0 },
+          { "sentence": "Names start with a ___ letter.", "options": ["big", "small", "blue"], "answer": 0 },
+          { "sentence": "After A and B comes …", "options": ["C", "D", "E"], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to the letter game. Write a letter or word in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "starters/u40-c.mp3",
+      "data": { "voice_note": "Voces: Freya (juego de letras) y Nico (jugando).",
+        "script": "Freya: Letter game! I say a letter, you say a word. B! … Nico: Ball! … Freya: Great! Now… M! … Nico: Monkey! … Freya: S! … Nico: Sun! No wait — snake! Two words! … Freya: Double point! Last letter: P! … Nico: PIP! … Freya: Perfect! Pip starts with P. The happiest letter!",
+        "questions": [
+          { "q": "For B, Nico says …", "answer": "ball" },
+          { "q": "For M, he says …", "answer": "monkey" },
+          { "q": "For S he says sun and …", "answer": "snake" },
+          { "q": "The last letter of the game is …", "answer": "P" },
+          { "q": "P is for …!", "answer": "PIP" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "Dog starts with the letter …", "options": ["D", "B", "G"], "answer": 0 },
+          { "sentence": "Cat ends with the letter …", "options": ["T", "C", "A"], "answer": 0 },
+          { "sentence": "A, E, I, O, U are special …", "options": ["letters", "numbers", "animals"], "answer": 0 },
+          { "sentence": "\"Freya\" starts with a ___ F.", "options": ["big", "small", "green"], "answer": 0 },
+          { "sentence": "We ___ the alphabet song together.", "options": ["sing", "eat", "wash"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Letter game: say a letter, your partner says a word that starts with it. Five letters each — no repeating words!" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Write the alphabet in big letters and circle the letters of your name." } ]
+}

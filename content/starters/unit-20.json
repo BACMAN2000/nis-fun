@@ -1,0 +1,53 @@
+{
+  "id": "starters-20", "level": "starters", "number": 20,
+  "title": "My friends", "topic": "friends",
+  "grammar": "His name is… / Her name is…",
+  "wordlist": ["friend", "his", "her", "name", "play", "share", "kind", "funny", "together", "best"],
+  "exam_focus": { "paper": "Listening", "part": 1, "skill": "names" },
+  "characters": ["tomas", "freya"],
+  "scene": { "speaker": "tomas", "pose": { "tomas": 1, "freya": 1 },
+    "bubble": "This is my best friend Nico. His jokes are terrible… and that's why we laugh so much!" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the friend with the description.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Friend", "right_label": "Description",
+        "pairs": [
+          { "left": "Freya", "right": "Her hair is yellow. She asks questions." },
+          { "left": "Nico", "right": "His jokes are funny. He smiles a lot." },
+          { "left": "Astrid", "right": "Her desk is always tidy." },
+          { "left": "Tomás", "right": "His football is always with him." },
+          { "left": "Pip", "right": "His home is the lighthouse." },
+          { "left": "a good friend", "right": "shares and helps" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Choose his or her.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Complete each sentence.",
+        "items": [
+          { "sentence": "This is Nico. ___ name is Nico.", "options": ["His", "Her", "My"], "answer": 0 },
+          { "sentence": "This is Freya. ___ hair is yellow.", "options": ["Her", "His", "Its"], "answer": 0 },
+          { "sentence": "That is my teacher. ___ name is Miss Lily.", "options": ["Her", "His", "You"], "answer": 0 },
+          { "sentence": "My friend shares ___ crayons with me.", "options": ["his", "he", "him"], "answer": 0 },
+          { "sentence": "A friend who helps is …", "options": ["kind", "cold", "blue"], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen. Who are the new friends? Write a name or word in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "starters/u20-c.mp3",
+      "data": { "voice_note": "Voces: Tomás y Freya (presentando amigos).",
+        "script": "Tomas: This is my new friend. His name is Leo. He plays football very well! … Freya: And this is Emma. Her name is on her bag — E-M-M-A. … Tomas: Leo's favourite colour is green, like his cap. … Freya: Emma has got a little dog. Its name is Toto. … Tomas: We all play together at break. … Freya: Friends make school the best place!",
+        "questions": [
+          { "q": "The new boy's name is …", "answer": "Leo" },
+          { "q": "The new girl's name is …", "answer": "Emma" },
+          { "q": "Leo's cap is …", "answer": "green" },
+          { "q": "Emma's dog is called …", "answer": "Toto" },
+          { "q": "They all play together at …", "answer": "break" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "A person you play with is your …", "options": ["friend", "chair", "shoe"], "answer": 0 },
+          { "sentence": "Good friends ___ their toys.", "options": ["share", "hide", "eat"], "answer": 0 },
+          { "sentence": "This is Ana. ___ smile is big.", "options": ["Her", "His", "My"], "answer": 0 },
+          { "sentence": "This is Pedro. ___ bag is red.", "options": ["His", "Her", "Its"], "answer": 0 },
+          { "sentence": "My ___ friend makes me laugh.", "options": ["best", "cold", "wet"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Present your partner to another pair: \"This is… His/Her name is… He/She likes…\" Two sentences each!" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Draw your best friend and write 4 sentences: His/Her name is… He/She likes…" } ]
+}

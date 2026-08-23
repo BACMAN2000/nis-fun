@@ -1,0 +1,52 @@
+{
+  "id": "starters-28", "level": "starters", "number": 28,
+  "title": "The park", "topic": "playground",
+  "grammar": "Let's + jugar",
+  "wordlist": ["park", "slide", "swing", "tree", "bird", "flower", "bench", "grass", "play", "fun"],
+  "exam_focus": { "paper": "Listening", "part": 1, "skill": "park things" },
+  "characters": ["freya", "nico"],
+  "scene": { "speaker": "freya", "pose": { "freya": 1, "nico": 7 },
+    "bubble": "The park after school: the slide, the swings, the big tree… and one hour of pure fun!" },
+  "activities": [
+    { "code": "A", "type": "crossword", "title": "Write the park words.",
+      "outputs": ["book", "digital"],
+      "data": { "words": [
+        { "word": "SLIDE", "clue": "You go up the stairs and come down fast!" },
+        { "word": "SWING", "clue": "You sit and go up and down in the air." },
+        { "word": "TREE", "clue": "Big and green. Birds live in it." },
+        { "word": "BENCH", "clue": "Grandma sits here and watches." },
+        { "word": "GRASS", "clue": "Green and soft under your feet." } ] } },
+    { "code": "B", "type": "match_words", "title": "Match the place with the action.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Place", "right_label": "Action",
+        "pairs": [
+          { "left": "the slide", "right": "go down fast — wheee!" },
+          { "left": "the swings", "right": "fly up and down" },
+          { "left": "the grass", "right": "sit and have a snack" },
+          { "left": "the big tree", "right": "look for birds" },
+          { "left": "the path", "right": "ride your bike" },
+          { "left": "the bench", "right": "rest for a minute" } ] } },
+    { "code": "C", "type": "listening", "title": "Listen at the park. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "starters/u28-c.mp3",
+      "data": { "voice_note": "Voces: Freya y Nico (tarde de parque).",
+        "script": "Freya: The park! I love the red slide. … Nico: I'm on the swing! Higher, higher! … Freya: Look, five little birds in the big tree. … Nico: And Pip is talking to them. Bird meeting! … Freya: Let's have our snack on the grass. … Nico: Apples and biscuits. Perfect! … Freya: One more time on the slide before home? … Nico: Ten more times!",
+        "questions": [
+          { "q": "The slide is …", "answer": "red" },
+          { "q": "There are … little birds in the tree.", "answer": "five" },
+          { "q": "… is talking to the birds.", "answer": "Pip" },
+          { "q": "They have the snack on the …", "answer": "grass" },
+          { "q": "Nico wants … more times on the slide.", "answer": "ten" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "You go down the ___ very fast.", "options": ["slide", "bench", "tree"], "answer": 0 },
+          { "sentence": "Birds make their homes in …", "options": ["trees", "slides", "benches"], "answer": 0 },
+          { "sentence": "\"___ go to the park!\"", "options": ["Let's", "Lets", "Let"], "answer": 0 },
+          { "sentence": "You sit and fly on the …", "options": ["swing", "grass", "flower"], "answer": 0 },
+          { "sentence": "The park is full of ___ after school.", "options": ["fun", "beds", "desks"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Plan a park afternoon: each says 3 things with Let's… (\"Let's go on the slide!\"). Agree on the order: first, then, last." } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Draw your favourite park and label 5 things. Write: I like the… because…" } ]
+}

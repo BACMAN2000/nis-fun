@@ -1,0 +1,53 @@
+{
+  "id": "starters-21", "level": "starters", "number": 21,
+  "title": "Big and small", "topic": "adjectives",
+  "grammar": "adjetivos básicos",
+  "wordlist": ["big", "small", "long", "short", "old", "new", "clean", "dirty", "happy", "beautiful"],
+  "exam_focus": { "paper": "Reading & Writing", "part": 2, "skill": "sentences about pictures" },
+  "characters": ["nico", "pip"],
+  "scene": { "speaker": "nico", "pose": { "nico": 2, "pip": 1 },
+    "bubble": "The elephant is big, the mouse is small, my shoes are dirty… and Mum is not happy about that!" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the opposites.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Word", "right_label": "Opposite",
+        "pairs": [
+          { "left": "big", "right": "small" },
+          { "left": "long", "right": "short" },
+          { "left": "old", "right": "new" },
+          { "left": "clean", "right": "dirty" },
+          { "left": "happy", "right": "sad" },
+          { "left": "hot", "right": "cold" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Choose the correct adjective.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Complete each sentence.",
+        "items": [
+          { "sentence": "The elephant is ___ and the mouse is small.", "options": ["big", "short", "new"], "answer": 0 },
+          { "sentence": "The giraffe's neck is very …", "options": ["long", "dirty", "cold"], "answer": 0 },
+          { "sentence": "My shoes are ___ after football.", "options": ["dirty", "clean", "new"], "answer": 0 },
+          { "sentence": "Grandpa's radio is very …", "options": ["old", "young", "green"], "answer": 0 },
+          { "sentence": "The flowers are ___ — I love them!", "options": ["beautiful", "dirty", "sad"], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to the opposites game. Write a word in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "starters/u21-c.mp3",
+      "data": { "voice_note": "Voces: Nico (preguntando) y Astrid (respondiendo rápido).",
+        "script": "Nico: Opposites game! Big? … Astrid: Small! … Nico: Long? … Astrid: Short! Like Pip's legs. … Nico: Clean? … Astrid: Dirty! Like your shoes, Nico. … Nico: Hey! Okay… old? … Astrid: New! Like my yellow pencil. … Nico: Last one: sad? … Astrid: HAPPY! Like us, every day at break!",
+        "questions": [
+          { "q": "The opposite of big is …", "answer": "small" },
+          { "q": "Pip's legs are …", "answer": "short" },
+          { "q": "Nico's shoes are …", "answer": "dirty" },
+          { "q": "Astrid's new pencil is …", "answer": "yellow" },
+          { "q": "The opposite of sad is …", "answer": "happy" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "A mouse is …", "options": ["small", "big", "long"], "answer": 0 },
+          { "sentence": "After a bath, you are …", "options": ["clean", "dirty", "old"], "answer": 0 },
+          { "sentence": "A snake is …", "options": ["long", "short", "square"], "answer": 0 },
+          { "sentence": "My new toy is ___, not old.", "options": ["new", "dirty", "sad"], "answer": 0 },
+          { "sentence": "On my birthday I am very …", "options": ["happy", "sad", "cold"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Point and say: find things in class that are big, small, long, new. \"The board is big! Your pencil is short!\" Five each." } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Find at home: something big, something small, something old, something new. Write 4 sentences." } ]
+}

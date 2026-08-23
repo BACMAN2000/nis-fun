@@ -1,0 +1,53 @@
+{
+  "id": "movers-41", "level": "movers", "number": 41,
+  "title": "In the jungle", "topic": "wild animals",
+  "grammar": "adjetivos + presente",
+  "wordlist": ["jungle", "monkey", "snake", "tiger", "crocodile", "elephant", "dangerous", "wild", "hide", "climb"],
+  "exam_focus": { "paper": "Listening", "part": 5, "skill": "colour and write" },
+  "characters": ["erik", "sofia"],
+  "scene": { "speaker": "erik", "pose": { "erik": 5, "sofia": 2 },
+    "bubble": "Jungle documentary night! Sofia knows every animal — and I brought popcorn for scientific reasons." },
+  "activities": [
+    { "code": "A", "type": "crossword", "title": "Read the sentences and write the jungle animals.",
+      "outputs": ["book", "digital"],
+      "data": { "words": [
+        { "word": "MONKEY", "clue": "It climbs trees and loves bananas." },
+        { "word": "SNAKE", "clue": "Long, with no legs. It says sss!" },
+        { "word": "TIGER", "clue": "A big orange cat with black stripes." },
+        { "word": "CROCODILE", "clue": "Long, green, with big teeth. It swims in rivers." },
+        { "word": "ELEPHANT", "clue": "The biggest land animal, with a long nose." },
+        { "word": "JUNGLE", "clue": "A hot forest full of wild animals." } ] } },
+    { "code": "B", "type": "match_words", "title": "Match the animal with where it hides.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Animal", "right_label": "Where",
+        "pairs": [
+          { "left": "the monkey", "right": "high in the trees" },
+          { "left": "the snake", "right": "under the leaves" },
+          { "left": "the crocodile", "right": "in the brown river" },
+          { "left": "the tiger", "right": "in the tall grass" },
+          { "left": "the parrot", "right": "among the green branches" },
+          { "left": "the frog", "right": "on a big wet leaf" } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to the documentary. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "movers/u41-c.mp3",
+      "data": { "voice_note": "Voces: Sofía (narradora de documental) y Erik (público con palomitas).",
+        "script": "Sofia: Welcome to the jungle, the loudest place on Earth! … Sofia: The monkeys wake up first, at five in the morning. … Erik: Like my little brother! … Sofia: The tiger sleeps sixteen hours and hunts at night. … Sofia: The crocodile can wait in the water for two hours without moving. … Erik: Patience level: maximum. … Sofia: And the elephant family walks ten kilometres every day to find water. … Sofia: The jungle rule: everyone has a place, everyone has a job. … Erik: Beautiful! More popcorn?",
+        "questions": [
+          { "q": "The monkeys wake up at … in the morning.", "answer": "five" },
+          { "q": "The tiger sleeps … hours.", "answer": "sixteen" },
+          { "q": "The crocodile can wait two … without moving.", "answer": "hours" },
+          { "q": "The elephants walk ten … every day.", "answer": "kilometres" },
+          { "q": "They walk to find …", "answer": "water" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "A tiger is orange with black …", "options": ["stripes", "stars", "spots only"], "answer": 0 },
+          { "sentence": "An animal that is not a pet is …", "options": ["wild", "tidy", "polite"], "answer": 0 },
+          { "sentence": "Crocodiles are beautiful but …", "options": ["dangerous", "helpful", "quiet"], "answer": 0 },
+          { "sentence": "Monkeys ___ trees better than anyone.", "options": ["climb", "cook", "count"], "answer": 0 },
+          { "sentence": "To ___ is to go where nobody can see you.", "options": ["hide", "hop", "help"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Jungle guide: take your partner on an imaginary jungle walk. Point and describe 4 animals: \"Look! A snake is hiding under…\" Whisper — don't wake the tiger!" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Choose 3 jungle animals and write 2 sentences about each: where it lives, what it can do." } ]
+}

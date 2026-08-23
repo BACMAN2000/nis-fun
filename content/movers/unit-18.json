@@ -1,0 +1,53 @@
+{
+  "id": "movers-18", "level": "movers", "number": 18,
+  "title": "Dressed for winter", "topic": "clothes & weather",
+  "grammar": "It's + adjetivo, put on / take off",
+  "wordlist": ["coat", "hat", "sweater", "snow", "wind", "warm", "cool", "put on", "take off", "outside"],
+  "exam_focus": { "paper": "Listening", "part": 5, "skill": "colour and write" },
+  "characters": ["erik", "valentina"],
+  "scene": { "speaker": "erik", "pose": { "erik": 5, "valentina": 1 },
+    "bubble": "Snow day! Put on your coat, your hat, your gloves… and now nobody can move. Perfect." },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the weather with the clothes.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Weather", "right_label": "Clothes",
+        "pairs": [
+          { "left": "It's snowing.", "right": "put on your big coat" },
+          { "left": "It's windy.", "right": "hold your hat!" },
+          { "left": "It's cool.", "right": "a light sweater is enough" },
+          { "left": "It's hot inside.", "right": "take off your jacket" },
+          { "left": "It's raining.", "right": "boots and umbrella" },
+          { "left": "It's sunny and warm.", "right": "t-shirt and cap" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Choose put on or take off.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Complete each sentence.",
+        "items": [
+          { "sentence": "It's cold outside — ___ your coat.", "options": ["put on", "take off", "wash"], "answer": 0 },
+          { "sentence": "We're inside now. You can ___ your gloves.", "options": ["put on", "take off", "throw"], "answer": 1 },
+          { "sentence": "___ your boots before the snow!", "options": ["Put on", "Take off", "Kick"], "answer": 0 },
+          { "sentence": "It's warm here. ___ your scarf.", "options": ["Take off", "Put on", "Catch"], "answer": 0 },
+          { "sentence": "It's snowing! Everything outside is …", "options": ["white", "green", "dry"], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to the snow morning. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "movers/u18-c.mp3",
+      "data": { "voice_note": "Voces: Valentina (organizada) y Erik (como cebolla, con capas).",
+        "script": "Valentina: Snow day! Everybody get dressed for the mountain. … Erik: I'm putting on two sweaters, one coat, one hat and two scarves. … Valentina: Two scarves? You look like a walking wardrobe! … Erik: Warm is warm! Where are my gloves? … Valentina: On the shelf, next to your yellow hat. … Erik: Ready! Wait… I can't put my arms down. … Valentina: Ha! Take off one sweater, engineer. … Erik: Better. Now: snowman time! Ours will be three metres tall!",
+        "questions": [
+          { "q": "Erik puts on two sweaters and two …", "answer": "scarves" },
+          { "q": "Valentina says he looks like a walking …", "answer": "wardrobe" },
+          { "q": "The gloves are on the shelf next to the … hat.", "answer": "yellow" },
+          { "q": "Erik can't put his … down.", "answer": "arms" },
+          { "q": "Their snowman will be three metres …", "answer": "tall" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "In winter, water becomes …", "options": ["ice", "juice", "tea"], "answer": 0 },
+          { "sentence": "The opposite of put on is …", "options": ["take off", "turn on", "get up"], "answer": 0 },
+          { "sentence": "Between hot and cold is …", "options": ["cool", "loud", "tidy"], "answer": 0 },
+          { "sentence": "A big warm jacket for winter is a …", "options": ["coat", "cap", "skirt"], "answer": 0 },
+          { "sentence": "Snow is falling — let's make a …", "options": ["snowman", "sandcastle", "salad"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Dress the explorer: tell your partner what to put on for (a) the beach, (b) the snow, (c) the rain. They mime putting each thing on. Then swap!" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Write what you put on for 3 kinds of weather: When it rains, I put on…" } ]
+}

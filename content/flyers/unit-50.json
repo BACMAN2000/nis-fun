@@ -1,0 +1,53 @@
+{
+  "id": "flyers-50", "level": "flyers", "number": 50,
+  "title": "Quickly and well", "topic": "adverbs",
+  "grammar": "adverbios de modo: -ly, well, fast",
+  "wordlist": ["quickly", "slowly", "carefully", "quietly", "loudly", "well", "badly", "easily", "suddenly", "happily"],
+  "exam_focus": { "paper": "Reading & Writing", "part": 6, "skill": "gapped sentences" },
+  "characters": ["oliver", "maya"],
+  "scene": { "speaker": "oliver", "pose": { "oliver": 3, "maya": 1 },
+    "bubble": "Music tip: it's not only WHAT you play — it's HOW you play it. Slowly, sweetly, loudly… that's the magic!" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the adjective with its adverb.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Adjective", "right_label": "Adverb",
+        "pairs": [
+          { "left": "quick", "right": "quickly" },
+          { "left": "careful", "right": "carefully" },
+          { "left": "good", "right": "well" },
+          { "left": "bad", "right": "badly" },
+          { "left": "easy", "right": "easily" },
+          { "left": "happy", "right": "happily" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Choose the correct adverb.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Complete each sentence.",
+        "items": [
+          { "sentence": "Please carry the glasses ___ — they can break!", "options": ["carefully", "careful", "carelessly"], "answer": 0 },
+          { "sentence": "The baby is sleeping. Talk ___!", "options": ["quietly", "quiet", "loudly"], "answer": 0 },
+          { "sentence": "Ingrid swims very ___ — she wins every race.", "options": ["good", "well", "goodly"], "answer": 1 },
+          { "sentence": "___ , the lights went out and everyone screamed!", "options": ["Suddenly", "Slowly", "Happily"], "answer": 0 },
+          { "sentence": "Maya solved the puzzle ___ — in two minutes!", "options": ["easily", "easy", "badly"], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to the music lesson. Write a word in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "flyers/u50-c.mp3",
+      "data": { "voice_note": "Voces: Oliver (profesor por un día) y Maya (alumna de guitarra).",
+        "script": "Oliver: Guitar lesson one, Maya! First rule: hold the guitar carefully, like a baby penguin. … Maya: A baby penguin. Okay… … Oliver: Now play the first note slowly. Slooowly. … Maya: Like this? … Oliver: Perfect! Now the same note quickly. … Maya: Oh! It sounds happier when it's fast! … Oliver: Exactly! Fast notes laugh, slow notes dream. … Maya: And loud notes? … Oliver: Loud notes shout! But play quietly at home, or your neighbours will visit you angrily. … Maya: Science has formulas, music has adverbs!",
+        "questions": [
+          { "q": "Hold the guitar carefully, like a baby …", "answer": "penguin" },
+          { "q": "First play the note …", "answer": "slowly" },
+          { "q": "The note sounds … when it's fast.", "answer": "happier" },
+          { "q": "Slow notes …", "answer": "dream" },
+          { "q": "Play quietly at home or the neighbours will visit …", "answer": "angrily" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "A tortoise walks …", "options": ["slowly", "quickly", "loudly"], "answer": 0 },
+          { "sentence": "He sings ___ — close the windows!", "options": ["badly", "bad", "good"], "answer": 0 },
+          { "sentence": "The opposite of loudly is …", "options": ["quietly", "quickly", "easily"], "answer": 0 },
+          { "sentence": "She speaks three languages very …", "options": ["well", "good", "best"], "answer": 0 },
+          { "sentence": "They lived ___ ever after. The end!", "options": ["happily", "happy", "happier"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Adverb theatre: your partner gives you an action and an adverb (\"eat soup… angrily!\"). Act it! Then swap. Four rounds — the class picks the best performance." } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Write 5 sentences about how people in your family do things: My grandma cooks slowly and well. My brother…" } ]
+}

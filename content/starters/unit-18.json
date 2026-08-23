@@ -1,0 +1,52 @@
+{
+  "id": "starters-18", "level": "starters", "number": 18,
+  "title": "The sea", "topic": "sea",
+  "grammar": "There is / There are + mar",
+  "wordlist": ["sea", "fish", "boat", "shell", "sand", "wave", "crab", "star", "swim", "blue"],
+  "exam_focus": { "paper": "Listening", "part": 4, "skill": "sea words" },
+  "characters": ["freya", "pip"],
+  "scene": { "speaker": "freya", "pose": { "freya": 1, "pip": 1 },
+    "bubble": "The sea is Pip's home! Waves, fish, little boats… and the lighthouse watching everything." },
+  "activities": [
+    { "code": "A", "type": "crossword", "title": "Write the sea words.",
+      "outputs": ["book", "digital"],
+      "data": { "words": [
+        { "word": "SEA", "clue": "Big, blue and full of fish." },
+        { "word": "BOAT", "clue": "It sails on the water." },
+        { "word": "SHELL", "clue": "You find it on the sand. It is pretty." },
+        { "word": "CRAB", "clue": "It has big claws and walks funny." },
+        { "word": "SAND", "clue": "Yellow and soft. You make castles with it." } ] } },
+    { "code": "B", "type": "match_words", "title": "Match the sea thing with its place.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Thing", "right_label": "Place",
+        "pairs": [
+          { "left": "the fish", "right": "under the water" },
+          { "left": "the boat", "right": "on the waves" },
+          { "left": "the shells", "right": "on the sand" },
+          { "left": "the crab", "right": "between the rocks" },
+          { "left": "the sun", "right": "up in the sky" },
+          { "left": "Pip", "right": "flying over the sea" } ] } },
+    { "code": "C", "type": "listening", "title": "Listen at the sea. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "starters/u18-c.mp3",
+      "data": { "voice_note": "Voces: Freya (en la orilla) y Tomás (nadando).",
+        "script": "Freya: The sea is so blue today! … Tomas: I can see three little fish! They are silver. … Freya: There is a red boat far away. … Tomas: I found a big white shell! Listen — the sea is inside! … Freya: Careful, there is a crab next to your foot! … Tomas: Whoa! Hello, little crab. … Freya: And look up — Pip is flying with two other birds. … Tomas: The sea is the best playground!",
+        "questions": [
+          { "q": "The three little fish are …", "answer": "silver" },
+          { "q": "The boat far away is …", "answer": "red" },
+          { "q": "Tomás found a big white …", "answer": "shell" },
+          { "q": "There is a … next to his foot.", "answer": "crab" },
+          { "q": "Pip is flying with two other …", "answer": "birds" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "Fish live in the …", "options": ["sea", "tree", "bed"], "answer": 0 },
+          { "sentence": "You make castles with …", "options": ["sand", "water", "shells"], "answer": 0 },
+          { "sentence": "A ___ sails on the sea.", "options": ["boat", "bike", "bus"], "answer": 0 },
+          { "sentence": "There ___ many fish in the sea.", "options": ["are", "is", "am"], "answer": 0 },
+          { "sentence": "Fish can ___ very well.", "options": ["swim", "fly", "sing"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Draw the sea together: each says one thing to add (\"There is a boat… There are two crabs…\") until the picture is full!" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Draw the sea with 5 things and write: There is… / There are… for each one." } ]
+}

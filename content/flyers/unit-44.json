@@ -1,0 +1,53 @@
+{
+  "id": "flyers-44", "level": "flyers", "number": 44,
+  "title": "A day at the funfair", "topic": "past simple",
+  "grammar": "pasado simple: repaso de irregulares",
+  "wordlist": ["big wheel", "roller coaster", "ticket", "queue", "candy floss", "balloon", "scream", "spin", "fell", "won"],
+  "exam_focus": { "paper": "Listening", "part": 2, "skill": "note-taking" },
+  "characters": ["oliver", "diego"],
+  "scene": { "speaker": "oliver", "pose": { "oliver": 10, "diego": 5 },
+    "bubble": "The funfair came to town! I rode the roller coaster four times and my voice is still somewhere up there!" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the verb with its irregular past.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Verb", "right_label": "Past",
+        "pairs": [
+          { "left": "buy", "right": "bought" },
+          { "left": "fall", "right": "fell" },
+          { "left": "hold", "right": "held" },
+          { "left": "stand", "right": "stood" },
+          { "left": "lose", "right": "lost" },
+          { "left": "spend", "right": "spent" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Complete the funfair story.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct past form.",
+        "items": [
+          { "sentence": "We ___ in the queue for twenty minutes.", "options": ["stood", "stand", "standed"], "answer": 0 },
+          { "sentence": "Diego ___ three tickets for the big wheel.", "options": ["buyed", "bought", "buy"], "answer": 1 },
+          { "sentence": "Ingrid ___ a giant teddy at the ring game!", "options": ["won", "win", "winned"], "answer": 0 },
+          { "sentence": "Oliver's balloon ___ up into the clouds.", "options": ["flew", "fly", "flied"], "answer": 0 },
+          { "sentence": "We ___ all our money, but it was worth it!", "options": ["spended", "spent", "spend"], "answer": 1 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to the funfair adventures. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "flyers/u44-c.mp3",
+      "data": { "voice_note": "Voces: Oliver y Diego (recordando entre risas).",
+        "script": "Diego: What a day! First we stood in the queue for the roller coaster. … Oliver: Twenty minutes! But then we rode it four times in a row. … Diego: I screamed so loudly that my throat still hurts. … Oliver: Then Ingrid won the giant teddy at the ring game. First try! … Diego: We ate pink candy floss, bigger than my head. … Oliver: And on the big wheel we saw the whole town — even the lighthouse! … Diego: The best part? Kili flew next to our cabin at the top. … Oliver: A condor at the funfair. Only in our team!",
+        "questions": [
+          { "q": "They rode the roller coaster … times.", "answer": "four" },
+          { "q": "Diego's … still hurts from screaming.", "answer": "throat" },
+          { "q": "Ingrid won the giant teddy on the first …", "answer": "try" },
+          { "q": "The candy floss was …", "answer": "pink" },
+          { "q": "From the big wheel they even saw the …", "answer": "lighthouse" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "The line of people waiting is the …", "options": ["queue", "view", "voice"], "answer": 0 },
+          { "sentence": "The sweet pink cloud on a stick is …", "options": ["candy floss", "yoghurt", "cereal"], "answer": 0 },
+          { "sentence": "The ride that goes up, down and loops is the …", "options": ["roller coaster", "platform", "caravan"], "answer": 0 },
+          { "sentence": "You need a ___ to enter each ride.", "options": ["ticket", "stamp", "spoon"], "answer": 0 },
+          { "sentence": "The big wheel ___ slowly while we watched the town.", "options": ["spun", "spins", "spinned"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Tell the story of a funfair (or park) day in exactly 6 sentences, all in past simple. Your partner counts your irregular verbs — who uses more?" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Write the story of a fun day out with 6 irregular pasts: went, saw, bought, ate, won, rode…" } ]
+}

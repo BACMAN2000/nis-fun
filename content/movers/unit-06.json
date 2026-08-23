@@ -1,0 +1,53 @@
+{
+  "id": "movers-06", "level": "movers", "number": 6,
+  "title": "Food I love", "topic": "food",
+  "grammar": "like / don't like + noun",
+  "wordlist": ["pasta", "rice", "soup", "salad", "cheese", "sausage", "milkshake", "vegetables", "meat", "tasty"],
+  "exam_focus": { "paper": "Listening", "part": 3, "skill": "matching" },
+  "characters": ["erik", "mateo"],
+  "scene": { "speaker": "erik", "pose": { "erik": 3, "mateo": 1 },
+    "bubble": "Club survey: pasta or rice? Soup or salad? The results will be very scientific… and very tasty!" },
+  "activities": [
+    { "code": "A", "type": "match_words", "title": "Match the food with its description.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "left_label": "Food", "right_label": "Description",
+        "pairs": [
+          { "left": "pasta", "right": "long and yellow, from Italy" },
+          { "left": "soup", "right": "hot and liquid, great in winter" },
+          { "left": "salad", "right": "green leaves and tomatoes" },
+          { "left": "cheese", "right": "yellow or white, made from milk" },
+          { "left": "a milkshake", "right": "cold, sweet and with a straw" },
+          { "left": "a sausage", "right": "long meat, good with eggs" } ] } },
+    { "code": "B", "type": "exam_task", "title": "Choose like or likes.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Complete each sentence.",
+        "items": [
+          { "sentence": "I ___ cheese sandwiches.", "options": ["like", "likes", "liking"], "answer": 0 },
+          { "sentence": "Mateo ___ chocolate milkshakes.", "options": ["like", "likes", "liking"], "answer": 1 },
+          { "sentence": "Luna doesn't ___ vegetables.", "options": ["like", "likes", "liked"], "answer": 0 },
+          { "sentence": "___ you like tomato soup?", "options": ["Does", "Do", "Is"], "answer": 1 },
+          { "sentence": "We ___ like cold soup. Yuck!", "options": ["don't", "doesn't", "aren't"], "answer": 0 } ] } },
+    { "code": "C", "type": "listening", "title": "Listen to the food survey. Write a word or number in each gap.",
+      "outputs": ["digital", "quiz"], "audio": "movers/u06-c.mp3",
+      "data": { "voice_note": "Voces: Erik (encuestador) y Mateo (primer encuestado).",
+        "script": "Erik: Food survey, question one! Mateo, pasta or rice? … Mateo: Pasta! With lots of cheese on top. … Erik: Valentina says soup, because her grandma makes the best chicken soup. … Erik: Sofia likes salad with eggs and olives. … Erik: And I like sausages with mashed potato. Engineer food! … Mateo: What about Luna? … Erik: Luna voted with her tail: she likes meat. Big surprise! … Erik: Final result: everything is tasty when the Club eats together!",
+        "questions": [
+          { "q": "Mateo likes pasta with lots of … on top.", "answer": "cheese" },
+          { "q": "Valentina's grandma makes the best chicken …", "answer": "soup" },
+          { "q": "Sofía likes salad with eggs and …", "answer": "olives" },
+          { "q": "Erik likes sausages with mashed …", "answer": "potato" },
+          { "q": "Luna voted with her …", "answer": "tail" } ] } },
+    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
+      "outputs": ["book", "digital", "quiz"],
+      "data": { "instructions": "Choose the correct word.",
+        "items": [
+          { "sentence": "Carrots and peas are …", "options": ["vegetables", "milkshakes", "sausages"], "answer": 0 },
+          { "sentence": "Food that is very good is …", "options": ["tasty", "dirty", "noisy"], "answer": 0 },
+          { "sentence": "Soup is usually …", "options": ["hot", "square", "loud"], "answer": 0 },
+          { "sentence": "Cheese is made from …", "options": ["milk", "rice", "water"], "answer": 0 },
+          { "sentence": "\"What's your favourite ___?\" — \"Pasta!\"", "options": ["food", "foot", "flood"], "answer": 0 } ] } },
+    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
+      "data": { "text": "Do the food survey with your partner: 4 questions (Do you like…?). Note the answers and report: \"Ana likes pasta but she doesn't like soup.\"" } }
+  ],
+  "homework": [ { "type": "write_sentences", "prompt": "Write 3 foods you like and 2 you don't like, with a reason: I like rice because…" } ]
+}
