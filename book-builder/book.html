@@ -15,7 +15,7 @@
   .band h1{font-size:16pt;margin:0;flex:1}
   .band .focus{font-size:7pt;text-transform:uppercase;letter-spacing:.06em;opacity:.9;text-align:right}
   .scene{display:flex;align-items:flex-end;gap:4mm;margin:5mm 0}
-  .scene img{height:26mm}
+  .scene img{height:38mm}
   .bubble{background:var(--band);border-radius:4mm;padding:3mm 4mm;font-weight:600;flex:1;font-size:10pt}
   .act{margin:4mm 0}
   .act h2{font-size:11.5pt;margin:0 0 2.5mm;display:flex;gap:2.5mm;align-items:center}
@@ -65,9 +65,11 @@
   .sb2-head .balloon{width:16mm;height:16mm;border-radius:50%;background:var(--accent);color:#fff;font-family:"Baloo 2";font-weight:800;font-size:20pt;display:flex;align-items:center;justify-content:center;box-shadow:2mm 2mm 0 rgba(0,0,0,.08)}
   .sb2-head h1{font-size:20pt;margin:0;color:var(--accent);flex:1}
   .sb2-head .focus{font-size:7pt;text-transform:uppercase;letter-spacing:.06em;color:var(--soft);text-align:right}
+  .op-text{border-left:2mm solid var(--accent);background:var(--band);border-radius:0 3mm 3mm 0;padding:2.5mm 4mm;margin:2.5mm 0;font-size:9.8pt;line-height:1.55}
+  .op-text b{font-family:"Baloo 2";color:var(--accent)}
   .picwords{display:flex;flex-wrap:wrap;gap:2mm;margin:3mm 0}
-  .picwords .pw{width:23mm;border:.35mm solid var(--line);border-radius:3mm;padding:1.5mm 1mm 1mm;text-align:center}
-  .picwords .pw .ico{font-size:16pt;line-height:1.15}
+  .picwords .pw{width:27mm;border:.35mm solid var(--line);border-radius:3mm;padding:1.5mm 1mm 1mm;text-align:center}
+  .picwords .pw .ico{font-size:24pt;line-height:1.15}
   .picwords .pw .w{font-size:7.5pt;font-weight:700;color:var(--ink)}
   .picwords .pw .ln{border-bottom:.35mm dotted var(--soft);height:4.5mm;margin-top:1mm}
   .abadge{width:7mm;height:7mm;border-radius:50%;color:#fff;display:inline-flex;align-items:center;justify-content:center;font-family:"Baloo 2";font-weight:800;font-size:10.5pt;flex:none}
@@ -84,9 +86,9 @@
   .cover{align-items:center;justify-content:center;text-align:center;background:linear-gradient(180deg,#eef3f7,#fff)}
   .cover h1{font-size:34pt;color:var(--accent);margin:4mm 0 0}
   .cover .sub{font-size:13pt;color:var(--soft)}
-  .cover img{height:60mm;margin-top:8mm}
+  .cover img{height:75mm;margin-top:8mm}
   .cover .cast{display:flex;gap:6mm;margin-top:10mm}
-  .cover .cast img{height:38mm}
+  .cover .cast img{height:48mm}
   @page{size:A4;margin:0}
 </style>
 </head>
@@ -160,6 +162,14 @@ const AB = { crossword: crosswordHTML, match_words: matchHTML, exam_task: examHT
              gap_text: gapTextHTML, spot_diff: spotDiffHTML,
              pairwork: d=>`<div class="pair">👥 ${d.text}</div>` };
 
+function makeIntro(ud){
+  if (ud.scene && ud.scene.intro) return ud.scene.intro;
+  const cap = n => n.charAt(0).toUpperCase()+n.slice(1);
+  const c1 = cap(ud.characters[0]||''), c2 = cap(ud.characters[1]||c1);
+  if (LEVEL==='starters') return `Hello, explorers! Today ${c1} and ${c2} are playing with the world of ${ud.topic}. Look at the big pictures, say every new word out loud and listen to the story with your best ears. Pip is hiding somewhere in this unit too! When you finish all the games, you win a star. Ready, explorers? One, two, three… let's go!`;
+  if (LEVEL==='movers') return `Welcome back, Fjord Club! In this unit, ${c1} and ${c2} discover the world of ${ud.topic}. First learn the picture words, then read carefully and listen to your friends — the answers are always hiding in the story. You will also practise ${ud.grammar}. Luna is watching and she only barks for good answers. The adventure starts now!`;
+  return `The Aurora Expedition continues! This time, ${c1} and ${c2} take you deep into the world of ${ud.topic}. Read the texts slowly, listen twice like in the real exam, and use ${ud.grammar} like a true explorer. Every activity you finish takes you one step closer to the Flyers exam — and Kili is carrying a star with your name on it. Good luck, explorer!`;
+}
 function cover(idx, subtitle){
   return `<div class="page cover">
     <div><span style="font-family:'Baloo 2';font-weight:700;color:var(--soft);letter-spacing:.1em">NORDIC INTERNATIONAL SCHOOL · COHASSET</span>
@@ -197,6 +207,7 @@ function sbPage(ud, pageno){
       <span class="focus">${ud.exam_focus.paper}<br>Part ${ud.exam_focus.part}</span></div>
     <div class="scene">${ud.characters.map(c=>`<img src="${CHAR(c,(ud.scene.pose||{})[c]||1)}" ${FB}>`).join('')}
       <div class="bubble">${ud.scene.bubble}</div></div>
+    <div class="op-text"><b>📖 The story of this unit:</b> ${makeIntro(ud)}</div>
     ${picwordsHTML(ud.wordlist)}
     ${actHTML}
     <div class="persbox"><b>All about me:</b> my two favourite words of this unit are <span></span> and <span></span>.</div>

@@ -19,7 +19,7 @@
   .band h1{font-size:1.6rem;margin:0;flex:1;min-width:12rem}
   .band .meta{font-size:.8rem;opacity:.9;text-transform:uppercase;letter-spacing:.06em}
   .scene{display:flex;align-items:flex-end;gap:1rem;margin:1.2rem 0;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:1rem 1.2rem}
-  .scene img{height:130px}
+  .scene img{height:210px}
   .bubble{position:relative;background:var(--surface2);border-radius:14px;padding:.8rem 1rem;font-weight:600;flex:1}
   .bubble::before{content:"";position:absolute;left:-10px;bottom:18px;border:10px solid transparent;border-right-color:var(--surface2);border-left:0}
   .act{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:1.2rem 1.4rem;margin:1.2rem 0}
@@ -80,15 +80,22 @@
   #cele{position:fixed;inset:0;background:rgba(27,43,61,.55);display:none;align-items:center;justify-content:center;z-index:9}
   #cele.on{display:flex}
   #cele .box{background:var(--surface);border-radius:18px;padding:2rem 2.6rem;text-align:center;max-width:20rem}
-  #cele img{height:150px}
+  #cele img{height:230px}
   #cele h2{margin:.4rem 0}
   .crumb{margin:.8rem 0;font-size:.9rem}
   .crumb a{color:var(--accent);font-weight:700;text-decoration:none}
+  /* opener: texto de introduccion + panel ilustrado */
+  .opener{display:flex;gap:1.2rem;margin:1.2rem 0;flex-wrap:wrap}
+  .op-text{flex:2;min-width:18rem;background:var(--surface);border:1px solid var(--line);border-left:6px solid var(--accent);border-radius:14px;padding:1.1rem 1.3rem}
+  .op-text h3{margin:0 0 .4rem;color:var(--accent);font-size:1.05rem}
+  .op-text p{margin:0;line-height:1.65}
+  .op-art{flex:1;min-width:13rem;background:linear-gradient(160deg,var(--surface2),var(--surface));border:1px solid var(--line);border-radius:14px;display:grid;grid-template-columns:repeat(3,1fr);place-items:center;padding:.8rem;gap:.2rem}
+  .op-art span{font-size:3.2rem;line-height:1.25}
   /* picture words */
   .pwrow{display:flex;flex-wrap:wrap;gap:.5rem;margin:1.2rem 0;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:1rem 1.2rem}
-  .pwrow .pw{width:5.4rem;text-align:center;background:var(--surface2);border-radius:10px;padding:.45rem .2rem}
-  .pwrow .pw .ico{font-size:1.7rem;line-height:1.2}
-  .pwrow .pw .w{font-size:.72rem;font-weight:700}
+  .pwrow .pw{width:6.6rem;text-align:center;background:var(--surface2);border-radius:10px;padding:.45rem .2rem}
+  .pwrow .pw .ico{font-size:2.6rem;line-height:1.2}
+  .pwrow .pw .w{font-size:.8rem;font-weight:700}
   /* gap text */
   .gt-box{display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:.9rem}
   .gt-box span{background:var(--surface2);border-radius:8px;padding:.25rem .7rem;font-weight:700;font-size:.95rem}
@@ -102,7 +109,7 @@
   .sd-scene{border:2px solid var(--line);border-radius:12px;padding:.5rem;background:#eef7fb}
   .sd-scene h4{margin:.1rem 0 .3rem;text-align:center;font-family:"Baloo 2"}
   .sd-grid{display:grid;gap:2px}
-  .sd-cell{width:2.6rem;height:2.6rem;display:flex;align-items:center;justify-content:center;font-size:1.5rem;background:#fff;border-radius:8px}
+  .sd-cell{width:3.4rem;height:3.4rem;display:flex;align-items:center;justify-content:center;font-size:2.1rem;background:#fff;border-radius:8px}
   .sd-scene.clickable .sd-cell{cursor:pointer}
   .sd-cell.found{background:#e2f2e9;outline:3px solid var(--ok)}
   .sd-cell.flash{outline:3px solid var(--bad)}
@@ -111,7 +118,7 @@
   .lvcard{display:flex;flex-direction:column;align-items:center;gap:.3rem;text-decoration:none;color:var(--ink);
     background:var(--surface);border:1px solid var(--line);border-top:6px solid var(--lv);border-radius:16px;padding:1.4rem 1rem 1.2rem}
   .lvcard:hover{border-color:var(--lv)}
-  .lvcard img{height:120px;margin-bottom:.4rem}
+  .lvcard img{height:180px;margin-bottom:.4rem}
   .lvcard b{font-family:"Baloo 2";font-size:1.25rem;color:var(--lv)}
   .lvcard .exam{font-size:.8rem;text-transform:uppercase;letter-spacing:.07em;color:var(--soft);font-weight:700}
   .lvcard .cast{font-size:.9rem;color:var(--soft)}
@@ -164,7 +171,7 @@ async function hub(){
   app.classList.add('hub');
   app.innerHTML = `
     <div class="crumb"><a href="?">← Fun for Nordic</a></div>
-    <div class="band"><img src="${CHAR(idx.mascot,1)}" style="height:90px" alt="" ${FB}>
+    <div class="band"><img src="${CHAR(idx.mascot,1)}" style="height:150px" alt="" ${FB}>
       <h1>${idx.name}</h1><span class="meta">${idx.cast}</span></div>
     <h2 style="margin:1.4rem 0 .8rem">Units</h2>
     <div class="units">${idx.units.map(u=>{
@@ -179,6 +186,14 @@ async function hub(){
 
 /* ---------------- UNIT ---------------- */
 let UD, PROG;
+function makeIntro(ud){
+  if (ud.scene && ud.scene.intro) return ud.scene.intro;
+  const cap = n => n.charAt(0).toUpperCase()+n.slice(1);
+  const c1 = cap(ud.characters[0]||''), c2 = cap(ud.characters[1]||c1);
+  if (LEVEL==='starters') return `Hello, explorers! Today ${c1} and ${c2} are playing with the world of ${ud.topic}. Look at the big pictures, say every new word out loud and listen to the story with your best ears. Pip is hiding somewhere in this unit too! When you finish all the games, you win a star. Ready, explorers? One, two, three… let's go!`;
+  if (LEVEL==='movers') return `Welcome back, Fjord Club! In this unit, ${c1} and ${c2} discover the world of ${ud.topic}. First learn the picture words, then read carefully and listen to your friends — the answers are always hiding in the story. You will also practise ${ud.grammar}. Luna is watching and she only barks for good answers. The adventure starts now!`;
+  return `The Aurora Expedition continues! This time, ${c1} and ${c2} take you deep into the world of ${ud.topic}. Read the texts slowly, listen twice like in the real exam, and use ${ud.grammar} like a true explorer. Every activity you finish takes you one step closer to the Flyers exam — and Kili is carrying a star with your name on it. Good luck, explorer!`;
+}
 async function unit(){
   UD = await j(`../content/${LEVEL}/unit-${String(UNIT).padStart(2,'0')}.json`);
   PROG = store.get(UD.number); PROG.done = PROG.done || {};
@@ -191,6 +206,13 @@ async function unit(){
     <div class="scene">
       ${UD.characters.map(c=>`<img src="${CHAR(c, (UD.scene.pose||{})[c]||1)}" alt="${c}" ${FB}>`).join('')}
       <div class="bubble">${UD.scene.bubble}</div>
+    </div>
+    <div class="opener">
+      <div class="op-text"><h3>📖 The story of this unit</h3><p>${makeIntro(UD)}</p></div>
+      <div class="op-art">${(UD.wordlist||[]).slice(0,6).map(w=>{
+        const k = w.replace(/^(a|an|the) /,'');
+        return `<span>${EMOJI[k]||EMOJI[k.toLowerCase()]||'⭐'}</span>`;
+      }).join('')}</div>
     </div>
     <div class="pwrow">${(UD.wordlist||[]).slice(0,10).map(w=>{
       const key = w.replace(/^(a|an|the) /,'');
