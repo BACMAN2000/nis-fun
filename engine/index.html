@@ -84,6 +84,28 @@
   #cele h2{margin:.4rem 0}
   .crumb{margin:.8rem 0;font-size:.9rem}
   .crumb a{color:var(--accent);font-weight:700;text-decoration:none}
+  /* picture words */
+  .pwrow{display:flex;flex-wrap:wrap;gap:.5rem;margin:1.2rem 0;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:1rem 1.2rem}
+  .pwrow .pw{width:5.4rem;text-align:center;background:var(--surface2);border-radius:10px;padding:.45rem .2rem}
+  .pwrow .pw .ico{font-size:1.7rem;line-height:1.2}
+  .pwrow .pw .w{font-size:.72rem;font-weight:700}
+  /* gap text */
+  .gt-box{display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:.9rem}
+  .gt-box span{background:var(--surface2);border-radius:8px;padding:.25rem .7rem;font-weight:700;font-size:.95rem}
+  .gt-text{background:var(--surface2);border-radius:10px;padding:1rem 1.2rem;max-width:46rem;line-height:2.1}
+  .gt-text input{border:0;border-bottom:2px solid var(--accent);background:transparent;font:600 1rem "Source Sans 3";width:7.5rem;text-align:center;color:var(--ink)}
+  .gt-text input.ok{color:var(--ok);border-color:var(--ok)}
+  .gt-text input.bad{color:var(--bad);border-color:var(--bad)}
+  .gt-text .gn{font-size:.7rem;color:var(--soft);font-weight:700;vertical-align:super}
+  /* spot the difference */
+  .sd-wrap{display:flex;gap:1.4rem;flex-wrap:wrap}
+  .sd-scene{border:2px solid var(--line);border-radius:12px;padding:.5rem;background:#eef7fb}
+  .sd-scene h4{margin:.1rem 0 .3rem;text-align:center;font-family:"Baloo 2"}
+  .sd-grid{display:grid;gap:2px}
+  .sd-cell{width:2.6rem;height:2.6rem;display:flex;align-items:center;justify-content:center;font-size:1.5rem;background:#fff;border-radius:8px}
+  .sd-scene.clickable .sd-cell{cursor:pointer}
+  .sd-cell.found{background:#e2f2e9;outline:3px solid var(--ok)}
+  .sd-cell.flash{outline:3px solid var(--bad)}
   /* portada de niveles */
   .lvcards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1.2rem}
   .lvcard{display:flex;flex-direction:column;align-items:center;gap:.3rem;text-decoration:none;color:var(--ink);
@@ -97,6 +119,7 @@
 </head>
 <body>
 <script src="crossword-layout.js"></script>
+<script src="emoji-map.js"></script>
 <main id="app">Loading…</main>
 <div id="cele"><div class="box"><img id="cele-img" alt=""><h2>Well done!</h2><p id="cele-msg"></p><button onclick="document.getElementById('cele').classList.remove('on')">OK</button></div></div>
 <script>
@@ -169,6 +192,11 @@ async function unit(){
       ${UD.characters.map(c=>`<img src="${CHAR(c, (UD.scene.pose||{})[c]||1)}" alt="${c}" ${FB}>`).join('')}
       <div class="bubble">${UD.scene.bubble}</div>
     </div>
+    <div class="pwrow">${(UD.wordlist||[]).slice(0,10).map(w=>{
+      const key = w.replace(/^(a|an|the) /,'');
+      const ico = EMOJI[key] || EMOJI[key.toLowerCase()] || '✏️';
+      return `<div class="pw"><div class="ico">${ico}</div><div class="w">${w}</div></div>`;
+    }).join('')}</div>
     ${digital.map(a=>`<section class="act ${PROG.done[a.code]?'done':''}" id="act-${a.code}">
        <h2><span class="code">${a.code}</span> ${a.title}</h2>
        <div class="body" id="body-${a.code}"></div>
@@ -229,15 +257,18 @@ crossword(act, el){
   };
 },
 
-/* ---- match ---- */
+/* ---- match (con distractores opcionales en data.extra) ---- */
 match_words(act, el){
   const pairs = act.data.pairs;
-  const rights = pairs.map(p=>p.right).sort(()=>Math.random()-.5);
-  el.innerHTML = `<div class="match">
-      <span class="colh">${act.data.left_label||''}</span><span class="colh">${act.data.right_label||''}</span>
-      ${pairs.map((p,i)=>`<button class="mbtn l" data-v="${p.left}">${p.left}</button>
-                          <button class="mbtn r" data-v="${rights[i]}">${rights[i]}</button>`).join('')}
-    </div><div class="checkrow"><span class="score"></span></div>`;
+  const rights = pairs.map(p=>p.right).concat(act.data.extra||[]).sort(()=>Math.random()-.5);
+  const rows = Math.max(pairs.length, rights.length);
+  let grid = `<span class="colh">${act.data.left_label||''}</span><span class="colh">${act.data.right_label||''}</span>`;
+  for(let i=0;i<rows;i++){
+    grid += pairs[i] ? `<button class="mbtn l" data-v="${pairs[i].left}">${pairs[i].left}</button>` : `<span></span>`;
+    grid += rights[i]!==undefined ? `<button class="mbtn r" data-v="${rights[i]}">${rights[i]}</button>` : `<span></span>`;
+  }
+  el.innerHTML = `${act.data.extra?`<p style="margin-top:0"><i>Careful — one answer is extra and matches nothing!</i></p>`:''}
+    <div class="match">${grid}</div><div class="checkrow"><span class="score"></span></div>`;
   let sel=null, matched=0, tries=0;
   const map=Object.fromEntries(pairs.map(p=>[p.left,p.right]));
   el.querySelectorAll('.mbtn.l').forEach(b=>b.onclick=()=>{ el.querySelectorAll('.mbtn.l').forEach(x=>x.classList.remove('sel')); b.classList.add('sel'); sel=b; });
@@ -290,6 +321,55 @@ listening(act, el){
     s.className='score '+(ok===act.data.questions.length?'good':'partial');
     if(ok===act.data.questions.length) complete(act.code);
   };
+},
+
+/* ---- gap text: párrafo con huecos + caja de palabras ---- */
+gap_text(act, el){
+  const d = act.data;
+  let i = 0;
+  const html = d.text.replace(/\{(\d+)\}/g, (m,n)=>`<span class="gn">${n}</span><input data-i="${n-1}" autocomplete="off">`);
+  el.innerHTML = `${d.box?`<div class="gt-box">${[...d.box].sort(()=>Math.random()-.5).map(w=>`<span>${w}</span>`).join('')}</div>`:''}
+    <div class="gt-text">${html}</div>
+    <div class="checkrow"><button class="chk">Check</button><span class="score"></span></div>`;
+  el.querySelector('.chk').onclick = ()=>{
+    let ok=0;
+    el.querySelectorAll('.gt-text input').forEach(inp=>{
+      const good = inp.value.trim().toLowerCase()===d.answers[+inp.dataset.i].toLowerCase();
+      inp.className = good?'ok':'bad'; if(good) ok++;
+    });
+    const s=el.querySelector('.score');
+    s.textContent=`${ok} / ${d.answers.length}`;
+    s.className='score '+(ok===d.answers.length?'good':'partial');
+    if(ok===d.answers.length) complete(act.code);
+  };
+},
+
+/* ---- spot the difference: dos escenas de emoji ---- */
+spot_diff(act, el){
+  const d = act.data;
+  const isDiff = (r,c)=> d.diffs.some(([dr,dc])=>dr===r&&dc===c);
+  const grid = (scene, clickable)=>`<div class="sd-grid" style="grid-template-columns:repeat(${scene[0].length},auto)">${
+    scene.map((row,r)=>row.map((ch,c)=>`<div class="sd-cell" data-r="${r}" data-c="${c}">${ch}</div>`).join('')).join('')}</div>`;
+  el.innerHTML = `<p style="margin-top:0"><i>Look at picture A. Find and TAP the ${d.diffs.length} differences in picture B!</i></p>
+    <div class="sd-wrap">
+      <div class="sd-scene"><h4>A</h4>${grid(d.sceneA,false)}</div>
+      <div class="sd-scene clickable" id="sdB-${act.code}"><h4>B</h4>${grid(d.sceneB,true)}</div>
+    </div><div class="checkrow"><span class="score">0 / ${d.diffs.length}</span></div>`;
+  let found = 0;
+  el.querySelectorAll(`#sdB-${act.code} .sd-cell`).forEach(cell=>{
+    cell.onclick = ()=>{
+      if(cell.classList.contains('found')) return;
+      const r=+cell.dataset.r, c=+cell.dataset.c;
+      if(isDiff(r,c)){
+        cell.classList.add('found'); found++;
+        const s=el.querySelector('.score');
+        s.textContent=`${found} / ${d.diffs.length}`;
+        if(found===d.diffs.length){ s.className='score good'; complete(act.code); }
+      } else {
+        cell.classList.add('flash'); setTimeout(()=>cell.classList.remove('flash'),500);
+      }
+    };
+  });
 },
 
 /* ---- exam task ---- */
