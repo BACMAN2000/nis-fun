@@ -91,6 +91,10 @@
   .op-text p{margin:0;line-height:1.65}
   .op-art{flex:1;min-width:13rem;background:linear-gradient(160deg,var(--surface2),var(--surface));border:1px solid var(--line);border-radius:14px;display:grid;grid-template-columns:repeat(3,1fr);place-items:center;padding:.8rem;gap:.2rem}
   .op-art span{font-size:3.2rem;line-height:1.25}
+  .op-art.op-photo{display:block;padding:0;overflow:hidden}
+  .op-art.op-photo img{width:100%;height:100%;min-height:12rem;object-fit:cover;display:block;border-radius:13px}
+  .campus-banner{margin:0 0 1.4rem;border-radius:18px;overflow:hidden;border:1px solid var(--line)}
+  .campus-banner img{width:100%;max-height:260px;object-fit:cover;display:block}
   /* picture words */
   .pwrow{display:flex;flex-wrap:wrap;gap:.5rem;margin:1.2rem 0;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:1rem 1.2rem}
   .pwrow .pw{width:6.6rem;text-align:center;background:var(--surface2);border-radius:10px;padding:.45rem .2rem}
@@ -154,6 +158,7 @@ async function levels(){
   app.innerHTML = `
     <h1 style="font-size:2.2rem;margin:1.4rem 0 .2rem">Fun for Nordic</h1>
     <p style="color:var(--soft);margin:0 0 1.4rem">Cambridge Young Learners · Nordic International School</p>
+    <div class="campus-banner"><img src="../assets/scenes/main-building.jpg" alt="Nordic campus"></div>
     <div class="lvcards">${data.levels.map(l=>`
       <a class="lvcard" href="?level=${l.id}" style="--lv:${l.color}">
         <img src="../assets/characters/${l.id}/${l.mascot}/pose-01.png"
@@ -194,6 +199,20 @@ function makeIntro(ud){
   if (LEVEL==='movers') return `Welcome back, Fjord Club! In this unit, ${c1} and ${c2} discover the world of ${ud.topic}. First learn the picture words, then read carefully and listen to your friends — the answers are always hiding in the story. You will also practise ${ud.grammar}. Luna is watching and she only barks for good answers. The adventure starts now!`;
   return `The Aurora Expedition continues! This time, ${c1} and ${c2} take you deep into the world of ${ud.topic}. Read the texts slowly, listen twice like in the real exam, and use ${ud.grammar} like a true explorer. Every activity you finish takes you one step closer to the Flyers exam — and Kili is carrying a star with your name on it. Good luck, explorer!`;
 }
+function sceneFor(ud){
+  const t = ((ud.topic||'')+' '+(ud.title||'')).toLowerCase();
+  const has = (...ws)=>ws.some(w=>t.includes(w));
+  if (has('school','classroom','lesson')) return 'classroom';
+  if (has('library','book','read','stor')) return 'library';
+  if (has('hockey','sport')) return 'hockey';
+  if (has('run','athletic','body','health','exercise')) return 'track';
+  if (has('town','city','place','building','street')) return 'facade';
+  if (has('garden','food','fruit','vegetable','plant','countryside','nature','farm')) return 'garden';
+  if (has('hello','welcome','greet','friend')) return 'entrance';
+  if (has('review','party','celebrat','music','show','concert')) return 'amphitheater';
+  if (has('game','play','toy')) return 'labyrinth';
+  return null;
+}
 async function unit(){
   UD = await j(`../content/${LEVEL}/unit-${String(UNIT).padStart(2,'0')}.json`);
   PROG = store.get(UD.number); PROG.done = PROG.done || {};
@@ -209,10 +228,13 @@ async function unit(){
     </div>
     <div class="opener">
       <div class="op-text"><h3>📖 The story of this unit</h3><p>${makeIntro(UD)}</p></div>
-      <div class="op-art">${(UD.wordlist||[]).slice(0,6).map(w=>{
-        const k = w.replace(/^(a|an|the) /,'');
-        return `<span>${EMOJI[k]||EMOJI[k.toLowerCase()]||'⭐'}</span>`;
-      }).join('')}</div>
+      ${(()=>{const sc=sceneFor(UD); return sc
+        ? `<div class="op-art op-photo"><img src="../assets/scenes/${sc}.jpg" alt=""
+             onerror="this.closest('.op-photo').remove()"></div>`
+        : `<div class="op-art">${(UD.wordlist||[]).slice(0,6).map(w=>{
+            const k = w.replace(/^(a|an|the) /,'');
+            return `<span>${EMOJI[k]||EMOJI[k.toLowerCase()]||'⭐'}</span>`;
+          }).join('')}</div>`;})()}
     </div>
     <div class="pwrow">${(UD.wordlist||[]).slice(0,10).map(w=>{
       const key = w.replace(/^(a|an|the) /,'');

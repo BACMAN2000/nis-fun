@@ -162,6 +162,20 @@ const AB = { crossword: crosswordHTML, match_words: matchHTML, exam_task: examHT
              gap_text: gapTextHTML, spot_diff: spotDiffHTML,
              pairwork: d=>`<div class="pair">👥 ${d.text}</div>` };
 
+function sceneFor(ud){
+  const t = ((ud.topic||'')+' '+(ud.title||'')).toLowerCase();
+  const has = (...ws)=>ws.some(w=>t.includes(w));
+  if (has('school','classroom','lesson')) return 'classroom';
+  if (has('library','book','read','stor')) return 'library';
+  if (has('hockey','sport')) return 'hockey';
+  if (has('run','athletic','body','health','exercise')) return 'track';
+  if (has('town','city','place','building','street')) return 'facade';
+  if (has('garden','food','fruit','vegetable','plant','countryside','nature','farm')) return 'garden';
+  if (has('hello','welcome','greet','friend')) return 'entrance';
+  if (has('review','party','celebrat','music','show','concert')) return 'amphitheater';
+  if (has('game','play','toy')) return 'labyrinth';
+  return null;
+}
 function makeIntro(ud){
   if (ud.scene && ud.scene.intro) return ud.scene.intro;
   const cap = n => n.charAt(0).toUpperCase()+n.slice(1);
@@ -174,7 +188,9 @@ function cover(idx, subtitle){
   return `<div class="page cover">
     <div><span style="font-family:'Baloo 2';font-weight:700;color:var(--soft);letter-spacing:.1em">NORDIC INTERNATIONAL SCHOOL · COHASSET</span>
     <h1>${idx.name.split('·')[0].trim()}</h1><div class="sub">${idx.name.split('·')[1]} · ${subtitle}</div>
-    <img src="${CHAR(idx.mascot,1)}" alt="" ${FB}>
+    <img class="campus" src="../assets/scenes/facade.jpg" alt=""
+         onerror="this.remove()" style="height:52mm;width:150mm;object-fit:cover;border-radius:5mm;margin-top:6mm">
+    <img src="${CHAR(idx.mascot,1)}" alt="" ${FB} style="height:46mm;margin-top:4mm">
     <div class="cast">${(idx.kids||[]).map(c=>`<img src="${CHAR(c,1)}" ${FB}>`).join('')}</div></div></div>`;
 }
 
@@ -208,6 +224,8 @@ function sbPage(ud, pageno){
     <div class="scene">${ud.characters.map(c=>`<img src="${CHAR(c,(ud.scene.pose||{})[c]||1)}" ${FB}>`).join('')}
       <div class="bubble">${ud.scene.bubble}</div></div>
     <div class="op-text"><b>📖 The story of this unit:</b> ${makeIntro(ud)}</div>
+    ${(()=>{const sc=sceneFor(ud); return sc?`<img src="../assets/scenes/${sc}.jpg" alt=""
+      onerror="this.remove()" style="width:100%;height:34mm;object-fit:cover;border-radius:3mm;margin:1mm 0 2.5mm">`:'';})()}
     ${picwordsHTML(ud.wordlist)}
     ${actHTML}
     <div class="persbox"><b>All about me:</b> my two favourite words of this unit are <span></span> and <span></span>.</div>
