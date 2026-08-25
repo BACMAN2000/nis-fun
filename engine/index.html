@@ -4,6 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Fun for Nordic</title>
+<script>
+/* Los alumnos no deben ver github.io en la barra: si esta copia se abre desde
+   GitHub Pages (enlaces/marcadores viejos), salta a nis.cohasset.pe
+   conservando ruta, query y hash. En nis.cohasset.pe es un no-op. */
+if(/\.github\.io$/i.test(location.hostname)){
+  location.replace('https://nis.cohasset.pe'+location.pathname+location.search+location.hash);
+}
+</script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Source+Sans+3:wght@400;600;700&display=swap">
 <style>
   :root{
