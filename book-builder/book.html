@@ -99,7 +99,7 @@
 const qs = new URLSearchParams(location.search);
 const LEVEL = qs.get('level') || 'flyers';
 const MODE = qs.get('mode') || 'sb';   // sb | wb | key
-const UNITS = (qs.get('units') || '1,2,3').split(',').map(Number);
+const UNITS = qs.get('units') ? qs.get('units').split(',').map(Number) : null; // null = todas
 const CHAR = (slug,pose)=>`../assets/characters/${LEVEL}/${slug}/pose-${String(pose).padStart(2,'0')}.png`;
 const FB = `onerror="this.onerror=null;this.src=this.src.replace('.png','.svg')"`;
 const COLORS = { starters:'#d97d0d', movers:'#2f9268', flyers:'#3b6fb5' };
@@ -279,7 +279,8 @@ async function build(){
   const subtitle = MODE === 'wb' ? "Workbook" : MODE === 'key' ? "Teacher's Key" : "Student's Book";
   book.innerHTML = cover(idx, subtitle);
   const uds = [];
-  for(const n of UNITS) uds.push(await j(`../content/${LEVEL}/unit-${String(n).padStart(2,'0')}.json`));
+  const list = UNITS || idx.units.map(u=>u.n);
+  for(const n of list) uds.push(await j(`../content/${LEVEL}/unit-${String(n).padStart(2,'0')}.json`));
   let pageno = 1;
   if (MODE === 'key') {
     // fluye en columnas de página con break-inside:avoid por unidad
