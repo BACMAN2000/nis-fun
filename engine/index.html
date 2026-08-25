@@ -195,6 +195,11 @@ async function hub(){
       <video controls preload="metadata" src="../assets/videos/${idx.mascot}-intro.mp4"
         onerror="document.getElementById('guide').remove()"></video>
     </div>
+    <div class="guide" id="team">
+      <h2>⭐ Meet the team — ${idx.cast}!</h2>
+      <video controls preload="metadata" src="../assets/videos/${LEVEL}-cast.mp4"
+        onerror="document.getElementById('team').remove()"></video>
+    </div>
     <h2 style="margin:1.4rem 0 .8rem">Units</h2>
     <div class="units">${idx.units.map(u=>{
       const p = store.get(u.n);
