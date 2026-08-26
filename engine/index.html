@@ -142,6 +142,11 @@ if(/\.github\.io$/i.test(location.hostname)){
 </style>
 </head>
 <body>
+<!-- Splash de marca. La ruta relativa vale igual servido desde
+     nis.cohasset.pe/nis-fun/ que desde GitHub Pages. Comparte
+     sessionStorage con el portal: si el alumno ya lo vio al entrar, no se
+     repite al abrir el curso. -->
+<script src="../nis-splash.js?v=1"></script>
 <script src="crossword-layout.js"></script>
 <script src="emoji-map.js"></script>
 <main id="app">Loading…</main>
