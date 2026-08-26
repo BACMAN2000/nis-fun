@@ -197,11 +197,13 @@ async function hub(){
     <div class="guide" id="guide">
       <h2>🎬 Meet ${idx.mascot[0].toUpperCase()+idx.mascot.slice(1)} — your guide!</h2>
       <video controls preload="metadata" src="../assets/videos/${idx.mascot}-intro.mp4?v=${VIDEO_V}"
+        poster="../assets/videos/posters/${idx.mascot}-intro.jpg?v=${VIDEO_V}"
         onerror="document.getElementById('guide').remove()"></video>
     </div>
     <div class="guide" id="team">
       <h2>⭐ Meet the team — ${idx.cast}!</h2>
       <video controls preload="metadata" src="../assets/videos/${LEVEL}-cast.mp4?v=${VIDEO_V}"
+        poster="../assets/videos/posters/${LEVEL}-cast.jpg?v=${VIDEO_V}"
         onerror="document.getElementById('team').remove()"></video>
     </div>
     <h2 style="margin:1.4rem 0 .8rem">Units</h2>
