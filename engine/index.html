@@ -152,6 +152,9 @@ const LEVEL = qs.get('level');
 const UNIT = qs.get('unit');
 const app = document.getElementById('app');
 const COLORS = { starters:'#d97d0d', movers:'#2f9268', flyers:'#3b6fb5' };
+// El servidor cachea los mp4 4 horas y la ruta no cambia al reemplazarlos:
+// subir esta fecha obliga al navegador a volver a bajarlos.
+const VIDEO_V = '2026-08-25-marca';
 if (COLORS[LEVEL]) document.documentElement.style.setProperty('--accent', COLORS[LEVEL]);
 const CHAR = (slug, pose) => `../assets/characters/${LEVEL}/${slug}/pose-${String(pose).padStart(2,'0')}.png`;
 // si no existe el PNG (arte 3D), cae al SVG plano provisional
@@ -193,12 +196,12 @@ async function hub(){
       <h1>${idx.name}</h1><span class="meta">${idx.cast}</span></div>
     <div class="guide" id="guide">
       <h2>🎬 Meet ${idx.mascot[0].toUpperCase()+idx.mascot.slice(1)} — your guide!</h2>
-      <video controls preload="metadata" src="../assets/videos/${idx.mascot}-intro.mp4"
+      <video controls preload="metadata" src="../assets/videos/${idx.mascot}-intro.mp4?v=${VIDEO_V}"
         onerror="document.getElementById('guide').remove()"></video>
     </div>
     <div class="guide" id="team">
       <h2>⭐ Meet the team — ${idx.cast}!</h2>
-      <video controls preload="metadata" src="../assets/videos/${LEVEL}-cast.mp4"
+      <video controls preload="metadata" src="../assets/videos/${LEVEL}-cast.mp4?v=${VIDEO_V}"
         onerror="document.getElementById('team').remove()"></video>
     </div>
     <h2 style="margin:1.4rem 0 .8rem">Units</h2>
