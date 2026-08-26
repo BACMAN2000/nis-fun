@@ -360,7 +360,7 @@ listening(act, el){
   const playBtn = el.querySelector('.play');
   const audio = new Audio(`../audio/${act.audio}`);
   let mode='mp3', speaking=false;
-  audio.onerror = ()=>{ mode='tts'; el.querySelector('.provisional').textContent='(voz provisional del navegador — el audio ElevenLabs se genera después)'; };
+  audio.onerror = ()=>{ mode='tts'; el.querySelector('.provisional').textContent='(temporary browser voice — the real audio is coming soon)'; };
   playBtn.onclick = ()=>{
     if(mode==='mp3' && !audio.error){ audio.paused ? (audio.play(), playBtn.textContent='⏸ Pause') : (audio.pause(), playBtn.textContent='▶ Listen'); return; }
     if(speaking){ speechSynthesis.cancel(); speaking=false; playBtn.textContent='▶ Listen'; playBtn.classList.remove('playing'); return; }
