@@ -1,2 +1,6 @@
 .claude/
 *.log
+
+# los clips en bruto de Veo pesan ~450 MB; solo se versiona la marca
+build-videos/*
+!build-videos/brand/
