@@ -234,18 +234,37 @@ function makeIntro(ud){
   return `The Aurora Expedition continues! This time, ${c1} and ${c2} take you deep into the world of ${ud.topic}. Read the texts slowly, listen twice like in the real exam, and use ${ud.grammar} like a true explorer. Every activity you finish takes you one step closer to the Flyers exam — and Kili is carrying a star with your name on it. Good luck, explorer!`;
 }
 function sceneFor(ud){
-  const t = ((ud.topic||'')+' '+(ud.title||'')).toLowerCase();
+  const t = ((ud.topic||'')+' '+(ud.title||'')+' '+(ud.grammar||'')).toLowerCase();
   const has = (...ws)=>ws.some(w=>t.includes(w));
-  if (has('school','classroom','lesson')) return 'classroom';
-  if (has('library','book','read','stor')) return 'library';
-  if (has('hockey','sport')) return 'hockey';
-  if (has('run','athletic','body','health','exercise')) return 'track';
-  if (has('town','city','place','building','street')) return 'facade';
-  if (has('garden','food','fruit','vegetable','plant','countryside','nature','farm')) return 'garden';
-  if (has('hello','welcome','greet','friend')) return 'entrance';
-  if (has('review','party','celebrat','music','show','concert')) return 'amphitheater';
-  if (has('game','play','toy')) return 'labyrinth';
-  return null;
+  // Deporte y movimiento
+  if (has('hockey','sport','football','match','team','ball','game of')) return 'hockey';
+  if (has('run','athletic','exercise','race','fit','body','face','health','hair','tall','strong')) return 'track';
+  // Palabras y letras
+  if (has('librar','book','read','stor','writ','letter','spell','alphabet','biograph','diary','note')) return 'library';
+  // Aula: lo escolar y la gramatica que no tiene mundo propio
+  if (has('school','classroom','lesson','subject','timetable','homework','study','exam','test','practice','teacher','pencil','material')) return 'classroom';
+  // Mirador: mar, cielo, clima, mundo
+  if (has('beach','sea','ocean','island','boat','fish','swim','sail','geograph','space','sky','star','planet','world','country','weather','season','rain','snow','sunny','cloud','wind','storm')) return 'mirador';
+  // Picnic: comida y celebraciones de mesa
+  if (has('food','fruit','vegetable','eat','drink','breakfast','lunch','dinner','picnic','meal','snack','cook','hungry','thirst','cake','kitchen')) return 'picnic-garden';
+  // Huerto: naturaleza y animales
+  if (has('garden','plant','flower','tree','farm','countryside','nature','grow','animal','pet','bird','insect','zoo')) return 'garden';
+  // Plaza del ajedrez: numeros, cantidades y comparaciones
+  if (has('number','count','math','quantit','compar','superlativ','measure','money','price','how many','how much','more','most','less')) return 'chess-plaza';
+  // Fachada: la ciudad, la casa, el trabajo, los viajes
+  if (has('town','city','place','building','street','direction','way','map','shop','buy','work','job','travel','transport','holiday','trip','home','house','room','bedroom','furniture','chore','clean','live','clothes','wear')) return 'facade';
+  // Entrada: la gente
+  if (has('hello','welcome','greet','friend','family','people','person','name','telephone','phone','feel','happy','sad','personal','who')) return 'entrance';
+  // Anfiteatro: fiesta, musica y repaso
+  if (has('review','party','celebrat','music','show','concert','birthday','danc','sing','hobb','free time','screen')) return 'amphitheater';
+  // Laberinto: juego y posicion
+  if (has('game','play','toy','prepos','position','where is','behind','between','hide')) return 'labyrinth';
+  // Tiempo y rutina
+  if (has('time','clock','hour','day','week','month','routine','morning','afternoon','night','often','always','frequen')) return 'campus-hex';
+  // Sin tema propio (gramatica pura): se reparte por numero de unidad para
+  // que ninguna pagina quede sin ilustracion y no salga siempre la misma.
+  const pool = ['campus-hex','chess-plaza','amphitheater','entrance','facade','labyrinth','mirador','classroom'];
+  return pool[(Number(ud.number)||0) % pool.length];
 }
 async function unit(){
   UD = await j(`../content/${LEVEL}/unit-${String(UNIT).padStart(2,'0')}.json`);
