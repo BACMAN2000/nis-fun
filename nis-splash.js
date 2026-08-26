@@ -24,7 +24,10 @@
   var host = document.createElement('div');
   host.innerHTML = HTML;
   var el = host.firstElementChild;
-  (document.body || document.documentElement).appendChild(el);
+  // Cuelga del <html>, no del <body>: el portal repinta con
+  // document.body.innerHTML = ... y ahi el splash moriria a media
+  // animacion. Al estar fuera del body sobrevive a esos repintados.
+  document.documentElement.appendChild(el);
   try { sessionStorage.setItem(KEY, '1'); } catch (e) {}
 
   var done = false;
