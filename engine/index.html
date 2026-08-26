@@ -143,10 +143,11 @@ if(/\.github\.io$/i.test(location.hostname)){
 </head>
 <body>
 <!-- Splash de marca. La ruta relativa vale igual servido desde
-     nis.cohasset.pe/nis-fun/ que desde GitHub Pages. Comparte
-     sessionStorage con el portal: si el alumno ya lo vio al entrar, no se
-     repite al abrir el curso. -->
-<script src="../nis-splash.js?v=1"></script>
+     nis.cohasset.pe/nis-fun/ que desde GitHub Pages. Con data-key propia
+     sale al abrir el curso aunque ya se hubiera visto en el portal (mismo
+     origen, misma sessionStorage); sigue siendo una vez por sesion, asi
+     que no reaparece al abrir cada una de las 45-55 unidades. -->
+<script src="../nis-splash.js?v=2" data-key="nis_splash_curso"></script>
 <script src="crossword-layout.js"></script>
 <script src="emoji-map.js"></script>
 <main id="app">Loading…</main>
