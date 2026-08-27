@@ -49,6 +49,14 @@ NO_SON = {
     "ask", "use", "bonus", "example", "goal", "mission", "next", "report",
     "survey", "today", "breakfast", "lunch", "dinner", "everyone", "tpr",
     "task", "tip", "note", "answer", "extra", "warm", "round", "part",
+    # terminos de lengua: van seguidos de dos puntos igual que un hablante
+    # en un dialogo, y el patron los tomaba por nombres de persona
+    "adjective", "adjectives", "article", "articles", "comparative",
+    "comparatives", "superlative", "superlatives", "conjunction",
+    "conjunctions", "imperative", "imperatives", "question", "questions",
+    "will", "would", "preposition", "prepositions", "pronoun", "pronouns",
+    "adverb", "adverbs", "plural", "plurals", "grammar", "vocabulary",
+    "example", "examples", "structure", "form", "forms", "tense", "tenses",
 }
 
 PATRONES = [
