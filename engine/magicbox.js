@@ -144,7 +144,7 @@ window.MAGICBOX = (function () {
     },
     {
       id: 'muchos',
-      busca: /plural|countable|uncountable|there is \/ there are|there are|how many/i,
+      busca: /plural|countable|uncountable|there is|there are|there was|there were|how many/i,
       titulo: 'One, or a lot?',
       pasos: [
         { arte: () => bolas(1), pal: 'one ball',    fin: '',  frase: 'There is one ball.' },
@@ -252,7 +252,7 @@ window.MAGICBOX = (function () {
     },
     {
       id: 'cuando',
-      busca: /in \+ month|on \+ date|at \+ time|prepositions of time|month|season|birthday|date/i,
+      busca: /in \+ month|on \+ date|on \+ day|at \+ time|prepositions of time|month|season|birthday|date|in the morning|at night|day parts/i,
       titulo: 'in, on, at — when?',
       pasos: [
         { arte: () => reloj(12), pal: 'in',  fin: ' July',    frase: 'A whole month.' },
@@ -312,7 +312,7 @@ window.MAGICBOX = (function () {
     },
     {
       id: 'haz-esto',
-      busca: /imperative|some \/ any|instructions|commands|let's/i,
+      busca: /imperative|some \/ any|instructions|commands|let's|action words|directions|turns and steps/i,
       titulo: 'Do it!',
       pasos: [
         { arte: () => figura('feliz', 'arriba'), pal: 'Open',      fin: ' the box!', frase: 'Just the verb.' },
@@ -336,7 +336,7 @@ window.MAGICBOX = (function () {
     },
     {
       id: 'es-un',
-      busca: /it is a|what is it|what colour|what color|this is a|a \/ an|naming|alphabet|animal sounds/i,
+      busca: /it is a|it's sunny|it's rainy|what is it|what colour|what color|this is a|a \/ an|naming|alphabet|animal sounds|weather/i,
       titulo: 'What is it?',
       pasos: [
         { arte: () => bolas(1), pal: 'It is a',  fin: ' ball',   frase: 'One thing.' },
@@ -348,7 +348,7 @@ window.MAGICBOX = (function () {
     },
     {
       id: 'me-gusta',
-      busca: /i like|don't like|likes \/ doesn't like|favourite|favorite|feelings/i,
+      busca: /i like|don't like|likes \/ doesn't like|favourite|favorite|feelings|i have|for breakfast|would you like/i,
       titulo: 'Yes please, no thank you',
       pasos: [
         { arte: () => figura('feliz', 'arriba'), pal: 'I like',       fin: ' cake',   frase: 'Yes! 😀' },
@@ -372,7 +372,7 @@ window.MAGICBOX = (function () {
     },
     {
       id: 'soy',
-      busca: /i am|are you|his name|her name|man \/ woman|boy \/ girl|have you got|to be|introduc/i,
+      busca: /i am|are you|his name|her name|he is|she is|it is|man \/ woman|boy \/ girl|have you got|to be|introduc|spell/i,
       titulo: 'Who is who?',
       pasos: [
         { arte: () => figura('feliz', 'arriba'), pal: 'I am',   fin: ' Nico',  frase: 'Me.' },
@@ -382,10 +382,77 @@ window.MAGICBOX = (function () {
       pie: 'I, he, she — one little word changes everything.',
       reto: { p: '___ is my sister.', ops: ['He', 'She', 'It'], bien: 1 },
     },
+    {
+      id: 'porque',
+      busca: /because|so \(|so \/ because|reason|result|cause/i,
+      titulo: 'Why? and So?',
+      pasos: [
+        { arte: () => figura('triste', 'abajo'), pal: 'I am tired',   fin: '',           frase: 'What happened.' },
+        { arte: () => figura('triste', 'abajo'), pal: 'because',      fin: ' I ran',     frase: 'The reason.' },
+        { arte: () => figura('feliz', 'abajo'),  pal: 'so',           fin: ' I sat down', frase: 'What happened next.' },
+      ],
+      pie: 'because looks back. so looks forward.',
+      reto: { p: 'It was raining, ___ we stayed at home.', ops: ['because', 'so', 'but'], bien: 1 },
+    },
+    {
+      id: 'el-que',
+      busca: /relative clause|who, which|which, where|defining|non-defining/i,
+      titulo: 'One sentence, not two',
+      pasos: [
+        { arte: () => figura('feliz', 'abajo'),  pal: 'the girl',   fin: ' who runs',    frase: 'who — for people.' },
+        { arte: () => bolas(1),                  pal: 'the ball',   fin: ' which is red', frase: 'which — for things.' },
+        { arte: () => caja(70, '#e8c49a'),       pal: 'the place',  fin: ' where I live', frase: 'where — for places.' },
+      ],
+      pie: 'People who, things which, places where.',
+      reto: { p: 'This is the book ___ I read last week.', ops: ['who', 'which', 'where'], bien: 1 },
+    },
+    {
+      id: 'como-lo-hace',
+      busca: /adverbs of manner|-ly|well, fast|how \+ adverb|slowly|loudly/i,
+      titulo: 'How do you do it?',
+      pasos: [
+        { arte: () => figura('feliz', 'abajo'),  pal: 'slow',   fin: '',    frase: 'What it is like.' },
+        { arte: () => figura('feliz', 'arriba'), pal: 'slow',   fin: 'ly',  frase: 'How you do it.' },
+        { arte: () => figura('feliz', 'arriba'), pal: 'well',   fin: '',    frase: 'This one does not take -ly!' },
+      ],
+      pie: 'Add -ly to say HOW. But good becomes well.',
+      reto: { p: 'She sings very ___ .', ops: ['good', 'well', 'goodly'], bien: 1 },
+    },
+    {
+      id: 'hacer',
+      busca: /collocation|make and do|make \/ do|make or do/i,
+      titulo: 'make or do?',
+      pasos: [
+        { arte: () => caja(70, '#e8c49a'), pal: 'make',  fin: ' a cake',      frase: 'When something new appears.' },
+        { arte: () => figura('feliz', 'abajo'), pal: 'do', fin: ' your homework', frase: 'When it is work or a task.' },
+        { arte: () => figura('feliz', 'arriba'), pal: 'make', fin: ' a mistake', frase: 'And some you just learn!' },
+      ],
+      pie: 'Make it and it exists. Do it and it is done.',
+      reto: { p: 'Please ___ the washing-up.', ops: ['make', 'do', 'take'], bien: 1 },
+    },
+    {
+      id: 'cuantos',
+      busca: /numbers 11|numbers 20|numbers 1|counting|how many\?/i,
+      titulo: 'Counting up',
+      pasos: [
+        { arte: () => bolas(1), pal: 'thir',  fin: 'teen', frase: '13 — the -teen family.' },
+        { arte: () => bolas(2), pal: 'thir',  fin: 'ty',   frase: '30 — the -ty family.' },
+        { arte: () => bolas(3), pal: 'thirty', fin: '-one', frase: '31 — put them together.' },
+      ],
+      pie: '-teen is small, -ty is big. Listen to the end!',
+      reto: { p: 'Which one is 15?', ops: ['fifty', 'fifteen', 'five'], bien: 1 },
+    },
   ];
+
+  /* Las unidades de repaso y las de estrategia de examen no llevan caja a
+     proposito: no ensenan ninguna regla nueva, repasan las que ya se
+     dieron. Ponerles una seria decorado, y ademas se la quitaria a la
+     unidad donde esa regla si se explica. */
+  const SIN_CAJA = /review|revision|strategies|exam strategies|whole course|paper strategies/i;
 
   function familiaDe(ud) {
     const t = ((ud.grammar || '') + ' ' + (ud.topic || '') + ' ' + (ud.title || '')).toLowerCase();
+    if (SIN_CAJA.test(t)) return null;
     return FAMILIAS.find(f => f.busca.test(t)) || null;
   }
 
