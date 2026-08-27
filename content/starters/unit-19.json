@@ -260,5 +260,39 @@
    "type": "write_sentences",
    "prompt": "Draw your street with 4 people and write who they are: There is a man… There are two children…"
   }
- ]
+ ],
+ "scope": {
+  "grado": "G2",
+  "temaN": 1,
+  "tema": "All About Me",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Understand short simple dialogues about family, school, animals, food (Cambridge Starters Listening parts 1–4)."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Answer picture-prompted questions; describe a picture in simple sentences."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read 2–3-sentence texts; match pictures to words and short captions."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Copy words and complete short sentences (Starters Reading/Writing parts)."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "~450 words (Starters wordlist); Present simple, present continuous (limited), there is/are, like + -ing."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [
+   "Have/has got: I have got blue eyes"
+  ],
+  "pendiente": {
+   "vocabulario": []
+  }
+ }
 }

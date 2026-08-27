@@ -233,5 +233,61 @@
    "type": "write_sentences",
    "prompt": "Draw your favourite clothes and write 4 sentences: I am wearing my blue…"
   }
+ ],
+ "scope": {
+  "grado": "G2",
+  "temaN": 1,
+  "tema": "All About Me",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Understand short simple dialogues about family, school, animals, food (Cambridge Starters Listening parts 1–4)."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Answer picture-prompted questions; describe a picture in simple sentences."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read 2–3-sentence texts; match pictures to words and short captions."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Copy words and complete short sentences (Starters Reading/Writing parts)."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "~450 words (Starters wordlist); Present simple, present continuous (limited), there is/are, like + -ing."
+   }
+  ],
+  "vocabulario": [
+   "tall",
+   "short",
+   "thin",
+   "curly",
+   "straight hair",
+   "eyes colour"
+  ],
+  "gramatica": [
+   "TO BE: all forms (am, is, are, was, were – intro)"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "tall",
+    "short",
+    "thin",
+    "curly",
+    "straight hair",
+    "eyes colour"
+   ]
+  }
+ },
+ "wordlist_extra": [
+  "tall",
+  "short",
+  "thin",
+  "curly",
+  "straight hair",
+  "eyes colour"
  ]
 }

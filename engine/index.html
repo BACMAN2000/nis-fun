@@ -42,6 +42,18 @@ if(/\.github\.io$/i.test(location.hostname)){
   .scr-centro .op-text{text-align:left}
   .scr-centro .units{text-align:left}
   .scr-pie{color:var(--soft)}
+  /* lo que la secuencia del colegio espera de este grado */
+  .sc-grado{margin-top:1.2rem;background:var(--surface2);border-radius:16px;
+    padding:.9rem 1.1rem;text-align:left;max-width:44rem;margin-inline:auto}
+  .sc-grado h4{margin:0 0 .2rem;font-family:"Baloo 2",sans-serif;color:var(--accent)}
+  .sc-nota{margin:0 0 .5rem;color:var(--soft);font-size:.9rem}
+  .sc-grado ul{margin:0;padding-left:1.1rem}
+  .sc-grado li{margin:.25rem 0;line-height:1.5}
+  /* palabras de ampliacion que pide la secuencia */
+  .pw.pw-extra{position:relative}
+  .pw.pw-extra::after{content:"+";position:absolute;top:.2rem;right:.35rem;
+    background:var(--star);color:#3a2c05;border-radius:999px;width:1.1rem;height:1.1rem;
+    display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.72rem}
   /* las palabras de la unidad, marcadas en la historia */
   mark.clave{background:#fff2c9;color:inherit;border-radius:5px;padding:0 .18rem;
     box-decoration-break:clone;-webkit-box-decoration-break:clone;font-weight:600}
@@ -391,7 +403,7 @@ const store = {
 
 // El contenido se cachea igual que los mp4: al cambiar una unidad hay que
 // subir esta fecha o el alumno sigue viendo la version anterior.
-const CONTENT_V = '2026-08-27-magicbox';
+const CONTENT_V = '2026-08-27-scope';
 async function j(path){
   const sep = path.includes('?') ? '&' : '?';
   const r = await fetch(path + sep + 'v=' + CONTENT_V);
@@ -628,7 +640,14 @@ async function unit(){
       onerror="this.onerror=null;${respaldo ? `this.src='${respaldo}'` : `this.remove()`}">`;
   })();
 
-  const pwHTML = `<div class="pwrow">${(UD.wordlist||[]).slice(0,10).map(w=>{
+  // Las de wordlist_extra vienen del Scope & Sequence: son las palabras
+  // que la secuencia pide para este tema y que la unidad no traia. Van
+  // detras de las suyas y marcadas, para que se vea que son de ampliacion.
+  const pwLista = [
+    ...(UD.wordlist||[]).slice(0,10).map(w=>({w, extra:false})),
+    ...(UD.wordlist_extra||[]).map(w=>({w, extra:true})),
+  ];
+  const pwHTML = `<div class="pwrow">${pwLista.map(({w, extra})=>{
       const key = w.replace(/^(a|an|the) /,'');
       const art = (window.VOCAB_ART && VOCAB_ART.get(key)) || null;
       const plano = art || `<span class="emo">${EMOJI[key] || EMOJI[key.toLowerCase()] || '✏️'}</span>`;
@@ -636,7 +655,7 @@ async function unit(){
       const ico = `<img class="art3d" src="../assets/vocab/${slug3d}.png" alt=""
                      onerror="this.replaceWith(...new DOMParser().parseFromString(this.dataset.fb,'text/html').body.childNodes)"
                      data-fb="${esc(plano)}">`;
-      return `<button class="pw" type="button" data-say="${esc(w)}"
+      return `<button class="pw${extra?' pw-extra':''}" type="button" data-say="${esc(w)}"
                 title="Click to hear it" aria-label="Say ${esc(w)}">
                 <div class="ico">${ico}</div><div class="w">${w}</div>
                 <span class="spk" aria-hidden="true">🔊</span></button>`;
@@ -753,6 +772,11 @@ function pintaSelfCheck(el, digital){
     UD.grammar ? `I can use <b>${UD.grammar}</b>.` : null,
     `I can understand the story of this unit.`,
   ].filter(Boolean);
+  // Lo que la secuencia del colegio espera de este grado. Es lo que el
+  // profesor tiene que poder dar por conseguido al acabar el ano, asi que
+  // el alumno lo ve aqui con sus mismas palabras.
+  const delGrado = ((UD.scope||{}).outcomes||[]).map(o => `<b>${esc(o.destreza)}</b> — ${esc(o.puede)}`);
+
   digital.forEach(a => {
     if (a.type === 'listening') puedo.push('I can listen and write the missing words.');
     if (a.type === 'crossword') puedo.push('I can read a clue and write the word.');
@@ -768,7 +792,13 @@ function pintaSelfCheck(el, digital){
     <ul class="sc-lista">${puedo.map((t,i)=>`
       <li><label><input type="checkbox" data-i="${i}"${marcado[i]?' checked':''}>
         <span>${t}</span></label></li>`).join('')}</ul>
-    <p class="sc-cuenta"></p>`;
+    <p class="sc-cuenta"></p>
+    ${delGrado.length ? `<div class="sc-grado">
+      <h4>${esc(((UD.scope||{}).tema)||'')} · ${esc(((UD.scope||{}).grado)||'')}</h4>
+      <p class="sc-nota">This unit is part of what you will be able to do
+        by the end of the year:</p>
+      <ul>${delGrado.map(t=>`<li>${t}</li>`).join('')}</ul>
+    </div>` : ''}`;
 
   const cuenta = () => {
     const n = el.querySelectorAll('input:checked').length;

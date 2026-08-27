@@ -260,5 +260,55 @@
    "type": "write_sentences",
    "prompt": "Write your 4 home jobs with have to: I have to… On Sundays I have to…"
   }
+ ],
+ "scope": {
+  "grado": "G4",
+  "temaN": 1,
+  "tema": "Around Town",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Understand longer dialogues (Movers parts 1–5); identify specific info in spoken texts."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Describe places, objects, past events; role-play simple situations."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read and sequence short stories; locate information in signs, notices."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write a note/message of 30–40 words (Movers Writing part); classroom paragraphs 60–100w."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "~1350 words (Movers wordlist); Past simple, relatives, infinitive of purpose, have to."
+   }
+  ],
+  "vocabulario": [
+   "underground",
+   "ferry",
+   "tram",
+   "scooter"
+  ],
+  "gramatica": [
+   "Imperatives for directions"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "underground",
+    "ferry",
+    "tram",
+    "scooter"
+   ]
+  }
+ },
+ "wordlist_extra": [
+  "underground",
+  "ferry",
+  "tram",
+  "scooter"
  ]
 }

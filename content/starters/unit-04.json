@@ -229,5 +229,39 @@
    "type": "write_sentences",
    "prompt": "Count at home and write: how many doors, beds, chairs and spoons. There are…"
   }
- ]
+ ],
+ "scope": {
+  "grado": "G1",
+  "temaN": 1,
+  "tema": "Hello World!",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Follow classroom instructions; identify familiar words in songs and short spoken sentences."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Greet; say name, age, colours; name objects; answer yes/no questions."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Recognise all 26 letters; match words to pictures (family, food, animals, body)."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write own name; trace and copy words; label pictures (3–5 words)."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "~150 productive words; Verb to be, can, like + noun, imperatives, this/that."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [
+   "Subject pronouns: I, you, he, she, it"
+  ],
+  "pendiente": {
+   "vocabulario": []
+  }
+ }
 }

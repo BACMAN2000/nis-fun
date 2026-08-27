@@ -264,5 +264,49 @@
    "type": "write_sentences",
    "prompt": "Draw yourself as an English explorer with your certificate. Write: I can… (3 things you learned this year!)"
   }
+ ],
+ "scope": {
+  "grado": "G2",
+  "temaN": 6,
+  "tema": "Hobbies & Play",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Understand short simple dialogues about family, school, animals, food (Cambridge Starters Listening parts 1–4)."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Answer picture-prompted questions; describe a picture in simple sentences."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read 2–3-sentence texts; match pictures to words and short captions."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Copy words and complete short sentences (Starters Reading/Writing parts)."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "~450 words (Starters wordlist); Present simple, present continuous (limited), there is/are, like + -ing."
+   }
+  ],
+  "vocabulario": [
+   "every day",
+   "on saturdays"
+  ],
+  "gramatica": [
+   "Question: Do you like…? Yes, I do / No, I don't"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "every day",
+    "on saturdays"
+   ]
+  }
+ },
+ "wordlist_extra": [
+  "every day",
+  "on saturdays"
  ]
 }

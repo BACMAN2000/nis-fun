@@ -237,5 +237,52 @@
    "type": "write_sentences",
    "prompt": "Write about a sport you love and one you don't: I play/go/do… because… I don't like… because…"
   }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 5,
+  "tema": "Health & Wellbeing",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Narrate stories with past/present/future; express preferences with reasons."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read and understand short stories (80–250 words); find main idea and detail."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Writing Part 3: 20–25-word picture story (Flyers); classroom pieces 100–150w."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "~2500 words (Flyers wordlist); Present perfect intro, tag Qs, 0th conditional, be going to."
+   }
+  ],
+  "vocabulario": [
+   "balanced diet",
+   "exercise routine",
+   "sleep hygiene"
+  ],
+  "gramatica": [
+   "Gerund vs. infinitive: enjoy + -ing / want + to (intro)"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "balanced diet",
+    "exercise routine",
+    "sleep hygiene"
+   ]
+  }
+ },
+ "wordlist_extra": [
+  "balanced diet",
+  "exercise routine",
+  "sleep hygiene"
  ]
 }

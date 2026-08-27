@@ -237,5 +237,55 @@
    "type": "write_sentences",
    "prompt": "Interview someone in your family about their job. Write 3 sentences: My uncle is a driver. He starts work at… The best part is…"
   }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 6,
+  "tema": "Adventures & Experiences",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Narrate stories with past/present/future; express preferences with reasons."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read and understand short stories (80–250 words); find main idea and detail."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Writing Part 3: 20–25-word picture story (Flyers); classroom pieces 100–150w."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "~2500 words (Flyers wordlist); Present perfect intro, tag Qs, 0th conditional, be going to."
+   }
+  ],
+  "vocabulario": [
+   "realised",
+   "discovered",
+   "overcame",
+   "survived"
+  ],
+  "gramatica": [
+   "Past Perfect: introduction (I had already…)"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "realised",
+    "discovered",
+    "overcame",
+    "survived"
+   ]
+  }
+ },
+ "wordlist_extra": [
+  "realised",
+  "discovered",
+  "overcame",
+  "survived"
  ]
 }

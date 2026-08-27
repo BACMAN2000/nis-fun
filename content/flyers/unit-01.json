@@ -351,5 +351,55 @@
    "type": "write_sentences",
    "prompt": "Draw and label 5 things you wear and 3 things you carry to school. Write one sentence about each: I wear… / I carry…"
   }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 1,
+  "tema": "Personal Identity",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Narrate stories with past/present/future; express preferences with reasons."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read and understand short stories (80–250 words); find main idea and detail."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Writing Part 3: 20–25-word picture story (Flyers); classroom pieces 100–150w."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "~2500 words (Flyers wordlist); Present perfect intro, tag Qs, 0th conditional, be going to."
+   }
+  ],
+  "vocabulario": [
+   "honesty",
+   "respect",
+   "responsibility",
+   "empathy"
+  ],
+  "gramatica": [
+   "Present Perfect: ever, never, already, just, yet (full use)"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "honesty",
+    "respect",
+    "responsibility",
+    "empathy"
+   ]
+  }
+ },
+ "wordlist_extra": [
+  "honesty",
+  "respect",
+  "responsibility",
+  "empathy"
  ]
 }

@@ -260,5 +260,61 @@
    "type": "write_sentences",
    "prompt": "Write a get-well card to Oliver: three sentences with should or shouldn't. Example: You should drink hot lemon."
   }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 5,
+  "tema": "Health & Wellbeing",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Narrate stories with past/present/future; express preferences with reasons."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read and understand short stories (80–250 words); find main idea and detail."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Writing Part 3: 20–25-word picture story (Flyers); classroom pieces 100–150w."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "~2500 words (Flyers wordlist); Present perfect intro, tag Qs, 0th conditional, be going to."
+   }
+  ],
+  "vocabulario": [
+   "vaccination",
+   "symptoms",
+   "diagnosis",
+   "prescription",
+   "allergy",
+   "first aid"
+  ],
+  "gramatica": [
+   "Modal verbs: should, ought to, might, could (advice/possibility)"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "vaccination",
+    "symptoms",
+    "diagnosis",
+    "prescription",
+    "allergy",
+    "first aid"
+   ]
+  }
+ },
+ "wordlist_extra": [
+  "vaccination",
+  "symptoms",
+  "diagnosis",
+  "prescription",
+  "allergy",
+  "first aid"
  ]
 }

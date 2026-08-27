@@ -260,5 +260,39 @@
    "type": "write_sentences",
    "prompt": "Write the records of your family: the oldest, the youngest, the funniest, the best cook. One sentence each with because."
   }
- ]
+ ],
+ "scope": {
+  "grado": "G4",
+  "temaN": 6,
+  "tema": "My Future",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Understand longer dialogues (Movers parts 1–5); identify specific info in spoken texts."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Describe places, objects, past events; role-play simple situations."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read and sequence short stories; locate information in signs, notices."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write a note/message of 30–40 words (Movers Writing part); classroom paragraphs 60–100w."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "~1350 words (Movers wordlist); Past simple, relatives, infinitive of purpose, have to."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [
+   "Will: predictions & spontaneous decisions (intro)"
+  ],
+  "pendiente": {
+   "vocabulario": []
+  }
+ }
 }

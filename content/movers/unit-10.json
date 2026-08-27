@@ -237,5 +237,55 @@
    "type": "write_sentences",
    "prompt": "Choose 3 farm animals. Write what each can and can't do: A hen can walk but it can't swim."
   }
+ ],
+ "scope": {
+  "grado": "G4",
+  "temaN": 3,
+  "tema": "Wild Animals & Nature",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Understand longer dialogues (Movers parts 1–5); identify specific info in spoken texts."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Describe places, objects, past events; role-play simple situations."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read and sequence short stories; locate information in signs, notices."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write a note/message of 30–40 words (Movers Writing part); classroom paragraphs 60–100w."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "~1350 words (Movers wordlist); Past simple, relatives, infinitive of purpose, have to."
+   }
+  ],
+  "vocabulario": [
+   "predator",
+   "prey",
+   "herbivore",
+   "carnivore"
+  ],
+  "gramatica": [
+   "Present Simple vs Present Continuous contrast (intro)"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "predator",
+    "prey",
+    "herbivore",
+    "carnivore"
+   ]
+  }
+ },
+ "wordlist_extra": [
+  "predator",
+  "prey",
+  "herbivore",
+  "carnivore"
  ]
 }

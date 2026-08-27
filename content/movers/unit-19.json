@@ -237,5 +237,58 @@
    "type": "write_sentences",
    "prompt": "Write how 4 people you know travel: My cousin goes to work by… It takes…"
   }
+ ],
+ "scope": {
+  "grado": "G3",
+  "temaN": 1,
+  "tema": "School Life",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Understand short dialogues with more vocabulary; identify main information in simple announcements."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Describe routines, favourites, community helpers; give short opinions."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read short paragraphs; answer simple comprehension Qs; find specific info."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write short paragraph about self/family/routine (40–70 words)."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "~800 words; All basic tenses start; must/have to/could; SVA; superlatives."
+   }
+  ],
+  "vocabulario": [
+   "favourite",
+   "difficult",
+   "easy",
+   "boring",
+   "interesting"
+  ],
+  "gramatica": [
+   "Wh- questions: What time do you…? What is your favourite…?"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "favourite",
+    "difficult",
+    "easy",
+    "boring",
+    "interesting"
+   ]
+  }
+ },
+ "wordlist_extra": [
+  "favourite",
+  "difficult",
+  "easy",
+  "boring",
+  "interesting"
  ]
 }

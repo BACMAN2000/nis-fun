@@ -260,5 +260,64 @@
    "type": "write_sentences",
    "prompt": "Write 4 rules of your home: two with must and two with mustn't. Do you follow them all? Be honest!"
   }
+ ],
+ "scope": {
+  "grado": "G3",
+  "temaN": 1,
+  "tema": "School Life",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Understand short dialogues with more vocabulary; identify main information in simple announcements."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Describe routines, favourites, community helpers; give short opinions."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read short paragraphs; answer simple comprehension Qs; find specific info."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write short paragraph about self/family/routine (40–70 words)."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "~800 words; All basic tenses start; must/have to/could; SVA; superlatives."
+   }
+  ],
+  "vocabulario": [
+   "maths",
+   "science",
+   "art",
+   "pe",
+   "english",
+   "music",
+   "history"
+  ],
+  "gramatica": [
+   "Adverbs of frequency: always, usually, sometimes, never"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "maths",
+    "science",
+    "art",
+    "pe",
+    "english",
+    "music",
+    "history"
+   ]
+  }
+ },
+ "wordlist_extra": [
+  "maths",
+  "science",
+  "art",
+  "pe",
+  "english",
+  "music",
+  "history"
  ]
 }

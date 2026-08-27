@@ -260,5 +260,55 @@
    "type": "write_sentences",
    "prompt": "Write what 4 people in your family were doing yesterday at 8 pm: My dad was cooking dinner…"
   }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 6,
+  "tema": "Adventures & Experiences",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Narrate stories with past/present/future; express preferences with reasons."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read and understand short stories (80–250 words); find main idea and detail."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Writing Part 3: 20–25-word picture story (Flyers); classroom pieces 100–150w."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "~2500 words (Flyers wordlist); Present perfect intro, tag Qs, 0th conditional, be going to."
+   }
+  ],
+  "vocabulario": [
+   "breathtaking",
+   "terrifying",
+   "unforgettable",
+   "rewarding"
+  ],
+  "gramatica": [
+   "Narrative connectors: eventually, meanwhile, suddenly, as a result"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "breathtaking",
+    "terrifying",
+    "unforgettable",
+    "rewarding"
+   ]
+  }
+ },
+ "wordlist_extra": [
+  "breathtaking",
+  "terrifying",
+  "unforgettable",
+  "rewarding"
  ]
 }

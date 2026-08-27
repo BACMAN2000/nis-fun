@@ -260,5 +260,39 @@
    "type": "write_sentences",
    "prompt": "Draw your dream birthday cake with the right number of candles. Write: I am … years old. My cake is…"
   }
- ]
+ ],
+ "scope": {
+  "grado": "G1",
+  "temaN": 6,
+  "tema": "Food & Fun",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Follow classroom instructions; identify familiar words in songs and short spoken sentences."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Greet; say name, age, colours; name objects; answer yes/no questions."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Recognise all 26 letters; match words to pictures (family, food, animals, body)."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write own name; trace and copy words; label pictures (3–5 words)."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "~150 productive words; Verb to be, can, like + noun, imperatives, this/that."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [
+   "Full simple sentence: subject + verb + object"
+  ],
+  "pendiente": {
+   "vocabulario": []
+  }
+ }
 }

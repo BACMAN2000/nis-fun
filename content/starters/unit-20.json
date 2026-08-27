@@ -260,5 +260,55 @@
    "type": "write_sentences",
    "prompt": "Draw your best friend and write 4 sentences: His/Her name is… He/She likes…"
   }
+ ],
+ "scope": {
+  "grado": "G2",
+  "temaN": 6,
+  "tema": "Hobbies & Play",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Understand short simple dialogues about family, school, animals, food (Cambridge Starters Listening parts 1–4)."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Answer picture-prompted questions; describe a picture in simple sentences."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read 2–3-sentence texts; match pictures to words and short captions."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Copy words and complete short sentences (Starters Reading/Writing parts)."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "~450 words (Starters wordlist); Present simple, present continuous (limited), there is/are, like + -ing."
+   }
+  ],
+  "vocabulario": [
+   "doll",
+   "puzzle",
+   "video game",
+   "ball"
+  ],
+  "gramatica": [
+   "Present Simple: like + -ing (hobbies)"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "doll",
+    "puzzle",
+    "video game",
+    "ball"
+   ]
+  }
+ },
+ "wordlist_extra": [
+  "doll",
+  "puzzle",
+  "video game",
+  "ball"
  ]
 }

@@ -260,5 +260,37 @@
    "type": "write_sentences",
    "prompt": "Write about your favourite animal: 5 sentences, at least two with can and one with can't."
   }
- ]
+ ],
+ "scope": {
+  "grado": "G3",
+  "temaN": 6,
+  "tema": "My Community",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Understand short dialogues with more vocabulary; identify main information in simple announcements."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Describe routines, favourites, community helpers; give short opinions."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read short paragraphs; answer simple comprehension Qs; find specific info."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write short paragraph about self/family/routine (40–70 words)."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "~800 words; All basic tenses start; must/have to/could; SVA; superlatives."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  }
+ }
 }

@@ -233,5 +233,62 @@
    "type": "write_sentences",
    "prompt": "Draw a farm with 5 animals. Label them and write one sound for each."
   }
+ ],
+ "scope": {
+  "grado": "G1",
+  "temaN": 4,
+  "tema": "Farm Animals",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Follow classroom instructions; identify familiar words in songs and short spoken sentences."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Greet; say name, age, colours; name objects; answer yes/no questions."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Recognise all 26 letters; match words to pictures (family, food, animals, body)."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write own name; trace and copy words; label pictures (3–5 words)."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "~150 productive words; Verb to be, can, like + noun, imperatives, this/that."
+   }
+  ],
+  "vocabulario": [
+   "cow",
+   "pig",
+   "horse",
+   "sheep",
+   "hen",
+   "dog",
+   "cat",
+   "duck",
+   "moo",
+   "oink",
+   "neigh"
+  ],
+  "gramatica": [
+   "Can (positive): The cow can moo"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "dog",
+    "cat",
+    "oink",
+    "neigh"
+   ]
+  }
+ },
+ "wordlist_extra": [
+  "dog",
+  "cat",
+  "oink",
+  "neigh"
  ]
 }

@@ -260,5 +260,51 @@
    "type": "write_sentences",
    "prompt": "Find at home: something big, something small, something old, something new. Write 4 sentences."
   }
+ ],
+ "scope": {
+  "grado": "G1",
+  "temaN": 5,
+  "tema": "My Family",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Follow classroom instructions; identify familiar words in songs and short spoken sentences."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Greet; say name, age, colours; name objects; answer yes/no questions."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Recognise all 26 letters; match words to pictures (family, food, animals, body)."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write own name; trace and copy words; label pictures (3–5 words)."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "~150 productive words; Verb to be, can, like + noun, imperatives, this/that."
+   }
+  ],
+  "vocabulario": [
+   "old",
+   "young",
+   "happy",
+   "kind"
+  ],
+  "gramatica": [
+   "TO BE: She is my grandma"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "young",
+    "kind"
+   ]
+  }
+ },
+ "wordlist_extra": [
+  "young",
+  "kind"
  ]
 }

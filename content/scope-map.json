@@ -1,0 +1,359 @@
+{
+ "reparto": {
+  "G1": {
+   "nivel": "starters",
+   "temas": [
+    {
+     "n": 1,
+     "tema": "Hello World!",
+     "unidades": [
+      1,
+      4,
+      6,
+      40
+     ]
+    },
+    {
+     "n": 2,
+     "tema": "My Classroom",
+     "unidades": [
+      5,
+      23,
+      26,
+      32
+     ]
+    },
+    {
+     "n": 3,
+     "tema": "My Body",
+     "unidades": [
+      7,
+      8,
+      33,
+      37
+     ]
+    },
+    {
+     "n": 4,
+     "tema": "Farm Animals",
+     "unidades": [
+      16,
+      24,
+      38,
+      39
+     ]
+    },
+    {
+     "n": 5,
+     "tema": "My Family",
+     "unidades": [
+      2,
+      21,
+      30,
+      43
+     ]
+    },
+    {
+     "n": 6,
+     "tema": "Food & Fun",
+     "unidades": [
+      12,
+      13,
+      36,
+      44
+     ]
+    }
+   ]
+  },
+  "G2": {
+   "nivel": "starters",
+   "temas": [
+    {
+     "n": 1,
+     "tema": "All About Me",
+     "unidades": [
+      9,
+      19,
+      41,
+      42
+     ]
+    },
+    {
+     "n": 2,
+     "tema": "My Home & Family",
+     "unidades": [
+      10,
+      11,
+      25
+     ]
+    },
+    {
+     "n": 3,
+     "tema": "Animals & Pets",
+     "unidades": [
+      3,
+      15,
+      17,
+      18
+     ]
+    },
+    {
+     "n": 4,
+     "tema": "My Town",
+     "unidades": [
+      28,
+      29,
+      31
+     ]
+    },
+    {
+     "n": 5,
+     "tema": "Food & Health",
+     "unidades": [
+      14,
+      22,
+      34,
+      35
+     ]
+    },
+    {
+     "n": 6,
+     "tema": "Hobbies & Play",
+     "unidades": [
+      20,
+      27,
+      45
+     ]
+    }
+   ]
+  },
+  "G3": {
+   "nivel": "movers",
+   "temas": [
+    {
+     "n": 1,
+     "tema": "School Life",
+     "unidades": [
+      12,
+      13,
+      19,
+      32,
+      49
+     ]
+    },
+    {
+     "n": 2,
+     "tema": "Daily Routines",
+     "unidades": [
+      4,
+      16,
+      33,
+      35,
+      50
+     ]
+    },
+    {
+     "n": 3,
+     "tema": "Weather & Seasons",
+     "unidades": [
+      2,
+      18,
+      34,
+      37
+     ]
+    },
+    {
+     "n": 4,
+     "tema": "Nature & Animals",
+     "unidades": [
+      9,
+      11,
+      21,
+      38
+     ]
+    },
+    {
+     "n": 5,
+     "tema": "Feelings & Health",
+     "unidades": [
+      22,
+      25,
+      26,
+      39
+     ]
+    },
+    {
+     "n": 6,
+     "tema": "My Community",
+     "unidades": [
+      5,
+      7,
+      23,
+      40
+     ]
+    }
+   ]
+  },
+  "G4": {
+   "nivel": "movers",
+   "temas": [
+    {
+     "n": 1,
+     "tema": "Around Town",
+     "unidades": [
+      20,
+      24,
+      43,
+      44
+     ]
+    },
+    {
+     "n": 2,
+     "tema": "School & Learning",
+     "unidades": [
+      6,
+      8,
+      29,
+      45
+     ]
+    },
+    {
+     "n": 3,
+     "tema": "Wild Animals & Nature",
+     "unidades": [
+      1,
+      10,
+      41,
+      42
+     ]
+    },
+    {
+     "n": 4,
+     "tema": "Sports & Health",
+     "unidades": [
+      14,
+      15,
+      30,
+      46
+     ]
+    },
+    {
+     "n": 5,
+     "tema": "Holidays & Travel",
+     "unidades": [
+      3,
+      27,
+      28,
+      47
+     ]
+    },
+    {
+     "n": 6,
+     "tema": "My Future",
+     "unidades": [
+      17,
+      31,
+      36,
+      48
+     ]
+    }
+   ]
+  },
+  "G5": {
+   "nivel": "flyers",
+   "temas": [
+    {
+     "n": 1,
+     "tema": "Personal Identity",
+     "unidades": [
+      1,
+      4,
+      17,
+      25,
+      27,
+      35,
+      42,
+      48,
+      51,
+      55
+     ]
+    },
+    {
+     "n": 2,
+     "tema": "Everyday Life & Habits",
+     "unidades": [
+      7,
+      9,
+      12,
+      18,
+      28,
+      29,
+      36,
+      43,
+      49
+     ]
+    },
+    {
+     "n": 3,
+     "tema": "The Natural World",
+     "unidades": [
+      5,
+      13,
+      19,
+      22,
+      23,
+      30,
+      37,
+      44,
+      50
+     ]
+    },
+    {
+     "n": 4,
+     "tema": "People & Cultures",
+     "unidades": [
+      2,
+      8,
+      14,
+      20,
+      24,
+      32,
+      38,
+      45,
+      52
+     ]
+    },
+    {
+     "n": 5,
+     "tema": "Health & Wellbeing",
+     "unidades": [
+      6,
+      10,
+      15,
+      21,
+      31,
+      33,
+      40,
+      46,
+      53
+     ]
+    },
+    {
+     "n": 6,
+     "tema": "Adventures & Experiences",
+     "unidades": [
+      3,
+      11,
+      16,
+      26,
+      34,
+      39,
+      41,
+      47,
+      54
+     ]
+    }
+   ]
+  }
+ }
+}

@@ -307,5 +307,53 @@
    "type": "write_sentences",
    "prompt": "Stick or draw a family photo. Write the words with arrows: mother, father, sister… and one full sentence: This is my family."
   }
+ ],
+ "scope": {
+  "grado": "G1",
+  "temaN": 5,
+  "tema": "My Family",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Follow classroom instructions; identify familiar words in songs and short spoken sentences."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Greet; say name, age, colours; name objects; answer yes/no questions."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Recognise all 26 letters; match words to pictures (family, food, animals, body)."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write own name; trace and copy words; label pictures (3–5 words)."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "~150 productive words; Verb to be, can, like + noun, imperatives, this/that."
+   }
+  ],
+  "vocabulario": [
+   "mum",
+   "dad",
+   "sister",
+   "brother",
+   "grandma",
+   "grandpa"
+  ],
+  "gramatica": [
+   "Possessive adjectives: my, your, his, her"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "mum",
+    "dad"
+   ]
+  }
+ },
+ "wordlist_extra": [
+  "mum",
+  "dad"
  ]
 }

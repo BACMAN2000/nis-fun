@@ -233,5 +233,44 @@
    "type": "write_sentences",
    "prompt": "Draw your home and label the rooms in English. Write: My favourite room is…"
   }
- ]
+ ],
+ "scope": {
+  "grado": "G2",
+  "temaN": 2,
+  "tema": "My Home & Family",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Understand short simple dialogues about family, school, animals, food (Cambridge Starters Listening parts 1–4)."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Answer picture-prompted questions; describe a picture in simple sentences."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read 2–3-sentence texts; match pictures to words and short captions."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Copy words and complete short sentences (Starters Reading/Writing parts)."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "~450 words (Starters wordlist); Present simple, present continuous (limited), there is/are, like + -ing."
+   }
+  ],
+  "vocabulario": [
+   "bedroom",
+   "kitchen",
+   "bathroom",
+   "living room"
+  ],
+  "gramatica": [
+   "Prepositions of place: in, on, under, next to"
+  ],
+  "pendiente": {
+   "vocabulario": []
+  }
+ }
 }

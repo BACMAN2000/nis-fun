@@ -260,5 +260,55 @@
    "type": "write_sentences",
    "prompt": "Write 3 foods you like and 2 you don't like, with a reason: I like rice because…"
   }
+ ],
+ "scope": {
+  "grado": "G4",
+  "temaN": 2,
+  "tema": "School & Learning",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Understand longer dialogues (Movers parts 1–5); identify specific info in spoken texts."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Describe places, objects, past events; role-play simple situations."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read and sequence short stories; locate information in signs, notices."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write a note/message of 30–40 words (Movers Writing part); classroom paragraphs 60–100w."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "~1350 words (Movers wordlist); Past simple, relatives, infinitive of purpose, have to."
+   }
+  ],
+  "vocabulario": [
+   "geography",
+   "biology",
+   "chemistry",
+   "drama"
+  ],
+  "gramatica": [
+   "Comparative & superlative adjectives (full forms)"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "geography",
+    "biology",
+    "chemistry",
+    "drama"
+   ]
+  }
+ },
+ "wordlist_extra": [
+  "geography",
+  "biology",
+  "chemistry",
+  "drama"
  ]
 }

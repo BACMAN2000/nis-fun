@@ -260,5 +260,58 @@
    "type": "write_sentences",
    "prompt": "Write 6 sentences about where things are in your room, one for each preposition of activity A."
   }
+ ],
+ "scope": {
+  "grado": "G3",
+  "temaN": 4,
+  "tema": "Nature & Animals",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Understand short dialogues with more vocabulary; identify main information in simple announcements."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Describe routines, favourites, community helpers; give short opinions."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read short paragraphs; answer simple comprehension Qs; find specific info."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write short paragraph about self/family/routine (40–70 words)."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "~800 words; All basic tenses start; must/have to/could; SVA; superlatives."
+   }
+  ],
+  "vocabulario": [
+   "hunt",
+   "swim",
+   "fly",
+   "roar",
+   "hibernate"
+  ],
+  "gramatica": [
+   "Comparatives: bigger than, faster than (intro)"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "hunt",
+    "swim",
+    "fly",
+    "roar",
+    "hibernate"
+   ]
+  }
+ },
+ "wordlist_extra": [
+  "hunt",
+  "swim",
+  "fly",
+  "roar",
+  "hibernate"
  ]
 }

@@ -7,9 +7,12 @@ prepara. Esta herramienta cruza las dos cosas y responde a la pregunta que
 importa: de todo lo que la secuencia pide para este grado, que esta ya en
 el curso y que falta por hacer.
 
-Reparto de grados (pathway oficial 2026, confirmado con el usuario):
+Reparto de grados: cada nivel del curso dura dos cursos escolares, el
+primero lo construye y el segundo lo examina. Coincide con el pathway
+oficial, donde G1 es "Pre-Starters prep" y G3 "Pre-Movers prep".
+    G1  Starters   empieza
     G2  Starters   Cambridge Starters
-    G3  Starters   preparacion de Movers, consolida A1
+    G3  Movers     empieza
     G4  Movers     Cambridge Movers
     G5  Flyers     Cambridge Flyers
 
@@ -33,10 +36,14 @@ import glob, io, json, os, re, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONTENT = os.path.join(ROOT, "content")
 SCOPE = os.path.join(os.path.dirname(ROOT), "nis-portal", "scope", "scope-2026.json")
+MAPA = os.path.join(CONTENT, "scope-map.json")
 
+# Cada nivel del curso da para dos cursos escolares: el primero lo
+# construye y el segundo lo termina y se presenta al examen.
 GRADOS = {
+    "G1": {"nivel": "starters", "nota": "empieza Starters"},
     "G2": {"nivel": "starters", "nota": "Cambridge Starters"},
-    "G3": {"nivel": "starters", "nota": "prep de Movers, consolida A1"},
+    "G3": {"nivel": "movers",   "nota": "empieza Movers"},
     "G4": {"nivel": "movers",   "nota": "Cambridge Movers"},
     "G5": {"nivel": "flyers",   "nota": "Cambridge Flyers"},
 }
@@ -128,9 +135,11 @@ def carga_nivel(nivel):
         u = json.load(io.open(f, encoding="utf-8"))
         d["unidades"] += 1
         d["topics"].append(u.get("topic", ""))
-        for w in u.get("wordlist", []):
+        for w in list(u.get("wordlist", [])) + list(u.get("wordlist_extra", [])):
             d["wordlist"] |= pal(w if isinstance(w, str) else w.get("w", ""))
         d["grammar"] |= pal(u.get("grammar", ""))
+        for g in ((u.get("scope") or {}).get("gramatica") or []):
+            d["grammar"] |= pal(g)
         for a in u.get("activities", []):
             d["tipos"].add(a.get("type", ""))
         if u.get("homework"):
@@ -190,6 +199,14 @@ def revisa_bloque(bloque, puntos, curso, recursos):
     return "FALTA", "ninguno de los %d puntos" % len(puntos)
 
 
+def reparto_de(grado):
+    """Que unidades del curso trabajan cada tema de ese grado."""
+    if not os.path.exists(MAPA):
+        return {}
+    d = json.load(io.open(MAPA, encoding="utf-8"))["reparto"].get(grado)
+    return {t["n"]: t["unidades"] for t in (d or {}).get("temas", [])}
+
+
 def audita(grado, scope):
     cfg = GRADOS[grado]
     curso = carga_nivel(cfg["nivel"])
@@ -199,6 +216,7 @@ def audita(grado, scope):
         return None
     via = next((x for x in scope["pathway"] if x["grado"] == grado), {})
 
+    mapa = reparto_de(grado)
     unidades = []
     for u in g["unidades"]:
         bloques = []
@@ -209,7 +227,9 @@ def audita(grado, scope):
             bloques.append({"seccion": b["seccion"], "bloque": b["bloque"],
                             "puntos": util(b["puntos"]), "estado": estado,
                             "detalle": detalle})
-        unidades.append({"n": u["n"], "tema": u["tema"], "bloques": bloques})
+        unidades.append({"n": u["n"], "tema": u["tema"], "bloques": bloques,
+                         # las unidades del curso que dan este tema
+                         "delCurso": mapa.get(u["n"], [])})
 
     todos = [b for u in unidades for b in u["bloques"]]
     resumen = {e: sum(1 for b in todos if b["estado"] == e)

@@ -258,5 +258,58 @@
    "type": "write_sentences",
    "prompt": "Write 4 sentences about things in your house and their owners: The red mug is my dad's. The plants are my grandma's."
   }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 5,
+  "tema": "Health & Wellbeing",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Narrate stories with past/present/future; express preferences with reasons."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read and understand short stories (80–250 words); find main idea and detail."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Writing Part 3: 20–25-word picture story (Flyers); classroom pieces 100–150w."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "~2500 words (Flyers wordlist); Present perfect intro, tag Qs, 0th conditional, be going to."
+   }
+  ],
+  "vocabulario": [
+   "stress",
+   "anxiety",
+   "wellbeing",
+   "resilience",
+   "therapy"
+  ],
+  "gramatica": [
+   "Passive Voice: Present Simple intro (Rice is grown in Asia)"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "stress",
+    "anxiety",
+    "wellbeing",
+    "resilience",
+    "therapy"
+   ]
+  }
+ },
+ "wordlist_extra": [
+  "stress",
+  "anxiety",
+  "wellbeing",
+  "resilience",
+  "therapy"
  ]
 }

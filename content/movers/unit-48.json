@@ -260,5 +260,37 @@
    "type": "write_sentences",
    "prompt": "Make a word search with 8 words from this book (draw the grid!). Bring it for a classmate to solve."
   }
- ]
+ ],
+ "scope": {
+  "grado": "G4",
+  "temaN": 6,
+  "tema": "My Future",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Understand longer dialogues (Movers parts 1–5); identify specific info in spoken texts."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Describe places, objects, past events; role-play simple situations."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read and sequence short stories; locate information in signs, notices."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write a note/message of 30–40 words (Movers Writing part); classroom paragraphs 60–100w."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "~1350 words (Movers wordlist); Past simple, relatives, infinitive of purpose, have to."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  }
+ }
 }

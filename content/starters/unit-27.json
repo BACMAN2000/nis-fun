@@ -260,5 +260,50 @@
    "type": "write_sentences",
    "prompt": "Write about your favourite sport: what it is, when you play, who with. 3 sentences."
   }
+ ],
+ "scope": {
+  "grado": "G2",
+  "temaN": 6,
+  "tema": "Hobbies & Play",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Understand short simple dialogues about family, school, animals, food (Cambridge Starters Listening parts 1–4)."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Answer picture-prompted questions; describe a picture in simple sentences."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read 2–3-sentence texts; match pictures to words and short captions."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Copy words and complete short sentences (Starters Reading/Writing parts)."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "~450 words (Starters wordlist); Present simple, present continuous (limited), there is/are, like + -ing."
+   }
+  ],
+  "vocabulario": [
+   "football",
+   "swimming",
+   "cycling",
+   "tennis",
+   "basketball"
+  ],
+  "gramatica": [
+   "Adverbs of frequency: always, usually, sometimes, never"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "cycling"
+   ]
+  }
+ },
+ "wordlist_extra": [
+  "cycling"
  ]
 }
