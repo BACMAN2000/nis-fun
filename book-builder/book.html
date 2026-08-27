@@ -38,11 +38,12 @@
   .exam .rtext{background:var(--band);border-radius:3mm;padding:3mm 4mm;margin-bottom:2.5mm;font-size:9.5pt}
   .credit{margin:2mm 0 0;font-size:7pt;font-style:italic;color:#6b7b8c;text-align:right}
   /* escena de apertura: foto del campus o escena dibujada de la unidad */
-  img.op-art{width:100%;height:62mm;object-fit:cover;border-radius:2mm;display:block}
+  img.op-art{width:100%;height:48mm;object-fit:cover;border-radius:2mm;display:block}
   .op-art.op-drawn{width:100%;border-radius:2mm;overflow:hidden;line-height:0}
   .op-art.op-drawn svg{width:100%;height:auto;display:block}
-  .picwords .pw .ico svg{width:24mm;height:24mm;display:block;margin:0 auto}
-  .picwords .pw .ico .emo{font-size:20mm}
+  .picwords .pw .ico svg{width:19mm;height:19mm;display:block;margin:0 auto}
+  .picwords .pw .ico img.art3d{width:19mm;height:19mm;object-fit:contain;display:block;margin:0 auto}
+  .picwords .pw .ico .emo{font-size:16mm}
   .exam .item{margin-bottom:2mm;font-size:9.5pt}
   .exam .opts{display:inline}
   .exam .opt{display:inline-block;margin-left:4mm}
@@ -75,7 +76,7 @@
   .op-text{border-left:2mm solid var(--accent);background:var(--band);border-radius:0 3mm 3mm 0;padding:2.5mm 4mm;margin:2.5mm 0;font-size:9.8pt;line-height:1.55}
   .op-text b{font-family:"Baloo 2";color:var(--accent)}
   .picwords{display:flex;flex-wrap:wrap;gap:2mm;margin:3mm 0}
-  .picwords .pw{width:38mm;border:.35mm solid var(--line);border-radius:3mm;padding:1.5mm 1mm 1mm;text-align:center}
+  .picwords .pw{width:31mm;border:.35mm solid var(--line);border-radius:3mm;padding:1.5mm 1mm 1mm;text-align:center}
   .picwords .pw .ico{font-size:24pt;line-height:1.15}
   .picwords .pw .w{font-size:7.5pt;font-weight:700;color:var(--ink)}
   .picwords .pw .ln{border-bottom:.35mm dotted var(--soft);height:4.5mm;margin-top:1mm}
@@ -103,7 +104,6 @@
 <script src="../engine/crossword-layout.js"></script>
 <script src="../engine/emoji-map.js"></script>
 <script src="../engine/vocab-art.js"></script>
-<script src="../engine/unit-scenes.js"></script>
 <script>
 const qs = new URLSearchParams(location.search);
 const LEVEL = qs.get('level') || 'flyers';
@@ -226,9 +226,13 @@ function cover(idx, subtitle){
 function picwordsHTML(wordlist){
   const cards = wordlist.slice(0,10).map(w=>{
     const key = w.replace(/^(a|an|the) /,'');
-    // el mismo dibujo que en pantalla; el emoji queda de respaldo
+    // el mismo render 3D que en pantalla; vectorial y emoji de respaldo
     const art = (window.VOCAB_ART && VOCAB_ART.get(key)) || null;
-    const ico = art || `<span class="emo">${EMOJI[key] || EMOJI[key.toLowerCase()] || '✏️'}</span>`;
+    const plano = art || `<span class="emo">${EMOJI[key] || EMOJI[key.toLowerCase()] || '✏️'}</span>`;
+    const s3d = key.toLowerCase().replace(/'/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+    const ico = `<img class="art3d" src="../assets/vocab/${s3d}.png" alt=""
+                   onerror="this.replaceWith(...new DOMParser().parseFromString(this.dataset.fb,'text/html').body.childNodes)"
+                   data-fb="${String(plano).replace(/&/g,'&amp;').replace(/"/g,'&quot;')}">`;
     return `<div class="pw"><div class="ico">${ico}</div><div class="w">${w}</div><div class="ln"></div></div>`;
   }).join('');
   return `<div class="act"><h2><span class="abadge" style="background:var(--accent)">✎</span>Picture words — look, say and copy.</h2>
@@ -255,10 +259,11 @@ function sbPage(ud, pageno){
       <div class="bubble">${ud.scene.bubble}</div></div>
     <div class="op-text"><b>📖 The story of this unit:</b> ${makeIntro(ud)}</div>
     ${(()=>{
-      const propia = window.UNIT_SCENES && UNIT_SCENES.get(ud.level, ud.number);
-      if (propia) return `<div class="op-art op-drawn">${propia}</div>`;
       const sc = sceneFor(ud);
-      return sc ? `<img class="op-art" src="../assets/scenes/${sc}.jpg" alt="">` : '';
+      const respaldo = sc ? `../assets/scenes/${sc}.jpg` : '';
+      return `<img class="op-art" alt=""
+                src="../assets/unit-scenes/${ud.level}-${ud.number}.jpg"
+                onerror="this.onerror=null;${respaldo ? `this.src='${respaldo}'` : `this.remove()`}">`;
     })()}
     ${picwordsHTML(ud.wordlist)}
     ${actHTML}

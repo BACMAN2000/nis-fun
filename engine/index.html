@@ -174,7 +174,6 @@ if(/\.github\.io$/i.test(location.hostname)){
 <script src="crossword-layout.js"></script>
 <script src="emoji-map.js"></script>
 <script src="vocab-art.js?v=1"></script>
-<script src="unit-scenes.js?v=1"></script>
 <main id="app">Loading…</main>
 <div id="cele"><div class="box"><img id="cele-img" alt=""><h2>Well done!</h2><p id="cele-msg"></p><button onclick="document.getElementById('cele').classList.remove('on')">OK</button></div></div>
 <script>
@@ -319,12 +318,13 @@ async function unit(){
       ${(()=>{
         // La escena dibujada a medida ilustra la historia de la unidad; la foto
         // del campus solo entra donde todavia no hay escena propia.
-        const propia = window.UNIT_SCENES && UNIT_SCENES.get(LEVEL, UD.number);
-        if (propia) return `<div class="op-art op-photo op-drawn">${propia}</div>`;
+        // 1) escena montada para esta unidad: foto del campus + los objetos 3D
+        //    del vocabulario. 2) si no la hay, la foto del campus a secas.
         const sc = sceneFor(UD);
-        return sc
-          ? `<div class="op-art op-photo"><img src="../assets/scenes/${sc}.jpg" alt=""></div>`
-          : '';
+        const respaldo = sc ? `../assets/scenes/${sc}.jpg` : '';
+        return `<div class="op-art op-photo"><img alt=""
+                  src="../assets/unit-scenes/${LEVEL}-${UD.number}.jpg"
+                  onerror="this.onerror=null;${respaldo ? `this.src='${respaldo}'` : `this.closest('.op-photo').remove()`}"></div>`;
       })()}
     </div>
     <div class="pwrow">${(UD.wordlist||[]).slice(0,10).map(w=>{
