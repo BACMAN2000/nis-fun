@@ -326,22 +326,41 @@ function wbPage(ud, pageno){
     <span class="pageno">${pageno}</span></div>`;
 }
 
-function keyUnit(ud){
+function keyUnit(ud, zonas){
   const parts = [];
+  // Cada rama toca datos distintos y basta con que a una actividad le falte
+  // un campo para que reviente la Key entera y salga solo la portada, que
+  // es justo lo que pasaba con las diferencias. Por eso va protegido: si
+  // una actividad no trae respuestas, se dice y se sigue.
+  const d = a => (a && a.data) || {};
   for (const a of ud.activities){
-    if (a.type === 'crossword') {
-      parts.push(`<p><b>${a.code}</b> · ${a.data.words.map(w=>w.word).join(', ')}</p>`);
-    } else if (a.type === 'match_words') {
-      parts.push(`<p><b>${a.code}</b> · ${a.data.pairs.map(p=>`${p.left} → ${p.right}`).join(' · ')}</p>`);
-    } else if (a.type === 'listening') {
-      parts.push(`<p><b>${a.code}</b> (listening) · ${a.data.questions.map((q,i)=>`${i+1}. ${q.answer}`).join('  ')}</p>`);
-    } else if (a.type === 'exam_task') {
-      parts.push(`<p><b>${a.code}</b> · ${a.data.items.map((it,i)=>`${i+1}. ${it.options[it.answer]}`).join('  ')}</p>`);
-    } else if (a.type === 'gap_text') {
-      parts.push(`<p><b>${a.code}</b> (gap text) · ${a.data.answers.map((x,i)=>`${i+1}. ${x}`).join('  ')}</p>`);
-    } else if (a.type === 'spot_diff') {
-      parts.push(`<p><b>${a.code}</b> (differences) · ${a.data.diffs.map(([r,c])=>`row ${r+1}, col ${c+1}`).join(' · ')}</p>`);
-    }
+    let linea = '';
+    try {
+      if (a.type === 'crossword' && d(a).words) {
+        linea = d(a).words.map(w=>w.word).join(', ');
+      } else if (a.type === 'match_words' && d(a).pairs) {
+        linea = d(a).pairs.map(p=>`${p.left} → ${p.right}`).join(' · ');
+      } else if (a.type === 'listening' && d(a).questions) {
+        linea = '(listening) ' + d(a).questions.map((q,i)=>`${i+1}. ${q.answer}`).join('  ');
+      } else if (a.type === 'exam_task' && d(a).items) {
+        linea = d(a).items.map((it,i)=>`${i+1}. ${it.options[it.answer]}`).join('  ');
+      } else if (a.type === 'gap_text' && d(a).answers) {
+        linea = '(gap text) ' + d(a).answers.map((x,i)=>`${i+1}. ${x}`).join('  ');
+      } else if (a.type === 'spot_diff') {
+        if (d(a).diffs) {
+          linea = '(differences) ' + d(a).diffs.map(([r,c])=>`row ${r+1}, col ${c+1}`).join(' · ');
+        } else {
+          // las unidades nuevas guardan las zonas aparte, en el archivo de
+          // la escena: al profesor le sirve saber cuantas hay y donde caen
+          const z = (zonas && zonas[ud.number]) || [];
+          linea = z.length
+            ? `(differences) ${z.length} in picture B: ` + z.map((q,i)=>
+                `${i+1}. ${Math.round(q.x*100)}% across, ${Math.round(q.y*100)}% down`).join(' · ')
+            : '(differences) see picture B';
+        }
+      }
+    } catch (e) { linea = ''; }
+    if (linea) parts.push(`<p><b>${a.code}</b> · ${linea}</p>`);
   }
   return `<div class="keyu"><h2>Unit ${ud.number} · ${ud.title}</h2>${parts.join('')}</div>`;
 }
@@ -356,10 +375,18 @@ async function build(){
   for(const n of list) uds.push(await j(`../content/${LEVEL}/unit-${String(n).padStart(2,'0')}.json`));
   let pageno = 1;
   if (MODE === 'key') {
+    // las zonas de las diferencias viven junto a la escena, no en la unidad
+    const zonas = {};
+    await Promise.all(uds.map(async ud => {
+      try {
+        const r = await fetch(`../assets/spot-diff/${LEVEL}-${ud.number}-diffs.json`);
+        if (r.ok) zonas[ud.number] = (await r.json()).zonas || [];
+      } catch (e) {}
+    }));
     // fluye en columnas de página con break-inside:avoid por unidad
     book.insertAdjacentHTML('beforeend',
       `<div class="page"><div class="band"><h1>${idx.name} — Teacher's Key</h1></div>
-       <div style="margin-top:4mm">${uds.map(keyUnit).join('')}</div></div>`);
+       <div style="margin-top:4mm">${uds.map(ud => keyUnit(ud, zonas)).join('')}</div></div>`);
   } else {
     for(const ud of uds)
       book.insertAdjacentHTML('beforeend', MODE === 'wb' ? wbPage(ud, pageno++) : sbPage(ud, pageno++));
