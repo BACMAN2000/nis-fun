@@ -411,7 +411,7 @@ const store = {
 
 // El contenido se cachea igual que los mp4: al cambiar una unidad hay que
 // subir esta fecha o el alumno sigue viendo la version anterior.
-const CONTENT_V = '2026-08-27-cuentos';
+const CONTENT_V = '2026-08-27-voz';
 async function j(path){
   const sep = path.includes('?') ? '&' : '?';
   const r = await fetch(path + sep + 'v=' + CONTENT_V);
@@ -567,7 +567,7 @@ function guiaViva(el){
     const globo = b.closest('.guia-globo');
     if (!globo) return;
     const t = globo.querySelector('p').textContent;
-    b.onclick = () => SAY.frase(t, b);
+    b.onclick = () => SAY.frase(t, b, globo.dataset.voz || 'acts');
   });
 }
 
@@ -729,14 +729,14 @@ async function unit(){
         ${UD.scene && UD.scene.bubble ? `<div class="guia">
           <img class="guia-mascota" src="${CHAR(UD.scene.speaker || (UD.characters||[])[0] || 'freya', 3)}"
                alt="" ${FB}>
-          <div class="guia-globo"><p>${esc(UD.scene.bubble)}</p>
+          <div class="guia-globo" data-voz="bubbles"><p>${esc(UD.scene.bubble)}</p>
             <button class="guia-say" type="button">🔊 Listen</button></div>
         </div>` : ''}
       </div>`,
       alMostrar(el){
         const p = el.querySelector('#lahistoria');
         const b = el.querySelector('.historia-say');
-        if (b && p) b.onclick = () => SAY.frase(p.textContent, b);
+        if (b && p) b.onclick = () => SAY.frase(p.textContent, b, 'stories');
         guiaViva(el);
       } },
     // 3. el vocabulario, que se oye al pulsarlo
@@ -877,7 +877,13 @@ const SAY = {
     try { if (window.speechSynthesis) speechSynthesis.cancel(); } catch(e){}
     document.querySelectorAll('.saying').forEach(b => b.classList.remove('saying'));
   },
-  slug(t){ return String(t).toLowerCase().replace(/'/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,''); },
+  slug(t){
+    // mismo criterio que tools/gen_audio_edge.py: sin etiquetas, con los
+    // guiones largos y los puntos suspensivos ya convertidos
+    return String(t).replace(/<[^>]+>/g,' ').replace(/…/g,'...').replace(/—/g,', ')
+      .replace(/\s+/g,' ').trim()
+      .toLowerCase().replace(/'/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+  },
   voz(t, ritmo, reintento){
     if (!window.speechSynthesis) return;
     try {
@@ -914,11 +920,14 @@ const SAY = {
     const pr = a.play();
     if (pr && pr.catch) pr.catch(() => { this.voz(w); setTimeout(fin, 700); });
   },
-  frase(t, btn){
+  /* carpeta: clues (pistas), stories (la historia), bubbles (bocadillos)
+     o acts (lo que lee la mascota). Los graba tools/gen_audio_edge.py con
+     este mismo nombre, asi que no hace falta ninguna lista. */
+  frase(t, btn, carpeta){
     this.parar();
     const fin = () => btn && btn.classList.remove('saying');
     btn && btn.classList.add('saying');
-    const src = '../audio/clues/' + this.slug(t).slice(0, 60) + '.mp3';
+    const src = '../audio/' + (carpeta || 'clues') + '/' + this.slug(t).slice(0, 60) + '.mp3';
     const a = new Audio(src);
     this.sonando = a;
     a.onended = fin;
@@ -1091,7 +1100,7 @@ crossword(act, el){
     }
   }
 
-  el.querySelectorAll('.clue-say').forEach(b => b.onclick = () => SAY.frase(b.dataset.clue, b));
+  el.querySelectorAll('.clue-say').forEach(b => b.onclick = () => SAY.frase(b.dataset.clue, b, 'clues'));
 
   el.querySelectorAll('td.cell input').forEach(i => {
     i.addEventListener('focus', () => {
