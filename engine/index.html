@@ -125,6 +125,7 @@ if(/\.github\.io$/i.test(location.hostname)){
   .pwrow .pw.saying{border-color:var(--ok);background:#e2f2e9}
   .pwrow .pw .ico{line-height:1.2;display:flex;align-items:center;justify-content:center;height:7rem}
   .pwrow .pw .ico svg{width:7rem;height:7rem;display:block}
+  .pwrow .pw .ico img.art3d{width:7rem;height:7rem;object-fit:contain;display:block}
   .pwrow .pw .ico .emo{font-size:5.2rem}
   .pwrow .pw .spk{position:absolute;top:.25rem;right:.35rem;font-size:.72rem;opacity:0;transition:opacity .12s}
   .pwrow .pw:hover .spk,.pwrow .pw.saying .spk{opacity:.75}
@@ -328,9 +329,16 @@ async function unit(){
     </div>
     <div class="pwrow">${(UD.wordlist||[]).slice(0,10).map(w=>{
       const key = w.replace(/^(a|an|the) /,'');
-      // dibujo propio si existe; si no, el emoji de siempre
+      // Orden de preferencia: render 3D (mismo estilo que los personajes),
+      // dibujo vectorial propio, y de ultimo recurso el emoji. El 3D se pide
+      // siempre y, si ese objeto aun no esta generado, el onerror lo cambia
+      // por el vectorial sin que se vea un hueco.
       const art = (window.VOCAB_ART && VOCAB_ART.get(key)) || null;
-      const ico = art || `<span class="emo">${EMOJI[key] || EMOJI[key.toLowerCase()] || '✏️'}</span>`;
+      const plano = art || `<span class="emo">${EMOJI[key] || EMOJI[key.toLowerCase()] || '✏️'}</span>`;
+      const slug3d = key.toLowerCase().replace(/'/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+      const ico = `<img class="art3d" src="../assets/vocab/${slug3d}.png" alt="" loading="lazy"
+                     onerror="this.replaceWith(...new DOMParser().parseFromString(this.dataset.fb,'text/html').body.childNodes)"
+                     data-fb="${esc(plano)}">`;
       return `<button class="pw" type="button" data-say="${esc(w)}"
                 title="Click to hear it" aria-label="Say ${esc(w)}">
                 <div class="ico">${ico}</div><div class="w">${w}</div>
