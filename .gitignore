@@ -8,3 +8,4 @@ build-videos/*
 # cache de Python de las herramientas
 __pycache__/
 *.pyc
+_sb1.pdf
