@@ -221,6 +221,18 @@
    }
   },
   {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Student A points at something in the classroom and asks: \"What colour is it?\" Student B answers: \"It's blue!\" Three things each, then swap. Bonus: find something orange!"
+   }
+  },
+  {
    "code": "F",
    "type": "spot_diff",
    "title": "Two toy boxes! Find the differences.",
@@ -283,18 +295,6 @@
       2
      ]
     ]
-   }
-  },
-  {
-   "code": "E",
-   "type": "pairwork",
-   "title": "Speaking · In pairs",
-   "outputs": [
-    "book",
-    "digital"
-   ],
-   "data": {
-    "text": "Student A points at something in the classroom and asks: \"What colour is it?\" Student B answers: \"It's blue!\" Three things each, then swap. Bonus: find something orange!"
    }
   }
  ],

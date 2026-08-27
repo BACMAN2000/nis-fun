@@ -228,6 +228,18 @@
    }
   },
   {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Student A is the TV weather presenter: draw four weather symbols for Monday–Thursday and present them: \"On Monday it's going to be rainy…\" Student B chooses what to wear each day. Then swap."
+   }
+  },
+  {
    "code": "F",
    "type": "gap_text",
    "title": "Read Sofía's postcard. Write the missing words.",
@@ -308,18 +320,6 @@
       0
      ]
     ]
-   }
-  },
-  {
-   "code": "E",
-   "type": "pairwork",
-   "title": "Speaking · In pairs",
-   "outputs": [
-    "book",
-    "digital"
-   ],
-   "data": {
-    "text": "Student A is the TV weather presenter: draw four weather symbols for Monday–Thursday and present them: \"On Monday it's going to be rainy…\" Student B chooses what to wear each day. Then swap."
    }
   }
  ],

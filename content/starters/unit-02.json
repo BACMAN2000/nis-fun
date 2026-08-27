@@ -219,6 +219,18 @@
    }
   },
   {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Draw your family in one minute (stick people are fine!). Show your partner and say: \"This is my mother. This is my brother.\" Your partner points and asks: \"Who is this?\""
+   }
+  },
+  {
    "code": "F",
    "type": "gap_text",
    "title": "Read about the photo. Write the missing words.",
@@ -287,18 +299,6 @@
       0
      ]
     ]
-   }
-  },
-  {
-   "code": "E",
-   "type": "pairwork",
-   "title": "Speaking · In pairs",
-   "outputs": [
-    "book",
-    "digital"
-   ],
-   "data": {
-    "text": "Draw your family in one minute (stick people are fine!). Show your partner and say: \"This is my mother. This is my brother.\" Your partner points and asks: \"Who is this?\""
    }
   }
  ],

@@ -271,7 +271,10 @@ function picwordsHTML(wordlist){
 }
 const BADGE = { A:'cA', B:'cB', C:'cC', D:'cD', E:'cE', F:'cF', G:'cG', H:'cA' };
 function sbPage(ud, pageno){
-  const acts = ud.activities.filter(a=>a.outputs.includes('book') || a.type === 'listening');
+  // por letra, no por el orden del JSON: una actividad anadida despues
+  // se escribe al final del array y saldria fuera de sitio en el libro
+  const acts = ud.activities.filter(a=>a.outputs.includes('book') || a.type === 'listening')
+    .slice().sort((x,y)=>(x.code||'').localeCompare(y.code||''));
   const actHTML = acts.map(a=>{
     let body = '';
     if (a.type === 'listening') {

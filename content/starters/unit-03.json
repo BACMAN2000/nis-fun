@@ -213,6 +213,18 @@
    }
   },
   {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Student A makes an animal sound. Student B guesses: \"It's a cow!\" Then Student B mimes an animal (no sound!) and Student A guesses. Three animals each."
+   }
+  },
+  {
    "code": "F",
    "type": "spot_diff",
    "title": "Two pictures of the zoo! Find the differences.",
@@ -275,18 +287,6 @@
       3
      ]
     ]
-   }
-  },
-  {
-   "code": "E",
-   "type": "pairwork",
-   "title": "Speaking · In pairs",
-   "outputs": [
-    "book",
-    "digital"
-   ],
-   "data": {
-    "text": "Student A makes an animal sound. Student B guesses: \"It's a cow!\" Then Student B mimes an animal (no sound!) and Student A guesses. Three animals each."
    }
   }
  ],

@@ -31,13 +31,39 @@ if(/\.github\.io$/i.test(location.hostname)){
   .scr-cuenta{position:absolute;right:0;font-size:.82rem;color:var(--soft)}
   /* todo el contenido va centrado, no pegado a la izquierda */
   .scr-body{width:100%;flex:1;display:flex;justify-content:center}
+  /* el cuerpo se queda con el alto libre y el contenido se centra en el.
+     Con margin auto (y no justify-content) el que no cabe sigue pudiendo
+     desplazarse: si no, se corta por arriba y no hay forma de subir. */
+  .scr-body{min-height:calc(100vh - 13rem);display:flex;flex-direction:column}
+  .scr-body > *{margin-block:auto}
   .scr-centro{width:100%;max-width:52rem;display:flex;flex-direction:column;
     align-items:center;gap:1rem;text-align:center}
   .scr-centro > *{width:100%}
   .scr-centro .op-text{text-align:left}
   .scr-centro .units{text-align:left}
   .scr-pie{color:var(--soft)}
-  .scr-video{width:100%;max-width:44rem;border-radius:14px;border:1px solid var(--line);display:block}
+  /* la ficha de la mascota, debajo de su video */
+  .ficha{display:flex;align-items:center;gap:1rem;text-align:left;
+    background:var(--surface2);border-radius:16px;padding:.9rem 1.2rem;max-width:44rem;
+    margin-inline:auto}
+  .ficha img{height:96px;width:auto;flex:none}
+  .ficha p{margin:0;line-height:1.55}
+  /* quien es quien, debajo del video del elenco */
+  .quienes{display:flex;flex-wrap:wrap;justify-content:center;gap:.6rem}
+  .quien{background:var(--surface2);border:1px solid var(--line);border-radius:14px;
+    padding:.5rem .7rem .4rem;cursor:pointer;display:flex;flex-direction:column;
+    align-items:center;gap:.2rem;font-family:"Baloo 2",sans-serif;font-weight:700;
+    color:var(--ink);transition:transform .15s}
+  .quien img{height:74px;width:auto;display:block}
+  .quien:hover{transform:translateY(-4px)}
+  .quien.dice{animation:quiendice .5s ease-out}
+  @keyframes quiendice{0%{transform:scale(1)}40%{transform:scale(1.08)}100%{transform:scale(1)}}
+  /* Las dos fotos de las diferencias llenaban la pantalla y dejaban la
+     grabadora por debajo del pliegue: parecia que no estaba. Se les pone
+     techo en funcion del alto de la ventana para que quepa todo junto. */
+  .scr-centro .sd-img{max-height:34vh;object-fit:contain;background:var(--surface2)}
+  .scr-centro .rphoto{max-height:38vh;width:auto;margin-inline:auto}
+  .scr-video{width:100%;max-width:50rem;border-radius:14px;border:1px solid var(--line);display:block}
   .scr-escena{width:100%;border-radius:14px;border:1px solid var(--line);display:block}
   .band-grande{gap:1.4rem;text-align:left}
   .band-grande img{height:190px}
@@ -104,7 +130,6 @@ if(/\.github\.io$/i.test(location.hostname)){
   /* el marcador vacio contaba en el gap y descolocaba el boton Check */
   .checkrow .score:empty{display:none}
   /* si la actividad es corta, que no quede colgada arriba */
-  .scr-centro > *{margin-block:auto}
 
   .selfcheck{background:var(--surface);border:1px solid var(--line);border-radius:14px;
     padding:1.2rem 1.4rem;text-align:left}
@@ -286,7 +311,8 @@ if(/\.github\.io$/i.test(location.hostname)){
 <script src="crossword-layout.js"></script>
 <script src="emoji-map.js"></script>
 <script src="vocab-art.js?v=1"></script>
-<script src="screens.js?v=1"></script>
+<script src="screens.js?v=2"></script>
+<script src="banner.js?v=1"></script>
 <script src="recorder.js?v=1"></script>
 <!-- el curso comparte dominio y sesion con el portal -->
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4"></script>
@@ -378,20 +404,25 @@ async function hub(){
     { titulo: idx.name,
       etiquetaSiguiente: `Meet ${mascota}`,
       html: `<div class="scr-centro">
-        <div class="band band-grande"><img src="${CHAR(idx.mascot,1)}" alt="" ${FB}>
-          <div><h1>${idx.name}</h1><span class="meta">${idx.cast}</span></div></div>
+        ${BANNER.html(idx, LEVEL)}
         ${DEMO ? `<div class="demoflag">Demonstration — this preview covers the first two units.
            The full course has ${idx.units.length} units.</div>` : ''}
-        <p class="scr-pie">Press <b>Next</b> to start.</p>
+        <p class="scr-pie">Tap a friend to hear them. Press <b>Next</b> to start.</p>
         <div class="crumb"><a href="${Q(`?`)}">← Fun for Nordic</a></div>
-      </div>` },
+      </div>`,
+      alMostrar(el){ BANNER.vivo(el); } },
     { titulo: `Meet ${mascota} — your guide!`,
       etiquetaSiguiente: 'Meet the characters',
       html: `<div class="scr-centro">
         <video class="scr-video" controls preload="metadata"
           src="../assets/videos/${idx.mascot}-intro.mp4?v=${VIDEO_V}"
           poster="../assets/videos/posters/${idx.mascot}-intro.jpg?v=${VIDEO_V}"
-          onerror="this.closest('.scr-centro').innerHTML='<p>Video coming soon.</p>'"></video>
+          onerror="this.closest('.scr-centro').querySelector('.ficha').hidden=true"></video>
+        <div class="ficha">
+          <img src="${CHAR(idx.mascot,1)}" alt="" ${FB}>
+          <p><b>${mascota}</b> is ${(MASCOTA[idx.mascot]||{}).que||'your guide'}.
+             “${(MASCOTA[idx.mascot]||{}).dice||''}”</p>
+        </div>
       </div>` },
     { titulo: `Meet the characters — ${idx.cast}!`,
       etiquetaSiguiente: 'Units',
@@ -399,8 +430,21 @@ async function hub(){
         <video class="scr-video" controls preload="metadata"
           src="../assets/videos/${LEVEL}-cast.mp4?v=${VIDEO_V}"
           poster="../assets/videos/posters/${LEVEL}-cast.jpg?v=${VIDEO_V}"
-          onerror="this.closest('.scr-centro').innerHTML='<p>Video coming soon.</p>'"></video>
-      </div>` },
+          onerror="this.hidden=true"></video>
+        <div class="quienes">${(idx.kids||[]).map(k=>`
+          <button class="quien" data-quien="${k}" type="button">
+            <img src="../assets/characters/${LEVEL}/${k}/fullbody.png" alt=""
+                 onerror="this.onerror=null;this.src='../assets/characters/${LEVEL}/${k}/pose-01.png'">
+            <span>${k[0].toUpperCase()+k.slice(1)}</span></button>`).join('')}
+        </div>
+        <p class="scr-pie">Tap a friend to hear their name.</p>
+      </div>`,
+      alMostrar(el){
+        el.querySelectorAll('.quien').forEach(b => b.onclick = () => {
+          new Audio(`../audio/cast/${LEVEL}-${b.dataset.quien}.mp3`).play().catch(()=>{});
+          b.classList.remove('dice'); void b.offsetWidth; b.classList.add('dice');
+        });
+      } },
   ];
 
   tandas.forEach((tanda, k) => pantallas.push({
@@ -414,6 +458,17 @@ async function hub(){
 
   SCREENS.montar(app, pantallas);
 }
+
+/* Lo que cuenta cada mascota de si misma. Sale debajo de su video, que
+   antes se quedaba solo en medio de una pantalla vacia. */
+const MASCOTA = {
+  pip:  { que:'a little puffin', dice:"I live on the rocks by the lighthouse. I am very shy, "
+          + "so I hide in every picture — can you find me?" },
+  luna: { que:'a husky', dice:"I love the snow and I remember everything that happened. "
+          + "I will tell you the stories!" },
+  kili: { que:'an Andean condor', dice:"I am the postman of the school. I bring letters and "
+          + "postcards from far away — but I am not very good at landing!" },
+};
 
 /* ---------------- UNIT ---------------- */
 let UD, PROG;

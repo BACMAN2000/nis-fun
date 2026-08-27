@@ -228,6 +228,18 @@
    }
   },
   {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Student A chooses a thing from the wordlist and describes it without saying its name. Student B guesses. Then swap. Example: \"You wear these on your hands.\" — \"Gloves!\""
+   }
+  },
+  {
    "code": "F",
    "type": "gap_text",
    "title": "Read the story about the picture. Write the missing words.",
@@ -331,18 +343,6 @@
       4
      ]
     ]
-   }
-  },
-  {
-   "code": "E",
-   "type": "pairwork",
-   "title": "Speaking · In pairs",
-   "outputs": [
-    "book",
-    "digital"
-   ],
-   "data": {
-    "text": "Student A chooses a thing from the wordlist and describes it without saying its name. Student B guesses. Then swap. Example: \"You wear these on your hands.\" — \"Gloves!\""
    }
   }
  ],

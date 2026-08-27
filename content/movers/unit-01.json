@@ -221,6 +221,18 @@
    }
   },
   {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Student A thinks of an animal from the wordlist. Student B asks yes/no questions to guess it: \"Is it bigger than a dog? Can it swim?\" Maximum 5 questions, then swap."
+   }
+  },
+  {
    "code": "F",
    "type": "spot_diff",
    "title": "Two pictures of the zoo. Find the differences!",
@@ -323,18 +335,6 @@
      "penguins",
      "bone"
     ]
-   }
-  },
-  {
-   "code": "E",
-   "type": "pairwork",
-   "title": "Speaking · In pairs",
-   "outputs": [
-    "book",
-    "digital"
-   ],
-   "data": {
-    "text": "Student A thinks of an animal from the wordlist. Student B asks yes/no questions to guess it: \"Is it bigger than a dog? Can it swim?\" Maximum 5 questions, then swap."
    }
   }
  ],

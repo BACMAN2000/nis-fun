@@ -222,6 +222,18 @@
    }
   },
   {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Student A mimes something you do at one of the places in the wordlist. Student B guesses the place with a full question: \"Did you go to the funfair?\" Then swap."
+   }
+  },
+  {
    "code": "F",
    "type": "match_words",
    "title": "Find the answer to each question. Careful — one answer is extra!",
@@ -342,18 +354,6 @@
       0
      ]
     ]
-   }
-  },
-  {
-   "code": "E",
-   "type": "pairwork",
-   "title": "Speaking · In pairs",
-   "outputs": [
-    "book",
-    "digital"
-   ],
-   "data": {
-    "text": "Student A mimes something you do at one of the places in the wordlist. Student B guesses the place with a full question: \"Did you go to the funfair?\" Then swap."
    }
   }
  ],

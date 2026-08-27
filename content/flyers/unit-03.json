@@ -236,6 +236,18 @@
    }
   },
   {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Survey: ask three classmates \"Have you ever…?\" (lost something important / broken something at home / forgotten your homework). Note the answers and report: \"Two people have lost…\""
+   }
+  },
+  {
    "code": "F",
    "type": "gap_text",
    "title": "Read about the concert. Write just, already, yet or a participle.",
@@ -339,18 +351,6 @@
       3
      ]
     ]
-   }
-  },
-  {
-   "code": "E",
-   "type": "pairwork",
-   "title": "Speaking · In pairs",
-   "outputs": [
-    "book",
-    "digital"
-   ],
-   "data": {
-    "text": "Survey: ask three classmates \"Have you ever…?\" (lost something important / broken something at home / forgotten your homework). Note the answers and report: \"Two people have lost…\""
    }
   }
  ],

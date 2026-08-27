@@ -237,6 +237,18 @@
    }
   },
   {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Tell your partner about your last weekend using went / saw / ate / had. Your partner listens and then reports to the class: \"On Saturday, Ana went to…\""
+   }
+  },
+  {
    "code": "F",
    "type": "match_words",
    "title": "Match each question with its answer. One answer is extra!",
@@ -277,18 +289,6 @@
     "extra": [
      "It's next to the police station."
     ]
-   }
-  },
-  {
-   "code": "E",
-   "type": "pairwork",
-   "title": "Speaking · In pairs",
-   "outputs": [
-    "book",
-    "digital"
-   ],
-   "data": {
-    "text": "Tell your partner about your last weekend using went / saw / ate / had. Your partner listens and then reports to the class: \"On Saturday, Ana went to…\""
    }
   },
   {
