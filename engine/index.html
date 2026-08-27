@@ -412,6 +412,7 @@ const store = {
 // El contenido se cachea igual que los mp4: al cambiar una unidad hay que
 // subir esta fecha o el alumno sigue viendo la version anterior.
 const CONTENT_V = '2026-08-27-voz';
+const AUDIO_V = '2026-08-27';   // sube al grabar audio nuevo
 async function j(path){
   const sep = path.includes('?') ? '&' : '?';
   const r = await fetch(path + sep + 'v=' + CONTENT_V);
@@ -910,7 +911,7 @@ const SAY = {
     this.parar();
     const fin = () => btn && btn.classList.remove('saying');
     btn && btn.classList.add('saying');
-    const src = '../audio/words/' + this.slug(w) + '.mp3';
+    const src = '../audio/words/' + this.slug(w) + '.mp3?v=' + AUDIO_V;
     let a = this.cache[src];
     if (!a){ a = this.cache[src] = new Audio(src); a.preload = 'auto'; }
     a.currentTime = 0;
@@ -927,7 +928,7 @@ const SAY = {
     this.parar();
     const fin = () => btn && btn.classList.remove('saying');
     btn && btn.classList.add('saying');
-    const src = '../audio/' + (carpeta || 'clues') + '/' + this.slug(t).slice(0, 60) + '.mp3';
+    const src = '../audio/' + (carpeta || 'clues') + '/' + this.slug(t).slice(0, 60) + '.mp3?v=' + AUDIO_V;
     const a = new Audio(src);
     this.sonando = a;
     a.onended = fin;

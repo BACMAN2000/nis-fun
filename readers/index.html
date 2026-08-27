@@ -121,7 +121,8 @@ function di(texto, btn){
   const fin = () => btn && btn.classList.remove('sonando');
   btn && btn.classList.add('sonando');
   const slug = texto.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,60);
-  const a = new Audio(`audio/${slug}.mp3`);
+  // con version, para que un 404 guardado de antes no sobreviva
+  const a = new Audio(`audio/${slug}.mp3?v=2026-08-27`);
   sonando = a;
   a.onended = fin;
   a.onerror = () => { sonando = null; vozNavegador(texto); setTimeout(fin, 1800); };
