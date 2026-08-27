@@ -555,12 +555,13 @@ function sceneFor(ud){
   // Anfiteatro: fiesta, musica y repaso
   if (has('review','party','celebrat','music','show','concert','birthday','danc','sing','hobb','free time','screen')) return 'amphitheater';
   // Laberinto: juego y posicion
-  if (has('game','play','toy','prepos','position','where is','behind','between','hide')) return 'labyrinth';
+  // el laberinto es una vista aerea y un personaje de pie encima no pega
+  if (has('game','play','toy','prepos','position','where is','behind','between','hide')) return 'mirador';
   // Tiempo y rutina
   if (has('time','clock','hour','day','week','month','routine','morning','afternoon','night','often','always','frequen')) return 'campus-hex';
   // Sin tema propio (gramatica pura): se reparte por numero de unidad para
   // que ninguna pagina quede sin ilustracion y no salga siempre la misma.
-  const pool = ['campus-hex','chess-plaza','amphitheater','entrance','facade','labyrinth','mirador','classroom'];
+  const pool = ['campus-hex','chess-plaza','amphitheater','entrance','facade','garden','mirador','classroom'];
   return pool[(Number(ud.number)||0) % pool.length];
 }
 async function unit(){

@@ -8,7 +8,11 @@
   :root{ --accent:#3b6fb5; --ink:#1b2b3d; --soft:#4a5d70; --line:#c9d5e0; --band:#e8eff7; }
   *{box-sizing:border-box; -webkit-print-color-adjust:exact; print-color-adjust:exact}
   body{margin:0;font-family:"Source Sans 3",sans-serif;color:var(--ink);font-size:10.5pt;line-height:1.45;background:#fff}
-  .page{width:210mm;min-height:297mm;padding:14mm 16mm 12mm;margin:0 auto;page-break-after:always;position:relative;display:flex;flex-direction:column}
+  /* display:block, no flex: dentro de un flex Chrome se salta el
+     break-inside:avoid de los hijos y las actividades se cortaban a
+     mitad de hoja */
+  .page{width:210mm;min-height:297mm;padding:14mm 16mm 12mm;margin:0 auto;
+    page-break-after:always;position:relative;display:block}
   h1,h2{font-family:"Baloo 2",sans-serif}
   .band{background:var(--accent);color:#fff;border-radius:5mm;padding:3mm 6mm;display:flex;align-items:center;gap:5mm}
   .band .n{background:#fff;color:var(--accent);font-family:"Baloo 2";font-weight:800;font-size:18pt;border-radius:3mm;padding:0 3.5mm}
@@ -22,13 +26,25 @@
      donde caiga: sin esto los crucigramas y los emparejamientos salian
      cortados entre dos hojas. Con break-inside la actividad completa baja
      a la hoja siguiente. */
-  .act{margin:4mm 0;break-inside:avoid;page-break-inside:avoid}
+  .act{margin:4mm 0;break-inside:avoid;page-break-inside:avoid;
+    -webkit-column-break-inside:avoid;display:block}
   /* que el titulo no se quede solo al pie */
   .act h2{break-after:avoid;page-break-after:avoid}
   /* y los bloques que nunca deben partirse por dentro */
   .xw, .picwords, .match, .lsn-lines, .exam .rtext, .exam .item,
   .writelines, .scene, .op-text{break-inside:avoid;page-break-inside:avoid}
   .act h2{font-size:11.5pt;margin:0 0 2.5mm;display:flex;gap:2.5mm;align-items:center}
+  /* Las figuras van centradas en la hoja; el texto se queda alineado a la
+     izquierda, que es como se lee. Antes todo se apilaba contra el margen
+     izquierdo y la mitad derecha de la pagina quedaba vacia. */
+  /* la rejilla y sus pistas, como un bloque centrado en la hoja */
+  .act .xw{justify-content:center;align-items:flex-start;max-width:165mm;margin-inline:auto}
+  .act .xw .clues{flex:0 1 auto;min-width:78mm}
+  /* las dos columnas de emparejar ocupaban un tercio y dejaban la hoja
+     coja; ahora se reparten el ancho y van centradas */
+  .act .mt{max-width:150mm;margin-inline:auto}
+  .act .picwords{margin-inline:auto}
+  .sd-book{justify-content:center;max-width:170mm;margin-inline:auto}
   .act .code{background:var(--accent);color:#fff;border-radius:2.5mm;width:6.5mm;height:6.5mm;display:inline-flex;align-items:center;justify-content:center;font-size:10pt;flex:none}
   /* crossword print */
   .xw{display:flex;gap:8mm}
@@ -48,7 +64,10 @@
   .exam .rtext{background:var(--band);border-radius:3mm;padding:3mm 4mm;margin-bottom:2.5mm;font-size:9.5pt}
   .credit{margin:2mm 0 0;font-size:7pt;font-style:italic;color:#6b7b8c;text-align:right}
   /* escena de apertura: foto del campus o escena dibujada de la unidad */
-  img.op-art{width:100%;height:33mm;object-fit:cover;border-radius:2mm;display:block}
+  /* la escena, entera y en su proporcion: recortarla se llevaba por
+     delante justo lo que cuenta la historia */
+  img.op-art{width:100%;height:auto;border-radius:2mm;display:block;
+    margin:2mm auto 3mm;break-inside:avoid;page-break-inside:avoid}
   .op-art.op-drawn{width:100%;border-radius:2mm;overflow:hidden;line-height:0}
   .op-art.op-drawn svg{width:100%;height:auto;display:block}
   .picwords .pw .ico svg{width:13mm;height:13mm;display:block;margin:0 auto}
@@ -108,11 +127,14 @@
   .lsn-lines div{display:flex;gap:2mm;align-items:baseline}
   .lsn-lines span{flex:1;border-bottom:.35mm dotted var(--soft);height:5mm}
   .pagebubble{position:absolute;bottom:5mm;left:16mm;background:var(--band);color:var(--accent);font-family:"Baloo 2";font-weight:800;border-radius:50%;width:9mm;height:9mm;display:flex;align-items:center;justify-content:center}
-  .cover{align-items:center;justify-content:center;text-align:center;background:linear-gradient(180deg,#eef3f7,#fff)}
+  .cover{align-items:center;justify-content:center;text-align:center;
+    background:linear-gradient(180deg,#eef3f7,#fff)}
+  .cover > div{width:100%;display:flex;flex-direction:column;align-items:center}
   .cover h1{font-size:34pt;color:var(--accent);margin:4mm 0 0}
   .cover .sub{font-size:13pt;color:var(--soft)}
   .cover img{height:75mm;margin-top:8mm}
-  .cover .cast{display:flex;gap:6mm;margin-top:10mm}
+  .cover .cast{display:flex;gap:6mm;margin-top:10mm;
+    justify-content:center;align-items:flex-end;width:100%}
   .cover .cast img{height:48mm}
   @page{size:A4;margin:0}
 </style>
@@ -227,12 +249,13 @@ function sceneFor(ud){
   // Anfiteatro: fiesta, musica y repaso
   if (has('review','party','celebrat','music','show','concert','birthday','danc','sing','hobb','free time','screen')) return 'amphitheater';
   // Laberinto: juego y posicion
-  if (has('game','play','toy','prepos','position','where is','behind','between','hide')) return 'labyrinth';
+  // el laberinto es una vista aerea y un personaje de pie encima no pega
+  if (has('game','play','toy','prepos','position','where is','behind','between','hide')) return 'mirador';
   // Tiempo y rutina
   if (has('time','clock','hour','day','week','month','routine','morning','afternoon','night','often','always','frequen')) return 'campus-hex';
   // Sin tema propio (gramatica pura): se reparte por numero de unidad para
   // que ninguna pagina quede sin ilustracion y no salga siempre la misma.
-  const pool = ['campus-hex','chess-plaza','amphitheater','entrance','facade','labyrinth','mirador','classroom'];
+  const pool = ['campus-hex','chess-plaza','amphitheater','entrance','facade','garden','mirador','classroom'];
   return pool[(Number(ud.number)||0) % pool.length];
 }
 function makeIntro(ud){

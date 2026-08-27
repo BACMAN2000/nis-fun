@@ -90,7 +90,7 @@ ESCENAS = {
         ("red", .20, .52, .26), ("blue", .40, .44, .26),
         ("green", .60, .52, .26), ("yellow", .80, .44, .26),
     ]),
-    "starters/30": ("labyrinth", [
+    "starters/30": ("mirador", [
         ("castle", .50, .62, .48), ("train", .18, .82, .24), ("kite", .82, .28, .26),
     ]),
     "starters/31": ("mirador", [
