@@ -83,6 +83,29 @@ if(/\.github\.io$/i.test(location.hostname)){
   .rec-estado{margin:.35rem 0 0;font-size:.86rem;font-weight:600;color:var(--ok);min-height:1.1em}
 
   /* ---------- repaso final ---------- */
+  /* ---------- que el contenido de cada actividad quede centrado ---------- */
+  .scr-centro .act{width:100%;text-align:left}
+  .scr-centro .match{margin-inline:auto}
+  .scr-centro .xw{justify-content:center}
+  .scr-centro .lsn .gaps{margin-inline:auto}
+  .scr-centro .exam .rtext{margin-inline:auto}
+  .scr-centro .pwrow{justify-content:center}
+  .scr-centro .sd-wrap{justify-content:center}
+  /* en el examen, cada pregunta y sus opciones van juntas y centradas */
+  .scr-centro .exam .item{max-width:44rem;margin-inline:auto}
+  .scr-centro .exam .opts{display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;margin-top:.4rem}
+  .scr-centro .exam .stem{text-align:center}
+  .scr-centro .checkrow{justify-content:center}
+  .scr-centro .rec{max-width:44rem;margin-inline:auto}
+  .scr-centro .pw-task{max-width:44rem;margin-inline:auto}
+  /* la consigna de la actividad, centrada y en tono suave */
+  .scr-centro .act > .body > p:first-child{text-align:center;color:var(--soft);
+    max-width:40rem;margin:0 auto 1.1rem;font-size:1.02rem}
+  /* el marcador vacio contaba en el gap y descolocaba el boton Check */
+  .checkrow .score:empty{display:none}
+  /* si la actividad es corta, que no quede colgada arriba */
+  .scr-centro > *{margin-block:auto}
+
   .selfcheck{background:var(--surface);border:1px solid var(--line);border-radius:14px;
     padding:1.2rem 1.4rem;text-align:left}
   .sc-intro{margin:0 0 .8rem;color:var(--soft)}
@@ -125,6 +148,12 @@ if(/\.github\.io$/i.test(location.hostname)){
   .xw-clues h3{margin:.2rem 0 .3rem}
   .xw-clues ol{margin:0 0 .8rem;padding-left:1.4rem}
   .xw-clues li{margin-bottom:.3rem}
+  .xw-clues li{display:flex;align-items:flex-start;gap:.45rem;text-align:left}
+  .clue-say{background:var(--surface2);color:var(--accent);border:0;border-radius:8px;
+    padding:.1rem .4rem;font-size:.9rem;line-height:1.35;cursor:pointer;flex:none;
+    font-family:inherit}
+  .clue-say:hover{background:var(--accent);color:#fff}
+  .clue-say.saying{background:var(--ok);color:#fff}
   /* match */
   .match{display:grid;grid-template-columns:1fr 1fr;gap:.6rem 2rem;max-width:34rem}
   .match .colh{font-size:.8rem;text-transform:uppercase;letter-spacing:.07em;color:var(--soft);font-weight:700}
@@ -295,7 +324,7 @@ const store = {
 
 // El contenido se cachea igual que los mp4: al cambiar una unidad hay que
 // subir esta fecha o el alumno sigue viendo la version anterior.
-const CONTENT_V = '2026-08-27-screens';
+const CONTENT_V = '2026-08-27-orden-centrado';
 async function j(path){
   const sep = path.includes('?') ? '&' : '?';
   const r = await fetch(path + sep + 'v=' + CONTENT_V);
@@ -433,7 +462,10 @@ async function unit(){
   UD = await j(`../content/${LEVEL}/unit-${String(UNIT).padStart(2,'0')}.json`);
   PROG = store.get(UD.number); PROG.done = PROG.done || {};
   document.title = `Unit ${UD.number} · ${UD.title}`;
-  const digital = UD.activities.filter(a=>a.outputs.includes('digital'));
+  // el JSON las guarda en el orden en que se escribieron (F antes que E);
+  // el alumno las espera por letra
+  const digital = UD.activities.filter(a=>a.outputs.includes('digital'))
+    .slice().sort((x,y)=>(x.code||'').localeCompare(y.code||''));
 
   const escenaHTML = (()=>{
     const sc = sceneFor(UD);
@@ -560,6 +592,47 @@ function pintaSelfCheck(el, digital){
   cuenta();
 }
 
+/* ---- pronunciacion: palabras sueltas y frases -----------------------
+   Un mp3 grabado por palabra (audio/words). Si falta el archivo o el
+   navegador no puede reproducirlo, lo lee la voz del sistema, que siempre
+   esta. Las pistas del crucigrama son frases: para esas se usa la voz del
+   navegador salvo que exista grabacion.                                  */
+const SAY = {
+  cache: {},
+  slug(t){ return String(t).toLowerCase().replace(/'/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,''); },
+  voz(t, ritmo){
+    if (!window.speechSynthesis) return;
+    try {
+      speechSynthesis.cancel();
+      const u = new SpeechSynthesisUtterance(t);
+      u.lang = 'en-GB'; u.rate = ritmo || 0.85;
+      speechSynthesis.speak(u);
+    } catch(e){}
+  },
+  play(w, btn){
+    const fin = () => btn && btn.classList.remove('saying');
+    btn && btn.classList.add('saying');
+    const src = '../audio/words/' + this.slug(w) + '.mp3';
+    let a = this.cache[src];
+    if (!a){ a = this.cache[src] = new Audio(src); a.preload = 'auto'; }
+    a.currentTime = 0;
+    a.onended = fin;
+    a.onerror = () => { this.voz(w); setTimeout(fin, 700); };
+    const pr = a.play();
+    if (pr && pr.catch) pr.catch(() => { this.voz(w); setTimeout(fin, 700); });
+  },
+  frase(t, btn){
+    const fin = () => btn && btn.classList.remove('saying');
+    btn && btn.classList.add('saying');
+    const src = '../audio/clues/' + this.slug(t).slice(0, 60) + '.mp3';
+    const a = new Audio(src);
+    a.onended = fin;
+    a.onerror = () => { this.voz(t, 0.78); setTimeout(fin, 1600); };
+    const pr = a.play();
+    if (pr && pr.catch) pr.catch(() => { this.voz(t, 0.78); setTimeout(fin, 1600); });
+  }
+};
+
 function wirePictureWords(){
   document.querySelectorAll('.pwrow .pw[data-say]').forEach(btn => {
     btn.addEventListener('click', () => SAY.play(btn.dataset.say, btn));
@@ -607,10 +680,15 @@ crossword(act, el){
         : '<td></td>'; }
     g+='</tr>'; }
   g+='</table>';
+  // Altavoz en cada pista: hay ninos que aun estan aprendiendo a leer y
+  // oir la frase les deja resolver el crucigrama igual.
   const list=d=>`<ol>${words.filter(w=>w.dir===d)
     .map(w=>({n:num(w.row+','+w.col),w}))
     .sort((a,b)=>a.n-b.n)
-    .map(({n,w})=>`<li value="${n}">${w.clue} <small>(${w.word.length})</small></li>`).join('')}</ol>`;
+    .map(({n,w})=>`<li value="${n}">
+      <button class="clue-say" type="button" data-clue="${esc(w.clue)}"
+        title="Listen to the clue" aria-label="Listen to clue ${n}">🔊</button>
+      <span>${w.clue} <small>(${w.word.length})</small></span></li>`).join('')}</ol>`;
   el.innerHTML = `<div class="xw"><div class="xw-gridwrap">${g}</div>
     <div class="xw-clues"><h3>Across ➜</h3>${list('across')}<h3>Down ⬇</h3>${list('down')}</div></div>
     <div class="checkrow"><button>Check</button><span class="score"></span></div>`;
@@ -647,6 +725,8 @@ crossword(act, el){
       complete(act.code);
     }
   }
+
+  el.querySelectorAll('.clue-say').forEach(b => b.onclick = () => SAY.frase(b.dataset.clue, b));
 
   el.querySelectorAll('td.cell input').forEach(i => {
     i.addEventListener('focus', () => {

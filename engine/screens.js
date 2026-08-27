@@ -66,7 +66,13 @@ window.SCREENS = (function () {
         <div class="scr-dots"></div>
       </div>`;
     const cont = app.querySelector('.scr');
-    estado = { cont, pantallas, i: opts.inicio || 0, opts };
+    // ?scr=N abre directamente esa pantalla: sirve para enlazar un paso
+    // concreto y para las capturas de pantalla.
+    const pedida = parseInt(new URLSearchParams(location.search).get('scr'), 10);
+    const arranque = Number.isFinite(pedida)
+      ? Math.max(0, Math.min(pantallas.length - 1, pedida))
+      : (opts.inicio || 0);
+    estado = { cont, pantallas, i: arranque, opts };
 
     cont.querySelector('.scr-next').onclick = () => ir(estado.i + 1);
     cont.querySelector('.scr-prev').onclick = () => ir(estado.i - 1);
