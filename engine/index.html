@@ -77,6 +77,9 @@ if(/\.github\.io$/i.test(location.hostname)){
   .obtn.ok{background:#e2f2e9;border-color:var(--ok)}
   .obtn.bad{background:#f8e4e1;border-color:var(--bad)}
   .exam .rtext{background:var(--surface2);border-radius:10px;padding:.9rem 1.1rem;margin-bottom:1rem;max-width:44rem}
+  /* autoria de las lecturas: son textos propios, no adaptaciones ajenas */
+  .credit{margin:.7rem 0 0;font-size:.74rem;font-style:italic;color:var(--soft);
+    text-align:right;letter-spacing:.01em}
   /* hub */
   .hub h1{font-size:2rem;margin:.6rem 0}
   .units{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:1rem}
@@ -92,6 +95,9 @@ if(/\.github\.io$/i.test(location.hostname)){
   #cele h2{margin:.4rem 0}
   .crumb{margin:.8rem 0;font-size:.9rem}
   .crumb a{color:var(--accent);font-weight:700;text-decoration:none}
+  .demoflag{margin:1.4rem 0 .2rem;background:#fff6e0;border:1px solid #e8cf94;
+    border-left:6px solid var(--star);border-radius:12px;padding:.75rem 1rem;
+    font-size:.92rem;color:#6b5313}
   /* opener: texto de introduccion + panel ilustrado */
   .opener{display:flex;gap:1.2rem;margin:1.2rem 0;flex-wrap:wrap}
   .op-text{flex:2;min-width:18rem;background:var(--surface);border:1px solid var(--line);border-left:6px solid var(--accent);border-radius:14px;padding:1.1rem 1.3rem}
@@ -101,12 +107,28 @@ if(/\.github\.io$/i.test(location.hostname)){
   .op-art span{font-size:3.2rem;line-height:1.25}
   .op-art.op-photo{display:block;padding:0;overflow:hidden}
   .op-art.op-photo img{width:100%;height:100%;min-height:12rem;object-fit:cover;display:block;border-radius:13px}
+  /* escena dibujada a medida: es SVG, no se recorta como una foto */
+  .op-art.op-drawn{background:none;border:0;padding:0}
+  .op-art.op-drawn svg{width:100%;height:auto;display:block;border-radius:13px;
+    border:1px solid var(--line)}
   .campus-banner{margin:0 0 1.4rem;border-radius:18px;overflow:hidden;border:1px solid var(--line)}
   .campus-banner img{width:100%;max-height:260px;object-fit:cover;display:block}
   /* picture words */
   .pwrow{display:flex;flex-wrap:wrap;gap:.5rem;margin:1.2rem 0;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:1rem 1.2rem}
-  .pwrow .pw{width:6.6rem;text-align:center;background:var(--surface2);border-radius:10px;padding:.45rem .2rem}
-  .pwrow .pw .ico{font-size:2.6rem;line-height:1.2}
+  .pwrow .pw{position:relative;width:6.6rem;text-align:center;background:var(--surface2);
+    border:2px solid transparent;border-radius:12px;padding:.5rem .2rem .4rem;cursor:pointer;
+    font-family:"Source Sans 3",system-ui,sans-serif;color:var(--ink);
+    transition:transform .12s ease,border-color .12s ease,box-shadow .12s ease}
+  .pwrow .pw:hover{border-color:var(--accent);transform:translateY(-2px);
+    box-shadow:0 4px 12px rgba(59,111,181,.16)}
+  .pwrow .pw:active{transform:translateY(0) scale(.97)}
+  .pwrow .pw.saying{border-color:var(--ok);background:#e2f2e9}
+  .pwrow .pw .ico{line-height:1.2;display:flex;align-items:center;justify-content:center;height:3.4rem}
+  .pwrow .pw .ico svg{width:3.4rem;height:3.4rem;display:block}
+  .pwrow .pw .ico .emo{font-size:2.6rem}
+  .pwrow .pw .spk{position:absolute;top:.25rem;right:.35rem;font-size:.72rem;opacity:0;transition:opacity .12s}
+  .pwrow .pw:hover .spk,.pwrow .pw.saying .spk{opacity:.75}
+  @media (prefers-reduced-motion:reduce){.pwrow .pw{transition:none}.pwrow .pw:hover{transform:none}}
   .pwrow .pw .w{font-size:.8rem;font-weight:700}
   /* gap text */
   .gt-box{display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:.9rem}
@@ -147,9 +169,11 @@ if(/\.github\.io$/i.test(location.hostname)){
      sale al abrir el curso aunque ya se hubiera visto en el portal (mismo
      origen, misma sessionStorage); sigue siendo una vez por sesion, asi
      que no reaparece al abrir cada una de las 45-55 unidades. -->
-<script src="../nis-splash.js?v=3" data-key="nis_splash_curso"></script>
+<script src="../nis-splash.js?v=4" data-key="nis_splash_curso"></script>
 <script src="crossword-layout.js"></script>
 <script src="emoji-map.js"></script>
+<script src="vocab-art.js?v=1"></script>
+<script src="unit-scenes.js?v=1"></script>
 <main id="app">Loading…</main>
 <div id="cele"><div class="box"><img id="cele-img" alt=""><h2>Well done!</h2><p id="cele-msg"></p><button onclick="document.getElementById('cele').classList.remove('on')">OK</button></div></div>
 <script>
@@ -158,6 +182,15 @@ const LEVEL = qs.get('level');
 const UNIT = qs.get('unit');
 const app = document.getElementById('app');
 const COLORS = { starters:'#d97d0d', movers:'#2f9268', flyers:'#3b6fb5' };
+// Escapa el texto que va dentro de un atributo (las palabras del wordlist
+// llevan apostrofes: chemist's).
+// Modo demostracion (?demo=1): solo las dos primeras unidades de cada nivel,
+// con un aviso visible. Sirve para ensenar el curso sin abrir las 150.
+const DEMO = new URLSearchParams(location.search).get('demo') === '1';
+const Q = extra => (DEMO ? extra + '&demo=1' : extra);
+
+const esc = t => String(t).replace(/&/g,'&amp;').replace(/"/g,'&quot;')
+                          .replace(/</g,'&lt;').replace(/>/g,'&gt;');
 // El servidor cachea los mp4 4 horas y la ruta no cambia al reemplazarlos:
 // subir esta fecha obliga al navegador a volver a bajarlos.
 const VIDEO_V = '2026-08-25-marca';
@@ -182,7 +215,7 @@ async function levels(){
     <p style="color:var(--soft);margin:0 0 1.4rem">Cambridge Young Learners · Nordic International School</p>
     <div class="campus-banner"><img src="../assets/scenes/main-building.jpg" alt="Nordic campus"></div>
     <div class="lvcards">${data.levels.map(l=>`
-      <a class="lvcard" href="?level=${l.id}" style="--lv:${l.color}">
+      <a class="lvcard" href="${Q(`?level=${l.id}`)}" style="--lv:${l.color}">
         <img src="../assets/characters/${l.id}/${l.mascot}/pose-01.png"
              onerror="this.onerror=null;this.src=this.src.replace('.png','.svg')" alt="">
         <b>${l.name}</b>
@@ -197,7 +230,7 @@ async function hub(){
   document.title = idx.name;
   app.classList.add('hub');
   app.innerHTML = `
-    <div class="crumb"><a href="?">← Fun for Nordic</a></div>
+    <div class="crumb"><a href="${Q(`?`)}">← Fun for Nordic</a></div>
     <div class="band"><img src="${CHAR(idx.mascot,1)}" style="height:150px" alt="" ${FB}>
       <h1>${idx.name}</h1><span class="meta">${idx.cast}</span></div>
     <div class="guide" id="guide">
@@ -212,11 +245,12 @@ async function hub(){
         poster="../assets/videos/posters/${LEVEL}-cast.jpg?v=${VIDEO_V}"
         onerror="document.getElementById('team').remove()"></video>
     </div>
+    ${DEMO ? `<div class="demoflag">Demonstration — this preview covers the first two units of each book. The full course has ${idx.units.length} units.</div>` : ''}
     <h2 style="margin:1.4rem 0 .8rem">Units</h2>
-    <div class="units">${idx.units.map(u=>{
+    <div class="units">${(DEMO ? idx.units.slice(0,2) : idx.units).map(u=>{
       const p = store.get(u.n);
       const done = p.done ? Object.keys(p.done).length : 0;
-      return `<a class="ucard" href="?level=${LEVEL}&unit=${u.n}">
+      return `<a class="ucard" href="${Q(`?level=${LEVEL}&unit=${u.n}`)}">
         <span class="n">${u.n}</span> <b>${u.title}</b><br>
         <small>${u.topic}</small><br>
         <span class="stars">${'★'.repeat(done)}${'☆'.repeat(Math.max(0,4-done))}</span></a>`;
@@ -272,7 +306,7 @@ async function unit(){
   document.title = `Unit ${UD.number} · ${UD.title}`;
   const digital = UD.activities.filter(a=>a.outputs.includes('digital'));
   app.innerHTML = `
-    <div class="crumb"><a href="?level=${LEVEL}">← ${LEVEL[0].toUpperCase()+LEVEL.slice(1)}</a></div>
+    <div class="crumb"><a href="${Q(`?level=${LEVEL}`)}">← ${LEVEL[0].toUpperCase()+LEVEL.slice(1)}</a></div>
     <div class="band"><span class="unum">${UD.number}</span><h1>${UD.title}</h1>
       <span class="meta">${UD.exam_focus.paper} · Part ${UD.exam_focus.part}</span></div>
     <div class="scene">
@@ -281,24 +315,70 @@ async function unit(){
     </div>
     <div class="opener">
       <div class="op-text"><h3>📖 The story of this unit</h3><p>${makeIntro(UD)}</p></div>
-      ${(()=>{const sc=sceneFor(UD); return sc
-        ? `<div class="op-art op-photo"><img src="../assets/scenes/${sc}.jpg" alt=""
-             onerror="this.closest('.op-photo').remove()"></div>`
-        : `<div class="op-art">${(UD.wordlist||[]).slice(0,6).map(w=>{
-            const k = w.replace(/^(a|an|the) /,'');
-            return `<span>${EMOJI[k]||EMOJI[k.toLowerCase()]||'⭐'}</span>`;
-          }).join('')}</div>`;})()}
+      ${(()=>{
+        // La escena dibujada a medida ilustra la historia de la unidad; la foto
+        // del campus solo entra donde todavia no hay escena propia.
+        const propia = window.UNIT_SCENES && UNIT_SCENES.get(LEVEL, UD.number);
+        if (propia) return `<div class="op-art op-photo op-drawn">${propia}</div>`;
+        const sc = sceneFor(UD);
+        return sc
+          ? `<div class="op-art op-photo"><img src="../assets/scenes/${sc}.jpg" alt=""></div>`
+          : '';
+      })()}
     </div>
     <div class="pwrow">${(UD.wordlist||[]).slice(0,10).map(w=>{
       const key = w.replace(/^(a|an|the) /,'');
-      const ico = EMOJI[key] || EMOJI[key.toLowerCase()] || '✏️';
-      return `<div class="pw"><div class="ico">${ico}</div><div class="w">${w}</div></div>`;
+      // dibujo propio si existe; si no, el emoji de siempre
+      const art = (window.VOCAB_ART && VOCAB_ART.get(key)) || null;
+      const ico = art || `<span class="emo">${EMOJI[key] || EMOJI[key.toLowerCase()] || '✏️'}</span>`;
+      return `<button class="pw" type="button" data-say="${esc(w)}"
+                title="Click to hear it" aria-label="Say ${esc(w)}">
+                <div class="ico">${ico}</div><div class="w">${w}</div>
+                <span class="spk" aria-hidden="true">🔊</span>
+              </button>`;
     }).join('')}</div>
     ${digital.map(a=>`<section class="act ${PROG.done[a.code]?'done':''}" id="act-${a.code}">
        <h2><span class="code">${a.code}</span> ${a.title}</h2>
        <div class="body" id="body-${a.code}"></div>
      </section>`).join('')}`;
   digital.forEach(a=>RENDER[a.type](a, document.getElementById('body-'+a.code)));
+  wirePictureWords();
+}
+
+/* ---- pronunciacion de las picture words -----------------------------
+   Un mp3 grabado por palabra (audio/words/*.mp3, voz unica para todo el
+   vocabulario). Si falta el archivo o el navegador no lo puede reproducir,
+   cae a la voz del sistema, que siempre esta.                          */
+const SAY = {
+  cache: {},
+  slug(w){ return String(w).toLowerCase().replace(/'/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,''); },
+  voz(w){
+    if (!window.speechSynthesis) return;
+    try {
+      speechSynthesis.cancel();
+      const u = new SpeechSynthesisUtterance(w);
+      u.lang = 'en-GB'; u.rate = 0.85;
+      speechSynthesis.speak(u);
+    } catch(e){}
+  },
+  play(w, btn){
+    const done = () => btn && btn.classList.remove('saying');
+    btn && btn.classList.add('saying');
+    const src = '../audio/words/' + this.slug(w) + '.mp3';
+    let a = this.cache[src];
+    if (!a){ a = this.cache[src] = new Audio(src); a.preload = 'auto'; }
+    a.currentTime = 0;
+    a.onended = done;
+    a.onerror = () => { this.voz(w); setTimeout(done, 700); };
+    const pr = a.play();
+    if (pr && pr.catch) pr.catch(() => { this.voz(w); setTimeout(done, 700); });
+  }
+};
+
+function wirePictureWords(){
+  document.querySelectorAll('.pwrow .pw[data-say]').forEach(btn => {
+    btn.addEventListener('click', () => SAY.play(btn.dataset.say, btn));
+  });
 }
 
 function complete(code, msg){
@@ -472,7 +552,7 @@ spot_diff(act, el){
 /* ---- exam task ---- */
 exam_task(act, el){
   el.classList.add('exam');
-  el.innerHTML = `${act.data.text?`<div class="rtext">${act.data.text}</div>`:''}
+  el.innerHTML = `${act.data.text?`<div class="rtext">${act.data.text}<p class="credit">Written by Paolo Baca</p></div>`:''}
     <p><i>${act.data.instructions}</i></p>
     ${act.data.items.map((it,i)=>`<div class="item" data-i="${i}">
       <div class="stem">${i+1}. ${it.sentence.replace('___','<b>____</b>')}</div>

@@ -36,6 +36,13 @@
   .mt .colh{border:0;font-size:7pt;text-transform:uppercase;letter-spacing:.06em;color:var(--soft);font-weight:700;padding:0 4mm}
   /* exam print */
   .exam .rtext{background:var(--band);border-radius:3mm;padding:3mm 4mm;margin-bottom:2.5mm;font-size:9.5pt}
+  .credit{margin:2mm 0 0;font-size:7pt;font-style:italic;color:#6b7b8c;text-align:right}
+  /* escena de apertura: foto del campus o escena dibujada de la unidad */
+  img.op-art{width:100%;height:34mm;object-fit:cover;border-radius:2mm;display:block}
+  .op-art.op-drawn{width:100%;border-radius:2mm;overflow:hidden;line-height:0}
+  .op-art.op-drawn svg{width:100%;height:auto;display:block}
+  .picwords .pw .ico svg{width:13mm;height:13mm;display:block;margin:0 auto}
+  .picwords .pw .ico .emo{font-size:11mm}
   .exam .item{margin-bottom:2mm;font-size:9.5pt}
   .exam .opts{display:inline}
   .exam .opt{display:inline-block;margin-left:4mm}
@@ -95,6 +102,8 @@
 <body id="book"></body>
 <script src="../engine/crossword-layout.js"></script>
 <script src="../engine/emoji-map.js"></script>
+<script src="../engine/vocab-art.js"></script>
+<script src="../engine/unit-scenes.js"></script>
 <script>
 const qs = new URLSearchParams(location.search);
 const LEVEL = qs.get('level') || 'flyers';
@@ -142,7 +151,7 @@ function matchHTML(data){
 function gapTextHTML(data){
   const text = data.text.replace(/\{(\d+)\}/g, (m,n)=>`<b>(${n})</b> ______________`);
   return `${data.box?`<div style="border:.35mm solid var(--line);border-radius:3mm;padding:2mm 4mm;margin-bottom:2mm;font-weight:700;font-size:9.5pt">${[...data.box].sort(()=>Math.random()-.5).join(' &nbsp;·&nbsp; ')}</div>`:''}
-    <div class="exam"><div class="rtext" style="line-height:2">${text}</div></div>`;
+    <div class="exam"><div class="rtext" style="line-height:2">${text}<p class="credit">Written by Paolo Baca</p></div></div>`;
 }
 
 function spotDiffHTML(data){
@@ -153,7 +162,7 @@ function spotDiffHTML(data){
 }
 
 function examHTML(data){
-  return `<div class="exam">${data.text?`<div class="rtext">${data.text}</div>`:''}
+  return `<div class="exam">${data.text?`<div class="rtext">${data.text}<p class="credit">Written by Paolo Baca</p></div>`:''}
     ${data.items.map((it,i)=>`<div class="item">${i+1}. ${it.sentence.replace('___','______')}<span class="opts">${
       it.options.map(o=>`<span class="opt">${o}</span>`).join('')}</span></div>`).join('')}</div>`;
 }
@@ -217,7 +226,9 @@ function cover(idx, subtitle){
 function picwordsHTML(wordlist){
   const cards = wordlist.slice(0,10).map(w=>{
     const key = w.replace(/^(a|an|the) /,'');
-    const ico = EMOJI[key] || EMOJI[key.toLowerCase()] || '✏️';
+    // el mismo dibujo que en pantalla; el emoji queda de respaldo
+    const art = (window.VOCAB_ART && VOCAB_ART.get(key)) || null;
+    const ico = art || `<span class="emo">${EMOJI[key] || EMOJI[key.toLowerCase()] || '✏️'}</span>`;
     return `<div class="pw"><div class="ico">${ico}</div><div class="w">${w}</div><div class="ln"></div></div>`;
   }).join('');
   return `<div class="act"><h2><span class="abadge" style="background:var(--accent)">✎</span>Picture words — look, say and copy.</h2>
@@ -243,8 +254,12 @@ function sbPage(ud, pageno){
     <div class="scene">${ud.characters.map(c=>`<img src="${CHAR(c,(ud.scene.pose||{})[c]||1)}" ${FB}>`).join('')}
       <div class="bubble">${ud.scene.bubble}</div></div>
     <div class="op-text"><b>📖 The story of this unit:</b> ${makeIntro(ud)}</div>
-    ${(()=>{const sc=sceneFor(ud); return sc?`<img src="../assets/scenes/${sc}.jpg" alt=""
-      onerror="this.remove()" style="width:100%;height:34mm;object-fit:cover;border-radius:3mm;margin:1mm 0 2.5mm">`:'';})()}
+    ${(()=>{
+      const propia = window.UNIT_SCENES && UNIT_SCENES.get(ud.level, ud.number);
+      if (propia) return `<div class="op-art op-drawn">${propia}</div>`;
+      const sc = sceneFor(ud);
+      return sc ? `<img class="op-art" src="../assets/scenes/${sc}.jpg" alt="">` : '';
+    })()}
     ${picwordsHTML(ud.wordlist)}
     ${actHTML}
     <div class="persbox"><b>All about me:</b> my two favourite words of this unit are <span></span> and <span></span>.</div>
