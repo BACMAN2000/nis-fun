@@ -1,265 +1,310 @@
 {
-  "id": "starters-02",
-  "level": "starters",
-  "number": 2,
-  "title": "My family",
-  "topic": "family",
-  "grammar": "This is my… / Who is this?",
-  "wordlist": [
-    "mother",
-    "father",
-    "brother",
-    "sister",
-    "grandma",
-    "grandpa",
-    "baby",
-    "family"
-  ],
-  "exam_focus": {
-    "paper": "Listening",
-    "part": 1,
-    "skill": "identify people"
+ "id": "starters-02",
+ "level": "starters",
+ "number": 2,
+ "title": "My family",
+ "topic": "family",
+ "grammar": "This is my… / Who is this?",
+ "wordlist": [
+  "mother",
+  "father",
+  "brother",
+  "sister",
+  "grandma",
+  "grandpa",
+  "baby",
+  "family"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 1,
+  "skill": "identify people"
+ },
+ "characters": [
+  "nico",
+  "pip"
+ ],
+ "scene": {
+  "speaker": "nico",
+  "pose": {
+   "nico": 3,
+   "pip": 2
   },
-  "characters": [
-    "nico",
-    "pip"
-  ],
-  "scene": {
-    "speaker": "nico",
-    "pose": {
-      "nico": 3,
-      "pip": 2
-    },
-    "bubble": "Look at my family photo! This is my mum, this is my dad… and oops — Pip is in the photo too!",
-    "intro": "Nico brings a special photo to school today: his family photo! Look — his mother Rosa with her big smile, his father Juan who is very tall, his little sister, and the baby cousin who is only one. But wait… who is that little black and white bird next to grandma? PIP! He flew into the photo! Who is in YOUR family? In this unit you will learn to say it in English."
+  "bubble": "Look at my family photo! This is my mum, this is my dad… and oops — Pip is in the photo too!",
+  "intro": "Nico brings a special photo to school today: his family photo! Look — his mother Rosa with her big smile, his father Juan who is very tall, his little sister, and the baby cousin who is only one. But wait… who is that little black and white bird next to grandma? PIP! He flew into the photo! Who is in YOUR family? In this unit you will learn to say it in English."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Read and write the family words.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "FATHER",
+      "row": 2,
+      "col": 0,
+      "dir": "across",
+      "clue": "Your dad."
+     },
+     {
+      "word": "MOTHER",
+      "row": 0,
+      "col": 2,
+      "dir": "down",
+      "clue": "Your mum."
+     },
+     {
+      "word": "GRANDMA",
+      "row": 0,
+      "col": 1,
+      "dir": "down",
+      "clue": "Your mother's mother."
+     },
+     {
+      "word": "BROTHER",
+      "row": 1,
+      "col": 5,
+      "dir": "down",
+      "clue": "A boy in your family."
+     },
+     {
+      "word": "BABY",
+      "row": 1,
+      "col": 5,
+      "dir": "across",
+      "clue": "The smallest person in the family."
+     }
+    ]
+   }
   },
-  "activities": [
-    {
-      "code": "A",
-      "type": "crossword",
-      "title": "Read and write the family words.",
-      "outputs": [
-        "book",
-        "digital"
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Match the word with the short word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Long word",
+    "right_label": "Short word",
+    "pairs": [
+     {
+      "left": "mother",
+      "right": "mum"
+     },
+     {
+      "left": "father",
+      "right": "dad"
+     },
+     {
+      "left": "grandmother",
+      "right": "grandma"
+     },
+     {
+      "left": "grandfather",
+      "right": "grandpa"
+     },
+     {
+      "left": "brother",
+      "right": "bro"
+     },
+     {
+      "left": "sister",
+      "right": "sis"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to Nico. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u02-c.mp3",
+   "data": {
+    "voice_note": "Voces: Nico (bromista) y Astrid (ordenada).",
+    "script": "Astrid: Nico, who is in your photo? … Nico: This is my family! Look, this is my mother. Her name is Rosa. … Astrid: And is this your father? … Nico: Yes! His name is Juan. He is very tall. … Astrid: Have you got brothers and sisters? … Nico: I've got one sister. She is five years old. … Astrid: And who is the baby? … Nico: That's my cousin. He is one year old! … Astrid: And… why is there a bird in the photo? … Nico: Ha! That's Pip! He flew into the photo. Silly Pip!",
+    "questions": [
+     {
+      "q": "Nico's mother's name is …",
+      "answer": "Rosa"
+     },
+     {
+      "q": "His father is very …",
+      "answer": "tall"
+     },
+     {
+      "q": "His sister is … years old.",
+      "answer": "five"
+     },
+     {
+      "q": "The baby is Nico's …",
+      "answer": "cousin"
+     },
+     {
+      "q": "The bird in the photo is …",
+      "answer": "Pip"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Read and choose the correct word.",
+    "items": [
+     {
+      "sentence": "Your mum's mother is your …",
+      "options": [
+       "sister",
+       "grandma",
+       "baby"
       ],
-      "data": {
-        "words": [
-          {
-            "word": "FATHER",
-            "row": 2,
-            "col": 0,
-            "dir": "across",
-            "clue": "Your dad."
-          },
-          {
-            "word": "MOTHER",
-            "row": 0,
-            "col": 2,
-            "dir": "down",
-            "clue": "Your mum."
-          },
-          {
-            "word": "GRANDMA",
-            "row": 0,
-            "col": 1,
-            "dir": "down",
-            "clue": "Your mother's mother."
-          },
-          {
-            "word": "BROTHER",
-            "row": 1,
-            "col": 5,
-            "dir": "down",
-            "clue": "A boy in your family."
-          },
-          {
-            "word": "BABY",
-            "row": 1,
-            "col": 5,
-            "dir": "across",
-            "clue": "The smallest person in the family."
-          }
-        ]
-      }
-    },
-    {
-      "code": "B",
-      "type": "match_words",
-      "title": "Match the word with the short word.",
-      "outputs": [
-        "book",
-        "digital",
-        "quiz"
+      "answer": 1
+     },
+     {
+      "sentence": "A boy in your family is your …",
+      "options": [
+       "brother",
+       "sister",
+       "mother"
       ],
-      "data": {
-        "left_label": "Long word",
-        "right_label": "Short word",
-        "pairs": [
-          {
-            "left": "mother",
-            "right": "mum"
-          },
-          {
-            "left": "father",
-            "right": "dad"
-          },
-          {
-            "left": "grandmother",
-            "right": "grandma"
-          },
-          {
-            "left": "grandfather",
-            "right": "grandpa"
-          },
-          {
-            "left": "brother",
-            "right": "bro"
-          },
-          {
-            "left": "sister",
-            "right": "sis"
-          }
-        ]
-      }
-    },
-    {
-      "code": "C",
-      "type": "listening",
-      "title": "Listen to Nico. Write a word or number in each gap.",
-      "outputs": [
-        "digital",
-        "quiz"
+      "answer": 0
+     },
+     {
+      "sentence": "The smallest person in a family is the …",
+      "options": [
+       "father",
+       "grandpa",
+       "baby"
       ],
-      "audio": "starters/u02-c.mp3",
-      "data": {
-        "voice_note": "Voces: Nico (bromista) y Astrid (ordenada).",
-        "script": "Astrid: Nico, who is in your photo? … Nico: This is my family! Look, this is my mother. Her name is Rosa. … Astrid: And is this your father? … Nico: Yes! His name is Juan. He is very tall. … Astrid: Have you got brothers and sisters? … Nico: I've got one sister. She is five years old. … Astrid: And who is the baby? … Nico: That's my cousin. He is one year old! … Astrid: And… why is there a bird in the photo? … Nico: Ha! That's Pip! He flew into the photo. Silly Pip!",
-        "questions": [
-          {
-            "q": "Nico's mother's name is …",
-            "answer": "Rosa"
-          },
-          {
-            "q": "His father is very …",
-            "answer": "tall"
-          },
-          {
-            "q": "His sister is … years old.",
-            "answer": "five"
-          },
-          {
-            "q": "The baby is Nico's …",
-            "answer": "cousin"
-          },
-          {
-            "q": "The bird in the photo is …",
-            "answer": "Pip"
-          }
-        ]
-      }
-    },
-    {
-      "code": "D",
-      "type": "exam_task",
-      "title": "Exam task · Choose the correct word.",
-      "outputs": [
-        "book",
-        "digital",
-        "quiz"
+      "answer": 2
+     },
+     {
+      "sentence": "\"Dad\" is a short word for …",
+      "options": [
+       "father",
+       "brother",
+       "grandpa"
       ],
-      "data": {
-        "instructions": "Read and choose the correct word.",
-        "items": [
-          {
-            "sentence": "Your mum's mother is your …",
-            "options": [
-              "sister",
-              "grandma",
-              "baby"
-            ],
-            "answer": 1
-          },
-          {
-            "sentence": "A boy in your family is your …",
-            "options": [
-              "brother",
-              "sister",
-              "mother"
-            ],
-            "answer": 0
-          },
-          {
-            "sentence": "The smallest person in a family is the …",
-            "options": [
-              "father",
-              "grandpa",
-              "baby"
-            ],
-            "answer": 2
-          },
-          {
-            "sentence": "\"Dad\" is a short word for …",
-            "options": [
-              "father",
-              "brother",
-              "grandpa"
-            ],
-            "answer": 0
-          },
-          {
-            "sentence": "Mum, dad, brothers and sisters are your …",
-            "options": [
-              "school",
-              "family",
-              "toys"
-            ],
-            "answer": 1
-          }
-        ]
-      }
-    },
-    {
-      "code": "F",
-      "type": "gap_text",
-      "title": "Read about the photo. Write the missing words.",
-      "outputs": [
-        "book",
-        "digital",
-        "quiz"
+      "answer": 0
+     },
+     {
+      "sentence": "Mum, dad, brothers and sisters are your …",
+      "options": [
+       "school",
+       "family",
+       "toys"
       ],
-      "data": {
-        "box": [
-          "mother",
-          "father",
-          "sister",
-          "baby",
-          "dog"
-        ],
-        "text": "This is my family photo! My {1} is Rosa and my {2} is Juan. My little {3} is five years old. The {4} is my cousin — he is one!",
-        "answers": [
-          "mother",
-          "father",
-          "sister",
-          "baby"
-        ]
-      }
-    },
-    {
-      "code": "E",
-      "type": "pairwork",
-      "title": "Speaking · In pairs",
-      "outputs": [
-        "book"
-      ],
-      "data": {
-        "text": "Draw your family in one minute (stick people are fine!). Show your partner and say: \"This is my mother. This is my brother.\" Your partner points and asks: \"Who is this?\""
-      }
-    }
-  ],
-  "homework": [
-    {
-      "type": "write_sentences",
-      "prompt": "Stick or draw a family photo. Write the words with arrows: mother, father, sister… and one full sentence: This is my family."
-    }
-  ]
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "F",
+   "type": "gap_text",
+   "title": "Read about the photo. Write the missing words.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "mother",
+     "father",
+     "sister",
+     "baby",
+     "dog"
+    ],
+    "text": "This is my family photo! My {1} is Rosa and my {2} is Juan. My little {3} is five years old. The {4} is my cousin — he is one!",
+    "answers": [
+     "mother",
+     "father",
+     "sister",
+     "baby"
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "spot_diff",
+   "title": "Two family photos! Find the differences.",
+   "outputs": [
+    "digital",
+    "book"
+   ],
+   "data": {
+    "diffs": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book"
+   ],
+   "data": {
+    "text": "Draw your family in one minute (stick people are fine!). Show your partner and say: \"This is my mother. This is my brother.\" Your partner points and asks: \"Who is this?\""
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Stick or draw a family photo. Write the words with arrows: mother, father, sister… and one full sentence: This is my family."
+  }
+ ]
 }

@@ -1,278 +1,331 @@
 {
-  "id": "movers-02",
-  "level": "movers",
-  "number": 2,
-  "title": "What's the weather like?",
-  "topic": "weather",
-  "grammar": "be going to + weather words",
-  "wordlist": [
-    "weather",
-    "sunny",
-    "rainy",
-    "windy",
-    "snowy",
-    "cloudy",
-    "hot",
-    "cold",
-    "rainbow"
-  ],
-  "exam_focus": {
-    "paper": "Listening",
-    "part": 4,
-    "skill": "multiple choice"
+ "id": "movers-02",
+ "level": "movers",
+ "number": 2,
+ "title": "What's the weather like?",
+ "topic": "weather",
+ "grammar": "be going to + weather words",
+ "wordlist": [
+  "weather",
+  "sunny",
+  "rainy",
+  "windy",
+  "snowy",
+  "cloudy",
+  "hot",
+  "cold",
+  "rainbow"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 4,
+  "skill": "multiple choice"
+ },
+ "characters": [
+  "sofia",
+  "erik"
+ ],
+ "scene": {
+  "speaker": "sofia",
+  "pose": {
+   "sofia": 2,
+   "erik": 1
   },
-  "characters": [
-    "sofia",
-    "erik"
-  ],
-  "scene": {
-    "speaker": "sofia",
-    "pose": {
-      "sofia": 2,
-      "erik": 1
-    },
-    "bubble": "Look at my map! We're going to have a picnic by the fjord on Saturday… if it doesn't rain!",
-    "intro": "Erik's newest invention is a weather machine made from an umbrella, two spoons and a bicycle bell. Does it work? Nobody knows! But this Saturday the Club really needs it, because there is a picnic planned by the fjord. Will it be sunny or rainy? Should they take the kite or the board games? In this unit you will learn to talk about every kind of weather — and maybe, like Sofia, you will see a rainbow with both ends in the water."
+  "bubble": "Look at my map! We're going to have a picnic by the fjord on Saturday… if it doesn't rain!",
+  "intro": "Erik's newest invention is a weather machine made from an umbrella, two spoons and a bicycle bell. Does it work? Nobody knows! But this Saturday the Club really needs it, because there is a picnic planned by the fjord. Will it be sunny or rainy? Should they take the kite or the board games? In this unit you will learn to talk about every kind of weather — and maybe, like Sofia, you will see a rainbow with both ends in the water."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the weather with what you do.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Weather",
+    "right_label": "What you do",
+    "pairs": [
+     {
+      "left": "sunny",
+      "right": "wear a sunhat"
+     },
+     {
+      "left": "rainy",
+      "right": "take an umbrella"
+     },
+     {
+      "left": "snowy",
+      "right": "make a snowman"
+     },
+     {
+      "left": "windy",
+      "right": "fly a kite"
+     },
+     {
+      "left": "cold",
+      "right": "wear gloves and a scarf"
+     },
+     {
+      "left": "hot",
+      "right": "go swimming"
+     }
+    ]
+   }
   },
-  "activities": [
-    {
-      "code": "A",
-      "type": "match_words",
-      "title": "Match the weather with what you do.",
-      "outputs": [
-        "book",
-        "digital",
-        "quiz"
+  {
+   "code": "B",
+   "type": "crossword",
+   "title": "Write the weather words.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "WEATHER",
+      "row": 2,
+      "col": 0,
+      "dir": "across",
+      "clue": "You ask: \"What's the ___ like today?\""
+     },
+     {
+      "word": "WINDY",
+      "row": 2,
+      "col": 0,
+      "dir": "down",
+      "clue": "The trees dance and your hat flies away!"
+     },
+     {
+      "word": "RAINY",
+      "row": 1,
+      "col": 2,
+      "dir": "down",
+      "clue": "You need an umbrella on this kind of day."
+     },
+     {
+      "word": "SNOWY",
+      "row": 4,
+      "col": 1,
+      "dir": "across",
+      "clue": "Everything is white and you can make a snowman."
+     },
+     {
+      "word": "COLD",
+      "row": 3,
+      "col": 3,
+      "dir": "down",
+      "clue": "Brrr! The opposite of hot."
+     },
+     {
+      "word": "HOT",
+      "row": 0,
+      "col": 3,
+      "dir": "down",
+      "clue": "In summer the sun makes the days very ___."
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen. Sofía phones Erik about the picnic. Write a word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u02-c.mp3",
+   "data": {
+    "voice_note": "Voces: Sofía (viajera, entusiasta) y Erik (inventor, práctico).",
+    "script": "Sofia: Erik! Are we going to have the picnic on Saturday? … Erik: I don't know. My weather machine says it's going to be rainy in the morning. … Sofia: Oh no! And in the afternoon? … Erik: In the afternoon it's going to be sunny and windy. … Sofia: Windy? Perfect! We can fly my new kite. It's orange and green. … Erik: Great idea! I'm going to bring hot chocolate, because it's going to be a bit cold. … Sofia: And after the rain, maybe we can see a rainbow over the fjord! … Erik: I hope so! See you on Saturday at twelve o'clock.",
+    "questions": [
+     {
+      "q": "In the morning it is going to be …",
+      "answer": "rainy"
+     },
+     {
+      "q": "In the afternoon it is going to be sunny and …",
+      "answer": "windy"
+     },
+     {
+      "q": "Sofía's new kite is orange and …",
+      "answer": "green"
+     },
+     {
+      "q": "Erik is going to bring hot …",
+      "answer": "chocolate"
+     },
+     {
+      "q": "After the rain they want to see a …",
+      "answer": "rainbow"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Read Sofía's postcard and choose the right answer.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Read the text. Choose the correct answer for each question.",
+    "text": "Dear Grandma, Saturday was a funny day! In the morning it rained and rained, so we played board games at Erik's house. But in the afternoon the sun came out and it was very windy — perfect for my new kite! We had our picnic by the fjord. Erik brought hot chocolate because it was cold. Best of all: after the rain we saw a big rainbow over the water. Love, Sofía.",
+    "items": [
+     {
+      "sentence": "What did they do in the morning?",
+      "options": [
+       "flew a kite",
+       "played board games",
+       "went swimming"
       ],
-      "data": {
-        "left_label": "Weather",
-        "right_label": "What you do",
-        "pairs": [
-          {
-            "left": "sunny",
-            "right": "wear a sunhat"
-          },
-          {
-            "left": "rainy",
-            "right": "take an umbrella"
-          },
-          {
-            "left": "snowy",
-            "right": "make a snowman"
-          },
-          {
-            "left": "windy",
-            "right": "fly a kite"
-          },
-          {
-            "left": "cold",
-            "right": "wear gloves and a scarf"
-          },
-          {
-            "left": "hot",
-            "right": "go swimming"
-          }
-        ]
-      }
-    },
-    {
-      "code": "B",
-      "type": "crossword",
-      "title": "Write the weather words.",
-      "outputs": [
-        "book",
-        "digital"
+      "answer": 1
+     },
+     {
+      "sentence": "What was the weather like in the afternoon?",
+      "options": [
+       "sunny and windy",
+       "rainy and cold",
+       "snowy"
       ],
-      "data": {
-        "words": [
-          {
-            "word": "WEATHER",
-            "row": 2,
-            "col": 0,
-            "dir": "across",
-            "clue": "You ask: \"What's the ___ like today?\""
-          },
-          {
-            "word": "WINDY",
-            "row": 2,
-            "col": 0,
-            "dir": "down",
-            "clue": "The trees dance and your hat flies away!"
-          },
-          {
-            "word": "RAINY",
-            "row": 1,
-            "col": 2,
-            "dir": "down",
-            "clue": "You need an umbrella on this kind of day."
-          },
-          {
-            "word": "SNOWY",
-            "row": 4,
-            "col": 1,
-            "dir": "across",
-            "clue": "Everything is white and you can make a snowman."
-          },
-          {
-            "word": "COLD",
-            "row": 3,
-            "col": 3,
-            "dir": "down",
-            "clue": "Brrr! The opposite of hot."
-          },
-          {
-            "word": "HOT",
-            "row": 0,
-            "col": 3,
-            "dir": "down",
-            "clue": "In summer the sun makes the days very ___."
-          }
-        ]
-      }
-    },
-    {
-      "code": "C",
-      "type": "listening",
-      "title": "Listen. Sofía phones Erik about the picnic. Write a word in each gap.",
-      "outputs": [
-        "digital",
-        "quiz"
+      "answer": 0
+     },
+     {
+      "sentence": "Where was the picnic?",
+      "options": [
+       "at Erik's house",
+       "by the fjord",
+       "at school"
       ],
-      "audio": "movers/u02-c.mp3",
-      "data": {
-        "voice_note": "Voces: Sofía (viajera, entusiasta) y Erik (inventor, práctico).",
-        "script": "Sofia: Erik! Are we going to have the picnic on Saturday? … Erik: I don't know. My weather machine says it's going to be rainy in the morning. … Sofia: Oh no! And in the afternoon? … Erik: In the afternoon it's going to be sunny and windy. … Sofia: Windy? Perfect! We can fly my new kite. It's orange and green. … Erik: Great idea! I'm going to bring hot chocolate, because it's going to be a bit cold. … Sofia: And after the rain, maybe we can see a rainbow over the fjord! … Erik: I hope so! See you on Saturday at twelve o'clock.",
-        "questions": [
-          {
-            "q": "In the morning it is going to be …",
-            "answer": "rainy"
-          },
-          {
-            "q": "In the afternoon it is going to be sunny and …",
-            "answer": "windy"
-          },
-          {
-            "q": "Sofía's new kite is orange and …",
-            "answer": "green"
-          },
-          {
-            "q": "Erik is going to bring hot …",
-            "answer": "chocolate"
-          },
-          {
-            "q": "After the rain they want to see a …",
-            "answer": "rainbow"
-          }
-        ]
-      }
-    },
-    {
-      "code": "D",
-      "type": "exam_task",
-      "title": "Exam task · Read Sofía's postcard and choose the right answer.",
-      "outputs": [
-        "book",
-        "digital",
-        "quiz"
+      "answer": 1
+     },
+     {
+      "sentence": "Why did Erik bring hot chocolate?",
+      "options": [
+       "it was cold",
+       "it was his birthday",
+       "Sofía asked for it"
       ],
-      "data": {
-        "instructions": "Read the text. Choose the correct answer for each question.",
-        "text": "Dear Grandma, Saturday was a funny day! In the morning it rained and rained, so we played board games at Erik's house. But in the afternoon the sun came out and it was very windy — perfect for my new kite! We had our picnic by the fjord. Erik brought hot chocolate because it was cold. Best of all: after the rain we saw a big rainbow over the water. Love, Sofía.",
-        "items": [
-          {
-            "sentence": "What did they do in the morning?",
-            "options": [
-              "flew a kite",
-              "played board games",
-              "went swimming"
-            ],
-            "answer": 1
-          },
-          {
-            "sentence": "What was the weather like in the afternoon?",
-            "options": [
-              "sunny and windy",
-              "rainy and cold",
-              "snowy"
-            ],
-            "answer": 0
-          },
-          {
-            "sentence": "Where was the picnic?",
-            "options": [
-              "at Erik's house",
-              "by the fjord",
-              "at school"
-            ],
-            "answer": 1
-          },
-          {
-            "sentence": "Why did Erik bring hot chocolate?",
-            "options": [
-              "it was cold",
-              "it was his birthday",
-              "Sofía asked for it"
-            ],
-            "answer": 0
-          },
-          {
-            "sentence": "What did they see after the rain?",
-            "options": [
-              "a snowman",
-              "a boat",
-              "a rainbow"
-            ],
-            "answer": 2
-          }
-        ]
-      }
-    },
-    {
-      "code": "F",
-      "type": "gap_text",
-      "title": "Read Sofía's postcard. Write the missing words.",
-      "outputs": [
-        "book",
-        "digital",
-        "quiz"
+      "answer": 0
+     },
+     {
+      "sentence": "What did they see after the rain?",
+      "options": [
+       "a snowman",
+       "a boat",
+       "a rainbow"
       ],
-      "data": {
-        "box": [
-          "rainy",
-          "sunny",
-          "kite",
-          "chocolate",
-          "rainbow",
-          "picnic",
-          "snowy"
-        ],
-        "text": "Dear Grandma, Saturday was a crazy weather day! In the morning it was {1}, so we played board games at Erik's house. After lunch the sky changed: it was {2} and windy — perfect for my new orange {3}! We had our {4} by the fjord and Erik brought hot {5} because it was a bit cold. Best of all, after the rain we saw a huge {6} over the water. Love, Sofía.",
-        "answers": [
-          "rainy",
-          "sunny",
-          "kite",
-          "picnic",
-          "chocolate",
-          "rainbow"
-        ]
-      }
-    },
-    {
-      "code": "E",
-      "type": "pairwork",
-      "title": "Speaking · In pairs",
-      "outputs": [
-        "book"
-      ],
-      "data": {
-        "text": "Student A is the TV weather presenter: draw four weather symbols for Monday–Thursday and present them: \"On Monday it's going to be rainy…\" Student B chooses what to wear each day. Then swap."
-      }
-    }
-  ],
-  "homework": [
-    {
-      "type": "write_sentences",
-      "prompt": "Look out of your window every day for 3 days. Write one sentence each day: Today it is cloudy and cold."
-    }
-  ]
+      "answer": 2
+     }
+    ]
+   }
+  },
+  {
+   "code": "F",
+   "type": "gap_text",
+   "title": "Read Sofía's postcard. Write the missing words.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "rainy",
+     "sunny",
+     "kite",
+     "chocolate",
+     "rainbow",
+     "picnic",
+     "snowy"
+    ],
+    "text": "Dear Grandma, Saturday was a crazy weather day! In the morning it was {1}, so we played board games at Erik's house. After lunch the sky changed: it was {2} and windy — perfect for my new orange {3}! We had our {4} by the fjord and Erik brought hot {5} because it was a bit cold. Best of all, after the rain we saw a huge {6} over the water. Love, Sofía.",
+    "answers": [
+     "rainy",
+     "sunny",
+     "kite",
+     "picnic",
+     "chocolate",
+     "rainbow"
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "spot_diff",
+   "title": "Two weather days! Find the differences.",
+   "outputs": [
+    "digital",
+    "book"
+   ],
+   "data": {
+    "diffs": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book"
+   ],
+   "data": {
+    "text": "Student A is the TV weather presenter: draw four weather symbols for Monday–Thursday and present them: \"On Monday it's going to be rainy…\" Student B chooses what to wear each day. Then swap."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Look out of your window every day for 3 days. Write one sentence each day: Today it is cloudy and cold."
+  }
+ ]
 }

@@ -1,316 +1,365 @@
 {
-  "id": "flyers-02",
-  "level": "flyers",
-  "number": 2,
-  "title": "Places to go",
-  "topic": "places",
-  "grammar": "past simple: went / saw / was",
-  "wordlist": [
-    "museum",
-    "theatre",
-    "castle",
-    "stadium",
-    "airport",
-    "funfair",
-    "chemist's",
-    "bridge",
-    "police station",
-    "restaurant"
-  ],
-  "exam_focus": {
-    "paper": "Listening",
-    "part": 1,
-    "skill": "places and activities"
+ "id": "flyers-02",
+ "level": "flyers",
+ "number": 2,
+ "title": "Places to go",
+ "topic": "places",
+ "grammar": "past simple: went / saw / was",
+ "wordlist": [
+  "museum",
+  "theatre",
+  "castle",
+  "stadium",
+  "airport",
+  "funfair",
+  "chemist's",
+  "bridge",
+  "police station",
+  "restaurant"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 1,
+  "skill": "places and activities"
+ },
+ "characters": [
+  "diego",
+  "maya"
+ ],
+ "scene": {
+  "speaker": "diego",
+  "pose": {
+   "diego": 3,
+   "maya": 1
   },
-  "characters": [
-    "diego",
-    "maya"
-  ],
-  "scene": {
-    "speaker": "diego",
-    "pose": {
-      "diego": 3,
-      "maya": 1
-    },
-    "bubble": "I'm Diego, reporter of the Aurora Expedition! Maya, where did you go at the weekend?",
-    "intro": "Reporter Diego has a new mission: to make a map of every amazing place in town! On Saturday he follows Maya with his microphone — to the museum with the dinosaur bones, to the old bridge over the green river, and to the theatre where a dragon appears on the stage. Some places are noisy, some are quiet, and one of them hides the best ice cream in the city. Where do YOU go at the weekend? Let's find out how to talk about it!"
+  "bubble": "I'm Diego, reporter of the Aurora Expedition! Maya, where did you go at the weekend?",
+  "intro": "Reporter Diego has a new mission: to make a map of every amazing place in town! On Saturday he follows Maya with his microphone — to the museum with the dinosaur bones, to the old bridge over the green river, and to the theatre where a dragon appears on the stage. Some places are noisy, some are quiet, and one of them hides the best ice cream in the city. Where do YOU go at the weekend? Let's find out how to talk about it!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the place with what you do there.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Place",
+    "right_label": "What you do there",
+    "pairs": [
+     {
+      "left": "theatre",
+      "right": "watch a play"
+     },
+     {
+      "left": "funfair",
+      "right": "go on rides"
+     },
+     {
+      "left": "chemist's",
+      "right": "buy medicine"
+     },
+     {
+      "left": "stadium",
+      "right": "watch a football match"
+     },
+     {
+      "left": "restaurant",
+      "right": "have dinner"
+     },
+     {
+      "left": "police station",
+      "right": "ask a police officer for help"
+     }
+    ]
+   }
   },
-  "activities": [
-    {
-      "code": "A",
-      "type": "match_words",
-      "title": "Match the place with what you do there.",
-      "outputs": [
-        "book",
-        "digital",
-        "quiz"
+  {
+   "code": "B",
+   "type": "crossword",
+   "title": "Where are they? Write the places.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "THEATRE",
+      "row": 1,
+      "col": 0,
+      "dir": "across",
+      "clue": "You go here to watch plays and shows."
+     },
+     {
+      "word": "CASTLE",
+      "row": 0,
+      "col": 3,
+      "dir": "down",
+      "clue": "A very old building where kings and queens lived."
+     },
+     {
+      "word": "STADIUM",
+      "row": 2,
+      "col": 3,
+      "dir": "across",
+      "clue": "Thousands of people watch football matches here."
+     },
+     {
+      "word": "MUSEUM",
+      "row": 1,
+      "col": 8,
+      "dir": "down",
+      "clue": "You can see very old and interesting things here."
+     },
+     {
+      "word": "AIRPORT",
+      "row": 2,
+      "col": 5,
+      "dir": "down",
+      "clue": "You go here to catch a plane."
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to Diego's interview. Where did Maya go? Write a word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u02-c.mp3",
+   "data": {
+    "voice_note": "Voces: Diego (reportero, enérgico) y Maya (científica, tranquila).",
+    "script": "Diego: Good morning, Maya! This is Radio Aurora. Where did you go at the weekend? … Maya: Hi Diego! On Saturday morning I went to the museum with my aunt. … Diego: The museum? What did you see? … Maya: We saw dinosaur bones! Then we had lunch at a restaurant near the bridge. … Diego: Lovely! And in the afternoon? … Maya: We watched a play at the theatre. It was about a dragon. … Diego: And on Sunday? … Maya: On Sunday my cousin's team played, so we went to the stadium. They won two–one! … Diego: What a weekend! Thank you, Maya.",
+    "questions": [
+     {
+      "q": "On Saturday morning Maya went to the …",
+      "answer": "museum"
+     },
+     {
+      "q": "There she saw dinosaur …",
+      "answer": "bones"
+     },
+     {
+      "q": "They had lunch at a restaurant near the …",
+      "answer": "bridge"
+     },
+     {
+      "q": "The play at the theatre was about a …",
+      "answer": "dragon"
+     },
+     {
+      "q": "On Sunday they went to the …",
+      "answer": "stadium"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Reading: read Maya's diary and choose the right answer.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Read the text. Choose the correct answer for each question.",
+    "text": "Saturday was fantastic! In the morning, Aunt Rosa took me to the city museum. My favourite room was the one with the dinosaur bones — some of them are eighty million years old! At midday we were hungry, so we ate rice and fish at a small restaurant near the old bridge. In the afternoon we watched a play about a friendly dragon at the theatre. On Sunday, my cousin's football team played at the big stadium. They won, and my cousin scored the first goal!",
+    "items": [
+     {
+      "sentence": "Who did Maya go to the museum with?",
+      "options": [
+       "her cousin",
+       "her aunt",
+       "Diego"
       ],
-      "data": {
-        "left_label": "Place",
-        "right_label": "What you do there",
-        "pairs": [
-          {
-            "left": "theatre",
-            "right": "watch a play"
-          },
-          {
-            "left": "funfair",
-            "right": "go on rides"
-          },
-          {
-            "left": "chemist's",
-            "right": "buy medicine"
-          },
-          {
-            "left": "stadium",
-            "right": "watch a football match"
-          },
-          {
-            "left": "restaurant",
-            "right": "have dinner"
-          },
-          {
-            "left": "police station",
-            "right": "ask a police officer for help"
-          }
-        ]
-      }
-    },
-    {
-      "code": "B",
-      "type": "crossword",
-      "title": "Where are they? Write the places.",
-      "outputs": [
-        "book",
-        "digital"
+      "answer": 1
+     },
+     {
+      "sentence": "What was in Maya's favourite room?",
+      "options": [
+       "old paintings",
+       "dinosaur bones",
+       "gold rings"
       ],
-      "data": {
-        "words": [
-          {
-            "word": "THEATRE",
-            "row": 1,
-            "col": 0,
-            "dir": "across",
-            "clue": "You go here to watch plays and shows."
-          },
-          {
-            "word": "CASTLE",
-            "row": 0,
-            "col": 3,
-            "dir": "down",
-            "clue": "A very old building where kings and queens lived."
-          },
-          {
-            "word": "STADIUM",
-            "row": 2,
-            "col": 3,
-            "dir": "across",
-            "clue": "Thousands of people watch football matches here."
-          },
-          {
-            "word": "MUSEUM",
-            "row": 1,
-            "col": 8,
-            "dir": "down",
-            "clue": "You can see very old and interesting things here."
-          },
-          {
-            "word": "AIRPORT",
-            "row": 2,
-            "col": 5,
-            "dir": "down",
-            "clue": "You go here to catch a plane."
-          }
-        ]
-      }
-    },
-    {
-      "code": "C",
-      "type": "listening",
-      "title": "Listen to Diego's interview. Where did Maya go? Write a word in each gap.",
-      "outputs": [
-        "digital",
-        "quiz"
+      "answer": 1
+     },
+     {
+      "sentence": "Where was the restaurant?",
+      "options": [
+       "near the bridge",
+       "in the stadium",
+       "next to the theatre"
       ],
-      "audio": "flyers/u02-c.mp3",
-      "data": {
-        "voice_note": "Voces: Diego (reportero, enérgico) y Maya (científica, tranquila).",
-        "script": "Diego: Good morning, Maya! This is Radio Aurora. Where did you go at the weekend? … Maya: Hi Diego! On Saturday morning I went to the museum with my aunt. … Diego: The museum? What did you see? … Maya: We saw dinosaur bones! Then we had lunch at a restaurant near the bridge. … Diego: Lovely! And in the afternoon? … Maya: We watched a play at the theatre. It was about a dragon. … Diego: And on Sunday? … Maya: On Sunday my cousin's team played, so we went to the stadium. They won two–one! … Diego: What a weekend! Thank you, Maya.",
-        "questions": [
-          {
-            "q": "On Saturday morning Maya went to the …",
-            "answer": "museum"
-          },
-          {
-            "q": "There she saw dinosaur …",
-            "answer": "bones"
-          },
-          {
-            "q": "They had lunch at a restaurant near the …",
-            "answer": "bridge"
-          },
-          {
-            "q": "The play at the theatre was about a …",
-            "answer": "dragon"
-          },
-          {
-            "q": "On Sunday they went to the …",
-            "answer": "stadium"
-          }
-        ]
-      }
-    },
-    {
-      "code": "D",
-      "type": "exam_task",
-      "title": "Exam task · Reading: read Maya's diary and choose the right answer.",
-      "outputs": [
-        "book",
-        "digital",
-        "quiz"
+      "answer": 0
+     },
+     {
+      "sentence": "The play at the theatre was about…",
+      "options": [
+       "a football team",
+       "a museum",
+       "a dragon"
       ],
-      "data": {
-        "instructions": "Read the text. Choose the correct answer for each question.",
-        "text": "Saturday was fantastic! In the morning, Aunt Rosa took me to the city museum. My favourite room was the one with the dinosaur bones — some of them are eighty million years old! At midday we were hungry, so we ate rice and fish at a small restaurant near the old bridge. In the afternoon we watched a play about a friendly dragon at the theatre. On Sunday, my cousin's football team played at the big stadium. They won, and my cousin scored the first goal!",
-        "items": [
-          {
-            "sentence": "Who did Maya go to the museum with?",
-            "options": [
-              "her cousin",
-              "her aunt",
-              "Diego"
-            ],
-            "answer": 1
-          },
-          {
-            "sentence": "What was in Maya's favourite room?",
-            "options": [
-              "old paintings",
-              "dinosaur bones",
-              "gold rings"
-            ],
-            "answer": 1
-          },
-          {
-            "sentence": "Where was the restaurant?",
-            "options": [
-              "near the bridge",
-              "in the stadium",
-              "next to the theatre"
-            ],
-            "answer": 0
-          },
-          {
-            "sentence": "The play at the theatre was about…",
-            "options": [
-              "a football team",
-              "a museum",
-              "a dragon"
-            ],
-            "answer": 2
-          },
-          {
-            "sentence": "Who scored the first goal on Sunday?",
-            "options": [
-              "Maya",
-              "Maya's cousin",
-              "Aunt Rosa"
-            ],
-            "answer": 1
-          }
-        ]
-      }
-    },
-    {
-      "code": "F",
-      "type": "match_words",
-      "title": "Find the answer to each question. Careful — one answer is extra!",
-      "outputs": [
-        "book",
-        "digital",
-        "quiz"
+      "answer": 2
+     },
+     {
+      "sentence": "Who scored the first goal on Sunday?",
+      "options": [
+       "Maya",
+       "Maya's cousin",
+       "Aunt Rosa"
       ],
-      "data": {
-        "left_label": "Question",
-        "right_label": "Answer",
-        "pairs": [
-          {
-            "left": "How do you travel to school every morning?",
-            "right": "By tram, but I walk when it's sunny."
-          },
-          {
-            "left": "What do you do when you go to the funfair?",
-            "right": "I ride the big wheel three times!"
-          },
-          {
-            "left": "Where do you buy medicine in your town?",
-            "right": "At the chemist's next to the bank."
-          },
-          {
-            "left": "What did you see at the museum last week?",
-            "right": "Very old coins and a gold crown."
-          },
-          {
-            "left": "Who do you sit with at the stadium?",
-            "right": "With my dad and my little sister."
-          },
-          {
-            "left": "When does the theatre open in the evening?",
-            "right": "At half past six, one hour before the play."
-          }
-        ],
-        "extra": [
-          "It's made of wood and glass."
-        ]
-      }
-    },
-    {
-      "code": "G",
-      "type": "gap_text",
-      "title": "Read about Maya's weekend. Write the missing words.",
-      "outputs": [
-        "book",
-        "digital",
-        "quiz"
-      ],
-      "data": {
-        "box": [
-          "museum",
-          "bones",
-          "bridge",
-          "dragon",
-          "stadium",
-          "three",
-          "funfair",
-          "tickets"
-        ],
-        "text": "On Saturday morning, Maya and her aunt visited the city {1}, where they saw dinosaur {2} that are eighty million years old. At midday they ate rice and fish at a little restaurant next to the old stone {3}. In the afternoon they watched a play about a friendly {4} at the theatre. On Sunday, the whole family went to the {5} to watch the cousin's football match. After the game, they celebrated with the biggest ice creams in town — Maya chose {6} flavours: chocolate, lemon and mango!",
-        "answers": [
-          "museum",
-          "bones",
-          "bridge",
-          "dragon",
-          "stadium",
-          "three"
-        ]
-      }
-    },
-    {
-      "code": "E",
-      "type": "pairwork",
-      "title": "Speaking · In pairs",
-      "outputs": [
-        "book"
-      ],
-      "data": {
-        "text": "Student A mimes something you do at one of the places in the wordlist. Student B guesses the place with a full question: \"Did you go to the funfair?\" Then swap."
-      }
-    }
-  ],
-  "homework": [
-    {
-      "type": "write_sentences",
-      "prompt": "Write 5 sentences about your last weekend using went / saw / was. Use at least 3 places from the wordlist."
-    }
-  ]
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "F",
+   "type": "match_words",
+   "title": "Find the answer to each question. Careful — one answer is extra!",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Question",
+    "right_label": "Answer",
+    "pairs": [
+     {
+      "left": "How do you travel to school every morning?",
+      "right": "By tram, but I walk when it's sunny."
+     },
+     {
+      "left": "What do you do when you go to the funfair?",
+      "right": "I ride the big wheel three times!"
+     },
+     {
+      "left": "Where do you buy medicine in your town?",
+      "right": "At the chemist's next to the bank."
+     },
+     {
+      "left": "What did you see at the museum last week?",
+      "right": "Very old coins and a gold crown."
+     },
+     {
+      "left": "Who do you sit with at the stadium?",
+      "right": "With my dad and my little sister."
+     },
+     {
+      "left": "When does the theatre open in the evening?",
+      "right": "At half past six, one hour before the play."
+     }
+    ],
+    "extra": [
+     "It's made of wood and glass."
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "gap_text",
+   "title": "Read about Maya's weekend. Write the missing words.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "museum",
+     "bones",
+     "bridge",
+     "dragon",
+     "stadium",
+     "three",
+     "funfair",
+     "tickets"
+    ],
+    "text": "On Saturday morning, Maya and her aunt visited the city {1}, where they saw dinosaur {2} that are eighty million years old. At midday they ate rice and fish at a little restaurant next to the old stone {3}. In the afternoon they watched a play about a friendly {4} at the theatre. On Sunday, the whole family went to the {5} to watch the cousin's football match. After the game, they celebrated with the biggest ice creams in town — Maya chose {6} flavours: chocolate, lemon and mango!",
+    "answers": [
+     "museum",
+     "bones",
+     "bridge",
+     "dragon",
+     "stadium",
+     "three"
+    ]
+   }
+  },
+  {
+   "code": "H",
+   "type": "spot_diff",
+   "title": "Two views of the town! Find the differences.",
+   "outputs": [
+    "digital",
+    "book"
+   ],
+   "data": {
+    "diffs": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book"
+   ],
+   "data": {
+    "text": "Student A mimes something you do at one of the places in the wordlist. Student B guesses the place with a full question: \"Did you go to the funfair?\" Then swap."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write 5 sentences about your last weekend using went / saw / was. Use at least 3 places from the wordlist."
+  }
+ ]
 }

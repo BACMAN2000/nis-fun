@@ -61,7 +61,14 @@ def tts(text, api_key):
 
 def main():
     targets = DEMO
-    if len(sys.argv) > 1:
+    if len(sys.argv) > 1 and sys.argv[1] == "todo":
+        # todas las unidades de los tres niveles
+        targets = []
+        for lvl in ("starters", "movers", "flyers"):
+            idx = json.load(open(os.path.join(ROOT, "content", lvl, "index.json"),
+                                 encoding="utf-8"))
+            targets.append((lvl, [u["n"] for u in idx["units"]]))
+    elif len(sys.argv) > 1:
         targets = []
         for part in sys.argv[1:]:
             lvl, units = part.split(":")

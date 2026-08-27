@@ -103,6 +103,7 @@ if(/\.github\.io$/i.test(location.hostname)){
   .sd-scene{flex:1;min-width:min(100%,20rem)}
   .sd-scene h4{margin:0 0 .3rem;font-family:"Baloo 2";color:var(--accent)}
   .sd-img{width:100%;height:auto;display:block;border:1px solid var(--line);border-radius:12px}
+  .rphoto{width:100%;max-width:34rem;height:auto;display:block;margin:0 0 .9rem;border-radius:12px;border:1px solid var(--line)}
   .sd-hot{position:relative}
   .sd-z{position:absolute;transform:translate(-50%,-50%);background:transparent;
     border:2px dashed transparent;border-radius:50%;padding:0;cursor:pointer}
@@ -599,7 +600,11 @@ gap_text(act, el){
   const d = act.data;
   let i = 0;
   const html = d.text.replace(/\{(\d+)\}/g, (m,n)=>`<span class="gn">${n}</span><input data-i="${n-1}" autocomplete="off">`);
-  el.innerHTML = `${d.box?`<div class="gt-box">${[...d.box].sort(()=>Math.random()-.5).map(w=>`<span>${w}</span>`).join('')}</div>`:''}
+  // Si la lectura habla de una foto ("Read about the photo"), aqui esta:
+  // sin ella el ejercicio pedia imaginarsela.
+  const foto = `<img class="rphoto" src="../assets/reading-photos/${LEVEL}-${UD.number}-${act.code}.jpg"
+                  alt="" onerror="this.remove()">`;
+  el.innerHTML = `${foto}${d.box?`<div class="gt-box">${[...d.box].sort(()=>Math.random()-.5).map(w=>`<span>${w}</span>`).join('')}</div>`:''}
     <div class="gt-text">${html}</div>
     <div class="checkrow"><button class="chk">Check</button><span class="score"></span></div>`;
   el.querySelector('.chk').onclick = ()=>{

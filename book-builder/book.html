@@ -75,6 +75,7 @@
   .wb-sign i{flex:1;border-top:.35mm solid var(--soft);padding-top:1mm;font-style:normal;text-align:center}
   /* teacher's key */
   .keyu{break-inside:avoid;margin-bottom:4mm;font-size:9pt}
+  .rphoto{width:100%;max-width:120mm;height:auto;display:block;margin:0 0 2mm;border-radius:2mm;border:.3mm solid var(--line)}
   .sd-book{display:flex;gap:5mm}
   .sd-book > div{flex:1}
   .sd-book img{width:100%;max-height:40mm;object-fit:cover;display:block;border:.3mm solid var(--line);border-radius:2mm}
@@ -161,9 +162,11 @@ function matchHTML(data){
     <div class="mt"><span class="colh">${data.left_label||''}</span><span class="colh">${data.right_label||''}</span>${cells}</div>`;
 }
 
-function gapTextHTML(data){
+function gapTextHTML(data, ud, code){
+  // la misma foto que en pantalla, si esa lectura la tiene
+  const foto = (ud && code) ? `<img class="rphoto" src="../assets/reading-photos/${ud.level}-${ud.number}-${code}.jpg" alt="" onerror="this.remove()">` : '';
   const text = data.text.replace(/\{(\d+)\}/g, (m,n)=>`<b>(${n})</b> ______________`);
-  return `${data.box?`<div style="border:.35mm solid var(--line);border-radius:3mm;padding:2mm 4mm;margin-bottom:2mm;font-weight:700;font-size:9.5pt">${[...data.box].sort(()=>Math.random()-.5).join(' &nbsp;·&nbsp; ')}</div>`:''}
+  return `${foto}${data.box?`<div style="border:.35mm solid var(--line);border-radius:3mm;padding:2mm 4mm;margin-bottom:2mm;font-weight:700;font-size:9.5pt">${[...data.box].sort(()=>Math.random()-.5).join(' &nbsp;·&nbsp; ')}</div>`:''}
     <div class="exam"><div class="rtext" style="line-height:2">${text}<p class="credit">Written by Paolo Baca</p></div></div>`;
 }
 
@@ -172,8 +175,11 @@ function spotDiffHTML(data, ud){
   // las tiene, el onerror deja la rejilla de emoji de siempre.
   const base = ud ? `../assets/spot-diff/${ud.level}-${ud.number}` : '';
   const grid = scene=>`<table style="border-collapse:collapse">${scene.map(row=>`<tr>${row.map(ch=>`<td style="width:9mm;height:9mm;text-align:center;font-size:14pt;border:.3mm solid var(--line)">${ch}</td>`).join('')}</tr>`).join('')}</table>`;
-  const emoji = `<div style="display:flex;gap:8mm"><div><b style="font-family:'Baloo 2'">A</b>${grid(data.sceneA)}</div>
-    <div><b style="font-family:'Baloo 2'">B</b>${grid(data.sceneB)}</div></div>`;
+  // las unidades nuevas solo traen las zonas, sin rejilla de emoji
+  const emoji = data.sceneA
+    ? `<div style="display:flex;gap:8mm"><div><b style="font-family:'Baloo 2'">A</b>${grid(data.sceneA)}</div>
+       <div><b style="font-family:'Baloo 2'">B</b>${grid(data.sceneB)}</div></div>`
+    : '';
   if (!base) return emoji;
   return `<div style="font-size:9pt;color:var(--soft);margin-bottom:1.5mm"><i>Find and circle the differences in picture B. Then tell your partner: "In A the ball is red, but in B it is blue."</i></div>
     <div class="sd-book" data-fb="${emoji.replace(/&/g,'&amp;').replace(/"/g,'&quot;')}">
@@ -260,7 +266,7 @@ function picwordsHTML(wordlist){
   return `<div class="act"><h2><span class="abadge" style="background:var(--accent)">✎</span>Picture words — look, say and copy.</h2>
     <div class="picwords">${cards}</div></div>`;
 }
-const BADGE = { A:'cA', B:'cB', C:'cC', D:'cD', E:'cE', F:'cF', G:'cG' };
+const BADGE = { A:'cA', B:'cB', C:'cC', D:'cD', E:'cE', F:'cF', G:'cG', H:'cA' };
 function sbPage(ud, pageno){
   const acts = ud.activities.filter(a=>a.outputs.includes('book') || a.type === 'listening');
   const actHTML = acts.map(a=>{
@@ -269,7 +275,7 @@ function sbPage(ud, pageno){
       body = `<span class="listenchip">🎧 Listen online — unit ${ud.number}</span>
         <div class="lsn-lines">${a.data.questions.map((q,i)=>`<div>${i+1}. ${q.q.replace('…','_____')}<span></span></div>`).join('')}</div>`;
     } else {
-      body = AB[a.type] ? AB[a.type](a.data, ud) : '';
+      body = AB[a.type] ? AB[a.type](a.data, ud, a.code) : '';
       if (a.type === 'exam_task' && !a.data.text) body += `<div class="writelines" style="margin-top:2mm"><div></div></div>`;
     }
     return `<div class="act"><h2><span class="abadge ${BADGE[a.code]||'cA'}">${a.code}</span>${a.title}</h2>${body}</div>`;
