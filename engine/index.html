@@ -42,6 +42,24 @@ if(/\.github\.io$/i.test(location.hostname)){
   .scr-centro .op-text{text-align:left}
   .scr-centro .units{text-align:left}
   .scr-pie{color:var(--soft)}
+  /* la mascota presentando: su dibujo y un bocadillo que se puede oir */
+  .guia{display:flex;align-items:center;gap:.8rem;text-align:left;max-width:46rem;
+    margin-inline:auto;width:100%}
+  .guia-mascota{height:74px;width:auto;flex:none}
+  .guia-globo{position:relative;background:var(--surface2);border-radius:16px;
+    padding:.7rem 1rem;flex:1}
+  .guia-globo::before{content:"";position:absolute;left:-9px;top:50%;transform:translateY(-50%);
+    border:9px solid transparent;border-right-color:var(--surface2)}
+  .guia-globo p{margin:0 0 .4rem;line-height:1.5}
+  .guia-say{background:var(--accent);color:#fff;border:0;border-radius:999px;
+    padding:.3rem .8rem;font-family:"Baloo 2",sans-serif;font-weight:700;
+    font-size:.9rem;cursor:pointer}
+  .guia-say.saying{background:var(--ok)}
+  .historia-say{margin-top:.6rem}
+  @media (max-width:560px){
+    .guia{flex-direction:column;text-align:center}
+    .guia-globo::before{display:none}
+  }
   /* la ficha de la mascota, debajo de su video */
   .ficha{display:flex;align-items:center;gap:1rem;text-align:left;
     background:var(--surface2);border-radius:16px;padding:.9rem 1.2rem;max-width:44rem;
@@ -350,7 +368,7 @@ const store = {
 
 // El contenido se cachea igual que los mp4: al cambiar una unidad hay que
 // subir esta fecha o el alumno sigue viendo la version anterior.
-const CONTENT_V = '2026-08-27-diferencias';
+const CONTENT_V = '2026-08-27-guia';
 async function j(path){
   const sep = path.includes('?') ? '&' : '?';
   const r = await fetch(path + sep + 'v=' + CONTENT_V);
@@ -470,6 +488,37 @@ const MASCOTA = {
           + "postcards from far away — but I am not very good at landing!" },
 };
 
+const GUIA = { starters: 'pip', movers: 'luna', flyers: 'kili' };
+
+/* La tira de la mascota presentando algo.
+ *
+ * Al empezar el curso se le dice al alumno que la mascota le va a
+ * acompanar, asi que es ella la que da las instrucciones de cada
+ * actividad — y las lee en voz alta, que en Starters hay ninos que
+ * todavia no leen de corrido. */
+function guiaHTML(texto, etiqueta){
+  const m = GUIA[LEVEL] || 'pip';
+  const nombre = m[0].toUpperCase() + m.slice(1);
+  return `<div class="guia">
+    <img class="guia-mascota" src="${CHAR(m, 3)}" alt="${nombre}" ${FB}>
+    <div class="guia-globo">
+      <p>${esc(texto)}</p>
+      <button class="guia-say" type="button">🔊 ${etiqueta || 'Listen'}</button>
+    </div>
+  </div>`;
+}
+
+function guiaViva(el){
+  el.querySelectorAll('.guia-say').forEach(b => {
+    // el boton de la historia lleva el mismo estilo pero no vive en un
+    // bocadillo: ese se engancha aparte, aqui se deja pasar
+    const globo = b.closest('.guia-globo');
+    if (!globo) return;
+    const t = globo.querySelector('p').textContent;
+    b.onclick = () => SAY.frase(t, b);
+  });
+}
+
 /* ---------------- UNIT ---------------- */
 let UD, PROG;
 function makeIntro(ud){
@@ -560,9 +609,24 @@ async function unit(){
     { titulo: 'The story of this unit',
       etiquetaSiguiente: 'Picture words',
       html: `<div class="scr-centro">
-        <div class="op-text"><p>${makeIntro(UD)}</p></div>
         ${escenaHTML}
-      </div>` },
+        <div class="op-text">
+          <p id="lahistoria">${makeIntro(UD)}</p>
+          <button class="guia-say historia-say" type="button">🔊 Listen to the story</button>
+        </div>
+        ${UD.scene && UD.scene.bubble ? `<div class="guia">
+          <img class="guia-mascota" src="${CHAR(UD.scene.speaker || (UD.characters||[])[0] || 'freya', 3)}"
+               alt="" ${FB}>
+          <div class="guia-globo"><p>${esc(UD.scene.bubble)}</p>
+            <button class="guia-say" type="button">🔊 Listen</button></div>
+        </div>` : ''}
+      </div>`,
+      alMostrar(el){
+        const p = el.querySelector('#lahistoria');
+        const b = el.querySelector('.historia-say');
+        if (b && p) b.onclick = () => SAY.frase(p.textContent, b);
+        guiaViva(el);
+      } },
     // 3. el vocabulario, que se oye al pulsarlo
     { titulo: 'Picture words — look, say and copy',
       etiquetaSiguiente: digital.length ? 'Activity ' + digital[0].code : 'Finish',
@@ -575,9 +639,11 @@ async function unit(){
     titulo: `${a.code} · ${a.title}`,
     etiquetaSiguiente: k < digital.length - 1 ? 'Activity ' + digital[k+1].code : 'Self-check',
     html: `<div class="scr-centro">
+      ${guiaHTML(a.instructions || a.title, 'Listen')}
       <section class="act ${PROG.done[a.code]?'done':''}" id="act-${a.code}">
         <div class="body" id="body-${a.code}"></div></section></div>`,
-    alMostrar(){
+    alMostrar(el){
+      guiaViva(el);
       const caja = document.getElementById('body-'+a.code);
       if (caja && !caja.dataset.listo) {
         RENDER[a.type](a, caja);
