@@ -1,0 +1,88 @@
+{
+ "id": "g1-u4",
+ "grado": "G1",
+ "tema": 4,
+ "nivel": "Pre-A1",
+ "titulo": "The Noisy Farm",
+ "objetivo": "Farm animals and their sounds",
+ "paginas": [
+  {
+   "texto": "Freya is at the farm.",
+   "clave": [
+    "farm"
+   ],
+   "img": "img/g1-u4-p01.jpg"
+  },
+  {
+   "texto": "A big animal says MOO.",
+   "clave": [
+    "animal"
+   ],
+   "img": "img/g1-u4-p02.jpg"
+  },
+  {
+   "texto": "A little animal says QUACK.",
+   "clave": [
+    "animal"
+   ],
+   "img": "img/g1-u4-p03.jpg"
+  },
+  {
+   "texto": "Look! A parrot in the tree.",
+   "clave": [
+    "parrot"
+   ],
+   "img": "img/g1-u4-p04.jpg"
+  },
+  {
+   "texto": "The parrot says HELLO!",
+   "clave": [
+    "parrot"
+   ],
+   "img": "img/g1-u4-p05.jpg"
+  },
+  {
+   "texto": "Hello! says Freya. Hello! says the parrot.",
+   "clave": [
+    "hello"
+   ],
+   "img": "img/g1-u4-p06.jpg"
+  },
+  {
+   "texto": "Pip is not happy. That is MY word!",
+   "clave": [
+    "happy"
+   ],
+   "img": "img/g1-u4-p07.jpg"
+  },
+  {
+   "texto": "Hello, hello, hello! Everybody laughs.",
+   "clave": [
+    "hello"
+   ],
+   "img": "img/g1-u4-p08.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "Farm animals",
+  "instruccion": "Tap the animal you hear.",
+  "items": [
+   {
+    "palabra": "a parrot",
+    "img": "img/g1-u4-a-a-parrot.png"
+   },
+   {
+    "palabra": "a panda",
+    "img": "img/g1-u4-a-a-panda.png"
+   },
+   {
+    "palabra": "a penguin",
+    "img": "img/g1-u4-a-a-penguin.png"
+   },
+   {
+    "palabra": "a lion",
+    "img": "img/g1-u4-a-a-lion.png"
+   }
+  ]
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "id": "g1-u2",
+ "grado": "G1",
+ "tema": 2,
+ "nivel": "Pre-A1",
+ "titulo": "Where Is My Bag?",
+ "objetivo": "Classroom objects",
+ "paginas": [
+  {
+   "texto": "Nico is in the classroom.",
+   "clave": [
+    "classroom"
+   ],
+   "img": "img/g1-u2-p01.jpg"
+  },
+  {
+   "texto": "Where is my bag?",
+   "clave": [
+    "bag"
+   ],
+   "img": "img/g1-u2-p02.jpg"
+  },
+  {
+   "texto": "Is it a book? No!",
+   "clave": [
+    "book"
+   ],
+   "img": "img/g1-u2-p03.jpg"
+  },
+  {
+   "texto": "Is it a ball? No!",
+   "clave": [
+    "ball"
+   ],
+   "img": "img/g1-u2-p04.jpg"
+  },
+  {
+   "texto": "Is it a kite? No!",
+   "clave": [
+    "kite"
+   ],
+   "img": "img/g1-u2-p05.jpg"
+  },
+  {
+   "texto": "Freya has my bag!",
+   "clave": [
+    "bag"
+   ],
+   "img": "img/g1-u2-p06.jpg"
+  },
+  {
+   "texto": "Thank you, Freya!",
+   "clave": [
+    "thank"
+   ],
+   "img": "img/g1-u2-p07.jpg"
+  },
+  {
+   "texto": "Now we can read a book!",
+   "clave": [
+    "book",
+    "read"
+   ],
+   "img": "img/g1-u2-p08.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "Find the thing",
+  "instruccion": "Tap the picture you hear.",
+  "items": [
+   {
+    "palabra": "a ball",
+    "img": "img/g1-u2-a-a-ball.png"
+   },
+   {
+    "palabra": "a kite",
+    "img": "img/g1-u2-a-a-kite.png"
+   },
+   {
+    "palabra": "a bag",
+    "img": "img/g1-u2-a-a-bag.png"
+   },
+   {
+    "palabra": "a teddy",
+    "img": "img/g1-u2-a-a-teddy.png"
+   }
+  ]
+ }
+}

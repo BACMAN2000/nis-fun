@@ -1,0 +1,64 @@
+{
+ "libros": [
+  {
+   "id": "g1-u1",
+   "grado": "G1",
+   "tema": 1,
+   "nivel": "Pre-A1",
+   "titulo": "Hello, Pip!",
+   "objetivo": "Greetings and letters",
+   "paginas": 8,
+   "portada": "img/g1-u1-p01.jpg"
+  },
+  {
+   "id": "g1-u2",
+   "grado": "G1",
+   "tema": 2,
+   "nivel": "Pre-A1",
+   "titulo": "Where Is My Bag?",
+   "objetivo": "Classroom objects",
+   "paginas": 8,
+   "portada": "img/g1-u2-p01.jpg"
+  },
+  {
+   "id": "g1-u3",
+   "grado": "G1",
+   "tema": 3,
+   "nivel": "Pre-A1",
+   "titulo": "Move Your Body!",
+   "objetivo": "Body parts and actions",
+   "paginas": 8,
+   "portada": "img/g1-u3-p01.jpg"
+  },
+  {
+   "id": "g1-u4",
+   "grado": "G1",
+   "tema": 4,
+   "nivel": "Pre-A1",
+   "titulo": "The Noisy Farm",
+   "objetivo": "Farm animals and their sounds",
+   "paginas": 8,
+   "portada": "img/g1-u4-p01.jpg"
+  },
+  {
+   "id": "g1-u5",
+   "grado": "G1",
+   "tema": 5,
+   "nivel": "Pre-A1",
+   "titulo": "My Family Photo",
+   "objetivo": "Family members",
+   "paginas": 8,
+   "portada": "img/g1-u5-p01.jpg"
+  },
+  {
+   "id": "g1-u6",
+   "grado": "G1",
+   "tema": 6,
+   "nivel": "Pre-A1",
+   "titulo": "Pip Is Hungry",
+   "objetivo": "Food words",
+   "paginas": 8,
+   "portada": "img/g1-u6-p01.jpg"
+  }
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "id": "g1-u6",
+ "grado": "G1",
+ "tema": 6,
+ "nivel": "Pre-A1",
+ "titulo": "Pip Is Hungry",
+ "objetivo": "Food words",
+ "paginas": [
+  {
+   "texto": "Pip is hungry.",
+   "clave": [
+    "hungry"
+   ],
+   "img": "img/g1-u6-p01.jpg"
+  },
+  {
+   "texto": "On Monday he eats one apple.",
+   "clave": [
+    "apple"
+   ],
+   "img": "img/g1-u6-p02.jpg"
+  },
+  {
+   "texto": "On Tuesday he eats two bananas.",
+   "clave": [
+    "bananas"
+   ],
+   "img": "img/g1-u6-p03.jpg"
+  },
+  {
+   "texto": "On Wednesday he drinks milk.",
+   "clave": [
+    "milk"
+   ],
+   "img": "img/g1-u6-p04.jpg"
+  },
+  {
+   "texto": "But Pip is still hungry!",
+   "clave": [
+    "hungry"
+   ],
+   "img": "img/g1-u6-p05.jpg"
+  },
+  {
+   "texto": "On Friday the friends make a big cake.",
+   "clave": [
+    "cake"
+   ],
+   "img": "img/g1-u6-p06.jpg"
+  },
+  {
+   "texto": "Pip eats the cake. Yum yum!",
+   "clave": [
+    "cake"
+   ],
+   "img": "img/g1-u6-p07.jpg"
+  },
+  {
+   "texto": "Now Pip is happy. Thank you, friends!",
+   "clave": [
+    "happy"
+   ],
+   "img": "img/g1-u6-p08.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "Food",
+  "instruccion": "Tap the word you hear.",
+  "items": [
+   {
+    "palabra": "an apple",
+    "img": "img/g1-u6-a-an-apple.png"
+   },
+   {
+    "palabra": "a banana",
+    "img": "img/g1-u6-a-a-banana.png"
+   },
+   {
+    "palabra": "a cake",
+    "img": null
+   },
+   {
+    "palabra": "milk",
+    "img": "img/g1-u6-a-milk.png"
+   }
+  ]
+ }
+}

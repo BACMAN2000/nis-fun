@@ -1,0 +1,88 @@
+{
+ "id": "g1-u1",
+ "grado": "G1",
+ "tema": 1,
+ "nivel": "Pre-A1",
+ "titulo": "Hello, Pip!",
+ "objetivo": "Greetings and letters",
+ "paginas": [
+  {
+   "texto": "Hello! I am Freya.",
+   "clave": [
+    "hello"
+   ],
+   "img": "img/g1-u1-p01.jpg"
+  },
+  {
+   "texto": "Hello! I am Nico.",
+   "clave": [
+    "hello"
+   ],
+   "img": "img/g1-u1-p02.jpg"
+  },
+  {
+   "texto": "Look! A little bird.",
+   "clave": [
+    "bird"
+   ],
+   "img": "img/g1-u1-p03.jpg"
+  },
+  {
+   "texto": "Hello, bird! What is your name?",
+   "clave": [
+    "name"
+   ],
+   "img": "img/g1-u1-p04.jpg"
+  },
+  {
+   "texto": "My name is Pip. P - I - P!",
+   "clave": [
+    "name"
+   ],
+   "img": "img/g1-u1-p05.jpg"
+  },
+  {
+   "texto": "Hello, Pip! I am Astrid.",
+   "clave": [
+    "hello"
+   ],
+   "img": "img/g1-u1-p06.jpg"
+  },
+  {
+   "texto": "Hello, Pip! I am Tomas.",
+   "clave": [
+    "hello"
+   ],
+   "img": "img/g1-u1-p07.jpg"
+  },
+  {
+   "texto": "Hello, friends! Let's play!",
+   "clave": [
+    "friends"
+   ],
+   "img": "img/g1-u1-p08.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "Who is who?",
+  "instruccion": "Tap the friend you hear.",
+  "items": [
+   {
+    "palabra": "Freya",
+    "img": "img/g1-u1-a-freya.png"
+   },
+   {
+    "palabra": "Nico",
+    "img": "img/g1-u1-a-nico.png"
+   },
+   {
+    "palabra": "Astrid",
+    "img": "img/g1-u1-a-astrid.png"
+   },
+   {
+    "palabra": "Pip",
+    "img": "img/g1-u1-a-pip.png"
+   }
+  ]
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "id": "g1-u5",
+ "grado": "G1",
+ "tema": 5,
+ "nivel": "Pre-A1",
+ "titulo": "My Family Photo",
+ "objetivo": "Family members",
+ "paginas": [
+  {
+   "texto": "This is my family photo.",
+   "clave": [
+    "family"
+   ],
+   "img": "img/g1-u5-p01.jpg"
+  },
+  {
+   "texto": "This is my mum. She is kind.",
+   "clave": [
+    "mum"
+   ],
+   "img": "img/g1-u5-p02.jpg"
+  },
+  {
+   "texto": "This is my dad. He is tall.",
+   "clave": [
+    "dad"
+   ],
+   "img": "img/g1-u5-p03.jpg"
+  },
+  {
+   "texto": "This is my sister. She is little.",
+   "clave": [
+    "sister"
+   ],
+   "img": "img/g1-u5-p04.jpg"
+  },
+  {
+   "texto": "This is my grandma. She is happy.",
+   "clave": [
+    "grandma"
+   ],
+   "img": "img/g1-u5-p05.jpg"
+  },
+  {
+   "texto": "This is my grandpa. He is old.",
+   "clave": [
+    "grandpa"
+   ],
+   "img": "img/g1-u5-p06.jpg"
+  },
+  {
+   "texto": "And this is my baby cousin!",
+   "clave": [
+    "baby"
+   ],
+   "img": "img/g1-u5-p07.jpg"
+  },
+  {
+   "texto": "I love my family.",
+   "clave": [
+    "family"
+   ],
+   "img": "img/g1-u5-p08.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "My family",
+  "instruccion": "Tap the person you hear.",
+  "items": [
+   {
+    "palabra": "mum",
+    "img": "img/g1-u5-a-mum.png"
+   },
+   {
+    "palabra": "dad",
+    "img": "img/g1-u5-a-dad.png"
+   },
+   {
+    "palabra": "grandma",
+    "img": "img/g1-u5-a-grandma.png"
+   },
+   {
+    "palabra": "baby",
+    "img": "img/g1-u5-a-baby.png"
+   }
+  ]
+ }
+}

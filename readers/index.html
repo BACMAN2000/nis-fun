@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nordic Little Readers</title>
+<!--
+  Nordic Little Readers — los cuentos de primaria.
+
+  El lector que ya tenia el portal esta hecho para novelas: capitulos
+  largos, vocabulario abstracto y redacciones. A un nino de seis anos no le
+  sirve. Aqui cada cuento son ocho o diez paginas con una o dos frases, un
+  dibujo grande y un boton para oirlas; al final, una actividad corta.
+
+  Las historias son PROPIAS, con los personajes de Fun for Nordic. Los
+  titulos que pide la secuencia (The Very Hungry Caterpillar, Dear Zoo,
+  Flat Stanley...) tienen copyright vigente y no se pueden digitalizar ni
+  adaptar: siguen siendo lectura de biblioteca en papel. Estos cuentos
+  cubren el mismo objetivo de cada unidad — el alfabeto, las partes del
+  cuerpo, los animales de granja — con material que si es del colegio.
+
+  Uso:  readers/?id=g1-u1        un cuento
+        readers/                 la estantería
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#22303f; --soft:#6b7d90; --line:#dde5ee;
+    --surface:#fff; --surface2:#f1f6fb; --fondo:#eaf2f9;
+    --accent:#d97d0d; --ok:#2f9268; --star:#e8b23a;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--fondo);color:var(--ink);
+    font-family:Nunito,system-ui,sans-serif;line-height:1.6}
+  h1,h2,h3{font-family:"Baloo 2",sans-serif;margin:0}
+  a{color:var(--accent)}
+
+  .top{display:flex;align-items:center;gap:.8rem;padding:.9rem 1.2rem;
+    background:var(--surface);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+  .top h1{font-size:1.15rem;flex:1}
+  .top .lvl{background:var(--surface2);border-radius:999px;padding:.2rem .8rem;
+    font-weight:700;font-size:.85rem;color:var(--soft)}
+  .volver{text-decoration:none;font-weight:700}
+
+  .wrap{max-width:62rem;margin:0 auto;padding:1.2rem}
+
+  /* ---------- estantería ---------- */
+  .estante{display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:1rem}
+  .libro{background:var(--surface);border:1px solid var(--line);border-radius:18px;
+    overflow:hidden;text-decoration:none;color:inherit;display:flex;flex-direction:column;
+    transition:transform .16s,box-shadow .16s}
+  .libro:hover{transform:translateY(-4px);box-shadow:0 10px 26px rgba(20,40,70,.14)}
+  .libro img{width:100%;aspect-ratio:16/10;object-fit:cover;display:block;background:var(--surface2)}
+  .libro .txt{padding:.8rem 1rem 1rem}
+  .libro h3{font-size:1.05rem;margin-bottom:.15rem}
+  .libro p{margin:0;color:var(--soft);font-size:.88rem}
+  .libro .meta{margin-top:.4rem;font-size:.78rem;font-weight:700;color:var(--accent)}
+  .grupo{margin:1.6rem 0 .7rem;color:var(--soft);font-size:.82rem;
+    text-transform:uppercase;letter-spacing:.08em;font-weight:800}
+
+  /* ---------- el cuento ---------- */
+  .pag{background:var(--surface);border:1px solid var(--line);border-radius:22px;
+    padding:1.2rem;text-align:center;max-width:52rem;margin:0 auto}
+  .pag img{width:100%;max-width:44rem;border-radius:16px;display:block;margin:0 auto .9rem;
+    background:var(--surface2)}
+  .frase{font-family:"Baloo 2",sans-serif;font-weight:600;
+    font-size:clamp(1.25rem,3.4vw,1.85rem);line-height:1.45;margin:0 auto;max-width:36rem}
+  .frase b{color:var(--accent)}
+  .oir{margin-top:.9rem;background:var(--accent);color:#fff;border:0;border-radius:999px;
+    padding:.5rem 1.3rem;font-family:"Baloo 2",sans-serif;font-weight:700;font-size:1rem;
+    cursor:pointer}
+  .oir.sonando{background:var(--ok)}
+
+  .barra{display:flex;align-items:center;justify-content:center;gap:1rem;margin:1.2rem 0 .3rem}
+  .nav{background:var(--accent);color:#fff;border:0;border-radius:999px;padding:.6rem 1.4rem;
+    font-family:"Baloo 2",sans-serif;font-weight:700;font-size:1.05rem;cursor:pointer}
+  .nav[disabled]{background:var(--line);color:var(--soft);cursor:default}
+  .puntos{display:flex;gap:.35rem;justify-content:center;margin:.8rem 0}
+  .punto{width:.6rem;height:.6rem;border-radius:50%;background:var(--line)}
+  .punto.on{background:var(--accent);transform:scale(1.3)}
+
+  /* ---------- actividad final ---------- */
+  .fin{background:var(--surface);border:1px solid var(--line);border-radius:22px;
+    padding:1.4rem;max-width:52rem;margin:0 auto;text-align:center}
+  .fin h2{color:var(--accent);margin-bottom:.3rem}
+  .pares{display:grid;grid-template-columns:repeat(auto-fit,minmax(8rem,1fr));gap:.7rem;
+    margin:1rem 0}
+  .par{background:var(--surface2);border:2px solid transparent;border-radius:14px;
+    padding:.7rem;cursor:pointer;font-family:"Baloo 2",sans-serif;font-weight:700;
+    font-size:1.05rem;color:inherit}
+  .par img{width:100%;height:74px;object-fit:contain;display:block;margin-bottom:.3rem}
+  .par.bien{border-color:var(--ok);background:#e8f5ef}
+  .par.mal{border-color:var(--bad,#c9483c);opacity:.55}
+  .marcador{font-family:"Baloo 2",sans-serif;font-weight:800;font-size:1.1rem;min-height:1.6rem}
+  .listo{font-size:1.15rem;color:var(--ok);font-weight:800}
+  .muted{color:var(--soft)}
+</style>
+
+<div class="top">
+  <a class="volver" href="./" id="volver" hidden>‹ Bookshelf</a>
+  <h1 id="tit">Nordic Little Readers</h1>
+  <span class="lvl" id="lvl"></span>
+</div>
+<div class="wrap" id="app"><p class="muted">Loading…</p></div>
+
+<script>
+const app = document.getElementById('app');
+const params = new URLSearchParams(location.search);
+const ID = params.get('id');
+
+const esc = t => String(t==null?'':t).replace(/&/g,'&amp;').replace(/</g,'&lt;')
+  .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+
+/* Leer en voz alta. Igual que en el curso: si hay grabacion se usa, y
+   mientras no la haya lo dice la voz del navegador, despacio. */
+let sonando = null;
+function di(texto, btn){
+  try { if (sonando) sonando.pause(); } catch(e){}
+  try { speechSynthesis.cancel(); } catch(e){}
+  const fin = () => btn && btn.classList.remove('sonando');
+  btn && btn.classList.add('sonando');
+  const slug = texto.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,60);
+  const a = new Audio(`audio/${slug}.mp3`);
+  sonando = a;
+  a.onended = fin;
+  a.onerror = () => { sonando = null; vozNavegador(texto); setTimeout(fin, 1800); };
+  const pr = a.play();
+  if (pr && pr.catch) pr.catch(() => { sonando = null; vozNavegador(texto); setTimeout(fin, 1800); });
+}
+function vozNavegador(t, reintento){
+  if (!window.speechSynthesis) return;
+  try{
+    speechSynthesis.cancel();
+    // la primera vez la lista de voces aun no ha llegado y no dice nada
+    if (!speechSynthesis.getVoices().length && !reintento){
+      setTimeout(()=>vozNavegador(t, true), 320);
+      return;
+    }
+    const u = new SpeechSynthesisUtterance(t);
+    u.lang = 'en-GB'; u.rate = 0.78;
+    const gb = speechSynthesis.getVoices().find(v=>/en[-_]GB/i.test(v.lang));
+    if (gb) u.voice = gb;
+    speechSynthesis.speak(u);
+  } catch(e){}
+}
+
+/* ---------- la estantería ---------- */
+async function estante(){
+  const r = await fetch('data/index.json', {cache: 'no-cache'});
+  if (!r.ok){ app.innerHTML = '<p class="muted">No encuentro los cuentos.</p>'; return; }
+  const libros = (await r.json()).libros || [];
+  const porGrado = {};
+  libros.forEach(l => (porGrado[l.grado] = porGrado[l.grado] || []).push(l));
+
+  app.innerHTML = Object.keys(porGrado).sort().map(g => `
+    <div class="grupo">${esc(g)} · ${esc(porGrado[g][0].nivel)}</div>
+    <div class="estante">${porGrado[g].map(l => `
+      <a class="libro" href="?id=${esc(l.id)}">
+        <img src="${esc(l.portada)}" alt="" onerror="this.style.visibility='hidden'">
+        <div class="txt">
+          <h3>${esc(l.titulo)}</h3>
+          <p>${esc(l.objetivo)}</p>
+          <div class="meta">${l.paginas} pages</div>
+        </div></a>`).join('')}</div>`).join('');
+}
+
+/* ---------- un cuento ---------- */
+async function cuento(id){
+  const r = await fetch(`data/${id}.json`, {cache: 'no-cache'});
+  if (!r.ok){ app.innerHTML = '<p class="muted">No encuentro ese cuento.</p>'; return; }
+  const d = await r.json();
+  document.getElementById('tit').textContent = d.titulo;
+  document.getElementById('lvl').textContent = `${d.grado} · ${d.nivel}`;
+  document.getElementById('volver').hidden = false;
+  document.title = d.titulo + ' · Nordic Little Readers';
+
+  let i = 0;
+  const total = d.paginas.length + 1;          // +1 por la actividad final
+
+  function pinta(){
+    try { if (sonando) sonando.pause(); } catch(e){}
+    try { speechSynthesis.cancel(); } catch(e){}
+
+    const puntos = `<div class="puntos">${Array.from({length: total}, (_, k) =>
+      `<span class="punto${k===i?' on':''}"></span>`).join('')}</div>`;
+    const barra = `<div class="barra">
+      <button class="nav" id="atras" ${i===0?'disabled':''}>‹ Back</button>
+      <button class="nav" id="alante" ${i>=total-1?'disabled':''}>${i===d.paginas.length-1?'Activity':'Next'} ›</button>
+    </div>`;
+
+    if (i < d.paginas.length){
+      const p = d.paginas[i];
+      // las palabras de la unidad, resaltadas en la frase
+      let frase = esc(p.texto);
+      (p.clave||[]).forEach(w => {
+        frase = frase.replace(new RegExp('\\\\b(' + w.replace(/[^A-Za-z ]/g,'') + ')\\\\b', 'i'),
+                              '<b>$1</b>');
+      });
+      app.innerHTML = `<div class="pag">
+          ${p.img ? `<img src="${esc(p.img)}" alt="" onerror="this.remove()">` : ''}
+          <p class="frase">${frase}</p>
+          <button class="oir" id="oir">🔊 Listen</button>
+        </div>${barra}${puntos}`;
+      document.getElementById('oir').onclick = e => di(p.texto, e.currentTarget);
+    } else {
+      actividad(d, barra + puntos);
+    }
+    const a = document.getElementById('atras'), b = document.getElementById('alante');
+    if (a) a.onclick = () => { i--; pinta(); };
+    if (b) b.onclick = () => { i++; pinta(); };
+  }
+
+  pinta();
+}
+
+/* La actividad de cierre: emparejar la palabra con su dibujo. Es la que
+   funciona a esta edad — se resuelve mirando, sin tener que escribir. */
+function actividad(d, cola){
+  const act = d.actividad || {};
+  const items = (act.items||[]).slice();
+  let quedan = items.length, aciertos = 0;
+  const barajado = items.map((x,k)=>({x,k})).sort(()=>Math.random()-.5);
+
+  app.innerHTML = `<div class="fin">
+      <h2>${esc(act.titulo || 'Match the words')}</h2>
+      <p class="muted">${esc(act.instruccion || 'Tap the picture for each word.')}</p>
+      <p class="frase" id="pide"></p>
+      <div class="pares">${barajado.map(({x,k}) => `
+        <button class="par" data-k="${k}">
+          ${x.img ? `<img src="${esc(x.img)}" alt="" onerror="this.remove()">` : ''}
+          ${esc(x.palabra)}
+        </button>`).join('')}</div>
+      <p class="marcador" id="marca"></p>
+    </div>${cola}`;
+
+  let turno = 0;
+  const pide = document.getElementById('pide');
+  const marca = document.getElementById('marca');
+
+  function siguiente(){
+    if (turno >= items.length){
+      pide.innerHTML = '<span class="listo">Well done! ⭐</span>';
+      marca.textContent = `${aciertos} / ${items.length}`;
+      return;
+    }
+    pide.textContent = items[turno].palabra;
+    di(items[turno].palabra);
+  }
+
+  app.querySelectorAll('.par').forEach(b => b.onclick = () => {
+    if (turno >= items.length || b.disabled) return;
+    if (+b.dataset.k === turno){
+      b.classList.add('bien'); b.disabled = true;
+      aciertos++; turno++;
+      marca.textContent = `${aciertos} / ${items.length}`;
+      siguiente();
+    } else {
+      b.classList.add('mal');
+      setTimeout(() => b.classList.remove('mal'), 700);
+    }
+  });
+  siguiente();
+}
+
+(ID ? cuento(ID) : estante()).catch(e => {
+  app.innerHTML = '<p class="muted">Something went wrong loading the reader.</p>';
+});
+</script>
+</html>

@@ -1,0 +1,88 @@
+{
+ "id": "g1-u3",
+ "grado": "G1",
+ "tema": 3,
+ "nivel": "Pre-A1",
+ "titulo": "Move Your Body!",
+ "objetivo": "Body parts and actions",
+ "paginas": [
+  {
+   "texto": "This is my head.",
+   "clave": [
+    "head"
+   ],
+   "img": "img/g1-u3-p01.jpg"
+  },
+  {
+   "texto": "These are my arms.",
+   "clave": [
+    "arms"
+   ],
+   "img": "img/g1-u3-p02.jpg"
+  },
+  {
+   "texto": "These are my legs.",
+   "clave": [
+    "legs"
+   ],
+   "img": "img/g1-u3-p03.jpg"
+  },
+  {
+   "texto": "I can jump! One, two, three!",
+   "clave": [
+    "jump"
+   ],
+   "img": "img/g1-u3-p04.jpg"
+  },
+  {
+   "texto": "Pip can fly. Look at his wings!",
+   "clave": [
+    "fly"
+   ],
+   "img": "img/g1-u3-p05.jpg"
+  },
+  {
+   "texto": "Can you run, Astrid? Yes, I can!",
+   "clave": [
+    "run"
+   ],
+   "img": "img/g1-u3-p06.jpg"
+  },
+  {
+   "texto": "My legs are tired now.",
+   "clave": [
+    "legs"
+   ],
+   "img": "img/g1-u3-p07.jpg"
+  },
+  {
+   "texto": "Clap your hands. Well done!",
+   "clave": [
+    "hands"
+   ],
+   "img": "img/g1-u3-p08.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "My body",
+  "instruccion": "Tap the word you hear.",
+  "items": [
+   {
+    "palabra": "head",
+    "img": null
+   },
+   {
+    "palabra": "arms",
+    "img": null
+   },
+   {
+    "palabra": "legs",
+    "img": null
+   },
+   {
+    "palabra": "hands",
+    "img": null
+   }
+  ]
+ }
+}
