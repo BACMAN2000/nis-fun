@@ -75,3 +75,99 @@ Cuando se pase de SVG plano a ilustración, usar por personaje:
 > Consistent character sheet style, no shadows, 200×260.
 
 Mascotas: mismo estilo, cuerpo compacto 200×200, rasgos de la paleta indicada.
+
+---
+
+# Regla de oro: la biblia es la lista cerrada
+
+**Quien no está en este documento, no sale en Fun for Nordic.**
+
+Cuando un texto se inventa un compañero o un tío nuevo, el alumno se encuentra con
+alguien que no tiene cara, no tiene dibujo y no vuelve a aparecer nunca más. Y cuando
+se le pide arte a una IA sin decirle a quién, devuelve un niño distinto cada vez: al
+cabo de tres unidades el colegio está lleno de desconocidos.
+
+Por eso:
+
+1. **Antes de escribir** una unidad, se elige a los personajes de las tablas de abajo.
+   Si de verdad hace falta alguien nuevo, primero se le da ficha aquí.
+2. **Antes de pedir arte a una IA**, se copia la ficha del personaje en el prompt —
+   nombre, edad, pelo, piel, ropa y paleta— y se adjunta una imagen suya ya aprobada
+   como referencia de estilo. Nunca se pide "un niño"; se pide *ese* niño.
+3. **`python tools/check_elenco.py`** comprueba las dos cosas: que los nombres que
+   usan los textos estén aquí, y que el arte de `assets/characters/` se corresponda
+   con las fichas. Sale con error si aparece un intruso.
+
+## Prompt maestro (pegar tal cual, cambiando solo la ficha)
+
+> Use ONLY the character described below. Do NOT invent a new character, do NOT change
+> the face, the hair or the clothes, and do NOT add other people to the image.
+> This is an existing character from our school's own English course (our own IP), and
+> the attached image is the approved reference for the style.
+>
+> **[NOMBRE]**, [EDAD] years old. Hair: [pelo]. Skin: [piel]. Wearing [ropa].
+> 3D cartoon style, full body, transparent background, big head, big friendly eyes,
+> soft rounded shapes, same proportions as the reference.
+> Pose: [pose de la tabla de poses].
+
+---
+
+# Familias de los protagonistas
+
+Estas personas **ya aparecen en los textos del curso**. Se dibujan con las figuras 3D
+del banco (`assets/vocab/`), que es de donde salen las madres, padres y abuelos de las
+escenas — no tienen carpeta propia en `assets/characters/`.
+
+| slug | Nombre | De quién es | Figura del banco | Dónde sale |
+|------|--------|-------------|------------------|------------|
+| rosa | Rosa | Madre de Nico | `mother.png` | Starters 2, Flyers 2 |
+| juan | Juan | Padre de Nico | `father.png` | Starters 2 |
+| lucia | Lucía | Hermana pequeña de Nico, 5 años | `sister.png` | Starters 2 |
+| beto | Beto | Primo bebé de Nico, 1 año | `baby.png` | Starters 2 |
+| pablo | Pablo | Abuelo de Sofía; tiene la granja | `grandpa.png` | Movers 10 |
+| carmen | Carmen | Tía de Valentina | `mother.png` | Movers 22 |
+| sven | Sven | Abuelo de Ingrid, noruego | `grandpa.png` | Flyers 32 |
+| nora | Nora | Tía de Ingrid, viajera | `mother.png` | Flyers 32 |
+| tom | Tom | Tío de Ingrid | `father.png` | Flyers 32 |
+| leo | Leo | Tío de Maya | `father.png` | Flyers 30 |
+
+# Secundarios del pueblo
+
+| slug | Nombre | Quién es | Figura del banco | Dónde sale |
+|------|--------|----------|------------------|------------|
+| pedro | Pedro | El taxista | `father.png` | Flyers (viajes) |
+| ana | Ana | Compañera de otra clase | `sister.png` | Starters 20 |
+| carla | Carla | Compañera de otra clase | `sister.png` | Flyers 51 |
+
+# La familia monstruo
+
+Solo para las unidades de describir personas, donde el chiste es que cada uno tiene un
+número distinto de ojos, brazos y dientes. **No se mezclan con los niños.**
+
+| slug | Nombre | Quién es | Rasgo que lo distingue | Dónde sale |
+|------|--------|----------|------------------------|------------|
+| grum | Grum | El abuelo monstruo | Verde, tres ojos, muy peludo | Flyers 24 |
+| zog | Zog | El tío monstruo | Morado, un ojo, dos brazos largos | Flyers 24 |
+| zip | Zip | El primo monstruo, pequeño | Naranja, cuatro ojos, redondo | Flyers 24 |
+
+# Compañeros de clase — PENDIENTES DE DIBUJAR
+
+Los cuatro niños de cada nivel son los protagonistas, pero en el patio, en los pasillos
+y en el aula hacen falta más caras. Estas seis fichas están **cerradas y aprobadas**;
+solo falta el arte.
+
+**No vale recolorear a un protagonista.** Se probó y lo que sale es Freya con otra
+camiseta: la cara es la misma y el alumno lo nota. Un compañero es un dibujo nuevo, con
+la ficha de abajo y el prompt maestro de arriba.
+
+| slug | Nombre | Edad | Pelo · piel · ropa | Qué hace en las escenas |
+|------|--------|------|--------------------|-------------------------|
+| lia | Lía | 8 | trenzas negras #1F1A17 · trigueña #C98E5A · polo lila #9B7BC4, falda gris | Salta a la comba en el patio |
+| bruno | Bruno | 8 | rizos castaños #6E4A2F · claro #F6D7B8 · polo verde agua #4BA8A0, short beige | Corre detrás de la pelota |
+| aiko | Aiko | 9 | melena lisa negra #22201F · claro #F6D7B8 · polo coral #E87F6A, jeans | Lee sentada en el pasillo |
+| samu | Samu | 9 | pelo corto rubio oscuro #B99457 · claro #F6D7B8 · polo azul marino #2F5D9E | Lleva la mochila y saluda |
+| iris | Iris | 10 | coleta pelirroja #C9622E · pecas · polo mostaza #D9A13B, jeans | Dibuja con tiza en el suelo |
+| tino | Tino | 10 | rapado castaño oscuro #4A3728 · trigueño #C98E5A · polo blanco y verde | Juega al hockey en la cancha |
+
+Poses que hacen falta para cada uno, por orden de utilidad:
+**01 waving**, **07 running**, **06 sitting**, **03 talking**.

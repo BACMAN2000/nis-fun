@@ -20,7 +20,7 @@ VOCAB = os.path.join(ROOT, "assets", "vocab")
 CHARS = os.path.join(ROOT, "assets", "characters")
 SALIDA = os.path.join(ROOT, "assets", "unit-scenes")
 
-W, H = 1280, 560          # panoramica: cabe bien a ancho completo
+W, H = 1720, 752          # panoramica; a esta talla aguanta pantalla grande
 
 # Para cada unidad: fondo del campus + que poner encima y donde.
 # (x, y) es el centro en tanto por uno; s es el alto en tanto por uno del
@@ -177,17 +177,61 @@ def carga_pieza(nombre, alto):
     return im
 
 
+def profundidad(base):
+    """Deja el fondo ligeramente fuera de foco, como en los videos.
+
+    El fondo es un dibujo de lineas planas y las figuras son 3D con
+    volumen: juntos se veian pegados con cola. Desenfocar un poco el fondo
+    los separa en dos planos y el ojo lo lee como una foto con el sujeto
+    enfocado, que es el lenguaje de los renders del curso. El desenfoque
+    crece hacia arriba, que es lo que esta mas lejos."""
+    suave = base.filter(ImageFilter.GaussianBlur(W / 520.0))
+    mascara = Image.new("L", (W, H))
+    px = mascara.load()
+    for y in range(H):
+        # arriba (lejos) todo desenfocado, abajo (el suelo) casi nitido
+        v = int(255 * max(0.0, min(1.0, 1.05 - 1.35 * (y / H))))
+        for x in range(W):
+            px[x, y] = v
+    return Image.composite(suave, base, mascara)
+
+
+def gradacion(im):
+    """Un mismo bano de luz para el fondo y las figuras, que es lo que de
+    verdad hace que parezcan la misma imagen."""
+    from PIL import ImageEnhance
+    im = ImageEnhance.Color(im).enhance(1.08)
+    im = ImageEnhance.Contrast(im).enhance(1.06)
+    # luz calida por arriba, como la del faro de los videos
+    luz = Image.new("RGB", (W, H), (255, 236, 200))
+    velo = Image.new("L", (W, H))
+    px = velo.load()
+    for y in range(H):
+        v = int(38 * max(0.0, 1.0 - y / (H * 0.8)))
+        for x in range(W):
+            px[x, y] = v
+    im = Image.composite(Image.blend(im, luz, 0.5), im, velo)
+    # vinetado muy suave para cerrar la composicion
+    borde = Image.new("L", (W, H), 0)
+    d = ImageDraw.Draw(borde)
+    d.ellipse([-W * .12, -H * .28, W * 1.12, H * 1.28], fill=255)
+    borde = borde.filter(ImageFilter.GaussianBlur(W / 22.0))
+    oscuro = ImageEnhance.Brightness(im).enhance(0.88)
+    return Image.composite(im, oscuro, borde)
+
+
 def componer(fondo, piezas):
     f = Image.open(os.path.join(FONDOS, fondo + ".jpg")).convert("RGB")
-    # recorte central a 1280x560 conservando proporcion
     escala = max(W / f.width, H / f.height)
     f = f.resize((int(f.width * escala), int(f.height * escala)), Image.LANCZOS)
     x = (f.width - W) // 2; y = (f.height - H) // 2
     base = f.crop((x, y, x + W, y + H))
 
-    # un velo claro: el campus queda de fondo y los objetos leen por delante
+    base = profundidad(base)
+    # un velo claro, mucho mas leve que antes: el fondo ya no compite
+    # gracias al desenfoque, y aclararlo tanto lo dejaba lavado
     velo = Image.new("RGB", (W, H), "white")
-    base = Image.blend(base, velo, 0.22)
+    base = Image.blend(base, velo, 0.10)
 
     # de fondo a primer plano, para que lo de delante tape a lo de atras
     for nombre, px, py, ps in sorted(piezas, key=lambda q: q[2]):
@@ -197,13 +241,25 @@ def componer(fondo, piezas):
         cx, cy = int(W * px), int(H * py)
         ox, oy = cx - ob.width // 2, cy - ob.height // 2
         # sombra suave para asentar el objeto sobre la foto
-        sombra = Image.new("RGBA", (ob.width, max(8, ob.height // 6)), (0, 0, 0, 0))
-        ImageDraw.Draw(sombra).ellipse(
-            [ob.width * .12, 0, ob.width * .88, sombra.height], fill=(30, 40, 55, 70))
-        sombra = sombra.filter(ImageFilter.GaussianBlur(6))
-        base.paste(sombra, (ox, oy + ob.height - sombra.height // 2), sombra)
+        # dos sombras: una ancha y difusa que asienta la figura en el
+        # espacio, y otra pequena y oscura pegada al pie, que es la que
+        # hace que no parezca recortada y pegada encima
+        ancha = Image.new("RGBA", (int(ob.width * 1.25), max(10, ob.height // 4)), (0, 0, 0, 0))
+        ImageDraw.Draw(ancha).ellipse([0, 0, ancha.width - 1, ancha.height - 1],
+                                      fill=(26, 36, 52, 46))
+        ancha = ancha.filter(ImageFilter.GaussianBlur(ancha.height / 2.4))
+        base.paste(ancha, (ox - (ancha.width - ob.width) // 2,
+                           oy + ob.height - ancha.height // 2), ancha)
+
+        contacto = Image.new("RGBA", (int(ob.width * .72), max(6, ob.height // 12)), (0, 0, 0, 0))
+        ImageDraw.Draw(contacto).ellipse([0, 0, contacto.width - 1, contacto.height - 1],
+                                         fill=(20, 28, 42, 108))
+        contacto = contacto.filter(ImageFilter.GaussianBlur(max(2, contacto.height / 3.0)))
+        base.paste(contacto, (ox + (ob.width - contacto.width) // 2,
+                              oy + ob.height - contacto.height // 2), contacto)
         base.paste(ob, (ox, oy), ob)
-    return base
+
+    return gradacion(base)
 
 
 if __name__ == "__main__":
@@ -212,6 +268,6 @@ if __name__ == "__main__":
         lvl, n = clave.split("/")
         im = componer(fondo, piezas)
         p = os.path.join(SALIDA, "%s-%s.jpg" % (lvl, n))
-        im.save(p, quality=86, optimize=True)
+        im.save(p, quality=90, optimize=True, progressive=True)
         print("  %-14s fondo %-18s %2d objetos  %3d KB"
               % (clave, fondo, len(piezas), os.path.getsize(p) // 1024))
