@@ -219,6 +219,17 @@
    "data": {
     "text": "Jungle guide: take your partner on an imaginary jungle walk. Point and describe 4 animals: \"Look! A snake is hiding under…\" Whisper — don't wake the tiger!"
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Two pictures, many differences!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

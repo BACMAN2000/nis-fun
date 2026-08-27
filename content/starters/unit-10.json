@@ -215,6 +215,17 @@
    "data": {
     "text": "Draw your house with 4 rooms. Give your partner a tour: \"This is the kitchen. This is my bedroom.\" They ask: \"Where is the…?\""
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Look at A and B. What is different?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 11 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

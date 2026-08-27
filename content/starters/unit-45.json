@@ -246,6 +246,17 @@
    "data": {
     "text": "Say 3 sentences to the class: your favourite unit, one word you love in English, and thank you to someone. Big clap for everyone!"
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Spot the differences!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 11 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

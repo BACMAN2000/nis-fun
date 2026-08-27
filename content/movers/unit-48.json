@@ -242,6 +242,17 @@
    "data": {
     "text": "Mini championship: 3 rounds each — spell a word, give an opposite, describe a word for your partner to guess. Winner chooses the next game!"
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "A and B are not the same. Find out why!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

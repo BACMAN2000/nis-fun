@@ -219,6 +219,17 @@
    "data": {
     "text": "Student A hides an imaginary treasure somewhere in the school. Student B asks where-questions with prepositions: \"Is it under the teacher's desk? Behind the door?\" Ten questions maximum!"
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Two pictures, many differences!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

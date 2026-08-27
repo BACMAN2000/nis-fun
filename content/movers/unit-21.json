@@ -242,6 +242,17 @@
    "data": {
     "text": "Hide-and-tell: put your rubber somewhere (under the book, behind the case…). Your partner asks: \"Is it under…? Is it behind…?\" Maximum 6 questions. Then swap."
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "A and B are not the same. Find out why!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

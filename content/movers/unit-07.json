@@ -219,6 +219,17 @@
    "data": {
     "text": "Market role play: Student A sells, Student B buys 4 things with How much…? / How many…? Then swap. Use please and thank you!"
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Two pictures, many differences!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

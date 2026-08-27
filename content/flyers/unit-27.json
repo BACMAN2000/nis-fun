@@ -242,6 +242,17 @@
    "data": {
     "text": "Mime something that has just happened (you've just woken up, you've just won a race…). Your partner says the sentence: \"You have just…!\" Three mimes each."
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Look at A and B. What is different?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 11 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

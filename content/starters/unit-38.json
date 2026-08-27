@@ -242,6 +242,17 @@
    "data": {
     "text": "Animal quiz battle: 4 questions each (\"Can a … fly?\"). Answer with full short answers: \"Yes, it can! / No, it can't!\""
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "A and B are not the same. Find out why!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 11 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

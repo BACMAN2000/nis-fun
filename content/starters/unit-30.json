@@ -242,6 +242,17 @@
    "data": {
     "text": "Pack the beach bag: take turns adding things (\"In my bag there is a hat… a hat and a bucket…\"). Remember the whole list — who forgets first?"
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Two pictures, many differences!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

@@ -242,6 +242,17 @@
    "data": {
     "text": "Make a feeling face. Your partner guesses: \"Are you sad? Are you angry?\" — \"Yes, I am! / No, I'm not!\" Four faces each."
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Look at A and B. What is different?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 11 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

@@ -242,6 +242,17 @@
    "data": {
     "text": "Dress the explorer: tell your partner what to put on for (a) the beach, (b) the snow, (c) the rain. They mime putting each thing on. Then swap!"
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Look at A and B. What is different?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

@@ -242,6 +242,17 @@
    "data": {
     "text": "Do the food survey with your partner: 4 questions (Do you like…?). Note the answers and report: \"Ana likes pasta but she doesn't like soup.\""
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Spot the differences!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 11 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

@@ -219,6 +219,17 @@
    "data": {
     "text": "Hotel role play: Student A is the receptionist, Student B books a room (how many nights, what view, breakfast?). Use \"I'd like to…\" and \"We're going to…\". Then swap."
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Spot the differences!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

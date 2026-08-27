@@ -242,6 +242,17 @@
    "data": {
     "text": "Chain of consequences: Student A starts \"If I wake up late…\". B continues \"…you'll miss the bus. If you miss the bus…\". Keep the chain for 6 links — the crazier, the better!"
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Two pictures, many differences!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

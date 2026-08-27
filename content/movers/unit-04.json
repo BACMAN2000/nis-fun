@@ -242,6 +242,17 @@
    "data": {
     "text": "Mime your morning routine step by step. Your partner says each action: \"You wake up! You brush your teeth!\" Then swap. Who has the funniest routine?"
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Spot the differences!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

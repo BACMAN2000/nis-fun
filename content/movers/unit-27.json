@@ -243,6 +243,17 @@
    "data": {
     "text": "Tell your partner about your last school trip (or a family trip): 5 sentences, all with -ed verbs. They count your past verbs!"
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Look at A and B. What is different?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

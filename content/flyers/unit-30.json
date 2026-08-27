@@ -219,6 +219,17 @@
    "data": {
     "text": "Mime an action in slow motion (carrying a sofa, packing plates…). Your partner narrates like Diego: \"You are carrying something very heavy… it's a sofa!\" Three mimes each."
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Look at A and B. What is different?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 11 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

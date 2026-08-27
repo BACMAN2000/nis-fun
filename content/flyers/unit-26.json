@@ -242,6 +242,17 @@
    "data": {
     "text": "Find something your partner has done that you have never done. Ask: \"Have you ever…?\" (ridden a horse, flown in a plane, won a medal…). Report the most surprising answer."
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "A and B are not the same. Find out why!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

@@ -242,6 +242,17 @@
    "data": {
     "text": "Picnic offers: Student A offers 4 foods (Would you like…?), Student B accepts or refuses politely. Then swap. Extra point for the most British \"No, thank you\"!"
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Two pictures, many differences!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 11 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

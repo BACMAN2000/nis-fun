@@ -246,6 +246,17 @@
    "data": {
     "text": "Give a 20-second speech: your favourite unit, the funniest moment and a thank-you. The class claps for everyone!"
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Look at A and B. What is different?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

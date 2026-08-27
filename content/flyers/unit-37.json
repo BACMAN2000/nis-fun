@@ -219,6 +219,17 @@
    "data": {
     "text": "Hobby detective: ask yes/no questions to discover your partner's favourite hobby: \"Do you do it inside? Do you need music?\" Maximum 8 questions!"
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Look at A and B. What is different?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 11 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

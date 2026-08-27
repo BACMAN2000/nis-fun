@@ -242,6 +242,17 @@
    "data": {
     "text": "Back-to-back phone call: sit back to back and act a call — invite your partner to a party (day, time, what to bring). Use at least 3 phone phrases from activity A."
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Spot the differences!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

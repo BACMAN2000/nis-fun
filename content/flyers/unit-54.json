@@ -242,6 +242,17 @@
    "data": {
     "text": "Teach-back: explain to your partner the 3 most useful exam tips you learned in units 53-54, in English. They add one more. Now you're both ready!"
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Look at A and B. What is different?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 11 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

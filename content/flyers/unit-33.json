@@ -242,6 +242,17 @@
    "data": {
     "text": "Plan the perfect Saturday together. Each of you makes 3 suggestions (How about…? / Shall we…?) and you must agree on a final plan of 3 activities. Present it: \"First we're going to…\""
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Spot the differences!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

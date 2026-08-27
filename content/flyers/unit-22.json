@@ -243,6 +243,17 @@
    "data": {
     "text": "Make a 3-question river quiz for another pair using longer/deeper/wider (invent numbers if needed): \"Which is longer, the X or the Y?\" Winners write their names on the board!"
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Look at A and B. What is different?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

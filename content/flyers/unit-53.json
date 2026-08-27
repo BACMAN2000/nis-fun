@@ -242,6 +242,17 @@
    "data": {
     "text": "Dictation duel: read 5 words from this book to your partner, letter by letter if they ask. They write; then check spelling together. Swap. Champion = fewer mistakes."
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Look at A and B. What is different?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

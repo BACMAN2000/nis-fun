@@ -242,6 +242,17 @@
    "data": {
     "text": "Live commentary: your partner acts something slowly (dancing, singing, acting like a lion). You narrate: \"Now you are… \" Then swap. Applause for everyone!"
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Spot the differences!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

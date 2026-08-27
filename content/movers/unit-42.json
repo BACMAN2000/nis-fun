@@ -219,6 +219,17 @@
    "data": {
     "text": "Invent a sea character together (name, animal, dream) and tell its 30-second story to another pair. Sound effects welcome!"
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Look at A and B. What is different?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 11 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

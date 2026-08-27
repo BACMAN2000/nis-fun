@@ -242,6 +242,17 @@
    "data": {
     "text": "Plan a surprise party for an imaginary friend: 5 sentences with going to (who, where, food, music, surprise). Present your plan in 30 seconds!"
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Two pictures, many differences!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

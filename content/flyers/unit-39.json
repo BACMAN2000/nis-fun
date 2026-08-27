@@ -243,6 +243,17 @@
    "data": {
     "text": "Invent an explorer: name, year, what they discovered, one funny detail. Tell their story to another pair in past simple. Vote for the best invented explorer of the class!"
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "A and B are not the same. Find out why!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 11 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

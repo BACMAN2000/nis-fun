@@ -215,6 +215,17 @@
    "data": {
     "text": "Plan a park afternoon: each says 3 things with Let's… (\"Let's go on the slide!\"). Agree on the order: first, then, last."
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Look at A and B. What is different?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

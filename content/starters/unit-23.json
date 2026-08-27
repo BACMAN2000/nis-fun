@@ -242,6 +242,17 @@
    "data": {
     "text": "Can-can game: \"Can you jump? Show me!\" Ask 4 questions and your partner shows the action. Then swap!"
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Spot the differences!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

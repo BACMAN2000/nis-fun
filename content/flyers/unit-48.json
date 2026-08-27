@@ -242,6 +242,17 @@
    "data": {
     "text": "Write 3 riddles with who/which/where for another pair (a person who…, a thing which…, a place where…). Exchange and solve. One point per correct guess!"
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Spot the differences!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 11 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

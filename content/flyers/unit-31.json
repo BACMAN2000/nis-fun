@@ -243,6 +243,17 @@
    "data": {
     "text": "Design a get-well card together for an imaginary patient: write the message (3 sentences, one funny) and decide the drawing. Read it aloud with your best kind voice."
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Look at A and B. What is different?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 11 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

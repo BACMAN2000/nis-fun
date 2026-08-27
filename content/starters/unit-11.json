@@ -215,6 +215,17 @@
    "data": {
     "text": "Describe your bedroom with 4 sentences (There is… / My bed is…). Your partner draws it fast. Show and laugh together!"
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Two pictures, many differences!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

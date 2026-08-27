@@ -324,7 +324,7 @@ const store = {
 
 // El contenido se cachea igual que los mp4: al cambiar una unidad hay que
 // subir esta fecha o el alumno sigue viendo la version anterior.
-const CONTENT_V = '2026-08-27-orden-centrado';
+const CONTENT_V = '2026-08-27-diferencias';
 async function j(path){
   const sep = path.includes('?') ? '&' : '?';
   const r = await fetch(path + sep + 'v=' + CONTENT_V);
@@ -527,10 +527,13 @@ async function unit(){
       if (caja && !caja.dataset.listo) {
         RENDER[a.type](a, caja);
         caja.dataset.listo = '1';
-        // en las de hablar, el alumno se graba y se escucha
+        // En las de hablar, el alumno se graba y se escucha.
+        // Va FUERA de la caja del ejercicio: las diferencias se pintan
+        // cuando llega su fetch y rehacen el interior de la caja, lo que
+        // se llevaba por delante la grabadora si estaba dentro.
         if (a.type === 'pairwork' || a.type === 'spot_diff') {
           const g = document.createElement('div');
-          caja.appendChild(g);
+          caja.parentNode.appendChild(g);
           REC.montar(g, {nivel: LEVEL, unidad: UD.number, codigo: a.code});
         }
       }

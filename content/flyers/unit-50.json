@@ -242,6 +242,17 @@
    "data": {
     "text": "Adverb theatre: your partner gives you an action and an adverb (\"eat soup… angrily!\"). Act it! Then swap. Four rounds — the class picks the best performance."
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Spot the differences!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

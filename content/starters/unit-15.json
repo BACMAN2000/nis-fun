@@ -215,6 +215,17 @@
    "data": {
     "text": "Ask your partner: \"Have you got a pet? What is it? What's its name?\" If they haven't, ask: \"What pet do you want?\""
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Two pictures, many differences!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 11 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

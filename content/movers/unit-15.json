@@ -242,6 +242,17 @@
    "data": {
     "text": "Commentator practice: narrate 20 seconds of your partner miming a sport (running, jumping, kicking). Use fast, high, well. Then swap!"
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Two pictures, many differences!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

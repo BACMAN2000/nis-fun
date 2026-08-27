@@ -290,6 +290,17 @@
    "data": {
     "text": "Tell your partner about your last weekend using went / saw / ate / had. Your partner listens and then reports to the class: \"On Saturday, Ana went to…\""
    }
+  },
+  {
+   "code": "G",
+   "type": "spot_diff",
+   "title": "A and B are not the same. Find out why!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

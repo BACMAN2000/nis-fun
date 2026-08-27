@@ -219,6 +219,17 @@
    "data": {
     "text": "Describe a classmate with 3 personality adjectives (only nice ones!) without saying the name. Your partner guesses who it is. Two people each."
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "A and B are not the same. Find out why!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 11 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

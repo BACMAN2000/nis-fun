@@ -242,6 +242,17 @@
    "data": {
     "text": "Restaurant order: Student A is the waiter, Student B orders a full meal using quantities (a bowl of…, a glass of…). Then swap. Bon appétit!"
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Look at A and B. What is different?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 11 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

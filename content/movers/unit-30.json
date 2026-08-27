@@ -242,6 +242,17 @@
    "data": {
     "text": "Compare 5 things on your desks: \"My pencil is longer than yours. Your book is heavier…\" Check each one — is it true?"
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Two pictures, many differences!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 11 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

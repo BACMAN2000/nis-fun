@@ -242,6 +242,17 @@
    "data": {
     "text": "Number ping-pong from 11 to 20 and back. Then: point at things and ask \"How many?\" — answers over ten only!"
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Spot the differences!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

@@ -215,6 +215,17 @@
    "data": {
     "text": "Food interview: ask 4 questions (\"Do you like…?\"). Then tell the class one thing: \"Ana likes pizza but she doesn't like fish.\""
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Two pictures, many differences!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

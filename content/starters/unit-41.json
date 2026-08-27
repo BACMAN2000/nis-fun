@@ -242,6 +242,17 @@
    "data": {
     "text": "Spell your name and surname for your partner. They write it and show you. Correct? Now spell your favourite animal!"
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Spot the differences!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

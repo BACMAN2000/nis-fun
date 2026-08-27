@@ -243,6 +243,17 @@
    "data": {
     "text": "Interview your partner about their perfect school day: \"What's the first lesson? What do you do at break?\" Then present it: \"In Ana's perfect day, the first lesson is art…\""
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Spot the differences!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 11 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

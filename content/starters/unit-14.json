@@ -242,6 +242,17 @@
    "data": {
     "text": "Juice bar: Student A asks \"Can I have…?\" for 3 drinks. Student B serves with \"Here you are!\" Then swap. Always say thank you!"
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Spot the differences!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

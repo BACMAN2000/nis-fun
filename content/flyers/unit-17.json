@@ -219,6 +219,17 @@
    "data": {
     "text": "Find out your partner's three favourite dates of the year (\"When is your birthday? When is…?\") and why. Report: \"Luca's favourite date is the 24th of December because…\""
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Spot the differences!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

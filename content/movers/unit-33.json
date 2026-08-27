@@ -242,6 +242,17 @@
    "data": {
     "text": "Draw 4 clocks with different times. Your partner says each time and one thing they do at that hour: \"It's half past four — I play football.\""
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Look at A and B. What is different?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

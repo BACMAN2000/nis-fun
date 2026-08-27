@@ -219,6 +219,17 @@
    "data": {
     "text": "Mime a job for your partner (no words!). They guess with full questions: \"Do you work in a hospital? Are you a nurse?\" Three jobs each."
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "A and B are not the same. Find out why!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

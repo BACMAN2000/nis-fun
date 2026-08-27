@@ -242,6 +242,17 @@
    "data": {
     "text": "Invent a 4-move dance with your partner (shake, stamp, wiggle, jump…). Teach it to another pair in English!"
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Look at A and B. What is different?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

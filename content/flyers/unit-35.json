@@ -219,6 +219,17 @@
    "data": {
     "text": "Feelings mime: show a feeling only with your face and body. Your partner guesses and asks: \"When do you feel like that?\" Answer with When I… Three feelings each."
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Look at A and B. What is different?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

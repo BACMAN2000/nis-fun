@@ -242,6 +242,17 @@
    "data": {
     "text": "I spy with materials: \"I can see something made of glass…\" Your partner guesses the object in the classroom. Three objects each."
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Two pictures, many differences!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 11 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [

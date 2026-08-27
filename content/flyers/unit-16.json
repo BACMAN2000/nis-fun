@@ -242,6 +242,17 @@
    "data": {
     "text": "Alibi game: yesterday at 6 pm something happened at school. Student A is the detective: \"What were you doing at six?\" Student B invents an alibi. The detective asks 3 more questions to find contradictions!"
    }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "A and B are not the same. Find out why!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
+   "data": {}
   }
  ],
  "homework": [
