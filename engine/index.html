@@ -42,6 +42,14 @@ if(/\.github\.io$/i.test(location.hostname)){
   .scr-centro .op-text{text-align:left}
   .scr-centro .units{text-align:left}
   .scr-pie{color:var(--soft)}
+  /* la estanteria de cuentos del nivel */
+  .cuentos{display:grid;grid-template-columns:repeat(auto-fill,minmax(12rem,1fr));gap:.9rem}
+  .cuento{background:var(--surface);border:1px solid var(--line);border-radius:16px;
+    overflow:hidden;text-decoration:none;color:inherit;display:block;transition:transform .16s}
+  .cuento:hover{transform:translateY(-4px)}
+  .cuento img{width:100%;aspect-ratio:16/10;object-fit:cover;display:block}
+  .cuento b{display:block;padding:.6rem .8rem 0;font-family:"Baloo 2",sans-serif;font-size:1rem}
+  .cuento small{display:block;padding:0 .8rem .7rem;color:var(--soft)}
   /* lo que la secuencia del colegio espera de este grado */
   .sc-grado{margin-top:1.2rem;background:var(--surface2);border-radius:16px;
     padding:.9rem 1.1rem;text-align:left;max-width:44rem;margin-inline:auto}
@@ -403,7 +411,7 @@ const store = {
 
 // El contenido se cachea igual que los mp4: al cambiar una unidad hay que
 // subir esta fecha o el alumno sigue viendo la version anterior.
-const CONTENT_V = '2026-08-27-scope';
+const CONTENT_V = '2026-08-27-cuentos';
 async function j(path){
   const sep = path.includes('?') ? '&' : '?';
   const r = await fetch(path + sep + 'v=' + CONTENT_V);
@@ -500,6 +508,15 @@ async function hub(){
       } },
   ];
 
+  // Los cuentos del nivel, si los hay. Se comprueba al vuelo: Starters ya
+  // tiene los seis de G1 y los demas iran llegando.
+  pantallas.push({
+    titulo: 'Story time — read a book',
+    etiquetaSiguiente: 'Units',
+    html: `<div class="scr-centro"><div id="cuentos">
+        <p class="scr-pie">Looking for stories…</p></div></div>`,
+    alMostrar(el){ pintaCuentos(el.querySelector('#cuentos'), LEVEL); } });
+
   tandas.forEach((tanda, k) => pantallas.push({
     titulo: tandas.length > 1
       ? `Units ${tanda[0].n}–${tanda[tanda.length-1].n}`
@@ -552,6 +569,33 @@ function guiaViva(el){
     const t = globo.querySelector('p').textContent;
     b.onclick = () => SAY.frase(t, b);
   });
+}
+
+/* Los cuentos de Nordic Little Readers que le tocan a este nivel.
+ *
+ * Viven fuera del curso (readers/) porque tambien se leen desde el portal,
+ * asi que aqui solo se listan los que existen. Si todavia no hay ninguno
+ * para el nivel, la pantalla lo dice en vez de quedarse en blanco. */
+const CUENTOS_DE = { starters: ['G1', 'G2'], movers: ['G3', 'G4'], flyers: ['G5'] };
+
+async function pintaCuentos(el, nivel){
+  if (!el) return;
+  let libros = [];
+  try {
+    const r = await fetch('../readers/data/index.json', {cache: 'no-cache'});
+    if (r.ok) libros = (await r.json()).libros || [];
+  } catch(e){}
+  const mios = libros.filter(l => (CUENTOS_DE[nivel] || []).includes(l.grado));
+  if (!mios.length){
+    el.innerHTML = `<p class="scr-pie">The stories for this level are on their way.</p>`;
+    return;
+  }
+  el.innerHTML = `<div class="cuentos">${mios.map(l => `
+    <a class="cuento" href="../readers/?id=${esc(l.id)}">
+      <img src="../readers/${esc(l.portada)}" alt="" onerror="this.remove()">
+      <b>${esc(l.titulo)}</b>
+      <small>${esc(l.objetivo)}</small>
+    </a>`).join('')}</div>`;
 }
 
 /* ---------------- UNIT ---------------- */
