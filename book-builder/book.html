@@ -15,9 +15,19 @@
   .band h1{font-size:16pt;margin:0;flex:1}
   .band .focus{font-size:7pt;text-transform:uppercase;letter-spacing:.06em;opacity:.9;text-align:right}
   .scene{display:flex;align-items:flex-end;gap:4mm;margin:5mm 0}
-  .scene img{height:38mm}
+  .scene img{height:32mm}
   .bubble{background:var(--band);border-radius:4mm;padding:3mm 4mm;font-weight:600;flex:1;font-size:10pt}
-  .act{margin:4mm 0}
+  /* Cada actividad entera en la misma pagina. La unidad va en un solo
+     .page y, cuando el contenido pasa de 297 mm, el navegador reparte por
+     donde caiga: sin esto los crucigramas y los emparejamientos salian
+     cortados entre dos hojas. Con break-inside la actividad completa baja
+     a la hoja siguiente. */
+  .act{margin:4mm 0;break-inside:avoid;page-break-inside:avoid}
+  /* que el titulo no se quede solo al pie */
+  .act h2{break-after:avoid;page-break-after:avoid}
+  /* y los bloques que nunca deben partirse por dentro */
+  .xw, .picwords, .match, .lsn-lines, .exam .rtext, .exam .item,
+  .writelines, .scene, .op-text{break-inside:avoid;page-break-inside:avoid}
   .act h2{font-size:11.5pt;margin:0 0 2.5mm;display:flex;gap:2.5mm;align-items:center}
   .act .code{background:var(--accent);color:#fff;border-radius:2.5mm;width:6.5mm;height:6.5mm;display:inline-flex;align-items:center;justify-content:center;font-size:10pt;flex:none}
   /* crossword print */
@@ -38,12 +48,12 @@
   .exam .rtext{background:var(--band);border-radius:3mm;padding:3mm 4mm;margin-bottom:2.5mm;font-size:9.5pt}
   .credit{margin:2mm 0 0;font-size:7pt;font-style:italic;color:#6b7b8c;text-align:right}
   /* escena de apertura: foto del campus o escena dibujada de la unidad */
-  img.op-art{width:100%;height:48mm;object-fit:cover;border-radius:2mm;display:block}
+  img.op-art{width:100%;height:33mm;object-fit:cover;border-radius:2mm;display:block}
   .op-art.op-drawn{width:100%;border-radius:2mm;overflow:hidden;line-height:0}
   .op-art.op-drawn svg{width:100%;height:auto;display:block}
-  .picwords .pw .ico svg{width:19mm;height:19mm;display:block;margin:0 auto}
-  .picwords .pw .ico img.art3d{width:19mm;height:19mm;object-fit:contain;display:block;margin:0 auto}
-  .picwords .pw .ico .emo{font-size:16mm}
+  .picwords .pw .ico svg{width:13mm;height:13mm;display:block;margin:0 auto}
+  .picwords .pw .ico img.art3d{width:13mm;height:13mm;object-fit:contain;display:block;margin:0 auto}
+  .picwords .pw .ico .emo{font-size:13mm}
   .exam .item{margin-bottom:2mm;font-size:9.5pt}
   .exam .opts{display:inline}
   .exam .opt{display:inline-block;margin-left:4mm}
@@ -65,6 +75,9 @@
   .wb-sign i{flex:1;border-top:.35mm solid var(--soft);padding-top:1mm;font-style:normal;text-align:center}
   /* teacher's key */
   .keyu{break-inside:avoid;margin-bottom:4mm;font-size:9pt}
+  .sd-book{display:flex;gap:5mm}
+  .sd-book > div{flex:1}
+  .sd-book img{width:100%;max-height:40mm;object-fit:cover;display:block;border:.3mm solid var(--line);border-radius:2mm}
   .keyu h2{font-size:10.5pt;margin:0 0 1mm;color:var(--accent)}
   .keyu p{margin:0 0 .8mm}
   .keyu b{font-weight:700}
@@ -76,7 +89,7 @@
   .op-text{border-left:2mm solid var(--accent);background:var(--band);border-radius:0 3mm 3mm 0;padding:2.5mm 4mm;margin:2.5mm 0;font-size:9.8pt;line-height:1.55}
   .op-text b{font-family:"Baloo 2";color:var(--accent)}
   .picwords{display:flex;flex-wrap:wrap;gap:2mm;margin:3mm 0}
-  .picwords .pw{width:31mm;border:.35mm solid var(--line);border-radius:3mm;padding:1.5mm 1mm 1mm;text-align:center}
+  .picwords .pw{width:24mm;border:.35mm solid var(--line);border-radius:3mm;padding:1.5mm 1mm 1mm;text-align:center}
   .picwords .pw .ico{font-size:24pt;line-height:1.15}
   .picwords .pw .w{font-size:7.5pt;font-weight:700;color:var(--ink)}
   .picwords .pw .ln{border-bottom:.35mm dotted var(--soft);height:4.5mm;margin-top:1mm}
@@ -154,11 +167,20 @@ function gapTextHTML(data){
     <div class="exam"><div class="rtext" style="line-height:2">${text}<p class="credit">Written by Paolo Baca</p></div></div>`;
 }
 
-function spotDiffHTML(data){
+function spotDiffHTML(data, ud){
+  // Dos fotos del campus con los objetos de la unidad; si esa unidad aun no
+  // las tiene, el onerror deja la rejilla de emoji de siempre.
+  const base = ud ? `../assets/spot-diff/${ud.level}-${ud.number}` : '';
   const grid = scene=>`<table style="border-collapse:collapse">${scene.map(row=>`<tr>${row.map(ch=>`<td style="width:9mm;height:9mm;text-align:center;font-size:14pt;border:.3mm solid var(--line)">${ch}</td>`).join('')}</tr>`).join('')}</table>`;
-  return `<div style="font-size:9pt;color:var(--soft);margin-bottom:1.5mm"><i>Find and circle the ${data.diffs.length} differences in picture B!</i></div>
-    <div style="display:flex;gap:8mm"><div><b style="font-family:'Baloo 2'">A</b>${grid(data.sceneA)}</div>
+  const emoji = `<div style="display:flex;gap:8mm"><div><b style="font-family:'Baloo 2'">A</b>${grid(data.sceneA)}</div>
     <div><b style="font-family:'Baloo 2'">B</b>${grid(data.sceneB)}</div></div>`;
+  if (!base) return emoji;
+  return `<div style="font-size:9pt;color:var(--soft);margin-bottom:1.5mm"><i>Find and circle the differences in picture B. Then tell your partner: "In A the ball is red, but in B it is blue."</i></div>
+    <div class="sd-book" data-fb="${emoji.replace(/&/g,'&amp;').replace(/"/g,'&quot;')}">
+      <div><b style="font-family:'Baloo 2'">A</b><img src="${base}-A.jpg" alt=""
+           onerror="this.closest('.sd-book').innerHTML=this.closest('.sd-book').dataset.fb"></div>
+      <div><b style="font-family:'Baloo 2'">B</b><img src="${base}-B.jpg" alt=""></div>
+    </div>`;
 }
 
 function examHTML(data){
@@ -247,7 +269,7 @@ function sbPage(ud, pageno){
       body = `<span class="listenchip">🎧 Listen online — unit ${ud.number}</span>
         <div class="lsn-lines">${a.data.questions.map((q,i)=>`<div>${i+1}. ${q.q.replace('…','_____')}<span></span></div>`).join('')}</div>`;
     } else {
-      body = AB[a.type] ? AB[a.type](a.data) : '';
+      body = AB[a.type] ? AB[a.type](a.data, ud) : '';
       if (a.type === 'exam_task' && !a.data.text) body += `<div class="writelines" style="margin-top:2mm"><div></div></div>`;
     }
     return `<div class="act"><h2><span class="abadge ${BADGE[a.code]||'cA'}">${a.code}</span>${a.title}</h2>${body}</div>`;

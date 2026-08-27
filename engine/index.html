@@ -49,6 +49,9 @@ if(/\.github\.io$/i.test(location.hostname)){
   .xw-grid td.cell input{width:100%;height:100%;border:0;text-align:center;font:700 1.05rem "Source Sans 3";text-transform:uppercase;background:transparent;color:var(--ink);outline-color:var(--accent)}
   .xw-grid td.cell .n{position:absolute;top:1px;left:3px;font-size:.55rem;font-weight:700;color:var(--soft)}
   .xw-grid td.cell.ok{background:#e2f2e9} .xw-grid td.cell.bad{background:#f8e4e1}
+  /* palabra entera correcta: se ve al momento, sin pulsar Check */
+  .xw-grid td.cell.wok{background:#cdeedd;box-shadow:inset 0 0 0 1.5px var(--ok)}
+  .xw-grid td.cell.wok input{color:var(--ok);font-weight:800}
   .xw-clues{flex:1;min-width:16rem;font-size:.95rem}
   .xw-clues h3{margin:.2rem 0 .3rem}
   .xw-clues ol{margin:0 0 .8rem;padding-left:1.4rem}
@@ -95,6 +98,16 @@ if(/\.github\.io$/i.test(location.hostname)){
   #cele h2{margin:.4rem 0}
   .crumb{margin:.8rem 0;font-size:.9rem}
   .crumb a{color:var(--accent);font-weight:700;text-decoration:none}
+  /* encuentra las diferencias, sobre fotos */
+  .sd-wrap{display:flex;gap:1rem;flex-wrap:wrap}
+  .sd-scene{flex:1;min-width:min(100%,20rem)}
+  .sd-scene h4{margin:0 0 .3rem;font-family:"Baloo 2";color:var(--accent)}
+  .sd-img{width:100%;height:auto;display:block;border:1px solid var(--line);border-radius:12px}
+  .sd-hot{position:relative}
+  .sd-z{position:absolute;transform:translate(-50%,-50%);background:transparent;
+    border:2px dashed transparent;border-radius:50%;padding:0;cursor:pointer}
+  .sd-z:hover{border-color:rgba(59,111,181,.5)}
+  .sd-z.found{border-color:var(--ok);background:rgba(47,146,104,.22)}
   .demoflag{margin:1.4rem 0 .2rem;background:#fff6e0;border:1px solid #e8cf94;
     border-left:6px solid var(--star);border-radius:12px;padding:.75rem 1rem;
     font-size:.92rem;color:#6b5313}
@@ -429,6 +442,78 @@ crossword(act, el){
   el.innerHTML = `<div class="xw"><div class="xw-gridwrap">${g}</div>
     <div class="xw-clues"><h3>Across ➜</h3>${list('across')}<h3>Down ⬇</h3>${list('down')}</div></div>
     <div class="checkrow"><button>Check</button><span class="score"></span></div>`;
+
+  /* ---- escribir de corrido y ver la palabra en verde ----------------
+     Sin esto hay que pinchar casilla por casilla, que con ninos pequenos
+     es media clase perdida. Al teclear una letra el foco salta solo a la
+     siguiente casilla de la palabra, y en cuanto una palabra queda bien
+     escrita se pinta entera de verde sin esperar al boton Check.       */
+  const inp = k => el.querySelector(`input[data-k="${k}"]`);
+  const celdasDe = w => [...w.word].map((_, i) =>
+    (w.row + (w.dir === 'down' ? i : 0)) + ',' + (w.col + (w.dir === 'across' ? i : 0)));
+
+  // en que palabras entra cada casilla, para saber hacia donde avanzar
+  const porCelda = {};
+  words.forEach(w => celdasDe(w).forEach((k, i) => {
+    (porCelda[k] = porCelda[k] || []).push({ w, i });
+  }));
+
+  let dir = 'across';                     // direccion en la que se avanza
+
+  function pintaPalabras(){
+    el.querySelectorAll('td.cell').forEach(td => td.classList.remove('wok'));
+    words.forEach(w => {
+      const ks = celdasDe(w);
+      const bien = ks.every(k => ((inp(k) || {}).value || '').toUpperCase() === cells[k]);
+      if (bien) ks.forEach(k => inp(k).closest('td').classList.add('wok'));
+    });
+    // todas las palabras resueltas = actividad hecha
+    const todo = Object.keys(cells).every(k => ((inp(k) || {}).value || '').toUpperCase() === cells[k]);
+    if (todo) {
+      const s = el.querySelector('.score');
+      s.textContent = 'All correct!'; s.className = 'score good';
+      complete(act.code);
+    }
+  }
+
+  el.querySelectorAll('td.cell input').forEach(i => {
+    i.addEventListener('focus', () => {
+      const ent = porCelda[i.dataset.k] || [];
+      // si la casilla solo pertenece a una palabra, se sigue esa direccion
+      if (ent.length === 1) dir = ent[0].w.dir;
+    });
+    i.addEventListener('input', () => {
+      i.value = (i.value || '').toUpperCase().slice(0, 1);
+      pintaPalabras();
+      if (!i.value) return;
+      const ent = (porCelda[i.dataset.k] || []).find(e => e.w.dir === dir)
+               || (porCelda[i.dataset.k] || [])[0];
+      if (!ent) return;
+      const ks = celdasDe(ent.w);
+      const sig = inp(ks[ent.i + 1]);
+      if (sig) { sig.focus(); sig.select(); }
+    });
+    i.addEventListener('keydown', ev => {
+      const ent = (porCelda[i.dataset.k] || []).find(e => e.w.dir === dir)
+               || (porCelda[i.dataset.k] || [])[0];
+      if (!ent) return;
+      const ks = celdasDe(ent.w);
+      if (ev.key === 'Backspace' && !i.value) {          // volver atras al borrar
+        const ant = inp(ks[ent.i - 1]);
+        if (ant) { ev.preventDefault(); ant.focus(); ant.value = ''; pintaPalabras(); }
+      }
+      if (ev.key === 'ArrowRight' || ev.key === 'ArrowLeft' ||
+          ev.key === 'ArrowUp' || ev.key === 'ArrowDown') {
+        const d = (ev.key === 'ArrowRight' || ev.key === 'ArrowLeft') ? 'across' : 'down';
+        const paso = (ev.key === 'ArrowRight' || ev.key === 'ArrowDown') ? 1 : -1;
+        const [r, c] = i.dataset.k.split(',').map(Number);
+        const k2 = d === 'across' ? r + ',' + (c + paso) : (r + paso) + ',' + c;
+        const sig = inp(k2);
+        if (sig) { ev.preventDefault(); dir = d; sig.focus(); sig.select(); }
+      }
+    });
+  });
+
   el.querySelector('button').onclick = ()=>{
     let ok=0, tot=0;
     el.querySelectorAll('td.cell').forEach(td=>{ tot++;
@@ -438,6 +523,7 @@ crossword(act, el){
     const s=el.querySelector('.score');
     s.textContent = `${ok} / ${tot} letters`;
     s.className = 'score '+(ok===tot?'good':'partial');
+    pintaPalabras();
     if(ok===tot) complete(act.code);
   };
 },
@@ -531,30 +617,69 @@ gap_text(act, el){
 
 /* ---- spot the difference: dos escenas de emoji ---- */
 spot_diff(act, el){
+  /* Dos fotos del mismo sitio del campus con los personajes y los objetos
+     de la unidad. Se buscan las diferencias pulsando sobre la foto B: hay
+     mas de ocho y de tipos distintos (color, tamano, cantidad, sitio, y
+     cosas que faltan), que es lo que da pie a hablar en clase.
+     Si la unidad todavia no tiene fotos, se usa la rejilla de emoji. */
   const d = act.data;
-  const isDiff = (r,c)=> d.diffs.some(([dr,dc])=>dr===r&&dc===c);
-  const grid = (scene, clickable)=>`<div class="sd-grid" style="grid-template-columns:repeat(${scene[0].length},auto)">${
-    scene.map((row,r)=>row.map((ch,c)=>`<div class="sd-cell" data-r="${r}" data-c="${c}">${ch}</div>`).join('')).join('')}</div>`;
-  el.innerHTML = `<p style="margin-top:0"><i>Look at picture A. Find and TAP the ${d.diffs.length} differences in picture B!</i></p>
-    <div class="sd-wrap">
-      <div class="sd-scene"><h4>A</h4>${grid(d.sceneA,false)}</div>
-      <div class="sd-scene clickable" id="sdB-${act.code}"><h4>B</h4>${grid(d.sceneB,true)}</div>
-    </div><div class="checkrow"><span class="score">0 / ${d.diffs.length}</span></div>`;
-  let found = 0;
-  el.querySelectorAll(`#sdB-${act.code} .sd-cell`).forEach(cell=>{
-    cell.onclick = ()=>{
-      if(cell.classList.contains('found')) return;
-      const r=+cell.dataset.r, c=+cell.dataset.c;
-      if(isDiff(r,c)){
-        cell.classList.add('found'); found++;
-        const s=el.querySelector('.score');
-        s.textContent=`${found} / ${d.diffs.length}`;
-        if(found===d.diffs.length){ s.className='score good'; complete(act.code); }
-      } else {
-        cell.classList.add('flash'); setTimeout(()=>cell.classList.remove('flash'),500);
-      }
-    };
-  });
+  const base = `../assets/spot-diff/${LEVEL}-${UD.number}`;
+
+  fetch(base + '-diffs.json').then(r => r.ok ? r.json() : Promise.reject())
+    .then(info => pintaFotos(info))
+    .catch(() => pintaEmoji());
+
+  function pintaFotos(info){
+    const zonas = info.zonas || [];
+    el.innerHTML = `
+      <p style="margin-top:0"><i>Look at picture A and picture B.
+        Find and TAP the differences in picture B — there are ${zonas.length}!
+        Then tell your partner: <b>"In A the ball is red, but in B it is blue."</b></i></p>
+      <div class="sd-wrap">
+        <div class="sd-scene"><h4>A</h4><img class="sd-img" src="${base}-A.jpg" alt=""></div>
+        <div class="sd-scene"><h4>B</h4>
+          <div class="sd-hot"><img class="sd-img" src="${base}-B.jpg" alt="">
+            ${zonas.map((z,i)=>`<button class="sd-z" data-i="${i}"
+              style="left:${(z.x*100).toFixed(1)}%;top:${(z.y*100).toFixed(1)}%;
+                     width:${(z.r*140).toFixed(1)}%;height:${(z.r*200).toFixed(1)}%"
+              aria-label="difference ${i+1}"></button>`).join('')}
+          </div></div>
+      </div>
+      <div class="checkrow"><span class="score">0 / ${zonas.length}</span></div>`;
+    let hallados = 0;
+    el.querySelectorAll('.sd-z').forEach(b => b.onclick = () => {
+      if (b.classList.contains('found')) return;
+      b.classList.add('found'); hallados++;
+      const sc = el.querySelector('.score');
+      sc.textContent = `${hallados} / ${zonas.length}`;
+      if (hallados === zonas.length){ sc.className = 'score good'; complete(act.code); }
+    });
+  }
+
+  function pintaEmoji(){
+    if (!d.sceneA) { el.innerHTML = '<p><i>Coming soon.</i></p>'; return; }
+    const isDiff = (r,c)=> d.diffs.some(([dr,dc])=>dr===r&&dc===c);
+    const grid = scene=>`<div class="sd-grid" style="grid-template-columns:repeat(${scene[0].length},auto)">${
+      scene.map((row,r)=>row.map((ch,c)=>`<div class="sd-cell" data-r="${r}" data-c="${c}">${ch}</div>`).join('')).join('')}</div>`;
+    el.innerHTML = `<p style="margin-top:0"><i>Look at picture A. Find and TAP the ${d.diffs.length} differences in picture B!</i></p>
+      <div class="sd-wrap">
+        <div class="sd-scene"><h4>A</h4>${grid(d.sceneA)}</div>
+        <div class="sd-scene clickable" id="sdB-${act.code}"><h4>B</h4>${grid(d.sceneB)}</div>
+      </div><div class="checkrow"><span class="score">0 / ${d.diffs.length}</span></div>`;
+    let found = 0;
+    el.querySelectorAll(`#sdB-${act.code} .sd-cell`).forEach(cell=>{
+      cell.onclick = ()=>{
+        if(cell.classList.contains('found')) return;
+        const r=+cell.dataset.r, c=+cell.dataset.c;
+        if(isDiff(r,c)){
+          cell.classList.add('found'); found++;
+          const s=el.querySelector('.score');
+          s.textContent=`${found} / ${d.diffs.length}`;
+          if(found===d.diffs.length){ s.className='score good'; complete(act.code); }
+        } else { cell.classList.add('flash'); setTimeout(()=>cell.classList.remove('flash'),500); }
+      };
+    });
+  }
 },
 
 /* ---- exam task ---- */
