@@ -21,6 +21,12 @@ window.SCREENS = (function () {
     const { cont, pantallas, i } = estado;
     const p = pantallas[i];
 
+    // lo que estuviera sonando se corta aqui: la historia seguia oyendose
+    // encima de la actividad siguiente
+    if (window.SAY && SAY.parar) SAY.parar();
+    if (window.speechSynthesis) { try { speechSynthesis.cancel(); } catch(e){} }
+    cont.querySelectorAll('audio, video').forEach(m => { try { m.pause(); } catch(e){} });
+
     cont.querySelector('.scr-body').innerHTML = p.html;
     cont.querySelector('.scr-tit').textContent = p.titulo || '';
 

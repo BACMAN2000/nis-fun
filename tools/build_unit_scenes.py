@@ -54,12 +54,21 @@ ESCENAS = {
         ("grandma", .68, .71, .44), ("grandpa", .81, .70, .46),
         ("baby", .93, .77, .30), ("family", .06, .28, .20),
     ]),
-    # El Club del Fiordo visita el zoo: los animales, en el huerto del campus
-    "movers/1": ("garden", [
-        ("panda", .10, .72, .34), ("lion", .26, .72, .34),
-        ("kangaroo", .42, .70, .38), ("penguin", .57, .72, .32),
-        ("parrot", .71, .68, .34), ("whale", .87, .76, .28),
-        ("snail", .05, .90, .16), ("dolphin", .34, .90, .20),
+    # El Club del Fiordo llega al zoo. Es la unica escena que no pasa en el
+    # campus: la historia es en el zoo y del zoo no hay fotos de Nordic, asi
+    # que el sitio se dibuja (tools/build_zoo.py). Los ninos estan en la
+    # entrada mirando el plano y decidiendo por donde empezar, y los
+    # animales asoman por sus recintos.
+    "movers/1": ("zoo", [
+        ("char:valentina:2", .28, .68, .48), ("char:erik:1", .42, .70, .46),
+        ("char:sofia:1", .58, .69, .46), ("char:mateo:4", .72, .70, .44),
+        # el plano va DELANTE: se dibuja de menor a mayor y, asi que con la
+        # y mas alta que la de los ninos queda en sus manos y no detras
+        ("prop:zoomap", .50, .78, .24),
+        ("lion", .09, .50, .22), ("panda", .21, .44, .18),
+        ("penguin", .81, .45, .18), ("kangaroo", .93, .49, .22),
+        ("parrot", .14, .28, .13), ("whale", .10, .90, .16),
+        ("dolphin", .90, .90, .16), ("snail", .35, .94, .10),
     ]),
     # Sabado de lluvia y sol junto al fiordo, visto desde el mirador
     "movers/2": ("mirador", [
@@ -151,12 +160,47 @@ def caja_juguetes(alto):
     return im
 
 
+def plano_zoo(alto):
+    """El plano que miran los ninos en la entrada del zoo.
+
+    Se dibuja porque no hay ningun dibujo asi en el banco y solo hace falta
+    aqui: un papel doblado con los caminos y cuatro chinchetas de color, una
+    por recinto."""
+    A = alto
+    W_ = int(A * 1.32)
+    im = Image.new("RGBA", (W_, A), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    papel, linea, borde = (250, 246, 232), (196, 208, 186), (150, 132, 100)
+
+    d.rounded_rectangle([2, 2, W_ - 3, A - 3], int(A * .05), fill=papel,
+                        outline=borde, width=max(2, A // 60))
+    # el doblez del centro
+    d.line([(W_ // 2, 6), (W_ // 2, A - 6)], fill=(232, 226, 208), width=max(2, A // 90))
+    # caminos
+    d.line([(int(W_ * .16), int(A * .78)), (int(W_ * .50), int(A * .52)),
+            (int(W_ * .84), int(A * .74))], fill=linea, width=max(3, A // 34))
+    d.line([(int(W_ * .50), int(A * .52)), (int(W_ * .50), int(A * .22))],
+           fill=linea, width=max(3, A // 34))
+    # una chincheta por recinto
+    for x, y, c in ((.20, .70, (224, 92, 75)), (.40, .40, (232, 178, 58)),
+                    (.62, .36, (75, 168, 160)), (.80, .66, (138, 111, 181))):
+        r = max(3, A // 16)
+        d.ellipse([W_ * x - r, A * y - r, W_ * x + r, A * y + r], fill=c,
+                  outline=(255, 255, 255), width=max(1, A // 90))
+    # una banda arriba, como el titulo del plano
+    d.rounded_rectangle([int(W_ * .18), int(A * .07), int(W_ * .82), int(A * .17)],
+                        int(A * .03), fill=(206, 88, 74))
+    return im
+
+
 def carga_pieza(nombre, alto):
     """Devuelve la imagen de una pieza, sea objeto, personaje o utileria."""
     if nombre.startswith("prop:"):
         cual = nombre.split(":", 1)[1]
         if cual == "toybox":
             return caja_juguetes(alto)
+        if cual == "zoomap":
+            return plano_zoo(alto)
         return None
     if nombre.startswith("char:"):
         partes = nombre.split(":")

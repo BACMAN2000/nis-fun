@@ -253,7 +253,8 @@ window.BANNER = (function () {
           <div class="lh-elenco">
             ${ninos}
             <button class="lh-nino mascota" data-quien="${idx.mascot}" type="button"
-                    aria-label="${idx.mascot}">
+                    aria-label="${idx.mascot[0].toUpperCase() + idx.mascot.slice(1)}">
+              <span class="lh-globo">Hello!</span>
               <img src="../assets/characters/${nivel}/${idx.mascot}/fullbody.png" alt=""
                    onerror="this.onerror=null;this.src='../assets/characters/${nivel}/${idx.mascot}/pose-01.png'">
             </button>
@@ -275,8 +276,13 @@ window.BANNER = (function () {
         void b.offsetWidth;                       // reinicia la animacion
         b.classList.add('dice');
         if (sonando) { sonando.pause(); sonando = null; }
+        const nombre = quien[0].toUpperCase() + quien.slice(1);
         const a = new Audio(`../audio/cast/${nivel}-${quien}.mp3`);
-        a.play().catch(() => {});                 // la mascota no tiene linea
+        const deRespaldo = () => {
+          if (window.SAY) SAY.frase(`Hello! I am ${nombre}!`);
+        };
+        a.onerror = deRespaldo;
+        a.play().catch(deRespaldo);
         sonando = a;
       };
     });

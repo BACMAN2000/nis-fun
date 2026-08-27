@@ -42,6 +42,22 @@ if(/\.github\.io$/i.test(location.hostname)){
   .scr-centro .op-text{text-align:left}
   .scr-centro .units{text-align:left}
   .scr-pie{color:var(--soft)}
+  /* las palabras de la unidad, marcadas en la historia */
+  mark.clave{background:#fff2c9;color:inherit;border-radius:5px;padding:0 .18rem;
+    box-decoration-break:clone;-webkit-box-decoration-break:clone;font-weight:600}
+  /* mando del audio: play, pausa y parar por separado */
+  .lsn-mando{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.9rem;
+    justify-content:center}
+  .lsn-mando button{background:var(--accent);color:#fff;border:0;border-radius:999px;
+    padding:.42rem 1rem;font-family:"Baloo 2",sans-serif;font-weight:700;cursor:pointer}
+  .lsn-mando button:disabled{background:var(--line);color:var(--soft);cursor:default}
+  .provisional{color:var(--soft);font-size:.85rem}
+  /* mientras esta corregido no se puede reescribir encima */
+  input.bloqueado{background:var(--surface2);cursor:default}
+  input.revelado{background:#eaf6f0;border-color:var(--ok);color:var(--ok);font-weight:700}
+  .again{background:var(--star);color:#3a2c05}
+  .reveal{background:var(--surface2);color:var(--ink);border:1px solid var(--line)}
+  .tries{color:var(--soft);font-size:.9rem}
   /* la mascota presentando: su dibujo y un bocadillo que se puede oir */
   .guia{display:flex;align-items:center;gap:.8rem;text-align:left;max-width:46rem;
     margin-inline:auto;width:100%}
@@ -190,7 +206,12 @@ if(/\.github\.io$/i.test(location.hostname)){
   .xw-grid td.cell.wok input{color:var(--ok);font-weight:800}
   .xw-clues{flex:1;min-width:16rem;font-size:.95rem}
   .xw-clues h3{margin:.2rem 0 .3rem}
-  .xw-clues ol{margin:0 0 .8rem;padding-left:1.4rem}
+  /* el numero va escrito, no como marcador: el li esta en flex para
+     alinear el altavoz y en flex el marcador no se pinta */
+  .xw-clues ol{margin:0 0 .8rem;padding-left:0;list-style:none}
+  .clue-n{font-weight:800;color:var(--accent);min-width:1.2rem;flex:none;
+    text-align:right}
+  .clue-t{flex:1}
   .xw-clues li{margin-bottom:.3rem}
   .xw-clues li{display:flex;align-items:flex-start;gap:.45rem;text-align:left}
   .clue-say{background:var(--surface2);color:var(--accent);border:0;border-radius:8px;
@@ -330,8 +351,9 @@ if(/\.github\.io$/i.test(location.hostname)){
 <script src="crossword-layout.js"></script>
 <script src="emoji-map.js"></script>
 <script src="vocab-art.js?v=1"></script>
-<script src="screens.js?v=2"></script>
-<script src="banner.js?v=1"></script>
+<script src="screens.js?v=3"></script>
+<script src="banner.js?v=2"></script>
+<script src="magicbox.js?v=3"></script>
 <script src="recorder.js?v=1"></script>
 <!-- el curso comparte dominio y sesion con el portal -->
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4"></script>
@@ -369,7 +391,7 @@ const store = {
 
 // El contenido se cachea igual que los mp4: al cambiar una unidad hay que
 // subir esta fecha o el alumno sigue viendo la version anterior.
-const CONTENT_V = '2026-08-27-guia';
+const CONTENT_V = '2026-08-27-magicbox';
 async function j(path){
   const sep = path.includes('?') ? '&' : '?';
   const r = await fetch(path + sep + 'v=' + CONTENT_V);
@@ -522,6 +544,31 @@ function guiaViva(el){
 
 /* ---------------- UNIT ---------------- */
 let UD, PROG;
+/* Marca en la historia las palabras de la unidad.
+ *
+ * El alumno lee el texto de apertura antes de ver el vocabulario, y las
+ * palabras nuevas le pasan por delante sin que se entere de que son las
+ * importantes. Marcadas, la historia hace de primera presentacion.
+ *
+ * Se marca solo la primera vez que sale cada palabra: subrayarlas todas
+ * convierte el parrafo en un semaforo y deja de destacar nada.
+ */
+function marcaClaves(texto, wordlist){
+  const vistas = new Set();
+  let out = esc(texto);
+  (wordlist || []).forEach(w => {
+    const p = (typeof w === 'string' ? w : (w.w || '')).trim();
+    if (!p || vistas.has(p.toLowerCase())) return;
+    vistas.add(p.toLowerCase());
+    const escapada = p.replace(/[^A-Za-z0-9' ]/g, '');
+    if (!escapada) return;
+    const re = new RegExp('(^|[^A-Za-z<>])(' + escapada + ')(?![A-Za-z])', 'i');
+    out = out.replace(re, (m, antes, palabra) =>
+      antes + '<mark class="clave">' + palabra + '</mark>');
+  });
+  return out;
+}
+
 function makeIntro(ud){
   if (ud.scene && ud.scene.intro) return ud.scene.intro;
   const cap = n => n.charAt(0).toUpperCase()+n.slice(1);
@@ -613,7 +660,7 @@ async function unit(){
       html: `<div class="scr-centro">
         ${escenaHTML}
         <div class="op-text">
-          <p id="lahistoria">${makeIntro(UD)}</p>
+          <p id="lahistoria">${marcaClaves(makeIntro(UD), UD.wordlist)}</p>
           <button class="guia-say historia-say" type="button">🔊 Listen to the story</button>
         </div>
         ${UD.scene && UD.scene.bubble ? `<div class="guia">
@@ -636,8 +683,28 @@ async function unit(){
       alMostrar(){ wirePictureWords(); } },
   ];
 
-  // 4. una actividad por pantalla
-  digital.forEach((a, k) => pantallas.push({
+  // 4. una actividad por pantalla.
+  //
+  // Antes de la de examen se abre la caja magica: el alumno llegaba a
+  // "Choose the correct word" sin que nadie le hubiera ensenado la regla.
+  // La caja la ensena en dibujos y sin nombrarla — a un nino de siete anos
+  // la palabra "comparativo" no le dice nada.
+  const caja = MAGICBOX.para(UD);
+  let cajaPuesta = false;
+
+  digital.forEach((a, k) => {
+    if (caja && !cajaPuesta && (a.type === 'exam_task' || a.code === 'D')) {
+      cajaPuesta = true;
+      pantallas.push({
+        titulo: caja.titulo,
+        etiquetaSiguiente: 'Activity ' + a.code,
+        html: `<div class="scr-centro">
+          ${guiaHTML('Look at my magic box. Watch what happens to the word!', 'Listen')}
+          ${caja.html}</div>`,
+        alMostrar(el){ guiaViva(el); caja.alMostrar(el); },
+      });
+    }
+    pantallas.push({
     titulo: `${a.code} · ${a.title}`,
     etiquetaSiguiente: k < digital.length - 1 ? 'Activity ' + digital[k+1].code : 'Self-check',
     html: `<div class="scr-centro">
@@ -646,21 +713,22 @@ async function unit(){
         <div class="body" id="body-${a.code}"></div></section></div>`,
     alMostrar(el){
       guiaViva(el);
-      const caja = document.getElementById('body-'+a.code);
-      if (caja && !caja.dataset.listo) {
-        RENDER[a.type](a, caja);
-        caja.dataset.listo = '1';
+      const cuerpo = document.getElementById('body-'+a.code);
+      if (cuerpo && !cuerpo.dataset.listo) {
+        RENDER[a.type](a, cuerpo);
+        cuerpo.dataset.listo = '1';
         // En las de hablar, el alumno se graba y se escucha.
         // Va FUERA de la caja del ejercicio: las diferencias se pintan
         // cuando llega su fetch y rehacen el interior de la caja, lo que
         // se llevaba por delante la grabadora si estaba dentro.
         if (a.type === 'pairwork' || a.type === 'spot_diff') {
           const g = document.createElement('div');
-          caja.parentNode.appendChild(g);
+          cuerpo.parentNode.appendChild(g);
           REC.montar(g, {nivel: LEVEL, unidad: UD.number, codigo: a.code});
         }
       }
-    } }));
+    } });
+  });
 
   // 5. repaso: que sabe hacer ya
   pantallas.push({
@@ -725,35 +793,62 @@ function pintaSelfCheck(el, digital){
    navegador salvo que exista grabacion.                                  */
 const SAY = {
   cache: {},
+  sonando: null,          // lo ultimo que se puso, para poder cortarlo
+
+  /* Corta lo que este sonando. Se llama al cambiar de pantalla: si no, la
+     historia se sigue oyendo encima de la actividad siguiente. */
+  parar(){
+    try { if (this.sonando) { this.sonando.pause(); this.sonando.currentTime = 0; } } catch(e){}
+    this.sonando = null;
+    try { if (window.speechSynthesis) speechSynthesis.cancel(); } catch(e){}
+    document.querySelectorAll('.saying').forEach(b => b.classList.remove('saying'));
+  },
   slug(t){ return String(t).toLowerCase().replace(/'/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,''); },
-  voz(t, ritmo){
+  voz(t, ritmo, reintento){
     if (!window.speechSynthesis) return;
     try {
       speechSynthesis.cancel();
+      // La primera vez la lista de voces todavia no ha llegado y speak()
+      // no dice nada: por eso la primera pista del crucigrama se quedaba
+      // muda. Se espera al aviso del navegador y se reintenta una vez.
+      if (!speechSynthesis.getVoices().length && !reintento) {
+        speechSynthesis.onvoiceschanged = () => {
+          speechSynthesis.onvoiceschanged = null;
+          this.voz(t, ritmo, true);
+        };
+        setTimeout(() => this.voz(t, ritmo, true), 350);   // por si no avisa
+        return;
+      }
       const u = new SpeechSynthesisUtterance(t);
       u.lang = 'en-GB'; u.rate = ritmo || 0.85;
+      const gb = speechSynthesis.getVoices().find(v => /en[-_]GB/i.test(v.lang));
+      if (gb) u.voice = gb;
       speechSynthesis.speak(u);
     } catch(e){}
   },
   play(w, btn){
+    this.parar();
     const fin = () => btn && btn.classList.remove('saying');
     btn && btn.classList.add('saying');
     const src = '../audio/words/' + this.slug(w) + '.mp3';
     let a = this.cache[src];
     if (!a){ a = this.cache[src] = new Audio(src); a.preload = 'auto'; }
     a.currentTime = 0;
+    this.sonando = a;
     a.onended = fin;
-    a.onerror = () => { this.voz(w); setTimeout(fin, 700); };
+    a.onerror = () => { this.sonando = null; this.voz(w); setTimeout(fin, 700); };
     const pr = a.play();
     if (pr && pr.catch) pr.catch(() => { this.voz(w); setTimeout(fin, 700); });
   },
   frase(t, btn){
+    this.parar();
     const fin = () => btn && btn.classList.remove('saying');
     btn && btn.classList.add('saying');
     const src = '../audio/clues/' + this.slug(t).slice(0, 60) + '.mp3';
     const a = new Audio(src);
+    this.sonando = a;
     a.onended = fin;
-    a.onerror = () => { this.voz(t, 0.78); setTimeout(fin, 1600); };
+    a.onerror = () => { this.sonando = null; this.voz(t, 0.78); setTimeout(fin, 1600); };
     const pr = a.play();
     if (pr && pr.catch) pr.catch(() => { this.voz(t, 0.78); setTimeout(fin, 1600); });
   }
@@ -786,6 +881,75 @@ function complete(code, msg){
   c.classList.add('on');
 }
 
+/* Ciclo de intentos de una actividad de escribir.
+ *
+ * Antes se podia corregir y seguir escribiendo encima con la respuesta ya
+ * marcada en rojo, que no ensena nada. Ahora: al comprobar se bloquea; si
+ * queda algo mal aparece "Try again", que borra TODO y deja las casillas
+ * en blanco para intentarlo de nuevo; al tercer intento se ofrece ver la
+ * respuesta.
+ *
+ * cfg = { entradas(), corrige() -> {bien, total}, revela(), alAcertar() }
+ */
+const INTENTOS = 3;
+
+function cicloIntentos(el, cfg){
+  const fila = el.querySelector('.checkrow.final');
+  if (!fila) return;
+  const bChk  = fila.querySelector('.chk');
+  const bOtra = fila.querySelector('.again');
+  const bVer  = fila.querySelector('.reveal');
+  const marca = fila.querySelector('.score');
+  const cuenta = fila.querySelector('.tries');
+  let intento = 0;
+
+  const bloquea = si => cfg.entradas().forEach(i => {
+    i.disabled = si;
+    i.classList.toggle('bloqueado', si);
+  });
+
+  bChk.onclick = () => {
+    const r = cfg.corrige();
+    intento++;
+    bloquea(true);
+    marca.textContent = `${r.bien} / ${r.total}`;
+    marca.className = 'score ' + (r.bien === r.total ? 'good' : 'partial');
+
+    if (r.bien === r.total){
+      bChk.hidden = true; bOtra.hidden = true; bVer.hidden = true;
+      cuenta.textContent = '';
+      if (cfg.alAcertar) cfg.alAcertar();
+      return;
+    }
+    bChk.hidden = true;
+    if (intento < INTENTOS){
+      bOtra.hidden = false;
+      const quedan = INTENTOS - intento;
+      cuenta.textContent = quedan === 1 ? 'one more try' : `${quedan} more tries`;
+    } else {
+      bVer.hidden = false;
+      cuenta.textContent = 'Let\'s look at the answers together.';
+    }
+  };
+
+  bOtra.onclick = () => {
+    // se borra todo: dejar lo de antes en rojo invita a cambiar una letra
+    // y volver a probar, y la idea es que lo piense entero otra vez
+    cfg.entradas().forEach(i => { i.value = ''; i.className = ''; });
+    bloquea(false);
+    marca.textContent = ''; marca.className = 'score';
+    bOtra.hidden = true; bChk.hidden = false;
+    const primera = cfg.entradas()[0];
+    if (primera) primera.focus();
+  };
+
+  if (bVer) bVer.onclick = () => {
+    cfg.revela();
+    bVer.hidden = true;
+    cuenta.textContent = '';
+  };
+}
+
 const RENDER = {
 
 /* ---- crossword ---- */
@@ -812,9 +976,10 @@ crossword(act, el){
     .map(w=>({n:num(w.row+','+w.col),w}))
     .sort((a,b)=>a.n-b.n)
     .map(({n,w})=>`<li value="${n}">
+      <span class="clue-n">${n}</span>
       <button class="clue-say" type="button" data-clue="${esc(w.clue)}"
         title="Listen to the clue" aria-label="Listen to clue ${n}">🔊</button>
-      <span>${w.clue} <small>(${w.word.length})</small></span></li>`).join('')}</ol>`;
+      <span class="clue-t">${w.clue} <small>(${w.word.length})</small></span></li>`).join('')}</ol>`;
   el.innerHTML = `<div class="xw"><div class="xw-gridwrap">${g}</div>
     <div class="xw-clues"><h3>Across ➜</h3>${list('across')}<h3>Down ⬇</h3>${list('down')}</div></div>
     <div class="checkrow"><button>Check</button><span class="score"></span></div>`;
@@ -939,42 +1104,82 @@ pairwork(act, el){
 /* ---- listening ---- */
 listening(act, el){
   el.classList.add('lsn');
-  el.innerHTML = `<div class="checkrow">
-      <button class="play">▶ Listen</button>
+  el.innerHTML = `<div class="lsn-mando">
+      <button class="play" type="button">▶ Play</button>
+      <button class="pause" type="button" disabled>⏸ Pause</button>
+      <button class="stop" type="button" disabled>⏹ Stop</button>
       <span class="provisional"></span></div>
     <div class="gaps">${act.data.questions.map((q,i)=>
       `<label>${i+1}. ${q.q.replace('…','<b>…</b>')} <input data-i="${i}" autocomplete="off"></label>`).join('')}</div>
-    <div class="checkrow"><button class="chk">Check</button><span class="score"></span></div>`;
-  const playBtn = el.querySelector('.play');
+    <div class="checkrow final"><button class="chk">Check</button>
+      <button class="again" type="button" hidden>↻ Try again</button>
+      <button class="reveal" type="button" hidden>👁 See the answers</button>
+      <span class="score"></span><span class="tries"></span></div>`;
+
+  const bPlay = el.querySelector('.play');
+  const bPausa = el.querySelector('.pause');
+  const bStop = el.querySelector('.stop');
   const audio = new Audio(`../audio/${act.audio}`);
-  let mode='mp3', speaking=false;
-  audio.onerror = ()=>{ mode='tts'; el.querySelector('.provisional').textContent='(temporary browser voice — the real audio is coming soon)'; };
-  playBtn.onclick = ()=>{
-    if(mode==='mp3' && !audio.error){ audio.paused ? (audio.play(), playBtn.textContent='⏸ Pause') : (audio.pause(), playBtn.textContent='▶ Listen'); return; }
-    if(speaking){ speechSynthesis.cancel(); speaking=false; playBtn.textContent='▶ Listen'; playBtn.classList.remove('playing'); return; }
-    const parts = act.data.script.split('…');
+  let modo = 'mp3', hablando = false;
+
+  audio.onerror = () => { modo = 'tts';
+    el.querySelector('.provisional').textContent =
+      '(temporary browser voice — the real audio is coming soon)'; };
+
+  function estado(sonando){
+    bPausa.disabled = !sonando || modo === 'tts';   // la voz del navegador
+    bStop.disabled = !sonando;                      // no se puede pausar
+    bPlay.textContent = sonando ? '▶ Playing…' : '▶ Play';
+    bPlay.disabled = sonando;
+  }
+  audio.onended = () => estado(false);
+
+  function conVozDelNavegador(){
+    const partes = act.data.script.split('…');
     speechSynthesis.cancel();
-    const voices = speechSynthesis.getVoices().filter(v=>v.lang.startsWith('en'));
-    parts.forEach((p,i)=>{
-      const u = new SpeechSynthesisUtterance(p.replace(/^[^:]+:/,'').trim());
-      u.lang='en-GB'; u.rate=.92;
-      if(voices.length) u.voice = voices[i%2] || voices[0];
-      if(i===parts.length-1) u.onend=()=>{ speaking=false; playBtn.textContent='▶ Listen'; playBtn.classList.remove('playing'); };
+    const voces = speechSynthesis.getVoices().filter(v => v.lang.startsWith('en'));
+    partes.forEach((p, i) => {
+      const u = new SpeechSynthesisUtterance(p.replace(/^[^:]+:/, '').trim());
+      u.lang = 'en-GB'; u.rate = .92;
+      if (voces.length) u.voice = voces[i % 2] || voces[0];
+      if (i === partes.length - 1) u.onend = () => { hablando = false; estado(false); };
       speechSynthesis.speak(u);
     });
-    speaking=true; playBtn.textContent='⏹ Stop'; playBtn.classList.add('playing');
+    hablando = true; estado(true);
+  }
+
+  bPlay.onclick = () => {
+    if (modo === 'mp3' && !audio.error){ audio.play(); estado(true); return; }
+    conVozDelNavegador();
   };
-  el.querySelector('.chk').onclick = ()=>{
-    let ok=0;
-    el.querySelectorAll('.gaps input').forEach(inp=>{
-      const good = inp.value.trim().toLowerCase()===act.data.questions[+inp.dataset.i].answer.toLowerCase();
-      inp.className = good?'ok':'bad'; if(good) ok++;
-    });
-    const s=el.querySelector('.score');
-    s.textContent=`${ok} / ${act.data.questions.length}`;
-    s.className='score '+(ok===act.data.questions.length?'good':'partial');
-    if(ok===act.data.questions.length) complete(act.code);
+  bPausa.onclick = () => { audio.pause(); estado(false); };
+  bStop.onclick = () => {
+    if (hablando){ speechSynthesis.cancel(); hablando = false; }
+    audio.pause(); audio.currentTime = 0;
+    estado(false);
   };
+
+  const entradas = () => [...el.querySelectorAll('.gaps input')];
+  cicloIntentos(el, {
+    entradas,
+    corrige(){
+      let bien = 0;
+      entradas().forEach(inp => {
+        const q = act.data.questions[+inp.dataset.i];
+        const ok = inp.value.trim().toLowerCase() === q.answer.toLowerCase();
+        inp.className = ok ? 'ok' : 'bad';
+        if (ok) bien++;
+      });
+      return { bien, total: act.data.questions.length };
+    },
+    revela(){
+      entradas().forEach(inp => {
+        const q = act.data.questions[+inp.dataset.i];
+        inp.value = q.answer; inp.className = 'revelado';
+      });
+    },
+    alAcertar(){ complete(act.code); },
+  });
 },
 
 /* ---- gap text: párrafo con huecos + caja de palabras ---- */
