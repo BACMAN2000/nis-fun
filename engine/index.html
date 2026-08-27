@@ -336,7 +336,7 @@ async function unit(){
       const art = (window.VOCAB_ART && VOCAB_ART.get(key)) || null;
       const plano = art || `<span class="emo">${EMOJI[key] || EMOJI[key.toLowerCase()] || '✏️'}</span>`;
       const slug3d = key.toLowerCase().replace(/'/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
-      const ico = `<img class="art3d" src="../assets/vocab/${slug3d}.png" alt="" loading="lazy"
+      const ico = `<img class="art3d" src="../assets/vocab/${slug3d}.png" alt=""
                      onerror="this.replaceWith(...new DOMParser().parseFromString(this.dataset.fb,'text/html').body.childNodes)"
                      data-fb="${esc(plano)}">`;
       return `<button class="pw" type="button" data-say="${esc(w)}"
