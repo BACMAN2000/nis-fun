@@ -1,53 +1,253 @@
 {
-  "id": "starters-22", "level": "starters", "number": 22,
-  "title": "Happy or sad?", "topic": "feelings",
-  "grammar": "I am… / Are you…?",
-  "wordlist": ["happy", "sad", "angry", "tired", "hungry", "thirsty", "scared", "fine", "smile", "cry"],
-  "exam_focus": { "paper": "Listening", "part": 4, "skill": "feelings" },
-  "characters": ["freya", "tomas"],
-  "scene": { "speaker": "freya", "pose": { "freya": 3, "tomas": 10 },
-    "bubble": "Faces tell stories! Happy face, sleepy face, hungry face… Tomás has a hungry face right now." },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the feeling with the moment.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Feeling", "right_label": "Moment",
-        "pairs": [
-          { "left": "happy", "right": "playing with friends" },
-          { "left": "sad", "right": "my ice cream fell down" },
-          { "left": "tired", "right": "after running a lot" },
-          { "left": "hungry", "right": "before lunch" },
-          { "left": "scared", "right": "a big loud noise at night" },
-          { "left": "angry", "right": "someone broke my toy" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Choose the correct feeling.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Complete each sentence.",
-        "items": [
-          { "sentence": "I want food. I am …", "options": ["hungry", "happy", "clean"], "answer": 0 },
-          { "sentence": "I want water. I am …", "options": ["thirsty", "tired", "tall"], "answer": 0 },
-          { "sentence": "It's my birthday! I am …", "options": ["happy", "sad", "angry"], "answer": 0 },
-          { "sentence": "It's late. I am ___ and I want my bed.", "options": ["tired", "hungry", "new"], "answer": 0 },
-          { "sentence": "\"___ you okay?\" — \"Yes, I'm fine!\"", "options": ["Are", "Is", "Am"], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen. How does everyone feel? Write a word in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "starters/u22-c.mp3",
-      "data": { "voice_note": "Voces: Freya y Tomás (jugando a las caras).",
-        "script": "Freya: Faces game! Look at my face. How do I feel? … Tomas: You are happy! Big smile! … Freya: Now you. Oh no… you are hungry, Tomás! … Tomas: Yes! It's almost lunch time! … Freya: Nico is tired today. He played football all morning. … Tomas: And Astrid is happy — she has a new book. … Freya: And Pip? … Tomas: Pip is sleepy. Look, his eyes are closing… goodnight, Pip!",
-        "questions": [
-          { "q": "Freya is … with a big smile.", "answer": "happy" },
-          { "q": "Tomás is … before lunch.", "answer": "hungry" },
-          { "q": "Nico is … after football.", "answer": "tired" },
-          { "q": "Astrid has a new …", "answer": "book" },
-          { "q": "Pip is …", "answer": "sleepy" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "When you are happy, you …", "options": ["smile", "cry", "sleep"], "answer": 0 },
-          { "sentence": "When you are very sad, you can …", "options": ["cry", "laugh", "jump"], "answer": 0 },
-          { "sentence": "After playing all day, you are …", "options": ["tired", "new", "long"], "answer": 0 },
-          { "sentence": "\"How are you?\" — \"I'm ___, thank you!\"", "options": ["fine", "blue", "ten"], "answer": 0 },
-          { "sentence": "A hug helps when a friend is …", "options": ["sad", "happy", "clean"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Make a feeling face. Your partner guesses: \"Are you sad? Are you angry?\" — \"Yes, I am! / No, I'm not!\" Four faces each." } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Draw 4 faces (happy, sad, tired, scared) and write: I am happy when…" } ]
+ "id": "starters-22",
+ "level": "starters",
+ "number": 22,
+ "title": "Happy or sad?",
+ "topic": "feelings",
+ "grammar": "I am… / Are you…?",
+ "wordlist": [
+  "happy",
+  "sad",
+  "angry",
+  "tired",
+  "hungry",
+  "thirsty",
+  "scared",
+  "fine",
+  "smile",
+  "cry"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 4,
+  "skill": "feelings"
+ },
+ "characters": [
+  "freya",
+  "tomas"
+ ],
+ "scene": {
+  "speaker": "freya",
+  "pose": {
+   "freya": 3,
+   "tomas": 10
+  },
+  "bubble": "Faces tell stories! Happy face, sleepy face, hungry face… Tomás has a hungry face right now."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the feeling with the moment.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Feeling",
+    "right_label": "Moment",
+    "pairs": [
+     {
+      "left": "happy",
+      "right": "playing with friends"
+     },
+     {
+      "left": "sad",
+      "right": "my ice cream fell down"
+     },
+     {
+      "left": "tired",
+      "right": "after running a lot"
+     },
+     {
+      "left": "hungry",
+      "right": "before lunch"
+     },
+     {
+      "left": "scared",
+      "right": "a big loud noise at night"
+     },
+     {
+      "left": "angry",
+      "right": "someone broke my toy"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choose the correct feeling.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete each sentence.",
+    "items": [
+     {
+      "sentence": "I want food. I am …",
+      "options": [
+       "hungry",
+       "happy",
+       "clean"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "I want water. I am …",
+      "options": [
+       "thirsty",
+       "tired",
+       "tall"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "It's my birthday! I am …",
+      "options": [
+       "happy",
+       "sad",
+       "angry"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "It's late. I am ___ and I want my bed.",
+      "options": [
+       "tired",
+       "hungry",
+       "new"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"___ you okay?\" — \"Yes, I'm fine!\"",
+      "options": [
+       "Are",
+       "Is",
+       "Am"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen. How does everyone feel? Write a word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u22-c.mp3",
+   "data": {
+    "voice_note": "Voces: Freya y Tomás (jugando a las caras).",
+    "script": "Freya: Faces game! Look at my face. How do I feel? … Tomas: You are happy! Big smile! … Freya: Now you. Oh no… you are hungry, Tomás! … Tomas: Yes! It's almost lunch time! … Freya: Nico is tired today. He played football all morning. … Tomas: And Astrid is happy — she has a new book. … Freya: And Pip? … Tomas: Pip is sleepy. Look, his eyes are closing… goodnight, Pip!",
+    "questions": [
+     {
+      "q": "Freya is … with a big smile.",
+      "answer": "happy"
+     },
+     {
+      "q": "Tomás is … before lunch.",
+      "answer": "hungry"
+     },
+     {
+      "q": "Nico is … after football.",
+      "answer": "tired"
+     },
+     {
+      "q": "Astrid has a new …",
+      "answer": "book"
+     },
+     {
+      "q": "Pip is …",
+      "answer": "sleepy"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "When you are happy, you …",
+      "options": [
+       "smile",
+       "cry",
+       "sleep"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "When you are very sad, you can …",
+      "options": [
+       "cry",
+       "laugh",
+       "jump"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "After playing all day, you are …",
+      "options": [
+       "tired",
+       "new",
+       "long"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"How are you?\" — \"I'm ___, thank you!\"",
+      "options": [
+       "fine",
+       "blue",
+       "ten"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "A hug helps when a friend is …",
+      "options": [
+       "sad",
+       "happy",
+       "clean"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Make a feeling face. Your partner guesses: \"Are you sad? Are you angry?\" — \"Yes, I am! / No, I'm not!\" Four faces each."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Draw 4 faces (happy, sad, tired, scared) and write: I am happy when…"
+  }
+ ]
 }

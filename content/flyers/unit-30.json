@@ -1,53 +1,230 @@
 {
-  "id": "flyers-30", "level": "flyers", "number": 30,
-  "title": "We're moving house!", "topic": "furniture",
-  "grammar": "present continuous (ahora mismo)",
-  "wordlist": ["sofa", "armchair", "carpet", "curtains", "lamp", "mirror", "drawer", "pillow", "blanket", "box"],
-  "exam_focus": { "paper": "Listening", "part": 2, "skill": "note-taking" },
-  "characters": ["diego", "maya"],
-  "scene": { "speaker": "diego", "pose": { "diego": 8, "maya": 8 },
-    "bubble": "Maya's family is moving today! Everyone is carrying boxes… and nobody can find the cat." },
-  "activities": [
-    { "code": "A", "type": "crossword", "title": "Read the sentences and write the furniture words.",
-      "outputs": ["book", "digital"],
-      "data": { "words": [
-        { "word": "ARMCHAIR", "clue": "A big comfortable chair for one person." },
-        { "word": "CURTAINS", "clue": "They hang next to the window. You close them at night." },
-        { "word": "MIRROR", "clue": "You look at yourself in it." },
-        { "word": "CARPET", "clue": "It is soft and covers the floor." },
-        { "word": "PILLOW", "clue": "You put your head on it when you sleep." },
-        { "word": "LAMP", "clue": "It gives light on your desk or next to your bed." } ] } },
-    { "code": "B", "type": "match_words", "title": "Who is doing what? Match the person with the action.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Person", "right_label": "Action right now",
-        "pairs": [
-          { "left": "Dad", "right": "is carrying the heavy sofa" },
-          { "left": "Mum", "right": "is packing the plates in paper" },
-          { "left": "Maya", "right": "is labelling all the boxes" },
-          { "left": "Grandpa", "right": "is resting in the armchair" },
-          { "left": "Diego", "right": "is filming everything for the news" },
-          { "left": "the cat", "right": "is hiding in an empty drawer" } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to the moving day report. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "flyers/u30-c.mp3",
-      "data": { "voice_note": "Voces: Diego (reportando en vivo) y Maya (organizando).",
-        "script": "Diego: Live from moving day! The truck is waiting outside. … Diego: Maya's dad is carrying the blue sofa with Uncle Leo. Careful with the stairs! … Maya: Box number twelve — books. Box thirteen — more books! … Diego: Maya has already labelled thirty boxes. … Diego: Her mum is wrapping the big mirror in a soft blanket. … Diego: Wait — where is the cat? Everyone is looking for the cat! … Maya: Found her! She's sleeping inside the drawer of my desk. … Diego: A perfect end. Next stop: the new house with the red door!",
-        "questions": [
-          { "q": "Dad is carrying the … sofa.", "answer": "blue" },
-          { "q": "Maya has labelled … boxes.", "answer": "thirty" },
-          { "q": "Mum is wrapping the mirror in a soft …", "answer": "blanket" },
-          { "q": "The cat is sleeping inside a …", "answer": "drawer" },
-          { "q": "The new house has a … door.", "answer": "red" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct form.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct present continuous form.",
-        "items": [
-          { "sentence": "Look! They ___ the piano downstairs.", "options": ["is carrying", "are carrying", "carries"], "answer": 1 },
-          { "sentence": "She ___ the cups in soft paper right now.", "options": ["is packing", "packs", "packed"], "answer": 0 },
-          { "sentence": "What ___ you doing with that lamp?", "options": ["is", "are", "do"], "answer": 1 },
-          { "sentence": "You put your head on a ___ to sleep.", "options": ["carpet", "pillow", "mirror"], "answer": 1 },
-          { "sentence": "Close the ___ — the sun is too bright.", "options": ["curtains", "drawers", "boxes"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Mime an action in slow motion (carrying a sofa, packing plates…). Your partner narrates like Diego: \"You are carrying something very heavy… it's a sofa!\" Three mimes each." } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Sit in your living room and write 5 sentences about what everyone is doing right now: My brother is watching TV…" } ]
+ "id": "flyers-30",
+ "level": "flyers",
+ "number": 30,
+ "title": "We're moving house!",
+ "topic": "furniture",
+ "grammar": "present continuous (ahora mismo)",
+ "wordlist": [
+  "sofa",
+  "armchair",
+  "carpet",
+  "curtains",
+  "lamp",
+  "mirror",
+  "drawer",
+  "pillow",
+  "blanket",
+  "box"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 2,
+  "skill": "note-taking"
+ },
+ "characters": [
+  "diego",
+  "maya"
+ ],
+ "scene": {
+  "speaker": "diego",
+  "pose": {
+   "diego": 8,
+   "maya": 8
+  },
+  "bubble": "Maya's family is moving today! Everyone is carrying boxes… and nobody can find the cat."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Read the sentences and write the furniture words.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "ARMCHAIR",
+      "clue": "A big comfortable chair for one person."
+     },
+     {
+      "word": "CURTAINS",
+      "clue": "They hang next to the window. You close them at night."
+     },
+     {
+      "word": "MIRROR",
+      "clue": "You look at yourself in it."
+     },
+     {
+      "word": "CARPET",
+      "clue": "It is soft and covers the floor."
+     },
+     {
+      "word": "PILLOW",
+      "clue": "You put your head on it when you sleep."
+     },
+     {
+      "word": "LAMP",
+      "clue": "It gives light on your desk or next to your bed."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Who is doing what? Match the person with the action.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Person",
+    "right_label": "Action right now",
+    "pairs": [
+     {
+      "left": "Dad",
+      "right": "is carrying the heavy sofa"
+     },
+     {
+      "left": "Mum",
+      "right": "is packing the plates in paper"
+     },
+     {
+      "left": "Maya",
+      "right": "is labelling all the boxes"
+     },
+     {
+      "left": "Grandpa",
+      "right": "is resting in the armchair"
+     },
+     {
+      "left": "Diego",
+      "right": "is filming everything for the news"
+     },
+     {
+      "left": "the cat",
+      "right": "is hiding in an empty drawer"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to the moving day report. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u30-c.mp3",
+   "data": {
+    "voice_note": "Voces: Diego (reportando en vivo) y Maya (organizando).",
+    "script": "Diego: Live from moving day! The truck is waiting outside. … Diego: Maya's dad is carrying the blue sofa with Uncle Leo. Careful with the stairs! … Maya: Box number twelve — books. Box thirteen — more books! … Diego: Maya has already labelled thirty boxes. … Diego: Her mum is wrapping the big mirror in a soft blanket. … Diego: Wait — where is the cat? Everyone is looking for the cat! … Maya: Found her! She's sleeping inside the drawer of my desk. … Diego: A perfect end. Next stop: the new house with the red door!",
+    "questions": [
+     {
+      "q": "Dad is carrying the … sofa.",
+      "answer": "blue"
+     },
+     {
+      "q": "Maya has labelled … boxes.",
+      "answer": "thirty"
+     },
+     {
+      "q": "Mum is wrapping the mirror in a soft …",
+      "answer": "blanket"
+     },
+     {
+      "q": "The cat is sleeping inside a …",
+      "answer": "drawer"
+     },
+     {
+      "q": "The new house has a … door.",
+      "answer": "red"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct form.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct present continuous form.",
+    "items": [
+     {
+      "sentence": "Look! They ___ the piano downstairs.",
+      "options": [
+       "is carrying",
+       "are carrying",
+       "carries"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "She ___ the cups in soft paper right now.",
+      "options": [
+       "is packing",
+       "packs",
+       "packed"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "What ___ you doing with that lamp?",
+      "options": [
+       "is",
+       "are",
+       "do"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "You put your head on a ___ to sleep.",
+      "options": [
+       "carpet",
+       "pillow",
+       "mirror"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Close the ___ — the sun is too bright.",
+      "options": [
+       "curtains",
+       "drawers",
+       "boxes"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Mime an action in slow motion (carrying a sofa, packing plates…). Your partner narrates like Diego: \"You are carrying something very heavy… it's a sofa!\" Three mimes each."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Sit in your living room and write 5 sentences about what everyone is doing right now: My brother is watching TV…"
+  }
+ ]
 }

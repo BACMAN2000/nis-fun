@@ -1,53 +1,253 @@
 {
-  "id": "flyers-29", "level": "flyers", "number": 29,
-  "title": "When do these things happen?", "topic": "frequency",
-  "grammar": "always / usually / often / sometimes / never",
-  "wordlist": ["always", "usually", "often", "sometimes", "never", "once", "twice", "weekend", "daily", "habit"],
-  "exam_focus": { "paper": "Listening", "part": 4, "skill": "multiple choice" },
-  "characters": ["ingrid", "kili"],
-  "scene": { "speaker": "ingrid", "pose": { "ingrid": 1, "kili": 1 },
-    "bubble": "Kili always delivers the mail at eight, usually with a loud hello… and never, ever on Sundays!" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the word with how often it is.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Word", "right_label": "How often",
-        "pairs": [
-          { "left": "always", "right": "100% of the time" },
-          { "left": "usually", "right": "almost every time" },
-          { "left": "often", "right": "many times" },
-          { "left": "sometimes", "right": "not often, not never" },
-          { "left": "never", "right": "0% of the time" },
-          { "left": "twice a week", "right": "two times every week" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Put the word in the right place.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct sentence.",
-        "items": [
-          { "sentence": "Which is correct?", "options": ["I always am happy.", "I am always happy.", "Always I am happy."], "answer": 1 },
-          { "sentence": "Which is correct?", "options": ["She never eats fish.", "She eats never fish.", "Never she eats fish."], "answer": 0 },
-          { "sentence": "Which is correct?", "options": ["We go usually by bus.", "We usually go by bus.", "Usually we go by the bus always."], "answer": 1 },
-          { "sentence": "\"How ___ do you train?\" — \"Twice a week.\"", "options": ["often", "much", "long"], "answer": 0 },
-          { "sentence": "I visit my grandparents ___ a month.", "options": ["once", "one", "first"], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to Kili's daily routine. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "flyers/u29-c.mp3",
-      "data": { "voice_note": "Voces: Ingrid (contando la rutina de Kili).",
-        "script": "Ingrid: Kili's day is like a clock! He always wakes up at six, when the sun touches the lighthouse. … Ingrid: He usually has breakfast with us: bread, seeds and one strawberry. … Ingrid: At eight he delivers the mail. He often sings while he flies — very badly! … Ingrid: In the afternoon he sometimes visits the ships in the port. … Ingrid: He never flies at night. Night is for sleeping in his nest. … Ingrid: And on Sundays? On Sundays Kili does absolutely nothing. It's his favourite habit!",
-        "questions": [
-          { "q": "Kili always wakes up at …", "answer": "six" },
-          { "q": "For breakfast he has bread, seeds and one …", "answer": "strawberry" },
-          { "q": "He often … while he flies.", "answer": "sings" },
-          { "q": "He sometimes visits the ships in the …", "answer": "port" },
-          { "q": "He never flies at …", "answer": "night" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "Saturday and Sunday are the …", "options": ["weekend", "habit", "holiday"], "answer": 0 },
-          { "sentence": "Something you do every day is a daily …", "options": ["prize", "habit", "news"], "answer": 1 },
-          { "sentence": "\"Once\" means ___ time.", "options": ["one", "two", "no"], "answer": 0 },
-          { "sentence": "It ___ snows in Lima — almost never!", "options": ["always", "rarely", "usually"], "answer": 1 },
-          { "sentence": "I brush my teeth ___ a day: morning and night.", "options": ["once", "twice", "never"], "answer": 1 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Habits interview: ask your partner 5 questions with How often…? (watch TV, play videogames, help at home…). Then report the most interesting: \"Marco never drinks milk!\"" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write your daily routine with 5 frequency words: I always wake up at… I sometimes…" } ]
+ "id": "flyers-29",
+ "level": "flyers",
+ "number": 29,
+ "title": "When do these things happen?",
+ "topic": "frequency",
+ "grammar": "always / usually / often / sometimes / never",
+ "wordlist": [
+  "always",
+  "usually",
+  "often",
+  "sometimes",
+  "never",
+  "once",
+  "twice",
+  "weekend",
+  "daily",
+  "habit"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 4,
+  "skill": "multiple choice"
+ },
+ "characters": [
+  "ingrid",
+  "kili"
+ ],
+ "scene": {
+  "speaker": "ingrid",
+  "pose": {
+   "ingrid": 1,
+   "kili": 1
+  },
+  "bubble": "Kili always delivers the mail at eight, usually with a loud hello… and never, ever on Sundays!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the word with how often it is.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "How often",
+    "pairs": [
+     {
+      "left": "always",
+      "right": "100% of the time"
+     },
+     {
+      "left": "usually",
+      "right": "almost every time"
+     },
+     {
+      "left": "often",
+      "right": "many times"
+     },
+     {
+      "left": "sometimes",
+      "right": "not often, not never"
+     },
+     {
+      "left": "never",
+      "right": "0% of the time"
+     },
+     {
+      "left": "twice a week",
+      "right": "two times every week"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Put the word in the right place.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct sentence.",
+    "items": [
+     {
+      "sentence": "Which is correct?",
+      "options": [
+       "I always am happy.",
+       "I am always happy.",
+       "Always I am happy."
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Which is correct?",
+      "options": [
+       "She never eats fish.",
+       "She eats never fish.",
+       "Never she eats fish."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Which is correct?",
+      "options": [
+       "We go usually by bus.",
+       "We usually go by bus.",
+       "Usually we go by the bus always."
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "\"How ___ do you train?\" — \"Twice a week.\"",
+      "options": [
+       "often",
+       "much",
+       "long"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "I visit my grandparents ___ a month.",
+      "options": [
+       "once",
+       "one",
+       "first"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to Kili's daily routine. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u29-c.mp3",
+   "data": {
+    "voice_note": "Voces: Ingrid (contando la rutina de Kili).",
+    "script": "Ingrid: Kili's day is like a clock! He always wakes up at six, when the sun touches the lighthouse. … Ingrid: He usually has breakfast with us: bread, seeds and one strawberry. … Ingrid: At eight he delivers the mail. He often sings while he flies — very badly! … Ingrid: In the afternoon he sometimes visits the ships in the port. … Ingrid: He never flies at night. Night is for sleeping in his nest. … Ingrid: And on Sundays? On Sundays Kili does absolutely nothing. It's his favourite habit!",
+    "questions": [
+     {
+      "q": "Kili always wakes up at …",
+      "answer": "six"
+     },
+     {
+      "q": "For breakfast he has bread, seeds and one …",
+      "answer": "strawberry"
+     },
+     {
+      "q": "He often … while he flies.",
+      "answer": "sings"
+     },
+     {
+      "q": "He sometimes visits the ships in the …",
+      "answer": "port"
+     },
+     {
+      "q": "He never flies at …",
+      "answer": "night"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "Saturday and Sunday are the …",
+      "options": [
+       "weekend",
+       "habit",
+       "holiday"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Something you do every day is a daily …",
+      "options": [
+       "prize",
+       "habit",
+       "news"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "\"Once\" means ___ time.",
+      "options": [
+       "one",
+       "two",
+       "no"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "It ___ snows in Lima — almost never!",
+      "options": [
+       "always",
+       "rarely",
+       "usually"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "I brush my teeth ___ a day: morning and night.",
+      "options": [
+       "once",
+       "twice",
+       "never"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Habits interview: ask your partner 5 questions with How often…? (watch TV, play videogames, help at home…). Then report the most interesting: \"Marco never drinks milk!\""
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write your daily routine with 5 frequency words: I always wake up at… I sometimes…"
+  }
+ ]
 }

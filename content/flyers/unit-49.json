@@ -1,53 +1,253 @@
 {
-  "id": "flyers-49", "level": "flyers", "number": 49,
-  "title": "Give me a short answer", "topic": "short answers",
-  "grammar": "respuestas cortas: Yes, I do. / No, she hasn't…",
-  "wordlist": ["answer", "question", "quick", "correct", "wrong", "point", "game show", "buzzer", "round", "winner"],
-  "exam_focus": { "paper": "Listening", "part": 4, "skill": "multiple choice" },
-  "characters": ["diego", "ingrid"],
-  "scene": { "speaker": "diego", "pose": { "diego": 3, "ingrid": 10 },
-    "bubble": "Welcome to QUICK ANSWERS, the game show where long answers lose points! Yes or no, team!" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the question with its short answer.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Question", "right_label": "Short answer",
-        "pairs": [
-          { "left": "Do you like fish?", "right": "Yes, I do." },
-          { "left": "Is she your sister?", "right": "No, she isn't." },
-          { "left": "Have you finished?", "right": "Yes, I have." },
-          { "left": "Can Kili swim?", "right": "No, he can't." },
-          { "left": "Did they win the match?", "right": "Yes, they did." },
-          { "left": "Will it rain tomorrow?", "right": "No, it won't." } ] } },
-    { "code": "B", "type": "exam_task", "title": "Choose the correct short answer.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct short answer.",
-        "items": [
-          { "sentence": "\"Does Maya wear glasses?\"", "options": ["Yes, she does.", "Yes, she is.", "Yes, she has."], "answer": 0 },
-          { "sentence": "\"Are you ready?\"", "options": ["Yes, I do.", "Yes, I am.", "Yes, I can."], "answer": 1 },
-          { "sentence": "\"Has Oliver got a guitar?\"", "options": ["Yes, he has.", "Yes, he does.", "Yes, he is."], "answer": 0 },
-          { "sentence": "\"Did you see the film?\"", "options": ["No, I didn't.", "No, I don't.", "No, I haven't."], "answer": 0 },
-          { "sentence": "\"Can penguins fly?\"", "options": ["No, they can't.", "No, they don't.", "No, they aren't."], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to the game show final. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "flyers/u49-c.mp3",
-      "data": { "voice_note": "Voces: Diego (presentador) e Ingrid (finalista).",
-        "script": "Diego: Final round of Quick Answers! Ingrid, ten seconds per question. … Diego: Is the Amazon in South America? … Ingrid: Yes, it is! … Diego: One point! Can a whale walk? … Ingrid: No, it can't! … Diego: Two points! Have you ever ridden a camel? … Ingrid: No, I haven't. But I want to! … Diego: Short answers only! Still a point. Does Kili deliver mail on Sundays? … Ingrid: No, he doesn't. Never on Sundays! … Diego: Final score: four points! Ingrid wins the golden buzzer! … Ingrid: Do I get a prize? … Diego: Yes, you do: you're the next presenter!",
-        "questions": [
-          { "q": "Ingrid has … seconds per question.", "answer": "ten" },
-          { "q": "A whale can't …", "answer": "walk" },
-          { "q": "Ingrid has never ridden a …", "answer": "camel" },
-          { "q": "Kili never delivers mail on …", "answer": "Sundays" },
-          { "q": "Ingrid wins the golden …", "answer": "buzzer" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "If your answer is right, it is …", "options": ["correct", "wrong", "quick"], "answer": 0 },
-          { "sentence": "In a quiz you win a ___ for each correct answer.", "options": ["point", "stamp", "step"], "answer": 0 },
-          { "sentence": "\"Is this seat free?\" — \"Yes, it ___.\"", "options": ["is", "does", "has"], "answer": 0 },
-          { "sentence": "\"Do condors eat biscuits?\" — \"Ours ___!\"", "options": ["does", "is", "has"], "answer": 0 },
-          { "sentence": "The person with most points is the …", "options": ["winner", "guest", "presenter"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Play Quick Answers: 6 yes/no questions each, only short answers allowed (Yes, I do / No, she hasn't…). A full-sentence answer loses the point!" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write 6 yes/no questions for your family and their real short answers: Does dad cook? — Yes, he does." } ]
+ "id": "flyers-49",
+ "level": "flyers",
+ "number": 49,
+ "title": "Give me a short answer",
+ "topic": "short answers",
+ "grammar": "respuestas cortas: Yes, I do. / No, she hasn't…",
+ "wordlist": [
+  "answer",
+  "question",
+  "quick",
+  "correct",
+  "wrong",
+  "point",
+  "game show",
+  "buzzer",
+  "round",
+  "winner"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 4,
+  "skill": "multiple choice"
+ },
+ "characters": [
+  "diego",
+  "ingrid"
+ ],
+ "scene": {
+  "speaker": "diego",
+  "pose": {
+   "diego": 3,
+   "ingrid": 10
+  },
+  "bubble": "Welcome to QUICK ANSWERS, the game show where long answers lose points! Yes or no, team!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the question with its short answer.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Question",
+    "right_label": "Short answer",
+    "pairs": [
+     {
+      "left": "Do you like fish?",
+      "right": "Yes, I do."
+     },
+     {
+      "left": "Is she your sister?",
+      "right": "No, she isn't."
+     },
+     {
+      "left": "Have you finished?",
+      "right": "Yes, I have."
+     },
+     {
+      "left": "Can Kili swim?",
+      "right": "No, he can't."
+     },
+     {
+      "left": "Did they win the match?",
+      "right": "Yes, they did."
+     },
+     {
+      "left": "Will it rain tomorrow?",
+      "right": "No, it won't."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choose the correct short answer.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct short answer.",
+    "items": [
+     {
+      "sentence": "\"Does Maya wear glasses?\"",
+      "options": [
+       "Yes, she does.",
+       "Yes, she is.",
+       "Yes, she has."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"Are you ready?\"",
+      "options": [
+       "Yes, I do.",
+       "Yes, I am.",
+       "Yes, I can."
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "\"Has Oliver got a guitar?\"",
+      "options": [
+       "Yes, he has.",
+       "Yes, he does.",
+       "Yes, he is."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"Did you see the film?\"",
+      "options": [
+       "No, I didn't.",
+       "No, I don't.",
+       "No, I haven't."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"Can penguins fly?\"",
+      "options": [
+       "No, they can't.",
+       "No, they don't.",
+       "No, they aren't."
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to the game show final. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u49-c.mp3",
+   "data": {
+    "voice_note": "Voces: Diego (presentador) e Ingrid (finalista).",
+    "script": "Diego: Final round of Quick Answers! Ingrid, ten seconds per question. … Diego: Is the Amazon in South America? … Ingrid: Yes, it is! … Diego: One point! Can a whale walk? … Ingrid: No, it can't! … Diego: Two points! Have you ever ridden a camel? … Ingrid: No, I haven't. But I want to! … Diego: Short answers only! Still a point. Does Kili deliver mail on Sundays? … Ingrid: No, he doesn't. Never on Sundays! … Diego: Final score: four points! Ingrid wins the golden buzzer! … Ingrid: Do I get a prize? … Diego: Yes, you do: you're the next presenter!",
+    "questions": [
+     {
+      "q": "Ingrid has … seconds per question.",
+      "answer": "ten"
+     },
+     {
+      "q": "A whale can't …",
+      "answer": "walk"
+     },
+     {
+      "q": "Ingrid has never ridden a …",
+      "answer": "camel"
+     },
+     {
+      "q": "Kili never delivers mail on …",
+      "answer": "Sundays"
+     },
+     {
+      "q": "Ingrid wins the golden …",
+      "answer": "buzzer"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "If your answer is right, it is …",
+      "options": [
+       "correct",
+       "wrong",
+       "quick"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "In a quiz you win a ___ for each correct answer.",
+      "options": [
+       "point",
+       "stamp",
+       "step"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"Is this seat free?\" — \"Yes, it ___.\"",
+      "options": [
+       "is",
+       "does",
+       "has"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"Do condors eat biscuits?\" — \"Ours ___!\"",
+      "options": [
+       "does",
+       "is",
+       "has"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The person with most points is the …",
+      "options": [
+       "winner",
+       "guest",
+       "presenter"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Play Quick Answers: 6 yes/no questions each, only short answers allowed (Yes, I do / No, she hasn't…). A full-sentence answer loses the point!"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write 6 yes/no questions for your family and their real short answers: Does dad cook? — Yes, he does."
+  }
+ ]
 }

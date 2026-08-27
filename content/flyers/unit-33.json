@@ -1,53 +1,253 @@
 {
-  "id": "flyers-33", "level": "flyers", "number": 33,
-  "title": "How about tennis?", "topic": "suggestions",
-  "grammar": "How about + -ing / Shall we / Let's",
-  "wordlist": ["suggest", "idea", "agree", "prefer", "instead", "maybe", "great", "boring", "club", "join"],
-  "exam_focus": { "paper": "Reading & Writing", "part": 3, "skill": "conversation responses" },
-  "characters": ["ingrid", "diego"],
-  "scene": { "speaker": "ingrid", "pose": { "ingrid": 3, "diego": 4 },
-    "bubble": "Saturday is free! How about tennis? Or shall we go to the pool? Diego, stop filming and help us decide!" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the suggestion with the reply.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Suggestion", "right_label": "Reply",
-        "pairs": [
-          { "left": "How about playing tennis?", "right": "Great idea! I love tennis." },
-          { "left": "Shall we watch a film?", "right": "Which one? I prefer funny films." },
-          { "left": "Let's go to the pool!", "right": "Yes! I'll bring my goggles." },
-          { "left": "Why don't we cook something?", "right": "Okay, pancakes again?" },
-          { "left": "How about doing homework first?", "right": "Hmm… okay, but quickly!" },
-          { "left": "Shall we ask Oliver to come?", "right": "Of course, he's always fun." } ] } },
-    { "code": "B", "type": "exam_task", "title": "Choose the correct form of the suggestion.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct words.",
-        "items": [
-          { "sentence": "How about ___ to the beach?", "options": ["go", "going", "to go"], "answer": 1 },
-          { "sentence": "___ we play chess after lunch?", "options": ["Shall", "Do", "How"], "answer": 0 },
-          { "sentence": "Let's ___ the new museum!", "options": ["visiting", "to visit", "visit"], "answer": 2 },
-          { "sentence": "Why ___ we invite the whole class?", "options": ["don't", "aren't", "haven't"], "answer": 0 },
-          { "sentence": "I prefer swimming ___ of running.", "options": ["instead", "because", "also"], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen. What do they decide to do? Write a word in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "flyers/u33-c.mp3",
-      "data": { "voice_note": "Voces: Ingrid (proponiendo) y Diego (votando).",
-        "script": "Ingrid: Okay team, Saturday plans! How about tennis in the morning? … Diego: Hmm, the courts are closed on Saturday. What about the pool? … Ingrid: The pool opens at ten. Perfect for the morning! … Diego: And in the afternoon? Shall we go to the cinema? … Ingrid: Maya prefers the science museum. There's a new dinosaur room! … Diego: Dinosaurs win! Cinema next week instead. … Ingrid: So: pool at ten, sandwiches at one, dinosaurs at three. … Diego: And ice cream at five. Every good plan ends with ice cream!",
-        "questions": [
-          { "q": "The tennis courts are … on Saturday.", "answer": "closed" },
-          { "q": "The pool opens at …", "answer": "ten" },
-          { "q": "Maya prefers the science …", "answer": "museum" },
-          { "q": "The museum has a new … room.", "answer": "dinosaur" },
-          { "q": "Every good plan ends with ice …", "answer": "cream" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the best reply.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the best answer.",
-        "items": [
-          { "sentence": "\"How about going skating?\"", "options": ["Great idea!", "It's made of wool.", "Twice a week."], "answer": 0 },
-          { "sentence": "\"Shall we start now?\"", "options": ["Yes, let's!", "Yesterday.", "It's mine."], "answer": 0 },
-          { "sentence": "\"I don't like this game.\"", "options": ["Let's play another one, then.", "The train is late.", "He's got a beard."], "answer": 0 },
-          { "sentence": "\"Why don't we join the chess club?\"", "options": ["Maybe — is it on Fridays?", "It's opposite the bank.", "She has just arrived."], "answer": 0 },
-          { "sentence": "\"Do you agree with the plan?\"", "options": ["Yes, totally!", "By helicopter.", "A quarter past two."], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Plan the perfect Saturday together. Each of you makes 3 suggestions (How about…? / Shall we…?) and you must agree on a final plan of 3 activities. Present it: \"First we're going to…\"" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write a note to a friend with 3 suggestions for the weekend, each with a different structure: How about…? Shall we…? Let's…" } ]
+ "id": "flyers-33",
+ "level": "flyers",
+ "number": 33,
+ "title": "How about tennis?",
+ "topic": "suggestions",
+ "grammar": "How about + -ing / Shall we / Let's",
+ "wordlist": [
+  "suggest",
+  "idea",
+  "agree",
+  "prefer",
+  "instead",
+  "maybe",
+  "great",
+  "boring",
+  "club",
+  "join"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 3,
+  "skill": "conversation responses"
+ },
+ "characters": [
+  "ingrid",
+  "diego"
+ ],
+ "scene": {
+  "speaker": "ingrid",
+  "pose": {
+   "ingrid": 3,
+   "diego": 4
+  },
+  "bubble": "Saturday is free! How about tennis? Or shall we go to the pool? Diego, stop filming and help us decide!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the suggestion with the reply.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Suggestion",
+    "right_label": "Reply",
+    "pairs": [
+     {
+      "left": "How about playing tennis?",
+      "right": "Great idea! I love tennis."
+     },
+     {
+      "left": "Shall we watch a film?",
+      "right": "Which one? I prefer funny films."
+     },
+     {
+      "left": "Let's go to the pool!",
+      "right": "Yes! I'll bring my goggles."
+     },
+     {
+      "left": "Why don't we cook something?",
+      "right": "Okay, pancakes again?"
+     },
+     {
+      "left": "How about doing homework first?",
+      "right": "Hmm… okay, but quickly!"
+     },
+     {
+      "left": "Shall we ask Oliver to come?",
+      "right": "Of course, he's always fun."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choose the correct form of the suggestion.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct words.",
+    "items": [
+     {
+      "sentence": "How about ___ to the beach?",
+      "options": [
+       "go",
+       "going",
+       "to go"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "___ we play chess after lunch?",
+      "options": [
+       "Shall",
+       "Do",
+       "How"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Let's ___ the new museum!",
+      "options": [
+       "visiting",
+       "to visit",
+       "visit"
+      ],
+      "answer": 2
+     },
+     {
+      "sentence": "Why ___ we invite the whole class?",
+      "options": [
+       "don't",
+       "aren't",
+       "haven't"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "I prefer swimming ___ of running.",
+      "options": [
+       "instead",
+       "because",
+       "also"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen. What do they decide to do? Write a word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u33-c.mp3",
+   "data": {
+    "voice_note": "Voces: Ingrid (proponiendo) y Diego (votando).",
+    "script": "Ingrid: Okay team, Saturday plans! How about tennis in the morning? … Diego: Hmm, the courts are closed on Saturday. What about the pool? … Ingrid: The pool opens at ten. Perfect for the morning! … Diego: And in the afternoon? Shall we go to the cinema? … Ingrid: Maya prefers the science museum. There's a new dinosaur room! … Diego: Dinosaurs win! Cinema next week instead. … Ingrid: So: pool at ten, sandwiches at one, dinosaurs at three. … Diego: And ice cream at five. Every good plan ends with ice cream!",
+    "questions": [
+     {
+      "q": "The tennis courts are … on Saturday.",
+      "answer": "closed"
+     },
+     {
+      "q": "The pool opens at …",
+      "answer": "ten"
+     },
+     {
+      "q": "Maya prefers the science …",
+      "answer": "museum"
+     },
+     {
+      "q": "The museum has a new … room.",
+      "answer": "dinosaur"
+     },
+     {
+      "q": "Every good plan ends with ice …",
+      "answer": "cream"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the best reply.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the best answer.",
+    "items": [
+     {
+      "sentence": "\"How about going skating?\"",
+      "options": [
+       "Great idea!",
+       "It's made of wool.",
+       "Twice a week."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"Shall we start now?\"",
+      "options": [
+       "Yes, let's!",
+       "Yesterday.",
+       "It's mine."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"I don't like this game.\"",
+      "options": [
+       "Let's play another one, then.",
+       "The train is late.",
+       "He's got a beard."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"Why don't we join the chess club?\"",
+      "options": [
+       "Maybe — is it on Fridays?",
+       "It's opposite the bank.",
+       "She has just arrived."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"Do you agree with the plan?\"",
+      "options": [
+       "Yes, totally!",
+       "By helicopter.",
+       "A quarter past two."
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Plan the perfect Saturday together. Each of you makes 3 suggestions (How about…? / Shall we…?) and you must agree on a final plan of 3 activities. Present it: \"First we're going to…\""
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write a note to a friend with 3 suggestions for the weekend, each with a different structure: How about…? Shall we…? Let's…"
+  }
+ ]
 }

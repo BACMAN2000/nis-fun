@@ -1,53 +1,253 @@
 {
-  "id": "movers-11", "level": "movers", "number": 11,
-  "title": "At the lake", "topic": "nature",
-  "grammar": "Let's + actividad",
-  "wordlist": ["lake", "forest", "mountain", "rock", "fish", "boat", "picnic", "swim", "jump", "cold"],
-  "exam_focus": { "paper": "Listening", "part": 4, "skill": "multiple choice" },
-  "characters": ["valentina", "erik"],
-  "scene": { "speaker": "valentina", "pose": { "valentina": 1, "erik": 5 },
-    "bubble": "The lake is like a mirror today! Let's take the little boat — and Erik, please don't bring inventions that sink." },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the place with what you find there.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Place", "right_label": "You find…",
-        "pairs": [
-          { "left": "the lake", "right": "calm water and little boats" },
-          { "left": "the forest", "right": "tall trees and shadows" },
-          { "left": "the mountain", "right": "snow at the top" },
-          { "left": "the big rock", "right": "the best place to jump from" },
-          { "left": "the picnic blanket", "right": "sandwiches and juice" },
-          { "left": "the water near the beach", "right": "small silver fish" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Choose the correct suggestion with Let's.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct words.",
-        "items": [
-          { "sentence": "It's hot! ___ swim in the lake.", "options": ["Let's", "Lets", "Let"], "answer": 0 },
-          { "sentence": "Let's ___ the boat to the island.", "options": ["take", "taking", "takes"], "answer": 0 },
-          { "sentence": "I'm hungry. Let's ___ the picnic now!", "options": ["have", "having", "has"], "answer": 0 },
-          { "sentence": "\"Let's jump from the rock!\" — \"___\"", "options": ["Good idea!", "Yesterday.", "It's hers."], "answer": 0 },
-          { "sentence": "Let's ___ home before it gets dark.", "options": ["go", "goes", "going"], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to the day at the lake. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "movers/u11-c.mp3",
-      "data": { "voice_note": "Voces: Valentina (narrando) y Erik (con frío).",
-        "script": "Valentina: We walked through the forest for one hour to reach the lake. … Erik: The water is beautiful… and COLD! Very cold! … Valentina: Mateo jumped from the big rock first. What a splash! … Erik: I'm testing my new boat. It's made of six plastic bottles. … Valentina: And it floats! Science works, Erik. … Erik: To the island! There are hundreds of little fish under us. … Valentina: After swimming we had the picnic: cheese sandwiches and grape juice. … Erik: Best laboratory ever: the great outdoors!",
-        "questions": [
-          { "q": "They walked through the forest for one …", "answer": "hour" },
-          { "q": "… jumped from the big rock first.", "answer": "Mateo" },
-          { "q": "Erik's boat is made of six plastic …", "answer": "bottles" },
-          { "q": "Under the boat there are hundreds of little …", "answer": "fish" },
-          { "q": "For the picnic they had cheese sandwiches and grape …", "answer": "juice" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "A ___ is water with land all around it.", "options": ["lake", "mountain", "forest"], "answer": 0 },
-          { "sentence": "A place full of trees is a …", "options": ["forest", "rock", "boat"], "answer": 0 },
-          { "sentence": "You travel on the water in a …", "options": ["boat", "basket", "bed"], "answer": 0 },
-          { "sentence": "The opposite of hot water is ___ water.", "options": ["cold", "tasty", "heavy"], "answer": 0 },
-          { "sentence": "Eating outside on a blanket is a …", "options": ["picnic", "poster", "pond"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Plan a lake day with 4 suggestions using Let's… Your partner answers each one (Good idea! / Hmm, let's… instead). Agree on the final plan." } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Describe a natural place you visited: where, what there is, what you did. 5 sentences." } ]
+ "id": "movers-11",
+ "level": "movers",
+ "number": 11,
+ "title": "At the lake",
+ "topic": "nature",
+ "grammar": "Let's + actividad",
+ "wordlist": [
+  "lake",
+  "forest",
+  "mountain",
+  "rock",
+  "fish",
+  "boat",
+  "picnic",
+  "swim",
+  "jump",
+  "cold"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 4,
+  "skill": "multiple choice"
+ },
+ "characters": [
+  "valentina",
+  "erik"
+ ],
+ "scene": {
+  "speaker": "valentina",
+  "pose": {
+   "valentina": 1,
+   "erik": 5
+  },
+  "bubble": "The lake is like a mirror today! Let's take the little boat — and Erik, please don't bring inventions that sink."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the place with what you find there.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Place",
+    "right_label": "You find…",
+    "pairs": [
+     {
+      "left": "the lake",
+      "right": "calm water and little boats"
+     },
+     {
+      "left": "the forest",
+      "right": "tall trees and shadows"
+     },
+     {
+      "left": "the mountain",
+      "right": "snow at the top"
+     },
+     {
+      "left": "the big rock",
+      "right": "the best place to jump from"
+     },
+     {
+      "left": "the picnic blanket",
+      "right": "sandwiches and juice"
+     },
+     {
+      "left": "the water near the beach",
+      "right": "small silver fish"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choose the correct suggestion with Let's.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct words.",
+    "items": [
+     {
+      "sentence": "It's hot! ___ swim in the lake.",
+      "options": [
+       "Let's",
+       "Lets",
+       "Let"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Let's ___ the boat to the island.",
+      "options": [
+       "take",
+       "taking",
+       "takes"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "I'm hungry. Let's ___ the picnic now!",
+      "options": [
+       "have",
+       "having",
+       "has"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"Let's jump from the rock!\" — \"___\"",
+      "options": [
+       "Good idea!",
+       "Yesterday.",
+       "It's hers."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Let's ___ home before it gets dark.",
+      "options": [
+       "go",
+       "goes",
+       "going"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to the day at the lake. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u11-c.mp3",
+   "data": {
+    "voice_note": "Voces: Valentina (narrando) y Erik (con frío).",
+    "script": "Valentina: We walked through the forest for one hour to reach the lake. … Erik: The water is beautiful… and COLD! Very cold! … Valentina: Mateo jumped from the big rock first. What a splash! … Erik: I'm testing my new boat. It's made of six plastic bottles. … Valentina: And it floats! Science works, Erik. … Erik: To the island! There are hundreds of little fish under us. … Valentina: After swimming we had the picnic: cheese sandwiches and grape juice. … Erik: Best laboratory ever: the great outdoors!",
+    "questions": [
+     {
+      "q": "They walked through the forest for one …",
+      "answer": "hour"
+     },
+     {
+      "q": "… jumped from the big rock first.",
+      "answer": "Mateo"
+     },
+     {
+      "q": "Erik's boat is made of six plastic …",
+      "answer": "bottles"
+     },
+     {
+      "q": "Under the boat there are hundreds of little …",
+      "answer": "fish"
+     },
+     {
+      "q": "For the picnic they had cheese sandwiches and grape …",
+      "answer": "juice"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "A ___ is water with land all around it.",
+      "options": [
+       "lake",
+       "mountain",
+       "forest"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "A place full of trees is a …",
+      "options": [
+       "forest",
+       "rock",
+       "boat"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "You travel on the water in a …",
+      "options": [
+       "boat",
+       "basket",
+       "bed"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The opposite of hot water is ___ water.",
+      "options": [
+       "cold",
+       "tasty",
+       "heavy"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Eating outside on a blanket is a …",
+      "options": [
+       "picnic",
+       "poster",
+       "pond"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Plan a lake day with 4 suggestions using Let's… Your partner answers each one (Good idea! / Hmm, let's… instead). Agree on the final plan."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Describe a natural place you visited: where, what there is, what you did. 5 sentences."
+  }
+ ]
 }

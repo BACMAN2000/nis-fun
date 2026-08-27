@@ -1,53 +1,253 @@
 {
-  "id": "starters-14", "level": "starters", "number": 14,
-  "title": "Drinks", "topic": "drinks",
-  "grammar": "Can I have…?",
-  "wordlist": ["water", "milk", "juice", "lemonade", "hot chocolate", "cup", "glass", "drink", "thirsty", "cold"],
-  "exam_focus": { "paper": "Listening", "part": 4, "skill": "drinks" },
-  "characters": ["nico", "tomas"],
-  "scene": { "speaker": "nico", "pose": { "nico": 3, "tomas": 7 },
-    "bubble": "After football we are SO thirsty! Water for Tomás, lemonade for me… and a little water bowl for Pip." },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the drink with its moment.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Drink", "right_label": "Moment",
-        "pairs": [
-          { "left": "water", "right": "after running and playing" },
-          { "left": "milk", "right": "before bed" },
-          { "left": "orange juice", "right": "at breakfast" },
-          { "left": "hot chocolate", "right": "on a cold day" },
-          { "left": "lemonade", "right": "on a hot summer day" },
-          { "left": "a milkshake", "right": "as a special treat" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Choose the polite words.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Complete each sentence.",
-        "items": [
-          { "sentence": "___ I have some water, please?", "options": ["Can", "Am", "Is"], "answer": 0 },
-          { "sentence": "\"Here you are!\" — \"___!\"", "options": ["Thank you", "Goodbye", "Sorry"], "answer": 0 },
-          { "sentence": "When you need a drink, you are …", "options": ["thirsty", "sleepy", "funny"], "answer": 0 },
-          { "sentence": "Milk goes in a ___ or a glass.", "options": ["cup", "bag", "box"], "answer": 0 },
-          { "sentence": "Lemonade is ___ and sweet.", "options": ["cold", "hot", "green"], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen after the game. Write a word in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "starters/u14-c.mp3",
-      "data": { "voice_note": "Voces: Nico y Tomás (sedientos tras el fútbol).",
-        "script": "Tomas: Water, please! I'm so thirsty! … Nico: Here! A big glass of cold water. … Tomas: Thank you! What are you drinking? … Nico: Lemonade. My grandma makes it with three lemons. … Tomas: Freya has milk and Astrid has apple juice. … Nico: And look — a little bowl of water for Pip. … Tomas: To the best team! … Nico: Cheers… with lemonade!",
-        "questions": [
-          { "q": "Tomás drinks a big glass of cold …", "answer": "water" },
-          { "q": "Grandma makes lemonade with three …", "answer": "lemons" },
-          { "q": "Freya has …", "answer": "milk" },
-          { "q": "Astrid has apple …", "answer": "juice" },
-          { "q": "Pip has a little … of water.", "answer": "bowl" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "Cows give us …", "options": ["milk", "juice", "lemonade"], "answer": 0 },
-          { "sentence": "On a cold day I drink hot …", "options": ["chocolate", "ice", "lemonade"], "answer": 0 },
-          { "sentence": "Juice comes from …", "options": ["fruit", "fish", "bread"], "answer": 0 },
-          { "sentence": "You drink water from a …", "options": ["glass", "plate", "shoe"], "answer": 0 },
-          { "sentence": "The best drink after sport is …", "options": ["water", "cake", "soup"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Juice bar: Student A asks \"Can I have…?\" for 3 drinks. Student B serves with \"Here you are!\" Then swap. Always say thank you!" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write what you drink in a day: In the morning I drink… (4 sentences)." } ]
+ "id": "starters-14",
+ "level": "starters",
+ "number": 14,
+ "title": "Drinks",
+ "topic": "drinks",
+ "grammar": "Can I have…?",
+ "wordlist": [
+  "water",
+  "milk",
+  "juice",
+  "lemonade",
+  "hot chocolate",
+  "cup",
+  "glass",
+  "drink",
+  "thirsty",
+  "cold"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 4,
+  "skill": "drinks"
+ },
+ "characters": [
+  "nico",
+  "tomas"
+ ],
+ "scene": {
+  "speaker": "nico",
+  "pose": {
+   "nico": 3,
+   "tomas": 7
+  },
+  "bubble": "After football we are SO thirsty! Water for Tomás, lemonade for me… and a little water bowl for Pip."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the drink with its moment.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Drink",
+    "right_label": "Moment",
+    "pairs": [
+     {
+      "left": "water",
+      "right": "after running and playing"
+     },
+     {
+      "left": "milk",
+      "right": "before bed"
+     },
+     {
+      "left": "orange juice",
+      "right": "at breakfast"
+     },
+     {
+      "left": "hot chocolate",
+      "right": "on a cold day"
+     },
+     {
+      "left": "lemonade",
+      "right": "on a hot summer day"
+     },
+     {
+      "left": "a milkshake",
+      "right": "as a special treat"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choose the polite words.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete each sentence.",
+    "items": [
+     {
+      "sentence": "___ I have some water, please?",
+      "options": [
+       "Can",
+       "Am",
+       "Is"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"Here you are!\" — \"___!\"",
+      "options": [
+       "Thank you",
+       "Goodbye",
+       "Sorry"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "When you need a drink, you are …",
+      "options": [
+       "thirsty",
+       "sleepy",
+       "funny"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Milk goes in a ___ or a glass.",
+      "options": [
+       "cup",
+       "bag",
+       "box"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Lemonade is ___ and sweet.",
+      "options": [
+       "cold",
+       "hot",
+       "green"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen after the game. Write a word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u14-c.mp3",
+   "data": {
+    "voice_note": "Voces: Nico y Tomás (sedientos tras el fútbol).",
+    "script": "Tomas: Water, please! I'm so thirsty! … Nico: Here! A big glass of cold water. … Tomas: Thank you! What are you drinking? … Nico: Lemonade. My grandma makes it with three lemons. … Tomas: Freya has milk and Astrid has apple juice. … Nico: And look — a little bowl of water for Pip. … Tomas: To the best team! … Nico: Cheers… with lemonade!",
+    "questions": [
+     {
+      "q": "Tomás drinks a big glass of cold …",
+      "answer": "water"
+     },
+     {
+      "q": "Grandma makes lemonade with three …",
+      "answer": "lemons"
+     },
+     {
+      "q": "Freya has …",
+      "answer": "milk"
+     },
+     {
+      "q": "Astrid has apple …",
+      "answer": "juice"
+     },
+     {
+      "q": "Pip has a little … of water.",
+      "answer": "bowl"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "Cows give us …",
+      "options": [
+       "milk",
+       "juice",
+       "lemonade"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "On a cold day I drink hot …",
+      "options": [
+       "chocolate",
+       "ice",
+       "lemonade"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Juice comes from …",
+      "options": [
+       "fruit",
+       "fish",
+       "bread"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "You drink water from a …",
+      "options": [
+       "glass",
+       "plate",
+       "shoe"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The best drink after sport is …",
+      "options": [
+       "water",
+       "cake",
+       "soup"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Juice bar: Student A asks \"Can I have…?\" for 3 drinks. Student B serves with \"Here you are!\" Then swap. Always say thank you!"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write what you drink in a day: In the morning I drink… (4 sentences)."
+  }
+ ]
 }

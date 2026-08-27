@@ -1,53 +1,253 @@
 {
-  "id": "starters-44", "level": "starters", "number": 44,
-  "title": "The magic word game", "topic": "review",
-  "grammar": "repaso de vocabulario Starters",
-  "wordlist": ["word", "game", "magic", "guess", "point", "team", "winner", "clap", "again", "fun"],
-  "exam_focus": { "paper": "Reading & Writing", "part": 1, "skill": "review" },
-  "characters": ["freya", "nico"],
-  "scene": { "speaker": "freya", "pose": { "freya": 10, "nico": 10 },
-    "bubble": "The magic word game! Two teams, many words, one golden star… and Pip as the judge!" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the word with its group.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Word", "right_label": "Group",
-        "pairs": [
-          { "left": "banana", "right": "fruit" },
-          { "left": "cow", "right": "farm animal" },
-          { "left": "red", "right": "colour" },
-          { "left": "twelve", "right": "number" },
-          { "left": "kitchen", "right": "room" },
-          { "left": "happy", "right": "feeling" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Guess the magic word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Read the clue and choose the word.",
-        "items": [
-          { "sentence": "It is yellow, long, and monkeys love it.", "options": ["a banana", "a lemon", "a carrot"], "answer": 0 },
-          { "sentence": "You sleep on it.", "options": ["a bed", "a table", "a door"], "answer": 0 },
-          { "sentence": "It says woof!", "options": ["a dog", "a cat", "a duck"], "answer": 0 },
-          { "sentence": "You wear them on your feet.", "options": ["shoes", "hats", "gloves"], "answer": 0 },
-          { "sentence": "It shines in the sky at night.", "options": ["the moon", "the sun", "the grass"], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to the game final. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "starters/u44-c.mp3",
-      "data": { "voice_note": "Voces: Freya (presentadora) y Nico (capitán de equipo).",
-        "script": "Freya: Magic word game, final round! Team Sun against Team Star. … Nico: Team Sun is ready! … Freya: First word: it is big, grey, with a long nose. … Nico: ELEPHANT! One point! … Freya: It is cold, white, and you eat it in summer. … Nico: ICE CREAM! … Freya: Last word: he is black and white and he is our friend. … Nico: PIP! … Freya: Team Sun wins with eight points! And the golden star goes to… everyone!",
-        "questions": [
-          { "q": "Team Sun plays against Team …", "answer": "Star" },
-          { "q": "The big grey animal is the …", "answer": "ELEPHANT" },
-          { "q": "The cold white food is …", "answer": "ICE CREAM" },
-          { "q": "The black and white friend is …", "answer": "PIP" },
-          { "q": "Team Sun wins with … points.", "answer": "eight" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "When you don't know, you can …", "options": ["guess", "cry", "sleep"], "answer": 0 },
-          { "sentence": "The team with more points is the …", "options": ["winner", "singer", "dinner"], "answer": 0 },
-          { "sentence": "For a good answer, everyone …", "options": ["claps", "runs", "eats"], "answer": 0 },
-          { "sentence": "\"One more time!\" means: …", "options": ["again", "never", "goodbye"], "answer": 0 },
-          { "sentence": "Games at school are …", "options": ["fun", "sad", "cold"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Make 3 magic word clues for another pair (colour + size + what it does). Can they guess all three?" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write 4 magic word clues about things at home. Play with your family tonight!" } ]
+ "id": "starters-44",
+ "level": "starters",
+ "number": 44,
+ "title": "The magic word game",
+ "topic": "review",
+ "grammar": "repaso de vocabulario Starters",
+ "wordlist": [
+  "word",
+  "game",
+  "magic",
+  "guess",
+  "point",
+  "team",
+  "winner",
+  "clap",
+  "again",
+  "fun"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 1,
+  "skill": "review"
+ },
+ "characters": [
+  "freya",
+  "nico"
+ ],
+ "scene": {
+  "speaker": "freya",
+  "pose": {
+   "freya": 10,
+   "nico": 10
+  },
+  "bubble": "The magic word game! Two teams, many words, one golden star… and Pip as the judge!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the word with its group.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Group",
+    "pairs": [
+     {
+      "left": "banana",
+      "right": "fruit"
+     },
+     {
+      "left": "cow",
+      "right": "farm animal"
+     },
+     {
+      "left": "red",
+      "right": "colour"
+     },
+     {
+      "left": "twelve",
+      "right": "number"
+     },
+     {
+      "left": "kitchen",
+      "right": "room"
+     },
+     {
+      "left": "happy",
+      "right": "feeling"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Guess the magic word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Read the clue and choose the word.",
+    "items": [
+     {
+      "sentence": "It is yellow, long, and monkeys love it.",
+      "options": [
+       "a banana",
+       "a lemon",
+       "a carrot"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "You sleep on it.",
+      "options": [
+       "a bed",
+       "a table",
+       "a door"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "It says woof!",
+      "options": [
+       "a dog",
+       "a cat",
+       "a duck"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "You wear them on your feet.",
+      "options": [
+       "shoes",
+       "hats",
+       "gloves"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "It shines in the sky at night.",
+      "options": [
+       "the moon",
+       "the sun",
+       "the grass"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to the game final. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u44-c.mp3",
+   "data": {
+    "voice_note": "Voces: Freya (presentadora) y Nico (capitán de equipo).",
+    "script": "Freya: Magic word game, final round! Team Sun against Team Star. … Nico: Team Sun is ready! … Freya: First word: it is big, grey, with a long nose. … Nico: ELEPHANT! One point! … Freya: It is cold, white, and you eat it in summer. … Nico: ICE CREAM! … Freya: Last word: he is black and white and he is our friend. … Nico: PIP! … Freya: Team Sun wins with eight points! And the golden star goes to… everyone!",
+    "questions": [
+     {
+      "q": "Team Sun plays against Team …",
+      "answer": "Star"
+     },
+     {
+      "q": "The big grey animal is the …",
+      "answer": "ELEPHANT"
+     },
+     {
+      "q": "The cold white food is …",
+      "answer": "ICE CREAM"
+     },
+     {
+      "q": "The black and white friend is …",
+      "answer": "PIP"
+     },
+     {
+      "q": "Team Sun wins with … points.",
+      "answer": "eight"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "When you don't know, you can …",
+      "options": [
+       "guess",
+       "cry",
+       "sleep"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The team with more points is the …",
+      "options": [
+       "winner",
+       "singer",
+       "dinner"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "For a good answer, everyone …",
+      "options": [
+       "claps",
+       "runs",
+       "eats"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"One more time!\" means: …",
+      "options": [
+       "again",
+       "never",
+       "goodbye"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Games at school are …",
+      "options": [
+       "fun",
+       "sad",
+       "cold"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Make 3 magic word clues for another pair (colour + size + what it does). Can they guess all three?"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write 4 magic word clues about things at home. Play with your family tonight!"
+  }
+ ]
 }

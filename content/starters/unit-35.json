@@ -1,53 +1,253 @@
 {
-  "id": "starters-35", "level": "starters", "number": 35,
-  "title": "My lunchbox", "topic": "lunch",
-  "grammar": "There is / are + comida",
-  "wordlist": ["lunchbox", "sandwich", "apple", "biscuit", "water", "napkin", "carrot", "cheese", "share", "tasty"],
-  "exam_focus": { "paper": "Listening", "part": 1, "skill": "lunch things" },
-  "characters": ["nico", "tomas"],
-  "scene": { "speaker": "nico", "pose": { "nico": 8, "tomas": 3 },
-    "bubble": "Lunchbox surprise! What's inside today? A sandwich, an apple… and a little note from Mum!" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the lunchbox thing with why it is there.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Thing", "right_label": "Why",
-        "pairs": [
-          { "left": "the sandwich", "right": "the main food" },
-          { "left": "the apple", "right": "sweet and healthy" },
-          { "left": "the water bottle", "right": "to drink at break" },
-          { "left": "the napkin", "right": "to clean your hands" },
-          { "left": "the carrots", "right": "crunchy vegetables" },
-          { "left": "the little note", "right": "love from home!" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Complete each sentence.",
-        "items": [
-          { "sentence": "There ___ a sandwich in my lunchbox.", "options": ["is", "are", "am"], "answer": 0 },
-          { "sentence": "There ___ two biscuits today!", "options": ["are", "is", "be"], "answer": 0 },
-          { "sentence": "I clean my hands with a …", "options": ["napkin", "carrot", "biscuit"], "answer": 0 },
-          { "sentence": "Good friends ___ their biscuits.", "options": ["share", "hide", "throw"], "answer": 0 },
-          { "sentence": "My sandwich is very …", "options": ["tasty", "dirty", "angry"], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen at lunch break. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "starters/u35-c.mp3",
-      "data": { "voice_note": "Voces: Nico y Tomás (abriendo loncheras).",
-        "script": "Nico: Lunchbox time! I have a cheese sandwich. … Tomas: I have chicken and rice in my box. Still warm! … Nico: There are two biscuits… one for you! … Tomas: Thanks! I share my grapes. Ten green grapes. … Nico: There's a note from my mum. It says: I love you, campeón! … Tomas: And look — Pip has a tiny box too. With seeds! … Nico: Best lunch break ever.",
-        "questions": [
-          { "q": "Nico has a … sandwich.", "answer": "cheese" },
-          { "q": "Tomás's food is still …", "answer": "warm" },
-          { "q": "Tomás shares ten green …", "answer": "grapes" },
-          { "q": "The note says: I love you, …!", "answer": "campeón" },
-          { "q": "Pip's tiny box has …", "answer": "seeds" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "You carry your lunch in a …", "options": ["lunchbox", "pencil case", "shoe"], "answer": 0 },
-          { "sentence": "An apple is a …", "options": ["fruit", "drink", "toy"], "answer": 0 },
-          { "sentence": "Carrots are ___ and orange.", "options": ["crunchy", "soft", "purple"], "answer": 0 },
-          { "sentence": "Drink ___ at break.", "options": ["water", "sand", "glue"], "answer": 0 },
-          { "sentence": "To give half to a friend is to …", "options": ["share", "shout", "sleep"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Lunchbox show: tell your partner what is in your real lunchbox today (There is… There are…). Whose box is more colourful?" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Design the perfect lunchbox: draw it and write There is / There are for 5 things." } ]
+ "id": "starters-35",
+ "level": "starters",
+ "number": 35,
+ "title": "My lunchbox",
+ "topic": "lunch",
+ "grammar": "There is / are + comida",
+ "wordlist": [
+  "lunchbox",
+  "sandwich",
+  "apple",
+  "biscuit",
+  "water",
+  "napkin",
+  "carrot",
+  "cheese",
+  "share",
+  "tasty"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 1,
+  "skill": "lunch things"
+ },
+ "characters": [
+  "nico",
+  "tomas"
+ ],
+ "scene": {
+  "speaker": "nico",
+  "pose": {
+   "nico": 8,
+   "tomas": 3
+  },
+  "bubble": "Lunchbox surprise! What's inside today? A sandwich, an apple… and a little note from Mum!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the lunchbox thing with why it is there.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Thing",
+    "right_label": "Why",
+    "pairs": [
+     {
+      "left": "the sandwich",
+      "right": "the main food"
+     },
+     {
+      "left": "the apple",
+      "right": "sweet and healthy"
+     },
+     {
+      "left": "the water bottle",
+      "right": "to drink at break"
+     },
+     {
+      "left": "the napkin",
+      "right": "to clean your hands"
+     },
+     {
+      "left": "the carrots",
+      "right": "crunchy vegetables"
+     },
+     {
+      "left": "the little note",
+      "right": "love from home!"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete each sentence.",
+    "items": [
+     {
+      "sentence": "There ___ a sandwich in my lunchbox.",
+      "options": [
+       "is",
+       "are",
+       "am"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "There ___ two biscuits today!",
+      "options": [
+       "are",
+       "is",
+       "be"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "I clean my hands with a …",
+      "options": [
+       "napkin",
+       "carrot",
+       "biscuit"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Good friends ___ their biscuits.",
+      "options": [
+       "share",
+       "hide",
+       "throw"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "My sandwich is very …",
+      "options": [
+       "tasty",
+       "dirty",
+       "angry"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen at lunch break. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u35-c.mp3",
+   "data": {
+    "voice_note": "Voces: Nico y Tomás (abriendo loncheras).",
+    "script": "Nico: Lunchbox time! I have a cheese sandwich. … Tomas: I have chicken and rice in my box. Still warm! … Nico: There are two biscuits… one for you! … Tomas: Thanks! I share my grapes. Ten green grapes. … Nico: There's a note from my mum. It says: I love you, campeón! … Tomas: And look — Pip has a tiny box too. With seeds! … Nico: Best lunch break ever.",
+    "questions": [
+     {
+      "q": "Nico has a … sandwich.",
+      "answer": "cheese"
+     },
+     {
+      "q": "Tomás's food is still …",
+      "answer": "warm"
+     },
+     {
+      "q": "Tomás shares ten green …",
+      "answer": "grapes"
+     },
+     {
+      "q": "The note says: I love you, …!",
+      "answer": "campeón"
+     },
+     {
+      "q": "Pip's tiny box has …",
+      "answer": "seeds"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "You carry your lunch in a …",
+      "options": [
+       "lunchbox",
+       "pencil case",
+       "shoe"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "An apple is a …",
+      "options": [
+       "fruit",
+       "drink",
+       "toy"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Carrots are ___ and orange.",
+      "options": [
+       "crunchy",
+       "soft",
+       "purple"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Drink ___ at break.",
+      "options": [
+       "water",
+       "sand",
+       "glue"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "To give half to a friend is to …",
+      "options": [
+       "share",
+       "shout",
+       "sleep"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Lunchbox show: tell your partner what is in your real lunchbox today (There is… There are…). Whose box is more colourful?"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Design the perfect lunchbox: draw it and write There is / There are for 5 things."
+  }
+ ]
 }

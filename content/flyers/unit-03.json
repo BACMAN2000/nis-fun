@@ -1,362 +1,363 @@
 {
-  "id": "flyers-03",
-  "level": "flyers",
-  "number": 3,
-  "title": "I've forgotten my umbrella!",
-  "topic": "present perfect",
-  "grammar": "present perfect: just / already / yet",
-  "wordlist": [
-    "forget",
-    "forgotten",
-    "leave",
-    "left",
-    "lose",
-    "lost",
-    "find",
-    "found",
-    "break",
-    "broken",
-    "already",
-    "yet",
-    "just"
-  ],
-  "exam_focus": {
-    "paper": "Listening",
-    "part": 2,
-    "skill": "note-taking"
+ "id": "flyers-03",
+ "level": "flyers",
+ "number": 3,
+ "title": "I've forgotten my umbrella!",
+ "topic": "present perfect",
+ "grammar": "present perfect: just / already / yet",
+ "wordlist": [
+  "forget",
+  "forgotten",
+  "leave",
+  "left",
+  "lose",
+  "lost",
+  "find",
+  "found",
+  "break",
+  "broken",
+  "already",
+  "yet",
+  "just"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 2,
+  "skill": "note-taking"
+ },
+ "characters": [
+  "oliver",
+  "kili"
+ ],
+ "scene": {
+  "speaker": "oliver",
+  "pose": {
+   "oliver": 5,
+   "kili": 5
   },
-  "characters": [
-    "oliver",
-    "kili"
-  ],
-  "scene": {
-    "speaker": "oliver",
-    "pose": {
-      "oliver": 5,
-      "kili": 5
-    },
-    "bubble": "Oh no! The concert starts in ten minutes and I've forgotten my guitar!",
-    "intro": "Ten minutes before the big concert, Oliver runs into the hall shouting: 'I've forgotten my guitar!' Ingrid has already checked the lights, Maya has just found a lucky coin, and the drummer hasn't arrived yet. Everything happens at the same time — and that is exactly what this unit is about: things that have JUST happened, things we have ALREADY done, and things that haven't happened YET. Take a deep breath, explorer: the show is about to begin!"
+  "bubble": "Oh no! The concert starts in ten minutes and I've forgotten my guitar!",
+  "intro": "Ten minutes before the big concert, Oliver runs into the hall shouting: 'I've forgotten my guitar!' Ingrid has already checked the lights, Maya has just found a lucky coin, and the drummer hasn't arrived yet. Everything happens at the same time — and that is exactly what this unit is about: things that have JUST happened, things we have ALREADY done, and things that haven't happened YET. Take a deep breath, explorer: the show is about to begin!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the verb with its past participle.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Verb",
+    "right_label": "Past participle",
+    "pairs": [
+     {
+      "left": "forget",
+      "right": "forgotten"
+     },
+     {
+      "left": "see",
+      "right": "seen"
+     },
+     {
+      "left": "go",
+      "right": "gone"
+     },
+     {
+      "left": "eat",
+      "right": "eaten"
+     },
+     {
+      "left": "buy",
+      "right": "bought"
+     },
+     {
+      "left": "break",
+      "right": "broken"
+     }
+    ]
+   }
   },
-  "activities": [
-    {
-      "code": "A",
-      "type": "match_words",
-      "title": "Match the verb with its past participle.",
-      "outputs": [
-        "book",
-        "digital",
-        "quiz"
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choose just, already or yet.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete each sentence with the correct word.",
+    "items": [
+     {
+      "sentence": "Hurry up! The bus has ___ arrived — I can see it!",
+      "options": [
+       "just",
+       "yet",
+       "for"
       ],
-      "data": {
-        "left_label": "Verb",
-        "right_label": "Past participle",
-        "pairs": [
-          {
-            "left": "forget",
-            "right": "forgotten"
-          },
-          {
-            "left": "see",
-            "right": "seen"
-          },
-          {
-            "left": "go",
-            "right": "gone"
-          },
-          {
-            "left": "eat",
-            "right": "eaten"
-          },
-          {
-            "left": "buy",
-            "right": "bought"
-          },
-          {
-            "left": "break",
-            "right": "broken"
-          }
-        ]
-      }
-    },
-    {
-      "code": "B",
-      "type": "exam_task",
-      "title": "Choose just, already or yet.",
-      "outputs": [
-        "book",
-        "digital",
-        "quiz"
+      "answer": 0
+     },
+     {
+      "sentence": "I've ___ done my homework, so I can play now.",
+      "options": [
+       "yet",
+       "already",
+       "ever"
       ],
-      "data": {
-        "instructions": "Complete each sentence with the correct word.",
-        "items": [
-          {
-            "sentence": "Hurry up! The bus has ___ arrived — I can see it!",
-            "options": [
-              "just",
-              "yet",
-              "for"
-            ],
-            "answer": 0
-          },
-          {
-            "sentence": "I've ___ done my homework, so I can play now.",
-            "options": [
-              "yet",
-              "already",
-              "ever"
-            ],
-            "answer": 1
-          },
-          {
-            "sentence": "Oliver hasn't found his guitar ___.",
-            "options": [
-              "already",
-              "just",
-              "yet"
-            ],
-            "answer": 2
-          },
-          {
-            "sentence": "Have you packed your suitcase ___?",
-            "options": [
-              "yet",
-              "just",
-              "never"
-            ],
-            "answer": 0
-          },
-          {
-            "sentence": "Kili has ___ brought a letter. Look, it's on the table!",
-            "options": [
-              "yet",
-              "just",
-              "ago"
-            ],
-            "answer": 1
-          }
-        ]
-      }
-    },
-    {
-      "code": "C",
-      "type": "listening",
-      "title": "Listen. Ingrid phones Oliver before the school trip. Write a word or number in each gap.",
-      "outputs": [
-        "digital",
-        "quiz"
+      "answer": 1
+     },
+     {
+      "sentence": "Oliver hasn't found his guitar ___.",
+      "options": [
+       "already",
+       "just",
+       "yet"
       ],
-      "audio": "flyers/u03-c.mp3",
-      "data": {
-        "voice_note": "Voces: Ingrid (capitana, ordenada) y Oliver (músico, distraído).",
-        "script": "Ingrid: Oliver, the bus leaves at eight o'clock. Have you packed your bag yet? … Oliver: Almost, captain! I've already put in my torch and my camera. … Ingrid: Great. What about your boots? … Oliver: Oops… I haven't found my boots yet. Wait… Kili has just brought them! Good bird! … Ingrid: Perfect. Don't forget your raincoat — it's going to rain. … Oliver: I've already packed it, the green one. … Ingrid: And have you made your sandwiches? … Oliver: Yes! Cheese sandwiches. I've made four. … Ingrid: Four? Okay, see you at the school gate at half past seven!",
-        "questions": [
-          {
-            "q": "The bus leaves at … o'clock.",
-            "answer": "eight"
-          },
-          {
-            "q": "Oliver has already packed his torch and his …",
-            "answer": "camera"
-          },
-          {
-            "q": "… has just brought Oliver's boots.",
-            "answer": "Kili"
-          },
-          {
-            "q": "Oliver's raincoat is …",
-            "answer": "green"
-          },
-          {
-            "q": "Oliver has made … sandwiches.",
-            "answer": "four"
-          }
-        ]
-      }
-    },
-    {
-      "code": "D",
-      "type": "exam_task",
-      "title": "Exam task · Choose the correct form.",
-      "outputs": [
-        "book",
-        "digital",
-        "quiz"
+      "answer": 2
+     },
+     {
+      "sentence": "Have you packed your suitcase ___?",
+      "options": [
+       "yet",
+       "just",
+       "never"
       ],
-      "data": {
-        "instructions": "Choose the correct present perfect form.",
-        "items": [
-          {
-            "sentence": "I ___ my umbrella at school!",
-            "options": [
-              "have forgot",
-              "have forgotten",
-              "has forgotten"
-            ],
-            "answer": 1
-          },
-          {
-            "sentence": "Maya ___ that film three times.",
-            "options": [
-              "has seen",
-              "have seen",
-              "has saw"
-            ],
-            "answer": 0
-          },
-          {
-            "sentence": "They ___ to the funfair yet.",
-            "options": [
-              "haven't been",
-              "hasn't been",
-              "haven't went"
-            ],
-            "answer": 0
-          },
-          {
-            "sentence": "___ you ever ___ a famous person?",
-            "options": [
-              "Have / meet",
-              "Has / met",
-              "Have / met"
-            ],
-            "answer": 2
-          },
-          {
-            "sentence": "Look! Kili ___ another letter.",
-            "options": [
-              "have brought",
-              "has brought",
-              "has bring"
-            ],
-            "answer": 1
-          }
-        ]
-      }
-    },
-    {
-      "code": "F",
-      "type": "gap_text",
-      "title": "Read about the concert. Write just, already, yet or a participle.",
-      "outputs": [
-        "book",
-        "digital",
-        "quiz"
+      "answer": 0
+     },
+     {
+      "sentence": "Kili has ___ brought a letter. Look, it's on the table!",
+      "options": [
+       "yet",
+       "just",
+       "ago"
       ],
-      "data": {
-        "box": [
-          "already",
-          "just",
-          "yet",
-          "forgotten",
-          "broken",
-          "found",
-          "never",
-          "ever"
-        ],
-        "text": "Oliver has {1} arrived at the concert hall — he is still breathing fast from running! He has {2} his guitar at home, so Kili is flying there to bring it. Ingrid has {3} checked the lights and the microphones twice. The drummer hasn't arrived {4}, but his drums are waiting on the stage. Maya has {5} a lucky coin under the stage and she says it is a good sign. Five minutes later, Kili lands with the guitar — nothing is {6}, and the show can begin!",
-        "answers": [
-          "just",
-          "forgotten",
-          "already",
-          "yet",
-          "found",
-          "broken"
-        ]
-      }
-    },
-    {
-      "code": "G",
-      "type": "spot_diff",
-      "title": "Look at the concert stage. Find the differences!",
-      "outputs": [
-        "book",
-        "digital"
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen. Ingrid phones Oliver before the school trip. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u03-c.mp3",
+   "data": {
+    "voice_note": "Voces: Ingrid (capitana, ordenada) y Oliver (músico, distraído).",
+    "script": "Ingrid: Oliver, the bus leaves at eight o'clock. Have you packed your bag yet? … Oliver: Almost, captain! I've already put in my torch and my camera. … Ingrid: Great. What about your boots? … Oliver: Oops… I haven't found my boots yet. Wait… Kili has just brought them! Good bird! … Ingrid: Perfect. Don't forget your raincoat — it's going to rain. … Oliver: I've already packed it, the green one. … Ingrid: And have you made your sandwiches? … Oliver: Yes! Cheese sandwiches. I've made four. … Ingrid: Four? Okay, see you at the school gate at half past seven!",
+    "questions": [
+     {
+      "q": "The bus leaves at … o'clock.",
+      "answer": "eight"
+     },
+     {
+      "q": "Oliver has already packed his torch and his …",
+      "answer": "camera"
+     },
+     {
+      "q": "… has just brought Oliver's boots.",
+      "answer": "Kili"
+     },
+     {
+      "q": "Oliver's raincoat is …",
+      "answer": "green"
+     },
+     {
+      "q": "Oliver has made … sandwiches.",
+      "answer": "four"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct form.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct present perfect form.",
+    "items": [
+     {
+      "sentence": "I ___ my umbrella at school!",
+      "options": [
+       "have forgot",
+       "have forgotten",
+       "has forgotten"
       ],
-      "data": {
-        "sceneA": [
-          [
-            "🎤",
-            "🎸",
-            "🥁",
-            "🎹",
-            "🎺"
-          ],
-          [
-            "🎵",
-            "🎶",
-            "🎼",
-            "🎧",
-            "📻"
-          ],
-          [
-            "🌟",
-            "🎫",
-            "👏",
-            "🎪",
-            "💡"
-          ]
-        ],
-        "sceneB": [
-          [
-            "🎤",
-            "🎸",
-            "🪕",
-            "🎹",
-            "🎺"
-          ],
-          [
-            "🎵",
-            "🎶",
-            "🎼",
-            "🎧",
-            "🔔"
-          ],
-          [
-            "🌙",
-            "🎫",
-            "👏",
-            "🎭",
-            "💡"
-          ]
-        ],
-        "diffs": [
-          [
-            0,
-            2
-          ],
-          [
-            1,
-            4
-          ],
-          [
-            2,
-            0
-          ],
-          [
-            2,
-            3
-          ]
-        ]
-      }
-    },
-    {
-      "code": "E",
-      "type": "pairwork",
-      "title": "Speaking · In pairs",
-      "outputs": [
-        "book"
+      "answer": 1
+     },
+     {
+      "sentence": "Maya ___ that film three times.",
+      "options": [
+       "has seen",
+       "have seen",
+       "has saw"
       ],
-      "data": {
-        "text": "Survey: ask three classmates \"Have you ever…?\" (lost something important / broken something at home / forgotten your homework). Note the answers and report: \"Two people have lost…\""
-      }
-    }
-  ],
-  "homework": [
-    {
-      "type": "write_sentences",
-      "prompt": "Write about three things that have just happened at home today, using has/have just. Example: My mum has just made dinner."
-    }
-  ]
+      "answer": 0
+     },
+     {
+      "sentence": "They ___ to the funfair yet.",
+      "options": [
+       "haven't been",
+       "hasn't been",
+       "haven't went"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___ you ever ___ a famous person?",
+      "options": [
+       "Have / meet",
+       "Has / met",
+       "Have / met"
+      ],
+      "answer": 2
+     },
+     {
+      "sentence": "Look! Kili ___ another letter.",
+      "options": [
+       "have brought",
+       "has brought",
+       "has bring"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "F",
+   "type": "gap_text",
+   "title": "Read about the concert. Write just, already, yet or a participle.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "already",
+     "just",
+     "yet",
+     "forgotten",
+     "broken",
+     "found",
+     "never",
+     "ever"
+    ],
+    "text": "Oliver has {1} arrived at the concert hall — he is still breathing fast from running! He has {2} his guitar at home, so Kili is flying there to bring it. Ingrid has {3} checked the lights and the microphones twice. The drummer hasn't arrived {4}, but his drums are waiting on the stage. Maya has {5} a lucky coin under the stage and she says it is a good sign. Five minutes later, Kili lands with the guitar — nothing is {6}, and the show can begin!",
+    "answers": [
+     "just",
+     "forgotten",
+     "already",
+     "yet",
+     "found",
+     "broken"
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "spot_diff",
+   "title": "Look at the concert stage. Find the differences!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "sceneA": [
+     [
+      "🎤",
+      "🎸",
+      "🥁",
+      "🎹",
+      "🎺"
+     ],
+     [
+      "🎵",
+      "🎶",
+      "🎼",
+      "🎧",
+      "📻"
+     ],
+     [
+      "🌟",
+      "🎫",
+      "👏",
+      "🎪",
+      "💡"
+     ]
+    ],
+    "sceneB": [
+     [
+      "🎤",
+      "🎸",
+      "🪕",
+      "🎹",
+      "🎺"
+     ],
+     [
+      "🎵",
+      "🎶",
+      "🎼",
+      "🎧",
+      "🔔"
+     ],
+     [
+      "🌙",
+      "🎫",
+      "👏",
+      "🎭",
+      "💡"
+     ]
+    ],
+    "diffs": [
+     [
+      0,
+      2
+     ],
+     [
+      1,
+      4
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      2,
+      3
+     ]
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Survey: ask three classmates \"Have you ever…?\" (lost something important / broken something at home / forgotten your homework). Note the answers and report: \"Two people have lost…\""
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write about three things that have just happened at home today, using has/have just. Example: My mum has just made dinner."
+  }
+ ]
 }

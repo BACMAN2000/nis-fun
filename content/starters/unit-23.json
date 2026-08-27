@@ -1,53 +1,253 @@
 {
-  "id": "starters-23", "level": "starters", "number": 23,
-  "title": "I can jump!", "topic": "can",
-  "grammar": "I can / I can't",
-  "wordlist": ["jump", "run", "swim", "fly", "sing", "dance", "draw", "climb", "can", "can't"],
-  "exam_focus": { "paper": "Listening", "part": 4, "skill": "actions" },
-  "characters": ["tomas", "pip"],
-  "scene": { "speaker": "tomas", "pose": { "tomas": 7, "pip": 1 },
-    "bubble": "I can jump, I can run, I can swim! Pip can fly… but he can't ride a bike!" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match who can do what.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Who", "right_label": "Can…",
-        "pairs": [
-          { "left": "Tomás", "right": "run very fast" },
-          { "left": "Pip", "right": "fly over the sea" },
-          { "left": "a fish", "right": "swim all day" },
-          { "left": "Freya", "right": "sing beautiful songs" },
-          { "left": "a monkey", "right": "climb tall trees" },
-          { "left": "Astrid", "right": "draw perfect stars" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Choose can or can't.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Complete each sentence.",
-        "items": [
-          { "sentence": "A bird ___ fly.", "options": ["can", "can't", "is"], "answer": 0 },
-          { "sentence": "A fish ___ walk.", "options": ["can't", "can", "isn't"], "answer": 0 },
-          { "sentence": "I ___ jump very high!", "options": ["can", "am", "have"], "answer": 0 },
-          { "sentence": "___ you swim? — Yes, I can!", "options": ["Can", "Are", "Do"], "answer": 0 },
-          { "sentence": "A baby ___ drive a car.", "options": ["can't", "can", "does"], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to the talent show. Write a word in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "starters/u23-c.mp3",
-      "data": { "voice_note": "Voces: Tomás (presentador) y Freya (talentos).",
-        "script": "Tomas: Talent show! Freya, what can you do? … Freya: I can sing! La la la! … Tomas: Beautiful! Nico can jump like a kangaroo. Show us, Nico! … Freya: Wow, so high! Astrid, what can you do? … Tomas: She can draw a star with her eyes closed! … Freya: And you, Tomás? … Tomas: I can run around the playground in one minute! … Freya: And Pip can fly AND dance. The winner is… everyone!",
-        "questions": [
-          { "q": "Freya can …", "answer": "sing" },
-          { "q": "Nico can jump like a …", "answer": "kangaroo" },
-          { "q": "Astrid can draw a star with her eyes …", "answer": "closed" },
-          { "q": "Tomás can run around the playground in one …", "answer": "minute" },
-          { "q": "Pip can fly and …", "answer": "dance" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "Frogs can ___ very high.", "options": ["jump", "sing", "read"], "answer": 0 },
-          { "sentence": "You ___ with your legs.", "options": ["run", "draw", "sing"], "answer": 0 },
-          { "sentence": "You sing with your …", "options": ["mouth", "feet", "ears"], "answer": 0 },
-          { "sentence": "Monkeys can ___ trees.", "options": ["climb", "cook", "wash"], "answer": 0 },
-          { "sentence": "Penguins can swim but they ___ fly.", "options": ["can't", "can", "are"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Can-can game: \"Can you jump? Show me!\" Ask 4 questions and your partner shows the action. Then swap!" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write 3 things you can do and 2 things you can't do (yet!): I can… I can't…" } ]
+ "id": "starters-23",
+ "level": "starters",
+ "number": 23,
+ "title": "I can jump!",
+ "topic": "can",
+ "grammar": "I can / I can't",
+ "wordlist": [
+  "jump",
+  "run",
+  "swim",
+  "fly",
+  "sing",
+  "dance",
+  "draw",
+  "climb",
+  "can",
+  "can't"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 4,
+  "skill": "actions"
+ },
+ "characters": [
+  "tomas",
+  "pip"
+ ],
+ "scene": {
+  "speaker": "tomas",
+  "pose": {
+   "tomas": 7,
+   "pip": 1
+  },
+  "bubble": "I can jump, I can run, I can swim! Pip can fly… but he can't ride a bike!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match who can do what.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Who",
+    "right_label": "Can…",
+    "pairs": [
+     {
+      "left": "Tomás",
+      "right": "run very fast"
+     },
+     {
+      "left": "Pip",
+      "right": "fly over the sea"
+     },
+     {
+      "left": "a fish",
+      "right": "swim all day"
+     },
+     {
+      "left": "Freya",
+      "right": "sing beautiful songs"
+     },
+     {
+      "left": "a monkey",
+      "right": "climb tall trees"
+     },
+     {
+      "left": "Astrid",
+      "right": "draw perfect stars"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choose can or can't.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete each sentence.",
+    "items": [
+     {
+      "sentence": "A bird ___ fly.",
+      "options": [
+       "can",
+       "can't",
+       "is"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "A fish ___ walk.",
+      "options": [
+       "can't",
+       "can",
+       "isn't"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "I ___ jump very high!",
+      "options": [
+       "can",
+       "am",
+       "have"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___ you swim? — Yes, I can!",
+      "options": [
+       "Can",
+       "Are",
+       "Do"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "A baby ___ drive a car.",
+      "options": [
+       "can't",
+       "can",
+       "does"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to the talent show. Write a word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u23-c.mp3",
+   "data": {
+    "voice_note": "Voces: Tomás (presentador) y Freya (talentos).",
+    "script": "Tomas: Talent show! Freya, what can you do? … Freya: I can sing! La la la! … Tomas: Beautiful! Nico can jump like a kangaroo. Show us, Nico! … Freya: Wow, so high! Astrid, what can you do? … Tomas: She can draw a star with her eyes closed! … Freya: And you, Tomás? … Tomas: I can run around the playground in one minute! … Freya: And Pip can fly AND dance. The winner is… everyone!",
+    "questions": [
+     {
+      "q": "Freya can …",
+      "answer": "sing"
+     },
+     {
+      "q": "Nico can jump like a …",
+      "answer": "kangaroo"
+     },
+     {
+      "q": "Astrid can draw a star with her eyes …",
+      "answer": "closed"
+     },
+     {
+      "q": "Tomás can run around the playground in one …",
+      "answer": "minute"
+     },
+     {
+      "q": "Pip can fly and …",
+      "answer": "dance"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "Frogs can ___ very high.",
+      "options": [
+       "jump",
+       "sing",
+       "read"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "You ___ with your legs.",
+      "options": [
+       "run",
+       "draw",
+       "sing"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "You sing with your …",
+      "options": [
+       "mouth",
+       "feet",
+       "ears"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Monkeys can ___ trees.",
+      "options": [
+       "climb",
+       "cook",
+       "wash"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Penguins can swim but they ___ fly.",
+      "options": [
+       "can't",
+       "can",
+       "are"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Can-can game: \"Can you jump? Show me!\" Ask 4 questions and your partner shows the action. Then swap!"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write 3 things you can do and 2 things you can't do (yet!): I can… I can't…"
+  }
+ ]
 }

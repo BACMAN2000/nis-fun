@@ -1,53 +1,253 @@
 {
-  "id": "flyers-20", "level": "flyers", "number": 20,
-  "title": "What's it made of?", "topic": "materials",
-  "grammar": "made of + material",
-  "wordlist": ["wood", "metal", "glass", "plastic", "paper", "wool", "gold", "silver", "stone", "card"],
-  "exam_focus": { "paper": "Reading & Writing", "part": 1, "skill": "definitions" },
-  "characters": ["maya", "diego"],
-  "scene": { "speaker": "maya", "pose": { "maya": 8, "diego": 4 },
-    "bubble": "Museum challenge! This box is made of wood, that ring is made of gold… What about your microphone, Diego?" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the object with its material.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Object", "right_label": "It is made of…",
-        "pairs": [
-          { "left": "a window", "right": "glass" },
-          { "left": "a warm winter jumper", "right": "wool" },
-          { "left": "a newspaper", "right": "paper" },
-          { "left": "an old castle wall", "right": "stone" },
-          { "left": "a queen's ring", "right": "gold" },
-          { "left": "a water bottle", "right": "plastic" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Choose the correct material.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "This table is made ___ wood.", "options": ["of", "by", "in"], "answer": 0 },
-          { "sentence": "Coins are usually made of …", "options": ["paper", "metal", "wool"], "answer": 1 },
-          { "sentence": "Be careful with that vase — it's made of …", "options": ["glass", "card", "wool"], "answer": 0 },
-          { "sentence": "A birthday card is made of …", "options": ["stone", "card", "silver"], "answer": 1 },
-          { "sentence": "Grandma's necklace is made of ___ — it's grey and shiny.", "options": ["wood", "wool", "silver"], "answer": 2 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to the museum tour. Write a word in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "flyers/u20-c.mp3",
-      "data": { "voice_note": "Voces: Maya (guía del museo) y Diego (visitante-reportero).",
-        "script": "Maya: Welcome to the city museum! This first room is the oldest. … Diego: Wow, look at that enormous door! … Maya: It's made of wood from a ship that sailed here four hundred years ago. … Diego: And that shiny crown? … Maya: It's made of gold, with seven blue stones. … Diego: What's in the glass box? … Maya: A tiny silver whistle. Captains used it on stormy nights. … Diego: And this soft thing? … Maya: A blanket made of wool from mountain sheep. You can touch it! … Diego: Best museum ever!",
-        "questions": [
-          { "q": "The enormous door is made of …", "answer": "wood" },
-          { "q": "The wood came from a … that sailed 400 years ago.", "answer": "ship" },
-          { "q": "The gold crown has seven blue …", "answer": "stones" },
-          { "q": "The tiny whistle is made of …", "answer": "silver" },
-          { "q": "The blanket is made of … from mountain sheep.", "answer": "wool" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "It is clear and you can see through it.", "options": ["glass", "wood", "stone"], "answer": 0 },
-          { "sentence": "Sheep give us this warm material.", "options": ["plastic", "wool", "metal"], "answer": 1 },
-          { "sentence": "Books and notebooks are made of …", "options": ["paper", "gold", "glass"], "answer": 0 },
-          { "sentence": "Old castles are made of big grey …", "options": ["cards", "stones", "papers"], "answer": 1 },
-          { "sentence": "The yellow, expensive metal in rings is …", "options": ["silver", "iron", "gold"], "answer": 2 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "I spy with materials: \"I can see something made of glass…\" Your partner guesses the object in the classroom. Three objects each." } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Find 5 objects at home made of different materials. Write: The spoon is made of metal. The chair is made of…" } ]
+ "id": "flyers-20",
+ "level": "flyers",
+ "number": 20,
+ "title": "What's it made of?",
+ "topic": "materials",
+ "grammar": "made of + material",
+ "wordlist": [
+  "wood",
+  "metal",
+  "glass",
+  "plastic",
+  "paper",
+  "wool",
+  "gold",
+  "silver",
+  "stone",
+  "card"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 1,
+  "skill": "definitions"
+ },
+ "characters": [
+  "maya",
+  "diego"
+ ],
+ "scene": {
+  "speaker": "maya",
+  "pose": {
+   "maya": 8,
+   "diego": 4
+  },
+  "bubble": "Museum challenge! This box is made of wood, that ring is made of gold… What about your microphone, Diego?"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the object with its material.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Object",
+    "right_label": "It is made of…",
+    "pairs": [
+     {
+      "left": "a window",
+      "right": "glass"
+     },
+     {
+      "left": "a warm winter jumper",
+      "right": "wool"
+     },
+     {
+      "left": "a newspaper",
+      "right": "paper"
+     },
+     {
+      "left": "an old castle wall",
+      "right": "stone"
+     },
+     {
+      "left": "a queen's ring",
+      "right": "gold"
+     },
+     {
+      "left": "a water bottle",
+      "right": "plastic"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choose the correct material.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "This table is made ___ wood.",
+      "options": [
+       "of",
+       "by",
+       "in"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Coins are usually made of …",
+      "options": [
+       "paper",
+       "metal",
+       "wool"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Be careful with that vase — it's made of …",
+      "options": [
+       "glass",
+       "card",
+       "wool"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "A birthday card is made of …",
+      "options": [
+       "stone",
+       "card",
+       "silver"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Grandma's necklace is made of ___ — it's grey and shiny.",
+      "options": [
+       "wood",
+       "wool",
+       "silver"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to the museum tour. Write a word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u20-c.mp3",
+   "data": {
+    "voice_note": "Voces: Maya (guía del museo) y Diego (visitante-reportero).",
+    "script": "Maya: Welcome to the city museum! This first room is the oldest. … Diego: Wow, look at that enormous door! … Maya: It's made of wood from a ship that sailed here four hundred years ago. … Diego: And that shiny crown? … Maya: It's made of gold, with seven blue stones. … Diego: What's in the glass box? … Maya: A tiny silver whistle. Captains used it on stormy nights. … Diego: And this soft thing? … Maya: A blanket made of wool from mountain sheep. You can touch it! … Diego: Best museum ever!",
+    "questions": [
+     {
+      "q": "The enormous door is made of …",
+      "answer": "wood"
+     },
+     {
+      "q": "The wood came from a … that sailed 400 years ago.",
+      "answer": "ship"
+     },
+     {
+      "q": "The gold crown has seven blue …",
+      "answer": "stones"
+     },
+     {
+      "q": "The tiny whistle is made of …",
+      "answer": "silver"
+     },
+     {
+      "q": "The blanket is made of … from mountain sheep.",
+      "answer": "wool"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "It is clear and you can see through it.",
+      "options": [
+       "glass",
+       "wood",
+       "stone"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Sheep give us this warm material.",
+      "options": [
+       "plastic",
+       "wool",
+       "metal"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Books and notebooks are made of …",
+      "options": [
+       "paper",
+       "gold",
+       "glass"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Old castles are made of big grey …",
+      "options": [
+       "cards",
+       "stones",
+       "papers"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "The yellow, expensive metal in rings is …",
+      "options": [
+       "silver",
+       "iron",
+       "gold"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "I spy with materials: \"I can see something made of glass…\" Your partner guesses the object in the classroom. Three objects each."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Find 5 objects at home made of different materials. Write: The spoon is made of metal. The chair is made of…"
+  }
+ ]
 }

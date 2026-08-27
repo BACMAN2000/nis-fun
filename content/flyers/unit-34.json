@@ -1,53 +1,253 @@
 {
-  "id": "flyers-34", "level": "flyers", "number": 34,
-  "title": "It's too loud!", "topic": "too + adjective",
-  "grammar": "too + adjetivo / not … enough",
-  "wordlist": ["loud", "quiet", "heavy", "light", "difficult", "easy", "expensive", "cheap", "enough", "volume"],
-  "exam_focus": { "paper": "Listening", "part": 4, "skill": "multiple choice" },
-  "characters": ["oliver", "maya"],
-  "scene": { "speaker": "maya", "pose": { "maya": 5, "oliver": 3 },
-    "bubble": "Oliver! Your new speaker is TOO loud — my experiment glasses are dancing on the table!" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the problem with the reason.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Problem", "right_label": "Reason",
-        "pairs": [
-          { "left": "I can't carry this suitcase.", "right": "It's too heavy." },
-          { "left": "I can't hear you!", "right": "The music is too loud." },
-          { "left": "We can't buy that guitar.", "right": "It's too expensive." },
-          { "left": "I can't do this exercise.", "right": "It's too difficult." },
-          { "left": "The soup is still in the pot.", "right": "It's too hot to eat." },
-          { "left": "The baby can't reach the shelf.", "right": "She isn't tall enough." } ] } },
-    { "code": "B", "type": "exam_task", "title": "Choose too or enough.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Complete each sentence.",
-        "items": [
-          { "sentence": "Turn it down! The volume is ___ loud.", "options": ["too", "enough", "very much"], "answer": 0 },
-          { "sentence": "This box is light ___ for me to carry alone.", "options": ["too", "enough", "so"], "answer": 1 },
-          { "sentence": "The test was ___ difficult — nobody finished it!", "options": ["enough", "too", "little"], "answer": 1 },
-          { "sentence": "I'm not old ___ to drive a car.", "options": ["too", "very", "enough"], "answer": 2 },
-          { "sentence": "These shoes are ___ small. I need a bigger size.", "options": ["too", "enough", "much"], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to the band practice problems. Write a word in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "flyers/u34-c.mp3",
-      "data": { "voice_note": "Voces: Oliver (con su banda) y Maya (vecina de laboratorio).",
-        "script": "Oliver: Band practice, take one! Drums, ready? … Maya: Too loud! My glasses are dancing on the table! … Oliver: Okay, okay. Volume down to five. Better? … Maya: Better. But now the singer is too quiet — I can't hear the words. … Oliver: Ingrid, one step closer to the microphone! … Maya: Now the guitar… the guitar is fine. The song is just too fast. … Oliver: Too fast? It's rock, Maya! … Maya: Then my experiment needs new rules: no science next to the music room on Thursdays!",
-        "questions": [
-          { "q": "Maya's … are dancing on the table.", "answer": "glasses" },
-          { "q": "Oliver turns the volume down to …", "answer": "five" },
-          { "q": "The singer is too …", "answer": "quiet" },
-          { "q": "Maya thinks the song is too …", "answer": "fast" },
-          { "q": "No science next to the music room on …", "answer": "Thursdays" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "The opposite of loud is …", "options": ["quiet", "heavy", "cheap"], "answer": 0 },
-          { "sentence": "The opposite of expensive is …", "options": ["easy", "cheap", "light"], "answer": 1 },
-          { "sentence": "A feather is very …", "options": ["heavy", "light", "loud"], "answer": 1 },
-          { "sentence": "I can't buy it — I haven't got ___ money.", "options": ["enough", "too", "many"], "answer": 0 },
-          { "sentence": "This puzzle is ___ for a baby — give it to an adult!", "options": ["too difficult", "enough easy", "very cheap"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Complaints game: Student A suggests something impossible (\"Let's swim to Australia!\"). Student B rejects it with too/enough (\"It's too far! I'm not strong enough!\"). Five rounds, then swap." } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write 4 sentences about things you can't do yet, with too or enough: I'm not old enough to… The piano is too…" } ]
+ "id": "flyers-34",
+ "level": "flyers",
+ "number": 34,
+ "title": "It's too loud!",
+ "topic": "too + adjective",
+ "grammar": "too + adjetivo / not … enough",
+ "wordlist": [
+  "loud",
+  "quiet",
+  "heavy",
+  "light",
+  "difficult",
+  "easy",
+  "expensive",
+  "cheap",
+  "enough",
+  "volume"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 4,
+  "skill": "multiple choice"
+ },
+ "characters": [
+  "oliver",
+  "maya"
+ ],
+ "scene": {
+  "speaker": "maya",
+  "pose": {
+   "maya": 5,
+   "oliver": 3
+  },
+  "bubble": "Oliver! Your new speaker is TOO loud — my experiment glasses are dancing on the table!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the problem with the reason.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Problem",
+    "right_label": "Reason",
+    "pairs": [
+     {
+      "left": "I can't carry this suitcase.",
+      "right": "It's too heavy."
+     },
+     {
+      "left": "I can't hear you!",
+      "right": "The music is too loud."
+     },
+     {
+      "left": "We can't buy that guitar.",
+      "right": "It's too expensive."
+     },
+     {
+      "left": "I can't do this exercise.",
+      "right": "It's too difficult."
+     },
+     {
+      "left": "The soup is still in the pot.",
+      "right": "It's too hot to eat."
+     },
+     {
+      "left": "The baby can't reach the shelf.",
+      "right": "She isn't tall enough."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choose too or enough.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete each sentence.",
+    "items": [
+     {
+      "sentence": "Turn it down! The volume is ___ loud.",
+      "options": [
+       "too",
+       "enough",
+       "very much"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "This box is light ___ for me to carry alone.",
+      "options": [
+       "too",
+       "enough",
+       "so"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "The test was ___ difficult — nobody finished it!",
+      "options": [
+       "enough",
+       "too",
+       "little"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "I'm not old ___ to drive a car.",
+      "options": [
+       "too",
+       "very",
+       "enough"
+      ],
+      "answer": 2
+     },
+     {
+      "sentence": "These shoes are ___ small. I need a bigger size.",
+      "options": [
+       "too",
+       "enough",
+       "much"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to the band practice problems. Write a word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u34-c.mp3",
+   "data": {
+    "voice_note": "Voces: Oliver (con su banda) y Maya (vecina de laboratorio).",
+    "script": "Oliver: Band practice, take one! Drums, ready? … Maya: Too loud! My glasses are dancing on the table! … Oliver: Okay, okay. Volume down to five. Better? … Maya: Better. But now the singer is too quiet — I can't hear the words. … Oliver: Ingrid, one step closer to the microphone! … Maya: Now the guitar… the guitar is fine. The song is just too fast. … Oliver: Too fast? It's rock, Maya! … Maya: Then my experiment needs new rules: no science next to the music room on Thursdays!",
+    "questions": [
+     {
+      "q": "Maya's … are dancing on the table.",
+      "answer": "glasses"
+     },
+     {
+      "q": "Oliver turns the volume down to …",
+      "answer": "five"
+     },
+     {
+      "q": "The singer is too …",
+      "answer": "quiet"
+     },
+     {
+      "q": "Maya thinks the song is too …",
+      "answer": "fast"
+     },
+     {
+      "q": "No science next to the music room on …",
+      "answer": "Thursdays"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "The opposite of loud is …",
+      "options": [
+       "quiet",
+       "heavy",
+       "cheap"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The opposite of expensive is …",
+      "options": [
+       "easy",
+       "cheap",
+       "light"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "A feather is very …",
+      "options": [
+       "heavy",
+       "light",
+       "loud"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "I can't buy it — I haven't got ___ money.",
+      "options": [
+       "enough",
+       "too",
+       "many"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "This puzzle is ___ for a baby — give it to an adult!",
+      "options": [
+       "too difficult",
+       "enough easy",
+       "very cheap"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Complaints game: Student A suggests something impossible (\"Let's swim to Australia!\"). Student B rejects it with too/enough (\"It's too far! I'm not strong enough!\"). Five rounds, then swap."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write 4 sentences about things you can't do yet, with too or enough: I'm not old enough to… The piano is too…"
+  }
+ ]
 }

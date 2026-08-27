@@ -1,53 +1,253 @@
 {
-  "id": "starters-42", "level": "starters", "number": 42,
-  "title": "He is, she is", "topic": "he / she",
-  "grammar": "He is / She is / It is",
-  "wordlist": ["he", "she", "it", "is", "boy", "girl", "teacher", "doctor", "happy", "tall"],
-  "exam_focus": { "paper": "Reading & Writing", "part": 2, "skill": "sentences" },
-  "characters": ["astrid", "freya"],
-  "scene": { "speaker": "astrid", "pose": { "astrid": 3, "freya": 1 },
-    "bubble": "Grammar magic: HE for boys, SHE for girls, IT for Pip's fish! Easy when you practise." },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the person with he, she or it.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Person / animal", "right_label": "Word + fact",
-        "pairs": [
-          { "left": "Tomás", "right": "He is fast." },
-          { "left": "Freya", "right": "She is curious." },
-          { "left": "the fish", "right": "It is orange." },
-          { "left": "my dad", "right": "He is tall." },
-          { "left": "the teacher Miss Lily", "right": "She is kind." },
-          { "left": "the sun", "right": "It is hot." } ] } },
-    { "code": "B", "type": "exam_task", "title": "Choose he, she or it.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Complete each sentence.",
-        "items": [
-          { "sentence": "This is Nico. ___ is funny.", "options": ["He", "She", "It"], "answer": 0 },
-          { "sentence": "This is Astrid. ___ is tidy.", "options": ["She", "He", "It"], "answer": 0 },
-          { "sentence": "This is my ball. ___ is red.", "options": ["It", "He", "She"], "answer": 0 },
-          { "sentence": "My grandma is kind. ___ makes cakes.", "options": ["She", "He", "It"], "answer": 0 },
-          { "sentence": "Pip is a bird. ___ is black and white.", "options": ["He", "She only", "They"], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen. Who is it? Write he, she or a name in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "starters/u42-c.mp3",
-      "data": { "voice_note": "Voces: Astrid y Freya (jugando a adivinar personas).",
-        "script": "Astrid: Guess the person! He is fast and he loves football. … Freya: Tomás! He is the fastest. … Astrid: She has yellow hair and many questions. … Freya: That's me! Freya! … Astrid: He is small, black and white, and he can fly. … Freya: Pip! He is our favourite bird. … Astrid: She is our teacher and her smile is big. … Freya: Miss Lily! She is so kind. … Astrid: All correct! You know everyone!",
-        "questions": [
-          { "q": "… is fast and loves football.", "answer": "Tomás" },
-          { "q": "The girl with questions is …", "answer": "Freya" },
-          { "q": "Pip can …", "answer": "fly" },
-          { "q": "The teacher is Miss …", "answer": "Lily" },
-          { "q": "Her … is big.", "answer": "smile" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "For a boy we say …", "options": ["he", "she", "it"], "answer": 0 },
-          { "sentence": "For a girl we say …", "options": ["she", "he", "it"], "answer": 0 },
-          { "sentence": "For a toy we say …", "options": ["it", "he", "she"], "answer": 0 },
-          { "sentence": "My mum is a doctor. ___ helps people.", "options": ["She", "He", "It"], "answer": 0 },
-          { "sentence": "He ___ my best friend.", "options": ["is", "are", "am"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Point (kindly!) at classmates and say: \"He is… She is…\" with one nice word each (fast, kind, funny). Five people!" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write about 3 people and 1 thing at home: He is… She is… It is… (one sentence each)." } ]
+ "id": "starters-42",
+ "level": "starters",
+ "number": 42,
+ "title": "He is, she is",
+ "topic": "he / she",
+ "grammar": "He is / She is / It is",
+ "wordlist": [
+  "he",
+  "she",
+  "it",
+  "is",
+  "boy",
+  "girl",
+  "teacher",
+  "doctor",
+  "happy",
+  "tall"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 2,
+  "skill": "sentences"
+ },
+ "characters": [
+  "astrid",
+  "freya"
+ ],
+ "scene": {
+  "speaker": "astrid",
+  "pose": {
+   "astrid": 3,
+   "freya": 1
+  },
+  "bubble": "Grammar magic: HE for boys, SHE for girls, IT for Pip's fish! Easy when you practise."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the person with he, she or it.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Person / animal",
+    "right_label": "Word + fact",
+    "pairs": [
+     {
+      "left": "Tomás",
+      "right": "He is fast."
+     },
+     {
+      "left": "Freya",
+      "right": "She is curious."
+     },
+     {
+      "left": "the fish",
+      "right": "It is orange."
+     },
+     {
+      "left": "my dad",
+      "right": "He is tall."
+     },
+     {
+      "left": "the teacher Miss Lily",
+      "right": "She is kind."
+     },
+     {
+      "left": "the sun",
+      "right": "It is hot."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choose he, she or it.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete each sentence.",
+    "items": [
+     {
+      "sentence": "This is Nico. ___ is funny.",
+      "options": [
+       "He",
+       "She",
+       "It"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "This is Astrid. ___ is tidy.",
+      "options": [
+       "She",
+       "He",
+       "It"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "This is my ball. ___ is red.",
+      "options": [
+       "It",
+       "He",
+       "She"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "My grandma is kind. ___ makes cakes.",
+      "options": [
+       "She",
+       "He",
+       "It"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Pip is a bird. ___ is black and white.",
+      "options": [
+       "He",
+       "She only",
+       "They"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen. Who is it? Write he, she or a name in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u42-c.mp3",
+   "data": {
+    "voice_note": "Voces: Astrid y Freya (jugando a adivinar personas).",
+    "script": "Astrid: Guess the person! He is fast and he loves football. … Freya: Tomás! He is the fastest. … Astrid: She has yellow hair and many questions. … Freya: That's me! Freya! … Astrid: He is small, black and white, and he can fly. … Freya: Pip! He is our favourite bird. … Astrid: She is our teacher and her smile is big. … Freya: Miss Lily! She is so kind. … Astrid: All correct! You know everyone!",
+    "questions": [
+     {
+      "q": "… is fast and loves football.",
+      "answer": "Tomás"
+     },
+     {
+      "q": "The girl with questions is …",
+      "answer": "Freya"
+     },
+     {
+      "q": "Pip can …",
+      "answer": "fly"
+     },
+     {
+      "q": "The teacher is Miss …",
+      "answer": "Lily"
+     },
+     {
+      "q": "Her … is big.",
+      "answer": "smile"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "For a boy we say …",
+      "options": [
+       "he",
+       "she",
+       "it"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "For a girl we say …",
+      "options": [
+       "she",
+       "he",
+       "it"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "For a toy we say …",
+      "options": [
+       "it",
+       "he",
+       "she"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "My mum is a doctor. ___ helps people.",
+      "options": [
+       "She",
+       "He",
+       "It"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "He ___ my best friend.",
+      "options": [
+       "is",
+       "are",
+       "am"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Point (kindly!) at classmates and say: \"He is… She is…\" with one nice word each (fast, kind, funny). Five people!"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write about 3 people and 1 thing at home: He is… She is… It is… (one sentence each)."
+  }
+ ]
 }

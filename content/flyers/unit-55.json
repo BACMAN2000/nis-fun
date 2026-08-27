@@ -1,53 +1,236 @@
 {
-  "id": "flyers-55", "level": "flyers", "number": 55,
-  "title": "The Aurora graduation", "topic": "review & celebration",
-  "grammar": "repaso general del curso",
-  "wordlist": ["graduation", "certificate", "ceremony", "proud", "remember", "adventure", "together", "goodbye", "future", "congratulations"],
-  "exam_focus": { "paper": "Review", "part": 0, "skill": "todo el curso" },
-  "characters": ["ingrid", "diego", "maya", "oliver", "kili"],
-  "scene": { "speaker": "ingrid", "pose": { "ingrid": 10, "diego": 10, "maya": 10, "oliver": 10, "kili": 1 },
-    "bubble": "Fifty-five units, hundreds of words, one amazing team. Congratulations, explorers — you're ready for Flyers!" },
-  "activities": [
-    { "code": "A", "type": "crossword", "title": "The graduation crossword — course review!",
-      "outputs": ["book", "digital"],
-      "data": { "words": [
-        { "word": "ADVENTURE", "clue": "An exciting journey — like this course!" },
-        { "word": "CERTIFICATE", "clue": "The paper that says: you did it!" },
-        { "word": "TOGETHER", "clue": "Not alone — with your team." },
-        { "word": "REMEMBER", "clue": "To keep something in your memory." },
-        { "word": "PROUD", "clue": "How your family feels about you today." },
-        { "word": "FUTURE", "clue": "Tomorrow, next year, and everything after." } ] } },
-    { "code": "B", "type": "match_words", "title": "Match each explorer with their best moment.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Explorer", "right_label": "Best moment",
-        "pairs": [
-          { "left": "Ingrid", "right": "led the treasure hunt at the lighthouse" },
-          { "left": "Diego", "right": "interviewed a real firefighter" },
-          { "left": "Maya", "right": "explained the storm like a scientist" },
-          { "left": "Oliver", "right": "sang under the rain with 500 people" },
-          { "left": "Kili", "right": "delivered every letter, even in the wind" },
-          { "left": "You", "right": "finished all fifty-five units!" } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to the graduation ceremony. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "flyers/u55-c.mp3",
-      "data": { "voice_note": "Voces: todo el elenco — ceremonia emotiva y divertida.",
-        "script": "Diego: Welcome to the Aurora graduation ceremony, live from the school garden! … Ingrid: Explorers, you learned hundreds of words and you never gave up. … Maya: Scientifically speaking, your brains are now two sizes bigger. … Oliver: This song is for you. It's called Ready to Fly! … Diego: The head teacher is giving out the certificates. Blue ribbon, gold letters! … Ingrid: And the last certificate is for… Kili! Best mascot in history. … Diego: Kili is crying happy tears. Condors do that, apparently. … Ingrid: One, two, three… CONGRATULATIONS, EXPLORERS!",
-        "questions": [
-          { "q": "The ceremony is live from the school …", "answer": "garden" },
-          { "q": "Maya says your brains are two sizes …", "answer": "bigger" },
-          { "q": "Oliver's song is called Ready to …", "answer": "Fly" },
-          { "q": "The certificates have a blue …", "answer": "ribbon" },
-          { "q": "The last certificate is for …", "answer": "Kili" } ] } },
-    { "code": "D", "type": "exam_task", "title": "The final review · Choose the correct answer.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "One question from different units — can you still do it?",
-        "items": [
-          { "sentence": "You carry your clothes in this when you travel.", "options": ["a suitcase", "a shelf", "a stamp"], "answer": 0 },
-          { "sentence": "Have you ___ met a famous person?", "options": ["ever", "yet", "already"], "answer": 0 },
-          { "sentence": "The whale is the ___ animal in the sea.", "options": ["biggest", "bigger", "most big"], "answer": 0 },
-          { "sentence": "If it rains, we ___ the picnic inside.", "options": ["will have", "had", "having"], "answer": 0 },
-          { "sentence": "A person ___ helps ill people is a nurse.", "options": ["who", "which", "where"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · The graduation speech", "outputs": ["book"],
-      "data": { "text": "Write and give a 30-second graduation speech: your favourite unit, the funniest moment, one thing you'll remember, and a thank-you. The class claps for everyone!" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write a letter to your future self (5 sentences): what you learned, what you're proud of, and what you might be one day. Keep it until the exam results arrive!" } ]
+ "id": "flyers-55",
+ "level": "flyers",
+ "number": 55,
+ "title": "The Aurora graduation",
+ "topic": "review & celebration",
+ "grammar": "repaso general del curso",
+ "wordlist": [
+  "graduation",
+  "certificate",
+  "ceremony",
+  "proud",
+  "remember",
+  "adventure",
+  "together",
+  "goodbye",
+  "future",
+  "congratulations"
+ ],
+ "exam_focus": {
+  "paper": "Review",
+  "part": 0,
+  "skill": "todo el curso"
+ },
+ "characters": [
+  "ingrid",
+  "diego",
+  "maya",
+  "oliver",
+  "kili"
+ ],
+ "scene": {
+  "speaker": "ingrid",
+  "pose": {
+   "ingrid": 10,
+   "diego": 10,
+   "maya": 10,
+   "oliver": 10,
+   "kili": 1
+  },
+  "bubble": "Fifty-five units, hundreds of words, one amazing team. Congratulations, explorers — you're ready for Flyers!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "The graduation crossword — course review!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "ADVENTURE",
+      "clue": "An exciting journey — like this course!"
+     },
+     {
+      "word": "CERTIFICATE",
+      "clue": "The paper that says: you did it!"
+     },
+     {
+      "word": "TOGETHER",
+      "clue": "Not alone — with your team."
+     },
+     {
+      "word": "REMEMBER",
+      "clue": "To keep something in your memory."
+     },
+     {
+      "word": "PROUD",
+      "clue": "How your family feels about you today."
+     },
+     {
+      "word": "FUTURE",
+      "clue": "Tomorrow, next year, and everything after."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Match each explorer with their best moment.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Explorer",
+    "right_label": "Best moment",
+    "pairs": [
+     {
+      "left": "Ingrid",
+      "right": "led the treasure hunt at the lighthouse"
+     },
+     {
+      "left": "Diego",
+      "right": "interviewed a real firefighter"
+     },
+     {
+      "left": "Maya",
+      "right": "explained the storm like a scientist"
+     },
+     {
+      "left": "Oliver",
+      "right": "sang under the rain with 500 people"
+     },
+     {
+      "left": "Kili",
+      "right": "delivered every letter, even in the wind"
+     },
+     {
+      "left": "You",
+      "right": "finished all fifty-five units!"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to the graduation ceremony. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u55-c.mp3",
+   "data": {
+    "voice_note": "Voces: todo el elenco — ceremonia emotiva y divertida.",
+    "script": "Diego: Welcome to the Aurora graduation ceremony, live from the school garden! … Ingrid: Explorers, you learned hundreds of words and you never gave up. … Maya: Scientifically speaking, your brains are now two sizes bigger. … Oliver: This song is for you. It's called Ready to Fly! … Diego: The head teacher is giving out the certificates. Blue ribbon, gold letters! … Ingrid: And the last certificate is for… Kili! Best mascot in history. … Diego: Kili is crying happy tears. Condors do that, apparently. … Ingrid: One, two, three… CONGRATULATIONS, EXPLORERS!",
+    "questions": [
+     {
+      "q": "The ceremony is live from the school …",
+      "answer": "garden"
+     },
+     {
+      "q": "Maya says your brains are two sizes …",
+      "answer": "bigger"
+     },
+     {
+      "q": "Oliver's song is called Ready to …",
+      "answer": "Fly"
+     },
+     {
+      "q": "The certificates have a blue …",
+      "answer": "ribbon"
+     },
+     {
+      "q": "The last certificate is for …",
+      "answer": "Kili"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "The final review · Choose the correct answer.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "One question from different units — can you still do it?",
+    "items": [
+     {
+      "sentence": "You carry your clothes in this when you travel.",
+      "options": [
+       "a suitcase",
+       "a shelf",
+       "a stamp"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Have you ___ met a famous person?",
+      "options": [
+       "ever",
+       "yet",
+       "already"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The whale is the ___ animal in the sea.",
+      "options": [
+       "biggest",
+       "bigger",
+       "most big"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "If it rains, we ___ the picnic inside.",
+      "options": [
+       "will have",
+       "had",
+       "having"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "A person ___ helps ill people is a nurse.",
+      "options": [
+       "who",
+       "which",
+       "where"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · The graduation speech",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Write and give a 30-second graduation speech: your favourite unit, the funniest moment, one thing you'll remember, and a thank-you. The class claps for everyone!"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write a letter to your future self (5 sentences): what you learned, what you're proud of, and what you might be one day. Keep it until the exam results arrive!"
+  }
+ ]
 }

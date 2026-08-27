@@ -1,53 +1,253 @@
 {
-  "id": "movers-37", "level": "movers", "number": 37,
-  "title": "The school show", "topic": "present continuous",
-  "grammar": "presente continuo (escena en vivo)",
-  "wordlist": ["stage", "curtain", "costume", "dance", "sing", "act", "audience", "lights", "show", "clap"],
-  "exam_focus": { "paper": "Listening", "part": 3, "skill": "matching" },
-  "characters": ["valentina", "mateo"],
-  "scene": { "speaker": "valentina", "pose": { "valentina": 10, "mateo": 5 },
-    "bubble": "The school show is ON! The curtain is opening, the lights are shining… and Mateo is looking for his costume!" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the show word with its meaning.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Word", "right_label": "Meaning",
-        "pairs": [
-          { "left": "the stage", "right": "where the actors perform" },
-          { "left": "the curtain", "right": "it opens when the show starts" },
-          { "left": "a costume", "right": "special clothes for your role" },
-          { "left": "the audience", "right": "the people watching" },
-          { "left": "the lights", "right": "they shine on the actors" },
-          { "left": "to act", "right": "to play a character" } ] } },
-    { "code": "B", "type": "exam_task", "title": "What is happening on stage? Choose the correct form.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Complete each sentence.",
-        "items": [
-          { "sentence": "The curtain ___ opening now!", "options": ["is", "are", "am"], "answer": 0 },
-          { "sentence": "The first group ___ dancing.", "options": ["is", "are", "be"], "answer": 0 },
-          { "sentence": "Valentina ___ a princess in the play.", "options": ["is acting as", "acting", "acts as being"], "answer": 0 },
-          { "sentence": "The audience ___ clapping loudly!", "options": ["is", "am", "be"], "answer": 0 },
-          { "sentence": "What ___ they singing now?", "options": ["are", "is", "do"], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to the show, live! Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "movers/u37-c.mp3",
-      "data": { "voice_note": "Voces: Mateo (tras bambalinas) y Valentina (protagonista).",
-        "script": "Mateo: Backstage report! The curtain is opening… now! … Mateo: The first group is dancing with paper stars. So pretty! … Mateo: Valentina is acting as the mountain queen. Her costume has silver stars. … Mateo: Erik's lights are changing colour: blue, green, purple! … Mateo: Now the whole class is singing the final song. … Mateo: The audience is standing and clapping! I can see my grandma crying happy tears. … Mateo: And me? I found my costume… two minutes after my scene. Next year, better!",
-        "questions": [
-          { "q": "The first group is dancing with paper …", "answer": "stars" },
-          { "q": "Valentina is the mountain …", "answer": "queen" },
-          { "q": "Erik's lights change: blue, green, …", "answer": "purple" },
-          { "q": "Mateo's grandma is crying happy …", "answer": "tears" },
-          { "q": "Mateo found his costume two … late.", "answer": "minutes" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "Actors perform on the …", "options": ["stage", "stairs", "shelf"], "answer": 0 },
-          { "sentence": "A pirate ___ is perfect for the show.", "options": ["costume", "curtain", "cushion"], "answer": 0 },
-          { "sentence": "At the end, everybody …", "options": ["claps", "sleeps", "cooks"], "answer": 0 },
-          { "sentence": "Look! The baby ___ dancing to the music!", "options": ["is", "are", "do"], "answer": 0 },
-          { "sentence": "The people watching the show are the …", "options": ["audience", "actors", "drivers"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Live commentary: your partner acts something slowly (dancing, singing, acting like a lion). You narrate: \"Now you are… \" Then swap. Applause for everyone!" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Watch your family for 10 minutes tonight. Write 5 sentences about what everyone is doing (present continuous)." } ]
+ "id": "movers-37",
+ "level": "movers",
+ "number": 37,
+ "title": "The school show",
+ "topic": "present continuous",
+ "grammar": "presente continuo (escena en vivo)",
+ "wordlist": [
+  "stage",
+  "curtain",
+  "costume",
+  "dance",
+  "sing",
+  "act",
+  "audience",
+  "lights",
+  "show",
+  "clap"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 3,
+  "skill": "matching"
+ },
+ "characters": [
+  "valentina",
+  "mateo"
+ ],
+ "scene": {
+  "speaker": "valentina",
+  "pose": {
+   "valentina": 10,
+   "mateo": 5
+  },
+  "bubble": "The school show is ON! The curtain is opening, the lights are shining… and Mateo is looking for his costume!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the show word with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "the stage",
+      "right": "where the actors perform"
+     },
+     {
+      "left": "the curtain",
+      "right": "it opens when the show starts"
+     },
+     {
+      "left": "a costume",
+      "right": "special clothes for your role"
+     },
+     {
+      "left": "the audience",
+      "right": "the people watching"
+     },
+     {
+      "left": "the lights",
+      "right": "they shine on the actors"
+     },
+     {
+      "left": "to act",
+      "right": "to play a character"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "What is happening on stage? Choose the correct form.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete each sentence.",
+    "items": [
+     {
+      "sentence": "The curtain ___ opening now!",
+      "options": [
+       "is",
+       "are",
+       "am"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The first group ___ dancing.",
+      "options": [
+       "is",
+       "are",
+       "be"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Valentina ___ a princess in the play.",
+      "options": [
+       "is acting as",
+       "acting",
+       "acts as being"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The audience ___ clapping loudly!",
+      "options": [
+       "is",
+       "am",
+       "be"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "What ___ they singing now?",
+      "options": [
+       "are",
+       "is",
+       "do"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to the show, live! Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u37-c.mp3",
+   "data": {
+    "voice_note": "Voces: Mateo (tras bambalinas) y Valentina (protagonista).",
+    "script": "Mateo: Backstage report! The curtain is opening… now! … Mateo: The first group is dancing with paper stars. So pretty! … Mateo: Valentina is acting as the mountain queen. Her costume has silver stars. … Mateo: Erik's lights are changing colour: blue, green, purple! … Mateo: Now the whole class is singing the final song. … Mateo: The audience is standing and clapping! I can see my grandma crying happy tears. … Mateo: And me? I found my costume… two minutes after my scene. Next year, better!",
+    "questions": [
+     {
+      "q": "The first group is dancing with paper …",
+      "answer": "stars"
+     },
+     {
+      "q": "Valentina is the mountain …",
+      "answer": "queen"
+     },
+     {
+      "q": "Erik's lights change: blue, green, …",
+      "answer": "purple"
+     },
+     {
+      "q": "Mateo's grandma is crying happy …",
+      "answer": "tears"
+     },
+     {
+      "q": "Mateo found his costume two … late.",
+      "answer": "minutes"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "Actors perform on the …",
+      "options": [
+       "stage",
+       "stairs",
+       "shelf"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "A pirate ___ is perfect for the show.",
+      "options": [
+       "costume",
+       "curtain",
+       "cushion"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "At the end, everybody …",
+      "options": [
+       "claps",
+       "sleeps",
+       "cooks"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Look! The baby ___ dancing to the music!",
+      "options": [
+       "is",
+       "are",
+       "do"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The people watching the show are the …",
+      "options": [
+       "audience",
+       "actors",
+       "drivers"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Live commentary: your partner acts something slowly (dancing, singing, acting like a lion). You narrate: \"Now you are… \" Then swap. Applause for everyone!"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Watch your family for 10 minutes tonight. Write 5 sentences about what everyone is doing (present continuous)."
+  }
+ ]
 }

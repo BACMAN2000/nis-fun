@@ -1,54 +1,254 @@
 {
-  "id": "movers-27", "level": "movers", "number": 27,
-  "title": "The class trip", "topic": "past simple: -ed",
-  "grammar": "pasado regular: -ed",
-  "wordlist": ["visited", "walked", "watched", "played", "listened", "climbed", "jumped", "helped", "laughed", "yesterday"],
-  "exam_focus": { "paper": "Reading & Writing", "part": 4, "skill": "factual text" },
-  "characters": ["valentina", "erik"],
-  "scene": { "speaker": "valentina", "pose": { "valentina": 3, "erik": 10 },
-    "bubble": "Yesterday we visited the science museum — and Erik talked to the robot for one whole hour!" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the verb with its past form.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Verb", "right_label": "Past",
-        "pairs": [
-          { "left": "visit", "right": "visited" },
-          { "left": "walk", "right": "walked" },
-          { "left": "watch", "right": "watched" },
-          { "left": "play", "right": "played" },
-          { "left": "climb", "right": "climbed" },
-          { "left": "laugh", "right": "laughed" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Read about the trip and choose the right answer.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Read the text. Choose the correct answer.",
-        "text": "Yesterday our class visited the science museum. We walked there in twenty minutes. First we watched a film about volcanoes — the screen was as big as a wall! Then we visited the robot room. A small robot called Beep talked with us and answered our questions. Erik asked it eleven questions! At midday we played in the museum garden and listened to a scientist who studies whales. Everyone laughed when she showed us how whales sing. We arrived home tired and happy.",
-        "items": [
-          { "sentence": "How did the class go to the museum?", "options": ["by bus", "they walked", "by train"], "answer": 1 },
-          { "sentence": "The film was about …", "options": ["whales", "volcanoes", "robots"], "answer": 1 },
-          { "sentence": "The small robot was called …", "options": ["Beep", "Bop", "Bip"], "answer": 0 },
-          { "sentence": "How many questions did Erik ask?", "options": ["seven", "eleven", "twenty"], "answer": 1 },
-          { "sentence": "The scientist studies …", "options": ["whales", "stars", "plants"], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to the trip memories. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "movers/u27-c.mp3",
-      "data": { "voice_note": "Voces: Valentina y Erik (recordando el paseo).",
-        "script": "Valentina: What a trip! We walked to the museum in twenty minutes. … Erik: The volcano film was amazing. The screen was huge! … Valentina: You talked with the robot for one hour, Erik. … Erik: Beep is my friend now! He remembered my name! … Valentina: In the garden we listened to the whale scientist. … Erik: And everyone laughed when she sang like a whale! … Valentina: I asked her for an autograph. She signed my notebook! … Erik: Best. Trip. Of. The. Year.",
-        "questions": [
-          { "q": "They walked to the museum in twenty …", "answer": "minutes" },
-          { "q": "Erik talked with the robot for one …", "answer": "hour" },
-          { "q": "The robot's name is …", "answer": "Beep" },
-          { "q": "The scientist sang like a …", "answer": "whale" },
-          { "q": "She signed Valentina's …", "answer": "notebook" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct past form.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Complete each sentence.",
-        "items": [
-          { "sentence": "Yesterday we ___ the old castle.", "options": ["visited", "visit", "visiting"], "answer": 0 },
-          { "sentence": "She ___ a funny film last night.", "options": ["watched", "watch", "watches"], "answer": 0 },
-          { "sentence": "They ___ football in the rain!", "options": ["played", "play", "plays"], "answer": 0 },
-          { "sentence": "He ___ up the tall tree.", "options": ["climbed", "climb", "climbing"], "answer": 0 },
-          { "sentence": "We ___ so much at the whale song!", "options": ["laughed", "laugh", "laughs"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Tell your partner about your last school trip (or a family trip): 5 sentences, all with -ed verbs. They count your past verbs!" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write yesterday's diary: 5 sentences with regular past verbs (visited, played, watched, helped, listened)." } ]
+ "id": "movers-27",
+ "level": "movers",
+ "number": 27,
+ "title": "The class trip",
+ "topic": "past simple: -ed",
+ "grammar": "pasado regular: -ed",
+ "wordlist": [
+  "visited",
+  "walked",
+  "watched",
+  "played",
+  "listened",
+  "climbed",
+  "jumped",
+  "helped",
+  "laughed",
+  "yesterday"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 4,
+  "skill": "factual text"
+ },
+ "characters": [
+  "valentina",
+  "erik"
+ ],
+ "scene": {
+  "speaker": "valentina",
+  "pose": {
+   "valentina": 3,
+   "erik": 10
+  },
+  "bubble": "Yesterday we visited the science museum — and Erik talked to the robot for one whole hour!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the verb with its past form.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Verb",
+    "right_label": "Past",
+    "pairs": [
+     {
+      "left": "visit",
+      "right": "visited"
+     },
+     {
+      "left": "walk",
+      "right": "walked"
+     },
+     {
+      "left": "watch",
+      "right": "watched"
+     },
+     {
+      "left": "play",
+      "right": "played"
+     },
+     {
+      "left": "climb",
+      "right": "climbed"
+     },
+     {
+      "left": "laugh",
+      "right": "laughed"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Read about the trip and choose the right answer.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Read the text. Choose the correct answer.",
+    "text": "Yesterday our class visited the science museum. We walked there in twenty minutes. First we watched a film about volcanoes — the screen was as big as a wall! Then we visited the robot room. A small robot called Beep talked with us and answered our questions. Erik asked it eleven questions! At midday we played in the museum garden and listened to a scientist who studies whales. Everyone laughed when she showed us how whales sing. We arrived home tired and happy.",
+    "items": [
+     {
+      "sentence": "How did the class go to the museum?",
+      "options": [
+       "by bus",
+       "they walked",
+       "by train"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "The film was about …",
+      "options": [
+       "whales",
+       "volcanoes",
+       "robots"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "The small robot was called …",
+      "options": [
+       "Beep",
+       "Bop",
+       "Bip"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "How many questions did Erik ask?",
+      "options": [
+       "seven",
+       "eleven",
+       "twenty"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "The scientist studies …",
+      "options": [
+       "whales",
+       "stars",
+       "plants"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to the trip memories. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u27-c.mp3",
+   "data": {
+    "voice_note": "Voces: Valentina y Erik (recordando el paseo).",
+    "script": "Valentina: What a trip! We walked to the museum in twenty minutes. … Erik: The volcano film was amazing. The screen was huge! … Valentina: You talked with the robot for one hour, Erik. … Erik: Beep is my friend now! He remembered my name! … Valentina: In the garden we listened to the whale scientist. … Erik: And everyone laughed when she sang like a whale! … Valentina: I asked her for an autograph. She signed my notebook! … Erik: Best. Trip. Of. The. Year.",
+    "questions": [
+     {
+      "q": "They walked to the museum in twenty …",
+      "answer": "minutes"
+     },
+     {
+      "q": "Erik talked with the robot for one …",
+      "answer": "hour"
+     },
+     {
+      "q": "The robot's name is …",
+      "answer": "Beep"
+     },
+     {
+      "q": "The scientist sang like a …",
+      "answer": "whale"
+     },
+     {
+      "q": "She signed Valentina's …",
+      "answer": "notebook"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct past form.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete each sentence.",
+    "items": [
+     {
+      "sentence": "Yesterday we ___ the old castle.",
+      "options": [
+       "visited",
+       "visit",
+       "visiting"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "She ___ a funny film last night.",
+      "options": [
+       "watched",
+       "watch",
+       "watches"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "They ___ football in the rain!",
+      "options": [
+       "played",
+       "play",
+       "plays"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "He ___ up the tall tree.",
+      "options": [
+       "climbed",
+       "climb",
+       "climbing"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "We ___ so much at the whale song!",
+      "options": [
+       "laughed",
+       "laugh",
+       "laughs"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Tell your partner about your last school trip (or a family trip): 5 sentences, all with -ed verbs. They count your past verbs!"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write yesterday's diary: 5 sentences with regular past verbs (visited, played, watched, helped, listened)."
+  }
+ ]
 }

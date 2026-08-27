@@ -1,53 +1,253 @@
 {
-  "id": "flyers-53", "level": "flyers", "number": 53,
-  "title": "Exam day: Listening", "topic": "exam practice",
-  "grammar": "estrategias para el paper de Listening",
-  "wordlist": ["instructions", "example", "twice", "pencil", "check", "gap", "spelling", "number", "colour", "relax"],
-  "exam_focus": { "paper": "Listening", "part": 2, "skill": "estrategia general" },
-  "characters": ["kili", "maya"],
-  "scene": { "speaker": "maya", "pose": { "maya": 3, "kili": 1 },
-    "bubble": "Listening exam secrets: read first, listen twice, and never leave a gap empty. Even Kili knows them!" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the exam rule with the reason.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Rule", "right_label": "Reason",
-        "pairs": [
-          { "left": "Read the questions before listening.", "right": "you'll know what to listen for" },
-          { "left": "You hear each part twice.", "right": "the second time is for checking" },
-          { "left": "Write numbers as digits.", "right": "15 is faster and safer than fifteen" },
-          { "left": "Check your spelling at the end.", "right": "wrong spelling can lose the point" },
-          { "left": "Never leave a gap empty.", "right": "a good guess can be correct!" },
-          { "left": "Stay calm if you miss one answer.", "right": "the next question needs your ears" } ] } },
-    { "code": "B", "type": "exam_task", "title": "What should you do? Choose the best option.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the best exam strategy.",
-        "items": [
-          { "sentence": "The audio says \"her name is Katy, K-A-T-Y\". You write…", "options": ["Katy", "Katie", "Cathy"], "answer": 0 },
-          { "sentence": "You missed question 3. What now?", "options": ["Keep listening and return to it in the second playing", "Stop and think about it for two minutes", "Cry a little"], "answer": 0 },
-          { "sentence": "The gap asks for a number and you hear \"forty\". You write…", "options": ["40", "fourteen", "4"], "answer": 0 },
-          { "sentence": "Before the audio starts, you should…", "options": ["read the questions quickly", "close your eyes", "count the pages"], "answer": 0 },
-          { "sentence": "In the colouring part, you need…", "options": ["coloured pencils ready", "a calculator", "scissors"], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Mini exam! Listen and write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "flyers/u53-c.mp3",
-      "data": { "voice_note": "Voces: Maya (examinadora de práctica) — formato Listening Part 2 real.",
-        "script": "Maya: This is a practice test. Listen and write. … Maya: The school trip is on Thursday. Thursday, T-H-U-R-S-D-A-Y. … Maya: The bus leaves at nine fifteen. Nine one five. … Maya: Bring a packed lunch and a water bottle. The most important thing is the water bottle. … Maya: The entrance ticket costs seven soles. Seven. … Maya: And the teacher's phone number is nine-nine-two, three-four-five, six-seven-eight. … Maya: Now check your answers. You did it twice? Perfect. That's the exam way!",
-        "questions": [
-          { "q": "The trip is on …", "answer": "Thursday" },
-          { "q": "The bus leaves at nine …", "answer": "fifteen" },
-          { "q": "The most important thing to bring is the water …", "answer": "bottle" },
-          { "q": "The ticket costs … soles.", "answer": "seven" },
-          { "q": "The phone number starts with nine-nine-…", "answer": "two" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "Every Listening part starts with an …", "options": ["example", "opposite", "envelope"], "answer": 0 },
-          { "sentence": "You hear each recording …", "options": ["twice", "once", "five times"], "answer": 0 },
-          { "sentence": "Write your answers with a …", "options": ["pencil", "brush", "spoon"], "answer": 0 },
-          { "sentence": "An empty space where you write a word is a …", "options": ["gap", "queue", "step"], "answer": 0 },
-          { "sentence": "Before the exam, take a deep breath and …", "options": ["relax", "run", "shout"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Dictation duel: read 5 words from this book to your partner, letter by letter if they ask. They write; then check spelling together. Swap. Champion = fewer mistakes." } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write your 3 personal exam rules (in English) and stick them on your desk: I will read first. I will…" } ]
+ "id": "flyers-53",
+ "level": "flyers",
+ "number": 53,
+ "title": "Exam day: Listening",
+ "topic": "exam practice",
+ "grammar": "estrategias para el paper de Listening",
+ "wordlist": [
+  "instructions",
+  "example",
+  "twice",
+  "pencil",
+  "check",
+  "gap",
+  "spelling",
+  "number",
+  "colour",
+  "relax"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 2,
+  "skill": "estrategia general"
+ },
+ "characters": [
+  "kili",
+  "maya"
+ ],
+ "scene": {
+  "speaker": "maya",
+  "pose": {
+   "maya": 3,
+   "kili": 1
+  },
+  "bubble": "Listening exam secrets: read first, listen twice, and never leave a gap empty. Even Kili knows them!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the exam rule with the reason.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Rule",
+    "right_label": "Reason",
+    "pairs": [
+     {
+      "left": "Read the questions before listening.",
+      "right": "you'll know what to listen for"
+     },
+     {
+      "left": "You hear each part twice.",
+      "right": "the second time is for checking"
+     },
+     {
+      "left": "Write numbers as digits.",
+      "right": "15 is faster and safer than fifteen"
+     },
+     {
+      "left": "Check your spelling at the end.",
+      "right": "wrong spelling can lose the point"
+     },
+     {
+      "left": "Never leave a gap empty.",
+      "right": "a good guess can be correct!"
+     },
+     {
+      "left": "Stay calm if you miss one answer.",
+      "right": "the next question needs your ears"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "What should you do? Choose the best option.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the best exam strategy.",
+    "items": [
+     {
+      "sentence": "The audio says \"her name is Katy, K-A-T-Y\". You write…",
+      "options": [
+       "Katy",
+       "Katie",
+       "Cathy"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "You missed question 3. What now?",
+      "options": [
+       "Keep listening and return to it in the second playing",
+       "Stop and think about it for two minutes",
+       "Cry a little"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The gap asks for a number and you hear \"forty\". You write…",
+      "options": [
+       "40",
+       "fourteen",
+       "4"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Before the audio starts, you should…",
+      "options": [
+       "read the questions quickly",
+       "close your eyes",
+       "count the pages"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "In the colouring part, you need…",
+      "options": [
+       "coloured pencils ready",
+       "a calculator",
+       "scissors"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Mini exam! Listen and write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u53-c.mp3",
+   "data": {
+    "voice_note": "Voces: Maya (examinadora de práctica) — formato Listening Part 2 real.",
+    "script": "Maya: This is a practice test. Listen and write. … Maya: The school trip is on Thursday. Thursday, T-H-U-R-S-D-A-Y. … Maya: The bus leaves at nine fifteen. Nine one five. … Maya: Bring a packed lunch and a water bottle. The most important thing is the water bottle. … Maya: The entrance ticket costs seven soles. Seven. … Maya: And the teacher's phone number is nine-nine-two, three-four-five, six-seven-eight. … Maya: Now check your answers. You did it twice? Perfect. That's the exam way!",
+    "questions": [
+     {
+      "q": "The trip is on …",
+      "answer": "Thursday"
+     },
+     {
+      "q": "The bus leaves at nine …",
+      "answer": "fifteen"
+     },
+     {
+      "q": "The most important thing to bring is the water …",
+      "answer": "bottle"
+     },
+     {
+      "q": "The ticket costs … soles.",
+      "answer": "seven"
+     },
+     {
+      "q": "The phone number starts with nine-nine-…",
+      "answer": "two"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "Every Listening part starts with an …",
+      "options": [
+       "example",
+       "opposite",
+       "envelope"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "You hear each recording …",
+      "options": [
+       "twice",
+       "once",
+       "five times"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Write your answers with a …",
+      "options": [
+       "pencil",
+       "brush",
+       "spoon"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "An empty space where you write a word is a …",
+      "options": [
+       "gap",
+       "queue",
+       "step"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Before the exam, take a deep breath and …",
+      "options": [
+       "relax",
+       "run",
+       "shout"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Dictation duel: read 5 words from this book to your partner, letter by letter if they ask. They write; then check spelling together. Swap. Champion = fewer mistakes."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write your 3 personal exam rules (in English) and stick them on your desk: I will read first. I will…"
+  }
+ ]
 }

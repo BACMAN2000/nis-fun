@@ -1,52 +1,226 @@
 {
-  "id": "starters-13", "level": "starters", "number": 13,
-  "title": "Fruit fun", "topic": "fruit",
-  "grammar": "plurales + colores",
-  "wordlist": ["apple", "banana", "orange", "grapes", "mango", "watermelon", "pineapple", "strawberry", "sweet", "juice"],
-  "exam_focus": { "paper": "Listening", "part": 4, "skill": "fruit & colours" },
-  "characters": ["astrid", "freya"],
-  "scene": { "speaker": "astrid", "pose": { "astrid": 8, "freya": 1 },
-    "bubble": "Fruit salad day! Apples, bananas, mango… we cut, we mix, we eat. The best lesson ever!" },
-  "activities": [
-    { "code": "A", "type": "crossword", "title": "Write the fruit words.",
-      "outputs": ["book", "digital"],
-      "data": { "words": [
-        { "word": "APPLE", "clue": "Red or green. It is crunchy." },
-        { "word": "BANANA", "clue": "Long and yellow. Monkeys love it." },
-        { "word": "MANGO", "clue": "Orange inside, sweet and juicy." },
-        { "word": "GRAPES", "clue": "Small, green or purple, in a bunch." },
-        { "word": "ORANGE", "clue": "A fruit with the name of a colour!" } ] } },
-    { "code": "B", "type": "match_words", "title": "Match the fruit with its colour.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Fruit", "right_label": "Colour",
-        "pairs": [
-          { "left": "a banana", "right": "yellow" },
-          { "left": "a strawberry", "right": "red" },
-          { "left": "an orange", "right": "orange" },
-          { "left": "grapes", "right": "purple or green" },
-          { "left": "a watermelon", "right": "green outside, red inside" },
-          { "left": "a pineapple", "right": "yellow with a green top" } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to the fruit salad. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "starters/u13-c.mp3",
-      "data": { "voice_note": "Voces: Astrid (chef) y Freya (ayudante).",
-        "script": "Astrid: Fruit salad time! First, two red apples. … Freya: Cut! What next? … Astrid: Three bananas. Yellow and sweet. … Freya: Now the mango! It smells so good. … Astrid: And ten grapes. Purple ones. … Freya: Can we add strawberries? … Astrid: Yes! Five big strawberries. … Freya: Mix, mix, mix… ready! The salad has six colours! … Astrid: And one hungry bird watching. Hello, Pip!",
-        "questions": [
-          { "q": "First, two red …", "answer": "apples" },
-          { "q": "Then … bananas.", "answer": "three" },
-          { "q": "The grapes are …", "answer": "purple" },
-          { "q": "They add five big …", "answer": "strawberries" },
-          { "q": "The salad has … colours!", "answer": "six" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "A banana is …", "options": ["yellow", "blue", "black"], "answer": 0 },
-          { "sentence": "One apple, two …", "options": ["apples", "apple", "appls"], "answer": 0 },
-          { "sentence": "A watermelon is ___ inside.", "options": ["red", "yellow", "white"], "answer": 0 },
-          { "sentence": "Orange fruit + water = orange …", "options": ["juice", "cake", "soup"], "answer": 0 },
-          { "sentence": "Fruit is ___ and healthy.", "options": ["sweet", "salty", "grey"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Fruit shop: Student A sells, Student B buys 3 fruits (\"Two apples, please!\"). Use please and thank you. Then swap." } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Draw a fruit salad with 5 fruits and label them. Write: My salad has…" } ]
+ "id": "starters-13",
+ "level": "starters",
+ "number": 13,
+ "title": "Fruit fun",
+ "topic": "fruit",
+ "grammar": "plurales + colores",
+ "wordlist": [
+  "apple",
+  "banana",
+  "orange",
+  "grapes",
+  "mango",
+  "watermelon",
+  "pineapple",
+  "strawberry",
+  "sweet",
+  "juice"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 4,
+  "skill": "fruit & colours"
+ },
+ "characters": [
+  "astrid",
+  "freya"
+ ],
+ "scene": {
+  "speaker": "astrid",
+  "pose": {
+   "astrid": 8,
+   "freya": 1
+  },
+  "bubble": "Fruit salad day! Apples, bananas, mango… we cut, we mix, we eat. The best lesson ever!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Write the fruit words.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "APPLE",
+      "clue": "Red or green. It is crunchy."
+     },
+     {
+      "word": "BANANA",
+      "clue": "Long and yellow. Monkeys love it."
+     },
+     {
+      "word": "MANGO",
+      "clue": "Orange inside, sweet and juicy."
+     },
+     {
+      "word": "GRAPES",
+      "clue": "Small, green or purple, in a bunch."
+     },
+     {
+      "word": "ORANGE",
+      "clue": "A fruit with the name of a colour!"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Match the fruit with its colour.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Fruit",
+    "right_label": "Colour",
+    "pairs": [
+     {
+      "left": "a banana",
+      "right": "yellow"
+     },
+     {
+      "left": "a strawberry",
+      "right": "red"
+     },
+     {
+      "left": "an orange",
+      "right": "orange"
+     },
+     {
+      "left": "grapes",
+      "right": "purple or green"
+     },
+     {
+      "left": "a watermelon",
+      "right": "green outside, red inside"
+     },
+     {
+      "left": "a pineapple",
+      "right": "yellow with a green top"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to the fruit salad. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u13-c.mp3",
+   "data": {
+    "voice_note": "Voces: Astrid (chef) y Freya (ayudante).",
+    "script": "Astrid: Fruit salad time! First, two red apples. … Freya: Cut! What next? … Astrid: Three bananas. Yellow and sweet. … Freya: Now the mango! It smells so good. … Astrid: And ten grapes. Purple ones. … Freya: Can we add strawberries? … Astrid: Yes! Five big strawberries. … Freya: Mix, mix, mix… ready! The salad has six colours! … Astrid: And one hungry bird watching. Hello, Pip!",
+    "questions": [
+     {
+      "q": "First, two red …",
+      "answer": "apples"
+     },
+     {
+      "q": "Then … bananas.",
+      "answer": "three"
+     },
+     {
+      "q": "The grapes are …",
+      "answer": "purple"
+     },
+     {
+      "q": "They add five big …",
+      "answer": "strawberries"
+     },
+     {
+      "q": "The salad has … colours!",
+      "answer": "six"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "A banana is …",
+      "options": [
+       "yellow",
+       "blue",
+       "black"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "One apple, two …",
+      "options": [
+       "apples",
+       "apple",
+       "appls"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "A watermelon is ___ inside.",
+      "options": [
+       "red",
+       "yellow",
+       "white"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Orange fruit + water = orange …",
+      "options": [
+       "juice",
+       "cake",
+       "soup"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Fruit is ___ and healthy.",
+      "options": [
+       "sweet",
+       "salty",
+       "grey"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Fruit shop: Student A sells, Student B buys 3 fruits (\"Two apples, please!\"). Use please and thank you. Then swap."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Draw a fruit salad with 5 fruits and label them. Write: My salad has…"
+  }
+ ]
 }

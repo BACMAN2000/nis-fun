@@ -1,53 +1,253 @@
 {
-  "id": "movers-31", "level": "movers", "number": 31,
-  "title": "The best in the class", "topic": "superlatives",
-  "grammar": "superlativos con -est / the best",
-  "wordlist": ["the best", "the biggest", "the tallest", "the fastest", "the funniest", "the smallest", "the oldest", "the youngest", "the strongest", "class"],
-  "exam_focus": { "paper": "Listening", "part": 3, "skill": "matching" },
-  "characters": ["mateo", "valentina"],
-  "scene": { "speaker": "valentina", "pose": { "valentina": 10, "mateo": 10 },
-    "bubble": "Class records day! The fastest runner, the best singer, the funniest joke… everyone wins at something!" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the record with the winner.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Record", "right_label": "Winner",
-        "pairs": [
-          { "left": "the fastest runner", "right": "Sofia, of course" },
-          { "left": "the best inventor", "right": "Erik and his robots" },
-          { "left": "the funniest storyteller", "right": "Valentina" },
-          { "left": "the biggest heart", "right": "Mateo, friend of everyone" },
-          { "left": "the loudest bark", "right": "Luna!" },
-          { "left": "the tidiest desk", "right": "nobody — we're working on it" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Choose the correct superlative.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Complete each sentence.",
-        "items": [
-          { "sentence": "The blue whale is ___ animal in the world.", "options": ["the biggest", "the bigger", "biggest"], "answer": 0 },
-          { "sentence": "Monday is ___ day of the week. So hard!", "options": ["the longest", "the longer", "longest of"], "answer": 0 },
-          { "sentence": "My grandma is ___ person in our family.", "options": ["the oldest", "the older", "oldest"], "answer": 0 },
-          { "sentence": "That was ___ joke ever! Ha ha!", "options": ["the funniest", "the funnier", "most funny"], "answer": 0 },
-          { "sentence": "Our baby cousin is ___ in the house.", "options": ["the youngest", "the younger", "young"], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to the records ceremony. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "movers/u31-c.mp3",
-      "data": { "voice_note": "Voces: Valentina (presentadora) y Mateo (aplaudiendo todo).",
-        "script": "Valentina: Class records ceremony! First: the fastest runner… Sofia, with eight seconds! … Mateo: The best drawing of the year goes to Pedro, for his dragon with three heads. … Valentina: The biggest smile award: Mateo! He smiled in every photo of the year. … Mateo: It's true. Even in the dentist photo! … Valentina: The quietest reader: Ana — she read forty books this year. … Mateo: And the special prize: Luna, the best dog assistant in school history! … Valentina: Congratulations, everyone! Now: the biggest cake of the year!",
-        "questions": [
-          { "q": "Sofía ran in … seconds.", "answer": "eight" },
-          { "q": "Pedro drew a dragon with three …", "answer": "heads" },
-          { "q": "Mateo smiled even in the … photo.", "answer": "dentist" },
-          { "q": "Ana read … books this year.", "answer": "forty" },
-          { "q": "The ceremony ends with the biggest … of the year.", "answer": "cake" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "The cheetah is ___ land animal.", "options": ["the fastest", "the faster", "fast"], "answer": 0 },
-          { "sentence": "The ant is one of ___ insects.", "options": ["the smallest", "the smaller", "small"], "answer": 0 },
-          { "sentence": "Dad is ___ person in our family — he carries everything!", "options": ["the strongest", "the stronger", "strong"], "answer": 0 },
-          { "sentence": "\"Who is ___ student in class?\" — \"We all are!\"", "options": ["the best", "the better", "good"], "answer": 0 },
-          { "sentence": "Everest is ___ mountain on Earth.", "options": ["the highest", "the higher", "high"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Create 4 fun class records with your partner (the best laugh, the tidiest pencil case…) and decide together who wins each — with a reason!" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write the records of your family: the oldest, the youngest, the funniest, the best cook. One sentence each with because." } ]
+ "id": "movers-31",
+ "level": "movers",
+ "number": 31,
+ "title": "The best in the class",
+ "topic": "superlatives",
+ "grammar": "superlativos con -est / the best",
+ "wordlist": [
+  "the best",
+  "the biggest",
+  "the tallest",
+  "the fastest",
+  "the funniest",
+  "the smallest",
+  "the oldest",
+  "the youngest",
+  "the strongest",
+  "class"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 3,
+  "skill": "matching"
+ },
+ "characters": [
+  "mateo",
+  "valentina"
+ ],
+ "scene": {
+  "speaker": "valentina",
+  "pose": {
+   "valentina": 10,
+   "mateo": 10
+  },
+  "bubble": "Class records day! The fastest runner, the best singer, the funniest joke… everyone wins at something!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the record with the winner.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Record",
+    "right_label": "Winner",
+    "pairs": [
+     {
+      "left": "the fastest runner",
+      "right": "Sofia, of course"
+     },
+     {
+      "left": "the best inventor",
+      "right": "Erik and his robots"
+     },
+     {
+      "left": "the funniest storyteller",
+      "right": "Valentina"
+     },
+     {
+      "left": "the biggest heart",
+      "right": "Mateo, friend of everyone"
+     },
+     {
+      "left": "the loudest bark",
+      "right": "Luna!"
+     },
+     {
+      "left": "the tidiest desk",
+      "right": "nobody — we're working on it"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choose the correct superlative.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete each sentence.",
+    "items": [
+     {
+      "sentence": "The blue whale is ___ animal in the world.",
+      "options": [
+       "the biggest",
+       "the bigger",
+       "biggest"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Monday is ___ day of the week. So hard!",
+      "options": [
+       "the longest",
+       "the longer",
+       "longest of"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "My grandma is ___ person in our family.",
+      "options": [
+       "the oldest",
+       "the older",
+       "oldest"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "That was ___ joke ever! Ha ha!",
+      "options": [
+       "the funniest",
+       "the funnier",
+       "most funny"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Our baby cousin is ___ in the house.",
+      "options": [
+       "the youngest",
+       "the younger",
+       "young"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to the records ceremony. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u31-c.mp3",
+   "data": {
+    "voice_note": "Voces: Valentina (presentadora) y Mateo (aplaudiendo todo).",
+    "script": "Valentina: Class records ceremony! First: the fastest runner… Sofia, with eight seconds! … Mateo: The best drawing of the year goes to Pedro, for his dragon with three heads. … Valentina: The biggest smile award: Mateo! He smiled in every photo of the year. … Mateo: It's true. Even in the dentist photo! … Valentina: The quietest reader: Ana — she read forty books this year. … Mateo: And the special prize: Luna, the best dog assistant in school history! … Valentina: Congratulations, everyone! Now: the biggest cake of the year!",
+    "questions": [
+     {
+      "q": "Sofía ran in … seconds.",
+      "answer": "eight"
+     },
+     {
+      "q": "Pedro drew a dragon with three …",
+      "answer": "heads"
+     },
+     {
+      "q": "Mateo smiled even in the … photo.",
+      "answer": "dentist"
+     },
+     {
+      "q": "Ana read … books this year.",
+      "answer": "forty"
+     },
+     {
+      "q": "The ceremony ends with the biggest … of the year.",
+      "answer": "cake"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "The cheetah is ___ land animal.",
+      "options": [
+       "the fastest",
+       "the faster",
+       "fast"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The ant is one of ___ insects.",
+      "options": [
+       "the smallest",
+       "the smaller",
+       "small"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Dad is ___ person in our family — he carries everything!",
+      "options": [
+       "the strongest",
+       "the stronger",
+       "strong"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"Who is ___ student in class?\" — \"We all are!\"",
+      "options": [
+       "the best",
+       "the better",
+       "good"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Everest is ___ mountain on Earth.",
+      "options": [
+       "the highest",
+       "the higher",
+       "high"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Create 4 fun class records with your partner (the best laugh, the tidiest pencil case…) and decide together who wins each — with a reason!"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write the records of your family: the oldest, the youngest, the funniest, the best cook. One sentence each with because."
+  }
+ ]
 }

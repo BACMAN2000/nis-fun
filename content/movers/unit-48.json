@@ -1,53 +1,253 @@
 {
-  "id": "movers-48", "level": "movers", "number": 48,
-  "title": "Word games", "topic": "vocabulary review",
-  "grammar": "repaso de vocabulario Movers",
-  "wordlist": ["word", "letter", "spell", "guess", "clue", "pair", "opposite", "sound", "game", "point"],
-  "exam_focus": { "paper": "Reading & Writing", "part": 1, "skill": "definitions" },
-  "characters": ["erik", "sofia"],
-  "scene": { "speaker": "erik", "pose": { "erik": 10, "sofia": 2 },
-    "bubble": "Word Games afternoon! Spelling, opposites, guessing… and the champion gets the golden pencil!" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the opposites — Movers review!",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Word", "right_label": "Opposite",
-        "pairs": [
-          { "left": "big", "right": "small" },
-          { "left": "fast", "right": "slow" },
-          { "left": "hot", "right": "cold" },
-          { "left": "happy", "right": "sad" },
-          { "left": "early", "right": "late" },
-          { "left": "quiet", "right": "noisy" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Guess the word from the clue.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Read the clue and choose the word.",
-        "items": [
-          { "sentence": "It has eight arms and lives in the sea.", "options": ["an octopus", "a crab", "a shark"], "answer": 0 },
-          { "sentence": "You sleep on it every night.", "options": ["a bed", "a desk", "a shelf"], "answer": 0 },
-          { "sentence": "The season when the leaves fall.", "options": ["autumn", "spring", "summer"], "answer": 0 },
-          { "sentence": "The person who brings food in a café.", "options": ["the waiter", "the dentist", "the driver"], "answer": 0 },
-          { "sentence": "You blow them out on your birthday.", "options": ["candles", "balloons", "presents"], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to the championship. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "movers/u48-c.mp3",
-      "data": { "voice_note": "Voces: Erik (presentador) y Sofía (concursante).",
-        "script": "Erik: Word Games final! Sofia, spell the word GARDEN. … Sofia: G-A-R-D-E-N. Garden! … Erik: Ten points! Now: the opposite of EMPTY. … Sofia: Full! … Erik: Correct! Name three animals that can swim. … Sofia: Dolphin, penguin and… Luna! … Erik: Ha! We accept it. Last question: how many letters are in CROCODILE? … Sofia: C-R-O-C-O-D-I-L-E… nine! … Erik: Champion! The golden pencil is yours!",
-        "questions": [
-          { "q": "Sofía spells the word …", "answer": "GARDEN" },
-          { "q": "The opposite of empty is …", "answer": "full" },
-          { "q": "Her three swimmers: dolphin, penguin and …", "answer": "Luna" },
-          { "q": "CROCODILE has … letters.", "answer": "nine" },
-          { "q": "The prize is the golden …", "answer": "pencil" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "To say a word letter by letter is to ___ it.", "options": ["spell", "spill", "smell"], "answer": 0 },
-          { "sentence": "Hot and cold are …", "options": ["opposites", "pairs of shoes", "seasons"], "answer": 0 },
-          { "sentence": "A small help to find the answer is a …", "options": ["clue", "club", "cloud"], "answer": 0 },
-          { "sentence": "When you don't know, you can …", "options": ["guess", "sleep", "shout"], "answer": 0 },
-          { "sentence": "Each correct answer gives you a …", "options": ["point", "paint", "pot"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Mini championship: 3 rounds each — spell a word, give an opposite, describe a word for your partner to guess. Winner chooses the next game!" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Make a word search with 8 words from this book (draw the grid!). Bring it for a classmate to solve." } ]
+ "id": "movers-48",
+ "level": "movers",
+ "number": 48,
+ "title": "Word games",
+ "topic": "vocabulary review",
+ "grammar": "repaso de vocabulario Movers",
+ "wordlist": [
+  "word",
+  "letter",
+  "spell",
+  "guess",
+  "clue",
+  "pair",
+  "opposite",
+  "sound",
+  "game",
+  "point"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 1,
+  "skill": "definitions"
+ },
+ "characters": [
+  "erik",
+  "sofia"
+ ],
+ "scene": {
+  "speaker": "erik",
+  "pose": {
+   "erik": 10,
+   "sofia": 2
+  },
+  "bubble": "Word Games afternoon! Spelling, opposites, guessing… and the champion gets the golden pencil!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the opposites — Movers review!",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Opposite",
+    "pairs": [
+     {
+      "left": "big",
+      "right": "small"
+     },
+     {
+      "left": "fast",
+      "right": "slow"
+     },
+     {
+      "left": "hot",
+      "right": "cold"
+     },
+     {
+      "left": "happy",
+      "right": "sad"
+     },
+     {
+      "left": "early",
+      "right": "late"
+     },
+     {
+      "left": "quiet",
+      "right": "noisy"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Guess the word from the clue.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Read the clue and choose the word.",
+    "items": [
+     {
+      "sentence": "It has eight arms and lives in the sea.",
+      "options": [
+       "an octopus",
+       "a crab",
+       "a shark"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "You sleep on it every night.",
+      "options": [
+       "a bed",
+       "a desk",
+       "a shelf"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The season when the leaves fall.",
+      "options": [
+       "autumn",
+       "spring",
+       "summer"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The person who brings food in a café.",
+      "options": [
+       "the waiter",
+       "the dentist",
+       "the driver"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "You blow them out on your birthday.",
+      "options": [
+       "candles",
+       "balloons",
+       "presents"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to the championship. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u48-c.mp3",
+   "data": {
+    "voice_note": "Voces: Erik (presentador) y Sofía (concursante).",
+    "script": "Erik: Word Games final! Sofia, spell the word GARDEN. … Sofia: G-A-R-D-E-N. Garden! … Erik: Ten points! Now: the opposite of EMPTY. … Sofia: Full! … Erik: Correct! Name three animals that can swim. … Sofia: Dolphin, penguin and… Luna! … Erik: Ha! We accept it. Last question: how many letters are in CROCODILE? … Sofia: C-R-O-C-O-D-I-L-E… nine! … Erik: Champion! The golden pencil is yours!",
+    "questions": [
+     {
+      "q": "Sofía spells the word …",
+      "answer": "GARDEN"
+     },
+     {
+      "q": "The opposite of empty is …",
+      "answer": "full"
+     },
+     {
+      "q": "Her three swimmers: dolphin, penguin and …",
+      "answer": "Luna"
+     },
+     {
+      "q": "CROCODILE has … letters.",
+      "answer": "nine"
+     },
+     {
+      "q": "The prize is the golden …",
+      "answer": "pencil"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "To say a word letter by letter is to ___ it.",
+      "options": [
+       "spell",
+       "spill",
+       "smell"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Hot and cold are …",
+      "options": [
+       "opposites",
+       "pairs of shoes",
+       "seasons"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "A small help to find the answer is a …",
+      "options": [
+       "clue",
+       "club",
+       "cloud"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "When you don't know, you can …",
+      "options": [
+       "guess",
+       "sleep",
+       "shout"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Each correct answer gives you a …",
+      "options": [
+       "point",
+       "paint",
+       "pot"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Mini championship: 3 rounds each — spell a word, give an opposite, describe a word for your partner to guess. Winner chooses the next game!"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Make a word search with 8 words from this book (draw the grid!). Bring it for a classmate to solve."
+  }
+ ]
 }

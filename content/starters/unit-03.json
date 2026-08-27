@@ -1,298 +1,299 @@
 {
-  "id": "starters-03",
-  "level": "starters",
-  "number": 3,
-  "title": "At the zoo",
-  "topic": "animals",
-  "grammar": "It can… / How many…?",
-  "wordlist": [
-    "dog",
-    "cat",
-    "bird",
-    "fish",
-    "horse",
-    "cow",
-    "duck",
-    "monkey",
-    "elephant"
-  ],
-  "exam_focus": {
-    "paper": "Listening",
-    "part": 4,
-    "skill": "colours and numbers"
+ "id": "starters-03",
+ "level": "starters",
+ "number": 3,
+ "title": "At the zoo",
+ "topic": "animals",
+ "grammar": "It can… / How many…?",
+ "wordlist": [
+  "dog",
+  "cat",
+  "bird",
+  "fish",
+  "horse",
+  "cow",
+  "duck",
+  "monkey",
+  "elephant"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 4,
+  "skill": "colours and numbers"
+ },
+ "characters": [
+  "tomas",
+  "pip"
+ ],
+ "scene": {
+  "speaker": "tomas",
+  "pose": {
+   "tomas": 7,
+   "pip": 5
   },
-  "characters": [
-    "tomas",
-    "pip"
-  ],
-  "scene": {
-    "speaker": "tomas",
-    "pose": {
-      "tomas": 7,
-      "pip": 5
-    },
-    "bubble": "Run! The monkeys are so funny! And look, Pip — that big bird looks just like you!",
-    "intro": "Today the Explorers visit the zoo, and Tomás is running from one animal to the next! The monkeys are jumping, the big grey elephant is eating a banana, and the lion is sleeping — shhh! Pip flies up high to say hello to the zoo birds, because birds understand birds. Can you say the names of all the animals? Can you make their sounds? Woof, meow, roar… let's go in!"
+  "bubble": "Run! The monkeys are so funny! And look, Pip — that big bird looks just like you!",
+  "intro": "Today the Explorers visit the zoo, and Tomás is running from one animal to the next! The monkeys are jumping, the big grey elephant is eating a banana, and the lion is sleeping — shhh! Pip flies up high to say hello to the zoo birds, because birds understand birds. Can you say the names of all the animals? Can you make their sounds? Woof, meow, roar… let's go in!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Read and write the animals.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "HORSE",
+      "row": 2,
+      "col": 0,
+      "dir": "across",
+      "clue": "You can ride it. It says neigh!"
+     },
+     {
+      "word": "DOG",
+      "row": 1,
+      "col": 1,
+      "dir": "down",
+      "clue": "Your friend that says woof!"
+     },
+     {
+      "word": "FISH",
+      "row": 0,
+      "col": 3,
+      "dir": "down",
+      "clue": "It swims in the water."
+     },
+     {
+      "word": "BIRD",
+      "row": 0,
+      "col": 2,
+      "dir": "down",
+      "clue": "It has wings and can fly."
+     }
+    ]
+   }
   },
-  "activities": [
-    {
-      "code": "A",
-      "type": "crossword",
-      "title": "Read and write the animals.",
-      "outputs": [
-        "book",
-        "digital"
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Match the animal with its sound.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Animal",
+    "right_label": "Sound",
+    "pairs": [
+     {
+      "left": "dog",
+      "right": "woof woof"
+     },
+     {
+      "left": "cat",
+      "right": "meow"
+     },
+     {
+      "left": "cow",
+      "right": "moo"
+     },
+     {
+      "left": "duck",
+      "right": "quack"
+     },
+     {
+      "left": "bird",
+      "right": "tweet tweet"
+     },
+     {
+      "left": "horse",
+      "right": "neigh"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to Tomás at the zoo. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u03-c.mp3",
+   "data": {
+    "voice_note": "Voces: Tomás (deportista, enérgico) y Freya (curiosa).",
+    "script": "Freya: Tomás, look! Monkeys! … Tomas: Wow! One, two, three, four… there are five monkeys! … Freya: What are they doing? … Tomas: They are jumping! I can jump too, look! … Freya: Ha ha! And look at that elephant. It's very big. … Tomas: It's grey and it's eating a banana. … Freya: Can you see the ducks? … Tomas: Yes! There are two yellow ducks in the water. … Freya: And where is Pip? … Tomas: Look up! He's flying with the big birds!",
+    "questions": [
+     {
+      "q": "There are … monkeys.",
+      "answer": "five"
+     },
+     {
+      "q": "The monkeys are …",
+      "answer": "jumping"
+     },
+     {
+      "q": "The elephant is eating a …",
+      "answer": "banana"
+     },
+     {
+      "q": "There are two … ducks.",
+      "answer": "yellow"
+     },
+     {
+      "q": "Pip is flying with the big …",
+      "answer": "birds"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Read and choose the correct word.",
+    "items": [
+     {
+      "sentence": "It says meow and likes milk.",
+      "options": [
+       "a cat",
+       "a dog",
+       "a duck"
       ],
-      "data": {
-        "words": [
-          {
-            "word": "HORSE",
-            "row": 2,
-            "col": 0,
-            "dir": "across",
-            "clue": "You can ride it. It says neigh!"
-          },
-          {
-            "word": "DOG",
-            "row": 1,
-            "col": 1,
-            "dir": "down",
-            "clue": "Your friend that says woof!"
-          },
-          {
-            "word": "FISH",
-            "row": 0,
-            "col": 3,
-            "dir": "down",
-            "clue": "It swims in the water."
-          },
-          {
-            "word": "BIRD",
-            "row": 0,
-            "col": 2,
-            "dir": "down",
-            "clue": "It has wings and can fly."
-          }
-        ]
-      }
-    },
-    {
-      "code": "B",
-      "type": "match_words",
-      "title": "Match the animal with its sound.",
-      "outputs": [
-        "book",
-        "digital",
-        "quiz"
+      "answer": 0
+     },
+     {
+      "sentence": "It is very big and grey.",
+      "options": [
+       "a fish",
+       "an elephant",
+       "a bird"
       ],
-      "data": {
-        "left_label": "Animal",
-        "right_label": "Sound",
-        "pairs": [
-          {
-            "left": "dog",
-            "right": "woof woof"
-          },
-          {
-            "left": "cat",
-            "right": "meow"
-          },
-          {
-            "left": "cow",
-            "right": "moo"
-          },
-          {
-            "left": "duck",
-            "right": "quack"
-          },
-          {
-            "left": "bird",
-            "right": "tweet tweet"
-          },
-          {
-            "left": "horse",
-            "right": "neigh"
-          }
-        ]
-      }
-    },
-    {
-      "code": "C",
-      "type": "listening",
-      "title": "Listen to Tomás at the zoo. Write a word or number in each gap.",
-      "outputs": [
-        "digital",
-        "quiz"
+      "answer": 1
+     },
+     {
+      "sentence": "A fish can …",
+      "options": [
+       "fly",
+       "run",
+       "swim"
       ],
-      "audio": "starters/u03-c.mp3",
-      "data": {
-        "voice_note": "Voces: Tomás (deportista, enérgico) y Freya (curiosa).",
-        "script": "Freya: Tomás, look! Monkeys! … Tomas: Wow! One, two, three, four… there are five monkeys! … Freya: What are they doing? … Tomas: They are jumping! I can jump too, look! … Freya: Ha ha! And look at that elephant. It's very big. … Tomas: It's grey and it's eating a banana. … Freya: Can you see the ducks? … Tomas: Yes! There are two yellow ducks in the water. … Freya: And where is Pip? … Tomas: Look up! He's flying with the big birds!",
-        "questions": [
-          {
-            "q": "There are … monkeys.",
-            "answer": "five"
-          },
-          {
-            "q": "The monkeys are …",
-            "answer": "jumping"
-          },
-          {
-            "q": "The elephant is eating a …",
-            "answer": "banana"
-          },
-          {
-            "q": "There are two … ducks.",
-            "answer": "yellow"
-          },
-          {
-            "q": "Pip is flying with the big …",
-            "answer": "birds"
-          }
-        ]
-      }
-    },
-    {
-      "code": "D",
-      "type": "exam_task",
-      "title": "Exam task · Choose the correct word.",
-      "outputs": [
-        "book",
-        "digital",
-        "quiz"
+      "answer": 2
+     },
+     {
+      "sentence": "It says quack and swims in the water.",
+      "options": [
+       "a duck",
+       "a horse",
+       "a cow"
       ],
-      "data": {
-        "instructions": "Read and choose the correct word.",
-        "items": [
-          {
-            "sentence": "It says meow and likes milk.",
-            "options": [
-              "a cat",
-              "a dog",
-              "a duck"
-            ],
-            "answer": 0
-          },
-          {
-            "sentence": "It is very big and grey.",
-            "options": [
-              "a fish",
-              "an elephant",
-              "a bird"
-            ],
-            "answer": 1
-          },
-          {
-            "sentence": "A fish can …",
-            "options": [
-              "fly",
-              "run",
-              "swim"
-            ],
-            "answer": 2
-          },
-          {
-            "sentence": "It says quack and swims in the water.",
-            "options": [
-              "a duck",
-              "a horse",
-              "a cow"
-            ],
-            "answer": 0
-          },
-          {
-            "sentence": "A bird can …",
-            "options": [
-              "swim",
-              "fly",
-              "drive"
-            ],
-            "answer": 1
-          }
-        ]
-      }
-    },
-    {
-      "code": "F",
-      "type": "spot_diff",
-      "title": "Two pictures of the zoo! Find the differences.",
-      "outputs": [
-        "book",
-        "digital"
+      "answer": 0
+     },
+     {
+      "sentence": "A bird can …",
+      "options": [
+       "swim",
+       "fly",
+       "drive"
       ],
-      "data": {
-        "sceneA": [
-          [
-            "🦁",
-            "🐵",
-            "🐘",
-            "🦒"
-          ],
-          [
-            "🌴",
-            "🌵",
-            "🍃",
-            "🪨"
-          ],
-          [
-            "🦆",
-            "🐟",
-            "🐢",
-            "🦜"
-          ]
-        ],
-        "sceneB": [
-          [
-            "🦁",
-            "🐻",
-            "🐘",
-            "🦒"
-          ],
-          [
-            "🌳",
-            "🌵",
-            "🍃",
-            "🪨"
-          ],
-          [
-            "🦆",
-            "🐟",
-            "🐢",
-            "🐧"
-          ]
-        ],
-        "diffs": [
-          [
-            0,
-            1
-          ],
-          [
-            1,
-            0
-          ],
-          [
-            2,
-            3
-          ]
-        ]
-      }
-    },
-    {
-      "code": "E",
-      "type": "pairwork",
-      "title": "Speaking · In pairs",
-      "outputs": [
-        "book"
-      ],
-      "data": {
-        "text": "Student A makes an animal sound. Student B guesses: \"It's a cow!\" Then Student B mimes an animal (no sound!) and Student A guesses. Three animals each."
-      }
-    }
-  ],
-  "homework": [
-    {
-      "type": "write_sentences",
-      "prompt": "Draw your favourite animal. Write two sentences: It is a monkey. It can jump."
-    }
-  ]
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Two pictures of the zoo! Find the differences.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "sceneA": [
+     [
+      "🦁",
+      "🐵",
+      "🐘",
+      "🦒"
+     ],
+     [
+      "🌴",
+      "🌵",
+      "🍃",
+      "🪨"
+     ],
+     [
+      "🦆",
+      "🐟",
+      "🐢",
+      "🦜"
+     ]
+    ],
+    "sceneB": [
+     [
+      "🦁",
+      "🐻",
+      "🐘",
+      "🦒"
+     ],
+     [
+      "🌳",
+      "🌵",
+      "🍃",
+      "🪨"
+     ],
+     [
+      "🦆",
+      "🐟",
+      "🐢",
+      "🐧"
+     ]
+    ],
+    "diffs": [
+     [
+      0,
+      1
+     ],
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      3
+     ]
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Student A makes an animal sound. Student B guesses: \"It's a cow!\" Then Student B mimes an animal (no sound!) and Student A guesses. Three animals each."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Draw your favourite animal. Write two sentences: It is a monkey. It can jump."
+  }
+ ]
 }

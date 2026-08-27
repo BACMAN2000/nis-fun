@@ -1,53 +1,253 @@
 {
-  "id": "flyers-14", "level": "flyers", "number": 14,
-  "title": "Left, right, straight on", "topic": "directions",
-  "grammar": "imperatives + prepositions of movement",
-  "wordlist": ["left", "right", "straight on", "past", "along", "over", "through", "opposite", "next to", "corner"],
-  "exam_focus": { "paper": "Reading & Writing", "part": 6, "skill": "gapped sentences" },
-  "characters": ["maya", "kili"],
-  "scene": { "speaker": "maya", "pose": { "maya": 2, "kili": 2 },
-    "bubble": "Kili has to deliver a letter to the new museum — let's give him directions from the sky!" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the direction with its meaning.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Direction", "right_label": "Meaning",
-        "pairs": [
-          { "left": "go straight on", "right": "don't turn" },
-          { "left": "turn left", "right": "go to this side ←" },
-          { "left": "go past the bank", "right": "walk in front of it and continue" },
-          { "left": "go over the bridge", "right": "cross it" },
-          { "left": "go through the park", "right": "enter and cross inside it" },
-          { "left": "it's opposite the school", "right": "it's on the other side of the street" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Complete the directions.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word for each gap.",
-        "items": [
-          { "sentence": "Walk ___ the river until you see the bridge.", "options": ["along", "over", "inside"], "answer": 0 },
-          { "sentence": "Go ___ the bridge and turn right.", "options": ["through", "over", "between"], "answer": 1 },
-          { "sentence": "Go ___ the supermarket — don't stop there.", "options": ["past", "under", "inside"], "answer": 0 },
-          { "sentence": "The chemist's is ___ the bank, on the other side.", "options": ["opposite", "on", "over"], "answer": 0 },
-          { "sentence": "Turn left at the ___ of the street.", "options": ["roof", "corner", "shelf"], "answer": 1 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen. Maya guides Kili to the museum. Write a word in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "flyers/u14-c.mp3",
-      "data": { "voice_note": "Voces: Maya (guiando) y Kili (graznidos de confirmación — narrar sus acciones).",
-        "script": "Maya: Okay Kili, fly straight on along the main street. … Maya: Now turn left at the clock tower. … Maya: Do you see the market? Go past it — don't stop for food! … Maya: Now fly over the old stone bridge. … Maya: Go through the city park, between the tall trees. … Maya: The museum is opposite the fountain — the building with the red roof. … Maya: Perfect landing! Give the letter to the manager. Mission complete!",
-        "questions": [
-          { "q": "Kili turns left at the clock …", "answer": "tower" },
-          { "q": "He goes past the … without stopping.", "answer": "market" },
-          { "q": "He flies over the old stone …", "answer": "bridge" },
-          { "q": "He goes through the city …", "answer": "park" },
-          { "q": "The museum has a … roof.", "answer": "red" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "\"Excuse me, ___ is the station?\" — \"Turn right.\"", "options": ["where", "when", "whose"], "answer": 0 },
-          { "sentence": "The train goes ___ a long dark tunnel.", "options": ["through", "opposite", "past"], "answer": 0 },
-          { "sentence": "The café is ___ the cinema — they share a wall.", "options": ["next to", "over", "through"], "answer": 0 },
-          { "sentence": "Don't turn. Go ___ on.", "options": ["left", "straight", "past"], "answer": 1 },
-          { "sentence": "Walk ___ the beach and enjoy the sea air.", "options": ["along", "under", "inside"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Student A closes their eyes. Student B guides them through the classroom with directions (slowly and safely!): \"Three steps straight on… turn left…\" Goal: reach the door. Then swap." } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write directions from your home to school in 4-5 steps using: straight on, turn, past, opposite." } ]
+ "id": "flyers-14",
+ "level": "flyers",
+ "number": 14,
+ "title": "Left, right, straight on",
+ "topic": "directions",
+ "grammar": "imperatives + prepositions of movement",
+ "wordlist": [
+  "left",
+  "right",
+  "straight on",
+  "past",
+  "along",
+  "over",
+  "through",
+  "opposite",
+  "next to",
+  "corner"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 6,
+  "skill": "gapped sentences"
+ },
+ "characters": [
+  "maya",
+  "kili"
+ ],
+ "scene": {
+  "speaker": "maya",
+  "pose": {
+   "maya": 2,
+   "kili": 2
+  },
+  "bubble": "Kili has to deliver a letter to the new museum — let's give him directions from the sky!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the direction with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Direction",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "go straight on",
+      "right": "don't turn"
+     },
+     {
+      "left": "turn left",
+      "right": "go to this side ←"
+     },
+     {
+      "left": "go past the bank",
+      "right": "walk in front of it and continue"
+     },
+     {
+      "left": "go over the bridge",
+      "right": "cross it"
+     },
+     {
+      "left": "go through the park",
+      "right": "enter and cross inside it"
+     },
+     {
+      "left": "it's opposite the school",
+      "right": "it's on the other side of the street"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Complete the directions.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word for each gap.",
+    "items": [
+     {
+      "sentence": "Walk ___ the river until you see the bridge.",
+      "options": [
+       "along",
+       "over",
+       "inside"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Go ___ the bridge and turn right.",
+      "options": [
+       "through",
+       "over",
+       "between"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Go ___ the supermarket — don't stop there.",
+      "options": [
+       "past",
+       "under",
+       "inside"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The chemist's is ___ the bank, on the other side.",
+      "options": [
+       "opposite",
+       "on",
+       "over"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Turn left at the ___ of the street.",
+      "options": [
+       "roof",
+       "corner",
+       "shelf"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen. Maya guides Kili to the museum. Write a word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u14-c.mp3",
+   "data": {
+    "voice_note": "Voces: Maya (guiando) y Kili (graznidos de confirmación — narrar sus acciones).",
+    "script": "Maya: Okay Kili, fly straight on along the main street. … Maya: Now turn left at the clock tower. … Maya: Do you see the market? Go past it — don't stop for food! … Maya: Now fly over the old stone bridge. … Maya: Go through the city park, between the tall trees. … Maya: The museum is opposite the fountain — the building with the red roof. … Maya: Perfect landing! Give the letter to the manager. Mission complete!",
+    "questions": [
+     {
+      "q": "Kili turns left at the clock …",
+      "answer": "tower"
+     },
+     {
+      "q": "He goes past the … without stopping.",
+      "answer": "market"
+     },
+     {
+      "q": "He flies over the old stone …",
+      "answer": "bridge"
+     },
+     {
+      "q": "He goes through the city …",
+      "answer": "park"
+     },
+     {
+      "q": "The museum has a … roof.",
+      "answer": "red"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "\"Excuse me, ___ is the station?\" — \"Turn right.\"",
+      "options": [
+       "where",
+       "when",
+       "whose"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The train goes ___ a long dark tunnel.",
+      "options": [
+       "through",
+       "opposite",
+       "past"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The café is ___ the cinema — they share a wall.",
+      "options": [
+       "next to",
+       "over",
+       "through"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Don't turn. Go ___ on.",
+      "options": [
+       "left",
+       "straight",
+       "past"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Walk ___ the beach and enjoy the sea air.",
+      "options": [
+       "along",
+       "under",
+       "inside"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Student A closes their eyes. Student B guides them through the classroom with directions (slowly and safely!): \"Three steps straight on… turn left…\" Goal: reach the door. Then swap."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write directions from your home to school in 4-5 steps using: straight on, turn, past, opposite."
+  }
+ ]
 }

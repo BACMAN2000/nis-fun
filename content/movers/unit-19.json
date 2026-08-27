@@ -1,53 +1,230 @@
 {
-  "id": "movers-19", "level": "movers", "number": 19,
-  "title": "The bus to school", "topic": "transport",
-  "grammar": "How do you go…? + by",
-  "wordlist": ["bus", "train", "car", "bike", "walk", "driver", "stop", "seat", "window", "ticket"],
-  "exam_focus": { "paper": "Listening", "part": 1, "skill": "identify vehicles" },
-  "characters": ["sofia", "erik"],
-  "scene": { "speaker": "sofia", "pose": { "sofia": 2, "erik": 1 },
-    "bubble": "Question of the day: how does everyone come to school? Bus, bike, boots… or robot?" },
-  "activities": [
-    { "code": "A", "type": "crossword", "title": "Read the sentences and write the transport words.",
-      "outputs": ["book", "digital"],
-      "data": { "words": [
-        { "word": "TRAIN", "clue": "Long, fast, and it runs on rails." },
-        { "word": "DRIVER", "clue": "The person at the front of the bus." },
-        { "word": "TICKET", "clue": "You show it when you get on." },
-        { "word": "SEAT", "clue": "You sit on it during the trip." },
-        { "word": "WINDOW", "clue": "You look through it and watch the city." },
-        { "word": "STOP", "clue": "The place where the bus waits for people." } ] } },
-    { "code": "B", "type": "match_words", "title": "Match the person with how they travel.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Person", "right_label": "How",
-        "pairs": [
-          { "left": "Sofia", "right": "by bike, ten minutes" },
-          { "left": "Erik", "right": "on foot, with his robot backpack" },
-          { "left": "Valentina", "right": "by bus, three stops" },
-          { "left": "Mateo", "right": "by car with his dad" },
-          { "left": "the teacher", "right": "by train from the next town" },
-          { "left": "Luna", "right": "running next to Sofia's bike" } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to the bus trip. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "movers/u19-c.mp3",
-      "data": { "voice_note": "Voces: Valentina (en el bus) y el conductor (voz amable).",
-        "script": "Valentina: Good morning! One student ticket, please. … Valentina: The bus is full today. But there's one seat next to the window. … Valentina: We pass the market, the park and the old bridge. … Valentina: A lady gets on with a big box of oranges. It smells wonderful! … Valentina: My stop is number seven, in front of the school gate. … Valentina: Thank you, driver! See you tomorrow! … Valentina: Total trip: twelve minutes. The best twelve minutes for reading!",
-        "questions": [
-          { "q": "Valentina asks for one student …", "answer": "ticket" },
-          { "q": "There is one seat next to the …", "answer": "window" },
-          { "q": "A lady gets on with a box of …", "answer": "oranges" },
-          { "q": "Valentina's stop is number …", "answer": "seven" },
-          { "q": "The trip takes twelve …", "answer": "minutes" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "\"How do you go to school?\" — \"___ bus.\"", "options": ["By", "On", "In"], "answer": 0 },
-          { "sentence": "If you go walking, you go ___ foot.", "options": ["on", "by", "at"], "answer": 0 },
-          { "sentence": "The bus ___ drives carefully.", "options": ["driver", "ticket", "seat"], "answer": 0 },
-          { "sentence": "Wait for the bus at the bus …", "options": ["stop", "shop", "step"], "answer": 0 },
-          { "sentence": "The train runs on …", "options": ["rails", "grass", "water"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Survey 4 classmates: \"How do you come to school? How long does it take?\" Make a mini chart and report the most popular transport." } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write how 4 people you know travel: My cousin goes to work by… It takes…" } ]
+ "id": "movers-19",
+ "level": "movers",
+ "number": 19,
+ "title": "The bus to school",
+ "topic": "transport",
+ "grammar": "How do you go…? + by",
+ "wordlist": [
+  "bus",
+  "train",
+  "car",
+  "bike",
+  "walk",
+  "driver",
+  "stop",
+  "seat",
+  "window",
+  "ticket"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 1,
+  "skill": "identify vehicles"
+ },
+ "characters": [
+  "sofia",
+  "erik"
+ ],
+ "scene": {
+  "speaker": "sofia",
+  "pose": {
+   "sofia": 2,
+   "erik": 1
+  },
+  "bubble": "Question of the day: how does everyone come to school? Bus, bike, boots… or robot?"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Read the sentences and write the transport words.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "TRAIN",
+      "clue": "Long, fast, and it runs on rails."
+     },
+     {
+      "word": "DRIVER",
+      "clue": "The person at the front of the bus."
+     },
+     {
+      "word": "TICKET",
+      "clue": "You show it when you get on."
+     },
+     {
+      "word": "SEAT",
+      "clue": "You sit on it during the trip."
+     },
+     {
+      "word": "WINDOW",
+      "clue": "You look through it and watch the city."
+     },
+     {
+      "word": "STOP",
+      "clue": "The place where the bus waits for people."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Match the person with how they travel.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Person",
+    "right_label": "How",
+    "pairs": [
+     {
+      "left": "Sofia",
+      "right": "by bike, ten minutes"
+     },
+     {
+      "left": "Erik",
+      "right": "on foot, with his robot backpack"
+     },
+     {
+      "left": "Valentina",
+      "right": "by bus, three stops"
+     },
+     {
+      "left": "Mateo",
+      "right": "by car with his dad"
+     },
+     {
+      "left": "the teacher",
+      "right": "by train from the next town"
+     },
+     {
+      "left": "Luna",
+      "right": "running next to Sofia's bike"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to the bus trip. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u19-c.mp3",
+   "data": {
+    "voice_note": "Voces: Valentina (en el bus) y el conductor (voz amable).",
+    "script": "Valentina: Good morning! One student ticket, please. … Valentina: The bus is full today. But there's one seat next to the window. … Valentina: We pass the market, the park and the old bridge. … Valentina: A lady gets on with a big box of oranges. It smells wonderful! … Valentina: My stop is number seven, in front of the school gate. … Valentina: Thank you, driver! See you tomorrow! … Valentina: Total trip: twelve minutes. The best twelve minutes for reading!",
+    "questions": [
+     {
+      "q": "Valentina asks for one student …",
+      "answer": "ticket"
+     },
+     {
+      "q": "There is one seat next to the …",
+      "answer": "window"
+     },
+     {
+      "q": "A lady gets on with a box of …",
+      "answer": "oranges"
+     },
+     {
+      "q": "Valentina's stop is number …",
+      "answer": "seven"
+     },
+     {
+      "q": "The trip takes twelve …",
+      "answer": "minutes"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "\"How do you go to school?\" — \"___ bus.\"",
+      "options": [
+       "By",
+       "On",
+       "In"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "If you go walking, you go ___ foot.",
+      "options": [
+       "on",
+       "by",
+       "at"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The bus ___ drives carefully.",
+      "options": [
+       "driver",
+       "ticket",
+       "seat"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Wait for the bus at the bus …",
+      "options": [
+       "stop",
+       "shop",
+       "step"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The train runs on …",
+      "options": [
+       "rails",
+       "grass",
+       "water"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Survey 4 classmates: \"How do you come to school? How long does it take?\" Make a mini chart and report the most popular transport."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write how 4 people you know travel: My cousin goes to work by… It takes…"
+  }
+ ]
 }

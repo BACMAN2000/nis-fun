@@ -1,53 +1,253 @@
 {
-  "id": "flyers-27", "level": "flyers", "number": 27,
-  "title": "What has just happened?", "topic": "just / already / yet",
-  "grammar": "present perfect with just / already / yet (repaso)",
-  "wordlist": ["just", "already", "yet", "arrive", "arrived", "finish", "finished", "break", "broken", "news"],
-  "exam_focus": { "paper": "Reading & Writing", "part": 6, "skill": "gapped sentences" },
-  "characters": ["kili", "oliver"],
-  "scene": { "speaker": "oliver", "pose": { "oliver": 5, "kili": 5 },
-    "bubble": "Kili has just crashed into the window with today's mail! Don't worry — the window is fine. Kili too… more or less." },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the sentence with what it means.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Sentence", "right_label": "Meaning",
-        "pairs": [
-          { "left": "The bus has just left.", "right": "it left a moment ago" },
-          { "left": "I've already done it.", "right": "it's done — before now" },
-          { "left": "I haven't done it yet.", "right": "it's not done, but I will" },
-          { "left": "Has the film started yet?", "right": "asking if it started" },
-          { "left": "She has just arrived.", "right": "she came in a second ago" },
-          { "left": "We've already eaten.", "right": "we are not hungry now" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Choose just, already or yet.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Complete each sentence.",
-        "items": [
-          { "sentence": "Shhh! The baby has ___ fallen asleep.", "options": ["just", "yet", "ever"], "answer": 0 },
-          { "sentence": "Have you finished your project ___?", "options": ["already", "just", "yet"], "answer": 2 },
-          { "sentence": "I've ___ seen that film twice — let's watch another.", "options": ["yet", "already", "never"], "answer": 1 },
-          { "sentence": "The post hasn't arrived ___.", "options": ["just", "yet", "ever"], "answer": 1 },
-          { "sentence": "Look out of the window — it has ___ started to snow!", "options": ["just", "yet", "never"], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to the breaking news. Write a word in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "flyers/u27-c.mp3",
-      "data": { "voice_note": "Voces: Oliver (testigo) y Kili (protagonista del choque).",
-        "script": "Oliver: News flash! Kili has just crashed into the kitchen window. … Oliver: He's fine! He has already eaten three biscuits to feel better. … Oliver: The mail has arrived safely: two letters and one big yellow parcel. … Oliver: We haven't opened the parcel yet — it's for Ingrid. … Oliver: Wait… Ingrid has just come in! She's opening it… … Oliver: It's a new flag for the expedition! Blue, with a silver star. … Oliver: Kili has already forgotten the crash. He's flying loops around the flag!",
-        "questions": [
-          { "q": "Kili crashed into the kitchen …", "answer": "window" },
-          { "q": "He has already eaten three …", "answer": "biscuits" },
-          { "q": "The big parcel is …", "answer": "yellow" },
-          { "q": "Inside the parcel there is a new …", "answer": "flag" },
-          { "q": "The flag is blue with a silver …", "answer": "star" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct form.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct form.",
-        "items": [
-          { "sentence": "The train has just ___.", "options": ["arrive", "arrived", "arriving"], "answer": 1 },
-          { "sentence": "Oh no! I've ___ my pencil!", "options": ["broke", "broken", "break"], "answer": 1 },
-          { "sentence": "___ they finished the game yet?", "options": ["Has", "Have", "Did"], "answer": 1 },
-          { "sentence": "She has already ___ her homework.", "options": ["finish", "finishes", "finished"], "answer": 2 },
-          { "sentence": "Great ___! We've won the competition!", "options": ["news", "new", "noise"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Mime something that has just happened (you've just woken up, you've just won a race…). Your partner says the sentence: \"You have just…!\" Three mimes each." } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Tonight, write 3 things that have just happened at home and 2 you haven't done yet: My mum has just… I haven't… yet." } ]
+ "id": "flyers-27",
+ "level": "flyers",
+ "number": 27,
+ "title": "What has just happened?",
+ "topic": "just / already / yet",
+ "grammar": "present perfect with just / already / yet (repaso)",
+ "wordlist": [
+  "just",
+  "already",
+  "yet",
+  "arrive",
+  "arrived",
+  "finish",
+  "finished",
+  "break",
+  "broken",
+  "news"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 6,
+  "skill": "gapped sentences"
+ },
+ "characters": [
+  "kili",
+  "oliver"
+ ],
+ "scene": {
+  "speaker": "oliver",
+  "pose": {
+   "oliver": 5,
+   "kili": 5
+  },
+  "bubble": "Kili has just crashed into the window with today's mail! Don't worry — the window is fine. Kili too… more or less."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the sentence with what it means.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Sentence",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "The bus has just left.",
+      "right": "it left a moment ago"
+     },
+     {
+      "left": "I've already done it.",
+      "right": "it's done — before now"
+     },
+     {
+      "left": "I haven't done it yet.",
+      "right": "it's not done, but I will"
+     },
+     {
+      "left": "Has the film started yet?",
+      "right": "asking if it started"
+     },
+     {
+      "left": "She has just arrived.",
+      "right": "she came in a second ago"
+     },
+     {
+      "left": "We've already eaten.",
+      "right": "we are not hungry now"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choose just, already or yet.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete each sentence.",
+    "items": [
+     {
+      "sentence": "Shhh! The baby has ___ fallen asleep.",
+      "options": [
+       "just",
+       "yet",
+       "ever"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Have you finished your project ___?",
+      "options": [
+       "already",
+       "just",
+       "yet"
+      ],
+      "answer": 2
+     },
+     {
+      "sentence": "I've ___ seen that film twice — let's watch another.",
+      "options": [
+       "yet",
+       "already",
+       "never"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "The post hasn't arrived ___.",
+      "options": [
+       "just",
+       "yet",
+       "ever"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Look out of the window — it has ___ started to snow!",
+      "options": [
+       "just",
+       "yet",
+       "never"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to the breaking news. Write a word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u27-c.mp3",
+   "data": {
+    "voice_note": "Voces: Oliver (testigo) y Kili (protagonista del choque).",
+    "script": "Oliver: News flash! Kili has just crashed into the kitchen window. … Oliver: He's fine! He has already eaten three biscuits to feel better. … Oliver: The mail has arrived safely: two letters and one big yellow parcel. … Oliver: We haven't opened the parcel yet — it's for Ingrid. … Oliver: Wait… Ingrid has just come in! She's opening it… … Oliver: It's a new flag for the expedition! Blue, with a silver star. … Oliver: Kili has already forgotten the crash. He's flying loops around the flag!",
+    "questions": [
+     {
+      "q": "Kili crashed into the kitchen …",
+      "answer": "window"
+     },
+     {
+      "q": "He has already eaten three …",
+      "answer": "biscuits"
+     },
+     {
+      "q": "The big parcel is …",
+      "answer": "yellow"
+     },
+     {
+      "q": "Inside the parcel there is a new …",
+      "answer": "flag"
+     },
+     {
+      "q": "The flag is blue with a silver …",
+      "answer": "star"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct form.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct form.",
+    "items": [
+     {
+      "sentence": "The train has just ___.",
+      "options": [
+       "arrive",
+       "arrived",
+       "arriving"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Oh no! I've ___ my pencil!",
+      "options": [
+       "broke",
+       "broken",
+       "break"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "___ they finished the game yet?",
+      "options": [
+       "Has",
+       "Have",
+       "Did"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "She has already ___ her homework.",
+      "options": [
+       "finish",
+       "finishes",
+       "finished"
+      ],
+      "answer": 2
+     },
+     {
+      "sentence": "Great ___! We've won the competition!",
+      "options": [
+       "news",
+       "new",
+       "noise"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Mime something that has just happened (you've just woken up, you've just won a race…). Your partner says the sentence: \"You have just…!\" Three mimes each."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Tonight, write 3 things that have just happened at home and 2 you haven't done yet: My mum has just… I haven't… yet."
+  }
+ ]
 }

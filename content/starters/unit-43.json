@@ -1,53 +1,253 @@
 {
-  "id": "starters-43", "level": "starters", "number": 43,
-  "title": "This and that", "topic": "this / that",
-  "grammar": "This is / That is",
-  "wordlist": ["this", "that", "these", "those", "here", "there", "near", "far", "look", "what"],
-  "exam_focus": { "paper": "Listening", "part": 1, "skill": "this/that" },
-  "characters": ["tomas", "nico"],
-  "scene": { "speaker": "tomas", "pose": { "tomas": 2, "nico": 2 },
-    "bubble": "THIS ball is here in my hand. THAT bird is far in the sky. Near and far — easy!" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the phrase with near or far.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Phrase", "right_label": "Near or far",
-        "pairs": [
-          { "left": "this book in my hand", "right": "near — here" },
-          { "left": "that mountain", "right": "far — there" },
-          { "left": "these shoes on my feet", "right": "near — many things" },
-          { "left": "those birds in the sky", "right": "far — many things" },
-          { "left": "here", "right": "where I am" },
-          { "left": "there", "right": "where I point" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Choose this, that, these or those.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Complete each sentence.",
-        "items": [
-          { "sentence": "___ is my pencil, here in my hand.", "options": ["This", "That", "Those"], "answer": 0 },
-          { "sentence": "___ is the lighthouse, far away!", "options": ["That", "This", "These"], "answer": 0 },
-          { "sentence": "___ are my shoes, on my feet.", "options": ["These", "Those", "That"], "answer": 0 },
-          { "sentence": "___ are birds, up in the sky.", "options": ["Those", "These", "This"], "answer": 0 },
-          { "sentence": "\"What is ___?\" — \"It's a shell!\"", "options": ["this", "those", "these"], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to the pointing game. Write a word in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "starters/u43-c.mp3",
-      "data": { "voice_note": "Voces: Tomás y Nico (señalando cosas).",
-        "script": "Tomas: Pointing game! This is my cap. Here, blue! … Nico: And that is the school gate, over there. … Tomas: These are my football cards. Twenty cards! … Nico: Those are clouds. That big one looks like a ship! … Tomas: What is this in my pocket? … Nico: A biscuit? … Tomas: Yes! And THAT is Pip flying here fast… he can smell it! … Nico: Run, Tomás, run!",
-        "questions": [
-          { "q": "This is Tomás's blue …", "answer": "cap" },
-          { "q": "That is the school …", "answer": "gate" },
-          { "q": "Tomás has twenty football …", "answer": "cards" },
-          { "q": "The big cloud looks like a …", "answer": "ship" },
-          { "q": "In the pocket there is a …", "answer": "biscuit" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "For one near thing: …", "options": ["this", "that", "those"], "answer": 0 },
-          { "sentence": "For one far thing: …", "options": ["that", "this", "these"], "answer": 0 },
-          { "sentence": "For many near things: …", "options": ["these", "those", "this"], "answer": 0 },
-          { "sentence": "The opposite of near is …", "options": ["far", "fast", "fun"], "answer": 0 },
-          { "sentence": "\"Look ___!\" — you point with your finger.", "options": ["there", "then", "the"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Point and say: 2 near things (This is… These are…) and 2 far things (That is… Those are…). Your partner checks: near or far?" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Stand at your window. Write 2 sentences with This/These (inside) and 2 with That/Those (outside)." } ]
+ "id": "starters-43",
+ "level": "starters",
+ "number": 43,
+ "title": "This and that",
+ "topic": "this / that",
+ "grammar": "This is / That is",
+ "wordlist": [
+  "this",
+  "that",
+  "these",
+  "those",
+  "here",
+  "there",
+  "near",
+  "far",
+  "look",
+  "what"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 1,
+  "skill": "this/that"
+ },
+ "characters": [
+  "tomas",
+  "nico"
+ ],
+ "scene": {
+  "speaker": "tomas",
+  "pose": {
+   "tomas": 2,
+   "nico": 2
+  },
+  "bubble": "THIS ball is here in my hand. THAT bird is far in the sky. Near and far — easy!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the phrase with near or far.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Phrase",
+    "right_label": "Near or far",
+    "pairs": [
+     {
+      "left": "this book in my hand",
+      "right": "near — here"
+     },
+     {
+      "left": "that mountain",
+      "right": "far — there"
+     },
+     {
+      "left": "these shoes on my feet",
+      "right": "near — many things"
+     },
+     {
+      "left": "those birds in the sky",
+      "right": "far — many things"
+     },
+     {
+      "left": "here",
+      "right": "where I am"
+     },
+     {
+      "left": "there",
+      "right": "where I point"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choose this, that, these or those.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete each sentence.",
+    "items": [
+     {
+      "sentence": "___ is my pencil, here in my hand.",
+      "options": [
+       "This",
+       "That",
+       "Those"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___ is the lighthouse, far away!",
+      "options": [
+       "That",
+       "This",
+       "These"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___ are my shoes, on my feet.",
+      "options": [
+       "These",
+       "Those",
+       "That"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___ are birds, up in the sky.",
+      "options": [
+       "Those",
+       "These",
+       "This"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"What is ___?\" — \"It's a shell!\"",
+      "options": [
+       "this",
+       "those",
+       "these"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to the pointing game. Write a word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u43-c.mp3",
+   "data": {
+    "voice_note": "Voces: Tomás y Nico (señalando cosas).",
+    "script": "Tomas: Pointing game! This is my cap. Here, blue! … Nico: And that is the school gate, over there. … Tomas: These are my football cards. Twenty cards! … Nico: Those are clouds. That big one looks like a ship! … Tomas: What is this in my pocket? … Nico: A biscuit? … Tomas: Yes! And THAT is Pip flying here fast… he can smell it! … Nico: Run, Tomás, run!",
+    "questions": [
+     {
+      "q": "This is Tomás's blue …",
+      "answer": "cap"
+     },
+     {
+      "q": "That is the school …",
+      "answer": "gate"
+     },
+     {
+      "q": "Tomás has twenty football …",
+      "answer": "cards"
+     },
+     {
+      "q": "The big cloud looks like a …",
+      "answer": "ship"
+     },
+     {
+      "q": "In the pocket there is a …",
+      "answer": "biscuit"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "For one near thing: …",
+      "options": [
+       "this",
+       "that",
+       "those"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "For one far thing: …",
+      "options": [
+       "that",
+       "this",
+       "these"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "For many near things: …",
+      "options": [
+       "these",
+       "those",
+       "this"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The opposite of near is …",
+      "options": [
+       "far",
+       "fast",
+       "fun"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"Look ___!\" — you point with your finger.",
+      "options": [
+       "there",
+       "then",
+       "the"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Point and say: 2 near things (This is… These are…) and 2 far things (That is… Those are…). Your partner checks: near or far?"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Stand at your window. Write 2 sentences with This/These (inside) and 2 with That/Those (outside)."
+  }
+ ]
 }

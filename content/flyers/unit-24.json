@@ -1,53 +1,253 @@
 {
-  "id": "flyers-24", "level": "flyers", "number": 24,
-  "title": "The monster family's photos", "topic": "describing people",
-  "grammar": "has got + adjectives for people",
-  "wordlist": ["curly", "straight", "fair", "dark", "tall", "short", "fat", "thin", "old", "young"],
-  "exam_focus": { "paper": "Listening", "part": 1, "skill": "identify people" },
-  "characters": ["diego", "kili"],
-  "scene": { "speaker": "diego", "pose": { "diego": 3, "kili": 2 },
-    "bubble": "Kili delivered a photo album… to the wrong house! It belongs to a monster family. Let's describe them to find their home!" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the opposites.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Word", "right_label": "Opposite",
-        "pairs": [
-          { "left": "curly hair", "right": "straight hair" },
-          { "left": "fair hair", "right": "dark hair" },
-          { "left": "tall", "right": "short" },
-          { "left": "fat", "right": "thin" },
-          { "left": "old", "right": "young" },
-          { "left": "a long beard", "right": "no beard at all" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Who is who? Choose the correct monster.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Read the description and choose the right monster.",
-        "items": [
-          { "sentence": "He is very tall and thin, with curly purple hair.", "options": ["Grandpa Grum", "Uncle Zog", "Baby Boo"], "answer": 1 },
-          { "sentence": "She is old and short, with a kind smile and grey curly hair.", "options": ["Granny Gloop", "Cousin Zip", "Mummy Moo"], "answer": 0 },
-          { "sentence": "He is the youngest, with three little teeth.", "options": ["Uncle Zog", "Baby Boo", "Grandpa Grum"], "answer": 1 },
-          { "sentence": "She has got long straight blue hair and big glasses.", "options": ["Cousin Zip", "Granny Gloop", "Baby Boo"], "answer": 0 },
-          { "sentence": "He has got a very long white beard — he's the oldest.", "options": ["Baby Boo", "Uncle Zog", "Grandpa Grum"], "answer": 2 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen. Diego describes the family photo. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "flyers/u24-c.mp3",
-      "data": { "voice_note": "Voces: Diego (describiendo) y Kili (buscando desde el aire).",
-        "script": "Diego: Okay Kili, listen! In the photo there are six monsters. … Diego: The father is very fat and green, with curly orange hair. … Diego: The mother is tall and thin, and she has got four friendly eyes. … Diego: The grandpa has got a white beard that is two metres long! … Diego: The twins are young — they have got the same purple noses. … Diego: And the baby is asleep in a shoe. A big red shoe! … Diego: Their house must be the one with the enormous door. Fly, Kili, fly!",
-        "questions": [
-          { "q": "In the photo there are … monsters.", "answer": "six" },
-          { "q": "The father has got curly … hair.", "answer": "orange" },
-          { "q": "The mother has got four friendly …", "answer": "eyes" },
-          { "q": "Grandpa's beard is two … long.", "answer": "metres" },
-          { "q": "The baby is asleep in a big red …", "answer": "shoe" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "Her hair isn't straight, it's …", "options": ["curly", "tall", "old"], "answer": 0 },
-          { "sentence": "My grandpa is 80 — he is quite …", "options": ["young", "old", "thin"], "answer": 1 },
-          { "sentence": "He ___ got dark hair and brown eyes.", "options": ["is", "has", "have"], "answer": 1 },
-          { "sentence": "The opposite of fair hair is ___ hair.", "options": ["dark", "short", "curly"], "answer": 0 },
-          { "sentence": "A basketball player is usually very …", "options": ["short", "tall", "old"], "answer": 1 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Draw a monster secretly. Describe it to your partner (has got…, is…) while they draw it. Compare drawings — the funniest difference wins!" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Describe two people of your family with 3 sentences each: My aunt is tall. She has got curly dark hair…" } ]
+ "id": "flyers-24",
+ "level": "flyers",
+ "number": 24,
+ "title": "The monster family's photos",
+ "topic": "describing people",
+ "grammar": "has got + adjectives for people",
+ "wordlist": [
+  "curly",
+  "straight",
+  "fair",
+  "dark",
+  "tall",
+  "short",
+  "fat",
+  "thin",
+  "old",
+  "young"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 1,
+  "skill": "identify people"
+ },
+ "characters": [
+  "diego",
+  "kili"
+ ],
+ "scene": {
+  "speaker": "diego",
+  "pose": {
+   "diego": 3,
+   "kili": 2
+  },
+  "bubble": "Kili delivered a photo album… to the wrong house! It belongs to a monster family. Let's describe them to find their home!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the opposites.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Opposite",
+    "pairs": [
+     {
+      "left": "curly hair",
+      "right": "straight hair"
+     },
+     {
+      "left": "fair hair",
+      "right": "dark hair"
+     },
+     {
+      "left": "tall",
+      "right": "short"
+     },
+     {
+      "left": "fat",
+      "right": "thin"
+     },
+     {
+      "left": "old",
+      "right": "young"
+     },
+     {
+      "left": "a long beard",
+      "right": "no beard at all"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Who is who? Choose the correct monster.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Read the description and choose the right monster.",
+    "items": [
+     {
+      "sentence": "He is very tall and thin, with curly purple hair.",
+      "options": [
+       "Grandpa Grum",
+       "Uncle Zog",
+       "Baby Boo"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "She is old and short, with a kind smile and grey curly hair.",
+      "options": [
+       "Granny Gloop",
+       "Cousin Zip",
+       "Mummy Moo"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "He is the youngest, with three little teeth.",
+      "options": [
+       "Uncle Zog",
+       "Baby Boo",
+       "Grandpa Grum"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "She has got long straight blue hair and big glasses.",
+      "options": [
+       "Cousin Zip",
+       "Granny Gloop",
+       "Baby Boo"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "He has got a very long white beard — he's the oldest.",
+      "options": [
+       "Baby Boo",
+       "Uncle Zog",
+       "Grandpa Grum"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen. Diego describes the family photo. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u24-c.mp3",
+   "data": {
+    "voice_note": "Voces: Diego (describiendo) y Kili (buscando desde el aire).",
+    "script": "Diego: Okay Kili, listen! In the photo there are six monsters. … Diego: The father is very fat and green, with curly orange hair. … Diego: The mother is tall and thin, and she has got four friendly eyes. … Diego: The grandpa has got a white beard that is two metres long! … Diego: The twins are young — they have got the same purple noses. … Diego: And the baby is asleep in a shoe. A big red shoe! … Diego: Their house must be the one with the enormous door. Fly, Kili, fly!",
+    "questions": [
+     {
+      "q": "In the photo there are … monsters.",
+      "answer": "six"
+     },
+     {
+      "q": "The father has got curly … hair.",
+      "answer": "orange"
+     },
+     {
+      "q": "The mother has got four friendly …",
+      "answer": "eyes"
+     },
+     {
+      "q": "Grandpa's beard is two … long.",
+      "answer": "metres"
+     },
+     {
+      "q": "The baby is asleep in a big red …",
+      "answer": "shoe"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "Her hair isn't straight, it's …",
+      "options": [
+       "curly",
+       "tall",
+       "old"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "My grandpa is 80 — he is quite …",
+      "options": [
+       "young",
+       "old",
+       "thin"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "He ___ got dark hair and brown eyes.",
+      "options": [
+       "is",
+       "has",
+       "have"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "The opposite of fair hair is ___ hair.",
+      "options": [
+       "dark",
+       "short",
+       "curly"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "A basketball player is usually very …",
+      "options": [
+       "short",
+       "tall",
+       "old"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Draw a monster secretly. Describe it to your partner (has got…, is…) while they draw it. Compare drawings — the funniest difference wins!"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Describe two people of your family with 3 sentences each: My aunt is tall. She has got curly dark hair…"
+  }
+ ]
 }

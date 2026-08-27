@@ -1,53 +1,230 @@
 {
-  "id": "flyers-17", "level": "flyers", "number": 17,
-  "title": "Months and seasons", "topic": "time",
-  "grammar": "in + month/season, on + date",
-  "wordlist": ["January", "February", "March", "April", "August", "October", "December", "spring", "autumn", "century"],
-  "exam_focus": { "paper": "Reading & Writing", "part": 6, "skill": "gapped sentences" },
-  "characters": ["oliver", "kili"],
-  "scene": { "speaker": "oliver", "pose": { "oliver": 1, "kili": 3 },
-    "bubble": "I'm writing a song with a verse for every month of the year. Which month has the best sound, Kili?" },
-  "activities": [
-    { "code": "A", "type": "crossword", "title": "Read the sentences and write the months.",
-      "outputs": ["book", "digital"],
-      "data": { "words": [
-        { "word": "JANUARY", "clue": "The first month of the year." },
-        { "word": "MARCH", "clue": "The third month. Spring starts in Europe." },
-        { "word": "AUGUST", "clue": "The eighth month. Summer holidays in the north!" },
-        { "word": "OCTOBER", "clue": "The tenth month. The leaves fall." },
-        { "word": "DECEMBER", "clue": "The last month of the year." },
-        { "word": "APRIL", "clue": "The fourth month. It often rains." } ] } },
-    { "code": "B", "type": "match_words", "title": "Match the season with what happens.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Season / time", "right_label": "What happens",
-        "pairs": [
-          { "left": "spring", "right": "flowers open everywhere" },
-          { "left": "summer", "right": "the longest, hottest days" },
-          { "left": "autumn", "right": "leaves turn brown and fall" },
-          { "left": "winter", "right": "snow and short days" },
-          { "left": "a century", "right": "one hundred years" },
-          { "left": "a fortnight", "right": "two weeks" } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to Oliver's song plan. Write a word in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "flyers/u17-c.mp3",
-      "data": { "voice_note": "Voces: Oliver (músico) y Kili (elige con graznidos — narrado por Oliver).",
-        "script": "Oliver: Okay, the song of the year! January gets a slow verse, because everyone is sleepy after the holidays. … Oliver: In March, the music grows like the flowers — violins! … Oliver: August is a big drum solo, hot like the summer sun. … Oliver: For October I want the sound of falling leaves… maybe a soft guitar. … Oliver: And December? Bells, of course! Everybody sings in December. … Oliver: Kili says his favourite verse is October, because that's his birthday month!",
-        "questions": [
-          { "q": "The January verse is … because everyone is sleepy.", "answer": "slow" },
-          { "q": "In March the music grows with …", "answer": "violins" },
-          { "q": "August is a big … solo.", "answer": "drum" },
-          { "q": "October sounds like a soft …", "answer": "guitar" },
-          { "q": "Kili's birthday month is …", "answer": "October" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "My birthday is ___ July.", "options": ["on", "in", "at"], "answer": 1 },
-          { "sentence": "The concert is ___ the 15th of May.", "options": ["in", "at", "on"], "answer": 2 },
-          { "sentence": "One hundred years is a …", "options": ["fortnight", "century", "season"], "answer": 1 },
-          { "sentence": "The month after February is …", "options": ["January", "April", "March"], "answer": 2 },
-          { "sentence": "In ___ the leaves fall from the trees.", "options": ["autumn", "spring", "summer"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Find out your partner's three favourite dates of the year (\"When is your birthday? When is…?\") and why. Report: \"Luca's favourite date is the 24th of December because…\"" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write one sentence for each season about what you do: In summer I go to the beach with my cousins." } ]
+ "id": "flyers-17",
+ "level": "flyers",
+ "number": 17,
+ "title": "Months and seasons",
+ "topic": "time",
+ "grammar": "in + month/season, on + date",
+ "wordlist": [
+  "January",
+  "February",
+  "March",
+  "April",
+  "August",
+  "October",
+  "December",
+  "spring",
+  "autumn",
+  "century"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 6,
+  "skill": "gapped sentences"
+ },
+ "characters": [
+  "oliver",
+  "kili"
+ ],
+ "scene": {
+  "speaker": "oliver",
+  "pose": {
+   "oliver": 1,
+   "kili": 3
+  },
+  "bubble": "I'm writing a song with a verse for every month of the year. Which month has the best sound, Kili?"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Read the sentences and write the months.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "JANUARY",
+      "clue": "The first month of the year."
+     },
+     {
+      "word": "MARCH",
+      "clue": "The third month. Spring starts in Europe."
+     },
+     {
+      "word": "AUGUST",
+      "clue": "The eighth month. Summer holidays in the north!"
+     },
+     {
+      "word": "OCTOBER",
+      "clue": "The tenth month. The leaves fall."
+     },
+     {
+      "word": "DECEMBER",
+      "clue": "The last month of the year."
+     },
+     {
+      "word": "APRIL",
+      "clue": "The fourth month. It often rains."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Match the season with what happens.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Season / time",
+    "right_label": "What happens",
+    "pairs": [
+     {
+      "left": "spring",
+      "right": "flowers open everywhere"
+     },
+     {
+      "left": "summer",
+      "right": "the longest, hottest days"
+     },
+     {
+      "left": "autumn",
+      "right": "leaves turn brown and fall"
+     },
+     {
+      "left": "winter",
+      "right": "snow and short days"
+     },
+     {
+      "left": "a century",
+      "right": "one hundred years"
+     },
+     {
+      "left": "a fortnight",
+      "right": "two weeks"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to Oliver's song plan. Write a word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u17-c.mp3",
+   "data": {
+    "voice_note": "Voces: Oliver (músico) y Kili (elige con graznidos — narrado por Oliver).",
+    "script": "Oliver: Okay, the song of the year! January gets a slow verse, because everyone is sleepy after the holidays. … Oliver: In March, the music grows like the flowers — violins! … Oliver: August is a big drum solo, hot like the summer sun. … Oliver: For October I want the sound of falling leaves… maybe a soft guitar. … Oliver: And December? Bells, of course! Everybody sings in December. … Oliver: Kili says his favourite verse is October, because that's his birthday month!",
+    "questions": [
+     {
+      "q": "The January verse is … because everyone is sleepy.",
+      "answer": "slow"
+     },
+     {
+      "q": "In March the music grows with …",
+      "answer": "violins"
+     },
+     {
+      "q": "August is a big … solo.",
+      "answer": "drum"
+     },
+     {
+      "q": "October sounds like a soft …",
+      "answer": "guitar"
+     },
+     {
+      "q": "Kili's birthday month is …",
+      "answer": "October"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "My birthday is ___ July.",
+      "options": [
+       "on",
+       "in",
+       "at"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "The concert is ___ the 15th of May.",
+      "options": [
+       "in",
+       "at",
+       "on"
+      ],
+      "answer": 2
+     },
+     {
+      "sentence": "One hundred years is a …",
+      "options": [
+       "fortnight",
+       "century",
+       "season"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "The month after February is …",
+      "options": [
+       "January",
+       "April",
+       "March"
+      ],
+      "answer": 2
+     },
+     {
+      "sentence": "In ___ the leaves fall from the trees.",
+      "options": [
+       "autumn",
+       "spring",
+       "summer"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Find out your partner's three favourite dates of the year (\"When is your birthday? When is…?\") and why. Report: \"Luca's favourite date is the 24th of December because…\""
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write one sentence for each season about what you do: In summer I go to the beach with my cousins."
+  }
+ ]
 }

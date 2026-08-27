@@ -315,7 +315,8 @@
    "type": "pairwork",
    "title": "Speaking · In pairs",
    "outputs": [
-    "book"
+    "book",
+    "digital"
    ],
    "data": {
     "text": "Student A is the TV weather presenter: draw four weather symbols for Monday–Thursday and present them: \"On Monday it's going to be rainy…\" Student B chooses what to wear each day. Then swap."

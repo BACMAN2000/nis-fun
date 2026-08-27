@@ -1,53 +1,253 @@
 {
-  "id": "movers-24", "level": "movers", "number": 24,
-  "title": "Helping at home", "topic": "chores",
-  "grammar": "have to (suave) + rutinas",
-  "wordlist": ["clean", "wash the dishes", "feed", "water the plants", "sweep", "table", "rubbish", "helpful", "job", "team"],
-  "exam_focus": { "paper": "Listening", "part": 3, "skill": "matching" },
-  "characters": ["mateo", "erik"],
-  "scene": { "speaker": "mateo", "pose": { "mateo": 3, "erik": 1 },
-    "bubble": "Saturday jobs at the club house! I feed Luna, Erik fixes things… and the rubbish goes out BEFORE it smells." },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the job with the room or place.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Job", "right_label": "Place",
-        "pairs": [
-          { "left": "wash the dishes", "right": "in the kitchen" },
-          { "left": "sweep the floor", "right": "in every room" },
-          { "left": "water the plants", "right": "on the balcony" },
-          { "left": "feed the dog", "right": "next to her bowl" },
-          { "left": "take out the rubbish", "right": "to the big bin outside" },
-          { "left": "set the table", "right": "before dinner" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Complete each sentence.",
-        "items": [
-          { "sentence": "I ___ to make my bed every morning.", "options": ["have", "has", "am"], "answer": 0 },
-          { "sentence": "She ___ to feed the cat before school.", "options": ["have", "has", "is"], "answer": 1 },
-          { "sentence": "We ___ the dishes after lunch.", "options": ["wash", "washes", "washing"], "answer": 0 },
-          { "sentence": "Please take out the ___ — it's full!", "options": ["rubbish", "table", "plants"], "answer": 0 },
-          { "sentence": "A person who likes helping is …", "options": ["helpful", "hopeless", "heavy"], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to the Saturday jobs. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "movers/u24-c.mp3",
-      "data": { "voice_note": "Voces: Mateo (repartiendo) y Erik (mejorando todo).",
-        "script": "Mateo: Saturday jobs! I feed Luna first — two cups of food, no more! … Erik: I'm cleaning the windows with my new spray machine. … Mateo: Sofia sweeps the floor and Valentina waters the plants. … Erik: The rubbish is my job today. Out it goes! … Mateo: And at twelve we all wash the dishes together. Four hands are fast! … Erik: Six hands. Luna helps by watching. … Mateo: Job done in one hour. Now: football!",
-        "questions": [
-          { "q": "Luna gets two … of food.", "answer": "cups" },
-          { "q": "Erik cleans the windows with his spray …", "answer": "machine" },
-          { "q": "… waters the plants.", "answer": "Valentina" },
-          { "q": "At twelve they wash the … together.", "answer": "dishes" },
-          { "q": "Everything is done in one …", "answer": "hour" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "You ___ the floor with a broom.", "options": ["sweep", "wash", "feed"], "answer": 0 },
-          { "sentence": "Give food to an animal = ___ it.", "options": ["feed", "water", "clean"], "answer": 0 },
-          { "sentence": "Before dinner, we set the …", "options": ["table", "rubbish", "bed"], "answer": 0 },
-          { "sentence": "Plants need you to ___ them.", "options": ["water", "sweep", "wash"], "answer": 0 },
-          { "sentence": "Old paper and empty bottles go in the …", "options": ["rubbish", "fridge", "wardrobe"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Compare chores: \"Do you have to make your bed? Do you have to wash dishes?\" Find one chore you both do and one only your partner does." } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write your 4 home jobs with have to: I have to… On Sundays I have to…" } ]
+ "id": "movers-24",
+ "level": "movers",
+ "number": 24,
+ "title": "Helping at home",
+ "topic": "chores",
+ "grammar": "have to (suave) + rutinas",
+ "wordlist": [
+  "clean",
+  "wash the dishes",
+  "feed",
+  "water the plants",
+  "sweep",
+  "table",
+  "rubbish",
+  "helpful",
+  "job",
+  "team"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 3,
+  "skill": "matching"
+ },
+ "characters": [
+  "mateo",
+  "erik"
+ ],
+ "scene": {
+  "speaker": "mateo",
+  "pose": {
+   "mateo": 3,
+   "erik": 1
+  },
+  "bubble": "Saturday jobs at the club house! I feed Luna, Erik fixes things… and the rubbish goes out BEFORE it smells."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the job with the room or place.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Job",
+    "right_label": "Place",
+    "pairs": [
+     {
+      "left": "wash the dishes",
+      "right": "in the kitchen"
+     },
+     {
+      "left": "sweep the floor",
+      "right": "in every room"
+     },
+     {
+      "left": "water the plants",
+      "right": "on the balcony"
+     },
+     {
+      "left": "feed the dog",
+      "right": "next to her bowl"
+     },
+     {
+      "left": "take out the rubbish",
+      "right": "to the big bin outside"
+     },
+     {
+      "left": "set the table",
+      "right": "before dinner"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete each sentence.",
+    "items": [
+     {
+      "sentence": "I ___ to make my bed every morning.",
+      "options": [
+       "have",
+       "has",
+       "am"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "She ___ to feed the cat before school.",
+      "options": [
+       "have",
+       "has",
+       "is"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "We ___ the dishes after lunch.",
+      "options": [
+       "wash",
+       "washes",
+       "washing"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Please take out the ___ — it's full!",
+      "options": [
+       "rubbish",
+       "table",
+       "plants"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "A person who likes helping is …",
+      "options": [
+       "helpful",
+       "hopeless",
+       "heavy"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to the Saturday jobs. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u24-c.mp3",
+   "data": {
+    "voice_note": "Voces: Mateo (repartiendo) y Erik (mejorando todo).",
+    "script": "Mateo: Saturday jobs! I feed Luna first — two cups of food, no more! … Erik: I'm cleaning the windows with my new spray machine. … Mateo: Sofia sweeps the floor and Valentina waters the plants. … Erik: The rubbish is my job today. Out it goes! … Mateo: And at twelve we all wash the dishes together. Four hands are fast! … Erik: Six hands. Luna helps by watching. … Mateo: Job done in one hour. Now: football!",
+    "questions": [
+     {
+      "q": "Luna gets two … of food.",
+      "answer": "cups"
+     },
+     {
+      "q": "Erik cleans the windows with his spray …",
+      "answer": "machine"
+     },
+     {
+      "q": "… waters the plants.",
+      "answer": "Valentina"
+     },
+     {
+      "q": "At twelve they wash the … together.",
+      "answer": "dishes"
+     },
+     {
+      "q": "Everything is done in one …",
+      "answer": "hour"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "You ___ the floor with a broom.",
+      "options": [
+       "sweep",
+       "wash",
+       "feed"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Give food to an animal = ___ it.",
+      "options": [
+       "feed",
+       "water",
+       "clean"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Before dinner, we set the …",
+      "options": [
+       "table",
+       "rubbish",
+       "bed"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Plants need you to ___ them.",
+      "options": [
+       "water",
+       "sweep",
+       "wash"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Old paper and empty bottles go in the …",
+      "options": [
+       "rubbish",
+       "fridge",
+       "wardrobe"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Compare chores: \"Do you have to make your bed? Do you have to wash dishes?\" Find one chore you both do and one only your partner does."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write your 4 home jobs with have to: I have to… On Sundays I have to…"
+  }
+ ]
 }

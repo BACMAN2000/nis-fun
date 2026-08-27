@@ -1,53 +1,253 @@
 {
-  "id": "movers-13", "level": "movers", "number": 13,
-  "title": "Classroom rules", "topic": "must / mustn't",
-  "grammar": "must / mustn't",
-  "wordlist": ["rule", "listen", "raise your hand", "share", "shout", "run", "tidy", "respect", "quiet", "help"],
-  "exam_focus": { "paper": "Reading & Writing", "part": 6, "skill": "gapped sentences" },
-  "characters": ["sofia", "mateo"],
-  "scene": { "speaker": "sofia", "pose": { "sofia": 2, "mateo": 1 },
-    "bubble": "New class rules, written by us! Rule one: we must help each other. Rule two: Luna must stay OUT of the lunch boxes." },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the rule with its reason.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Rule", "right_label": "Reason",
-        "pairs": [
-          { "left": "We must listen to the teacher.", "right": "to learn new things" },
-          { "left": "We must raise our hand.", "right": "so everyone can speak" },
-          { "left": "We mustn't run in the classroom.", "right": "somebody can fall" },
-          { "left": "We mustn't shout.", "right": "other classes are working" },
-          { "left": "We must tidy our desks.", "right": "a clean class is a happy class" },
-          { "left": "We must share the materials.", "right": "there is enough for everyone" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Choose must or mustn't.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Complete each sentence.",
-        "items": [
-          { "sentence": "You ___ do your homework every day.", "options": ["must", "mustn't", "aren't"], "answer": 0 },
-          { "sentence": "You ___ eat in the library.", "options": ["must", "mustn't", "don't"], "answer": 1 },
-          { "sentence": "We ___ be quiet during the exam.", "options": ["must", "mustn't", "can't be"], "answer": 0 },
-          { "sentence": "You ___ forget your sports clothes on Friday.", "options": ["must", "mustn't", "aren't"], "answer": 1 },
-          { "sentence": "Everyone ___ respect the others.", "options": ["must", "mustn't", "doesn't"], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to the rules meeting. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "movers/u13-c.mp3",
-      "data": { "voice_note": "Voces: Sofía (moderadora) y Mateo (secretario).",
-        "script": "Sofia: Class meeting! We are writing our ten rules. Mateo, write this down. … Mateo: Ready! My pencil is sharp. … Sofia: Rule one: we must help each other with difficult exercises. … Sofia: Rule two: we mustn't laugh at mistakes. Mistakes help us learn! … Mateo: Rule three: we must water the class plant every Monday. … Sofia: Good one! And rule four: we mustn't leave rubbish on the floor. … Mateo: And rule five, very important: Luna mustn't open the lunch boxes! … Sofia: Approved! Five more rules tomorrow.",
-        "questions": [
-          { "q": "They are writing … rules in total.", "answer": "ten" },
-          { "q": "They must help each other with difficult …", "answer": "exercises" },
-          { "q": "They mustn't laugh at …", "answer": "mistakes" },
-          { "q": "They must water the class plant every …", "answer": "Monday" },
-          { "q": "… mustn't open the lunch boxes.", "answer": "Luna" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "Before speaking, ___ your hand.", "options": ["raise", "wash", "close"], "answer": 0 },
-          { "sentence": "The opposite of noisy is …", "options": ["quiet", "fast", "dirty"], "answer": 0 },
-          { "sentence": "To ___ is to give part of yours to others.", "options": ["share", "shout", "run"], "answer": 0 },
-          { "sentence": "Keep your desk ___ and clean.", "options": ["tidy", "wet", "heavy"], "answer": 0 },
-          { "sentence": "A ___ tells you what you must or mustn't do.", "options": ["rule", "ruler", "rubber"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Invent 3 rules for a crazy place (a dragon school, a pirate ship…): \"You must… You mustn't…\" Read them aloud — the class guesses the place!" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write 4 rules of your home: two with must and two with mustn't. Do you follow them all? Be honest!" } ]
+ "id": "movers-13",
+ "level": "movers",
+ "number": 13,
+ "title": "Classroom rules",
+ "topic": "must / mustn't",
+ "grammar": "must / mustn't",
+ "wordlist": [
+  "rule",
+  "listen",
+  "raise your hand",
+  "share",
+  "shout",
+  "run",
+  "tidy",
+  "respect",
+  "quiet",
+  "help"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 6,
+  "skill": "gapped sentences"
+ },
+ "characters": [
+  "sofia",
+  "mateo"
+ ],
+ "scene": {
+  "speaker": "sofia",
+  "pose": {
+   "sofia": 2,
+   "mateo": 1
+  },
+  "bubble": "New class rules, written by us! Rule one: we must help each other. Rule two: Luna must stay OUT of the lunch boxes."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the rule with its reason.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Rule",
+    "right_label": "Reason",
+    "pairs": [
+     {
+      "left": "We must listen to the teacher.",
+      "right": "to learn new things"
+     },
+     {
+      "left": "We must raise our hand.",
+      "right": "so everyone can speak"
+     },
+     {
+      "left": "We mustn't run in the classroom.",
+      "right": "somebody can fall"
+     },
+     {
+      "left": "We mustn't shout.",
+      "right": "other classes are working"
+     },
+     {
+      "left": "We must tidy our desks.",
+      "right": "a clean class is a happy class"
+     },
+     {
+      "left": "We must share the materials.",
+      "right": "there is enough for everyone"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choose must or mustn't.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete each sentence.",
+    "items": [
+     {
+      "sentence": "You ___ do your homework every day.",
+      "options": [
+       "must",
+       "mustn't",
+       "aren't"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "You ___ eat in the library.",
+      "options": [
+       "must",
+       "mustn't",
+       "don't"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "We ___ be quiet during the exam.",
+      "options": [
+       "must",
+       "mustn't",
+       "can't be"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "You ___ forget your sports clothes on Friday.",
+      "options": [
+       "must",
+       "mustn't",
+       "aren't"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Everyone ___ respect the others.",
+      "options": [
+       "must",
+       "mustn't",
+       "doesn't"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to the rules meeting. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u13-c.mp3",
+   "data": {
+    "voice_note": "Voces: Sofía (moderadora) y Mateo (secretario).",
+    "script": "Sofia: Class meeting! We are writing our ten rules. Mateo, write this down. … Mateo: Ready! My pencil is sharp. … Sofia: Rule one: we must help each other with difficult exercises. … Sofia: Rule two: we mustn't laugh at mistakes. Mistakes help us learn! … Mateo: Rule three: we must water the class plant every Monday. … Sofia: Good one! And rule four: we mustn't leave rubbish on the floor. … Mateo: And rule five, very important: Luna mustn't open the lunch boxes! … Sofia: Approved! Five more rules tomorrow.",
+    "questions": [
+     {
+      "q": "They are writing … rules in total.",
+      "answer": "ten"
+     },
+     {
+      "q": "They must help each other with difficult …",
+      "answer": "exercises"
+     },
+     {
+      "q": "They mustn't laugh at …",
+      "answer": "mistakes"
+     },
+     {
+      "q": "They must water the class plant every …",
+      "answer": "Monday"
+     },
+     {
+      "q": "… mustn't open the lunch boxes.",
+      "answer": "Luna"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "Before speaking, ___ your hand.",
+      "options": [
+       "raise",
+       "wash",
+       "close"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The opposite of noisy is …",
+      "options": [
+       "quiet",
+       "fast",
+       "dirty"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "To ___ is to give part of yours to others.",
+      "options": [
+       "share",
+       "shout",
+       "run"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Keep your desk ___ and clean.",
+      "options": [
+       "tidy",
+       "wet",
+       "heavy"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "A ___ tells you what you must or mustn't do.",
+      "options": [
+       "rule",
+       "ruler",
+       "rubber"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Invent 3 rules for a crazy place (a dragon school, a pirate ship…): \"You must… You mustn't…\" Read them aloud — the class guesses the place!"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write 4 rules of your home: two with must and two with mustn't. Do you follow them all? Be honest!"
+  }
+ ]
 }

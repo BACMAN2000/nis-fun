@@ -1,54 +1,254 @@
 {
-  "id": "flyers-38", "level": "flyers", "number": 38,
-  "title": "You're on TV!", "topic": "screen time",
-  "grammar": "adverbios de opinión + presente",
-  "wordlist": ["channel", "programme", "cartoon", "documentary", "screen", "video", "camera", "interview", "audience", "presenter"],
-  "exam_focus": { "paper": "Listening", "part": 3, "skill": "matching" },
-  "characters": ["diego", "kili"],
-  "scene": { "speaker": "diego", "pose": { "diego": 8, "kili": 1 },
-    "bubble": "Big news: the city TV channel wants a report about our school… and Kili will be on TV!" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the TV word with its meaning.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Word", "right_label": "Meaning",
-        "pairs": [
-          { "left": "a documentary", "right": "a real-life programme about nature or history" },
-          { "left": "a cartoon", "right": "a programme with drawings that move" },
-          { "left": "the presenter", "right": "the person who talks to the camera" },
-          { "left": "the audience", "right": "the people who watch" },
-          { "left": "a channel", "right": "you change it with the remote control" },
-          { "left": "an interview", "right": "one person asks, another answers" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Read about the TV visit and choose the right answer.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Read the text. Choose the correct answer.",
-        "text": "On Thursday a real TV team came to our school. The presenter, Miss Vega, interviewed our head teacher first — he was so nervous that he said his own name wrong! Then they filmed the science room, where Maya showed her volcano experiment. The best moment was in the playground: Kili flew down and landed on the camera! Everybody laughed, and the camera operator gave him a biscuit. The report will be on channel nine on Sunday, after the eight o'clock news.",
-        "items": [
-          { "sentence": "When did the TV team come?", "options": ["on Sunday", "on Thursday", "on Friday"], "answer": 1 },
-          { "sentence": "Who was interviewed first?", "options": ["Maya", "Kili", "the head teacher"], "answer": 2 },
-          { "sentence": "What did Maya show?", "options": ["a volcano experiment", "her telescope", "a puzzle"], "answer": 0 },
-          { "sentence": "Where did Kili land?", "options": ["on the roof", "on the camera", "on a desk"], "answer": 1 },
-          { "sentence": "When is the report on TV?", "options": ["Sunday after the news", "Thursday at nine", "Monday morning"], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen. Preparing the TV report. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "flyers/u38-c.mp3",
-      "data": { "voice_note": "Voces: Diego (organizando el rodaje) y Kili (estrella invitada).",
-        "script": "Diego: TV day checklist! The team arrives at nine o'clock. … Diego: First stop: the library. Quiet voices, please! … Diego: Then the music room — Oliver's band will play their new song, Lighthouse Nights. … Diego: Maya's interview is at eleven, next to the volcano. Don't press the red button before the cameras are ready! … Diego: Lunch with the TV team: the cook is making her famous fish soup. … Diego: And the big final: Kili flies over the playground with the school flag. … Diego: Kili, please: this time, do NOT land on the camera!",
-        "questions": [
-          { "q": "The TV team arrives at … o'clock.", "answer": "nine" },
-          { "q": "The first stop is the …", "answer": "library" },
-          { "q": "The band's new song is called Lighthouse …", "answer": "Nights" },
-          { "q": "The cook is making her famous fish …", "answer": "soup" },
-          { "q": "Kili flies over the playground with the school …", "answer": "flag" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "A programme with moving drawings is a …", "options": ["documentary", "cartoon", "channel"], "answer": 1 },
-          { "sentence": "You watch films on a …", "options": ["screen", "shelf", "stamp"], "answer": 0 },
-          { "sentence": "The ___ claps at the end of the show.", "options": ["camera", "audience", "channel"], "answer": 1 },
-          { "sentence": "Diego wants to be a TV ___ one day.", "options": ["presenter", "printer", "painter"], "answer": 0 },
-          { "sentence": "They filmed the concert with three …", "options": ["cameras", "envelopes", "curtains"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "TV interview: Student A is the presenter, Student B is a famous person (real or invented). Do a 1-minute interview with 4 questions. Then swap roles. Best interview goes \"on air\" for the class!" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write about your favourite programme: what it is, on which channel, when you watch it and why you like it. 4 sentences." } ]
+ "id": "flyers-38",
+ "level": "flyers",
+ "number": 38,
+ "title": "You're on TV!",
+ "topic": "screen time",
+ "grammar": "adverbios de opinión + presente",
+ "wordlist": [
+  "channel",
+  "programme",
+  "cartoon",
+  "documentary",
+  "screen",
+  "video",
+  "camera",
+  "interview",
+  "audience",
+  "presenter"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 3,
+  "skill": "matching"
+ },
+ "characters": [
+  "diego",
+  "kili"
+ ],
+ "scene": {
+  "speaker": "diego",
+  "pose": {
+   "diego": 8,
+   "kili": 1
+  },
+  "bubble": "Big news: the city TV channel wants a report about our school… and Kili will be on TV!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the TV word with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "a documentary",
+      "right": "a real-life programme about nature or history"
+     },
+     {
+      "left": "a cartoon",
+      "right": "a programme with drawings that move"
+     },
+     {
+      "left": "the presenter",
+      "right": "the person who talks to the camera"
+     },
+     {
+      "left": "the audience",
+      "right": "the people who watch"
+     },
+     {
+      "left": "a channel",
+      "right": "you change it with the remote control"
+     },
+     {
+      "left": "an interview",
+      "right": "one person asks, another answers"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Read about the TV visit and choose the right answer.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Read the text. Choose the correct answer.",
+    "text": "On Thursday a real TV team came to our school. The presenter, Miss Vega, interviewed our head teacher first — he was so nervous that he said his own name wrong! Then they filmed the science room, where Maya showed her volcano experiment. The best moment was in the playground: Kili flew down and landed on the camera! Everybody laughed, and the camera operator gave him a biscuit. The report will be on channel nine on Sunday, after the eight o'clock news.",
+    "items": [
+     {
+      "sentence": "When did the TV team come?",
+      "options": [
+       "on Sunday",
+       "on Thursday",
+       "on Friday"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Who was interviewed first?",
+      "options": [
+       "Maya",
+       "Kili",
+       "the head teacher"
+      ],
+      "answer": 2
+     },
+     {
+      "sentence": "What did Maya show?",
+      "options": [
+       "a volcano experiment",
+       "her telescope",
+       "a puzzle"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Where did Kili land?",
+      "options": [
+       "on the roof",
+       "on the camera",
+       "on a desk"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "When is the report on TV?",
+      "options": [
+       "Sunday after the news",
+       "Thursday at nine",
+       "Monday morning"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen. Preparing the TV report. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u38-c.mp3",
+   "data": {
+    "voice_note": "Voces: Diego (organizando el rodaje) y Kili (estrella invitada).",
+    "script": "Diego: TV day checklist! The team arrives at nine o'clock. … Diego: First stop: the library. Quiet voices, please! … Diego: Then the music room — Oliver's band will play their new song, Lighthouse Nights. … Diego: Maya's interview is at eleven, next to the volcano. Don't press the red button before the cameras are ready! … Diego: Lunch with the TV team: the cook is making her famous fish soup. … Diego: And the big final: Kili flies over the playground with the school flag. … Diego: Kili, please: this time, do NOT land on the camera!",
+    "questions": [
+     {
+      "q": "The TV team arrives at … o'clock.",
+      "answer": "nine"
+     },
+     {
+      "q": "The first stop is the …",
+      "answer": "library"
+     },
+     {
+      "q": "The band's new song is called Lighthouse …",
+      "answer": "Nights"
+     },
+     {
+      "q": "The cook is making her famous fish …",
+      "answer": "soup"
+     },
+     {
+      "q": "Kili flies over the playground with the school …",
+      "answer": "flag"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "A programme with moving drawings is a …",
+      "options": [
+       "documentary",
+       "cartoon",
+       "channel"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "You watch films on a …",
+      "options": [
+       "screen",
+       "shelf",
+       "stamp"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The ___ claps at the end of the show.",
+      "options": [
+       "camera",
+       "audience",
+       "channel"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Diego wants to be a TV ___ one day.",
+      "options": [
+       "presenter",
+       "printer",
+       "painter"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "They filmed the concert with three …",
+      "options": [
+       "cameras",
+       "envelopes",
+       "curtains"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "TV interview: Student A is the presenter, Student B is a famous person (real or invented). Do a 1-minute interview with 4 questions. Then swap roles. Best interview goes \"on air\" for the class!"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write about your favourite programme: what it is, on which channel, when you watch it and why you like it. 4 sentences."
+  }
+ ]
 }

@@ -1,54 +1,254 @@
 {
-  "id": "flyers-22", "level": "flyers", "number": 22,
-  "title": "World rivers", "topic": "geography",
-  "grammar": "superlatives + numbers",
-  "wordlist": ["river", "ocean", "bridge", "boat", "deep", "wide", "long", "kilometre", "south", "north"],
-  "exam_focus": { "paper": "Reading & Writing", "part": 4, "skill": "factual text" },
-  "characters": ["maya", "kili"],
-  "scene": { "speaker": "maya", "pose": { "maya": 3, "kili": 2 },
-    "bubble": "Quiz time! Which river is longer — the Amazon or the Nile? Kili has flown over both!" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the word with its meaning.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Word", "right_label": "Meaning",
-        "pairs": [
-          { "left": "deep", "right": "a long way from top to bottom" },
-          { "left": "wide", "right": "a long way from side to side" },
-          { "left": "a bridge", "right": "you cross the river over it" },
-          { "left": "an ocean", "right": "the biggest water on Earth" },
-          { "left": "a kilometre", "right": "one thousand metres" },
-          { "left": "a boat", "right": "you travel on water in it" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Read about the Amazon and choose the right answer.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Read the text. Choose the correct answer.",
-        "text": "The Amazon river is in South America. It is about six thousand four hundred kilometres long, and in the rainy season some parts are almost fifty kilometres wide! More kinds of fish live in the Amazon than in any other river — more than two thousand. Pink dolphins swim in its brown water. There are very few bridges over the Amazon, so people travel by boat between the villages.",
-        "items": [
-          { "sentence": "The Amazon is in …", "options": ["Africa", "South America", "Europe"], "answer": 1 },
-          { "sentence": "In the rainy season some parts are almost ___ wide.", "options": ["fifty kilometres", "five kilometres", "fifteen metres"], "answer": 0 },
-          { "sentence": "More than two thousand kinds of ___ live there.", "options": ["birds", "fish", "monkeys"], "answer": 1 },
-          { "sentence": "The dolphins in the Amazon are …", "options": ["grey", "blue", "pink"], "answer": 2 },
-          { "sentence": "People travel between villages by …", "options": ["train", "boat", "tram"], "answer": 1 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to Kili's river tour. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "flyers/u22-c.mp3",
-      "data": { "voice_note": "Voces: Maya (entrevista) y Kili (recuerdos de vuelo — narrados por Maya).",
-        "script": "Maya: Kili, tell us about the rivers you know! … Maya: He says the Nile is the longest — about six thousand six hundred kilometres. … Maya: He flew over it for three days without stopping! … Maya: His favourite is the Amazon, because of the pink dolphins. … Maya: The coldest river he knows is in the north, full of ice in winter. … Maya: And the most beautiful bridge? The old stone bridge in our own town, of course! … Maya: Thank you, captain Kili, the best flying geographer!",
-        "questions": [
-          { "q": "The longest river is the …", "answer": "Nile" },
-          { "q": "Kili flew over it for three … without stopping.", "answer": "days" },
-          { "q": "His favourite river has pink …", "answer": "dolphins" },
-          { "q": "The coldest river is full of … in winter.", "answer": "ice" },
-          { "q": "The most beautiful bridge is made of …", "answer": "stone" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "The Nile is ___ than the Thames.", "options": ["long", "longer", "longest"], "answer": 1 },
-          { "sentence": "The Pacific is the ___ ocean in the world.", "options": ["bigger", "biggest", "big"], "answer": 1 },
-          { "sentence": "One thousand metres is one …", "options": ["kilometre", "century", "minute"], "answer": 0 },
-          { "sentence": "The opposite of north is …", "options": ["west", "east", "south"], "answer": 2 },
-          { "sentence": "This part of the river is very ___ — don't dive here!", "options": ["deep", "dry", "wide"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Make a 3-question river quiz for another pair using longer/deeper/wider (invent numbers if needed): \"Which is longer, the X or the Y?\" Winners write their names on the board!" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Find one fact about a river of Peru and write 3 sentences: The … river is … kilometres long. It is in the…" } ]
+ "id": "flyers-22",
+ "level": "flyers",
+ "number": 22,
+ "title": "World rivers",
+ "topic": "geography",
+ "grammar": "superlatives + numbers",
+ "wordlist": [
+  "river",
+  "ocean",
+  "bridge",
+  "boat",
+  "deep",
+  "wide",
+  "long",
+  "kilometre",
+  "south",
+  "north"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 4,
+  "skill": "factual text"
+ },
+ "characters": [
+  "maya",
+  "kili"
+ ],
+ "scene": {
+  "speaker": "maya",
+  "pose": {
+   "maya": 3,
+   "kili": 2
+  },
+  "bubble": "Quiz time! Which river is longer — the Amazon or the Nile? Kili has flown over both!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the word with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "deep",
+      "right": "a long way from top to bottom"
+     },
+     {
+      "left": "wide",
+      "right": "a long way from side to side"
+     },
+     {
+      "left": "a bridge",
+      "right": "you cross the river over it"
+     },
+     {
+      "left": "an ocean",
+      "right": "the biggest water on Earth"
+     },
+     {
+      "left": "a kilometre",
+      "right": "one thousand metres"
+     },
+     {
+      "left": "a boat",
+      "right": "you travel on water in it"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Read about the Amazon and choose the right answer.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Read the text. Choose the correct answer.",
+    "text": "The Amazon river is in South America. It is about six thousand four hundred kilometres long, and in the rainy season some parts are almost fifty kilometres wide! More kinds of fish live in the Amazon than in any other river — more than two thousand. Pink dolphins swim in its brown water. There are very few bridges over the Amazon, so people travel by boat between the villages.",
+    "items": [
+     {
+      "sentence": "The Amazon is in …",
+      "options": [
+       "Africa",
+       "South America",
+       "Europe"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "In the rainy season some parts are almost ___ wide.",
+      "options": [
+       "fifty kilometres",
+       "five kilometres",
+       "fifteen metres"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "More than two thousand kinds of ___ live there.",
+      "options": [
+       "birds",
+       "fish",
+       "monkeys"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "The dolphins in the Amazon are …",
+      "options": [
+       "grey",
+       "blue",
+       "pink"
+      ],
+      "answer": 2
+     },
+     {
+      "sentence": "People travel between villages by …",
+      "options": [
+       "train",
+       "boat",
+       "tram"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to Kili's river tour. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u22-c.mp3",
+   "data": {
+    "voice_note": "Voces: Maya (entrevista) y Kili (recuerdos de vuelo — narrados por Maya).",
+    "script": "Maya: Kili, tell us about the rivers you know! … Maya: He says the Nile is the longest — about six thousand six hundred kilometres. … Maya: He flew over it for three days without stopping! … Maya: His favourite is the Amazon, because of the pink dolphins. … Maya: The coldest river he knows is in the north, full of ice in winter. … Maya: And the most beautiful bridge? The old stone bridge in our own town, of course! … Maya: Thank you, captain Kili, the best flying geographer!",
+    "questions": [
+     {
+      "q": "The longest river is the …",
+      "answer": "Nile"
+     },
+     {
+      "q": "Kili flew over it for three … without stopping.",
+      "answer": "days"
+     },
+     {
+      "q": "His favourite river has pink …",
+      "answer": "dolphins"
+     },
+     {
+      "q": "The coldest river is full of … in winter.",
+      "answer": "ice"
+     },
+     {
+      "q": "The most beautiful bridge is made of …",
+      "answer": "stone"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "The Nile is ___ than the Thames.",
+      "options": [
+       "long",
+       "longer",
+       "longest"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "The Pacific is the ___ ocean in the world.",
+      "options": [
+       "bigger",
+       "biggest",
+       "big"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "One thousand metres is one …",
+      "options": [
+       "kilometre",
+       "century",
+       "minute"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The opposite of north is …",
+      "options": [
+       "west",
+       "east",
+       "south"
+      ],
+      "answer": 2
+     },
+     {
+      "sentence": "This part of the river is very ___ — don't dive here!",
+      "options": [
+       "deep",
+       "dry",
+       "wide"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Make a 3-question river quiz for another pair using longer/deeper/wider (invent numbers if needed): \"Which is longer, the X or the Y?\" Winners write their names on the board!"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Find one fact about a river of Peru and write 3 sentences: The … river is … kilometres long. It is in the…"
+  }
+ ]
 }

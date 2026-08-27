@@ -1,53 +1,253 @@
 {
-  "id": "flyers-12", "level": "flyers", "number": 12,
-  "title": "When I grow up", "topic": "will / might",
-  "grammar": "will / won't for the future",
-  "wordlist": ["future", "famous", "astronaut", "artist", "singer", "scientist", "footballer", "dream", "university", "travel"],
-  "exam_focus": { "paper": "Listening", "part": 4, "skill": "multiple choice" },
-  "characters": ["oliver", "maya"],
-  "scene": { "speaker": "oliver", "pose": { "oliver": 3, "maya": 4 },
-    "bubble": "One day I'll play my songs in a huge stadium! What will YOU be, Maya?" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the dream with the job.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Dream", "right_label": "Job",
-        "pairs": [
-          { "left": "I'll fly to the Moon.", "right": "an astronaut" },
-          { "left": "I'll paint amazing pictures.", "right": "an artist" },
-          { "left": "I'll sing in big concerts.", "right": "a singer" },
-          { "left": "I'll discover new medicines.", "right": "a scientist" },
-          { "left": "I'll score goals for my country.", "right": "a footballer" },
-          { "left": "I'll write about important news.", "right": "a journalist" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Choose will or won't.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Complete each sentence with the correct word.",
-        "items": [
-          { "sentence": "In 2050, people ___ travel in flying cars.", "options": ["will", "won't", "wasn't"], "answer": 0 },
-          { "sentence": "Don't worry, the test ___ be difficult.", "options": ["will", "won't", "isn't"], "answer": 1 },
-          { "sentence": "___ you come to my concert on Friday?", "options": ["Will", "Won't", "Did"], "answer": 0 },
-          { "sentence": "I think robots ___ do our homework one day!", "options": ["will", "was", "were"], "answer": 0 },
-          { "sentence": "It's cloudy — we ___ see the stars tonight.", "options": ["will", "won't", "weren't"], "answer": 1 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen. The team talks about the future. Write a word in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "flyers/u12-c.mp3",
-      "data": { "voice_note": "Voces: Oliver (soñador) y Maya (práctica).",
-        "script": "Oliver: In the future, I'll be a famous singer. I'll travel with my guitar to every country. … Maya: I'll study science at university. Then I'll work in a laboratory. … Oliver: Will you make a robot for me? … Maya: Maybe! It will carry your guitar and your suitcase. … Oliver: What about Ingrid? … Maya: She says she'll be a ship captain and explore the Arctic. … Oliver: And Diego will have his own TV programme, for sure. … Maya: And Kili? … Oliver: Kili won't change. He'll always be the best postman in the world!",
-        "questions": [
-          { "q": "Oliver will travel to every country with his …", "answer": "guitar" },
-          { "q": "Maya will study science at …", "answer": "university" },
-          { "q": "Maya's robot will carry the guitar and the …", "answer": "suitcase" },
-          { "q": "Ingrid will explore the …", "answer": "Arctic" },
-          { "q": "Diego will have his own TV …", "answer": "programme" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "A person who travels to space is an …", "options": ["artist", "astronaut", "engineer"], "answer": 1 },
-          { "sentence": "After school, some people study at …", "options": ["university", "the funfair", "the basement"], "answer": 0 },
-          { "sentence": "Everybody knows a ___ person.", "options": ["famous", "empty", "cloudy"], "answer": 0 },
-          { "sentence": "\"What will you be when you ___ up?\"", "options": ["grow", "cook", "wash"], "answer": 0 },
-          { "sentence": "My ___ is to see the whales in the ocean.", "options": ["dream", "fridge", "timetable"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Fortune teller: Student A asks about the future (\"Will I be famous? Will I travel?\"). Student B invents fun answers (\"Yes! You'll live on a boat with seven dogs!\"). Then swap." } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write 5 sentences about your life in 2040: where you will live, what job you will do, what you won't do." } ]
+ "id": "flyers-12",
+ "level": "flyers",
+ "number": 12,
+ "title": "When I grow up",
+ "topic": "will / might",
+ "grammar": "will / won't for the future",
+ "wordlist": [
+  "future",
+  "famous",
+  "astronaut",
+  "artist",
+  "singer",
+  "scientist",
+  "footballer",
+  "dream",
+  "university",
+  "travel"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 4,
+  "skill": "multiple choice"
+ },
+ "characters": [
+  "oliver",
+  "maya"
+ ],
+ "scene": {
+  "speaker": "oliver",
+  "pose": {
+   "oliver": 3,
+   "maya": 4
+  },
+  "bubble": "One day I'll play my songs in a huge stadium! What will YOU be, Maya?"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the dream with the job.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Dream",
+    "right_label": "Job",
+    "pairs": [
+     {
+      "left": "I'll fly to the Moon.",
+      "right": "an astronaut"
+     },
+     {
+      "left": "I'll paint amazing pictures.",
+      "right": "an artist"
+     },
+     {
+      "left": "I'll sing in big concerts.",
+      "right": "a singer"
+     },
+     {
+      "left": "I'll discover new medicines.",
+      "right": "a scientist"
+     },
+     {
+      "left": "I'll score goals for my country.",
+      "right": "a footballer"
+     },
+     {
+      "left": "I'll write about important news.",
+      "right": "a journalist"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choose will or won't.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete each sentence with the correct word.",
+    "items": [
+     {
+      "sentence": "In 2050, people ___ travel in flying cars.",
+      "options": [
+       "will",
+       "won't",
+       "wasn't"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Don't worry, the test ___ be difficult.",
+      "options": [
+       "will",
+       "won't",
+       "isn't"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "___ you come to my concert on Friday?",
+      "options": [
+       "Will",
+       "Won't",
+       "Did"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "I think robots ___ do our homework one day!",
+      "options": [
+       "will",
+       "was",
+       "were"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "It's cloudy — we ___ see the stars tonight.",
+      "options": [
+       "will",
+       "won't",
+       "weren't"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen. The team talks about the future. Write a word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u12-c.mp3",
+   "data": {
+    "voice_note": "Voces: Oliver (soñador) y Maya (práctica).",
+    "script": "Oliver: In the future, I'll be a famous singer. I'll travel with my guitar to every country. … Maya: I'll study science at university. Then I'll work in a laboratory. … Oliver: Will you make a robot for me? … Maya: Maybe! It will carry your guitar and your suitcase. … Oliver: What about Ingrid? … Maya: She says she'll be a ship captain and explore the Arctic. … Oliver: And Diego will have his own TV programme, for sure. … Maya: And Kili? … Oliver: Kili won't change. He'll always be the best postman in the world!",
+    "questions": [
+     {
+      "q": "Oliver will travel to every country with his …",
+      "answer": "guitar"
+     },
+     {
+      "q": "Maya will study science at …",
+      "answer": "university"
+     },
+     {
+      "q": "Maya's robot will carry the guitar and the …",
+      "answer": "suitcase"
+     },
+     {
+      "q": "Ingrid will explore the …",
+      "answer": "Arctic"
+     },
+     {
+      "q": "Diego will have his own TV …",
+      "answer": "programme"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "A person who travels to space is an …",
+      "options": [
+       "artist",
+       "astronaut",
+       "engineer"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "After school, some people study at …",
+      "options": [
+       "university",
+       "the funfair",
+       "the basement"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Everybody knows a ___ person.",
+      "options": [
+       "famous",
+       "empty",
+       "cloudy"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"What will you be when you ___ up?\"",
+      "options": [
+       "grow",
+       "cook",
+       "wash"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "My ___ is to see the whales in the ocean.",
+      "options": [
+       "dream",
+       "fridge",
+       "timetable"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Fortune teller: Student A asks about the future (\"Will I be famous? Will I travel?\"). Student B invents fun answers (\"Yes! You'll live on a boat with seven dogs!\"). Then swap."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write 5 sentences about your life in 2040: where you will live, what job you will do, what you won't do."
+  }
+ ]
 }

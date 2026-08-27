@@ -1,53 +1,230 @@
 {
-  "id": "flyers-37", "level": "flyers", "number": 37,
-  "title": "Having fun", "topic": "hobbies",
-  "grammar": "like / love / enjoy + -ing",
-  "wordlist": ["hobby", "collect", "chess", "comics", "photography", "cooking", "dancing", "painting", "puzzle", "board game"],
-  "exam_focus": { "paper": "Reading & Writing", "part": 1, "skill": "definitions" },
-  "characters": ["diego", "oliver"],
-  "scene": { "speaker": "diego", "pose": { "diego": 3, "oliver": 1 },
-    "bubble": "New series on Radio Aurora: secret hobbies! Did you know our maths teacher collects tiny spoons?" },
-  "activities": [
-    { "code": "A", "type": "crossword", "title": "Read the sentences and write the hobby words.",
-      "outputs": ["book", "digital"],
-      "data": { "words": [
-        { "word": "CHESS", "clue": "A board game with kings, queens and horses." },
-        { "word": "COMICS", "clue": "Books with pictures and speech bubbles." },
-        { "word": "PHOTOGRAPHY", "clue": "Taking pictures with a camera." },
-        { "word": "DANCING", "clue": "Moving your body to music." },
-        { "word": "PUZZLE", "clue": "You put many small pieces together to make a picture." },
-        { "word": "PAINTING", "clue": "Making pictures with colours and a brush." } ] } },
-    { "code": "B", "type": "match_words", "title": "Match the person with their hobby.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Person", "right_label": "Hobby",
-        "pairs": [
-          { "left": "She loves cooking", "right": "new recipes from other countries" },
-          { "left": "He enjoys collecting", "right": "stamps from every continent" },
-          { "left": "They like playing", "right": "chess in the park" },
-          { "left": "I love reading", "right": "comics about space heroes" },
-          { "left": "We enjoy doing", "right": "puzzles of 1000 pieces" },
-          { "left": "She likes taking", "right": "photos of birds" } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to the secret hobbies report. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "flyers/u37-c.mp3",
-      "data": { "voice_note": "Voces: Diego (reportero) y Oliver (invitado).",
-        "script": "Diego: Secret hobbies, episode one! First: our maths teacher collects tiny spoons. He has got ninety-two! … Oliver: Ninety-two spoons! Where does he keep them? … Diego: On three shelves in his kitchen. Next: the school cook loves photography. … Diego: She takes photos of clouds every morning before work. … Oliver: Beautiful! And what about you, Diego? … Diego: Me? I collect old radios. My grandpa gave me the first one. … Oliver: And my secret hobby is… cooking! I make excellent banana pancakes. … Diego: Tomorrow: does the head teacher really dance tango? Don't miss it!",
-        "questions": [
-          { "q": "The maths teacher has got … tiny spoons.", "answer": "ninety-two" },
-          { "q": "He keeps them on three …", "answer": "shelves" },
-          { "q": "The cook takes photos of … every morning.", "answer": "clouds" },
-          { "q": "Diego collects old …", "answer": "radios" },
-          { "q": "Oliver makes excellent banana …", "answer": "pancakes" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct form.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct words.",
-        "items": [
-          { "sentence": "I enjoy ___ photos of animals.", "options": ["take", "taking", "to taking"], "answer": 1 },
-          { "sentence": "She loves ___ chess with her grandpa.", "options": ["playing", "play", "played"], "answer": 0 },
-          { "sentence": "An activity you do for fun is a …", "options": ["chore", "hobby", "habit"], "answer": 1 },
-          { "sentence": "He ___ old coins from many countries.", "options": ["collects", "makes", "does"], "answer": 0 },
-          { "sentence": "Monopoly and chess are ___ games.", "options": ["board", "bored", "broad"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Hobby detective: ask yes/no questions to discover your partner's favourite hobby: \"Do you do it inside? Do you need music?\" Maximum 8 questions!" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write about your hobby: what it is, when you do it, why you love it, and one thing you have made/won/collected. 4-5 sentences." } ]
+ "id": "flyers-37",
+ "level": "flyers",
+ "number": 37,
+ "title": "Having fun",
+ "topic": "hobbies",
+ "grammar": "like / love / enjoy + -ing",
+ "wordlist": [
+  "hobby",
+  "collect",
+  "chess",
+  "comics",
+  "photography",
+  "cooking",
+  "dancing",
+  "painting",
+  "puzzle",
+  "board game"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 1,
+  "skill": "definitions"
+ },
+ "characters": [
+  "diego",
+  "oliver"
+ ],
+ "scene": {
+  "speaker": "diego",
+  "pose": {
+   "diego": 3,
+   "oliver": 1
+  },
+  "bubble": "New series on Radio Aurora: secret hobbies! Did you know our maths teacher collects tiny spoons?"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Read the sentences and write the hobby words.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "CHESS",
+      "clue": "A board game with kings, queens and horses."
+     },
+     {
+      "word": "COMICS",
+      "clue": "Books with pictures and speech bubbles."
+     },
+     {
+      "word": "PHOTOGRAPHY",
+      "clue": "Taking pictures with a camera."
+     },
+     {
+      "word": "DANCING",
+      "clue": "Moving your body to music."
+     },
+     {
+      "word": "PUZZLE",
+      "clue": "You put many small pieces together to make a picture."
+     },
+     {
+      "word": "PAINTING",
+      "clue": "Making pictures with colours and a brush."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Match the person with their hobby.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Person",
+    "right_label": "Hobby",
+    "pairs": [
+     {
+      "left": "She loves cooking",
+      "right": "new recipes from other countries"
+     },
+     {
+      "left": "He enjoys collecting",
+      "right": "stamps from every continent"
+     },
+     {
+      "left": "They like playing",
+      "right": "chess in the park"
+     },
+     {
+      "left": "I love reading",
+      "right": "comics about space heroes"
+     },
+     {
+      "left": "We enjoy doing",
+      "right": "puzzles of 1000 pieces"
+     },
+     {
+      "left": "She likes taking",
+      "right": "photos of birds"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to the secret hobbies report. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u37-c.mp3",
+   "data": {
+    "voice_note": "Voces: Diego (reportero) y Oliver (invitado).",
+    "script": "Diego: Secret hobbies, episode one! First: our maths teacher collects tiny spoons. He has got ninety-two! … Oliver: Ninety-two spoons! Where does he keep them? … Diego: On three shelves in his kitchen. Next: the school cook loves photography. … Diego: She takes photos of clouds every morning before work. … Oliver: Beautiful! And what about you, Diego? … Diego: Me? I collect old radios. My grandpa gave me the first one. … Oliver: And my secret hobby is… cooking! I make excellent banana pancakes. … Diego: Tomorrow: does the head teacher really dance tango? Don't miss it!",
+    "questions": [
+     {
+      "q": "The maths teacher has got … tiny spoons.",
+      "answer": "ninety-two"
+     },
+     {
+      "q": "He keeps them on three …",
+      "answer": "shelves"
+     },
+     {
+      "q": "The cook takes photos of … every morning.",
+      "answer": "clouds"
+     },
+     {
+      "q": "Diego collects old …",
+      "answer": "radios"
+     },
+     {
+      "q": "Oliver makes excellent banana …",
+      "answer": "pancakes"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct form.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct words.",
+    "items": [
+     {
+      "sentence": "I enjoy ___ photos of animals.",
+      "options": [
+       "take",
+       "taking",
+       "to taking"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "She loves ___ chess with her grandpa.",
+      "options": [
+       "playing",
+       "play",
+       "played"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "An activity you do for fun is a …",
+      "options": [
+       "chore",
+       "hobby",
+       "habit"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "He ___ old coins from many countries.",
+      "options": [
+       "collects",
+       "makes",
+       "does"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Monopoly and chess are ___ games.",
+      "options": [
+       "board",
+       "bored",
+       "broad"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Hobby detective: ask yes/no questions to discover your partner's favourite hobby: \"Do you do it inside? Do you need music?\" Maximum 8 questions!"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write about your hobby: what it is, when you do it, why you love it, and one thing you have made/won/collected. 4-5 sentences."
+  }
+ ]
 }

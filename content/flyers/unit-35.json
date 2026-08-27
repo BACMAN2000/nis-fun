@@ -1,53 +1,230 @@
 {
-  "id": "flyers-35", "level": "flyers", "number": 35,
-  "title": "When I'm sad", "topic": "feelings",
-  "grammar": "when + present simple",
-  "wordlist": ["happy", "sad", "angry", "worried", "surprised", "proud", "smile", "cry", "laugh", "hug"],
-  "exam_focus": { "paper": "Reading & Writing", "part": 1, "skill": "definitions" },
-  "characters": ["oliver", "kili"],
-  "scene": { "speaker": "oliver", "pose": { "oliver": 3, "kili": 3 },
-    "bubble": "When I'm sad, I play my guitar. When Kili is sad, he eats seven biscuits. Everyone has their own medicine!" },
-  "activities": [
-    { "code": "A", "type": "crossword", "title": "Read the sentences and write the feeling words.",
-      "outputs": ["book", "digital"],
-      "data": { "words": [
-        { "word": "WORRIED", "clue": "How you feel before a difficult test." },
-        { "word": "PROUD", "clue": "How you feel when you do something very well." },
-        { "word": "ANGRY", "clue": "How you feel when something is very unfair!" },
-        { "word": "SURPRISED", "clue": "How you feel when something unexpected happens." },
-        { "word": "HAPPY", "clue": "How you feel on your birthday." },
-        { "word": "SAD", "clue": "How you feel when your best friend moves away." } ] } },
-    { "code": "B", "type": "match_words", "title": "Match the situation with the feeling.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Situation", "right_label": "Feeling",
-        "pairs": [
-          { "left": "You won first prize!", "right": "proud" },
-          { "left": "Your ice cream fell on the floor.", "right": "sad" },
-          { "left": "There's a spider in your shoe!", "right": "surprised" },
-          { "left": "Someone broke your kite on purpose.", "right": "angry" },
-          { "left": "The test is tomorrow and you didn't study.", "right": "worried" },
-          { "left": "Your dog runs to meet you after school.", "right": "happy" } ] } },
-    { "code": "C", "type": "listening", "title": "Listen. What makes the team feel better? Write a word in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "flyers/u35-c.mp3",
-      "data": { "voice_note": "Voces: Oliver (preguntando al equipo) y Kili (con respuestas dulces).",
-        "script": "Oliver: Team question: what do you do when you're sad? … Oliver: Ingrid says she swims. The water washes the sadness away, she says. … Oliver: Diego watches old funny films and laughs until his stomach hurts. … Oliver: Maya looks at the stars with her telescope. The sky is big, the problems are small. … Oliver: Me? I play slow songs on my guitar until they become happy songs. … Oliver: And Kili… Kili eats exactly seven biscuits and then hugs somebody. … Oliver: A hug from a condor fixes almost everything!",
-        "questions": [
-          { "q": "Ingrid … when she is sad.", "answer": "swims" },
-          { "q": "Diego watches old funny …", "answer": "films" },
-          { "q": "Maya looks at the stars with her …", "answer": "telescope" },
-          { "q": "Oliver plays slow … on his guitar.", "answer": "songs" },
-          { "q": "Kili eats exactly … biscuits.", "answer": "seven" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "When you are happy, you …", "options": ["cry", "smile", "shout"], "answer": 1 },
-          { "sentence": "When something is very funny, you …", "options": ["laugh", "sleep", "worry"], "answer": 0 },
-          { "sentence": "Parents feel ___ when their children help others.", "options": ["angry", "proud", "bored"], "answer": 1 },
-          { "sentence": "A warm ___ can make a sad friend feel better.", "options": ["hug", "storm", "stamp"], "answer": 0 },
-          { "sentence": "___ I'm worried, I talk to my mum.", "options": ["When", "What", "Who"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Feelings mime: show a feeling only with your face and body. Your partner guesses and asks: \"When do you feel like that?\" Answer with When I… Three feelings each." } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write your personal recipe against sadness: When I'm sad, I… (3 ideas). Decorate it — it can go on the classroom wall!" } ]
+ "id": "flyers-35",
+ "level": "flyers",
+ "number": 35,
+ "title": "When I'm sad",
+ "topic": "feelings",
+ "grammar": "when + present simple",
+ "wordlist": [
+  "happy",
+  "sad",
+  "angry",
+  "worried",
+  "surprised",
+  "proud",
+  "smile",
+  "cry",
+  "laugh",
+  "hug"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 1,
+  "skill": "definitions"
+ },
+ "characters": [
+  "oliver",
+  "kili"
+ ],
+ "scene": {
+  "speaker": "oliver",
+  "pose": {
+   "oliver": 3,
+   "kili": 3
+  },
+  "bubble": "When I'm sad, I play my guitar. When Kili is sad, he eats seven biscuits. Everyone has their own medicine!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Read the sentences and write the feeling words.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "WORRIED",
+      "clue": "How you feel before a difficult test."
+     },
+     {
+      "word": "PROUD",
+      "clue": "How you feel when you do something very well."
+     },
+     {
+      "word": "ANGRY",
+      "clue": "How you feel when something is very unfair!"
+     },
+     {
+      "word": "SURPRISED",
+      "clue": "How you feel when something unexpected happens."
+     },
+     {
+      "word": "HAPPY",
+      "clue": "How you feel on your birthday."
+     },
+     {
+      "word": "SAD",
+      "clue": "How you feel when your best friend moves away."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Match the situation with the feeling.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Situation",
+    "right_label": "Feeling",
+    "pairs": [
+     {
+      "left": "You won first prize!",
+      "right": "proud"
+     },
+     {
+      "left": "Your ice cream fell on the floor.",
+      "right": "sad"
+     },
+     {
+      "left": "There's a spider in your shoe!",
+      "right": "surprised"
+     },
+     {
+      "left": "Someone broke your kite on purpose.",
+      "right": "angry"
+     },
+     {
+      "left": "The test is tomorrow and you didn't study.",
+      "right": "worried"
+     },
+     {
+      "left": "Your dog runs to meet you after school.",
+      "right": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen. What makes the team feel better? Write a word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u35-c.mp3",
+   "data": {
+    "voice_note": "Voces: Oliver (preguntando al equipo) y Kili (con respuestas dulces).",
+    "script": "Oliver: Team question: what do you do when you're sad? … Oliver: Ingrid says she swims. The water washes the sadness away, she says. … Oliver: Diego watches old funny films and laughs until his stomach hurts. … Oliver: Maya looks at the stars with her telescope. The sky is big, the problems are small. … Oliver: Me? I play slow songs on my guitar until they become happy songs. … Oliver: And Kili… Kili eats exactly seven biscuits and then hugs somebody. … Oliver: A hug from a condor fixes almost everything!",
+    "questions": [
+     {
+      "q": "Ingrid … when she is sad.",
+      "answer": "swims"
+     },
+     {
+      "q": "Diego watches old funny …",
+      "answer": "films"
+     },
+     {
+      "q": "Maya looks at the stars with her …",
+      "answer": "telescope"
+     },
+     {
+      "q": "Oliver plays slow … on his guitar.",
+      "answer": "songs"
+     },
+     {
+      "q": "Kili eats exactly … biscuits.",
+      "answer": "seven"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "When you are happy, you …",
+      "options": [
+       "cry",
+       "smile",
+       "shout"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "When something is very funny, you …",
+      "options": [
+       "laugh",
+       "sleep",
+       "worry"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Parents feel ___ when their children help others.",
+      "options": [
+       "angry",
+       "proud",
+       "bored"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "A warm ___ can make a sad friend feel better.",
+      "options": [
+       "hug",
+       "storm",
+       "stamp"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___ I'm worried, I talk to my mum.",
+      "options": [
+       "When",
+       "What",
+       "Who"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Feelings mime: show a feeling only with your face and body. Your partner guesses and asks: \"When do you feel like that?\" Answer with When I… Three feelings each."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write your personal recipe against sadness: When I'm sad, I… (3 ideas). Decorate it — it can go on the classroom wall!"
+  }
+ ]
 }

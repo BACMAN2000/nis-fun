@@ -1,52 +1,226 @@
 {
-  "id": "starters-15", "level": "starters", "number": 15,
-  "title": "Pets at home", "topic": "pets",
-  "grammar": "Have you got…?",
-  "wordlist": ["dog", "cat", "fish", "bird", "rabbit", "mouse", "pet", "tail", "small", "friend"],
-  "exam_focus": { "paper": "Listening", "part": 1, "skill": "pets" },
-  "characters": ["freya", "astrid"],
-  "scene": { "speaker": "freya", "pose": { "freya": 1, "astrid": 3 },
-    "bubble": "Pet day at school! Dogs, cats, one rabbit… and Pip, the only puffin in the whole school!" },
-  "activities": [
-    { "code": "A", "type": "crossword", "title": "Write the pet words.",
-      "outputs": ["book", "digital"],
-      "data": { "words": [
-        { "word": "DOG", "clue": "It says woof and loves you." },
-        { "word": "CAT", "clue": "It says meow and sleeps a lot." },
-        { "word": "FISH", "clue": "It swims in a little glass house." },
-        { "word": "RABBIT", "clue": "It has long ears and hops." },
-        { "word": "BIRD", "clue": "It sings in its cage or in the tree." } ] } },
-    { "code": "B", "type": "match_words", "title": "Match the pet with what it needs.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Pet", "right_label": "It needs",
-        "pairs": [
-          { "left": "a dog", "right": "walks in the park" },
-          { "left": "a cat", "right": "a warm place to sleep" },
-          { "left": "a fish", "right": "clean water" },
-          { "left": "a bird", "right": "seeds and songs" },
-          { "left": "a rabbit", "right": "carrots and space to hop" },
-          { "left": "every pet", "right": "love and care" } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to pet day. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "starters/u15-c.mp3",
-      "data": { "voice_note": "Voces: Freya y Astrid (en el día de mascotas).",
-        "script": "Freya: Pet day! Look, four dogs and two cats! … Astrid: Marco's rabbit is white with one grey ear. … Freya: Ana's fish is orange. His name is Sol. … Astrid: Have you got a pet, Freya? … Freya: Yes! Pip! He's a puffin. The only one in school! … Astrid: My pet is a little brown mouse. Her name is Nuez. … Freya: All the pets get a star sticker today! … Astrid: Even the fish. On his glass, of course!",
-        "questions": [
-          { "q": "There are four dogs and two …", "answer": "cats" },
-          { "q": "The rabbit is white with one … ear.", "answer": "grey" },
-          { "q": "The orange fish is called …", "answer": "Sol" },
-          { "q": "Astrid's mouse is called …", "answer": "Nuez" },
-          { "q": "All the pets get a … sticker.", "answer": "star" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "___ you got a pet?", "options": ["Have", "Are", "Do have"], "answer": 0 },
-          { "sentence": "A rabbit has long …", "options": ["ears", "wings", "teeth only"], "answer": 0 },
-          { "sentence": "A fish lives in …", "options": ["water", "a bed", "a tree"], "answer": 0 },
-          { "sentence": "A happy dog moves its …", "options": ["tail", "ears only", "nose"], "answer": 0 },
-          { "sentence": "A pet is a little …", "options": ["friend", "toy", "chair"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Ask your partner: \"Have you got a pet? What is it? What's its name?\" If they haven't, ask: \"What pet do you want?\"" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Draw your pet (or your dream pet) and write 3 sentences: name, colour, what it can do." } ]
+ "id": "starters-15",
+ "level": "starters",
+ "number": 15,
+ "title": "Pets at home",
+ "topic": "pets",
+ "grammar": "Have you got…?",
+ "wordlist": [
+  "dog",
+  "cat",
+  "fish",
+  "bird",
+  "rabbit",
+  "mouse",
+  "pet",
+  "tail",
+  "small",
+  "friend"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 1,
+  "skill": "pets"
+ },
+ "characters": [
+  "freya",
+  "astrid"
+ ],
+ "scene": {
+  "speaker": "freya",
+  "pose": {
+   "freya": 1,
+   "astrid": 3
+  },
+  "bubble": "Pet day at school! Dogs, cats, one rabbit… and Pip, the only puffin in the whole school!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Write the pet words.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "DOG",
+      "clue": "It says woof and loves you."
+     },
+     {
+      "word": "CAT",
+      "clue": "It says meow and sleeps a lot."
+     },
+     {
+      "word": "FISH",
+      "clue": "It swims in a little glass house."
+     },
+     {
+      "word": "RABBIT",
+      "clue": "It has long ears and hops."
+     },
+     {
+      "word": "BIRD",
+      "clue": "It sings in its cage or in the tree."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Match the pet with what it needs.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Pet",
+    "right_label": "It needs",
+    "pairs": [
+     {
+      "left": "a dog",
+      "right": "walks in the park"
+     },
+     {
+      "left": "a cat",
+      "right": "a warm place to sleep"
+     },
+     {
+      "left": "a fish",
+      "right": "clean water"
+     },
+     {
+      "left": "a bird",
+      "right": "seeds and songs"
+     },
+     {
+      "left": "a rabbit",
+      "right": "carrots and space to hop"
+     },
+     {
+      "left": "every pet",
+      "right": "love and care"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to pet day. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u15-c.mp3",
+   "data": {
+    "voice_note": "Voces: Freya y Astrid (en el día de mascotas).",
+    "script": "Freya: Pet day! Look, four dogs and two cats! … Astrid: Marco's rabbit is white with one grey ear. … Freya: Ana's fish is orange. His name is Sol. … Astrid: Have you got a pet, Freya? … Freya: Yes! Pip! He's a puffin. The only one in school! … Astrid: My pet is a little brown mouse. Her name is Nuez. … Freya: All the pets get a star sticker today! … Astrid: Even the fish. On his glass, of course!",
+    "questions": [
+     {
+      "q": "There are four dogs and two …",
+      "answer": "cats"
+     },
+     {
+      "q": "The rabbit is white with one … ear.",
+      "answer": "grey"
+     },
+     {
+      "q": "The orange fish is called …",
+      "answer": "Sol"
+     },
+     {
+      "q": "Astrid's mouse is called …",
+      "answer": "Nuez"
+     },
+     {
+      "q": "All the pets get a … sticker.",
+      "answer": "star"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "___ you got a pet?",
+      "options": [
+       "Have",
+       "Are",
+       "Do have"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "A rabbit has long …",
+      "options": [
+       "ears",
+       "wings",
+       "teeth only"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "A fish lives in …",
+      "options": [
+       "water",
+       "a bed",
+       "a tree"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "A happy dog moves its …",
+      "options": [
+       "tail",
+       "ears only",
+       "nose"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "A pet is a little …",
+      "options": [
+       "friend",
+       "toy",
+       "chair"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Ask your partner: \"Have you got a pet? What is it? What's its name?\" If they haven't, ask: \"What pet do you want?\""
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Draw your pet (or your dream pet) and write 3 sentences: name, colour, what it can do."
+  }
+ ]
 }

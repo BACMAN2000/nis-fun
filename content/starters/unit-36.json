@@ -1,53 +1,253 @@
 {
-  "id": "starters-36", "level": "starters", "number": 36,
-  "title": "The birthday cake", "topic": "birthday",
-  "grammar": "How old are you? + party",
-  "wordlist": ["birthday", "cake", "candle", "present", "party", "balloon", "sing", "wish", "friend", "years old"],
-  "exam_focus": { "paper": "Listening", "part": 4, "skill": "birthday" },
-  "characters": ["astrid", "pip"],
-  "scene": { "speaker": "astrid", "pose": { "astrid": 10, "pip": 1 },
-    "bubble": "Happy birthday to me! Eight candles, one wish, and all my friends singing. Best day of the year!" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the party thing with its moment.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Thing", "right_label": "Moment",
-        "pairs": [
-          { "left": "the balloons", "right": "decorate the room" },
-          { "left": "the song", "right": "everyone sings together" },
-          { "left": "the candles", "right": "blow and make a wish" },
-          { "left": "the cake", "right": "a piece for everyone" },
-          { "left": "the presents", "right": "open with a big smile" },
-          { "left": "the friends", "right": "the best part of the party" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Complete each sentence.",
-        "items": [
-          { "sentence": "\"How ___ are you?\" — \"I'm eight!\"", "options": ["old", "big", "tall"], "answer": 0 },
-          { "sentence": "There are eight ___ on the cake.", "options": ["candles", "cars", "socks"], "answer": 0 },
-          { "sentence": "We sing Happy ___ to You!", "options": ["Birthday", "Monday", "Morning"], "answer": 0 },
-          { "sentence": "Blow the candles and make a …", "options": ["wish", "cake", "chair"], "answer": 0 },
-          { "sentence": "I'm eight ___ old.", "options": ["years", "days", "cakes"], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to Astrid's party. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "starters/u36-c.mp3",
-      "data": { "voice_note": "Voces: Astrid (cumpleañera) y Freya (invitada).",
-        "script": "Astrid: My birthday party! I'm eight today! … Freya: The room has twenty balloons — pink and white! … Astrid: The cake is chocolate with eight candles. … Freya: One, two, three… blow! … Astrid: I wished for… no, it's a secret! … Freya: Present time! A new book, colour pencils and a puzzle. … Astrid: And Pip's present: one pretty white feather. … Freya: Happy birthday, Astrid!",
-        "questions": [
-          { "q": "Astrid is … today.", "answer": "eight" },
-          { "q": "There are twenty …", "answer": "balloons" },
-          { "q": "The cake is …", "answer": "chocolate" },
-          { "q": "She gets a book, pencils and a …", "answer": "puzzle" },
-          { "q": "Pip's present is a white …", "answer": "feather" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "On your birthday you are one year …", "options": ["older", "smaller", "shorter"], "answer": 0 },
-          { "sentence": "Balloons fly because they are full of …", "options": ["air", "water", "cake"], "answer": 0 },
-          { "sentence": "The wish is a …", "options": ["secret", "song", "sandwich"], "answer": 0 },
-          { "sentence": "Friends bring ___ to the party.", "options": ["presents", "homework", "brooms"], "answer": 0 },
-          { "sentence": "Everyone gets a piece of …", "options": ["cake", "paper", "soap"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Party questions: \"When is your birthday? How old are you? What cake do you like?\" Three questions each!" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Draw your dream birthday cake with the right number of candles. Write: I am … years old. My cake is…" } ]
+ "id": "starters-36",
+ "level": "starters",
+ "number": 36,
+ "title": "The birthday cake",
+ "topic": "birthday",
+ "grammar": "How old are you? + party",
+ "wordlist": [
+  "birthday",
+  "cake",
+  "candle",
+  "present",
+  "party",
+  "balloon",
+  "sing",
+  "wish",
+  "friend",
+  "years old"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 4,
+  "skill": "birthday"
+ },
+ "characters": [
+  "astrid",
+  "pip"
+ ],
+ "scene": {
+  "speaker": "astrid",
+  "pose": {
+   "astrid": 10,
+   "pip": 1
+  },
+  "bubble": "Happy birthday to me! Eight candles, one wish, and all my friends singing. Best day of the year!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the party thing with its moment.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Thing",
+    "right_label": "Moment",
+    "pairs": [
+     {
+      "left": "the balloons",
+      "right": "decorate the room"
+     },
+     {
+      "left": "the song",
+      "right": "everyone sings together"
+     },
+     {
+      "left": "the candles",
+      "right": "blow and make a wish"
+     },
+     {
+      "left": "the cake",
+      "right": "a piece for everyone"
+     },
+     {
+      "left": "the presents",
+      "right": "open with a big smile"
+     },
+     {
+      "left": "the friends",
+      "right": "the best part of the party"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete each sentence.",
+    "items": [
+     {
+      "sentence": "\"How ___ are you?\" — \"I'm eight!\"",
+      "options": [
+       "old",
+       "big",
+       "tall"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "There are eight ___ on the cake.",
+      "options": [
+       "candles",
+       "cars",
+       "socks"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "We sing Happy ___ to You!",
+      "options": [
+       "Birthday",
+       "Monday",
+       "Morning"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Blow the candles and make a …",
+      "options": [
+       "wish",
+       "cake",
+       "chair"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "I'm eight ___ old.",
+      "options": [
+       "years",
+       "days",
+       "cakes"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to Astrid's party. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u36-c.mp3",
+   "data": {
+    "voice_note": "Voces: Astrid (cumpleañera) y Freya (invitada).",
+    "script": "Astrid: My birthday party! I'm eight today! … Freya: The room has twenty balloons — pink and white! … Astrid: The cake is chocolate with eight candles. … Freya: One, two, three… blow! … Astrid: I wished for… no, it's a secret! … Freya: Present time! A new book, colour pencils and a puzzle. … Astrid: And Pip's present: one pretty white feather. … Freya: Happy birthday, Astrid!",
+    "questions": [
+     {
+      "q": "Astrid is … today.",
+      "answer": "eight"
+     },
+     {
+      "q": "There are twenty …",
+      "answer": "balloons"
+     },
+     {
+      "q": "The cake is …",
+      "answer": "chocolate"
+     },
+     {
+      "q": "She gets a book, pencils and a …",
+      "answer": "puzzle"
+     },
+     {
+      "q": "Pip's present is a white …",
+      "answer": "feather"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "On your birthday you are one year …",
+      "options": [
+       "older",
+       "smaller",
+       "shorter"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Balloons fly because they are full of …",
+      "options": [
+       "air",
+       "water",
+       "cake"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The wish is a …",
+      "options": [
+       "secret",
+       "song",
+       "sandwich"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Friends bring ___ to the party.",
+      "options": [
+       "presents",
+       "homework",
+       "brooms"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Everyone gets a piece of …",
+      "options": [
+       "cake",
+       "paper",
+       "soap"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Party questions: \"When is your birthday? How old are you? What cake do you like?\" Three questions each!"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Draw your dream birthday cake with the right number of candles. Write: I am … years old. My cake is…"
+  }
+ ]
 }

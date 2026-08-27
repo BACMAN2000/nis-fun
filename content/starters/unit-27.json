@@ -1,53 +1,253 @@
 {
-  "id": "starters-27", "level": "starters", "number": 27,
-  "title": "Sports I play", "topic": "sports",
-  "grammar": "I play… / Let's play…",
-  "wordlist": ["football", "basketball", "tennis", "swimming", "running", "ball", "goal", "team", "win", "play"],
-  "exam_focus": { "paper": "Listening", "part": 4, "skill": "sports" },
-  "characters": ["tomas", "nico"],
-  "scene": { "speaker": "tomas", "pose": { "tomas": 7, "nico": 10 },
-    "bubble": "GOOOAL! Football at break, basketball after school, swimming on Monday… sport is my favourite word!" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the sport with what you need.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Sport", "right_label": "You need",
-        "pairs": [
-          { "left": "football", "right": "a ball and a goal" },
-          { "left": "basketball", "right": "a ball and a high basket" },
-          { "left": "tennis", "right": "a small ball and a racket" },
-          { "left": "swimming", "right": "water and goggles" },
-          { "left": "running", "right": "fast shoes" },
-          { "left": "every sport", "right": "water to drink after" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Complete each sentence.",
-        "items": [
-          { "sentence": "I ___ football with my friends.", "options": ["play", "go", "do"], "answer": 0 },
-          { "sentence": "___ play basketball after school!", "options": ["Let's", "Lets", "Let"], "answer": 0 },
-          { "sentence": "Kick the ball into the …", "options": ["goal", "tree", "bag"], "answer": 0 },
-          { "sentence": "In the pool we go …", "options": ["swimming", "running", "reading"], "answer": 0 },
-          { "sentence": "Our ___ wears red shirts.", "options": ["team", "ball", "goal"], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to the big game. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "starters/u27-c.mp3",
-      "data": { "voice_note": "Voces: Tomás (jugando) y Nico (narrando).",
-        "script": "Nico: The big break game! Red team against blue team. … Nico: Tomás has the ball… he runs… GOAL! … Tomas: One–zero! … Nico: Now Freya has the ball. She is fast! … Nico: Goal for the blue team! One–one! … Tomas: Last minute… Astrid kicks… GOAL! Two–one! … Nico: The red team wins! And Pip flies over the goal like an aeroplane! … Tomas: Good game, everyone. High five!",
-        "questions": [
-          { "q": "The red team plays against the … team.", "answer": "blue" },
-          { "q": "Tomás makes the first …", "answer": "goal" },
-          { "q": "… scores for the blue team.", "answer": "Freya" },
-          { "q": "The final score is two–…", "answer": "one" },
-          { "q": "Pip flies over the goal like an …", "answer": "aeroplane" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "You kick the ball with your …", "options": ["foot", "hand", "nose"], "answer": 0 },
-          { "sentence": "In basketball the basket is very …", "options": ["high", "small", "wet"], "answer": 0 },
-          { "sentence": "You swim in the …", "options": ["pool", "goal", "bag"], "answer": 0 },
-          { "sentence": "The team with more goals …", "options": ["wins", "sleeps", "cries"], "answer": 0 },
-          { "sentence": "Tennis uses a ___ ball.", "options": ["small", "giant", "square"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Sports mime: play an invisible sport. Your partner guesses: \"You are playing tennis!\" Three sports each." } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write about your favourite sport: what it is, when you play, who with. 3 sentences." } ]
+ "id": "starters-27",
+ "level": "starters",
+ "number": 27,
+ "title": "Sports I play",
+ "topic": "sports",
+ "grammar": "I play… / Let's play…",
+ "wordlist": [
+  "football",
+  "basketball",
+  "tennis",
+  "swimming",
+  "running",
+  "ball",
+  "goal",
+  "team",
+  "win",
+  "play"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 4,
+  "skill": "sports"
+ },
+ "characters": [
+  "tomas",
+  "nico"
+ ],
+ "scene": {
+  "speaker": "tomas",
+  "pose": {
+   "tomas": 7,
+   "nico": 10
+  },
+  "bubble": "GOOOAL! Football at break, basketball after school, swimming on Monday… sport is my favourite word!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the sport with what you need.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Sport",
+    "right_label": "You need",
+    "pairs": [
+     {
+      "left": "football",
+      "right": "a ball and a goal"
+     },
+     {
+      "left": "basketball",
+      "right": "a ball and a high basket"
+     },
+     {
+      "left": "tennis",
+      "right": "a small ball and a racket"
+     },
+     {
+      "left": "swimming",
+      "right": "water and goggles"
+     },
+     {
+      "left": "running",
+      "right": "fast shoes"
+     },
+     {
+      "left": "every sport",
+      "right": "water to drink after"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete each sentence.",
+    "items": [
+     {
+      "sentence": "I ___ football with my friends.",
+      "options": [
+       "play",
+       "go",
+       "do"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___ play basketball after school!",
+      "options": [
+       "Let's",
+       "Lets",
+       "Let"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Kick the ball into the …",
+      "options": [
+       "goal",
+       "tree",
+       "bag"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "In the pool we go …",
+      "options": [
+       "swimming",
+       "running",
+       "reading"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Our ___ wears red shirts.",
+      "options": [
+       "team",
+       "ball",
+       "goal"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to the big game. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u27-c.mp3",
+   "data": {
+    "voice_note": "Voces: Tomás (jugando) y Nico (narrando).",
+    "script": "Nico: The big break game! Red team against blue team. … Nico: Tomás has the ball… he runs… GOAL! … Tomas: One–zero! … Nico: Now Freya has the ball. She is fast! … Nico: Goal for the blue team! One–one! … Tomas: Last minute… Astrid kicks… GOAL! Two–one! … Nico: The red team wins! And Pip flies over the goal like an aeroplane! … Tomas: Good game, everyone. High five!",
+    "questions": [
+     {
+      "q": "The red team plays against the … team.",
+      "answer": "blue"
+     },
+     {
+      "q": "Tomás makes the first …",
+      "answer": "goal"
+     },
+     {
+      "q": "… scores for the blue team.",
+      "answer": "Freya"
+     },
+     {
+      "q": "The final score is two–…",
+      "answer": "one"
+     },
+     {
+      "q": "Pip flies over the goal like an …",
+      "answer": "aeroplane"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "You kick the ball with your …",
+      "options": [
+       "foot",
+       "hand",
+       "nose"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "In basketball the basket is very …",
+      "options": [
+       "high",
+       "small",
+       "wet"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "You swim in the …",
+      "options": [
+       "pool",
+       "goal",
+       "bag"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The team with more goals …",
+      "options": [
+       "wins",
+       "sleeps",
+       "cries"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tennis uses a ___ ball.",
+      "options": [
+       "small",
+       "giant",
+       "square"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Sports mime: play an invisible sport. Your partner guesses: \"You are playing tennis!\" Three sports each."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write about your favourite sport: what it is, when you play, who with. 3 sentences."
+  }
+ ]
 }

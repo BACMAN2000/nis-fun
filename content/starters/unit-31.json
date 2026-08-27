@@ -1,53 +1,253 @@
 {
-  "id": "starters-31", "level": "starters", "number": 31,
-  "title": "The weather", "topic": "weather",
-  "grammar": "It's sunny / rainy…",
-  "wordlist": ["sunny", "rainy", "windy", "cloudy", "hot", "cold", "umbrella", "rainbow", "sky", "today"],
-  "exam_focus": { "paper": "Listening", "part": 4, "skill": "weather" },
-  "characters": ["freya", "pip"],
-  "scene": { "speaker": "freya", "pose": { "freya": 2, "pip": 1 },
-    "bubble": "Weather window game: look outside and tell me — is it sunny, cloudy or rainy today?" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the weather with what you do.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Weather", "right_label": "What you do",
-        "pairs": [
-          { "left": "sunny", "right": "wear a hat and play outside" },
-          { "left": "rainy", "right": "open your umbrella" },
-          { "left": "windy", "right": "fly your kite" },
-          { "left": "cloudy", "right": "look for animal shapes in the sky" },
-          { "left": "hot", "right": "drink cold water" },
-          { "left": "cold", "right": "put on your jacket" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Choose the correct weather word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Complete each sentence.",
-        "items": [
-          { "sentence": "The sun is out. It's …", "options": ["sunny", "rainy", "cold"], "answer": 0 },
-          { "sentence": "Take your umbrella — it's …", "options": ["rainy", "sunny", "hot"], "answer": 0 },
-          { "sentence": "My kite loves ___ days.", "options": ["windy", "quiet", "wet"], "answer": 0 },
-          { "sentence": "After rain and sun: a ___!", "options": ["rainbow", "cloud", "star"], "answer": 0 },
-          { "sentence": "\"What's the weather like ___?\"", "options": ["today", "yellow", "ten"], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to the weather week. Write a word in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "starters/u31-c.mp3",
-      "data": { "voice_note": "Voces: Freya (reportera del clima) y Nico (ayudante).",
-        "script": "Freya: Weather report! On Monday it was sunny. We played outside. … Nico: On Tuesday it was rainy. Umbrella day! … Freya: On Wednesday it was windy — my hat flew away! … Nico: Pip caught it in the air! … Freya: On Thursday it was cloudy. We saw a cloud like an elephant. … Nico: And today? Look out of the window… … Freya: SUNNY! Park afternoon, here we come!",
-        "questions": [
-          { "q": "On Monday it was …", "answer": "sunny" },
-          { "q": "On Tuesday: … day!", "answer": "umbrella" },
-          { "q": "On Wednesday Freya's hat flew …", "answer": "away" },
-          { "q": "The cloud looked like an …", "answer": "elephant" },
-          { "q": "Today it is …!", "answer": "sunny" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "Rain falls from the …", "options": ["clouds", "sun", "grass"], "answer": 0 },
-          { "sentence": "A rainbow has many …", "options": ["colours", "cars", "shoes"], "answer": 0 },
-          { "sentence": "It's cold — put on your …", "options": ["jacket", "shorts", "sunhat"], "answer": 0 },
-          { "sentence": "The wind moves the …", "options": ["kites", "walls", "floors"], "answer": 0 },
-          { "sentence": "\"It's hot!\" — \"Let's drink cold ___!\"", "options": ["water", "soup", "tea"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Weather reporters: look out of the window and give a 20-second report: \"Today it's… We can…\" Then your partner reports an invented crazy weather!" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Watch the weather for 3 days and write: On Monday it is… Draw a symbol for each day." } ]
+ "id": "starters-31",
+ "level": "starters",
+ "number": 31,
+ "title": "The weather",
+ "topic": "weather",
+ "grammar": "It's sunny / rainy…",
+ "wordlist": [
+  "sunny",
+  "rainy",
+  "windy",
+  "cloudy",
+  "hot",
+  "cold",
+  "umbrella",
+  "rainbow",
+  "sky",
+  "today"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 4,
+  "skill": "weather"
+ },
+ "characters": [
+  "freya",
+  "pip"
+ ],
+ "scene": {
+  "speaker": "freya",
+  "pose": {
+   "freya": 2,
+   "pip": 1
+  },
+  "bubble": "Weather window game: look outside and tell me — is it sunny, cloudy or rainy today?"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the weather with what you do.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Weather",
+    "right_label": "What you do",
+    "pairs": [
+     {
+      "left": "sunny",
+      "right": "wear a hat and play outside"
+     },
+     {
+      "left": "rainy",
+      "right": "open your umbrella"
+     },
+     {
+      "left": "windy",
+      "right": "fly your kite"
+     },
+     {
+      "left": "cloudy",
+      "right": "look for animal shapes in the sky"
+     },
+     {
+      "left": "hot",
+      "right": "drink cold water"
+     },
+     {
+      "left": "cold",
+      "right": "put on your jacket"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choose the correct weather word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete each sentence.",
+    "items": [
+     {
+      "sentence": "The sun is out. It's …",
+      "options": [
+       "sunny",
+       "rainy",
+       "cold"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Take your umbrella — it's …",
+      "options": [
+       "rainy",
+       "sunny",
+       "hot"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "My kite loves ___ days.",
+      "options": [
+       "windy",
+       "quiet",
+       "wet"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "After rain and sun: a ___!",
+      "options": [
+       "rainbow",
+       "cloud",
+       "star"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"What's the weather like ___?\"",
+      "options": [
+       "today",
+       "yellow",
+       "ten"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to the weather week. Write a word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u31-c.mp3",
+   "data": {
+    "voice_note": "Voces: Freya (reportera del clima) y Nico (ayudante).",
+    "script": "Freya: Weather report! On Monday it was sunny. We played outside. … Nico: On Tuesday it was rainy. Umbrella day! … Freya: On Wednesday it was windy — my hat flew away! … Nico: Pip caught it in the air! … Freya: On Thursday it was cloudy. We saw a cloud like an elephant. … Nico: And today? Look out of the window… … Freya: SUNNY! Park afternoon, here we come!",
+    "questions": [
+     {
+      "q": "On Monday it was …",
+      "answer": "sunny"
+     },
+     {
+      "q": "On Tuesday: … day!",
+      "answer": "umbrella"
+     },
+     {
+      "q": "On Wednesday Freya's hat flew …",
+      "answer": "away"
+     },
+     {
+      "q": "The cloud looked like an …",
+      "answer": "elephant"
+     },
+     {
+      "q": "Today it is …!",
+      "answer": "sunny"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "Rain falls from the …",
+      "options": [
+       "clouds",
+       "sun",
+       "grass"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "A rainbow has many …",
+      "options": [
+       "colours",
+       "cars",
+       "shoes"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "It's cold — put on your …",
+      "options": [
+       "jacket",
+       "shorts",
+       "sunhat"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The wind moves the …",
+      "options": [
+       "kites",
+       "walls",
+       "floors"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"It's hot!\" — \"Let's drink cold ___!\"",
+      "options": [
+       "water",
+       "soup",
+       "tea"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Weather reporters: look out of the window and give a 20-second report: \"Today it's… We can…\" Then your partner reports an invented crazy weather!"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Watch the weather for 3 days and write: On Monday it is… Draw a symbol for each day."
+  }
+ ]
 }

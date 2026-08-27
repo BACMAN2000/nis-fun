@@ -1,53 +1,230 @@
 {
-  "id": "flyers-11", "level": "flyers", "number": 11,
-  "title": "Jobs people do", "topic": "work",
-  "grammar": "present simple 3rd person",
-  "wordlist": ["firefighter", "journalist", "engineer", "dentist", "pilot", "waiter", "police officer", "nurse", "cook", "manager"],
-  "exam_focus": { "paper": "Reading & Writing", "part": 1, "skill": "definitions" },
-  "characters": ["diego", "ingrid"],
-  "scene": { "speaker": "diego", "pose": { "diego": 3, "ingrid": 4 },
-    "bubble": "Today I'm interviewing real heroes: a firefighter, a nurse and… the school cook!" },
-  "activities": [
-    { "code": "A", "type": "crossword", "title": "Read the sentences and write the jobs.",
-      "outputs": ["book", "digital"],
-      "data": { "words": [
-        { "word": "FIREFIGHTER", "clue": "This brave person stops fires and helps people." },
-        { "word": "DENTIST", "clue": "You visit this person when your tooth hurts." },
-        { "word": "PILOT", "clue": "This person flies a plane." },
-        { "word": "WAITER", "clue": "This person brings your food in a restaurant." },
-        { "word": "NURSE", "clue": "This person helps the doctor and looks after ill people." },
-        { "word": "ENGINEER", "clue": "This person designs bridges, machines and robots." } ] } },
-    { "code": "B", "type": "match_words", "title": "Match the job with the place.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Job", "right_label": "Place",
-        "pairs": [
-          { "left": "a waiter", "right": "a restaurant" },
-          { "left": "a pilot", "right": "an airport" },
-          { "left": "a nurse", "right": "a hospital" },
-          { "left": "a journalist", "right": "a TV studio" },
-          { "left": "a police officer", "right": "a police station" },
-          { "left": "a cook", "right": "a kitchen" } ] } },
-    { "code": "C", "type": "listening", "title": "Listen. Diego interviews firefighter Rosa. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "flyers/u11-c.mp3",
-      "data": { "voice_note": "Voces: Diego (reportero) y Rosa (bombera, voz adulta femenina).",
-        "script": "Diego: Radio Aurora! Rosa, how long have you been a firefighter? … Rosa: For twelve years! I started when I was twenty. … Diego: What time does your work start? … Rosa: At six in the morning. We check the truck first. … Diego: What's the most difficult part? … Rosa: The smoke. That's why we carry special masks. … Diego: And the best part? … Rosa: Helping people… and sometimes cats! Last week I rescued a cat from a roof. … Diego: What should children do if they see a fire? … Rosa: Never hide! Go out fast and call one one six.",
-        "questions": [
-          { "q": "Rosa has been a firefighter for … years.", "answer": "twelve" },
-          { "q": "Her work starts at … in the morning.", "answer": "six" },
-          { "q": "The most difficult part is the …", "answer": "smoke" },
-          { "q": "Last week she rescued a … from a roof.", "answer": "cat" },
-          { "q": "If you see a fire, never …", "answer": "hide" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "A ___ writes news for TV or newspapers.", "options": ["journalist", "dentist", "waiter"], "answer": 0 },
-          { "sentence": "A pilot ___ a plane.", "options": ["fly", "flies", "flying"], "answer": 1 },
-          { "sentence": "This person cooks food in a restaurant.", "options": ["a manager", "a cook", "a nurse"], "answer": 1 },
-          { "sentence": "An engineer ___ bridges and machines.", "options": ["designs", "design", "designing"], "answer": 0 },
-          { "sentence": "The person who is the boss of a shop is the …", "options": ["waiter", "pilot", "manager"], "answer": 2 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Mime a job for your partner (no words!). They guess with full questions: \"Do you work in a hospital? Are you a nurse?\" Three jobs each." } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Interview someone in your family about their job. Write 3 sentences: My uncle is a driver. He starts work at… The best part is…" } ]
+ "id": "flyers-11",
+ "level": "flyers",
+ "number": 11,
+ "title": "Jobs people do",
+ "topic": "work",
+ "grammar": "present simple 3rd person",
+ "wordlist": [
+  "firefighter",
+  "journalist",
+  "engineer",
+  "dentist",
+  "pilot",
+  "waiter",
+  "police officer",
+  "nurse",
+  "cook",
+  "manager"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 1,
+  "skill": "definitions"
+ },
+ "characters": [
+  "diego",
+  "ingrid"
+ ],
+ "scene": {
+  "speaker": "diego",
+  "pose": {
+   "diego": 3,
+   "ingrid": 4
+  },
+  "bubble": "Today I'm interviewing real heroes: a firefighter, a nurse and… the school cook!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Read the sentences and write the jobs.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "FIREFIGHTER",
+      "clue": "This brave person stops fires and helps people."
+     },
+     {
+      "word": "DENTIST",
+      "clue": "You visit this person when your tooth hurts."
+     },
+     {
+      "word": "PILOT",
+      "clue": "This person flies a plane."
+     },
+     {
+      "word": "WAITER",
+      "clue": "This person brings your food in a restaurant."
+     },
+     {
+      "word": "NURSE",
+      "clue": "This person helps the doctor and looks after ill people."
+     },
+     {
+      "word": "ENGINEER",
+      "clue": "This person designs bridges, machines and robots."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Match the job with the place.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Job",
+    "right_label": "Place",
+    "pairs": [
+     {
+      "left": "a waiter",
+      "right": "a restaurant"
+     },
+     {
+      "left": "a pilot",
+      "right": "an airport"
+     },
+     {
+      "left": "a nurse",
+      "right": "a hospital"
+     },
+     {
+      "left": "a journalist",
+      "right": "a TV studio"
+     },
+     {
+      "left": "a police officer",
+      "right": "a police station"
+     },
+     {
+      "left": "a cook",
+      "right": "a kitchen"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen. Diego interviews firefighter Rosa. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u11-c.mp3",
+   "data": {
+    "voice_note": "Voces: Diego (reportero) y Rosa (bombera, voz adulta femenina).",
+    "script": "Diego: Radio Aurora! Rosa, how long have you been a firefighter? … Rosa: For twelve years! I started when I was twenty. … Diego: What time does your work start? … Rosa: At six in the morning. We check the truck first. … Diego: What's the most difficult part? … Rosa: The smoke. That's why we carry special masks. … Diego: And the best part? … Rosa: Helping people… and sometimes cats! Last week I rescued a cat from a roof. … Diego: What should children do if they see a fire? … Rosa: Never hide! Go out fast and call one one six.",
+    "questions": [
+     {
+      "q": "Rosa has been a firefighter for … years.",
+      "answer": "twelve"
+     },
+     {
+      "q": "Her work starts at … in the morning.",
+      "answer": "six"
+     },
+     {
+      "q": "The most difficult part is the …",
+      "answer": "smoke"
+     },
+     {
+      "q": "Last week she rescued a … from a roof.",
+      "answer": "cat"
+     },
+     {
+      "q": "If you see a fire, never …",
+      "answer": "hide"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "A ___ writes news for TV or newspapers.",
+      "options": [
+       "journalist",
+       "dentist",
+       "waiter"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "A pilot ___ a plane.",
+      "options": [
+       "fly",
+       "flies",
+       "flying"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "This person cooks food in a restaurant.",
+      "options": [
+       "a manager",
+       "a cook",
+       "a nurse"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "An engineer ___ bridges and machines.",
+      "options": [
+       "designs",
+       "design",
+       "designing"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The person who is the boss of a shop is the …",
+      "options": [
+       "waiter",
+       "pilot",
+       "manager"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Mime a job for your partner (no words!). They guess with full questions: \"Do you work in a hospital? Are you a nurse?\" Three jobs each."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Interview someone in your family about their job. Write 3 sentences: My uncle is a driver. He starts work at… The best part is…"
+  }
+ ]
 }

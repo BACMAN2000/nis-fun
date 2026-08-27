@@ -1,53 +1,253 @@
 {
-  "id": "movers-32", "level": "movers", "number": 32,
-  "title": "Numbers everywhere", "topic": "numbers to 100",
-  "grammar": "números 20-100 + How many",
-  "wordlist": ["twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety", "a hundred", "count"],
-  "exam_focus": { "paper": "Listening", "part": 2, "skill": "write numbers" },
-  "characters": ["erik", "mateo"],
-  "scene": { "speaker": "erik", "pose": { "erik": 3, "mateo": 4 },
-    "bubble": "Numbers mission: count everything in the club house! Mateo is counting the biscuits… slowly and suspiciously." },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the number with the word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Number", "right_label": "Word",
-        "pairs": [
-          { "left": "20", "right": "twenty" },
-          { "left": "30", "right": "thirty" },
-          { "left": "40", "right": "forty" },
-          { "left": "50", "right": "fifty" },
-          { "left": "90", "right": "ninety" },
-          { "left": "100", "right": "a hundred" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Choose the correct number word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Complete each sentence.",
-        "items": [
-          { "sentence": "Half of one hundred is …", "options": ["fifty", "forty", "sixty"], "answer": 0 },
-          { "sentence": "Twenty plus ten is …", "options": ["thirty", "forty", "fifty"], "answer": 0 },
-          { "sentence": "Grandpa is ___ years old: 7-0.", "options": ["seventy", "seventeen", "seven"], "answer": 0 },
-          { "sentence": "There are ___ minutes in one hour.", "options": ["sixty", "seventy", "thirty"], "answer": 0 },
-          { "sentence": "___ many stairs are there? — Forty-two!", "options": ["How", "What", "Who"], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to the counting mission. Write a number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "movers/u32-c.mp3",
-      "data": { "voice_note": "Voces: Erik (contando todo) y Mateo (contando galletas).",
-        "script": "Erik: Counting mission, final report! Books on the shelf: sixty-three. … Erik: Pencils in the big cup: twenty-eight. … Mateo: Steps from the door to the kitchen: fifteen. I counted them twice. … Erik: Photos on the wall: forty. All of them with Luna somewhere! … Mateo: And the biscuits… there were thirty this morning. … Erik: And now? … Mateo: Twenty-two. The mission was long. I needed energy! … Erik: Mission complete. More or less!",
-        "questions": [
-          { "q": "Books on the shelf: sixty-…", "answer": "three" },
-          { "q": "Pencils in the big cup: twenty-…", "answer": "eight" },
-          { "q": "Steps to the kitchen: …", "answer": "fifteen" },
-          { "q": "Photos on the wall: …", "answer": "forty" },
-          { "q": "Biscuits now: twenty-…", "answer": "two" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "10, 20, 30, ___ …", "options": ["forty", "fourteen", "four"], "answer": 0 },
-          { "sentence": "One century = one ___ years.", "options": ["hundred", "thousand", "ninety"], "answer": 0 },
-          { "sentence": "80 in words is …", "options": ["eighty", "eighteen", "eight"], "answer": 0 },
-          { "sentence": "To say numbers one by one is to …", "options": ["count", "cut", "carry"], "answer": 0 },
-          { "sentence": "Fifty plus forty is …", "options": ["ninety", "sixty", "seventy"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Number ping-pong: count from 20 to 100 in tens, taking turns, faster and faster. Then backwards! Who makes the first mistake?" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Count and write: how many steps to your home, books in your room, spoons in the kitchen, shoes in the house. Full sentences: There are…" } ]
+ "id": "movers-32",
+ "level": "movers",
+ "number": 32,
+ "title": "Numbers everywhere",
+ "topic": "numbers to 100",
+ "grammar": "números 20-100 + How many",
+ "wordlist": [
+  "twenty",
+  "thirty",
+  "forty",
+  "fifty",
+  "sixty",
+  "seventy",
+  "eighty",
+  "ninety",
+  "a hundred",
+  "count"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 2,
+  "skill": "write numbers"
+ },
+ "characters": [
+  "erik",
+  "mateo"
+ ],
+ "scene": {
+  "speaker": "erik",
+  "pose": {
+   "erik": 3,
+   "mateo": 4
+  },
+  "bubble": "Numbers mission: count everything in the club house! Mateo is counting the biscuits… slowly and suspiciously."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the number with the word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Number",
+    "right_label": "Word",
+    "pairs": [
+     {
+      "left": "20",
+      "right": "twenty"
+     },
+     {
+      "left": "30",
+      "right": "thirty"
+     },
+     {
+      "left": "40",
+      "right": "forty"
+     },
+     {
+      "left": "50",
+      "right": "fifty"
+     },
+     {
+      "left": "90",
+      "right": "ninety"
+     },
+     {
+      "left": "100",
+      "right": "a hundred"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choose the correct number word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete each sentence.",
+    "items": [
+     {
+      "sentence": "Half of one hundred is …",
+      "options": [
+       "fifty",
+       "forty",
+       "sixty"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Twenty plus ten is …",
+      "options": [
+       "thirty",
+       "forty",
+       "fifty"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Grandpa is ___ years old: 7-0.",
+      "options": [
+       "seventy",
+       "seventeen",
+       "seven"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "There are ___ minutes in one hour.",
+      "options": [
+       "sixty",
+       "seventy",
+       "thirty"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___ many stairs are there? — Forty-two!",
+      "options": [
+       "How",
+       "What",
+       "Who"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to the counting mission. Write a number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u32-c.mp3",
+   "data": {
+    "voice_note": "Voces: Erik (contando todo) y Mateo (contando galletas).",
+    "script": "Erik: Counting mission, final report! Books on the shelf: sixty-three. … Erik: Pencils in the big cup: twenty-eight. … Mateo: Steps from the door to the kitchen: fifteen. I counted them twice. … Erik: Photos on the wall: forty. All of them with Luna somewhere! … Mateo: And the biscuits… there were thirty this morning. … Erik: And now? … Mateo: Twenty-two. The mission was long. I needed energy! … Erik: Mission complete. More or less!",
+    "questions": [
+     {
+      "q": "Books on the shelf: sixty-…",
+      "answer": "three"
+     },
+     {
+      "q": "Pencils in the big cup: twenty-…",
+      "answer": "eight"
+     },
+     {
+      "q": "Steps to the kitchen: …",
+      "answer": "fifteen"
+     },
+     {
+      "q": "Photos on the wall: …",
+      "answer": "forty"
+     },
+     {
+      "q": "Biscuits now: twenty-…",
+      "answer": "two"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "10, 20, 30, ___ …",
+      "options": [
+       "forty",
+       "fourteen",
+       "four"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "One century = one ___ years.",
+      "options": [
+       "hundred",
+       "thousand",
+       "ninety"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "80 in words is …",
+      "options": [
+       "eighty",
+       "eighteen",
+       "eight"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "To say numbers one by one is to …",
+      "options": [
+       "count",
+       "cut",
+       "carry"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Fifty plus forty is …",
+      "options": [
+       "ninety",
+       "sixty",
+       "seventy"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Number ping-pong: count from 20 to 100 in tens, taking turns, faster and faster. Then backwards! Who makes the first mistake?"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Count and write: how many steps to your home, books in your room, spoons in the kitchen, shoes in the house. Full sentences: There are…"
+  }
+ ]
 }

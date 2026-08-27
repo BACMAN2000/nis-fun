@@ -1,51 +1,222 @@
 {
-  "id": "starters-04", "level": "starters", "number": 4,
-  "title": "Numbers 1 to 10", "topic": "numbers",
-  "grammar": "How many…?",
-  "wordlist": ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"],
-  "exam_focus": { "paper": "Listening", "part": 4, "skill": "numbers" },
-  "characters": ["freya", "pip"],
-  "scene": { "speaker": "freya", "pose": { "freya": 2, "pip": 1 },
-    "bubble": "Let's count everything! One sun, two shoes, three birds… and one Pip!" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the number with the word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Number", "right_label": "Word",
-        "pairs": [
-          { "left": "1", "right": "one" },
-          { "left": "3", "right": "three" },
-          { "left": "5", "right": "five" },
-          { "left": "7", "right": "seven" },
-          { "left": "9", "right": "nine" },
-          { "left": "10", "right": "ten" } ] } },
-    { "code": "B", "type": "crossword", "title": "Write the number words.",
-      "outputs": ["book", "digital"],
-      "data": { "words": [
-        { "word": "TWO", "clue": "You have this many hands." },
-        { "word": "FOUR", "clue": "A dog has this many legs." },
-        { "word": "SIX", "clue": "Three plus three." },
-        { "word": "EIGHT", "clue": "An octopus has this many arms." },
-        { "word": "TEN", "clue": "All your fingers!" } ] } },
-    { "code": "C", "type": "listening", "title": "Listen and count with Freya. Write a number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "starters/u04-c.mp3",
-      "data": { "voice_note": "Voces: Freya (contando) y Nico (jugando).",
-        "script": "Freya: Let's count! How many pencils? One, two, three. Three pencils! … Nico: How many birds in the tree? … Freya: One, two, three, four, five! Five birds. … Nico: And how many legs has Pip got? … Freya: Two! Birds have two legs. … Nico: How many biscuits on the plate? … Freya: Ten! No, wait… nine. Pip is eating one!",
-        "questions": [
-          { "q": "There are … pencils.", "answer": "three" },
-          { "q": "There are … birds in the tree.", "answer": "five" },
-          { "q": "Pip has got … legs.", "answer": "two" },
-          { "q": "Now there are … biscuits.", "answer": "nine" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Choose the correct number.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "Two plus two is …", "options": ["four", "five", "three"], "answer": 0 },
-          { "sentence": "You have ___ fingers on one hand.", "options": ["five", "ten", "two"], "answer": 0 },
-          { "sentence": "A cat has ___ legs.", "options": ["four", "two", "six"], "answer": 0 },
-          { "sentence": "After six comes …", "options": ["seven", "five", "nine"], "answer": 0 },
-          { "sentence": "The biggest number here is …", "options": ["ten", "one", "six"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Count things in the classroom with your partner: windows, doors, bags, shoes. \"How many windows? Two!\"" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Count at home and write: how many doors, beds, chairs and spoons. There are…" } ]
+ "id": "starters-04",
+ "level": "starters",
+ "number": 4,
+ "title": "Numbers 1 to 10",
+ "topic": "numbers",
+ "grammar": "How many…?",
+ "wordlist": [
+  "one",
+  "two",
+  "three",
+  "four",
+  "five",
+  "six",
+  "seven",
+  "eight",
+  "nine",
+  "ten"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 4,
+  "skill": "numbers"
+ },
+ "characters": [
+  "freya",
+  "pip"
+ ],
+ "scene": {
+  "speaker": "freya",
+  "pose": {
+   "freya": 2,
+   "pip": 1
+  },
+  "bubble": "Let's count everything! One sun, two shoes, three birds… and one Pip!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the number with the word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Number",
+    "right_label": "Word",
+    "pairs": [
+     {
+      "left": "1",
+      "right": "one"
+     },
+     {
+      "left": "3",
+      "right": "three"
+     },
+     {
+      "left": "5",
+      "right": "five"
+     },
+     {
+      "left": "7",
+      "right": "seven"
+     },
+     {
+      "left": "9",
+      "right": "nine"
+     },
+     {
+      "left": "10",
+      "right": "ten"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "crossword",
+   "title": "Write the number words.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "TWO",
+      "clue": "You have this many hands."
+     },
+     {
+      "word": "FOUR",
+      "clue": "A dog has this many legs."
+     },
+     {
+      "word": "SIX",
+      "clue": "Three plus three."
+     },
+     {
+      "word": "EIGHT",
+      "clue": "An octopus has this many arms."
+     },
+     {
+      "word": "TEN",
+      "clue": "All your fingers!"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen and count with Freya. Write a number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u04-c.mp3",
+   "data": {
+    "voice_note": "Voces: Freya (contando) y Nico (jugando).",
+    "script": "Freya: Let's count! How many pencils? One, two, three. Three pencils! … Nico: How many birds in the tree? … Freya: One, two, three, four, five! Five birds. … Nico: And how many legs has Pip got? … Freya: Two! Birds have two legs. … Nico: How many biscuits on the plate? … Freya: Ten! No, wait… nine. Pip is eating one!",
+    "questions": [
+     {
+      "q": "There are … pencils.",
+      "answer": "three"
+     },
+     {
+      "q": "There are … birds in the tree.",
+      "answer": "five"
+     },
+     {
+      "q": "Pip has got … legs.",
+      "answer": "two"
+     },
+     {
+      "q": "Now there are … biscuits.",
+      "answer": "nine"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choose the correct number.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "Two plus two is …",
+      "options": [
+       "four",
+       "five",
+       "three"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "You have ___ fingers on one hand.",
+      "options": [
+       "five",
+       "ten",
+       "two"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "A cat has ___ legs.",
+      "options": [
+       "four",
+       "two",
+       "six"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "After six comes …",
+      "options": [
+       "seven",
+       "five",
+       "nine"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The biggest number here is …",
+      "options": [
+       "ten",
+       "one",
+       "six"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Count things in the classroom with your partner: windows, doors, bags, shoes. \"How many windows? Two!\""
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Count at home and write: how many doors, beds, chairs and spoons. There are…"
+  }
+ ]
 }

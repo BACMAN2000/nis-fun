@@ -1,52 +1,226 @@
 {
-  "id": "starters-10", "level": "starters", "number": 10,
-  "title": "My house", "topic": "house",
-  "grammar": "Where is…? It's in the…",
-  "wordlist": ["house", "kitchen", "bedroom", "bathroom", "living room", "garden", "door", "window", "wall", "floor"],
-  "exam_focus": { "paper": "Listening", "part": 1, "skill": "rooms" },
-  "characters": ["nico", "pip"],
-  "scene": { "speaker": "nico", "pose": { "nico": 3, "pip": 4 },
-    "bubble": "Welcome to my house! Kitchen, bedroom, garden… and Pip's favourite room: the kitchen, of course." },
-  "activities": [
-    { "code": "A", "type": "crossword", "title": "Write the house words.",
-      "outputs": ["book", "digital"],
-      "data": { "words": [
-        { "word": "KITCHEN", "clue": "Mum and Dad cook here." },
-        { "word": "BEDROOM", "clue": "You sleep here." },
-        { "word": "GARDEN", "clue": "The green place outside with flowers." },
-        { "word": "DOOR", "clue": "You open it to go in." },
-        { "word": "WINDOW", "clue": "You look through it. It is glass." } ] } },
-    { "code": "B", "type": "match_words", "title": "Match the room with what you do there.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Room", "right_label": "You…",
-        "pairs": [
-          { "left": "the kitchen", "right": "eat breakfast" },
-          { "left": "the bedroom", "right": "sleep at night" },
-          { "left": "the bathroom", "right": "brush your teeth" },
-          { "left": "the living room", "right": "watch TV with your family" },
-          { "left": "the garden", "right": "play outside" },
-          { "left": "the door", "right": "say hello to visitors" } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to the house tour. Write a word in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "starters/u10-c.mp3",
-      "data": { "voice_note": "Voces: Nico (mostrando su casa) y Astrid (visita).",
-        "script": "Nico: This is my house! The door is blue. … Astrid: I like the living room. The sofa is big and orange! … Nico: This is the kitchen. It smells like cake! … Astrid: And where is your bedroom? … Nico: Upstairs. My bed is next to the window. … Astrid: The garden is beautiful. Look, flowers! … Nico: And look who is in the kitchen again… PIP! … Astrid: He can smell the cake too!",
-        "questions": [
-          { "q": "The door is …", "answer": "blue" },
-          { "q": "The sofa is big and …", "answer": "orange" },
-          { "q": "The kitchen smells like …", "answer": "cake" },
-          { "q": "Nico's bed is next to the …", "answer": "window" },
-          { "q": "… is in the kitchen again.", "answer": "Pip" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "You cook in the …", "options": ["kitchen", "bedroom", "garden"], "answer": 0 },
-          { "sentence": "You sleep in the …", "options": ["bedroom", "bathroom", "kitchen"], "answer": 0 },
-          { "sentence": "Flowers grow in the …", "options": ["garden", "living room", "wall"], "answer": 0 },
-          { "sentence": "You look through the …", "options": ["window", "wall", "floor"], "answer": 0 },
-          { "sentence": "\"___ is the cat?\" — \"In the garden.\"", "options": ["Where", "What", "Who"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Draw your house with 4 rooms. Give your partner a tour: \"This is the kitchen. This is my bedroom.\" They ask: \"Where is the…?\"" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Draw your home and label the rooms in English. Write: My favourite room is…" } ]
+ "id": "starters-10",
+ "level": "starters",
+ "number": 10,
+ "title": "My house",
+ "topic": "house",
+ "grammar": "Where is…? It's in the…",
+ "wordlist": [
+  "house",
+  "kitchen",
+  "bedroom",
+  "bathroom",
+  "living room",
+  "garden",
+  "door",
+  "window",
+  "wall",
+  "floor"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 1,
+  "skill": "rooms"
+ },
+ "characters": [
+  "nico",
+  "pip"
+ ],
+ "scene": {
+  "speaker": "nico",
+  "pose": {
+   "nico": 3,
+   "pip": 4
+  },
+  "bubble": "Welcome to my house! Kitchen, bedroom, garden… and Pip's favourite room: the kitchen, of course."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Write the house words.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "KITCHEN",
+      "clue": "Mum and Dad cook here."
+     },
+     {
+      "word": "BEDROOM",
+      "clue": "You sleep here."
+     },
+     {
+      "word": "GARDEN",
+      "clue": "The green place outside with flowers."
+     },
+     {
+      "word": "DOOR",
+      "clue": "You open it to go in."
+     },
+     {
+      "word": "WINDOW",
+      "clue": "You look through it. It is glass."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Match the room with what you do there.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Room",
+    "right_label": "You…",
+    "pairs": [
+     {
+      "left": "the kitchen",
+      "right": "eat breakfast"
+     },
+     {
+      "left": "the bedroom",
+      "right": "sleep at night"
+     },
+     {
+      "left": "the bathroom",
+      "right": "brush your teeth"
+     },
+     {
+      "left": "the living room",
+      "right": "watch TV with your family"
+     },
+     {
+      "left": "the garden",
+      "right": "play outside"
+     },
+     {
+      "left": "the door",
+      "right": "say hello to visitors"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to the house tour. Write a word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u10-c.mp3",
+   "data": {
+    "voice_note": "Voces: Nico (mostrando su casa) y Astrid (visita).",
+    "script": "Nico: This is my house! The door is blue. … Astrid: I like the living room. The sofa is big and orange! … Nico: This is the kitchen. It smells like cake! … Astrid: And where is your bedroom? … Nico: Upstairs. My bed is next to the window. … Astrid: The garden is beautiful. Look, flowers! … Nico: And look who is in the kitchen again… PIP! … Astrid: He can smell the cake too!",
+    "questions": [
+     {
+      "q": "The door is …",
+      "answer": "blue"
+     },
+     {
+      "q": "The sofa is big and …",
+      "answer": "orange"
+     },
+     {
+      "q": "The kitchen smells like …",
+      "answer": "cake"
+     },
+     {
+      "q": "Nico's bed is next to the …",
+      "answer": "window"
+     },
+     {
+      "q": "… is in the kitchen again.",
+      "answer": "Pip"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "You cook in the …",
+      "options": [
+       "kitchen",
+       "bedroom",
+       "garden"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "You sleep in the …",
+      "options": [
+       "bedroom",
+       "bathroom",
+       "kitchen"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Flowers grow in the …",
+      "options": [
+       "garden",
+       "living room",
+       "wall"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "You look through the …",
+      "options": [
+       "window",
+       "wall",
+       "floor"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"___ is the cat?\" — \"In the garden.\"",
+      "options": [
+       "Where",
+       "What",
+       "Who"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Draw your house with 4 rooms. Give your partner a tour: \"This is the kitchen. This is my bedroom.\" They ask: \"Where is the…?\""
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Draw your home and label the rooms in English. Write: My favourite room is…"
+  }
+ ]
 }

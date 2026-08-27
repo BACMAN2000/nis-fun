@@ -1,53 +1,253 @@
 {
-  "id": "movers-39", "level": "movers", "number": 39,
-  "title": "Big appetite", "topic": "quantities",
-  "grammar": "a lot of / some / a little",
-  "wordlist": ["a lot of", "some", "a little", "a piece of", "a glass of", "a bowl of", "bread", "chicken", "chips", "full"],
-  "exam_focus": { "paper": "Reading & Writing", "part": 6, "skill": "gapped sentences" },
-  "characters": ["mateo", "valentina"],
-  "scene": { "speaker": "valentina", "pose": { "valentina": 5, "mateo": 10 },
-    "bubble": "Mateo's lunch: a bowl of soup, two pieces of chicken, a mountain of rice… and he says he's still hungry!" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the quantity with the food.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Quantity", "right_label": "Food",
-        "pairs": [
-          { "left": "a glass of", "right": "cold lemonade" },
-          { "left": "a bowl of", "right": "hot soup" },
-          { "left": "a piece of", "right": "chocolate cake" },
-          { "left": "a plate of", "right": "chicken and rice" },
-          { "left": "a bag of", "right": "crunchy chips" },
-          { "left": "a slice of", "right": "fresh bread" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Choose the correct quantity word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Complete each sentence.",
-        "items": [
-          { "sentence": "There are ___ of apples in the basket — maybe forty!", "options": ["a lot", "a little", "a piece"], "answer": 0 },
-          { "sentence": "Can I have ___ water, please? Just a bit.", "options": ["a little", "a lot", "many"], "answer": 0 },
-          { "sentence": "We need ___ eggs for the cake — six.", "options": ["some", "a little", "a piece of"], "answer": 0 },
-          { "sentence": "He ate a ___ of cake. A very big piece!", "options": ["piece", "glass", "bag"], "answer": 0 },
-          { "sentence": "After lunch I was completely …", "options": ["full", "empty", "early"], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to the giant lunch. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "movers/u39-c.mp3",
-      "data": { "voice_note": "Voces: Valentina (asombrada) y Mateo (comiendo, feliz).",
-        "script": "Valentina: Lunch report: Mateo's plate, episode one hundred. … Mateo: A bowl of chicken soup to start. Grandma's recipe! … Valentina: Then rice with two pieces of chicken and a little salad. … Mateo: And a glass of orange juice. Vitamins! … Valentina: Now he's looking at the bread… a lot of bread. … Mateo: Only three slices! With a little butter. … Valentina: And for dessert? … Mateo: A piece of apple cake. Small. Well… medium. … Valentina: Where does it all GO, Mateo?!",
-        "questions": [
-          { "q": "The soup is grandma's …", "answer": "recipe" },
-          { "q": "The rice comes with two pieces of …", "answer": "chicken" },
-          { "q": "The juice is …", "answer": "orange" },
-          { "q": "Mateo eats three … of bread.", "answer": "slices" },
-          { "q": "The dessert is a piece of … cake.", "answer": "apple" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "Milk comes in a ___ at breakfast.", "options": ["glass", "bag", "piece"], "answer": 0 },
-          { "sentence": "Soup goes in a …", "options": ["bowl", "bag", "box"], "answer": 0 },
-          { "sentence": "\"How much rice?\" — \"Just ___, thanks.\"", "options": ["a little", "a lot much", "many"], "answer": 0 },
-          { "sentence": "Potatoes cut and fried are …", "options": ["chips", "chops", "cheeks"], "answer": 0 },
-          { "sentence": "There are ___ stars in the sky — millions!", "options": ["a lot of", "a little", "a piece of"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Restaurant order: Student A is the waiter, Student B orders a full meal using quantities (a bowl of…, a glass of…). Then swap. Bon appétit!" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write your dream lunch with 5 quantities: a bowl of…, a piece of…, a glass of…" } ]
+ "id": "movers-39",
+ "level": "movers",
+ "number": 39,
+ "title": "Big appetite",
+ "topic": "quantities",
+ "grammar": "a lot of / some / a little",
+ "wordlist": [
+  "a lot of",
+  "some",
+  "a little",
+  "a piece of",
+  "a glass of",
+  "a bowl of",
+  "bread",
+  "chicken",
+  "chips",
+  "full"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 6,
+  "skill": "gapped sentences"
+ },
+ "characters": [
+  "mateo",
+  "valentina"
+ ],
+ "scene": {
+  "speaker": "valentina",
+  "pose": {
+   "valentina": 5,
+   "mateo": 10
+  },
+  "bubble": "Mateo's lunch: a bowl of soup, two pieces of chicken, a mountain of rice… and he says he's still hungry!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the quantity with the food.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Quantity",
+    "right_label": "Food",
+    "pairs": [
+     {
+      "left": "a glass of",
+      "right": "cold lemonade"
+     },
+     {
+      "left": "a bowl of",
+      "right": "hot soup"
+     },
+     {
+      "left": "a piece of",
+      "right": "chocolate cake"
+     },
+     {
+      "left": "a plate of",
+      "right": "chicken and rice"
+     },
+     {
+      "left": "a bag of",
+      "right": "crunchy chips"
+     },
+     {
+      "left": "a slice of",
+      "right": "fresh bread"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choose the correct quantity word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete each sentence.",
+    "items": [
+     {
+      "sentence": "There are ___ of apples in the basket — maybe forty!",
+      "options": [
+       "a lot",
+       "a little",
+       "a piece"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Can I have ___ water, please? Just a bit.",
+      "options": [
+       "a little",
+       "a lot",
+       "many"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "We need ___ eggs for the cake — six.",
+      "options": [
+       "some",
+       "a little",
+       "a piece of"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "He ate a ___ of cake. A very big piece!",
+      "options": [
+       "piece",
+       "glass",
+       "bag"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "After lunch I was completely …",
+      "options": [
+       "full",
+       "empty",
+       "early"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to the giant lunch. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u39-c.mp3",
+   "data": {
+    "voice_note": "Voces: Valentina (asombrada) y Mateo (comiendo, feliz).",
+    "script": "Valentina: Lunch report: Mateo's plate, episode one hundred. … Mateo: A bowl of chicken soup to start. Grandma's recipe! … Valentina: Then rice with two pieces of chicken and a little salad. … Mateo: And a glass of orange juice. Vitamins! … Valentina: Now he's looking at the bread… a lot of bread. … Mateo: Only three slices! With a little butter. … Valentina: And for dessert? … Mateo: A piece of apple cake. Small. Well… medium. … Valentina: Where does it all GO, Mateo?!",
+    "questions": [
+     {
+      "q": "The soup is grandma's …",
+      "answer": "recipe"
+     },
+     {
+      "q": "The rice comes with two pieces of …",
+      "answer": "chicken"
+     },
+     {
+      "q": "The juice is …",
+      "answer": "orange"
+     },
+     {
+      "q": "Mateo eats three … of bread.",
+      "answer": "slices"
+     },
+     {
+      "q": "The dessert is a piece of … cake.",
+      "answer": "apple"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "Milk comes in a ___ at breakfast.",
+      "options": [
+       "glass",
+       "bag",
+       "piece"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Soup goes in a …",
+      "options": [
+       "bowl",
+       "bag",
+       "box"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"How much rice?\" — \"Just ___, thanks.\"",
+      "options": [
+       "a little",
+       "a lot much",
+       "many"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Potatoes cut and fried are …",
+      "options": [
+       "chips",
+       "chops",
+       "cheeks"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "There are ___ stars in the sky — millions!",
+      "options": [
+       "a lot of",
+       "a little",
+       "a piece of"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Restaurant order: Student A is the waiter, Student B orders a full meal using quantities (a bowl of…, a glass of…). Then swap. Bon appétit!"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write your dream lunch with 5 quantities: a bowl of…, a piece of…, a glass of…"
+  }
+ ]
 }

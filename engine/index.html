@@ -20,7 +20,76 @@ if(/\.github\.io$/i.test(location.hostname)){
   }
   *{box-sizing:border-box}
   body{margin:0;background:var(--bg);color:var(--ink);font-family:"Source Sans 3",system-ui,sans-serif;font-size:1.04rem;line-height:1.5}
-  main{max-width:56rem;margin:0 auto;padding:1rem 1rem 5rem}
+  main{max-width:64rem;margin:0 auto;padding:1rem 1rem 5rem}
+
+  /* ---------- navegacion pantalla a pantalla ---------- */
+  .scr{position:relative;min-height:calc(100vh - 3rem);display:flex;flex-direction:column;
+    align-items:center;padding:0 3.6rem}
+  .scr-top{width:100%;display:flex;align-items:center;justify-content:center;gap:1rem;
+    margin:.4rem 0 1rem;position:relative}
+  .scr-tit{font-family:"Baloo 2",sans-serif;font-size:1.35rem;margin:0;text-align:center;color:var(--accent)}
+  .scr-cuenta{position:absolute;right:0;font-size:.82rem;color:var(--soft)}
+  /* todo el contenido va centrado, no pegado a la izquierda */
+  .scr-body{width:100%;flex:1;display:flex;justify-content:center}
+  .scr-centro{width:100%;max-width:52rem;display:flex;flex-direction:column;
+    align-items:center;gap:1rem;text-align:center}
+  .scr-centro > *{width:100%}
+  .scr-centro .op-text{text-align:left}
+  .scr-centro .units{text-align:left}
+  .scr-pie{color:var(--soft)}
+  .scr-video{width:100%;max-width:44rem;border-radius:14px;border:1px solid var(--line);display:block}
+  .scr-escena{width:100%;border-radius:14px;border:1px solid var(--line);display:block}
+  .band-grande{gap:1.4rem;text-align:left}
+  .band-grande img{height:190px}
+
+  /* flechas: la de avanzar, grande y a la derecha, como pidio el usuario */
+  .scr-nav{position:fixed;top:50%;transform:translateY(-50%);z-index:5;
+    background:var(--accent);color:#fff;border:0;border-radius:999px;
+    padding:.7rem 1.1rem;display:flex;align-items:center;gap:.4rem;
+    box-shadow:0 4px 16px rgba(59,111,181,.35);font-family:"Baloo 2",sans-serif;
+    font-weight:700;font-size:1rem;cursor:pointer}
+  .scr-next{right:.8rem}
+  .scr-prev{left:.8rem;background:var(--surface2);color:var(--ink);box-shadow:none}
+  .scr-nav:hover{filter:brightness(1.06)}
+  .scr-nav[hidden]{display:none}
+  .scr-fl{font-size:1.5rem;line-height:1}
+  .scr-prev .scr-lbl{display:none}
+
+  .scr-dots{display:flex;gap:.4rem;flex-wrap:wrap;justify-content:center;margin:1.6rem 0 .6rem}
+  .scr-dot{width:.7rem;height:.7rem;border-radius:50%;border:0;padding:0;cursor:pointer;
+    background:var(--line)}
+  .scr-dot.on{background:var(--accent);transform:scale(1.25)}
+
+  @media (max-width:760px){
+    .scr{padding:0 .6rem}
+    .scr-nav{bottom:1rem;top:auto;transform:none}
+    .scr-next{right:1rem} .scr-prev{left:1rem}
+    .band-grande img{height:120px}
+  }
+
+  /* ---------- grabadora de voz ---------- */
+  .pw-task{background:var(--surface2);border-radius:14px;padding:1rem 1.2rem;text-align:left}
+  .pw-task p{margin:0;line-height:1.6}
+  .rec{margin-top:1rem;background:var(--surface2);border-radius:14px;padding:1rem;text-align:left}
+  .rec-fila{display:flex;align-items:center;gap:.9rem;flex-wrap:wrap}
+  .rec-btn{background:var(--bad);color:#fff;display:flex;align-items:center;gap:.5rem}
+  .rec-btn.on{background:var(--ink)}
+  .rec-punto{width:.7rem;height:.7rem;border-radius:50%;background:#fff;display:inline-block}
+  .rec-btn.on .rec-punto{animation:reclat 1s infinite}
+  @keyframes reclat{50%{opacity:.25}}
+  .rec-tiempo{font-family:"Baloo 2";font-weight:700;color:var(--soft)}
+  .rec-audio{flex:1;min-width:14rem}
+  .rec-nota{margin:.6rem 0 0;font-size:.86rem;color:var(--soft)}
+  .rec-estado{margin:.35rem 0 0;font-size:.86rem;font-weight:600;color:var(--ok);min-height:1.1em}
+
+  /* ---------- repaso final ---------- */
+  .selfcheck{background:var(--surface);border:1px solid var(--line);border-radius:14px;
+    padding:1.2rem 1.4rem;text-align:left}
+  .sc-intro{margin:0 0 .8rem;color:var(--soft)}
+  .sc-lista{list-style:none;margin:0;padding:0;display:grid;gap:.55rem}
+  .sc-lista label{display:flex;gap:.7rem;align-items:flex-start;cursor:pointer}
+  .sc-lista input{width:1.2rem;height:1.2rem;margin-top:.15rem;accent-color:var(--ok);flex:none}
+  .sc-cuenta{margin:1rem 0 0;font-family:"Baloo 2";font-weight:700;color:var(--ok)}
   h1,h2,h3{font-family:"Baloo 2",sans-serif;text-wrap:balance}
   .band{background:var(--accent);color:#fff;border-radius:14px;padding:1rem 1.4rem;display:flex;align-items:center;gap:1rem;flex-wrap:wrap}
   .band .unum{font-family:"Baloo 2",sans-serif;font-weight:800;font-size:2.2rem;background:#fff;color:var(--accent);border-radius:12px;padding:0 .8rem;line-height:1.4}
@@ -188,6 +257,12 @@ if(/\.github\.io$/i.test(location.hostname)){
 <script src="crossword-layout.js"></script>
 <script src="emoji-map.js"></script>
 <script src="vocab-art.js?v=1"></script>
+<script src="screens.js?v=1"></script>
+<script src="recorder.js?v=1"></script>
+<!-- el curso comparte dominio y sesion con el portal -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4"></script>
+<script src="../../config.js"></script>
+<script src="backend.js?v=1"></script>
 <main id="app">Loading…</main>
 <div id="cele"><div class="box"><img id="cele-img" alt=""><h2>Well done!</h2><p id="cele-msg"></p><button onclick="document.getElementById('cele').classList.remove('on')">OK</button></div></div>
 <script>
@@ -218,7 +293,15 @@ const store = {
   set(u,d){ localStorage.setItem(this.key(u), JSON.stringify(d)) }
 };
 
-async function j(path){ const r = await fetch(path); if(!r.ok) throw new Error(path); return r.json(); }
+// El contenido se cachea igual que los mp4: al cambiar una unidad hay que
+// subir esta fecha o el alumno sigue viendo la version anterior.
+const CONTENT_V = '2026-08-27-screens';
+async function j(path){
+  const sep = path.includes('?') ? '&' : '?';
+  const r = await fetch(path + sep + 'v=' + CONTENT_V);
+  if(!r.ok) throw new Error(path);
+  return r.json();
+}
 
 /* ---------------- PORTADA: los 3 niveles ---------------- */
 async function levels(){
@@ -243,32 +326,64 @@ async function hub(){
   const idx = await j(`../content/${LEVEL}/index.json`);
   document.title = idx.name;
   app.classList.add('hub');
-  app.innerHTML = `
-    <div class="crumb"><a href="${Q(`?`)}">← Fun for Nordic</a></div>
-    <div class="band"><img src="${CHAR(idx.mascot,1)}" style="height:150px" alt="" ${FB}>
-      <h1>${idx.name}</h1><span class="meta">${idx.cast}</span></div>
-    <div class="guide" id="guide">
-      <h2>🎬 Meet ${idx.mascot[0].toUpperCase()+idx.mascot.slice(1)} — your guide!</h2>
-      <video controls preload="metadata" src="../assets/videos/${idx.mascot}-intro.mp4?v=${VIDEO_V}"
-        poster="../assets/videos/posters/${idx.mascot}-intro.jpg?v=${VIDEO_V}"
-        onerror="document.getElementById('guide').remove()"></video>
-    </div>
-    <div class="guide" id="team">
-      <h2>⭐ Meet the team — ${idx.cast}!</h2>
-      <video controls preload="metadata" src="../assets/videos/${LEVEL}-cast.mp4?v=${VIDEO_V}"
-        poster="../assets/videos/posters/${LEVEL}-cast.jpg?v=${VIDEO_V}"
-        onerror="document.getElementById('team').remove()"></video>
-    </div>
-    ${DEMO ? `<div class="demoflag">Demonstration — this preview covers the first two units of each book. The full course has ${idx.units.length} units.</div>` : ''}
-    <h2 style="margin:1.4rem 0 .8rem">Units</h2>
-    <div class="units">${(DEMO ? idx.units.slice(0,2) : idx.units).map(u=>{
-      const p = store.get(u.n);
-      const done = p.done ? Object.keys(p.done).length : 0;
-      return `<a class="ucard" href="${Q(`?level=${LEVEL}&unit=${u.n}`)}">
-        <span class="n">${u.n}</span> <b>${u.title}</b><br>
-        <small>${u.topic}</small><br>
-        <span class="stars">${'★'.repeat(done)}${'☆'.repeat(Math.max(0,4-done))}</span></a>`;
-    }).join('')}</div>`;
+  const mascota = idx.mascot[0].toUpperCase() + idx.mascot.slice(1);
+  const unidades = DEMO ? idx.units.slice(0,2) : idx.units;
+
+  // Las unidades se reparten en tandas para que quepan de una ojeada; con
+  // pocas no tiene sentido partirlas.
+  const POR_PANTALLA = 12;
+  const tandas = [];
+  for (let k = 0; k < unidades.length; k += POR_PANTALLA)
+    tandas.push(unidades.slice(k, k + POR_PANTALLA));
+
+  const tarjeta = u => {
+    const p = store.get(u.n);
+    const hechas = p.done ? Object.keys(p.done).length : 0;
+    return `<a class="ucard" href="${Q(`?level=${LEVEL}&unit=${u.n}`)}">
+      <span class="n">${u.n}</span> <b>${u.title}</b><br>
+      <small>${u.topic}</small><br>
+      <span class="stars">${'★'.repeat(hechas)}${'☆'.repeat(Math.max(0,4-hechas))}</span></a>`;
+  };
+
+  const pantallas = [
+    { titulo: idx.name,
+      etiquetaSiguiente: `Meet ${mascota}`,
+      html: `<div class="scr-centro">
+        <div class="band band-grande"><img src="${CHAR(idx.mascot,1)}" alt="" ${FB}>
+          <div><h1>${idx.name}</h1><span class="meta">${idx.cast}</span></div></div>
+        ${DEMO ? `<div class="demoflag">Demonstration — this preview covers the first two units.
+           The full course has ${idx.units.length} units.</div>` : ''}
+        <p class="scr-pie">Press <b>Next</b> to start.</p>
+        <div class="crumb"><a href="${Q(`?`)}">← Fun for Nordic</a></div>
+      </div>` },
+    { titulo: `Meet ${mascota} — your guide!`,
+      etiquetaSiguiente: 'Meet the characters',
+      html: `<div class="scr-centro">
+        <video class="scr-video" controls preload="metadata"
+          src="../assets/videos/${idx.mascot}-intro.mp4?v=${VIDEO_V}"
+          poster="../assets/videos/posters/${idx.mascot}-intro.jpg?v=${VIDEO_V}"
+          onerror="this.closest('.scr-centro').innerHTML='<p>Video coming soon.</p>'"></video>
+      </div>` },
+    { titulo: `Meet the characters — ${idx.cast}!`,
+      etiquetaSiguiente: 'Units',
+      html: `<div class="scr-centro">
+        <video class="scr-video" controls preload="metadata"
+          src="../assets/videos/${LEVEL}-cast.mp4?v=${VIDEO_V}"
+          poster="../assets/videos/posters/${LEVEL}-cast.jpg?v=${VIDEO_V}"
+          onerror="this.closest('.scr-centro').innerHTML='<p>Video coming soon.</p>'"></video>
+      </div>` },
+  ];
+
+  tandas.forEach((tanda, k) => pantallas.push({
+    titulo: tandas.length > 1
+      ? `Units ${tanda[0].n}–${tanda[tanda.length-1].n}`
+      : 'Units',
+    etiquetaSiguiente: 'More units',
+    html: `<div class="scr-centro">
+      <div class="units">${tanda.map(tarjeta).join('')}</div></div>`
+  }));
+
+  SCREENS.montar(app, pantallas);
 }
 
 /* ---------------- UNIT ---------------- */
@@ -319,34 +434,17 @@ async function unit(){
   PROG = store.get(UD.number); PROG.done = PROG.done || {};
   document.title = `Unit ${UD.number} · ${UD.title}`;
   const digital = UD.activities.filter(a=>a.outputs.includes('digital'));
-  app.innerHTML = `
-    <div class="crumb"><a href="${Q(`?level=${LEVEL}`)}">← ${LEVEL[0].toUpperCase()+LEVEL.slice(1)}</a></div>
-    <div class="band"><span class="unum">${UD.number}</span><h1>${UD.title}</h1>
-      <span class="meta">${UD.exam_focus.paper} · Part ${UD.exam_focus.part}</span></div>
-    <div class="scene">
-      ${UD.characters.map(c=>`<img src="${CHAR(c, (UD.scene.pose||{})[c]||1)}" alt="${c}" ${FB}>`).join('')}
-      <div class="bubble">${UD.scene.bubble}</div>
-    </div>
-    <div class="opener">
-      <div class="op-text"><h3>📖 The story of this unit</h3><p>${makeIntro(UD)}</p></div>
-      ${(()=>{
-        // La escena dibujada a medida ilustra la historia de la unidad; la foto
-        // del campus solo entra donde todavia no hay escena propia.
-        // 1) escena montada para esta unidad: foto del campus + los objetos 3D
-        //    del vocabulario. 2) si no la hay, la foto del campus a secas.
-        const sc = sceneFor(UD);
-        const respaldo = sc ? `../assets/scenes/${sc}.jpg` : '';
-        return `<div class="op-art op-photo"><img alt=""
-                  src="../assets/unit-scenes/${LEVEL}-${UD.number}.jpg"
-                  onerror="this.onerror=null;${respaldo ? `this.src='${respaldo}'` : `this.closest('.op-photo').remove()`}"></div>`;
-      })()}
-    </div>
-    <div class="pwrow">${(UD.wordlist||[]).slice(0,10).map(w=>{
+
+  const escenaHTML = (()=>{
+    const sc = sceneFor(UD);
+    const respaldo = sc ? `../assets/scenes/${sc}.jpg` : '';
+    return `<img class="scr-escena" alt=""
+      src="../assets/unit-scenes/${LEVEL}-${UD.number}.jpg"
+      onerror="this.onerror=null;${respaldo ? `this.src='${respaldo}'` : `this.remove()`}">`;
+  })();
+
+  const pwHTML = `<div class="pwrow">${(UD.wordlist||[]).slice(0,10).map(w=>{
       const key = w.replace(/^(a|an|the) /,'');
-      // Orden de preferencia: render 3D (mismo estilo que los personajes),
-      // dibujo vectorial propio, y de ultimo recurso el emoji. El 3D se pide
-      // siempre y, si ese objeto aun no esta generado, el onerror lo cambia
-      // por el vectorial sin que se vea un hueco.
       const art = (window.VOCAB_ART && VOCAB_ART.get(key)) || null;
       const plano = art || `<span class="emo">${EMOJI[key] || EMOJI[key.toLowerCase()] || '✏️'}</span>`;
       const slug3d = key.toLowerCase().replace(/'/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
@@ -356,46 +454,111 @@ async function unit(){
       return `<button class="pw" type="button" data-say="${esc(w)}"
                 title="Click to hear it" aria-label="Say ${esc(w)}">
                 <div class="ico">${ico}</div><div class="w">${w}</div>
-                <span class="spk" aria-hidden="true">🔊</span>
-              </button>`;
-    }).join('')}</div>
-    ${digital.map(a=>`<section class="act ${PROG.done[a.code]?'done':''}" id="act-${a.code}">
-       <h2><span class="code">${a.code}</span> ${a.title}</h2>
-       <div class="body" id="body-${a.code}"></div>
-     </section>`).join('')}`;
-  digital.forEach(a=>RENDER[a.type](a, document.getElementById('body-'+a.code)));
-  wirePictureWords();
+                <span class="spk" aria-hidden="true">🔊</span></button>`;
+    }).join('')}</div>`;
+
+  const pantallas = [
+    // 1. quienes hablan y de que va la unidad
+    { titulo: `Unit ${UD.number} · ${UD.title}`,
+      etiquetaSiguiente: 'The story',
+      html: `<div class="scr-centro">
+        <div class="band"><span class="unum">${UD.number}</span><h1>${UD.title}</h1>
+          <span class="meta">${UD.exam_focus.paper} · Part ${UD.exam_focus.part}</span></div>
+        <div class="scene">
+          ${UD.characters.map(c=>`<img src="${CHAR(c,(UD.scene.pose||{})[c]||1)}" alt="${c}" ${FB}>`).join('')}
+          <div class="bubble">${UD.scene.bubble}</div></div>
+        <div class="crumb"><a href="${Q(`?level=${LEVEL}`)}">← ${LEVEL[0].toUpperCase()+LEVEL.slice(1)}</a></div>
+      </div>` },
+    // 2. la historia, con su ilustracion
+    { titulo: 'The story of this unit',
+      etiquetaSiguiente: 'Picture words',
+      html: `<div class="scr-centro">
+        <div class="op-text"><p>${makeIntro(UD)}</p></div>
+        ${escenaHTML}
+      </div>` },
+    // 3. el vocabulario, que se oye al pulsarlo
+    { titulo: 'Picture words — look, say and copy',
+      etiquetaSiguiente: digital.length ? 'Activity ' + digital[0].code : 'Finish',
+      html: `<div class="scr-centro">${pwHTML}</div>`,
+      alMostrar(){ wirePictureWords(); } },
+  ];
+
+  // 4. una actividad por pantalla
+  digital.forEach((a, k) => pantallas.push({
+    titulo: `${a.code} · ${a.title}`,
+    etiquetaSiguiente: k < digital.length - 1 ? 'Activity ' + digital[k+1].code : 'Self-check',
+    html: `<div class="scr-centro">
+      <section class="act ${PROG.done[a.code]?'done':''}" id="act-${a.code}">
+        <div class="body" id="body-${a.code}"></div></section></div>`,
+    alMostrar(){
+      const caja = document.getElementById('body-'+a.code);
+      if (caja && !caja.dataset.listo) {
+        RENDER[a.type](a, caja);
+        caja.dataset.listo = '1';
+        // en las de hablar, el alumno se graba y se escucha
+        if (a.type === 'pairwork' || a.type === 'spot_diff') {
+          const g = document.createElement('div');
+          caja.appendChild(g);
+          REC.montar(g, {nivel: LEVEL, unidad: UD.number, codigo: a.code});
+        }
+      }
+    } }));
+
+  // 5. repaso: que sabe hacer ya
+  pantallas.push({
+    titulo: 'Self-check — what can you do now?',
+    html: `<div class="scr-centro"><div class="selfcheck" id="selfcheck"></div></div>`,
+    alMostrar(){ pintaSelfCheck(document.getElementById('selfcheck'), digital); } });
+
+  SCREENS.montar(app, pantallas);
 }
 
-/* ---- pronunciacion de las picture words -----------------------------
-   Un mp3 grabado por palabra (audio/words/*.mp3, voz unica para todo el
-   vocabulario). Si falta el archivo o el navegador no lo puede reproducir,
-   cae a la voz del sistema, que siempre esta.                          */
-const SAY = {
-  cache: {},
-  slug(w){ return String(w).toLowerCase().replace(/'/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,''); },
-  voz(w){
-    if (!window.speechSynthesis) return;
-    try {
-      speechSynthesis.cancel();
-      const u = new SpeechSynthesisUtterance(w);
-      u.lang = 'en-GB'; u.rate = 0.85;
-      speechSynthesis.speak(u);
-    } catch(e){}
-  },
-  play(w, btn){
-    const done = () => btn && btn.classList.remove('saying');
-    btn && btn.classList.add('saying');
-    const src = '../audio/words/' + this.slug(w) + '.mp3';
-    let a = this.cache[src];
-    if (!a){ a = this.cache[src] = new Audio(src); a.preload = 'auto'; }
-    a.currentTime = 0;
-    a.onended = done;
-    a.onerror = () => { this.voz(w); setTimeout(done, 700); };
-    const pr = a.play();
-    if (pr && pr.catch) pr.catch(() => { this.voz(w); setTimeout(done, 700); });
-  }
-};
+/* ---- repaso final: el alumno marca lo que ya sabe hacer ---- */
+function pintaSelfCheck(el, digital){
+  if (!el) return;
+  const clave = `nisfun-sc-${LEVEL}-u${UD.number}`;
+  let marcado = {};
+  try { marcado = JSON.parse(localStorage.getItem(clave) || '{}'); } catch(e){}
+
+  // Lo que puede hacer sale de la propia unidad: el vocabulario, la
+  // gramatica y lo que pide cada actividad.
+  const puedo = [
+    `I can say and write the new words: ${(UD.wordlist||[]).slice(0,6).join(', ')}…`,
+    UD.grammar ? `I can use <b>${UD.grammar}</b>.` : null,
+    `I can understand the story of this unit.`,
+  ].filter(Boolean);
+  digital.forEach(a => {
+    if (a.type === 'listening') puedo.push('I can listen and write the missing words.');
+    if (a.type === 'crossword') puedo.push('I can read a clue and write the word.');
+    if (a.type === 'match_words') puedo.push('I can match words that go together.');
+    if (a.type === 'exam_task') puedo.push('I can choose the right answer in an exam task.');
+    if (a.type === 'gap_text') puedo.push('I can read a text and fill in the gaps.');
+    if (a.type === 'spot_diff') puedo.push('I can compare two pictures and say the differences.');
+    if (a.type === 'pairwork') puedo.push('I can talk about this topic with a partner.');
+  });
+
+  el.innerHTML = `
+    <p class="sc-intro">Tick the things you can do. Be honest — it helps your teacher.</p>
+    <ul class="sc-lista">${puedo.map((t,i)=>`
+      <li><label><input type="checkbox" data-i="${i}"${marcado[i]?' checked':''}>
+        <span>${t}</span></label></li>`).join('')}</ul>
+    <p class="sc-cuenta"></p>`;
+
+  const cuenta = () => {
+    const n = el.querySelectorAll('input:checked').length;
+    el.querySelector('.sc-cuenta').textContent = `${n} / ${puedo.length} — well done!`;
+  };
+  el.querySelectorAll('input').forEach(c => c.onchange = () => {
+    marcado[c.dataset.i] = c.checked;
+    try { localStorage.setItem(clave, JSON.stringify(marcado)); } catch(e){}
+    cuenta();
+    // y al portal, para que el profesor vea que dice saber hacer
+    if (window.BACKEND) BACKEND.guardar('selfcheck',
+      {nivel: LEVEL, unidad: UD.number, codigo: 'SC'},
+      {puede: puedo.filter((_,i)=>marcado[i]), total: puedo.length});
+  });
+  cuenta();
+}
 
 function wirePictureWords(){
   document.querySelectorAll('.pwrow .pw[data-say]').forEach(btn => {
@@ -405,6 +568,14 @@ function wirePictureWords(){
 
 function complete(code, msg){
   if(!PROG.done[code]){ PROG.done[code]=true; store.set(UD.number, PROG); }
+  // lo que escribio queda guardado para que el profesor lo revise
+  if (window.BACKEND) {
+    const caja = document.getElementById('body-'+code);
+    const escrito = caja ? [...caja.querySelectorAll('input[type=text],input:not([type]),textarea')]
+      .map(i => (i.value||'').trim()).filter(Boolean) : [];
+    if (escrito.length) BACKEND.guardar('writing',
+      {nivel: LEVEL, unidad: UD.number, codigo: code}, {respuestas: escrito});
+  }
   document.getElementById('act-'+code).classList.add('done');
   const total = UD.activities.filter(a=>a.outputs.includes('digital')).length;
   const done = Object.keys(PROG.done).length;
@@ -552,6 +723,11 @@ match_words(act, el){
       if(matched===pairs.length){ el.querySelector('.score').className='score good'; complete(act.code); }
     } else { b.classList.add('flash'); setTimeout(()=>b.classList.remove('flash'),500); }
   });
+},
+
+/* ---- hablar en parejas: la consigna y la grabadora ---- */
+pairwork(act, el){
+  el.innerHTML = `<div class="pw-task"><p>${act.data.text || act.data.instructions || ''}</p></div>`;
 },
 
 /* ---- listening ---- */

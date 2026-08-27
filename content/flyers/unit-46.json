@@ -1,53 +1,253 @@
 {
-  "id": "flyers-46", "level": "flyers", "number": 46,
-  "title": "In the future, I might be…", "topic": "might / may",
-  "grammar": "might / may (posibilidad)",
-  "wordlist": ["might", "may", "possible", "sure", "perhaps", "farmer", "vet", "inventor", "writer", "designer"],
-  "exam_focus": { "paper": "Reading & Writing", "part": 3, "skill": "conversation" },
-  "characters": ["maya", "oliver"],
-  "scene": { "speaker": "maya", "pose": { "maya": 4, "oliver": 3 },
-    "bubble": "I might be a scientist… or a vet… or a scientist FOR animals! The future has too many good options." },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the sentence with what it means.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Sentence", "right_label": "Meaning",
-        "pairs": [
-          { "left": "I might be a vet.", "right": "it's possible, not sure" },
-          { "left": "I will be a vet.", "right": "I'm sure about it" },
-          { "left": "It may rain later.", "right": "perhaps — take an umbrella" },
-          { "left": "It won't rain today.", "right": "no rain, for sure" },
-          { "left": "She might come to the party.", "right": "maybe yes, maybe no" },
-          { "left": "Perhaps we'll travel in summer.", "right": "it's just an idea for now" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Choose might, will or won't.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Complete each sentence.",
-        "items": [
-          { "sentence": "I'm not sure yet — I ___ study biology.", "options": ["might", "will", "won't"], "answer": 0 },
-          { "sentence": "The sky is black. It ___ rain any minute!", "options": ["may", "won't", "isn't"], "answer": 0 },
-          { "sentence": "Don't worry, I ___ forget your birthday. I promise!", "options": ["might", "will", "won't"], "answer": 2 },
-          { "sentence": "We ___ go camping — it depends on the weather.", "options": ["might", "must", "did"], "answer": 0 },
-          { "sentence": "\"Are you coming?\" — \"___. I'll tell you tonight.\"", "options": ["Perhaps", "Never", "Always"], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen. What might they be? Write a word in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "flyers/u46-c.mp3",
-      "data": { "voice_note": "Voces: Maya y Oliver (dudando sobre el futuro).",
-        "script": "Oliver: Maya, what might you be in the future? … Maya: Hmm. I might be a vet, because I love animals. … Maya: Or an inventor — I already have eleven ideas in my notebook. … Oliver: Eleven! I might be a music teacher. Or a farmer with singing cows! … Maya: Singing cows?! … Oliver: Why not? Happy cows, better milk. It's science! … Maya: And Diego says he might write books one day. Adventure books. … Oliver: One thing is sure: whatever we are, we'll still be a team. … Maya: That's the only thing I don't say might about!",
-        "questions": [
-          { "q": "Maya might be a vet because she loves …", "answer": "animals" },
-          { "q": "She has … ideas in her notebook.", "answer": "eleven" },
-          { "q": "Oliver might be a farmer with singing …", "answer": "cows" },
-          { "q": "Diego might write adventure …", "answer": "books" },
-          { "q": "The sure thing: they will still be a …", "answer": "team" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the best answer.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the best response.",
-        "items": [
-          { "sentence": "\"What might you be in the future?\"", "options": ["I might be a designer.", "I was at the funfair.", "It's next to the bank."], "answer": 0 },
-          { "sentence": "\"Will you come tomorrow?\"", "options": ["Perhaps — I'm not sure yet.", "Yesterday morning.", "It's made of wool."], "answer": 0 },
-          { "sentence": "A person who looks after ill animals is a …", "options": ["vet", "waiter", "guest"], "answer": 0 },
-          { "sentence": "A person who writes books is a …", "options": ["writer", "farmer", "presenter"], "answer": 0 },
-          { "sentence": "\"___\" means the same as \"maybe\".", "options": ["Perhaps", "Never", "Yesterday"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Three futures: tell your partner three different things you might be, from most probable to craziest. They choose which one they like best for you — and explain why!" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write 5 sentences about your future: 3 with might, 1 with will (something sure) and 1 with won't." } ]
+ "id": "flyers-46",
+ "level": "flyers",
+ "number": 46,
+ "title": "In the future, I might be…",
+ "topic": "might / may",
+ "grammar": "might / may (posibilidad)",
+ "wordlist": [
+  "might",
+  "may",
+  "possible",
+  "sure",
+  "perhaps",
+  "farmer",
+  "vet",
+  "inventor",
+  "writer",
+  "designer"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 3,
+  "skill": "conversation"
+ },
+ "characters": [
+  "maya",
+  "oliver"
+ ],
+ "scene": {
+  "speaker": "maya",
+  "pose": {
+   "maya": 4,
+   "oliver": 3
+  },
+  "bubble": "I might be a scientist… or a vet… or a scientist FOR animals! The future has too many good options."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the sentence with what it means.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Sentence",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "I might be a vet.",
+      "right": "it's possible, not sure"
+     },
+     {
+      "left": "I will be a vet.",
+      "right": "I'm sure about it"
+     },
+     {
+      "left": "It may rain later.",
+      "right": "perhaps — take an umbrella"
+     },
+     {
+      "left": "It won't rain today.",
+      "right": "no rain, for sure"
+     },
+     {
+      "left": "She might come to the party.",
+      "right": "maybe yes, maybe no"
+     },
+     {
+      "left": "Perhaps we'll travel in summer.",
+      "right": "it's just an idea for now"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choose might, will or won't.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete each sentence.",
+    "items": [
+     {
+      "sentence": "I'm not sure yet — I ___ study biology.",
+      "options": [
+       "might",
+       "will",
+       "won't"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The sky is black. It ___ rain any minute!",
+      "options": [
+       "may",
+       "won't",
+       "isn't"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Don't worry, I ___ forget your birthday. I promise!",
+      "options": [
+       "might",
+       "will",
+       "won't"
+      ],
+      "answer": 2
+     },
+     {
+      "sentence": "We ___ go camping — it depends on the weather.",
+      "options": [
+       "might",
+       "must",
+       "did"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"Are you coming?\" — \"___. I'll tell you tonight.\"",
+      "options": [
+       "Perhaps",
+       "Never",
+       "Always"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen. What might they be? Write a word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u46-c.mp3",
+   "data": {
+    "voice_note": "Voces: Maya y Oliver (dudando sobre el futuro).",
+    "script": "Oliver: Maya, what might you be in the future? … Maya: Hmm. I might be a vet, because I love animals. … Maya: Or an inventor — I already have eleven ideas in my notebook. … Oliver: Eleven! I might be a music teacher. Or a farmer with singing cows! … Maya: Singing cows?! … Oliver: Why not? Happy cows, better milk. It's science! … Maya: And Diego says he might write books one day. Adventure books. … Oliver: One thing is sure: whatever we are, we'll still be a team. … Maya: That's the only thing I don't say might about!",
+    "questions": [
+     {
+      "q": "Maya might be a vet because she loves …",
+      "answer": "animals"
+     },
+     {
+      "q": "She has … ideas in her notebook.",
+      "answer": "eleven"
+     },
+     {
+      "q": "Oliver might be a farmer with singing …",
+      "answer": "cows"
+     },
+     {
+      "q": "Diego might write adventure …",
+      "answer": "books"
+     },
+     {
+      "q": "The sure thing: they will still be a …",
+      "answer": "team"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the best answer.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the best response.",
+    "items": [
+     {
+      "sentence": "\"What might you be in the future?\"",
+      "options": [
+       "I might be a designer.",
+       "I was at the funfair.",
+       "It's next to the bank."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"Will you come tomorrow?\"",
+      "options": [
+       "Perhaps — I'm not sure yet.",
+       "Yesterday morning.",
+       "It's made of wool."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "A person who looks after ill animals is a …",
+      "options": [
+       "vet",
+       "waiter",
+       "guest"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "A person who writes books is a …",
+      "options": [
+       "writer",
+       "farmer",
+       "presenter"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"___\" means the same as \"maybe\".",
+      "options": [
+       "Perhaps",
+       "Never",
+       "Yesterday"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Three futures: tell your partner three different things you might be, from most probable to craziest. They choose which one they like best for you — and explain why!"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write 5 sentences about your future: 3 with might, 1 with will (something sure) and 1 with won't."
+  }
+ ]
 }

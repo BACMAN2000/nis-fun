@@ -1,53 +1,253 @@
 {
-  "id": "starters-41", "level": "starters", "number": 41,
-  "title": "Spell your name", "topic": "spelling",
-  "grammar": "How do you spell…?",
-  "wordlist": ["spell", "name", "surname", "letter", "again", "slowly", "listen", "write", "correct", "well done"],
-  "exam_focus": { "paper": "Listening", "part": 2, "skill": "spelling names" },
-  "characters": ["nico", "astrid"],
-  "scene": { "speaker": "nico", "pose": { "nico": 3, "astrid": 2 },
-    "bubble": "N-I-C-O! Spelling your name is like a little song. How do you spell YOUR name?" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the name with its spelling.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Name", "right_label": "Spelling",
-        "pairs": [
-          { "left": "Nico", "right": "N-I-C-O" },
-          { "left": "Freya", "right": "F-R-E-Y-A" },
-          { "left": "Astrid", "right": "A-S-T-R-I-D" },
-          { "left": "Tomás", "right": "T-O-M-A-S" },
-          { "left": "Pip", "right": "P-I-P" },
-          { "left": "the lighthouse dog", "right": "L-U-N-A (a friend from Movers!)" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Choose the correct spelling.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct option.",
-        "items": [
-          { "sentence": "How do you spell CAT?", "options": ["C-A-T", "K-A-T", "C-T-A"], "answer": 0 },
-          { "sentence": "How do you spell DOG?", "options": ["D-O-G", "D-G-O", "B-O-G"], "answer": 0 },
-          { "sentence": "How do you spell SUN?", "options": ["S-U-N", "S-O-N", "Z-U-N"], "answer": 0 },
-          { "sentence": "\"___ do you spell your name?\"", "options": ["How", "What", "Who"], "answer": 0 },
-          { "sentence": "\"Can you say it ___, please?\" — slowly!", "options": ["again", "never", "yesterday"], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen and spell. Write a name in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "starters/u41-c.mp3",
-      "data": { "voice_note": "Voces: Nico (deletreando) y Astrid (escribiendo).",
-        "script": "Nico: Spelling game! The new boy's name is Leo. L-E-O. … Astrid: L-E-O. Leo. Got it! … Nico: The teacher's cat is called Misu. M-I-S-U. … Astrid: M-I-S-U. What a sweet name! … Nico: The boat at the port is called Rosa. R-O-S-A. … Astrid: R-O-S-A. Like a flower! … Nico: And the hardest one… the lighthouse name: FARO. F-A-R-O! … Astrid: All correct. Spelling champions!",
-        "questions": [
-          { "q": "The new boy is L-E-O: …", "answer": "Leo" },
-          { "q": "The cat is M-I-S-U: …", "answer": "Misu" },
-          { "q": "The boat is R-O-S-A: …", "answer": "Rosa" },
-          { "q": "The lighthouse name is F-A-R-O: …", "answer": "FARO" },
-          { "q": "They are spelling …!", "answer": "champions" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "To say a word letter by letter is to ___ it.", "options": ["spell", "sing", "eat"], "answer": 0 },
-          { "sentence": "Your family name is your …", "options": ["surname", "colour", "number"], "answer": 0 },
-          { "sentence": "If you don't hear well, say: \"___, please!\"", "options": ["Again", "Goodbye", "Never"], "answer": 0 },
-          { "sentence": "P-I-P spells …", "options": ["Pip", "Pop", "Pat"], "answer": 0 },
-          { "sentence": "When your friend spells well, say: \"___!\"", "options": ["Well done", "Oh no", "Too bad"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Spell your name and surname for your partner. They write it and show you. Correct? Now spell your favourite animal!" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write the names of 4 people in your family and spell them in letters: M-A-M-A…" } ]
+ "id": "starters-41",
+ "level": "starters",
+ "number": 41,
+ "title": "Spell your name",
+ "topic": "spelling",
+ "grammar": "How do you spell…?",
+ "wordlist": [
+  "spell",
+  "name",
+  "surname",
+  "letter",
+  "again",
+  "slowly",
+  "listen",
+  "write",
+  "correct",
+  "well done"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 2,
+  "skill": "spelling names"
+ },
+ "characters": [
+  "nico",
+  "astrid"
+ ],
+ "scene": {
+  "speaker": "nico",
+  "pose": {
+   "nico": 3,
+   "astrid": 2
+  },
+  "bubble": "N-I-C-O! Spelling your name is like a little song. How do you spell YOUR name?"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the name with its spelling.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Name",
+    "right_label": "Spelling",
+    "pairs": [
+     {
+      "left": "Nico",
+      "right": "N-I-C-O"
+     },
+     {
+      "left": "Freya",
+      "right": "F-R-E-Y-A"
+     },
+     {
+      "left": "Astrid",
+      "right": "A-S-T-R-I-D"
+     },
+     {
+      "left": "Tomás",
+      "right": "T-O-M-A-S"
+     },
+     {
+      "left": "Pip",
+      "right": "P-I-P"
+     },
+     {
+      "left": "the lighthouse dog",
+      "right": "L-U-N-A (a friend from Movers!)"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choose the correct spelling.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct option.",
+    "items": [
+     {
+      "sentence": "How do you spell CAT?",
+      "options": [
+       "C-A-T",
+       "K-A-T",
+       "C-T-A"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "How do you spell DOG?",
+      "options": [
+       "D-O-G",
+       "D-G-O",
+       "B-O-G"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "How do you spell SUN?",
+      "options": [
+       "S-U-N",
+       "S-O-N",
+       "Z-U-N"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"___ do you spell your name?\"",
+      "options": [
+       "How",
+       "What",
+       "Who"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"Can you say it ___, please?\" — slowly!",
+      "options": [
+       "again",
+       "never",
+       "yesterday"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen and spell. Write a name in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u41-c.mp3",
+   "data": {
+    "voice_note": "Voces: Nico (deletreando) y Astrid (escribiendo).",
+    "script": "Nico: Spelling game! The new boy's name is Leo. L-E-O. … Astrid: L-E-O. Leo. Got it! … Nico: The teacher's cat is called Misu. M-I-S-U. … Astrid: M-I-S-U. What a sweet name! … Nico: The boat at the port is called Rosa. R-O-S-A. … Astrid: R-O-S-A. Like a flower! … Nico: And the hardest one… the lighthouse name: FARO. F-A-R-O! … Astrid: All correct. Spelling champions!",
+    "questions": [
+     {
+      "q": "The new boy is L-E-O: …",
+      "answer": "Leo"
+     },
+     {
+      "q": "The cat is M-I-S-U: …",
+      "answer": "Misu"
+     },
+     {
+      "q": "The boat is R-O-S-A: …",
+      "answer": "Rosa"
+     },
+     {
+      "q": "The lighthouse name is F-A-R-O: …",
+      "answer": "FARO"
+     },
+     {
+      "q": "They are spelling …!",
+      "answer": "champions"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "To say a word letter by letter is to ___ it.",
+      "options": [
+       "spell",
+       "sing",
+       "eat"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Your family name is your …",
+      "options": [
+       "surname",
+       "colour",
+       "number"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "If you don't hear well, say: \"___, please!\"",
+      "options": [
+       "Again",
+       "Goodbye",
+       "Never"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "P-I-P spells …",
+      "options": [
+       "Pip",
+       "Pop",
+       "Pat"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "When your friend spells well, say: \"___!\"",
+      "options": [
+       "Well done",
+       "Oh no",
+       "Too bad"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Spell your name and surname for your partner. They write it and show you. Correct? Now spell your favourite animal!"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write the names of 4 people in your family and spell them in letters: M-A-M-A…"
+  }
+ ]
 }

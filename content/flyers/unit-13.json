@@ -1,53 +1,230 @@
 {
-  "id": "flyers-13", "level": "flyers", "number": 13,
-  "title": "Getting around town", "topic": "transport",
-  "grammar": "how + transport / by + vehicle",
-  "wordlist": ["bicycle", "motorway", "platform", "railway", "taxi", "tram", "ambulance", "fire engine", "helicopter", "traffic"],
-  "exam_focus": { "paper": "Listening", "part": 1, "skill": "identify vehicles" },
-  "characters": ["ingrid", "diego"],
-  "scene": { "speaker": "ingrid", "pose": { "ingrid": 2, "diego": 5 },
-    "bubble": "Mission: cross the whole city in one hour using four kinds of transport. Ready, Diego?" },
-  "activities": [
-    { "code": "A", "type": "crossword", "title": "Read the sentences and write the transport words.",
-      "outputs": ["book", "digital"],
-      "data": { "words": [
-        { "word": "BICYCLE", "clue": "It has two wheels and you pedal it." },
-        { "word": "TAXI", "clue": "A car with a driver that you pay." },
-        { "word": "TRAM", "clue": "Like a small train that goes through city streets." },
-        { "word": "AMBULANCE", "clue": "It takes ill people to hospital, fast!" },
-        { "word": "HELICOPTER", "clue": "It flies straight up and has no wings." },
-        { "word": "PLATFORM", "clue": "You wait here for the train at the station." } ] } },
-    { "code": "B", "type": "match_words", "title": "Match the vehicle with its job.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Vehicle", "right_label": "Its job",
-        "pairs": [
-          { "left": "an ambulance", "right": "takes people to hospital" },
-          { "left": "a fire engine", "right": "carries the firefighters" },
-          { "left": "a tram", "right": "crosses the city on rails" },
-          { "left": "a taxi", "right": "takes you where you ask" },
-          { "left": "a helicopter", "right": "lands on the hospital roof" },
-          { "left": "a bicycle", "right": "is the quietest and cleanest" } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to the city mission. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "flyers/u13-c.mp3",
-      "data": { "voice_note": "Voces: Ingrid (capitana) y Diego (narrando en vivo).",
-        "script": "Diego: The mission starts at the school gate! First we go by bicycle to the river. … Ingrid: Ten minutes, well done. Now the tram — platform two! … Diego: The tram is green and very full. We stand next to a man with a big dog. … Ingrid: Next: we walk over the old bridge and take a taxi. … Diego: Our taxi driver is called Pedro. There's a lot of traffic on the motorway! … Ingrid: Last part — the boat across the bay! … Diego: We arrive at the lighthouse in fifty-eight minutes. Mission complete!",
-        "questions": [
-          { "q": "First they go to the river by …", "answer": "bicycle" },
-          { "q": "The tram leaves from platform …", "answer": "two" },
-          { "q": "The taxi driver is called …", "answer": "Pedro" },
-          { "q": "There is a lot of traffic on the …", "answer": "motorway" },
-          { "q": "They arrive at the lighthouse in fifty-eight …", "answer": "minutes" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "You wait for the train on the …", "options": ["platform", "roof", "balcony"], "answer": 0 },
-          { "sentence": "A big fast road between cities is a …", "options": ["railway", "motorway", "corner"], "answer": 1 },
-          { "sentence": "When there are too many cars, there is a lot of …", "options": ["traffic", "weather", "homework"], "answer": 0 },
-          { "sentence": "We went to the airport ___ taxi.", "options": ["on", "by", "at"], "answer": 1 },
-          { "sentence": "Trains travel on the …", "options": ["railway", "balcony", "stairs"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Plan a route: how do you go from school to the beach using exactly three kinds of transport? Explain it: \"First by bus, then…\" Compare with another pair — whose route is faster?" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write how 3 people in your family go to work or school: My mum goes to work by… It takes… minutes." } ]
+ "id": "flyers-13",
+ "level": "flyers",
+ "number": 13,
+ "title": "Getting around town",
+ "topic": "transport",
+ "grammar": "how + transport / by + vehicle",
+ "wordlist": [
+  "bicycle",
+  "motorway",
+  "platform",
+  "railway",
+  "taxi",
+  "tram",
+  "ambulance",
+  "fire engine",
+  "helicopter",
+  "traffic"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 1,
+  "skill": "identify vehicles"
+ },
+ "characters": [
+  "ingrid",
+  "diego"
+ ],
+ "scene": {
+  "speaker": "ingrid",
+  "pose": {
+   "ingrid": 2,
+   "diego": 5
+  },
+  "bubble": "Mission: cross the whole city in one hour using four kinds of transport. Ready, Diego?"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Read the sentences and write the transport words.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "BICYCLE",
+      "clue": "It has two wheels and you pedal it."
+     },
+     {
+      "word": "TAXI",
+      "clue": "A car with a driver that you pay."
+     },
+     {
+      "word": "TRAM",
+      "clue": "Like a small train that goes through city streets."
+     },
+     {
+      "word": "AMBULANCE",
+      "clue": "It takes ill people to hospital, fast!"
+     },
+     {
+      "word": "HELICOPTER",
+      "clue": "It flies straight up and has no wings."
+     },
+     {
+      "word": "PLATFORM",
+      "clue": "You wait here for the train at the station."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Match the vehicle with its job.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Vehicle",
+    "right_label": "Its job",
+    "pairs": [
+     {
+      "left": "an ambulance",
+      "right": "takes people to hospital"
+     },
+     {
+      "left": "a fire engine",
+      "right": "carries the firefighters"
+     },
+     {
+      "left": "a tram",
+      "right": "crosses the city on rails"
+     },
+     {
+      "left": "a taxi",
+      "right": "takes you where you ask"
+     },
+     {
+      "left": "a helicopter",
+      "right": "lands on the hospital roof"
+     },
+     {
+      "left": "a bicycle",
+      "right": "is the quietest and cleanest"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to the city mission. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u13-c.mp3",
+   "data": {
+    "voice_note": "Voces: Ingrid (capitana) y Diego (narrando en vivo).",
+    "script": "Diego: The mission starts at the school gate! First we go by bicycle to the river. … Ingrid: Ten minutes, well done. Now the tram — platform two! … Diego: The tram is green and very full. We stand next to a man with a big dog. … Ingrid: Next: we walk over the old bridge and take a taxi. … Diego: Our taxi driver is called Pedro. There's a lot of traffic on the motorway! … Ingrid: Last part — the boat across the bay! … Diego: We arrive at the lighthouse in fifty-eight minutes. Mission complete!",
+    "questions": [
+     {
+      "q": "First they go to the river by …",
+      "answer": "bicycle"
+     },
+     {
+      "q": "The tram leaves from platform …",
+      "answer": "two"
+     },
+     {
+      "q": "The taxi driver is called …",
+      "answer": "Pedro"
+     },
+     {
+      "q": "There is a lot of traffic on the …",
+      "answer": "motorway"
+     },
+     {
+      "q": "They arrive at the lighthouse in fifty-eight …",
+      "answer": "minutes"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "You wait for the train on the …",
+      "options": [
+       "platform",
+       "roof",
+       "balcony"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "A big fast road between cities is a …",
+      "options": [
+       "railway",
+       "motorway",
+       "corner"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "When there are too many cars, there is a lot of …",
+      "options": [
+       "traffic",
+       "weather",
+       "homework"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "We went to the airport ___ taxi.",
+      "options": [
+       "on",
+       "by",
+       "at"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Trains travel on the …",
+      "options": [
+       "railway",
+       "balcony",
+       "stairs"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Plan a route: how do you go from school to the beach using exactly three kinds of transport? Explain it: \"First by bus, then…\" Compare with another pair — whose route is faster?"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write how 3 people in your family go to work or school: My mum goes to work by… It takes… minutes."
+  }
+ ]
 }

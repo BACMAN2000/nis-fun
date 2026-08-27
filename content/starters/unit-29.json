@@ -1,52 +1,226 @@
 {
-  "id": "starters-29", "level": "starters", "number": 29,
-  "title": "The street", "topic": "street",
-  "grammar": "seguridad vial + imperativos",
-  "wordlist": ["street", "car", "bus", "bike", "lorry", "motorbike", "shop", "light", "cross", "careful"],
-  "exam_focus": { "paper": "Listening", "part": 1, "skill": "street things" },
-  "characters": ["astrid", "tomas"],
-  "scene": { "speaker": "astrid", "pose": { "astrid": 2, "tomas": 1 },
-    "bubble": "Street rules: stop, look, listen… and cross with the green light. Safety first, explorers!" },
-  "activities": [
-    { "code": "A", "type": "crossword", "title": "Write the street words.",
-      "outputs": ["book", "digital"],
-      "data": { "words": [
-        { "word": "CAR", "clue": "It has four wheels and a horn. Beep beep!" },
-        { "word": "BUS", "clue": "It is big and carries many people." },
-        { "word": "BIKE", "clue": "It has two wheels and you pedal." },
-        { "word": "SHOP", "clue": "You buy things here." },
-        { "word": "STREET", "clue": "Cars and buses go on it." } ] } },
-    { "code": "B", "type": "match_words", "title": "Match the rule with the reason.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Rule", "right_label": "Reason",
-        "pairs": [
-          { "left": "Stop at the red light.", "right": "cars are passing" },
-          { "left": "Cross with the green light.", "right": "it is your turn" },
-          { "left": "Look both ways.", "right": "to see all the cars" },
-          { "left": "Hold a big hand.", "right": "small explorers cross with adults" },
-          { "left": "Walk, don't run.", "right": "running is dangerous here" },
-          { "left": "Wear a helmet on your bike.", "right": "it keeps your head safe" } ] } },
-    { "code": "C", "type": "listening", "title": "Listen on the street. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "starters/u29-c.mp3",
-      "data": { "voice_note": "Voces: Astrid (cuidadosa) y Tomás (aprendiendo).",
-        "script": "Astrid: We're going to the shop. Street rules, Tomás! … Tomas: Stop at the corner… look left, look right! … Astrid: The light is red. We wait. … Tomas: Now it's green! We cross. … Astrid: Look, a big yellow lorry! And two motorbikes. … Tomas: The shop is next to the bakery. Mmm, bread! … Astrid: We buy milk and eggs… and one little bread for the walk home. … Tomas: Street rules AND bread. Perfect trip!",
-        "questions": [
-          { "q": "They stop at the …", "answer": "corner" },
-          { "q": "They cross with the … light.", "answer": "green" },
-          { "q": "The big lorry is …", "answer": "yellow" },
-          { "q": "The shop is next to the …", "answer": "bakery" },
-          { "q": "They buy milk and …", "answer": "eggs" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "Red light means …", "options": ["stop", "go", "sing"], "answer": 0 },
-          { "sentence": "Green light means you can …", "options": ["cross", "sleep", "shout"], "answer": 0 },
-          { "sentence": "A ___ is bigger than a car.", "options": ["bus", "bike", "cat"], "answer": 0 },
-          { "sentence": "Be ___ on the street!", "options": ["careful", "dirty", "funny"], "answer": 0 },
-          { "sentence": "On your bike, wear a …", "options": ["helmet", "hat only", "scarf"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Play the crossing game: one is the traffic light (says red! green!), the other walks or stops. Then swap. Always look both ways!" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write 3 street rules in English and draw a traffic light. Teach them to someone at home!" } ]
+ "id": "starters-29",
+ "level": "starters",
+ "number": 29,
+ "title": "The street",
+ "topic": "street",
+ "grammar": "seguridad vial + imperativos",
+ "wordlist": [
+  "street",
+  "car",
+  "bus",
+  "bike",
+  "lorry",
+  "motorbike",
+  "shop",
+  "light",
+  "cross",
+  "careful"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 1,
+  "skill": "street things"
+ },
+ "characters": [
+  "astrid",
+  "tomas"
+ ],
+ "scene": {
+  "speaker": "astrid",
+  "pose": {
+   "astrid": 2,
+   "tomas": 1
+  },
+  "bubble": "Street rules: stop, look, listen… and cross with the green light. Safety first, explorers!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Write the street words.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "CAR",
+      "clue": "It has four wheels and a horn. Beep beep!"
+     },
+     {
+      "word": "BUS",
+      "clue": "It is big and carries many people."
+     },
+     {
+      "word": "BIKE",
+      "clue": "It has two wheels and you pedal."
+     },
+     {
+      "word": "SHOP",
+      "clue": "You buy things here."
+     },
+     {
+      "word": "STREET",
+      "clue": "Cars and buses go on it."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Match the rule with the reason.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Rule",
+    "right_label": "Reason",
+    "pairs": [
+     {
+      "left": "Stop at the red light.",
+      "right": "cars are passing"
+     },
+     {
+      "left": "Cross with the green light.",
+      "right": "it is your turn"
+     },
+     {
+      "left": "Look both ways.",
+      "right": "to see all the cars"
+     },
+     {
+      "left": "Hold a big hand.",
+      "right": "small explorers cross with adults"
+     },
+     {
+      "left": "Walk, don't run.",
+      "right": "running is dangerous here"
+     },
+     {
+      "left": "Wear a helmet on your bike.",
+      "right": "it keeps your head safe"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen on the street. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u29-c.mp3",
+   "data": {
+    "voice_note": "Voces: Astrid (cuidadosa) y Tomás (aprendiendo).",
+    "script": "Astrid: We're going to the shop. Street rules, Tomás! … Tomas: Stop at the corner… look left, look right! … Astrid: The light is red. We wait. … Tomas: Now it's green! We cross. … Astrid: Look, a big yellow lorry! And two motorbikes. … Tomas: The shop is next to the bakery. Mmm, bread! … Astrid: We buy milk and eggs… and one little bread for the walk home. … Tomas: Street rules AND bread. Perfect trip!",
+    "questions": [
+     {
+      "q": "They stop at the …",
+      "answer": "corner"
+     },
+     {
+      "q": "They cross with the … light.",
+      "answer": "green"
+     },
+     {
+      "q": "The big lorry is …",
+      "answer": "yellow"
+     },
+     {
+      "q": "The shop is next to the …",
+      "answer": "bakery"
+     },
+     {
+      "q": "They buy milk and …",
+      "answer": "eggs"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "Red light means …",
+      "options": [
+       "stop",
+       "go",
+       "sing"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Green light means you can …",
+      "options": [
+       "cross",
+       "sleep",
+       "shout"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "A ___ is bigger than a car.",
+      "options": [
+       "bus",
+       "bike",
+       "cat"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Be ___ on the street!",
+      "options": [
+       "careful",
+       "dirty",
+       "funny"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "On your bike, wear a …",
+      "options": [
+       "helmet",
+       "hat only",
+       "scarf"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Play the crossing game: one is the traffic light (says red! green!), the other walks or stops. Then swap. Always look both ways!"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write 3 street rules in English and draw a traffic light. Teach them to someone at home!"
+  }
+ ]
 }

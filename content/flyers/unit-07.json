@@ -1,53 +1,230 @@
 {
-  "id": "flyers-07", "level": "flyers", "number": 7,
-  "title": "Breakfast, lunch and dinner", "topic": "food",
-  "grammar": "countable / uncountable",
-  "wordlist": ["butter", "cereal", "flour", "honey", "jam", "pepper", "salt", "sugar", "yoghurt", "snack"],
-  "exam_focus": { "paper": "Reading & Writing", "part": 1, "skill": "definitions" },
-  "characters": ["diego", "maya"],
-  "scene": { "speaker": "diego", "pose": { "diego": 3, "maya": 1 },
-    "bubble": "Report from the school kitchen: today's mystery — who put salt in the sugar pot?!" },
-  "activities": [
-    { "code": "A", "type": "crossword", "title": "Read the sentences and write the food words.",
-      "outputs": ["book", "digital"],
-      "data": { "words": [
-        { "word": "CEREAL", "clue": "Many children eat this with milk for breakfast." },
-        { "word": "HONEY", "clue": "It is sweet and yellow. Bees make it." },
-        { "word": "YOGHURT", "clue": "It is white and cold. It is made from milk." },
-        { "word": "BUTTER", "clue": "It is yellow. You put it on bread." },
-        { "word": "SUGAR", "clue": "It is white and very sweet. Some people put it in tea." },
-        { "word": "FLOUR", "clue": "It is white powder. You need it to make bread and cakes." } ] } },
-    { "code": "B", "type": "match_words", "title": "Match the food with the meal.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Food", "right_label": "When",
-        "pairs": [
-          { "left": "cereal with milk", "right": "breakfast" },
-          { "left": "a cheese sandwich", "right": "lunch at school" },
-          { "left": "an apple at eleven", "right": "a snack" },
-          { "left": "rice and fish", "right": "dinner" },
-          { "left": "toast with jam", "right": "Sunday morning" },
-          { "left": "a glass of warm milk", "right": "before bed" } ] } },
-    { "code": "C", "type": "listening", "title": "Listen. Maya explains her pancake breakfast. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "flyers/u07-c.mp3",
-      "data": { "voice_note": "Voces: Maya (científica) y Diego (reportero-goloso).",
-        "script": "Diego: Maya, what did you have for breakfast? … Maya: Pancakes! I made them myself, like a science experiment. … Diego: How do you make them? … Maya: Easy. You need flour, two eggs and a cup of milk. … Diego: No sugar? … Maya: A little. And a small spoon of salt — that's the secret! … Diego: What do you put on top? … Maya: Honey. Sometimes strawberry jam. … Diego: How many pancakes did you eat today? … Maya: Six! My stomach was very happy.",
-        "questions": [
-          { "q": "Maya had … for breakfast.", "answer": "pancakes" },
-          { "q": "You need flour, two … and a cup of milk.", "answer": "eggs" },
-          { "q": "The secret is a small spoon of …", "answer": "salt" },
-          { "q": "On top she puts honey or strawberry …", "answer": "jam" },
-          { "q": "Today Maya ate … pancakes.", "answer": "six" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "Bees make this sweet food.", "options": ["butter", "honey", "salt"], "answer": 1 },
-          { "sentence": "You need this white powder for cakes.", "options": ["flour", "pepper", "cereal"], "answer": 0 },
-          { "sentence": "\"Would you like ___ sugar in your tea?\"", "options": ["a", "some", "many"], "answer": 1 },
-          { "sentence": "A small meal between meals is a …", "options": ["snack", "dinner", "breakfast"], "answer": 0 },
-          { "sentence": "It is black or white and makes food spicy.", "options": ["jam", "yoghurt", "pepper"], "answer": 2 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Plan the perfect school lunch menu with your partner: one main dish, one drink, one dessert. Agree on everything — you can only choose things you BOTH like. Present it to the class." } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write what you eat on a normal day: For breakfast I have… For lunch… For dinner… (three sentences, use the wordlist)." } ]
+ "id": "flyers-07",
+ "level": "flyers",
+ "number": 7,
+ "title": "Breakfast, lunch and dinner",
+ "topic": "food",
+ "grammar": "countable / uncountable",
+ "wordlist": [
+  "butter",
+  "cereal",
+  "flour",
+  "honey",
+  "jam",
+  "pepper",
+  "salt",
+  "sugar",
+  "yoghurt",
+  "snack"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 1,
+  "skill": "definitions"
+ },
+ "characters": [
+  "diego",
+  "maya"
+ ],
+ "scene": {
+  "speaker": "diego",
+  "pose": {
+   "diego": 3,
+   "maya": 1
+  },
+  "bubble": "Report from the school kitchen: today's mystery — who put salt in the sugar pot?!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Read the sentences and write the food words.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "CEREAL",
+      "clue": "Many children eat this with milk for breakfast."
+     },
+     {
+      "word": "HONEY",
+      "clue": "It is sweet and yellow. Bees make it."
+     },
+     {
+      "word": "YOGHURT",
+      "clue": "It is white and cold. It is made from milk."
+     },
+     {
+      "word": "BUTTER",
+      "clue": "It is yellow. You put it on bread."
+     },
+     {
+      "word": "SUGAR",
+      "clue": "It is white and very sweet. Some people put it in tea."
+     },
+     {
+      "word": "FLOUR",
+      "clue": "It is white powder. You need it to make bread and cakes."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Match the food with the meal.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Food",
+    "right_label": "When",
+    "pairs": [
+     {
+      "left": "cereal with milk",
+      "right": "breakfast"
+     },
+     {
+      "left": "a cheese sandwich",
+      "right": "lunch at school"
+     },
+     {
+      "left": "an apple at eleven",
+      "right": "a snack"
+     },
+     {
+      "left": "rice and fish",
+      "right": "dinner"
+     },
+     {
+      "left": "toast with jam",
+      "right": "Sunday morning"
+     },
+     {
+      "left": "a glass of warm milk",
+      "right": "before bed"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen. Maya explains her pancake breakfast. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u07-c.mp3",
+   "data": {
+    "voice_note": "Voces: Maya (científica) y Diego (reportero-goloso).",
+    "script": "Diego: Maya, what did you have for breakfast? … Maya: Pancakes! I made them myself, like a science experiment. … Diego: How do you make them? … Maya: Easy. You need flour, two eggs and a cup of milk. … Diego: No sugar? … Maya: A little. And a small spoon of salt — that's the secret! … Diego: What do you put on top? … Maya: Honey. Sometimes strawberry jam. … Diego: How many pancakes did you eat today? … Maya: Six! My stomach was very happy.",
+    "questions": [
+     {
+      "q": "Maya had … for breakfast.",
+      "answer": "pancakes"
+     },
+     {
+      "q": "You need flour, two … and a cup of milk.",
+      "answer": "eggs"
+     },
+     {
+      "q": "The secret is a small spoon of …",
+      "answer": "salt"
+     },
+     {
+      "q": "On top she puts honey or strawberry …",
+      "answer": "jam"
+     },
+     {
+      "q": "Today Maya ate … pancakes.",
+      "answer": "six"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "Bees make this sweet food.",
+      "options": [
+       "butter",
+       "honey",
+       "salt"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "You need this white powder for cakes.",
+      "options": [
+       "flour",
+       "pepper",
+       "cereal"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"Would you like ___ sugar in your tea?\"",
+      "options": [
+       "a",
+       "some",
+       "many"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "A small meal between meals is a …",
+      "options": [
+       "snack",
+       "dinner",
+       "breakfast"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "It is black or white and makes food spicy.",
+      "options": [
+       "jam",
+       "yoghurt",
+       "pepper"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Plan the perfect school lunch menu with your partner: one main dish, one drink, one dessert. Agree on everything — you can only choose things you BOTH like. Present it to the class."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write what you eat on a normal day: For breakfast I have… For lunch… For dinner… (three sentences, use the wordlist)."
+  }
+ ]
 }

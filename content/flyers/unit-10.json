@@ -1,53 +1,251 @@
 {
-  "id": "flyers-10", "level": "flyers", "number": 10,
-  "title": "Whose is it?", "topic": "possessives",
-  "grammar": "whose + possessive 's / mine, yours",
-  "wordlist": ["mine", "yours", "his", "hers", "ours", "theirs", "whose", "belong"],
-  "exam_focus": { "paper": "Listening", "part": 1, "skill": "identify objects" },
-  "characters": ["kili", "diego"],
-  "scene": { "speaker": "diego", "pose": { "diego": 2, "kili": 2 },
-    "bubble": "Breaking news: Kili's lost-and-found box is FULL. Whose are all these things?" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the question with the answer.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Question", "right_label": "Answer",
-        "pairs": [
-          { "left": "Whose guitar is this?", "right": "It's Oliver's. It's his." },
-          { "left": "Whose glasses are these?", "right": "They're Maya's. They're hers." },
-          { "left": "Whose map is this?", "right": "It's Ingrid's. It's hers." },
-          { "left": "Whose microphone is this?", "right": "It's Diego's. It's his." },
-          { "left": "Whose classroom is this?", "right": "It's our class's. It's ours." },
-          { "left": "Whose feathers are these?", "right": "They're Kili's!" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Choose the correct possessive.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "This umbrella isn't ___. Mine is red.", "options": ["mine", "my", "me"], "answer": 0 },
-          { "sentence": "Is this pencil ___, Diego?", "options": ["your", "yours", "you"], "answer": 1 },
-          { "sentence": "That's Maya's coat. It's ___.", "options": ["his", "hers", "theirs"], "answer": 1 },
-          { "sentence": "___ bag is this? — It's Oliver's.", "options": ["Who", "Whose", "Which"], "answer": 1 },
-          { "sentence": "These books belong to my parents. They're ___.", "options": ["ours", "hers", "theirs"], "answer": 2 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen. Diego finds the owners. Write a name in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "flyers/u10-c.mp3",
-      "data": { "voice_note": "Voces: Diego (detective) y Kili (asistente con la caja).",
-        "script": "Diego: First object: a blue scarf with white stars. … Diego: That's easy — it's Ingrid's! She wears it every winter. … Diego: Next: small round glasses. … Diego: They're Maya's, of course. She can't read without them. … Diego: A guitar pick, orange like a carrot… … Diego: That's Oliver's! His whole collection is orange. … Diego: A little bell on a red ribbon? … Diego: Kili, that's yours! It's from your mail bag! … Diego: And the last thing… a torch. Hmm. Oh! It's mine! I lost it last month!",
-        "questions": [
-          { "q": "The blue scarf with stars is …'s.", "answer": "Ingrid" },
-          { "q": "The round glasses are …'s.", "answer": "Maya" },
-          { "q": "The orange guitar pick is …'s.", "answer": "Oliver" },
-          { "q": "The little bell is …'s.", "answer": "Kili" },
-          { "q": "The torch is …'s.", "answer": "Diego" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "This is my sister's room. It's ___ room.", "options": ["her", "hers", "she"], "answer": 0 },
-          { "sentence": "The classroom is ___ — it belongs to all of us.", "options": ["ours", "mine", "his"], "answer": 0 },
-          { "sentence": "___ shoes are these by the door?", "options": ["Who's", "Whose", "Which"], "answer": 1 },
-          { "sentence": "That's not your kite. It's ___!", "options": ["my", "me", "mine"], "answer": 2 },
-          { "sentence": "This nest belongs to Kili. It's ___ nest.", "options": ["his", "her", "their"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Each student puts one small object on the desk (a pencil, a key ring…). Mix them. Take turns asking: \"Whose is this?\" — \"I think it's Carla's.\" Check with the owner!" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write 4 sentences about things in your house and their owners: The red mug is my dad's. The plants are my grandma's." } ]
+ "id": "flyers-10",
+ "level": "flyers",
+ "number": 10,
+ "title": "Whose is it?",
+ "topic": "possessives",
+ "grammar": "whose + possessive 's / mine, yours",
+ "wordlist": [
+  "mine",
+  "yours",
+  "his",
+  "hers",
+  "ours",
+  "theirs",
+  "whose",
+  "belong"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 1,
+  "skill": "identify objects"
+ },
+ "characters": [
+  "kili",
+  "diego"
+ ],
+ "scene": {
+  "speaker": "diego",
+  "pose": {
+   "diego": 2,
+   "kili": 2
+  },
+  "bubble": "Breaking news: Kili's lost-and-found box is FULL. Whose are all these things?"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the question with the answer.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Question",
+    "right_label": "Answer",
+    "pairs": [
+     {
+      "left": "Whose guitar is this?",
+      "right": "It's Oliver's. It's his."
+     },
+     {
+      "left": "Whose glasses are these?",
+      "right": "They're Maya's. They're hers."
+     },
+     {
+      "left": "Whose map is this?",
+      "right": "It's Ingrid's. It's hers."
+     },
+     {
+      "left": "Whose microphone is this?",
+      "right": "It's Diego's. It's his."
+     },
+     {
+      "left": "Whose classroom is this?",
+      "right": "It's our class's. It's ours."
+     },
+     {
+      "left": "Whose feathers are these?",
+      "right": "They're Kili's!"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choose the correct possessive.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "This umbrella isn't ___. Mine is red.",
+      "options": [
+       "mine",
+       "my",
+       "me"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Is this pencil ___, Diego?",
+      "options": [
+       "your",
+       "yours",
+       "you"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "That's Maya's coat. It's ___.",
+      "options": [
+       "his",
+       "hers",
+       "theirs"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "___ bag is this? — It's Oliver's.",
+      "options": [
+       "Who",
+       "Whose",
+       "Which"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "These books belong to my parents. They're ___.",
+      "options": [
+       "ours",
+       "hers",
+       "theirs"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen. Diego finds the owners. Write a name in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u10-c.mp3",
+   "data": {
+    "voice_note": "Voces: Diego (detective) y Kili (asistente con la caja).",
+    "script": "Diego: First object: a blue scarf with white stars. … Diego: That's easy — it's Ingrid's! She wears it every winter. … Diego: Next: small round glasses. … Diego: They're Maya's, of course. She can't read without them. … Diego: A guitar pick, orange like a carrot… … Diego: That's Oliver's! His whole collection is orange. … Diego: A little bell on a red ribbon? … Diego: Kili, that's yours! It's from your mail bag! … Diego: And the last thing… a torch. Hmm. Oh! It's mine! I lost it last month!",
+    "questions": [
+     {
+      "q": "The blue scarf with stars is …'s.",
+      "answer": "Ingrid"
+     },
+     {
+      "q": "The round glasses are …'s.",
+      "answer": "Maya"
+     },
+     {
+      "q": "The orange guitar pick is …'s.",
+      "answer": "Oliver"
+     },
+     {
+      "q": "The little bell is …'s.",
+      "answer": "Kili"
+     },
+     {
+      "q": "The torch is …'s.",
+      "answer": "Diego"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "This is my sister's room. It's ___ room.",
+      "options": [
+       "her",
+       "hers",
+       "she"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The classroom is ___ — it belongs to all of us.",
+      "options": [
+       "ours",
+       "mine",
+       "his"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___ shoes are these by the door?",
+      "options": [
+       "Who's",
+       "Whose",
+       "Which"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "That's not your kite. It's ___!",
+      "options": [
+       "my",
+       "me",
+       "mine"
+      ],
+      "answer": 2
+     },
+     {
+      "sentence": "This nest belongs to Kili. It's ___ nest.",
+      "options": [
+       "his",
+       "her",
+       "their"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Each student puts one small object on the desk (a pencil, a key ring…). Mix them. Take turns asking: \"Whose is this?\" — \"I think it's Carla's.\" Check with the owner!"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write 4 sentences about things in your house and their owners: The red mug is my dad's. The plants are my grandma's."
+  }
+ ]
 }

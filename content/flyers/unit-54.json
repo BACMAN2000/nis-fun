@@ -1,53 +1,253 @@
 {
-  "id": "flyers-54", "level": "flyers", "number": 54,
-  "title": "Exam day: Reading & Writing", "topic": "exam practice",
-  "grammar": "estrategias para Reading & Writing",
-  "wordlist": ["text", "title", "paragraph", "underline", "copy", "capital letter", "full stop", "word limit", "answer sheet", "time"],
-  "exam_focus": { "paper": "Reading & Writing", "part": 7, "skill": "estrategia general" },
-  "characters": ["ingrid", "diego"],
-  "scene": { "speaker": "ingrid", "pose": { "ingrid": 2, "diego": 6 },
-    "bubble": "Reading & Writing: 40 minutes, 7 parts. The golden rule: copy the words EXACTLY as they appear!" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the writing word with its meaning.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Word", "right_label": "Meaning",
-        "pairs": [
-          { "left": "a title", "right": "the name at the top of a text" },
-          { "left": "a paragraph", "right": "a group of sentences together" },
-          { "left": "a capital letter", "right": "A, B, C — big letters for names" },
-          { "left": "a full stop", "right": "the dot at the end of a sentence" },
-          { "left": "to underline", "right": "to draw a line under a word" },
-          { "left": "to copy", "right": "to write exactly the same" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Choose the best exam strategy.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "What should you do?",
-        "items": [
-          { "sentence": "The answer in the text is \"an old castle\". You write…", "options": ["an old castle", "a castle old", "old kastle"], "answer": 0 },
-          { "sentence": "You don't know a word in the text. You should…", "options": ["guess it from the other words", "stop reading", "invent a new question"], "answer": 0 },
-          { "sentence": "In the story part, names always start with…", "options": ["a capital letter", "a full stop", "a number"], "answer": 0 },
-          { "sentence": "The question says \"write ONE word\". You write…", "options": ["exactly one word", "two, to be safe", "a full sentence"], "answer": 0 },
-          { "sentence": "You have 5 minutes left. You should…", "options": ["check answers and complete gaps", "start drawing", "leave early"], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to the exam-day morning. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "flyers/u54-c.mp3",
-      "data": { "voice_note": "Voces: Ingrid (repasando el plan) y Diego (nervioso pero listo).",
-        "script": "Ingrid: Exam day plan! Wake up at seven — no later. … Diego: Alarm set. Two alarms, as always! … Ingrid: Good breakfast: eggs, bread and fruit. The brain needs fuel. … Ingrid: We arrive at the school at eight thirty, forty minutes early. … Diego: I'll bring three sharp pencils and one eraser. … Ingrid: In the exam: read the instructions twice, answer everything, check the spelling. … Diego: And after the exam? … Ingrid: After the exam… ice cream with the whole team. Captain's orders! … Diego: That's the best part of the plan!",
-        "questions": [
-          { "q": "Wake up at … — no later.", "answer": "seven" },
-          { "q": "Breakfast: eggs, bread and …", "answer": "fruit" },
-          { "q": "They arrive at eight thirty, … minutes early.", "answer": "forty" },
-          { "q": "Diego brings three sharp …", "answer": "pencils" },
-          { "q": "After the exam: … with the team.", "answer": "ice cream" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "A sentence ends with a …", "options": ["full stop", "vowel", "title"], "answer": 0 },
-          { "sentence": "London, Kili and Peru start with a ___ letter.", "options": ["capital", "small", "silent"], "answer": 0 },
-          { "sentence": "Write your answers on the answer …", "options": ["sheet", "shelf", "ship"], "answer": 0 },
-          { "sentence": "A long text is divided into …", "options": ["paragraphs", "pencils", "prizes"], "answer": 0 },
-          { "sentence": "___ the key words in the question to focus.", "options": ["Underline", "Delete", "Sing"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Teach-back: explain to your partner the 3 most useful exam tips you learned in units 53-54, in English. They add one more. Now you're both ready!" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Make your exam-day checklist in English (6 items): pencils, water, arrive early… Draw a box to tick each one." } ]
+ "id": "flyers-54",
+ "level": "flyers",
+ "number": 54,
+ "title": "Exam day: Reading & Writing",
+ "topic": "exam practice",
+ "grammar": "estrategias para Reading & Writing",
+ "wordlist": [
+  "text",
+  "title",
+  "paragraph",
+  "underline",
+  "copy",
+  "capital letter",
+  "full stop",
+  "word limit",
+  "answer sheet",
+  "time"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 7,
+  "skill": "estrategia general"
+ },
+ "characters": [
+  "ingrid",
+  "diego"
+ ],
+ "scene": {
+  "speaker": "ingrid",
+  "pose": {
+   "ingrid": 2,
+   "diego": 6
+  },
+  "bubble": "Reading & Writing: 40 minutes, 7 parts. The golden rule: copy the words EXACTLY as they appear!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the writing word with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "a title",
+      "right": "the name at the top of a text"
+     },
+     {
+      "left": "a paragraph",
+      "right": "a group of sentences together"
+     },
+     {
+      "left": "a capital letter",
+      "right": "A, B, C — big letters for names"
+     },
+     {
+      "left": "a full stop",
+      "right": "the dot at the end of a sentence"
+     },
+     {
+      "left": "to underline",
+      "right": "to draw a line under a word"
+     },
+     {
+      "left": "to copy",
+      "right": "to write exactly the same"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choose the best exam strategy.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "What should you do?",
+    "items": [
+     {
+      "sentence": "The answer in the text is \"an old castle\". You write…",
+      "options": [
+       "an old castle",
+       "a castle old",
+       "old kastle"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "You don't know a word in the text. You should…",
+      "options": [
+       "guess it from the other words",
+       "stop reading",
+       "invent a new question"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "In the story part, names always start with…",
+      "options": [
+       "a capital letter",
+       "a full stop",
+       "a number"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The question says \"write ONE word\". You write…",
+      "options": [
+       "exactly one word",
+       "two, to be safe",
+       "a full sentence"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "You have 5 minutes left. You should…",
+      "options": [
+       "check answers and complete gaps",
+       "start drawing",
+       "leave early"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to the exam-day morning. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u54-c.mp3",
+   "data": {
+    "voice_note": "Voces: Ingrid (repasando el plan) y Diego (nervioso pero listo).",
+    "script": "Ingrid: Exam day plan! Wake up at seven — no later. … Diego: Alarm set. Two alarms, as always! … Ingrid: Good breakfast: eggs, bread and fruit. The brain needs fuel. … Ingrid: We arrive at the school at eight thirty, forty minutes early. … Diego: I'll bring three sharp pencils and one eraser. … Ingrid: In the exam: read the instructions twice, answer everything, check the spelling. … Diego: And after the exam? … Ingrid: After the exam… ice cream with the whole team. Captain's orders! … Diego: That's the best part of the plan!",
+    "questions": [
+     {
+      "q": "Wake up at … — no later.",
+      "answer": "seven"
+     },
+     {
+      "q": "Breakfast: eggs, bread and …",
+      "answer": "fruit"
+     },
+     {
+      "q": "They arrive at eight thirty, … minutes early.",
+      "answer": "forty"
+     },
+     {
+      "q": "Diego brings three sharp …",
+      "answer": "pencils"
+     },
+     {
+      "q": "After the exam: … with the team.",
+      "answer": "ice cream"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "A sentence ends with a …",
+      "options": [
+       "full stop",
+       "vowel",
+       "title"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "London, Kili and Peru start with a ___ letter.",
+      "options": [
+       "capital",
+       "small",
+       "silent"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Write your answers on the answer …",
+      "options": [
+       "sheet",
+       "shelf",
+       "ship"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "A long text is divided into …",
+      "options": [
+       "paragraphs",
+       "pencils",
+       "prizes"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___ the key words in the question to focus.",
+      "options": [
+       "Underline",
+       "Delete",
+       "Sing"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Teach-back: explain to your partner the 3 most useful exam tips you learned in units 53-54, in English. They add one more. Now you're both ready!"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Make your exam-day checklist in English (6 items): pencils, water, arrive early… Draw a box to tick each one."
+  }
+ ]
 }

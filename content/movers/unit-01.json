@@ -1,346 +1,347 @@
 {
-  "id": "movers-01",
-  "level": "movers",
-  "number": 1,
-  "title": "Our animal friends",
-  "topic": "animals",
-  "grammar": "comparatives: bigger / smaller than",
-  "wordlist": [
-    "bat",
-    "dolphin",
-    "kangaroo",
-    "lion",
-    "panda",
-    "parrot",
-    "penguin",
-    "shark",
-    "snail",
-    "whale"
-  ],
-  "exam_focus": {
-    "paper": "Reading & Writing",
-    "part": 1,
-    "skill": "definitions"
+ "id": "movers-01",
+ "level": "movers",
+ "number": 1,
+ "title": "Our animal friends",
+ "topic": "animals",
+ "grammar": "comparatives: bigger / smaller than",
+ "wordlist": [
+  "bat",
+  "dolphin",
+  "kangaroo",
+  "lion",
+  "panda",
+  "parrot",
+  "penguin",
+  "shark",
+  "snail",
+  "whale"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 1,
+  "skill": "definitions"
+ },
+ "characters": [
+  "valentina",
+  "erik"
+ ],
+ "scene": {
+  "speaker": "valentina",
+  "pose": {
+   "valentina": 3,
+   "erik": 5
   },
-  "characters": [
-    "valentina",
-    "erik"
-  ],
-  "scene": {
-    "speaker": "valentina",
-    "pose": {
-      "valentina": 3,
-      "erik": 5
-    },
-    "bubble": "Once upon a time, the Fjord Club went to the zoo. Erik, which animal do you want to see first?",
-    "intro": "The gates of the zoo open at nine, and the Fjord Club is first in line! Valentina wants to see the pandas eating their breakfast of bamboo, Erik brings a notebook to draw every animal, and Sofia has the map with all the paths. Which animal is bigger, a whale or a dolphin? Which one jumps higher, a kangaroo or a frog? Today we compare them all — and Luna waits at home, dreaming of a very big bone."
+  "bubble": "Once upon a time, the Fjord Club went to the zoo. Erik, which animal do you want to see first?",
+  "intro": "The gates of the zoo open at nine, and the Fjord Club is first in line! Valentina wants to see the pandas eating their breakfast of bamboo, Erik brings a notebook to draw every animal, and Sofia has the map with all the paths. Which animal is bigger, a whale or a dolphin? Which one jumps higher, a kangaroo or a frog? Today we compare them all — and Luna waits at home, dreaming of a very big bone."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Read the sentences and write the animals.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "DOLPHIN",
+      "row": 2,
+      "col": 0,
+      "dir": "across",
+      "clue": "A clever grey animal that jumps out of the sea."
+     },
+     {
+      "word": "LION",
+      "row": 2,
+      "col": 2,
+      "dir": "down",
+      "clue": "A big yellow cat. It is the king of the jungle."
+     },
+     {
+      "word": "PANDA",
+      "row": 2,
+      "col": 3,
+      "dir": "down",
+      "clue": "A black and white bear that eats bamboo."
+     },
+     {
+      "word": "PENGUIN",
+      "row": 0,
+      "col": 6,
+      "dir": "down",
+      "clue": "A black and white bird that swims but can't fly."
+     },
+     {
+      "word": "WHALE",
+      "row": 6,
+      "col": 1,
+      "dir": "across",
+      "clue": "The biggest animal in the sea."
+     }
+    ]
+   }
   },
-  "activities": [
-    {
-      "code": "A",
-      "type": "crossword",
-      "title": "Read the sentences and write the animals.",
-      "outputs": [
-        "book",
-        "digital"
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Match the animal with its special skill.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Animal",
+    "right_label": "What it does",
+    "pairs": [
+     {
+      "left": "bat",
+      "right": "flies at night"
+     },
+     {
+      "left": "kangaroo",
+      "right": "jumps with strong legs"
+     },
+     {
+      "left": "snail",
+      "right": "carries its house"
+     },
+     {
+      "left": "shark",
+      "right": "has very sharp teeth"
+     },
+     {
+      "left": "parrot",
+      "right": "can say words"
+     },
+     {
+      "left": "dolphin",
+      "right": "jumps out of the water"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen. Valentina tells Erik about the zoo. Write a word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u01-c.mp3",
+   "data": {
+    "voice_note": "Voces: Valentina (narradora, cálida) y Erik (inventor, curioso).",
+    "script": "Erik: Valentina, tell me about the zoo! … Valentina: It was great! First we saw the pandas. They were eating bamboo. … Erik: How many pandas were there? … Valentina: Two! A big one and a baby. … Erik: And what was your favourite animal? … Valentina: The dolphins! They jumped very high, higher than the fence! … Erik: Wow! Did you see the penguins? … Valentina: Yes, they were swimming in cold blue water. … Erik: I want to go too. Can we take Luna? … Valentina: No dogs at the zoo, Erik! Luna can wait at home with a big bone.",
+    "questions": [
+     {
+      "q": "The pandas were eating …",
+      "answer": "bamboo"
+     },
+     {
+      "q": "There were … pandas.",
+      "answer": "two"
+     },
+     {
+      "q": "Valentina's favourite animals were the …",
+      "answer": "dolphins"
+     },
+     {
+      "q": "The penguins were swimming in cold … water.",
+      "answer": "blue"
+     },
+     {
+      "q": "Luna waits at home with a big …",
+      "answer": "bone"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Read and choose the correct word, like in the exam.",
+    "items": [
+     {
+      "sentence": "A whale is ___ than a dolphin.",
+      "options": [
+       "big",
+       "bigger",
+       "biggest"
       ],
-      "data": {
-        "words": [
-          {
-            "word": "DOLPHIN",
-            "row": 2,
-            "col": 0,
-            "dir": "across",
-            "clue": "A clever grey animal that jumps out of the sea."
-          },
-          {
-            "word": "LION",
-            "row": 2,
-            "col": 2,
-            "dir": "down",
-            "clue": "A big yellow cat. It is the king of the jungle."
-          },
-          {
-            "word": "PANDA",
-            "row": 2,
-            "col": 3,
-            "dir": "down",
-            "clue": "A black and white bear that eats bamboo."
-          },
-          {
-            "word": "PENGUIN",
-            "row": 0,
-            "col": 6,
-            "dir": "down",
-            "clue": "A black and white bird that swims but can't fly."
-          },
-          {
-            "word": "WHALE",
-            "row": 6,
-            "col": 1,
-            "dir": "across",
-            "clue": "The biggest animal in the sea."
-          }
-        ]
-      }
-    },
-    {
-      "code": "B",
-      "type": "match_words",
-      "title": "Match the animal with its special skill.",
-      "outputs": [
-        "book",
-        "digital",
-        "quiz"
+      "answer": 1
+     },
+     {
+      "sentence": "A snail is ___ than a kangaroo.",
+      "options": [
+       "slower",
+       "slow",
+       "slowest"
       ],
-      "data": {
-        "left_label": "Animal",
-        "right_label": "What it does",
-        "pairs": [
-          {
-            "left": "bat",
-            "right": "flies at night"
-          },
-          {
-            "left": "kangaroo",
-            "right": "jumps with strong legs"
-          },
-          {
-            "left": "snail",
-            "right": "carries its house"
-          },
-          {
-            "left": "shark",
-            "right": "has very sharp teeth"
-          },
-          {
-            "left": "parrot",
-            "right": "can say words"
-          },
-          {
-            "left": "dolphin",
-            "right": "jumps out of the water"
-          }
-        ]
-      }
-    },
-    {
-      "code": "C",
-      "type": "listening",
-      "title": "Listen. Valentina tells Erik about the zoo. Write a word in each gap.",
-      "outputs": [
-        "digital",
-        "quiz"
+      "answer": 0
+     },
+     {
+      "sentence": "This animal flies at night.",
+      "options": [
+       "a shark",
+       "a bat",
+       "a panda"
       ],
-      "audio": "movers/u01-c.mp3",
-      "data": {
-        "voice_note": "Voces: Valentina (narradora, cálida) y Erik (inventor, curioso).",
-        "script": "Erik: Valentina, tell me about the zoo! … Valentina: It was great! First we saw the pandas. They were eating bamboo. … Erik: How many pandas were there? … Valentina: Two! A big one and a baby. … Erik: And what was your favourite animal? … Valentina: The dolphins! They jumped very high, higher than the fence! … Erik: Wow! Did you see the penguins? … Valentina: Yes, they were swimming in cold blue water. … Erik: I want to go too. Can we take Luna? … Valentina: No dogs at the zoo, Erik! Luna can wait at home with a big bone.",
-        "questions": [
-          {
-            "q": "The pandas were eating …",
-            "answer": "bamboo"
-          },
-          {
-            "q": "There were … pandas.",
-            "answer": "two"
-          },
-          {
-            "q": "Valentina's favourite animals were the …",
-            "answer": "dolphins"
-          },
-          {
-            "q": "The penguins were swimming in cold … water.",
-            "answer": "blue"
-          },
-          {
-            "q": "Luna waits at home with a big …",
-            "answer": "bone"
-          }
-        ]
-      }
-    },
-    {
-      "code": "D",
-      "type": "exam_task",
-      "title": "Exam task · Choose the correct word.",
-      "outputs": [
-        "book",
-        "digital",
-        "quiz"
+      "answer": 1
+     },
+     {
+      "sentence": "Penguins can ___ very well.",
+      "options": [
+       "fly",
+       "sing",
+       "swim"
       ],
-      "data": {
-        "instructions": "Read and choose the correct word, like in the exam.",
-        "items": [
-          {
-            "sentence": "A whale is ___ than a dolphin.",
-            "options": [
-              "big",
-              "bigger",
-              "biggest"
-            ],
-            "answer": 1
-          },
-          {
-            "sentence": "A snail is ___ than a kangaroo.",
-            "options": [
-              "slower",
-              "slow",
-              "slowest"
-            ],
-            "answer": 0
-          },
-          {
-            "sentence": "This animal flies at night.",
-            "options": [
-              "a shark",
-              "a bat",
-              "a panda"
-            ],
-            "answer": 1
-          },
-          {
-            "sentence": "Penguins can ___ very well.",
-            "options": [
-              "fly",
-              "sing",
-              "swim"
-            ],
-            "answer": 2
-          },
-          {
-            "sentence": "A lion is ___ than a cat.",
-            "options": [
-              "strongest",
-              "strong",
-              "stronger"
-            ],
-            "answer": 2
-          }
-        ]
-      }
-    },
-    {
-      "code": "F",
-      "type": "spot_diff",
-      "title": "Two pictures of the zoo. Find the differences!",
-      "outputs": [
-        "book",
-        "digital"
+      "answer": 2
+     },
+     {
+      "sentence": "A lion is ___ than a cat.",
+      "options": [
+       "strongest",
+       "strong",
+       "stronger"
       ],
-      "data": {
-        "sceneA": [
-          [
-            "🐼",
-            "🦁",
-            "🐧",
-            "🐬",
-            "🦘"
-          ],
-          [
-            "🌴",
-            "🌳",
-            "🍃",
-            "🪨",
-            "🌿"
-          ],
-          [
-            "🐍",
-            "🦜",
-            "🐒",
-            "🐢",
-            "🦩"
-          ]
-        ],
-        "sceneB": [
-          [
-            "🐼",
-            "🐯",
-            "🐧",
-            "🐬",
-            "🦘"
-          ],
-          [
-            "🌴",
-            "🌳",
-            "🍌",
-            "🪨",
-            "🌿"
-          ],
-          [
-            "🐊",
-            "🦜",
-            "🐒",
-            "🐢",
-            "🦚"
-          ]
-        ],
-        "diffs": [
-          [
-            0,
-            1
-          ],
-          [
-            1,
-            2
-          ],
-          [
-            2,
-            0
-          ],
-          [
-            2,
-            4
-          ]
-        ]
-      }
-    },
-    {
-      "code": "G",
-      "type": "gap_text",
-      "title": "Read about the trip. Write the missing words.",
-      "outputs": [
-        "book",
-        "digital",
-        "quiz"
-      ],
-      "data": {
-        "box": [
-          "pandas",
-          "dolphins",
-          "penguins",
-          "bamboo",
-          "bone",
-          "zoo",
-          "cats"
-        ],
-        "text": "Last Saturday the Fjord Club went to the {1}. First they saw the {2} — they were eating green {3} all the time! Then they watched the {4} jump higher than the fence. The {5} were swimming in very cold blue water. At home, Luna got a big {6} because she waited all day like a very good dog.",
-        "answers": [
-          "zoo",
-          "pandas",
-          "bamboo",
-          "dolphins",
-          "penguins",
-          "bone"
-        ]
-      }
-    },
-    {
-      "code": "E",
-      "type": "pairwork",
-      "title": "Speaking · In pairs",
-      "outputs": [
-        "book"
-      ],
-      "data": {
-        "text": "Student A thinks of an animal from the wordlist. Student B asks yes/no questions to guess it: \"Is it bigger than a dog? Can it swim?\" Maximum 5 questions, then swap."
-      }
-    }
-  ],
-  "homework": [
-    {
-      "type": "write_sentences",
-      "prompt": "Choose 3 animals from the wordlist. Write one comparative sentence about each: A shark is faster than a snail."
-    }
-  ]
+      "answer": 2
+     }
+    ]
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Two pictures of the zoo. Find the differences!",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "sceneA": [
+     [
+      "🐼",
+      "🦁",
+      "🐧",
+      "🐬",
+      "🦘"
+     ],
+     [
+      "🌴",
+      "🌳",
+      "🍃",
+      "🪨",
+      "🌿"
+     ],
+     [
+      "🐍",
+      "🦜",
+      "🐒",
+      "🐢",
+      "🦩"
+     ]
+    ],
+    "sceneB": [
+     [
+      "🐼",
+      "🐯",
+      "🐧",
+      "🐬",
+      "🦘"
+     ],
+     [
+      "🌴",
+      "🌳",
+      "🍌",
+      "🪨",
+      "🌿"
+     ],
+     [
+      "🐊",
+      "🦜",
+      "🐒",
+      "🐢",
+      "🦚"
+     ]
+    ],
+    "diffs": [
+     [
+      0,
+      1
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      2,
+      4
+     ]
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "gap_text",
+   "title": "Read about the trip. Write the missing words.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "pandas",
+     "dolphins",
+     "penguins",
+     "bamboo",
+     "bone",
+     "zoo",
+     "cats"
+    ],
+    "text": "Last Saturday the Fjord Club went to the {1}. First they saw the {2} — they were eating green {3} all the time! Then they watched the {4} jump higher than the fence. The {5} were swimming in very cold blue water. At home, Luna got a big {6} because she waited all day like a very good dog.",
+    "answers": [
+     "zoo",
+     "pandas",
+     "bamboo",
+     "dolphins",
+     "penguins",
+     "bone"
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Student A thinks of an animal from the wordlist. Student B asks yes/no questions to guess it: \"Is it bigger than a dog? Can it swim?\" Maximum 5 questions, then swap."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Choose 3 animals from the wordlist. Write one comparative sentence about each: A shark is faster than a snail."
+  }
+ ]
 }

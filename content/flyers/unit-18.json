@@ -1,53 +1,253 @@
 {
-  "id": "flyers-18", "level": "flyers", "number": 18,
-  "title": "What time is it?", "topic": "telling the time",
-  "grammar": "quarter past / half past / quarter to",
-  "wordlist": ["midnight", "midday", "quarter", "half past", "early", "late", "hurry", "o'clock", "minute", "alarm"],
-  "exam_focus": { "paper": "Listening", "part": 2, "skill": "note-taking" },
-  "characters": ["ingrid", "diego"],
-  "scene": { "speaker": "ingrid", "pose": { "ingrid": 2, "diego": 7 },
-    "bubble": "The expedition timetable is strict, Diego! Breakfast at quarter past seven — and you're LATE again!" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the clock time with the words.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Digital", "right_label": "In words",
-        "pairs": [
-          { "left": "7:15", "right": "quarter past seven" },
-          { "left": "7:30", "right": "half past seven" },
-          { "left": "7:45", "right": "quarter to eight" },
-          { "left": "12:00 at night", "right": "midnight" },
-          { "left": "12:00 in the day", "right": "midday" },
-          { "left": "9:00 exactly", "right": "nine o'clock" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Early or late? Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "School starts at 8:00. Diego arrives at 8:20. He is …", "options": ["early", "late", "ready"], "answer": 1 },
-          { "sentence": "The film starts at 6:00. We arrive at 5:40. We are …", "options": ["late", "early", "slow"], "answer": 1 },
-          { "sentence": "\"___ up! The bus leaves in two minutes!\"", "options": ["Hurry", "Sleep", "Sit"], "answer": 0 },
-          { "sentence": "My ___ clock rings at half past six.", "options": ["alarm", "wall", "sun"], "answer": 0 },
-          { "sentence": "Sixty seconds make one …", "options": ["hour", "minute", "day"], "answer": 1 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to the expedition timetable. Write a time or word in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "flyers/u18-c.mp3",
-      "data": { "voice_note": "Voces: Ingrid (leyendo el horario) y Diego (apuntando).",
-        "script": "Ingrid: Listen carefully, Diego. Breakfast is at quarter past seven. … Diego: Quarter past seven, got it. … Ingrid: The boat leaves at half past eight — if you're late, you swim! … Diego: Ha! And when do we reach the island? … Ingrid: At midday, if the sea is calm. … Diego: When is the picnic? … Ingrid: At one o'clock, on the beach. … Diego: And the trip home? … Ingrid: We sail back at quarter to five. Set your alarm! … Diego: Don't worry, captain. I'll set two alarms!",
-        "questions": [
-          { "q": "Breakfast is at quarter past …", "answer": "seven" },
-          { "q": "The boat leaves at half past …", "answer": "eight" },
-          { "q": "They reach the island at …", "answer": "midday" },
-          { "q": "The picnic is at one …", "answer": "o'clock" },
-          { "q": "Diego will set two …", "answer": "alarms" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "7:45 is quarter ___ eight.", "options": ["past", "to", "at"], "answer": 1 },
-          { "sentence": "12:00 at night is …", "options": ["midday", "midnight", "morning"], "answer": 1 },
-          { "sentence": "3:30 is ___ past three.", "options": ["quarter", "half", "ten"], "answer": 1 },
-          { "sentence": "The opposite of early is …", "options": ["late", "fast", "ready"], "answer": 0 },
-          { "sentence": "\"What time ___ it?\" — \"It's ten o'clock.\"", "options": ["are", "is", "does"], "answer": 1 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Student A draws a clock time on paper. Student B says it in words (\"It's quarter to four\") and tells one thing they do at that time. Five clocks each." } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write your Saturday in times: I wake up at… I have lunch at… Use quarter past / half past / quarter to at least twice." } ]
+ "id": "flyers-18",
+ "level": "flyers",
+ "number": 18,
+ "title": "What time is it?",
+ "topic": "telling the time",
+ "grammar": "quarter past / half past / quarter to",
+ "wordlist": [
+  "midnight",
+  "midday",
+  "quarter",
+  "half past",
+  "early",
+  "late",
+  "hurry",
+  "o'clock",
+  "minute",
+  "alarm"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 2,
+  "skill": "note-taking"
+ },
+ "characters": [
+  "ingrid",
+  "diego"
+ ],
+ "scene": {
+  "speaker": "ingrid",
+  "pose": {
+   "ingrid": 2,
+   "diego": 7
+  },
+  "bubble": "The expedition timetable is strict, Diego! Breakfast at quarter past seven — and you're LATE again!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the clock time with the words.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Digital",
+    "right_label": "In words",
+    "pairs": [
+     {
+      "left": "7:15",
+      "right": "quarter past seven"
+     },
+     {
+      "left": "7:30",
+      "right": "half past seven"
+     },
+     {
+      "left": "7:45",
+      "right": "quarter to eight"
+     },
+     {
+      "left": "12:00 at night",
+      "right": "midnight"
+     },
+     {
+      "left": "12:00 in the day",
+      "right": "midday"
+     },
+     {
+      "left": "9:00 exactly",
+      "right": "nine o'clock"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Early or late? Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "School starts at 8:00. Diego arrives at 8:20. He is …",
+      "options": [
+       "early",
+       "late",
+       "ready"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "The film starts at 6:00. We arrive at 5:40. We are …",
+      "options": [
+       "late",
+       "early",
+       "slow"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "\"___ up! The bus leaves in two minutes!\"",
+      "options": [
+       "Hurry",
+       "Sleep",
+       "Sit"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "My ___ clock rings at half past six.",
+      "options": [
+       "alarm",
+       "wall",
+       "sun"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Sixty seconds make one …",
+      "options": [
+       "hour",
+       "minute",
+       "day"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to the expedition timetable. Write a time or word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u18-c.mp3",
+   "data": {
+    "voice_note": "Voces: Ingrid (leyendo el horario) y Diego (apuntando).",
+    "script": "Ingrid: Listen carefully, Diego. Breakfast is at quarter past seven. … Diego: Quarter past seven, got it. … Ingrid: The boat leaves at half past eight — if you're late, you swim! … Diego: Ha! And when do we reach the island? … Ingrid: At midday, if the sea is calm. … Diego: When is the picnic? … Ingrid: At one o'clock, on the beach. … Diego: And the trip home? … Ingrid: We sail back at quarter to five. Set your alarm! … Diego: Don't worry, captain. I'll set two alarms!",
+    "questions": [
+     {
+      "q": "Breakfast is at quarter past …",
+      "answer": "seven"
+     },
+     {
+      "q": "The boat leaves at half past …",
+      "answer": "eight"
+     },
+     {
+      "q": "They reach the island at …",
+      "answer": "midday"
+     },
+     {
+      "q": "The picnic is at one …",
+      "answer": "o'clock"
+     },
+     {
+      "q": "Diego will set two …",
+      "answer": "alarms"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "7:45 is quarter ___ eight.",
+      "options": [
+       "past",
+       "to",
+       "at"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "12:00 at night is …",
+      "options": [
+       "midday",
+       "midnight",
+       "morning"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "3:30 is ___ past three.",
+      "options": [
+       "quarter",
+       "half",
+       "ten"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "The opposite of early is …",
+      "options": [
+       "late",
+       "fast",
+       "ready"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"What time ___ it?\" — \"It's ten o'clock.\"",
+      "options": [
+       "are",
+       "is",
+       "does"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Student A draws a clock time on paper. Student B says it in words (\"It's quarter to four\") and tells one thing they do at that time. Five clocks each."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write your Saturday in times: I wake up at… I have lunch at… Use quarter past / half past / quarter to at least twice."
+  }
+ ]
 }

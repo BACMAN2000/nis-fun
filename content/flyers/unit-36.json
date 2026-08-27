@@ -1,53 +1,253 @@
 {
-  "id": "flyers-36", "level": "flyers", "number": 36,
-  "title": "Do you do it or make it?", "topic": "make / do",
-  "grammar": "colocaciones con make y do",
-  "wordlist": ["make the bed", "do homework", "make a cake", "do the dishes", "make a mistake", "do your best", "make noise", "do sport", "make friends", "chores"],
-  "exam_focus": { "paper": "Reading & Writing", "part": 6, "skill": "gapped sentences" },
-  "characters": ["maya", "ingrid"],
-  "scene": { "speaker": "maya", "pose": { "maya": 4, "ingrid": 3 },
-    "bubble": "English mystery: you MAKE a cake but you DO the dishes. Who invented these rules?!" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "make or do? Match the halves.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Verb", "right_label": "Phrase",
-        "pairs": [
-          { "left": "make your bed", "right": "every morning" },
-          { "left": "do your homework", "right": "before dinner" },
-          { "left": "make a chocolate cake", "right": "for a birthday" },
-          { "left": "do the dishes", "right": "after lunch" },
-          { "left": "make new friends", "right": "at summer camp" },
-          { "left": "do your best", "right": "in every exam" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Choose make or do.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Complete each sentence.",
-        "items": [
-          { "sentence": "Don't ___ so much noise — the baby is sleeping!", "options": ["make", "do", "have"], "answer": 0 },
-          { "sentence": "I ___ my homework in the library.", "options": ["make", "do", "take"], "answer": 1 },
-          { "sentence": "Everyone ___ mistakes when they learn.", "options": ["does", "makes", "goes"], "answer": 1 },
-          { "sentence": "We ___ sport twice a week at school.", "options": ["make", "do", "play"], "answer": 1 },
-          { "sentence": "Can you help me ___ a cake for Dad?", "options": ["do", "make", "cook the"], "answer": 1 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to the Saturday chores plan. Write a word in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "flyers/u36-c.mp3",
-      "data": { "voice_note": "Voces: Maya (con la lista) e Ingrid (repartiendo tareas).",
-        "script": "Ingrid: Saturday chores, team! Maya, you read the list. … Maya: First: everybody makes their own bed. No exceptions, Oliver! … Maya: Diego does the dishes — there are only six plates today. … Maya: Ingrid and I do the shopping at the market. … Maya: Oliver makes lunch. Please, not pizza again… okay, pizza again. … Maya: And Kili? Kili makes everyone laugh. That's his official chore! … Ingrid: When we finish, we all make a big lemonade and rest on the balcony.",
-        "questions": [
-          { "q": "Everybody makes their own …", "answer": "bed" },
-          { "q": "Diego does the … — only six plates.", "answer": "dishes" },
-          { "q": "Ingrid and Maya do the shopping at the …", "answer": "market" },
-          { "q": "Oliver makes lunch: … again.", "answer": "pizza" },
-          { "q": "At the end they all make a big …", "answer": "lemonade" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct phrase.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct words.",
-        "items": [
-          { "sentence": "Before school, I ___ my bed.", "options": ["make", "do", "give"], "answer": 0 },
-          { "sentence": "At camp it's easy to ___ new friends.", "options": ["do", "make", "take"], "answer": 1 },
-          { "sentence": "Small jobs at home are called …", "options": ["chores", "prizes", "habits"], "answer": 0 },
-          { "sentence": "\"I ___ my best, but I only came third.\" — \"Well done anyway!\"", "options": ["made", "did", "went"], "answer": 1 },
-          { "sentence": "Oops, I ___ a mistake in exercise two.", "options": ["did", "made", "took"], "answer": 1 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Truth or lie: say 3 sentences about chores you do at home (one is a lie!): \"I make my bed every day…\" Your partner guesses the lie." } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write your weekend chores: 3 with make and 3 with do. Ask an adult to sign if they're true!" } ]
+ "id": "flyers-36",
+ "level": "flyers",
+ "number": 36,
+ "title": "Do you do it or make it?",
+ "topic": "make / do",
+ "grammar": "colocaciones con make y do",
+ "wordlist": [
+  "make the bed",
+  "do homework",
+  "make a cake",
+  "do the dishes",
+  "make a mistake",
+  "do your best",
+  "make noise",
+  "do sport",
+  "make friends",
+  "chores"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 6,
+  "skill": "gapped sentences"
+ },
+ "characters": [
+  "maya",
+  "ingrid"
+ ],
+ "scene": {
+  "speaker": "maya",
+  "pose": {
+   "maya": 4,
+   "ingrid": 3
+  },
+  "bubble": "English mystery: you MAKE a cake but you DO the dishes. Who invented these rules?!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "make or do? Match the halves.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Verb",
+    "right_label": "Phrase",
+    "pairs": [
+     {
+      "left": "make your bed",
+      "right": "every morning"
+     },
+     {
+      "left": "do your homework",
+      "right": "before dinner"
+     },
+     {
+      "left": "make a chocolate cake",
+      "right": "for a birthday"
+     },
+     {
+      "left": "do the dishes",
+      "right": "after lunch"
+     },
+     {
+      "left": "make new friends",
+      "right": "at summer camp"
+     },
+     {
+      "left": "do your best",
+      "right": "in every exam"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choose make or do.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete each sentence.",
+    "items": [
+     {
+      "sentence": "Don't ___ so much noise — the baby is sleeping!",
+      "options": [
+       "make",
+       "do",
+       "have"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "I ___ my homework in the library.",
+      "options": [
+       "make",
+       "do",
+       "take"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Everyone ___ mistakes when they learn.",
+      "options": [
+       "does",
+       "makes",
+       "goes"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "We ___ sport twice a week at school.",
+      "options": [
+       "make",
+       "do",
+       "play"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Can you help me ___ a cake for Dad?",
+      "options": [
+       "do",
+       "make",
+       "cook the"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to the Saturday chores plan. Write a word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u36-c.mp3",
+   "data": {
+    "voice_note": "Voces: Maya (con la lista) e Ingrid (repartiendo tareas).",
+    "script": "Ingrid: Saturday chores, team! Maya, you read the list. … Maya: First: everybody makes their own bed. No exceptions, Oliver! … Maya: Diego does the dishes — there are only six plates today. … Maya: Ingrid and I do the shopping at the market. … Maya: Oliver makes lunch. Please, not pizza again… okay, pizza again. … Maya: And Kili? Kili makes everyone laugh. That's his official chore! … Ingrid: When we finish, we all make a big lemonade and rest on the balcony.",
+    "questions": [
+     {
+      "q": "Everybody makes their own …",
+      "answer": "bed"
+     },
+     {
+      "q": "Diego does the … — only six plates.",
+      "answer": "dishes"
+     },
+     {
+      "q": "Ingrid and Maya do the shopping at the …",
+      "answer": "market"
+     },
+     {
+      "q": "Oliver makes lunch: … again.",
+      "answer": "pizza"
+     },
+     {
+      "q": "At the end they all make a big …",
+      "answer": "lemonade"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct phrase.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct words.",
+    "items": [
+     {
+      "sentence": "Before school, I ___ my bed.",
+      "options": [
+       "make",
+       "do",
+       "give"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "At camp it's easy to ___ new friends.",
+      "options": [
+       "do",
+       "make",
+       "take"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Small jobs at home are called …",
+      "options": [
+       "chores",
+       "prizes",
+       "habits"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"I ___ my best, but I only came third.\" — \"Well done anyway!\"",
+      "options": [
+       "made",
+       "did",
+       "went"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Oops, I ___ a mistake in exercise two.",
+      "options": [
+       "did",
+       "made",
+       "took"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Truth or lie: say 3 sentences about chores you do at home (one is a lie!): \"I make my bed every day…\" Your partner guesses the lie."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write your weekend chores: 3 with make and 3 with do. Ask an adult to sign if they're true!"
+  }
+ ]
 }

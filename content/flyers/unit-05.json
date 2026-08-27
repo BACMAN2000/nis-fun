@@ -1,54 +1,254 @@
 {
-  "id": "flyers-05", "level": "flyers", "number": 5,
-  "title": "My school day", "topic": "school",
-  "grammar": "present simple + school subjects",
-  "wordlist": ["maths", "science", "art", "music", "history", "geography", "sport", "timetable", "break", "homework"],
-  "exam_focus": { "paper": "Listening", "part": 2, "skill": "note-taking" },
-  "characters": ["ingrid", "diego"],
-  "scene": { "speaker": "ingrid", "pose": { "ingrid": 2, "diego": 3 },
-    "bubble": "New timetable, team! Maths before break, science after lunch… and double sport on Friday!" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the subject with what you do in it.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Subject", "right_label": "What you do",
-        "pairs": [
-          { "left": "maths", "right": "work with numbers" },
-          { "left": "science", "right": "do experiments" },
-          { "left": "art", "right": "paint and draw" },
-          { "left": "music", "right": "sing and play instruments" },
-          { "left": "geography", "right": "study maps and countries" },
-          { "left": "history", "right": "learn about the past" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Read Ingrid's timetable and choose the right answer.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Read the text. Choose the correct answer.",
-        "text": "Monday is my favourite day. We start with music at half past eight — I sit next to Oliver, and he is brilliant at the guitar. Then we have maths for two hours. After break we do science with Mr Holm; last week we made a small volcano! We have lunch at one o'clock, and in the afternoon there is art. I always paint mountains. We finish at half past three.",
-        "items": [
-          { "sentence": "What is the first lesson on Monday?", "options": ["maths", "music", "science"], "answer": 1 },
-          { "sentence": "Who is brilliant at the guitar?", "options": ["Ingrid", "Mr Holm", "Oliver"], "answer": 2 },
-          { "sentence": "What did they make in science last week?", "options": ["a volcano", "a map", "a cake"], "answer": 0 },
-          { "sentence": "What time is lunch?", "options": ["at half past eight", "at one o'clock", "at half past three"], "answer": 1 },
-          { "sentence": "What does Ingrid always paint?", "options": ["volcanoes", "rivers", "mountains"], "answer": 2 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen. Diego interviews Ingrid about Tuesday. Write a word in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "flyers/u05-c.mp3",
-      "data": { "voice_note": "Voces: Diego (reportero) e Ingrid (capitana).",
-        "script": "Diego: Radio Aurora! Ingrid, what's your Tuesday like? … Ingrid: We start with geography. We're studying rivers of South America. … Diego: Interesting! And after that? … Ingrid: History. We're learning about castles this month. … Diego: What do you do at break? … Ingrid: We play basketball in the playground. … Diego: And what's your last lesson? … Ingrid: Sport — my favourite! We're practising for the swimming competition. … Diego: Do you have much homework? … Ingrid: Only maths. Twenty exercises! … Diego: Twenty! Good luck, captain!",
-        "questions": [
-          { "q": "In geography they study the rivers of South …", "answer": "America" },
-          { "q": "In history they are learning about …", "answer": "castles" },
-          { "q": "At break they play …", "answer": "basketball" },
-          { "q": "They are practising for the … competition.", "answer": "swimming" },
-          { "q": "Ingrid has … maths exercises for homework.", "answer": "twenty" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "You study maps and countries in …", "options": ["history", "geography", "music"], "answer": 1 },
-          { "sentence": "The paper that shows your lessons is a …", "options": ["timetable", "homework", "break"], "answer": 0 },
-          { "sentence": "Between lessons you have a short …", "options": ["subject", "break", "timetable"], "answer": 1 },
-          { "sentence": "In … you learn about kings and queens of the past.", "options": ["history", "maths", "art"], "answer": 0 },
-          { "sentence": "Work that you do at home is …", "options": ["break", "sport", "homework"], "answer": 2 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Interview your partner about their perfect school day: \"What's the first lesson? What do you do at break?\" Then present it: \"In Ana's perfect day, the first lesson is art…\"" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write your real Tuesday timetable in English and one sentence about your favourite subject and why." } ]
+ "id": "flyers-05",
+ "level": "flyers",
+ "number": 5,
+ "title": "My school day",
+ "topic": "school",
+ "grammar": "present simple + school subjects",
+ "wordlist": [
+  "maths",
+  "science",
+  "art",
+  "music",
+  "history",
+  "geography",
+  "sport",
+  "timetable",
+  "break",
+  "homework"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 2,
+  "skill": "note-taking"
+ },
+ "characters": [
+  "ingrid",
+  "diego"
+ ],
+ "scene": {
+  "speaker": "ingrid",
+  "pose": {
+   "ingrid": 2,
+   "diego": 3
+  },
+  "bubble": "New timetable, team! Maths before break, science after lunch… and double sport on Friday!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the subject with what you do in it.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Subject",
+    "right_label": "What you do",
+    "pairs": [
+     {
+      "left": "maths",
+      "right": "work with numbers"
+     },
+     {
+      "left": "science",
+      "right": "do experiments"
+     },
+     {
+      "left": "art",
+      "right": "paint and draw"
+     },
+     {
+      "left": "music",
+      "right": "sing and play instruments"
+     },
+     {
+      "left": "geography",
+      "right": "study maps and countries"
+     },
+     {
+      "left": "history",
+      "right": "learn about the past"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Read Ingrid's timetable and choose the right answer.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Read the text. Choose the correct answer.",
+    "text": "Monday is my favourite day. We start with music at half past eight — I sit next to Oliver, and he is brilliant at the guitar. Then we have maths for two hours. After break we do science with Mr Holm; last week we made a small volcano! We have lunch at one o'clock, and in the afternoon there is art. I always paint mountains. We finish at half past three.",
+    "items": [
+     {
+      "sentence": "What is the first lesson on Monday?",
+      "options": [
+       "maths",
+       "music",
+       "science"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Who is brilliant at the guitar?",
+      "options": [
+       "Ingrid",
+       "Mr Holm",
+       "Oliver"
+      ],
+      "answer": 2
+     },
+     {
+      "sentence": "What did they make in science last week?",
+      "options": [
+       "a volcano",
+       "a map",
+       "a cake"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "What time is lunch?",
+      "options": [
+       "at half past eight",
+       "at one o'clock",
+       "at half past three"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "What does Ingrid always paint?",
+      "options": [
+       "volcanoes",
+       "rivers",
+       "mountains"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen. Diego interviews Ingrid about Tuesday. Write a word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u05-c.mp3",
+   "data": {
+    "voice_note": "Voces: Diego (reportero) e Ingrid (capitana).",
+    "script": "Diego: Radio Aurora! Ingrid, what's your Tuesday like? … Ingrid: We start with geography. We're studying rivers of South America. … Diego: Interesting! And after that? … Ingrid: History. We're learning about castles this month. … Diego: What do you do at break? … Ingrid: We play basketball in the playground. … Diego: And what's your last lesson? … Ingrid: Sport — my favourite! We're practising for the swimming competition. … Diego: Do you have much homework? … Ingrid: Only maths. Twenty exercises! … Diego: Twenty! Good luck, captain!",
+    "questions": [
+     {
+      "q": "In geography they study the rivers of South …",
+      "answer": "America"
+     },
+     {
+      "q": "In history they are learning about …",
+      "answer": "castles"
+     },
+     {
+      "q": "At break they play …",
+      "answer": "basketball"
+     },
+     {
+      "q": "They are practising for the … competition.",
+      "answer": "swimming"
+     },
+     {
+      "q": "Ingrid has … maths exercises for homework.",
+      "answer": "twenty"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "You study maps and countries in …",
+      "options": [
+       "history",
+       "geography",
+       "music"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "The paper that shows your lessons is a …",
+      "options": [
+       "timetable",
+       "homework",
+       "break"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Between lessons you have a short …",
+      "options": [
+       "subject",
+       "break",
+       "timetable"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "In … you learn about kings and queens of the past.",
+      "options": [
+       "history",
+       "maths",
+       "art"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Work that you do at home is …",
+      "options": [
+       "break",
+       "sport",
+       "homework"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Interview your partner about their perfect school day: \"What's the first lesson? What do you do at break?\" Then present it: \"In Ana's perfect day, the first lesson is art…\""
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write your real Tuesday timetable in English and one sentence about your favourite subject and why."
+  }
+ ]
 }

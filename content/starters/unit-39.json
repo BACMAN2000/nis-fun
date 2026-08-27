@@ -1,53 +1,253 @@
 {
-  "id": "starters-39", "level": "starters", "number": 39,
-  "title": "Numbers 11 to 20", "topic": "numbers",
-  "grammar": "números 11-20",
-  "wordlist": ["eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen", "twenty"],
-  "exam_focus": { "paper": "Listening", "part": 4, "skill": "numbers 11-20" },
-  "characters": ["astrid", "tomas"],
-  "scene": { "speaker": "astrid", "pose": { "astrid": 2, "tomas": 1 },
-    "bubble": "Big numbers now! Eleven, twelve, thirteen… all the way to twenty. Count with me!" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the number with the word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Number", "right_label": "Word",
-        "pairs": [
-          { "left": "11", "right": "eleven" },
-          { "left": "12", "right": "twelve" },
-          { "left": "13", "right": "thirteen" },
-          { "left": "15", "right": "fifteen" },
-          { "left": "18", "right": "eighteen" },
-          { "left": "20", "right": "twenty" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Choose the correct number.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Complete each sentence.",
-        "items": [
-          { "sentence": "Ten plus one is …", "options": ["eleven", "twelve", "nine"], "answer": 0 },
-          { "sentence": "A football team has ___ players.", "options": ["eleven", "twenty", "thirteen"], "answer": 0 },
-          { "sentence": "Ten plus ten is …", "options": ["twenty", "twelve", "fifteen"], "answer": 0 },
-          { "sentence": "After thirteen comes …", "options": ["fourteen", "fifteen", "twelve"], "answer": 0 },
-          { "sentence": "One year has ___ months.", "options": ["twelve", "eleven", "twenty"], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen and count! Write a number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "starters/u39-c.mp3",
-      "data": { "voice_note": "Voces: Astrid (contando cosas grandes) y Tomás (verificando).",
-        "script": "Astrid: Big counting day! Steps to the classroom: fifteen. … Tomas: I counted them too. Fifteen! … Astrid: Books on the teacher's desk: eleven. … Tomas: Children in our class today: eighteen. … Astrid: Crayons in the big box: twenty! … Tomas: And how many feathers has Pip got? … Astrid: Too many to count… but his tail has exactly twelve!",
-        "questions": [
-          { "q": "Steps to the classroom: …", "answer": "fifteen" },
-          { "q": "Books on the desk: …", "answer": "eleven" },
-          { "q": "Children in class today: …", "answer": "eighteen" },
-          { "q": "Crayons in the big box: …", "answer": "twenty" },
-          { "q": "Pip's tail has exactly … feathers.", "answer": "twelve" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "14 in words is …", "options": ["fourteen", "forty", "four"], "answer": 0 },
-          { "sentence": "16 in words is …", "options": ["sixteen", "sixty", "six"], "answer": 0 },
-          { "sentence": "Nineteen plus one is …", "options": ["twenty", "eighteen", "ninety"], "answer": 0 },
-          { "sentence": "Between eleven and thirteen is …", "options": ["twelve", "fourteen", "ten"], "answer": 0 },
-          { "sentence": "17 in words is …", "options": ["seventeen", "seventy", "seven"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Number ping-pong from 11 to 20 and back. Then: point at things and ask \"How many?\" — answers over ten only!" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Count big things at home (books, spoons, socks…). Write 4 sentences with numbers from 11 to 20." } ]
+ "id": "starters-39",
+ "level": "starters",
+ "number": 39,
+ "title": "Numbers 11 to 20",
+ "topic": "numbers",
+ "grammar": "números 11-20",
+ "wordlist": [
+  "eleven",
+  "twelve",
+  "thirteen",
+  "fourteen",
+  "fifteen",
+  "sixteen",
+  "seventeen",
+  "eighteen",
+  "nineteen",
+  "twenty"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 4,
+  "skill": "numbers 11-20"
+ },
+ "characters": [
+  "astrid",
+  "tomas"
+ ],
+ "scene": {
+  "speaker": "astrid",
+  "pose": {
+   "astrid": 2,
+   "tomas": 1
+  },
+  "bubble": "Big numbers now! Eleven, twelve, thirteen… all the way to twenty. Count with me!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the number with the word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Number",
+    "right_label": "Word",
+    "pairs": [
+     {
+      "left": "11",
+      "right": "eleven"
+     },
+     {
+      "left": "12",
+      "right": "twelve"
+     },
+     {
+      "left": "13",
+      "right": "thirteen"
+     },
+     {
+      "left": "15",
+      "right": "fifteen"
+     },
+     {
+      "left": "18",
+      "right": "eighteen"
+     },
+     {
+      "left": "20",
+      "right": "twenty"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choose the correct number.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete each sentence.",
+    "items": [
+     {
+      "sentence": "Ten plus one is …",
+      "options": [
+       "eleven",
+       "twelve",
+       "nine"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "A football team has ___ players.",
+      "options": [
+       "eleven",
+       "twenty",
+       "thirteen"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Ten plus ten is …",
+      "options": [
+       "twenty",
+       "twelve",
+       "fifteen"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "After thirteen comes …",
+      "options": [
+       "fourteen",
+       "fifteen",
+       "twelve"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "One year has ___ months.",
+      "options": [
+       "twelve",
+       "eleven",
+       "twenty"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen and count! Write a number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u39-c.mp3",
+   "data": {
+    "voice_note": "Voces: Astrid (contando cosas grandes) y Tomás (verificando).",
+    "script": "Astrid: Big counting day! Steps to the classroom: fifteen. … Tomas: I counted them too. Fifteen! … Astrid: Books on the teacher's desk: eleven. … Tomas: Children in our class today: eighteen. … Astrid: Crayons in the big box: twenty! … Tomas: And how many feathers has Pip got? … Astrid: Too many to count… but his tail has exactly twelve!",
+    "questions": [
+     {
+      "q": "Steps to the classroom: …",
+      "answer": "fifteen"
+     },
+     {
+      "q": "Books on the desk: …",
+      "answer": "eleven"
+     },
+     {
+      "q": "Children in class today: …",
+      "answer": "eighteen"
+     },
+     {
+      "q": "Crayons in the big box: …",
+      "answer": "twenty"
+     },
+     {
+      "q": "Pip's tail has exactly … feathers.",
+      "answer": "twelve"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "14 in words is …",
+      "options": [
+       "fourteen",
+       "forty",
+       "four"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "16 in words is …",
+      "options": [
+       "sixteen",
+       "sixty",
+       "six"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Nineteen plus one is …",
+      "options": [
+       "twenty",
+       "eighteen",
+       "ninety"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Between eleven and thirteen is …",
+      "options": [
+       "twelve",
+       "fourteen",
+       "ten"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "17 in words is …",
+      "options": [
+       "seventeen",
+       "seventy",
+       "seven"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Number ping-pong from 11 to 20 and back. Then: point at things and ask \"How many?\" — answers over ten only!"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Count big things at home (books, spoons, socks…). Write 4 sentences with numbers from 11 to 20."
+  }
+ ]
 }

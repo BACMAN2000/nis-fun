@@ -1,53 +1,253 @@
 {
-  "id": "movers-22", "level": "movers", "number": 22,
-  "title": "People I know", "topic": "describing people",
-  "grammar": "adjetivos + have got (descripciones)",
-  "wordlist": ["hair", "eyes", "glasses", "beard", "young", "old", "pretty", "strong", "short", "curly"],
-  "exam_focus": { "paper": "Listening", "part": 1, "skill": "identify people" },
-  "characters": ["erik", "sofia"],
-  "scene": { "speaker": "erik", "pose": { "erik": 3, "sofia": 4 },
-    "bubble": "The new neighbours arrive today! Let's learn to describe people — without pointing, Mateo!" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the description with the person.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Description", "right_label": "Person",
-        "pairs": [
-          { "left": "He has got a long white beard.", "right": "Grandpa Pablo" },
-          { "left": "She has got curly brown hair.", "right": "Aunt Carmen" },
-          { "left": "He wears round glasses.", "right": "Erik" },
-          { "left": "She has got a long black ponytail.", "right": "the music teacher" },
-          { "left": "He is very tall and strong.", "right": "the basketball coach" },
-          { "left": "She has got grey fur and blue eyes.", "right": "Luna" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Choose the correct word to describe.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Complete each sentence.",
-        "items": [
-          { "sentence": "My grandma is 70 years old, but she feels …", "options": ["young", "tall", "curly"], "answer": 0 },
-          { "sentence": "He can carry two big boxes — he is very …", "options": ["strong", "short", "old"], "answer": 0 },
-          { "sentence": "She has ___ blue eyes.", "options": ["got", "get", "have"], "answer": 0 },
-          { "sentence": "His hair isn't straight, it's …", "options": ["curly", "young", "pretty"], "answer": 0 },
-          { "sentence": "I can't read without my …", "options": ["glasses", "gloves", "goals"], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen. Who are the new neighbours? Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "movers/u22-c.mp3",
-      "data": { "voice_note": "Voces: Sofía (observadora) y Erik (apuntando datos).",
-        "script": "Sofia: The new neighbours are here! The dad is tall and has got a short black beard. … Erik: The mum has got long red hair. She's carrying a guitar! … Sofia: A musician! Oliver will be happy… I mean, our friends from Flyers! … Erik: There are two children. The boy is about seven, with glasses like mine. … Sofia: And the girl looks about our age. She has got a football under her arm! … Erik: And look — they have got a small white dog. … Sofia: Luna is already wagging her tail. New friends for everyone!",
-        "questions": [
-          { "q": "The dad has got a short black …", "answer": "beard" },
-          { "q": "The mum has got long … hair.", "answer": "red" },
-          { "q": "She is carrying a …", "answer": "guitar" },
-          { "q": "The boy wears … like Erik.", "answer": "glasses" },
-          { "q": "The girl has got a … under her arm.", "answer": "football" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "Hair that goes round and round is …", "options": ["curly", "strong", "old"], "answer": 0 },
-          { "sentence": "The opposite of tall is …", "options": ["short", "young", "pretty"], "answer": 0 },
-          { "sentence": "My baby brother is one year old. He is very …", "options": ["young", "old", "tall"], "answer": 0 },
-          { "sentence": "She has got green ___ and dark hair.", "options": ["eyes", "ears", "arms"], "answer": 0 },
-          { "sentence": "Grandpa has got a white ___ on his chin.", "options": ["beard", "hat", "scarf"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Describe a famous person or cartoon character (3 clues, one at a time). Your partner guesses as fast as possible. Two each — count the clues needed!" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Describe 3 people of your family: hair, eyes and one more detail each. He/She has got…" } ]
+ "id": "movers-22",
+ "level": "movers",
+ "number": 22,
+ "title": "People I know",
+ "topic": "describing people",
+ "grammar": "adjetivos + have got (descripciones)",
+ "wordlist": [
+  "hair",
+  "eyes",
+  "glasses",
+  "beard",
+  "young",
+  "old",
+  "pretty",
+  "strong",
+  "short",
+  "curly"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 1,
+  "skill": "identify people"
+ },
+ "characters": [
+  "erik",
+  "sofia"
+ ],
+ "scene": {
+  "speaker": "erik",
+  "pose": {
+   "erik": 3,
+   "sofia": 4
+  },
+  "bubble": "The new neighbours arrive today! Let's learn to describe people — without pointing, Mateo!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the description with the person.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Description",
+    "right_label": "Person",
+    "pairs": [
+     {
+      "left": "He has got a long white beard.",
+      "right": "Grandpa Pablo"
+     },
+     {
+      "left": "She has got curly brown hair.",
+      "right": "Aunt Carmen"
+     },
+     {
+      "left": "He wears round glasses.",
+      "right": "Erik"
+     },
+     {
+      "left": "She has got a long black ponytail.",
+      "right": "the music teacher"
+     },
+     {
+      "left": "He is very tall and strong.",
+      "right": "the basketball coach"
+     },
+     {
+      "left": "She has got grey fur and blue eyes.",
+      "right": "Luna"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choose the correct word to describe.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete each sentence.",
+    "items": [
+     {
+      "sentence": "My grandma is 70 years old, but she feels …",
+      "options": [
+       "young",
+       "tall",
+       "curly"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "He can carry two big boxes — he is very …",
+      "options": [
+       "strong",
+       "short",
+       "old"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "She has ___ blue eyes.",
+      "options": [
+       "got",
+       "get",
+       "have"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "His hair isn't straight, it's …",
+      "options": [
+       "curly",
+       "young",
+       "pretty"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "I can't read without my …",
+      "options": [
+       "glasses",
+       "gloves",
+       "goals"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen. Who are the new neighbours? Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u22-c.mp3",
+   "data": {
+    "voice_note": "Voces: Sofía (observadora) y Erik (apuntando datos).",
+    "script": "Sofia: The new neighbours are here! The dad is tall and has got a short black beard. … Erik: The mum has got long red hair. She's carrying a guitar! … Sofia: A musician! Oliver will be happy… I mean, our friends from Flyers! … Erik: There are two children. The boy is about seven, with glasses like mine. … Sofia: And the girl looks about our age. She has got a football under her arm! … Erik: And look — they have got a small white dog. … Sofia: Luna is already wagging her tail. New friends for everyone!",
+    "questions": [
+     {
+      "q": "The dad has got a short black …",
+      "answer": "beard"
+     },
+     {
+      "q": "The mum has got long … hair.",
+      "answer": "red"
+     },
+     {
+      "q": "She is carrying a …",
+      "answer": "guitar"
+     },
+     {
+      "q": "The boy wears … like Erik.",
+      "answer": "glasses"
+     },
+     {
+      "q": "The girl has got a … under her arm.",
+      "answer": "football"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "Hair that goes round and round is …",
+      "options": [
+       "curly",
+       "strong",
+       "old"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The opposite of tall is …",
+      "options": [
+       "short",
+       "young",
+       "pretty"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "My baby brother is one year old. He is very …",
+      "options": [
+       "young",
+       "old",
+       "tall"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "She has got green ___ and dark hair.",
+      "options": [
+       "eyes",
+       "ears",
+       "arms"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Grandpa has got a white ___ on his chin.",
+      "options": [
+       "beard",
+       "hat",
+       "scarf"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Describe a famous person or cartoon character (3 clues, one at a time). Your partner guesses as fast as possible. Two each — count the clues needed!"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Describe 3 people of your family: hair, eyes and one more detail each. He/She has got…"
+  }
+ ]
 }

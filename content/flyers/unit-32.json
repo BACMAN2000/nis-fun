@@ -1,54 +1,254 @@
 {
-  "id": "flyers-32", "level": "flyers", "number": 32,
-  "title": "Postcards", "topic": "writing",
-  "grammar": "frases de postal + past simple",
-  "wordlist": ["postcard", "stamp", "address", "envelope", "send", "sent", "receive", "greetings", "wish", "sign"],
-  "exam_focus": { "paper": "Reading & Writing", "part": 4, "skill": "reading a text" },
-  "characters": ["kili", "ingrid"],
-  "scene": { "speaker": "ingrid", "pose": { "ingrid": 5, "kili": 2 },
-    "bubble": "Kili has brought postcards from five different countries — and one is for us, from Grandpa Sven in Norway!" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the postcard word with its meaning.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Word", "right_label": "Meaning",
-        "pairs": [
-          { "left": "a stamp", "right": "you stick it on the corner to pay for the trip" },
-          { "left": "the address", "right": "where the postcard must go" },
-          { "left": "an envelope", "right": "you put a letter inside it" },
-          { "left": "to sign", "right": "to write your name at the end" },
-          { "left": "greetings", "right": "a friendly hello in writing" },
-          { "left": "to receive", "right": "to get something that was sent to you" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Read Grandpa Sven's postcard and choose the right answer.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Read the text. Choose the correct answer.",
-        "text": "Dear explorers! Greetings from Norway! Yesterday I sailed my little red boat into a fjord so deep that the mountains touched the clouds. I saw seven waterfalls and one very fat seal — he slept on a rock all afternoon, like a king. Tonight I'll try to see the northern lights. The sky here is green and purple at night, like magic! I'm sending you a small parcel with real fjord stones. Big hugs, Grandpa Sven.",
-        "items": [
-          { "sentence": "Where is Grandpa Sven?", "options": ["in Peru", "in Norway", "at school"], "answer": 1 },
-          { "sentence": "What colour is his boat?", "options": ["red", "green", "blue"], "answer": 0 },
-          { "sentence": "How many waterfalls did he see?", "options": ["seventeen", "seven", "seventy"], "answer": 1 },
-          { "sentence": "What did the fat seal do?", "options": ["swam all day", "slept on a rock", "ate his lunch"], "answer": 1 },
-          { "sentence": "What is in the parcel?", "options": ["fjord stones", "a lamp", "chocolate"], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen. Where did the postcards come from? Write a word in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "flyers/u32-c.mp3",
-      "data": { "voice_note": "Voces: Ingrid (leyendo) y Kili (orgulloso del reparto).",
-        "script": "Ingrid: Five postcards today! Great work, Kili. … Ingrid: The first one is from Japan — there's a photo of a white mountain on it. … Ingrid: The second comes from Egypt. Aunt Nora visited the pyramids by camel! … Ingrid: This one is from Brazil, from the carnival. The stamp has a green parrot. … Ingrid: Number four is from Canada. Uncle Tom saw a real bear from the train! … Ingrid: And the last one… from Norway! Grandpa Sven says he's sending us fjord stones. … Ingrid: Let's put them all on the classroom map!",
-        "questions": [
-          { "q": "The postcard from Japan shows a white …", "answer": "mountain" },
-          { "q": "Aunt Nora visited the pyramids by …", "answer": "camel" },
-          { "q": "The Brazilian stamp has a green …", "answer": "parrot" },
-          { "q": "Uncle Tom saw a bear from the …", "answer": "train" },
-          { "q": "Grandpa Sven is sending fjord …", "answer": "stones" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "You stick a ___ on a postcard.", "options": ["stamp", "pillow", "mirror"], "answer": 0 },
-          { "sentence": "Yesterday I ___ a letter to my cousin.", "options": ["send", "sent", "sended"], "answer": 1 },
-          { "sentence": "Write the ___ clearly, or the card will get lost.", "options": ["address", "weather", "prize"], "answer": 0 },
-          { "sentence": "\"___ from Norway!\" is a typical postcard start.", "options": ["Directions", "Greetings", "Stairs"], "answer": 1 },
-          { "sentence": "At the end of a card, you ___ your name.", "options": ["sign", "sing", "send"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Write a mini postcard (4 lines) to your partner from an imaginary trip. Exchange, read aloud, and answer one question about it: \"What did you see there?\"" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write a real postcard (5 sentences) to someone in your family about your week. Sign it!" } ]
+ "id": "flyers-32",
+ "level": "flyers",
+ "number": 32,
+ "title": "Postcards",
+ "topic": "writing",
+ "grammar": "frases de postal + past simple",
+ "wordlist": [
+  "postcard",
+  "stamp",
+  "address",
+  "envelope",
+  "send",
+  "sent",
+  "receive",
+  "greetings",
+  "wish",
+  "sign"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 4,
+  "skill": "reading a text"
+ },
+ "characters": [
+  "kili",
+  "ingrid"
+ ],
+ "scene": {
+  "speaker": "ingrid",
+  "pose": {
+   "ingrid": 5,
+   "kili": 2
+  },
+  "bubble": "Kili has brought postcards from five different countries — and one is for us, from Grandpa Sven in Norway!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the postcard word with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "a stamp",
+      "right": "you stick it on the corner to pay for the trip"
+     },
+     {
+      "left": "the address",
+      "right": "where the postcard must go"
+     },
+     {
+      "left": "an envelope",
+      "right": "you put a letter inside it"
+     },
+     {
+      "left": "to sign",
+      "right": "to write your name at the end"
+     },
+     {
+      "left": "greetings",
+      "right": "a friendly hello in writing"
+     },
+     {
+      "left": "to receive",
+      "right": "to get something that was sent to you"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Read Grandpa Sven's postcard and choose the right answer.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Read the text. Choose the correct answer.",
+    "text": "Dear explorers! Greetings from Norway! Yesterday I sailed my little red boat into a fjord so deep that the mountains touched the clouds. I saw seven waterfalls and one very fat seal — he slept on a rock all afternoon, like a king. Tonight I'll try to see the northern lights. The sky here is green and purple at night, like magic! I'm sending you a small parcel with real fjord stones. Big hugs, Grandpa Sven.",
+    "items": [
+     {
+      "sentence": "Where is Grandpa Sven?",
+      "options": [
+       "in Peru",
+       "in Norway",
+       "at school"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "What colour is his boat?",
+      "options": [
+       "red",
+       "green",
+       "blue"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "How many waterfalls did he see?",
+      "options": [
+       "seventeen",
+       "seven",
+       "seventy"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "What did the fat seal do?",
+      "options": [
+       "swam all day",
+       "slept on a rock",
+       "ate his lunch"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "What is in the parcel?",
+      "options": [
+       "fjord stones",
+       "a lamp",
+       "chocolate"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen. Where did the postcards come from? Write a word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u32-c.mp3",
+   "data": {
+    "voice_note": "Voces: Ingrid (leyendo) y Kili (orgulloso del reparto).",
+    "script": "Ingrid: Five postcards today! Great work, Kili. … Ingrid: The first one is from Japan — there's a photo of a white mountain on it. … Ingrid: The second comes from Egypt. Aunt Nora visited the pyramids by camel! … Ingrid: This one is from Brazil, from the carnival. The stamp has a green parrot. … Ingrid: Number four is from Canada. Uncle Tom saw a real bear from the train! … Ingrid: And the last one… from Norway! Grandpa Sven says he's sending us fjord stones. … Ingrid: Let's put them all on the classroom map!",
+    "questions": [
+     {
+      "q": "The postcard from Japan shows a white …",
+      "answer": "mountain"
+     },
+     {
+      "q": "Aunt Nora visited the pyramids by …",
+      "answer": "camel"
+     },
+     {
+      "q": "The Brazilian stamp has a green …",
+      "answer": "parrot"
+     },
+     {
+      "q": "Uncle Tom saw a bear from the …",
+      "answer": "train"
+     },
+     {
+      "q": "Grandpa Sven is sending fjord …",
+      "answer": "stones"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "You stick a ___ on a postcard.",
+      "options": [
+       "stamp",
+       "pillow",
+       "mirror"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Yesterday I ___ a letter to my cousin.",
+      "options": [
+       "send",
+       "sent",
+       "sended"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Write the ___ clearly, or the card will get lost.",
+      "options": [
+       "address",
+       "weather",
+       "prize"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"___ from Norway!\" is a typical postcard start.",
+      "options": [
+       "Directions",
+       "Greetings",
+       "Stairs"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "At the end of a card, you ___ your name.",
+      "options": [
+       "sign",
+       "sing",
+       "send"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Write a mini postcard (4 lines) to your partner from an imaginary trip. Exchange, read aloud, and answer one question about it: \"What did you see there?\""
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write a real postcard (5 sentences) to someone in your family about your week. Sign it!"
+  }
+ ]
 }

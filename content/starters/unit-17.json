@@ -1,52 +1,226 @@
 {
-  "id": "starters-17", "level": "starters", "number": 17,
-  "title": "Big animals", "topic": "wild animals",
-  "grammar": "It is big / small + can",
-  "wordlist": ["lion", "elephant", "giraffe", "monkey", "hippo", "bear", "snake", "tiger", "zoo", "wild"],
-  "exam_focus": { "paper": "Listening", "part": 1, "skill": "wild animals" },
-  "characters": ["nico", "astrid"],
-  "scene": { "speaker": "nico", "pose": { "nico": 5, "astrid": 2 },
-    "bubble": "The elephant is SO big and the monkey is SO funny! Zoo day is the best day!" },
-  "activities": [
-    { "code": "A", "type": "crossword", "title": "Write the wild animals.",
-      "outputs": ["book", "digital"],
-      "data": { "words": [
-        { "word": "LION", "clue": "The king of the animals. Roar!" },
-        { "word": "ELEPHANT", "clue": "Very big, grey, with a long nose." },
-        { "word": "GIRAFFE", "clue": "It has a very, very long neck." },
-        { "word": "MONKEY", "clue": "It climbs trees and eats bananas." },
-        { "word": "BEAR", "clue": "Big and strong. It loves honey." } ] } },
-    { "code": "B", "type": "match_words", "title": "Match the animal with its special thing.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Animal", "right_label": "Special thing",
-        "pairs": [
-          { "left": "the giraffe", "right": "a very long neck" },
-          { "left": "the elephant", "right": "a long nose called a trunk" },
-          { "left": "the lion", "right": "a big loud roar" },
-          { "left": "the monkey", "right": "hands that climb everything" },
-          { "left": "the hippo", "right": "a giant mouth" },
-          { "left": "the snake", "right": "no legs at all" } ] } },
-    { "code": "C", "type": "listening", "title": "Listen at the zoo. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "starters/u17-c.mp3",
-      "data": { "voice_note": "Voces: Nico y Astrid (en el zoo).",
-        "script": "Nico: The elephant is eating! Its nose is like a big arm. … Astrid: The giraffe's neck is longer than a door! … Nico: Look, four monkeys! They are jumping from tree to tree. … Astrid: The lion is sleeping. Shhh! … Nico: The hippo is in the water. Only its eyes are out! … Astrid: My favourite is the bear. It's brown and very big. … Nico: And Pip says hello to the zoo birds. New friends!",
-        "questions": [
-          { "q": "The elephant's nose is like a big …", "answer": "arm" },
-          { "q": "The giraffe's neck is longer than a …", "answer": "door" },
-          { "q": "There are … monkeys jumping.", "answer": "four" },
-          { "q": "The … is sleeping.", "answer": "lion" },
-          { "q": "Astrid's favourite is the brown …", "answer": "bear" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "The ___ has a very long neck.", "options": ["giraffe", "lion", "snake"], "answer": 0 },
-          { "sentence": "The elephant is very …", "options": ["big", "small", "pink"], "answer": 0 },
-          { "sentence": "The monkey can ___ trees.", "options": ["climb", "cook", "read"], "answer": 0 },
-          { "sentence": "The lion says …", "options": ["roar", "quack", "meow"], "answer": 0 },
-          { "sentence": "Wild animals live at the ___ or in nature.", "options": ["zoo", "school", "kitchen"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Animal mime: move like an animal (elephant, monkey, snake…). Your partner guesses: \"You are a…!\" Three animals each." } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Choose your favourite zoo animal. Draw it and write 3 sentences: It is… It can… It has got…" } ]
+ "id": "starters-17",
+ "level": "starters",
+ "number": 17,
+ "title": "Big animals",
+ "topic": "wild animals",
+ "grammar": "It is big / small + can",
+ "wordlist": [
+  "lion",
+  "elephant",
+  "giraffe",
+  "monkey",
+  "hippo",
+  "bear",
+  "snake",
+  "tiger",
+  "zoo",
+  "wild"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 1,
+  "skill": "wild animals"
+ },
+ "characters": [
+  "nico",
+  "astrid"
+ ],
+ "scene": {
+  "speaker": "nico",
+  "pose": {
+   "nico": 5,
+   "astrid": 2
+  },
+  "bubble": "The elephant is SO big and the monkey is SO funny! Zoo day is the best day!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Write the wild animals.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "LION",
+      "clue": "The king of the animals. Roar!"
+     },
+     {
+      "word": "ELEPHANT",
+      "clue": "Very big, grey, with a long nose."
+     },
+     {
+      "word": "GIRAFFE",
+      "clue": "It has a very, very long neck."
+     },
+     {
+      "word": "MONKEY",
+      "clue": "It climbs trees and eats bananas."
+     },
+     {
+      "word": "BEAR",
+      "clue": "Big and strong. It loves honey."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Match the animal with its special thing.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Animal",
+    "right_label": "Special thing",
+    "pairs": [
+     {
+      "left": "the giraffe",
+      "right": "a very long neck"
+     },
+     {
+      "left": "the elephant",
+      "right": "a long nose called a trunk"
+     },
+     {
+      "left": "the lion",
+      "right": "a big loud roar"
+     },
+     {
+      "left": "the monkey",
+      "right": "hands that climb everything"
+     },
+     {
+      "left": "the hippo",
+      "right": "a giant mouth"
+     },
+     {
+      "left": "the snake",
+      "right": "no legs at all"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen at the zoo. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u17-c.mp3",
+   "data": {
+    "voice_note": "Voces: Nico y Astrid (en el zoo).",
+    "script": "Nico: The elephant is eating! Its nose is like a big arm. … Astrid: The giraffe's neck is longer than a door! … Nico: Look, four monkeys! They are jumping from tree to tree. … Astrid: The lion is sleeping. Shhh! … Nico: The hippo is in the water. Only its eyes are out! … Astrid: My favourite is the bear. It's brown and very big. … Nico: And Pip says hello to the zoo birds. New friends!",
+    "questions": [
+     {
+      "q": "The elephant's nose is like a big …",
+      "answer": "arm"
+     },
+     {
+      "q": "The giraffe's neck is longer than a …",
+      "answer": "door"
+     },
+     {
+      "q": "There are … monkeys jumping.",
+      "answer": "four"
+     },
+     {
+      "q": "The … is sleeping.",
+      "answer": "lion"
+     },
+     {
+      "q": "Astrid's favourite is the brown …",
+      "answer": "bear"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "The ___ has a very long neck.",
+      "options": [
+       "giraffe",
+       "lion",
+       "snake"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The elephant is very …",
+      "options": [
+       "big",
+       "small",
+       "pink"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The monkey can ___ trees.",
+      "options": [
+       "climb",
+       "cook",
+       "read"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The lion says …",
+      "options": [
+       "roar",
+       "quack",
+       "meow"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Wild animals live at the ___ or in nature.",
+      "options": [
+       "zoo",
+       "school",
+       "kitchen"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Animal mime: move like an animal (elephant, monkey, snake…). Your partner guesses: \"You are a…!\" Three animals each."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Choose your favourite zoo animal. Draw it and write 3 sentences: It is… It can… It has got…"
+  }
+ ]
 }

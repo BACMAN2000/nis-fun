@@ -1,53 +1,253 @@
 {
-  "id": "flyers-28", "level": "flyers", "number": 28,
-  "title": "They were tired, so…", "topic": "so / because",
-  "grammar": "so (resultado) / because (causa)",
-  "wordlist": ["tired", "hungry", "thirsty", "bored", "excited", "afraid", "so", "because", "reason", "sleep"],
-  "exam_focus": { "paper": "Reading & Writing", "part": 5, "skill": "story completion" },
-  "characters": ["maya", "oliver"],
-  "scene": { "speaker": "maya", "pose": { "maya": 4, "oliver": 6 },
-    "bubble": "Oliver fell asleep in the library because he practised all night. He was SO tired that he snored on the dictionary!" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the cause with the result.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Cause", "right_label": "…so…",
-        "pairs": [
-          { "left": "They were tired,", "right": "so they went to bed early" },
-          { "left": "He was hungry,", "right": "so he made a sandwich" },
-          { "left": "She was thirsty,", "right": "so she drank two glasses of water" },
-          { "left": "We were bored,", "right": "so we invented a new game" },
-          { "left": "I was afraid of the dark,", "right": "so I turned on the light" },
-          { "left": "It started to rain,", "right": "so we ran home fast" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Choose so or because.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Complete each sentence.",
-        "items": [
-          { "sentence": "I took my umbrella ___ it was raining.", "options": ["so", "because", "but"], "answer": 1 },
-          { "sentence": "It was raining, ___ I took my umbrella.", "options": ["so", "because", "or"], "answer": 0 },
-          { "sentence": "She was excited ___ it was her birthday.", "options": ["so", "because", "and"], "answer": 1 },
-          { "sentence": "The film was boring, ___ we left early.", "options": ["because", "so", "if"], "answer": 1 },
-          { "sentence": "He didn't sleep well, ___ he is tired today.", "options": ["because", "but", "so"], "answer": 2 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to the story of the sleepy concert. Write a word in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "flyers/u28-c.mp3",
-      "data": { "voice_note": "Voces: Maya (narradora divertida) y Oliver (defendiéndose).",
-        "script": "Maya: Let me tell everyone what happened, Oliver! … Maya: Oliver practised his guitar until three in the morning. … Maya: So the next day he was very, very tired. … Maya: He fell asleep in the library, on top of a huge dictionary! … Oliver: Because the dictionary was soft! Well… no, it wasn't. … Maya: He snored so loudly that the librarian thought it was thunder. … Maya: So now there's a new rule in the library: no sleeping on the dictionaries! … Oliver: And I have a new rule too: practise until ten o'clock, then sleep!",
-        "questions": [
-          { "q": "Oliver practised until … in the morning.", "answer": "three" },
-          { "q": "He fell asleep in the …", "answer": "library" },
-          { "q": "He slept on top of a huge …", "answer": "dictionary" },
-          { "q": "The librarian thought the snoring was …", "answer": "thunder" },
-          { "q": "Oliver's new rule: practise until … o'clock.", "answer": "ten" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "When you need water, you are …", "options": ["thirsty", "bored", "tired"], "answer": 0 },
-          { "sentence": "When nothing is interesting, you are …", "options": ["excited", "bored", "brave"], "answer": 1 },
-          { "sentence": "Before a birthday party, children are …", "options": ["excited", "tired", "afraid"], "answer": 0 },
-          { "sentence": "He was ___ of the big dog, so he crossed the street.", "options": ["afraid", "hungry", "polite"], "answer": 0 },
-          { "sentence": "The ___ why I'm late is the traffic.", "options": ["news", "reason", "prize"], "answer": 1 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Chain story: Student A starts \"I was hungry, so…\". Student B continues the result and adds a new cause: \"…so I opened the fridge, but it was empty, so…\". Keep the chain going for 6 turns!" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write 3 sentences with so and 2 with because about your real week: I was tired on Monday because…" } ]
+ "id": "flyers-28",
+ "level": "flyers",
+ "number": 28,
+ "title": "They were tired, so…",
+ "topic": "so / because",
+ "grammar": "so (resultado) / because (causa)",
+ "wordlist": [
+  "tired",
+  "hungry",
+  "thirsty",
+  "bored",
+  "excited",
+  "afraid",
+  "so",
+  "because",
+  "reason",
+  "sleep"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 5,
+  "skill": "story completion"
+ },
+ "characters": [
+  "maya",
+  "oliver"
+ ],
+ "scene": {
+  "speaker": "maya",
+  "pose": {
+   "maya": 4,
+   "oliver": 6
+  },
+  "bubble": "Oliver fell asleep in the library because he practised all night. He was SO tired that he snored on the dictionary!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the cause with the result.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Cause",
+    "right_label": "…so…",
+    "pairs": [
+     {
+      "left": "They were tired,",
+      "right": "so they went to bed early"
+     },
+     {
+      "left": "He was hungry,",
+      "right": "so he made a sandwich"
+     },
+     {
+      "left": "She was thirsty,",
+      "right": "so she drank two glasses of water"
+     },
+     {
+      "left": "We were bored,",
+      "right": "so we invented a new game"
+     },
+     {
+      "left": "I was afraid of the dark,",
+      "right": "so I turned on the light"
+     },
+     {
+      "left": "It started to rain,",
+      "right": "so we ran home fast"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choose so or because.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete each sentence.",
+    "items": [
+     {
+      "sentence": "I took my umbrella ___ it was raining.",
+      "options": [
+       "so",
+       "because",
+       "but"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "It was raining, ___ I took my umbrella.",
+      "options": [
+       "so",
+       "because",
+       "or"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "She was excited ___ it was her birthday.",
+      "options": [
+       "so",
+       "because",
+       "and"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "The film was boring, ___ we left early.",
+      "options": [
+       "because",
+       "so",
+       "if"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "He didn't sleep well, ___ he is tired today.",
+      "options": [
+       "because",
+       "but",
+       "so"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to the story of the sleepy concert. Write a word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u28-c.mp3",
+   "data": {
+    "voice_note": "Voces: Maya (narradora divertida) y Oliver (defendiéndose).",
+    "script": "Maya: Let me tell everyone what happened, Oliver! … Maya: Oliver practised his guitar until three in the morning. … Maya: So the next day he was very, very tired. … Maya: He fell asleep in the library, on top of a huge dictionary! … Oliver: Because the dictionary was soft! Well… no, it wasn't. … Maya: He snored so loudly that the librarian thought it was thunder. … Maya: So now there's a new rule in the library: no sleeping on the dictionaries! … Oliver: And I have a new rule too: practise until ten o'clock, then sleep!",
+    "questions": [
+     {
+      "q": "Oliver practised until … in the morning.",
+      "answer": "three"
+     },
+     {
+      "q": "He fell asleep in the …",
+      "answer": "library"
+     },
+     {
+      "q": "He slept on top of a huge …",
+      "answer": "dictionary"
+     },
+     {
+      "q": "The librarian thought the snoring was …",
+      "answer": "thunder"
+     },
+     {
+      "q": "Oliver's new rule: practise until … o'clock.",
+      "answer": "ten"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "When you need water, you are …",
+      "options": [
+       "thirsty",
+       "bored",
+       "tired"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "When nothing is interesting, you are …",
+      "options": [
+       "excited",
+       "bored",
+       "brave"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Before a birthday party, children are …",
+      "options": [
+       "excited",
+       "tired",
+       "afraid"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "He was ___ of the big dog, so he crossed the street.",
+      "options": [
+       "afraid",
+       "hungry",
+       "polite"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The ___ why I'm late is the traffic.",
+      "options": [
+       "news",
+       "reason",
+       "prize"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Chain story: Student A starts \"I was hungry, so…\". Student B continues the result and adds a new cause: \"…so I opened the fridge, but it was empty, so…\". Keep the chain going for 6 turns!"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write 3 sentences with so and 2 with because about your real week: I was tired on Monday because…"
+  }
+ ]
 }

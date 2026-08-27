@@ -1,54 +1,254 @@
 {
-  "id": "flyers-39", "level": "flyers", "number": 39,
-  "title": "Famous explorers", "topic": "biographies",
-  "grammar": "past simple en biografías",
-  "wordlist": ["explorer", "journey", "discover", "map", "ship", "mountain", "pole", "brave", "return", "history"],
-  "exam_focus": { "paper": "Reading & Writing", "part": 4, "skill": "factual text" },
-  "characters": ["maya", "ingrid"],
-  "scene": { "speaker": "ingrid", "pose": { "ingrid": 2, "maya": 3 },
-    "bubble": "Every great expedition learns from the past. Today: real explorers who crossed oceans, jungles and ice!" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the word with its meaning.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Word", "right_label": "Meaning",
-        "pairs": [
-          { "left": "an explorer", "right": "a person who travels to unknown places" },
-          { "left": "a journey", "right": "a long trip" },
-          { "left": "to discover", "right": "to find something for the first time" },
-          { "left": "the South Pole", "right": "the coldest point at the bottom of the world" },
-          { "left": "to return", "right": "to come back home" },
-          { "left": "history", "right": "the story of the past" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Read about Roald Amundsen and choose the right answer.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Read the text. Choose the correct answer.",
-        "text": "Roald Amundsen was born in Norway in 1872. As a boy, he slept with his window open in winter to prepare his body for the cold! In 1911 he led the first team that reached the South Pole. They travelled with four sledges and fifty-two dogs, and they planted the Norwegian flag on the ice on the 14th of December. Amundsen wrote in his diary that the journey was hard, but his team was strong and well prepared. Today, a sea near Antarctica has his name.",
-        "items": [
-          { "sentence": "Where was Amundsen born?", "options": ["in Peru", "in Norway", "in Antarctica"], "answer": 1 },
-          { "sentence": "Why did he sleep with the window open?", "options": ["to prepare for the cold", "he liked birds", "his room was hot"], "answer": 0 },
-          { "sentence": "What did his team reach in 1911?", "options": ["the North Pole", "the South Pole", "the Amazon"], "answer": 1 },
-          { "sentence": "How many dogs did they travel with?", "options": ["fifty-two", "twenty-five", "fifteen"], "answer": 0 },
-          { "sentence": "What has his name today?", "options": ["a mountain", "a sea", "a ship"], "answer": 1 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to Maya's explorer facts. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "flyers/u39-c.mp3",
-      "data": { "voice_note": "Voces: Maya (datos) e Ingrid (comentando).",
-        "script": "Maya: Explorer facts, Ingrid! Fact one: the first woman to fly alone across the Atlantic was Amelia Earhart, in 1932. … Ingrid: Alone, over all that ocean. So brave! … Maya: Fact two: María Reiche studied the Nazca lines in Peru for fifty years! … Maya: She cleaned the desert lines with her own broom. … Ingrid: A broom! That's dedication. … Maya: Fact three: the first team on top of Everest carried oxygen in heavy metal bottles. … Maya: And fact four: today explorers use satellites, but they still carry paper maps. Just in case! … Ingrid: Rule number one of every expedition: always have a plan B.",
-        "questions": [
-          { "q": "Amelia Earhart crossed the Atlantic alone in …", "answer": "1932" },
-          { "q": "María Reiche studied the Nazca lines for … years.", "answer": "fifty" },
-          { "q": "She cleaned the lines with her own …", "answer": "broom" },
-          { "q": "The Everest team carried oxygen in metal …", "answer": "bottles" },
-          { "q": "Modern explorers still carry paper …", "answer": "maps" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "Columbus ___ across the Atlantic in 1492.", "options": ["sailed", "sails", "sailing"], "answer": 0 },
-          { "sentence": "A long trip is a …", "options": ["journey", "chore", "channel"], "answer": 0 },
-          { "sentence": "Explorers use a ___ to find the way.", "options": ["map", "pillow", "stamp"], "answer": 0 },
-          { "sentence": "She ___ a new kind of butterfly in the jungle.", "options": ["discovered", "returned", "signed"], "answer": 0 },
-          { "sentence": "After two years at sea, the ship ___ home.", "options": ["returned", "discovered", "collected"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Invent an explorer: name, year, what they discovered, one funny detail. Tell their story to another pair in past simple. Vote for the best invented explorer of the class!" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Choose a real explorer (or scientist) and write 4 facts about them in past simple: was born, travelled, discovered…" } ]
+ "id": "flyers-39",
+ "level": "flyers",
+ "number": 39,
+ "title": "Famous explorers",
+ "topic": "biographies",
+ "grammar": "past simple en biografías",
+ "wordlist": [
+  "explorer",
+  "journey",
+  "discover",
+  "map",
+  "ship",
+  "mountain",
+  "pole",
+  "brave",
+  "return",
+  "history"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 4,
+  "skill": "factual text"
+ },
+ "characters": [
+  "maya",
+  "ingrid"
+ ],
+ "scene": {
+  "speaker": "ingrid",
+  "pose": {
+   "ingrid": 2,
+   "maya": 3
+  },
+  "bubble": "Every great expedition learns from the past. Today: real explorers who crossed oceans, jungles and ice!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the word with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "an explorer",
+      "right": "a person who travels to unknown places"
+     },
+     {
+      "left": "a journey",
+      "right": "a long trip"
+     },
+     {
+      "left": "to discover",
+      "right": "to find something for the first time"
+     },
+     {
+      "left": "the South Pole",
+      "right": "the coldest point at the bottom of the world"
+     },
+     {
+      "left": "to return",
+      "right": "to come back home"
+     },
+     {
+      "left": "history",
+      "right": "the story of the past"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Read about Roald Amundsen and choose the right answer.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Read the text. Choose the correct answer.",
+    "text": "Roald Amundsen was born in Norway in 1872. As a boy, he slept with his window open in winter to prepare his body for the cold! In 1911 he led the first team that reached the South Pole. They travelled with four sledges and fifty-two dogs, and they planted the Norwegian flag on the ice on the 14th of December. Amundsen wrote in his diary that the journey was hard, but his team was strong and well prepared. Today, a sea near Antarctica has his name.",
+    "items": [
+     {
+      "sentence": "Where was Amundsen born?",
+      "options": [
+       "in Peru",
+       "in Norway",
+       "in Antarctica"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Why did he sleep with the window open?",
+      "options": [
+       "to prepare for the cold",
+       "he liked birds",
+       "his room was hot"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "What did his team reach in 1911?",
+      "options": [
+       "the North Pole",
+       "the South Pole",
+       "the Amazon"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "How many dogs did they travel with?",
+      "options": [
+       "fifty-two",
+       "twenty-five",
+       "fifteen"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "What has his name today?",
+      "options": [
+       "a mountain",
+       "a sea",
+       "a ship"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to Maya's explorer facts. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u39-c.mp3",
+   "data": {
+    "voice_note": "Voces: Maya (datos) e Ingrid (comentando).",
+    "script": "Maya: Explorer facts, Ingrid! Fact one: the first woman to fly alone across the Atlantic was Amelia Earhart, in 1932. … Ingrid: Alone, over all that ocean. So brave! … Maya: Fact two: María Reiche studied the Nazca lines in Peru for fifty years! … Maya: She cleaned the desert lines with her own broom. … Ingrid: A broom! That's dedication. … Maya: Fact three: the first team on top of Everest carried oxygen in heavy metal bottles. … Maya: And fact four: today explorers use satellites, but they still carry paper maps. Just in case! … Ingrid: Rule number one of every expedition: always have a plan B.",
+    "questions": [
+     {
+      "q": "Amelia Earhart crossed the Atlantic alone in …",
+      "answer": "1932"
+     },
+     {
+      "q": "María Reiche studied the Nazca lines for … years.",
+      "answer": "fifty"
+     },
+     {
+      "q": "She cleaned the lines with her own …",
+      "answer": "broom"
+     },
+     {
+      "q": "The Everest team carried oxygen in metal …",
+      "answer": "bottles"
+     },
+     {
+      "q": "Modern explorers still carry paper …",
+      "answer": "maps"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "Columbus ___ across the Atlantic in 1492.",
+      "options": [
+       "sailed",
+       "sails",
+       "sailing"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "A long trip is a …",
+      "options": [
+       "journey",
+       "chore",
+       "channel"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Explorers use a ___ to find the way.",
+      "options": [
+       "map",
+       "pillow",
+       "stamp"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "She ___ a new kind of butterfly in the jungle.",
+      "options": [
+       "discovered",
+       "returned",
+       "signed"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "After two years at sea, the ship ___ home.",
+      "options": [
+       "returned",
+       "discovered",
+       "collected"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Invent an explorer: name, year, what they discovered, one funny detail. Tell their story to another pair in past simple. Vote for the best invented explorer of the class!"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Choose a real explorer (or scientist) and write 4 facts about them in past simple: was born, travelled, discovered…"
+  }
+ ]
 }

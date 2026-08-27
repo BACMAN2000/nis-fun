@@ -1,53 +1,253 @@
 {
-  "id": "movers-09", "level": "movers", "number": 9,
-  "title": "In the garden", "topic": "garden",
-  "grammar": "present continuous (ahora)",
-  "wordlist": ["grass", "flower", "tree", "leaf", "plant", "water", "grow", "dig", "butterfly", "bee"],
-  "exam_focus": { "paper": "Listening", "part": 5, "skill": "colour and write" },
-  "characters": ["erik", "sofia"],
-  "scene": { "speaker": "erik", "pose": { "erik": 3, "sofia": 1 },
-    "bubble": "Science in the garden! My new invention waters the plants… and sometimes the gardener too." },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the garden word with its description.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Word", "right_label": "Description",
-        "pairs": [
-          { "left": "grass", "right": "the green floor of the garden" },
-          { "left": "a leaf", "right": "green, it grows on trees" },
-          { "left": "a butterfly", "right": "an insect with beautiful wings" },
-          { "left": "a bee", "right": "a yellow and black insect that makes honey" },
-          { "left": "to water", "right": "to give the plants a drink" },
-          { "left": "to grow", "right": "to get bigger, slowly" } ] } },
-    { "code": "B", "type": "exam_task", "title": "What is happening now? Choose the correct form.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct present continuous form.",
-        "items": [
-          { "sentence": "Sofia ___ the roses right now.", "options": ["is watering", "waters", "watered"], "answer": 0 },
-          { "sentence": "Two bees ___ around the yellow flowers.", "options": ["is flying", "are flying", "flies"], "answer": 1 },
-          { "sentence": "Luna ___ a hole under the tree. Again!", "options": ["is digging", "digs", "dug"], "answer": 0 },
-          { "sentence": "What ___ you planting, Erik?", "options": ["is", "are", "do"], "answer": 1 },
-          { "sentence": "The sun ___ and the garden is happy.", "options": ["is shining", "shines", "shone"], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen. What is happening in the garden? Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "movers/u09-c.mp3",
-      "data": { "voice_note": "Voces: Erik (probando su invento) y Sofía (jardinera).",
-        "script": "Erik: Invention number twelve: the automatic water machine! … Sofia: I'm planting tomatoes here, Erik. Be careful! … Erik: Don't worry! I'm pressing the green button now… … Sofia: Erik! You are watering MY HAT! … Erik: Oops. Small mistake. Now the red button… … Sofia: Better! Look, the machine is watering the flowers perfectly. … Sofia: And there's a butterfly sitting on it. She thinks it's a big flower! … Erik: Invention number twelve: success! More or less.",
-        "questions": [
-          { "q": "It is invention number …", "answer": "twelve" },
-          { "q": "Sofía is planting …", "answer": "tomatoes" },
-          { "q": "First, the machine waters Sofía's …", "answer": "hat" },
-          { "q": "With the red button it waters the … perfectly.", "answer": "flowers" },
-          { "q": "A … is sitting on the machine.", "answer": "butterfly" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "Trees are full of green …", "options": ["leaves", "bees", "boots"], "answer": 0 },
-          { "sentence": "Bees make …", "options": ["honey", "milk", "rice"], "answer": 0 },
-          { "sentence": "Plants need water and sun to …", "options": ["grow", "fly", "sing"], "answer": 0 },
-          { "sentence": "Dogs love to ___ holes in the garden.", "options": ["dig", "read", "cook"], "answer": 0 },
-          { "sentence": "We sit on the ___ for the picnic.", "options": ["grass", "leaf", "bee"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Garden theatre: one is a plant growing (slowly!), the other is the gardener narrating in present continuous: \"The plant is growing… I am watering it…\" Then swap." } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Look out of a window for 5 minutes. Write 4 sentences about what is happening: A bird is singing…" } ]
+ "id": "movers-09",
+ "level": "movers",
+ "number": 9,
+ "title": "In the garden",
+ "topic": "garden",
+ "grammar": "present continuous (ahora)",
+ "wordlist": [
+  "grass",
+  "flower",
+  "tree",
+  "leaf",
+  "plant",
+  "water",
+  "grow",
+  "dig",
+  "butterfly",
+  "bee"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 5,
+  "skill": "colour and write"
+ },
+ "characters": [
+  "erik",
+  "sofia"
+ ],
+ "scene": {
+  "speaker": "erik",
+  "pose": {
+   "erik": 3,
+   "sofia": 1
+  },
+  "bubble": "Science in the garden! My new invention waters the plants… and sometimes the gardener too."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the garden word with its description.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Description",
+    "pairs": [
+     {
+      "left": "grass",
+      "right": "the green floor of the garden"
+     },
+     {
+      "left": "a leaf",
+      "right": "green, it grows on trees"
+     },
+     {
+      "left": "a butterfly",
+      "right": "an insect with beautiful wings"
+     },
+     {
+      "left": "a bee",
+      "right": "a yellow and black insect that makes honey"
+     },
+     {
+      "left": "to water",
+      "right": "to give the plants a drink"
+     },
+     {
+      "left": "to grow",
+      "right": "to get bigger, slowly"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "What is happening now? Choose the correct form.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct present continuous form.",
+    "items": [
+     {
+      "sentence": "Sofia ___ the roses right now.",
+      "options": [
+       "is watering",
+       "waters",
+       "watered"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Two bees ___ around the yellow flowers.",
+      "options": [
+       "is flying",
+       "are flying",
+       "flies"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Luna ___ a hole under the tree. Again!",
+      "options": [
+       "is digging",
+       "digs",
+       "dug"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "What ___ you planting, Erik?",
+      "options": [
+       "is",
+       "are",
+       "do"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "The sun ___ and the garden is happy.",
+      "options": [
+       "is shining",
+       "shines",
+       "shone"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen. What is happening in the garden? Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u09-c.mp3",
+   "data": {
+    "voice_note": "Voces: Erik (probando su invento) y Sofía (jardinera).",
+    "script": "Erik: Invention number twelve: the automatic water machine! … Sofia: I'm planting tomatoes here, Erik. Be careful! … Erik: Don't worry! I'm pressing the green button now… … Sofia: Erik! You are watering MY HAT! … Erik: Oops. Small mistake. Now the red button… … Sofia: Better! Look, the machine is watering the flowers perfectly. … Sofia: And there's a butterfly sitting on it. She thinks it's a big flower! … Erik: Invention number twelve: success! More or less.",
+    "questions": [
+     {
+      "q": "It is invention number …",
+      "answer": "twelve"
+     },
+     {
+      "q": "Sofía is planting …",
+      "answer": "tomatoes"
+     },
+     {
+      "q": "First, the machine waters Sofía's …",
+      "answer": "hat"
+     },
+     {
+      "q": "With the red button it waters the … perfectly.",
+      "answer": "flowers"
+     },
+     {
+      "q": "A … is sitting on the machine.",
+      "answer": "butterfly"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "Trees are full of green …",
+      "options": [
+       "leaves",
+       "bees",
+       "boots"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Bees make …",
+      "options": [
+       "honey",
+       "milk",
+       "rice"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Plants need water and sun to …",
+      "options": [
+       "grow",
+       "fly",
+       "sing"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Dogs love to ___ holes in the garden.",
+      "options": [
+       "dig",
+       "read",
+       "cook"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "We sit on the ___ for the picnic.",
+      "options": [
+       "grass",
+       "leaf",
+       "bee"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Garden theatre: one is a plant growing (slowly!), the other is the gardener narrating in present continuous: \"The plant is growing… I am watering it…\" Then swap."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Look out of a window for 5 minutes. Write 4 sentences about what is happening: A bird is singing…"
+  }
+ ]
 }

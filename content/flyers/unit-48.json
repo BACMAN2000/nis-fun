@@ -1,53 +1,253 @@
 {
-  "id": "flyers-48", "level": "flyers", "number": 48,
-  "title": "The person who…", "topic": "who / which / where",
-  "grammar": "oraciones relativas: who, which, where",
-  "wordlist": ["who", "which", "where", "person", "place", "thing", "riddle", "guess", "describe", "mean"],
-  "exam_focus": { "paper": "Reading & Writing", "part": 1, "skill": "definitions" },
-  "characters": ["maya", "diego"],
-  "scene": { "speaker": "maya", "pose": { "maya": 3, "diego": 4 },
-    "bubble": "Riddle time! A person WHO flies, a place WHERE ships sleep, a thing WHICH rings… Can you guess them all?" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "who, which or where? Match the definition with the word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Definition", "right_label": "Word",
-        "pairs": [
-          { "left": "a person who brings your letters", "right": "a postman" },
-          { "left": "a thing which wakes you up", "right": "an alarm clock" },
-          { "left": "a place where you borrow books", "right": "a library" },
-          { "left": "a person who flies planes", "right": "a pilot" },
-          { "left": "a thing which shows your face", "right": "a mirror" },
-          { "left": "a place where ships stay at night", "right": "a port" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Choose who, which or where.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Complete each sentence.",
-        "items": [
-          { "sentence": "A nurse is a person ___ helps ill people.", "options": ["who", "which", "where"], "answer": 0 },
-          { "sentence": "A fridge is a machine ___ keeps food cold.", "options": ["who", "which", "where"], "answer": 1 },
-          { "sentence": "A stadium is a place ___ people watch matches.", "options": ["who", "which", "where"], "answer": 2 },
-          { "sentence": "The girl ___ won the race is in my class!", "options": ["who", "which", "where"], "answer": 0 },
-          { "sentence": "That's the café ___ we had breakfast.", "options": ["who", "which", "where"], "answer": 2 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to the riddle game. Write a word in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "flyers/u48-c.mp3",
-      "data": { "voice_note": "Voces: Maya (adivinanzas) y Diego (concursante).",
-        "script": "Maya: Riddle one! It's a thing which has teeth but never eats. … Diego: Teeth but never eats… a comb! For your hair! … Maya: Correct! Riddle two: it's a place where the books live. … Diego: The library. Too easy! … Maya: Riddle three: a person who works when everyone sleeps. … Diego: Hmm… a baker! They make bread at night. … Maya: Excellent! Last one, the hardest. A thing which gets bigger when you take more away from it. … Diego: What? Bigger when you take away… A HOLE! … Maya: Champion of riddles! Your prize is… inventing the next four riddles.",
-        "questions": [
-          { "q": "The thing with teeth that never eats is a …", "answer": "comb" },
-          { "q": "The place where books live is the …", "answer": "library" },
-          { "q": "The person who works at night is a …", "answer": "baker" },
-          { "q": "The thing which gets bigger is a …", "answer": "hole" },
-          { "q": "Diego's prize is inventing the next … riddles.", "answer": "four" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "A question game with clues is a …", "options": ["riddle", "queue", "chore"], "answer": 0 },
-          { "sentence": "A dentist is a person ___ looks after teeth.", "options": ["who", "which", "where"], "answer": 0 },
-          { "sentence": "An oven is a machine ___ cooks food.", "options": ["where", "which", "who"], "answer": 1 },
-          { "sentence": "A kitchen is the room ___ we cook.", "options": ["which", "who", "where"], "answer": 2 },
-          { "sentence": "\"What does this word ___?\" — \"Look in the dictionary!\"", "options": ["mean", "guess", "describe"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Write 3 riddles with who/which/where for another pair (a person who…, a thing which…, a place where…). Exchange and solve. One point per correct guess!" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write definitions for 5 words you learned this month, using who, which or where: A lighthouse is a tower which…" } ]
+ "id": "flyers-48",
+ "level": "flyers",
+ "number": 48,
+ "title": "The person who…",
+ "topic": "who / which / where",
+ "grammar": "oraciones relativas: who, which, where",
+ "wordlist": [
+  "who",
+  "which",
+  "where",
+  "person",
+  "place",
+  "thing",
+  "riddle",
+  "guess",
+  "describe",
+  "mean"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 1,
+  "skill": "definitions"
+ },
+ "characters": [
+  "maya",
+  "diego"
+ ],
+ "scene": {
+  "speaker": "maya",
+  "pose": {
+   "maya": 3,
+   "diego": 4
+  },
+  "bubble": "Riddle time! A person WHO flies, a place WHERE ships sleep, a thing WHICH rings… Can you guess them all?"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "who, which or where? Match the definition with the word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Definition",
+    "right_label": "Word",
+    "pairs": [
+     {
+      "left": "a person who brings your letters",
+      "right": "a postman"
+     },
+     {
+      "left": "a thing which wakes you up",
+      "right": "an alarm clock"
+     },
+     {
+      "left": "a place where you borrow books",
+      "right": "a library"
+     },
+     {
+      "left": "a person who flies planes",
+      "right": "a pilot"
+     },
+     {
+      "left": "a thing which shows your face",
+      "right": "a mirror"
+     },
+     {
+      "left": "a place where ships stay at night",
+      "right": "a port"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choose who, which or where.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete each sentence.",
+    "items": [
+     {
+      "sentence": "A nurse is a person ___ helps ill people.",
+      "options": [
+       "who",
+       "which",
+       "where"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "A fridge is a machine ___ keeps food cold.",
+      "options": [
+       "who",
+       "which",
+       "where"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "A stadium is a place ___ people watch matches.",
+      "options": [
+       "who",
+       "which",
+       "where"
+      ],
+      "answer": 2
+     },
+     {
+      "sentence": "The girl ___ won the race is in my class!",
+      "options": [
+       "who",
+       "which",
+       "where"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "That's the café ___ we had breakfast.",
+      "options": [
+       "who",
+       "which",
+       "where"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to the riddle game. Write a word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u48-c.mp3",
+   "data": {
+    "voice_note": "Voces: Maya (adivinanzas) y Diego (concursante).",
+    "script": "Maya: Riddle one! It's a thing which has teeth but never eats. … Diego: Teeth but never eats… a comb! For your hair! … Maya: Correct! Riddle two: it's a place where the books live. … Diego: The library. Too easy! … Maya: Riddle three: a person who works when everyone sleeps. … Diego: Hmm… a baker! They make bread at night. … Maya: Excellent! Last one, the hardest. A thing which gets bigger when you take more away from it. … Diego: What? Bigger when you take away… A HOLE! … Maya: Champion of riddles! Your prize is… inventing the next four riddles.",
+    "questions": [
+     {
+      "q": "The thing with teeth that never eats is a …",
+      "answer": "comb"
+     },
+     {
+      "q": "The place where books live is the …",
+      "answer": "library"
+     },
+     {
+      "q": "The person who works at night is a …",
+      "answer": "baker"
+     },
+     {
+      "q": "The thing which gets bigger is a …",
+      "answer": "hole"
+     },
+     {
+      "q": "Diego's prize is inventing the next … riddles.",
+      "answer": "four"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "A question game with clues is a …",
+      "options": [
+       "riddle",
+       "queue",
+       "chore"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "A dentist is a person ___ looks after teeth.",
+      "options": [
+       "who",
+       "which",
+       "where"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "An oven is a machine ___ cooks food.",
+      "options": [
+       "where",
+       "which",
+       "who"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "A kitchen is the room ___ we cook.",
+      "options": [
+       "which",
+       "who",
+       "where"
+      ],
+      "answer": 2
+     },
+     {
+      "sentence": "\"What does this word ___?\" — \"Look in the dictionary!\"",
+      "options": [
+       "mean",
+       "guess",
+       "describe"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Write 3 riddles with who/which/where for another pair (a person who…, a thing which…, a place where…). Exchange and solve. One point per correct guess!"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write definitions for 5 words you learned this month, using who, which or where: A lighthouse is a tower which…"
+  }
+ ]
 }

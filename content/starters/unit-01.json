@@ -1,306 +1,307 @@
 {
-  "id": "starters-01",
-  "level": "starters",
-  "number": 1,
-  "title": "Colours and toys",
-  "topic": "toys",
-  "grammar": "It is a… / What colour is…?",
-  "wordlist": [
-    "ball",
-    "kite",
-    "train",
-    "car",
-    "teddy",
-    "doll",
-    "red",
-    "blue",
-    "green",
-    "yellow"
-  ],
-  "exam_focus": {
-    "paper": "Reading & Writing",
-    "part": 1,
-    "skill": "word–picture matching"
+ "id": "starters-01",
+ "level": "starters",
+ "number": 1,
+ "title": "Colours and toys",
+ "topic": "toys",
+ "grammar": "It is a… / What colour is…?",
+ "wordlist": [
+  "ball",
+  "kite",
+  "train",
+  "car",
+  "teddy",
+  "doll",
+  "red",
+  "blue",
+  "green",
+  "yellow"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 1,
+  "skill": "word–picture matching"
+ },
+ "characters": [
+  "freya",
+  "pip"
+ ],
+ "scene": {
+  "speaker": "freya",
+  "pose": {
+   "freya": 8,
+   "pip": 1
   },
-  "characters": [
-    "freya",
-    "pip"
-  ],
-  "scene": {
-    "speaker": "freya",
-    "pose": {
-      "freya": 8,
-      "pip": 1
-    },
-    "bubble": "What's this? It's my toy box! Look — a red ball, a yellow kite… and Pip is hiding inside!",
-    "intro": "Freya opens her big toy box and — surprise! — everything falls on the floor: a red ball, a yellow kite, three little cars and one sleepy puffin called Pip. Now it is time to put everything back, and that is a game too! Say the name of each toy, say its colour, and count them with Freya. How many toys can YOU find in this unit? Open the box and let's play!"
+  "bubble": "What's this? It's my toy box! Look — a red ball, a yellow kite… and Pip is hiding inside!",
+  "intro": "Freya opens her big toy box and — surprise! — everything falls on the floor: a red ball, a yellow kite, three little cars and one sleepy puffin called Pip. Now it is time to put everything back, and that is a game too! Say the name of each toy, say its colour, and count them with Freya. How many toys can YOU find in this unit? Open the box and let's play!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Read and write the toys.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "TRAIN",
+      "row": 2,
+      "col": 0,
+      "dir": "across",
+      "clue": "It is long and goes on rails. Choo-choo!"
+     },
+     {
+      "word": "CAR",
+      "row": 0,
+      "col": 1,
+      "dir": "down",
+      "clue": "It has four wheels. Dad drives it."
+     },
+     {
+      "word": "BALL",
+      "row": 1,
+      "col": 2,
+      "dir": "down",
+      "clue": "It is round. You kick it or throw it."
+     },
+     {
+      "word": "KITE",
+      "row": 1,
+      "col": 3,
+      "dir": "down",
+      "clue": "It flies in the sky on a windy day."
+     },
+     {
+      "word": "TEDDY",
+      "row": 3,
+      "col": 3,
+      "dir": "across",
+      "clue": "A soft toy bear. You hug it at night."
+     }
+    ]
+   }
   },
-  "activities": [
-    {
-      "code": "A",
-      "type": "crossword",
-      "title": "Read and write the toys.",
-      "outputs": [
-        "book",
-        "digital"
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Match the thing with its colour.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Thing",
+    "right_label": "Colour",
+    "pairs": [
+     {
+      "left": "an apple",
+      "right": "red"
+     },
+     {
+      "left": "a banana",
+      "right": "yellow"
+     },
+     {
+      "left": "the sea",
+      "right": "blue"
+     },
+     {
+      "left": "a frog",
+      "right": "green"
+     },
+     {
+      "left": "a carrot",
+      "right": "orange"
+     },
+     {
+      "left": "the night",
+      "right": "black"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to Freya. Write a colour or a number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u01-c.mp3",
+   "data": {
+    "voice_note": "Voces: Freya (curiosa, dulce) y Nico (bromista).",
+    "script": "Nico: Freya, what's in your toy box? … Freya: Look! This is my ball. It's red. … Nico: And what's that? … Freya: It's my kite. It's yellow and very big! … Nico: How many cars have you got? … Freya: I've got three cars. One, two, three! … Nico: And who is this? … Freya: This is my teddy. He's brown. His name is Max. … Nico: And… what's that black and white thing? … Freya: That's not a toy! That's Pip! He's sleeping in my box again!",
+    "questions": [
+     {
+      "q": "The ball is …",
+      "answer": "red"
+     },
+     {
+      "q": "The kite is … and very big.",
+      "answer": "yellow"
+     },
+     {
+      "q": "Freya has got … cars.",
+      "answer": "three"
+     },
+     {
+      "q": "The teddy is …",
+      "answer": "brown"
+     },
+     {
+      "q": "… is sleeping in the toy box.",
+      "answer": "Pip"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Read and choose the correct word.",
+    "items": [
+     {
+      "sentence": "It is round. You play football with it.",
+      "options": [
+       "a ball",
+       "a kite",
+       "a car"
       ],
-      "data": {
-        "words": [
-          {
-            "word": "TRAIN",
-            "row": 2,
-            "col": 0,
-            "dir": "across",
-            "clue": "It is long and goes on rails. Choo-choo!"
-          },
-          {
-            "word": "CAR",
-            "row": 0,
-            "col": 1,
-            "dir": "down",
-            "clue": "It has four wheels. Dad drives it."
-          },
-          {
-            "word": "BALL",
-            "row": 1,
-            "col": 2,
-            "dir": "down",
-            "clue": "It is round. You kick it or throw it."
-          },
-          {
-            "word": "KITE",
-            "row": 1,
-            "col": 3,
-            "dir": "down",
-            "clue": "It flies in the sky on a windy day."
-          },
-          {
-            "word": "TEDDY",
-            "row": 3,
-            "col": 3,
-            "dir": "across",
-            "clue": "A soft toy bear. You hug it at night."
-          }
-        ]
-      }
-    },
-    {
-      "code": "B",
-      "type": "match_words",
-      "title": "Match the thing with its colour.",
-      "outputs": [
-        "book",
-        "digital",
-        "quiz"
+      "answer": 0
+     },
+     {
+      "sentence": "It flies in the sky.",
+      "options": [
+       "a train",
+       "a kite",
+       "a teddy"
       ],
-      "data": {
-        "left_label": "Thing",
-        "right_label": "Colour",
-        "pairs": [
-          {
-            "left": "an apple",
-            "right": "red"
-          },
-          {
-            "left": "a banana",
-            "right": "yellow"
-          },
-          {
-            "left": "the sea",
-            "right": "blue"
-          },
-          {
-            "left": "a frog",
-            "right": "green"
-          },
-          {
-            "left": "a carrot",
-            "right": "orange"
-          },
-          {
-            "left": "the night",
-            "right": "black"
-          }
-        ]
-      }
-    },
-    {
-      "code": "C",
-      "type": "listening",
-      "title": "Listen to Freya. Write a colour or a number in each gap.",
-      "outputs": [
-        "digital",
-        "quiz"
+      "answer": 1
+     },
+     {
+      "sentence": "A banana is …",
+      "options": [
+       "blue",
+       "red",
+       "yellow"
       ],
-      "audio": "starters/u01-c.mp3",
-      "data": {
-        "voice_note": "Voces: Freya (curiosa, dulce) y Nico (bromista).",
-        "script": "Nico: Freya, what's in your toy box? … Freya: Look! This is my ball. It's red. … Nico: And what's that? … Freya: It's my kite. It's yellow and very big! … Nico: How many cars have you got? … Freya: I've got three cars. One, two, three! … Nico: And who is this? … Freya: This is my teddy. He's brown. His name is Max. … Nico: And… what's that black and white thing? … Freya: That's not a toy! That's Pip! He's sleeping in my box again!",
-        "questions": [
-          {
-            "q": "The ball is …",
-            "answer": "red"
-          },
-          {
-            "q": "The kite is … and very big.",
-            "answer": "yellow"
-          },
-          {
-            "q": "Freya has got … cars.",
-            "answer": "three"
-          },
-          {
-            "q": "The teddy is …",
-            "answer": "brown"
-          },
-          {
-            "q": "… is sleeping in the toy box.",
-            "answer": "Pip"
-          }
-        ]
-      }
-    },
-    {
-      "code": "D",
-      "type": "exam_task",
-      "title": "Exam task · Choose the correct word.",
-      "outputs": [
-        "book",
-        "digital",
-        "quiz"
+      "answer": 2
+     },
+     {
+      "sentence": "It goes choo-choo on rails.",
+      "options": [
+       "a train",
+       "a doll",
+       "a ball"
       ],
-      "data": {
-        "instructions": "Read and choose the correct word.",
-        "items": [
-          {
-            "sentence": "It is round. You play football with it.",
-            "options": [
-              "a ball",
-              "a kite",
-              "a car"
-            ],
-            "answer": 0
-          },
-          {
-            "sentence": "It flies in the sky.",
-            "options": [
-              "a train",
-              "a kite",
-              "a teddy"
-            ],
-            "answer": 1
-          },
-          {
-            "sentence": "A banana is …",
-            "options": [
-              "blue",
-              "red",
-              "yellow"
-            ],
-            "answer": 2
-          },
-          {
-            "sentence": "It goes choo-choo on rails.",
-            "options": [
-              "a train",
-              "a doll",
-              "a ball"
-            ],
-            "answer": 0
-          },
-          {
-            "sentence": "A frog is …",
-            "options": [
-              "orange",
-              "green",
-              "black"
-            ],
-            "answer": 1
-          }
-        ]
-      }
-    },
-    {
-      "code": "F",
-      "type": "spot_diff",
-      "title": "Two toy boxes! Find the differences.",
-      "outputs": [
-        "book",
-        "digital"
+      "answer": 0
+     },
+     {
+      "sentence": "A frog is …",
+      "options": [
+       "orange",
+       "green",
+       "black"
       ],
-      "data": {
-        "sceneA": [
-          [
-            "⚽",
-            "🧸",
-            "🚗",
-            "🪁"
-          ],
-          [
-            "🎲",
-            "🪆",
-            "🚂",
-            "🎈"
-          ],
-          [
-            "🖍️",
-            "📚",
-            "🥁",
-            "🤖"
-          ]
-        ],
-        "sceneB": [
-          [
-            "🏀",
-            "🧸",
-            "🚗",
-            "🪁"
-          ],
-          [
-            "🎲",
-            "🪆",
-            "🚂",
-            "🎁"
-          ],
-          [
-            "🖍️",
-            "📚",
-            "🎺",
-            "🤖"
-          ]
-        ],
-        "diffs": [
-          [
-            0,
-            0
-          ],
-          [
-            1,
-            3
-          ],
-          [
-            2,
-            2
-          ]
-        ]
-      }
-    },
-    {
-      "code": "E",
-      "type": "pairwork",
-      "title": "Speaking · In pairs",
-      "outputs": [
-        "book"
-      ],
-      "data": {
-        "text": "Student A points at something in the classroom and asks: \"What colour is it?\" Student B answers: \"It's blue!\" Three things each, then swap. Bonus: find something orange!"
-      }
-    }
-  ],
-  "homework": [
-    {
-      "type": "write_sentences",
-      "prompt": "Draw your 3 favourite toys. Write one sentence for each: This is my ball. It is red."
-    }
-  ]
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Two toy boxes! Find the differences.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "sceneA": [
+     [
+      "⚽",
+      "🧸",
+      "🚗",
+      "🪁"
+     ],
+     [
+      "🎲",
+      "🪆",
+      "🚂",
+      "🎈"
+     ],
+     [
+      "🖍️",
+      "📚",
+      "🥁",
+      "🤖"
+     ]
+    ],
+    "sceneB": [
+     [
+      "🏀",
+      "🧸",
+      "🚗",
+      "🪁"
+     ],
+     [
+      "🎲",
+      "🪆",
+      "🚂",
+      "🎁"
+     ],
+     [
+      "🖍️",
+      "📚",
+      "🎺",
+      "🤖"
+     ]
+    ],
+    "diffs": [
+     [
+      0,
+      0
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      2,
+      2
+     ]
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Student A points at something in the classroom and asks: \"What colour is it?\" Student B answers: \"It's blue!\" Three things each, then swap. Bonus: find something orange!"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Draw your 3 favourite toys. Write one sentence for each: This is my ball. It is red."
+  }
+ ]
 }

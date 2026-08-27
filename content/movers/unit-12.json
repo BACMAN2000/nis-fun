@@ -1,53 +1,230 @@
 {
-  "id": "movers-12", "level": "movers", "number": 12,
-  "title": "My school bag", "topic": "school things",
-  "grammar": "have got / has got",
-  "wordlist": ["pencil case", "ruler", "rubber", "scissors", "glue", "notebook", "crayons", "sharpener", "backpack", "diary"],
-  "exam_focus": { "paper": "Reading & Writing", "part": 1, "skill": "definitions" },
-  "characters": ["erik", "valentina"],
-  "scene": { "speaker": "erik", "pose": { "erik": 8, "valentina": 4 },
-    "bubble": "My backpack has got 23 things inside. Valentina says 20 of them are little machines. She is correct." },
-  "activities": [
-    { "code": "A", "type": "crossword", "title": "Read the sentences and write the school things.",
-      "outputs": ["book", "digital"],
-      "data": { "words": [
-        { "word": "RULER", "clue": "You draw straight lines with it." },
-        { "word": "RUBBER", "clue": "It deletes your pencil mistakes." },
-        { "word": "SCISSORS", "clue": "You cut paper with them. Careful!" },
-        { "word": "GLUE", "clue": "It sticks two papers together." },
-        { "word": "NOTEBOOK", "clue": "You write your exercises in it." },
-        { "word": "CRAYONS", "clue": "Colour sticks for drawing." } ] } },
-    { "code": "B", "type": "match_words", "title": "Match the thing with what it does.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Thing", "right_label": "What it does",
-        "pairs": [
-          { "left": "the sharpener", "right": "makes your pencil sharp again" },
-          { "left": "the pencil case", "right": "keeps your pens together" },
-          { "left": "the backpack", "right": "carries everything on your back" },
-          { "left": "the diary", "right": "remembers your homework dates" },
-          { "left": "the glue stick", "right": "sticks pictures in your project" },
-          { "left": "the ruler", "right": "measures how long things are" } ] } },
-    { "code": "C", "type": "listening", "title": "Listen. What has everyone got? Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "movers/u12-c.mp3",
-      "data": { "voice_note": "Voces: Erik (inventario) y Valentina (auditora).",
-        "script": "Valentina: Backpack check! Erik, what have you got? … Erik: I've got three pencils, a green ruler and my robot notebook. … Valentina: Sofia has got new scissors with orange handles. … Erik: Mateo has got a pencil case shaped like a fish! … Valentina: And he's lost his rubber again — the third one this month. … Erik: I've got glue, crayons and a sharpener that collects the bits. … Valentina: An invention? … Erik: Of course! Nothing falls on the floor. Teacher-approved!",
-        "questions": [
-          { "q": "Erik has got three pencils and a … ruler.", "answer": "green" },
-          { "q": "Sofía's new scissors have … handles.", "answer": "orange" },
-          { "q": "Mateo's pencil case is shaped like a …", "answer": "fish" },
-          { "q": "Mateo has lost his … again.", "answer": "rubber" },
-          { "q": "Erik's sharpener collects the …", "answer": "bits" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "I ___ got a blue pencil case.", "options": ["have", "has", "am"], "answer": 0 },
-          { "sentence": "She ___ got new crayons.", "options": ["have", "has", "is"], "answer": 1 },
-          { "sentence": "You cut paper with …", "options": ["scissors", "glue", "a ruler"], "answer": 0 },
-          { "sentence": "___ you got a red pen?", "options": ["Have", "Has", "Do"], "answer": 0 },
-          { "sentence": "My pencil is broken — I need the …", "options": ["sharpener", "rubber", "diary"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Memory game: look inside your partner's pencil case for 10 seconds. Close it. Say everything you remember: \"You have got two pencils, a rubber…\" Count the correct ones!" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write 5 sentences about what you and your family have got: I have got… My mum has got…" } ]
+ "id": "movers-12",
+ "level": "movers",
+ "number": 12,
+ "title": "My school bag",
+ "topic": "school things",
+ "grammar": "have got / has got",
+ "wordlist": [
+  "pencil case",
+  "ruler",
+  "rubber",
+  "scissors",
+  "glue",
+  "notebook",
+  "crayons",
+  "sharpener",
+  "backpack",
+  "diary"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 1,
+  "skill": "definitions"
+ },
+ "characters": [
+  "erik",
+  "valentina"
+ ],
+ "scene": {
+  "speaker": "erik",
+  "pose": {
+   "erik": 8,
+   "valentina": 4
+  },
+  "bubble": "My backpack has got 23 things inside. Valentina says 20 of them are little machines. She is correct."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Read the sentences and write the school things.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "RULER",
+      "clue": "You draw straight lines with it."
+     },
+     {
+      "word": "RUBBER",
+      "clue": "It deletes your pencil mistakes."
+     },
+     {
+      "word": "SCISSORS",
+      "clue": "You cut paper with them. Careful!"
+     },
+     {
+      "word": "GLUE",
+      "clue": "It sticks two papers together."
+     },
+     {
+      "word": "NOTEBOOK",
+      "clue": "You write your exercises in it."
+     },
+     {
+      "word": "CRAYONS",
+      "clue": "Colour sticks for drawing."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Match the thing with what it does.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Thing",
+    "right_label": "What it does",
+    "pairs": [
+     {
+      "left": "the sharpener",
+      "right": "makes your pencil sharp again"
+     },
+     {
+      "left": "the pencil case",
+      "right": "keeps your pens together"
+     },
+     {
+      "left": "the backpack",
+      "right": "carries everything on your back"
+     },
+     {
+      "left": "the diary",
+      "right": "remembers your homework dates"
+     },
+     {
+      "left": "the glue stick",
+      "right": "sticks pictures in your project"
+     },
+     {
+      "left": "the ruler",
+      "right": "measures how long things are"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen. What has everyone got? Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u12-c.mp3",
+   "data": {
+    "voice_note": "Voces: Erik (inventario) y Valentina (auditora).",
+    "script": "Valentina: Backpack check! Erik, what have you got? … Erik: I've got three pencils, a green ruler and my robot notebook. … Valentina: Sofia has got new scissors with orange handles. … Erik: Mateo has got a pencil case shaped like a fish! … Valentina: And he's lost his rubber again — the third one this month. … Erik: I've got glue, crayons and a sharpener that collects the bits. … Valentina: An invention? … Erik: Of course! Nothing falls on the floor. Teacher-approved!",
+    "questions": [
+     {
+      "q": "Erik has got three pencils and a … ruler.",
+      "answer": "green"
+     },
+     {
+      "q": "Sofía's new scissors have … handles.",
+      "answer": "orange"
+     },
+     {
+      "q": "Mateo's pencil case is shaped like a …",
+      "answer": "fish"
+     },
+     {
+      "q": "Mateo has lost his … again.",
+      "answer": "rubber"
+     },
+     {
+      "q": "Erik's sharpener collects the …",
+      "answer": "bits"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "I ___ got a blue pencil case.",
+      "options": [
+       "have",
+       "has",
+       "am"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "She ___ got new crayons.",
+      "options": [
+       "have",
+       "has",
+       "is"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "You cut paper with …",
+      "options": [
+       "scissors",
+       "glue",
+       "a ruler"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___ you got a red pen?",
+      "options": [
+       "Have",
+       "Has",
+       "Do"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "My pencil is broken — I need the …",
+      "options": [
+       "sharpener",
+       "rubber",
+       "diary"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Memory game: look inside your partner's pencil case for 10 seconds. Close it. Say everything you remember: \"You have got two pencils, a rubber…\" Count the correct ones!"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write 5 sentences about what you and your family have got: I have got… My mum has got…"
+  }
+ ]
 }

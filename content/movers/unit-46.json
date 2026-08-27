@@ -1,53 +1,253 @@
 {
-  "id": "movers-46", "level": "movers", "number": 46,
-  "title": "At the café", "topic": "ordering food",
-  "grammar": "Can I have…? / anything else?",
-  "wordlist": ["menu", "waiter", "order", "hot chocolate", "toast", "pancakes", "bill", "please", "delicious", "table"],
-  "exam_focus": { "paper": "Reading & Writing", "part": 3, "skill": "conversation" },
-  "characters": ["mateo", "valentina"],
-  "scene": { "speaker": "mateo", "pose": { "mateo": 3, "valentina": 1 },
-    "bubble": "Club tradition: pancake Saturday at Café Aurora! I always order the same… everything." },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the café phrase with who says it.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Phrase", "right_label": "Who says it",
-        "pairs": [
-          { "left": "A table for four, please.", "right": "the client at the door" },
-          { "left": "Here is the menu.", "right": "the waiter, smiling" },
-          { "left": "Can I have pancakes, please?", "right": "the hungry client" },
-          { "left": "Anything else?", "right": "the waiter with the notebook" },
-          { "left": "The bill, please.", "right": "the client at the end" },
-          { "left": "It was delicious!", "right": "everyone at the table" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Choose the polite order.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the best words.",
-        "items": [
-          { "sentence": "___ I have a hot chocolate, please?", "options": ["Can", "Am", "Do"], "answer": 0 },
-          { "sentence": "\"Anything else?\" — \"___, that's all.\"", "options": ["No, thank you", "Yes, goodbye", "Never"], "answer": 0 },
-          { "sentence": "\"Here are your pancakes.\" — \"___!\"", "options": ["Thank you", "Turn left", "It's mine"], "answer": 0 },
-          { "sentence": "You read the ___ to choose your food.", "options": ["menu", "map", "letter"], "answer": 0 },
-          { "sentence": "At the end you pay the …", "options": ["bill", "ball", "bell"], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to the café order. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "movers/u46-c.mp3",
-      "data": { "voice_note": "Voces: Mateo (ordenando) y la mesera Rosa (voz adulta amable).",
-        "script": "Mateo: Good morning! A table for four, please. Next to the window! … Mateo: Can I have pancakes with honey, please? … Mateo: Valentina wants toast with cheese and a hot chocolate. … Mateo: Erik and Sofia want the fruit bowl with yoghurt — to share. … Mateo: And a little water for Luna, please. She's waiting outside. … Mateo: Anything else? Hmm… one more pancake. For scientific reasons. … Mateo: The bill? Fourteen soles. We pay together — club rules! … Mateo: Everything was delicious. See you next Saturday!",
-        "questions": [
-          { "q": "They want a table next to the …", "answer": "window" },
-          { "q": "Mateo orders pancakes with …", "answer": "honey" },
-          { "q": "Valentina wants toast with …", "answer": "cheese" },
-          { "q": "Erik and Sofía share the fruit bowl with …", "answer": "yoghurt" },
-          { "q": "The bill is … soles.", "answer": "fourteen" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the best reply.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the best answer.",
-        "items": [
-          { "sentence": "\"What would you like?\"", "options": ["Pancakes, please.", "On Thursday.", "It's Erik's."], "answer": 0 },
-          { "sentence": "\"Is everything okay?\"", "options": ["Yes, delicious, thanks!", "Turn right.", "Two metres."], "answer": 0 },
-          { "sentence": "\"Anything else?\"", "options": ["A juice, please.", "Under the bed.", "Last Tuesday."], "answer": 0 },
-          { "sentence": "The person who brings your food is the …", "options": ["waiter", "driver", "dentist"], "answer": 0 },
-          { "sentence": "Food that tastes wonderful is …", "options": ["delicious", "dangerous", "difficult"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Café role play: waiter and client, full scene (table, menu, order, anything else?, bill, goodbye). Then swap roles. Politeness = extra points!" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write the menu of your dream café: 6 dishes with prices, and one special of the day." } ]
+ "id": "movers-46",
+ "level": "movers",
+ "number": 46,
+ "title": "At the café",
+ "topic": "ordering food",
+ "grammar": "Can I have…? / anything else?",
+ "wordlist": [
+  "menu",
+  "waiter",
+  "order",
+  "hot chocolate",
+  "toast",
+  "pancakes",
+  "bill",
+  "please",
+  "delicious",
+  "table"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 3,
+  "skill": "conversation"
+ },
+ "characters": [
+  "mateo",
+  "valentina"
+ ],
+ "scene": {
+  "speaker": "mateo",
+  "pose": {
+   "mateo": 3,
+   "valentina": 1
+  },
+  "bubble": "Club tradition: pancake Saturday at Café Aurora! I always order the same… everything."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the café phrase with who says it.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Phrase",
+    "right_label": "Who says it",
+    "pairs": [
+     {
+      "left": "A table for four, please.",
+      "right": "the client at the door"
+     },
+     {
+      "left": "Here is the menu.",
+      "right": "the waiter, smiling"
+     },
+     {
+      "left": "Can I have pancakes, please?",
+      "right": "the hungry client"
+     },
+     {
+      "left": "Anything else?",
+      "right": "the waiter with the notebook"
+     },
+     {
+      "left": "The bill, please.",
+      "right": "the client at the end"
+     },
+     {
+      "left": "It was delicious!",
+      "right": "everyone at the table"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choose the polite order.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the best words.",
+    "items": [
+     {
+      "sentence": "___ I have a hot chocolate, please?",
+      "options": [
+       "Can",
+       "Am",
+       "Do"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"Anything else?\" — \"___, that's all.\"",
+      "options": [
+       "No, thank you",
+       "Yes, goodbye",
+       "Never"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"Here are your pancakes.\" — \"___!\"",
+      "options": [
+       "Thank you",
+       "Turn left",
+       "It's mine"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "You read the ___ to choose your food.",
+      "options": [
+       "menu",
+       "map",
+       "letter"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "At the end you pay the …",
+      "options": [
+       "bill",
+       "ball",
+       "bell"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to the café order. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u46-c.mp3",
+   "data": {
+    "voice_note": "Voces: Mateo (ordenando) y la mesera Rosa (voz adulta amable).",
+    "script": "Mateo: Good morning! A table for four, please. Next to the window! … Mateo: Can I have pancakes with honey, please? … Mateo: Valentina wants toast with cheese and a hot chocolate. … Mateo: Erik and Sofia want the fruit bowl with yoghurt — to share. … Mateo: And a little water for Luna, please. She's waiting outside. … Mateo: Anything else? Hmm… one more pancake. For scientific reasons. … Mateo: The bill? Fourteen soles. We pay together — club rules! … Mateo: Everything was delicious. See you next Saturday!",
+    "questions": [
+     {
+      "q": "They want a table next to the …",
+      "answer": "window"
+     },
+     {
+      "q": "Mateo orders pancakes with …",
+      "answer": "honey"
+     },
+     {
+      "q": "Valentina wants toast with …",
+      "answer": "cheese"
+     },
+     {
+      "q": "Erik and Sofía share the fruit bowl with …",
+      "answer": "yoghurt"
+     },
+     {
+      "q": "The bill is … soles.",
+      "answer": "fourteen"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the best reply.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the best answer.",
+    "items": [
+     {
+      "sentence": "\"What would you like?\"",
+      "options": [
+       "Pancakes, please.",
+       "On Thursday.",
+       "It's Erik's."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"Is everything okay?\"",
+      "options": [
+       "Yes, delicious, thanks!",
+       "Turn right.",
+       "Two metres."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"Anything else?\"",
+      "options": [
+       "A juice, please.",
+       "Under the bed.",
+       "Last Tuesday."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The person who brings your food is the …",
+      "options": [
+       "waiter",
+       "driver",
+       "dentist"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Food that tastes wonderful is …",
+      "options": [
+       "delicious",
+       "dangerous",
+       "difficult"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Café role play: waiter and client, full scene (table, menu, order, anything else?, bill, goodbye). Then swap roles. Politeness = extra points!"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write the menu of your dream café: 6 dishes with prices, and one special of the day."
+  }
+ ]
 }

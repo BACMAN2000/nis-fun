@@ -1,53 +1,253 @@
 {
-  "id": "starters-26", "level": "starters", "number": 26,
-  "title": "In the classroom", "topic": "school actions",
-  "grammar": "presente continuo (mirar y decir)",
-  "wordlist": ["read", "write", "draw", "paint", "count", "cut", "glue", "ask", "answer", "learn"],
-  "exam_focus": { "paper": "Listening", "part": 1, "skill": "classroom actions" },
-  "characters": ["freya", "astrid"],
-  "scene": { "speaker": "astrid", "pose": { "astrid": 3, "freya": 1 },
-    "bubble": "Look around the class: Freya is drawing, Nico is counting, Tomás is… where is Tomás?" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the action with the thing.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Action", "right_label": "Thing",
-        "pairs": [
-          { "left": "read", "right": "a book" },
-          { "left": "write", "right": "your name" },
-          { "left": "draw", "right": "a picture" },
-          { "left": "paint", "right": "with colours and water" },
-          { "left": "count", "right": "from one to ten" },
-          { "left": "cut", "right": "paper with scissors" } ] } },
-    { "code": "B", "type": "exam_task", "title": "What are they doing? Choose the correct form.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Complete each sentence.",
-        "items": [
-          { "sentence": "Freya ___ drawing a boat.", "options": ["is", "are", "am"], "answer": 0 },
-          { "sentence": "The children ___ counting to twenty.", "options": ["are", "is", "am"], "answer": 0 },
-          { "sentence": "I ___ writing my name.", "options": ["am", "is", "are"], "answer": 0 },
-          { "sentence": "Nico is ___ a picture of a dinosaur.", "options": ["painting", "paint", "paints"], "answer": 0 },
-          { "sentence": "We are ___ English!", "options": ["learning", "learn", "learns"], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen. What is everyone doing? Write a word in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "starters/u26-c.mp3",
-      "data": { "voice_note": "Voces: Astrid (mirando la clase) y Freya (dibujando).",
-        "script": "Astrid: Quiet work time! Freya is drawing a big boat. … Freya: With three sails! … Astrid: Nico is counting his crayons. Twelve! … Astrid: Tomás is cutting yellow paper for the sun. … Freya: And you, Astrid? … Astrid: I am writing the date on my notebook. … Freya: And Pip is sleeping in the book corner. … Astrid: Shhh! Working time AND sleeping time.",
-        "questions": [
-          { "q": "Freya is drawing a big …", "answer": "boat" },
-          { "q": "The boat has three …", "answer": "sails" },
-          { "q": "Nico is counting his …", "answer": "crayons" },
-          { "q": "Tomás is cutting … paper.", "answer": "yellow" },
-          { "q": "Pip is sleeping in the book …", "answer": "corner" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "You ___ a book with your eyes.", "options": ["read", "eat", "paint"], "answer": 0 },
-          { "sentence": "You ___ paper with scissors.", "options": ["cut", "count", "sing"], "answer": 0 },
-          { "sentence": "The teacher asks, the children …", "options": ["answer", "sleep", "run"], "answer": 0 },
-          { "sentence": "One, two, three… I am …", "options": ["counting", "cutting", "closing"], "answer": 0 },
-          { "sentence": "At school we ___ new things every day.", "options": ["learn", "lose", "fly"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Mime a classroom action. Your partner says: \"You are reading! You are cutting!\" Four mimes each." } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write 4 sentences about your class: My teacher is… My friends are… (use -ing)." } ]
+ "id": "starters-26",
+ "level": "starters",
+ "number": 26,
+ "title": "In the classroom",
+ "topic": "school actions",
+ "grammar": "presente continuo (mirar y decir)",
+ "wordlist": [
+  "read",
+  "write",
+  "draw",
+  "paint",
+  "count",
+  "cut",
+  "glue",
+  "ask",
+  "answer",
+  "learn"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 1,
+  "skill": "classroom actions"
+ },
+ "characters": [
+  "freya",
+  "astrid"
+ ],
+ "scene": {
+  "speaker": "astrid",
+  "pose": {
+   "astrid": 3,
+   "freya": 1
+  },
+  "bubble": "Look around the class: Freya is drawing, Nico is counting, Tomás is… where is Tomás?"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the action with the thing.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Action",
+    "right_label": "Thing",
+    "pairs": [
+     {
+      "left": "read",
+      "right": "a book"
+     },
+     {
+      "left": "write",
+      "right": "your name"
+     },
+     {
+      "left": "draw",
+      "right": "a picture"
+     },
+     {
+      "left": "paint",
+      "right": "with colours and water"
+     },
+     {
+      "left": "count",
+      "right": "from one to ten"
+     },
+     {
+      "left": "cut",
+      "right": "paper with scissors"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "What are they doing? Choose the correct form.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete each sentence.",
+    "items": [
+     {
+      "sentence": "Freya ___ drawing a boat.",
+      "options": [
+       "is",
+       "are",
+       "am"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The children ___ counting to twenty.",
+      "options": [
+       "are",
+       "is",
+       "am"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "I ___ writing my name.",
+      "options": [
+       "am",
+       "is",
+       "are"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Nico is ___ a picture of a dinosaur.",
+      "options": [
+       "painting",
+       "paint",
+       "paints"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "We are ___ English!",
+      "options": [
+       "learning",
+       "learn",
+       "learns"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen. What is everyone doing? Write a word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u26-c.mp3",
+   "data": {
+    "voice_note": "Voces: Astrid (mirando la clase) y Freya (dibujando).",
+    "script": "Astrid: Quiet work time! Freya is drawing a big boat. … Freya: With three sails! … Astrid: Nico is counting his crayons. Twelve! … Astrid: Tomás is cutting yellow paper for the sun. … Freya: And you, Astrid? … Astrid: I am writing the date on my notebook. … Freya: And Pip is sleeping in the book corner. … Astrid: Shhh! Working time AND sleeping time.",
+    "questions": [
+     {
+      "q": "Freya is drawing a big …",
+      "answer": "boat"
+     },
+     {
+      "q": "The boat has three …",
+      "answer": "sails"
+     },
+     {
+      "q": "Nico is counting his …",
+      "answer": "crayons"
+     },
+     {
+      "q": "Tomás is cutting … paper.",
+      "answer": "yellow"
+     },
+     {
+      "q": "Pip is sleeping in the book …",
+      "answer": "corner"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "You ___ a book with your eyes.",
+      "options": [
+       "read",
+       "eat",
+       "paint"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "You ___ paper with scissors.",
+      "options": [
+       "cut",
+       "count",
+       "sing"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The teacher asks, the children …",
+      "options": [
+       "answer",
+       "sleep",
+       "run"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "One, two, three… I am …",
+      "options": [
+       "counting",
+       "cutting",
+       "closing"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "At school we ___ new things every day.",
+      "options": [
+       "learn",
+       "lose",
+       "fly"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Mime a classroom action. Your partner says: \"You are reading! You are cutting!\" Four mimes each."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write 4 sentences about your class: My teacher is… My friends are… (use -ing)."
+  }
+ ]
 }

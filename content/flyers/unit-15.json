@@ -1,53 +1,230 @@
 {
-  "id": "flyers-15", "level": "flyers", "number": 15,
-  "title": "Sports we love", "topic": "sports",
-  "grammar": "play / go / do + sport",
-  "wordlist": ["volleyball", "skating", "sledging", "snowboarding", "golf", "race", "prize", "team", "score", "champion"],
-  "exam_focus": { "paper": "Reading & Writing", "part": 1, "skill": "definitions" },
-  "characters": ["diego", "oliver"],
-  "scene": { "speaker": "diego", "pose": { "diego": 3, "oliver": 10 },
-    "bubble": "Sports report! Our school volleyball team won the regional cup — Oliver scored the last point!" },
-  "activities": [
-    { "code": "A", "type": "crossword", "title": "Read the sentences and write the sport words.",
-      "outputs": ["book", "digital"],
-      "data": { "words": [
-        { "word": "VOLLEYBALL", "clue": "Two teams hit a ball over a high net with their hands." },
-        { "word": "SKATING", "clue": "You move on ice or on wheels." },
-        { "word": "GOLF", "clue": "You hit a small white ball into a hole far away." },
-        { "word": "RACE", "clue": "A competition to see who is the fastest." },
-        { "word": "PRIZE", "clue": "You win this in a competition." },
-        { "word": "TEAM", "clue": "A group of players who play together." } ] } },
-    { "code": "B", "type": "match_words", "title": "Match the sport with what you need.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Sport", "right_label": "You need…",
-        "pairs": [
-          { "left": "volleyball", "right": "a high net" },
-          { "left": "skating", "right": "ice or wheels" },
-          { "left": "golf", "right": "a small white ball" },
-          { "left": "snowboarding", "right": "snow on a mountain" },
-          { "left": "swimming", "right": "a pool or the sea" },
-          { "left": "a race", "right": "a finish line" } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to Diego's sports report. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "flyers/u15-c.mp3",
-      "data": { "voice_note": "Voces: Diego (comentarista deportivo) y Oliver (héroe del partido).",
-        "script": "Diego: Welcome to the final! Our team is playing in blue. … Diego: The score is fourteen–fourteen. The next point wins! … Diego: Ingrid jumps… she passes to Oliver… … Diego: Oliver hits the ball over the net… POINT! We are the champions! … Oliver: I can't believe it! My arm still hurts! … Diego: The team receives the gold cup and a special prize: pizza for a month! … Oliver: The best part? Kili flew over the court with our flag!",
-        "questions": [
-          { "q": "The team plays in …", "answer": "blue" },
-          { "q": "The score was fourteen–…", "answer": "fourteen" },
-          { "q": "… passed the ball to Oliver.", "answer": "Ingrid" },
-          { "q": "The special prize is pizza for a …", "answer": "month" },
-          { "q": "Kili flew over the court with the …", "answer": "flag" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "The person who wins is the …", "options": ["champion", "waiter", "manager"], "answer": 0 },
-          { "sentence": "In winter you can go ___ down the hill.", "options": ["sledging", "golf", "volleyball"], "answer": 0 },
-          { "sentence": "We ___ volleyball every Friday.", "options": ["go", "play", "do"], "answer": 1 },
-          { "sentence": "The ___ at the end was three–one.", "options": ["score", "prize", "platform"], "answer": 0 },
-          { "sentence": "She ___ skating on the frozen lake.", "options": ["plays", "goes", "does"], "answer": 1 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Sports commentators: choose a sport and narrate 30 seconds of an imaginary final like Diego (\"She jumps… she scores!\"). Your partner guesses the sport. Then swap." } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write about a sport you love and one you don't: I play/go/do… because… I don't like… because…" } ]
+ "id": "flyers-15",
+ "level": "flyers",
+ "number": 15,
+ "title": "Sports we love",
+ "topic": "sports",
+ "grammar": "play / go / do + sport",
+ "wordlist": [
+  "volleyball",
+  "skating",
+  "sledging",
+  "snowboarding",
+  "golf",
+  "race",
+  "prize",
+  "team",
+  "score",
+  "champion"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 1,
+  "skill": "definitions"
+ },
+ "characters": [
+  "diego",
+  "oliver"
+ ],
+ "scene": {
+  "speaker": "diego",
+  "pose": {
+   "diego": 3,
+   "oliver": 10
+  },
+  "bubble": "Sports report! Our school volleyball team won the regional cup — Oliver scored the last point!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Read the sentences and write the sport words.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "VOLLEYBALL",
+      "clue": "Two teams hit a ball over a high net with their hands."
+     },
+     {
+      "word": "SKATING",
+      "clue": "You move on ice or on wheels."
+     },
+     {
+      "word": "GOLF",
+      "clue": "You hit a small white ball into a hole far away."
+     },
+     {
+      "word": "RACE",
+      "clue": "A competition to see who is the fastest."
+     },
+     {
+      "word": "PRIZE",
+      "clue": "You win this in a competition."
+     },
+     {
+      "word": "TEAM",
+      "clue": "A group of players who play together."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Match the sport with what you need.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Sport",
+    "right_label": "You need…",
+    "pairs": [
+     {
+      "left": "volleyball",
+      "right": "a high net"
+     },
+     {
+      "left": "skating",
+      "right": "ice or wheels"
+     },
+     {
+      "left": "golf",
+      "right": "a small white ball"
+     },
+     {
+      "left": "snowboarding",
+      "right": "snow on a mountain"
+     },
+     {
+      "left": "swimming",
+      "right": "a pool or the sea"
+     },
+     {
+      "left": "a race",
+      "right": "a finish line"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to Diego's sports report. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u15-c.mp3",
+   "data": {
+    "voice_note": "Voces: Diego (comentarista deportivo) y Oliver (héroe del partido).",
+    "script": "Diego: Welcome to the final! Our team is playing in blue. … Diego: The score is fourteen–fourteen. The next point wins! … Diego: Ingrid jumps… she passes to Oliver… … Diego: Oliver hits the ball over the net… POINT! We are the champions! … Oliver: I can't believe it! My arm still hurts! … Diego: The team receives the gold cup and a special prize: pizza for a month! … Oliver: The best part? Kili flew over the court with our flag!",
+    "questions": [
+     {
+      "q": "The team plays in …",
+      "answer": "blue"
+     },
+     {
+      "q": "The score was fourteen–…",
+      "answer": "fourteen"
+     },
+     {
+      "q": "… passed the ball to Oliver.",
+      "answer": "Ingrid"
+     },
+     {
+      "q": "The special prize is pizza for a …",
+      "answer": "month"
+     },
+     {
+      "q": "Kili flew over the court with the …",
+      "answer": "flag"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "The person who wins is the …",
+      "options": [
+       "champion",
+       "waiter",
+       "manager"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "In winter you can go ___ down the hill.",
+      "options": [
+       "sledging",
+       "golf",
+       "volleyball"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "We ___ volleyball every Friday.",
+      "options": [
+       "go",
+       "play",
+       "do"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "The ___ at the end was three–one.",
+      "options": [
+       "score",
+       "prize",
+       "platform"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "She ___ skating on the frozen lake.",
+      "options": [
+       "plays",
+       "goes",
+       "does"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Sports commentators: choose a sport and narrate 30 seconds of an imaginary final like Diego (\"She jumps… she scores!\"). Your partner guesses the sport. Then swap."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write about a sport you love and one you don't: I play/go/do… because… I don't like… because…"
+  }
+ ]
 }

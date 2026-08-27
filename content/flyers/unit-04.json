@@ -1,53 +1,230 @@
 {
-  "id": "flyers-04", "level": "flyers", "number": 4,
-  "title": "Body and face", "topic": "body",
-  "grammar": "have got / describing people",
-  "wordlist": ["shoulder", "stomach", "tongue", "knee", "beard", "elbow", "moustache", "back", "neck", "finger"],
-  "exam_focus": { "paper": "Reading & Writing", "part": 1, "skill": "definitions" },
-  "characters": ["maya", "kili"],
-  "scene": { "speaker": "maya", "pose": { "maya": 3, "kili": 4 },
-    "bubble": "Today's science lesson: the human body! Kili, you have wings — but have you got elbows?" },
-  "activities": [
-    { "code": "A", "type": "crossword", "title": "Read the sentences and write the body words.",
-      "outputs": ["book", "digital"],
-      "data": { "words": [
-        { "word": "SHOULDER", "clue": "It is between your neck and your arm. You carry a rucksack on it." },
-        { "word": "STOMACH", "clue": "Your food goes here. It hurts when you eat too much!" },
-        { "word": "TONGUE", "clue": "It is inside your mouth. You need it to talk and to taste." },
-        { "word": "KNEE", "clue": "Your leg bends here." },
-        { "word": "BEARD", "clue": "Hair that grows on a man's chin." },
-        { "word": "ELBOW", "clue": "Your arm bends here." } ] } },
-    { "code": "B", "type": "match_words", "title": "Match the body part with the action.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Body part", "right_label": "Action",
-        "pairs": [
-          { "left": "knees", "right": "you bend them to jump" },
-          { "left": "tongue", "right": "you taste ice cream with it" },
-          { "left": "shoulders", "right": "you carry your school bag on them" },
-          { "left": "fingers", "right": "you play the piano with them" },
-          { "left": "neck", "right": "you wear a scarf round it" },
-          { "left": "back", "right": "you sleep on it" } ] } },
-    { "code": "C", "type": "listening", "title": "Listen. Maya describes a funny monster. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "flyers/u04-c.mp3",
-      "data": { "voice_note": "Voces: Maya (científica) y Kili (asombrado).",
-        "script": "Maya: Kili, look at this drawing of my monster! … Maya: It has got three eyes and a very long green tongue. … Maya: It has got four arms, so it has got four elbows too! … Maya: On its face it has got a purple moustache. … Maya: Its stomach is enormous because it eats twenty pizzas every day. … Maya: And look — it has got wings on its shoulders, just like you!",
-        "questions": [
-          { "q": "The monster has got … eyes.", "answer": "three" },
-          { "q": "Its long tongue is …", "answer": "green" },
-          { "q": "It has got four arms and four …", "answer": "elbows" },
-          { "q": "Its moustache is …", "answer": "purple" },
-          { "q": "It eats twenty … every day.", "answer": "pizzas" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Read the sentence and choose the correct word.",
-        "items": [
-          { "sentence": "Your arm bends here.", "options": ["knee", "elbow", "shoulder"], "answer": 1 },
-          { "sentence": "Hair on a man's chin is a …", "options": ["moustache", "beard", "tongue"], "answer": 1 },
-          { "sentence": "You taste food with your …", "options": ["tongue", "finger", "neck"], "answer": 0 },
-          { "sentence": "Your food goes to your …", "options": ["back", "knee", "stomach"], "answer": 2 },
-          { "sentence": "You carry a heavy bag on your …", "options": ["tongue", "shoulders", "fingers"], "answer": 1 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Student A draws a monster in one minute. Student B asks questions to draw the same monster without looking: \"How many eyes has it got? Has it got a beard?\" Compare the drawings and laugh!" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Draw your own monster and label 6 body parts. Write two sentences: It has got three knees. It has got a long blue tongue." } ]
+ "id": "flyers-04",
+ "level": "flyers",
+ "number": 4,
+ "title": "Body and face",
+ "topic": "body",
+ "grammar": "have got / describing people",
+ "wordlist": [
+  "shoulder",
+  "stomach",
+  "tongue",
+  "knee",
+  "beard",
+  "elbow",
+  "moustache",
+  "back",
+  "neck",
+  "finger"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 1,
+  "skill": "definitions"
+ },
+ "characters": [
+  "maya",
+  "kili"
+ ],
+ "scene": {
+  "speaker": "maya",
+  "pose": {
+   "maya": 3,
+   "kili": 4
+  },
+  "bubble": "Today's science lesson: the human body! Kili, you have wings — but have you got elbows?"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Read the sentences and write the body words.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "SHOULDER",
+      "clue": "It is between your neck and your arm. You carry a rucksack on it."
+     },
+     {
+      "word": "STOMACH",
+      "clue": "Your food goes here. It hurts when you eat too much!"
+     },
+     {
+      "word": "TONGUE",
+      "clue": "It is inside your mouth. You need it to talk and to taste."
+     },
+     {
+      "word": "KNEE",
+      "clue": "Your leg bends here."
+     },
+     {
+      "word": "BEARD",
+      "clue": "Hair that grows on a man's chin."
+     },
+     {
+      "word": "ELBOW",
+      "clue": "Your arm bends here."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Match the body part with the action.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Body part",
+    "right_label": "Action",
+    "pairs": [
+     {
+      "left": "knees",
+      "right": "you bend them to jump"
+     },
+     {
+      "left": "tongue",
+      "right": "you taste ice cream with it"
+     },
+     {
+      "left": "shoulders",
+      "right": "you carry your school bag on them"
+     },
+     {
+      "left": "fingers",
+      "right": "you play the piano with them"
+     },
+     {
+      "left": "neck",
+      "right": "you wear a scarf round it"
+     },
+     {
+      "left": "back",
+      "right": "you sleep on it"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen. Maya describes a funny monster. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u04-c.mp3",
+   "data": {
+    "voice_note": "Voces: Maya (científica) y Kili (asombrado).",
+    "script": "Maya: Kili, look at this drawing of my monster! … Maya: It has got three eyes and a very long green tongue. … Maya: It has got four arms, so it has got four elbows too! … Maya: On its face it has got a purple moustache. … Maya: Its stomach is enormous because it eats twenty pizzas every day. … Maya: And look — it has got wings on its shoulders, just like you!",
+    "questions": [
+     {
+      "q": "The monster has got … eyes.",
+      "answer": "three"
+     },
+     {
+      "q": "Its long tongue is …",
+      "answer": "green"
+     },
+     {
+      "q": "It has got four arms and four …",
+      "answer": "elbows"
+     },
+     {
+      "q": "Its moustache is …",
+      "answer": "purple"
+     },
+     {
+      "q": "It eats twenty … every day.",
+      "answer": "pizzas"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Read the sentence and choose the correct word.",
+    "items": [
+     {
+      "sentence": "Your arm bends here.",
+      "options": [
+       "knee",
+       "elbow",
+       "shoulder"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Hair on a man's chin is a …",
+      "options": [
+       "moustache",
+       "beard",
+       "tongue"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "You taste food with your …",
+      "options": [
+       "tongue",
+       "finger",
+       "neck"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Your food goes to your …",
+      "options": [
+       "back",
+       "knee",
+       "stomach"
+      ],
+      "answer": 2
+     },
+     {
+      "sentence": "You carry a heavy bag on your …",
+      "options": [
+       "tongue",
+       "shoulders",
+       "fingers"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Student A draws a monster in one minute. Student B asks questions to draw the same monster without looking: \"How many eyes has it got? Has it got a beard?\" Compare the drawings and laugh!"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Draw your own monster and label 6 body parts. Write two sentences: It has got three knees. It has got a long blue tongue."
+  }
+ ]
 }

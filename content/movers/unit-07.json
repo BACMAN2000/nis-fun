@@ -1,53 +1,230 @@
 {
-  "id": "movers-07", "level": "movers", "number": 7,
-  "title": "At the market", "topic": "fruit & vegetables",
-  "grammar": "How much / How many (lite)",
-  "wordlist": ["grapes", "pear", "lemon", "coconut", "onion", "carrot", "potato", "beans", "kiwi", "basket"],
-  "exam_focus": { "paper": "Reading & Writing", "part": 1, "skill": "definitions" },
-  "characters": ["sofia", "valentina"],
-  "scene": { "speaker": "sofia", "pose": { "sofia": 8, "valentina": 1 },
-    "bubble": "Market day! We need fruit for the club milkshakes — and Luna is carrying the basket!" },
-  "activities": [
-    { "code": "A", "type": "crossword", "title": "Read the sentences and write the fruit and vegetables.",
-      "outputs": ["book", "digital"],
-      "data": { "words": [
-        { "word": "GRAPES", "clue": "Small green or purple fruit that grow together." },
-        { "word": "LEMON", "clue": "A yellow fruit. It is very sour!" },
-        { "word": "COCONUT", "clue": "A big brown fruit with white inside and milk." },
-        { "word": "CARROT", "clue": "A long orange vegetable. Rabbits love it." },
-        { "word": "POTATO", "clue": "Peru has thousands of kinds of this vegetable!" },
-        { "word": "ONION", "clue": "A round vegetable that makes you cry when you cut it." } ] } },
-    { "code": "B", "type": "match_words", "title": "Match the fruit with its colour.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Fruit / vegetable", "right_label": "Colour",
-        "pairs": [
-          { "left": "a lemon", "right": "yellow" },
-          { "left": "a kiwi", "right": "green inside" },
-          { "left": "a carrot", "right": "orange" },
-          { "left": "a coconut", "right": "brown outside, white inside" },
-          { "left": "grapes", "right": "green or purple" },
-          { "left": "beans", "right": "green in their long pods" } ] } },
-    { "code": "C", "type": "listening", "title": "Listen at the market. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "movers/u07-c.mp3",
-      "data": { "voice_note": "Voces: Sofía (comprando) y Valentina (con la lista).",
-        "script": "Valentina: The list says: fruit for milkshakes! … Sofia: Good morning! How much are the grapes? … Sofia: Two soles? We'll take one kilo, please. … Valentina: We need three pears and two kiwis too. … Sofia: And one coconut — Erik wants to open it with his new invention. … Valentina: That worries me a little. … Sofia: The basket is heavy now. Luna, your turn! … Valentina: Look at her — the proudest dog at the market!",
-        "questions": [
-          { "q": "The grapes cost two …", "answer": "soles" },
-          { "q": "They take one … of grapes.", "answer": "kilo" },
-          { "q": "They need three … and two kiwis.", "answer": "pears" },
-          { "q": "Erik wants to open the … with his invention.", "answer": "coconut" },
-          { "q": "The … is heavy now.", "answer": "basket" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "\"How ___ are the lemons?\" — \"One sol each.\"", "options": ["much", "many", "old"], "answer": 0 },
-          { "sentence": "\"How ___ pears do you want?\" — \"Three, please.\"", "options": ["much", "many", "long"], "answer": 1 },
-          { "sentence": "You carry the shopping in a …", "options": ["basket", "boot", "bowl"], "answer": 0 },
-          { "sentence": "The fruit with milk inside is the …", "options": ["coconut", "lemon", "grape"], "answer": 0 },
-          { "sentence": "Cutting an ___ makes people cry.", "options": ["onion", "apple", "orange"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Market role play: Student A sells, Student B buys 4 things with How much…? / How many…? Then swap. Use please and thank you!" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write your family's real shopping list in English (8 items) and mark which are fruit and which are vegetables." } ]
+ "id": "movers-07",
+ "level": "movers",
+ "number": 7,
+ "title": "At the market",
+ "topic": "fruit & vegetables",
+ "grammar": "How much / How many (lite)",
+ "wordlist": [
+  "grapes",
+  "pear",
+  "lemon",
+  "coconut",
+  "onion",
+  "carrot",
+  "potato",
+  "beans",
+  "kiwi",
+  "basket"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 1,
+  "skill": "definitions"
+ },
+ "characters": [
+  "sofia",
+  "valentina"
+ ],
+ "scene": {
+  "speaker": "sofia",
+  "pose": {
+   "sofia": 8,
+   "valentina": 1
+  },
+  "bubble": "Market day! We need fruit for the club milkshakes — and Luna is carrying the basket!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Read the sentences and write the fruit and vegetables.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "GRAPES",
+      "clue": "Small green or purple fruit that grow together."
+     },
+     {
+      "word": "LEMON",
+      "clue": "A yellow fruit. It is very sour!"
+     },
+     {
+      "word": "COCONUT",
+      "clue": "A big brown fruit with white inside and milk."
+     },
+     {
+      "word": "CARROT",
+      "clue": "A long orange vegetable. Rabbits love it."
+     },
+     {
+      "word": "POTATO",
+      "clue": "Peru has thousands of kinds of this vegetable!"
+     },
+     {
+      "word": "ONION",
+      "clue": "A round vegetable that makes you cry when you cut it."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Match the fruit with its colour.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Fruit / vegetable",
+    "right_label": "Colour",
+    "pairs": [
+     {
+      "left": "a lemon",
+      "right": "yellow"
+     },
+     {
+      "left": "a kiwi",
+      "right": "green inside"
+     },
+     {
+      "left": "a carrot",
+      "right": "orange"
+     },
+     {
+      "left": "a coconut",
+      "right": "brown outside, white inside"
+     },
+     {
+      "left": "grapes",
+      "right": "green or purple"
+     },
+     {
+      "left": "beans",
+      "right": "green in their long pods"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen at the market. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u07-c.mp3",
+   "data": {
+    "voice_note": "Voces: Sofía (comprando) y Valentina (con la lista).",
+    "script": "Valentina: The list says: fruit for milkshakes! … Sofia: Good morning! How much are the grapes? … Sofia: Two soles? We'll take one kilo, please. … Valentina: We need three pears and two kiwis too. … Sofia: And one coconut — Erik wants to open it with his new invention. … Valentina: That worries me a little. … Sofia: The basket is heavy now. Luna, your turn! … Valentina: Look at her — the proudest dog at the market!",
+    "questions": [
+     {
+      "q": "The grapes cost two …",
+      "answer": "soles"
+     },
+     {
+      "q": "They take one … of grapes.",
+      "answer": "kilo"
+     },
+     {
+      "q": "They need three … and two kiwis.",
+      "answer": "pears"
+     },
+     {
+      "q": "Erik wants to open the … with his invention.",
+      "answer": "coconut"
+     },
+     {
+      "q": "The … is heavy now.",
+      "answer": "basket"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "\"How ___ are the lemons?\" — \"One sol each.\"",
+      "options": [
+       "much",
+       "many",
+       "old"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"How ___ pears do you want?\" — \"Three, please.\"",
+      "options": [
+       "much",
+       "many",
+       "long"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "You carry the shopping in a …",
+      "options": [
+       "basket",
+       "boot",
+       "bowl"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The fruit with milk inside is the …",
+      "options": [
+       "coconut",
+       "lemon",
+       "grape"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Cutting an ___ makes people cry.",
+      "options": [
+       "onion",
+       "apple",
+       "orange"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Market role play: Student A sells, Student B buys 4 things with How much…? / How many…? Then swap. Use please and thank you!"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write your family's real shopping list in English (8 items) and mark which are fruit and which are vegetables."
+  }
+ ]
 }

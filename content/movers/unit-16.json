@@ -1,53 +1,230 @@
 {
-  "id": "movers-16", "level": "movers", "number": 16,
-  "title": "My week", "topic": "days of the week",
-  "grammar": "on + día / preguntas con When",
-  "wordlist": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday", "today", "tomorrow", "weekend"],
-  "exam_focus": { "paper": "Reading & Writing", "part": 2, "skill": "gapped text" },
-  "characters": ["valentina", "sofia"],
-  "scene": { "speaker": "valentina", "pose": { "valentina": 3, "sofia": 1 },
-    "bubble": "Seven days, seven adventures! My favourite is Friday — club day at the lighthouse." },
-  "activities": [
-    { "code": "A", "type": "crossword", "title": "Read the sentences and write the days.",
-      "outputs": ["book", "digital"],
-      "data": { "words": [
-        { "word": "MONDAY", "clue": "The first school day of the week." },
-        { "word": "WEDNESDAY", "clue": "The middle of the school week." },
-        { "word": "FRIDAY", "clue": "The last school day — almost weekend!" },
-        { "word": "SATURDAY", "clue": "The first day of the weekend." },
-        { "word": "SUNDAY", "clue": "The day before Monday. Family day!" },
-        { "word": "TODAY", "clue": "Not yesterday, not tomorrow — now!" } ] } },
-    { "code": "B", "type": "match_words", "title": "Match the day with the Club activity.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Day", "right_label": "Activity",
-        "pairs": [
-          { "left": "on Monday", "right": "swimming lesson at five" },
-          { "left": "on Tuesday", "right": "library afternoon" },
-          { "left": "on Wednesday", "right": "Erik's invention workshop" },
-          { "left": "on Thursday", "right": "football in the park" },
-          { "left": "on Friday", "right": "club meeting at the lighthouse" },
-          { "left": "at the weekend", "right": "family time and rest" } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to the week plan. Write a day or word in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "movers/u16-c.mp3",
-      "data": { "voice_note": "Voces: Valentina (agenda) y Sofía (confirmando).",
-        "script": "Valentina: Week plan! On Monday we have the swimming lesson. … Sofia: Don't forget the goggles this time! … Valentina: On Wednesday, Erik's workshop. We're making a lamp from a bottle. … Sofia: On Thursday, football. Mateo is the goalkeeper now. … Valentina: On Friday, the club meeting. Bring your ideas for the summer trip! … Sofia: And on Saturday? … Valentina: On Saturday morning, the market with my aunt. But the afternoon is free! … Sofia: Perfect week. Signed and approved!",
-        "questions": [
-          { "q": "The swimming lesson is on …", "answer": "Monday" },
-          { "q": "In the workshop they make a lamp from a …", "answer": "bottle" },
-          { "q": "… is the goalkeeper now.", "answer": "Mateo" },
-          { "q": "On Friday they bring ideas for the summer …", "answer": "trip" },
-          { "q": "On Saturday morning Valentina goes to the … with her aunt.", "answer": "market" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "The day after Tuesday is …", "options": ["Wednesday", "Monday", "Friday"], "answer": 0 },
-          { "sentence": "Saturday and Sunday are the …", "options": ["weekend", "week", "holiday"], "answer": 0 },
-          { "sentence": "My piano lesson is ___ Thursday.", "options": ["on", "in", "at"], "answer": 0 },
-          { "sentence": "If today is Sunday, ___ is Monday.", "options": ["tomorrow", "yesterday", "today"], "answer": 0 },
-          { "sentence": "\"___ is the match?\" — \"On Friday.\"", "options": ["When", "Who", "Whose"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Ask your partner about their real week: \"What do you do on Mondays?\" — all seven days. Find the day you both like most." } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write your week: one sentence per school day + one for the weekend. On Monday I…" } ]
+ "id": "movers-16",
+ "level": "movers",
+ "number": 16,
+ "title": "My week",
+ "topic": "days of the week",
+ "grammar": "on + día / preguntas con When",
+ "wordlist": [
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+  "Sunday",
+  "today",
+  "tomorrow",
+  "weekend"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 2,
+  "skill": "gapped text"
+ },
+ "characters": [
+  "valentina",
+  "sofia"
+ ],
+ "scene": {
+  "speaker": "valentina",
+  "pose": {
+   "valentina": 3,
+   "sofia": 1
+  },
+  "bubble": "Seven days, seven adventures! My favourite is Friday — club day at the lighthouse."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Read the sentences and write the days.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "MONDAY",
+      "clue": "The first school day of the week."
+     },
+     {
+      "word": "WEDNESDAY",
+      "clue": "The middle of the school week."
+     },
+     {
+      "word": "FRIDAY",
+      "clue": "The last school day — almost weekend!"
+     },
+     {
+      "word": "SATURDAY",
+      "clue": "The first day of the weekend."
+     },
+     {
+      "word": "SUNDAY",
+      "clue": "The day before Monday. Family day!"
+     },
+     {
+      "word": "TODAY",
+      "clue": "Not yesterday, not tomorrow — now!"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Match the day with the Club activity.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Day",
+    "right_label": "Activity",
+    "pairs": [
+     {
+      "left": "on Monday",
+      "right": "swimming lesson at five"
+     },
+     {
+      "left": "on Tuesday",
+      "right": "library afternoon"
+     },
+     {
+      "left": "on Wednesday",
+      "right": "Erik's invention workshop"
+     },
+     {
+      "left": "on Thursday",
+      "right": "football in the park"
+     },
+     {
+      "left": "on Friday",
+      "right": "club meeting at the lighthouse"
+     },
+     {
+      "left": "at the weekend",
+      "right": "family time and rest"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to the week plan. Write a day or word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u16-c.mp3",
+   "data": {
+    "voice_note": "Voces: Valentina (agenda) y Sofía (confirmando).",
+    "script": "Valentina: Week plan! On Monday we have the swimming lesson. … Sofia: Don't forget the goggles this time! … Valentina: On Wednesday, Erik's workshop. We're making a lamp from a bottle. … Sofia: On Thursday, football. Mateo is the goalkeeper now. … Valentina: On Friday, the club meeting. Bring your ideas for the summer trip! … Sofia: And on Saturday? … Valentina: On Saturday morning, the market with my aunt. But the afternoon is free! … Sofia: Perfect week. Signed and approved!",
+    "questions": [
+     {
+      "q": "The swimming lesson is on …",
+      "answer": "Monday"
+     },
+     {
+      "q": "In the workshop they make a lamp from a …",
+      "answer": "bottle"
+     },
+     {
+      "q": "… is the goalkeeper now.",
+      "answer": "Mateo"
+     },
+     {
+      "q": "On Friday they bring ideas for the summer …",
+      "answer": "trip"
+     },
+     {
+      "q": "On Saturday morning Valentina goes to the … with her aunt.",
+      "answer": "market"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "The day after Tuesday is …",
+      "options": [
+       "Wednesday",
+       "Monday",
+       "Friday"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Saturday and Sunday are the …",
+      "options": [
+       "weekend",
+       "week",
+       "holiday"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "My piano lesson is ___ Thursday.",
+      "options": [
+       "on",
+       "in",
+       "at"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "If today is Sunday, ___ is Monday.",
+      "options": [
+       "tomorrow",
+       "yesterday",
+       "today"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"___ is the match?\" — \"On Friday.\"",
+      "options": [
+       "When",
+       "Who",
+       "Whose"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Ask your partner about their real week: \"What do you do on Mondays?\" — all seven days. Find the day you both like most."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write your week: one sentence per school day + one for the weekend. On Monday I…"
+  }
+ ]
 }

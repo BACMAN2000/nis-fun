@@ -1,53 +1,230 @@
 {
-  "id": "flyers-19", "level": "flyers", "number": 19,
-  "title": "Wild weather", "topic": "weather",
-  "grammar": "past simple + weather",
-  "wordlist": ["storm", "lightning", "thunder", "fog", "ice", "flood", "dry", "wet", "blow", "shine"],
-  "exam_focus": { "paper": "Listening", "part": 4, "skill": "multiple choice" },
-  "characters": ["maya", "kili"],
-  "scene": { "speaker": "maya", "pose": { "maya": 5, "kili": 5 },
-    "bubble": "Look at those black clouds over the sea! Kili, come inside — a big storm is coming!" },
-  "activities": [
-    { "code": "A", "type": "crossword", "title": "Read the sentences and write the weather words.",
-      "outputs": ["book", "digital"],
-      "data": { "words": [
-        { "word": "STORM", "clue": "Very bad weather with strong wind and rain." },
-        { "word": "LIGHTNING", "clue": "A bright electric light in the sky during a storm." },
-        { "word": "THUNDER", "clue": "The big BOOM you hear after the light." },
-        { "word": "FOG", "clue": "A low white cloud. You can't see far in it." },
-        { "word": "ICE", "clue": "Very cold, hard water. Be careful — it's slippery!" },
-        { "word": "FLOOD", "clue": "When there is too much water in the streets." } ] } },
-    { "code": "B", "type": "match_words", "title": "Match the weather with the effect.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Weather", "right_label": "Effect",
-        "pairs": [
-          { "left": "heavy rain for days", "right": "a flood in the streets" },
-          { "left": "thick fog", "right": "you can't see the road" },
-          { "left": "ice on the path", "right": "people slip and fall" },
-          { "left": "strong wind", "right": "hats and umbrellas fly away" },
-          { "left": "lightning", "right": "a bright flash in the sky" },
-          { "left": "no rain for months", "right": "the fields are very dry" } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to Maya's storm report. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "flyers/u19-c.mp3",
-      "data": { "voice_note": "Voces: Maya (científica emocionada) y Kili (a salvo, envuelto en una manta).",
-        "script": "Maya: Storm report, day one! The storm arrived at four o'clock. … Maya: First the wind blew so hard that our gate flew into the garden! … Maya: Then came the lightning — I counted fifteen flashes in one minute! … Maya: The thunder was so loud that Kili hid under my bed. … Maya: It rained all night, and this morning there was a small flood near the bridge. … Maya: Now the sun is shining again, and there's a double rainbow over the sea. Science is amazing!",
-        "questions": [
-          { "q": "The storm arrived at … o'clock.", "answer": "four" },
-          { "q": "The wind blew the … into the garden.", "answer": "gate" },
-          { "q": "Maya counted fifteen … in one minute.", "answer": "flashes" },
-          { "q": "Kili hid under the …", "answer": "bed" },
-          { "q": "This morning there was a flood near the …", "answer": "bridge" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "You hear ___ after you see lightning.", "options": ["fog", "thunder", "ice"], "answer": 1 },
-          { "sentence": "The opposite of wet is …", "options": ["dry", "cold", "windy"], "answer": 0 },
-          { "sentence": "Yesterday the wind ___ very hard.", "options": ["blew", "blow", "blowed"], "answer": 0 },
-          { "sentence": "The sun ___ all day yesterday.", "options": ["shone", "shine", "shined"], "answer": 0 },
-          { "sentence": "In thick ___ you should walk slowly.", "options": ["fog", "sun", "rainbow"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "You are TV reporters in extreme weather. Student A reports from a storm, Student B from a heatwave. 30 seconds each, with sound effects! The class votes for the best report." } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write 4 sentences about the most extreme weather you remember: Last year there was a storm. The wind blew…" } ]
+ "id": "flyers-19",
+ "level": "flyers",
+ "number": 19,
+ "title": "Wild weather",
+ "topic": "weather",
+ "grammar": "past simple + weather",
+ "wordlist": [
+  "storm",
+  "lightning",
+  "thunder",
+  "fog",
+  "ice",
+  "flood",
+  "dry",
+  "wet",
+  "blow",
+  "shine"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 4,
+  "skill": "multiple choice"
+ },
+ "characters": [
+  "maya",
+  "kili"
+ ],
+ "scene": {
+  "speaker": "maya",
+  "pose": {
+   "maya": 5,
+   "kili": 5
+  },
+  "bubble": "Look at those black clouds over the sea! Kili, come inside — a big storm is coming!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Read the sentences and write the weather words.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "STORM",
+      "clue": "Very bad weather with strong wind and rain."
+     },
+     {
+      "word": "LIGHTNING",
+      "clue": "A bright electric light in the sky during a storm."
+     },
+     {
+      "word": "THUNDER",
+      "clue": "The big BOOM you hear after the light."
+     },
+     {
+      "word": "FOG",
+      "clue": "A low white cloud. You can't see far in it."
+     },
+     {
+      "word": "ICE",
+      "clue": "Very cold, hard water. Be careful — it's slippery!"
+     },
+     {
+      "word": "FLOOD",
+      "clue": "When there is too much water in the streets."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Match the weather with the effect.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Weather",
+    "right_label": "Effect",
+    "pairs": [
+     {
+      "left": "heavy rain for days",
+      "right": "a flood in the streets"
+     },
+     {
+      "left": "thick fog",
+      "right": "you can't see the road"
+     },
+     {
+      "left": "ice on the path",
+      "right": "people slip and fall"
+     },
+     {
+      "left": "strong wind",
+      "right": "hats and umbrellas fly away"
+     },
+     {
+      "left": "lightning",
+      "right": "a bright flash in the sky"
+     },
+     {
+      "left": "no rain for months",
+      "right": "the fields are very dry"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to Maya's storm report. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u19-c.mp3",
+   "data": {
+    "voice_note": "Voces: Maya (científica emocionada) y Kili (a salvo, envuelto en una manta).",
+    "script": "Maya: Storm report, day one! The storm arrived at four o'clock. … Maya: First the wind blew so hard that our gate flew into the garden! … Maya: Then came the lightning — I counted fifteen flashes in one minute! … Maya: The thunder was so loud that Kili hid under my bed. … Maya: It rained all night, and this morning there was a small flood near the bridge. … Maya: Now the sun is shining again, and there's a double rainbow over the sea. Science is amazing!",
+    "questions": [
+     {
+      "q": "The storm arrived at … o'clock.",
+      "answer": "four"
+     },
+     {
+      "q": "The wind blew the … into the garden.",
+      "answer": "gate"
+     },
+     {
+      "q": "Maya counted fifteen … in one minute.",
+      "answer": "flashes"
+     },
+     {
+      "q": "Kili hid under the …",
+      "answer": "bed"
+     },
+     {
+      "q": "This morning there was a flood near the …",
+      "answer": "bridge"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "You hear ___ after you see lightning.",
+      "options": [
+       "fog",
+       "thunder",
+       "ice"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "The opposite of wet is …",
+      "options": [
+       "dry",
+       "cold",
+       "windy"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Yesterday the wind ___ very hard.",
+      "options": [
+       "blew",
+       "blow",
+       "blowed"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The sun ___ all day yesterday.",
+      "options": [
+       "shone",
+       "shine",
+       "shined"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "In thick ___ you should walk slowly.",
+      "options": [
+       "fog",
+       "sun",
+       "rainbow"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "You are TV reporters in extreme weather. Student A reports from a storm, Student B from a heatwave. 30 seconds each, with sound effects! The class votes for the best report."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write 4 sentences about the most extreme weather you remember: Last year there was a storm. The wind blew…"
+  }
+ ]
 }

@@ -1,52 +1,226 @@
 {
-  "id": "starters-16", "level": "starters", "number": 16,
-  "title": "On the farm", "topic": "farm",
-  "grammar": "animal sounds + It is a…",
-  "wordlist": ["cow", "horse", "sheep", "duck", "hen", "pig", "goat", "grass", "egg", "moo"],
-  "exam_focus": { "paper": "Listening", "part": 1, "skill": "farm animals" },
-  "characters": ["tomas", "pip"],
-  "scene": { "speaker": "tomas", "pose": { "tomas": 1, "pip": 5 },
-    "bubble": "Farm trip! Moo, baa, quack — it's like a big animal song. Pip is talking to the ducks!" },
-  "activities": [
-    { "code": "A", "type": "crossword", "title": "Write the farm animals.",
-      "outputs": ["book", "digital"],
-      "data": { "words": [
-        { "word": "COW", "clue": "Big, black and white. It gives milk." },
-        { "word": "SHEEP", "clue": "It is woolly and says baa." },
-        { "word": "DUCK", "clue": "It swims and says quack." },
-        { "word": "PIG", "clue": "Pink and round. It loves mud!" },
-        { "word": "HEN", "clue": "She gives us eggs." } ] } },
-    { "code": "B", "type": "match_words", "title": "Match the animal with its sound.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Animal", "right_label": "Sound",
-        "pairs": [
-          { "left": "the cow", "right": "moo" },
-          { "left": "the sheep", "right": "baa" },
-          { "left": "the duck", "right": "quack" },
-          { "left": "the pig", "right": "oink" },
-          { "left": "the hen", "right": "cluck" },
-          { "left": "the horse", "right": "neigh" } ] } },
-    { "code": "C", "type": "listening", "title": "Listen on the farm. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "starters/u16-c.mp3",
-      "data": { "voice_note": "Voces: Tomás (en la granja) y Freya (contando animales).",
-        "script": "Tomas: Look! Three cows under the tree. … Freya: And five little ducks in the water! … Tomas: The pig is sleeping in the mud. So happy! … Freya: The hens have got eggs. One, two… six eggs! … Tomas: Can I ride the horse? It's brown and very big. … Freya: And Pip is talking to the ducks. Quack quack, Pip! … Tomas: Best trip ever. Goodbye, farm!",
-        "questions": [
-          { "q": "There are … cows under the tree.", "answer": "three" },
-          { "q": "There are five little … in the water.", "answer": "ducks" },
-          { "q": "The pig is sleeping in the …", "answer": "mud" },
-          { "q": "The hens have got … eggs.", "answer": "six" },
-          { "q": "The horse is … and very big.", "answer": "brown" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "The cow says …", "options": ["moo", "meow", "woof"], "answer": 0 },
-          { "sentence": "Eggs come from the …", "options": ["hen", "horse", "pig"], "answer": 0 },
-          { "sentence": "The sheep gives us …", "options": ["wool", "eggs", "juice"], "answer": 0 },
-          { "sentence": "The pig loves the …", "options": ["mud", "sky", "shelf"], "answer": 0 },
-          { "sentence": "Cows eat …", "options": ["grass", "cake", "fish"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Animal sound quiz: make a sound, your partner names the animal in English. Three sounds each!" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Draw a farm with 5 animals. Label them and write one sound for each." } ]
+ "id": "starters-16",
+ "level": "starters",
+ "number": 16,
+ "title": "On the farm",
+ "topic": "farm",
+ "grammar": "animal sounds + It is a…",
+ "wordlist": [
+  "cow",
+  "horse",
+  "sheep",
+  "duck",
+  "hen",
+  "pig",
+  "goat",
+  "grass",
+  "egg",
+  "moo"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 1,
+  "skill": "farm animals"
+ },
+ "characters": [
+  "tomas",
+  "pip"
+ ],
+ "scene": {
+  "speaker": "tomas",
+  "pose": {
+   "tomas": 1,
+   "pip": 5
+  },
+  "bubble": "Farm trip! Moo, baa, quack — it's like a big animal song. Pip is talking to the ducks!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Write the farm animals.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "COW",
+      "clue": "Big, black and white. It gives milk."
+     },
+     {
+      "word": "SHEEP",
+      "clue": "It is woolly and says baa."
+     },
+     {
+      "word": "DUCK",
+      "clue": "It swims and says quack."
+     },
+     {
+      "word": "PIG",
+      "clue": "Pink and round. It loves mud!"
+     },
+     {
+      "word": "HEN",
+      "clue": "She gives us eggs."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Match the animal with its sound.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Animal",
+    "right_label": "Sound",
+    "pairs": [
+     {
+      "left": "the cow",
+      "right": "moo"
+     },
+     {
+      "left": "the sheep",
+      "right": "baa"
+     },
+     {
+      "left": "the duck",
+      "right": "quack"
+     },
+     {
+      "left": "the pig",
+      "right": "oink"
+     },
+     {
+      "left": "the hen",
+      "right": "cluck"
+     },
+     {
+      "left": "the horse",
+      "right": "neigh"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen on the farm. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u16-c.mp3",
+   "data": {
+    "voice_note": "Voces: Tomás (en la granja) y Freya (contando animales).",
+    "script": "Tomas: Look! Three cows under the tree. … Freya: And five little ducks in the water! … Tomas: The pig is sleeping in the mud. So happy! … Freya: The hens have got eggs. One, two… six eggs! … Tomas: Can I ride the horse? It's brown and very big. … Freya: And Pip is talking to the ducks. Quack quack, Pip! … Tomas: Best trip ever. Goodbye, farm!",
+    "questions": [
+     {
+      "q": "There are … cows under the tree.",
+      "answer": "three"
+     },
+     {
+      "q": "There are five little … in the water.",
+      "answer": "ducks"
+     },
+     {
+      "q": "The pig is sleeping in the …",
+      "answer": "mud"
+     },
+     {
+      "q": "The hens have got … eggs.",
+      "answer": "six"
+     },
+     {
+      "q": "The horse is … and very big.",
+      "answer": "brown"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "The cow says …",
+      "options": [
+       "moo",
+       "meow",
+       "woof"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Eggs come from the …",
+      "options": [
+       "hen",
+       "horse",
+       "pig"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The sheep gives us …",
+      "options": [
+       "wool",
+       "eggs",
+       "juice"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The pig loves the …",
+      "options": [
+       "mud",
+       "sky",
+       "shelf"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Cows eat …",
+      "options": [
+       "grass",
+       "cake",
+       "fish"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Animal sound quiz: make a sound, your partner names the animal in English. Three sounds each!"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Draw a farm with 5 animals. Label them and write one sound for each."
+  }
+ ]
 }

@@ -1,53 +1,253 @@
 {
-  "id": "movers-29", "level": "movers", "number": 29,
-  "title": "The lost dog", "topic": "past story",
-  "grammar": "pasado: historia con secuencia",
-  "wordlist": ["lost", "looked for", "called", "worried", "poster", "park", "bench", "tail", "happy", "home"],
-  "exam_focus": { "paper": "Reading & Writing", "part": 5, "skill": "story" },
-  "characters": ["sofia", "mateo"],
-  "scene": { "speaker": "sofia", "pose": { "sofia": 5, "mateo": 3 },
-    "bubble": "The scariest afternoon of the year: for two hours, nobody knew where Luna was…" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Put the story in order: match the moment with what happened.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Moment", "right_label": "What happened",
-        "pairs": [
-          { "left": "At three o'clock", "right": "Luna disappeared from the garden" },
-          { "left": "First", "right": "we looked for her in the club house" },
-          { "left": "Then", "right": "we called her name in every street" },
-          { "left": "After that", "right": "we made posters with her photo" },
-          { "left": "At five o'clock", "right": "a boy phoned: she was at the bakery!" },
-          { "left": "In the end", "right": "she came home with a bread gift" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Choose the correct word for the story.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Complete each sentence.",
-        "items": [
-          { "sentence": "Luna was ___ — nobody could find her.", "options": ["lost", "found", "tired"], "answer": 0 },
-          { "sentence": "We ___ for her everywhere.", "options": ["looked", "look", "looks"], "answer": 0 },
-          { "sentence": "Everyone was very ___ about her.", "options": ["worried", "hungry", "funny"], "answer": 0 },
-          { "sentence": "We put ___ with her photo on the trees.", "options": ["posters", "postcards", "stamps"], "answer": 0 },
-          { "sentence": "In the end she came ___ safe and happy.", "options": ["home", "house", "hotel"], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to the whole story. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "movers/u29-c.mp3",
-      "data": { "voice_note": "Voces: Sofía (narrando con emoción) y Mateo (el más preocupado).",
-        "script": "Sofia: At three o'clock the garden gate was open… and Luna wasn't there. … Mateo: We looked in the club house, under the stairs, everywhere! … Sofia: Then we walked through the park calling her name. … Mateo: Valentina made twenty posters in ten minutes. Artist speed! … Sofia: At five, a boy phoned: a grey dog was sitting at the bakery door. … Mateo: Of course! The smell of fresh bread! … Sofia: The baker gave her water and a little bread roll. … Mateo: Now the gate has two locks. TWO!",
-        "questions": [
-          { "q": "At three o'clock the garden … was open.", "answer": "gate" },
-          { "q": "Valentina made twenty … in ten minutes.", "answer": "posters" },
-          { "q": "A grey dog was sitting at the … door.", "answer": "bakery" },
-          { "q": "The baker gave her water and a bread …", "answer": "roll" },
-          { "q": "Now the gate has two …", "answer": "locks" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "A dog moves its ___ when it is happy.", "options": ["tail", "tooth", "towel"], "answer": 0 },
-          { "sentence": "We sat on the park ___ to rest.", "options": ["bench", "beach", "branch"], "answer": 0 },
-          { "sentence": "\"Have you seen my cat?\" — \"Is it ___?\"", "options": ["lost", "loud", "long"], "answer": 0 },
-          { "sentence": "We ___ Grandma every Sunday evening.", "options": ["call", "climb", "carry"], "answer": 0 },
-          { "sentence": "The opposite of worried is …", "options": ["calm", "cold", "curly"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Story chain: retell the Luna story together — one sentence each, in order (First… Then… After that… In the end…). No notes allowed!" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write a lost-and-found story (real or invented) in 6 sentences with First, Then, After that, In the end." } ]
+ "id": "movers-29",
+ "level": "movers",
+ "number": 29,
+ "title": "The lost dog",
+ "topic": "past story",
+ "grammar": "pasado: historia con secuencia",
+ "wordlist": [
+  "lost",
+  "looked for",
+  "called",
+  "worried",
+  "poster",
+  "park",
+  "bench",
+  "tail",
+  "happy",
+  "home"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 5,
+  "skill": "story"
+ },
+ "characters": [
+  "sofia",
+  "mateo"
+ ],
+ "scene": {
+  "speaker": "sofia",
+  "pose": {
+   "sofia": 5,
+   "mateo": 3
+  },
+  "bubble": "The scariest afternoon of the year: for two hours, nobody knew where Luna was…"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Put the story in order: match the moment with what happened.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Moment",
+    "right_label": "What happened",
+    "pairs": [
+     {
+      "left": "At three o'clock",
+      "right": "Luna disappeared from the garden"
+     },
+     {
+      "left": "First",
+      "right": "we looked for her in the club house"
+     },
+     {
+      "left": "Then",
+      "right": "we called her name in every street"
+     },
+     {
+      "left": "After that",
+      "right": "we made posters with her photo"
+     },
+     {
+      "left": "At five o'clock",
+      "right": "a boy phoned: she was at the bakery!"
+     },
+     {
+      "left": "In the end",
+      "right": "she came home with a bread gift"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choose the correct word for the story.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete each sentence.",
+    "items": [
+     {
+      "sentence": "Luna was ___ — nobody could find her.",
+      "options": [
+       "lost",
+       "found",
+       "tired"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "We ___ for her everywhere.",
+      "options": [
+       "looked",
+       "look",
+       "looks"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Everyone was very ___ about her.",
+      "options": [
+       "worried",
+       "hungry",
+       "funny"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "We put ___ with her photo on the trees.",
+      "options": [
+       "posters",
+       "postcards",
+       "stamps"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "In the end she came ___ safe and happy.",
+      "options": [
+       "home",
+       "house",
+       "hotel"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to the whole story. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u29-c.mp3",
+   "data": {
+    "voice_note": "Voces: Sofía (narrando con emoción) y Mateo (el más preocupado).",
+    "script": "Sofia: At three o'clock the garden gate was open… and Luna wasn't there. … Mateo: We looked in the club house, under the stairs, everywhere! … Sofia: Then we walked through the park calling her name. … Mateo: Valentina made twenty posters in ten minutes. Artist speed! … Sofia: At five, a boy phoned: a grey dog was sitting at the bakery door. … Mateo: Of course! The smell of fresh bread! … Sofia: The baker gave her water and a little bread roll. … Mateo: Now the gate has two locks. TWO!",
+    "questions": [
+     {
+      "q": "At three o'clock the garden … was open.",
+      "answer": "gate"
+     },
+     {
+      "q": "Valentina made twenty … in ten minutes.",
+      "answer": "posters"
+     },
+     {
+      "q": "A grey dog was sitting at the … door.",
+      "answer": "bakery"
+     },
+     {
+      "q": "The baker gave her water and a bread …",
+      "answer": "roll"
+     },
+     {
+      "q": "Now the gate has two …",
+      "answer": "locks"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "A dog moves its ___ when it is happy.",
+      "options": [
+       "tail",
+       "tooth",
+       "towel"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "We sat on the park ___ to rest.",
+      "options": [
+       "bench",
+       "beach",
+       "branch"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"Have you seen my cat?\" — \"Is it ___?\"",
+      "options": [
+       "lost",
+       "loud",
+       "long"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "We ___ Grandma every Sunday evening.",
+      "options": [
+       "call",
+       "climb",
+       "carry"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The opposite of worried is …",
+      "options": [
+       "calm",
+       "cold",
+       "curly"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Story chain: retell the Luna story together — one sentence each, in order (First… Then… After that… In the end…). No notes allowed!"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write a lost-and-found story (real or invented) in 6 sentences with First, Then, After that, In the end."
+  }
+ ]
 }

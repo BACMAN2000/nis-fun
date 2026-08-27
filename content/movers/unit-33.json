@@ -1,53 +1,253 @@
 {
-  "id": "movers-33", "level": "movers", "number": 33,
-  "title": "Telling the time", "topic": "time",
-  "grammar": "o'clock / half past + What time",
-  "wordlist": ["o'clock", "half past", "clock", "watch", "morning", "afternoon", "evening", "night", "early", "late"],
-  "exam_focus": { "paper": "Listening", "part": 4, "skill": "multiple choice" },
-  "characters": ["sofia", "erik"],
-  "scene": { "speaker": "sofia", "pose": { "sofia": 2, "erik": 5 },
-    "bubble": "Erik built a clock that barks the hours. Luna is confused. The neighbours too." },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the time with the moment of the day.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Time", "right_label": "Moment",
-        "pairs": [
-          { "left": "seven o'clock", "right": "wake up — morning!" },
-          { "left": "half past twelve", "right": "lunch time" },
-          { "left": "four o'clock", "right": "afternoon play time" },
-          { "left": "half past seven", "right": "evening — dinner is ready" },
-          { "left": "nine o'clock at night", "right": "time for bed" },
-          { "left": "twelve at night", "right": "midnight — everyone sleeps" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Choose the correct time words.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Complete each sentence.",
-        "items": [
-          { "sentence": "\"What ___ is it?\" — \"It's three o'clock.\"", "options": ["time", "hour", "clock"], "answer": 0 },
-          { "sentence": "6:30 is ___ past six.", "options": ["half", "quarter", "thirty"], "answer": 0 },
-          { "sentence": "School starts at eight ___ exactly.", "options": ["o'clock", "hours", "half"], "answer": 0 },
-          { "sentence": "You wear a ___ on your wrist to see the time.", "options": ["watch", "clock", "ring"], "answer": 0 },
-          { "sentence": "The film starts at 6:00. We arrived at 6:20 — too ___!", "options": ["late", "early", "fast"], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to Erik's barking clock day. Write a time or word in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "movers/u33-c.mp3",
-      "data": { "voice_note": "Voces: Erik (orgulloso) y Sofía (entre risas).",
-        "script": "Erik: My new invention: the barking clock! At seven o'clock it barks seven times. … Sofia: And Luna answered every bark. Fourteen barks in total! … Erik: At half past twelve it barks for lunch. … Sofia: The neighbour thought there were two dogs in the house. … Erik: At four o'clock, play time bark. At nine, bedtime bark. … Sofia: And at midnight? … Erik: At midnight it's silent. Even barking clocks must sleep. … Sofia: Your best invention… and the noisiest!",
-        "questions": [
-          { "q": "At seven o'clock it barks … times.", "answer": "seven" },
-          { "q": "Luna answered: … barks in total!", "answer": "fourteen" },
-          { "q": "The lunch bark is at half past …", "answer": "twelve" },
-          { "q": "The bedtime bark is at …", "answer": "nine" },
-          { "q": "At midnight the clock is …", "answer": "silent" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "The sun comes up in the …", "options": ["morning", "evening", "night"], "answer": 0 },
-          { "sentence": "After the afternoon comes the …", "options": ["evening", "morning", "midday"], "answer": 0 },
-          { "sentence": "9:30 is half past …", "options": ["nine", "ten", "eight"], "answer": 0 },
-          { "sentence": "The big ___ on the wall says it's lunch time.", "options": ["clock", "watch", "phone"], "answer": 0 },
-          { "sentence": "The opposite of late is …", "options": ["early", "fast", "first"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Draw 4 clocks with different times. Your partner says each time and one thing they do at that hour: \"It's half past four — I play football.\"" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write your Sunday with 5 times: At nine o'clock I… At half past twelve I…" } ]
+ "id": "movers-33",
+ "level": "movers",
+ "number": 33,
+ "title": "Telling the time",
+ "topic": "time",
+ "grammar": "o'clock / half past + What time",
+ "wordlist": [
+  "o'clock",
+  "half past",
+  "clock",
+  "watch",
+  "morning",
+  "afternoon",
+  "evening",
+  "night",
+  "early",
+  "late"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 4,
+  "skill": "multiple choice"
+ },
+ "characters": [
+  "sofia",
+  "erik"
+ ],
+ "scene": {
+  "speaker": "sofia",
+  "pose": {
+   "sofia": 2,
+   "erik": 5
+  },
+  "bubble": "Erik built a clock that barks the hours. Luna is confused. The neighbours too."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the time with the moment of the day.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Time",
+    "right_label": "Moment",
+    "pairs": [
+     {
+      "left": "seven o'clock",
+      "right": "wake up — morning!"
+     },
+     {
+      "left": "half past twelve",
+      "right": "lunch time"
+     },
+     {
+      "left": "four o'clock",
+      "right": "afternoon play time"
+     },
+     {
+      "left": "half past seven",
+      "right": "evening — dinner is ready"
+     },
+     {
+      "left": "nine o'clock at night",
+      "right": "time for bed"
+     },
+     {
+      "left": "twelve at night",
+      "right": "midnight — everyone sleeps"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choose the correct time words.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete each sentence.",
+    "items": [
+     {
+      "sentence": "\"What ___ is it?\" — \"It's three o'clock.\"",
+      "options": [
+       "time",
+       "hour",
+       "clock"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "6:30 is ___ past six.",
+      "options": [
+       "half",
+       "quarter",
+       "thirty"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "School starts at eight ___ exactly.",
+      "options": [
+       "o'clock",
+       "hours",
+       "half"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "You wear a ___ on your wrist to see the time.",
+      "options": [
+       "watch",
+       "clock",
+       "ring"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The film starts at 6:00. We arrived at 6:20 — too ___!",
+      "options": [
+       "late",
+       "early",
+       "fast"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to Erik's barking clock day. Write a time or word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u33-c.mp3",
+   "data": {
+    "voice_note": "Voces: Erik (orgulloso) y Sofía (entre risas).",
+    "script": "Erik: My new invention: the barking clock! At seven o'clock it barks seven times. … Sofia: And Luna answered every bark. Fourteen barks in total! … Erik: At half past twelve it barks for lunch. … Sofia: The neighbour thought there were two dogs in the house. … Erik: At four o'clock, play time bark. At nine, bedtime bark. … Sofia: And at midnight? … Erik: At midnight it's silent. Even barking clocks must sleep. … Sofia: Your best invention… and the noisiest!",
+    "questions": [
+     {
+      "q": "At seven o'clock it barks … times.",
+      "answer": "seven"
+     },
+     {
+      "q": "Luna answered: … barks in total!",
+      "answer": "fourteen"
+     },
+     {
+      "q": "The lunch bark is at half past …",
+      "answer": "twelve"
+     },
+     {
+      "q": "The bedtime bark is at …",
+      "answer": "nine"
+     },
+     {
+      "q": "At midnight the clock is …",
+      "answer": "silent"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "The sun comes up in the …",
+      "options": [
+       "morning",
+       "evening",
+       "night"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "After the afternoon comes the …",
+      "options": [
+       "evening",
+       "morning",
+       "midday"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "9:30 is half past …",
+      "options": [
+       "nine",
+       "ten",
+       "eight"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The big ___ on the wall says it's lunch time.",
+      "options": [
+       "clock",
+       "watch",
+       "phone"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The opposite of late is …",
+      "options": [
+       "early",
+       "fast",
+       "first"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Draw 4 clocks with different times. Your partner says each time and one thing they do at that hour: \"It's half past four — I play football.\""
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write your Sunday with 5 times: At nine o'clock I… At half past twelve I…"
+  }
+ ]
 }

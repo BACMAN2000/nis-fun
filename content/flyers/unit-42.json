@@ -1,53 +1,253 @@
 {
-  "id": "flyers-42", "level": "flyers", "number": 42,
-  "title": "Who's speaking?", "topic": "telephone",
-  "grammar": "frases de teléfono + can/could",
-  "wordlist": ["phone call", "message", "ring", "answer", "hold on", "wrong number", "busy", "later", "mobile", "voice"],
-  "exam_focus": { "paper": "Listening", "part": 1, "skill": "identify speakers" },
-  "characters": ["kili", "diego"],
-  "scene": { "speaker": "diego", "pose": { "diego": 3, "kili": 5 },
-    "bubble": "The school phone rang six times today — and one call was for Kili. A condor with phone calls, imagine that!" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the phone phrase with its meaning.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Phrase", "right_label": "Meaning",
-        "pairs": [
-          { "left": "Who's speaking?", "right": "Who are you?" },
-          { "left": "Hold on, please.", "right": "Wait a moment." },
-          { "left": "Can I leave a message?", "right": "Please tell them something from me." },
-          { "left": "You've got the wrong number.", "right": "This isn't the person you wanted." },
-          { "left": "The line is busy.", "right": "They are talking to someone else." },
-          { "left": "I'll call back later.", "right": "I will phone again another time." } ] } },
-    { "code": "B", "type": "exam_task", "title": "Choose the best phone reply.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the best answer.",
-        "items": [
-          { "sentence": "\"Hello, is Maya there?\"", "options": ["Hold on, I'll get her.", "It's made of glass.", "Twice a week."], "answer": 0 },
-          { "sentence": "\"Who's speaking?\"", "options": ["It's Diego, from school.", "At the chemist's.", "The biggest one."], "answer": 0 },
-          { "sentence": "\"Can I leave a message?\"", "options": ["Of course, one moment.", "It's too heavy.", "Next to the bank."], "answer": 0 },
-          { "sentence": "\"Sorry, I think you've got the wrong number.\"", "options": ["Oh, excuse me!", "Great idea!", "He's the funniest."], "answer": 0 },
-          { "sentence": "\"The line is busy.\"", "options": ["I'll call back later.", "It's midnight.", "She's got curly hair."], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to the six phone calls. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "flyers/u42-c.mp3",
-      "data": { "voice_note": "Voces: Diego (recepcionista por un día) y varias llamadas.",
-        "script": "Diego: School phone, Diego speaking! … Diego: Call one: the bus driver. The school trip bus will arrive at quarter past nine, not nine. … Diego: Call two: Oliver's mum. He forgot his lunch box — again! … Diego: Call three: wrong number. Somebody wanted a pizza restaurant. … Diego: Call four: the library. Maya's science book has arrived. … Diego: Call five: the vet! Kili's new vitamins are ready. Yes, the call was for Kili! … Diego: And call six… my own grandma, just to say good luck with my report. Thanks, grandma!",
-        "questions": [
-          { "q": "The bus will arrive at quarter past …", "answer": "nine" },
-          { "q": "Oliver forgot his lunch …", "answer": "box" },
-          { "q": "The wrong number wanted a pizza …", "answer": "restaurant" },
-          { "q": "Maya's science … has arrived.", "answer": "book" },
-          { "q": "The vet has Kili's new …", "answer": "vitamins" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the correct word.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the correct word.",
-        "items": [
-          { "sentence": "The phone is ___ — listen to that sound!", "options": ["ringing", "sleeping", "raining"], "answer": 0 },
-          { "sentence": "If nobody answers, you can leave a …", "options": ["message", "stamp", "prize"], "answer": 0 },
-          { "sentence": "\"___ on, please, I'll get my dad.\"", "options": ["Hold", "Take", "Put"], "answer": 0 },
-          { "sentence": "A phone you carry with you is a …", "options": ["mobile", "screen", "channel"], "answer": 0 },
-          { "sentence": "I knew it was grandma by her …", "options": ["voice", "shoes", "address"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Back-to-back phone call: sit back to back and act a call — invite your partner to a party (day, time, what to bring). Use at least 3 phone phrases from activity A." } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write a phone dialogue of 6 lines: someone calls to invite a friend to the cinema. Use Who's speaking? and Hold on." } ]
+ "id": "flyers-42",
+ "level": "flyers",
+ "number": 42,
+ "title": "Who's speaking?",
+ "topic": "telephone",
+ "grammar": "frases de teléfono + can/could",
+ "wordlist": [
+  "phone call",
+  "message",
+  "ring",
+  "answer",
+  "hold on",
+  "wrong number",
+  "busy",
+  "later",
+  "mobile",
+  "voice"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 1,
+  "skill": "identify speakers"
+ },
+ "characters": [
+  "kili",
+  "diego"
+ ],
+ "scene": {
+  "speaker": "diego",
+  "pose": {
+   "diego": 3,
+   "kili": 5
+  },
+  "bubble": "The school phone rang six times today — and one call was for Kili. A condor with phone calls, imagine that!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the phone phrase with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Phrase",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "Who's speaking?",
+      "right": "Who are you?"
+     },
+     {
+      "left": "Hold on, please.",
+      "right": "Wait a moment."
+     },
+     {
+      "left": "Can I leave a message?",
+      "right": "Please tell them something from me."
+     },
+     {
+      "left": "You've got the wrong number.",
+      "right": "This isn't the person you wanted."
+     },
+     {
+      "left": "The line is busy.",
+      "right": "They are talking to someone else."
+     },
+     {
+      "left": "I'll call back later.",
+      "right": "I will phone again another time."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choose the best phone reply.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the best answer.",
+    "items": [
+     {
+      "sentence": "\"Hello, is Maya there?\"",
+      "options": [
+       "Hold on, I'll get her.",
+       "It's made of glass.",
+       "Twice a week."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"Who's speaking?\"",
+      "options": [
+       "It's Diego, from school.",
+       "At the chemist's.",
+       "The biggest one."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"Can I leave a message?\"",
+      "options": [
+       "Of course, one moment.",
+       "It's too heavy.",
+       "Next to the bank."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"Sorry, I think you've got the wrong number.\"",
+      "options": [
+       "Oh, excuse me!",
+       "Great idea!",
+       "He's the funniest."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"The line is busy.\"",
+      "options": [
+       "I'll call back later.",
+       "It's midnight.",
+       "She's got curly hair."
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to the six phone calls. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u42-c.mp3",
+   "data": {
+    "voice_note": "Voces: Diego (recepcionista por un día) y varias llamadas.",
+    "script": "Diego: School phone, Diego speaking! … Diego: Call one: the bus driver. The school trip bus will arrive at quarter past nine, not nine. … Diego: Call two: Oliver's mum. He forgot his lunch box — again! … Diego: Call three: wrong number. Somebody wanted a pizza restaurant. … Diego: Call four: the library. Maya's science book has arrived. … Diego: Call five: the vet! Kili's new vitamins are ready. Yes, the call was for Kili! … Diego: And call six… my own grandma, just to say good luck with my report. Thanks, grandma!",
+    "questions": [
+     {
+      "q": "The bus will arrive at quarter past …",
+      "answer": "nine"
+     },
+     {
+      "q": "Oliver forgot his lunch …",
+      "answer": "box"
+     },
+     {
+      "q": "The wrong number wanted a pizza …",
+      "answer": "restaurant"
+     },
+     {
+      "q": "Maya's science … has arrived.",
+      "answer": "book"
+     },
+     {
+      "q": "The vet has Kili's new …",
+      "answer": "vitamins"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word.",
+    "items": [
+     {
+      "sentence": "The phone is ___ — listen to that sound!",
+      "options": [
+       "ringing",
+       "sleeping",
+       "raining"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "If nobody answers, you can leave a …",
+      "options": [
+       "message",
+       "stamp",
+       "prize"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"___ on, please, I'll get my dad.\"",
+      "options": [
+       "Hold",
+       "Take",
+       "Put"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "A phone you carry with you is a …",
+      "options": [
+       "mobile",
+       "screen",
+       "channel"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "I knew it was grandma by her …",
+      "options": [
+       "voice",
+       "shoes",
+       "address"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Back-to-back phone call: sit back to back and act a call — invite your partner to a party (day, time, what to bring). Use at least 3 phone phrases from activity A."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write a phone dialogue of 6 lines: someone calls to invite a friend to the cinema. Use Who's speaking? and Hold on."
+  }
+ ]
 }

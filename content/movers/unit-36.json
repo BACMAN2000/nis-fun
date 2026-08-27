@@ -1,53 +1,253 @@
 {
-  "id": "movers-36", "level": "movers", "number": 36,
-  "title": "I'm going to…", "topic": "going to",
-  "grammar": "going to (planes)",
-  "wordlist": ["plan", "tomorrow", "next week", "birthday", "prepare", "invite", "surprise", "list", "ready", "soon"],
-  "exam_focus": { "paper": "Reading & Writing", "part": 3, "skill": "conversation" },
-  "characters": ["erik", "valentina"],
-  "scene": { "speaker": "erik", "pose": { "erik": 4, "valentina": 3 },
-    "bubble": "Top secret: Sofía's birthday is on Friday. We're going to prepare the BEST surprise party in club history!" },
-  "activities": [
-    { "code": "A", "type": "match_words", "title": "Match the person with their party job.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "left_label": "Person", "right_label": "Job",
-        "pairs": [
-          { "left": "Erik is going to", "right": "build a confetti machine" },
-          { "left": "Valentina is going to", "right": "write the invitation cards" },
-          { "left": "Mateo is going to", "right": "guard the biscuits (dangerous!)" },
-          { "left": "Grandma is going to", "right": "bake the chocolate cake" },
-          { "left": "Luna is going to", "right": "keep Sofia away until five" },
-          { "left": "Everyone is going to", "right": "shout SURPRISE at the door" } ] } },
-    { "code": "B", "type": "exam_task", "title": "Choose the correct going to form.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Complete each sentence.",
-        "items": [
-          { "sentence": "We ___ going to have a party on Friday.", "options": ["are", "is", "am"], "answer": 0 },
-          { "sentence": "She ___ going to love the surprise!", "options": ["is", "are", "am"], "answer": 0 },
-          { "sentence": "I'm going ___ make the birthday card.", "options": ["to", "for", "at"], "answer": 0 },
-          { "sentence": "___ you going to invite the whole class?", "options": ["Are", "Is", "Do"], "answer": 0 },
-          { "sentence": "They aren't going to ___ anything to Sofia!", "options": ["say", "saying", "said"], "answer": 0 } ] } },
-    { "code": "C", "type": "listening", "title": "Listen to the secret plan. Write a word or number in each gap.",
-      "outputs": ["digital", "quiz"], "audio": "movers/u36-c.mp3",
-      "data": { "voice_note": "Voces: Erik (susurrando el plan) y Valentina (lista en mano).",
-        "script": "Erik: Secret meeting! The party is going to be on Friday at five. … Valentina: I'm going to write twelve invitations tonight. … Erik: My confetti machine is going to shoot confetti for one minute! … Valentina: Grandma is going to bake a chocolate cake with strawberries. … Erik: And Mateo? … Valentina: He's going to blow up thirty balloons. Green and gold. … Erik: Luna's mission: to walk with Sofia in the park until five. … Valentina: This is going to be the best surprise ever!",
-        "questions": [
-          { "q": "The party is on Friday at …", "answer": "five" },
-          { "q": "Valentina is going to write … invitations.", "answer": "twelve" },
-          { "q": "The confetti machine shoots for one …", "answer": "minute" },
-          { "q": "The cake is chocolate with …", "answer": "strawberries" },
-          { "q": "Mateo is going to blow up … balloons.", "answer": "thirty" } ] } },
-    { "code": "D", "type": "exam_task", "title": "Exam task · Choose the best reply.",
-      "outputs": ["book", "digital", "quiz"],
-      "data": { "instructions": "Choose the best answer.",
-        "items": [
-          { "sentence": "\"What are you going to do tomorrow?\"", "options": ["I'm going to visit my cousins.", "Yesterday morning.", "It's Luna's."], "answer": 0 },
-          { "sentence": "\"Are you going to come to the party?\"", "options": ["Yes, of course!", "It's half past two.", "Under the bed."], "answer": 0 },
-          { "sentence": "\"Who is going to bring the music?\"", "options": ["Erik is.", "Two soles.", "In the kitchen."], "answer": 0 },
-          { "sentence": "A party that nobody expects is a …", "options": ["surprise", "secret list", "plan B"], "answer": 0 },
-          { "sentence": "Before a party you ___ everything.", "options": ["prepare", "forget", "close"], "answer": 0 } ] } },
-    { "code": "E", "type": "pairwork", "title": "Speaking · In pairs", "outputs": ["book"],
-      "data": { "text": "Plan a surprise party for an imaginary friend: 5 sentences with going to (who, where, food, music, surprise). Present your plan in 30 seconds!" } }
-  ],
-  "homework": [ { "type": "write_sentences", "prompt": "Write 5 plans for next weekend with going to: I'm going to… My family is going to…" } ]
+ "id": "movers-36",
+ "level": "movers",
+ "number": 36,
+ "title": "I'm going to…",
+ "topic": "going to",
+ "grammar": "going to (planes)",
+ "wordlist": [
+  "plan",
+  "tomorrow",
+  "next week",
+  "birthday",
+  "prepare",
+  "invite",
+  "surprise",
+  "list",
+  "ready",
+  "soon"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 3,
+  "skill": "conversation"
+ },
+ "characters": [
+  "erik",
+  "valentina"
+ ],
+ "scene": {
+  "speaker": "erik",
+  "pose": {
+   "erik": 4,
+   "valentina": 3
+  },
+  "bubble": "Top secret: Sofía's birthday is on Friday. We're going to prepare the BEST surprise party in club history!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Match the person with their party job.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Person",
+    "right_label": "Job",
+    "pairs": [
+     {
+      "left": "Erik is going to",
+      "right": "build a confetti machine"
+     },
+     {
+      "left": "Valentina is going to",
+      "right": "write the invitation cards"
+     },
+     {
+      "left": "Mateo is going to",
+      "right": "guard the biscuits (dangerous!)"
+     },
+     {
+      "left": "Grandma is going to",
+      "right": "bake the chocolate cake"
+     },
+     {
+      "left": "Luna is going to",
+      "right": "keep Sofia away until five"
+     },
+     {
+      "left": "Everyone is going to",
+      "right": "shout SURPRISE at the door"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choose the correct going to form.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete each sentence.",
+    "items": [
+     {
+      "sentence": "We ___ going to have a party on Friday.",
+      "options": [
+       "are",
+       "is",
+       "am"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "She ___ going to love the surprise!",
+      "options": [
+       "is",
+       "are",
+       "am"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "I'm going ___ make the birthday card.",
+      "options": [
+       "to",
+       "for",
+       "at"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___ you going to invite the whole class?",
+      "options": [
+       "Are",
+       "Is",
+       "Do"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "They aren't going to ___ anything to Sofia!",
+      "options": [
+       "say",
+       "saying",
+       "said"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Listen to the secret plan. Write a word or number in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u36-c.mp3",
+   "data": {
+    "voice_note": "Voces: Erik (susurrando el plan) y Valentina (lista en mano).",
+    "script": "Erik: Secret meeting! The party is going to be on Friday at five. … Valentina: I'm going to write twelve invitations tonight. … Erik: My confetti machine is going to shoot confetti for one minute! … Valentina: Grandma is going to bake a chocolate cake with strawberries. … Erik: And Mateo? … Valentina: He's going to blow up thirty balloons. Green and gold. … Erik: Luna's mission: to walk with Sofia in the park until five. … Valentina: This is going to be the best surprise ever!",
+    "questions": [
+     {
+      "q": "The party is on Friday at …",
+      "answer": "five"
+     },
+     {
+      "q": "Valentina is going to write … invitations.",
+      "answer": "twelve"
+     },
+     {
+      "q": "The confetti machine shoots for one …",
+      "answer": "minute"
+     },
+     {
+      "q": "The cake is chocolate with …",
+      "answer": "strawberries"
+     },
+     {
+      "q": "Mateo is going to blow up … balloons.",
+      "answer": "thirty"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Exam task · Choose the best reply.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the best answer.",
+    "items": [
+     {
+      "sentence": "\"What are you going to do tomorrow?\"",
+      "options": [
+       "I'm going to visit my cousins.",
+       "Yesterday morning.",
+       "It's Luna's."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"Are you going to come to the party?\"",
+      "options": [
+       "Yes, of course!",
+       "It's half past two.",
+       "Under the bed."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "\"Who is going to bring the music?\"",
+      "options": [
+       "Erik is.",
+       "Two soles.",
+       "In the kitchen."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "A party that nobody expects is a …",
+      "options": [
+       "surprise",
+       "secret list",
+       "plan B"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Before a party you ___ everything.",
+      "options": [
+       "prepare",
+       "forget",
+       "close"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Speaking · In pairs",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Plan a surprise party for an imaginary friend: 5 sentences with going to (who, where, food, music, surprise). Present your plan in 30 seconds!"
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write 5 plans for next weekend with going to: I'm going to… My family is going to…"
+  }
+ ]
 }
