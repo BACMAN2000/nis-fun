@@ -9,9 +9,18 @@ Se leen las dos piezas de texto de la unidad:
   scene.intro    la historia de apertura
   scene.bubble   lo que dice el personaje en su bocadillo
 
-De ahi se sacan los objetos del vocabulario que se nombran y con cuantos
-("a red ball" = 1, "three little cars" = 3), y se compara con lo que el
-generador de escenas coloca de verdad.
+De ahi se sacan tres cosas y se comparan con lo que el generador de escenas
+coloca de verdad:
+
+  los objetos   con cuantos ("a red ball" = 1, "three little cars" = 3)
+  el sitio      si la historia pasa en la cocina del faro, el fondo no
+                puede ser la fachada del colegio
+  quien sale    los personajes que la historia nombra tienen que estar
+
+El sitio y los personajes se anadieron el 27-ago-2026: Flyers 1 cuenta que
+estan en la cocina del faro con las maletas abiertas y la lamina era la
+fachada del colegio con la ropa flotando en fila. Solo mirando objetos eso
+pasaba la revision.
 
 Solo mira las unidades con texto escrito a mano: las demas llevan una
 introduccion de plantilla que no nombra objetos concretos, asi que no puede
@@ -57,16 +66,82 @@ def menciones(texto, vocabulario):
     return pide
 
 
+# Que sitio ensena cada fondo. Si la historia nombra uno de estos sitios,
+# el fondo de la escena tiene que ser de esa familia.
+SITIOS = {
+    "classroom":       ("classroom",),
+    "library":         ("library",),
+    "garden":          ("garden", "picnic-garden"),
+    "picnic":          ("picnic-garden", "garden"),
+    "playground":      ("chess-plaza", "campus-hex"),
+    "track":           ("track",),
+    "hockey":          ("hockey",),
+    "zoo":             ("zoo",),
+    "fjord":           ("mirador",),
+    "lighthouse":      ("lighthouse-kitchen", "lighthouse"),
+    "kitchen":         ("lighthouse-kitchen", "kitchen"),
+    "funfair":         ("funfair",),
+    "theatre":         ("theatre", "amphitheater"),
+    "amphitheatre":    ("amphitheater",),
+    "maze":            ("labyrinth",),
+    # Estos no tienen fondo propio. Estan aqui solo para que una historia
+    # que recorre varios sitios se reconozca como recorrido: Flyers 2 va
+    # del museo al puente y al teatro, y no hay un fondo que sea los tres.
+    "museum":          (),
+    "bridge":          (),
+    "airport":         (),
+    "restaurant":      (),
+    "stadium":         (),
+    "castle":          (),
+    "beach":           (),
+}
+
+
+def sitio_de(texto):
+    """El sitio donde pasa la historia, si es uno solo.
+
+    "Fjord Club" es el nombre del grupo, no un sitio, y se quita antes de
+    mirar. Y si la historia nombra varios sitios no se exige ninguno: es
+    un recorrido -Flyers 2 va del museo al puente y al teatro- y no hay
+    un fondo que sea los tres."""
+    t = texto.lower().replace("fjord club", "")
+    if "lighthouse kitchen" in t or ("lighthouse" in t and "kitchen" in t):
+        return "kitchen"
+    vistos = [s for s in SITIOS if re.search(r"\b" + s + r"\b", t)]
+    return vistos[0] if len(vistos) == 1 else None
+
+
+def quien_sale(texto, personajes):
+    """Los personajes del curso que la historia nombra."""
+    t = texto.lower()
+    return {q for q in personajes if re.search(r"\b" + re.escape(q) + r"\b", t)}
+
+
+def elenco():
+    """Los personajes que tienen dibujo, por su slug."""
+    base = os.path.join(ROOT, "assets", "characters")
+    fuera = set()
+    for lvl in os.listdir(base):
+        for quien in os.listdir(os.path.join(base, lvl)):
+            fuera.add(quien)
+    return fuera
+
+
 def dibujables():
     """Lo que se puede poner en una escena: hay dibujo 3D para ello."""
     d = os.path.join(ROOT, "assets", "vocab")
     return {f[:-4] for f in os.listdir(d) if f.endswith(".png")}
 
 
+TRAE_EL_FONDO = {}
+NO_SALEN = {}
+
+
 def revisa(escenas):
     """escenas = {'nivel/n': (fondo, [(objeto,x,y,s), ...])}"""
-    problemas, sin_escena = [], []
+    problemas, sin_escena, decorado = [], [], []
     hay_dibujo = dibujables()
+    hay_persona = elenco()
     for lvl in ("starters", "movers", "flyers"):
         carpeta = os.path.join(CONTENT, lvl)
         if not os.path.isdir(carpeta):
@@ -89,12 +164,32 @@ def revisa(escenas):
                 continue
 
             clave = "%s/%d" % (lvl, d["number"])
+
+            # el sitio y el reparto se miran aunque la historia no nombre
+            # ningun objeto dibujable
+            if clave in escenas:
+                fondo, piezas = escenas[clave]
+                sitio = sitio_de(texto)
+                if sitio and SITIOS[sitio] and fondo not in SITIOS[sitio]:
+                    decorado.append((clave, "pasa en '%s' y el fondo es '%s'"
+                                     % (sitio, fondo)))
+                nombrados = quien_sale(texto, hay_persona)
+                puestas = {n.split(":")[1] for n, *_ in piezas
+                           if n.startswith("char:")}
+                faltan = sorted(nombrados - puestas - set(NO_SALEN.get(clave, {})))
+                if faltan:
+                    decorado.append((clave, "la historia nombra a %s y no salen"
+                                     % ", ".join(faltan)))
+
             if clave not in escenas:
                 sin_escena.append((clave, sorted(pide)))
                 continue
             puestos = {}
             for nombre, *_ in (escenas.get(clave) or ("", []))[1]:
                 puestos[nombre] = puestos.get(nombre, 0) + 1
+            # lo que el fondo ya trae dibujado cuenta como puesto
+            for obj in TRAE_EL_FONDO.get(escenas[clave][0], ()):
+                puestos[obj] = puestos.get(obj, 0) + 1
 
             for obj, cuantos in sorted(pide.items()):
                 hay = puestos.get(obj, 0)
@@ -102,12 +197,14 @@ def revisa(escenas):
                     problemas.append((clave, obj, cuantos, 0, "no esta en el dibujo"))
                 elif hay != cuantos:
                     problemas.append((clave, obj, cuantos, hay, "cantidad distinta"))
-    return problemas, sin_escena
+    return problemas, sin_escena, decorado
 
 
 if __name__ == "__main__":
     import build_unit_scenes as B
-    fallos, sin_escena = revisa(B.ESCENAS)
+    globals()["TRAE_EL_FONDO"] = B.TRAE_EL_FONDO
+    globals()["NO_SALEN"] = B.NO_SALEN
+    fallos, sin_escena, decorado = revisa(B.ESCENAS)
     if not fallos:
         print("  todo cuadra: lo que cuenta cada historia esta en su dibujo")
     else:
@@ -115,6 +212,12 @@ if __name__ == "__main__":
         for clave, obj, pide, hay, que in fallos:
             print("   %-12s %-10s la historia dice %d, el dibujo tiene %d  (%s)"
                   % (clave, obj, pide, hay, que))
+    if decorado:
+        print("")
+        print("  %d laminas que no cuadran con lo que cuenta la historia:"
+              % len(decorado))
+        for clave, que in decorado:
+            print("   %-12s %s" % (clave, que))
     if sin_escena:
         print("")
         print("  %d unidades nombran cosas que si se pueden dibujar pero"

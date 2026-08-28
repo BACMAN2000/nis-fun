@@ -186,6 +186,21 @@ def zoo():
     d.polygon([(int(W * .40), ay), (int(W * .60), ay),
                (W, H), (0, H)], fill=CAMINO)
 
+    # El estanque, entre el arco y los recintos. La historia de la unidad
+    # pregunta cual es mas grande, la ballena o el delfin, asi que los dos
+    # tienen que estar donde el alumno los pueda comparar.
+    ex0, ex1 = int(W * .68), int(W * .95)
+    ey0, ey1 = int(H * .30), int(H * .40)
+    d.ellipse([ex0 - 10, ey0 - 8, ex1 + 10, ey1 + 8], fill=(150, 196, 122),
+              outline=(120, 166, 96), width=3)
+    d.ellipse([ex0, ey0, ex1, ey1], fill=(104, 164, 196))
+    for k in range(3):
+        yy = ey0 + 22 + k * 18
+        d.line([(ex0 + 40, yy), (ex1 - 40, yy)], fill=(146, 194, 216), width=4)
+    pega(im, "whale", (ex0 + ex1) / 2 - 84, ey1 - 6, 96)
+    pega(im, "dolphin", (ex0 + ex1) / 2 + 84, ey1 - 6, 88)
+    cartel(d, (ex0 + ex1) // 2, ey0 - 54, "AQUARIUM", ancho=190, alto=30)
+
     # los recintos, en primera fila y con los animales dentro. Son los que
     # nombra la historia de la unidad: pandas, leones, elefantes, pinguinos
     # y monos, mas el estanque de los delfines.

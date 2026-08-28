@@ -30,6 +30,24 @@ W, H = 1720, 752          # panoramica; a esta talla aguanta pantalla grande
 #   "prop:toybox"       utileria dibujada aqui mismo
 # Repetir un nombre pone otra copia: la historia de Starters 1 habla de tres
 # cochecitos, asi que en el dibujo hay tres.
+# Lo que el propio fondo ya trae dibujado. El zoo lleva a sus animales
+# dentro de los recintos, asi que la unidad no tiene que pegarlos otra vez
+# —pegados sueltos quedaban flotando— y el revisor de historias tiene que
+# darlos por puestos.
+TRAE_EL_FONDO = {
+    "zoo": ("panda", "lion", "elephant", "penguin", "monkey", "kangaroo",
+            "whale", "dolphin"),
+    "funfair": ("funfair",),
+}
+
+# Personajes que la historia nombra pero que NO deben salir en el dibujo,
+# con el motivo. Sin esto el revisor los pide y se acaba metiendo en la
+# lamina a alguien que el texto dice que no esta.
+NO_SALEN = {
+    "movers/1": {"luna": "la historia dice que se queda en casa sonando "
+                         "con un hueso"},
+}
+
 ESCENAS = {
     # "What's this? It's my toy box! Look - a red ball, a yellow kite... and
     # Pip is hiding inside!" — Freya senala su caja y esta todo lo que dice:
@@ -53,6 +71,7 @@ ESCENAS = {
         ("sister", .43, .73, .40), ("brother", .55, .73, .40),
         ("grandma", .68, .71, .44), ("grandpa", .81, .70, .46),
         ("baby", .93, .77, .30), ("family", .06, .28, .20),
+        ("char:nico:3", .50, .74, .44), ("char:pip:1", .70, .52, .14),
     ]),
     # El Club del Fiordo llega al zoo. Es la unica escena que no pasa en el
     # campus: la historia es en el zoo y del zoo no hay fotos de Nordic, asi
@@ -72,6 +91,7 @@ ESCENAS = {
     ]),
     # Sabado de lluvia y sol junto al fiordo, visto desde el mirador
     "movers/2": ("mirador", [
+        ("char:erik:5", .32, .78, .40), ("char:sofia:1", .60, .79, .38),
         ("rainy", .11, .28, .30), ("windy", .27, .24, .26),
         ("rainbow", .50, .30, .34), ("sunny", .74, .24, .28),
         ("cloudy", .90, .28, .24),
@@ -79,15 +99,23 @@ ESCENAS = {
         ("weather", .40, .76, .26),
     ]),
     # Maletas abiertas antes de la Expedicion Aurora
-    "flyers/1": ("facade", [
-        ("suitcase", .12, .74, .34), ("uniform", .28, .70, .36),
-        ("scarf", .42, .74, .30), ("gloves", .55, .76, .26),
-        ("sunhat", .68, .74, .28), ("socks", .80, .76, .26),
-        ("umbrella", .92, .70, .32), ("belt", .30, .92, .14), ("ring", .48, .93, .12),
-        ("pocket", .64, .92, .14),
+    # "It is the first morning of the Aurora Expedition, and the lighthouse
+    # kitchen is full of open suitcases!" — Ingrid repasa su lista y Kili
+    # cruza la cocina con los calcetines en el pico. Antes esto era la
+    # fachada del colegio con la ropa flotando en fila: el alumno leia una
+    # cosa y miraba otra.
+    "flyers/1": ("lighthouse-kitchen", [
+        ("suitcase", .15, .55, .26), ("uniform", .31, .53, .30),
+        ("scarf", .43, .57, .22),
+        ("char:ingrid:8", .62, .72, .46), ("char:kili:2", .83, .27, .17),
+        ("sunhat", .06, .86, .17), ("gloves", .78, .86, .16),
+        ("socks", .90, .86, .16), ("umbrella", .96, .80, .26),
+        ("belt", .24, .89, .13), ("pocket", .38, .90, .13),
+        ("ring", .49, .91, .10),
     ]),
     # El mapa de lugares de Diego y Maya
     "flyers/2": ("main-building-v2", [
+        ("char:diego:4", .30, .82, .34), ("char:maya:2", .48, .83, .32),
         ("museum", .09, .70, .34), ("theatre", .24, .70, .34),
         ("castle", .39, .68, .36), ("stadium", .55, .72, .30),
         ("restaurant", .70, .70, .32), ("chemist's", .84, .71, .30),
@@ -96,24 +124,32 @@ ESCENAS = {
 
     # Unidades que nombraban cosas dibujables y no tenian escena propia.
     "starters/6":  ("classroom", [
+        ("char:pip:1", .50, .40, .18),
         ("red", .20, .52, .26), ("blue", .40, .44, .26),
         ("green", .60, .52, .26), ("yellow", .80, .44, .26),
     ]),
     "starters/30": ("mirador", [
+        ("char:pip:4", .62, .78, .16),
         ("castle", .50, .62, .48), ("train", .18, .82, .24), ("kite", .82, .28, .26),
     ]),
     "starters/31": ("mirador", [
         ("sunny", .20, .34, .30), ("cloudy", .44, .30, .28),
         ("rainy", .68, .34, .30), ("rainbow", .88, .40, .30),
     ]),
-    "movers/3":    ("amphitheater", [
-        ("funfair", .50, .62, .50), ("kite", .16, .26, .24), ("teddy", .86, .78, .24),
+    # "Yesterday the funfair came to town... Mateo lost his ticket TWO
+    # times, Erik won a little green dragon." El fondo era el anfiteatro
+    # del campus, que no es una feria.
+    "movers/3":    ("funfair", [
+        ("char:mateo:7", .30, .84, .32), ("char:erik:2", .46, .85, .31),
+        ("kite", .16, .26, .24), ("teddy", .86, .78, .24),
     ]),
-    "movers/25":   ("mirador", [
+    "movers/25":   ("garden", [
+        ("char:sofia:6", .30, .74, .40),
         ("cold", .28, .60, .34), ("hot", .70, .60, .34),
         ("scarf", .14, .84, .22), ("gloves", .86, .84, .22),
     ]),
     "flyers/6":    ("track", [
+        ("char:kili:1", .74, .40, .18),
         ("cold", .26, .58, .34), ("hot", .72, .58, .34),
         ("uniform", .50, .74, .30),
     ]),
