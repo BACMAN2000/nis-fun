@@ -46,7 +46,7 @@ def mayor_isla(alpha):
     return m
 
 
-def cortar(src, cols, filas, nombres, destino=DST, lado=320):
+def cortar(src, cols, filas, nombres, destino=DST, lado=320, previo=360):
     os.makedirs(destino, exist_ok=True)
     im = Image.open(src).convert("RGB")
     W, H = im.size
@@ -72,7 +72,10 @@ def cortar(src, cols, filas, nombres, destino=DST, lado=320):
         a0 = max(0, xx.min() - m); a1 = min(sub.shape[1], xx.max() + m)
         b0 = max(0, yy.min() - m); b1 = min(sub.shape[0], yy.max() + m)
         crop = im.crop((x0 + a0, y0 + b0, x0 + a1, y0 + b1)).convert("RGBA")
-        crop.thumbnail((360, 360), Image.LANCZOS)
+        # Se reduce antes de limpiar el fondo porque la deteccion de islas
+        # va pixel a pixel. Para un icono de vocabulario 360 sobra; una
+        # figura de cuerpo entero necesita mas o sale a media resolucion.
+        crop.thumbnail((previo, previo), Image.LANCZOS)
 
         arr = np.array(crop).astype(float)
         lum = arr[:, :, :3].mean(axis=2)

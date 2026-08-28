@@ -10,7 +10,11 @@ assets/characters/<nivel>/<slug>/, asi que un companero que solo viva en
 starters no se puede usar en una escena de patio de flyers, y el patio es
 justo donde salen. Pesan poco y asi funcionan en cualquier unidad.
 
-    python tools/cut_classmates.py hoja.jpg [cols] [filas]
+    python tools/cut_classmates.py hoja.jpg [cols] [filas] [orden...]
+
+El orden es opcional y sirve cuando la hoja no viene como se pidio: Gemini
+devolvio ocho ninos en 4x2 en vez de seis en 3x2, asi que hay que decirle
+que celda es quien y marcar con "-" las que sobran.
 """
 import os, shutil, sys, tempfile
 
@@ -27,9 +31,10 @@ POSES = ("pose-01.png", "pose-03.png", "pose-06.png", "pose-07.png",
          "fullbody.png")
 
 
-def main(src, cols=3, filas=2):
+def main(src, cols=3, filas=2, orden=None):
+    orden = [n if n != "-" else None for n in (orden or COMPANEROS)]
     tmp = tempfile.mkdtemp(prefix="companeros-")
-    hechos = cortar(src, cols, filas, COMPANEROS, destino=tmp, lado=720)
+    hechos = cortar(src, cols, filas, orden, destino=tmp, lado=720, previo=760)
     if not hechos:
         raise SystemExit("no se recorto nada; revisa cols/filas")
 
@@ -48,5 +53,7 @@ def main(src, cols=3, filas=2):
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         raise SystemExit(__doc__)
-    main(sys.argv[1], int(sys.argv[2]) if len(sys.argv) > 2 else 3,
-         int(sys.argv[3]) if len(sys.argv) > 3 else 2)
+    main(sys.argv[1],
+         int(sys.argv[2]) if len(sys.argv) > 2 else 3,
+         int(sys.argv[3]) if len(sys.argv) > 3 else 2,
+         sys.argv[4:] or None)

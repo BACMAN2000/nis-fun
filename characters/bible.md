@@ -100,6 +100,10 @@ Por eso:
 
 ## Prompt maestro (pegar tal cual, cambiando solo la ficha)
 
+Para las figuras de cuerpo entero que usan la portada de nivel y los videos, los ocho
+prompts pendientes ya están escritos con su ficha puesta, junto con la herramienta de
+recorte: [prompts-fullbody.md](prompts-fullbody.md).
+
 > Use ONLY the character described below. Do NOT invent a new character, do NOT change
 > the face, the hair or the clothes, and do NOT add other people to the image.
 > This is an existing character from our school's own English course (our own IP), and
@@ -150,11 +154,14 @@ número distinto de ojos, brazos y dientes. **No se mezclan con los niños.**
 | zog | Zog | El tío monstruo | Morado, un ojo, dos brazos largos | Flyers 24 |
 | zip | Zip | El primo monstruo, pequeño | Naranja, cuatro ojos, redondo | Flyers 24 |
 
-# Compañeros de clase — PENDIENTES DE DIBUJAR
+# Compañeros de clase
 
 Los cuatro niños de cada nivel son los protagonistas, pero en el patio, en los pasillos
-y en el aula hacen falta más caras. Estas seis fichas están **cerradas y aprobadas**;
-solo falta el arte.
+y en el aula hacen falta más caras. Estas seis fichas están **cerradas y aprobadas**, y
+desde el 27-ago-2026 **tienen arte**: viven en los tres niveles a la vez
+(`assets/characters/{starters,movers,flyers}/<slug>/`), porque el motor arma la ruta con
+el nivel y un compañero que solo existiera en starters no se podría usar en el patio de
+flyers, que es justo donde salen.
 
 **No vale recolorear a un protagonista.** Se probó y lo que sale es Freya con otra
 camiseta: la cara es la misma y el alumno lo nota. Un compañero es un dibujo nuevo, con
@@ -170,4 +177,6 @@ la ficha de abajo y el prompt maestro de arriba.
 | tino | Tino | 10 | rapado castaño oscuro #4A3728 · trigueño #C98E5A · polo blanco y verde | Juega al hockey en la cancha |
 
 Poses que hacen falta para cada uno, por orden de utilidad:
-**01 waving**, **07 running**, **06 sitting**, **03 talking**.
+**01 waving**, **07 running**, **06 sitting**, **03 talking**. De momento las cuatro
+apuntan a la misma figura de pie: mejor el mismo dibujo repetido que una casilla rota en
+la lámina. Cuando haya poses de verdad se sustituyen una a una.
