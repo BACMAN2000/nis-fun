@@ -9,3 +9,6 @@ build-videos/*
 __pycache__/
 *.pyc
 _sb1.pdf
+
+# copias de seguridad que dejan los parches
+*.bak
