@@ -112,6 +112,11 @@
    mandar siempre al curso deja al alumno en una pagina que no estaba
    mirando. La estantera no cuenta como origen —es parte del propio
    reader— y por eso se guarda el de fuera y se reusa al abrir un cuento. */
+/* Los dibujos de los cuentos se cachean siete dias en el borde, asi que
+   una pagina rehecha seguia sin verse. Con la version en la URL cada
+   publicacion se ve sola; se sube al regenerar las ilustraciones. */
+const ART_V = '2026-08-27b';
+
 const HOME = (() => {
   const CLAVE = 'nlr-home';
   try {
@@ -183,7 +188,7 @@ async function estante(){
     <div class="grupo">${esc(g)} · ${esc(porGrado[g][0].nivel)}</div>
     <div class="estante">${porGrado[g].map(l => `
       <a class="libro" href="?id=${esc(l.id)}">
-        <img src="${esc(l.portada)}" alt="" onerror="this.style.visibility='hidden'">
+        <img src="${esc(l.portada)}?v=${ART_V}" alt="" onerror="this.style.visibility='hidden'">
         <div class="txt">
           <h3>${esc(l.titulo)}</h3>
           <p>${esc(l.objetivo)}</p>
@@ -224,7 +229,7 @@ async function cuento(id){
                               '<b>$1</b>');
       });
       app.innerHTML = `<div class="pag">
-          ${p.img ? `<img src="${esc(p.img)}" alt="" onerror="this.remove()">` : ''}
+          ${p.img ? `<img src="${esc(p.img)}?v=${ART_V}" alt="" onerror="this.remove()">` : ''}
           <p class="frase">${frase}</p>
           <button class="oir" id="oir">🔊 Listen</button>
         </div>${barra}${puntos}`;
@@ -254,7 +259,7 @@ function actividad(d, cola){
       <p class="frase" id="pide"></p>
       <div class="pares">${barajado.map(({x,k}) => `
         <button class="par" data-k="${k}">
-          ${x.img ? `<img src="${esc(x.img)}" alt="" onerror="this.remove()">` : ''}
+          ${x.img ? `<img src="${esc(x.img)}?v=${ART_V}" alt="" onerror="this.remove()">` : ''}
           ${esc(x.palabra)}
         </button>`).join('')}</div>
       <p class="marcador" id="marca"></p>
