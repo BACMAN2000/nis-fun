@@ -154,6 +154,16 @@ número distinto de ojos, brazos y dientes. **No se mezclan con los niños.**
 | zog | Zog | El tío monstruo | Morado, un ojo, dos brazos largos | Flyers 24 |
 | zip | Zip | El primo monstruo, pequeño | Naranja, cuatro ojos, redondo | Flyers 24 |
 
+## Qué archivos tiene que tener cada personaje
+
+`pose-01.png` como mínimo y **siempre** `fullbody.png`. El banner y la portada del nivel
+piden el segundo y, si falta, caen a `pose-01` con un `onerror`: se ve bien, pero cada
+carga deja un 404. Cuando no hay una figura de cuerpo entero propia —dibujada aparte y
+más grande, como la de Ingrid— vale la copia de `pose-01`, que es lo que el navegador
+acababa mostrando; Freya está así desde el principio.
+
+`python tools/asegura_fullbody.py --arregla` lo comprueba y lo copia donde falte.
+
 # Compañeros de clase
 
 Los cuatro niños de cada nivel son los protagonistas, pero en el patio, en los pasillos
