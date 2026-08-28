@@ -1,0 +1,89 @@
+{
+ "id": "g2-u3",
+ "grado": "G2",
+ "tema": 3,
+ "nivel": "Pre-A1",
+ "titulo": "Astrid's Garden",
+ "objetivo": "Plants and looking after them",
+ "paginas": [
+  {
+   "texto": "Astrid has a garden. It is very small.",
+   "clave": [
+    "garden"
+   ],
+   "img": "img/g2-u3-p01.jpg"
+  },
+  {
+   "texto": "On Monday: one green plant.",
+   "clave": [
+    "monday",
+    "green"
+   ],
+   "img": "img/g2-u3-p02.jpg"
+  },
+  {
+   "texto": "On Tuesday: water, water, water.",
+   "clave": [
+    "water"
+   ],
+   "img": "img/g2-u3-p03.jpg"
+  },
+  {
+   "texto": "On Wednesday: a snail! Hello, snail.",
+   "clave": [
+    "snail"
+   ],
+   "img": "img/g2-u3-p04.jpg"
+  },
+  {
+   "texto": "On Thursday: rain. Good for the plant.",
+   "clave": [
+    "rain"
+   ],
+   "img": "img/g2-u3-p05.jpg"
+  },
+  {
+   "texto": "On Friday: sun. Also good for the plant.",
+   "clave": [
+    "sun"
+   ],
+   "img": "img/g2-u3-p06.jpg"
+  },
+  {
+   "texto": "On Saturday: one little flower. Look!",
+   "clave": [
+    "flower"
+   ],
+   "img": "img/g2-u3-p07.jpg"
+  },
+  {
+   "texto": "On Sunday: Astrid does nothing. The garden is happy.",
+   "clave": [
+    "sunday"
+   ],
+   "img": "img/g2-u3-p08.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "In the garden",
+  "instruccion": "Tap the picture you hear.",
+  "items": [
+   {
+    "palabra": "snail",
+    "img": "img/g2-u3-a-snail.png"
+   },
+   {
+    "palabra": "bird",
+    "img": "img/g2-u3-a-bird.png"
+   },
+   {
+    "palabra": "rainy",
+    "img": "img/g2-u3-a-rainy.png"
+   },
+   {
+    "palabra": "sunny",
+    "img": "img/g2-u3-a-sunny.png"
+   }
+  ]
+ }
+}

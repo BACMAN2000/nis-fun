@@ -1,0 +1,98 @@
+{
+ "id": "g3-u1",
+ "grado": "G3",
+ "tema": 1,
+ "nivel": "A1",
+ "titulo": "Erik's Weather Machine",
+ "objetivo": "Talking about the weather",
+ "paginas": [
+  {
+   "texto": "Erik built a weather machine from an umbrella, two spoons and a bicycle bell.",
+   "clave": [
+    "weather",
+    "machine"
+   ],
+   "img": "img/g3-u1-p01.jpg"
+  },
+  {
+   "texto": "'It can tell us if it is going to rain,' he said. Nobody believed him. Not even Luna.",
+   "clave": [
+    "rain"
+   ],
+   "img": "img/g3-u1-p02.jpg"
+  },
+  {
+   "texto": "On Monday the machine rang the bell. It was sunny all day.",
+   "clave": [
+    "sunny"
+   ],
+   "img": "img/g3-u1-p03.jpg"
+  },
+  {
+   "texto": "On Tuesday the machine said nothing. It rained for six hours.",
+   "clave": [
+    "rained"
+   ],
+   "img": "img/g3-u1-p04.jpg"
+  },
+  {
+   "texto": "'Your machine is wrong every time,' said Sofia. 'That is very difficult too,' said Erik.",
+   "clave": [
+    "wrong"
+   ],
+   "img": "img/g3-u1-p05.jpg"
+  },
+  {
+   "texto": "On Saturday the Club wanted a picnic. Erik looked at his machine and said: 'Take your coats.'",
+   "clave": [
+    "picnic",
+    "coats"
+   ],
+   "img": "img/g3-u1-p06.jpg"
+  },
+  {
+   "texto": "The sky was blue. Everybody laughed at Erik and left their coats at home.",
+   "clave": [
+    "blue",
+    "laughed"
+   ],
+   "img": "img/g3-u1-p07.jpg"
+  },
+  {
+   "texto": "At four o'clock it snowed. It never snows in September. Everybody ran home very fast.",
+   "clave": [
+    "snowed"
+   ],
+   "img": "img/g3-u1-p08.jpg"
+  },
+  {
+   "texto": "Erik said nothing. He just rang his little bell, once, and put the machine back in his bag.",
+   "clave": [
+    "bell"
+   ],
+   "img": "img/g3-u1-p09.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "What is the weather?",
+  "instruccion": "Tap the picture you hear.",
+  "items": [
+   {
+    "palabra": "sunny",
+    "img": "img/g3-u1-a-sunny.png"
+   },
+   {
+    "palabra": "rainy",
+    "img": "img/g3-u1-a-rainy.png"
+   },
+   {
+    "palabra": "snowy",
+    "img": "img/g3-u1-a-snowy.png"
+   },
+   {
+    "palabra": "windy",
+    "img": "img/g3-u1-a-windy.png"
+   }
+  ]
+ }
+}

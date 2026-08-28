@@ -1,0 +1,104 @@
+{
+ "id": "g4-u2",
+ "grado": "G4",
+ "tema": 2,
+ "nivel": "A1",
+ "titulo": "Sofia's Map",
+ "objetivo": "Places and directions",
+ "paginas": [
+  {
+   "texto": "Sofia draws a map of everything. Her room, the school, the way to the bakery. Everything.",
+   "clave": [
+    "map",
+    "school"
+   ],
+   "img": "img/g4-u2-p01.jpg"
+  },
+  {
+   "texto": "On Saturday she made a map of the town for a visitor who had never been there.",
+   "clave": [
+    "town",
+    "visitor"
+   ],
+   "img": "img/g4-u2-p02.jpg"
+  },
+  {
+   "texto": "'Go past the museum, turn left at the bridge, and the theatre is on your right.'",
+   "clave": [
+    "left",
+    "right"
+   ],
+   "img": "img/g4-u2-p03.jpg"
+  },
+  {
+   "texto": "'If you see the airport, you have gone too far. Everybody sees the airport at least once.'",
+   "clave": [
+    "airport",
+    "far"
+   ],
+   "img": "img/g4-u2-p04.jpg"
+  },
+  {
+   "texto": "Mateo used the map on Sunday. He arrived at the police station.",
+   "clave": [
+    "police",
+    "arrived"
+   ],
+   "img": "img/g4-u2-p05.jpg"
+  },
+  {
+   "texto": "'The map is perfect,' said Sofia. 'You turned left at the wrong bridge.' There are two bridges.",
+   "clave": [
+    "bridge",
+    "wrong"
+   ],
+   "img": "img/g4-u2-p06.jpg"
+  },
+  {
+   "texto": "So she made a second map, with the two bridges drawn very big and one of them crossed out.",
+   "clave": [
+    "second",
+    "big"
+   ],
+   "img": "img/g4-u2-p07.jpg"
+  },
+  {
+   "texto": "Now the visitor finds the theatre, the museum and the restaurant, and nobody visits the police station by accident.",
+   "clave": [
+    "theatre",
+    "restaurant"
+   ],
+   "img": "img/g4-u2-p08.jpg"
+  },
+  {
+   "texto": "Sofia keeps every old map in a box. She says a wrong map still tells you where somebody went.",
+   "clave": [
+    "old",
+    "box"
+   ],
+   "img": "img/g4-u2-p09.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "Places in town",
+  "instruccion": "Tap the place you hear.",
+  "items": [
+   {
+    "palabra": "museum",
+    "img": "img/g4-u2-a-museum.png"
+   },
+   {
+    "palabra": "theatre",
+    "img": "img/g4-u2-a-theatre.png"
+   },
+   {
+    "palabra": "restaurant",
+    "img": "img/g4-u2-a-restaurant.png"
+   },
+   {
+    "palabra": "airport",
+    "img": "img/g4-u2-a-airport.png"
+   }
+  ]
+ }
+}

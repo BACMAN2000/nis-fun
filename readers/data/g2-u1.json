@@ -1,0 +1,88 @@
+{
+ "id": "g2-u1",
+ "grado": "G2",
+ "tema": 1,
+ "nivel": "Pre-A1",
+ "titulo": "One, Two, Pip!",
+ "objetivo": "Numbers 1 to 10",
+ "paginas": [
+  {
+   "texto": "One puffin. Where is he?",
+   "clave": [
+    "one"
+   ],
+   "img": "img/g2-u1-p01.jpg"
+  },
+  {
+   "texto": "Two balls. Red and blue.",
+   "clave": [
+    "two"
+   ],
+   "img": "img/g2-u1-p02.jpg"
+  },
+  {
+   "texto": "Three cars. Go, go, go!",
+   "clave": [
+    "three"
+   ],
+   "img": "img/g2-u1-p03.jpg"
+  },
+  {
+   "texto": "Four friends. Hello, hello!",
+   "clave": [
+    "four"
+   ],
+   "img": "img/g2-u1-p04.jpg"
+  },
+  {
+   "texto": "Five kites. Up in the sky!",
+   "clave": [
+    "five"
+   ],
+   "img": "img/g2-u1-p05.jpg"
+  },
+  {
+   "texto": "Six books. Big and small.",
+   "clave": [
+    "six"
+   ],
+   "img": "img/g2-u1-p06.jpg"
+  },
+  {
+   "texto": "Now count again. One, two, three...",
+   "clave": [
+    "count"
+   ],
+   "img": "img/g2-u1-p07.jpg"
+  },
+  {
+   "texto": "But where is Pip? Pip is number seven!",
+   "clave": [
+    "seven"
+   ],
+   "img": "img/g2-u1-p08.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "Count with me",
+  "instruccion": "Tap the picture you hear.",
+  "items": [
+   {
+    "palabra": "ball",
+    "img": "img/g2-u1-a-ball.png"
+   },
+   {
+    "palabra": "car",
+    "img": "img/g2-u1-a-car.png"
+   },
+   {
+    "palabra": "kite",
+    "img": "img/g2-u1-a-kite.png"
+   },
+   {
+    "palabra": "bird",
+    "img": "img/g2-u1-a-bird.png"
+   }
+  ]
+ }
+}

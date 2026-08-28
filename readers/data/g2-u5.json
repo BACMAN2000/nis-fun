@@ -1,0 +1,89 @@
+{
+ "id": "g2-u5",
+ "grado": "G2",
+ "tema": 5,
+ "nivel": "Pre-A1",
+ "titulo": "A Day at School",
+ "objetivo": "My day",
+ "paginas": [
+  {
+   "texto": "In the morning: hello, school!",
+   "clave": [
+    "morning"
+   ],
+   "img": "img/g2-u5-p01.jpg"
+  },
+  {
+   "texto": "At nine: we read a book.",
+   "clave": [
+    "read"
+   ],
+   "img": "img/g2-u5-p02.jpg"
+  },
+  {
+   "texto": "At ten: we sing a song.",
+   "clave": [
+    "sing"
+   ],
+   "img": "img/g2-u5-p03.jpg"
+  },
+  {
+   "texto": "At eleven: we run and jump.",
+   "clave": [
+    "run",
+    "jump"
+   ],
+   "img": "img/g2-u5-p04.jpg"
+  },
+  {
+   "texto": "At twelve: we eat. I am hungry!",
+   "clave": [
+    "eat"
+   ],
+   "img": "img/g2-u5-p05.jpg"
+  },
+  {
+   "texto": "At two: we paint. My hands are blue.",
+   "clave": [
+    "paint"
+   ],
+   "img": "img/g2-u5-p06.jpg"
+  },
+  {
+   "texto": "At three: goodbye, school! See you!",
+   "clave": [
+    "goodbye"
+   ],
+   "img": "img/g2-u5-p07.jpg"
+  },
+  {
+   "texto": "At night: Pip is still at school. Good night, Pip.",
+   "clave": [
+    "night"
+   ],
+   "img": "img/g2-u5-p08.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "My day",
+  "instruccion": "Tap the picture you hear.",
+  "items": [
+   {
+    "palabra": "book",
+    "img": "img/g2-u5-a-book.png"
+   },
+   {
+    "palabra": "ball",
+    "img": "img/g2-u5-a-ball.png"
+   },
+   {
+    "palabra": "bird",
+    "img": "img/g2-u5-a-bird.png"
+   },
+   {
+    "palabra": "family",
+    "img": "img/g2-u5-a-family.png"
+   }
+  ]
+ }
+}

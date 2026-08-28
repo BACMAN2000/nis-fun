@@ -1,0 +1,88 @@
+{
+ "id": "g2-u4",
+ "grado": "G2",
+ "tema": 4,
+ "nivel": "Pre-A1",
+ "titulo": "Tomas Can Jump",
+ "objetivo": "What I can do",
+ "paginas": [
+  {
+   "texto": "I am Tomas. I can run. Look at me!",
+   "clave": [
+    "run"
+   ],
+   "img": "img/g2-u4-p01.jpg"
+  },
+  {
+   "texto": "I can jump. One, two, three - jump!",
+   "clave": [
+    "jump"
+   ],
+   "img": "img/g2-u4-p02.jpg"
+  },
+  {
+   "texto": "Can you climb? Yes, I can climb!",
+   "clave": [
+    "climb"
+   ],
+   "img": "img/g2-u4-p03.jpg"
+  },
+  {
+   "texto": "Can you swim? Yes! I can swim.",
+   "clave": [
+    "swim"
+   ],
+   "img": "img/g2-u4-p04.jpg"
+  },
+  {
+   "texto": "Can you fly? No. I cannot fly.",
+   "clave": [
+    "fly"
+   ],
+   "img": "img/g2-u4-p05.jpg"
+  },
+  {
+   "texto": "But Pip can fly! Look at Pip go!",
+   "clave": [
+    "fly"
+   ],
+   "img": "img/g2-u4-p06.jpg"
+  },
+  {
+   "texto": "Can Pip run? A little bit. Not fast.",
+   "clave": [
+    "run"
+   ],
+   "img": "img/g2-u4-p07.jpg"
+  },
+  {
+   "texto": "We can all do one thing. That is enough!",
+   "clave": [
+    "all"
+   ],
+   "img": "img/g2-u4-p08.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "Can you?",
+  "instruccion": "Tap the picture you hear.",
+  "items": [
+   {
+    "palabra": "bird",
+    "img": "img/g2-u4-a-bird.png"
+   },
+   {
+    "palabra": "fish",
+    "img": "img/g2-u4-a-fish.png"
+   },
+   {
+    "palabra": "monkey",
+    "img": "img/g2-u4-a-monkey.png"
+   },
+   {
+    "palabra": "rabbit",
+    "img": "img/g2-u4-a-rabbit.png"
+   }
+  ]
+ }
+}

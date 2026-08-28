@@ -1,0 +1,89 @@
+{
+ "id": "g2-u2",
+ "grado": "G2",
+ "tema": 2,
+ "nivel": "Pre-A1",
+ "titulo": "My Blue Bag",
+ "objetivo": "Colours and my things",
+ "paginas": [
+  {
+   "texto": "This is my bag. My bag is blue.",
+   "clave": [
+    "bag",
+    "blue"
+   ],
+   "img": "img/g2-u2-p01.jpg"
+  },
+  {
+   "texto": "In my bag: one red ball.",
+   "clave": [
+    "red"
+   ],
+   "img": "img/g2-u2-p02.jpg"
+  },
+  {
+   "texto": "In my bag: one yellow kite.",
+   "clave": [
+    "yellow"
+   ],
+   "img": "img/g2-u2-p03.jpg"
+  },
+  {
+   "texto": "In my bag: two green socks.",
+   "clave": [
+    "green"
+   ],
+   "img": "img/g2-u2-p04.jpg"
+  },
+  {
+   "texto": "In my bag: my teddy. He is brown.",
+   "clave": [
+    "teddy"
+   ],
+   "img": "img/g2-u2-p05.jpg"
+  },
+  {
+   "texto": "My bag is full. It is very heavy!",
+   "clave": [
+    "full"
+   ],
+   "img": "img/g2-u2-p06.jpg"
+  },
+  {
+   "texto": "Freya has a bag too. Her bag is small.",
+   "clave": [
+    "small"
+   ],
+   "img": "img/g2-u2-p07.jpg"
+  },
+  {
+   "texto": "In her bag: one pencil. That is all!",
+   "clave": [
+    "pencil"
+   ],
+   "img": "img/g2-u2-p08.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "What colour?",
+  "instruccion": "Tap the colour you hear.",
+  "items": [
+   {
+    "palabra": "red",
+    "img": "img/g2-u2-a-red.png"
+   },
+   {
+    "palabra": "blue",
+    "img": "img/g2-u2-a-blue.png"
+   },
+   {
+    "palabra": "green",
+    "img": "img/g2-u2-a-green.png"
+   },
+   {
+    "palabra": "yellow",
+    "img": "img/g2-u2-a-yellow.png"
+   }
+  ]
+ }
+}

@@ -42,6 +42,8 @@ W, H = 1200, 750
 #   ("char:starters:freya:1", x, y, alto)   un personaje
 #   ("ball", x, y, alto)                    un objeto del banco
 from readers_flyers import CUENTOS_FLYERS
+from readers_movers import CUENTOS_MOVERS
+from readers_starters2 import CUENTOS_STARTERS2
 
 CUENTOS = [
 {
@@ -221,9 +223,9 @@ CUENTOS = [
 },
 ]
 
-# 5.o de primaria: viven en su propio archivo porque son mas largos
-# que los de G1 y aqui dentro no se encontraba nada.
-CUENTOS += CUENTOS_FLYERS
+# Los demas grados viven en su propio archivo: aqui dentro, con seis
+# cuentos ya escritos, no se encontraba nada.
+CUENTOS += CUENTOS_STARTERS2 + CUENTOS_MOVERS + CUENTOS_FLYERS
 
 
 

@@ -1,0 +1,103 @@
+{
+ "id": "g3-u2",
+ "grado": "G3",
+ "tema": 2,
+ "nivel": "A1",
+ "titulo": "Luna Runs Away",
+ "objetivo": "Pets and past actions",
+ "paginas": [
+  {
+   "texto": "Luna is a husky. She is loyal, she is loud, and on Thursday she opened the garden gate with her nose.",
+   "clave": [
+    "husky",
+    "gate"
+   ],
+   "img": "img/g3-u2-p01.jpg"
+  },
+  {
+   "texto": "Valentina looked in the classroom. No Luna. Only a chair and somebody's sandwich.",
+   "clave": [
+    "classroom"
+   ],
+   "img": "img/g3-u2-p02.jpg"
+  },
+  {
+   "texto": "Mateo looked in the library. No Luna. But he found the book he lost last year.",
+   "clave": [
+    "library",
+    "found"
+   ],
+   "img": "img/g3-u2-p03.jpg"
+  },
+  {
+   "texto": "Sofia looked at the map and asked one question: 'Where does Luna always want to go?'",
+   "clave": [
+    "map",
+    "question"
+   ],
+   "img": "img/g3-u2-p04.jpg"
+  },
+  {
+   "texto": "Everybody said it at the same time: 'THE FARM.' Luna loves the cows and the cows do not love Luna.",
+   "clave": [
+    "farm",
+    "cows"
+   ],
+   "img": "img/g3-u2-p05.jpg"
+  },
+  {
+   "texto": "They ran down the hill. Erik ran last because he was carrying his machine, of course.",
+   "clave": [
+    "ran",
+    "hill"
+   ],
+   "img": "img/g3-u2-p06.jpg"
+  },
+  {
+   "texto": "Luna was sitting in the middle of the field. She was not lost. The cows were.",
+   "clave": [
+    "field",
+    "lost"
+   ],
+   "img": "img/g3-u2-p07.jpg"
+  },
+  {
+   "texto": "She had walked all morning to bring three cows back to the right gate, and she was very tired.",
+   "clave": [
+    "walked",
+    "tired"
+   ],
+   "img": "img/g3-u2-p08.jpg"
+  },
+  {
+   "texto": "That night Luna slept for eleven hours, and nobody asked her to do anything at all.",
+   "clave": [
+    "night",
+    "slept"
+   ],
+   "img": "img/g3-u2-p09.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "Farm and pets",
+  "instruccion": "Tap the animal you hear.",
+  "items": [
+   {
+    "palabra": "dog",
+    "img": "img/g3-u2-a-dog.png"
+   },
+   {
+    "palabra": "cow",
+    "img": "img/g3-u2-a-cow.png"
+   },
+   {
+    "palabra": "horse",
+    "img": "img/g3-u2-a-horse.png"
+   },
+   {
+    "palabra": "duck",
+    "img": "img/g3-u2-a-duck.png"
+   }
+  ]
+ }
+}

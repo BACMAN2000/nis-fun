@@ -1,0 +1,103 @@
+{
+ "id": "g4-u3",
+ "grado": "G4",
+ "tema": 3,
+ "nivel": "A1",
+ "titulo": "Mateo Loses Everything",
+ "objetivo": "My things and where they are",
+ "paginas": [
+  {
+   "texto": "Mateo loses things. Not sometimes. Every single day, and usually before nine o'clock.",
+   "clave": [
+    "loses",
+    "day"
+   ],
+   "img": "img/g4-u3-p01.jpg"
+  },
+  {
+   "texto": "On Monday he lost his gloves. They were in his pocket, which is where gloves live.",
+   "clave": [
+    "gloves",
+    "pocket"
+   ],
+   "img": "img/g4-u3-p02.jpg"
+  },
+  {
+   "texto": "On Tuesday he lost his scarf. Luna had it. Luna thought it was a present.",
+   "clave": [
+    "scarf"
+   ],
+   "img": "img/g4-u3-p03.jpg"
+  },
+  {
+   "texto": "On Wednesday he lost his bag, with his homework, his lunch and somebody else's book inside.",
+   "clave": [
+    "bag",
+    "homework"
+   ],
+   "img": "img/g4-u3-p04.jpg"
+  },
+  {
+   "texto": "'Where did you go this morning?' asked Sofia, who solves these things with questions, not with luck.",
+   "clave": [
+    "where",
+    "morning"
+   ],
+   "img": "img/g4-u3-p05.jpg"
+  },
+  {
+   "texto": "'The track, the library, the garden and the kitchen.' So they walked all four, in that order.",
+   "clave": [
+    "track",
+    "garden"
+   ],
+   "img": "img/g4-u3-p06.jpg"
+  },
+  {
+   "texto": "The bag was under the bench at the track, exactly where he sat down to tie his shoe.",
+   "clave": [
+    "under",
+    "bench"
+   ],
+   "img": "img/g4-u3-p07.jpg"
+  },
+  {
+   "texto": "'You do not lose things,' said Sofia. 'You put them down and walk away. That is different.'",
+   "clave": [
+    "lose",
+    "different"
+   ],
+   "img": "img/g4-u3-p08.jpg"
+  },
+  {
+   "texto": "Now Mateo has a rule: before he stands up, he counts his things. It works on most days.",
+   "clave": [
+    "rule",
+    "counts"
+   ],
+   "img": "img/g4-u3-p09.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "My things",
+  "instruccion": "Tap the picture you hear.",
+  "items": [
+   {
+    "palabra": "gloves",
+    "img": "img/g4-u3-a-gloves.png"
+   },
+   {
+    "palabra": "scarf",
+    "img": "img/g4-u3-a-scarf.png"
+   },
+   {
+    "palabra": "bag",
+    "img": "img/g4-u3-a-bag.png"
+   },
+   {
+    "palabra": "socks",
+    "img": "img/g4-u3-a-socks.png"
+   }
+  ]
+ }
+}
