@@ -230,6 +230,40 @@ CUENTOS += CUENTOS_STARTERS2 + CUENTOS_MOVERS + CUENTOS_FLYERS
 
 
 # ------------------------------------------------------------ ilustracion
+def _orientaciones():
+    """Hacia donde mira cada pose, leido de engine/orientacion.js.
+
+    Es el mismo dato que usan el motor y las laminas de unidad: una sola
+    lista, que si se copia acaba separandose."""
+    import re
+    fuera = {}
+    try:
+        txt = io.open(os.path.join(ROOT, "engine", "orientacion.js"),
+                      encoding="utf-8").read()
+    except Exception:
+        return fuera
+    for m in re.finditer(r"'([a-z]+)/([a-z]+)':\s*\{([^}]*)\}", txt):
+        for pose, lado in re.findall(r"(\d+)\s*:\s*'(izq|der)'", m.group(3)):
+            fuera[(m.group(2), int(pose))] = lado
+    return fuera
+
+
+ORIENTACION = _orientaciones()
+
+
+def mira_bien(im, quien, pose, x):
+    """Voltea al personaje para que mire hacia dentro de la pagina.
+
+    Freya decia "Look! A little bird" mirando al margen mientras Pip estaba
+    al otro lado. En una ilustracion el que esta a la izquierda mira a la
+    derecha, y al reves. Lo que esta de frente no se toca."""
+    lado = ORIENTACION.get((quien, int(pose)))
+    if not lado:
+        return im
+    hacia = "der" if x < .5 else "izq"
+    return im.transpose(Image.FLIP_LEFT_RIGHT) if lado != hacia else im
+
+
 def carga(nombre, alto):
     if nombre.startswith("char:"):
         _, lvl, quien, pose = nombre.split(":")
@@ -269,6 +303,9 @@ def ilustra(fondo, piezas):
 
     for nombre, x, y, s in sorted(piezas, key=lambda p: p[2]):
         im = carga(nombre, int(H * s))
+        if im is not None and nombre.startswith("char:"):
+            _, _, quien, pose = nombre.split(":")
+            im = mira_bien(im, quien, pose, x)
         if im is None:
             continue
         cx, cy = int(W * x), int(H * y)

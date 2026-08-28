@@ -400,6 +400,7 @@ if(/\.github\.io$/i.test(location.hostname)){
 <script src="crossword-layout.js"></script>
 <script src="emoji-map.js"></script>
 <script src="vocab-art.js?v=1"></script>
+<script src="orientacion.js?v=1"></script>
 <script src="screens.js?v=4"></script>
 <script src="banner.js?v=4"></script>
 <script src="magicbox.js?v=4"></script>
@@ -556,7 +557,7 @@ async function hub(){
           poster="../assets/videos/posters/${idx.mascot}-intro.jpg?v=${VIDEO_V}"
           onerror="this.closest('.scr-centro').querySelector('.ficha').hidden=true"></video>
         <div class="ficha">
-          <img src="${CHAR(idx.mascot,1)}" alt="" ${FB}>
+          <img src="${CHAR(idx.mascot,1)}" alt=""${window.miraHacia ? miraHacia(LEVEL, idx.mascot, 1, 'der') : ''} ${FB}>
           <p><b>${mascota}</b> is ${(MASCOTA[idx.mascot]||{}).que||'your guide'}.
              “${(MASCOTA[idx.mascot]||{}).dice||''}”</p>
         </div>
@@ -630,8 +631,12 @@ const GUIA = { starters: 'pip', movers: 'luna', flyers: 'kili' };
 function guiaHTML(texto, etiqueta){
   const m = GUIA[LEVEL] || 'pip';
   const nombre = m[0].toUpperCase() + m.slice(1);
+  // La mascota se pone a la IZQUIERDA del bocadillo, asi que tiene que
+  // mirar a la derecha: Pip senala a la izquierda en esta pose y acababa
+  // apuntando fuera de la pantalla, con las actividades al otro lado.
+  const giro = window.miraHacia ? miraHacia(LEVEL, m, 3, 'der') : '';
   return `<div class="guia">
-    <img class="guia-mascota" src="${CHAR(m, 3)}" alt="${nombre}" ${FB}>
+    <img class="guia-mascota" src="${CHAR(m, 3)}" alt="${nombre}"${giro} ${FB}>
     <div class="guia-globo">
       <p>${esc(texto)}</p>
       <button class="guia-say" type="button">🔊 ${etiqueta || 'Listen'}</button>
@@ -804,12 +809,15 @@ async function unit(){
           <p id="lahistoria">${marcaClaves(makeIntro(UD), UD.wordlist)}</p>
           <button class="guia-say historia-say" type="button">🔊 Listen to the story</button>
         </div>
-        ${UD.scene && UD.scene.bubble ? `<div class="guia">
-          <img class="guia-mascota" src="${CHAR(UD.scene.speaker || (UD.characters||[])[0] || 'freya', 3)}"
-               alt="" ${FB}>
+        ${UD.scene && UD.scene.bubble ? (() => {
+          const quien = UD.scene.speaker || (UD.characters||[])[0] || 'freya';
+          const giro = window.miraHacia ? miraHacia(LEVEL, quien, 3, 'der') : '';
+          return `<div class="guia">
+          <img class="guia-mascota" src="${CHAR(quien, 3)}"
+               alt=""${giro} ${FB}>
           <div class="guia-globo" data-voz="bubbles"><p>${esc(UD.scene.bubble)}</p>
             <button class="guia-say" type="button">🔊 Listen</button></div>
-        </div>` : ''}
+        </div>`; })() : ''}
       </div>`,
       alMostrar(el){
         const p = el.querySelector('#lahistoria');

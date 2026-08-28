@@ -11,7 +11,7 @@ los personajes y no usaban el campus, que es lo que da identidad al curso.
 
     python tools/build_unit_scenes.py
 """
-import os
+import io, os, re
 from PIL import Image, ImageDraw, ImageFilter
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -229,6 +229,42 @@ def plano_zoo(alto):
     return im
 
 
+# Hacia donde mira cada pose. Es el mismo dato que usa el motor: se lee de
+# engine/orientacion.js para no mantener dos listas que se separan sola.
+def _orientaciones():
+    p = os.path.join(ROOT, "engine", "orientacion.js")
+    fuera = {}
+    try:
+        txt = io.open(p, encoding="utf-8").read()
+    except Exception:
+        return fuera
+    for m in re.finditer(r"'([a-z]+)/([a-z]+)':\s*\{([^}]*)\}", txt):
+        nivel, quien, cuerpo = m.group(1), m.group(2), m.group(3)
+        for pose, lado in re.findall(r"(\d+)\s*:\s*'(izq|der)'", cuerpo):
+            fuera[(quien, int(pose))] = lado
+    return fuera
+
+
+ORIENTACION = _orientaciones()
+
+
+def mira_bien(im, quien, pose, x):
+    """Voltea al personaje para que mire hacia dentro de la lamina.
+
+    En una ilustracion los personajes miran hacia el centro, no hacia el
+    borde: el que esta a la izquierda mira a la derecha y al reves. Sin
+    esto, Freya decia "Look! A little bird" mirando al margen mientras el
+    pajaro estaba al otro lado.
+
+    Solo se voltea lo que tiene direccion anotada; una figura de frente se
+    deja como esta."""
+    lado = ORIENTACION.get((quien, int(pose)))
+    if not lado:
+        return im
+    hacia = "der" if x < .5 else "izq"
+    return im.transpose(Image.FLIP_LEFT_RIGHT) if lado != hacia else im
+
+
 def carga_pieza(nombre, alto):
     """Devuelve la imagen de una pieza, sea objeto, personaje o utileria."""
     if nombre.startswith("prop:"):
@@ -318,6 +354,10 @@ def componer(fondo, piezas):
         ob = carga_pieza(nombre, int(H * ps))
         if ob is None:
             print("    falta", nombre); continue
+        # que mire hacia dentro de la lamina, no hacia el margen
+        if nombre.startswith("char:"):
+            trozos = nombre.split(":")
+            ob = mira_bien(ob, trozos[1], trozos[2] if len(trozos) > 2 else 1, px)
         cx, cy = int(W * px), int(H * py)
         ox, oy = cx - ob.width // 2, cy - ob.height // 2
         # sombra suave para asentar el objeto sobre la foto
