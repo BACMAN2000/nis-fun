@@ -78,6 +78,10 @@
   .exam .opt{display:inline-block;margin-left:4mm}
   .exam .opt::before{content:"○ "}
   .pair{background:var(--band);border-radius:3mm;padding:3mm 4mm;font-size:9.5pt}
+  /* la ampliacion, con el mismo + que en pantalla */
+  .pw.pw-extra{position:relative}
+  .pw.pw-extra::after{content:"+";position:absolute;top:.6mm;right:1mm;
+    font-family:"Baloo 2";font-weight:700;font-size:8pt;color:var(--accent)}
   .wordlist{margin-top:auto;border-top:.5mm solid var(--accent);padding-top:2mm;font-size:8.5pt;color:var(--soft)}
   .wordlist b{color:var(--accent);font-family:"Baloo 2"}
   .pageno{position:absolute;bottom:6mm;right:16mm;font-family:"Baloo 2";font-weight:700;color:var(--accent)}
@@ -277,8 +281,14 @@ function cover(idx, subtitle){
 }
 
 /* EMOJI viene de engine/emoji-map.js */
-function picwordsHTML(wordlist){
-  const cards = wordlist.slice(0,10).map(w=>{
+/* Las de wordlist_extra son las que pide el Scope & Sequence y la unidad no
+   traia. En pantalla salen detras de las suyas y marcadas con un +, y el
+   libro tiene que ensenar lo mismo: si el profesor imprime y le faltan, la
+   clase no da lo que la secuencia exige. */
+function picwordsHTML(wordlist, extras){
+  const lista = (wordlist || []).slice(0,10).map(w=>({w, extra:false}))
+    .concat((extras || []).map(w=>({w, extra:true})));
+  const cards = lista.map(({w, extra})=>{
     const key = w.replace(/^(a|an|the) /,'');
     // el mismo render 3D que en pantalla; vectorial y emoji de respaldo
     const art = (window.VOCAB_ART && VOCAB_ART.get(key)) || null;
@@ -287,7 +297,7 @@ function picwordsHTML(wordlist){
     const ico = `<img class="art3d" src="../assets/vocab/${s3d}.png" alt=""
                    onerror="this.replaceWith(...new DOMParser().parseFromString(this.dataset.fb,'text/html').body.childNodes)"
                    data-fb="${String(plano).replace(/&/g,'&amp;').replace(/"/g,'&quot;')}">`;
-    return `<div class="pw"><div class="ico">${ico}</div><div class="w">${w}</div><div class="ln"></div></div>`;
+    return `<div class="pw${extra?' pw-extra':''}"><div class="ico">${ico}</div><div class="w">${w}</div><div class="ln"></div></div>`;
   }).join('');
   return `<div class="act"><h2><span class="abadge" style="background:var(--accent)">✎</span>Picture words — look, say and copy.</h2>
     <div class="picwords">${cards}</div></div>`;
@@ -322,7 +332,7 @@ function sbPage(ud, pageno){
                 src="../assets/unit-scenes/${ud.level}-${ud.number}.jpg"
                 onerror="this.onerror=null;${respaldo ? `this.src='${respaldo}'` : `this.remove()`}">`;
     })()}
-    ${picwordsHTML(ud.wordlist)}
+    ${picwordsHTML(ud.wordlist, ud.wordlist_extra)}
     ${actHTML}
     <div class="persbox"><b>All about me:</b> my two favourite words of this unit are <span></span> and <span></span>.</div>
     <div class="wordlist"><b>Wordlist:</b> ${ud.wordlist.join(' · ')} &nbsp;·&nbsp; <b>Grammar:</b> ${ud.grammar}</div>
