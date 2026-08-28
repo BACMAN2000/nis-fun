@@ -41,7 +41,8 @@
   .top h1{font-size:1.15rem;flex:1}
   .top .lvl{background:var(--surface2);border-radius:999px;padding:.2rem .8rem;
     font-weight:700;font-size:.85rem;color:var(--soft)}
-  .volver{text-decoration:none;font-weight:700}
+  .volver{text-decoration:none;font-weight:700;white-space:nowrap}
+  .salir{margin-left:.2rem}
 
   .wrap{max-width:62rem;margin:0 auto;padding:1.2rem}
 
@@ -101,10 +102,34 @@
   <a class="volver" href="./" id="volver" hidden>‹ Bookshelf</a>
   <h1 id="tit">Nordic Little Readers</h1>
   <span class="lvl" id="lvl"></span>
+  <a class="volver salir" id="home" href="../engine/">Home ›</a>
 </div>
 <div class="wrap" id="app"><p class="muted">Loading…</p></div>
 
 <script>
+/* A donde lleva "Home". Al reader se entra desde el curso y tambien desde
+   el portal, asi que el boton tiene que devolver al sitio del que se vino:
+   mandar siempre al curso deja al alumno en una pagina que no estaba
+   mirando. La estantera no cuenta como origen —es parte del propio
+   reader— y por eso se guarda el de fuera y se reusa al abrir un cuento. */
+const HOME = (() => {
+  const CLAVE = 'nlr-home';
+  try {
+    const r = document.referrer;
+    if (r) {
+      const u = new URL(r);
+      if (u.origin === location.origin && !/\/readers\//.test(u.pathname)) {
+        sessionStorage.setItem(CLAVE, r);
+        return r;
+      }
+    }
+    const guardado = sessionStorage.getItem(CLAVE);
+    if (guardado) return guardado;
+  } catch (e) {}
+  return '../engine/';
+})();
+document.getElementById('home').href = HOME;
+
 const app = document.getElementById('app');
 const params = new URLSearchParams(location.search);
 const ID = params.get('id');

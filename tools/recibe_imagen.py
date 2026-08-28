@@ -24,6 +24,10 @@ class H(BaseHTTPRequestHandler):
         self.send_header("Access-Control-Allow-Origin", "*")
         self.send_header("Access-Control-Allow-Methods", "POST, OPTIONS")
         self.send_header("Access-Control-Allow-Headers", "*")
+        # Chrome trata "de una web publica a localhost" como red privada y
+        # corta la peticion en silencio si falta esta cabecera: el fetch se
+        # queda colgado para siempre y no salta ningun error visible.
+        self.send_header("Access-Control-Allow-Private-Network", "true")
 
     def do_OPTIONS(self):
         self.send_response(204); self._cors(); self.end_headers()
