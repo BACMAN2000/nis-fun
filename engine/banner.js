@@ -101,7 +101,7 @@ window.BANNER = (function () {
   // pasa a pintarse encima del SVG. Vacio = nadie la pide, que es mejor que
   // pedirla y comerse un 404 en cada carga.
   const CON_LAMINA = new Set([]);
-  const LAMINA = n => `../assets/scenes/lighthouse-${n}.jpg`;
+  const LAMINA = n => `../assets/scenes/lighthouse-${n}.jpg?v=${window.ART_V || ''}`;
 
   const CSS = `
   .lh{position:relative;width:100%;max-width:64rem;margin:0 auto;border-radius:20px;
@@ -639,8 +639,8 @@ window.BANNER = (function () {
               type="button" style="${plano(i)}"
               aria-label="Listen to ${k[0].toUpperCase() + k.slice(1)}">
         <span class="lh-globo">${k === anfitrion ? 'Hello!!' : 'Hi!'}</span>
-        <img src="../assets/characters/${nivel}/${k}/fullbody.png" alt=""
-             onerror="this.onerror=null;this.src='../assets/characters/${nivel}/${k}/pose-01.png'">
+        <img src="../assets/characters/${nivel}/${k}/fullbody.png?v=${window.ART_V || ''}" alt=""
+             onerror="this.onerror=null;this.src='../assets/characters/${nivel}/${k}/pose-01.png?v=${window.ART_V || ''}'">
       </button>`).join('');
 
     return `<style>${CSS}</style>
@@ -659,8 +659,8 @@ window.BANNER = (function () {
                     style="--esc:1;--fondo:6px"
                     aria-label="${idx.mascot[0].toUpperCase() + idx.mascot.slice(1)}">
               <span class="lh-globo">Hello!</span>
-              <img src="../assets/characters/${nivel}/${idx.mascot}/fullbody.png" alt=""
-                   onerror="this.onerror=null;this.src='../assets/characters/${nivel}/${idx.mascot}/pose-01.png'">
+              <img src="../assets/characters/${nivel}/${idx.mascot}/fullbody.png?v=${window.ART_V || ''}" alt=""
+                   onerror="this.onerror=null;this.src='../assets/characters/${nivel}/${idx.mascot}/pose-01.png?v=${window.ART_V || ''}'">
             </button>
           </div>
         </div>
