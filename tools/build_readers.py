@@ -41,6 +41,8 @@ W, H = 1200, 750
 # Cada pagina: la frase, el fondo, y quien o que sale y donde.
 #   ("char:starters:freya:1", x, y, alto)   un personaje
 #   ("ball", x, y, alto)                    un objeto del banco
+from readers_flyers import CUENTOS_FLYERS
+
 CUENTOS = [
 {
  "id": "g1-u1", "grado": "G1", "tema": 1, "nivel": "Pre-A1",
@@ -218,6 +220,11 @@ CUENTOS = [
             {"palabra": "a cake", "img": None}, {"palabra": "milk", "img": "cold"}]},
 },
 ]
+
+# 5.o de primaria: viven en su propio archivo porque son mas largos
+# que los de G1 y aqui dentro no se encontraba nada.
+CUENTOS += CUENTOS_FLYERS
+
 
 
 # ------------------------------------------------------------ ilustracion

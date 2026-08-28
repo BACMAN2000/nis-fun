@@ -1,0 +1,112 @@
+{
+ "id": "g5-u1",
+ "grado": "G5",
+ "tema": 1,
+ "nivel": "A2",
+ "titulo": "The Light in the Storm",
+ "objetivo": "Past simple: telling what happened",
+ "paginas": [
+  {
+   "texto": "Last winter a big storm came to the fjord. The wind was so strong that the windows sang all night.",
+   "clave": [
+    "storm",
+    "wind"
+   ],
+   "img": "img/g5-u1-p01.jpg"
+  },
+  {
+   "texto": "Ingrid was in the lighthouse kitchen with a cup of hot chocolate. Then the light went out.",
+   "clave": [
+    "kitchen",
+    "light"
+   ],
+   "img": "img/g5-u1-p02.jpg"
+  },
+  {
+   "texto": "Without the light, the boats could not find the harbour. Ingrid did not wait. She ran up the stairs.",
+   "clave": [
+    "boats",
+    "ran"
+   ],
+   "img": "img/g5-u1-p03.jpg"
+  },
+  {
+   "texto": "At the top she found the problem: the old lamp was cold and dark. Something inside it had broken.",
+   "clave": [
+    "lamp",
+    "dark"
+   ],
+   "img": "img/g5-u1-p04.jpg"
+  },
+  {
+   "texto": "Ingrid called her friends. Diego arrived first, with his microphone and no idea what to do with it.",
+   "clave": [
+    "called",
+    "arrived"
+   ],
+   "img": "img/g5-u1-p05.jpg"
+  },
+  {
+   "texto": "Maya looked at the lamp for one minute. 'We do not need to fix it tonight,' she said. 'We need a light NOW.'",
+   "clave": [
+    "looked",
+    "said"
+   ],
+   "img": "img/g5-u1-p06.jpg"
+  },
+  {
+   "texto": "So they carried every torch in the school to the top of the lighthouse, and Oliver carried two.",
+   "clave": [
+    "carried",
+    "torch"
+   ],
+   "img": "img/g5-u1-p07.jpg"
+  },
+  {
+   "texto": "Kili flew above them in circles, because a condor always wants to know what the humans are doing.",
+   "clave": [
+    "flew",
+    "above"
+   ],
+   "img": "img/g5-u1-p08.jpg"
+  },
+  {
+   "texto": "That night the boats saw a small yellow light on the rock, and they came home safely, one by one.",
+   "clave": [
+    "night",
+    "safely"
+   ],
+   "img": "img/g5-u1-p09.jpg"
+  },
+  {
+   "texto": "In the morning the storm stopped. 'We did it,' said Diego. 'And nobody recorded it,' said his microphone.",
+   "clave": [
+    "morning",
+    "stopped"
+   ],
+   "img": "img/g5-u1-p10.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "What happened first?",
+  "instruccion": "Tap the word you hear.",
+  "items": [
+   {
+    "palabra": "storm",
+    "img": "img/g5-u1-a-storm.png"
+   },
+   {
+    "palabra": "cold",
+    "img": "img/g5-u1-a-cold.png"
+   },
+   {
+    "palabra": "night",
+    "img": "img/g5-u1-a-night.png"
+   },
+   {
+    "palabra": "light",
+    "img": "img/g5-u1-a-light.png"
+   }
+  ]
+ }
+}

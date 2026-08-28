@@ -1,0 +1,112 @@
+{
+ "id": "g5-u4",
+ "grado": "G5",
+ "tema": 4,
+ "nivel": "A2",
+ "titulo": "Maya and the River",
+ "objetivo": "Comparing things",
+ "paginas": [
+  {
+   "texto": "Maya wanted to know one thing: is the river older than the school, or is the school older than the river?",
+   "clave": [
+    "older",
+    "river"
+   ],
+   "img": "img/g5-u4-p01.jpg"
+  },
+  {
+   "texto": "The school is a hundred years old. That sounded like a lot, until she looked at the rocks.",
+   "clave": [
+    "years",
+    "rocks"
+   ],
+   "img": "img/g5-u4-p02.jpg"
+  },
+  {
+   "texto": "The river is wider than the road and colder than the sea. In summer it is loud. In winter it is quiet.",
+   "clave": [
+    "wider",
+    "colder"
+   ],
+   "img": "img/g5-u4-p03.jpg"
+  },
+  {
+   "texto": "Ingrid said the sea was bigger. Maya said bigger is not the same as older, and they argued happily for an hour.",
+   "clave": [
+    "bigger",
+    "same"
+   ],
+   "img": "img/g5-u4-p04.jpg"
+  },
+  {
+   "texto": "A whale is bigger than a dolphin. A dolphin is faster than a boat. But none of them is older than the river.",
+   "clave": [
+    "bigger",
+    "faster"
+   ],
+   "img": "img/g5-u4-p05.jpg"
+  },
+  {
+   "texto": "Maya measured the water every Monday for two months and wrote every number in a small green notebook.",
+   "clave": [
+    "measured",
+    "wrote"
+   ],
+   "img": "img/g5-u4-p06.jpg"
+  },
+  {
+   "texto": "Oliver asked if the river had a song. Maya said no. Then she listened for a minute and said: 'Maybe.'",
+   "clave": [
+    "song",
+    "listened"
+   ],
+   "img": "img/g5-u4-p07.jpg"
+  },
+  {
+   "texto": "In the library she found a map from 1840. The river was there. The school was not.",
+   "clave": [
+    "map",
+    "library"
+   ],
+   "img": "img/g5-u4-p08.jpg"
+  },
+  {
+   "texto": "So the river is older. It was here before the school, before the town, and before anybody counted the years.",
+   "clave": [
+    "older",
+    "before"
+   ],
+   "img": "img/g5-u4-p09.jpg"
+  },
+  {
+   "texto": "'That is the best answer I have had all year,' said Diego, and for once he wrote it down instead of recording it.",
+   "clave": [
+    "best",
+    "answer"
+   ],
+   "img": "img/g5-u4-p10.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "Which is bigger?",
+  "instruccion": "Tap the animal you hear.",
+  "items": [
+   {
+    "palabra": "whale",
+    "img": "img/g5-u4-a-whale.png"
+   },
+   {
+    "palabra": "dolphin",
+    "img": "img/g5-u4-a-dolphin.png"
+   },
+   {
+    "palabra": "shark",
+    "img": "img/g5-u4-a-shark.png"
+   },
+   {
+    "palabra": "fish",
+    "img": "img/g5-u4-a-fish.png"
+   }
+  ]
+ }
+}

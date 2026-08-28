@@ -1,0 +1,112 @@
+{
+ "id": "g5-u5",
+ "grado": "G5",
+ "tema": 5,
+ "nivel": "A2",
+ "titulo": "Oliver's Missing Song",
+ "objetivo": "Giving advice",
+ "paginas": [
+  {
+   "texto": "The concert was on Friday and Oliver had written the best song of his life. On Wednesday he lost it.",
+   "clave": [
+    "concert",
+    "lost"
+   ],
+   "img": "img/g5-u5-p01.jpg"
+  },
+  {
+   "texto": "'You should look in your bag,' said Ingrid. He looked. The bag had two apples and a sock.",
+   "clave": [
+    "should",
+    "bag"
+   ],
+   "img": "img/g5-u5-p02.jpg"
+  },
+  {
+   "texto": "'You could ask the music room,' said Maya. The music room said nothing, because rooms do not talk.",
+   "clave": [
+    "could",
+    "music"
+   ],
+   "img": "img/g5-u5-p03.jpg"
+  },
+  {
+   "texto": "'Why don't you write it again?' asked Diego. 'Because I cannot remember it,' said Oliver. That was the whole problem.",
+   "clave": [
+    "write",
+    "remember"
+   ],
+   "img": "img/g5-u5-p04.jpg"
+  },
+  {
+   "texto": "They searched the library, the track, the garden and the kitchen. They found a hat, a ring and somebody's homework.",
+   "clave": [
+    "searched",
+    "found"
+   ],
+   "img": "img/g5-u5-p05.jpg"
+  },
+  {
+   "texto": "On Thursday night Oliver sat on the steps and hummed, because that is what he does when he is sad.",
+   "clave": [
+    "night",
+    "sad"
+   ],
+   "img": "img/g5-u5-p06.jpg"
+  },
+  {
+   "texto": "Kili landed next to him and hummed too. Badly. Very badly. But the four notes were the right ones.",
+   "clave": [
+    "landed",
+    "notes"
+   ],
+   "img": "img/g5-u5-p07.jpg"
+  },
+  {
+   "texto": "Oliver stood up so fast that he frightened the condor. 'That is my song! You have been listening all week!'",
+   "clave": [
+    "song",
+    "listening"
+   ],
+   "img": "img/g5-u5-p08.jpg"
+  },
+  {
+   "texto": "He wrote it down twice: one for the concert and one for the kitchen wall, where nothing ever gets lost.",
+   "clave": [
+    "wrote",
+    "wall"
+   ],
+   "img": "img/g5-u5-p09.jpg"
+  },
+  {
+   "texto": "On Friday the whole school sang it, and one condor sat on the roof and sang it worse than everybody.",
+   "clave": [
+    "sang",
+    "roof"
+   ],
+   "img": "img/g5-u5-p10.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "Good advice",
+  "instruccion": "Tap the picture you hear.",
+  "items": [
+   {
+    "palabra": "bag",
+    "img": "img/g5-u5-a-bag.png"
+   },
+   {
+    "palabra": "hat",
+    "img": "img/g5-u5-a-hat.png"
+   },
+   {
+    "palabra": "ring",
+    "img": "img/g5-u5-a-ring.png"
+   },
+   {
+    "palabra": "bird",
+    "img": "img/g5-u5-a-bird.png"
+   }
+  ]
+ }
+}

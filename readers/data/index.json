@@ -59,6 +59,66 @@
    "objetivo": "Food words",
    "paginas": 8,
    "portada": "img/g1-u6-p01.jpg"
+  },
+  {
+   "id": "g5-u1",
+   "grado": "G5",
+   "tema": 1,
+   "nivel": "A2",
+   "titulo": "The Light in the Storm",
+   "objetivo": "Past simple: telling what happened",
+   "paginas": 10,
+   "portada": "img/g5-u1-p01.jpg"
+  },
+  {
+   "id": "g5-u2",
+   "grado": "G5",
+   "tema": 2,
+   "nivel": "A2",
+   "titulo": "Kili Delivers",
+   "objetivo": "Writing a postcard",
+   "paginas": 10,
+   "portada": "img/g5-u2-p01.jpg"
+  },
+  {
+   "id": "g5-u3",
+   "grado": "G5",
+   "tema": 3,
+   "nivel": "A2",
+   "titulo": "Diego Asks Everyone",
+   "objetivo": "Asking questions",
+   "paginas": 10,
+   "portada": "img/g5-u3-p01.jpg"
+  },
+  {
+   "id": "g5-u4",
+   "grado": "G5",
+   "tema": 4,
+   "nivel": "A2",
+   "titulo": "Maya and the River",
+   "objetivo": "Comparing things",
+   "paginas": 10,
+   "portada": "img/g5-u4-p01.jpg"
+  },
+  {
+   "id": "g5-u5",
+   "grado": "G5",
+   "tema": 5,
+   "nivel": "A2",
+   "titulo": "Oliver's Missing Song",
+   "objetivo": "Giving advice",
+   "paginas": 10,
+   "portada": "img/g5-u5-p01.jpg"
+  },
+  {
+   "id": "g5-u6",
+   "grado": "G5",
+   "tema": 6,
+   "nivel": "A2",
+   "titulo": "The Night of the Aurora",
+   "objetivo": "Making plans",
+   "paginas": 10,
+   "portada": "img/g5-u6-p01.jpg"
   }
  ]
 }

@@ -1,0 +1,112 @@
+{
+ "id": "g5-u3",
+ "grado": "G5",
+ "tema": 3,
+ "nivel": "A2",
+ "titulo": "Diego Asks Everyone",
+ "objetivo": "Asking questions",
+ "paginas": [
+  {
+   "texto": "Diego had a new microphone and one very big problem: he had no story for Friday.",
+   "clave": [
+    "microphone",
+    "story"
+   ],
+   "img": "img/g5-u3-p01.jpg"
+  },
+  {
+   "texto": "'Have you ever seen the aurora?' he asked the cook. 'Twice,' she said. 'And I was carrying soup both times.'",
+   "clave": [
+    "ever",
+    "seen"
+   ],
+   "img": "img/g5-u3-p02.jpg"
+  },
+  {
+   "texto": "'What is the best thing about winter?' he asked Oliver. Oliver played four notes and said: 'That.'",
+   "clave": [
+    "best",
+    "winter"
+   ],
+   "img": "img/g5-u3-p03.jpg"
+  },
+  {
+   "texto": "'How deep is the fjord?' he asked Maya. Maya opened a book, and Diego knew the answer would take a while.",
+   "clave": [
+    "deep",
+    "answer"
+   ],
+   "img": "img/g5-u3-p04.jpg"
+  },
+  {
+   "texto": "'Why do you climb the lighthouse every morning?' he asked Ingrid. 'Because somebody has to,' she said.",
+   "clave": [
+    "why",
+    "climb"
+   ],
+   "img": "img/g5-u3-p05.jpg"
+  },
+  {
+   "texto": "'Where do you sleep?' he asked Kili. Kili said nothing, because condors do not give interviews.",
+   "clave": [
+    "where",
+    "sleep"
+   ],
+   "img": "img/g5-u3-p06.jpg"
+  },
+  {
+   "texto": "On Thursday Diego had forty answers and still no story. He sat down on the steps and stopped asking.",
+   "clave": [
+    "answers",
+    "stopped"
+   ],
+   "img": "img/g5-u3-p07.jpg"
+  },
+  {
+   "texto": "Then Maya sat next to him. 'You asked everyone a question,' she said. 'Nobody asked YOU one.'",
+   "clave": [
+    "question",
+    "nobody"
+   ],
+   "img": "img/g5-u3-p08.jpg"
+  },
+  {
+   "texto": "'So: why do you always carry that microphone?' Diego thought for a long time. 'Because I want to remember all of this.'",
+   "clave": [
+    "carry",
+    "remember"
+   ],
+   "img": "img/g5-u3-p09.jpg"
+  },
+  {
+   "texto": "On Friday the school newspaper had one line on the front page, and everybody read it twice.",
+   "clave": [
+    "newspaper",
+    "read"
+   ],
+   "img": "img/g5-u3-p10.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "Question words",
+  "instruccion": "Tap the word you hear.",
+  "items": [
+   {
+    "palabra": "where",
+    "img": "img/g5-u3-a-where.png"
+   },
+   {
+    "palabra": "why",
+    "img": "img/g5-u3-a-why.png"
+   },
+   {
+    "palabra": "who",
+    "img": "img/g5-u3-a-who.png"
+   },
+   {
+    "palabra": "when",
+    "img": "img/g5-u3-a-when.png"
+   }
+  ]
+ }
+}

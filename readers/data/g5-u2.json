@@ -1,0 +1,112 @@
+{
+ "id": "g5-u2",
+ "grado": "G5",
+ "tema": 2,
+ "nivel": "A2",
+ "titulo": "Kili Delivers",
+ "objetivo": "Writing a postcard",
+ "paginas": [
+  {
+   "texto": "Kili is the postbird of Nordic. He is solemn, he is enormous, and he lands like a falling suitcase.",
+   "clave": [
+    "postbird",
+    "lands"
+   ],
+   "img": "img/g5-u2-p01.jpg"
+  },
+  {
+   "texto": "On Monday he brought a postcard from Sven, Ingrid's grandfather, who is travelling in the north.",
+   "clave": [
+    "postcard",
+    "brought"
+   ],
+   "img": "img/g5-u2-p02.jpg"
+  },
+  {
+   "texto": "'Dear Ingrid,' it said. 'The sky here is green at night. Bring a warm scarf. Love, Grandpa.'",
+   "clave": [
+    "dear",
+    "scarf"
+   ],
+   "img": "img/g5-u2-p03.jpg"
+  },
+  {
+   "texto": "Ingrid wanted to answer, but a postcard is small. What do you write when you have only six lines?",
+   "clave": [
+    "answer",
+    "write"
+   ],
+   "img": "img/g5-u2-p04.jpg"
+  },
+  {
+   "texto": "Diego said: 'Write the news!' Maya said: 'Write the weather!' Oliver said: 'Write a song about the weather.'",
+   "clave": [
+    "news",
+    "weather"
+   ],
+   "img": "img/g5-u2-p05.jpg"
+  },
+  {
+   "texto": "So Ingrid wrote all three, in very small letters, and then she could not read her own postcard.",
+   "clave": [
+    "wrote",
+    "letters"
+   ],
+   "img": "img/g5-u2-p06.jpg"
+  },
+  {
+   "texto": "She started again. 'Dear Grandpa. We are all well. It rained for six days. I have the scarf. Come home soon.'",
+   "clave": [
+    "rained",
+    "home"
+   ],
+   "img": "img/g5-u2-p07.jpg"
+  },
+  {
+   "texto": "Kili took the postcard in his beak, looked at everybody, and waited. Nobody knew why.",
+   "clave": [
+    "took",
+    "waited"
+   ],
+   "img": "img/g5-u2-p08.jpg"
+  },
+  {
+   "texto": "'He wants a biscuit,' said Maya. She was right. She usually is.",
+   "clave": [
+    "biscuit",
+    "right"
+   ],
+   "img": "img/g5-u2-p09.jpg"
+  },
+  {
+   "texto": "Then he flew north with the news of a rainy week, and the whole school watched him go.",
+   "clave": [
+    "flew",
+    "north"
+   ],
+   "img": "img/g5-u2-p10.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "On the postcard",
+  "instruccion": "Tap the picture you hear.",
+  "items": [
+   {
+    "palabra": "scarf",
+    "img": "img/g5-u2-a-scarf.png"
+   },
+   {
+    "palabra": "rainy",
+    "img": "img/g5-u2-a-rainy.png"
+   },
+   {
+    "palabra": "grandpa",
+    "img": "img/g5-u2-a-grandpa.png"
+   },
+   {
+    "palabra": "bird",
+    "img": "img/g5-u2-a-bird.png"
+   }
+  ]
+ }
+}

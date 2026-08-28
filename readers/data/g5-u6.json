@@ -1,0 +1,112 @@
+{
+ "id": "g5-u6",
+ "grado": "G5",
+ "tema": 6,
+ "nivel": "A2",
+ "titulo": "The Night of the Aurora",
+ "objetivo": "Making plans",
+ "paginas": [
+  {
+   "texto": "Maya read that the aurora would be visible on Saturday, and the whole school started planning at once.",
+   "clave": [
+    "aurora",
+    "planning"
+   ],
+   "img": "img/g5-u6-p01.jpg"
+  },
+  {
+   "texto": "'We are going to walk to the mirador,' said Ingrid. 'We are going to leave at eight and we are NOT going to be late.'",
+   "clave": [
+    "going",
+    "leave"
+   ],
+   "img": "img/g5-u6-p02.jpg"
+  },
+  {
+   "texto": "Oliver was going to bring the guitar. Diego was going to bring the microphone. Kili was going to bring himself.",
+   "clave": [
+    "bring",
+    "guitar"
+   ],
+   "img": "img/g5-u6-p03.jpg"
+  },
+  {
+   "texto": "They needed warm clothes, because at the top of the hill the wind never asks how you feel about it.",
+   "clave": [
+    "warm",
+    "wind"
+   ],
+   "img": "img/g5-u6-p04.jpg"
+  },
+  {
+   "texto": "On Saturday at eight they left. At eight fifteen Diego went back for the microphone he had left at home.",
+   "clave": [
+    "saturday",
+    "left"
+   ],
+   "img": "img/g5-u6-p05.jpg"
+  },
+  {
+   "texto": "The walk was long and dark and cold, and nobody said one word about turning round.",
+   "clave": [
+    "walk",
+    "dark"
+   ],
+   "img": "img/g5-u6-p06.jpg"
+  },
+  {
+   "texto": "At the top they waited. Nothing happened. It was cold. Somebody said the word 'chocolate' and everybody agreed.",
+   "clave": [
+    "waited",
+    "cold"
+   ],
+   "img": "img/g5-u6-p07.jpg"
+  },
+  {
+   "texto": "And then the sky turned green. Not a little green. All of it, from the sea to the mountain.",
+   "clave": [
+    "sky",
+    "green"
+   ],
+   "img": "img/g5-u6-p08.jpg"
+  },
+  {
+   "texto": "Diego did not record anything. He said afterwards that he forgot, but Maya says he chose to watch.",
+   "clave": [
+    "record",
+    "watch"
+   ],
+   "img": "img/g5-u6-p09.jpg"
+  },
+  {
+   "texto": "They walked home very late and very happy, and on Monday nobody could explain it to the people who had stayed in bed.",
+   "clave": [
+    "home",
+    "happy"
+   ],
+   "img": "img/g5-u6-p10.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "What do we take?",
+  "instruccion": "Tap the picture you hear.",
+  "items": [
+   {
+    "palabra": "gloves",
+    "img": "img/g5-u6-a-gloves.png"
+   },
+   {
+    "palabra": "scarf",
+    "img": "img/g5-u6-a-scarf.png"
+   },
+   {
+    "palabra": "socks",
+    "img": "img/g5-u6-a-socks.png"
+   },
+   {
+    "palabra": "umbrella",
+    "img": "img/g5-u6-a-umbrella.png"
+   }
+  ]
+ }
+}
