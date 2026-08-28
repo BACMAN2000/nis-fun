@@ -218,8 +218,19 @@ if(/\.github\.io$/i.test(location.hostname)){
   .band .meta{font-size:.8rem;opacity:.9;text-transform:uppercase;letter-spacing:.06em}
   .scene{display:flex;align-items:flex-end;gap:1rem;margin:1.2rem 0;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:1rem 1.2rem}
   .scene img{height:210px}
-  .bubble{position:relative;background:var(--surface2);border-radius:14px;padding:.8rem 1rem;font-weight:600;flex:1}
+  /* min-width:0 deja que el bocadillo encoja: con el ancho automatico del
+     flex no bajaba de su texto y se salia de la pantalla en el movil */
+  .bubble{position:relative;background:var(--surface2);border-radius:14px;padding:.8rem 1rem;font-weight:600;flex:1;min-width:0}
   .bubble::before{content:"";position:absolute;left:-10px;bottom:18px;border:10px solid transparent;border-right-color:var(--surface2);border-left:0}
+  /* en el movil no caben los personajes y el bocadillo en la misma linea:
+     el bocadillo baja debajo y la flecha pasa a apuntar hacia arriba */
+  @media (max-width:640px){
+    .scene{flex-wrap:wrap;gap:.6rem;padding:.8rem;justify-content:center}
+    .scene img{height:150px}
+    .bubble{flex:1 1 100%}
+    .bubble::before{left:32px;top:-10px;bottom:auto;
+      border:10px solid transparent;border-bottom-color:var(--surface2);border-top:0;border-right-color:transparent}
+  }
   .act{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:1.2rem 1.4rem;margin:1.2rem 0}
   .act h2{display:flex;align-items:center;gap:.6rem;font-size:1.15rem;margin:0 0 .9rem}
   .act .code{background:var(--accent);color:#fff;border-radius:10px;width:2rem;height:2rem;display:inline-flex;align-items:center;justify-content:center;font-weight:800;flex:none}
@@ -1210,7 +1221,11 @@ crossword(act, el){
     });
   });
 
-  el.querySelector('button').onclick = ()=>{
+  /* '.checkrow button', no 'button' a secas: el primer <button> del bloque
+     es el altavoz de la primera pista, que se pinta antes que esta fila. Con
+     el selector suelto, Check se enganchaba a ese altavoz — la primera pista
+     dejaba de sonar y el boton de comprobar se quedaba sin nada. */
+  el.querySelector('.checkrow button').onclick = ()=>{
     let ok=0, tot=0;
     el.querySelectorAll('td.cell').forEach(td=>{ tot++;
       const k=td.dataset.k, v=(td.querySelector('input').value||'').toUpperCase();
