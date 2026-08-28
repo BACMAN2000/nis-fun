@@ -25,10 +25,28 @@ if(/\.github\.io$/i.test(location.hostname)){
   /* ---------- navegacion pantalla a pantalla ---------- */
   .scr{position:relative;min-height:calc(100vh - 3rem);display:flex;flex-direction:column;
     align-items:center;padding:0 3.6rem}
+  /* el padding reserva el sitio de las dos salidas: sin el, un titulo largo
+     se mete debajo de la pildora del portal */
   .scr-top{width:100%;display:flex;align-items:center;justify-content:center;gap:1rem;
-    margin:.4rem 0 1rem;position:relative}
+    margin:.4rem 0 1rem;position:relative;padding:0 9rem}
   .scr-tit{font-family:"Baloo 2",sans-serif;font-size:1.35rem;margin:0;text-align:center;color:var(--accent)}
-  .scr-cuenta{position:absolute;right:0;font-size:.82rem;color:var(--soft)}
+  .scr-cuenta{position:absolute;right:.2rem;top:2.3rem;font-size:.82rem;color:var(--soft)}
+  /* las dos salidas de la barra: subir un escalon (izquierda) y salir al
+     portal (derecha). El contador baja un poco para dejarles sitio. */
+  .scr-salir,.scr-portal{position:absolute;top:0;display:inline-flex;align-items:center;gap:.3rem;
+    font-weight:700;font-size:.88rem;text-decoration:none;color:var(--accent);
+    background:var(--surface);border:1px solid var(--line);border-radius:999px;
+    padding:.32rem .85rem;white-space:nowrap}
+  .scr-salir{left:0}
+  .scr-portal{right:0}
+  .scr-salir:hover,.scr-portal:hover{border-color:var(--accent)}
+  /* en pantalla estrecha se quedan solo los iconos: el titulo necesita ancho */
+  @media (max-width:640px){
+    .scr-salir span,.scr-portal span{display:none}
+    .scr-salir,.scr-portal{padding:.32rem .6rem}
+    .scr-top{padding:0 3.2rem}
+    .scr-tit{font-size:1.08rem;line-height:1.2}
+  }
   /* todo el contenido va centrado, no pegado a la izquierda */
   .scr-body{width:100%;flex:1;display:flex;justify-content:center}
   /* el cuerpo se queda con el alto libre y el contenido se centra en el.
@@ -396,6 +414,43 @@ const Q = extra => (DEMO ? extra + '&demo=1' : extra);
 
 const esc = t => String(t).replace(/&/g,'&amp;').replace(/"/g,'&quot;')
                           .replace(/</g,'&lt;').replace(/>/g,'&gt;');
+
+/* A donde lleva el boton "Portal". Al curso se entra desde el portal, y
+   ademas en una pestana nueva: alli no hay historial, asi que sin este
+   boton el alumno se queda dentro del curso sin manera de volver.
+   Se busca por orden: la ruta que escribe el portal al enlazar (?back=),
+   la pagina de la que se vino, y lo guardado antes en esta sesion —el
+   propio curso no cuenta como origen. Fuera del portal (por ejemplo en
+   GitHub Pages) no hay a donde volver y el boton no se pinta.
+   Es lo mismo que hace el boton "Home" de los readers. */
+const PORTAL = (() => {
+  const CLAVE = 'nisfun-portal';
+  const propio = u => /\/nis-fun\//.test(u);
+  const seguro = u => u && !/^[a-z][a-z0-9+.\-]*:/i.test(u) && u.slice(0, 2) !== '//';
+  try {
+    let back = qs.get('back');
+    if (seguro(back)) {
+      // el portal escribe "./#ruta" contando desde su raiz, y el curso
+      // cuelga dos carpetas mas abajo
+      if (back.slice(0, 2) === './') back = '../../' + back.slice(2);
+      else if (back[0] === '#') back = '../../' + back;
+      sessionStorage.setItem(CLAVE, back);
+      return back;
+    }
+    const r = document.referrer;
+    if (r) {
+      const u = new URL(r);
+      if (u.origin === location.origin && !propio(u.pathname)) {
+        const ruta = u.pathname + u.search + u.hash;
+        sessionStorage.setItem(CLAVE, ruta);
+        return ruta;
+      }
+    }
+    const guardado = sessionStorage.getItem(CLAVE);
+    if (guardado) return guardado;
+  } catch (e) {}
+  return location.hostname === 'nis.cohasset.pe' ? '../../' : null;
+})();
 // El servidor cachea los mp4 4 horas y la ruta no cambia al reemplazarlos:
 // subir esta fecha obliga al navegador a volver a bajarlos.
 const VIDEO_V = '2026-08-25-marca';
@@ -425,7 +480,8 @@ async function levels(){
   const data = await j('../content/levels.json');
   document.title = 'Fun for Nordic';
   app.innerHTML = `
-    <h1 style="font-size:2.2rem;margin:1.4rem 0 .2rem">Fun for Nordic</h1>
+    ${PORTAL ? `<p class="crumb" style="margin:.6rem 0 0"><a href="${PORTAL}">‹ Portal</a></p>` : ''}
+    <h1 style="font-size:2.2rem;margin:.6rem 0 .2rem">Fun for Nordic</h1>
     <p style="color:var(--soft);margin:0 0 1.4rem">Cambridge Young Learners · Nordic International School</p>
     <div class="campus-banner"><img src="../assets/scenes/main-building.jpg" alt="Nordic campus"></div>
     <div class="lvcards">${data.levels.map(l=>`
@@ -470,7 +526,6 @@ async function hub(){
         ${DEMO ? `<div class="demoflag">Demonstration — this preview covers the first two units.
            The full course has ${idx.units.length} units.</div>` : ''}
         <p class="scr-pie">Tap a friend to hear them. Press <b>Next</b> to start.</p>
-        <div class="crumb"><a href="${Q(`?`)}">← Fun for Nordic</a></div>
       </div>`,
       alMostrar(el){ BANNER.vivo(el); } },
     { titulo: `Meet ${mascota} — your guide!`,
@@ -527,7 +582,10 @@ async function hub(){
       <div class="units">${tanda.map(tarjeta).join('')}</div></div>`
   }));
 
-  SCREENS.montar(app, pantallas);
+  SCREENS.montar(app, pantallas, {
+    arriba: { href: Q('?'), texto: 'Fun for Nordic' },
+    portal: PORTAL,
+  });
 }
 
 /* Lo que cuenta cada mascota de si misma. Sale debajo de su video, que
@@ -716,7 +774,6 @@ async function unit(){
         <div class="scene">
           ${UD.characters.map(c=>`<img src="${CHAR(c,(UD.scene.pose||{})[c]||1)}" alt="${c}" ${FB}>`).join('')}
           <div class="bubble">${UD.scene.bubble}</div></div>
-        <div class="crumb"><a href="${Q(`?level=${LEVEL}`)}">← ${LEVEL[0].toUpperCase()+LEVEL.slice(1)}</a></div>
       </div>` },
     // 2. la historia, con su ilustracion
     { titulo: 'The story of this unit',
@@ -800,7 +857,10 @@ async function unit(){
     html: `<div class="scr-centro"><div class="selfcheck" id="selfcheck"></div></div>`,
     alMostrar(){ pintaSelfCheck(document.getElementById('selfcheck'), digital); } });
 
-  SCREENS.montar(app, pantallas);
+  SCREENS.montar(app, pantallas, {
+    arriba: { href: Q(`?level=${LEVEL}`), texto: LEVEL[0].toUpperCase() + LEVEL.slice(1) },
+    portal: PORTAL,
+  });
 }
 
 /* ---- repaso final: el alumno marca lo que ya sabe hacer ---- */

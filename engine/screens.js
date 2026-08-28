@@ -59,11 +59,26 @@ window.SCREENS = (function () {
     pinta();
   }
 
+  /* La barra lleva las dos salidas en TODAS las pantallas: a la izquierda se
+     sube un escalon del curso (unidad -> nivel -> portada) y a la derecha se
+     sale al portal. Antes la vuelta iba escrita dentro del HTML de la
+     primera pantalla, asi que en cuanto el alumno avanzaba se quedaba sin
+     salida y tenia que retroceder con la flecha hasta el principio. */
+  function salidas(opts) {
+    return (opts.arriba
+        ? `<a class="scr-salir" href="${opts.arriba.href}">‹ <span>${opts.arriba.texto}</span></a>`
+        : '')
+      + (opts.portal
+        ? `<a class="scr-portal" href="${opts.portal}">🏫 <span>Portal</span></a>`
+        : '');
+  }
+
   function montar(app, pantallas, opts) {
     opts = opts || {};
     app.innerHTML = `
       <div class="scr">
-        <div class="scr-top"><h2 class="scr-tit"></h2><span class="scr-cuenta"></span></div>
+        <div class="scr-top">${salidas(opts)}<h2 class="scr-tit"></h2>
+          <span class="scr-cuenta"></span></div>
         <button class="scr-nav scr-prev" type="button" aria-label="Previous screen">
           <span class="scr-fl">‹</span></button>
         <div class="scr-body"></div>
