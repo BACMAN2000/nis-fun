@@ -69,6 +69,16 @@ RECURSOS = {
         "grados": {"G5"},
         "enlace": "/reader.html",
     },
+    "littlereaders": {
+        # Los cuentos propios del curso, que si empiezan en Pre-A1 y son los
+        # que dan Reading Plan de G1 a G4. Los grados salen del indice, no
+        # de una lista escrita aqui: si manana se anade un cuento de G3, el
+        # auditor se entera solo.
+        "nombre": "Nordic Little Readers",
+        "ruta": os.path.join(ROOT, "readers", "index.html"),
+        "grados": None,          # se rellena abajo, leyendo el indice
+        "enlace": "/nis-fun/readers/",
+    },
     "pronunciacion": {
         "nombre": "Pronunciation Coach",
         "ruta": os.path.join(PORTAL, "pronunciation-coach", "index.html"),
@@ -82,6 +92,19 @@ RECURSOS = {
         "enlace": "/writing-tutor.html",
     },
 }
+
+
+def _grados_con_cuento():
+    """Los grados que tienen al menos un Little Reader escrito."""
+    p = os.path.join(ROOT, "readers", "data", "index.json")
+    try:
+        libros = json.load(io.open(p, encoding="utf-8"))["libros"]
+    except Exception:
+        return set()
+    return {l["grado"] for l in libros}
+
+
+RECURSOS["littlereaders"]["grados"] = _grados_con_cuento()
 
 
 def recursos_de(grado):
@@ -175,9 +198,14 @@ def revisa_bloque(bloque, puntos, curso, recursos):
         return "cubierto", "cada unidad acaba con su self-check"
 
     if modo == "reader":
-        if "readers" in recursos:
-            return "en el portal", recursos["readers"]["nombre"] + " (" + \
-                   recursos["readers"]["enlace"] + ")"
+        # Primero los del portal y, si el grado no llega a A2, los cuentos
+        # propios del curso, que empiezan en Pre-A1 y son los que dan
+        # lectura de G1 a G4.
+        for clave in ("readers", "littlereaders"):
+            if clave in recursos:
+                return "en el portal", (recursos[clave]["nombre"] + " (" +
+                                        recursos[clave]["enlace"] + ")")
+        return "FALTA", "no hay readers ni cuentos propios para este grado"
         return "FALTA", "los readers del portal empiezan en A2; este grado no llega"
 
     # vocabulario y gramatica: se mira punto por punto

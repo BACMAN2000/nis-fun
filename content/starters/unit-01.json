@@ -349,6 +349,17 @@
  "wordlist_extra": [
   "hello",
   "goodbye",
-  "good morning"
+  "good morning",
+  "numbers",
+  "one",
+  "two",
+  "three",
+  "four",
+  "five",
+  "six",
+  "seven",
+  "eight",
+  "nine",
+  "ten"
  ]
 }

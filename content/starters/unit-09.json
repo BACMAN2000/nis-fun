@@ -288,6 +288,16 @@
   "thin",
   "curly",
   "straight hair",
-  "eyes colour"
+  "eyes colour",
+  "age",
+  "years old",
+  "numbers",
+  "ordinal numbers",
+  "first",
+  "second",
+  "third",
+  "eleven",
+  "twelve",
+  "twenty"
  ]
 }

@@ -44,6 +44,27 @@ DESTREZA = {
 META = re.compile(r"^\s*(▸|Bloom|ATL|Graduate Profile)", re.I)
 # Lineas de vocabulario del tipo "Appearance: tall, short, thin": lo que
 # interesa son las palabras de despues de los dos puntos.
+# Puntos que la secuencia pide como "vocabulario" pero que estan escritos
+# como una funcion de lengua ("Like/don't like: I like..., I don't like...")
+# y no como una lista de palabras. El reparto automatico no los ve, y en el
+# curso no los cubria ninguna unidad de ese grado: son huecos de verdad, no
+# fallos del revisor. Se cierran aqui, con las palabras concretas, sobre la
+# unidad del tema que les toca.
+HUECOS = {
+    ("G1", "Hello World!"):  ["numbers", "one", "two", "three", "four", "five",
+                              "six", "seven", "eight", "nine", "ten"],
+    ("G1", "Food & Fun"):    ["I like", "I don't like", "my favourite"],
+    ("G2", "All About Me"):  ["age", "years old", "numbers", "ordinal numbers",
+                              "first", "second", "third", "eleven", "twelve",
+                              "twenty"],
+    ("G2", "Food & Health"): ["healthy", "unhealthy", "fruit", "vegetables",
+                              "sweets"],
+    ("G4", "My Future"):     ["I want to be", "I'd like to", "future plans",
+                              "I'm going to study", "next year",
+                              "when I grow up"],
+}
+
+
 def palabras_de(punto):
     cuerpo = punto.split(":", 1)[1] if ":" in punto else punto
     fuera = re.split(r"[,/·]| and | or ", cuerpo)
@@ -182,6 +203,9 @@ def main(escribir):
                     "pendiente": {"vocabulario": faltan_v},
                 }
                 # ampliacion: lo que la secuencia pide y la unidad no tenia
+                hueco = HUECOS.get((grado, t["tema"]), [])
+                if hueco and k == 0:          # la primera unidad del tema
+                    faltan_v = faltan_v + [w for w in hueco if w not in faltan_v]
                 if faltan_v:
                     d["wordlist_extra"] = faltan_v
                 elif "wordlist_extra" in d:

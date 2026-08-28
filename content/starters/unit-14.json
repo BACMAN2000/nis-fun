@@ -312,6 +312,9 @@
   "vegetables",
   "dairy",
   "meat",
-  "bread"
+  "bread",
+  "healthy",
+  "unhealthy",
+  "sweets"
  ]
 }
