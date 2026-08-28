@@ -62,14 +62,20 @@ CUENTOS = [
    "piezas": [("char:starters:freya:3", .34, .64, .52),
               ("char:starters:pip:3", .66, .70, .32)]},
   {"t": "My name is Pip. P - I - P!", "clave": ["name"], "fondo": "garden",
-   "piezas": [("char:starters:pip:1", .50, .66, .40)]},
+   # Freya sigue ahi: acaba de preguntar en la pagina anterior y esta es la
+   # respuesta. Sin ella la conversacion se queda a medias y el nino ve un
+   # pajaro hablando solo.
+   "piezas": [("char:starters:freya:5", .30, .64, .50),
+              ("char:starters:pip:1", .68, .68, .36)]},
   {"t": "Hello, Pip! I am Astrid.", "clave": ["hello"], "fondo": "classroom",
    "piezas": [("char:starters:astrid:1", .34, .62, .54),
               ("char:starters:pip:2", .68, .70, .30)]},
   {"t": "Hello, Pip! I am Tomas.", "clave": ["hello"], "fondo": "classroom",
    "piezas": [("char:starters:tomas:1", .34, .62, .54),
               ("char:starters:pip:5", .68, .70, .30)]},
-  {"t": "Hello, friends! Let's play!", "clave": ["friends"], "fondo": "labyrinth",
+  # Las escaleras del campus, no el laberinto: visto de frente el maze se lee
+  # como una pared y los ninos parecen puestos delante de un muro.
+  {"t": "Hello, friends! Let's play!", "clave": ["friends"], "fondo": "mirador",
    "piezas": [("char:starters:freya:10", .20, .64, .50),
               ("char:starters:nico:10", .38, .65, .50),
               ("char:starters:astrid:10", .58, .64, .50),

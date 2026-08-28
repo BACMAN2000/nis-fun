@@ -11,6 +11,13 @@
  * entra: voltear una figura frontal no arregla nada y puede estropear una
  * asimetria buscada (una mochila, un objeto en una mano).
  *
+ * Cuidado con la pose 3: no es la misma en todos. Astrid, Tomas, Erik,
+ * Valentina y Kili abren LAS DOS manos y son simetricos; Freya, Nico,
+ * Mateo, Ingrid, Diego, Maya y Sofia extienden UNA, y esa si apunta a un
+ * lado. Se catalogo mal la primera vez -daba igual a todos- y Freya acabo
+ * diciendo "Hello, bird! What is your name?" mirando al lado contrario de
+ * donde estaba Pip.
+ *
  * Quien lo usa da vuelta la imagen con scaleX(-1) cuando la direccion no
  * apunta al contenido. No hay arte nuevo: es el mismo PNG reflejado.
  *
@@ -19,8 +26,8 @@
  */
 window.ORIENTACION = {
   // Starters: los cuatro ninos comparten set de poses
-  'starters/freya':  { 2: 'izq', 7: 'der' },
-  'starters/nico':   { 2: 'izq', 7: 'der' },
+  'starters/freya':  { 2: 'izq', 3: 'izq', 7: 'der' },
+  'starters/nico':   { 2: 'izq', 3: 'izq', 7: 'der' },
   'starters/astrid': { 2: 'izq', 7: 'der' },
   'starters/tomas':  { 2: 'izq', 7: 'der' },
   // Pip esta girado a la izquierda en casi todas
@@ -28,13 +35,13 @@ window.ORIENTACION = {
 
   'movers/erik':      { 7: 'der' },
   'movers/valentina': { 7: 'der' },
-  'movers/sofia':     { 7: 'der' },
-  'movers/mateo':     { 2: 'izq', 7: 'der' },
+  'movers/sofia':     { 3: 'izq', 7: 'der' },
+  'movers/mateo':     { 2: 'izq', 3: 'izq', 7: 'der' },
   'movers/luna':      { 2: 'der' },
 
-  'flyers/ingrid': { 4: 'der', 7: 'izq' },
-  'flyers/maya':   { 7: 'izq' },
-  'flyers/oliver': { 7: 'izq' },
+  'flyers/ingrid': { 3: 'izq', 4: 'der', 7: 'izq' },
+  'flyers/maya':   { 3: 'izq', 7: 'izq' },
+  'flyers/oliver': { 3: 'der', 7: 'izq' },
   'flyers/kili':   { 2: 'izq' },
 };
 

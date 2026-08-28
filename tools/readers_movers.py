@@ -90,6 +90,9 @@ CUENTOS_MOVERS = [
   {"t": "Everybody said it at the same time: 'THE FARM.' Luna loves the "
         "cows and the cows do not love Luna.",
    "clave": ["farm", "cows"], "fondo": "picnic-garden",
+   # Luna se nombra pero todavia no aparece: la estan buscando y sale en la
+   # pagina siguiente. Se declara para que el revisor no la pida aqui.
+   "ausente": ["luna"],
    "piezas": [("cow", .34, .70, .26), ("char:movers:valentina:3", .72, .68, .48)]},
   {"t": "They ran down the hill. Erik ran last because he was carrying his "
         "machine, of course.",
