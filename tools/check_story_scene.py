@@ -77,7 +77,7 @@ SITIOS = {
     "track":           ("track",),
     "hockey":          ("hockey",),
     "zoo":             ("zoo",),
-    "fjord":           ("mirador",),
+    "fjord":           ("picnic-garden", "garden", "mirador"),
     "lighthouse":      ("lighthouse-kitchen", "lighthouse"),
     "kitchen":         ("lighthouse-kitchen", "kitchen"),
     "funfair":         ("funfair",),
@@ -93,7 +93,9 @@ SITIOS = {
     "restaurant":      (),
     "stadium":         (),
     "castle":          (),
-    "beach":           (),
+    "beach":           ("picnic-garden", "garden"),
+    # el "mirador" del campus son escaleras: el mar solo se ve en estos
+    "sea":             ("picnic-garden", "garden"),
 }
 
 
@@ -133,6 +135,61 @@ def dibujables():
     return {f[:-4] for f in os.listdir(d) if f.endswith(".png")}
 
 
+# Palabras de la historia que piden que la lamina ensene ese tema. Si el
+# texto habla del tiempo, el alumno tiene que ver el tiempo en el dibujo.
+TEMAS_VISIBLES = {
+    # "storm" fuera del patron: casi siempre es figurado -"a confetti storm",
+    # "a stage, a storm and 500 people singing"- y llenaba el informe.
+    "clima": (r"\b(weather|rain|rainy|sunny|snow|snowy|wind|windy|cloud|cloudy)\b",
+              ("rainy", "sunny", "snowy", "windy", "cloudy", "weather", "rainbow",
+               "umbrella", "hot", "cold")),
+}
+
+
+def orientaciones():
+    """Hacia donde mira cada pose, del catalogo que usa todo el curso."""
+    fuera = {}
+    try:
+        txt = io.open(os.path.join(ROOT, "engine", "orientacion.js"),
+                      encoding="utf-8").read()
+    except Exception:
+        return fuera
+    for m in re.finditer(r"'([a-z]+)/([a-z]+)':\s*\{([^}]*)\}", txt):
+        for pose, lado in re.findall(r"(\d+)\s*:\s*'(izq|der)'", m.group(3)):
+            fuera[(m.group(2), int(pose))] = lado
+    return fuera
+
+
+def senala_a_algo(piezas):
+    """Quien senala tiene que tener algo a ese lado.
+
+    Tras voltear, el personaje mira hacia dentro de la lamina; lo que este
+    chequeo busca es que ahi haya efectivamente alguna pieza y no el vacio:
+    senalar al aire se lee tan raro como senalar al margen."""
+    ori = orientaciones()
+    malos = []
+    for nombre, px, py, ps in piezas:
+        if not nombre.startswith("char:"):
+            continue
+        trozos = nombre.split(":")
+        quien = trozos[1]
+        # el formato es char:<quien>:<pose>; si viene otra cosa se deja pasar
+        # en vez de romper el informe entero
+        try:
+            pose = int(trozos[2]) if len(trozos) > 2 else 1
+        except ValueError:
+            continue
+        if (quien, pose) not in ori:
+            continue                      # de frente: no senala a ningun lado
+        hacia = "der" if px < .5 else "izq"
+        hay = [n for n, x, *_ in piezas
+               if n != nombre and ((x > px + .04) if hacia == "der" else (x < px - .04))]
+        if not hay:
+            malos.append("%s senala a la %s y no hay nada a ese lado"
+                         % (quien, "derecha" if hacia == "der" else "izquierda"))
+    return malos
+
+
 TRAE_EL_FONDO = {}
 NO_SALEN = {}
 
@@ -160,10 +217,27 @@ def revisa(escenas):
             # solo lo que se PUEDE dibujar: de los verbos y los adjetivos
             # del wordlist no hay figura, y no tiene sentido exigirlos
             pide = {k: v for k, v in menciones(texto, vocab).items() if k in hay_dibujo}
+            clave = "%s/%d" % (lvl, d["number"])
+
+            # El tema se mira SIEMPRE, aunque la historia no nombre ningun
+            # objeto del banco: "black clouds over the sea, a big storm is
+            # coming" no cita ninguna palabra dibujable y aun asi la lamina
+            # tiene que ensenar el tiempo.
+            for tema, (patron, dibujos) in TEMAS_VISIBLES.items():
+                if not re.search(patron, texto.lower()):
+                    continue
+                if clave not in escenas:
+                    decorado.append((clave, "habla del %s y la unidad no tiene "
+                                            "lamina propia" % tema))
+                else:
+                    fondo_t, piezas_t = escenas[clave]
+                    hay = {n for n, *_ in piezas_t} | set(TRAE_EL_FONDO.get(fondo_t, ()))
+                    if not (hay & set(dibujos)):
+                        decorado.append((clave, "habla del %s y el dibujo no "
+                                                "ensena nada de eso" % tema))
+
             if not pide:
                 continue
-
-            clave = "%s/%d" % (lvl, d["number"])
 
             # el sitio y el reparto se miran aunque la historia no nombre
             # ningun objeto dibujable
@@ -181,6 +255,11 @@ def revisa(escenas):
                     decorado.append((clave, "la historia nombra a %s y no salen"
                                      % ", ".join(faltan)))
 
+                # quien senala tiene que tener algo hacia donde senalar
+                for aviso in senala_a_algo(piezas):
+                    decorado.append((clave, aviso))
+
+
             if clave not in escenas:
                 sin_escena.append((clave, sorted(pide)))
                 continue
@@ -191,11 +270,17 @@ def revisa(escenas):
             for obj in TRAE_EL_FONDO.get(escenas[clave][0], ()):
                 puestos[obj] = puestos.get(obj, 0) + 1
 
+            # "the ducks" no dice cuantos: con dos en el dibujo la historia se
+            # cumple. Solo se exige el numero exacto cuando el texto lo dice
+            # ("three little cars").
+            plural = {p_.rstrip("s") for p_ in re.findall(r"[A-Za-z]+s\b", texto.lower())}
             for obj, cuantos in sorted(pide.items()):
                 hay = puestos.get(obj, 0)
                 if hay == 0:
                     problemas.append((clave, obj, cuantos, 0, "no esta en el dibujo"))
-                elif hay != cuantos:
+                elif hay < cuantos:
+                    problemas.append((clave, obj, cuantos, hay, "faltan"))
+                elif hay > cuantos and obj not in plural:
                     problemas.append((clave, obj, cuantos, hay, "cantidad distinta"))
     return problemas, sin_escena, decorado
 

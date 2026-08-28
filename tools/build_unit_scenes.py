@@ -89,8 +89,55 @@ ESCENAS = {
         # flotando sobre la hierba y encima de las vallas, y la escena
         # parecia un recorte de animales en vez de una visita al zoo.
     ]),
+    # "Snow day! Put on your coat, your hat, your gloves... and now nobody
+    # can move." La unidad va de ropa Y tiempo, y no tenia lamina: el fondo
+    # generico no dibuja nieve.
+    "movers/18": ("campus-hex", [
+        ("snowy", .18, .34, .30), ("cold", .84, .32, .26),
+        ("char:mateo:8", .40, .74, .38), ("char:erik:1", .60, .75, .37),
+        ("gloves", .12, .80, .18), ("scarf", .78, .78, .22), ("socks", .90, .82, .16),
+    ]),
+    # "Look at those black clouds over the sea! Kili, come inside - a big
+    # storm is coming!"
+    "flyers/19": ("picnic-garden", [
+        ("cloudy", .22, .30, .30), ("windy", .48, .26, .28), ("rainy", .74, .30, .28),
+        ("char:ingrid:5", .34, .76, .38), ("char:kili:2", .70, .60, .20),
+        ("umbrella", .90, .76, .24),
+    ]),
+    # "Today the Explorers visit the zoo... The monkeys are jumping, the big
+    # grey elephant is eating a banana, and the lion is sleeping." Los
+    # animales ya estan en el fondo del zoo; aqui van los ninos.
+    "starters/3": ("zoo", [
+        ("char:tomas:7", .34, .80, .34), ("char:freya:1", .56, .78, .34),
+        ("char:pip:4", .76, .60, .16), ("bird", .90, .34, .14),
+    ]),
+    # "Pet day at school! Dogs, cats, one rabbit... and Pip"
+    "starters/15": ("garden", [
+        ("dog", .20, .76, .26), ("cat", .42, .78, .24), ("rabbit", .64, .80, .20),
+        ("char:pip:1", .86, .74, .18),
+    ]),
+    # "Farm trip! Moo, baa, quack - Pip is talking to the ducks!"
+    "starters/16": ("picnic-garden", [
+        ("cow", .22, .74, .28), ("duck", .48, .80, .20), ("duck", .62, .82, .18),
+        ("char:pip:2", .84, .76, .18),
+    ]),
+    # "The elephant is SO big and the monkey is SO funny!" - los dos estan
+    # en el fondo del zoo
+    "starters/17": ("zoo", [
+        ("char:astrid:2", .36, .80, .34), ("char:nico:5", .60, .79, .34),
+    ]),
+    # "The sea is Pip's home! Waves, fish, little boats... and the lighthouse"
+    "starters/18": ("picnic-garden", [
+        ("fish", .24, .78, .22), ("dolphin", .48, .76, .24), ("whale", .70, .74, .26),
+        ("char:pip:1", .90, .76, .18),
+    ]),
+    # "Farm trip! Mateo, that's not a small horse... that's a donkey"
+    "movers/10": ("picnic-garden", [
+        ("horse", .28, .74, .30), ("cow", .56, .76, .26),
+        ("char:mateo:4", .78, .78, .34),
+    ]),
     # Sabado de lluvia y sol junto al fiordo, visto desde el mirador
-    "movers/2": ("mirador", [
+    "movers/2": ("picnic-garden", [
         ("char:erik:5", .32, .78, .40), ("char:sofia:1", .60, .79, .38),
         ("rainy", .11, .28, .30), ("windy", .27, .24, .26),
         ("rainbow", .50, .30, .34), ("sunny", .74, .24, .28),
@@ -128,7 +175,7 @@ ESCENAS = {
         ("red", .20, .52, .26), ("blue", .40, .44, .26),
         ("green", .60, .52, .26), ("yellow", .80, .44, .26),
     ]),
-    "starters/30": ("mirador", [
+    "starters/30": ("picnic-garden", [
         ("char:pip:4", .62, .78, .16),
         ("castle", .50, .62, .48), ("train", .18, .82, .24), ("kite", .82, .28, .26),
     ]),
