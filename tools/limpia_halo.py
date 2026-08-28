@@ -20,6 +20,7 @@ import numpy as np
 from PIL import Image
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+VOCAB = os.path.join(ROOT, "assets", "vocab")
 CHARS = os.path.join(ROOT, "assets", "characters")
 
 CLARO = 214          # a partir de aqui se considera "fondo blanco"
@@ -99,24 +100,37 @@ def limpia(ruta):
     return Image.fromarray(a, "RGBA"), prop
 
 
-if __name__ == "__main__":
-    arregla = "--arregla" in sys.argv
+def dibujos():
+    """Todo lo que se pega sobre una escena: los personajes y el banco de
+    vocabulario. El banco entra aqui porque sus recortes se usan igual —en
+    el zoo los animales van sobre la hierba— y el borde blanco que traen se
+    nota tanto o mas que en un personaje."""
     for lvl in sorted(os.listdir(CHARS)):
         for quien in sorted(os.listdir(os.path.join(CHARS, lvl))):
             p = os.path.join(CHARS, lvl, quien, "fullbody.png")
-            if not os.path.exists(p):
-                continue
-            im, prop = limpia(p)
-            if im is None:
-                continue
-            marca = ""
-            if prop > 1 / 3:
-                marca = "  <-- se lleva demasiado, NO se toca"
-            elif arregla:
-                im.save(p)
-                marca = "  corregido"
-            if prop * 100 >= AVISO or marca:
-                print("  %-9s %-11s fondo blanco pegado: %4.1f%%%s"
-                      % (lvl, quien, prop * 100, marca))
+            if os.path.exists(p):
+                yield lvl, quien, p
+    if os.path.isdir(VOCAB):
+        for f in sorted(os.listdir(VOCAB)):
+            if f.endswith(".png"):
+                yield "vocab", f[:-4], os.path.join(VOCAB, f)
+
+
+if __name__ == "__main__":
+    arregla = "--arregla" in sys.argv
+    for lvl, quien, p in dibujos():
+        im, prop = limpia(p)
+        if im is None:
+            continue
+        marca = ""
+        if prop > 1 / 3:
+            marca = "  <-- se lleva demasiado, NO se toca"
+        elif arregla:
+            im.save(p)
+            marca = "  corregido"
+        if prop * 100 >= AVISO or marca:
+            print("  %-9s %-11s fondo blanco pegado: %4.1f%%%s"
+                  % (lvl, quien, prop * 100, marca))
     if not arregla:
-        print("\n(nada se ha modificado: anade --arregla)")
+        print("")
+        print("(nada se ha modificado: anade --arregla)")

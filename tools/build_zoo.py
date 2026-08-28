@@ -7,6 +7,11 @@ Es la excepcion, asi que el sitio se dibuja aqui en vez de salir de una
 foto: arco de entrada, taquilla, vallas, recintos al fondo y los carteles
 de lo que hay dentro.
 
+Los animales no se dibujan aqui: se pegan del banco de vocabulario, que
+ya los tiene en el mismo estilo 3D que el resto del curso. Antes la escena
+era solo el arco y unos carteles, y un zoo sin animales no se lee como un
+zoo: el alumno tiene que ver a donde va antes de leer la historia.
+
 Encima van los ninos del nivel mirando el plano y decidiendo por donde
 empezar, que es lo que cuenta la unidad.
 
@@ -76,6 +81,58 @@ def cartel(d, x, y, texto, ancho=190, alto=54, fondo=(247, 244, 238)):
     d.text((x, y + alto // 2), texto, font=f, fill=(60, 46, 32), anchor="mm")
 
 
+BANCO = os.path.join(ROOT, "assets", "vocab")
+
+
+def pega(im, nombre, cx, suelo, alto):
+    """Pone un animal del banco con su sombra de contacto.
+
+    Se escala por la altura y se apoya por los pies, no por el centro: los
+    dibujos del banco vienen recortados a su contenido y cada animal tiene
+    una proporcion distinta, asi que centrarlos deja unos flotando y otros
+    hundidos en la hierba."""
+    ruta = os.path.join(BANCO, nombre + ".png")
+    if not os.path.exists(ruta):
+        return False
+    a = Image.open(ruta).convert("RGBA")
+    # Los recortes del banco conservan un borde casi blanco que sobre la
+    # hierba se ve como un parche. Se quita antes de escalar, cuando el
+    # pixel todavia es el original y no una mezcla del remuestreo.
+    import numpy as np
+    arr = np.array(a)
+    casi_blanco = (arr[:, :, :3].min(axis=2) > 228) & (arr[:, :, 3] < 250)
+    arr[casi_blanco, 3] = 0
+    a = Image.fromarray(arr, "RGBA")
+    esc = alto / a.height
+    a = a.resize((max(1, int(a.width * esc)), alto), Image.LANCZOS)
+
+    sombra = Image.new("RGBA", im.size, (0, 0, 0, 0))
+    ImageDraw.Draw(sombra).ellipse(
+        [cx - a.width * .40, suelo - 12, cx + a.width * .40, suelo + 12],
+        fill=(42, 62, 40, 90))
+    im.alpha_composite(sombra.filter(ImageFilter.GaussianBlur(7)))
+    im.alpha_composite(a, (int(cx - a.width / 2), suelo - alto))
+    return True
+
+
+def corral(im, d, x0, x1, y0, y1, nombre, animales, alto):
+    """Un recinto de primera fila: hierba, animal dentro y valla delante."""
+    d.rounded_rectangle([x0, y0, x1, y1], 22, fill=(150, 196, 122),
+                        outline=(120, 166, 96), width=3)
+
+    # el cartel arriba: colgado a media altura tapaba al animal, que es
+    # justo lo que la escena tiene que dejar ver
+    cartel(d, (x0 + x1) // 2, y0 + 12, nombre, ancho=int((x1 - x0) * .88), alto=32)
+
+    suelo = y1 - 46
+    n = len(animales)
+    for i, (bicho, k) in enumerate(animales):
+        cx = x0 + (x1 - x0) * (i + 1) / (n + 1)
+        pega(im, bicho, cx, suelo + (0 if n == 1 else 8 * (i % 2)), int(alto * k))
+
+    valla(d, x0 + 6, x1 - 6, y1 - 14, 56)
+
+
 def recinto(d, x, y, ancho, nombre):
     """Un recinto al fondo: valla curva, seto y su cartelito."""
     d.ellipse([x - ancho // 2, y - 46, x + ancho // 2, y + 26], fill=HOJA_C)
@@ -84,7 +141,7 @@ def recinto(d, x, y, ancho, nombre):
 
 
 def zoo():
-    im = Image.new("RGB", (W, H), "white")
+    im = Image.new("RGBA", (W, H), "white")
     d = ImageDraw.Draw(im)
 
     degradado(d, (0, 0, W, int(H * .52)), CIELO[0], CIELO[1])
@@ -99,44 +156,56 @@ def zoo():
             d.ellipse([cx + (dx - r) * e, cy + (dy - r) * e, cx + (dx + r) * e, cy + (dy + r) * e],
                       fill=(255, 255, 255))
 
-    # recintos al fondo, con su nombre: es lo que van a visitar
-    recinto(d, 210, int(H * .40), 300, "MONKEYS")
-    recinto(d, 650, int(H * .44), 290, "LIONS")
-    recinto(d, 1070, int(H * .44), 290, "PENGUINS")
-    recinto(d, 1510, int(H * .40), 300, "ELEPHANTS")
+    # arboles del fondo
+    for x, e in ((90, .8), (520, .6), (1200, .6), (1660, .8)):
+        arbol(d, x, int(H * .40), e)
 
-    for x, e in ((110, 1.0), (430, .8), (860, .75), (1290, .85), (1640, 1.0)):
-        arbol(d, x, int(H * .60), e)
+    # arco de entrada, mas arriba y mas pequeno que antes: la mitad de
+    # abajo hace falta entera para los recintos
+    ax0, ax1, ay = int(W * .34), int(W * .66), int(H * .40)
+    d.rectangle([ax0, ay - 210, ax0 + 34, ay], fill=MADERA)
+    d.rectangle([ax1 - 34, ay - 210, ax1, ay], fill=MADERA)
+    d.rectangle([ax0 - 16, ay - 246, ax1 + 16, ay - 202], fill=MADERA_C)
+    d.polygon([(ax0 - 30, ay - 246), (W // 2, ay - 310), (ax1 + 30, ay - 246)], fill=TECHO)
+    d.text((W // 2, ay - 224), "NORDIC ZOO", font=fuente(44),
+           fill=(255, 246, 232), anchor="mm")
 
-    # camino de entrada, ancho por delante
-    d.polygon([(int(W * .34), int(H * .60)), (int(W * .66), int(H * .60)),
-               (W, H), (0, H)], fill=CAMINO)
-    for k in range(5):
-        y = int(H * .66) + k * 48
-        d.line([(int(W * .30) - k * 46, y), (int(W * .70) + k * 46, y)],
-               fill=(210, 192, 160), width=3)
-
-    # arco de entrada
-    ax0, ax1, ay = int(W * .28), int(W * .72), int(H * .60)
-    d.rectangle([ax0, ay - 300, ax0 + 46, ay], fill=MADERA)
-    d.rectangle([ax1 - 46, ay - 300, ax1, ay], fill=MADERA)
-    d.rectangle([ax0 - 22, ay - 348, ax1 + 22, ay - 288], fill=MADERA_C)
-    d.polygon([(ax0 - 40, ay - 348), (W // 2, ay - 430), (ax1 + 40, ay - 348)], fill=TECHO)
-    f = fuente(62)
-    d.text((W // 2, ay - 318), "NORDIC ZOO", font=f, fill=(255, 246, 232), anchor="mm")
-
-    # taquilla a la izquierda del arco
-    d.rounded_rectangle([ax0 - 300, ay - 176, ax0 - 130, ay], 12, fill=(238, 226, 200),
+    # taquilla, ahora dentro del cuadro y sin que la valla la tape
+    tx = ax0 - 180
+    d.rounded_rectangle([tx - 74, ay - 124, tx + 74, ay], 12, fill=(238, 226, 200),
                         outline=MADERA, width=5)
-    d.polygon([(ax0 - 322, ay - 176), (ax0 - 215, ay - 232), (ax0 - 108, ay - 176)], fill=TECHO)
-    d.rounded_rectangle([ax0 - 268, ay - 140, ax0 - 162, ay - 76], 8, fill=(176, 214, 232),
+    d.polygon([(tx - 94, ay - 124), (tx, ay - 168), (tx + 94, ay - 124)], fill=TECHO)
+    d.rounded_rectangle([tx - 48, ay - 96, tx + 48, ay - 52], 8, fill=(176, 214, 232),
                         outline=MADERA, width=4)
-    cartel(d, ax0 - 215, ay - 60, "TICKETS", ancho=132, alto=32)
+    cartel(d, tx, ay - 44, "TICKETS", ancho=124, alto=30)
 
-    valla(d, 0, ax0 - 320, ay + 6)
-    valla(d, ax1 + 10, W, ay + 6)
+    valla(d, 0, tx - 96, ay + 4, 46)
+    valla(d, ax1 + 10, W, ay + 4, 46)
+
+    # camino corto: solo el trozo que va del arco a los recintos
+    d.polygon([(int(W * .40), ay), (int(W * .60), ay),
+               (W, H), (0, H)], fill=CAMINO)
+
+    # los recintos, en primera fila y con los animales dentro. Son los que
+    # nombra la historia de la unidad: pandas, leones, elefantes, pinguinos
+    # y monos, mas el estanque de los delfines.
+    CORRALES = [
+        ("PANDAS",    [("panda", 1.00)],     1.00),
+        ("LIONS",     [("lion", 1.00)],      1.00),
+        ("ELEPHANTS", [("elephant", 1.00)],  1.06),
+        ("PENGUINS",  [("penguin", 1.00)],    .96),
+        ("MONKEYS",   [("monkey", 1.00)],     .96),
+        ("KANGAROOS", [("kangaroo", 1.00)],  1.02),
+    ]
+    y0, y1 = int(H * .41), int(H * .74)
+    ancho = (W - 2 * 12 - 5 * 8) // 6
+    alto = int((y1 - y0) * .62)
+    for i, (nombre, bichos, k) in enumerate(CORRALES):
+        x0 = 12 + i * (ancho + 8)
+        corral(im, d, x0, x0 + ancho, y0, y1, nombre, bichos, int(alto * k))
 
     # un poco de profundidad, como en las demas escenas del curso
+    im = im.convert("RGB")
     suave = im.filter(ImageFilter.GaussianBlur(W / 520.0))
     mask = Image.new("L", (W, H))
     px = mask.load()

@@ -60,15 +60,15 @@ ESCENAS = {
     # entrada mirando el plano y decidiendo por donde empezar, y los
     # animales asoman por sus recintos.
     "movers/1": ("zoo", [
-        ("char:valentina:2", .28, .68, .48), ("char:erik:1", .42, .70, .46),
-        ("char:sofia:1", .58, .69, .46), ("char:mateo:4", .72, .70, .44),
+        ("char:valentina:2", .29, .72, .36), ("char:erik:1", .42, .74, .34),
+        ("char:sofia:1", .58, .73, .34), ("char:mateo:4", .71, .74, .33),
         # el plano va DELANTE: se dibuja de menor a mayor y, asi que con la
         # y mas alta que la de los ninos queda en sus manos y no detras
-        ("prop:zoomap", .50, .78, .24),
-        ("lion", .09, .50, .22), ("panda", .21, .44, .18),
-        ("penguin", .81, .45, .18), ("kangaroo", .93, .49, .22),
-        ("parrot", .14, .28, .13), ("whale", .10, .90, .16),
-        ("dolphin", .90, .90, .16), ("snail", .35, .94, .10),
+        ("prop:zoomap", .50, .82, .19),
+        # Los animales NO se pegan aqui: van dentro de sus recintos, en el
+        # propio fondo (tools/build_zoo.py). Pegados sueltos quedaban
+        # flotando sobre la hierba y encima de las vallas, y la escena
+        # parecia un recorte de animales en vez de una visita al zoo.
     ]),
     # Sabado de lluvia y sol junto al fiordo, visto desde el mirador
     "movers/2": ("mirador", [
@@ -288,10 +288,13 @@ def componer(fondo, piezas):
         # dos sombras: una ancha y difusa que asienta la figura en el
         # espacio, y otra pequena y oscura pegada al pie, que es la que
         # hace que no parezca recortada y pegada encima
-        ancha = Image.new("RGBA", (int(ob.width * 1.25), max(10, ob.height // 4)), (0, 0, 0, 0))
+        # La ancha va rasante y muy tenue. Mas alta y mas opaca se difumina
+        # en un cuadrado gris debajo de la figura, que es peor que no tener
+        # sombra: se ve el recorte y encima con caja.
+        ancha = Image.new("RGBA", (int(ob.width * 1.15), max(8, ob.height // 8)), (0, 0, 0, 0))
         ImageDraw.Draw(ancha).ellipse([0, 0, ancha.width - 1, ancha.height - 1],
-                                      fill=(26, 36, 52, 46))
-        ancha = ancha.filter(ImageFilter.GaussianBlur(ancha.height / 2.4))
+                                      fill=(26, 36, 52, 30))
+        ancha = ancha.filter(ImageFilter.GaussianBlur(ancha.height / 1.8))
         base.paste(ancha, (ox - (ancha.width - ob.width) // 2,
                            oy + ob.height - ancha.height // 2), ancha)
 
