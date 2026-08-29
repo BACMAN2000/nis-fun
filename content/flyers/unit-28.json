@@ -253,6 +253,180 @@
    ],
    "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
    "data": {}
+  },
+  {
+   "type": "label_people",
+   "title": "Listen and write the names.",
+   "instructions": "Look at the picture. Listen and write the name under each person. Careful: there are three names you do not need.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 2,
+     "nombre": "Everyday Life & Habits"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and label the people in the picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u28-g.mp3",
+   "data": {
+    "scene": "picnic-garden",
+    "place": "the picnic garden",
+    "people": [
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 7,
+      "clue": "the girl in the green shirt with a magnifying glass",
+      "action": "is looking at something very small"
+     },
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "pose": 7,
+      "clue": "the boy with red hair and a yellow shirt",
+      "action": "is singing"
+     },
+     {
+      "slug": "samu",
+      "name": "Samu",
+      "pose": 7,
+      "clue": "the boy with short fair hair and a rucksack",
+      "action": "is waving"
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "pose": 7,
+      "clue": "the boy with curly brown hair and a green shirt",
+      "action": "is running after the ball"
+     },
+     {
+      "slug": "aiko",
+      "name": "Aiko",
+      "pose": 7,
+      "clue": "the girl with long straight black hair and an orange shirt",
+      "action": "is reading a book"
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Bruno",
+     "Diego",
+     "Iris",
+     "Lia",
+     "Maya",
+     "Oliver",
+     "Samu"
+    ],
+    "script": "Look at the picture. Listen and write the names. There is one example. … Diego: Who is that in the picnic garden? The girl in the green shirt with a magnifying glass. … Maya: That is Maya. Maya is looking at something very small. … Diego: And who is the boy with red hair and a yellow shirt? … Maya: That is Oliver. Look, Oliver is singing. … Diego: And who is the boy with short fair hair and a rucksack? … Maya: That is Samu. Look, Samu is waving. … Diego: And who is the boy with curly brown hair and a green shirt? … Maya: That is Bruno. Look, Bruno is running after the ball. … Diego: And who is the girl with long straight black hair and an orange shirt? … Maya: That is Aiko. Look, Aiko is reading a book.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  },
+  {
+   "type": "picture_story",
+   "title": "Look at the three pictures and write the story.",
+   "instructions": "Look at the pictures. Write the story in 20-25 words. Use the words under each picture to help you.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 2,
+     "nombre": "Everyday Life & Habits"
+    },
+    "destreza": "Writing",
+    "puede": "Writing Part 3: 20–25-word picture story (Flyers); classroom pieces 100–150w.",
+    "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "chess-plaza",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 4
+       }
+      ],
+      "word": "excited",
+      "hint": "Maya / be / excited",
+      "model": "Maya is excited at the chess square."
+     },
+     {
+      "n": 2,
+      "scene": "picnic-garden",
+      "people": [
+       {
+        "slug": "oliver",
+        "pose": 3
+       },
+       {
+        "slug": "maya",
+        "pose": 6
+       }
+      ],
+      "word": "bored",
+      "hint": "Oliver / talk to / Maya / bored",
+      "model": "Oliver talks to Maya because she looks bored."
+     },
+     {
+      "n": 3,
+      "scene": "main-building",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 10
+       },
+       {
+        "slug": "oliver",
+        "pose": 1
+       }
+      ],
+      "word": "tired",
+      "hint": "now / both / tired",
+      "model": "Now they are both tired and they smile."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Maya is excited at the chess square. Oliver talks to Maya because she looks bored. Now they are both tired and they smile.",
+    "words": [
+     "excited",
+     "bored",
+     "tired"
+    ],
+    "support": {
+     "grammar": "so (resultado) / because (causa)",
+     "words": [
+      "tired",
+      "hungry",
+      "thirsty",
+      "bored",
+      "excited",
+      "afraid"
+     ]
+    }
+   },
+   "code": "H"
   }
  ],
  "homework": [

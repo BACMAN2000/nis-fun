@@ -19,8 +19,19 @@ if(/\.github\.io$/i.test(location.hostname)){
     --line:#d7e1e9; --accent:#3b6fb5; --ok:#2f9268; --bad:#cc4b3d; --star:#e0a91f;
   }
   *{box-sizing:border-box}
+  html{min-width:0;overflow-x:hidden}
   body{margin:0;background:var(--bg);color:var(--ink);font-family:"Source Sans 3",system-ui,sans-serif;font-size:1.04rem;line-height:1.5}
   main{max-width:64rem;margin:0 auto;padding:1rem 1rem 5rem}
+  .sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;
+    margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;
+    white-space:nowrap!important;border:0!important}
+  .app-loading{min-height:70vh;display:grid;place-items:center;text-align:center;color:var(--soft)}
+  .app-loading span{display:block;width:2.4rem;height:2.4rem;margin:0 auto .8rem;
+    border:.3rem solid var(--line);border-top-color:var(--accent);border-radius:50%;
+    animation:loading-spin .8s linear infinite}
+  .app-loading strong{display:block;font-family:"Baloo 2";font-size:1.15rem;color:var(--ink)}
+  @keyframes loading-spin{to{transform:rotate(360deg)}}
+  @media (prefers-reduced-motion:reduce){.app-loading span{animation:none;border-top-color:var(--line)}}
 
   /* ---------- navegacion pantalla a pantalla ---------- */
   .scr{position:relative;min-height:calc(100vh - 3rem);display:flex;flex-direction:column;
@@ -159,11 +170,42 @@ if(/\.github\.io$/i.test(location.hostname)){
     background:var(--line)}
   .scr-dot.on{background:var(--accent);transform:scale(1.25)}
 
+  .course-status{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:.75rem 1rem;
+    align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:16px;
+    padding:1rem 1.1rem;text-align:left;box-shadow:0 8px 24px rgba(20,40,70,.08)}
+  .course-status h3{margin:0;font-size:1.15rem;color:var(--ink)}
+  .course-status p{margin:.15rem 0 0;color:var(--soft);font-size:.94rem}
+  .course-status .continue{grid-column:2;grid-row:1 / span 2;display:inline-flex;
+    align-items:center;justify-content:center;gap:.35rem;background:var(--accent);color:#fff;
+    border-radius:999px;padding:.7rem 1.1rem;text-decoration:none;font-family:"Baloo 2";
+    font-weight:800;white-space:nowrap;min-height:44px}
+  .course-meter{grid-column:1 / -1;height:.65rem;border-radius:999px;background:var(--surface2);
+    overflow:hidden}
+  .course-meter span{display:block;height:100%;width:var(--progress);background:var(--accent);
+    border-radius:inherit;transition:width .25s ease}
+  .intro-skip{background:transparent;color:var(--accent);border:1px solid var(--line);
+    border-radius:999px;min-height:44px}
+
   @media (max-width:760px){
     .scr{padding:0 .6rem}
-    .scr-nav{bottom:1rem;top:auto;transform:none}
-    .scr-next{right:1rem} .scr-prev{left:1rem}
+    main{padding:.6rem .65rem 6.5rem;max-width:100%}
+    .scr{min-height:100dvh;padding:0;max-width:100%}
+    .scr-top{margin:.2rem 0 .6rem;min-height:2.8rem}
+    .scr-body{min-height:auto;width:100%;overflow:visible}
+    .scr-body > *{margin-block:.4rem}
+    .scr-centro{gap:.7rem;max-width:100%}
+    .scr-nav{bottom:.75rem;top:auto;transform:none;min-height:48px;z-index:20}
+    .scr-next{right:.75rem;max-width:calc(100vw - 5rem)} .scr-prev{left:.75rem;width:48px;padding:0;justify-content:center}
+    .scr-dots{margin:1rem 4rem .4rem;gap:.5rem}
+    .scr-dot{width:.8rem;height:.8rem;min-width:.8rem;min-height:.8rem}
     .band-grande img{height:120px}
+    .scr-escena{max-height:44dvh;width:100%;object-fit:contain}
+    .scr-video{max-height:50dvh}
+    .course-status{grid-template-columns:1fr;text-align:center;padding:.9rem}
+    .course-status .continue{grid-column:1;grid-row:auto;width:100%}
+    .course-meter{grid-column:1}
+    .units{grid-template-columns:1fr;gap:.7rem;width:100%}
+    a.ucard{padding:.8rem .9rem}
   }
 
   /* ---------- grabadora de voz ---------- */
@@ -302,6 +344,11 @@ if(/\.github\.io$/i.test(location.hostname)){
   a.ucard:hover{border-color:var(--accent)}
   a.ucard .n{font-family:"Baloo 2";font-weight:800;color:var(--accent);font-size:1.3rem}
   a.ucard .stars{color:var(--star);font-size:1.05rem}
+  a.ucard .unit-progress{display:flex;align-items:center;justify-content:space-between;
+    gap:.7rem;margin-top:.45rem;color:var(--soft);font-size:.82rem}
+  a.ucard .unit-meter{height:.45rem;background:var(--surface2);border-radius:999px;
+    overflow:hidden;flex:1}
+  a.ucard .unit-meter span{display:block;height:100%;background:var(--accent);border-radius:inherit}
   /* celebration */
   #cele{position:fixed;inset:0;background:rgba(27,43,61,.55);display:none;align-items:center;justify-content:center;z-index:9}
   #cele.on{display:flex}
@@ -381,13 +428,164 @@ if(/\.github\.io$/i.test(location.hostname)){
   .guide h2{text-align:center}
   /* portada de niveles */
   .lvcards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1.2rem}
-  .lvcard{display:flex;flex-direction:column;align-items:center;gap:.3rem;text-decoration:none;color:var(--ink);
-    background:var(--surface);border:1px solid var(--line);border-top:6px solid var(--lv);border-radius:16px;padding:1.4rem 1rem 1.2rem}
-  .lvcard:hover{border-color:var(--lv)}
-  .lvcard img{height:180px;margin-bottom:.4rem}
-  .lvcard b{font-family:"Baloo 2";font-size:1.25rem;color:var(--lv)}
+  .lvcard{display:block;text-decoration:none;color:var(--ink);background:var(--surface);
+    border:1px solid var(--line);border-top:6px solid var(--lv);border-radius:18px;
+    overflow:hidden;box-shadow:0 10px 28px rgba(20,40,70,.10);
+    transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
+  .lvcard:hover,.lvcard:focus-visible{border-color:var(--lv);transform:translateY(-6px);
+    box-shadow:0 18px 38px rgba(20,40,70,.18);outline:none}
+  .lvmedia{position:relative;aspect-ratio:16/9;overflow:hidden;background:var(--surface2)}
+  .lvmedia video,.lvmedia .lvfallback{position:absolute;inset:0;width:100%;height:100%;
+    object-fit:cover;display:block;transition:transform .5s ease,filter .3s ease}
+  .lvmedia .lvfallback{z-index:0}
+  .lvmedia video{z-index:1}
+  .lvcard:hover .lvmedia video,.lvcard:focus-visible .lvmedia video{transform:scale(1.035)}
+  .lvshade{position:absolute;inset:auto 0 0;z-index:2;height:48%;pointer-events:none;
+    background:linear-gradient(to top,rgba(8,20,36,.68),rgba(8,20,36,0))}
+  .lvbadge{position:absolute;left:.75rem;top:.7rem;z-index:3;background:rgba(255,255,255,.92);
+    color:var(--lv);border-radius:999px;padding:.25rem .65rem;font-family:"Baloo 2";
+    font-size:.78rem;font-weight:800;box-shadow:0 3px 12px rgba(20,40,70,.18)}
+  .lvplaying{position:absolute;right:.7rem;top:.7rem;z-index:3;display:flex;align-items:center;
+    gap:.28rem;background:rgba(8,20,36,.65);color:#fff;border-radius:999px;padding:.27rem .58rem;
+    font-size:.7rem;font-weight:700;opacity:0;transition:opacity .2s ease}
+  .lvcard.is-playing .lvplaying{opacity:1}
+  .lvpulse{width:.45rem;height:.45rem;background:#66e5ae;border-radius:50%;
+    box-shadow:0 0 0 0 rgba(102,229,174,.6);animation:lvpulse 1.8s infinite}
+  @keyframes lvpulse{70%{box-shadow:0 0 0 .4rem rgba(102,229,174,0)}100%{box-shadow:0 0 0 0 rgba(102,229,174,0)}}
+  .lvinfo{padding:.9rem 1rem 1rem;display:grid;gap:.14rem}
+  .lvcard b{font-family:"Baloo 2";font-size:1.25rem;color:var(--lv);line-height:1.2}
   .lvcard .exam{font-size:.8rem;text-transform:uppercase;letter-spacing:.07em;color:var(--soft);font-weight:700}
   .lvcard .cast{font-size:.9rem;color:var(--soft)}
+  .lvcta{display:flex;align-items:center;justify-content:space-between;margin-top:.55rem;
+    color:var(--lv);font-family:"Baloo 2";font-weight:800}
+  @media (max-width:560px){
+    .hub h1{font-size:1.75rem}
+    .campus-banner{margin-bottom:1rem}
+    .campus-banner img{height:10rem;object-fit:cover}
+    .lvcards{gap:.8rem}
+    .lvcard{border-radius:16px}
+    .lvinfo{padding:.75rem .85rem .85rem}
+    .lvcard b{font-size:1.15rem}
+    .lvcta{margin-top:.35rem}
+  }
+  @media (prefers-reduced-motion:reduce){
+    .lvcard,.lvmedia video{transition:none}
+    .lvcard:hover,.lvcard:focus-visible{transform:none}
+    .lvpulse{animation:none}
+  }
+  /* ---------- tareas visuales del examen A2 Flyers ----------
+     Cuatro formatos que se resuelven MIRANDO: poner nombres bajo las
+     personas, marcar una de tres imagenes, emparejar cada explorador con
+     una letra y escribir la historia de tres vinetas. El dibujo siempre es
+     nuestro: personajes de la biblia sobre escenarios del campus. */
+  .vis-escena{position:relative;width:100%;border-radius:16px;overflow:hidden;
+    border:1px solid var(--line);background:var(--surface2)}
+  /* el fondo va detras y en absoluto, y la fila de personajes fluye por
+     encima: si la fila se posiciona al fondo del recuadro, en cuanto son
+     cinco se parte en dos lineas y la de arriba se sale de la escena */
+  .vis-escena > img.fondo{position:absolute;inset:0;width:100%;height:100%;
+    object-fit:cover;opacity:.5}
+  .vis-fila{position:relative;display:flex;justify-content:center;align-items:flex-end;
+    gap:.5rem;padding:.9rem .6rem;flex-wrap:wrap}
+  .vis-quien{display:flex;flex-direction:column;align-items:center;gap:.25rem;min-width:5rem}
+  .vis-quien img{height:6.6rem;width:auto;object-fit:contain;
+    filter:drop-shadow(0 3px 5px rgba(0,0,0,.28))}
+  .vis-quien input{width:5.4rem;text-align:center;font-weight:700;
+    border:2px solid var(--line);border-radius:9px;padding:.28rem;background:var(--surface)}
+  .vis-quien input.ok{border-color:var(--ok);background:#e2f2e9}
+  .vis-quien input.bad{border-color:var(--bad)}
+  .vis-quien input.revelado{border-color:var(--accent);background:var(--surface2)}
+  .vis-quien .num{font-size:.78rem;font-weight:800;color:var(--soft)}
+  .vis-banco{display:flex;flex-wrap:wrap;justify-content:center;gap:.4rem;margin:.7rem 0}
+  .vis-banco span{background:var(--surface2);border:1px solid var(--line);border-radius:999px;
+    padding:.28rem .8rem;font-weight:700;font-size:.92rem}
+  .vis-banco span.usado{opacity:.35;text-decoration:line-through}
+  .vis-sitio{font-size:.86rem;color:var(--soft);margin:.2rem 0 .6rem}
+
+  /* marcar una de tres */
+  .vis-preg{margin:0 0 1.3rem;text-align:left}
+  .vis-preg > p{margin:0 0 .45rem;font-weight:700}
+  .vis-ops{display:grid;grid-template-columns:repeat(3,1fr);gap:.6rem}
+  .vis-op{background:var(--surface);border:2px solid var(--line);border-radius:14px;
+    padding:.6rem .4rem;display:flex;flex-direction:column;align-items:center;gap:.3rem;
+    cursor:pointer;font:inherit;color:var(--ink)}
+  .vis-op:hover{border-color:var(--accent)}
+  .vis-op .letra{font-weight:800;color:var(--soft);font-size:.82rem}
+  .vis-op .dib{height:5rem;display:flex;align-items:center;justify-content:center}
+  .vis-op .dib img{max-height:5rem;max-width:100%;object-fit:contain}
+  .vis-op .dib svg{height:4.4rem;width:4.4rem}
+  .vis-op .dib .emo{font-size:3.4rem;line-height:1}
+  /* La palabra NO se ve mientras se resuelve: en el examen las imagenes van
+     sin etiqueta, y con el pie puesto el alumno lee la respuesta en vez de
+     escucharla. Sigue en el aria-label, que es lo que un lector de pantalla
+     necesita para saber que hay dibujado — eso no es la respuesta, es la
+     imagen. Al corregir aparece, que ahi si ayuda a fijar la palabra. */
+  .vis-op .pie{font-size:.82rem;color:var(--soft);visibility:hidden}
+  .vis-ops.resuelto .vis-op .pie{visibility:visible}
+  .vis-op.sel{border-color:var(--accent);background:var(--surface2)}
+  .vis-op.ok{border-color:var(--ok);background:#e2f2e9}
+  .vis-op.bad{border-color:var(--bad)}
+  .vis-op.marca{outline:3px dashed var(--accent);outline-offset:2px}
+  .vis-op[disabled]{cursor:default}
+
+  /* emparejar con A-H */
+  .vis-galeria{display:grid;grid-template-columns:repeat(4,1fr);gap:.55rem;margin:.8rem 0 1.1rem}
+  .vis-foto{background:var(--surface);border:2px solid var(--line);border-radius:12px;
+    padding:.45rem .3rem;display:flex;flex-direction:column;align-items:center;gap:.2rem}
+  .vis-foto .letra{font-weight:800;color:var(--accent)}
+  .vis-foto .dib{height:3.6rem;display:flex;align-items:center;justify-content:center}
+  .vis-foto .dib img{max-height:3.6rem;max-width:100%;object-fit:contain}
+  .vis-foto .dib svg{height:3.2rem;width:3.2rem}
+  .vis-foto .dib .emo{font-size:2.4rem;line-height:1}
+  .vis-foto.usada{border-color:var(--ok)}
+  .vis-gente{display:flex;flex-wrap:wrap;justify-content:center;gap:.7rem}
+  .vis-gente .vis-quien img{height:6.4rem}
+  .vis-gente select{font:inherit;font-weight:700;border:2px solid var(--line);
+    border-radius:9px;padding:.26rem .5rem;background:var(--surface)}
+  .vis-gente select.ok{border-color:var(--ok);background:#e2f2e9}
+  .vis-gente select.bad{border-color:var(--bad)}
+  .vis-gente select.revelado{border-color:var(--accent);background:var(--surface2)}
+
+  /* historia de tres vinetas */
+  .vis-tira{display:grid;grid-template-columns:repeat(3,1fr);gap:.7rem;margin-bottom:.8rem}
+  .vis-vineta{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--surface)}
+  .vis-vineta .marco{position:relative;height:11rem;background:var(--surface2)}
+  .vis-vineta .marco img.fondo{width:100%;height:100%;object-fit:cover;opacity:.6}
+  .vis-vineta .marco .gente{position:absolute;inset:auto 0 0 0;display:flex;
+    justify-content:center;align-items:flex-end;gap:.2rem}
+  .vis-vineta .marco .gente img{height:7.6rem;filter:drop-shadow(0 3px 5px rgba(0,0,0,.28))}
+  .vis-vineta .nn{position:absolute;top:.35rem;left:.45rem;background:var(--accent);color:#fff;
+    border-radius:999px;width:1.5rem;height:1.5rem;display:grid;place-items:center;
+    font-weight:800;font-size:.82rem}
+  .vis-vineta .pista{padding:.45rem .55rem;font-size:.85rem;color:var(--soft);font-weight:700}
+  /* el lenguaje de apoyo: la gramatica de la unidad y unas palabras suyas.
+     Sin esto la vineta generica valdria para cualquier unidad, y la idea es
+     que el alumno escriba con lo que acaba de aprender. */
+  .vis-apoyo{display:flex;flex-wrap:wrap;align-items:center;gap:.4rem;
+    justify-content:center;margin:0 0 .7rem;font-size:.86rem}
+  .vis-apoyo b{color:var(--accent);margin-right:.3rem}
+  .vis-apoyo span{background:var(--surface2);border:1px solid var(--line);
+    border-radius:999px;padding:.16rem .65rem;font-weight:700;color:var(--soft)}
+  .vis-historia textarea{width:100%;min-height:6.5rem;font:inherit;padding:.7rem .85rem;
+    border:2px solid var(--line);border-radius:12px;background:var(--surface);color:var(--ink);resize:vertical}
+  .vis-historia textarea:focus{outline:0;border-color:var(--accent)}
+  .vis-contador{font-size:.86rem;color:var(--soft);margin-top:.35rem;text-align:right}
+  .vis-contador.bien{color:var(--ok);font-weight:700}
+  .vis-modelo{margin-top:.7rem;background:var(--surface2);border-radius:12px;
+    padding:.7rem .9rem;text-align:left;font-size:.94rem}
+
+  /* la etiqueta que dice a que clase de 5.o sirve la tarea */
+  .vis-kpi{display:flex;flex-wrap:wrap;gap:.4rem;justify-content:center;margin-bottom:.7rem}
+  .vis-kpi span{background:var(--surface2);border:1px solid var(--line);border-radius:999px;
+    padding:.18rem .7rem;font-size:.76rem;color:var(--soft);font-weight:700}
+
+  @media (max-width:640px){
+    .vis-ops{grid-template-columns:1fr}
+    .vis-galeria{grid-template-columns:repeat(2,1fr)}
+    .vis-tira{grid-template-columns:1fr}
+    .vis-quien img{height:6.4rem}
+    .vis-vineta .marco{height:9rem}
+  }
 </style>
 </head>
 <body>
@@ -402,14 +600,16 @@ if(/\.github\.io$/i.test(location.hostname)){
 <script src="vocab-art.js?v=1"></script>
 <script src="orientacion.js?v=1"></script>
 <script src="screens.js?v=4"></script>
-<script src="banner.js?v=4"></script>
+<script src="banner.js?v=8"></script>
 <script src="magicbox.js?v=4"></script>
 <script src="recorder.js?v=1"></script>
 <!-- el curso comparte dominio y sesion con el portal -->
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4"></script>
 <script src="../../config.js"></script>
 <script src="backend.js?v=1"></script>
-<main id="app">Loading…</main>
+<main id="app"><div class="app-loading" role="status" aria-live="polite">
+  <div><span aria-hidden="true"></span><strong>Preparing your course…</strong>
+    <small>Loading activities and illustrations.</small></div></div></main>
 <div id="cele"><div class="box"><img id="cele-img" alt=""><h2>Well done!</h2><p id="cele-msg"></p><button onclick="document.getElementById('cele').classList.remove('on')">OK</button></div></div>
 <script>
 const qs = new URLSearchParams(location.search);
@@ -506,13 +706,56 @@ async function levels(){
     <p style="color:var(--soft);margin:0 0 1.4rem">Cambridge Young Learners · Nordic International School</p>
     <div class="campus-banner"><img src="../assets/scenes/main-building.jpg?v=${ART_V}" alt="Nordic campus"></div>
     <div class="lvcards">${data.levels.map(l=>`
-      <a class="lvcard" href="${Q(`?level=${l.id}`)}" style="--lv:${l.color}">
-        <img src="../assets/characters/${l.id}/${l.mascot}/pose-01.png?v=${ART_V}"
-             onerror="this.onerror=null;this.src=this.src.replace('.png','.svg')" alt="">
-        <b>${l.name}</b>
-        <span class="exam">${l.exam}</span>
-        <span class="cast">${l.cast}</span>
+      <a class="lvcard" href="${Q(`?level=${l.id}`)}" style="--lv:${l.color}"
+         aria-label="Open ${l.name}, ${l.exam}">
+        <div class="lvmedia">
+          <img class="lvfallback" src="../assets/videos/posters/${l.mascot}-intro.jpg?v=${VIDEO_V}"
+               alt="${l.mascot[0].toUpperCase()+l.mascot.slice(1)} invites you to explore ${l.name}">
+          <video muted playsinline preload="metadata"
+                 poster="../assets/videos/posters/${l.mascot}-intro.jpg?v=${VIDEO_V}"
+                 data-level-preview aria-hidden="true">
+            <source src="../assets/videos/${l.mascot}-intro.mp4?v=${VIDEO_V}" type="video/mp4">
+          </video>
+          <span class="lvbadge">${l.exam}</span>
+          <span class="lvplaying"><span class="lvpulse"></span> Adventure playing</span>
+          <span class="lvshade"></span>
+        </div>
+        <span class="lvinfo">
+          <b>${l.name}</b>
+          <span class="cast">${l.cast}</span>
+          <span class="lvcta">Enter the adventure <span aria-hidden="true">›</span></span>
+        </span>
       </a>`).join('')}</div>`;
+  levelPreviews(app);
+}
+
+/* Las tres portadas usan los mismos videos de las mascotas que presentan el
+   curso. Solo se reproduce una tarjeta cuando esta realmente en pantalla:
+   mantiene la portada viva sin descargar tres videos completos en un movil. */
+function levelPreviews(root){
+  const videos = [...root.querySelectorAll('[data-level-preview]')];
+  if(!videos.length || matchMedia('(prefers-reduced-motion: reduce)').matches ||
+     (navigator.connection && navigator.connection.saveData)) return;
+  const LOOP_START = 2.35; // omite el splash de marca al repetir la miniatura
+  videos.forEach(v => {
+    v.addEventListener('loadedmetadata', () => { if(v.currentTime < LOOP_START) v.currentTime = LOOP_START; }, {once:true});
+    v.addEventListener('ended', () => {
+      if(v.dataset.visible === '1') { v.currentTime = LOOP_START; v.play().catch(()=>{}); }
+    });
+  });
+  const change = (v, visible) => {
+    const card = v.closest('.lvcard');
+    v.dataset.visible = visible ? '1' : '0';
+    if(visible) {
+      if(v.readyState >= 1 && v.currentTime < LOOP_START) v.currentTime = LOOP_START;
+      v.play().then(()=>card.classList.add('is-playing')).catch(()=>{});
+    } else { v.pause(); card.classList.remove('is-playing'); }
+  };
+  if('IntersectionObserver' in window){
+    const observer = new IntersectionObserver(entries => entries.forEach(e =>
+      change(e.target, e.isIntersecting && e.intersectionRatio >= .35)), {threshold:[0,.35]});
+    videos.forEach(v => observer.observe(v));
+  } else videos.forEach(v => change(v, true));
 }
 
 /* ---------------- HUB ---------------- */
@@ -522,6 +765,29 @@ async function hub(){
   app.classList.add('hub');
   const mascota = idx.mascot[0].toUpperCase() + idx.mascot.slice(1);
   const unidades = DEMO ? idx.units.slice(0,2) : idx.units;
+  const progreso = unidades.map(u => {
+    const p = store.get(u.n);
+    return { unit:u, done:Math.min(4, p.done ? Object.keys(p.done).length : 0) };
+  });
+  const totalHechas = progreso.reduce((sum, p) => sum + p.done, 0);
+  const totalPasos = Math.max(1, unidades.length * 4);
+  const porcentaje = Math.round(totalHechas * 100 / totalPasos);
+  const ultima = Number(localStorage.getItem(`nisfun-${LEVEL}-lastUnit`));
+  const ultimaPendiente = progreso.find(p => p.unit.n === ultima && p.done < 4);
+  const siguiente = ultimaPendiente || progreso.find(p => p.done < 4) || progreso[progreso.length - 1];
+  const terminadas = progreso.filter(p => p.done >= 4).length;
+  const introKey = `nisfun-${LEVEL}-intro-seen`;
+  const introVista = localStorage.getItem(introKey) === '1';
+
+  const estadoCurso = `<section class="course-status" aria-label="Course progress">
+    <div><h3>${totalHechas ? `Continue Unit ${siguiente.unit.n}` : 'Start your first unit'}</h3>
+      <p>${terminadas} of ${unidades.length} units completed · ${porcentaje}% overall</p></div>
+    <a class="continue" href="${Q(`?level=${LEVEL}&unit=${siguiente.unit.n}`)}">
+      ${totalHechas ? 'Continue learning' : 'Start learning'} <span aria-hidden="true">›</span></a>
+    <div class="course-meter" role="progressbar" aria-label="Overall course progress"
+      aria-valuemin="0" aria-valuemax="100" aria-valuenow="${porcentaje}">
+      <span style="--progress:${porcentaje}%"></span></div>
+  </section>`;
 
   // Las unidades se reparten en tandas para que quepan de una ojeada; con
   // pocas no tiene sentido partirlas.
@@ -532,11 +798,15 @@ async function hub(){
 
   const tarjeta = u => {
     const p = store.get(u.n);
-    const hechas = p.done ? Object.keys(p.done).length : 0;
+    const hechas = Math.min(4, p.done ? Object.keys(p.done).length : 0);
+    const pct = hechas * 25;
     return `<a class="ucard" href="${Q(`?level=${LEVEL}&unit=${u.n}`)}">
       <span class="n">${u.n}</span> <b>${u.title}</b><br>
       <small>${u.topic}</small><br>
-      <span class="stars">${'★'.repeat(hechas)}${'☆'.repeat(Math.max(0,4-hechas))}</span></a>`;
+      <span class="stars" aria-hidden="true">${'★'.repeat(hechas)}${'☆'.repeat(4-hechas)}</span>
+      <span class="sr-only">${hechas} of 4 activities completed.</span>
+      <span class="unit-progress"><span class="unit-meter" aria-hidden="true"><span style="width:${pct}%"></span></span>
+        <span>${hechas}/4</span></span></a>`;
   };
 
   const pantallas = [
@@ -544,13 +814,22 @@ async function hub(){
       etiquetaSiguiente: `Meet ${mascota}`,
       html: `<div class="scr-centro">
         ${BANNER.html(idx, LEVEL)}
+        ${estadoCurso}
         ${DEMO ? `<div class="demoflag">Demonstration — this preview covers the first two units.
            The full course has ${idx.units.length} units.</div>` : ''}
-        <p class="scr-pie">Tap a friend to hear them. Press <b>Next</b> to start.</p>
+        <p class="scr-pie">Meet the characters in 3D, then continue with your guide.</p>
+        <button class="intro-skip" type="button">Skip introduction and see all units</button>
       </div>`,
-      alMostrar(el){ BANNER.vivo(el); } },
+      alMostrar(el){
+        BANNER.vivo(el);
+        const skip = el.querySelector('.intro-skip');
+        if (skip) skip.onclick = () => {
+          localStorage.setItem(introKey, '1');
+          SCREENS.ir(3);
+        };
+      } },
     { titulo: `Meet ${mascota} — your guide!`,
-      etiquetaSiguiente: 'Meet the characters',
+      etiquetaSiguiente: 'Story time',
       html: `<div class="scr-centro">
         <video class="scr-video" controls preload="metadata"
           src="../assets/videos/${idx.mascot}-intro.mp4?v=${VIDEO_V}"
@@ -562,27 +841,6 @@ async function hub(){
              “${(MASCOTA[idx.mascot]||{}).dice||''}”</p>
         </div>
       </div>` },
-    { titulo: `Meet the characters — ${idx.cast}!`,
-      etiquetaSiguiente: 'Units',
-      html: `<div class="scr-centro">
-        <video class="scr-video" controls preload="metadata"
-          src="../assets/videos/${LEVEL}-cast.mp4?v=${VIDEO_V}"
-          poster="../assets/videos/posters/${LEVEL}-cast.jpg?v=${VIDEO_V}"
-          onerror="this.hidden=true"></video>
-        <div class="quienes">${(idx.kids||[]).map(k=>`
-          <button class="quien" data-quien="${k}" type="button">
-            <img src="../assets/characters/${LEVEL}/${k}/fullbody.png?v=${ART_V}" alt=""
-                 onerror="this.onerror=null;this.src='../assets/characters/${LEVEL}/${k}/pose-01.png?v=${ART_V}'">
-            <span>${k[0].toUpperCase()+k.slice(1)}</span></button>`).join('')}
-        </div>
-        <p class="scr-pie">Tap a friend to hear their name.</p>
-      </div>`,
-      alMostrar(el){
-        el.querySelectorAll('.quien').forEach(b => b.onclick = () => {
-          new Audio(`../audio/cast/${LEVEL}-${b.dataset.quien}.mp3`).play().catch(()=>{});
-          b.classList.remove('dice'); void b.offsetWidth; b.classList.add('dice');
-        });
-      } },
   ];
 
   // Los cuentos del nivel, si los hay. Se comprueba al vuelo: Starters ya
@@ -600,12 +858,15 @@ async function hub(){
       : 'Units',
     etiquetaSiguiente: 'More units',
     html: `<div class="scr-centro">
-      <div class="units">${tanda.map(tarjeta).join('')}</div></div>`
+      ${k === 0 ? estadoCurso : ''}
+      <div class="units">${tanda.map(tarjeta).join('')}</div></div>`,
+    alMostrar(){ localStorage.setItem(introKey, '1'); }
   }));
 
   SCREENS.montar(app, pantallas, {
     arriba: { href: Q('?'), texto: 'Fun for Nordic' },
     portal: PORTAL,
+    inicio: introVista ? 3 : 0,
   });
 }
 
@@ -753,6 +1014,7 @@ function sceneFor(ud){
 }
 async function unit(){
   UD = await j(`../content/${LEVEL}/unit-${String(UNIT).padStart(2,'0')}.json`);
+  try { localStorage.setItem(`nisfun-${LEVEL}-lastUnit`, String(UNIT)); } catch(e) {}
   PROG = store.get(UD.number); PROG.done = PROG.done || {};
   document.title = `Unit ${UD.number} · ${UD.title}`;
   // el JSON las guarda en el orden en que se escribieron (F antes que E);
@@ -918,6 +1180,10 @@ function pintaSelfCheck(el, digital){
     if (a.type === 'gap_text') puedo.push('I can read a text and fill in the gaps.');
     if (a.type === 'spot_diff') puedo.push('I can compare two pictures and say the differences.');
     if (a.type === 'pairwork') puedo.push('I can talk about this topic with a partner.');
+    if (a.type === 'label_people') puedo.push('I can listen and write the right name under each person.');
+    if (a.type === 'picture_mc') puedo.push('I can listen and choose the right picture.');
+    if (a.type === 'match_pictures') puedo.push('I can listen and match each person to a picture.');
+    if (a.type === 'picture_story') puedo.push('I can look at three pictures and write the story in 20-25 words.');
   });
 
   el.innerHTML = `
@@ -1107,7 +1373,12 @@ function cicloIntentos(el, cfg){
   bOtra.onclick = () => {
     // se borra todo: dejar lo de antes en rojo invita a cambiar una letra
     // y volver a probar, y la idea es que lo piense entero otra vez
-    cfg.entradas().forEach(i => { i.value = ''; i.className = ''; });
+    //
+    // Con casillas y desplegables basta con vaciar valor y clase. Las
+    // actividades cuya respuesta es un BOTON pasan su propia limpia(): a un
+    // boton no se le puede borrar la clase entera, porque ahi va la suya.
+    if (cfg.limpia) cfg.limpia();
+    else cfg.entradas().forEach(i => { i.value = ''; i.className = ''; });
     bloquea(false);
     marca.textContent = ''; marca.className = 'score';
     bOtra.hidden = true; bChk.hidden = false;
@@ -1122,7 +1393,313 @@ function cicloIntentos(el, cfg){
   };
 }
 
+/* ---------------------------------------------------------------------
+   Tareas visuales del examen A2 Flyers (Listening 1, 3 y 4; R&W 7).
+   Las genera tools/gen_visual_flyers.py y las dibuja con lo nuestro:
+   personajes de content/cast-flyers.json sobre escenarios de assets/scenes.
+   --------------------------------------------------------------------- */
+
+/* Un dibujo de vocabulario, con los tres respaldos que ya usa la pantalla
+   de palabras: PNG propio -> SVG propio -> emoji. Se devuelve HTML. */
+function visDibujo(palabra){
+  const k = String(palabra||'').toLowerCase().replace(/^(a|an|the) /,'');
+  const art = (window.VOCAB_ART && VOCAB_ART.get(k)) || null;
+  const plano = art || `<span class="emo">${EMOJI[k] || '✏️'}</span>`;
+  const slug = k.replace(/'/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+  return `<img src="../assets/vocab/${slug}.png?v=${ART_V}" alt="${esc(k)}"
+    onerror="this.replaceWith(...new DOMParser().parseFromString(this.dataset.fb,'text/html').body.childNodes)"
+    data-fb="${esc(plano)}">`;
+}
+
+/* El escenario de fondo. Si la foto no esta, el bloque se queda con el
+   color de fondo y los personajes siguen viendose: mejor eso que un icono
+   de imagen rota encima de la escena. */
+function visFondo(sitio){
+  return `<img class="fondo" alt="" src="../assets/scenes/${sitio}.jpg?v=${ART_V}"
+    onerror="this.onerror=null;this.src='../assets/scenes/${sitio}.png?v=${ART_V}';
+             this.addEventListener('error',()=>this.remove(),{once:true})">`;
+}
+
+function visPersona(p){
+  return `<img src="${CHAR(p.slug, p.pose||1)}" alt="${esc(p.name||p.slug)}" ${FB}>`;
+}
+
+/* La etiqueta de KPI. Es lo que convierte una tarea de examen suelta en
+   una actividad de la clase de 5.o: dice de que unidad del Scope &
+   Sequence sale y que outcome cubre. */
+function visKpi(act){
+  const k = act.kpi; if(!k) return '';
+  const partes = [];
+  if(k.examen_parte) partes.push(`${k.examen} · ${k.examen_parte.paper} Part ${k.examen_parte.part}`);
+  if(k.tema && k.tema.nombre) partes.push(`${k.grado} · Unit ${k.tema.n}: ${k.tema.nombre}`);
+  if(k.destreza) partes.push(k.destreza);
+  return `<div class="vis-kpi">${partes.map(t=>`<span>${esc(t)}</span>`).join('')}</div>`;
+}
+
+/* Reproductor compartido de las tres tareas de listening.
+   Misma logica que la actividad 'listening': si el mp3 no esta todavia,
+   se lee el guion con la voz del navegador y se avisa de que es
+   provisional, para que nadie crea que ese es el audio definitivo. */
+function visAudio(el, act, guion){
+  const caja = document.createElement('div');
+  caja.className = 'lsn-mando';
+  caja.innerHTML = `<button class="play" type="button">▶ Play</button>
+    <button class="stop" type="button" disabled>⏹ Stop</button>
+    <span class="provisional"></span>`;
+  el.prepend(caja);
+
+  const bPlay = caja.querySelector('.play'), bStop = caja.querySelector('.stop');
+  const audio = act.audio ? new Audio(`../audio/${act.audio}`) : null;
+  let modo = audio ? 'mp3' : 'tts', hablando = false;
+  if (!audio) caja.querySelector('.provisional').textContent =
+    '(temporary browser voice — the real audio is coming soon)';
+  if (audio) audio.onerror = () => { modo = 'tts';
+    caja.querySelector('.provisional').textContent =
+      '(temporary browser voice — the real audio is coming soon)'; };
+
+  const estado = son => { bStop.disabled = !son;
+    bPlay.textContent = son ? '▶ Playing…' : '▶ Play'; bPlay.disabled = son; };
+  if (audio) audio.onended = () => estado(false);
+
+  bPlay.onclick = () => {
+    if (modo === 'mp3' && audio && !audio.error){ audio.play(); estado(true); return; }
+    const partes = String(guion||'').split('…');
+    speechSynthesis.cancel();
+    const voces = speechSynthesis.getVoices().filter(v => v.lang.startsWith('en'));
+    partes.forEach((p, i) => {
+      const u = new SpeechSynthesisUtterance(p.replace(/^[^:]+:/, '').trim());
+      u.lang = 'en-GB'; u.rate = .92;
+      if (voces.length) u.voice = voces[i % 2] || voces[0];
+      if (i === partes.length - 1) u.onend = () => { hablando = false; estado(false); };
+      speechSynthesis.speak(u);
+    });
+    hablando = true; estado(true);
+  };
+  bStop.onclick = () => {
+    if (hablando){ speechSynthesis.cancel(); hablando = false; }
+    if (audio){ audio.pause(); audio.currentTime = 0; }
+    estado(false);
+  };
+}
+
 const RENDER = {
+
+/* ---- Listening Part 1: escribir el nombre debajo de cada persona ---- */
+label_people(act, el){
+  const d = act.data;
+  el.innerHTML = `${visKpi(act)}
+    <p class="vis-sitio">Everybody is in ${esc(d.place || 'the picture')}.</p>
+    <div class="vis-escena">${visFondo(d.scene)}
+      <div class="vis-fila">${d.people.map((p,i)=>`<div class="vis-quien">
+        <span class="num">${i+1}</span>${visPersona(p)}
+        <input data-i="${i}" autocomplete="off" spellcheck="false" aria-label="Name ${i+1}"></div>`).join('')}</div>
+    </div>
+    <div class="vis-banco">${d.names.map(n=>`<span data-n="${esc(n)}">${esc(n)}</span>`).join('')}</div>
+    <div class="checkrow final"><button class="chk">Check</button>
+      <button class="again" type="button" hidden>↻ Try again</button>
+      <button class="reveal" type="button" hidden>👁 See the answers</button>
+      <span class="score"></span><span class="tries"></span></div>`;
+
+  visAudio(el, act, d.script);
+
+  const entradas = () => [...el.querySelectorAll('.vis-quien input')];
+  // el banco tacha los nombres ya escritos: son ocho para cinco huecos y
+  // sin la marca el alumno pierde la cuenta de cuales le quedan
+  const repinta = () => {
+    const puestos = entradas().map(i => i.value.trim().toLowerCase());
+    el.querySelectorAll('.vis-banco span').forEach(s =>
+      s.classList.toggle('usado', puestos.includes(s.dataset.n.toLowerCase())));
+  };
+  el.addEventListener('input', repinta);
+  el.querySelectorAll('.vis-banco span').forEach(s => s.onclick = () => {
+    const libre = entradas().find(i => !i.value.trim() && !i.disabled);
+    if (libre){ libre.value = s.dataset.n; repinta(); }
+  });
+
+  cicloIntentos(el, {
+    entradas,
+    corrige(){
+      let bien = 0;
+      entradas().forEach(inp => {
+        const ok = inp.value.trim().toLowerCase() === d.people[+inp.dataset.i].name.toLowerCase();
+        inp.className = ok ? 'ok' : 'bad';
+        if (ok) bien++;
+      });
+      return { bien, total: d.people.length };
+    },
+    revela(){
+      entradas().forEach(inp => {
+        inp.value = d.people[+inp.dataset.i].name; inp.className = 'revelado';
+      });
+      repinta();
+    },
+    alAcertar(){ complete(act.code); },
+  });
+},
+
+/* ---- Listening Part 4: escuchar y marcar una de tres imagenes ---- */
+picture_mc(act, el){
+  const d = act.data;
+  const LET = 'ABC';
+  el.innerHTML = `${visKpi(act)}
+    ${d.questions.map((q,i)=>`<div class="vis-preg" data-q="${i}">
+      <p>${i+1}. ${esc(q.q)}</p>
+      <div class="vis-ops">${q.options.map((o,j)=>`<button class="vis-op" type="button"
+          data-q="${i}" data-w="${esc(o.word)}" aria-label="Picture ${LET[j]}: ${esc(o.word)}">
+          <span class="letra">${LET[j]}</span>
+          <span class="dib">${visDibujo(o.word)}</span>
+          <span class="pie">${esc(o.word)}</span></button>`).join('')}</div></div>`).join('')}
+    <div class="checkrow final"><button class="chk">Check</button>
+      <button class="again" type="button" hidden>↻ Try again</button>
+      <button class="reveal" type="button" hidden>👁 See the answers</button>
+      <span class="score"></span><span class="tries"></span></div>`;
+
+  visAudio(el, act, d.script);
+
+  el.querySelectorAll('.vis-op').forEach(b => b.onclick = () => {
+    if (b.disabled) return;
+    el.querySelectorAll(`.vis-op[data-q="${b.dataset.q}"]`)
+      .forEach(x => x.classList.remove('sel'));
+    b.classList.add('sel');
+  });
+
+  // cicloIntentos habla de inputs; aqui las respuestas son botones, asi que
+  // se le pasa una lista de botones y se usa 'disabled' igual que alli
+  const botones = () => [...el.querySelectorAll('.vis-op')];
+  cicloIntentos(el, {
+    entradas: botones,
+    limpia(){ botones().forEach(b => b.className = 'vis-op'); },
+    corrige(){
+      let bien = 0;
+      el.querySelectorAll('.vis-ops').forEach(o => o.classList.add('resuelto'));
+      d.questions.forEach((q,i) => {
+        const sel = el.querySelector(`.vis-op[data-q="${i}"].sel`);
+        if (sel && sel.dataset.w === q.answer){ sel.classList.add('ok'); bien++; }
+        else if (sel) sel.classList.add('bad');
+      });
+      return { bien, total: d.questions.length };
+    },
+    revela(){
+      d.questions.forEach((q,i) => {
+        el.querySelectorAll(`.vis-op[data-q="${i}"]`).forEach(b => {
+          b.classList.remove('ok','bad','sel');
+          if (b.dataset.w === q.answer) b.classList.add('marca');
+        });
+      });
+    },
+    alAcertar(){ complete(act.code); },
+  });
+},
+
+/* ---- Listening Part 3: emparejar cada explorador con una letra A-H ---- */
+match_pictures(act, el){
+  const d = act.data;
+  const letras = d.pictures.map(p => p.id);
+  el.innerHTML = `${visKpi(act)}
+    <div class="vis-galeria">${d.pictures.map(p=>`<div class="vis-foto" data-id="${p.id}">
+      <span class="letra">${p.id}</span>
+      <span class="dib">${visDibujo(p.word)}</span></div>`).join('')}</div>
+    <div class="vis-gente">${d.people.map((p,i)=>`<div class="vis-quien">
+      ${visPersona(p)}<b>${esc(p.name)}</b>
+      <select data-i="${i}" aria-label="Picture for ${esc(p.name)}">
+        <option value="">–</option>
+        ${letras.map(l=>`<option value="${l}">${l}</option>`).join('')}
+      </select></div>`).join('')}</div>
+    <div class="checkrow final"><button class="chk">Check</button>
+      <button class="again" type="button" hidden>↻ Try again</button>
+      <button class="reveal" type="button" hidden>👁 See the answers</button>
+      <span class="score"></span><span class="tries"></span></div>`;
+
+  visAudio(el, act, d.script);
+
+  const selects = () => [...el.querySelectorAll('.vis-gente select')];
+  // marcar en verde las fotos ya repartidas: hay ocho y solo cinco valen,
+  // asi se ve de un vistazo cuales quedan libres
+  const repinta = () => {
+    const puestas = selects().map(s => s.value).filter(Boolean);
+    el.querySelectorAll('.vis-foto').forEach(f =>
+      f.classList.toggle('usada', puestas.includes(f.dataset.id)));
+  };
+  el.addEventListener('change', repinta);
+
+  cicloIntentos(el, {
+    entradas: selects,
+    corrige(){
+      let bien = 0;
+      selects().forEach(s => {
+        const nombre = d.people[+s.dataset.i].name;
+        const ok = s.value && s.value === d.answers[nombre];
+        s.className = ok ? 'ok' : 'bad';
+        if (ok) bien++;
+      });
+      return { bien, total: d.people.length };
+    },
+    revela(){
+      selects().forEach(s => {
+        s.value = d.answers[d.people[+s.dataset.i].name] || '';
+        s.className = 'revelado';
+      });
+      repinta();
+    },
+    alAcertar(){ complete(act.code); },
+  });
+},
+
+/* ---- Reading & Writing Part 7: la historia de tres vinetas ----
+   El benchmark de 5.o la pide con estas palabras: "Writing Part 3: 20-25-word
+   picture story". Por eso el contador de palabras va delante y no detras:
+   quedarse corto es el error tipico y hay que verlo mientras se escribe. */
+picture_story(act, el){
+  const d = act.data;
+  const min = d.min_words || 20, max = d.max_words || 25;
+  el.innerHTML = `${visKpi(act)}
+    <div class="vis-tira">${d.frames.map(f=>`<div class="vis-vineta">
+      <div class="marco"><span class="nn">${f.n}</span>${visFondo(f.scene)}
+        <div class="gente">${(f.people||[]).map(visPersona).join('')}</div></div>
+      <div class="pista">${esc(f.hint)}</div></div>`).join('')}</div>
+    ${d.support ? `<div class="vis-apoyo">
+      ${d.support.grammar ? `<b>${esc(d.support.grammar)}</b>` : ''}
+      ${(d.support.words||[]).map(w=>`<span>${esc(w)}</span>`).join('')}</div>` : ''}
+    <div class="vis-historia">
+      <textarea placeholder="Write the story here — ${min} to ${max} words."
+        aria-label="Your story"></textarea>
+      <div class="vis-contador">0 words</div>
+    </div>
+    <div class="checkrow"><button class="chk">I have finished</button>
+      <button class="reveal" type="button">👁 See one possible story</button>
+      <span class="score"></span></div>`;
+
+  const ta = el.querySelector('textarea');
+  const cnt = el.querySelector('.vis-contador');
+  const cuenta = () => (ta.value.trim().match(/\S+/g) || []).length;
+  ta.addEventListener('input', () => {
+    const n = cuenta();
+    cnt.textContent = `${n} word${n === 1 ? '' : 's'}` +
+      (n < min ? ` — ${min - n} more to go` : (n > max ? ` — ${n - max} too many` : ' — just right'));
+    cnt.classList.toggle('bien', n >= min && n <= max);
+  });
+
+  el.querySelector('.chk').onclick = () => {
+    const n = cuenta();
+    const s = el.querySelector('.score');
+    if (!n){ s.textContent = 'Write your story first.'; s.className = 'score partial'; return; }
+    // Escribir no se corrige solo: se da por hecha y complete() ya guarda el
+    // texto para que lo lea el profesor. Poner una nota automatica a una
+    // redaccion seria mentir.
+    s.textContent = n >= min && n <= max ? 'Sent to your teacher ✓'
+                                         : `Sent — but it is ${n} words, not ${min}-${max}.`;
+    s.className = 'score ' + (n >= min && n <= max ? 'good' : 'partial');
+    complete(act.code);
+  };
+
+  el.querySelector('.reveal').onclick = e => {
+    e.target.hidden = true;
+    const caja = document.createElement('div');
+    caja.className = 'vis-modelo';
+    caja.innerHTML = `<b>One way of telling it:</b><br>${esc(d.model)}`;
+    el.querySelector('.vis-historia').appendChild(caja);
+  };
+},
 
 /* ---- crossword ---- */
 crossword(act, el){

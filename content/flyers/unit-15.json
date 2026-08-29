@@ -230,6 +230,413 @@
    ],
    "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
    "data": {}
+  },
+  {
+   "type": "label_people",
+   "title": "Listen and write the names.",
+   "instructions": "Look at the picture. Listen and write the name under each person. Careful: there are three names you do not need.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Health & Wellbeing"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and label the people in the picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u15-g.mp3",
+   "data": {
+    "scene": "track",
+    "place": "the running track",
+    "people": [
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 7,
+      "clue": "the boy in the red shirt with a microphone",
+      "action": "is asking questions with his microphone"
+     },
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "pose": 7,
+      "clue": "the boy with red hair and a yellow shirt",
+      "action": "is singing"
+     },
+     {
+      "slug": "samu",
+      "name": "Samu",
+      "pose": 7,
+      "clue": "the boy with short fair hair and a rucksack",
+      "action": "is waving"
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "pose": 7,
+      "clue": "the boy with curly brown hair and a green shirt",
+      "action": "is running after the ball"
+     },
+     {
+      "slug": "tino",
+      "name": "Tino",
+      "pose": 7,
+      "clue": "the boy with very short hair and a white and green shirt",
+      "action": "is playing hockey"
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Bruno",
+     "Diego",
+     "Lia",
+     "Maya",
+     "Oliver",
+     "Samu",
+     "Tino"
+    ],
+    "script": "Look at the picture. Listen and write the names. There is one example. … Diego: Who is that in the running track? The boy in the red shirt with a microphone. … Maya: That is Diego. Diego is asking questions with his microphone. … Diego: And who is the boy with red hair and a yellow shirt? … Maya: That is Oliver. Look, Oliver is singing. … Diego: And who is the boy with short fair hair and a rucksack? … Maya: That is Samu. Look, Samu is waving. … Diego: And who is the boy with curly brown hair and a green shirt? … Maya: That is Bruno. Look, Bruno is running after the ball. … Diego: And who is the boy with very short hair and a white and green shirt? … Maya: That is Tino. Look, Tino is playing hockey.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  },
+  {
+   "type": "picture_mc",
+   "title": "Listen and tick the box.",
+   "instructions": "Listen to each question and click the picture that answers it.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Health & Wellbeing"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and tick the right picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u15-h.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "Which word is Diego learning today?",
+      "answer": "snowboarding",
+      "options": [
+       {
+        "word": "theatre",
+        "propio": true
+       },
+       {
+        "word": "snowboarding",
+        "propio": false
+       },
+       {
+        "word": "museum",
+        "propio": true
+       }
+      ],
+      "script": "Which word is Diego learning today? … Diego: Today I am learning the word snowboarding."
+     },
+     {
+      "q": "What has Oliver drawn?",
+      "answer": "champion",
+      "options": [
+       {
+        "word": "pocket",
+        "propio": true
+       },
+       {
+        "word": "socks",
+        "propio": true
+       },
+       {
+        "word": "champion",
+        "propio": false
+       }
+      ],
+      "script": "What has Oliver drawn? … Oliver: I have drawn a champion."
+     },
+     {
+      "q": "Which picture is Lia looking at?",
+      "answer": "skating",
+      "options": [
+       {
+        "word": "funfair",
+        "propio": true
+       },
+       {
+        "word": "skating",
+        "propio": false
+       },
+       {
+        "word": "scarf",
+        "propio": true
+       }
+      ],
+      "script": "Which picture is Lia looking at? … Lia: I am looking at the skating."
+     },
+     {
+      "q": "What can Samu see in the picture?",
+      "answer": "team",
+      "options": [
+       {
+        "word": "theatre",
+        "propio": true
+       },
+       {
+        "word": "team",
+        "propio": false
+       },
+       {
+        "word": "family",
+        "propio": true
+       }
+      ],
+      "script": "What can Samu see in the picture? … Samu: I can see the team."
+     },
+     {
+      "q": "What is Aiko pointing at?",
+      "answer": "golf",
+      "options": [
+       {
+        "word": "police station",
+        "propio": true
+       },
+       {
+        "word": "belt",
+        "propio": true
+       },
+       {
+        "word": "golf",
+        "propio": false
+       }
+      ],
+      "script": "What is Aiko pointing at? … Aiko: I am pointing at the golf."
+     }
+    ],
+    "script": "Listen and tick the box. There is one example. … Which word is Diego learning today? … Diego: Today I am learning the word snowboarding. … What has Oliver drawn? … Oliver: I have drawn a champion. … Which picture is Lia looking at? … Lia: I am looking at the skating. … What can Samu see in the picture? … Samu: I can see the team. … What is Aiko pointing at? … Aiko: I am pointing at the golf.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "H"
+  },
+  {
+   "type": "match_pictures",
+   "title": "Listen and match each explorer to a picture.",
+   "instructions": "Listen. Then choose the letter of the picture for each person. Careful: some pictures are extra.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Health & Wellbeing"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and match each person to a picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 3
+    }
+   },
+   "audio": "flyers/u15-i.mp3",
+   "data": {
+    "people": [
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 8
+     },
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "pose": 8
+     },
+     {
+      "slug": "aiko",
+      "name": "Aiko",
+      "pose": 3
+     },
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "pose": 8
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "pose": 3
+     }
+    ],
+    "pictures": [
+     {
+      "word": "champion",
+      "propio": false,
+      "id": "A"
+     },
+     {
+      "word": "sledging",
+      "propio": false,
+      "id": "B"
+     },
+     {
+      "word": "belt",
+      "propio": true,
+      "id": "C"
+     },
+     {
+      "word": "bridge",
+      "propio": true,
+      "id": "D"
+     },
+     {
+      "word": "airport",
+      "propio": true,
+      "id": "E"
+     },
+     {
+      "word": "skating",
+      "propio": false,
+      "id": "F"
+     },
+     {
+      "word": "team",
+      "propio": false,
+      "id": "G"
+     },
+     {
+      "word": "volleyball",
+      "propio": false,
+      "id": "H"
+     }
+    ],
+    "answers": {
+     "Diego": "F",
+     "Oliver": "B",
+     "Aiko": "A",
+     "Ingrid": "G",
+     "Iris": "H"
+    },
+    "script": "Listen and match each person to a picture. There is one example. … Diego: Diego, which picture did you choose? … Diego: I chose the skating. … Diego: Oliver, which picture did you choose? … Oliver: I chose the sledging. … Diego: Aiko, which picture did you choose? … Aiko: I chose the champion. … Diego: Ingrid, which picture did you choose? … Ingrid: I chose the team. … Diego: Iris, which picture did you choose? … Iris: I chose the volleyball.",
+    "voice_note": "Diego pregunta; cada explorador responde con su objeto."
+   },
+   "code": "I"
+  },
+  {
+   "type": "picture_story",
+   "title": "Look at the three pictures and write the story.",
+   "instructions": "Look at the pictures. Write the story in 20-25 words. Use the words under each picture to help you.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Health & Wellbeing"
+    },
+    "destreza": "Writing",
+    "puede": "Writing Part 3: 20–25-word picture story (Flyers); classroom pieces 100–150w.",
+    "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "picnic-garden",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 4
+       }
+      ],
+      "word": "golf",
+      "hint": "Diego / shows / a golf",
+      "model": "Diego shows a golf at the picnic garden."
+     },
+     {
+      "n": 2,
+      "scene": "track",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 8
+       },
+       {
+        "slug": "oliver",
+        "pose": 1
+       }
+      ],
+      "word": "sledging",
+      "hint": "Oliver / bring / a sledging",
+      "model": "Then Oliver brings a sledging."
+     },
+     {
+      "n": 3,
+      "scene": "hockey",
+      "people": [
+       {
+        "slug": "oliver",
+        "pose": 10
+       },
+       {
+        "slug": "diego",
+        "pose": 10
+       }
+      ],
+      "word": "team",
+      "hint": "now / a team / happy",
+      "model": "Now they have got a team too, and both are happy."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Diego shows a golf at the picnic garden. Then Oliver brings a sledging. Now they have got a team too, and both are happy.",
+    "words": [
+     "golf",
+     "sledging",
+     "team"
+    ],
+    "support": {
+     "grammar": "play / go / do + sport",
+     "words": [
+      "volleyball",
+      "skating",
+      "sledging",
+      "snowboarding",
+      "golf",
+      "race"
+     ]
+    }
+   },
+   "code": "J"
   }
  ],
  "homework": [

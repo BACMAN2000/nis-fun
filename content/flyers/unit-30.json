@@ -230,6 +230,413 @@
    ],
    "instructions": "Look at picture A and picture B. Find the 11 differences and tell your partner about them.",
    "data": {}
+  },
+  {
+   "type": "label_people",
+   "title": "Listen and write the names.",
+   "instructions": "Look at the picture. Listen and write the name under each person. Careful: there are three names you do not need.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "The Natural World"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and label the people in the picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u30-g.mp3",
+   "data": {
+    "scene": "labyrinth",
+    "place": "the maze",
+    "people": [
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 7,
+      "clue": "the boy in the red shirt with a microphone",
+      "action": "is asking questions with his microphone"
+     },
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 7,
+      "clue": "the girl in the green shirt with a magnifying glass",
+      "action": "is looking at something very small"
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "pose": 7,
+      "clue": "the boy with curly brown hair and a green shirt",
+      "action": "is running after the ball"
+     },
+     {
+      "slug": "tino",
+      "name": "Tino",
+      "pose": 7,
+      "clue": "the boy with very short hair and a white and green shirt",
+      "action": "is playing hockey"
+     },
+     {
+      "slug": "kili",
+      "name": "Kili",
+      "pose": 3,
+      "clue": "the big black bird with a white collar",
+      "action": "is carrying a letter"
+     }
+    ],
+    "names": [
+     "Bruno",
+     "Diego",
+     "Kili",
+     "Lia",
+     "Maya",
+     "Oliver",
+     "Samu",
+     "Tino"
+    ],
+    "script": "Look at the picture. Listen and write the names. There is one example. … Diego: Who is that in the maze? The boy in the red shirt with a microphone. … Maya: That is Diego. Diego is asking questions with his microphone. … Diego: And who is the girl in the green shirt with a magnifying glass? … Maya: That is Maya. Look, Maya is looking at something very small. … Diego: And who is the boy with curly brown hair and a green shirt? … Maya: That is Bruno. Look, Bruno is running after the ball. … Diego: And who is the boy with very short hair and a white and green shirt? … Maya: That is Tino. Look, Tino is playing hockey. … Diego: And who is the big black bird with a white collar? … Maya: That is Kili. Look, Kili is carrying a letter.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  },
+  {
+   "type": "picture_mc",
+   "title": "Listen and tick the box.",
+   "instructions": "Listen to each question and click the picture that answers it.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "The Natural World"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and tick the right picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u30-h.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "What can Diego see in the picture?",
+      "answer": "box",
+      "options": [
+       {
+        "word": "umbrella",
+        "propio": true
+       },
+       {
+        "word": "box",
+        "propio": false
+       },
+       {
+        "word": "chemist's",
+        "propio": true
+       }
+      ],
+      "script": "What can Diego see in the picture? … Diego: I can see the box."
+     },
+     {
+      "q": "What is Maya pointing at?",
+      "answer": "mirror",
+      "options": [
+       {
+        "word": "stadium",
+        "propio": true
+       },
+       {
+        "word": "mirror",
+        "propio": false
+       },
+       {
+        "word": "uniform",
+        "propio": true
+       }
+      ],
+      "script": "What is Maya pointing at? … Maya: I am pointing at the mirror."
+     },
+     {
+      "q": "What is Bruno talking about?",
+      "answer": "armchair",
+      "options": [
+       {
+        "word": "police station",
+        "propio": true
+       },
+       {
+        "word": "armchair",
+        "propio": false
+       },
+       {
+        "word": "restaurant",
+        "propio": true
+       }
+      ],
+      "script": "What is Bruno talking about? … Bruno: I am talking about the armchair."
+     },
+     {
+      "q": "Which word is Tino learning today?",
+      "answer": "carpet",
+      "options": [
+       {
+        "word": "carpet",
+        "propio": false
+       },
+       {
+        "word": "chemist's",
+        "propio": true
+       },
+       {
+        "word": "family",
+        "propio": true
+       }
+      ],
+      "script": "Which word is Tino learning today? … Tino: Today I am learning the word carpet."
+     },
+     {
+      "q": "What has Iris drawn?",
+      "answer": "sofa",
+      "options": [
+       {
+        "word": "sofa",
+        "propio": false
+       },
+       {
+        "word": "chemist's",
+        "propio": true
+       },
+       {
+        "word": "theatre",
+        "propio": true
+       }
+      ],
+      "script": "What has Iris drawn? … Iris: I have drawn a sofa."
+     }
+    ],
+    "script": "Listen and tick the box. There is one example. … What can Diego see in the picture? … Diego: I can see the box. … What is Maya pointing at? … Maya: I am pointing at the mirror. … What is Bruno talking about? … Bruno: I am talking about the armchair. … Which word is Tino learning today? … Tino: Today I am learning the word carpet. … What has Iris drawn? … Iris: I have drawn a sofa.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "H"
+  },
+  {
+   "type": "match_pictures",
+   "title": "Listen and match each explorer to a picture.",
+   "instructions": "Listen. Then choose the letter of the picture for each person. Careful: some pictures are extra.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "The Natural World"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and match each person to a picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 3
+    }
+   },
+   "audio": "flyers/u30-i.mp3",
+   "data": {
+    "people": [
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 8
+     },
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 8
+     },
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "pose": 8
+     },
+     {
+      "slug": "samu",
+      "name": "Samu",
+      "pose": 3
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "pose": 3
+     }
+    ],
+    "pictures": [
+     {
+      "word": "blanket",
+      "propio": false,
+      "id": "A"
+     },
+     {
+      "word": "pillow",
+      "propio": false,
+      "id": "B"
+     },
+     {
+      "word": "chemist's",
+      "propio": true,
+      "id": "C"
+     },
+     {
+      "word": "armchair",
+      "propio": false,
+      "id": "D"
+     },
+     {
+      "word": "carpet",
+      "propio": false,
+      "id": "E"
+     },
+     {
+      "word": "gloves",
+      "propio": true,
+      "id": "F"
+     },
+     {
+      "word": "family",
+      "propio": true,
+      "id": "G"
+     },
+     {
+      "word": "sofa",
+      "propio": false,
+      "id": "H"
+     }
+    ],
+    "answers": {
+     "Diego": "D",
+     "Maya": "H",
+     "Oliver": "A",
+     "Samu": "B",
+     "Lia": "E"
+    },
+    "script": "Listen and match each person to a picture. There is one example. … Diego: Diego, which picture did you choose? … Diego: I chose the armchair. … Diego: Maya, which picture did you choose? … Maya: I chose the sofa. … Diego: Oliver, which picture did you choose? … Oliver: I chose the blanket. … Diego: Samu, which picture did you choose? … Samu: I chose the pillow. … Diego: Lia, which picture did you choose? … Lia: I chose the carpet.",
+    "voice_note": "Diego pregunta; cada explorador responde con su objeto."
+   },
+   "code": "I"
+  },
+  {
+   "type": "picture_story",
+   "title": "Look at the three pictures and write the story.",
+   "instructions": "Look at the pictures. Write the story in 20-25 words. Use the words under each picture to help you.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "The Natural World"
+    },
+    "destreza": "Writing",
+    "puede": "Writing Part 3: 20–25-word picture story (Flyers); classroom pieces 100–150w.",
+    "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "labyrinth",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 4
+       }
+      ],
+      "word": "drawer",
+      "hint": "Diego / finds / a drawer",
+      "model": "Diego finds a drawer at the maze."
+     },
+     {
+      "n": 2,
+      "scene": "mirador",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 8
+       },
+       {
+        "slug": "maya",
+        "pose": 1
+       }
+      ],
+      "word": "armchair",
+      "hint": "Maya / bring / an armchair",
+      "model": "Then Maya brings an armchair."
+     },
+     {
+      "n": 3,
+      "scene": "garden",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 10
+       },
+       {
+        "slug": "diego",
+        "pose": 10
+       }
+      ],
+      "word": "lamp",
+      "hint": "now / a lamp / happy",
+      "model": "Now they have got a lamp too, and both are happy."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Diego finds a drawer at the maze. Then Maya brings an armchair. Now they have got a lamp too, and both are happy.",
+    "words": [
+     "drawer",
+     "armchair",
+     "lamp"
+    ],
+    "support": {
+     "grammar": "present continuous (ahora mismo)",
+     "words": [
+      "sofa",
+      "armchair",
+      "carpet",
+      "curtains",
+      "lamp",
+      "mirror"
+     ]
+    }
+   },
+   "code": "J"
   }
  ],
  "homework": [

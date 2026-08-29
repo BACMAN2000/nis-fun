@@ -230,6 +230,413 @@
    ],
    "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
    "data": {}
+  },
+  {
+   "type": "label_people",
+   "title": "Listen and write the names.",
+   "instructions": "Look at the picture. Listen and write the name under each person. Careful: there are three names you do not need.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Health & Wellbeing"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and label the people in the picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u21-g.mp3",
+   "data": {
+    "scene": "picnic-garden",
+    "place": "the picnic garden",
+    "people": [
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "pose": 7,
+      "clue": "the girl with fair hair and a dark blue jacket",
+      "action": "is reading the plan for the day"
+     },
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "pose": 7,
+      "clue": "the boy with red hair and a yellow shirt",
+      "action": "is singing"
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "pose": 7,
+      "clue": "the girl with a red ponytail and freckles",
+      "action": "is drawing with chalk on the ground"
+     },
+     {
+      "slug": "kili",
+      "name": "Kili",
+      "pose": 3,
+      "clue": "the big black bird with a white collar",
+      "action": "is carrying a letter"
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 7,
+      "clue": "the boy in the red shirt with a microphone",
+      "action": "is asking questions with his microphone"
+     }
+    ],
+    "names": [
+     "Bruno",
+     "Diego",
+     "Ingrid",
+     "Iris",
+     "Kili",
+     "Lia",
+     "Oliver",
+     "Samu"
+    ],
+    "script": "Look at the picture. Listen and write the names. There is one example. … Diego: Who is that in the picnic garden? The girl with fair hair and a dark blue jacket. … Maya: That is Ingrid. Ingrid is reading the plan for the day. … Diego: And who is the boy with red hair and a yellow shirt? … Maya: That is Oliver. Look, Oliver is singing. … Diego: And who is the girl with a red ponytail and freckles? … Maya: That is Iris. Look, Iris is drawing with chalk on the ground. … Diego: And who is the big black bird with a white collar? … Maya: That is Kili. Look, Kili is carrying a letter. … Diego: And who is the boy in the red shirt with a microphone? … Maya: That is Diego. Look, Diego is asking questions with his microphone.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  },
+  {
+   "type": "picture_mc",
+   "title": "Listen and tick the box.",
+   "instructions": "Listen to each question and click the picture that answers it.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Health & Wellbeing"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and tick the right picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u21-h.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "Which word is Ingrid learning today?",
+      "answer": "waterfall",
+      "options": [
+       {
+        "word": "scarf",
+        "propio": true
+       },
+       {
+        "word": "castle",
+        "propio": true
+       },
+       {
+        "word": "waterfall",
+        "propio": false
+       }
+      ],
+      "script": "Which word is Ingrid learning today? … Ingrid: Today I am learning the word waterfall."
+     },
+     {
+      "q": "What has Oliver drawn?",
+      "answer": "sky",
+      "options": [
+       {
+        "word": "sky",
+        "propio": false
+       },
+       {
+        "word": "bridge",
+        "propio": true
+       },
+       {
+        "word": "museum",
+        "propio": true
+       }
+      ],
+      "script": "What has Oliver drawn? … Oliver: I have drawn a sky."
+     },
+     {
+      "q": "Which picture is Bruno looking at?",
+      "answer": "island",
+      "options": [
+       {
+        "word": "umbrella",
+        "propio": true
+       },
+       {
+        "word": "scarf",
+        "propio": true
+       },
+       {
+        "word": "island",
+        "propio": false
+       }
+      ],
+      "script": "Which picture is Bruno looking at? … Bruno: I am looking at the island."
+     },
+     {
+      "q": "What can Lia see in the picture?",
+      "answer": "cave",
+      "options": [
+       {
+        "word": "stadium",
+        "propio": true
+       },
+       {
+        "word": "cave",
+        "propio": false
+       },
+       {
+        "word": "castle",
+        "propio": true
+       }
+      ],
+      "script": "What can Lia see in the picture? … Lia: I can see the cave."
+     },
+     {
+      "q": "What is Diego pointing at?",
+      "answer": "hill",
+      "options": [
+       {
+        "word": "bridge",
+        "propio": true
+       },
+       {
+        "word": "hill",
+        "propio": false
+       },
+       {
+        "word": "funfair",
+        "propio": true
+       }
+      ],
+      "script": "What is Diego pointing at? … Diego: I am pointing at the hill."
+     }
+    ],
+    "script": "Listen and tick the box. There is one example. … Which word is Ingrid learning today? … Ingrid: Today I am learning the word waterfall. … What has Oliver drawn? … Oliver: I have drawn a sky. … Which picture is Bruno looking at? … Bruno: I am looking at the island. … What can Lia see in the picture? … Lia: I can see the cave. … What is Diego pointing at? … Diego: I am pointing at the hill.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "H"
+  },
+  {
+   "type": "match_pictures",
+   "title": "Listen and match each explorer to a picture.",
+   "instructions": "Listen. Then choose the letter of the picture for each person. Careful: some pictures are extra.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Health & Wellbeing"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and match each person to a picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 3
+    }
+   },
+   "audio": "flyers/u21-i.mp3",
+   "data": {
+    "people": [
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "pose": 8
+     },
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "pose": 8
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 8
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "pose": 3
+     },
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 8
+     }
+    ],
+    "pictures": [
+     {
+      "word": "stream",
+      "propio": false,
+      "id": "A"
+     },
+     {
+      "word": "cave",
+      "propio": false,
+      "id": "B"
+     },
+     {
+      "word": "socks",
+      "propio": true,
+      "id": "C"
+     },
+     {
+      "word": "pocket",
+      "propio": true,
+      "id": "D"
+     },
+     {
+      "word": "path",
+      "propio": false,
+      "id": "E"
+     },
+     {
+      "word": "sky",
+      "propio": false,
+      "id": "F"
+     },
+     {
+      "word": "waterfall",
+      "propio": false,
+      "id": "G"
+     },
+     {
+      "word": "belt",
+      "propio": true,
+      "id": "H"
+     }
+    ],
+    "answers": {
+     "Ingrid": "A",
+     "Oliver": "B",
+     "Diego": "E",
+     "Iris": "G",
+     "Maya": "F"
+    },
+    "script": "Listen and match each person to a picture. There is one example. … Diego: Ingrid, which picture did you choose? … Ingrid: I chose the stream. … Diego: Oliver, which picture did you choose? … Oliver: I chose the cave. … Diego: Diego, which picture did you choose? … Diego: I chose the path. … Diego: Iris, which picture did you choose? … Iris: I chose the waterfall. … Diego: Maya, which picture did you choose? … Maya: I chose the sky.",
+    "voice_note": "Diego pregunta; cada explorador responde con su objeto."
+   },
+   "code": "I"
+  },
+  {
+   "type": "picture_story",
+   "title": "Look at the three pictures and write the story.",
+   "instructions": "Look at the pictures. Write the story in 20-25 words. Use the words under each picture to help you.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Health & Wellbeing"
+    },
+    "destreza": "Writing",
+    "puede": "Writing Part 3: 20–25-word picture story (Flyers); classroom pieces 100–150w.",
+    "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "picnic-garden",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 4
+       }
+      ],
+      "word": "stream",
+      "hint": "Ingrid / shows / a stream",
+      "model": "Ingrid shows a stream at the picnic garden."
+     },
+     {
+      "n": 2,
+      "scene": "garden",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 8
+       },
+       {
+        "slug": "oliver",
+        "pose": 1
+       }
+      ],
+      "word": "fire",
+      "hint": "Oliver / bring / a fire",
+      "model": "Then Oliver brings a fire."
+     },
+     {
+      "n": 3,
+      "scene": "track",
+      "people": [
+       {
+        "slug": "oliver",
+        "pose": 10
+       },
+       {
+        "slug": "ingrid",
+        "pose": 10
+       }
+      ],
+      "word": "path",
+      "hint": "now / a path / happy",
+      "model": "Now they have got a path too, and both are happy."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Ingrid shows a stream at the picnic garden. Then Oliver brings a fire. Now they have got a path too, and both are happy.",
+    "words": [
+     "stream",
+     "fire",
+     "path"
+    ],
+    "support": {
+     "grammar": "there is / there are + descriptions",
+     "words": [
+      "island",
+      "waterfall",
+      "cave",
+      "hill",
+      "path",
+      "wood"
+     ]
+    }
+   },
+   "code": "J"
   }
  ],
  "homework": [

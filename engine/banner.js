@@ -131,9 +131,23 @@ window.BANNER = (function () {
     background:radial-gradient(50% 50% at 50% 50%,rgba(22,28,20,.45),rgba(22,28,20,0) 70%);
     pointer-events:none}
   .lh-nino img{height:calc(clamp(88px,19.5vw,200px) * var(--esc,1));width:auto;display:block;
-    filter:drop-shadow(0 10px 12px rgba(12,26,44,.30)) saturate(var(--sat,1)) brightness(var(--bri,1))}
+    filter:drop-shadow(0 10px 12px rgba(12,26,44,.30)) saturate(var(--sat,1)) brightness(var(--bri,1));
+    transform-origin:50% 100%;animation:lhrespira 3.8s ease-in-out infinite;
+    animation-delay:var(--delay,0s)}
   .lh-nino:hover{transform:translateY(calc(var(--fondo,0px) - 7px))}
-  .lh-nino.mascota img{height:calc(clamp(62px,13.5vw,138px) * var(--esc,1))}
+  .lh-nino.mascota img{height:calc(clamp(62px,13.5vw,138px) * var(--esc,1));
+    animation-name:lhmascota;animation-duration:2.8s}
+
+  /* Movimiento de reposo: no cambia las poses ni hace bailar a los ninos.
+     Respirar y cambiar ligeramente el peso evita que parezcan recortes
+     congelados encima de un mar que si esta vivo. */
+  @keyframes lhrespira{
+    0%,100%{transform:translateY(0) rotate(-.25deg) scale(1)}
+    50%{transform:translateY(-5px) rotate(.25deg) scale(1.008)} }
+  @keyframes lhmascota{
+    0%,100%{transform:translateY(0) rotate(-1deg)}
+    46%{transform:translateY(-8px) rotate(1.2deg)}
+    58%{transform:translateY(-6px) rotate(.4deg)} }
 
   /* el bocadillo: el del anfitrion aparece solo, los demas al pulsar */
   .lh-globo{position:absolute;left:50%;bottom:calc(100% - 6px);transform:translateX(-50%) scale(.6);
@@ -180,9 +194,34 @@ window.BANNER = (function () {
     .lh-elenco{gap:0}
     .lh-tit{max-width:72%}
   }
+
+  /* Portada cinematografica: el video 3D cubre toda la tarjeta y presenta
+     al elenco sin recortes ni controles superpuestos. */
+  .lh-filmframe{position:relative;aspect-ratio:16/9;overflow:hidden;background:#10233a}
+  .lh-film,.lh-filmposter{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+  .lh-filmposter{z-index:0}.lh-film{z-index:1}
+  .lh-filmshade{position:absolute;inset:0;z-index:2;pointer-events:none;
+    background:linear-gradient(180deg,rgba(5,17,31,.64) 0%,rgba(5,17,31,.12) 42%,rgba(5,17,31,.35) 100%)}
+  .lh-filmcopy{position:absolute;left:4%;top:6%;z-index:3;color:#fff;text-align:left;
+    text-shadow:0 3px 18px rgba(3,12,24,.72)}
+  .lh-filmcopy h1{margin:0;font-family:"Baloo 2",sans-serif;
+    font-size:clamp(1.25rem,3vw,2.15rem);line-height:1.08}
+  .lh-filmcopy p{margin:.25rem 0 0;font-family:"Baloo 2",sans-serif;font-weight:800;
+    font-size:clamp(.78rem,1.8vw,1.2rem);letter-spacing:.09em;text-transform:uppercase}
+  .lh-sound-toggle{position:absolute;right:3%;top:5%;z-index:3;display:flex;align-items:center;gap:.35rem;
+    background:rgba(5,17,31,.66);color:#fff;border:1px solid rgba(255,255,255,.24);
+    border-radius:999px;padding:.4rem .72rem;font:700 .76rem/1.1 inherit;cursor:pointer;
+    box-shadow:0 4px 14px rgba(3,12,24,.28);transition:background .15s ease,transform .15s ease}
+  .lh-sound-toggle:hover,.lh-sound-toggle:focus-visible{background:rgba(5,17,31,.88);
+    transform:translateY(-1px);outline:2px solid rgba(255,255,255,.92);outline-offset:2px}
+  .lh-sound-toggle[aria-pressed="true"]{background:rgba(16,126,88,.88)}
+  @media (max-width:640px){
+    .lh-filmcopy{left:4.5%;top:7%}
+    .lh-sound-toggle{right:2.5%;top:4%;font-size:.68rem;padding:.34rem .56rem}
+  }
   @media (prefers-reduced-motion:reduce){
     .lh-ola,.lh-luz,.lh-foco,.lh-nube,.lh-ave,.lh-aurora,.lh-titila,.lh-rielar,
-    .lh-nino.saluda .lh-globo{animation:none}
+    .lh-nino.saluda .lh-globo,.lh-nino img{animation:none}
     .lh-nino.saluda .lh-globo{opacity:1;transform:translateX(-50%) scale(1)}
   }`;
 
@@ -620,49 +659,22 @@ window.BANNER = (function () {
   /* ---- la pantalla ----------------------------------------------------- */
 
   function html(idx, nivel) {
-    const c = HORA[nivel] || HORA.starters;
-    const anfitrion = ANFITRION[nivel] || (idx.kids || [])[0];
-    const kids = idx.kids || [];
-
-    // Los ninos no van en fila plana: los del centro pisan mas adelante
-    // (mas grandes y mas abajo) y los de los extremos quedan detras, algo
-    // mas pequenos y apagados por la distancia.
-    const plano = i => {
-      const centro = (kids.length - 1) / 2;
-      const d = Math.abs(i - centro) / (centro || 1);          // 0 centro, 1 extremo
-      return `--esc:${(1.05 - d * .14).toFixed(3)};--fondo:${(d * 10).toFixed(1)}px;` +
-             `--sat:${(1 - d * .12).toFixed(2)};--bri:${(1 - d * .07).toFixed(2)}`;
-    };
-
-    const ninos = kids.map((k, i) => `
-      <button class="lh-nino${k === anfitrion ? ' saluda' : ''}" data-quien="${k}"
-              type="button" style="${plano(i)}"
-              aria-label="Listen to ${k[0].toUpperCase() + k.slice(1)}">
-        <span class="lh-globo">${k === anfitrion ? 'Hello!!' : 'Hi!'}</span>
-        <img src="../assets/characters/${nivel}/${k}/fullbody.png?v=${window.ART_V || ''}" alt=""
-             onerror="this.onerror=null;this.src='../assets/characters/${nivel}/${k}/pose-01.png?v=${window.ART_V || ''}'">
-      </button>`).join('');
+    const castPoster = `../assets/videos/posters/${nivel}-cast.jpg?v=${window.ART_V || ''}`;
+    const castVideo = `../assets/videos/${nivel}-cast.mp4?v=${window.ART_V || ''}`;
 
     return `<style>${CSS}</style>
-      <div class="lh" data-nivel="${nivel}">
-        ${fondo(nivel)}
-        ${CON_LAMINA.has(nivel) ? `<img class="lh-lamina" src="${LAMINA(nivel)}" alt=""
-             onerror="this.remove()">` : ''}
-        <div class="lh-capa" style="color:${c.texto}">
-          <div class="lh-tit" style="text-shadow:${c.sombraTexto}">
+      <div class="lh lh-cinematic" data-nivel="${nivel}">
+        <div class="lh-filmframe">
+          <img class="lh-filmposter" src="${castPoster}" alt="${idx.cast} at Nordic International School">
+          <video class="lh-film" muted playsinline preload="metadata" aria-hidden="true"
+                 poster="${castPoster}"><source src="${castVideo}" type="video/mp4"></video>
+          <div class="lh-filmshade"></div>
+          <div class="lh-filmcopy">
             <h1>${idx.name}</h1>
             <p class="lh-cast">${idx.cast}</p>
           </div>
-          <div class="lh-elenco">
-            ${ninos}
-            <button class="lh-nino mascota" data-quien="${idx.mascot}" type="button"
-                    style="--esc:1;--fondo:6px"
-                    aria-label="${idx.mascot[0].toUpperCase() + idx.mascot.slice(1)}">
-              <span class="lh-globo">Hello!</span>
-              <img src="../assets/characters/${nivel}/${idx.mascot}/fullbody.png?v=${window.ART_V || ''}" alt=""
-                   onerror="this.onerror=null;this.src='../assets/characters/${nivel}/${idx.mascot}/pose-01.png?v=${window.ART_V || ''}'">
-            </button>
-          </div>
+          <button class="lh-sound-toggle" type="button" aria-pressed="false"
+                  aria-label="Play this video with sound">🔊 Play with sound</button>
         </div>
       </div>`;
   }
@@ -672,24 +684,26 @@ window.BANNER = (function () {
     const caja = el.querySelector('.lh');
     if (!caja) return;
     const nivel = caja.dataset.nivel;
-    let sonando = null;
-    caja.querySelectorAll('.lh-nino').forEach(b => {
-      b.onclick = () => {
-        const quien = b.dataset.quien;
-        b.classList.remove('dice');
-        void b.offsetWidth;                       // reinicia la animacion
-        b.classList.add('dice');
-        if (sonando) { sonando.pause(); sonando = null; }
-        const nombre = quien[0].toUpperCase() + quien.slice(1);
-        const a = new Audio(`../audio/cast/${nivel}-${quien}.mp3`);
-        const deRespaldo = () => {
-          if (window.SAY) SAY.frase(`Hello! I am ${nombre}!`);
-        };
-        a.onerror = deRespaldo;
-        a.play().catch(deRespaldo);
-        sonando = a;
-      };
-    });
+    const film = caja.querySelector('.lh-film');
+    const inicio = 2.35;
+    if (film && !matchMedia('(prefers-reduced-motion: reduce)').matches &&
+        !(navigator.connection && navigator.connection.saveData)) {
+      const saltarIntro = () => { if(film.currentTime < inicio) film.currentTime = inicio; };
+      if (film.readyState >= 1) saltarIntro();
+      else film.addEventListener('loadedmetadata', saltarIntro, {once:true});
+      film.addEventListener('ended', () => { film.currentTime = inicio; film.play().catch(()=>{}); });
+      film.play().catch(()=>{});
+    }
+    const sonido = caja.querySelector('.lh-sound-toggle');
+    if (film && sonido) sonido.onclick = () => {
+      const activar = film.muted;
+      film.muted = !activar;
+      sonido.setAttribute('aria-pressed', activar ? 'true' : 'false');
+      sonido.setAttribute('aria-label', activar ? 'Mute this video' : 'Play this video with sound');
+      sonido.textContent = activar ? '🔇 Mute' : '🔊 Play with sound';
+      if (activar) film.currentTime = 0;
+      film.play().catch(()=>{});
+    };
   }
 
   return { html, vivo };

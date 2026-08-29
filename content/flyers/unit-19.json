@@ -230,6 +230,413 @@
    ],
    "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
    "data": {}
+  },
+  {
+   "type": "label_people",
+   "title": "Listen and write the names.",
+   "instructions": "Look at the picture. Listen and write the name under each person. Careful: there are three names you do not need.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "The Natural World"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and label the people in the picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u19-g.mp3",
+   "data": {
+    "scene": "garden",
+    "place": "the school garden",
+    "people": [
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 7,
+      "clue": "the girl in the green shirt with a magnifying glass",
+      "action": "is looking at something very small"
+     },
+     {
+      "slug": "kili",
+      "name": "Kili",
+      "pose": 3,
+      "clue": "the big black bird with a white collar",
+      "action": "is carrying a letter"
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 7,
+      "clue": "the boy in the red shirt with a microphone",
+      "action": "is asking questions with his microphone"
+     },
+     {
+      "slug": "aiko",
+      "name": "Aiko",
+      "pose": 7,
+      "clue": "the girl with long straight black hair and an orange shirt",
+      "action": "is reading a book"
+     },
+     {
+      "slug": "tino",
+      "name": "Tino",
+      "pose": 7,
+      "clue": "the boy with very short hair and a white and green shirt",
+      "action": "is playing hockey"
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Bruno",
+     "Diego",
+     "Iris",
+     "Kili",
+     "Maya",
+     "Oliver",
+     "Tino"
+    ],
+    "script": "Look at the picture. Listen and write the names. There is one example. … Diego: Who is that in the school garden? The girl in the green shirt with a magnifying glass. … Maya: That is Maya. Maya is looking at something very small. … Diego: And who is the big black bird with a white collar? … Maya: That is Kili. Look, Kili is carrying a letter. … Diego: And who is the boy in the red shirt with a microphone? … Maya: That is Diego. Look, Diego is asking questions with his microphone. … Diego: And who is the girl with long straight black hair and an orange shirt? … Maya: That is Aiko. Look, Aiko is reading a book. … Diego: And who is the boy with very short hair and a white and green shirt? … Maya: That is Tino. Look, Tino is playing hockey.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  },
+  {
+   "type": "picture_mc",
+   "title": "Listen and tick the box.",
+   "instructions": "Listen to each question and click the picture that answers it.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "The Natural World"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and tick the right picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u19-h.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "What is Maya pointing at?",
+      "answer": "lightning",
+      "options": [
+       {
+        "word": "lightning",
+        "propio": false
+       },
+       {
+        "word": "suitcase",
+        "propio": true
+       },
+       {
+        "word": "belt",
+        "propio": true
+       }
+      ],
+      "script": "What is Maya pointing at? … Maya: I am pointing at the lightning."
+     },
+     {
+      "q": "What is Tino talking about?",
+      "answer": "thunder",
+      "options": [
+       {
+        "word": "pocket",
+        "propio": true
+       },
+       {
+        "word": "thunder",
+        "propio": false
+       },
+       {
+        "word": "bridge",
+        "propio": true
+       }
+      ],
+      "script": "What is Tino talking about? … Tino: I am talking about the thunder."
+     },
+     {
+      "q": "Which word is Bruno learning today?",
+      "answer": "fog",
+      "options": [
+       {
+        "word": "fog",
+        "propio": false
+       },
+       {
+        "word": "airport",
+        "propio": true
+       },
+       {
+        "word": "bridge",
+        "propio": true
+       }
+      ],
+      "script": "Which word is Bruno learning today? … Bruno: Today I am learning the word fog."
+     },
+     {
+      "q": "What has Lia drawn?",
+      "answer": "storm",
+      "options": [
+       {
+        "word": "museum",
+        "propio": true
+       },
+       {
+        "word": "stadium",
+        "propio": true
+       },
+       {
+        "word": "storm",
+        "propio": false
+       }
+      ],
+      "script": "What has Lia drawn? … Lia: I have drawn a storm."
+     },
+     {
+      "q": "Which picture is Aiko looking at?",
+      "answer": "ice",
+      "options": [
+       {
+        "word": "ice",
+        "propio": false
+       },
+       {
+        "word": "stadium",
+        "propio": true
+       },
+       {
+        "word": "bridge",
+        "propio": true
+       }
+      ],
+      "script": "Which picture is Aiko looking at? … Aiko: I am looking at the ice."
+     }
+    ],
+    "script": "Listen and tick the box. There is one example. … What is Maya pointing at? … Maya: I am pointing at the lightning. … What is Tino talking about? … Tino: I am talking about the thunder. … Which word is Bruno learning today? … Bruno: Today I am learning the word fog. … What has Lia drawn? … Lia: I have drawn a storm. … Which picture is Aiko looking at? … Aiko: I am looking at the ice.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "H"
+  },
+  {
+   "type": "match_pictures",
+   "title": "Listen and match each explorer to a picture.",
+   "instructions": "Listen. Then choose the letter of the picture for each person. Careful: some pictures are extra.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "The Natural World"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and match each person to a picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 3
+    }
+   },
+   "audio": "flyers/u19-i.mp3",
+   "data": {
+    "people": [
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 8
+     },
+     {
+      "slug": "tino",
+      "name": "Tino",
+      "pose": 3
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "pose": 3
+     },
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "pose": 8
+     },
+     {
+      "slug": "samu",
+      "name": "Samu",
+      "pose": 3
+     }
+    ],
+    "pictures": [
+     {
+      "word": "storm",
+      "propio": false,
+      "id": "A"
+     },
+     {
+      "word": "lightning",
+      "propio": false,
+      "id": "B"
+     },
+     {
+      "word": "suitcase",
+      "propio": true,
+      "id": "C"
+     },
+     {
+      "word": "thunder",
+      "propio": false,
+      "id": "D"
+     },
+     {
+      "word": "fog",
+      "propio": false,
+      "id": "E"
+     },
+     {
+      "word": "police station",
+      "propio": true,
+      "id": "F"
+     },
+     {
+      "word": "ice",
+      "propio": false,
+      "id": "G"
+     },
+     {
+      "word": "pocket",
+      "propio": true,
+      "id": "H"
+     }
+    ],
+    "answers": {
+     "Maya": "B",
+     "Tino": "G",
+     "Bruno": "D",
+     "Oliver": "A",
+     "Samu": "E"
+    },
+    "script": "Listen and match each person to a picture. There is one example. … Diego: Maya, which picture did you choose? … Maya: I chose the lightning. … Diego: Tino, which picture did you choose? … Tino: I chose the ice. … Diego: Bruno, which picture did you choose? … Bruno: I chose the thunder. … Diego: Oliver, which picture did you choose? … Oliver: I chose the storm. … Diego: Samu, which picture did you choose? … Samu: I chose the fog.",
+    "voice_note": "Diego pregunta; cada explorador responde con su objeto."
+   },
+   "code": "I"
+  },
+  {
+   "type": "picture_story",
+   "title": "Look at the three pictures and write the story.",
+   "instructions": "Look at the pictures. Write the story in 20-25 words. Use the words under each picture to help you.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "The Natural World"
+    },
+    "destreza": "Writing",
+    "puede": "Writing Part 3: 20–25-word picture story (Flyers); classroom pieces 100–150w.",
+    "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "mirador",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 4
+       }
+      ],
+      "word": "storm",
+      "hint": "Maya / takes / a storm",
+      "model": "Maya takes a storm at the viewpoint."
+     },
+     {
+      "n": 2,
+      "scene": "zoo",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 8
+       },
+       {
+        "slug": "bruno",
+        "pose": 1
+       }
+      ],
+      "word": "lightning",
+      "hint": "Bruno / bring / a lightning",
+      "model": "Then Bruno brings a lightning."
+     },
+     {
+      "n": 3,
+      "scene": "garden",
+      "people": [
+       {
+        "slug": "bruno",
+        "pose": 1
+       },
+       {
+        "slug": "maya",
+        "pose": 10
+       }
+      ],
+      "word": "flood",
+      "hint": "now / a flood / happy",
+      "model": "Now they have got a flood too, and both are happy."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Maya takes a storm at the viewpoint. Then Bruno brings a lightning. Now they have got a flood too, and both are happy.",
+    "words": [
+     "storm",
+     "lightning",
+     "flood"
+    ],
+    "support": {
+     "grammar": "past simple + weather",
+     "words": [
+      "storm",
+      "lightning",
+      "thunder",
+      "fog",
+      "ice",
+      "flood"
+     ]
+    }
+   },
+   "code": "J"
   }
  ],
  "homework": [

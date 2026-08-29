@@ -254,6 +254,269 @@
    ],
    "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
    "data": {}
+  },
+  {
+   "type": "label_people",
+   "title": "Listen and write the names.",
+   "instructions": "Look at the picture. Listen and write the name under each person. Careful: there are three names you do not need.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 4,
+     "nombre": "People & Cultures"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and label the people in the picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u38-g.mp3",
+   "data": {
+    "scene": "amphitheater",
+    "place": "the amphitheatre",
+    "people": [
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 7,
+      "clue": "the boy in the red shirt with a microphone",
+      "action": "is asking questions with his microphone"
+     },
+     {
+      "slug": "kili",
+      "name": "Kili",
+      "pose": 3,
+      "clue": "the big black bird with a white collar",
+      "action": "is carrying a letter"
+     },
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 7,
+      "clue": "the girl in the green shirt with a magnifying glass",
+      "action": "is looking at something very small"
+     },
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "pose": 7,
+      "clue": "the girl with fair hair and a dark blue jacket",
+      "action": "is reading the plan for the day"
+     },
+     {
+      "slug": "samu",
+      "name": "Samu",
+      "pose": 7,
+      "clue": "the boy with short fair hair and a rucksack",
+      "action": "is waving"
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Bruno",
+     "Diego",
+     "Ingrid",
+     "Kili",
+     "Lia",
+     "Maya",
+     "Samu"
+    ],
+    "script": "Look at the picture. Listen and write the names. There is one example. … Diego: Who is that in the amphitheatre? The boy in the red shirt with a microphone. … Maya: That is Diego. Diego is asking questions with his microphone. … Diego: And who is the big black bird with a white collar? … Maya: That is Kili. Look, Kili is carrying a letter. … Diego: And who is the girl in the green shirt with a magnifying glass? … Maya: That is Maya. Look, Maya is looking at something very small. … Diego: And who is the girl with fair hair and a dark blue jacket? … Maya: That is Ingrid. Look, Ingrid is reading the plan for the day. … Diego: And who is the boy with short fair hair and a rucksack? … Maya: That is Samu. Look, Samu is waving.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  },
+  {
+   "type": "picture_mc",
+   "title": "Listen and tick the box.",
+   "instructions": "Listen to each question and click the picture that answers it.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 4,
+     "nombre": "People & Cultures"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and tick the right picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u38-h.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "What is Diego talking about?",
+      "answer": "screen",
+      "options": [
+       {
+        "word": "uniform",
+        "propio": true
+       },
+       {
+        "word": "bridge",
+        "propio": true
+       },
+       {
+        "word": "screen",
+        "propio": false
+       }
+      ],
+      "script": "What is Diego talking about? … Diego: I am talking about the screen."
+     },
+     {
+      "q": "Which word is Maya learning today?",
+      "answer": "channel",
+      "options": [
+       {
+        "word": "castle",
+        "propio": true
+       },
+       {
+        "word": "chemist's",
+        "propio": true
+       },
+       {
+        "word": "channel",
+        "propio": false
+       }
+      ],
+      "script": "Which word is Maya learning today? … Maya: Today I am learning the word channel."
+     },
+     {
+      "q": "What has Samu drawn?",
+      "answer": "camera",
+      "options": [
+       {
+        "word": "chemist's",
+        "propio": true
+       },
+       {
+        "word": "family",
+        "propio": true
+       },
+       {
+        "word": "camera",
+        "propio": false
+       }
+      ],
+      "script": "What has Samu drawn? … Samu: I have drawn a camera."
+     }
+    ],
+    "script": "Listen and tick the box. There is one example. … What is Diego talking about? … Diego: I am talking about the screen. … Which word is Maya learning today? … Maya: Today I am learning the word channel. … What has Samu drawn? … Samu: I have drawn a camera.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "H"
+  },
+  {
+   "type": "picture_story",
+   "title": "Look at the three pictures and write the story.",
+   "instructions": "Look at the pictures. Write the story in 20-25 words. Use the words under each picture to help you.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 4,
+     "nombre": "People & Cultures"
+    },
+    "destreza": "Writing",
+    "puede": "Writing Part 3: 20–25-word picture story (Flyers); classroom pieces 100–150w.",
+    "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "funfair",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 4
+       }
+      ],
+      "word": "channel",
+      "hint": "Diego / carries / a channel",
+      "model": "Diego carries a channel at the funfair."
+     },
+     {
+      "n": 2,
+      "scene": "facade",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 8
+       },
+       {
+        "slug": "oliver",
+        "pose": 1
+       }
+      ],
+      "word": "screen",
+      "hint": "Oliver / bring / a screen",
+      "model": "Then Oliver brings a screen."
+     },
+     {
+      "n": 3,
+      "scene": "main-building",
+      "people": [
+       {
+        "slug": "oliver",
+        "pose": 10
+       },
+       {
+        "slug": "diego",
+        "pose": 10
+       }
+      ],
+      "word": "camera",
+      "hint": "now / a camera / happy",
+      "model": "Now they have got a camera too, and both are happy."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Diego carries a channel at the funfair. Then Oliver brings a screen. Now they have got a camera too, and both are happy.",
+    "words": [
+     "channel",
+     "screen",
+     "camera"
+    ],
+    "support": {
+     "grammar": "opinion adverbs + present simple",
+     "words": [
+      "channel",
+      "programme",
+      "cartoon",
+      "documentary",
+      "screen",
+      "video"
+     ]
+    }
+   },
+   "code": "I"
   }
  ],
  "homework": [

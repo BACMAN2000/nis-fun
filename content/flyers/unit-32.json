@@ -254,6 +254,413 @@
    ],
    "instructions": "Look at picture A and picture B. Find the 11 differences and tell your partner about them.",
    "data": {}
+  },
+  {
+   "type": "label_people",
+   "title": "Listen and write the names.",
+   "instructions": "Look at the picture. Listen and write the name under each person. Careful: there are three names you do not need.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 4,
+     "nombre": "People & Cultures"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and label the people in the picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u32-g.mp3",
+   "data": {
+    "scene": "funfair",
+    "place": "the funfair",
+    "people": [
+     {
+      "slug": "kili",
+      "name": "Kili",
+      "pose": 3,
+      "clue": "the big black bird with a white collar",
+      "action": "is carrying a letter"
+     },
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "pose": 7,
+      "clue": "the girl with fair hair and a dark blue jacket",
+      "action": "is reading the plan for the day"
+     },
+     {
+      "slug": "tino",
+      "name": "Tino",
+      "pose": 7,
+      "clue": "the boy with very short hair and a white and green shirt",
+      "action": "is playing hockey"
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 7,
+      "clue": "the boy in the red shirt with a microphone",
+      "action": "is asking questions with his microphone"
+     },
+     {
+      "slug": "aiko",
+      "name": "Aiko",
+      "pose": 7,
+      "clue": "the girl with long straight black hair and an orange shirt",
+      "action": "is reading a book"
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Bruno",
+     "Diego",
+     "Ingrid",
+     "Kili",
+     "Lia",
+     "Oliver",
+     "Tino"
+    ],
+    "script": "Look at the picture. Listen and write the names. There is one example. … Diego: Who is that in the funfair? The big black bird with a white collar. … Maya: That is Kili. Kili is carrying a letter. … Diego: And who is the girl with fair hair and a dark blue jacket? … Maya: That is Ingrid. Look, Ingrid is reading the plan for the day. … Diego: And who is the boy with very short hair and a white and green shirt? … Maya: That is Tino. Look, Tino is playing hockey. … Diego: And who is the boy in the red shirt with a microphone? … Maya: That is Diego. Look, Diego is asking questions with his microphone. … Diego: And who is the girl with long straight black hair and an orange shirt? … Maya: That is Aiko. Look, Aiko is reading a book.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  },
+  {
+   "type": "picture_mc",
+   "title": "Listen and tick the box.",
+   "instructions": "Listen to each question and click the picture that answers it.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 4,
+     "nombre": "People & Cultures"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and tick the right picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u32-h.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "What is Ingrid talking about?",
+      "answer": "address",
+      "options": [
+       {
+        "word": "umbrella",
+        "propio": true
+       },
+       {
+        "word": "pocket",
+        "propio": true
+       },
+       {
+        "word": "address",
+        "propio": false
+       }
+      ],
+      "script": "What is Ingrid talking about? … Ingrid: I am talking about the address."
+     },
+     {
+      "q": "Which word is Tino learning today?",
+      "answer": "greetings",
+      "options": [
+       {
+        "word": "gloves",
+        "propio": true
+       },
+       {
+        "word": "greetings",
+        "propio": false
+       },
+       {
+        "word": "stadium",
+        "propio": true
+       }
+      ],
+      "script": "Which word is Tino learning today? … Tino: Today I am learning the word greetings."
+     },
+     {
+      "q": "What has Samu drawn?",
+      "answer": "sign",
+      "options": [
+       {
+        "word": "museum",
+        "propio": true
+       },
+       {
+        "word": "sign",
+        "propio": false
+       },
+       {
+        "word": "restaurant",
+        "propio": true
+       }
+      ],
+      "script": "What has Samu drawn? … Samu: I have drawn a sign."
+     },
+     {
+      "q": "Which picture is Oliver looking at?",
+      "answer": "envelope",
+      "options": [
+       {
+        "word": "envelope",
+        "propio": false
+       },
+       {
+        "word": "socks",
+        "propio": true
+       },
+       {
+        "word": "stadium",
+        "propio": true
+       }
+      ],
+      "script": "Which picture is Oliver looking at? … Oliver: I am looking at the envelope."
+     },
+     {
+      "q": "What can Lia see in the picture?",
+      "answer": "postcard",
+      "options": [
+       {
+        "word": "uniform",
+        "propio": true
+       },
+       {
+        "word": "gloves",
+        "propio": true
+       },
+       {
+        "word": "postcard",
+        "propio": false
+       }
+      ],
+      "script": "What can Lia see in the picture? … Lia: I can see the postcard."
+     }
+    ],
+    "script": "Listen and tick the box. There is one example. … What is Ingrid talking about? … Ingrid: I am talking about the address. … Which word is Tino learning today? … Tino: Today I am learning the word greetings. … What has Samu drawn? … Samu: I have drawn a sign. … Which picture is Oliver looking at? … Oliver: I am looking at the envelope. … What can Lia see in the picture? … Lia: I can see the postcard.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "H"
+  },
+  {
+   "type": "match_pictures",
+   "title": "Listen and match each explorer to a picture.",
+   "instructions": "Listen. Then choose the letter of the picture for each person. Careful: some pictures are extra.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 4,
+     "nombre": "People & Cultures"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and match each person to a picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 3
+    }
+   },
+   "audio": "flyers/u32-i.mp3",
+   "data": {
+    "people": [
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "pose": 8
+     },
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "pose": 8
+     },
+     {
+      "slug": "samu",
+      "name": "Samu",
+      "pose": 3
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "pose": 3
+     },
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 8
+     }
+    ],
+    "pictures": [
+     {
+      "word": "umbrella",
+      "propio": true,
+      "id": "A"
+     },
+     {
+      "word": "greetings",
+      "propio": false,
+      "id": "B"
+     },
+     {
+      "word": "funfair",
+      "propio": true,
+      "id": "C"
+     },
+     {
+      "word": "wish",
+      "propio": false,
+      "id": "D"
+     },
+     {
+      "word": "socks",
+      "propio": true,
+      "id": "E"
+     },
+     {
+      "word": "postcard",
+      "propio": false,
+      "id": "F"
+     },
+     {
+      "word": "address",
+      "propio": false,
+      "id": "G"
+     },
+     {
+      "word": "envelope",
+      "propio": false,
+      "id": "H"
+     }
+    ],
+    "answers": {
+     "Ingrid": "D",
+     "Oliver": "F",
+     "Samu": "B",
+     "Bruno": "G",
+     "Maya": "H"
+    },
+    "script": "Listen and match each person to a picture. There is one example. … Diego: Ingrid, which picture did you choose? … Ingrid: I chose the wish. … Diego: Oliver, which picture did you choose? … Oliver: I chose the postcard. … Diego: Samu, which picture did you choose? … Samu: I chose the greetings. … Diego: Bruno, which picture did you choose? … Bruno: I chose the address. … Diego: Maya, which picture did you choose? … Maya: I chose the envelope.",
+    "voice_note": "Diego pregunta; cada explorador responde con su objeto."
+   },
+   "code": "I"
+  },
+  {
+   "type": "picture_story",
+   "title": "Look at the three pictures and write the story.",
+   "instructions": "Look at the pictures. Write the story in 20-25 words. Use the words under each picture to help you.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 4,
+     "nombre": "People & Cultures"
+    },
+    "destreza": "Writing",
+    "puede": "Writing Part 3: 20–25-word picture story (Flyers); classroom pieces 100–150w.",
+    "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "amphitheater",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 4
+       }
+      ],
+      "word": "sign",
+      "hint": "Ingrid / carries / a sign",
+      "model": "Ingrid carries a sign at the amphitheatre."
+     },
+     {
+      "n": 2,
+      "scene": "funfair",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 8
+       },
+       {
+        "slug": "aiko",
+        "pose": 1
+       }
+      ],
+      "word": "envelope",
+      "hint": "Aiko / bring / an envelope",
+      "model": "Then Aiko brings an envelope."
+     },
+     {
+      "n": 3,
+      "scene": "main-building",
+      "people": [
+       {
+        "slug": "aiko",
+        "pose": 1
+       },
+       {
+        "slug": "ingrid",
+        "pose": 10
+       }
+      ],
+      "word": "stamp",
+      "hint": "now / a stamp / happy",
+      "model": "Now they have got a stamp too, and both are happy."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Ingrid carries a sign at the amphitheatre. Then Aiko brings an envelope. Now they have got a stamp too, and both are happy.",
+    "words": [
+     "sign",
+     "envelope",
+     "stamp"
+    ],
+    "support": {
+     "grammar": "postcard phrases + past simple",
+     "words": [
+      "postcard",
+      "stamp",
+      "address",
+      "envelope",
+      "send",
+      "sent"
+     ]
+    }
+   },
+   "code": "J"
   }
  ],
  "homework": [

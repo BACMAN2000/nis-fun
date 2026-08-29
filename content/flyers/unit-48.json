@@ -253,6 +253,176 @@
    ],
    "instructions": "Look at picture A and picture B. Find the 11 differences and tell your partner about them.",
    "data": {}
+  },
+  {
+   "type": "label_people",
+   "title": "Listen and write the names.",
+   "instructions": "Look at the picture. Listen and write the name under each person. Careful: there are three names you do not need.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 1,
+     "nombre": "Personal Identity"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and label the people in the picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u48-g.mp3",
+   "data": {
+    "scene": "entrance",
+    "place": "the school entrance",
+    "people": [
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 7,
+      "clue": "the girl in the green shirt with a magnifying glass",
+      "action": "is looking at something very small"
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 7,
+      "clue": "the boy in the red shirt with a microphone",
+      "action": "is asking questions with his microphone"
+     },
+     {
+      "slug": "samu",
+      "name": "Samu",
+      "pose": 7,
+      "clue": "the boy with short fair hair and a rucksack",
+      "action": "is waving"
+     },
+     {
+      "slug": "tino",
+      "name": "Tino",
+      "pose": 7,
+      "clue": "the boy with very short hair and a white and green shirt",
+      "action": "is playing hockey"
+     },
+     {
+      "slug": "aiko",
+      "name": "Aiko",
+      "pose": 7,
+      "clue": "the girl with long straight black hair and an orange shirt",
+      "action": "is reading a book"
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Bruno",
+     "Diego",
+     "Ingrid",
+     "Maya",
+     "Oliver",
+     "Samu",
+     "Tino"
+    ],
+    "script": "Look at the picture. Listen and write the names. There is one example. … Diego: Who is that in the school entrance? The girl in the green shirt with a magnifying glass. … Maya: That is Maya. Maya is looking at something very small. … Diego: And who is the boy in the red shirt with a microphone? … Maya: That is Diego. Look, Diego is asking questions with his microphone. … Diego: And who is the boy with short fair hair and a rucksack? … Maya: That is Samu. Look, Samu is waving. … Diego: And who is the boy with very short hair and a white and green shirt? … Maya: That is Tino. Look, Tino is playing hockey. … Diego: And who is the girl with long straight black hair and an orange shirt? … Maya: That is Aiko. Look, Aiko is reading a book.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  },
+  {
+   "type": "picture_story",
+   "title": "Look at the three pictures and write the story.",
+   "instructions": "Look at the pictures. Write the story in 20-25 words. Use the words under each picture to help you.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 1,
+     "nombre": "Personal Identity"
+    },
+    "destreza": "Writing",
+    "puede": "Writing Part 3: 20–25-word picture story (Flyers); classroom pieces 100–150w.",
+    "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "library",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 4
+       }
+      ],
+      "word": "",
+      "hint": "Maya / in the library",
+      "model": "One morning Maya is in the library."
+     },
+     {
+      "n": 2,
+      "scene": "entrance",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 3
+       },
+       {
+        "slug": "diego",
+        "pose": 3
+       }
+      ],
+      "word": "",
+      "hint": "Maya / meet / Diego",
+      "model": "Then Maya meets Diego at the school entrance."
+     },
+     {
+      "n": 3,
+      "scene": "campus-hex",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 10
+       },
+       {
+        "slug": "diego",
+        "pose": 10
+       }
+      ],
+      "word": "",
+      "hint": "at the school courtyard / happy",
+      "model": "At the school courtyard they are very happy together."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "One morning Maya is in the library. Then Maya meets Diego at the school entrance. At the school courtyard they are very happy together.",
+    "words": [],
+    "support": {
+     "grammar": "relative clauses: who, which, where",
+     "words": [
+      "who",
+      "which",
+      "where",
+      "person",
+      "place",
+      "thing"
+     ]
+    }
+   },
+   "code": "H"
   }
  ],
  "homework": [

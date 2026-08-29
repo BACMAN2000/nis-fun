@@ -253,6 +253,176 @@
    ],
    "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
    "data": {}
+  },
+  {
+   "type": "label_people",
+   "title": "Listen and write the names.",
+   "instructions": "Look at the picture. Listen and write the name under each person. Careful: there are three names you do not need.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Health & Wellbeing"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and label the people in the picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u33-g.mp3",
+   "data": {
+    "scene": "garden",
+    "place": "the school garden",
+    "people": [
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "pose": 7,
+      "clue": "the girl with fair hair and a dark blue jacket",
+      "action": "is reading the plan for the day"
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 7,
+      "clue": "the boy in the red shirt with a microphone",
+      "action": "is asking questions with his microphone"
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "pose": 7,
+      "clue": "the girl with a red ponytail and freckles",
+      "action": "is drawing with chalk on the ground"
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "pose": 7,
+      "clue": "the girl with black plaits and a purple shirt",
+      "action": "is jumping with a skipping rope"
+     },
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 7,
+      "clue": "the girl in the green shirt with a magnifying glass",
+      "action": "is looking at something very small"
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Diego",
+     "Ingrid",
+     "Iris",
+     "Kili",
+     "Lia",
+     "Maya",
+     "Oliver"
+    ],
+    "script": "Look at the picture. Listen and write the names. There is one example. … Diego: Who is that in the school garden? The girl with fair hair and a dark blue jacket. … Maya: That is Ingrid. Ingrid is reading the plan for the day. … Diego: And who is the boy in the red shirt with a microphone? … Maya: That is Diego. Look, Diego is asking questions with his microphone. … Diego: And who is the girl with a red ponytail and freckles? … Maya: That is Iris. Look, Iris is drawing with chalk on the ground. … Diego: And who is the girl with black plaits and a purple shirt? … Maya: That is Lia. Look, Lia is jumping with a skipping rope. … Diego: And who is the girl in the green shirt with a magnifying glass? … Maya: That is Maya. Look, Maya is looking at something very small.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  },
+  {
+   "type": "picture_story",
+   "title": "Look at the three pictures and write the story.",
+   "instructions": "Look at the pictures. Write the story in 20-25 words. Use the words under each picture to help you.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Health & Wellbeing"
+    },
+    "destreza": "Writing",
+    "puede": "Writing Part 3: 20–25-word picture story (Flyers); classroom pieces 100–150w.",
+    "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "hockey",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 4
+       }
+      ],
+      "word": "",
+      "hint": "Ingrid / at the hockey pitch",
+      "model": "One morning Ingrid is at the hockey pitch."
+     },
+     {
+      "n": 2,
+      "scene": "garden",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 3
+       },
+       {
+        "slug": "diego",
+        "pose": 3
+       }
+      ],
+      "word": "",
+      "hint": "Ingrid / meet / Diego",
+      "model": "Then Ingrid meets Diego at the school garden."
+     },
+     {
+      "n": 3,
+      "scene": "picnic-garden",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 10
+       },
+       {
+        "slug": "diego",
+        "pose": 10
+       }
+      ],
+      "word": "",
+      "hint": "at the picnic garden / happy",
+      "model": "At the picnic garden they are very happy together."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "One morning Ingrid is at the hockey pitch. Then Ingrid meets Diego at the school garden. At the picnic garden they are very happy together.",
+    "words": [],
+    "support": {
+     "grammar": "How about + -ing / Shall we / Let's",
+     "words": [
+      "suggest",
+      "idea",
+      "agree",
+      "prefer",
+      "instead",
+      "maybe"
+     ]
+    }
+   },
+   "code": "H"
   }
  ],
  "homework": [

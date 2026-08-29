@@ -23,6 +23,51 @@ Arquitectura: https://claude.ai/code/artifact/5f302f83-b553-4a9e-903a-ebe157241f
 - `book-builder/book.html` — plantilla imprimible del Student's Book (portada + 1 página por unidad).
 - `character-sheet.html` — hoja de contacto para revisar los 15 personajes.
 
+## Tareas visuales del examen A2 Flyers (5.º grado)
+
+El curso tenía todo el peso en texto. Los formatos del examen que se resuelven
+**mirando** no existían, y son cuatro:
+
+| Tipo | Parte del examen | Qué hace el alumno |
+|------|------------------|--------------------|
+| `label_people`   | Listening Part 1     | escribe el nombre debajo de cada persona de la lámina |
+| `picture_mc`     | Listening Part 4     | escucha y marca 1 de 3 imágenes |
+| `match_pictures` | Listening Part 3     | empareja a cada explorador con una letra A–H |
+| `picture_story`  | R&W Part 7           | escribe la historia de tres viñetas en 20–25 palabras |
+
+De Cambridge se copia el **tipo de tarea** (formato público que usan todas las
+editoriales). El dibujo es nuestro: personajes de `characters/bible.md` sobre
+escenarios de `assets/scenes`, y el vocabulario con `engine/vocab-art.js`. No
+entra ninguna ilustración de *Fun for Flyers*: son de Cambridge University
+Press & Assessment.
+
+- `content/cast-flyers.json` — quién puede salir, con qué poses (las que hay en
+  disco), cómo se le describe en el audio y en qué escenario. Aquí está también
+  el reparto de las seis **funciones** de Cambridge (robot de gramática,
+  marcador de tiempo, naturalista, rutinas, ortografía, guía adulto) entre
+  nuestros personajes, y el único hueco que queda: **falta un adulto guía**.
+- `tools/gen_visual_flyers.py` — el generador. Idempotente y determinista.
+  También escribe `content/flyers/exam-map.json`, que es lo que lee el portal.
+- `tools/check_visual_flyers.py` — la auditoría: poses que existen, escenas que
+  existen, respuestas que están entre las opciones y que se oyen en el audio,
+  y modelos de historia que caben en las 20–25 palabras que se piden.
+- `tools/gen_audio_visual.py` — graba los diálogos con Edge TTS, una voz fija
+  por personaje. Hace falta: el portátil del colegio solo tiene voces
+  castellanas, así que la voz del navegador no sirve en clase.
+- `tools/patch_engine_visual.py` — mete los renderers en `engine/index.html`
+  **por ancla de texto, no copiando el archivo**. Hay dos copias del motor
+  (este repo y `nis-portal/nis-fun/`) y no van a la par.
+
+Cobertura: `label_people` y `picture_story` en las 55 unidades; `picture_mc` en
+28 y `match_pictures` en 24. Las que faltan son unidades de gramática pura
+(posesivos, preposiciones, meses, adverbios de frecuencia) donde no hay objeto
+que dibujar; el generador **no** las rellena con dibujos falsos.
+
+Cada actividad lleva un bloque `kpi` con el grado, la unidad del Scope &
+Sequence de 5.º a la que sirve y el outcome que cubre. Eso es lo que permite
+enseñarlas dentro de la clase (portal → 5.º → Cambridge Flyers) en vez de como
+un curso de examen aparte.
+
 ## Correr en local
 ```
 python -m http.server 9310 --directory C:/Projects/nis-fun

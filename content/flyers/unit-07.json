@@ -230,6 +230,413 @@
    ],
    "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
    "data": {}
+  },
+  {
+   "type": "label_people",
+   "title": "Listen and write the names.",
+   "instructions": "Look at the picture. Listen and write the name under each person. Careful: there are three names you do not need.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 2,
+     "nombre": "Everyday Life & Habits"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and label the people in the picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u07-g.mp3",
+   "data": {
+    "scene": "picnic-garden",
+    "place": "the picnic garden",
+    "people": [
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 7,
+      "clue": "the boy in the red shirt with a microphone",
+      "action": "is asking questions with his microphone"
+     },
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 7,
+      "clue": "the girl in the green shirt with a magnifying glass",
+      "action": "is looking at something very small"
+     },
+     {
+      "slug": "samu",
+      "name": "Samu",
+      "pose": 7,
+      "clue": "the boy with short fair hair and a rucksack",
+      "action": "is waving"
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "pose": 7,
+      "clue": "the girl with a red ponytail and freckles",
+      "action": "is drawing with chalk on the ground"
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "pose": 7,
+      "clue": "the girl with black plaits and a purple shirt",
+      "action": "is jumping with a skipping rope"
+     }
+    ],
+    "names": [
+     "Bruno",
+     "Diego",
+     "Ingrid",
+     "Iris",
+     "Kili",
+     "Lia",
+     "Maya",
+     "Samu"
+    ],
+    "script": "Look at the picture. Listen and write the names. There is one example. … Diego: Who is that in the picnic garden? The boy in the red shirt with a microphone. … Maya: That is Diego. Diego is asking questions with his microphone. … Diego: And who is the girl in the green shirt with a magnifying glass? … Maya: That is Maya. Look, Maya is looking at something very small. … Diego: And who is the boy with short fair hair and a rucksack? … Maya: That is Samu. Look, Samu is waving. … Diego: And who is the girl with a red ponytail and freckles? … Maya: That is Iris. Look, Iris is drawing with chalk on the ground. … Diego: And who is the girl with black plaits and a purple shirt? … Maya: That is Lia. Look, Lia is jumping with a skipping rope.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  },
+  {
+   "type": "picture_mc",
+   "title": "Listen and tick the box.",
+   "instructions": "Listen to each question and click the picture that answers it.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 2,
+     "nombre": "Everyday Life & Habits"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and tick the right picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u07-h.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "What is Diego pointing at?",
+      "answer": "honey",
+      "options": [
+       {
+        "word": "family",
+        "propio": true
+       },
+       {
+        "word": "scarf",
+        "propio": true
+       },
+       {
+        "word": "honey",
+        "propio": false
+       }
+      ],
+      "script": "What is Diego pointing at? … Diego: I am pointing at the honey."
+     },
+     {
+      "q": "What is Maya talking about?",
+      "answer": "snack",
+      "options": [
+       {
+        "word": "family",
+        "propio": true
+       },
+       {
+        "word": "bridge",
+        "propio": true
+       },
+       {
+        "word": "snack",
+        "propio": false
+       }
+      ],
+      "script": "What is Maya talking about? … Maya: I am talking about the snack."
+     },
+     {
+      "q": "Which word is Bruno learning today?",
+      "answer": "pepper",
+      "options": [
+       {
+        "word": "police station",
+        "propio": true
+       },
+       {
+        "word": "sunhat",
+        "propio": true
+       },
+       {
+        "word": "pepper",
+        "propio": false
+       }
+      ],
+      "script": "Which word is Bruno learning today? … Bruno: Today I am learning the word pepper."
+     },
+     {
+      "q": "What has Tino drawn?",
+      "answer": "flour",
+      "options": [
+       {
+        "word": "castle",
+        "propio": true
+       },
+       {
+        "word": "suitcase",
+        "propio": true
+       },
+       {
+        "word": "flour",
+        "propio": false
+       }
+      ],
+      "script": "What has Tino drawn? … Tino: I have drawn a flour."
+     },
+     {
+      "q": "Which picture is Iris looking at?",
+      "answer": "yoghurt",
+      "options": [
+       {
+        "word": "chemist's",
+        "propio": true
+       },
+       {
+        "word": "bridge",
+        "propio": true
+       },
+       {
+        "word": "yoghurt",
+        "propio": false
+       }
+      ],
+      "script": "Which picture is Iris looking at? … Iris: I am looking at the yoghurt."
+     }
+    ],
+    "script": "Listen and tick the box. There is one example. … What is Diego pointing at? … Diego: I am pointing at the honey. … What is Maya talking about? … Maya: I am talking about the snack. … Which word is Bruno learning today? … Bruno: Today I am learning the word pepper. … What has Tino drawn? … Tino: I have drawn a flour. … Which picture is Iris looking at? … Iris: I am looking at the yoghurt.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "H"
+  },
+  {
+   "type": "match_pictures",
+   "title": "Listen and match each explorer to a picture.",
+   "instructions": "Listen. Then choose the letter of the picture for each person. Careful: some pictures are extra.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 2,
+     "nombre": "Everyday Life & Habits"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and match each person to a picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 3
+    }
+   },
+   "audio": "flyers/u07-i.mp3",
+   "data": {
+    "people": [
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 8
+     },
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 8
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "pose": 3
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "pose": 3
+     },
+     {
+      "slug": "aiko",
+      "name": "Aiko",
+      "pose": 3
+     }
+    ],
+    "pictures": [
+     {
+      "word": "yoghurt",
+      "propio": false,
+      "id": "A"
+     },
+     {
+      "word": "honey",
+      "propio": false,
+      "id": "B"
+     },
+     {
+      "word": "pocket",
+      "propio": true,
+      "id": "C"
+     },
+     {
+      "word": "cereal",
+      "propio": false,
+      "id": "D"
+     },
+     {
+      "word": "socks",
+      "propio": true,
+      "id": "E"
+     },
+     {
+      "word": "flour",
+      "propio": false,
+      "id": "F"
+     },
+     {
+      "word": "chemist's",
+      "propio": true,
+      "id": "G"
+     },
+     {
+      "word": "snack",
+      "propio": false,
+      "id": "H"
+     }
+    ],
+    "answers": {
+     "Diego": "H",
+     "Maya": "A",
+     "Lia": "F",
+     "Iris": "B",
+     "Aiko": "D"
+    },
+    "script": "Listen and match each person to a picture. There is one example. … Diego: Diego, which picture did you choose? … Diego: I chose the snack. … Diego: Maya, which picture did you choose? … Maya: I chose the yoghurt. … Diego: Lia, which picture did you choose? … Lia: I chose the flour. … Diego: Iris, which picture did you choose? … Iris: I chose the honey. … Diego: Aiko, which picture did you choose? … Aiko: I chose the cereal.",
+    "voice_note": "Diego pregunta; cada explorador responde con su objeto."
+   },
+   "code": "I"
+  },
+  {
+   "type": "picture_story",
+   "title": "Look at the three pictures and write the story.",
+   "instructions": "Look at the pictures. Write the story in 20-25 words. Use the words under each picture to help you.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 2,
+     "nombre": "Everyday Life & Habits"
+    },
+    "destreza": "Writing",
+    "puede": "Writing Part 3: 20–25-word picture story (Flyers); classroom pieces 100–150w.",
+    "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "main-building",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 4
+       }
+      ],
+      "word": "honey",
+      "hint": "Diego / takes / a honey",
+      "model": "Diego takes a honey in the main building."
+     },
+     {
+      "n": 2,
+      "scene": "classroom",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 8
+       },
+       {
+        "slug": "maya",
+        "pose": 1
+       }
+      ],
+      "word": "butter",
+      "hint": "Maya / bring / a butter",
+      "model": "Then Maya brings a butter."
+     },
+     {
+      "n": 3,
+      "scene": "chess-plaza",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 10
+       },
+       {
+        "slug": "diego",
+        "pose": 10
+       }
+      ],
+      "word": "snack",
+      "hint": "now / a snack / happy",
+      "model": "Now they have got a snack too, and both are happy."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Diego takes a honey in the main building. Then Maya brings a butter. Now they have got a snack too, and both are happy.",
+    "words": [
+     "honey",
+     "butter",
+     "snack"
+    ],
+    "support": {
+     "grammar": "countable / uncountable",
+     "words": [
+      "butter",
+      "cereal",
+      "flour",
+      "honey",
+      "jam",
+      "pepper"
+     ]
+    }
+   },
+   "code": "J"
   }
  ],
  "homework": [

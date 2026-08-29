@@ -1,0 +1,152 @@
+{
+ "_leeme": [
+  "Reparto de Flyers para las actividades VISUALES tipo examen.",
+  "",
+  "Cambridge reparte seis personajes con funciones fijas (robot de gramatica,",
+  "marcador de tiempo, naturalista, rutinas, ortografia, guia adulto). Lo que",
+  "se copia es la FUNCION, no el personaje: aqui cada slot lo ocupa alguien",
+  "de characters/bible.md. Nadie que no este en la biblia entra aqui.",
+  "",
+  "'rasgo' y 'accion' son lo que el audio dice para que el alumno sepa a quien",
+  "senalar. Cambridge describe siempre por ropa Y por lo que esta haciendo,",
+  "porque solo con el color de la camiseta hay empates (Ingrid y Samu van los",
+  "dos de azul marino). La accion es el desempate y viene de la biblia.",
+  "",
+  "'poses' es lo que existe en disco. No inventar: una pose que no esta da 404",
+  "y el alumno ve un hueco. Comprobar con tools/check_arte_visual.py."
+ ],
+
+ "nivel": "flyers",
+ "grado": "G5",
+ "cefr": "A2",
+ "examen": "Cambridge Flyers",
+
+ "roles": {
+  "gramatica_y_errores": {
+   "cambridge": "Clunk (robot)",
+   "nordic": "kili",
+   "por_que": "El condor cartero es solemne pero torpe al aterrizar: sus equivocaciones son las que el alumno corrige, igual que las del robot."
+  },
+  "marcadores_de_tiempo": {
+   "cambridge": "Himmy",
+   "nordic": "ingrid",
+   "por_que": "La capitana lleva el horario de la expedicion; first, then, after that, at half past salen de su lista."
+  },
+  "animales_y_comparaciones": {
+   "cambridge": "Hunter",
+   "nordic": "maya",
+   "por_que": "La cientifica de la lupa ya presenta rios, planetas y salud; comparar tamanos y especies es lo suyo."
+  },
+  "rutinas_y_planes": {
+   "cambridge": "Jo",
+   "nordic": "iris",
+   "por_que": "Companera de 10 anos, dibuja con tiza en el patio: el dia a dia del colegio sin ser protagonista de expedicion."
+  },
+  "ortografia_y_sonidos": {
+   "cambridge": "Sky",
+   "nordic": "oliver",
+   "por_que": "Los chants y las canciones de cierre ya son suyos, y la ortografia de Flyers se practica cantando (sk-, sp-, -tch)."
+  },
+  "transporte_y_lugares": {
+   "cambridge": "Jones (adulto guia)",
+   "nordic": "diego",
+   "por_que": "El reportero va a los sitios y pregunta como se llega. NOTA: el slot pide un ADULTO y Diego tiene 11. Ver 'pendientes'."
+  }
+ },
+
+ "personajes": {
+  "ingrid": {"nombre":"Ingrid","tipo":"nina","edad":11,
+   "rasgo":"the girl with fair hair and a dark blue jacket",
+   "accion":"is reading the plan for the day",
+   "poses":[1,2,3,4,5,6,7,8,10],"principal":true},
+  "diego": {"nombre":"Diego","tipo":"nino","edad":11,
+   "rasgo":"the boy in the red shirt with a microphone",
+   "accion":"is asking questions with his microphone",
+   "poses":[1,2,3,4,5,6,7,8,10],"principal":true},
+  "maya": {"nombre":"Maya","tipo":"nina","edad":12,
+   "rasgo":"the girl in the green shirt with a magnifying glass",
+   "accion":"is looking at something very small",
+   "poses":[1,2,3,4,5,6,7,8,10],"principal":true},
+  "oliver": {"nombre":"Oliver","tipo":"nino","edad":11,
+   "rasgo":"the boy with red hair and a yellow shirt",
+   "accion":"is singing",
+   "poses":[1,2,3,4,5,6,7,8,10],"principal":true},
+  "kili": {"nombre":"Kili","tipo":"mascota","especie":"condor",
+   "rasgo":"the big black bird with a white collar",
+   "accion":"is carrying a letter",
+   "poses":[1,2,3,4,5,6],"principal":true},
+
+  "lia": {"nombre":"Lia","tipo":"nina","edad":8,
+   "rasgo":"the girl with black plaits and a purple shirt",
+   "accion":"is jumping with a skipping rope",
+   "poses":[1,3,6,7],"principal":false},
+  "bruno": {"nombre":"Bruno","tipo":"nino","edad":8,
+   "rasgo":"the boy with curly brown hair and a green shirt",
+   "accion":"is running after the ball",
+   "poses":[1,3,6,7],"principal":false},
+  "aiko": {"nombre":"Aiko","tipo":"nina","edad":9,
+   "rasgo":"the girl with long straight black hair and an orange shirt",
+   "accion":"is reading a book",
+   "poses":[1,3,6,7],"principal":false},
+  "samu": {"nombre":"Samu","tipo":"nino","edad":9,
+   "rasgo":"the boy with short fair hair and a rucksack",
+   "accion":"is waving",
+   "poses":[1,3,6,7],"principal":false},
+  "iris": {"nombre":"Iris","tipo":"nina","edad":10,
+   "rasgo":"the girl with a red ponytail and freckles",
+   "accion":"is drawing with chalk on the ground",
+   "poses":[1,3,6,7],"principal":false},
+  "tino": {"nombre":"Tino","tipo":"nino","edad":10,
+   "rasgo":"the boy with very short hair and a white and green shirt",
+   "accion":"is playing hockey",
+   "poses":[1,3,6,7],"principal":false},
+
+  "grum": {"nombre":"Grum","tipo":"monstruo",
+   "rasgo":"the big green monster with three eyes and a lot of hair",
+   "accion":"is smiling",
+   "poses":[1],"principal":false,"solo_unidades":[24]},
+  "zog": {"nombre":"Zog","tipo":"monstruo",
+   "rasgo":"the purple monster with one eye and two very long arms",
+   "accion":"is waving one long arm",
+   "poses":[1],"principal":false,"solo_unidades":[24]},
+  "zip": {"nombre":"Zip","tipo":"monstruo",
+   "rasgo":"the little round orange monster with four eyes",
+   "accion":"is jumping",
+   "poses":[1],"principal":false,"solo_unidades":[24]}
+ },
+
+ "lugares": {
+  "classroom":         {"en":"the classroom",           "dentro":true},
+  "library":           {"en":"the library",             "dentro":true},
+  "lighthouse-kitchen":{"en":"the lighthouse kitchen",  "dentro":true},
+  "main-building":     {"en":"the main building",       "dentro":true},
+  "entrance":          {"en":"the school entrance",     "dentro":false},
+  "facade":            {"en":"the front of the school", "dentro":false},
+  "campus-hex":        {"en":"the school courtyard",    "dentro":false},
+  "chess-plaza":       {"en":"the chess square",        "dentro":false},
+  "garden":            {"en":"the school garden",       "dentro":false},
+  "picnic-garden":     {"en":"the picnic garden",       "dentro":false},
+  "amphitheater":      {"en":"the amphitheatre",        "dentro":false},
+  "labyrinth":         {"en":"the maze",                "dentro":false},
+  "mirador":           {"en":"the viewpoint",           "dentro":false},
+  "hockey":            {"en":"the hockey pitch",        "dentro":false},
+  "track":             {"en":"the running track",       "dentro":false},
+  "funfair":           {"en":"the funfair",             "dentro":false},
+  "zoo":               {"en":"the zoo",                 "dentro":false}
+ },
+
+ "lugar_por_tema": {
+  "1": ["classroom","entrance","campus-hex","library"],
+  "2": ["classroom","chess-plaza","picnic-garden","main-building"],
+  "3": ["garden","zoo","mirador","labyrinth"],
+  "4": ["amphitheater","facade","funfair","main-building"],
+  "5": ["track","hockey","picnic-garden","garden"],
+  "6": ["mirador","lighthouse-kitchen","labyrinth","funfair"]
+ },
+
+ "pendientes": [
+  "Falta el ADULTO GUIA (slot 'transporte_y_lugares'). Cambridge usa a Mr Jones, un adulto; nosotros tapamos el hueco con Diego, que es alumno. Cuando haya arte, entra un adulto propio y Diego vuelve a su papel de reportero. Ficha propuesta para la biblia: slug 'vega', Mr Vega, conserje y guia del colegio, 45 anos, gorra azul marino #2F5D9E, chaqueta gris #6B7686, manojo de llaves; poses 01, 02, 03, 08.",
+  "Los tres monstruos solo tienen pose-01. Sirven para 'has got' descriptivo (unidad 24) y no para escenas de accion.",
+  "Nadie tiene pose-09 (back). Si una escena la pide, usar 06 (sitting) o 04 (thinking)."
+ ]
+}

@@ -253,6 +253,269 @@
    ],
    "instructions": "Look at picture A and picture B. Find the 11 differences and tell your partner about them.",
    "data": {}
+  },
+  {
+   "type": "label_people",
+   "title": "Listen and write the names.",
+   "instructions": "Look at the picture. Listen and write the name under each person. Careful: there are three names you do not need.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 4,
+     "nombre": "People & Cultures"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and label the people in the picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u20-g.mp3",
+   "data": {
+    "scene": "facade",
+    "place": "the front of the school",
+    "people": [
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 7,
+      "clue": "the girl in the green shirt with a magnifying glass",
+      "action": "is looking at something very small"
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 7,
+      "clue": "the boy in the red shirt with a microphone",
+      "action": "is asking questions with his microphone"
+     },
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "pose": 7,
+      "clue": "the girl with fair hair and a dark blue jacket",
+      "action": "is reading the plan for the day"
+     },
+     {
+      "slug": "aiko",
+      "name": "Aiko",
+      "pose": 7,
+      "clue": "the girl with long straight black hair and an orange shirt",
+      "action": "is reading a book"
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "pose": 7,
+      "clue": "the girl with a red ponytail and freckles",
+      "action": "is drawing with chalk on the ground"
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Bruno",
+     "Diego",
+     "Ingrid",
+     "Iris",
+     "Maya",
+     "Oliver",
+     "Tino"
+    ],
+    "script": "Look at the picture. Listen and write the names. There is one example. … Diego: Who is that in the front of the school? The girl in the green shirt with a magnifying glass. … Maya: That is Maya. Maya is looking at something very small. … Diego: And who is the boy in the red shirt with a microphone? … Maya: That is Diego. Look, Diego is asking questions with his microphone. … Diego: And who is the girl with fair hair and a dark blue jacket? … Maya: That is Ingrid. Look, Ingrid is reading the plan for the day. … Diego: And who is the girl with long straight black hair and an orange shirt? … Maya: That is Aiko. Look, Aiko is reading a book. … Diego: And who is the girl with a red ponytail and freckles? … Maya: That is Iris. Look, Iris is drawing with chalk on the ground.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  },
+  {
+   "type": "picture_mc",
+   "title": "Listen and tick the box.",
+   "instructions": "Listen to each question and click the picture that answers it.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 4,
+     "nombre": "People & Cultures"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and tick the right picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u20-h.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "What is Maya talking about?",
+      "answer": "wood",
+      "options": [
+       {
+        "word": "socks",
+        "propio": true
+       },
+       {
+        "word": "wood",
+        "propio": false
+       },
+       {
+        "word": "family",
+        "propio": true
+       }
+      ],
+      "script": "What is Maya talking about? … Maya: I am talking about the wood."
+     },
+     {
+      "q": "Which word is Diego learning today?",
+      "answer": "glass",
+      "options": [
+       {
+        "word": "glass",
+        "propio": false
+       },
+       {
+        "word": "sunhat",
+        "propio": true
+       },
+       {
+        "word": "belt",
+        "propio": true
+       }
+      ],
+      "script": "Which word is Diego learning today? … Diego: Today I am learning the word glass."
+     },
+     {
+      "q": "What has Bruno drawn?",
+      "answer": "card",
+      "options": [
+       {
+        "word": "belt",
+        "propio": true
+       },
+       {
+        "word": "scarf",
+        "propio": true
+       },
+       {
+        "word": "card",
+        "propio": false
+       }
+      ],
+      "script": "What has Bruno drawn? … Bruno: I have drawn a card."
+     }
+    ],
+    "script": "Listen and tick the box. There is one example. … What is Maya talking about? … Maya: I am talking about the wood. … Which word is Diego learning today? … Diego: Today I am learning the word glass. … What has Bruno drawn? … Bruno: I have drawn a card.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "H"
+  },
+  {
+   "type": "picture_story",
+   "title": "Look at the three pictures and write the story.",
+   "instructions": "Look at the pictures. Write the story in 20-25 words. Use the words under each picture to help you.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 4,
+     "nombre": "People & Cultures"
+    },
+    "destreza": "Writing",
+    "puede": "Writing Part 3: 20–25-word picture story (Flyers); classroom pieces 100–150w.",
+    "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "funfair",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 4
+       }
+      ],
+      "word": "card",
+      "hint": "Maya / carries / a card",
+      "model": "Maya carries a card at the funfair."
+     },
+     {
+      "n": 2,
+      "scene": "facade",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 8
+       },
+       {
+        "slug": "diego",
+        "pose": 1
+       }
+      ],
+      "word": "glass",
+      "hint": "Diego / bring / a glass",
+      "model": "Then Diego brings a glass."
+     },
+     {
+      "n": 3,
+      "scene": "amphitheater",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 10
+       },
+       {
+        "slug": "maya",
+        "pose": 10
+       }
+      ],
+      "word": "wood",
+      "hint": "now / a wood / happy",
+      "model": "Now they have got a wood too, and both are happy."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Maya carries a card at the funfair. Then Diego brings a glass. Now they have got a wood too, and both are happy.",
+    "words": [
+     "card",
+     "glass",
+     "wood"
+    ],
+    "support": {
+     "grammar": "made of + material",
+     "words": [
+      "wood",
+      "metal",
+      "glass",
+      "plastic",
+      "paper",
+      "wool"
+     ]
+    }
+   },
+   "code": "I"
   }
  ],
  "homework": [

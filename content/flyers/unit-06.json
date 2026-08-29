@@ -253,6 +253,413 @@
    ],
    "instructions": "Look at picture A and picture B. Find the 11 differences and tell your partner about them.",
    "data": {}
+  },
+  {
+   "type": "label_people",
+   "title": "Listen and write the names.",
+   "instructions": "Look at the picture. Listen and write the name under each person. Careful: there are three names you do not need.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Health & Wellbeing"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and label the people in the picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u06-g.mp3",
+   "data": {
+    "scene": "garden",
+    "place": "the school garden",
+    "people": [
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "pose": 7,
+      "clue": "the boy with red hair and a yellow shirt",
+      "action": "is singing"
+     },
+     {
+      "slug": "kili",
+      "name": "Kili",
+      "pose": 3,
+      "clue": "the big black bird with a white collar",
+      "action": "is carrying a letter"
+     },
+     {
+      "slug": "tino",
+      "name": "Tino",
+      "pose": 7,
+      "clue": "the boy with very short hair and a white and green shirt",
+      "action": "is playing hockey"
+     },
+     {
+      "slug": "samu",
+      "name": "Samu",
+      "pose": 7,
+      "clue": "the boy with short fair hair and a rucksack",
+      "action": "is waving"
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "pose": 7,
+      "clue": "the girl with a red ponytail and freckles",
+      "action": "is drawing with chalk on the ground"
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Diego",
+     "Iris",
+     "Kili",
+     "Maya",
+     "Oliver",
+     "Samu",
+     "Tino"
+    ],
+    "script": "Look at the picture. Listen and write the names. There is one example. … Diego: Who is that in the school garden? The boy with red hair and a yellow shirt. … Maya: That is Oliver. Oliver is singing. … Diego: And who is the big black bird with a white collar? … Maya: That is Kili. Look, Kili is carrying a letter. … Diego: And who is the boy with very short hair and a white and green shirt? … Maya: That is Tino. Look, Tino is playing hockey. … Diego: And who is the boy with short fair hair and a rucksack? … Maya: That is Samu. Look, Samu is waving. … Diego: And who is the girl with a red ponytail and freckles? … Maya: That is Iris. Look, Iris is drawing with chalk on the ground.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  },
+  {
+   "type": "picture_mc",
+   "title": "Listen and tick the box.",
+   "instructions": "Listen to each question and click the picture that answers it.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Health & Wellbeing"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and tick the right picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u06-h.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "What can Oliver see in the picture?",
+      "answer": "chemist's",
+      "options": [
+       {
+        "word": "chemist's",
+        "propio": true
+       },
+       {
+        "word": "suitcase",
+        "propio": true
+       },
+       {
+        "word": "gloves",
+        "propio": true
+       }
+      ],
+      "script": "What can Oliver see in the picture? … Oliver: I can see the chemist's."
+     },
+     {
+      "q": "What is Maya pointing at?",
+      "answer": "ill",
+      "options": [
+       {
+        "word": "theatre",
+        "propio": true
+       },
+       {
+        "word": "chemist's",
+        "propio": true
+       },
+       {
+        "word": "ill",
+        "propio": false
+       }
+      ],
+      "script": "What is Maya pointing at? … Maya: I am pointing at the ill."
+     },
+     {
+      "q": "What is Tino talking about?",
+      "answer": "temperature",
+      "options": [
+       {
+        "word": "chemist's",
+        "propio": true
+       },
+       {
+        "word": "temperature",
+        "propio": false
+       },
+       {
+        "word": "museum",
+        "propio": true
+       }
+      ],
+      "script": "What is Tino talking about? … Tino: I am talking about the temperature."
+     },
+     {
+      "q": "Which word is Aiko learning today?",
+      "answer": "cough",
+      "options": [
+       {
+        "word": "chemist's",
+        "propio": true
+       },
+       {
+        "word": "cough",
+        "propio": false
+       },
+       {
+        "word": "scarf",
+        "propio": true
+       }
+      ],
+      "script": "Which word is Aiko learning today? … Aiko: Today I am learning the word cough."
+     },
+     {
+      "q": "What has Bruno drawn?",
+      "answer": "headache",
+      "options": [
+       {
+        "word": "headache",
+        "propio": false
+       },
+       {
+        "word": "chemist's",
+        "propio": true
+       },
+       {
+        "word": "scarf",
+        "propio": true
+       }
+      ],
+      "script": "What has Bruno drawn? … Bruno: I have drawn a headache."
+     }
+    ],
+    "script": "Listen and tick the box. There is one example. … What can Oliver see in the picture? … Oliver: I can see the chemist's. … What is Maya pointing at? … Maya: I am pointing at the ill. … What is Tino talking about? … Tino: I am talking about the temperature. … Which word is Aiko learning today? … Aiko: Today I am learning the word cough. … What has Bruno drawn? … Bruno: I have drawn a headache.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "H"
+  },
+  {
+   "type": "match_pictures",
+   "title": "Listen and match each explorer to a picture.",
+   "instructions": "Listen. Then choose the letter of the picture for each person. Careful: some pictures are extra.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Health & Wellbeing"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and match each person to a picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 3
+    }
+   },
+   "audio": "flyers/u06-i.mp3",
+   "data": {
+    "people": [
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "pose": 8
+     },
+     {
+      "slug": "tino",
+      "name": "Tino",
+      "pose": 3
+     },
+     {
+      "slug": "samu",
+      "name": "Samu",
+      "pose": 3
+     },
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "pose": 8
+     },
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 8
+     }
+    ],
+    "pictures": [
+     {
+      "word": "belt",
+      "propio": true,
+      "id": "A"
+     },
+     {
+      "word": "bridge",
+      "propio": true,
+      "id": "B"
+     },
+     {
+      "word": "ill",
+      "propio": false,
+      "id": "C"
+     },
+     {
+      "word": "chemist's",
+      "propio": true,
+      "id": "D"
+     },
+     {
+      "word": "headache",
+      "propio": false,
+      "id": "E"
+     },
+     {
+      "word": "cough",
+      "propio": false,
+      "id": "F"
+     },
+     {
+      "word": "temperature",
+      "propio": false,
+      "id": "G"
+     },
+     {
+      "word": "funfair",
+      "propio": true,
+      "id": "H"
+     }
+    ],
+    "answers": {
+     "Oliver": "D",
+     "Tino": "C",
+     "Samu": "G",
+     "Ingrid": "E",
+     "Maya": "F"
+    },
+    "script": "Listen and match each person to a picture. There is one example. … Diego: Oliver, which picture did you choose? … Oliver: I chose the chemist's. … Diego: Tino, which picture did you choose? … Tino: I chose the ill. … Diego: Samu, which picture did you choose? … Samu: I chose the temperature. … Diego: Ingrid, which picture did you choose? … Ingrid: I chose the headache. … Diego: Maya, which picture did you choose? … Maya: I chose the cough.",
+    "voice_note": "Diego pregunta; cada explorador responde con su objeto."
+   },
+   "code": "I"
+  },
+  {
+   "type": "picture_story",
+   "title": "Look at the three pictures and write the story.",
+   "instructions": "Look at the pictures. Write the story in 20-25 words. Use the words under each picture to help you.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Health & Wellbeing"
+    },
+    "destreza": "Writing",
+    "puede": "Writing Part 3: 20–25-word picture story (Flyers); classroom pieces 100–150w.",
+    "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "hockey",
+      "people": [
+       {
+        "slug": "oliver",
+        "pose": 4
+       }
+      ],
+      "word": "cough",
+      "hint": "Oliver / finds / a cough",
+      "model": "Oliver finds a cough at the hockey pitch."
+     },
+     {
+      "n": 2,
+      "scene": "track",
+      "people": [
+       {
+        "slug": "oliver",
+        "pose": 8
+       },
+       {
+        "slug": "iris",
+        "pose": 1
+       }
+      ],
+      "word": "temperature",
+      "hint": "Iris / bring / a temperature",
+      "model": "Then Iris brings a temperature."
+     },
+     {
+      "n": 3,
+      "scene": "picnic-garden",
+      "people": [
+       {
+        "slug": "iris",
+        "pose": 1
+       },
+       {
+        "slug": "oliver",
+        "pose": 10
+       }
+      ],
+      "word": "headache",
+      "hint": "now / a headache / happy",
+      "model": "Now they have got a headache too, and both are happy."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Oliver finds a cough at the hockey pitch. Then Iris brings a temperature. Now they have got a headache too, and both are happy.",
+    "words": [
+     "cough",
+     "temperature",
+     "headache"
+    ],
+    "support": {
+     "grammar": "should / shouldn't",
+     "words": [
+      "headache",
+      "toothache",
+      "cold",
+      "cough",
+      "temperature",
+      "medicine"
+     ]
+    }
+   },
+   "code": "J"
   }
  ],
  "homework": [

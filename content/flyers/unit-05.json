@@ -254,6 +254,413 @@
    ],
    "instructions": "Look at picture A and picture B. Find the 11 differences and tell your partner about them.",
    "data": {}
+  },
+  {
+   "type": "label_people",
+   "title": "Listen and write the names.",
+   "instructions": "Look at the picture. Listen and write the name under each person. Careful: there are three names you do not need.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "The Natural World"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and label the people in the picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u05-g.mp3",
+   "data": {
+    "scene": "mirador",
+    "place": "the viewpoint",
+    "people": [
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "pose": 7,
+      "clue": "the girl with fair hair and a dark blue jacket",
+      "action": "is reading the plan for the day"
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 7,
+      "clue": "the boy in the red shirt with a microphone",
+      "action": "is asking questions with his microphone"
+     },
+     {
+      "slug": "kili",
+      "name": "Kili",
+      "pose": 3,
+      "clue": "the big black bird with a white collar",
+      "action": "is carrying a letter"
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "pose": 7,
+      "clue": "the boy with curly brown hair and a green shirt",
+      "action": "is running after the ball"
+     },
+     {
+      "slug": "samu",
+      "name": "Samu",
+      "pose": 7,
+      "clue": "the boy with short fair hair and a rucksack",
+      "action": "is waving"
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Bruno",
+     "Diego",
+     "Ingrid",
+     "Kili",
+     "Oliver",
+     "Samu",
+     "Tino"
+    ],
+    "script": "Look at the picture. Listen and write the names. There is one example. … Diego: Who is that in the viewpoint? The girl with fair hair and a dark blue jacket. … Maya: That is Ingrid. Ingrid is reading the plan for the day. … Diego: And who is the boy in the red shirt with a microphone? … Maya: That is Diego. Look, Diego is asking questions with his microphone. … Diego: And who is the big black bird with a white collar? … Maya: That is Kili. Look, Kili is carrying a letter. … Diego: And who is the boy with curly brown hair and a green shirt? … Maya: That is Bruno. Look, Bruno is running after the ball. … Diego: And who is the boy with short fair hair and a rucksack? … Maya: That is Samu. Look, Samu is waving.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  },
+  {
+   "type": "picture_mc",
+   "title": "Listen and tick the box.",
+   "instructions": "Listen to each question and click the picture that answers it.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "The Natural World"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and tick the right picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u05-h.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "Which picture is Ingrid looking at?",
+      "answer": "art",
+      "options": [
+       {
+        "word": "funfair",
+        "propio": true
+       },
+       {
+        "word": "art",
+        "propio": false
+       },
+       {
+        "word": "restaurant",
+        "propio": true
+       }
+      ],
+      "script": "Which picture is Ingrid looking at? … Ingrid: I am looking at the art."
+     },
+     {
+      "q": "What can Diego see in the picture?",
+      "answer": "timetable",
+      "options": [
+       {
+        "word": "airport",
+        "propio": true
+       },
+       {
+        "word": "chemist's",
+        "propio": true
+       },
+       {
+        "word": "timetable",
+        "propio": false
+       }
+      ],
+      "script": "What can Diego see in the picture? … Diego: I can see the timetable."
+     },
+     {
+      "q": "What is Lia pointing at?",
+      "answer": "maths",
+      "options": [
+       {
+        "word": "police station",
+        "propio": true
+       },
+       {
+        "word": "theatre",
+        "propio": true
+       },
+       {
+        "word": "maths",
+        "propio": false
+       }
+      ],
+      "script": "What is Lia pointing at? … Lia: I am pointing at the maths."
+     },
+     {
+      "q": "What is Maya talking about?",
+      "answer": "sport",
+      "options": [
+       {
+        "word": "airport",
+        "propio": true
+       },
+       {
+        "word": "bridge",
+        "propio": true
+       },
+       {
+        "word": "sport",
+        "propio": false
+       }
+      ],
+      "script": "What is Maya talking about? … Maya: I am talking about the sport."
+     },
+     {
+      "q": "Which word is Tino learning today?",
+      "answer": "science",
+      "options": [
+       {
+        "word": "theatre",
+        "propio": true
+       },
+       {
+        "word": "science",
+        "propio": false
+       },
+       {
+        "word": "family",
+        "propio": true
+       }
+      ],
+      "script": "Which word is Tino learning today? … Tino: Today I am learning the word science."
+     }
+    ],
+    "script": "Listen and tick the box. There is one example. … Which picture is Ingrid looking at? … Ingrid: I am looking at the art. … What can Diego see in the picture? … Diego: I can see the timetable. … What is Lia pointing at? … Lia: I am pointing at the maths. … What is Maya talking about? … Maya: I am talking about the sport. … Which word is Tino learning today? … Tino: Today I am learning the word science.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "H"
+  },
+  {
+   "type": "match_pictures",
+   "title": "Listen and match each explorer to a picture.",
+   "instructions": "Listen. Then choose the letter of the picture for each person. Careful: some pictures are extra.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "The Natural World"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and match each person to a picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 3
+    }
+   },
+   "audio": "flyers/u05-i.mp3",
+   "data": {
+    "people": [
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "pose": 8
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 8
+     },
+     {
+      "slug": "tino",
+      "name": "Tino",
+      "pose": 3
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "pose": 3
+     },
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 8
+     }
+    ],
+    "pictures": [
+     {
+      "word": "scarf",
+      "propio": true,
+      "id": "A"
+     },
+     {
+      "word": "maths",
+      "propio": false,
+      "id": "B"
+     },
+     {
+      "word": "history",
+      "propio": false,
+      "id": "C"
+     },
+     {
+      "word": "pocket",
+      "propio": true,
+      "id": "D"
+     },
+     {
+      "word": "geography",
+      "propio": false,
+      "id": "E"
+     },
+     {
+      "word": "art",
+      "propio": false,
+      "id": "F"
+     },
+     {
+      "word": "socks",
+      "propio": true,
+      "id": "G"
+     },
+     {
+      "word": "sport",
+      "propio": false,
+      "id": "H"
+     }
+    ],
+    "answers": {
+     "Ingrid": "H",
+     "Diego": "B",
+     "Tino": "E",
+     "Bruno": "C",
+     "Maya": "F"
+    },
+    "script": "Listen and match each person to a picture. There is one example. … Diego: Ingrid, which picture did you choose? … Ingrid: I chose the sport. … Diego: Diego, which picture did you choose? … Diego: I chose the maths. … Diego: Tino, which picture did you choose? … Tino: I chose the geography. … Diego: Bruno, which picture did you choose? … Bruno: I chose the history. … Diego: Maya, which picture did you choose? … Maya: I chose the art.",
+    "voice_note": "Diego pregunta; cada explorador responde con su objeto."
+   },
+   "code": "I"
+  },
+  {
+   "type": "picture_story",
+   "title": "Look at the three pictures and write the story.",
+   "instructions": "Look at the pictures. Write the story in 20-25 words. Use the words under each picture to help you.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "The Natural World"
+    },
+    "destreza": "Writing",
+    "puede": "Writing Part 3: 20–25-word picture story (Flyers); classroom pieces 100–150w.",
+    "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "garden",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 4
+       }
+      ],
+      "word": "art",
+      "hint": "Ingrid / brings / an art",
+      "model": "Ingrid brings an art at the school garden."
+     },
+     {
+      "n": 2,
+      "scene": "zoo",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 8
+       },
+       {
+        "slug": "diego",
+        "pose": 1
+       }
+      ],
+      "word": "maths",
+      "hint": "Diego / bring / some maths",
+      "model": "Then Diego brings some maths."
+     },
+     {
+      "n": 3,
+      "scene": "mirador",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 10
+       },
+       {
+        "slug": "ingrid",
+        "pose": 10
+       }
+      ],
+      "word": "sport",
+      "hint": "now / a sport / happy",
+      "model": "Now they have got a sport too, and both are happy."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Ingrid brings an art at the school garden. Then Diego brings some maths. Now they have got a sport too, and both are happy.",
+    "words": [
+     "art",
+     "maths",
+     "sport"
+    ],
+    "support": {
+     "grammar": "present simple + school subjects",
+     "words": [
+      "maths",
+      "science",
+      "art",
+      "music",
+      "history",
+      "geography"
+     ]
+    }
+   },
+   "code": "J"
   }
  ],
  "homework": [

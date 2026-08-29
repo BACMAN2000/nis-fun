@@ -1,0 +1,113 @@
+  /* ---------- tareas visuales del examen A2 Flyers ----------
+     Cuatro formatos que se resuelven MIRANDO: poner nombres bajo las
+     personas, marcar una de tres imagenes, emparejar cada explorador con
+     una letra y escribir la historia de tres vinetas. El dibujo siempre es
+     nuestro: personajes de la biblia sobre escenarios del campus. */
+  .vis-escena{position:relative;width:100%;border-radius:16px;overflow:hidden;
+    border:1px solid var(--line);background:var(--surface2)}
+  /* el fondo va detras y en absoluto, y la fila de personajes fluye por
+     encima: si la fila se posiciona al fondo del recuadro, en cuanto son
+     cinco se parte en dos lineas y la de arriba se sale de la escena */
+  .vis-escena > img.fondo{position:absolute;inset:0;width:100%;height:100%;
+    object-fit:cover;opacity:.5}
+  .vis-fila{position:relative;display:flex;justify-content:center;align-items:flex-end;
+    gap:.5rem;padding:.9rem .6rem;flex-wrap:wrap}
+  .vis-quien{display:flex;flex-direction:column;align-items:center;gap:.25rem;min-width:5rem}
+  .vis-quien img{height:6.6rem;width:auto;object-fit:contain;
+    filter:drop-shadow(0 3px 5px rgba(0,0,0,.28))}
+  .vis-quien input{width:5.4rem;text-align:center;font-weight:700;
+    border:2px solid var(--line);border-radius:9px;padding:.28rem;background:var(--surface)}
+  .vis-quien input.ok{border-color:var(--ok);background:#e2f2e9}
+  .vis-quien input.bad{border-color:var(--bad)}
+  .vis-quien input.revelado{border-color:var(--accent);background:var(--surface2)}
+  .vis-quien .num{font-size:.78rem;font-weight:800;color:var(--soft)}
+  .vis-banco{display:flex;flex-wrap:wrap;justify-content:center;gap:.4rem;margin:.7rem 0}
+  .vis-banco span{background:var(--surface2);border:1px solid var(--line);border-radius:999px;
+    padding:.28rem .8rem;font-weight:700;font-size:.92rem}
+  .vis-banco span.usado{opacity:.35;text-decoration:line-through}
+  .vis-sitio{font-size:.86rem;color:var(--soft);margin:.2rem 0 .6rem}
+
+  /* marcar una de tres */
+  .vis-preg{margin:0 0 1.3rem;text-align:left}
+  .vis-preg > p{margin:0 0 .45rem;font-weight:700}
+  .vis-ops{display:grid;grid-template-columns:repeat(3,1fr);gap:.6rem}
+  .vis-op{background:var(--surface);border:2px solid var(--line);border-radius:14px;
+    padding:.6rem .4rem;display:flex;flex-direction:column;align-items:center;gap:.3rem;
+    cursor:pointer;font:inherit;color:var(--ink)}
+  .vis-op:hover{border-color:var(--accent)}
+  .vis-op .letra{font-weight:800;color:var(--soft);font-size:.82rem}
+  .vis-op .dib{height:5rem;display:flex;align-items:center;justify-content:center}
+  .vis-op .dib img{max-height:5rem;max-width:100%;object-fit:contain}
+  .vis-op .dib svg{height:4.4rem;width:4.4rem}
+  .vis-op .dib .emo{font-size:3.4rem;line-height:1}
+  /* La palabra NO se ve mientras se resuelve: en el examen las imagenes van
+     sin etiqueta, y con el pie puesto el alumno lee la respuesta en vez de
+     escucharla. Sigue en el aria-label, que es lo que un lector de pantalla
+     necesita para saber que hay dibujado — eso no es la respuesta, es la
+     imagen. Al corregir aparece, que ahi si ayuda a fijar la palabra. */
+  .vis-op .pie{font-size:.82rem;color:var(--soft);visibility:hidden}
+  .vis-ops.resuelto .vis-op .pie{visibility:visible}
+  .vis-op.sel{border-color:var(--accent);background:var(--surface2)}
+  .vis-op.ok{border-color:var(--ok);background:#e2f2e9}
+  .vis-op.bad{border-color:var(--bad)}
+  .vis-op.marca{outline:3px dashed var(--accent);outline-offset:2px}
+  .vis-op[disabled]{cursor:default}
+
+  /* emparejar con A-H */
+  .vis-galeria{display:grid;grid-template-columns:repeat(4,1fr);gap:.55rem;margin:.8rem 0 1.1rem}
+  .vis-foto{background:var(--surface);border:2px solid var(--line);border-radius:12px;
+    padding:.45rem .3rem;display:flex;flex-direction:column;align-items:center;gap:.2rem}
+  .vis-foto .letra{font-weight:800;color:var(--accent)}
+  .vis-foto .dib{height:3.6rem;display:flex;align-items:center;justify-content:center}
+  .vis-foto .dib img{max-height:3.6rem;max-width:100%;object-fit:contain}
+  .vis-foto .dib svg{height:3.2rem;width:3.2rem}
+  .vis-foto .dib .emo{font-size:2.4rem;line-height:1}
+  .vis-foto.usada{border-color:var(--ok)}
+  .vis-gente{display:flex;flex-wrap:wrap;justify-content:center;gap:.7rem}
+  .vis-gente .vis-quien img{height:6.4rem}
+  .vis-gente select{font:inherit;font-weight:700;border:2px solid var(--line);
+    border-radius:9px;padding:.26rem .5rem;background:var(--surface)}
+  .vis-gente select.ok{border-color:var(--ok);background:#e2f2e9}
+  .vis-gente select.bad{border-color:var(--bad)}
+  .vis-gente select.revelado{border-color:var(--accent);background:var(--surface2)}
+
+  /* historia de tres vinetas */
+  .vis-tira{display:grid;grid-template-columns:repeat(3,1fr);gap:.7rem;margin-bottom:.8rem}
+  .vis-vineta{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--surface)}
+  .vis-vineta .marco{position:relative;height:11rem;background:var(--surface2)}
+  .vis-vineta .marco img.fondo{width:100%;height:100%;object-fit:cover;opacity:.6}
+  .vis-vineta .marco .gente{position:absolute;inset:auto 0 0 0;display:flex;
+    justify-content:center;align-items:flex-end;gap:.2rem}
+  .vis-vineta .marco .gente img{height:7.6rem;filter:drop-shadow(0 3px 5px rgba(0,0,0,.28))}
+  .vis-vineta .nn{position:absolute;top:.35rem;left:.45rem;background:var(--accent);color:#fff;
+    border-radius:999px;width:1.5rem;height:1.5rem;display:grid;place-items:center;
+    font-weight:800;font-size:.82rem}
+  .vis-vineta .pista{padding:.45rem .55rem;font-size:.85rem;color:var(--soft);font-weight:700}
+  /* el lenguaje de apoyo: la gramatica de la unidad y unas palabras suyas.
+     Sin esto la vineta generica valdria para cualquier unidad, y la idea es
+     que el alumno escriba con lo que acaba de aprender. */
+  .vis-apoyo{display:flex;flex-wrap:wrap;align-items:center;gap:.4rem;
+    justify-content:center;margin:0 0 .7rem;font-size:.86rem}
+  .vis-apoyo b{color:var(--accent);margin-right:.3rem}
+  .vis-apoyo span{background:var(--surface2);border:1px solid var(--line);
+    border-radius:999px;padding:.16rem .65rem;font-weight:700;color:var(--soft)}
+  .vis-historia textarea{width:100%;min-height:6.5rem;font:inherit;padding:.7rem .85rem;
+    border:2px solid var(--line);border-radius:12px;background:var(--surface);color:var(--ink);resize:vertical}
+  .vis-historia textarea:focus{outline:0;border-color:var(--accent)}
+  .vis-contador{font-size:.86rem;color:var(--soft);margin-top:.35rem;text-align:right}
+  .vis-contador.bien{color:var(--ok);font-weight:700}
+  .vis-modelo{margin-top:.7rem;background:var(--surface2);border-radius:12px;
+    padding:.7rem .9rem;text-align:left;font-size:.94rem}
+
+  /* la etiqueta que dice a que clase de 5.o sirve la tarea */
+  .vis-kpi{display:flex;flex-wrap:wrap;gap:.4rem;justify-content:center;margin-bottom:.7rem}
+  .vis-kpi span{background:var(--surface2);border:1px solid var(--line);border-radius:999px;
+    padding:.18rem .7rem;font-size:.76rem;color:var(--soft);font-weight:700}
+
+  @media (max-width:640px){
+    .vis-ops{grid-template-columns:1fr}
+    .vis-galeria{grid-template-columns:repeat(2,1fr)}
+    .vis-tira{grid-template-columns:1fr}
+    .vis-quien img{height:6.4rem}
+    .vis-vineta .marco{height:9rem}
+  }

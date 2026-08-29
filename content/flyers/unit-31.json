@@ -254,6 +254,413 @@
    ],
    "instructions": "Look at picture A and picture B. Find the 11 differences and tell your partner about them.",
    "data": {}
+  },
+  {
+   "type": "label_people",
+   "title": "Listen and write the names.",
+   "instructions": "Look at the picture. Listen and write the name under each person. Careful: there are three names you do not need.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Health & Wellbeing"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and label the people in the picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u31-g.mp3",
+   "data": {
+    "scene": "track",
+    "place": "the running track",
+    "people": [
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "pose": 7,
+      "clue": "the boy with red hair and a yellow shirt",
+      "action": "is singing"
+     },
+     {
+      "slug": "kili",
+      "name": "Kili",
+      "pose": 3,
+      "clue": "the big black bird with a white collar",
+      "action": "is carrying a letter"
+     },
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 7,
+      "clue": "the girl in the green shirt with a magnifying glass",
+      "action": "is looking at something very small"
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "pose": 7,
+      "clue": "the girl with a red ponytail and freckles",
+      "action": "is drawing with chalk on the ground"
+     },
+     {
+      "slug": "aiko",
+      "name": "Aiko",
+      "pose": 7,
+      "clue": "the girl with long straight black hair and an orange shirt",
+      "action": "is reading a book"
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Bruno",
+     "Diego",
+     "Iris",
+     "Kili",
+     "Lia",
+     "Maya",
+     "Oliver"
+    ],
+    "script": "Look at the picture. Listen and write the names. There is one example. … Diego: Who is that in the running track? The boy with red hair and a yellow shirt. … Maya: That is Oliver. Oliver is singing. … Diego: And who is the big black bird with a white collar? … Maya: That is Kili. Look, Kili is carrying a letter. … Diego: And who is the girl in the green shirt with a magnifying glass? … Maya: That is Maya. Look, Maya is looking at something very small. … Diego: And who is the girl with a red ponytail and freckles? … Maya: That is Iris. Look, Iris is drawing with chalk on the ground. … Diego: And who is the girl with long straight black hair and an orange shirt? … Maya: That is Aiko. Look, Aiko is reading a book.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  },
+  {
+   "type": "picture_mc",
+   "title": "Listen and tick the box.",
+   "instructions": "Listen to each question and click the picture that answers it.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Health & Wellbeing"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and tick the right picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u31-h.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "What is Oliver pointing at?",
+      "answer": "hospital",
+      "options": [
+       {
+        "word": "hospital",
+        "propio": false
+       },
+       {
+        "word": "uniform",
+        "propio": true
+       },
+       {
+        "word": "chemist's",
+        "propio": true
+       }
+      ],
+      "script": "What is Oliver pointing at? … Oliver: I am pointing at the hospital."
+     },
+     {
+      "q": "What is Maya talking about?",
+      "answer": "arm",
+      "options": [
+       {
+        "word": "socks",
+        "propio": true
+       },
+       {
+        "word": "arm",
+        "propio": false
+       },
+       {
+        "word": "scarf",
+        "propio": true
+       }
+      ],
+      "script": "What is Maya talking about? … Maya: I am talking about the arm."
+     },
+     {
+      "q": "Which word is Tino learning today?",
+      "answer": "x-ray",
+      "options": [
+       {
+        "word": "x-ray",
+        "propio": false
+       },
+       {
+        "word": "umbrella",
+        "propio": true
+       },
+       {
+        "word": "belt",
+        "propio": true
+       }
+      ],
+      "script": "Which word is Tino learning today? … Tino: Today I am learning the word x-ray."
+     },
+     {
+      "q": "What has Bruno drawn?",
+      "answer": "nurse",
+      "options": [
+       {
+        "word": "nurse",
+        "propio": false
+       },
+       {
+        "word": "scarf",
+        "propio": true
+       },
+       {
+        "word": "restaurant",
+        "propio": true
+       }
+      ],
+      "script": "What has Bruno drawn? … Bruno: I have drawn a nurse."
+     },
+     {
+      "q": "Which picture is Aiko looking at?",
+      "answer": "card",
+      "options": [
+       {
+        "word": "pocket",
+        "propio": true
+       },
+       {
+        "word": "funfair",
+        "propio": true
+       },
+       {
+        "word": "card",
+        "propio": false
+       }
+      ],
+      "script": "Which picture is Aiko looking at? … Aiko: I am looking at the card."
+     }
+    ],
+    "script": "Listen and tick the box. There is one example. … What is Oliver pointing at? … Oliver: I am pointing at the hospital. … What is Maya talking about? … Maya: I am talking about the arm. … Which word is Tino learning today? … Tino: Today I am learning the word x-ray. … What has Bruno drawn? … Bruno: I have drawn a nurse. … Which picture is Aiko looking at? … Aiko: I am looking at the card.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "H"
+  },
+  {
+   "type": "match_pictures",
+   "title": "Listen and match each explorer to a picture.",
+   "instructions": "Listen. Then choose the letter of the picture for each person. Careful: some pictures are extra.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Health & Wellbeing"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and match each person to a picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 3
+    }
+   },
+   "audio": "flyers/u31-i.mp3",
+   "data": {
+    "people": [
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "pose": 8
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "pose": 3
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "pose": 3
+     },
+     {
+      "slug": "aiko",
+      "name": "Aiko",
+      "pose": 3
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "pose": 3
+     }
+    ],
+    "pictures": [
+     {
+      "word": "nurse",
+      "propio": false,
+      "id": "A"
+     },
+     {
+      "word": "arm",
+      "propio": false,
+      "id": "B"
+     },
+     {
+      "word": "belt",
+      "propio": true,
+      "id": "C"
+     },
+     {
+      "word": "card",
+      "propio": false,
+      "id": "D"
+     },
+     {
+      "word": "flowers",
+      "propio": false,
+      "id": "E"
+     },
+     {
+      "word": "police station",
+      "propio": true,
+      "id": "F"
+     },
+     {
+      "word": "bridge",
+      "propio": true,
+      "id": "G"
+     },
+     {
+      "word": "x-ray",
+      "propio": false,
+      "id": "H"
+     }
+    ],
+    "answers": {
+     "Oliver": "H",
+     "Bruno": "B",
+     "Lia": "D",
+     "Aiko": "E",
+     "Iris": "A"
+    },
+    "script": "Listen and match each person to a picture. There is one example. … Diego: Oliver, which picture did you choose? … Oliver: I chose the x-ray. … Diego: Bruno, which picture did you choose? … Bruno: I chose the arm. … Diego: Lia, which picture did you choose? … Lia: I chose the card. … Diego: Aiko, which picture did you choose? … Aiko: I chose the flowers. … Diego: Iris, which picture did you choose? … Iris: I chose the nurse.",
+    "voice_note": "Diego pregunta; cada explorador responde con su objeto."
+   },
+   "code": "I"
+  },
+  {
+   "type": "picture_story",
+   "title": "Look at the three pictures and write the story.",
+   "instructions": "Look at the pictures. Write the story in 20-25 words. Use the words under each picture to help you.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Health & Wellbeing"
+    },
+    "destreza": "Writing",
+    "puede": "Writing Part 3: 20–25-word picture story (Flyers); classroom pieces 100–150w.",
+    "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "track",
+      "people": [
+       {
+        "slug": "oliver",
+        "pose": 4
+       }
+      ],
+      "word": "card",
+      "hint": "Oliver / takes / a card",
+      "model": "Oliver takes a card at the running track."
+     },
+     {
+      "n": 2,
+      "scene": "hockey",
+      "people": [
+       {
+        "slug": "oliver",
+        "pose": 8
+       },
+       {
+        "slug": "maya",
+        "pose": 1
+       }
+      ],
+      "word": "arm",
+      "hint": "Maya / bring / an arm",
+      "model": "Then Maya brings an arm."
+     },
+     {
+      "n": 3,
+      "scene": "picnic-garden",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 10
+       },
+       {
+        "slug": "oliver",
+        "pose": 10
+       }
+      ],
+      "word": "hospital",
+      "hint": "now / a hospital / happy",
+      "model": "Now they have got a hospital too, and both are happy."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Oliver takes a card at the running track. Then Maya brings an arm. Now they have got a hospital too, and both are happy.",
+    "words": [
+     "card",
+     "arm",
+     "hospital"
+    ],
+    "support": {
+     "grammar": "past simple + time expressions",
+     "words": [
+      "hospital",
+      "nurse",
+      "arm",
+      "broken",
+      "x-ray",
+      "visit"
+     ]
+    }
+   },
+   "code": "J"
   }
  ],
  "homework": [

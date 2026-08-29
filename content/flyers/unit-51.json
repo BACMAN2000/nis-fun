@@ -253,6 +253,265 @@
    ],
    "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
    "data": {}
+  },
+  {
+   "type": "label_people",
+   "title": "Listen and write the names.",
+   "instructions": "Look at the picture. Listen and write the name under each person. Careful: there are three names you do not need.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 1,
+     "nombre": "Personal Identity"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and label the people in the picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u51-g.mp3",
+   "data": {
+    "scene": "campus-hex",
+    "place": "the school courtyard",
+    "people": [
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 7,
+      "clue": "the boy in the red shirt with a microphone",
+      "action": "is asking questions with his microphone"
+     },
+     {
+      "slug": "kili",
+      "name": "Kili",
+      "pose": 3,
+      "clue": "the big black bird with a white collar",
+      "action": "is carrying a letter"
+     },
+     {
+      "slug": "tino",
+      "name": "Tino",
+      "pose": 7,
+      "clue": "the boy with very short hair and a white and green shirt",
+      "action": "is playing hockey"
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "pose": 7,
+      "clue": "the girl with a red ponytail and freckles",
+      "action": "is drawing with chalk on the ground"
+     },
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "pose": 7,
+      "clue": "the boy with red hair and a yellow shirt",
+      "action": "is singing"
+     }
+    ],
+    "names": [
+     "Bruno",
+     "Diego",
+     "Iris",
+     "Kili",
+     "Lia",
+     "Oliver",
+     "Samu",
+     "Tino"
+    ],
+    "script": "Look at the picture. Listen and write the names. There is one example. … Diego: Who is that in the school courtyard? The boy in the red shirt with a microphone. … Maya: That is Diego. Diego is asking questions with his microphone. … Diego: And who is the big black bird with a white collar? … Maya: That is Kili. Look, Kili is carrying a letter. … Diego: And who is the boy with very short hair and a white and green shirt? … Maya: That is Tino. Look, Tino is playing hockey. … Diego: And who is the girl with a red ponytail and freckles? … Maya: That is Iris. Look, Iris is drawing with chalk on the ground. … Diego: And who is the boy with red hair and a yellow shirt? … Maya: That is Oliver. Look, Oliver is singing.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  },
+  {
+   "type": "picture_mc",
+   "title": "Listen and tick the box.",
+   "instructions": "Listen to each question and click the picture that answers it.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 1,
+     "nombre": "Personal Identity"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and tick the right picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u51-h.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "Which word is Diego learning today?",
+      "answer": "family",
+      "options": [
+       {
+        "word": "family",
+        "propio": true
+       },
+       {
+        "word": "funfair",
+        "propio": true
+       },
+       {
+        "word": "police station",
+        "propio": true
+       }
+      ],
+      "script": "Which word is Diego learning today? … Diego: Today I am learning the word family."
+     },
+     {
+      "q": "What has Lia drawn?",
+      "answer": "wish",
+      "options": [
+       {
+        "word": "family",
+        "propio": true
+       },
+       {
+        "word": "belt",
+        "propio": true
+       },
+       {
+        "word": "wish",
+        "propio": false
+       }
+      ],
+      "script": "What has Lia drawn? … Lia: I have drawn a wish."
+     },
+     {
+      "q": "Which picture is Samu looking at?",
+      "answer": "pet",
+      "options": [
+       {
+        "word": "pet",
+        "propio": false
+       },
+       {
+        "word": "scarf",
+        "propio": true
+       },
+       {
+        "word": "family",
+        "propio": true
+       }
+      ],
+      "script": "Which picture is Samu looking at? … Samu: I am looking at the pet."
+     }
+    ],
+    "script": "Listen and tick the box. There is one example. … Which word is Diego learning today? … Diego: Today I am learning the word family. … What has Lia drawn? … Lia: I have drawn a wish. … Which picture is Samu looking at? … Samu: I am looking at the pet.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "H"
+  },
+  {
+   "type": "picture_story",
+   "title": "Look at the three pictures and write the story.",
+   "instructions": "Look at the pictures. Write the story in 20-25 words. Use the words under each picture to help you.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 1,
+     "nombre": "Personal Identity"
+    },
+    "destreza": "Writing",
+    "puede": "Writing Part 3: 20–25-word picture story (Flyers); classroom pieces 100–150w.",
+    "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "classroom",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 4
+       }
+      ],
+      "word": "",
+      "hint": "Diego / in the classroom",
+      "model": "One morning Diego is in the classroom."
+     },
+     {
+      "n": 2,
+      "scene": "library",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 3
+       },
+       {
+        "slug": "ingrid",
+        "pose": 3
+       }
+      ],
+      "word": "",
+      "hint": "Diego / meet / Ingrid",
+      "model": "Then Diego meets Ingrid in the library."
+     },
+     {
+      "n": 3,
+      "scene": "campus-hex",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 10
+       },
+       {
+        "slug": "ingrid",
+        "pose": 10
+       }
+      ],
+      "word": "",
+      "hint": "at the school courtyard / happy",
+      "model": "At the school courtyard they are very happy together."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "One morning Diego is in the classroom. Then Diego meets Ingrid in the library. At the school courtyard they are very happy together.",
+    "words": [],
+    "support": {
+     "grammar": "personal questions (Speaking review)",
+     "words": [
+      "surname",
+      "age",
+      "hometown",
+      "favourite",
+      "hobby",
+      "family"
+     ]
+    }
+   },
+   "code": "I"
   }
  ],
  "homework": [

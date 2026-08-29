@@ -251,6 +251,176 @@
    ],
    "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
    "data": {}
+  },
+  {
+   "type": "label_people",
+   "title": "Listen and write the names.",
+   "instructions": "Look at the picture. Listen and write the name under each person. Careful: there are three names you do not need.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Health & Wellbeing"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and label the people in the picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u10-g.mp3",
+   "data": {
+    "scene": "hockey",
+    "place": "the hockey pitch",
+    "people": [
+     {
+      "slug": "kili",
+      "name": "Kili",
+      "pose": 3,
+      "clue": "the big black bird with a white collar",
+      "action": "is carrying a letter"
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 7,
+      "clue": "the boy in the red shirt with a microphone",
+      "action": "is asking questions with his microphone"
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "pose": 7,
+      "clue": "the girl with a red ponytail and freckles",
+      "action": "is drawing with chalk on the ground"
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "pose": 7,
+      "clue": "the girl with black plaits and a purple shirt",
+      "action": "is jumping with a skipping rope"
+     },
+     {
+      "slug": "aiko",
+      "name": "Aiko",
+      "pose": 7,
+      "clue": "the girl with long straight black hair and an orange shirt",
+      "action": "is reading a book"
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Diego",
+     "Ingrid",
+     "Iris",
+     "Kili",
+     "Lia",
+     "Maya",
+     "Samu"
+    ],
+    "script": "Look at the picture. Listen and write the names. There is one example. … Diego: Who is that in the hockey pitch? The big black bird with a white collar. … Maya: That is Kili. Kili is carrying a letter. … Diego: And who is the boy in the red shirt with a microphone? … Maya: That is Diego. Look, Diego is asking questions with his microphone. … Diego: And who is the girl with a red ponytail and freckles? … Maya: That is Iris. Look, Iris is drawing with chalk on the ground. … Diego: And who is the girl with black plaits and a purple shirt? … Maya: That is Lia. Look, Lia is jumping with a skipping rope. … Diego: And who is the girl with long straight black hair and an orange shirt? … Maya: That is Aiko. Look, Aiko is reading a book.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  },
+  {
+   "type": "picture_story",
+   "title": "Look at the three pictures and write the story.",
+   "instructions": "Look at the pictures. Write the story in 20-25 words. Use the words under each picture to help you.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Health & Wellbeing"
+    },
+    "destreza": "Writing",
+    "puede": "Writing Part 3: 20–25-word picture story (Flyers); classroom pieces 100–150w.",
+    "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "hockey",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 4
+       }
+      ],
+      "word": "",
+      "hint": "Diego / at the hockey pitch",
+      "model": "One morning Diego is at the hockey pitch."
+     },
+     {
+      "n": 2,
+      "scene": "picnic-garden",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 3
+       },
+       {
+        "slug": "tino",
+        "pose": 3
+       }
+      ],
+      "word": "",
+      "hint": "Diego / meet / Tino",
+      "model": "Then Diego meets Tino at the picnic garden."
+     },
+     {
+      "n": 3,
+      "scene": "garden",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 10
+       },
+       {
+        "slug": "tino",
+        "pose": 1
+       }
+      ],
+      "word": "",
+      "hint": "at the school garden / happy",
+      "model": "At the school garden they are very happy together."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "One morning Diego is at the hockey pitch. Then Diego meets Tino at the picnic garden. At the school garden they are very happy together.",
+    "words": [],
+    "support": {
+     "grammar": "whose + possessive 's / mine, yours",
+     "words": [
+      "mine",
+      "yours",
+      "his",
+      "hers",
+      "ours",
+      "theirs"
+     ]
+    }
+   },
+   "code": "H"
   }
  ],
  "homework": [

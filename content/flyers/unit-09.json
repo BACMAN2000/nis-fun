@@ -230,6 +230,413 @@
    ],
    "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
    "data": {}
+  },
+  {
+   "type": "label_people",
+   "title": "Listen and write the names.",
+   "instructions": "Look at the picture. Listen and write the name under each person. Careful: there are three names you do not need.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 2,
+     "nombre": "Everyday Life & Habits"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and label the people in the picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u09-g.mp3",
+   "data": {
+    "scene": "picnic-garden",
+    "place": "the picnic garden",
+    "people": [
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 7,
+      "clue": "the girl in the green shirt with a magnifying glass",
+      "action": "is looking at something very small"
+     },
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "pose": 7,
+      "clue": "the girl with fair hair and a dark blue jacket",
+      "action": "is reading the plan for the day"
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "pose": 7,
+      "clue": "the girl with black plaits and a purple shirt",
+      "action": "is jumping with a skipping rope"
+     },
+     {
+      "slug": "kili",
+      "name": "Kili",
+      "pose": 3,
+      "clue": "the big black bird with a white collar",
+      "action": "is carrying a letter"
+     },
+     {
+      "slug": "aiko",
+      "name": "Aiko",
+      "pose": 7,
+      "clue": "the girl with long straight black hair and an orange shirt",
+      "action": "is reading a book"
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Bruno",
+     "Diego",
+     "Ingrid",
+     "Kili",
+     "Lia",
+     "Maya",
+     "Oliver"
+    ],
+    "script": "Look at the picture. Listen and write the names. There is one example. … Diego: Who is that in the picnic garden? The girl in the green shirt with a magnifying glass. … Maya: That is Maya. Maya is looking at something very small. … Diego: And who is the girl with fair hair and a dark blue jacket? … Maya: That is Ingrid. Look, Ingrid is reading the plan for the day. … Diego: And who is the girl with black plaits and a purple shirt? … Maya: That is Lia. Look, Lia is jumping with a skipping rope. … Diego: And who is the big black bird with a white collar? … Maya: That is Kili. Look, Kili is carrying a letter. … Diego: And who is the girl with long straight black hair and an orange shirt? … Maya: That is Aiko. Look, Aiko is reading a book.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  },
+  {
+   "type": "picture_mc",
+   "title": "Listen and tick the box.",
+   "instructions": "Listen to each question and click the picture that answers it.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 2,
+     "nombre": "Everyday Life & Habits"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and tick the right picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u09-h.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "Which word is Maya learning today?",
+      "answer": "shelf",
+      "options": [
+       {
+        "word": "shelf",
+        "propio": false
+       },
+       {
+        "word": "gloves",
+        "propio": true
+       },
+       {
+        "word": "castle",
+        "propio": true
+       }
+      ],
+      "script": "Which word is Maya learning today? … Maya: Today I am learning the word shelf."
+     },
+     {
+      "q": "What has Ingrid drawn?",
+      "answer": "balcony",
+      "options": [
+       {
+        "word": "stadium",
+        "propio": true
+       },
+       {
+        "word": "balcony",
+        "propio": false
+       },
+       {
+        "word": "suitcase",
+        "propio": true
+       }
+      ],
+      "script": "What has Ingrid drawn? … Ingrid: I have drawn a balcony."
+     },
+     {
+      "q": "Which picture is Lia looking at?",
+      "answer": "basement",
+      "options": [
+       {
+        "word": "basement",
+        "propio": false
+       },
+       {
+        "word": "airport",
+        "propio": true
+       },
+       {
+        "word": "suitcase",
+        "propio": true
+       }
+      ],
+      "script": "Which picture is Lia looking at? … Lia: I am looking at the basement."
+     },
+     {
+      "q": "What can Diego see in the picture?",
+      "answer": "fridge",
+      "options": [
+       {
+        "word": "airport",
+        "propio": true
+       },
+       {
+        "word": "fridge",
+        "propio": false
+       },
+       {
+        "word": "theatre",
+        "propio": true
+       }
+      ],
+      "script": "What can Diego see in the picture? … Diego: I can see the fridge."
+     },
+     {
+      "q": "What is Aiko pointing at?",
+      "answer": "gate",
+      "options": [
+       {
+        "word": "sunhat",
+        "propio": true
+       },
+       {
+        "word": "gate",
+        "propio": false
+       },
+       {
+        "word": "family",
+        "propio": true
+       }
+      ],
+      "script": "What is Aiko pointing at? … Aiko: I am pointing at the gate."
+     }
+    ],
+    "script": "Listen and tick the box. There is one example. … Which word is Maya learning today? … Maya: Today I am learning the word shelf. … What has Ingrid drawn? … Ingrid: I have drawn a balcony. … Which picture is Lia looking at? … Lia: I am looking at the basement. … What can Diego see in the picture? … Diego: I can see the fridge. … What is Aiko pointing at? … Aiko: I am pointing at the gate.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "H"
+  },
+  {
+   "type": "match_pictures",
+   "title": "Listen and match each explorer to a picture.",
+   "instructions": "Listen. Then choose the letter of the picture for each person. Careful: some pictures are extra.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 2,
+     "nombre": "Everyday Life & Habits"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and match each person to a picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 3
+    }
+   },
+   "audio": "flyers/u09-i.mp3",
+   "data": {
+    "people": [
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 8
+     },
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "pose": 8
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "pose": 3
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 8
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "pose": 3
+     }
+    ],
+    "pictures": [
+     {
+      "word": "bridge",
+      "propio": true,
+      "id": "A"
+     },
+     {
+      "word": "fridge",
+      "propio": false,
+      "id": "B"
+     },
+     {
+      "word": "gloves",
+      "propio": true,
+      "id": "C"
+     },
+     {
+      "word": "umbrella",
+      "propio": true,
+      "id": "D"
+     },
+     {
+      "word": "basement",
+      "propio": false,
+      "id": "E"
+     },
+     {
+      "word": "balcony",
+      "propio": false,
+      "id": "F"
+     },
+     {
+      "word": "shelf",
+      "propio": false,
+      "id": "G"
+     },
+     {
+      "word": "lift",
+      "propio": false,
+      "id": "H"
+     }
+    ],
+    "answers": {
+     "Maya": "G",
+     "Ingrid": "F",
+     "Iris": "H",
+     "Diego": "B",
+     "Bruno": "E"
+    },
+    "script": "Listen and match each person to a picture. There is one example. … Diego: Maya, which picture did you choose? … Maya: I chose the shelf. … Diego: Ingrid, which picture did you choose? … Ingrid: I chose the balcony. … Diego: Iris, which picture did you choose? … Iris: I chose the lift. … Diego: Diego, which picture did you choose? … Diego: I chose the fridge. … Diego: Bruno, which picture did you choose? … Bruno: I chose the basement.",
+    "voice_note": "Diego pregunta; cada explorador responde con su objeto."
+   },
+   "code": "I"
+  },
+  {
+   "type": "picture_story",
+   "title": "Look at the three pictures and write the story.",
+   "instructions": "Look at the pictures. Write the story in 20-25 words. Use the words under each picture to help you.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 2,
+     "nombre": "Everyday Life & Habits"
+    },
+    "destreza": "Writing",
+    "puede": "Writing Part 3: 20–25-word picture story (Flyers); classroom pieces 100–150w.",
+    "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "picnic-garden",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 4
+       }
+      ],
+      "word": "stairs",
+      "hint": "Maya / shows / some stairs",
+      "model": "Maya shows some stairs at the picnic garden."
+     },
+     {
+      "n": 2,
+      "scene": "classroom",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 8
+       },
+       {
+        "slug": "ingrid",
+        "pose": 1
+       }
+      ],
+      "word": "fridge",
+      "hint": "Ingrid / bring / a fridge",
+      "model": "Then Ingrid brings a fridge."
+     },
+     {
+      "n": 3,
+      "scene": "main-building",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 10
+       },
+       {
+        "slug": "maya",
+        "pose": 10
+       }
+      ],
+      "word": "cupboard",
+      "hint": "now / a cupboard / happy",
+      "model": "Now they have got a cupboard too, and both are happy."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Maya shows some stairs at the picnic garden. Then Ingrid brings a fridge. Now they have got a cupboard too, and both are happy.",
+    "words": [
+     "stairs",
+     "fridge",
+     "cupboard"
+    ],
+    "support": {
+     "grammar": "prepositions of place",
+     "words": [
+      "balcony",
+      "basement",
+      "stairs",
+      "lift",
+      "gate",
+      "roof"
+     ]
+    }
+   },
+   "code": "J"
   }
  ],
  "homework": [

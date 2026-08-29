@@ -253,6 +253,413 @@
    ],
    "instructions": "Look at picture A and picture B. Find the 11 differences and tell your partner about them.",
    "data": {}
+  },
+  {
+   "type": "label_people",
+   "title": "Listen and write the names.",
+   "instructions": "Look at the picture. Listen and write the name under each person. Careful: there are three names you do not need.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 4,
+     "nombre": "People & Cultures"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and label the people in the picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u08-g.mp3",
+   "data": {
+    "scene": "funfair",
+    "place": "the funfair",
+    "people": [
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "pose": 7,
+      "clue": "the girl with fair hair and a dark blue jacket",
+      "action": "is reading the plan for the day"
+     },
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "pose": 7,
+      "clue": "the boy with red hair and a yellow shirt",
+      "action": "is singing"
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "pose": 7,
+      "clue": "the girl with black plaits and a purple shirt",
+      "action": "is jumping with a skipping rope"
+     },
+     {
+      "slug": "kili",
+      "name": "Kili",
+      "pose": 3,
+      "clue": "the big black bird with a white collar",
+      "action": "is carrying a letter"
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "pose": 7,
+      "clue": "the girl with a red ponytail and freckles",
+      "action": "is drawing with chalk on the ground"
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Bruno",
+     "Ingrid",
+     "Iris",
+     "Kili",
+     "Lia",
+     "Maya",
+     "Oliver"
+    ],
+    "script": "Look at the picture. Listen and write the names. There is one example. … Diego: Who is that in the funfair? The girl with fair hair and a dark blue jacket. … Maya: That is Ingrid. Ingrid is reading the plan for the day. … Diego: And who is the boy with red hair and a yellow shirt? … Maya: That is Oliver. Look, Oliver is singing. … Diego: And who is the girl with black plaits and a purple shirt? … Maya: That is Lia. Look, Lia is jumping with a skipping rope. … Diego: And who is the big black bird with a white collar? … Maya: That is Kili. Look, Kili is carrying a letter. … Diego: And who is the girl with a red ponytail and freckles? … Maya: That is Iris. Look, Iris is drawing with chalk on the ground.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  },
+  {
+   "type": "picture_mc",
+   "title": "Listen and tick the box.",
+   "instructions": "Listen to each question and click the picture that answers it.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 4,
+     "nombre": "People & Cultures"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and tick the right picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u08-h.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "What is Ingrid talking about?",
+      "answer": "oven",
+      "options": [
+       {
+        "word": "gloves",
+        "propio": true
+       },
+       {
+        "word": "oven",
+        "propio": false
+       },
+       {
+        "word": "police station",
+        "propio": true
+       }
+      ],
+      "script": "What is Ingrid talking about? … Ingrid: I am talking about the oven."
+     },
+     {
+      "q": "Which word is Oliver learning today?",
+      "answer": "cheese",
+      "options": [
+       {
+        "word": "cheese",
+        "propio": false
+       },
+       {
+        "word": "suitcase",
+        "propio": true
+       },
+       {
+        "word": "pocket",
+        "propio": true
+       }
+      ],
+      "script": "Which word is Oliver learning today? … Oliver: Today I am learning the word cheese."
+     },
+     {
+      "q": "What has Tino drawn?",
+      "answer": "tomato",
+      "options": [
+       {
+        "word": "police station",
+        "propio": true
+       },
+       {
+        "word": "tomato",
+        "propio": false
+       },
+       {
+        "word": "belt",
+        "propio": true
+       }
+      ],
+      "script": "What has Tino drawn? … Tino: I have drawn a tomato."
+     },
+     {
+      "q": "Which picture is Aiko looking at?",
+      "answer": "olives",
+      "options": [
+       {
+        "word": "socks",
+        "propio": true
+       },
+       {
+        "word": "olives",
+        "propio": false
+       },
+       {
+        "word": "chemist's",
+        "propio": true
+       }
+      ],
+      "script": "Which picture is Aiko looking at? … Aiko: I am looking at the olives."
+     },
+     {
+      "q": "What can Diego see in the picture?",
+      "answer": "mushroom",
+      "options": [
+       {
+        "word": "funfair",
+        "propio": true
+       },
+       {
+        "word": "mushroom",
+        "propio": false
+       },
+       {
+        "word": "family",
+        "propio": true
+       }
+      ],
+      "script": "What can Diego see in the picture? … Diego: I can see the mushroom."
+     }
+    ],
+    "script": "Listen and tick the box. There is one example. … What is Ingrid talking about? … Ingrid: I am talking about the oven. … Which word is Oliver learning today? … Oliver: Today I am learning the word cheese. … What has Tino drawn? … Tino: I have drawn a tomato. … Which picture is Aiko looking at? … Aiko: I am looking at the olives. … What can Diego see in the picture? … Diego: I can see the mushroom.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "H"
+  },
+  {
+   "type": "match_pictures",
+   "title": "Listen and match each explorer to a picture.",
+   "instructions": "Listen. Then choose the letter of the picture for each person. Careful: some pictures are extra.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 4,
+     "nombre": "People & Cultures"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and match each person to a picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 3
+    }
+   },
+   "audio": "flyers/u08-i.mp3",
+   "data": {
+    "people": [
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "pose": 8
+     },
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "pose": 8
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "pose": 3
+     },
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 8
+     },
+     {
+      "slug": "aiko",
+      "name": "Aiko",
+      "pose": 3
+     }
+    ],
+    "pictures": [
+     {
+      "word": "socks",
+      "propio": true,
+      "id": "A"
+     },
+     {
+      "word": "cheese",
+      "propio": false,
+      "id": "B"
+     },
+     {
+      "word": "mushroom",
+      "propio": false,
+      "id": "C"
+     },
+     {
+      "word": "tomato",
+      "propio": false,
+      "id": "D"
+     },
+     {
+      "word": "theatre",
+      "propio": true,
+      "id": "E"
+     },
+     {
+      "word": "olives",
+      "propio": false,
+      "id": "F"
+     },
+     {
+      "word": "family",
+      "propio": true,
+      "id": "G"
+     },
+     {
+      "word": "onion",
+      "propio": false,
+      "id": "H"
+     }
+    ],
+    "answers": {
+     "Ingrid": "C",
+     "Oliver": "D",
+     "Iris": "F",
+     "Maya": "H",
+     "Aiko": "B"
+    },
+    "script": "Listen and match each person to a picture. There is one example. … Diego: Ingrid, which picture did you choose? … Ingrid: I chose the mushroom. … Diego: Oliver, which picture did you choose? … Oliver: I chose the tomato. … Diego: Iris, which picture did you choose? … Iris: I chose the olives. … Diego: Maya, which picture did you choose? … Maya: I chose the onion. … Diego: Aiko, which picture did you choose? … Aiko: I chose the cheese.",
+    "voice_note": "Diego pregunta; cada explorador responde con su objeto."
+   },
+   "code": "I"
+  },
+  {
+   "type": "picture_story",
+   "title": "Look at the three pictures and write the story.",
+   "instructions": "Look at the pictures. Write the story in 20-25 words. Use the words under each picture to help you.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 4,
+     "nombre": "People & Cultures"
+    },
+    "destreza": "Writing",
+    "puede": "Writing Part 3: 20–25-word picture story (Flyers); classroom pieces 100–150w.",
+    "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "main-building",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 4
+       }
+      ],
+      "word": "oven",
+      "hint": "Ingrid / carries / an oven",
+      "model": "Ingrid carries an oven in the main building."
+     },
+     {
+      "n": 2,
+      "scene": "facade",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 8
+       },
+       {
+        "slug": "oliver",
+        "pose": 1
+       }
+      ],
+      "word": "onion",
+      "hint": "Oliver / bring / an onion",
+      "model": "Then Oliver brings an onion."
+     },
+     {
+      "n": 3,
+      "scene": "amphitheater",
+      "people": [
+       {
+        "slug": "oliver",
+        "pose": 10
+       },
+       {
+        "slug": "ingrid",
+        "pose": 10
+       }
+      ],
+      "word": "cheese",
+      "hint": "now / a cheese / happy",
+      "model": "Now they have got a cheese too, and both are happy."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Ingrid carries an oven in the main building. Then Oliver brings an onion. Now they have got a cheese too, and both are happy.",
+    "words": [
+     "oven",
+     "onion",
+     "cheese"
+    ],
+    "support": {
+     "grammar": "some / any + imperatives",
+     "words": [
+      "cheese",
+      "tomato",
+      "mushroom",
+      "olives",
+      "onion",
+      "oven"
+     ]
+    }
+   },
+   "code": "J"
   }
  ],
  "homework": [

@@ -254,6 +254,388 @@
    ],
    "instructions": "Look at picture A and picture B. Find the 11 differences and tell your partner about them.",
    "data": {}
+  },
+  {
+   "type": "label_people",
+   "title": "Listen and write the names.",
+   "instructions": "Look at the picture. Listen and write the name under each person. Careful: there are three names you do not need.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 6,
+     "nombre": "Adventures & Experiences"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and label the people in the picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u39-g.mp3",
+   "data": {
+    "scene": "funfair",
+    "place": "the funfair",
+    "people": [
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 7,
+      "clue": "the girl in the green shirt with a magnifying glass",
+      "action": "is looking at something very small"
+     },
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "pose": 7,
+      "clue": "the girl with fair hair and a dark blue jacket",
+      "action": "is reading the plan for the day"
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "pose": 7,
+      "clue": "the girl with black plaits and a purple shirt",
+      "action": "is jumping with a skipping rope"
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "pose": 7,
+      "clue": "the boy with curly brown hair and a green shirt",
+      "action": "is running after the ball"
+     },
+     {
+      "slug": "tino",
+      "name": "Tino",
+      "pose": 7,
+      "clue": "the boy with very short hair and a white and green shirt",
+      "action": "is playing hockey"
+     }
+    ],
+    "names": [
+     "Bruno",
+     "Diego",
+     "Ingrid",
+     "Iris",
+     "Lia",
+     "Maya",
+     "Oliver",
+     "Tino"
+    ],
+    "script": "Look at the picture. Listen and write the names. There is one example. … Diego: Who is that in the funfair? The girl in the green shirt with a magnifying glass. … Maya: That is Maya. Maya is looking at something very small. … Diego: And who is the girl with fair hair and a dark blue jacket? … Maya: That is Ingrid. Look, Ingrid is reading the plan for the day. … Diego: And who is the girl with black plaits and a purple shirt? … Maya: That is Lia. Look, Lia is jumping with a skipping rope. … Diego: And who is the boy with curly brown hair and a green shirt? … Maya: That is Bruno. Look, Bruno is running after the ball. … Diego: And who is the boy with very short hair and a white and green shirt? … Maya: That is Tino. Look, Tino is playing hockey.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  },
+  {
+   "type": "picture_mc",
+   "title": "Listen and tick the box.",
+   "instructions": "Listen to each question and click the picture that answers it.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 6,
+     "nombre": "Adventures & Experiences"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and tick the right picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u39-h.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "Which word is Maya learning today?",
+      "answer": "mountain",
+      "options": [
+       {
+        "word": "gloves",
+        "propio": true
+       },
+       {
+        "word": "belt",
+        "propio": true
+       },
+       {
+        "word": "mountain",
+        "propio": false
+       }
+      ],
+      "script": "Which word is Maya learning today? … Maya: Today I am learning the word mountain."
+     },
+     {
+      "q": "What has Ingrid drawn?",
+      "answer": "map",
+      "options": [
+       {
+        "word": "map",
+        "propio": false
+       },
+       {
+        "word": "bridge",
+        "propio": true
+       },
+       {
+        "word": "police station",
+        "propio": true
+       }
+      ],
+      "script": "What has Ingrid drawn? … Ingrid: I have drawn a map."
+     },
+     {
+      "q": "Which picture is Tino looking at?",
+      "answer": "explorer",
+      "options": [
+       {
+        "word": "bridge",
+        "propio": true
+       },
+       {
+        "word": "explorer",
+        "propio": false
+       },
+       {
+        "word": "theatre",
+        "propio": true
+       }
+      ],
+      "script": "Which picture is Tino looking at? … Tino: I am looking at the explorer."
+     },
+     {
+      "q": "What can Aiko see in the picture?",
+      "answer": "history",
+      "options": [
+       {
+        "word": "history",
+        "propio": false
+       },
+       {
+        "word": "police station",
+        "propio": true
+       },
+       {
+        "word": "bridge",
+        "propio": true
+       }
+      ],
+      "script": "What can Aiko see in the picture? … Aiko: I can see the history."
+     }
+    ],
+    "script": "Listen and tick the box. There is one example. … Which word is Maya learning today? … Maya: Today I am learning the word mountain. … What has Ingrid drawn? … Ingrid: I have drawn a map. … Which picture is Tino looking at? … Tino: I am looking at the explorer. … What can Aiko see in the picture? … Aiko: I can see the history.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "H"
+  },
+  {
+   "type": "match_pictures",
+   "title": "Listen and match each explorer to a picture.",
+   "instructions": "Listen. Then choose the letter of the picture for each person. Careful: some pictures are extra.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 6,
+     "nombre": "Adventures & Experiences"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and match each person to a picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 3
+    }
+   },
+   "audio": "flyers/u39-i.mp3",
+   "data": {
+    "people": [
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 8
+     },
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "pose": 8
+     },
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "pose": 8
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "pose": 3
+     }
+    ],
+    "pictures": [
+     {
+      "word": "mountain",
+      "propio": false,
+      "id": "A"
+     },
+     {
+      "word": "airport",
+      "propio": true,
+      "id": "B"
+     },
+     {
+      "word": "museum",
+      "propio": true,
+      "id": "C"
+     },
+     {
+      "word": "history",
+      "propio": false,
+      "id": "D"
+     },
+     {
+      "word": "suitcase",
+      "propio": true,
+      "id": "E"
+     },
+     {
+      "word": "map",
+      "propio": false,
+      "id": "F"
+     },
+     {
+      "word": "explorer",
+      "propio": false,
+      "id": "G"
+     },
+     {
+      "word": "umbrella",
+      "propio": true,
+      "id": "H"
+     }
+    ],
+    "answers": {
+     "Maya": "F",
+     "Ingrid": "D",
+     "Oliver": "A",
+     "Iris": "G"
+    },
+    "script": "Listen and match each person to a picture. There is one example. … Diego: Maya, which picture did you choose? … Maya: I chose the map. … Diego: Ingrid, which picture did you choose? … Ingrid: I chose the history. … Diego: Oliver, which picture did you choose? … Oliver: I chose the mountain. … Diego: Iris, which picture did you choose? … Iris: I chose the explorer.",
+    "voice_note": "Diego pregunta; cada explorador responde con su objeto."
+   },
+   "code": "I"
+  },
+  {
+   "type": "picture_story",
+   "title": "Look at the three pictures and write the story.",
+   "instructions": "Look at the pictures. Write the story in 20-25 words. Use the words under each picture to help you.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 6,
+     "nombre": "Adventures & Experiences"
+    },
+    "destreza": "Writing",
+    "puede": "Writing Part 3: 20–25-word picture story (Flyers); classroom pieces 100–150w.",
+    "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "labyrinth",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 4
+       }
+      ],
+      "word": "explorer",
+      "hint": "Maya / shows / an explorer",
+      "model": "Maya shows an explorer at the maze."
+     },
+     {
+      "n": 2,
+      "scene": "lighthouse-kitchen",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 8
+       },
+       {
+        "slug": "ingrid",
+        "pose": 1
+       }
+      ],
+      "word": "mountain",
+      "hint": "Ingrid / bring / a mountain",
+      "model": "Then Ingrid brings a mountain."
+     },
+     {
+      "n": 3,
+      "scene": "funfair",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 10
+       },
+       {
+        "slug": "maya",
+        "pose": 10
+       }
+      ],
+      "word": "map",
+      "hint": "now / a map / happy",
+      "model": "Now they have got a map too, and both are happy."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Maya shows an explorer at the maze. Then Ingrid brings a mountain. Now they have got a map too, and both are happy.",
+    "words": [
+     "explorer",
+     "mountain",
+     "map"
+    ],
+    "support": {
+     "grammar": "past simple in biographies",
+     "words": [
+      "explorer",
+      "journey",
+      "discover",
+      "map",
+      "ship",
+      "mountain"
+     ]
+    }
+   },
+   "code": "J"
   }
  ],
  "homework": [

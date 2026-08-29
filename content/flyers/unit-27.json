@@ -253,6 +253,176 @@
    ],
    "instructions": "Look at picture A and picture B. Find the 11 differences and tell your partner about them.",
    "data": {}
+  },
+  {
+   "type": "label_people",
+   "title": "Listen and write the names.",
+   "instructions": "Look at the picture. Listen and write the name under each person. Careful: there are three names you do not need.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 1,
+     "nombre": "Personal Identity"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and label the people in the picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u27-g.mp3",
+   "data": {
+    "scene": "classroom",
+    "place": "the classroom",
+    "people": [
+     {
+      "slug": "kili",
+      "name": "Kili",
+      "pose": 3,
+      "clue": "the big black bird with a white collar",
+      "action": "is carrying a letter"
+     },
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "pose": 7,
+      "clue": "the boy with red hair and a yellow shirt",
+      "action": "is singing"
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "pose": 7,
+      "clue": "the boy with curly brown hair and a green shirt",
+      "action": "is running after the ball"
+     },
+     {
+      "slug": "samu",
+      "name": "Samu",
+      "pose": 7,
+      "clue": "the boy with short fair hair and a rucksack",
+      "action": "is waving"
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "pose": 7,
+      "clue": "the girl with a red ponytail and freckles",
+      "action": "is drawing with chalk on the ground"
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Bruno",
+     "Ingrid",
+     "Iris",
+     "Kili",
+     "Oliver",
+     "Samu",
+     "Tino"
+    ],
+    "script": "Look at the picture. Listen and write the names. There is one example. … Diego: Who is that in the classroom? The big black bird with a white collar. … Maya: That is Kili. Kili is carrying a letter. … Diego: And who is the boy with red hair and a yellow shirt? … Maya: That is Oliver. Look, Oliver is singing. … Diego: And who is the boy with curly brown hair and a green shirt? … Maya: That is Bruno. Look, Bruno is running after the ball. … Diego: And who is the boy with short fair hair and a rucksack? … Maya: That is Samu. Look, Samu is waving. … Diego: And who is the girl with a red ponytail and freckles? … Maya: That is Iris. Look, Iris is drawing with chalk on the ground.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  },
+  {
+   "type": "picture_story",
+   "title": "Look at the three pictures and write the story.",
+   "instructions": "Look at the pictures. Write the story in 20-25 words. Use the words under each picture to help you.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 1,
+     "nombre": "Personal Identity"
+    },
+    "destreza": "Writing",
+    "puede": "Writing Part 3: 20–25-word picture story (Flyers); classroom pieces 100–150w.",
+    "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "entrance",
+      "people": [
+       {
+        "slug": "oliver",
+        "pose": 4
+       }
+      ],
+      "word": "",
+      "hint": "Oliver / at the school entrance",
+      "model": "One morning Oliver is at the school entrance."
+     },
+     {
+      "n": 2,
+      "scene": "campus-hex",
+      "people": [
+       {
+        "slug": "oliver",
+        "pose": 3
+       },
+       {
+        "slug": "lia",
+        "pose": 3
+       }
+      ],
+      "word": "",
+      "hint": "Oliver / meet / Lia",
+      "model": "Then Oliver meets Lia at the school courtyard."
+     },
+     {
+      "n": 3,
+      "scene": "classroom",
+      "people": [
+       {
+        "slug": "oliver",
+        "pose": 10
+       },
+       {
+        "slug": "lia",
+        "pose": 1
+       }
+      ],
+      "word": "",
+      "hint": "in the classroom / happy",
+      "model": "In the classroom they are very happy together."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "One morning Oliver is at the school entrance. Then Oliver meets Lia at the school courtyard. In the classroom they are very happy together.",
+    "words": [],
+    "support": {
+     "grammar": "present perfect with just / already / yet (review)",
+     "words": [
+      "just",
+      "already",
+      "yet",
+      "arrive",
+      "arrived",
+      "finish"
+     ]
+    }
+   },
+   "code": "H"
   }
  ],
  "homework": [

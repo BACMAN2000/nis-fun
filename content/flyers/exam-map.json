@@ -1,0 +1,1730 @@
+{
+ "_leeme": "Generado por tools/gen_visual_flyers.py. No editar a mano.",
+ "grado": "G5",
+ "cefr": "A2",
+ "examen": "Cambridge Flyers",
+ "temas": [
+  {
+   "n": 1,
+   "nombre": "Personal Identity",
+   "unidades": [
+    1,
+    4,
+    17,
+    25,
+    27,
+    35,
+    42,
+    48,
+    51,
+    55
+   ]
+  },
+  {
+   "n": 2,
+   "nombre": "Everyday Life & Habits",
+   "unidades": [
+    7,
+    9,
+    12,
+    18,
+    28,
+    29,
+    36,
+    43,
+    49
+   ]
+  },
+  {
+   "n": 3,
+   "nombre": "The Natural World",
+   "unidades": [
+    5,
+    13,
+    19,
+    22,
+    23,
+    30,
+    37,
+    44,
+    50
+   ]
+  },
+  {
+   "n": 4,
+   "nombre": "People & Cultures",
+   "unidades": [
+    2,
+    8,
+    14,
+    20,
+    24,
+    32,
+    38,
+    45,
+    52
+   ]
+  },
+  {
+   "n": 5,
+   "nombre": "Health & Wellbeing",
+   "unidades": [
+    6,
+    10,
+    15,
+    21,
+    31,
+    33,
+    40,
+    46,
+    53
+   ]
+  },
+  {
+   "n": 6,
+   "nombre": "Adventures & Experiences",
+   "unidades": [
+    3,
+    11,
+    16,
+    26,
+    34,
+    39,
+    41,
+    47,
+    54
+   ]
+  }
+ ],
+ "unidades": {
+  "1": {
+   "titulo": "Wearing and carrying",
+   "foco": {
+    "paper": "Reading & Writing",
+    "part": 1
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "H",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 4,
+     "tipo": "picture_mc",
+     "code": "I",
+     "clase": "Flyers-style: listen and tick the right picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 3,
+     "tipo": "match_pictures",
+     "code": "J",
+     "clase": "Flyers-style: listen and match each person to a picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "K",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "2": {
+   "titulo": "Places to go",
+   "foco": {
+    "paper": "Listening",
+    "part": 1
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "I",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 4,
+     "tipo": "picture_mc",
+     "code": "J",
+     "clase": "Flyers-style: listen and tick the right picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 3,
+     "tipo": "match_pictures",
+     "code": "K",
+     "clase": "Flyers-style: listen and match each person to a picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "L",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "3": {
+   "titulo": "I've forgotten my umbrella!",
+   "foco": {
+    "paper": "Listening",
+    "part": 2
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "H",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "I",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "4": {
+   "titulo": "Body and face",
+   "foco": {
+    "paper": "Reading & Writing",
+    "part": 1
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 4,
+     "tipo": "picture_mc",
+     "code": "H",
+     "clase": "Flyers-style: listen and tick the right picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 3,
+     "tipo": "match_pictures",
+     "code": "I",
+     "clase": "Flyers-style: listen and match each person to a picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "J",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "5": {
+   "titulo": "My school day",
+   "foco": {
+    "paper": "Listening",
+    "part": 2
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 4,
+     "tipo": "picture_mc",
+     "code": "H",
+     "clase": "Flyers-style: listen and tick the right picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 3,
+     "tipo": "match_pictures",
+     "code": "I",
+     "clase": "Flyers-style: listen and match each person to a picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "J",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "6": {
+   "titulo": "What's the matter?",
+   "foco": {
+    "paper": "Listening",
+    "part": 1
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 4,
+     "tipo": "picture_mc",
+     "code": "H",
+     "clase": "Flyers-style: listen and tick the right picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 3,
+     "tipo": "match_pictures",
+     "code": "I",
+     "clase": "Flyers-style: listen and match each person to a picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "J",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "7": {
+   "titulo": "Breakfast, lunch and dinner",
+   "foco": {
+    "paper": "Reading & Writing",
+    "part": 1
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 4,
+     "tipo": "picture_mc",
+     "code": "H",
+     "clase": "Flyers-style: listen and tick the right picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 3,
+     "tipo": "match_pictures",
+     "code": "I",
+     "clase": "Flyers-style: listen and match each person to a picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "J",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "8": {
+   "titulo": "Let's make a pizza",
+   "foco": {
+    "paper": "Listening",
+    "part": 2
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 4,
+     "tipo": "picture_mc",
+     "code": "H",
+     "clase": "Flyers-style: listen and tick the right picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 3,
+     "tipo": "match_pictures",
+     "code": "I",
+     "clase": "Flyers-style: listen and match each person to a picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "J",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "9": {
+   "titulo": "Around the house",
+   "foco": {
+    "paper": "Reading & Writing",
+    "part": 2
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 4,
+     "tipo": "picture_mc",
+     "code": "H",
+     "clase": "Flyers-style: listen and tick the right picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 3,
+     "tipo": "match_pictures",
+     "code": "I",
+     "clase": "Flyers-style: listen and match each person to a picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "J",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "10": {
+   "titulo": "Whose is it?",
+   "foco": {
+    "paper": "Listening",
+    "part": 1
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "H",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "11": {
+   "titulo": "Jobs people do",
+   "foco": {
+    "paper": "Reading & Writing",
+    "part": 1
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 4,
+     "tipo": "picture_mc",
+     "code": "H",
+     "clase": "Flyers-style: listen and tick the right picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 3,
+     "tipo": "match_pictures",
+     "code": "I",
+     "clase": "Flyers-style: listen and match each person to a picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "J",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "12": {
+   "titulo": "When I grow up",
+   "foco": {
+    "paper": "Listening",
+    "part": 4
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 4,
+     "tipo": "picture_mc",
+     "code": "H",
+     "clase": "Flyers-style: listen and tick the right picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 3,
+     "tipo": "match_pictures",
+     "code": "I",
+     "clase": "Flyers-style: listen and match each person to a picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "J",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "13": {
+   "titulo": "Getting around town",
+   "foco": {
+    "paper": "Listening",
+    "part": 1
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 4,
+     "tipo": "picture_mc",
+     "code": "H",
+     "clase": "Flyers-style: listen and tick the right picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 3,
+     "tipo": "match_pictures",
+     "code": "I",
+     "clase": "Flyers-style: listen and match each person to a picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "J",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "14": {
+   "titulo": "Left, right, straight on",
+   "foco": {
+    "paper": "Reading & Writing",
+    "part": 6
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "H",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "15": {
+   "titulo": "Sports we love",
+   "foco": {
+    "paper": "Reading & Writing",
+    "part": 1
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 4,
+     "tipo": "picture_mc",
+     "code": "H",
+     "clase": "Flyers-style: listen and tick the right picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 3,
+     "tipo": "match_pictures",
+     "code": "I",
+     "clase": "Flyers-style: listen and match each person to a picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "J",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "16": {
+   "titulo": "At the sports centre",
+   "foco": {
+    "paper": "Listening",
+    "part": 3
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "H",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "17": {
+   "titulo": "Months and seasons",
+   "foco": {
+    "paper": "Reading & Writing",
+    "part": 6
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "H",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "18": {
+   "titulo": "What time is it?",
+   "foco": {
+    "paper": "Listening",
+    "part": 2
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "H",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "19": {
+   "titulo": "Wild weather",
+   "foco": {
+    "paper": "Listening",
+    "part": 4
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 4,
+     "tipo": "picture_mc",
+     "code": "H",
+     "clase": "Flyers-style: listen and tick the right picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 3,
+     "tipo": "match_pictures",
+     "code": "I",
+     "clase": "Flyers-style: listen and match each person to a picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "J",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "20": {
+   "titulo": "What's it made of?",
+   "foco": {
+    "paper": "Reading & Writing",
+    "part": 1
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 4,
+     "tipo": "picture_mc",
+     "code": "H",
+     "clase": "Flyers-style: listen and tick the right picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "I",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "21": {
+   "titulo": "In the countryside",
+   "foco": {
+    "paper": "Listening",
+    "part": 5
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 4,
+     "tipo": "picture_mc",
+     "code": "H",
+     "clase": "Flyers-style: listen and tick the right picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 3,
+     "tipo": "match_pictures",
+     "code": "I",
+     "clase": "Flyers-style: listen and match each person to a picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "J",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "22": {
+   "titulo": "World rivers",
+   "foco": {
+    "paper": "Reading & Writing",
+    "part": 4
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 4,
+     "tipo": "picture_mc",
+     "code": "H",
+     "clase": "Flyers-style: listen and tick the right picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 3,
+     "tipo": "match_pictures",
+     "code": "I",
+     "clase": "Flyers-style: listen and match each person to a picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "J",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "23": {
+   "titulo": "What a strange planet!",
+   "foco": {
+    "paper": "Reading & Writing",
+    "part": 5
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 4,
+     "tipo": "picture_mc",
+     "code": "H",
+     "clase": "Flyers-style: listen and tick the right picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 3,
+     "tipo": "match_pictures",
+     "code": "I",
+     "clase": "Flyers-style: listen and match each person to a picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "J",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "24": {
+   "titulo": "The monster family's photos",
+   "foco": {
+    "paper": "Listening",
+    "part": 1
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "H",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "25": {
+   "titulo": "About people",
+   "foco": {
+    "paper": "Reading & Writing",
+    "part": 3
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "H",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "26": {
+   "titulo": "Have you ever met a famous person?",
+   "foco": {
+    "paper": "Listening",
+    "part": 4
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "H",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "27": {
+   "titulo": "What has just happened?",
+   "foco": {
+    "paper": "Reading & Writing",
+    "part": 6
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "H",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "28": {
+   "titulo": "They were tired, so…",
+   "foco": {
+    "paper": "Reading & Writing",
+    "part": 5
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "H",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "29": {
+   "titulo": "When do these things happen?",
+   "foco": {
+    "paper": "Listening",
+    "part": 4
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "H",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "30": {
+   "titulo": "We're moving house!",
+   "foco": {
+    "paper": "Listening",
+    "part": 2
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 4,
+     "tipo": "picture_mc",
+     "code": "H",
+     "clase": "Flyers-style: listen and tick the right picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 3,
+     "tipo": "match_pictures",
+     "code": "I",
+     "clase": "Flyers-style: listen and match each person to a picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "J",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "31": {
+   "titulo": "A week in hospital",
+   "foco": {
+    "paper": "Reading & Writing",
+    "part": 4
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 4,
+     "tipo": "picture_mc",
+     "code": "H",
+     "clase": "Flyers-style: listen and tick the right picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 3,
+     "tipo": "match_pictures",
+     "code": "I",
+     "clase": "Flyers-style: listen and match each person to a picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "J",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "32": {
+   "titulo": "Postcards",
+   "foco": {
+    "paper": "Reading & Writing",
+    "part": 4
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 4,
+     "tipo": "picture_mc",
+     "code": "H",
+     "clase": "Flyers-style: listen and tick the right picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 3,
+     "tipo": "match_pictures",
+     "code": "I",
+     "clase": "Flyers-style: listen and match each person to a picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "J",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "33": {
+   "titulo": "How about tennis?",
+   "foco": {
+    "paper": "Reading & Writing",
+    "part": 3
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "H",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "34": {
+   "titulo": "It's too loud!",
+   "foco": {
+    "paper": "Listening",
+    "part": 4
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "H",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "35": {
+   "titulo": "When I'm sad",
+   "foco": {
+    "paper": "Reading & Writing",
+    "part": 1
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 4,
+     "tipo": "picture_mc",
+     "code": "H",
+     "clase": "Flyers-style: listen and tick the right picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "I",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "36": {
+   "titulo": "Do you do it or make it?",
+   "foco": {
+    "paper": "Reading & Writing",
+    "part": 6
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "H",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "37": {
+   "titulo": "Having fun",
+   "foco": {
+    "paper": "Reading & Writing",
+    "part": 1
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "H",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "38": {
+   "titulo": "You're on TV!",
+   "foco": {
+    "paper": "Listening",
+    "part": 3
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 4,
+     "tipo": "picture_mc",
+     "code": "H",
+     "clase": "Flyers-style: listen and tick the right picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "I",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "39": {
+   "titulo": "Famous explorers",
+   "foco": {
+    "paper": "Reading & Writing",
+    "part": 4
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 4,
+     "tipo": "picture_mc",
+     "code": "H",
+     "clase": "Flyers-style: listen and tick the right picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 3,
+     "tipo": "match_pictures",
+     "code": "I",
+     "clase": "Flyers-style: listen and match each person to a picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "J",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "40": {
+   "titulo": "The best day ever",
+   "foco": {
+    "paper": "Listening",
+    "part": 4
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "H",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "41": {
+   "titulo": "Our town: old and new",
+   "foco": {
+    "paper": "Reading & Writing",
+    "part": 6
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "H",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "42": {
+   "titulo": "Who's speaking?",
+   "foco": {
+    "paper": "Listening",
+    "part": 1
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "H",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "43": {
+   "titulo": "Places to stay",
+   "foco": {
+    "paper": "Reading & Writing",
+    "part": 1
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 4,
+     "tipo": "picture_mc",
+     "code": "H",
+     "clase": "Flyers-style: listen and tick the right picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 3,
+     "tipo": "match_pictures",
+     "code": "I",
+     "clase": "Flyers-style: listen and match each person to a picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "J",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "44": {
+   "titulo": "A day at the funfair",
+   "foco": {
+    "paper": "Listening",
+    "part": 2
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "H",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "45": {
+   "titulo": "The treasure map",
+   "foco": {
+    "paper": "Listening",
+    "part": 5
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 4,
+     "tipo": "picture_mc",
+     "code": "H",
+     "clase": "Flyers-style: listen and tick the right picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 3,
+     "tipo": "match_pictures",
+     "code": "I",
+     "clase": "Flyers-style: listen and match each person to a picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "J",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "46": {
+   "titulo": "In the future, I might be…",
+   "foco": {
+    "paper": "Reading & Writing",
+    "part": 3
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 4,
+     "tipo": "picture_mc",
+     "code": "H",
+     "clase": "Flyers-style: listen and tick the right picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 3,
+     "tipo": "match_pictures",
+     "code": "I",
+     "clase": "Flyers-style: listen and match each person to a picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "J",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "47": {
+   "titulo": "If it rains on Saturday…",
+   "foco": {
+    "paper": "Reading & Writing",
+    "part": 6
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "H",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "48": {
+   "titulo": "The person who…",
+   "foco": {
+    "paper": "Reading & Writing",
+    "part": 1
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "H",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "49": {
+   "titulo": "Give me a short answer",
+   "foco": {
+    "paper": "Listening",
+    "part": 4
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "H",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "50": {
+   "titulo": "Quickly and well",
+   "foco": {
+    "paper": "Reading & Writing",
+    "part": 6
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "H",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "51": {
+   "titulo": "All about you",
+   "foco": {
+    "paper": "Speaking",
+    "part": 4
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 4,
+     "tipo": "picture_mc",
+     "code": "H",
+     "clase": "Flyers-style: listen and tick the right picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "I",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "52": {
+   "titulo": "Word games",
+   "foco": {
+    "paper": "Reading & Writing",
+    "part": 1
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "H",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "53": {
+   "titulo": "Exam day: Listening",
+   "foco": {
+    "paper": "Listening",
+    "part": 2
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "H",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "54": {
+   "titulo": "Exam day: Reading & Writing",
+   "foco": {
+    "paper": "Reading & Writing",
+    "part": 7
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "H",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  },
+  "55": {
+   "titulo": "The Aurora graduation",
+   "foco": {
+    "paper": "Review",
+    "part": 0
+   },
+   "visuales": [
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 4,
+     "tipo": "picture_mc",
+     "code": "H",
+     "clase": "Flyers-style: listen and tick the right picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 3,
+     "tipo": "match_pictures",
+     "code": "I",
+     "clase": "Flyers-style: listen and match each person to a picture"
+    },
+    {
+     "paper": "Reading & Writing",
+     "part": 7,
+     "tipo": "picture_story",
+     "code": "J",
+     "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    }
+   ]
+  }
+ }
+}

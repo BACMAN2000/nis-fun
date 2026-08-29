@@ -253,6 +253,176 @@
    ],
    "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
    "data": {}
+  },
+  {
+   "type": "label_people",
+   "title": "Listen and write the names.",
+   "instructions": "Look at the picture. Listen and write the name under each person. Careful: there are three names you do not need.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 4,
+     "nombre": "People & Cultures"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and label the people in the picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u24-g.mp3",
+   "data": {
+    "scene": "facade",
+    "place": "the front of the school",
+    "people": [
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 7,
+      "clue": "the boy in the red shirt with a microphone",
+      "action": "is asking questions with his microphone"
+     },
+     {
+      "slug": "kili",
+      "name": "Kili",
+      "pose": 3,
+      "clue": "the big black bird with a white collar",
+      "action": "is carrying a letter"
+     },
+     {
+      "slug": "grum",
+      "name": "Grum",
+      "pose": 1,
+      "clue": "the big green monster with three eyes and a lot of hair",
+      "action": "is smiling"
+     },
+     {
+      "slug": "zog",
+      "name": "Zog",
+      "pose": 1,
+      "clue": "the purple monster with one eye and two very long arms",
+      "action": "is waving one long arm"
+     },
+     {
+      "slug": "zip",
+      "name": "Zip",
+      "pose": 1,
+      "clue": "the little round orange monster with four eyes",
+      "action": "is jumping"
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Diego",
+     "Grum",
+     "Kili",
+     "Lia",
+     "Maya",
+     "Zip",
+     "Zog"
+    ],
+    "script": "Look at the picture. Listen and write the names. There is one example. … Diego: Who is that in the front of the school? The boy in the red shirt with a microphone. … Maya: That is Diego. Diego is asking questions with his microphone. … Diego: And who is the big black bird with a white collar? … Maya: That is Kili. Look, Kili is carrying a letter. … Diego: And who is the big green monster with three eyes and a lot of hair? … Maya: That is Grum. Look, Grum is smiling. … Diego: And who is the purple monster with one eye and two very long arms? … Maya: That is Zog. Look, Zog is waving one long arm. … Diego: And who is the little round orange monster with four eyes? … Maya: That is Zip. Look, Zip is jumping.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  },
+  {
+   "type": "picture_story",
+   "title": "Look at the three pictures and write the story.",
+   "instructions": "Look at the pictures. Write the story in 20-25 words. Use the words under each picture to help you.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 4,
+     "nombre": "People & Cultures"
+    },
+    "destreza": "Writing",
+    "puede": "Writing Part 3: 20–25-word picture story (Flyers); classroom pieces 100–150w.",
+    "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "amphitheater",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 4
+       }
+      ],
+      "word": "",
+      "hint": "Diego / at the amphitheatre",
+      "model": "One morning Diego is at the amphitheatre."
+     },
+     {
+      "n": 2,
+      "scene": "main-building",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 3
+       },
+       {
+        "slug": "aiko",
+        "pose": 3
+       }
+      ],
+      "word": "",
+      "hint": "Diego / meet / Aiko",
+      "model": "Then Diego meets Aiko in the main building."
+     },
+     {
+      "n": 3,
+      "scene": "facade",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 10
+       },
+       {
+        "slug": "aiko",
+        "pose": 1
+       }
+      ],
+      "word": "",
+      "hint": "at the front of the school / happy",
+      "model": "At the front of the school they are very happy together."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "One morning Diego is at the amphitheatre. Then Diego meets Aiko in the main building. At the front of the school they are very happy together.",
+    "words": [],
+    "support": {
+     "grammar": "has got + adjectives for people",
+     "words": [
+      "curly",
+      "straight",
+      "fair",
+      "dark",
+      "tall",
+      "short"
+     ]
+    }
+   },
+   "code": "H"
   }
  ],
  "homework": [

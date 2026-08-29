@@ -30,10 +30,14 @@ window.SCREENS = (function () {
     cont.querySelector('.scr-body').innerHTML = p.html;
     cont.querySelector('.scr-tit').textContent = p.titulo || '';
 
-    // puntos de posicion: dicen cuantos pasos quedan
+    // Los puntos explican adonde llevan. "Screen 5" no ayudaba a un
+    // alumno (ni a un lector de pantalla) a distinguir la portada, los
+    // cuentos o las unidades.
     cont.querySelector('.scr-dots').innerHTML = pantallas.map((_, k) =>
       `<button class="scr-dot${k === i ? ' on' : ''}" data-k="${k}"
-         aria-label="Screen ${k + 1}"${k === i ? ' aria-current="true"' : ''}></button>`
+         aria-label="Screen ${k + 1}: ${String(pantallas[k].titulo || 'Course content').replace(/"/g, '&quot;')}"
+         title="${String(pantallas[k].titulo || 'Course content').replace(/"/g, '&quot;')}"
+         ${k === i ? ' aria-current="step"' : ''}></button>`
     ).join('');
 
     const prev = cont.querySelector('.scr-prev');

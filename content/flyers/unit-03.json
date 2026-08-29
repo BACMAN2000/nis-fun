@@ -352,6 +352,176 @@
      ]
     ]
    }
+  },
+  {
+   "type": "label_people",
+   "title": "Listen and write the names.",
+   "instructions": "Look at the picture. Listen and write the name under each person. Careful: there are three names you do not need.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 6,
+     "nombre": "Adventures & Experiences"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and label the people in the picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u03-h.mp3",
+   "data": {
+    "scene": "labyrinth",
+    "place": "the maze",
+    "people": [
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "pose": 7,
+      "clue": "the boy with red hair and a yellow shirt",
+      "action": "is singing"
+     },
+     {
+      "slug": "kili",
+      "name": "Kili",
+      "pose": 3,
+      "clue": "the big black bird with a white collar",
+      "action": "is carrying a letter"
+     },
+     {
+      "slug": "samu",
+      "name": "Samu",
+      "pose": 7,
+      "clue": "the boy with short fair hair and a rucksack",
+      "action": "is waving"
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 7,
+      "clue": "the boy in the red shirt with a microphone",
+      "action": "is asking questions with his microphone"
+     },
+     {
+      "slug": "tino",
+      "name": "Tino",
+      "pose": 7,
+      "clue": "the boy with very short hair and a white and green shirt",
+      "action": "is playing hockey"
+     }
+    ],
+    "names": [
+     "Diego",
+     "Ingrid",
+     "Iris",
+     "Kili",
+     "Maya",
+     "Oliver",
+     "Samu",
+     "Tino"
+    ],
+    "script": "Look at the picture. Listen and write the names. There is one example. … Diego: Who is that in the maze? The boy with red hair and a yellow shirt. … Maya: That is Oliver. Oliver is singing. … Diego: And who is the big black bird with a white collar? … Maya: That is Kili. Look, Kili is carrying a letter. … Diego: And who is the boy with short fair hair and a rucksack? … Maya: That is Samu. Look, Samu is waving. … Diego: And who is the boy in the red shirt with a microphone? … Maya: That is Diego. Look, Diego is asking questions with his microphone. … Diego: And who is the boy with very short hair and a white and green shirt? … Maya: That is Tino. Look, Tino is playing hockey.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "H"
+  },
+  {
+   "type": "picture_story",
+   "title": "Look at the three pictures and write the story.",
+   "instructions": "Look at the pictures. Write the story in 20-25 words. Use the words under each picture to help you.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 6,
+     "nombre": "Adventures & Experiences"
+    },
+    "destreza": "Writing",
+    "puede": "Writing Part 3: 20–25-word picture story (Flyers); classroom pieces 100–150w.",
+    "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "mirador",
+      "people": [
+       {
+        "slug": "oliver",
+        "pose": 4
+       }
+      ],
+      "word": "",
+      "hint": "Oliver / at the viewpoint",
+      "model": "One morning Oliver is at the viewpoint."
+     },
+     {
+      "n": 2,
+      "scene": "labyrinth",
+      "people": [
+       {
+        "slug": "oliver",
+        "pose": 3
+       },
+       {
+        "slug": "diego",
+        "pose": 3
+       }
+      ],
+      "word": "",
+      "hint": "Oliver / meet / Diego",
+      "model": "Then Oliver meets Diego at the maze."
+     },
+     {
+      "n": 3,
+      "scene": "lighthouse-kitchen",
+      "people": [
+       {
+        "slug": "oliver",
+        "pose": 10
+       },
+       {
+        "slug": "diego",
+        "pose": 10
+       }
+      ],
+      "word": "",
+      "hint": "in the lighthouse kitchen / happy",
+      "model": "In the lighthouse kitchen they are very happy together."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "One morning Oliver is at the viewpoint. Then Oliver meets Diego at the maze. In the lighthouse kitchen they are very happy together.",
+    "words": [],
+    "support": {
+     "grammar": "present perfect: just / already / yet",
+     "words": [
+      "forget",
+      "forgotten",
+      "leave",
+      "left",
+      "lose",
+      "lost"
+     ]
+    }
+   },
+   "code": "I"
   }
  ],
  "homework": [
