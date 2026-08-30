@@ -423,6 +423,179 @@
     }
    },
    "code": "H"
+  },
+  {
+   "type": "picture_mc",
+   "title": "Listen and tick the box.",
+   "instructions": "Listen to each question and click the picture that answers it.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 6,
+     "nombre": "Adventures & Experiences"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and tick the right picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u34-i.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "How many balls has Oliver got?",
+      "answer": "2",
+      "options": [
+       {
+        "k": "count",
+        "word": "ball",
+        "n": 5,
+        "v": "5",
+        "pie": "5"
+       },
+       {
+        "k": "count",
+        "word": "ball",
+        "n": 2,
+        "v": "2",
+        "pie": "2"
+       },
+       {
+        "k": "count",
+        "word": "ball",
+        "n": 3,
+        "v": "3",
+        "pie": "3"
+       }
+      ],
+      "script": "How many balls has Oliver got? … Oliver: I have got two balls."
+     },
+     {
+      "q": "How many bats has Maya got?",
+      "answer": "5",
+      "options": [
+       {
+        "k": "count",
+        "word": "bat",
+        "n": 2,
+        "v": "2",
+        "pie": "2"
+       },
+       {
+        "k": "count",
+        "word": "bat",
+        "n": 5,
+        "v": "5",
+        "pie": "5"
+       },
+       {
+        "k": "count",
+        "word": "bat",
+        "n": 1,
+        "v": "1",
+        "pie": "1"
+       }
+      ],
+      "script": "How many bats has Maya got? … Maya: I have got five bats."
+     },
+     {
+      "q": "How many books has Ingrid got?",
+      "answer": "2",
+      "options": [
+       {
+        "k": "count",
+        "word": "book",
+        "n": 4,
+        "v": "4",
+        "pie": "4"
+       },
+       {
+        "k": "count",
+        "word": "book",
+        "n": 5,
+        "v": "5",
+        "pie": "5"
+       },
+       {
+        "k": "count",
+        "word": "book",
+        "n": 2,
+        "v": "2",
+        "pie": "2"
+       }
+      ],
+      "script": "How many books has Ingrid got? … Ingrid: I have got two books."
+     },
+     {
+      "q": "How many sunhats has Tino got?",
+      "answer": "5",
+      "options": [
+       {
+        "k": "count",
+        "word": "sunhat",
+        "n": 1,
+        "v": "1",
+        "pie": "1"
+       },
+       {
+        "k": "count",
+        "word": "sunhat",
+        "n": 4,
+        "v": "4",
+        "pie": "4"
+       },
+       {
+        "k": "count",
+        "word": "sunhat",
+        "n": 5,
+        "v": "5",
+        "pie": "5"
+       }
+      ],
+      "script": "How many sunhats has Tino got? … Tino: I have got five sunhats."
+     },
+     {
+      "q": "How many rulers has Diego got?",
+      "answer": "5",
+      "options": [
+       {
+        "k": "count",
+        "word": "ruler",
+        "n": 5,
+        "v": "5",
+        "pie": "5"
+       },
+       {
+        "k": "count",
+        "word": "ruler",
+        "n": 3,
+        "v": "3",
+        "pie": "3"
+       },
+       {
+        "k": "count",
+        "word": "ruler",
+        "n": 4,
+        "v": "4",
+        "pie": "4"
+       }
+      ],
+      "script": "How many rulers has Diego got? … Diego: I have got five rulers."
+     }
+    ],
+    "modo": "count",
+    "script": "Listen and tick the box. There is one example. … How many balls has Oliver got? … Oliver: I have got two balls. … How many bats has Maya got? … Maya: I have got five bats. … How many books has Ingrid got? … Ingrid: I have got two books. … How many sunhats has Tino got? … Tino: I have got five sunhats. … How many rulers has Diego got? … Diego: I have got five rulers.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "I"
   }
  ],
  "homework": [

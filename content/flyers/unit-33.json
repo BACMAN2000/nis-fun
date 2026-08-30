@@ -423,6 +423,254 @@
     }
    },
    "code": "H"
+  },
+  {
+   "type": "picture_mc",
+   "title": "Listen and tick the box.",
+   "instructions": "Listen to each question and click the picture that answers it.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Health & Wellbeing"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and tick the right picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u33-i.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "What was Ingrid doing?",
+      "answer": "pointing",
+      "options": [
+       {
+        "k": "pose",
+        "slug": "ingrid",
+        "pose": 1,
+        "v": "waving",
+        "pie": "waving"
+       },
+       {
+        "k": "pose",
+        "slug": "ingrid",
+        "pose": 2,
+        "v": "pointing",
+        "pie": "pointing"
+       },
+       {
+        "k": "pose",
+        "slug": "ingrid",
+        "pose": 3,
+        "v": "talking",
+        "pie": "talking"
+       }
+      ],
+      "script": "What was Ingrid doing? … Ingrid: I was pointing."
+     },
+     {
+      "q": "What was Diego doing?",
+      "answer": "looking surprised",
+      "options": [
+       {
+        "k": "pose",
+        "slug": "diego",
+        "pose": 2,
+        "v": "pointing",
+        "pie": "pointing"
+       },
+       {
+        "k": "pose",
+        "slug": "diego",
+        "pose": 8,
+        "v": "holding something",
+        "pie": "holding something"
+       },
+       {
+        "k": "pose",
+        "slug": "diego",
+        "pose": 5,
+        "v": "looking surprised",
+        "pie": "looking surprised"
+       }
+      ],
+      "script": "What was Diego doing? … Diego: I was looking surprised."
+     },
+     {
+      "q": "What was Maya doing?",
+      "answer": "talking",
+      "options": [
+       {
+        "k": "pose",
+        "slug": "maya",
+        "pose": 6,
+        "v": "sitting down",
+        "pie": "sitting down"
+       },
+       {
+        "k": "pose",
+        "slug": "maya",
+        "pose": 3,
+        "v": "talking",
+        "pie": "talking"
+       },
+       {
+        "k": "pose",
+        "slug": "maya",
+        "pose": 1,
+        "v": "waving",
+        "pie": "waving"
+       }
+      ],
+      "script": "What was Maya doing? … Maya: I was talking."
+     }
+    ],
+    "modo": "pose",
+    "script": "Listen and tick the box. There is one example. … What was Ingrid doing? … Ingrid: I was pointing. … What was Diego doing? … Diego: I was looking surprised. … What was Maya doing? … Maya: I was talking.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "I"
+  },
+  {
+   "type": "match_pictures",
+   "title": "Listen and match each person to what they were doing.",
+   "instructions": "Listen. Then choose the letter of the picture for each person. Careful: some pictures are extra.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Health & Wellbeing"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and match each person to a picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 3
+    }
+   },
+   "audio": "flyers/u33-j.mp3",
+   "data": {
+    "people": [
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "pose": 3
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 3
+     },
+     {
+      "slug": "aiko",
+      "name": "Aiko",
+      "pose": 3
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "pose": 3
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "pose": 3
+     }
+    ],
+    "pictures": [
+     {
+      "k": "pose",
+      "slug": "ingrid",
+      "pose": 8,
+      "v": "holding something",
+      "pie": "holding something",
+      "id": "A"
+     },
+     {
+      "k": "pose",
+      "slug": "ingrid",
+      "pose": 4,
+      "v": "thinking",
+      "pie": "thinking",
+      "id": "B"
+     },
+     {
+      "k": "pose",
+      "slug": "ingrid",
+      "pose": 7,
+      "v": "running",
+      "pie": "running",
+      "id": "C"
+     },
+     {
+      "k": "pose",
+      "slug": "ingrid",
+      "pose": 1,
+      "v": "waving",
+      "pie": "waving",
+      "id": "D"
+     },
+     {
+      "k": "pose",
+      "slug": "ingrid",
+      "pose": 10,
+      "v": "celebrating",
+      "pie": "celebrating",
+      "id": "E"
+     },
+     {
+      "k": "pose",
+      "slug": "ingrid",
+      "pose": 6,
+      "v": "sitting down",
+      "pie": "sitting down",
+      "id": "F"
+     },
+     {
+      "k": "pose",
+      "slug": "ingrid",
+      "pose": 3,
+      "v": "talking",
+      "pie": "talking",
+      "id": "G"
+     },
+     {
+      "k": "pose",
+      "slug": "ingrid",
+      "pose": 2,
+      "v": "pointing",
+      "pie": "pointing",
+      "id": "H"
+     }
+    ],
+    "answers": {
+     "Ingrid": "C",
+     "Diego": "E",
+     "Aiko": "G",
+     "Lia": "F",
+     "Bruno": "D"
+    },
+    "modo": "pose",
+    "script": "Listen and match each person to what they were doing. There is one example. … Diego: Ingrid? … Ingrid: I was running. … Diego: Diego? … Diego: I was celebrating. … Diego: Aiko? … Aiko: I was talking. … Diego: Lia? … Lia: I was sitting down. … Diego: Bruno? … Bruno: I was waving.",
+    "voice_note": "Diego pregunta; cada uno responde."
+   },
+   "code": "J"
   }
  ],
  "homework": [

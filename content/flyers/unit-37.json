@@ -400,6 +400,282 @@
     }
    },
    "code": "H"
+  },
+  {
+   "type": "picture_mc",
+   "title": "Listen and tick the box.",
+   "instructions": "Listen to each question and click the picture that answers it.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "The Natural World"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and tick the right picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u37-i.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "What does Diego enjoy doing?",
+      "answer": "talking",
+      "options": [
+       {
+        "k": "pose",
+        "slug": "diego",
+        "pose": 3,
+        "v": "talking",
+        "pie": "talking"
+       },
+       {
+        "k": "pose",
+        "slug": "diego",
+        "pose": 7,
+        "v": "running",
+        "pie": "running"
+       },
+       {
+        "k": "pose",
+        "slug": "diego",
+        "pose": 6,
+        "v": "sitting down",
+        "pie": "sitting down"
+       }
+      ],
+      "script": "What does Diego enjoy doing? … Diego: I really enjoy talking."
+     },
+     {
+      "q": "What does Oliver enjoy doing?",
+      "answer": "celebrating",
+      "options": [
+       {
+        "k": "pose",
+        "slug": "oliver",
+        "pose": 4,
+        "v": "thinking",
+        "pie": "thinking"
+       },
+       {
+        "k": "pose",
+        "slug": "oliver",
+        "pose": 7,
+        "v": "running",
+        "pie": "running"
+       },
+       {
+        "k": "pose",
+        "slug": "oliver",
+        "pose": 10,
+        "v": "celebrating",
+        "pie": "celebrating"
+       }
+      ],
+      "script": "What does Oliver enjoy doing? … Oliver: I really enjoy celebrating."
+     },
+     {
+      "q": "What does Bruno enjoy doing?",
+      "answer": "running",
+      "options": [
+       {
+        "k": "pose",
+        "slug": "bruno",
+        "pose": 3,
+        "v": "talking",
+        "pie": "talking"
+       },
+       {
+        "k": "pose",
+        "slug": "bruno",
+        "pose": 7,
+        "v": "running",
+        "pie": "running"
+       },
+       {
+        "k": "pose",
+        "slug": "bruno",
+        "pose": 6,
+        "v": "sitting down",
+        "pie": "sitting down"
+       }
+      ],
+      "script": "What does Bruno enjoy doing? … Bruno: I really enjoy running."
+     },
+     {
+      "q": "What does Ingrid enjoy doing?",
+      "answer": "celebrating",
+      "options": [
+       {
+        "k": "pose",
+        "slug": "ingrid",
+        "pose": 4,
+        "v": "thinking",
+        "pie": "thinking"
+       },
+       {
+        "k": "pose",
+        "slug": "ingrid",
+        "pose": 3,
+        "v": "talking",
+        "pie": "talking"
+       },
+       {
+        "k": "pose",
+        "slug": "ingrid",
+        "pose": 10,
+        "v": "celebrating",
+        "pie": "celebrating"
+       }
+      ],
+      "script": "What does Ingrid enjoy doing? … Ingrid: I really enjoy celebrating."
+     }
+    ],
+    "modo": "pose",
+    "script": "Listen and tick the box. There is one example. … What does Diego enjoy doing? … Diego: I really enjoy talking. … What does Oliver enjoy doing? … Oliver: I really enjoy celebrating. … What does Bruno enjoy doing? … Bruno: I really enjoy running. … What does Ingrid enjoy doing? … Ingrid: I really enjoy celebrating.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "I"
+  },
+  {
+   "type": "match_pictures",
+   "title": "Listen and match each person to what they were doing.",
+   "instructions": "Listen. Then choose the letter of the picture for each person. Careful: some pictures are extra.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "The Natural World"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and match each person to a picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 3
+    }
+   },
+   "audio": "flyers/u37-j.mp3",
+   "data": {
+    "people": [
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 3
+     },
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "pose": 3
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "pose": 3
+     },
+     {
+      "slug": "aiko",
+      "name": "Aiko",
+      "pose": 3
+     },
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 3
+     }
+    ],
+    "pictures": [
+     {
+      "k": "pose",
+      "slug": "diego",
+      "pose": 3,
+      "v": "talking",
+      "pie": "talking",
+      "id": "A"
+     },
+     {
+      "k": "pose",
+      "slug": "diego",
+      "pose": 4,
+      "v": "thinking",
+      "pie": "thinking",
+      "id": "B"
+     },
+     {
+      "k": "pose",
+      "slug": "diego",
+      "pose": 10,
+      "v": "celebrating",
+      "pie": "celebrating",
+      "id": "C"
+     },
+     {
+      "k": "pose",
+      "slug": "diego",
+      "pose": 2,
+      "v": "pointing",
+      "pie": "pointing",
+      "id": "D"
+     },
+     {
+      "k": "pose",
+      "slug": "diego",
+      "pose": 7,
+      "v": "running",
+      "pie": "running",
+      "id": "E"
+     },
+     {
+      "k": "pose",
+      "slug": "diego",
+      "pose": 6,
+      "v": "sitting down",
+      "pie": "sitting down",
+      "id": "F"
+     },
+     {
+      "k": "pose",
+      "slug": "diego",
+      "pose": 1,
+      "v": "waving",
+      "pie": "waving",
+      "id": "G"
+     },
+     {
+      "k": "pose",
+      "slug": "diego",
+      "pose": 8,
+      "v": "holding something",
+      "pie": "holding something",
+      "id": "H"
+     }
+    ],
+    "answers": {
+     "Diego": "A",
+     "Oliver": "D",
+     "Lia": "C",
+     "Aiko": "H",
+     "Maya": "F"
+    },
+    "modo": "pose",
+    "script": "Listen and match each person to what they were doing. There is one example. … Diego: Diego? … Diego: I was talking. … Diego: Oliver? … Oliver: I was pointing. … Diego: Lia? … Lia: I was celebrating. … Diego: Aiko? … Aiko: I was holding something. … Diego: Maya? … Maya: I was sitting down.",
+    "voice_note": "Diego pregunta; cada uno responde."
+   },
+   "code": "J"
   }
  ],
  "homework": [

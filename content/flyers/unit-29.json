@@ -423,6 +423,164 @@
     }
    },
    "code": "H"
+  },
+  {
+   "type": "picture_mc",
+   "title": "Listen and tick the box.",
+   "instructions": "Listen to each question and click the picture that answers it.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 2,
+     "nombre": "Everyday Life & Habits"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and tick the right picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u29-i.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "How often does Ingrid go to the picnic garden?",
+      "answer": "every day",
+      "options": [
+       {
+        "k": "freq",
+        "dias": 1,
+        "v": "once a week",
+        "pie": "once a week"
+       },
+       {
+        "k": "freq",
+        "dias": 2,
+        "v": "twice a week",
+        "pie": "twice a week"
+       },
+       {
+        "k": "freq",
+        "dias": 7,
+        "v": "every day",
+        "pie": "every day"
+       }
+      ],
+      "script": "How often does Ingrid go to the picnic garden? … Ingrid: I go to the picnic garden every day."
+     },
+     {
+      "q": "How often does Lia go to the main building?",
+      "answer": "once a week",
+      "options": [
+       {
+        "k": "freq",
+        "dias": 2,
+        "v": "twice a week",
+        "pie": "twice a week"
+       },
+       {
+        "k": "freq",
+        "dias": 1,
+        "v": "once a week",
+        "pie": "once a week"
+       },
+       {
+        "k": "freq",
+        "dias": 0,
+        "v": "never",
+        "pie": "never"
+       }
+      ],
+      "script": "How often does Lia go to the main building? … Lia: I go to the main building once a week."
+     },
+     {
+      "q": "How often does Bruno go to the chess square?",
+      "answer": "once a week",
+      "options": [
+       {
+        "k": "freq",
+        "dias": 5,
+        "v": "usually",
+        "pie": "usually"
+       },
+       {
+        "k": "freq",
+        "dias": 0,
+        "v": "never",
+        "pie": "never"
+       },
+       {
+        "k": "freq",
+        "dias": 1,
+        "v": "once a week",
+        "pie": "once a week"
+       }
+      ],
+      "script": "How often does Bruno go to the chess square? … Bruno: I go to the chess square once a week."
+     },
+     {
+      "q": "How often does Samu go to the classroom?",
+      "answer": "usually",
+      "options": [
+       {
+        "k": "freq",
+        "dias": 2,
+        "v": "twice a week",
+        "pie": "twice a week"
+       },
+       {
+        "k": "freq",
+        "dias": 7,
+        "v": "every day",
+        "pie": "every day"
+       },
+       {
+        "k": "freq",
+        "dias": 5,
+        "v": "usually",
+        "pie": "usually"
+       }
+      ],
+      "script": "How often does Samu go to the classroom? … Samu: I go to the classroom usually."
+     },
+     {
+      "q": "How often does Tino go to the picnic garden?",
+      "answer": "usually",
+      "options": [
+       {
+        "k": "freq",
+        "dias": 5,
+        "v": "usually",
+        "pie": "usually"
+       },
+       {
+        "k": "freq",
+        "dias": 0,
+        "v": "never",
+        "pie": "never"
+       },
+       {
+        "k": "freq",
+        "dias": 1,
+        "v": "once a week",
+        "pie": "once a week"
+       }
+      ],
+      "script": "How often does Tino go to the picnic garden? … Tino: I go to the picnic garden usually."
+     }
+    ],
+    "modo": "freq",
+    "script": "Listen and tick the box. There is one example. … How often does Ingrid go to the picnic garden? … Ingrid: I go to the picnic garden every day. … How often does Lia go to the main building? … Lia: I go to the main building once a week. … How often does Bruno go to the chess square? … Bruno: I go to the chess square once a week. … How often does Samu go to the classroom? … Samu: I go to the classroom usually. … How often does Tino go to the picnic garden? … Tino: I go to the picnic garden usually.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "I"
   }
  ],
  "homework": [

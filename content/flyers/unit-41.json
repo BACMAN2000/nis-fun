@@ -423,6 +423,179 @@
     }
    },
    "code": "H"
+  },
+  {
+   "type": "picture_mc",
+   "title": "Listen and tick the box.",
+   "instructions": "Listen to each question and click the picture that answers it.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 6,
+     "nombre": "Adventures & Experiences"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and tick the right picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u41-i.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "How many bags has Diego got?",
+      "answer": "1",
+      "options": [
+       {
+        "k": "count",
+        "word": "bag",
+        "n": 2,
+        "v": "2",
+        "pie": "2"
+       },
+       {
+        "k": "count",
+        "word": "bag",
+        "n": 1,
+        "v": "1",
+        "pie": "1"
+       },
+       {
+        "k": "count",
+        "word": "bag",
+        "n": 3,
+        "v": "3",
+        "pie": "3"
+       }
+      ],
+      "script": "How many bags has Diego got? … Diego: I have got one bag."
+     },
+     {
+      "q": "How many balls has Maya got?",
+      "answer": "1",
+      "options": [
+       {
+        "k": "count",
+        "word": "ball",
+        "n": 5,
+        "v": "5",
+        "pie": "5"
+       },
+       {
+        "k": "count",
+        "word": "ball",
+        "n": 1,
+        "v": "1",
+        "pie": "1"
+       },
+       {
+        "k": "count",
+        "word": "ball",
+        "n": 3,
+        "v": "3",
+        "pie": "3"
+       }
+      ],
+      "script": "How many balls has Maya got? … Maya: I have got one ball."
+     },
+     {
+      "q": "How many umbrellas has Bruno got?",
+      "answer": "2",
+      "options": [
+       {
+        "k": "count",
+        "word": "umbrella",
+        "n": 2,
+        "v": "2",
+        "pie": "2"
+       },
+       {
+        "k": "count",
+        "word": "umbrella",
+        "n": 5,
+        "v": "5",
+        "pie": "5"
+       },
+       {
+        "k": "count",
+        "word": "umbrella",
+        "n": 4,
+        "v": "4",
+        "pie": "4"
+       }
+      ],
+      "script": "How many umbrellas has Bruno got? … Bruno: I have got two umbrellas."
+     },
+     {
+      "q": "How many uniforms has Aiko got?",
+      "answer": "2",
+      "options": [
+       {
+        "k": "count",
+        "word": "uniform",
+        "n": 2,
+        "v": "2",
+        "pie": "2"
+       },
+       {
+        "k": "count",
+        "word": "uniform",
+        "n": 5,
+        "v": "5",
+        "pie": "5"
+       },
+       {
+        "k": "count",
+        "word": "uniform",
+        "n": 3,
+        "v": "3",
+        "pie": "3"
+       }
+      ],
+      "script": "How many uniforms has Aiko got? … Aiko: I have got two uniforms."
+     },
+     {
+      "q": "How many cameras has Lia got?",
+      "answer": "4",
+      "options": [
+       {
+        "k": "count",
+        "word": "camera",
+        "n": 2,
+        "v": "2",
+        "pie": "2"
+       },
+       {
+        "k": "count",
+        "word": "camera",
+        "n": 1,
+        "v": "1",
+        "pie": "1"
+       },
+       {
+        "k": "count",
+        "word": "camera",
+        "n": 4,
+        "v": "4",
+        "pie": "4"
+       }
+      ],
+      "script": "How many cameras has Lia got? … Lia: I have got four cameras."
+     }
+    ],
+    "modo": "count",
+    "script": "Listen and tick the box. There is one example. … How many bags has Diego got? … Diego: I have got one bag. … How many balls has Maya got? … Maya: I have got one ball. … How many umbrellas has Bruno got? … Bruno: I have got two umbrellas. … How many uniforms has Aiko got? … Aiko: I have got two uniforms. … How many cameras has Lia got? … Lia: I have got four cameras.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "I"
   }
  ],
  "homework": [

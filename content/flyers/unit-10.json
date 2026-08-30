@@ -421,6 +421,194 @@
     }
    },
    "code": "H"
+  },
+  {
+   "type": "picture_mc",
+   "title": "Listen and tick the box.",
+   "instructions": "Listen to each question and click the picture that answers it.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Health & Wellbeing"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and tick the right picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u10-i.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "Whose teddy is it?",
+      "answer": "Diego",
+      "options": [
+       {
+        "k": "owner",
+        "slug": "maya",
+        "word": "teddy",
+        "pose": 8,
+        "v": "Maya",
+        "pie": "Maya"
+       },
+       {
+        "k": "owner",
+        "slug": "diego",
+        "word": "teddy",
+        "pose": 8,
+        "v": "Diego",
+        "pie": "Diego"
+       },
+       {
+        "k": "owner",
+        "slug": "aiko",
+        "word": "teddy",
+        "pose": 3,
+        "v": "Aiko",
+        "pie": "Aiko"
+       }
+      ],
+      "script": "Whose teddy is it? … It is Diego's teddy. Diego always brings it."
+     },
+     {
+      "q": "Whose uniform is it?",
+      "answer": "Lia",
+      "options": [
+       {
+        "k": "owner",
+        "slug": "lia",
+        "word": "uniform",
+        "pose": 3,
+        "v": "Lia",
+        "pie": "Lia"
+       },
+       {
+        "k": "owner",
+        "slug": "maya",
+        "word": "uniform",
+        "pose": 8,
+        "v": "Maya",
+        "pie": "Maya"
+       },
+       {
+        "k": "owner",
+        "slug": "oliver",
+        "word": "uniform",
+        "pose": 8,
+        "v": "Oliver",
+        "pie": "Oliver"
+       }
+      ],
+      "script": "Whose uniform is it? … It is Lia's uniform. Lia always brings it."
+     },
+     {
+      "q": "Whose ruler is it?",
+      "answer": "Ingrid",
+      "options": [
+       {
+        "k": "owner",
+        "slug": "iris",
+        "word": "ruler",
+        "pose": 3,
+        "v": "Iris",
+        "pie": "Iris"
+       },
+       {
+        "k": "owner",
+        "slug": "oliver",
+        "word": "ruler",
+        "pose": 8,
+        "v": "Oliver",
+        "pie": "Oliver"
+       },
+       {
+        "k": "owner",
+        "slug": "ingrid",
+        "word": "ruler",
+        "pose": 8,
+        "v": "Ingrid",
+        "pie": "Ingrid"
+       }
+      ],
+      "script": "Whose ruler is it? … It is Ingrid's ruler. Ingrid always brings it."
+     },
+     {
+      "q": "Whose belt is it?",
+      "answer": "Aiko",
+      "options": [
+       {
+        "k": "owner",
+        "slug": "diego",
+        "word": "belt",
+        "pose": 8,
+        "v": "Diego",
+        "pie": "Diego"
+       },
+       {
+        "k": "owner",
+        "slug": "aiko",
+        "word": "belt",
+        "pose": 3,
+        "v": "Aiko",
+        "pie": "Aiko"
+       },
+       {
+        "k": "owner",
+        "slug": "lia",
+        "word": "belt",
+        "pose": 3,
+        "v": "Lia",
+        "pie": "Lia"
+       }
+      ],
+      "script": "Whose belt is it? … It is Aiko's belt. Aiko always brings it."
+     },
+     {
+      "q": "Whose kite is it?",
+      "answer": "Oliver",
+      "options": [
+       {
+        "k": "owner",
+        "slug": "ingrid",
+        "word": "kite",
+        "pose": 8,
+        "v": "Ingrid",
+        "pie": "Ingrid"
+       },
+       {
+        "k": "owner",
+        "slug": "oliver",
+        "word": "kite",
+        "pose": 8,
+        "v": "Oliver",
+        "pie": "Oliver"
+       },
+       {
+        "k": "owner",
+        "slug": "lia",
+        "word": "kite",
+        "pose": 3,
+        "v": "Lia",
+        "pie": "Lia"
+       }
+      ],
+      "script": "Whose kite is it? … It is Oliver's kite. Oliver always brings it."
+     }
+    ],
+    "modo": "owner",
+    "script": "Listen and tick the box. There is one example. … Whose teddy is it? … It is Diego's teddy. Diego always brings it. … Whose uniform is it? … It is Lia's uniform. Lia always brings it. … Whose ruler is it? … It is Ingrid's ruler. Ingrid always brings it. … Whose belt is it? … It is Aiko's belt. Aiko always brings it. … Whose kite is it? … It is Oliver's kite. Oliver always brings it.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "I"
   }
  ],
  "homework": [

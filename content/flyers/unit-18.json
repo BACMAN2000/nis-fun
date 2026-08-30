@@ -423,6 +423,310 @@
     }
    },
    "code": "H"
+  },
+  {
+   "type": "picture_mc",
+   "title": "Listen and tick the box.",
+   "instructions": "Listen to each question and click the picture that answers it.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 2,
+     "nombre": "Everyday Life & Habits"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and tick the right picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u18-i.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "What time does Ingrid's class start?",
+      "answer": "seven o'clock",
+      "options": [
+       {
+        "k": "clock",
+        "h": 8,
+        "m": 15,
+        "v": "quarter past eight",
+        "pie": "quarter past eight"
+       },
+       {
+        "k": "clock",
+        "h": 7,
+        "m": 0,
+        "v": "seven o'clock",
+        "pie": "seven o'clock"
+       },
+       {
+        "k": "clock",
+        "h": 11,
+        "m": 15,
+        "v": "quarter past eleven",
+        "pie": "quarter past eleven"
+       }
+      ],
+      "script": "What time does Ingrid's class start? … Ingrid: My class starts at seven o'clock."
+     },
+     {
+      "q": "What time does Diego's class start?",
+      "answer": "quarter to five",
+      "options": [
+       {
+        "k": "clock",
+        "h": 10,
+        "m": 30,
+        "v": "half past ten",
+        "pie": "half past ten"
+       },
+       {
+        "k": "clock",
+        "h": 4,
+        "m": 45,
+        "v": "quarter to five",
+        "pie": "quarter to five"
+       },
+       {
+        "k": "clock",
+        "h": 11,
+        "m": 15,
+        "v": "quarter past eleven",
+        "pie": "quarter past eleven"
+       }
+      ],
+      "script": "What time does Diego's class start? … Diego: My class starts at quarter to five."
+     },
+     {
+      "q": "What time does Aiko's class start?",
+      "answer": "half past six",
+      "options": [
+       {
+        "k": "clock",
+        "h": 10,
+        "m": 30,
+        "v": "half past ten",
+        "pie": "half past ten"
+       },
+       {
+        "k": "clock",
+        "h": 4,
+        "m": 45,
+        "v": "quarter to five",
+        "pie": "quarter to five"
+       },
+       {
+        "k": "clock",
+        "h": 6,
+        "m": 30,
+        "v": "half past six",
+        "pie": "half past six"
+       }
+      ],
+      "script": "What time does Aiko's class start? … Aiko: My class starts at half past six."
+     },
+     {
+      "q": "What time does Maya's class start?",
+      "answer": "half past six",
+      "options": [
+       {
+        "k": "clock",
+        "h": 10,
+        "m": 30,
+        "v": "half past ten",
+        "pie": "half past ten"
+       },
+       {
+        "k": "clock",
+        "h": 11,
+        "m": 15,
+        "v": "quarter past eleven",
+        "pie": "quarter past eleven"
+       },
+       {
+        "k": "clock",
+        "h": 6,
+        "m": 30,
+        "v": "half past six",
+        "pie": "half past six"
+       }
+      ],
+      "script": "What time does Maya's class start? … Maya: My class starts at half past six."
+     },
+     {
+      "q": "What time does Bruno's class start?",
+      "answer": "twelve o'clock",
+      "options": [
+       {
+        "k": "clock",
+        "h": 10,
+        "m": 30,
+        "v": "half past ten",
+        "pie": "half past ten"
+       },
+       {
+        "k": "clock",
+        "h": 12,
+        "m": 0,
+        "v": "twelve o'clock",
+        "pie": "twelve o'clock"
+       },
+       {
+        "k": "clock",
+        "h": 8,
+        "m": 15,
+        "v": "quarter past eight",
+        "pie": "quarter past eight"
+       }
+      ],
+      "script": "What time does Bruno's class start? … Bruno: My class starts at twelve o'clock."
+     }
+    ],
+    "modo": "clock",
+    "script": "Listen and tick the box. There is one example. … What time does Ingrid's class start? … Ingrid: My class starts at seven o'clock. … What time does Diego's class start? … Diego: My class starts at quarter to five. … What time does Aiko's class start? … Aiko: My class starts at half past six. … What time does Maya's class start? … Maya: My class starts at half past six. … What time does Bruno's class start? … Bruno: My class starts at twelve o'clock.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "I"
+  },
+  {
+   "type": "match_pictures",
+   "title": "Listen and match each person to a time.",
+   "instructions": "Listen. Then choose the letter of the picture for each person. Careful: some pictures are extra.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 2,
+     "nombre": "Everyday Life & Habits"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and match each person to a picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 3
+    }
+   },
+   "audio": "flyers/u18-j.mp3",
+   "data": {
+    "people": [
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "pose": 3
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 3
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "pose": 3
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "pose": 3
+     },
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 3
+     }
+    ],
+    "pictures": [
+     {
+      "k": "clock",
+      "h": 8,
+      "m": 15,
+      "v": "quarter past eight",
+      "pie": "quarter past eight",
+      "id": "A"
+     },
+     {
+      "k": "clock",
+      "h": 9,
+      "m": 0,
+      "v": "nine o'clock",
+      "pie": "nine o'clock",
+      "id": "B"
+     },
+     {
+      "k": "clock",
+      "h": 7,
+      "m": 0,
+      "v": "seven o'clock",
+      "pie": "seven o'clock",
+      "id": "C"
+     },
+     {
+      "k": "clock",
+      "h": 10,
+      "m": 30,
+      "v": "half past ten",
+      "pie": "half past ten",
+      "id": "D"
+     },
+     {
+      "k": "clock",
+      "h": 12,
+      "m": 0,
+      "v": "twelve o'clock",
+      "pie": "twelve o'clock",
+      "id": "E"
+     },
+     {
+      "k": "clock",
+      "h": 4,
+      "m": 45,
+      "v": "quarter to five",
+      "pie": "quarter to five",
+      "id": "F"
+     },
+     {
+      "k": "clock",
+      "h": 7,
+      "m": 30,
+      "v": "half past seven",
+      "pie": "half past seven",
+      "id": "G"
+     },
+     {
+      "k": "clock",
+      "h": 8,
+      "m": 45,
+      "v": "quarter to nine",
+      "pie": "quarter to nine",
+      "id": "H"
+     }
+    ],
+    "answers": {
+     "Ingrid": "H",
+     "Diego": "F",
+     "Bruno": "B",
+     "Iris": "C",
+     "Maya": "A"
+    },
+    "modo": "clock",
+    "script": "Listen and match each person to a time. There is one example. … Diego: Ingrid? … Ingrid: I arrived at quarter to nine. … Diego: Diego? … Diego: I arrived at quarter to five. … Diego: Bruno? … Bruno: I arrived at nine o'clock. … Diego: Iris? … Iris: I arrived at seven o'clock. … Diego: Maya? … Maya: I arrived at quarter past eight.",
+    "voice_note": "Diego pregunta; cada uno responde."
+   },
+   "code": "J"
   }
  ],
  "homework": [

@@ -423,6 +423,179 @@
     }
    },
    "code": "H"
+  },
+  {
+   "type": "picture_mc",
+   "title": "Listen and tick the box.",
+   "instructions": "Listen to each question and click the picture that answers it.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Health & Wellbeing"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and tick the right picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u40-i.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "How many coats has Oliver got?",
+      "answer": "4",
+      "options": [
+       {
+        "k": "count",
+        "word": "coat",
+        "n": 4,
+        "v": "4",
+        "pie": "4"
+       },
+       {
+        "k": "count",
+        "word": "coat",
+        "n": 5,
+        "v": "5",
+        "pie": "5"
+       },
+       {
+        "k": "count",
+        "word": "coat",
+        "n": 1,
+        "v": "1",
+        "pie": "1"
+       }
+      ],
+      "script": "How many coats has Oliver got? … Oliver: I have got four coats."
+     },
+     {
+      "q": "How many belts has Ingrid got?",
+      "answer": "1",
+      "options": [
+       {
+        "k": "count",
+        "word": "belt",
+        "n": 1,
+        "v": "1",
+        "pie": "1"
+       },
+       {
+        "k": "count",
+        "word": "belt",
+        "n": 4,
+        "v": "4",
+        "pie": "4"
+       },
+       {
+        "k": "count",
+        "word": "belt",
+        "n": 3,
+        "v": "3",
+        "pie": "3"
+       }
+      ],
+      "script": "How many belts has Ingrid got? … Ingrid: I have got one belt."
+     },
+     {
+      "q": "How many dolls has Diego got?",
+      "answer": "4",
+      "options": [
+       {
+        "k": "count",
+        "word": "doll",
+        "n": 5,
+        "v": "5",
+        "pie": "5"
+       },
+       {
+        "k": "count",
+        "word": "doll",
+        "n": 4,
+        "v": "4",
+        "pie": "4"
+       },
+       {
+        "k": "count",
+        "word": "doll",
+        "n": 1,
+        "v": "1",
+        "pie": "1"
+       }
+      ],
+      "script": "How many dolls has Diego got? … Diego: I have got four dolls."
+     },
+     {
+      "q": "How many umbrellas has Iris got?",
+      "answer": "4",
+      "options": [
+       {
+        "k": "count",
+        "word": "umbrella",
+        "n": 4,
+        "v": "4",
+        "pie": "4"
+       },
+       {
+        "k": "count",
+        "word": "umbrella",
+        "n": 5,
+        "v": "5",
+        "pie": "5"
+       },
+       {
+        "k": "count",
+        "word": "umbrella",
+        "n": 1,
+        "v": "1",
+        "pie": "1"
+       }
+      ],
+      "script": "How many umbrellas has Iris got? … Iris: I have got four umbrellas."
+     },
+     {
+      "q": "How many scarfs has Lia got?",
+      "answer": "5",
+      "options": [
+       {
+        "k": "count",
+        "word": "scarf",
+        "n": 5,
+        "v": "5",
+        "pie": "5"
+       },
+       {
+        "k": "count",
+        "word": "scarf",
+        "n": 3,
+        "v": "3",
+        "pie": "3"
+       },
+       {
+        "k": "count",
+        "word": "scarf",
+        "n": 2,
+        "v": "2",
+        "pie": "2"
+       }
+      ],
+      "script": "How many scarfs has Lia got? … Lia: I have got five scarfs."
+     }
+    ],
+    "modo": "count",
+    "script": "Listen and tick the box. There is one example. … How many coats has Oliver got? … Oliver: I have got four coats. … How many belts has Ingrid got? … Ingrid: I have got one belt. … How many dolls has Diego got? … Diego: I have got four dolls. … How many umbrellas has Iris got? … Iris: I have got four umbrellas. … How many scarfs has Lia got? … Lia: I have got five scarfs.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "I"
   }
  ],
  "homework": [

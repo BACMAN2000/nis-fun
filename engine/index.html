@@ -528,6 +528,20 @@ if(/\.github\.io$/i.test(location.hostname)){
   .vis-op.marca{outline:3px dashed var(--accent);outline-offset:2px}
   .vis-op[disabled]{cursor:default}
 
+
+  /* opciones que dibujan una RELACION, no un objeto */
+  .vis-op .dib .op-pose{max-height:5rem;width:auto}
+  .vis-foto .dib .op-pose{max-height:3.6rem;width:auto}
+  .vis-op .dib .op-svg,.vis-foto .dib .op-svg{width:auto;height:100%;color:var(--accent)}
+  .op-duenno{display:inline-flex;align-items:flex-end;gap:.15rem}
+  .op-duenno img{max-height:4.4rem;width:auto}
+  .op-duenno .cosa img,.op-duenno .cosa svg{max-height:2.2rem;width:auto}
+  .op-duenno .cosa .emo{font-size:1.6rem}
+  /* las cantidades se envuelven: cinco objetos en fila se salen de la tarjeta */
+  .op-cuantos{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:.12rem;max-width:100%}
+  .op-cuantos img,.op-cuantos svg{max-height:2rem;width:auto}
+  .op-cuantos .emo{font-size:1.5rem}
+
   /* emparejar con A-H */
   .vis-galeria{display:grid;grid-template-columns:repeat(4,1fr);gap:.55rem;margin:.8rem 0 1.1rem}
   .vis-foto{background:var(--surface);border:2px solid var(--line);border-radius:12px;
@@ -1411,6 +1425,65 @@ function visDibujo(palabra){
     data-fb="${esc(plano)}">`;
 }
 
+/* Una opción de imagen. Cinco de los seis modos no dibujan un OBJETO sino una
+   RELACIÓN — de quién es, qué hora es, cada cuánto, cuántos hay, qué hacía —
+   porque en las unidades de gramática pura la respuesta nunca es un sustantivo.
+   Todos se componen con arte que ya existe, salvo el reloj y la semana, que se
+   dibujan aquí porque son dos formas y no merecen un archivo. */
+function visOpcion(o){
+  if(typeof o === 'string') return visDibujo(o);          // formato viejo
+  switch(o.k){
+    case 'pose':  return `<img class="op-pose" src="${CHAR(o.slug, o.pose)}" alt="${esc(o.pie||'')}" ${FB}>`;
+    case 'owner': return `<span class="op-duenno">
+        <img src="${CHAR(o.slug, o.pose || 1)}" alt="${esc(o.pie||'')}" ${FB}>
+        <span class="cosa">${visDibujo(o.word)}</span></span>`;
+    case 'count': return `<span class="op-cuantos">${
+        Array.from({length:o.n}, () => visDibujo(o.word)).join('')}</span>`;
+    case 'clock': return visReloj(o.h, o.m);
+    case 'freq':  return visSemana(o.dias);
+    default:      return visDibujo(o.word);
+  }
+}
+
+/* Esfera de reloj. Las manecillas se calculan, así que 7:30 se ve como 7:30 y
+   no como "las siete y algo": la hora pequeña también avanza con los minutos,
+   que es justo lo que distingue "half past seven" de "seven o'clock". */
+function visReloj(h, m){
+  const R = 30, cx = 32, cy = 32;
+  const aguja = (ang, largo, ancho) => {
+    const r = (ang - 90) * Math.PI / 180;
+    return `<line x1="${cx}" y1="${cy}" x2="${(cx + Math.cos(r) * largo).toFixed(1)}"
+      y2="${(cy + Math.sin(r) * largo).toFixed(1)}" stroke="currentColor"
+      stroke-width="${ancho}" stroke-linecap="round"/>`;
+  };
+  const marcas = Array.from({length:12}, (_,i) => {
+    const r = (i * 30 - 90) * Math.PI / 180;
+    const x1 = cx + Math.cos(r) * (R - 4), y1 = cy + Math.sin(r) * (R - 4);
+    const x2 = cx + Math.cos(r) * (R - 1), y2 = cy + Math.sin(r) * (R - 1);
+    return `<line x1="${x1.toFixed(1)}" y1="${y1.toFixed(1)}" x2="${x2.toFixed(1)}"
+      y2="${y2.toFixed(1)}" stroke="currentColor" stroke-width="${i % 3 ? 1.2 : 2.4}"/>`;
+  }).join('');
+  return `<svg class="op-svg" viewBox="0 0 64 64" role="img" aria-label="${h}:${String(m).padStart(2,'0')}">
+    <circle cx="${cx}" cy="${cy}" r="${R}" fill="none" stroke="currentColor" stroke-width="2.5"/>
+    ${marcas}
+    ${aguja((h % 12) * 30 + m * 0.5, R - 13, 3.4)}
+    ${aguja(m * 6, R - 7, 2.2)}
+    <circle cx="${cx}" cy="${cy}" r="2.2" fill="currentColor"/></svg>`;
+}
+
+/* Una semana con los días marcados. La frecuencia solo se lee si se ven los
+   SIETE días: cinco marcados sin los dos vacíos al lado no dicen "casi
+   siempre", dicen "cinco". */
+function visSemana(dias){
+  const c = Array.from({length:7}, (_,i) =>
+    `<rect x="${1 + i * 9}" y="20" width="7.5" height="7.5" rx="1.8"
+      fill="${i < dias ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="1.3"/>`).join('');
+  return `<svg class="op-svg op-semana" viewBox="0 0 64 48" role="img"
+      aria-label="${dias} de 7 días">${c}
+    <text x="32" y="42" text-anchor="middle" font-size="9" fill="currentColor"
+      font-family="inherit">${dias}/7</text></svg>`;
+}
+
 /* El escenario de fondo. Si la foto no esta, el bloque se queda con el
    color de fondo y los personajes siguen viendose: mejor eso que un icono
    de imagen rota encima de la escena. */
@@ -1545,10 +1618,10 @@ picture_mc(act, el){
     ${d.questions.map((q,i)=>`<div class="vis-preg" data-q="${i}">
       <p>${i+1}. ${esc(q.q)}</p>
       <div class="vis-ops">${q.options.map((o,j)=>`<button class="vis-op" type="button"
-          data-q="${i}" data-w="${esc(o.word)}" aria-label="Picture ${LET[j]}: ${esc(o.word)}">
+          data-q="${i}" data-w="${esc(o.v || o.word)}" aria-label="Picture ${LET[j]}: ${esc(o.pie || o.word)}">
           <span class="letra">${LET[j]}</span>
-          <span class="dib">${visDibujo(o.word)}</span>
-          <span class="pie">${esc(o.word)}</span></button>`).join('')}</div></div>`).join('')}
+          <span class="dib">${visOpcion(o)}</span>
+          <span class="pie">${esc(o.pie || o.word)}</span></button>`).join('')}</div></div>`).join('')}
     <div class="checkrow final"><button class="chk">Check</button>
       <button class="again" type="button" hidden>↻ Try again</button>
       <button class="reveal" type="button" hidden>👁 See the answers</button>
@@ -1598,7 +1671,7 @@ match_pictures(act, el){
   el.innerHTML = `${visKpi(act)}
     <div class="vis-galeria">${d.pictures.map(p=>`<div class="vis-foto" data-id="${p.id}">
       <span class="letra">${p.id}</span>
-      <span class="dib">${visDibujo(p.word)}</span></div>`).join('')}</div>
+      <span class="dib">${visOpcion(p)}</span></div>`).join('')}</div>
     <div class="vis-gente">${d.people.map((p,i)=>`<div class="vis-quien">
       ${visPersona(p)}<b>${esc(p.name)}</b>
       <select data-i="${i}" aria-label="Picture for ${esc(p.name)}">

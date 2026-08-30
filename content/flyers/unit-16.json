@@ -423,6 +423,254 @@
     }
    },
    "code": "H"
+  },
+  {
+   "type": "picture_mc",
+   "title": "Listen and tick the box.",
+   "instructions": "Listen to each question and click the picture that answers it.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 6,
+     "nombre": "Adventures & Experiences"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and tick the right picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u16-i.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "What was Ingrid doing?",
+      "answer": "running",
+      "options": [
+       {
+        "k": "pose",
+        "slug": "ingrid",
+        "pose": 3,
+        "v": "talking",
+        "pie": "talking"
+       },
+       {
+        "k": "pose",
+        "slug": "ingrid",
+        "pose": 7,
+        "v": "running",
+        "pie": "running"
+       },
+       {
+        "k": "pose",
+        "slug": "ingrid",
+        "pose": 6,
+        "v": "sitting down",
+        "pie": "sitting down"
+       }
+      ],
+      "script": "What was Ingrid doing? … Ingrid: I was running."
+     },
+     {
+      "q": "What was Maya doing?",
+      "answer": "holding something",
+      "options": [
+       {
+        "k": "pose",
+        "slug": "maya",
+        "pose": 8,
+        "v": "holding something",
+        "pie": "holding something"
+       },
+       {
+        "k": "pose",
+        "slug": "maya",
+        "pose": 3,
+        "v": "talking",
+        "pie": "talking"
+       },
+       {
+        "k": "pose",
+        "slug": "maya",
+        "pose": 7,
+        "v": "running",
+        "pie": "running"
+       }
+      ],
+      "script": "What was Maya doing? … Maya: I was holding something."
+     },
+     {
+      "q": "What was Oliver doing?",
+      "answer": "holding something",
+      "options": [
+       {
+        "k": "pose",
+        "slug": "oliver",
+        "pose": 8,
+        "v": "holding something",
+        "pie": "holding something"
+       },
+       {
+        "k": "pose",
+        "slug": "oliver",
+        "pose": 3,
+        "v": "talking",
+        "pie": "talking"
+       },
+       {
+        "k": "pose",
+        "slug": "oliver",
+        "pose": 7,
+        "v": "running",
+        "pie": "running"
+       }
+      ],
+      "script": "What was Oliver doing? … Oliver: I was holding something."
+     }
+    ],
+    "modo": "pose",
+    "script": "Listen and tick the box. There is one example. … What was Ingrid doing? … Ingrid: I was running. … What was Maya doing? … Maya: I was holding something. … What was Oliver doing? … Oliver: I was holding something.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "I"
+  },
+  {
+   "type": "match_pictures",
+   "title": "Listen and match each person to what they were doing.",
+   "instructions": "Listen. Then choose the letter of the picture for each person. Careful: some pictures are extra.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 6,
+     "nombre": "Adventures & Experiences"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and match each person to a picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 3
+    }
+   },
+   "audio": "flyers/u16-j.mp3",
+   "data": {
+    "people": [
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "pose": 3
+     },
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 3
+     },
+     {
+      "slug": "samu",
+      "name": "Samu",
+      "pose": 3
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "pose": 3
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "pose": 3
+     }
+    ],
+    "pictures": [
+     {
+      "k": "pose",
+      "slug": "ingrid",
+      "pose": 3,
+      "v": "talking",
+      "pie": "talking",
+      "id": "A"
+     },
+     {
+      "k": "pose",
+      "slug": "ingrid",
+      "pose": 4,
+      "v": "thinking",
+      "pie": "thinking",
+      "id": "B"
+     },
+     {
+      "k": "pose",
+      "slug": "ingrid",
+      "pose": 2,
+      "v": "pointing",
+      "pie": "pointing",
+      "id": "C"
+     },
+     {
+      "k": "pose",
+      "slug": "ingrid",
+      "pose": 8,
+      "v": "holding something",
+      "pie": "holding something",
+      "id": "D"
+     },
+     {
+      "k": "pose",
+      "slug": "ingrid",
+      "pose": 10,
+      "v": "celebrating",
+      "pie": "celebrating",
+      "id": "E"
+     },
+     {
+      "k": "pose",
+      "slug": "ingrid",
+      "pose": 7,
+      "v": "running",
+      "pie": "running",
+      "id": "F"
+     },
+     {
+      "k": "pose",
+      "slug": "ingrid",
+      "pose": 1,
+      "v": "waving",
+      "pie": "waving",
+      "id": "G"
+     },
+     {
+      "k": "pose",
+      "slug": "ingrid",
+      "pose": 6,
+      "v": "sitting down",
+      "pie": "sitting down",
+      "id": "H"
+     }
+    ],
+    "answers": {
+     "Ingrid": "B",
+     "Maya": "E",
+     "Samu": "H",
+     "Iris": "G",
+     "Bruno": "F"
+    },
+    "modo": "pose",
+    "script": "Listen and match each person to what they were doing. There is one example. … Diego: Ingrid? … Ingrid: I was thinking. … Diego: Maya? … Maya: I was celebrating. … Diego: Samu? … Samu: I was sitting down. … Diego: Iris? … Iris: I was waving. … Diego: Bruno? … Bruno: I was running.",
+    "voice_note": "Diego pregunta; cada uno responde."
+   },
+   "code": "J"
   }
  ],
  "homework": [

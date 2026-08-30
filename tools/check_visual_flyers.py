@@ -41,6 +41,52 @@ def avisa(u, code, msg):
     avisos.append("u%-2d %s  %s" % (u, code, msg))
 
 
+def valor(o):
+    """Lo que identifica a una opcion. Las de objeto se identifican por la
+    palabra; las de relacion (hora, frecuencia, cantidad, dueno, accion) por su
+    campo v, porque en ellas la respuesta no es un sustantivo."""
+    return o.get("v") or o.get("word")
+
+
+def se_oye(respuesta, guion):
+    """La respuesta tiene que decirse en el audio. Con las de relacion no basta
+    con buscar la cadena entera: 'twice a week' se dice tal cual, pero un 3 de
+    cantidad se dice 'three'. Se acepta el numero escrito con letra."""
+    g = (guion or "").lower()
+    r = str(respuesta).lower()
+    if r in g:
+        return True
+    letras = {"1": "one", "2": "two", "3": "three", "4": "four", "5": "five"}
+    return r in letras and letras[r] in g
+
+
+def revisa_imagen(u, code, o, donde):
+    """Cada opcion tiene que poder dibujarse. Cada modo se comprueba a su
+    manera: la de objeto necesita dibujo; la de pose, que la pose exista en
+    disco; la de hora, que sea una hora de verdad."""
+    k = o.get("k", "word")
+    if k in ("word", "count", "owner"):
+        w = o.get("word")
+        if not w or not G.hay_dibujo(w):
+            falla(u, code, "%s: sin dibujo para %s" % (donde, w))
+    if k in ("pose", "owner"):
+        # sin default: si la opcion no declara pose, el motor pinta una que el
+        # personaje puede no tener y sale la imagen rota. Paso justo eso.
+        if o.get("pose") is None:
+            falla(u, code, "%s: opcion %s sin pose declarada" % (donde, k))
+        else:
+            revisa_persona(u, code, {"slug": o.get("slug"), "pose": o["pose"]})
+    if k == "clock":
+        if not (0 <= int(o.get("h", -1)) <= 23 and 0 <= int(o.get("m", -1)) <= 59):
+            falla(u, code, "%s: hora imposible %s:%s" % (donde, o.get("h"), o.get("m")))
+    if k == "freq":
+        if not (0 <= int(o.get("dias", -1)) <= 7):
+            falla(u, code, "%s: %s dias en una semana" % (donde, o.get("dias")))
+    if k == "count":
+        if not (1 <= int(o.get("n", 0)) <= 8):
+            falla(u, code, "%s: cantidad %s fuera de rango" % (donde, o.get("n")))
+
+
 def hay_pose(slug, pose):
     return os.path.exists(os.path.join(
         RAIZ, "assets", "characters", NIVEL, slug, "pose-%02d.png" % int(pose)))
@@ -99,17 +145,16 @@ def main():
 
             elif t == "picture_mc":
                 for i, q in enumerate(dd["questions"]):
-                    ops = [o["word"] for o in q["options"]]
+                    ops = [valor(o) for o in q["options"]]
                     if q["answer"] not in ops:
                         falla(u, code, "P%d: la respuesta no esta entre las opciones" % (i + 1))
                     if len(set(ops)) != len(ops):
                         falla(u, code, "P%d: opciones repetidas %s" % (i + 1, ops))
                     if len(ops) != 3:
                         falla(u, code, "P%d: %d opciones en vez de 3" % (i + 1, len(ops)))
-                    for w in ops:
-                        if not G.hay_dibujo(w):
-                            falla(u, code, "P%d: sin dibujo para %s" % (i + 1, w))
-                    if q["answer"].lower() not in (q.get("script") or "").lower():
+                    for o in q["options"]:
+                        revisa_imagen(u, code, o, "P%d" % (i + 1))
+                    if not se_oye(q["answer"], q.get("script")):
                         falla(u, code, "P%d: la respuesta no se dice en el audio" % (i + 1))
 
             elif t == "match_pictures":
@@ -117,8 +162,7 @@ def main():
                 if len(set(letras)) != len(letras):
                     falla(u, code, "letras repetidas en la galeria")
                 for p in dd["pictures"]:
-                    if not G.hay_dibujo(p["word"]):
-                        falla(u, code, "sin dibujo para %s" % p["word"])
+                    revisa_imagen(u, code, p, "galeria")
                 usadas = []
                 for p in dd["people"]:
                     revisa_persona(u, code, p)

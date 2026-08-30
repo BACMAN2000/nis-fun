@@ -357,6 +357,296 @@ def label_people(ud, rnd):
 
 
 # ---------------------------------------------------------------------------
+# Imagenes que responden a una RELACION, no a un objeto
+#
+# Las unidades de gramatica pura se quedaban sin tarea de imagen, y durante un
+# tiempo se creyo que la culpa era la falta de dibujos de vocabulario. Es falso:
+# la wordlist de "Whose is it?" es mine/yours/his/hers, la de "What time is it?"
+# es midnight/quarter/half past y la de "When do these things happen?" es
+# always/usually/often. Ninguna es un objeto. Se pueden dibujar 442 sustantivos
+# mas y esas unidades seguirian sin poder ilustrarse.
+#
+# Lo que necesitan es lo que hace Cambridge: que la imagen codifique la
+# RELACION -- de quien es, que hora es, cada cuanto, cuantos hay, que estaba
+# haciendo. Cinco modos, todos compuestos con arte que ya existe.
+#
+#   owner   el mismo objeto junto a personas distintas   -> posesivos
+#   clock   una esfera de reloj                          -> la hora
+#   freq    una semana con N dias marcados               -> frecuencia
+#   count   el mismo objeto repetido N veces             -> comparativos, cantidad
+#   pose    un personaje en una pose                     -> acciones
+#
+# Regla que no se rompe: un modo solo entra si la imagen responde SOLA a la
+# pregunta. "Polite" y "careful" no se distinguen en un dibujo, asi que la
+# unidad de adjetivos de personalidad se queda sin tarea de imagen y se dice.
+# ---------------------------------------------------------------------------
+
+# Las poses son acciones inequivocas: es lo que las hace servir de respuesta.
+ACCIONES = [
+    (7,  "running"),      (6,  "sitting down"), (3,  "talking"),
+    (1,  "waving"),       (2,  "pointing"),     (4,  "thinking"),
+    (8,  "holding something"), (10, "celebrating"), (5, "looking surprised"),
+]
+
+# No toda accion cabe en todo marco: "I was pointing" es correcto, pero
+# "I really enjoy pointing" no lo dice nadie. Para los marcos de gusto y de
+# pasado solo entran las que son actividades de verdad.
+DISFRUTABLES = {"running", "talking", "thinking", "celebrating", "sitting down"}
+
+HORAS = [(7, 0, "seven o'clock"), (7, 30, "half past seven"),
+         (8, 15, "quarter past eight"), (8, 45, "quarter to nine"),
+         (9, 0, "nine o'clock"), (10, 30, "half past ten"),
+         (11, 15, "quarter past eleven"), (12, 0, "twelve o'clock"),
+         (4, 45, "quarter to five"), (6, 30, "half past six")]
+
+FRECUENCIAS = [(7, "every day"), (5, "usually"), (3, "often"),
+               (2, "twice a week"), (1, "once a week"), (0, "never")]
+
+# Cosas que una persona puede TENER y que se pueden contar. No vale cualquier
+# palabra con dibujo: el generador llego a preguntar "Whose science is it?"
+# porque "science" tiene emoji. Un objeto sirve aqui si cabe la frase
+# "es mio" y "tengo tres".
+COSAS_DE_UNO = [
+    "umbrella", "scarf", "gloves", "belt", "ring", "sunhat", "socks", "uniform",
+    "suitcase", "ball", "bat", "kite", "doll", "teddy", "camera", "watch",
+    "bag", "book", "pencil", "ruler", "coat", "cap", "brush", "bottle",
+]
+
+
+NUMERO = {1: "one", 2: "two", 3: "three", 4: "four", 5: "five"}
+
+
+def plural(w):
+    """Para "How many ___ has X got?". Si ya es plural se deja."""
+    if articulo(w) == "some":
+        return w
+    if w.endswith("y") and w[-2:-1] not in "aeiou":
+        return w[:-1] + "ies"
+    if w.endswith(("ch", "sh", "x", "s", "z")):
+        return w + "es"
+    return w + "s"
+
+
+def cosas_de_uno(rnd):
+    """Las poseibles que ademas se pueden dibujar, barajadas."""
+    v = [w for w in COSAS_DE_UNO if dibujable(w)]
+    rnd.shuffle(v)
+    return v
+
+
+def cosas_contables(rnd):
+    """Para contar hacen falta objetos de UNO en uno. "How many gloves?" no se
+    puede responder con un numero sin saber si son guantes o pares."""
+    v = [w for w in COSAS_DE_UNO if dibujable(w) and articulo(w) != "some"]
+    rnd.shuffle(v)
+    return v
+
+
+def _modo_de(ud):
+    """Que tipo de imagen pide esta unidad. Del planner, no de una lista fija."""
+    g = (ud.get("grammar") or "").lower()
+    w = [limpia(x) for x in (ud.get("wordlist") or [])]
+    if "possessive" in g or "whose" in g or "mine" in w:
+        return "owner"
+    if "quarter" in g or "o'clock" in w or "half past" in w:
+        return "clock"
+    if "always" in w or "usually" in w or "frequency" in g:
+        return "freq"
+    if "comparativ" in g or "superlativ" in g or "enough" in w or "too +" in g:
+        return "count"
+    # Solo donde la respuesta ES una accion: lo que alguien hacia o disfruta
+    # haciendo. El presente perfecto de "acabo de hacerlo" NO entra: una pose
+    # muestra un estado, no una accion terminada.
+    if "continuous" in g or "+ -ing" in g or "irregular verbs" in g:
+        return "pose"
+    return None
+
+
+def _rnd_sin_repetir(rnd, lista, cuantos):
+    copia = list(lista)
+    rnd.shuffle(copia)
+    return copia[:cuantos]
+
+
+def picture_mc_relacion(ud, rnd, otras_palabras, modo):
+    """picture_mc para las unidades que no tienen objetos que dibujar."""
+    gente = [s for s in elenco(ud, rnd, 8) if PERS[s]["tipo"] in ("nino", "nina")]
+    if len(gente) < 3:
+        return None
+    cosas = [w for w in otras_palabras if dibujable(w)]
+    rnd.shuffle(cosas)
+    mias = cosas_de_uno(rnd)         # para "de quien es"
+    contables = cosas_contables(rnd)  # para "cuantos tienes"
+    sitios = [l for l in LUGAR_TEMA.get(
+        str((ud.get("scope") or {}).get("temaN") or 1), []) if l in LUGARES]
+    if not sitios:
+        sitios = list(LUGARES)
+    rnd.shuffle(sitios)
+    preguntas = []
+
+    for i in range(5):
+        n = PERS[gente[i % len(gente)]]["nombre"]
+
+        if modo == "pose":
+            g = (ud.get("grammar") or "").lower()
+            gusto = "enjoy" in g or "like /" in g or "love" in g
+            pasado = "past simple" in g or "irregular" in g
+            fuente = [x for x in ACCIONES if x[1] in DISFRUTABLES] if (gusto or pasado) else ACCIONES
+            if len(fuente) < 3:
+                continue
+            tres = _rnd_sin_repetir(rnd, fuente, 3)
+            pose_ok, accion = tres[0]
+            slug = gente[i % len(gente)]
+            # todas las opciones con el MISMO personaje: lo que cambia es lo que
+            # hace, que es la respuesta. Con personajes distintos el alumno
+            # elegiria por la cara y no por el verbo.
+            disp = [p for p, _a in tres if p in PERS[slug]["poses"]]
+            if len(disp) < 3:
+                continue
+            ops = [{"k": "pose", "slug": slug, "pose": p, "v": a, "pie": a}
+                   for p, a in tres]
+            # La pregunta sigue a la gramatica de la unidad, no al reves: en una
+            # de "enjoy + -ing" preguntar "What was X doing?" practica otra cosa.
+            if gusto:
+                q  = "What does %s enjoy doing?" % n
+                sc = "%s: I really enjoy %s." % (n, accion)
+            elif pasado:
+                q  = "What did %s do yesterday?" % n
+                sc = "%s: Yesterday I spent the afternoon %s." % (n, accion)
+            else:
+                q  = "What was %s doing?" % n
+                sc = "%s: I was %s." % (n, accion)
+
+        elif modo == "clock":
+            tres = _rnd_sin_repetir(rnd, HORAS, 3)
+            h, m, dicho = tres[0]
+            ops = [{"k": "clock", "h": hh, "m": mm, "v": d, "pie": d}
+                   for hh, mm, d in tres]
+            q = "What time does %s's class start?" % n
+            sc = "%s: My class starts at %s." % (n, dicho)
+
+        elif modo == "freq":
+            tres = _rnd_sin_repetir(rnd, FRECUENCIAS, 3)
+            dias, dicho = tres[0]
+            # Un SITIO, no un objeto: "How often does Iris use the science?"
+            # no es una pregunta. Ir a un sitio si admite frecuencia.
+            sitio = sitios[i % len(sitios)]
+            ops = [{"k": "freq", "dias": d2, "v": t2, "pie": t2} for d2, t2 in tres]
+            q = "How often does %s go to %s?" % (n, LUGARES[sitio]["en"])
+            sc = "%s: I go to %s %s." % (n, LUGARES[sitio]["en"], dicho)
+
+        elif modo == "count":
+            if not contables:
+                continue
+            cosa = contables[i % len(contables)]
+            tres = _rnd_sin_repetir(rnd, [1, 2, 3, 4, 5], 3)
+            cuantos = tres[0]
+            ops = [{"k": "count", "word": cosa, "n": c, "v": str(c), "pie": str(c)}
+                   for c in tres]
+            q = "How many %s has %s got?" % (plural(cosa), n)
+            # el numero se DICE con letra: "I have got 3" no lo dice nadie
+            sc = "%s: I have got %s %s." % (
+                n, NUMERO[cuantos], cosa if cuantos == 1 else plural(cosa))
+
+        elif modo == "owner":
+            if not mias:
+                continue
+            cosa = mias[i % len(mias)]
+            tres = _rnd_sin_repetir(rnd, gente, 3)
+            if len(tres) < 3:
+                continue
+            duenno = tres[0]
+            # La pose se elige entre las que el personaje tiene y se GUARDA.
+            # Estaba fijada a 8 (holding) en el motor, y las companeras solo
+            # tienen 1, 3, 6 y 7: salia la imagen rota. Guardarla ademas hace
+            # que la auditoria pueda comprobarla.
+            ops = [{"k": "owner", "slug": s, "word": cosa,
+                    "pose": pose(s, rnd, [8, 3, 1]),
+                    "v": PERS[s]["nombre"], "pie": PERS[s]["nombre"]} for s in tres]
+            q = "Whose %s is it?" % cosa
+            sc = "It is %s's %s. %s always brings it." % (
+                PERS[duenno]["nombre"], cosa, PERS[duenno]["nombre"])
+        else:
+            return None
+
+        resp = ops[0]["v"]
+        rnd.shuffle(ops)
+        preguntas.append({"q": q, "answer": resp, "options": ops,
+                          "script": (q + " … " + sc).replace('"', "")})
+
+    if len(preguntas) < 3:
+        return None
+    return {
+        "type": "picture_mc",
+        "title": "Listen and tick the box.",
+        "instructions": "Listen to each question and click the picture that answers it.",
+        "outputs": ["digital"],
+        "kpi": kpi(ud, "picture_mc"),
+        "audio": "flyers/u%02d-%s.mp3" % (ud["number"], "{code}"),
+        "data": {"questions": preguntas, "modo": modo,
+                 "script": ("Listen and tick the box. There is one example. … "
+                            + " … ".join(q["script"] for q in preguntas)),
+                 "voice_note": "Una voz por pregunta; la respuesta se dice entera."},
+    }
+
+
+def match_pictures_relacion(ud, rnd, modo):
+    """match_pictures con acciones u horas: 8 imagenes, 5 personas."""
+    if modo not in ("pose", "clock"):
+        return None
+    gente = [s for s in elenco(ud, rnd, 9) if PERS[s]["tipo"] in ("nino", "nina")][:5]
+    if len(gente) < 4:
+        return None
+
+    if modo == "pose":
+        # Se necesita un personaje con las 9 poses para que las 8 imagenes sean
+        # comparables; si no lo hay, no se fuerza.
+        modelo = None
+        for s in gente + PRINCIPALES:
+            if len([p for p, _ in ACCIONES if p in PERS[s]["poses"]]) >= 8:
+                modelo = s
+                break
+        if not modelo:
+            return None
+        disp = [(p, a) for p, a in ACCIONES if p in PERS[modelo]["poses"]][:8]
+        fotos = [{"k": "pose", "slug": modelo, "pose": p, "v": a, "pie": a}
+                 for p, a in disp]
+        di = lambda a: "I was %s." % a
+        preg = "Listen and match each person to what they were doing."
+    else:
+        ocho = _rnd_sin_repetir(rnd, HORAS, 8)
+        fotos = [{"k": "clock", "h": h, "m": m, "v": d, "pie": d}
+                 for h, m, d in ocho]
+        di = lambda d: "I arrived at %s." % d
+        preg = "Listen and match each person to a time."
+
+    rnd.shuffle(fotos)
+    for i, f in enumerate(fotos):
+        f["id"] = LETRAS[i]
+
+    personas, respuestas, lineas = [], {}, [preg + " There is one example."]
+    elegidas = _rnd_sin_repetir(rnd, fotos, len(gente))
+    for s, foto in zip(gente, elegidas):
+        nom = PERS[s]["nombre"]
+        personas.append({"slug": s, "name": nom, "pose": pose(s, rnd, [3, 1, 8])})
+        respuestas[nom] = foto["id"]
+        lineas.append("Diego: %s? … %s: %s" % (nom, nom, di(foto["v"])))
+
+    return {
+        "type": "match_pictures",
+        "title": preg,
+        "instructions": "Listen. Then choose the letter of the picture for each person. Careful: some pictures are extra.",
+        "outputs": ["digital"],
+        "kpi": kpi(ud, "match_pictures"),
+        "audio": "flyers/u%02d-%s.mp3" % (ud["number"], "{code}"),
+        "data": {"people": personas, "pictures": fotos, "answers": respuestas,
+                 "modo": modo,
+                 "script": " … ".join(lineas).replace('"', ""),
+                 "voice_note": "Diego pregunta; cada uno responde."},
+    }
+
+
+# ---------------------------------------------------------------------------
 # G. picture_mc  --  Listening Part 4
 # ---------------------------------------------------------------------------
 # Marcos de pregunta.
@@ -378,7 +668,11 @@ MARCOS = [
 def picture_mc(ud, rnd, otras_palabras):
     buenas = [w for w in (ud.get("wordlist") or []) if dibujable(w)]
     if len(buenas) < 3:
-        return None
+        # Sin objetos que dibujar. Antes se rendia aqui; ahora se mira si la
+        # unidad pide una imagen de RELACION (de quien, que hora, cada cuanto,
+        # cuantos, que hacia). Si tampoco, se rinde -- y con razon.
+        modo = _modo_de(ud)
+        return picture_mc_relacion(ud, rnd, otras_palabras, modo) if modo else None
     rnd.shuffle(buenas)
     buenas = primero_lo_nuestro(buenas)[:5]
 
@@ -436,7 +730,8 @@ def match_pictures(ud, rnd, otras_palabras):
     buenas = [limpia(w) for w in (ud.get("wordlist") or []) if dibujable(w)]
     buenas = list(dict.fromkeys(buenas))
     if len(buenas) < 4:
-        return None
+        modo = _modo_de(ud)
+        return match_pictures_relacion(ud, rnd, modo) if modo else None
     rnd.shuffle(buenas)
     usadas = primero_lo_nuestro(buenas)[:5]
 
