@@ -255,85 +255,6 @@
    "data": {}
   },
   {
-   "type": "label_people",
-   "title": "Listen and write the names.",
-   "instructions": "Look at the picture. Listen and write the name under each person. Careful: there are three names you do not need.",
-   "outputs": [
-    "digital"
-   ],
-   "kpi": {
-    "grado": "G5",
-    "cefr": "A2",
-    "examen": "Cambridge Flyers",
-    "tema": {
-     "n": 6,
-     "nombre": "Adventures & Experiences"
-    },
-    "destreza": "Listening",
-    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
-    "clase": "Flyers-style: listen and label the people in the picture",
-    "examen_parte": {
-     "paper": "Listening",
-     "part": 1
-    }
-   },
-   "audio": "flyers/u41-g.mp3",
-   "data": {
-    "scene": "mirador",
-    "place": "the viewpoint",
-    "people": [
-     {
-      "slug": "diego",
-      "name": "Diego",
-      "pose": 7,
-      "clue": "the boy in the red shirt with a microphone",
-      "action": "is asking questions with his microphone"
-     },
-     {
-      "slug": "maya",
-      "name": "Maya",
-      "pose": 7,
-      "clue": "the girl in the green shirt with a magnifying glass",
-      "action": "is looking at something very small"
-     },
-     {
-      "slug": "bruno",
-      "name": "Bruno",
-      "pose": 7,
-      "clue": "the boy with curly brown hair and a green shirt",
-      "action": "is running after the ball"
-     },
-     {
-      "slug": "aiko",
-      "name": "Aiko",
-      "pose": 7,
-      "clue": "the girl with long straight black hair and an orange shirt",
-      "action": "is reading a book"
-     },
-     {
-      "slug": "lia",
-      "name": "Lia",
-      "pose": 7,
-      "clue": "the girl with black plaits and a purple shirt",
-      "action": "is jumping with a skipping rope"
-     }
-    ],
-    "names": [
-     "Aiko",
-     "Bruno",
-     "Diego",
-     "Ingrid",
-     "Kili",
-     "Lia",
-     "Maya",
-     "Tino"
-    ],
-    "script": "Look at the picture. Listen and write the names. There is one example. … Diego: Who is that in the viewpoint? The boy in the red shirt with a microphone. … Maya: That is Diego. Diego is asking questions with his microphone. … Diego: And who is the girl in the green shirt with a magnifying glass? … Maya: That is Maya. Look, Maya is looking at something very small. … Diego: And who is the boy with curly brown hair and a green shirt? … Maya: That is Bruno. Look, Bruno is running after the ball. … Diego: And who is the girl with long straight black hair and an orange shirt? … Maya: That is Aiko. Look, Aiko is reading a book. … Diego: And who is the girl with black plaits and a purple shirt? … Maya: That is Lia. Look, Lia is jumping with a skipping rope.",
-    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
-   },
-   "code": "G"
-  },
-  {
    "type": "picture_story",
    "title": "Look at the three pictures and write the story.",
    "instructions": "Look at the pictures. Write the story in 20-25 words. Use the words under each picture to help you.",
@@ -596,6 +517,85 @@
     "voice_note": "Una voz por pregunta; la respuesta se dice entera."
    },
    "code": "I"
+  },
+  {
+   "type": "label_people",
+   "title": "Listen and write the names.",
+   "instructions": "Look at the picture. Listen and write the name under each person. Careful: there are three names you do not need.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 6,
+     "nombre": "Adventures & Experiences"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and label the people in the picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u41-g.mp3",
+   "data": {
+    "scene": "mirador",
+    "place": "the viewpoint",
+    "people": [
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "clue": "the boy in the red shirt with a microphone",
+      "action": "is asking questions with his microphone",
+      "pose": 7
+     },
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "clue": "the girl in the green shirt with a magnifying glass",
+      "action": "is looking at something very small",
+      "pose": 7
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "clue": "the boy with curly brown hair and a green shirt",
+      "action": "is running after the ball",
+      "pose": 7
+     },
+     {
+      "slug": "aiko",
+      "name": "Aiko",
+      "clue": "the girl with long straight black hair and an orange shirt",
+      "action": "is reading a book",
+      "pose": 7
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "clue": "the girl with black plaits and a purple shirt",
+      "action": "is jumping with a skipping rope",
+      "pose": 7
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Bruno",
+     "Diego",
+     "Ingrid",
+     "Kili",
+     "Lia",
+     "Maya",
+     "Mr Vega"
+    ],
+    "script": "Look at the picture. Listen and write the names. There is one example. … Diego: Who is that in the viewpoint? The boy in the red shirt with a microphone. … Maya: That is Diego. Diego is asking questions with his microphone. … Diego: And who is the girl in the green shirt with a magnifying glass? … Maya: That is Maya. Look, Maya is looking at something very small. … Diego: And who is the boy with curly brown hair and a green shirt? … Maya: That is Bruno. Look, Bruno is running after the ball. … Diego: And who is the girl with long straight black hair and an orange shirt? … Maya: That is Aiko. Look, Aiko is reading a book. … Diego: And who is the girl with black plaits and a purple shirt? … Maya: That is Lia. Look, Lia is jumping with a skipping rope.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
   }
  ],
  "homework": [

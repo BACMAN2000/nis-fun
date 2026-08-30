@@ -255,85 +255,6 @@
    "data": {}
   },
   {
-   "type": "label_people",
-   "title": "Listen and write the names.",
-   "instructions": "Look at the picture. Listen and write the name under each person. Careful: there are three names you do not need.",
-   "outputs": [
-    "digital"
-   ],
-   "kpi": {
-    "grado": "G5",
-    "cefr": "A2",
-    "examen": "Cambridge Flyers",
-    "tema": {
-     "n": 5,
-     "nombre": "Health & Wellbeing"
-    },
-    "destreza": "Listening",
-    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
-    "clase": "Flyers-style: listen and label the people in the picture",
-    "examen_parte": {
-     "paper": "Listening",
-     "part": 1
-    }
-   },
-   "audio": "flyers/u46-g.mp3",
-   "data": {
-    "scene": "track",
-    "place": "the running track",
-    "people": [
-     {
-      "slug": "maya",
-      "name": "Maya",
-      "pose": 7,
-      "clue": "the girl in the green shirt with a magnifying glass",
-      "action": "is looking at something very small"
-     },
-     {
-      "slug": "oliver",
-      "name": "Oliver",
-      "pose": 7,
-      "clue": "the boy with red hair and a yellow shirt",
-      "action": "is singing"
-     },
-     {
-      "slug": "tino",
-      "name": "Tino",
-      "pose": 7,
-      "clue": "the boy with very short hair and a white and green shirt",
-      "action": "is playing hockey"
-     },
-     {
-      "slug": "lia",
-      "name": "Lia",
-      "pose": 7,
-      "clue": "the girl with black plaits and a purple shirt",
-      "action": "is jumping with a skipping rope"
-     },
-     {
-      "slug": "bruno",
-      "name": "Bruno",
-      "pose": 7,
-      "clue": "the boy with curly brown hair and a green shirt",
-      "action": "is running after the ball"
-     }
-    ],
-    "names": [
-     "Aiko",
-     "Bruno",
-     "Diego",
-     "Kili",
-     "Lia",
-     "Maya",
-     "Oliver",
-     "Tino"
-    ],
-    "script": "Look at the picture. Listen and write the names. There is one example. … Diego: Who is that in the running track? The girl in the green shirt with a magnifying glass. … Maya: That is Maya. Maya is looking at something very small. … Diego: And who is the boy with red hair and a yellow shirt? … Maya: That is Oliver. Look, Oliver is singing. … Diego: And who is the boy with very short hair and a white and green shirt? … Maya: That is Tino. Look, Tino is playing hockey. … Diego: And who is the girl with black plaits and a purple shirt? … Maya: That is Lia. Look, Lia is jumping with a skipping rope. … Diego: And who is the boy with curly brown hair and a green shirt? … Maya: That is Bruno. Look, Bruno is running after the ball.",
-    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
-   },
-   "code": "G"
-  },
-  {
    "type": "picture_mc",
    "title": "Listen and tick the box.",
    "instructions": "Listen to each question and click the picture that answers it.",
@@ -660,6 +581,85 @@
     }
    },
    "code": "J"
+  },
+  {
+   "type": "label_people",
+   "title": "Listen and write the names.",
+   "instructions": "Look at the picture. Listen and write the name under each person. Careful: there are three names you do not need.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Health & Wellbeing"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and label the people in the picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u46-g.mp3",
+   "data": {
+    "scene": "track",
+    "place": "the running track",
+    "people": [
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "clue": "the girl in the green shirt with a magnifying glass",
+      "action": "is looking at something very small",
+      "pose": 7
+     },
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "clue": "the boy with red hair and a yellow shirt",
+      "action": "is singing",
+      "pose": 7
+     },
+     {
+      "slug": "tino",
+      "name": "Tino",
+      "clue": "the boy with very short hair and a white and green shirt",
+      "action": "is playing hockey",
+      "pose": 7
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "clue": "the girl with black plaits and a purple shirt",
+      "action": "is jumping with a skipping rope",
+      "pose": 7
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "clue": "the boy with curly brown hair and a green shirt",
+      "action": "is running after the ball",
+      "pose": 7
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Bruno",
+     "Diego",
+     "Kili",
+     "Lia",
+     "Maya",
+     "Oliver",
+     "Tino"
+    ],
+    "script": "Look at the picture. Listen and write the names. There is one example. … Diego: Who is that in the running track? The girl in the green shirt with a magnifying glass. … Maya: That is Maya. Maya is looking at something very small. … Diego: And who is the boy with red hair and a yellow shirt? … Maya: That is Oliver. Look, Oliver is singing. … Diego: And who is the boy with very short hair and a white and green shirt? … Maya: That is Tino. Look, Tino is playing hockey. … Diego: And who is the girl with black plaits and a purple shirt? … Maya: That is Lia. Look, Lia is jumping with a skipping rope. … Diego: And who is the boy with curly brown hair and a green shirt? … Maya: That is Bruno. Look, Bruno is running after the ball.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
   }
  ],
  "homework": [

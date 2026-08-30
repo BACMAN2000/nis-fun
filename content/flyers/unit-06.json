@@ -255,85 +255,6 @@
    "data": {}
   },
   {
-   "type": "label_people",
-   "title": "Listen and write the names.",
-   "instructions": "Look at the picture. Listen and write the name under each person. Careful: there are three names you do not need.",
-   "outputs": [
-    "digital"
-   ],
-   "kpi": {
-    "grado": "G5",
-    "cefr": "A2",
-    "examen": "Cambridge Flyers",
-    "tema": {
-     "n": 5,
-     "nombre": "Health & Wellbeing"
-    },
-    "destreza": "Listening",
-    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
-    "clase": "Flyers-style: listen and label the people in the picture",
-    "examen_parte": {
-     "paper": "Listening",
-     "part": 1
-    }
-   },
-   "audio": "flyers/u06-g.mp3",
-   "data": {
-    "scene": "garden",
-    "place": "the school garden",
-    "people": [
-     {
-      "slug": "oliver",
-      "name": "Oliver",
-      "pose": 7,
-      "clue": "the boy with red hair and a yellow shirt",
-      "action": "is singing"
-     },
-     {
-      "slug": "kili",
-      "name": "Kili",
-      "pose": 3,
-      "clue": "the big black bird with a white collar",
-      "action": "is carrying a letter"
-     },
-     {
-      "slug": "tino",
-      "name": "Tino",
-      "pose": 7,
-      "clue": "the boy with very short hair and a white and green shirt",
-      "action": "is playing hockey"
-     },
-     {
-      "slug": "samu",
-      "name": "Samu",
-      "pose": 7,
-      "clue": "the boy with short fair hair and a rucksack",
-      "action": "is waving"
-     },
-     {
-      "slug": "iris",
-      "name": "Iris",
-      "pose": 7,
-      "clue": "the girl with a red ponytail and freckles",
-      "action": "is drawing with chalk on the ground"
-     }
-    ],
-    "names": [
-     "Aiko",
-     "Diego",
-     "Iris",
-     "Kili",
-     "Maya",
-     "Oliver",
-     "Samu",
-     "Tino"
-    ],
-    "script": "Look at the picture. Listen and write the names. There is one example. … Diego: Who is that in the school garden? The boy with red hair and a yellow shirt. … Maya: That is Oliver. Oliver is singing. … Diego: And who is the big black bird with a white collar? … Maya: That is Kili. Look, Kili is carrying a letter. … Diego: And who is the boy with very short hair and a white and green shirt? … Maya: That is Tino. Look, Tino is playing hockey. … Diego: And who is the boy with short fair hair and a rucksack? … Maya: That is Samu. Look, Samu is waving. … Diego: And who is the girl with a red ponytail and freckles? … Maya: That is Iris. Look, Iris is drawing with chalk on the ground.",
-    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
-   },
-   "code": "G"
-  },
-  {
    "type": "picture_mc",
    "title": "Listen and tick the box.",
    "instructions": "Listen to each question and click the picture that answers it.",
@@ -660,6 +581,85 @@
     }
    },
    "code": "J"
+  },
+  {
+   "type": "label_people",
+   "title": "Listen and write the names.",
+   "instructions": "Look at the picture. Listen and write the name under each person. Careful: there are three names you do not need.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Health & Wellbeing"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and label the people in the picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u06-g.mp3",
+   "data": {
+    "scene": "garden",
+    "place": "the school garden",
+    "people": [
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "clue": "the boy with red hair and a yellow shirt",
+      "action": "is singing",
+      "pose": 7
+     },
+     {
+      "slug": "kili",
+      "name": "Kili",
+      "clue": "the big black bird with a white collar",
+      "action": "is carrying a letter",
+      "pose": 3
+     },
+     {
+      "slug": "tino",
+      "name": "Tino",
+      "clue": "the boy with very short hair and a white and green shirt",
+      "action": "is playing hockey",
+      "pose": 7
+     },
+     {
+      "slug": "samu",
+      "name": "Samu",
+      "clue": "the boy with short fair hair and a rucksack",
+      "action": "is waving",
+      "pose": 7
+     },
+     {
+      "slug": "vega",
+      "name": "Mr Vega",
+      "clue": "the man in the blue shirt",
+      "action": "is showing the way to the sports centre",
+      "figura": "father"
+     }
+    ],
+    "names": [
+     "Diego",
+     "Iris",
+     "Kili",
+     "Maya",
+     "Mr Vega",
+     "Oliver",
+     "Samu",
+     "Tino"
+    ],
+    "script": "Look at the picture. Listen and write the names. There is one example. … Diego: Who is that in the school garden? The boy with red hair and a yellow shirt. … Maya: That is Oliver. Oliver is singing. … Diego: And who is the big black bird with a white collar? … Maya: That is Kili. Look, Kili is carrying a letter. … Diego: And who is the boy with very short hair and a white and green shirt? … Maya: That is Tino. Look, Tino is playing hockey. … Diego: And who is the boy with short fair hair and a rucksack? … Maya: That is Samu. Look, Samu is waving. … Diego: And who is the man in the blue shirt? … Maya: That is Mr Vega. Look, Mr Vega is showing the way to the sports centre.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
   }
  ],
  "homework": [

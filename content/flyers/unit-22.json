@@ -256,85 +256,6 @@
    "data": {}
   },
   {
-   "type": "label_people",
-   "title": "Listen and write the names.",
-   "instructions": "Look at the picture. Listen and write the name under each person. Careful: there are three names you do not need.",
-   "outputs": [
-    "digital"
-   ],
-   "kpi": {
-    "grado": "G5",
-    "cefr": "A2",
-    "examen": "Cambridge Flyers",
-    "tema": {
-     "n": 3,
-     "nombre": "The Natural World"
-    },
-    "destreza": "Listening",
-    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
-    "clase": "Flyers-style: listen and label the people in the picture",
-    "examen_parte": {
-     "paper": "Listening",
-     "part": 1
-    }
-   },
-   "audio": "flyers/u22-g.mp3",
-   "data": {
-    "scene": "zoo",
-    "place": "the zoo",
-    "people": [
-     {
-      "slug": "maya",
-      "name": "Maya",
-      "pose": 7,
-      "clue": "the girl in the green shirt with a magnifying glass",
-      "action": "is looking at something very small"
-     },
-     {
-      "slug": "kili",
-      "name": "Kili",
-      "pose": 3,
-      "clue": "the big black bird with a white collar",
-      "action": "is carrying a letter"
-     },
-     {
-      "slug": "samu",
-      "name": "Samu",
-      "pose": 7,
-      "clue": "the boy with short fair hair and a rucksack",
-      "action": "is waving"
-     },
-     {
-      "slug": "diego",
-      "name": "Diego",
-      "pose": 7,
-      "clue": "the boy in the red shirt with a microphone",
-      "action": "is asking questions with his microphone"
-     },
-     {
-      "slug": "iris",
-      "name": "Iris",
-      "pose": 7,
-      "clue": "the girl with a red ponytail and freckles",
-      "action": "is drawing with chalk on the ground"
-     }
-    ],
-    "names": [
-     "Bruno",
-     "Diego",
-     "Ingrid",
-     "Iris",
-     "Kili",
-     "Lia",
-     "Maya",
-     "Samu"
-    ],
-    "script": "Look at the picture. Listen and write the names. There is one example. … Diego: Who is that in the zoo? The girl in the green shirt with a magnifying glass. … Maya: That is Maya. Maya is looking at something very small. … Diego: And who is the big black bird with a white collar? … Maya: That is Kili. Look, Kili is carrying a letter. … Diego: And who is the boy with short fair hair and a rucksack? … Maya: That is Samu. Look, Samu is waving. … Diego: And who is the boy in the red shirt with a microphone? … Maya: That is Diego. Look, Diego is asking questions with his microphone. … Diego: And who is the girl with a red ponytail and freckles? … Maya: That is Iris. Look, Iris is drawing with chalk on the ground.",
-    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
-   },
-   "code": "G"
-  },
-  {
    "type": "picture_mc",
    "title": "Listen and tick the box.",
    "instructions": "Listen to each question and click the picture that answers it.",
@@ -636,6 +557,85 @@
     }
    },
    "code": "J"
+  },
+  {
+   "type": "label_people",
+   "title": "Listen and write the names.",
+   "instructions": "Look at the picture. Listen and write the name under each person. Careful: there are three names you do not need.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "The Natural World"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and label the people in the picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u22-g.mp3",
+   "data": {
+    "scene": "zoo",
+    "place": "the zoo",
+    "people": [
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "clue": "the girl in the green shirt with a magnifying glass",
+      "action": "is looking at something very small",
+      "pose": 7
+     },
+     {
+      "slug": "kili",
+      "name": "Kili",
+      "clue": "the big black bird with a white collar",
+      "action": "is carrying a letter",
+      "pose": 3
+     },
+     {
+      "slug": "samu",
+      "name": "Samu",
+      "clue": "the boy with short fair hair and a rucksack",
+      "action": "is waving",
+      "pose": 7
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "clue": "the boy in the red shirt with a microphone",
+      "action": "is asking questions with his microphone",
+      "pose": 7
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "clue": "the girl with a red ponytail and freckles",
+      "action": "is drawing with chalk on the ground",
+      "pose": 7
+     }
+    ],
+    "names": [
+     "Bruno",
+     "Diego",
+     "Ingrid",
+     "Iris",
+     "Kili",
+     "Lia",
+     "Maya",
+     "Samu"
+    ],
+    "script": "Look at the picture. Listen and write the names. There is one example. … Diego: Who is that in the zoo? The girl in the green shirt with a magnifying glass. … Maya: That is Maya. Maya is looking at something very small. … Diego: And who is the big black bird with a white collar? … Maya: That is Kili. Look, Kili is carrying a letter. … Diego: And who is the boy with short fair hair and a rucksack? … Maya: That is Samu. Look, Samu is waving. … Diego: And who is the boy in the red shirt with a microphone? … Maya: That is Diego. Look, Diego is asking questions with his microphone. … Diego: And who is the girl with a red ponytail and freckles? … Maya: That is Iris. Look, Iris is drawing with chalk on the ground.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
   }
  ],
  "homework": [

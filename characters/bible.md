@@ -137,9 +137,15 @@ escenas — no tienen carpeta propia en `assets/characters/`.
 
 # Secundarios del pueblo
 
+> **Mr Vega es el único de esta tabla que sale en las LÁMINAS**, no solo en los
+> textos, así que es el único al que la figura compartida se le queda corta: en
+> cuanto pose o haya dos adultos en una escena hace falta hoja propia. El prompt
+> está en [prompts-vega.md](prompts-vega.md).
+
 | slug | Nombre | Quién es | Figura del banco | Dónde sale |
 |------|--------|----------|------------------|------------|
 | pedro | Pedro | El taxista | `father.png` | Flyers (viajes) |
+| vega | **Mr Vega** | El conserje del colegio. Ocupa el slot de **guía adulto** del reparto de Flyers (el que Cambridge cubre con Mr Jones). | `father.png` — provisional | Láminas de Flyers, 18 unidades |
 | ana | Ana | Compañera de otra clase | `sister.png` | Starters 20 |
 | carla | Carla | Compañera de otra clase | `sister.png` | Flyers 51 |
 

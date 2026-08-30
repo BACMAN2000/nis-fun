@@ -255,85 +255,6 @@
    "data": {}
   },
   {
-   "type": "label_people",
-   "title": "Listen and write the names.",
-   "instructions": "Look at the picture. Listen and write the name under each person. Careful: there are three names you do not need.",
-   "outputs": [
-    "digital"
-   ],
-   "kpi": {
-    "grado": "G5",
-    "cefr": "A2",
-    "examen": "Cambridge Flyers",
-    "tema": {
-     "n": 4,
-     "nombre": "People & Cultures"
-    },
-    "destreza": "Listening",
-    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
-    "clase": "Flyers-style: listen and label the people in the picture",
-    "examen_parte": {
-     "paper": "Listening",
-     "part": 1
-    }
-   },
-   "audio": "flyers/u24-g.mp3",
-   "data": {
-    "scene": "facade",
-    "place": "the front of the school",
-    "people": [
-     {
-      "slug": "diego",
-      "name": "Diego",
-      "pose": 7,
-      "clue": "the boy in the red shirt with a microphone",
-      "action": "is asking questions with his microphone"
-     },
-     {
-      "slug": "kili",
-      "name": "Kili",
-      "pose": 3,
-      "clue": "the big black bird with a white collar",
-      "action": "is carrying a letter"
-     },
-     {
-      "slug": "grum",
-      "name": "Grum",
-      "pose": 1,
-      "clue": "the big green monster with three eyes and a lot of hair",
-      "action": "is smiling"
-     },
-     {
-      "slug": "zog",
-      "name": "Zog",
-      "pose": 1,
-      "clue": "the purple monster with one eye and two very long arms",
-      "action": "is waving one long arm"
-     },
-     {
-      "slug": "zip",
-      "name": "Zip",
-      "pose": 1,
-      "clue": "the little round orange monster with four eyes",
-      "action": "is jumping"
-     }
-    ],
-    "names": [
-     "Aiko",
-     "Diego",
-     "Grum",
-     "Kili",
-     "Lia",
-     "Maya",
-     "Zip",
-     "Zog"
-    ],
-    "script": "Look at the picture. Listen and write the names. There is one example. … Diego: Who is that in the front of the school? The boy in the red shirt with a microphone. … Maya: That is Diego. Diego is asking questions with his microphone. … Diego: And who is the big black bird with a white collar? … Maya: That is Kili. Look, Kili is carrying a letter. … Diego: And who is the big green monster with three eyes and a lot of hair? … Maya: That is Grum. Look, Grum is smiling. … Diego: And who is the purple monster with one eye and two very long arms? … Maya: That is Zog. Look, Zog is waving one long arm. … Diego: And who is the little round orange monster with four eyes? … Maya: That is Zip. Look, Zip is jumping.",
-    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
-   },
-   "code": "G"
-  },
-  {
    "type": "picture_story",
    "title": "Look at the three pictures and write the story.",
    "instructions": "Look at the pictures. Write the story in 20-25 words. Use the words under each picture to help you.",
@@ -423,6 +344,85 @@
     }
    },
    "code": "H"
+  },
+  {
+   "type": "label_people",
+   "title": "Listen and write the names.",
+   "instructions": "Look at the picture. Listen and write the name under each person. Careful: there are three names you do not need.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 4,
+     "nombre": "People & Cultures"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and label the people in the picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u24-g.mp3",
+   "data": {
+    "scene": "facade",
+    "place": "the front of the school",
+    "people": [
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "clue": "the boy in the red shirt with a microphone",
+      "action": "is asking questions with his microphone",
+      "pose": 7
+     },
+     {
+      "slug": "kili",
+      "name": "Kili",
+      "clue": "the big black bird with a white collar",
+      "action": "is carrying a letter",
+      "pose": 3
+     },
+     {
+      "slug": "grum",
+      "name": "Grum",
+      "clue": "the big green monster with three eyes and a lot of hair",
+      "action": "is smiling",
+      "pose": 1
+     },
+     {
+      "slug": "zog",
+      "name": "Zog",
+      "clue": "the purple monster with one eye and two very long arms",
+      "action": "is waving one long arm",
+      "pose": 1
+     },
+     {
+      "slug": "vega",
+      "name": "Mr Vega",
+      "clue": "the man in the blue shirt",
+      "action": "is showing the way to the sports centre",
+      "figura": "father"
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Diego",
+     "Grum",
+     "Kili",
+     "Lia",
+     "Maya",
+     "Mr Vega",
+     "Zog"
+    ],
+    "script": "Look at the picture. Listen and write the names. There is one example. … Diego: Who is that in the front of the school? The boy in the red shirt with a microphone. … Maya: That is Diego. Diego is asking questions with his microphone. … Diego: And who is the big black bird with a white collar? … Maya: That is Kili. Look, Kili is carrying a letter. … Diego: And who is the big green monster with three eyes and a lot of hair? … Maya: That is Grum. Look, Grum is smiling. … Diego: And who is the purple monster with one eye and two very long arms? … Maya: That is Zog. Look, Zog is waving one long arm. … Diego: And who is the man in the blue shirt? … Maya: That is Mr Vega. Look, Mr Vega is showing the way to the sports centre.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
   }
  ],
  "homework": [

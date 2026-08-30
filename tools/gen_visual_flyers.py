@@ -29,8 +29,9 @@ Reglas que no se rompen (si se editan las actividades a mano, respetarlas):
 
 Idempotente y determinista (la semilla es el numero de unidad):
 
-    python tools/gen_visual_flyers.py            # escribe
-    python tools/gen_visual_flyers.py --dry      # solo informa
+    python tools/gen_visual_flyers.py                       # escribe lo que falte
+    python tools/gen_visual_flyers.py --dry                 # solo informa
+    python tools/gen_visual_flyers.py --rehacer label_people  # rehace ese tipo
 """
 import glob
 import io
@@ -45,6 +46,14 @@ CONTENIDO = os.path.join(RAIZ, "content", "flyers")
 NUEVOS = ("label_people", "picture_mc", "match_pictures", "picture_story")
 
 DRY = "--dry" in sys.argv
+# --rehacer TIPO borra ese tipo y lo vuelve a generar. Hace falta cuando cambia
+# la RECETA y no el contenido: sin esto, un generador idempotente nunca aplica
+# una mejora a lo que ya existe.
+REHACER = None
+if "--rehacer" in sys.argv:
+    i = sys.argv.index("--rehacer")
+    if i + 1 < len(sys.argv):
+        REHACER = sys.argv[i + 1]
 
 
 def lee(ruta):
@@ -199,7 +208,10 @@ def articulo(w):
 # ---------------------------------------------------------------------------
 # Reparto: quien sale en esta unidad
 # ---------------------------------------------------------------------------
-COMPANEROS = [s for s, p in PERS.items() if not p.get("principal") and p["tipo"] != "monstruo"]
+COMPANEROS = [s for s, p in PERS.items()
+              if not p.get("principal") and p["tipo"] not in ("monstruo", "adulto")
+              and p.get("poses")]
+ADULTOS = [s for s, p in PERS.items() if p["tipo"] == "adulto"]
 PRINCIPALES = [s for s, p in PERS.items() if p.get("principal")]
 
 
@@ -222,6 +234,18 @@ def elenco(ud, rnd, cuantos):
             fuera.add(s)
     orden = [c for c in propios + resto if c not in fuera or c in propios]
     return orden[:cuantos]
+
+
+def usa_figura(slug_p):
+    """Los adultos se dibujan con una figura del banco 3D, no con carpeta de
+    poses. Lo decidio la biblia mucho antes que esto: los padres, tios y
+    abuelos del curso salen de assets/vocab. Un personaje asi solo puede
+    estar de pie, asi que se le deja fuera de todo lo que pide una pose."""
+    return bool(PERS[slug_p].get("figura"))
+
+
+def figura_de(slug_p):
+    return {"slug": slug_p, "figura": PERS[slug_p]["figura"]}
 
 
 def pose(slug_p, rnd, prefiere=None):
@@ -309,16 +333,22 @@ def label_people(ud, rnd):
         return None
     sitio = lugar(ud, rnd)
 
+    # Un adulto entre los ninos, en una de cada tres unidades. En un colegio
+    # hay adultos, y la lamina donde solo salen ninos se nota. Es ademas lo
+    # unico que una figura del banco permite: estar en la escena.
+    if ADULTOS and ud["number"] % 3 == 0:
+        gente = gente[:-1] + [ADULTOS[ud["number"] % len(ADULTOS)]]
+
     personas = []
     for s in gente:
         p = PERS[s]
-        personas.append({
-            "slug": s,
-            "name": p["nombre"],
-            "pose": pose(s, rnd, [7, 3, 1, 6]),
-            "clue": p["rasgo"],
-            "action": p["accion"],
-        })
+        quien = {"slug": s, "name": p["nombre"],
+                 "clue": p["rasgo"], "action": p["accion"]}
+        if usa_figura(s):
+            quien["figura"] = p["figura"]
+        else:
+            quien["pose"] = pose(s, rnd, [7, 3, 1, 6])
+        personas.append(quien)
 
     # Tres nombres de mas. Cambridge siempre deja nombres sin usar: obliga a
     # escuchar entero en vez de repartir por eliminacion.
@@ -1014,6 +1044,9 @@ def main():
     tocadas = 0
 
     for ruta, ud in unidades:
+        if REHACER:
+            ud["activities"] = [a for a in ud.get("activities", [])
+                                if a.get("type") != REHACER]
         ya = {a.get("type") for a in ud.get("activities", [])}
         pendientes = [t for t in NUEVOS if t not in ya]
         if not pendientes:

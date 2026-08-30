@@ -106,13 +106,6 @@
    "visuales": [
     {
      "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "H",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
-     "paper": "Listening",
      "part": 4,
      "tipo": "picture_mc",
      "code": "I",
@@ -131,6 +124,13 @@
      "tipo": "picture_story",
      "code": "K",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "H",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -141,13 +141,6 @@
     "part": 1
    },
    "visuales": [
-    {
-     "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "I",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
     {
      "paper": "Listening",
      "part": 4,
@@ -168,6 +161,13 @@
      "tipo": "picture_story",
      "code": "L",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "I",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -179,18 +179,18 @@
    },
    "visuales": [
     {
-     "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "H",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
      "paper": "Reading & Writing",
      "part": 7,
      "tipo": "picture_story",
      "code": "I",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "H",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -203,13 +203,6 @@
    "visuales": [
     {
      "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
-     "paper": "Listening",
      "part": 4,
      "tipo": "picture_mc",
      "code": "H",
@@ -228,6 +221,13 @@
      "tipo": "picture_story",
      "code": "J",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -240,13 +240,6 @@
    "visuales": [
     {
      "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
-     "paper": "Listening",
      "part": 4,
      "tipo": "picture_mc",
      "code": "H",
@@ -265,6 +258,13 @@
      "tipo": "picture_story",
      "code": "J",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -277,13 +277,6 @@
    "visuales": [
     {
      "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
-     "paper": "Listening",
      "part": 4,
      "tipo": "picture_mc",
      "code": "H",
@@ -302,6 +295,13 @@
      "tipo": "picture_story",
      "code": "J",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -314,13 +314,6 @@
    "visuales": [
     {
      "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
-     "paper": "Listening",
      "part": 4,
      "tipo": "picture_mc",
      "code": "H",
@@ -339,6 +332,13 @@
      "tipo": "picture_story",
      "code": "J",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -351,13 +351,6 @@
    "visuales": [
     {
      "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
-     "paper": "Listening",
      "part": 4,
      "tipo": "picture_mc",
      "code": "H",
@@ -376,6 +369,13 @@
      "tipo": "picture_story",
      "code": "J",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -388,13 +388,6 @@
    "visuales": [
     {
      "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
-     "paper": "Listening",
      "part": 4,
      "tipo": "picture_mc",
      "code": "H",
@@ -413,6 +406,13 @@
      "tipo": "picture_story",
      "code": "J",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -423,13 +423,6 @@
     "part": 1
    },
    "visuales": [
-    {
-     "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
     {
      "paper": "Reading & Writing",
      "part": 7,
@@ -443,6 +436,13 @@
      "tipo": "picture_mc",
      "code": "I",
      "clase": "Flyers-style: listen and tick the right picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -455,13 +455,6 @@
    "visuales": [
     {
      "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
-     "paper": "Listening",
      "part": 4,
      "tipo": "picture_mc",
      "code": "H",
@@ -480,6 +473,13 @@
      "tipo": "picture_story",
      "code": "J",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -492,13 +492,6 @@
    "visuales": [
     {
      "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
-     "paper": "Listening",
      "part": 4,
      "tipo": "picture_mc",
      "code": "H",
@@ -517,6 +510,13 @@
      "tipo": "picture_story",
      "code": "J",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -529,13 +529,6 @@
    "visuales": [
     {
      "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
-     "paper": "Listening",
      "part": 4,
      "tipo": "picture_mc",
      "code": "H",
@@ -554,6 +547,13 @@
      "tipo": "picture_story",
      "code": "J",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -565,18 +565,18 @@
    },
    "visuales": [
     {
-     "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
      "paper": "Reading & Writing",
      "part": 7,
      "tipo": "picture_story",
      "code": "H",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -589,13 +589,6 @@
    "visuales": [
     {
      "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
-     "paper": "Listening",
      "part": 4,
      "tipo": "picture_mc",
      "code": "H",
@@ -614,6 +607,13 @@
      "tipo": "picture_story",
      "code": "J",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -625,13 +625,6 @@
    },
    "visuales": [
     {
-     "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
      "paper": "Reading & Writing",
      "part": 7,
      "tipo": "picture_story",
@@ -651,6 +644,13 @@
      "tipo": "match_pictures",
      "code": "J",
      "clase": "Flyers-style: listen and match each person to a picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -662,18 +662,18 @@
    },
    "visuales": [
     {
-     "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
      "paper": "Reading & Writing",
      "part": 7,
      "tipo": "picture_story",
      "code": "H",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -684,13 +684,6 @@
     "part": 2
    },
    "visuales": [
-    {
-     "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
     {
      "paper": "Reading & Writing",
      "part": 7,
@@ -711,6 +704,13 @@
      "tipo": "match_pictures",
      "code": "J",
      "clase": "Flyers-style: listen and match each person to a picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -723,13 +723,6 @@
    "visuales": [
     {
      "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
-     "paper": "Listening",
      "part": 4,
      "tipo": "picture_mc",
      "code": "H",
@@ -748,6 +741,13 @@
      "tipo": "picture_story",
      "code": "J",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -760,13 +760,6 @@
    "visuales": [
     {
      "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
-     "paper": "Listening",
      "part": 4,
      "tipo": "picture_mc",
      "code": "H",
@@ -778,6 +771,13 @@
      "tipo": "picture_story",
      "code": "I",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -790,13 +790,6 @@
    "visuales": [
     {
      "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
-     "paper": "Listening",
      "part": 4,
      "tipo": "picture_mc",
      "code": "H",
@@ -815,6 +808,13 @@
      "tipo": "picture_story",
      "code": "J",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -827,13 +827,6 @@
    "visuales": [
     {
      "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
-     "paper": "Listening",
      "part": 4,
      "tipo": "picture_mc",
      "code": "H",
@@ -852,6 +845,13 @@
      "tipo": "picture_story",
      "code": "J",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -864,13 +864,6 @@
    "visuales": [
     {
      "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
-     "paper": "Listening",
      "part": 4,
      "tipo": "picture_mc",
      "code": "H",
@@ -889,6 +882,13 @@
      "tipo": "picture_story",
      "code": "J",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -900,18 +900,18 @@
    },
    "visuales": [
     {
-     "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
      "paper": "Reading & Writing",
      "part": 7,
      "tipo": "picture_story",
      "code": "H",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -923,18 +923,18 @@
    },
    "visuales": [
     {
-     "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
      "paper": "Reading & Writing",
      "part": 7,
      "tipo": "picture_story",
      "code": "H",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -946,18 +946,18 @@
    },
    "visuales": [
     {
-     "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
      "paper": "Reading & Writing",
      "part": 7,
      "tipo": "picture_story",
      "code": "H",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -969,18 +969,18 @@
    },
    "visuales": [
     {
-     "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
      "paper": "Reading & Writing",
      "part": 7,
      "tipo": "picture_story",
      "code": "H",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -992,18 +992,18 @@
    },
    "visuales": [
     {
-     "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
      "paper": "Reading & Writing",
      "part": 7,
      "tipo": "picture_story",
      "code": "H",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -1014,13 +1014,6 @@
     "part": 4
    },
    "visuales": [
-    {
-     "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
     {
      "paper": "Reading & Writing",
      "part": 7,
@@ -1034,6 +1027,13 @@
      "tipo": "picture_mc",
      "code": "I",
      "clase": "Flyers-style: listen and tick the right picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -1046,13 +1046,6 @@
    "visuales": [
     {
      "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
-     "paper": "Listening",
      "part": 4,
      "tipo": "picture_mc",
      "code": "H",
@@ -1071,6 +1064,13 @@
      "tipo": "picture_story",
      "code": "J",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -1083,13 +1083,6 @@
    "visuales": [
     {
      "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
-     "paper": "Listening",
      "part": 4,
      "tipo": "picture_mc",
      "code": "H",
@@ -1108,6 +1101,13 @@
      "tipo": "picture_story",
      "code": "J",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -1120,13 +1120,6 @@
    "visuales": [
     {
      "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
-     "paper": "Listening",
      "part": 4,
      "tipo": "picture_mc",
      "code": "H",
@@ -1145,6 +1138,13 @@
      "tipo": "picture_story",
      "code": "J",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -1156,13 +1156,6 @@
    },
    "visuales": [
     {
-     "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
      "paper": "Reading & Writing",
      "part": 7,
      "tipo": "picture_story",
@@ -1182,6 +1175,13 @@
      "tipo": "match_pictures",
      "code": "J",
      "clase": "Flyers-style: listen and match each person to a picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -1192,13 +1192,6 @@
     "part": 4
    },
    "visuales": [
-    {
-     "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
     {
      "paper": "Reading & Writing",
      "part": 7,
@@ -1212,6 +1205,13 @@
      "tipo": "picture_mc",
      "code": "I",
      "clase": "Flyers-style: listen and tick the right picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -1224,13 +1224,6 @@
    "visuales": [
     {
      "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
-     "paper": "Listening",
      "part": 4,
      "tipo": "picture_mc",
      "code": "H",
@@ -1242,6 +1235,13 @@
      "tipo": "picture_story",
      "code": "I",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -1253,18 +1253,18 @@
    },
    "visuales": [
     {
-     "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
      "paper": "Reading & Writing",
      "part": 7,
      "tipo": "picture_story",
      "code": "H",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -1275,13 +1275,6 @@
     "part": 1
    },
    "visuales": [
-    {
-     "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
     {
      "paper": "Reading & Writing",
      "part": 7,
@@ -1302,6 +1295,13 @@
      "tipo": "match_pictures",
      "code": "J",
      "clase": "Flyers-style: listen and match each person to a picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -1314,13 +1314,6 @@
    "visuales": [
     {
      "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
-     "paper": "Listening",
      "part": 4,
      "tipo": "picture_mc",
      "code": "H",
@@ -1332,6 +1325,13 @@
      "tipo": "picture_story",
      "code": "I",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -1344,13 +1344,6 @@
    "visuales": [
     {
      "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
-     "paper": "Listening",
      "part": 4,
      "tipo": "picture_mc",
      "code": "H",
@@ -1369,6 +1362,13 @@
      "tipo": "picture_story",
      "code": "J",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -1380,13 +1380,6 @@
    },
    "visuales": [
     {
-     "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
      "paper": "Reading & Writing",
      "part": 7,
      "tipo": "picture_story",
@@ -1399,6 +1392,13 @@
      "tipo": "picture_mc",
      "code": "I",
      "clase": "Flyers-style: listen and tick the right picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -1410,13 +1410,6 @@
    },
    "visuales": [
     {
-     "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
      "paper": "Reading & Writing",
      "part": 7,
      "tipo": "picture_story",
@@ -1429,6 +1422,13 @@
      "tipo": "picture_mc",
      "code": "I",
      "clase": "Flyers-style: listen and tick the right picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -1440,18 +1440,18 @@
    },
    "visuales": [
     {
-     "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
      "paper": "Reading & Writing",
      "part": 7,
      "tipo": "picture_story",
      "code": "H",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -1464,13 +1464,6 @@
    "visuales": [
     {
      "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
-     "paper": "Listening",
      "part": 4,
      "tipo": "picture_mc",
      "code": "H",
@@ -1489,6 +1482,13 @@
      "tipo": "picture_story",
      "code": "J",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -1499,13 +1499,6 @@
     "part": 2
    },
    "visuales": [
-    {
-     "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
     {
      "paper": "Reading & Writing",
      "part": 7,
@@ -1519,6 +1512,20 @@
      "tipo": "match_pictures",
      "code": "I",
      "clase": "Flyers-style: listen and match each person to a picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
+    },
+    {
+     "paper": "Listening",
+     "part": 4,
+     "tipo": "picture_mc",
+     "code": "J",
+     "clase": "Flyers-style: listen and tick the right picture"
     }
    ]
   },
@@ -1531,13 +1538,6 @@
    "visuales": [
     {
      "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
-     "paper": "Listening",
      "part": 4,
      "tipo": "picture_mc",
      "code": "H",
@@ -1556,6 +1556,13 @@
      "tipo": "picture_story",
      "code": "J",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -1568,13 +1575,6 @@
    "visuales": [
     {
      "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
-     "paper": "Listening",
      "part": 4,
      "tipo": "picture_mc",
      "code": "H",
@@ -1593,6 +1593,13 @@
      "tipo": "picture_story",
      "code": "J",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -1604,18 +1611,18 @@
    },
    "visuales": [
     {
-     "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
      "paper": "Reading & Writing",
      "part": 7,
      "tipo": "picture_story",
      "code": "H",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -1627,18 +1634,18 @@
    },
    "visuales": [
     {
-     "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
      "paper": "Reading & Writing",
      "part": 7,
      "tipo": "picture_story",
      "code": "H",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -1650,18 +1657,18 @@
    },
    "visuales": [
     {
-     "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
      "paper": "Reading & Writing",
      "part": 7,
      "tipo": "picture_story",
      "code": "H",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -1673,18 +1680,18 @@
    },
    "visuales": [
     {
-     "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
      "paper": "Reading & Writing",
      "part": 7,
      "tipo": "picture_story",
      "code": "H",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -1697,13 +1704,6 @@
    "visuales": [
     {
      "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
-     "paper": "Listening",
      "part": 4,
      "tipo": "picture_mc",
      "code": "H",
@@ -1715,6 +1715,13 @@
      "tipo": "picture_story",
      "code": "I",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -1726,18 +1733,18 @@
    },
    "visuales": [
     {
-     "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
      "paper": "Reading & Writing",
      "part": 7,
      "tipo": "picture_story",
      "code": "H",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -1749,18 +1756,18 @@
    },
    "visuales": [
     {
-     "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
      "paper": "Reading & Writing",
      "part": 7,
      "tipo": "picture_story",
      "code": "H",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -1772,18 +1779,18 @@
    },
    "visuales": [
     {
-     "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
-    {
      "paper": "Reading & Writing",
      "part": 7,
      "tipo": "picture_story",
      "code": "H",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   },
@@ -1794,13 +1801,6 @@
     "part": 0
    },
    "visuales": [
-    {
-     "paper": "Listening",
-     "part": 1,
-     "tipo": "label_people",
-     "code": "G",
-     "clase": "Flyers-style: listen and label the people in the picture"
-    },
     {
      "paper": "Listening",
      "part": 4,
@@ -1821,6 +1821,13 @@
      "tipo": "picture_story",
      "code": "J",
      "clase": "Flyers-style: 20-25-word picture story (Writing Part 3)"
+    },
+    {
+     "paper": "Listening",
+     "part": 1,
+     "tipo": "label_people",
+     "code": "G",
+     "clase": "Flyers-style: listen and label the people in the picture"
     }
    ]
   }

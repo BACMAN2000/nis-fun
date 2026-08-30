@@ -102,6 +102,15 @@ def revisa_persona(u, code, p):
     if slug not in G.PERS:
         falla(u, code, "personaje fuera de la biblia: %s" % slug)
         return
+    if p.get("figura"):
+        # adulto dibujado con una figura del banco: no tiene pose que comprobar,
+        # pero el archivo si tiene que estar
+        f = os.path.join(RAIZ, "assets", "vocab", p["figura"] + ".png")
+        if not os.path.exists(f):
+            falla(u, code, "falta la figura del banco %s.png" % p["figura"])
+        if G.PERS[slug].get("figura") != p["figura"]:
+            falla(u, code, "%s usa una figura que el reparto no le asigna" % slug)
+        return
     pose = p.get("pose", 1)
     if pose not in G.PERS[slug]["poses"]:
         falla(u, code, "%s no tiene la pose %s segun el reparto" % (slug, pose))

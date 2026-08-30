@@ -238,85 +238,6 @@
    "data": {}
   },
   {
-   "type": "label_people",
-   "title": "Listen and write the names.",
-   "instructions": "Look at the picture. Listen and write the name under each person. Careful: there are three names you do not need.",
-   "outputs": [
-    "digital"
-   ],
-   "kpi": {
-    "grado": "G5",
-    "cefr": "A2",
-    "examen": "Cambridge Flyers",
-    "tema": {
-     "n": 1,
-     "nombre": "Personal Identity"
-    },
-    "destreza": "Listening",
-    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
-    "clase": "Flyers-style: listen and label the people in the picture",
-    "examen_parte": {
-     "paper": "Listening",
-     "part": 1
-    }
-   },
-   "audio": "flyers/u55-g.mp3",
-   "data": {
-    "scene": "campus-hex",
-    "place": "the school courtyard",
-    "people": [
-     {
-      "slug": "ingrid",
-      "name": "Ingrid",
-      "pose": 7,
-      "clue": "the girl with fair hair and a dark blue jacket",
-      "action": "is reading the plan for the day"
-     },
-     {
-      "slug": "diego",
-      "name": "Diego",
-      "pose": 7,
-      "clue": "the boy in the red shirt with a microphone",
-      "action": "is asking questions with his microphone"
-     },
-     {
-      "slug": "maya",
-      "name": "Maya",
-      "pose": 7,
-      "clue": "the girl in the green shirt with a magnifying glass",
-      "action": "is looking at something very small"
-     },
-     {
-      "slug": "oliver",
-      "name": "Oliver",
-      "pose": 7,
-      "clue": "the boy with red hair and a yellow shirt",
-      "action": "is singing"
-     },
-     {
-      "slug": "kili",
-      "name": "Kili",
-      "pose": 3,
-      "clue": "the big black bird with a white collar",
-      "action": "is carrying a letter"
-     }
-    ],
-    "names": [
-     "Aiko",
-     "Bruno",
-     "Diego",
-     "Ingrid",
-     "Iris",
-     "Kili",
-     "Maya",
-     "Oliver"
-    ],
-    "script": "Look at the picture. Listen and write the names. There is one example. … Diego: Who is that in the school courtyard? The girl with fair hair and a dark blue jacket. … Maya: That is Ingrid. Ingrid is reading the plan for the day. … Diego: And who is the boy in the red shirt with a microphone? … Maya: That is Diego. Look, Diego is asking questions with his microphone. … Diego: And who is the girl in the green shirt with a magnifying glass? … Maya: That is Maya. Look, Maya is looking at something very small. … Diego: And who is the boy with red hair and a yellow shirt? … Maya: That is Oliver. Look, Oliver is singing. … Diego: And who is the big black bird with a white collar? … Maya: That is Kili. Look, Kili is carrying a letter.",
-    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
-   },
-   "code": "G"
-  },
-  {
    "type": "picture_mc",
    "title": "Listen and tick the box.",
    "instructions": "Listen to each question and click the picture that answers it.",
@@ -643,6 +564,85 @@
     }
    },
    "code": "J"
+  },
+  {
+   "type": "label_people",
+   "title": "Listen and write the names.",
+   "instructions": "Look at the picture. Listen and write the name under each person. Careful: there are three names you do not need.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 1,
+     "nombre": "Personal Identity"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and label the people in the picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u55-g.mp3",
+   "data": {
+    "scene": "campus-hex",
+    "place": "the school courtyard",
+    "people": [
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "clue": "the girl with fair hair and a dark blue jacket",
+      "action": "is reading the plan for the day",
+      "pose": 7
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "clue": "the boy in the red shirt with a microphone",
+      "action": "is asking questions with his microphone",
+      "pose": 7
+     },
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "clue": "the girl in the green shirt with a magnifying glass",
+      "action": "is looking at something very small",
+      "pose": 7
+     },
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "clue": "the boy with red hair and a yellow shirt",
+      "action": "is singing",
+      "pose": 7
+     },
+     {
+      "slug": "kili",
+      "name": "Kili",
+      "clue": "the big black bird with a white collar",
+      "action": "is carrying a letter",
+      "pose": 3
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Bruno",
+     "Diego",
+     "Ingrid",
+     "Kili",
+     "Maya",
+     "Oliver",
+     "Tino"
+    ],
+    "script": "Look at the picture. Listen and write the names. There is one example. … Diego: Who is that in the school courtyard? The girl with fair hair and a dark blue jacket. … Maya: That is Ingrid. Ingrid is reading the plan for the day. … Diego: And who is the boy in the red shirt with a microphone? … Maya: That is Diego. Look, Diego is asking questions with his microphone. … Diego: And who is the girl in the green shirt with a magnifying glass? … Maya: That is Maya. Look, Maya is looking at something very small. … Diego: And who is the boy with red hair and a yellow shirt? … Maya: That is Oliver. Look, Oliver is singing. … Diego: And who is the big black bird with a white collar? … Maya: That is Kili. Look, Kili is carrying a letter.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
   }
  ],
  "homework": [

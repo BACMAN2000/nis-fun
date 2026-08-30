@@ -43,6 +43,9 @@ NO_SON = {
     "brother", "baby", "aunt", "uncle", "cousin", "teacher", "miss", "mr",
     "mrs", "how", "what", "where", "when", "who", "why", "there", "these",
     "those", "some", "many", "much", "very", "well", "good", "great",
+    # "Careful: there are three names you do not need." -- empieza instruccion
+    # de las laminas, no es nadie
+    "careful",
     "sorry", "please", "thanks", "thank", "welcome", "goodbye", "bye",
     "wow", "oops", "shhh", "woof", "meow", "roar", "choo",
     # etiquetas de las fichas de actividad, no personas

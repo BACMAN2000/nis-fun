@@ -255,85 +255,6 @@
    "data": {}
   },
   {
-   "type": "label_people",
-   "title": "Listen and write the names.",
-   "instructions": "Look at the picture. Listen and write the name under each person. Careful: there are three names you do not need.",
-   "outputs": [
-    "digital"
-   ],
-   "kpi": {
-    "grado": "G5",
-    "cefr": "A2",
-    "examen": "Cambridge Flyers",
-    "tema": {
-     "n": 3,
-     "nombre": "The Natural World"
-    },
-    "destreza": "Listening",
-    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
-    "clase": "Flyers-style: listen and label the people in the picture",
-    "examen_parte": {
-     "paper": "Listening",
-     "part": 1
-    }
-   },
-   "audio": "flyers/u44-g.mp3",
-   "data": {
-    "scene": "mirador",
-    "place": "the viewpoint",
-    "people": [
-     {
-      "slug": "oliver",
-      "name": "Oliver",
-      "pose": 7,
-      "clue": "the boy with red hair and a yellow shirt",
-      "action": "is singing"
-     },
-     {
-      "slug": "diego",
-      "name": "Diego",
-      "pose": 7,
-      "clue": "the boy in the red shirt with a microphone",
-      "action": "is asking questions with his microphone"
-     },
-     {
-      "slug": "samu",
-      "name": "Samu",
-      "pose": 7,
-      "clue": "the boy with short fair hair and a rucksack",
-      "action": "is waving"
-     },
-     {
-      "slug": "aiko",
-      "name": "Aiko",
-      "pose": 7,
-      "clue": "the girl with long straight black hair and an orange shirt",
-      "action": "is reading a book"
-     },
-     {
-      "slug": "lia",
-      "name": "Lia",
-      "pose": 7,
-      "clue": "the girl with black plaits and a purple shirt",
-      "action": "is jumping with a skipping rope"
-     }
-    ],
-    "names": [
-     "Aiko",
-     "Bruno",
-     "Diego",
-     "Lia",
-     "Maya",
-     "Oliver",
-     "Samu",
-     "Tino"
-    ],
-    "script": "Look at the picture. Listen and write the names. There is one example. … Diego: Who is that in the viewpoint? The boy with red hair and a yellow shirt. … Maya: That is Oliver. Oliver is singing. … Diego: And who is the boy in the red shirt with a microphone? … Maya: That is Diego. Look, Diego is asking questions with his microphone. … Diego: And who is the boy with short fair hair and a rucksack? … Maya: That is Samu. Look, Samu is waving. … Diego: And who is the girl with long straight black hair and an orange shirt? … Maya: That is Aiko. Look, Aiko is reading a book. … Diego: And who is the girl with black plaits and a purple shirt? … Maya: That is Lia. Look, Lia is jumping with a skipping rope.",
-    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
-   },
-   "code": "G"
-  },
-  {
    "type": "picture_story",
    "title": "Look at the three pictures and write the story.",
    "instructions": "Look at the pictures. Write the story in 20-25 words. Use the words under each picture to help you.",
@@ -554,6 +475,202 @@
     "voice_note": "Diego pregunta; cada uno responde."
    },
    "code": "I"
+  },
+  {
+   "type": "label_people",
+   "title": "Listen and write the names.",
+   "instructions": "Look at the picture. Listen and write the name under each person. Careful: there are three names you do not need.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "The Natural World"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and label the people in the picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u44-g.mp3",
+   "data": {
+    "scene": "mirador",
+    "place": "the viewpoint",
+    "people": [
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "clue": "the boy with red hair and a yellow shirt",
+      "action": "is singing",
+      "pose": 7
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "clue": "the boy in the red shirt with a microphone",
+      "action": "is asking questions with his microphone",
+      "pose": 7
+     },
+     {
+      "slug": "samu",
+      "name": "Samu",
+      "clue": "the boy with short fair hair and a rucksack",
+      "action": "is waving",
+      "pose": 7
+     },
+     {
+      "slug": "aiko",
+      "name": "Aiko",
+      "clue": "the girl with long straight black hair and an orange shirt",
+      "action": "is reading a book",
+      "pose": 7
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "clue": "the girl with black plaits and a purple shirt",
+      "action": "is jumping with a skipping rope",
+      "pose": 7
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Bruno",
+     "Diego",
+     "Lia",
+     "Mr Vega",
+     "Oliver",
+     "Samu",
+     "Tino"
+    ],
+    "script": "Look at the picture. Listen and write the names. There is one example. … Diego: Who is that in the viewpoint? The boy with red hair and a yellow shirt. … Maya: That is Oliver. Oliver is singing. … Diego: And who is the boy in the red shirt with a microphone? … Maya: That is Diego. Look, Diego is asking questions with his microphone. … Diego: And who is the boy with short fair hair and a rucksack? … Maya: That is Samu. Look, Samu is waving. … Diego: And who is the girl with long straight black hair and an orange shirt? … Maya: That is Aiko. Look, Aiko is reading a book. … Diego: And who is the girl with black plaits and a purple shirt? … Maya: That is Lia. Look, Lia is jumping with a skipping rope.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  },
+  {
+   "type": "picture_mc",
+   "title": "Listen and tick the box.",
+   "instructions": "Listen to each question and click the picture that answers it.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "The Natural World"
+    },
+    "destreza": "Listening",
+    "puede": "Understand dialogues and short stories (Flyers parts 1–5); infer mood from intonation.",
+    "clase": "Flyers-style: listen and tick the right picture",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u44-j.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "What did Oliver do yesterday?",
+      "answer": "talking",
+      "options": [
+       {
+        "k": "pose",
+        "slug": "oliver",
+        "pose": 3,
+        "v": "talking",
+        "pie": "talking"
+       },
+       {
+        "k": "pose",
+        "slug": "oliver",
+        "pose": 10,
+        "v": "celebrating",
+        "pie": "celebrating"
+       },
+       {
+        "k": "pose",
+        "slug": "oliver",
+        "pose": 4,
+        "v": "thinking",
+        "pie": "thinking"
+       }
+      ],
+      "script": "What did Oliver do yesterday? … Oliver: Yesterday I spent the afternoon talking."
+     },
+     {
+      "q": "What did Diego do yesterday?",
+      "answer": "celebrating",
+      "options": [
+       {
+        "k": "pose",
+        "slug": "diego",
+        "pose": 10,
+        "v": "celebrating",
+        "pie": "celebrating"
+       },
+       {
+        "k": "pose",
+        "slug": "diego",
+        "pose": 7,
+        "v": "running",
+        "pie": "running"
+       },
+       {
+        "k": "pose",
+        "slug": "diego",
+        "pose": 6,
+        "v": "sitting down",
+        "pie": "sitting down"
+       }
+      ],
+      "script": "What did Diego do yesterday? … Diego: Yesterday I spent the afternoon celebrating."
+     },
+     {
+      "q": "What did Tino do yesterday?",
+      "answer": "sitting down",
+      "options": [
+       {
+        "k": "pose",
+        "slug": "tino",
+        "pose": 7,
+        "v": "running",
+        "pie": "running"
+       },
+       {
+        "k": "pose",
+        "slug": "tino",
+        "pose": 3,
+        "v": "talking",
+        "pie": "talking"
+       },
+       {
+        "k": "pose",
+        "slug": "tino",
+        "pose": 6,
+        "v": "sitting down",
+        "pie": "sitting down"
+       }
+      ],
+      "script": "What did Tino do yesterday? … Tino: Yesterday I spent the afternoon sitting down."
+     }
+    ],
+    "modo": "pose",
+    "script": "Listen and tick the box. There is one example. … What did Oliver do yesterday? … Oliver: Yesterday I spent the afternoon talking. … What did Diego do yesterday? … Diego: Yesterday I spent the afternoon celebrating. … What did Tino do yesterday? … Tino: Yesterday I spent the afternoon sitting down.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "J"
   }
  ],
  "homework": [

@@ -1494,7 +1494,12 @@ function visFondo(sitio){
 }
 
 function visPersona(p){
-  return `<img src="${CHAR(p.slug, p.pose||1)}" alt="${esc(p.name||p.slug)}" ${FB}>`;
+  // Los adultos no tienen carpeta de poses: salen de una figura del banco 3D,
+  // igual que los padres y abuelos del curso. Solo pueden estar de pie.
+  const src = p.figura
+    ? `../assets/vocab/${p.figura}.png?v=${ART_V}`
+    : CHAR(p.slug, p.pose||1);
+  return `<img src="${src}" alt="${esc(p.name||p.slug)}" ${p.figura ? '' : FB}>`;
 }
 
 /* La etiqueta de KPI. Es lo que convierte una tarea de examen suelta en
