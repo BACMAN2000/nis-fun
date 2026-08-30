@@ -12,3 +12,11 @@ _sb1.pdf
 
 # copias de seguridad que dejan los parches
 *.bak
+
+# Herramientas que trajo la Lenovo el 29-ago-2026 (add_visual.py y los patch_*).
+# Copia de referencia, NO codigo del proyecto: se generaron contra un motor 63
+# commits mas viejo y su generador usa emoji donde ahora van nuestros
+# personajes. Correr add_visual.py hoy reescribiria las 55 unidades de Flyers
+# con contenido peor. El trabajo se rehizo desde cero en gen_visual_flyers.py;
+# lo que aportaron esta contado en la memoria del proyecto.
+tools/_de_lenovo_*/
