@@ -121,6 +121,31 @@ if(/\.github\.io$/i.test(location.hostname)){
     font-size:.9rem;cursor:pointer}
   .guia-say.saying{background:var(--ok)}
   .historia-say{margin-top:.6rem}
+  /* el reproductor de la historia. Un nino de siete anos necesita poder
+     parar, volver atras y repetir una frase suelta: con un unico boton de
+     "escuchar" el audio se le escapaba y no habia manera de recuperarlo. */
+  .sp{margin-top:.7rem;border-top:1px solid var(--line);padding-top:.7rem}
+  .sp[hidden]{display:none}
+  .sp-btns{display:flex;flex-wrap:wrap;gap:.4rem;align-items:center}
+  .sp-b{background:var(--surface2);color:var(--ink);border:1px solid var(--line);
+    border-radius:999px;padding:.35rem .85rem;font-family:"Baloo 2",sans-serif;
+    font-weight:700;font-size:.9rem;cursor:pointer;min-height:2.1rem}
+  .sp-b:hover{filter:brightness(.97)}
+  .sp-b.sp-main{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .sp-b.on{background:var(--ok);color:#fff;border-color:var(--ok)}
+  .sp-bar{margin-top:.6rem;height:.7rem;background:var(--surface2);cursor:pointer;
+    border:1px solid var(--line);border-radius:999px;overflow:hidden}
+  .sp-fill{height:100%;width:0;background:var(--accent);border-radius:999px}
+  .sp-pie{display:flex;justify-content:space-between;gap:.6rem;margin-top:.35rem;
+    color:var(--soft);font-size:.85rem}
+  .sp-tip{margin:.45rem 0 0;color:var(--soft);font-size:.85rem}
+  /* cada frase de la historia se pulsa para oir solo esa parte */
+  .sfr{cursor:pointer;border-radius:.35rem}
+  .sfr:hover{background:#e8f0fa}
+  .sfr.on{background:#cfe3fa;box-shadow:0 0 0 .18rem #cfe3fa}
+  @media (max-width:560px){
+    .sp-b{font-size:.95rem;min-height:2.5rem;flex:1 1 auto;justify-content:center}
+  }
   @media (max-width:560px){
     .guia{flex-direction:column;text-align:center}
     .guia-globo::before{display:none}
@@ -968,20 +993,55 @@ let UD, PROG;
  * Se marca solo la primera vez que sale cada palabra: subrayarlas todas
  * convierte el parrafo en un semaforo y deja de destacar nada.
  */
-function marcaClaves(texto, wordlist){
-  const vistas = new Set();
+function marcaClaves(texto, wordlist, vistas){
+  // vistas se puede pasar de fuera: la historia se marca frase a frase y
+  // sin compartirlo cada frase volveria a resaltar la misma palabra.
+  vistas = vistas || new Set();
   let out = esc(texto);
   (wordlist || []).forEach(w => {
     const p = (typeof w === 'string' ? w : (w.w || '')).trim();
     if (!p || vistas.has(p.toLowerCase())) return;
-    vistas.add(p.toLowerCase());
     const escapada = p.replace(/[^A-Za-z0-9' ]/g, '');
     if (!escapada) return;
     const re = new RegExp('(^|[^A-Za-z<>])(' + escapada + ')(?![A-Za-z])', 'i');
-    out = out.replace(re, (m, antes, palabra) =>
-      antes + '<mark class="clave">' + palabra + '</mark>');
+    let marcada = false;
+    out = out.replace(re, (m, antes, palabra) => {
+      marcada = true;
+      return antes + '<mark class="clave">' + palabra + '</mark>';
+    });
+    // se apunta solo si aparecio: si no, al ir frase a frase la primera
+    // llamada daba por vistas todas las palabras y el resto de la historia
+    // se quedaba sin resaltar
+    if (marcada) vistas.add(p.toLowerCase());
   });
   return out;
+}
+
+/* Parte la historia en frases: son las "partes" que el alumno puede repetir.
+   El corte va detras del punto, la exclamacion o la interrogacion, pero no
+   detras de "Mr." ni entre unas comillas de cierre, y un trozo de menos de
+   25 letras se pega al anterior — "Oh no!" no es una parte que valga la pena
+   volver a oir sola. Sin lookbehind a proposito: las tablets viejas del
+   colegio no lo entienden y el script entero dejaria de cargar. */
+function partirFrases(t){
+  const s = String(t).replace(/\s+/g, ' ').trim();
+  const trozos = [];
+  let ini = 0;
+  for (let i = 0; i < s.length; i++){
+    if (!/[.!?…]/.test(s[i])) continue;
+    if (s[i] === '.' && /(^|\s)(Mr|Mrs|Ms|Dr|St|Prof|No)$/.test(s.slice(ini, i))) continue;
+    let j = i + 1;
+    while (j < s.length && /[.!?…]/.test(s[j])) j++;      // "?!" y "..."
+    while (j < s.length && /["'”’)\]]/.test(s[j])) j++;  // comillas de cierre
+    if (j >= s.length || /\s/.test(s[j])){ trozos.push(s.slice(ini, j).trim()); ini = j; }
+  }
+  if (ini < s.length) trozos.push(s.slice(ini).trim());
+  const out = [];
+  trozos.filter(Boolean).forEach(f => {
+    if (out.length && f.length < 25) out[out.length - 1] += ' ' + f;
+    else out.push(f);
+  });
+  return out.length ? out : [s];
 }
 
 function makeIntro(ud){
@@ -1044,6 +1104,28 @@ async function unit(){
       onerror="this.onerror=null;${respaldo ? `this.src='${respaldo}'` : `this.remove()`}">`;
   })();
 
+  /* El recuadro de la mascota va DELANTE de la historia: es quien dice de
+     que va y que hay que hacer, y debajo del texto llegaba tarde — el
+     alumno ya habia leido (o abandonado) sin saber que buscaba. */
+  const bocadilloHTML = (UD.scene && UD.scene.bubble) ? (() => {
+    const quien = UD.scene.speaker || (UD.characters || [])[0] || 'freya';
+    const giro = window.miraHacia ? miraHacia(LEVEL, quien, 3, 'der') : '';
+    return `<div class="guia">
+      <img class="guia-mascota" src="${CHAR(quien, 3)}" alt=""${giro} ${FB}>
+      <div class="guia-globo" data-voz="bubbles"><p>${esc(UD.scene.bubble)}</p>
+        <button class="guia-say" type="button">&#128266; Listen</button></div>
+    </div>`; })() : '';
+
+  /* La historia se pinta frase a frase para que el reproductor pueda
+     resaltarlas y repetir una sola. El Set de claves va compartido: si no,
+     cada frase volveria a resaltar la misma palabra del wordlist. */
+  const frasesHistoria = partirFrases(makeIntro(UD));
+  const vistasClave = new Set();
+  const historiaHTML = frasesHistoria.map((f, k) =>
+    `<span class="sfr" data-k="${k}" role="button" tabindex="0"
+       title="Listen to this part again">${marcaClaves(f, UD.wordlist, vistasClave)}</span>`
+  ).join(' ');
+
   // Las de wordlist_extra vienen del Scope & Sequence: son las palabras
   // que la secuencia pide para este tema y que la unidad no traia. Van
   // detras de las suyas y marcadas, para que se vea que son de ampliacion.
@@ -1076,31 +1158,32 @@ async function unit(){
           ${UD.characters.map(c=>`<img src="${CHAR(c,(UD.scene.pose||{})[c]||1)}" alt="${c}" ${FB}>`).join('')}
           <div class="bubble">${UD.scene.bubble}</div></div>
       </div>` },
-    // 2. la historia, con su ilustracion
+    // 2. la historia, con su ilustracion y su reproductor
     { titulo: 'The story of this unit',
       etiquetaSiguiente: 'Picture words',
       html: `<div class="scr-centro">
+        ${bocadilloHTML}
         ${escenaHTML}
         <div class="op-text">
-          <p id="lahistoria">${marcaClaves(makeIntro(UD), UD.wordlist)}</p>
+          <p id="lahistoria">${historiaHTML}</p>
           <button class="guia-say historia-say" type="button">🔊 Listen to the story</button>
+          <div class="sp" hidden>
+            <audio class="sp-audio" preload="none"></audio>
+            <div class="sp-btns">
+              <button class="sp-b sp-main sp-play" type="button">&#9654; Play</button>
+              <button class="sp-b sp-stop" type="button">&#9209; Stop</button>
+              <button class="sp-b sp-prev" type="button" aria-label="Previous part">&#9198; Back</button>
+              <button class="sp-b sp-again" type="button" aria-label="Hear this part again">&#128257; Again</button>
+              <button class="sp-b sp-next" type="button" aria-label="Next part">&#9197; Next</button>
+              <button class="sp-b sp-slow" type="button" aria-pressed="false">&#128034; Slow</button>
+            </div>
+            <div class="sp-bar"><div class="sp-fill"></div></div>
+            <div class="sp-pie"><span class="sp-parte"></span><span class="sp-reloj"></span></div>
+            <p class="sp-tip">Tap any sentence to hear that part again.</p>
+          </div>
         </div>
-        ${UD.scene && UD.scene.bubble ? (() => {
-          const quien = UD.scene.speaker || (UD.characters||[])[0] || 'freya';
-          const giro = window.miraHacia ? miraHacia(LEVEL, quien, 3, 'der') : '';
-          return `<div class="guia">
-          <img class="guia-mascota" src="${CHAR(quien, 3)}"
-               alt=""${giro} ${FB}>
-          <div class="guia-globo" data-voz="bubbles"><p>${esc(UD.scene.bubble)}</p>
-            <button class="guia-say" type="button">🔊 Listen</button></div>
-        </div>`; })() : ''}
       </div>`,
-      alMostrar(el){
-        const p = el.querySelector('#lahistoria');
-        const b = el.querySelector('.historia-say');
-        if (b && p) b.onclick = () => SAY.frase(p.textContent, b, 'stories');
-        guiaViva(el);
-      } },
+      alMostrar(el){ montaHistoria(el, frasesHistoria); guiaViva(el); } },
     // 3. el vocabulario, que se oye al pulsarlo
     { titulo: 'Picture words — look, say and copy',
       etiquetaSiguiente: digital.length ? 'Activity ' + digital[0].code : 'Finish',
@@ -1245,6 +1328,10 @@ const SAY = {
     this.sonando = null;
     try { if (window.speechSynthesis) speechSynthesis.cancel(); } catch(e){}
     document.querySelectorAll('.saying').forEach(b => b.classList.remove('saying'));
+    // el reproductor de la historia tiene su propio audio y su propia voz:
+    // sin avisarle, pulsar el bocadillo de la mascota cortaba la frase y la
+    // historia se reanudaba sola por encima
+    if (typeof this.alParar === 'function'){ try { this.alParar(); } catch(e){} }
   },
   slug(t){
     // mismo criterio que tools/gen_audio_edge.py: sin etiquetas, con los
@@ -1305,6 +1392,279 @@ const SAY = {
     if (pr && pr.catch) pr.catch(() => { this.voz(t, 0.78); setTimeout(fin, 1600); });
   }
 };
+
+/* ---- el reproductor de la historia -----------------------------------
+   Antes la historia tenia un solo boton: se disparaba entera, no se podia
+   parar y para volver a oir una frase habia que escucharla toda otra vez.
+   Ahora ese boton abre un reproductor con pausa, stop, frase anterior y
+   siguiente, "otra vez" y media velocidad, y cada frase del texto se puede
+   pulsar para oir solo esa parte.
+
+   Funciona de dos maneras y elige sola:
+     mp3  si la unidad tiene grabacion (audio/stories/<slug>.mp3). Es un solo
+          archivo y no trae marcas de tiempo, asi que donde empieza cada
+          frase se estima por la longitud del texto y despues se afina con
+          los silencios del propio audio (ver afina()).
+     voz  si no hay grabacion (hoy, casi todas): la lee el navegador frase a
+          frase, que ademas da el corte exacto.
+   El <audio> va dentro del DOM a proposito: screens.js para todo <audio> del
+   contenedor al cambiar de pantalla, y asi la historia no sigue sonando
+   encima de la actividad siguiente.                                        */
+function montaHistoria(el, frases){
+  const p   = el.querySelector('#lahistoria');
+  const btn = el.querySelector('.historia-say');
+  const sp  = el.querySelector('.sp');
+  if (!p || !btn || !sp) return;
+
+  const spans = [...p.querySelectorAll('.sfr')];
+  if (!frases || !frases.length) frases = spans.map(s => s.textContent.trim());
+  const texto = frases.join(' ');
+
+  const audio = sp.querySelector('.sp-audio');
+  const bPlay = sp.querySelector('.sp-play'),  bStop = sp.querySelector('.sp-stop');
+  const bPrev = sp.querySelector('.sp-prev'),  bNext = sp.querySelector('.sp-next');
+  const bAgain= sp.querySelector('.sp-again'), bSlow = sp.querySelector('.sp-slow');
+  const bar   = sp.querySelector('.sp-bar'),   fill  = sp.querySelector('.sp-fill');
+  const parte = sp.querySelector('.sp-parte'), reloj = sp.querySelector('.sp-reloj');
+
+  let modo = null;      // null = sin decidir todavia, luego 'mp3' o 'voz'
+  let i = 0;            // frase que suena
+  let sonando = false;
+  let soloUna = false;  // "otra vez" y el clic en una frase paran al acabarla
+  let lento = false;
+  let t0 = [], t1 = [];
+  // saltar dentro del mp3 no es instantaneo: hasta que el navegador avisa
+  // de que ya esta en el sitio siguen llegando avisos con el tiempo viejo,
+  // y sin esto el salto a una frase se deshacia solo y volvia a la primera
+  let buscando = false, destino = 0;
+
+  const vivo = () => document.body.contains(sp);
+  const mmss = s => (isFinite(s)
+    ? Math.floor(s/60) + ':' + String(Math.floor(s%60)).padStart(2,'0') : '0:00');
+
+  function reparte(dur){
+    const pesos = frases.map(f => Math.max(8, f.length));
+    const tot = pesos.reduce((a,b) => a+b, 0) || 1;
+    let acc = 0; t0 = []; t1 = [];
+    pesos.forEach(w => { t0.push(dur*acc/tot); acc += w; t1.push(dur*acc/tot); });
+  }
+
+  function pinta(){
+    bPlay.innerHTML = sonando ? '&#9208; Pause' : '&#9654; Play';
+    bPlay.classList.toggle('on', sonando);
+    bSlow.classList.toggle('on', lento);
+    bSlow.setAttribute('aria-pressed', lento ? 'true' : 'false');
+    // sin el reproductor abierto no se resalta nada: al entrar en la
+    // pantalla la primera frase salia marcada como si ya sonara
+    spans.forEach((s, k) => s.classList.toggle('on', !sp.hidden && k === i));
+    parte.textContent = 'Part ' + (i+1) + ' of ' + frases.length;
+    if (modo === 'mp3' && isFinite(audio.duration) && audio.duration){
+      fill.style.width = (100*audio.currentTime/audio.duration) + '%';
+      reloj.textContent = mmss(audio.currentTime) + ' / ' + mmss(audio.duration);
+    } else {
+      fill.style.width = (100*(i+1)/frases.length) + '%';
+      reloj.textContent = '';
+    }
+    btn.classList.toggle('saying', sonando);
+  }
+
+  function parar(alPrincipio){
+    sonando = false; soloUna = false;
+    try { audio.pause(); } catch(e){}
+    try { if (window.speechSynthesis) speechSynthesis.cancel(); } catch(e){}
+    if (alPrincipio){ i = 0; try { audio.currentTime = 0; } catch(e){} }
+    pinta();
+  }
+
+  // --- la voz del navegador, frase a frase
+  function hablar(reintento){
+    if (!window.speechSynthesis) return;
+    try { speechSynthesis.cancel(); } catch(e){}
+    // la primera vez la lista de voces todavia no ha llegado y speak() se
+    // queda mudo: se espera al navegador y se reintenta una sola vez
+    if (!speechSynthesis.getVoices().length && !reintento){
+      setTimeout(() => { if (vivo() && sonando) hablar(true); }, 350);
+      return;
+    }
+    const u = new SpeechSynthesisUtterance(frases[i]);
+    u.lang = 'en-GB';
+    u.rate = lento ? 0.6 : 0.82;
+    const gb = speechSynthesis.getVoices().find(v => /en[-_]GB/i.test(v.lang));
+    if (gb) u.voice = gb;
+    u.onend = () => {
+      if (!vivo() || !sonando) return;          // cambio de pantalla, pausa o stop
+      if (soloUna || i >= frases.length - 1){ parar(false); return; }
+      i++; pinta(); hablar();
+    };
+    speechSynthesis.speak(u);
+  }
+
+  // --- la grabacion: un solo mp3 para toda la historia
+  /* Afina los cortes con el audio de verdad. Repartir la duracion segun la
+     longitud de cada frase se equivoca hasta medio segundo, y en una frase
+     corta medio segundo son las dos primeras palabras: el alumno pulsa
+     "otra vez" y oye la frase empezada. Asi que se decodifica el mp3 una
+     sola vez, se buscan los silencios que deja la locucion entre frases
+     (~0.35 s) y cada corte estimado se pega al silencio mas cercano. Si el
+     navegador no puede decodificar, se queda la estimacion — para escuchar
+     la historia entera de corrido sobra. */
+  async function afina(){
+    try {
+      const AC = window.AudioContext || window.webkitAudioContext;
+      if (!AC || !window.fetch || frases.length < 2) return;
+      const r = await fetch(audio.src);
+      if (!r.ok) return;
+      const ctx = new AC();
+      const buf = await ctx.decodeAudioData(await r.arrayBuffer());
+      try { ctx.close(); } catch(e){}
+      const d = buf.getChannelData(0), sr = buf.sampleRate;
+      const paso = Math.round(sr * 0.02);                 // ventanas de 20 ms
+      const vol = [];
+      for (let n = 0; n + paso <= d.length; n += paso){
+        let s = 0;
+        for (let m = n; m < n + paso; m++) s += d[m]*d[m];
+        vol.push(Math.sqrt(s/paso));
+      }
+      let pico = 0;
+      vol.forEach(v => { if (v > pico) pico = v; });
+      if (!pico) return;
+      const umbral = pico * 0.02;                         // unos -34 dB
+      const huecos = [];
+      let ini = -1;
+      for (let n = 0; n <= vol.length; n++){
+        const bajo = n < vol.length && vol[n] < umbral;
+        if (bajo){ if (ini < 0) ini = n; }
+        else if (ini >= 0){
+          if ((n - ini) * 0.02 >= 0.22) huecos.push({ a: ini*0.02, b: n*0.02 });
+          ini = -1;
+        }
+      }
+      if (!huecos.length) return;
+      // cada corte busca su silencio, siempre hacia delante: dos frases no
+      // pueden caer en el mismo hueco ni desordenarse
+      let desde = 0;
+      for (let k = 1; k < frases.length; k++){
+        let mejor = -1, dist = 1.6;
+        for (let h = desde; h < huecos.length; h++){
+          const dif = Math.abs(huecos[h].b - t0[k]);
+          if (dif < dist){ dist = dif; mejor = h; }
+        }
+        if (mejor < 0) continue;
+        t0[k] = huecos[mejor].b;
+        t1[k-1] = huecos[mejor].a;
+        desde = mejor + 1;
+      }
+      t1[frases.length-1] = audio.duration || t1[frases.length-1];
+    } catch(e){ /* sin afinar: la estimacion por longitud ya sirve */ }
+  }
+
+  function saltaMp3(){
+    // se entra un pelin antes de la cuenta para no comerse la primera palabra
+    destino = Math.max(0, (t0[i] || 0) - 0.25);
+    buscando = true;
+    try { audio.currentTime = destino; } catch(e){ buscando = false; }
+    audio.playbackRate = lento ? 0.75 : 1;
+  }
+  audio.addEventListener('seeked', () => { buscando = false; });
+  audio.addEventListener('timeupdate', () => {
+    if (modo !== 'mp3') return;
+    const t = audio.currentTime;
+    if (buscando){
+      if (Math.abs(t - destino) > 0.5) return;     // todavia es el tiempo viejo
+      buscando = false;
+    }
+    if (soloUna && t >= (t1[i] || 0)){ parar(false); return; }
+    let k = 0;
+    for (let n = 0; n < t0.length; n++) if (t >= t0[n] - 0.25) k = n;
+    i = k;
+    pinta();
+  });
+  audio.addEventListener('ended', () => { if (modo === 'mp3') parar(false); });
+
+  /* Primera vez: se pide el mp3 y, si no existe (hoy solo estan grabadas 9
+     de las 150 unidades), se pasa a la voz del navegador. */
+  function arranca(){
+    // corta el bocadillo de la mascota, pero sin dispararse el aviso a si
+    // mismo: si no, arrancar aqui borraria el "solo esta frase" recien pedido
+    const aviso = SAY.alParar; SAY.alParar = null;   // SAY es const: no vive en window
+    SAY.parar();
+    SAY.alParar = aviso;
+    sp.hidden = false;
+    sonando = true;
+    if (modo === 'voz'){ pinta(); hablar(); return; }
+    if (modo === 'mp3'){ saltaMp3(); audio.play(); pinta(); return; }
+    audio.src = '../audio/stories/' + SAY.slug(texto).slice(0, 60) + '.mp3?v=' + AUDIO_V;
+    audio.onloadedmetadata = () => {
+      modo = 'mp3';
+      reparte(audio.duration || 1);
+      afina();                      // en segundo plano: mientras, la estimacion
+      if (i) saltaMp3();
+      pinta();
+    };
+    const aVoz = () => {
+      if (modo === 'mp3' || !vivo() || !sonando) return;
+      modo = 'voz'; hablar(); pinta();
+    };
+    audio.onerror = aVoz;
+    const pr = audio.play();
+    if (pr && pr.catch) pr.catch(aVoz);
+    pinta();
+  }
+
+  function vaA(k, sola){
+    i = Math.max(0, Math.min(frases.length - 1, k));
+    soloUna = !!sola;
+    sonando = true;
+    if (modo === 'mp3'){ saltaMp3(); audio.play(); pinta(); }
+    else if (modo === 'voz'){ pinta(); hablar(); }
+    else arranca();
+  }
+
+  btn.onclick    = () => { i = 0; soloUna = false; arranca(); };
+  bStop.onclick  = () => parar(true);
+  bPrev.onclick  = () => vaA(i - 1, false);
+  bNext.onclick  = () => vaA(i + 1, false);
+  bAgain.onclick = () => vaA(i, true);
+  bPlay.onclick  = () => {
+    if (!sonando){ soloUna = false; arranca(); return; }
+    sonando = false;
+    try { audio.pause(); } catch(e){}
+    // pause/resume de la voz del navegador es poco fiable en tablet: se corta
+    // y al volver a dar al play se repite la frase entera, que ademas es lo
+    // que espera un nino que ha perdido el hilo
+    try { if (window.speechSynthesis) speechSynthesis.cancel(); } catch(e){}
+    pinta();
+  };
+  bSlow.onclick  = () => {
+    lento = !lento;
+    if (modo === 'mp3'){ audio.playbackRate = lento ? 0.75 : 1; pinta(); }
+    else if (sonando) hablar();          // la voz no cambia de ritmo a media frase
+    else pinta();
+  };
+  bar.onclick = e => {
+    const r = bar.getBoundingClientRect();
+    const f = Math.min(1, Math.max(0, (e.clientX - r.left) / (r.width || 1)));
+    if (modo === 'mp3' && isFinite(audio.duration)){
+      soloUna = false;
+      try { audio.currentTime = f * audio.duration; } catch(e){}
+      if (sonando) audio.play(); else pinta();
+    } else {
+      vaA(Math.floor(f * frases.length), false);
+    }
+  };
+  // cualquier otra cosa que suene (el bocadillo, una palabra del vocabulario,
+  // el cambio de pantalla) para la historia y deja el boton en Play
+  SAY.alParar = () => { if (sonando) parar(false); };
+
+  spans.forEach((s, k) => {
+    s.onclick = () => vaA(k, true);
+    s.onkeydown = ev => {
+      if (ev.key === 'Enter' || ev.key === ' '){ ev.preventDefault(); vaA(k, true); }
+    };
+  });
+
+  pinta();
+}
 
 function wirePictureWords(){
   document.querySelectorAll('.pwrow .pw[data-say]').forEach(btn => {
