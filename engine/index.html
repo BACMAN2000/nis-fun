@@ -367,6 +367,12 @@ if(/\.github\.io$/i.test(location.hostname)){
   .units{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:1rem}
   a.ucard{display:block;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:1rem 1.2rem;text-decoration:none;color:var(--ink)}
   a.ucard:hover{border-color:var(--accent)}
+  /* La unidad que el profesor no ha abierto todavia: se ve entera, apagada
+     y sin enlace. No se esconde a proposito. */
+  .ucard.cerrada{display:block;background:var(--surface2);border:1px dashed var(--line);
+    border-radius:14px;padding:1rem 1.2rem;color:var(--soft);opacity:.7;cursor:not-allowed}
+  .ucard.cerrada .n{font-family:"Baloo 2";font-weight:800;font-size:1.3rem;color:var(--soft)}
+  .ucard.cerrada .candado{font-size:1.05rem}
   a.ucard .n{font-family:"Baloo 2";font-weight:800;color:var(--accent);font-size:1.3rem}
   a.ucard .stars{color:var(--star);font-size:1.05rem}
   a.ucard .unit-progress{display:flex;align-items:center;justify-content:space-between;
@@ -646,7 +652,7 @@ if(/\.github\.io$/i.test(location.hostname)){
 <!-- el curso comparte dominio y sesion con el portal -->
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4"></script>
 <script src="../../config.js"></script>
-<script src="backend.js?v=1"></script>
+<script src="backend.js?v=2"></script>
 <main id="app"><div class="app-loading" role="status" aria-live="polite">
   <div><span aria-hidden="true"></span><strong id="splash-h2">Preparing your course…</strong>
     <small id="splash-sub">Loading activities and illustrations.</small></div></div></main>
@@ -741,8 +747,14 @@ if (COLORS[LEVEL]) document.documentElement.style.setProperty('--accent', COLORS
 const CHAR = (slug, pose) => `../assets/characters/${LEVEL}/${slug}/pose-${String(pose).padStart(2,'0')}.png?v=${ART_V}`;
 // si no existe el PNG (arte 3D), cae al SVG plano provisional
 const FB = `onerror="this.onerror=null;this.src=this.src.replace('.png','.svg')"`;
+/* Prefijo de lo que se guarda en el navegador. Lleva el idioma porque el
+   curso frances es otro curso: sus unidades hechas, su ultima unidad y su
+   presentacion no son las del ingles. El ingles se queda con el prefijo de
+   siempre — cambiarselo borraria el avance de quien ya esta dentro. */
+const LPFX = LANG === 'fr' ? 'nisfun-fr' : 'nisfun';
+window.LEVEL_ACTUAL = LEVEL;   // backend.js lo necesita para leer fun_access
 const store = {
-  key: (u)=>`nisfun-${LEVEL}-u${u}`,
+  key: (u)=>`${LPFX}-${LEVEL}-u${u}`,
   get(u){ try{return JSON.parse(localStorage.getItem(this.key(u))||'{}')}catch(e){return{}} },
   set(u,d){ localStorage.setItem(this.key(u), JSON.stringify(d)) }
 };
@@ -830,8 +842,14 @@ function levelPreviews(root){
 }
 
 /* ---------------- HUB ---------------- */
+/* Lo que el profesor abrio para este grado (tabla fun_access). null = sin
+   reglas = todo abierto, que es lo que hay mientras el colegio no toque el
+   panel. Se pide una vez y vale para el hub y para la unidad. */
+let PERMISO = null;
+
 async function hub(){
   const idx = await j(`${CDIR}/${LEVEL}/index.json`);
+  PERMISO = window.BACKEND ? await BACKEND.permiso() : null;
   document.title = idx.name;
   app.classList.add('hub');
   const mascota = idx.mascot[0].toUpperCase() + idx.mascot.slice(1);
@@ -843,11 +861,11 @@ async function hub(){
   const totalHechas = progreso.reduce((sum, p) => sum + p.done, 0);
   const totalPasos = Math.max(1, unidades.length * 4);
   const porcentaje = Math.round(totalHechas * 100 / totalPasos);
-  const ultima = Number(localStorage.getItem(`nisfun-${LEVEL}-lastUnit`));
+  const ultima = Number(localStorage.getItem(`${LPFX}-${LEVEL}-lastUnit`));
   const ultimaPendiente = progreso.find(p => p.unit.n === ultima && p.done < 4);
   const siguiente = ultimaPendiente || progreso.find(p => p.done < 4) || progreso[progreso.length - 1];
   const terminadas = progreso.filter(p => p.done >= 4).length;
-  const introKey = `nisfun-${LEVEL}-intro-seen`;
+  const introKey = `${LPFX}-${LEVEL}-intro-seen`;
   const introVista = localStorage.getItem(introKey) === '1';
 
   const estadoCurso = `<section class="course-status" aria-label="${T('Course progress','Progression du cours')}">
@@ -871,6 +889,15 @@ async function hub(){
     const p = store.get(u.n);
     const hechas = Math.min(4, p.done ? Object.keys(p.done).length : 0);
     const pct = hechas * 25;
+    /* Cerrada: se ve, pero no se abre. Esconderla haria pensar que el curso
+       son doce unidades; asi el alumno sabe a donde va a llegar. */
+    if (!window.BACKEND || !BACKEND.puedeAbrir(PERMISO, u.n))
+      return `<span class="ucard cerrada" aria-disabled="true"
+        title="${T('Your teacher opens this one later.','Ton professeur ouvrira celle-ci plus tard.')}">
+      <span class="n">${u.n}</span> <b>${u.title}</b><br>
+      <small>${u.topic}</small><br>
+      <span class="candado" aria-hidden="true">🔒</span>
+      <span class="sr-only">${T('Locked','Fermée')}</span></span>`;
     return `<a class="ucard" href="${Q(`?level=${LEVEL}&unit=${u.n}`)}">
       <span class="n">${u.n}</span> <b>${u.title}</b><br>
       <small>${u.topic}</small><br>
@@ -1125,8 +1152,19 @@ function sceneFor(ud){
   return pool[(Number(ud.number)||0) % pool.length];
 }
 async function unit(){
+  /* La puerta: el candado del hub no basta, porque el numero de la unidad va
+     en la URL y se puede escribir a mano. */
+  PERMISO = window.BACKEND ? await BACKEND.permiso() : null;
+  if (window.BACKEND && !BACKEND.puedeAbrir(PERMISO, Number(UNIT))) {
+    app.innerHTML = `<div class="scr-centro" style="padding:2rem;text-align:center">
+      <p style="font-size:2.4rem;margin:0">🔒</p>
+      <h2>${T('Not open yet','Pas encore ouverte')}</h2>
+      <p class="scr-pie">${T('Your teacher opens this unit later. Go back and choose one of the open ones.','Ton professeur ouvrira cette unité plus tard. Reviens en arrière et choisis-en une autre.')}</p>
+      <p><a class="btn" href="${Q(`?level=${LEVEL}`)}">${T('Back to the units','Retour aux unités')}</a></p></div>`;
+    return;
+  }
   UD = await j(`${CDIR}/${LEVEL}/unit-${String(UNIT).padStart(2,'0')}.json`);
-  try { localStorage.setItem(`nisfun-${LEVEL}-lastUnit`, String(UNIT)); } catch(e) {}
+  try { localStorage.setItem(`${LPFX}-${LEVEL}-lastUnit`, String(UNIT)); } catch(e) {}
   PROG = store.get(UD.number); PROG.done = PROG.done || {};
   document.title = `${T("Unit","Unité")} ${UD.number} · ${UD.title}`;
   // el JSON las guarda en el orden en que se escribieron (F antes que E);
@@ -1291,7 +1329,7 @@ async function unit(){
 /* ---- repaso final: el alumno marca lo que ya sabe hacer ---- */
 function pintaSelfCheck(el, digital){
   if (!el) return;
-  const clave = `nisfun-sc-${LEVEL}-u${UD.number}`;
+  const clave = `${LPFX}-sc-${LEVEL}-u${UD.number}`;
   let marcado = {};
   try { marcado = JSON.parse(localStorage.getItem(clave) || '{}'); } catch(e){}
 

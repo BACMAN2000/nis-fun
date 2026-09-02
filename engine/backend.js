@@ -31,6 +31,41 @@ window.BACKEND = (function () {
 
   function hayAlumno(){ return !!alumno; }
 
+  /* ---- que unidades puede abrir este alumno ----
+   *
+   * Lo decide el profesor en el portal (tabla fun_access, una fila por
+   * grado e idioma). Devuelve null cuando NO hay que cerrar nada: sin
+   * sesion, sin red, o cuando ese idioma no tiene ninguna regla escrita.
+   * Null es "abierto" a proposito — un candado por un fallo de red deja al
+   * alumno fuera de su clase sin que nadie sepa por que.
+   */
+  let _permiso;
+  async function permiso() {
+    if (_permiso !== undefined) return _permiso;
+    _permiso = null;
+    await arranca();
+    if (!sb || !alumno) return _permiso;
+    try {
+      const lang = window.LANG === 'fr' ? 'fr' : 'en';
+      const { data: filas } = await sb.from('fun_access')
+        .select('grade_id,level,desde,hasta,unlocked').eq('lang', lang);
+      if (!filas || !filas.length) return _permiso;     // idioma sin reglas
+      const { data: perfil } = await sb.from('profiles')
+        .select('grade_id').eq('id', alumno.id).maybeSingle();
+      const grado = perfil && perfil.grade_id;
+      if (!grado) return _permiso;
+      const mia = filas.find(f => f.grade_id === grado && f.unlocked &&
+                                  f.level === (window.LEVEL_ACTUAL || ''));
+      _permiso = mia ? { desde: mia.desde, hasta: mia.hasta }
+                     : { desde: 0, hasta: -1 };          // su grado no hace este nivel
+    } catch (e) { _permiso = null; }
+    return _permiso;
+  }
+
+  function puedeAbrir(p, n) {
+    return !p || (n >= p.desde && n <= p.hasta);
+  }
+
   /* ---- respuestas escritas y repaso final ---- */
   async function guardar(kind, info, payload, extra) {
     await arranca();
@@ -99,5 +134,5 @@ window.BACKEND = (function () {
   };
 
   return { arranca, hayAlumno, guardar, progreso, subirAudio,
-           alumno: () => alumno };
+           permiso, puedeAbrir, alumno: () => alumno };
 })();
