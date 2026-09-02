@@ -179,7 +179,13 @@ def sueltas(s):
         dentro.append(s[k + 2:j])
         plano.append(" " + HUECO + " ")
         i = j + 1
-    out = [m.group(1) for m in re.finditer(r">([^<>{}]{4,120})<", "".join(plano))]
+    t = "".join(plano)
+    out = [m.group(1) for m in re.finditer(r">([^<>{}]{4,120})<", t)]
+    # Y los atributos que tambien lee alguien: el texto alternativo de una
+    # imagen y lo que anuncia un lector de pantalla. Se escapaban enteros
+    # porque no van entre etiquetas.
+    out += [m.group(2) for m in re.finditer(
+        r'\b(alt|aria-label|title|placeholder)="([^"{}]{4,120})"', t)]
     for e in dentro:
         out.extend(sueltas(e))
     return out

@@ -404,7 +404,7 @@ window.BANNER = (function () {
 
     return `
     <svg viewBox="0 0 1200 520" role="img"
-         aria-label="A lighthouse on the rocks by the sea, with the Nordic characters waving.">
+         aria-label="${T('A lighthouse on the rocks by the sea, with the Nordic characters waving.','Un phare sur les rochers, au bord de la mer, avec les personnages de Nordic qui saluent.')}">
       <defs>
         <linearGradient id="cielo" x1="0" y1="0" x2="0" y2="1">
           <stop offset="0" stop-color="${c.cielo[0]}"/>
@@ -660,12 +660,13 @@ window.BANNER = (function () {
 
   function html(idx, nivel) {
     const castPoster = `../assets/videos/posters/${nivel}-cast.jpg?v=${window.ART_V || ''}`;
-    const castVideo = `../assets/videos/${nivel}-cast.mp4?v=${window.ART_V || ''}`;
+    const sufijo = window.LANG === 'fr' ? '-fr' : '';
+    const castVideo = `../assets/videos/${nivel}-cast${sufijo}.mp4?v=${window.VIDEO_V || window.ART_V || ''}`;
 
     return `<style>${CSS}</style>
       <div class="lh lh-cinematic" data-nivel="${nivel}">
         <div class="lh-filmframe">
-          <img class="lh-filmposter" src="${castPoster}" alt="${idx.cast} at Nordic International School">
+          <img class="lh-filmposter" src="${castPoster}" alt="${idx.cast} ${T('at Nordic International School','à la Nordic International School')}">
           <video class="lh-film" muted playsinline preload="metadata" aria-hidden="true"
                  poster="${castPoster}"><source src="${castVideo}" type="video/mp4"></video>
           <div class="lh-filmshade"></div>

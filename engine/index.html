@@ -640,7 +640,7 @@ if(/\.github\.io$/i.test(location.hostname)){
 <script src="vocab-art.js?v=3"></script>
 <script src="orientacion.js?v=1"></script>
 <script src="screens.js?v=6"></script>
-<script src="banner.js?v=10"></script>
+<script src="banner.js?v=12"></script>
 <script src="magicbox.js?v=6"></script>
 <script src="recorder.js?v=3"></script>
 <!-- el curso comparte dominio y sesion con el portal -->
@@ -731,7 +731,12 @@ const PORTAL = (() => {
 })();
 // El servidor cachea los mp4 4 horas y la ruta no cambia al reemplazarlos:
 // subir esta fecha obliga al navegador a volver a bajarlos.
-const VIDEO_V = '2026-08-25-marca';
+const VIDEO_V = '2026-09-02-fr';
+/* Los videos SI se separan por idioma, como el audio: el mismo mp4 doblado
+   al frances vive al lado con el sufijo -fr. El poster no, que es una
+   imagen y no tiene idioma. */
+const VSUF = LANG === 'fr' ? '-fr' : '';
+window.VIDEO_V = VIDEO_V;   // banner.js lo usa para su propio ?v=
 if (COLORS[LEVEL]) document.documentElement.style.setProperty('--accent', COLORS[LEVEL]);
 const CHAR = (slug, pose) => `../assets/characters/${LEVEL}/${slug}/pose-${String(pose).padStart(2,'0')}.png?v=${ART_V}`;
 // si no existe el PNG (arte 3D), cae al SVG plano provisional
@@ -773,14 +778,14 @@ async function levels(){
     <div class="campus-banner"><img src="../assets/scenes/main-building.jpg?v=${ART_V}" alt="${T('Nordic campus','Le campus Nordic')}"></div>
     <div class="lvcards">${data.levels.map(l=>`
       <a class="lvcard" href="${Q(`?level=${l.id}`)}" style="--lv:${l.color}"
-         aria-label="Open ${l.name}, ${l.exam}">
+         aria-label="${T(`Open ${l.name}, ${l.exam}`, `Ouvrir ${l.name}, ${l.exam}`)}">
         <div class="lvmedia">
           <img class="lvfallback" src="../assets/videos/posters/${l.mascot}-intro.jpg?v=${VIDEO_V}"
-               alt="${l.mascot[0].toUpperCase()+l.mascot.slice(1)} invites you to explore ${l.name}">
+               alt="${T(`${l.mascot[0].toUpperCase()+l.mascot.slice(1)} invites you to explore ${l.name}`, `${l.mascot[0].toUpperCase()+l.mascot.slice(1)} t'invite à découvrir ${l.name}`)}">
           <video muted playsinline preload="metadata"
                  poster="../assets/videos/posters/${l.mascot}-intro.jpg?v=${VIDEO_V}"
                  data-level-preview aria-hidden="true">
-            <source src="../assets/videos/${l.mascot}-intro.mp4?v=${VIDEO_V}" type="video/mp4">
+            <source src="../assets/videos/${l.mascot}-intro${VSUF}.mp4?v=${VIDEO_V}" type="video/mp4">
           </video>
           <span class="lvbadge">${l.exam}</span>
           <span class="lvplaying"><span class="lvpulse"></span> ${T('Adventure playing',"L'aventure est en cours")}</span>
@@ -898,12 +903,12 @@ async function hub(){
       etiquetaSiguiente: T('Story time','Le coin lecture'),
       html: `<div class="scr-centro">
         <video class="scr-video" controls preload="metadata"
-          src="../assets/videos/${idx.mascot}-intro.mp4?v=${VIDEO_V}"
+          src="../assets/videos/${idx.mascot}-intro${VSUF}.mp4?v=${VIDEO_V}"
           poster="../assets/videos/posters/${idx.mascot}-intro.jpg?v=${VIDEO_V}"
           onerror="this.closest('.scr-centro').querySelector('.ficha').hidden=true"></video>
         <div class="ficha">
           <img src="${CHAR(idx.mascot,1)}" alt=""${window.miraHacia ? miraHacia(LEVEL, idx.mascot, 1, 'der') : ''} ${FB}>
-          <p><b>${mascota}</b> is ${(MASCOTA[idx.mascot]||{}).que||'your guide'}.
+          <p><b>${mascota}</b> ${T('is','est')} ${(MASCOTA[idx.mascot]||{}).que||T('your guide','ton guide')}.
              “${(MASCOTA[idx.mascot]||{}).dice||''}”</p>
         </div>
       </div>` },
@@ -2000,7 +2005,7 @@ label_people(act, el){
     <div class="vis-escena">${visFondo(d.scene)}
       <div class="vis-fila">${d.people.map((p,i)=>`<div class="vis-quien">
         <span class="num">${i+1}</span>${visPersona(p)}
-        <input data-i="${i}" autocomplete="off" spellcheck="false" aria-label="Name ${i+1}"></div>`).join('')}</div>
+        <input data-i="${i}" autocomplete="off" spellcheck="false" aria-label="${T('Name','Prénom')} ${i+1}"></div>`).join('')}</div>
     </div>
     <div class="vis-banco">${d.names.map(n=>`<span data-n="${esc(n)}">${esc(n)}</span>`).join('')}</div>
     <div class="checkrow final"><button class="chk">${T("Check","Vérifier")}</button>
@@ -2053,7 +2058,7 @@ picture_mc(act, el){
     ${d.questions.map((q,i)=>`<div class="vis-preg" data-q="${i}">
       <p>${i+1}. ${esc(q.q)}</p>
       <div class="vis-ops">${q.options.map((o,j)=>`<button class="vis-op" type="button"
-          data-q="${i}" data-w="${esc(o.v || o.word)}" aria-label="Picture ${LET[j]}: ${esc(o.pie || o.word)}">
+          data-q="${i}" data-w="${esc(o.v || o.word)}" aria-label="${T('Picture','Image')} ${LET[j]}: ${esc(o.pie || o.word)}">
           <span class="letra">${LET[j]}</span>
           <span class="dib">${visOpcion(o)}</span>
           <span class="pie">${esc(o.pie || o.word)}</span></button>`).join('')}</div></div>`).join('')}
@@ -2109,7 +2114,7 @@ match_pictures(act, el){
       <span class="dib">${visOpcion(p)}</span></div>`).join('')}</div>
     <div class="vis-gente">${d.people.map((p,i)=>`<div class="vis-quien">
       ${visPersona(p)}<b>${esc(p.name)}</b>
-      <select data-i="${i}" aria-label="Picture for ${esc(p.name)}">
+      <select data-i="${i}" aria-label="${T('Picture for',"Image pour")} ${esc(p.name)}">
         <option value="">–</option>
         ${letras.map(l=>`<option value="${l}">${l}</option>`).join('')}
       </select></div>`).join('')}</div>
@@ -2169,7 +2174,7 @@ picture_story(act, el){
       ${d.support.grammar ? `<b>${esc(d.support.grammar)}</b>` : ''}
       ${(d.support.words||[]).map(w=>`<span>${esc(w)}</span>`).join('')}</div>` : ''}
     <div class="vis-historia">
-      <textarea placeholder="Write the story here — ${min} to ${max} words."
+      <textarea placeholder="${T(`Write the story here — ${min} to ${max} words.`, `Écris ton histoire ici — de ${min} à ${max} mots.`)}"
         aria-label="${T('Your story','Ton histoire')}"></textarea>
       <div class="vis-contador">${T('0 words','0 mot')}</div>
     </div>
