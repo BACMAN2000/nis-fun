@@ -1,0 +1,79 @@
+{
+ "id": "g1-u6",
+ "grado": "G1",
+ "tema": 6,
+ "nivel": "Pre-A1",
+ "titulo": "Pip a faim",
+ "objetivo": "Les mots de la nourriture",
+ "paginas": [
+  {
+   "texto": "Pip a faim.",
+   "clave": [],
+   "img": "img/g1-u6-p01.jpg"
+  },
+  {
+   "texto": "Lundi il mange une pomme.",
+   "clave": [],
+   "img": "img/g1-u6-p02.jpg"
+  },
+  {
+   "texto": "Mardi il mange deux bananes.",
+   "clave": [],
+   "img": "img/g1-u6-p03.jpg"
+  },
+  {
+   "texto": "Mercredi il boit du lait.",
+   "clave": [
+    "lait"
+   ],
+   "img": "img/g1-u6-p04.jpg"
+  },
+  {
+   "texto": "Mais Pip a encore faim !",
+   "clave": [],
+   "img": "img/g1-u6-p05.jpg"
+  },
+  {
+   "texto": "Vendredi les amis font un grand gâteau.",
+   "clave": [
+    "gâteau"
+   ],
+   "img": "img/g1-u6-p06.jpg"
+  },
+  {
+   "texto": "Pip mange le gâteau. Miam miam !",
+   "clave": [
+    "gâteau"
+   ],
+   "img": "img/g1-u6-p07.jpg"
+  },
+  {
+   "texto": "Maintenant Pip est content. Merci, les amis !",
+   "clave": [],
+   "img": "img/g1-u6-p08.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "La nourriture",
+  "instruccion": "Touche le mot que tu entends.",
+  "items": [
+   {
+    "palabra": "une pomme",
+    "img": "img/g1-u6-a-an-apple.png"
+   },
+   {
+    "palabra": "une banane",
+    "img": "img/g1-u6-a-a-banana.png"
+   },
+   {
+    "palabra": "un gâteau",
+    "img": null
+   },
+   {
+    "palabra": "du lait",
+    "img": "img/g1-u6-a-milk.png"
+   }
+  ]
+ },
+ "lang": "fr"
+}

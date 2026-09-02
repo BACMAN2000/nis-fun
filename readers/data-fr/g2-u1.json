@@ -1,0 +1,77 @@
+{
+ "id": "g2-u1",
+ "grado": "G2",
+ "tema": 1,
+ "nivel": "Pre-A1",
+ "titulo": "Un, deux, Pip !",
+ "objetivo": "Les nombres de 1 à 10",
+ "paginas": [
+  {
+   "texto": "Un macareux. Où est-il ?",
+   "clave": [],
+   "img": "img/g2-u1-p01.jpg"
+  },
+  {
+   "texto": "Deux ballons. Rouge et bleu.",
+   "clave": [
+    "ballon"
+   ],
+   "img": "img/g2-u1-p02.jpg"
+  },
+  {
+   "texto": "Trois voitures. Vroum, vroum !",
+   "clave": [
+    "voiture"
+   ],
+   "img": "img/g2-u1-p03.jpg"
+  },
+  {
+   "texto": "Quatre amis. Bonjour, bonjour !",
+   "clave": [],
+   "img": "img/g2-u1-p04.jpg"
+  },
+  {
+   "texto": "Cinq cerfs-volants. Là-haut dans le ciel !",
+   "clave": [],
+   "img": "img/g2-u1-p05.jpg"
+  },
+  {
+   "texto": "Six livres. Grands et petits.",
+   "clave": [],
+   "img": "img/g2-u1-p06.jpg"
+  },
+  {
+   "texto": "Maintenant compte encore. Un, deux, trois…",
+   "clave": [],
+   "img": "img/g2-u1-p07.jpg"
+  },
+  {
+   "texto": "Mais où est Pip ? Pip est le numéro sept !",
+   "clave": [],
+   "img": "img/g2-u1-p08.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "Compte avec moi",
+  "instruccion": "Touche l'image que tu entends.",
+  "items": [
+   {
+    "palabra": "ballon",
+    "img": "img/g2-u1-a-ball.png"
+   },
+   {
+    "palabra": "voiture",
+    "img": "img/g2-u1-a-car.png"
+   },
+   {
+    "palabra": "cerf-volant",
+    "img": "img/g2-u1-a-kite.png"
+   },
+   {
+    "palabra": "oiseau",
+    "img": "img/g2-u1-a-bird.png"
+   }
+  ]
+ },
+ "lang": "fr"
+}

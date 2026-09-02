@@ -1,0 +1,73 @@
+{
+ "id": "g2-u4",
+ "grado": "G2",
+ "tema": 4,
+ "nivel": "Pre-A1",
+ "titulo": "Tomás sait sauter",
+ "objetivo": "Ce que je sais faire",
+ "paginas": [
+  {
+   "texto": "Je suis Tomás. Je sais courir. Regarde-moi !",
+   "clave": [],
+   "img": "img/g2-u4-p01.jpg"
+  },
+  {
+   "texto": "Je sais sauter. Un, deux, trois - hop !",
+   "clave": [],
+   "img": "img/g2-u4-p02.jpg"
+  },
+  {
+   "texto": "Tu sais grimper ? Oui, je sais grimper !",
+   "clave": [],
+   "img": "img/g2-u4-p03.jpg"
+  },
+  {
+   "texto": "Tu sais nager ? Oui ! Je sais nager.",
+   "clave": [],
+   "img": "img/g2-u4-p04.jpg"
+  },
+  {
+   "texto": "Tu sais voler ? Non. Je ne sais pas voler.",
+   "clave": [],
+   "img": "img/g2-u4-p05.jpg"
+  },
+  {
+   "texto": "Mais Pip sait voler ! Regarde Pip !",
+   "clave": [],
+   "img": "img/g2-u4-p06.jpg"
+  },
+  {
+   "texto": "Est-ce que Pip sait courir ? Un peu. Pas vite.",
+   "clave": [],
+   "img": "img/g2-u4-p07.jpg"
+  },
+  {
+   "texto": "On sait tous faire une chose. Ça suffit !",
+   "clave": [],
+   "img": "img/g2-u4-p08.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "Tu sais ?",
+  "instruccion": "Touche l'image que tu entends.",
+  "items": [
+   {
+    "palabra": "oiseau",
+    "img": "img/g2-u4-a-bird.png"
+   },
+   {
+    "palabra": "poisson",
+    "img": "img/g2-u4-a-fish.png"
+   },
+   {
+    "palabra": "singe",
+    "img": "img/g2-u4-a-monkey.png"
+   },
+   {
+    "palabra": "lapin",
+    "img": "img/g2-u4-a-rabbit.png"
+   }
+  ]
+ },
+ "lang": "fr"
+}

@@ -1,0 +1,84 @@
+{
+ "id": "g1-u1",
+ "grado": "G1",
+ "tema": 1,
+ "nivel": "Pre-A1",
+ "titulo": "Bonjour, Pip !",
+ "objetivo": "Les salutations et les lettres",
+ "paginas": [
+  {
+   "texto": "Bonjour ! Je suis Freya.",
+   "clave": [
+    "Freya"
+   ],
+   "img": "img/g1-u1-p01.jpg"
+  },
+  {
+   "texto": "Bonjour ! Je suis Nico.",
+   "clave": [
+    "Nico"
+   ],
+   "img": "img/g1-u1-p02.jpg"
+  },
+  {
+   "texto": "Regarde ! Un petit oiseau.",
+   "clave": [],
+   "img": "img/g1-u1-p03.jpg"
+  },
+  {
+   "texto": "Bonjour, l'oiseau ! Comment tu t'appelles ?",
+   "clave": [],
+   "img": "img/g1-u1-p04.jpg"
+  },
+  {
+   "texto": "Je m'appelle Pip. P - I - P !",
+   "clave": [
+    "Pip"
+   ],
+   "img": "img/g1-u1-p05.jpg"
+  },
+  {
+   "texto": "Bonjour, Pip ! Je suis Astrid.",
+   "clave": [
+    "Astrid",
+    "Pip"
+   ],
+   "img": "img/g1-u1-p06.jpg"
+  },
+  {
+   "texto": "Bonjour, Pip ! Je suis Tomás.",
+   "clave": [
+    "Pip"
+   ],
+   "img": "img/g1-u1-p07.jpg"
+  },
+  {
+   "texto": "Bonjour, les amis ! On joue !",
+   "clave": [],
+   "img": "img/g1-u1-p08.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "Qui est qui ?",
+  "instruccion": "Touche l'ami que tu entends.",
+  "items": [
+   {
+    "palabra": "Freya",
+    "img": "img/g1-u1-a-freya.png"
+   },
+   {
+    "palabra": "Nico",
+    "img": "img/g1-u1-a-nico.png"
+   },
+   {
+    "palabra": "Astrid",
+    "img": "img/g1-u1-a-astrid.png"
+   },
+   {
+    "palabra": "Pip",
+    "img": "img/g1-u1-a-pip.png"
+   }
+  ]
+ },
+ "lang": "fr"
+}

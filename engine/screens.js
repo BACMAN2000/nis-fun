@@ -35,8 +35,8 @@ window.SCREENS = (function () {
     // cuentos o las unidades.
     cont.querySelector('.scr-dots').innerHTML = pantallas.map((_, k) =>
       `<button class="scr-dot${k === i ? ' on' : ''}" data-k="${k}"
-         aria-label="Screen ${k + 1}: ${String(pantallas[k].titulo || 'Course content').replace(/"/g, '&quot;')}"
-         title="${String(pantallas[k].titulo || 'Course content').replace(/"/g, '&quot;')}"
+         aria-label="${T('Screen','Écran')} ${k + 1}: ${String(pantallas[k].titulo || T('Course content','Contenu du cours')).replace(/"/g, '&quot;')}"
+         title="${String(pantallas[k].titulo || T('Course content','Contenu du cours')).replace(/"/g, '&quot;')}"
          ${k === i ? ' aria-current="step"' : ''}></button>`
     ).join('');
 
@@ -44,7 +44,7 @@ window.SCREENS = (function () {
     const next = cont.querySelector('.scr-next');
     prev.hidden = i === 0;
     next.hidden = i >= pantallas.length - 1;
-    next.querySelector('.scr-lbl').textContent = p.etiquetaSiguiente || 'Next';
+    next.querySelector('.scr-lbl').textContent = p.etiquetaSiguiente || T('Next','Suivant');
 
     cont.querySelector('.scr-cuenta').textContent = `${i + 1} / ${pantallas.length}`;
 
@@ -83,10 +83,10 @@ window.SCREENS = (function () {
       <div class="scr">
         <div class="scr-top">${salidas(opts)}<h2 class="scr-tit"></h2>
           <span class="scr-cuenta"></span></div>
-        <button class="scr-nav scr-prev" type="button" aria-label="Previous screen">
+        <button class="scr-nav scr-prev" type="button" aria-label="${T('Previous screen','Écran précédent')}">
           <span class="scr-fl">‹</span></button>
         <div class="scr-body"></div>
-        <button class="scr-nav scr-next" type="button" aria-label="Next screen">
+        <button class="scr-nav scr-next" type="button" aria-label="${T('Next screen','Écran suivant')}">
           <span class="scr-lbl">Next</span><span class="scr-fl">›</span></button>
         <div class="scr-dots"></div>
       </div>`;

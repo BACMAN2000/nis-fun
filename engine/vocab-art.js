@@ -494,16 +494,27 @@ window.VOCAB_ART = (function () {
      que lo nombra. Asi la version francesa reutiliza el arte ingles sin duplicar
      un solo SVG, y una palabra sin alias simplemente no dibuja (como ya pasa en
      ingles con las que no tienen arte). */
+  /* fr -> en. Lo genera tools/fr_alias.py comparando las 150
+     unidades por parejas: fr_aplica.py traduce la wordlist en su
+     sitio, asi que la palabra i del frances es la i del ingles.
+     Solo se listan las que llevan a un dibujo de verdad. */
   const ALIAS = {
-    'ballon':'ball', 'cerf-volant':'kite', 'cerf volant':'kite', 'voiture':'car',
-    'nounours':'teddy', 'ours en peluche':'teddy', 'poupee':'doll', 'poupée':'doll',
-    'rouge':'red', 'bleu':'blue', 'bleue':'blue', 'vert':'green', 'verte':'green',
-    'jaune':'yellow', 'orange':'orange', 'noir':'black', 'noire':'black',
-    'marron':'brown', 'pomme':'apple', 'banane':'banana', 'grenouille':'frog',
-    'carotte':'carrot', 'mer':'sea', 'nuit':'night',
-    'bonjour':'hello', 'salut':'hello', 'au revoir':'goodbye', 'les nombres':'numbers',
-    'un':'one', 'deux':'two', 'trois':'three', 'quatre':'four', 'cinq':'five',
-    'six':'six', 'sept':'seven', 'huit':'eight', 'neuf':'nine', 'dix':'ten'
+    'arc-en-ciel':'rainbow', 'aéroport':'airport', 'bague':'ring', 'baleine':'whale',
+    'ballon':'ball', 'bleu':'blue', 'bleue':'blue', 'bébé':'baby', 'canard':'duck',
+    'ceinture':'belt', 'cerf volant':'kite', 'cerf-volant':'kite', 'chapeau de soleil':'sunhat',
+    'chat':'cat', 'chaud':'hot', 'chaussettes':'socks', 'chauve-souris':'bat',
+    'cheval':'horse', 'chien':'dog', 'château':'castle', 'commissariat':'police station',
+    'dauphin':'dolphin', 'ensoleillé':'sunny', 'escargot':'snail', 'famille':'family',
+    'froid':'cold', 'frère':'brother', 'fête foraine':'funfair', 'gants':'gloves',
+    'jaune':'yellow', 'kangourou':'kangaroo', 'lapin':'rabbit', 'mamie':'grandma',
+    'musée':'museum', 'mère':'mother', 'météo':'weather', 'neigeux':'snowy',
+    'nounours':'teddy', 'nuageux':'cloudy', 'oiseau':'bird', 'ours en peluche':'teddy',
+    'papi':'grandpa', 'parapluie':'umbrella', 'perroquet':'parrot', 'pharmacie':'chemist\'s',
+    'pingouin':'penguin', 'pluvieux':'rainy', 'poche':'pocket', 'poisson':'fish',
+    'pont':'bridge', 'poupee':'doll', 'poupée':'doll', 'père':'father', 'requin':'shark',
+    'rouge':'red', 'singe':'monkey', 'stade':'stadium', 'sœur':'sister', 'théâtre':'theatre',
+    'uniforme':'uniform', 'vache':'cow', 'valise':'suitcase', 'venteux':'windy',
+    'vert':'green', 'verte':'green', 'voiture':'car', 'écharpe':'scarf', 'éléphant':'elephant'
   };
 
   // ---- API ---------------------------------------------------------------

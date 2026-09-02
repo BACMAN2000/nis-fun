@@ -1,0 +1,78 @@
+{
+ "id": "g3-u3",
+ "grado": "G3",
+ "tema": 3,
+ "nivel": "A1",
+ "titulo": "Le plus long pique-nique",
+ "objetivo": "La nourriture et les quantités",
+ "paginas": [
+  {
+   "texto": "Le Club du Fjord a préparé un pique-nique. Chacun devait apporter une chose. Une seule.",
+   "clave": [],
+   "img": "img/g3-u3-p01.jpg"
+  },
+  {
+   "texto": "Valentina a apporté du pain. Sofia a apporté du fromage. C'était un bon début.",
+   "clave": [],
+   "img": "img/g3-u3-p02.jpg"
+  },
+  {
+   "texto": "Mateo a apporté du pain aussi, parce qu'il avait oublié la liste à la maison.",
+   "clave": [],
+   "img": "img/g3-u3-p03.jpg"
+  },
+  {
+   "texto": "Erik a apporté une machine qui coupe le pain. Maintenant il y avait beaucoup de pain et une machine.",
+   "clave": [],
+   "img": "img/g3-u3-p04.jpg"
+  },
+  {
+   "texto": "« Il y a combien d'eau ? » a demandé Sofia. Il n'y avait pas d'eau. Personne n'avait apporté d'eau.",
+   "clave": [],
+   "img": "img/g3-u3-p05.jpg"
+  },
+  {
+   "texto": "Alors ils ont mangé du pain et du fromage en racontant des histoires, et c'était mieux que prévu.",
+   "clave": [],
+   "img": "img/g3-u3-p06.jpg"
+  },
+  {
+   "texto": "Luna a mangé quatre sandwichs quand personne ne regardait. Il n'y en avait que six.",
+   "clave": [],
+   "img": "img/g3-u3-p07.jpg"
+  },
+  {
+   "texto": "Puis Sofia a trouvé un robinet derrière l'arbre, et d'un coup il y a eu de l'eau pour tout le monde.",
+   "clave": [],
+   "img": "img/g3-u3-p08.jpg"
+  },
+  {
+   "texto": "Ils sont restés jusqu'à la nuit. C'était le plus long pique-nique de l'année, et il n'est rien resté.",
+   "clave": [],
+   "img": "img/g3-u3-p09.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "Au pique-nique",
+  "instruccion": "Touche l'image que tu entends.",
+  "items": [
+   {
+    "palabra": "famille",
+    "img": "img/g3-u3-a-family.png"
+   },
+   {
+    "palabra": "chien",
+    "img": "img/g3-u3-a-dog.png"
+   },
+   {
+    "palabra": "restaurant",
+    "img": "img/g3-u3-a-restaurant.png"
+   },
+   {
+    "palabra": "ballon",
+    "img": "img/g3-u3-a-ball.png"
+   }
+  ]
+ },
+ "lang": "fr"
+}

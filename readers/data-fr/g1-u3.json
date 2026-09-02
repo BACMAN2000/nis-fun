@@ -1,0 +1,75 @@
+{
+ "id": "g1-u3",
+ "grado": "G1",
+ "tema": 3,
+ "nivel": "Pre-A1",
+ "titulo": "Bouge ton corps !",
+ "objetivo": "Les parties du corps et les actions",
+ "paginas": [
+  {
+   "texto": "Voici ma tête.",
+   "clave": [
+    "tête"
+   ],
+   "img": "img/g1-u3-p01.jpg"
+  },
+  {
+   "texto": "Voici mes bras.",
+   "clave": [],
+   "img": "img/g1-u3-p02.jpg"
+  },
+  {
+   "texto": "Voici mes jambes.",
+   "clave": [],
+   "img": "img/g1-u3-p03.jpg"
+  },
+  {
+   "texto": "Je sais sauter ! Un, deux, trois !",
+   "clave": [],
+   "img": "img/g1-u3-p04.jpg"
+  },
+  {
+   "texto": "Pip sait voler. Regarde ses ailes !",
+   "clave": [],
+   "img": "img/g1-u3-p05.jpg"
+  },
+  {
+   "texto": "Tu sais courir, Astrid ? Oui, je sais !",
+   "clave": [],
+   "img": "img/g1-u3-p06.jpg"
+  },
+  {
+   "texto": "Mes jambes sont fatiguées maintenant.",
+   "clave": [],
+   "img": "img/g1-u3-p07.jpg"
+  },
+  {
+   "texto": "Tape des mains. Bravo !",
+   "clave": [],
+   "img": "img/g1-u3-p08.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "Mon corps",
+  "instruccion": "Touche le mot que tu entends.",
+  "items": [
+   {
+    "palabra": "la tête",
+    "img": null
+   },
+   {
+    "palabra": "les bras",
+    "img": null
+   },
+   {
+    "palabra": "les jambes",
+    "img": null
+   },
+   {
+    "palabra": "les mains",
+    "img": null
+   }
+  ]
+ },
+ "lang": "fr"
+}

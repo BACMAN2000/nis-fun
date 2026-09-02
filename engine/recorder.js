@@ -55,12 +55,11 @@ window.REC = (function () {
       <div class="rec">
         <div class="rec-fila">
           <button class="rec-btn rec-grabar" type="button">
-            <span class="rec-punto"></span><span class="rec-txt">Record</span></button>
+            <span class="rec-punto"></span><span class="rec-txt">${T('Record','Enregistrer')}</span></button>
           <span class="rec-tiempo">0:00</span>
           <audio class="rec-audio" controls hidden></audio>
         </div>
-        <p class="rec-nota">Record yourself comparing the two pictures. You can listen to it
-          and record again. Your teacher will be able to hear it.</p>
+        <p class="rec-nota">${T('Record yourself comparing the two pictures. You can listen to it and record again. Your teacher will be able to hear it.',"Enregistre-toi en comparant les deux images. Tu peux te réécouter et recommencer. Ton professeur pourra t’écouter.")}</p>
         <p class="rec-estado" role="status"></p>
       </div>`;
 
@@ -75,7 +74,7 @@ window.REC = (function () {
       if (r && r.blob) {
         audio.src = URL.createObjectURL(r.blob);
         audio.hidden = false;
-        estado.textContent = 'Your last recording is saved.';
+        estado.textContent = T('Your last recording is saved.','Ton dernier enregistrement est gardé.');
       }
     });
 
@@ -89,7 +88,7 @@ window.REC = (function () {
       try {
         flujo = await navigator.mediaDevices.getUserMedia({ audio: true });
       } catch (e) {
-        estado.textContent = 'I could not use the microphone. Please allow it in your browser.';
+        estado.textContent = T('I could not use the microphone. Please allow it in your browser.',"Je n'ai pas pu utiliser le micro. Autorise-le dans ton navigateur.");
         return;
       }
       trozos = [];
@@ -102,24 +101,24 @@ window.REC = (function () {
         audio.src = URL.createObjectURL(blob);
         audio.hidden = false;
         bt.classList.remove('on');
-        bt.querySelector('.rec-txt').textContent = 'Record again';
-        estado.textContent = 'Saved. Listen to yourself!';
+        bt.querySelector('.rec-txt').textContent = T('Record again','Recommencer');
+        estado.textContent = T('Saved. Listen to yourself!','Enregistré. Réécoute-toi !');
         await guardarLocal(id, blob, info);
         // y al servidor, si hay a donde mandarlo
         if (window.REC_SUBIR) {
           try {
             await window.REC_SUBIR(blob, Object.assign({ id }, info));
-            estado.textContent = 'Saved. Your teacher can hear it now.';
+            estado.textContent = T('Saved. Your teacher can hear it now.',"Enregistré. Ton professeur peut l’écouter.");
           } catch (e) {
-            estado.textContent = 'Saved on this device. It will be sent when you are online.';
+            estado.textContent = T('Saved on this device. It will be sent when you are online.','Gardé sur cet appareil. Il partira quand tu seras connecté.');
           }
         }
       };
       mr.start();
       t0 = Date.now();
       bt.classList.add('on');
-      bt.querySelector('.rec-txt').textContent = 'Stop';
-      estado.textContent = 'Recording…';
+      bt.querySelector('.rec-txt').textContent = T('Stop','Arrêter');
+      estado.textContent = T('Recording…','Enregistrement…');
       tic = setInterval(() => {
         const s = Math.floor((Date.now() - t0) / 1000);
         pinta(s);

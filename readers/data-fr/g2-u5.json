@@ -1,0 +1,75 @@
+{
+ "id": "g2-u5",
+ "grado": "G2",
+ "tema": 5,
+ "nivel": "Pre-A1",
+ "titulo": "Une journée à l'école",
+ "objetivo": "Ma journée",
+ "paginas": [
+  {
+   "texto": "Le matin : bonjour, l'école !",
+   "clave": [],
+   "img": "img/g2-u5-p01.jpg"
+  },
+  {
+   "texto": "À neuf heures : on lit un livre.",
+   "clave": [
+    "livre"
+   ],
+   "img": "img/g2-u5-p02.jpg"
+  },
+  {
+   "texto": "À dix heures : on chante une chanson.",
+   "clave": [],
+   "img": "img/g2-u5-p03.jpg"
+  },
+  {
+   "texto": "À onze heures : on court et on saute.",
+   "clave": [],
+   "img": "img/g2-u5-p04.jpg"
+  },
+  {
+   "texto": "À midi : on mange. J'ai faim !",
+   "clave": [],
+   "img": "img/g2-u5-p05.jpg"
+  },
+  {
+   "texto": "À deux heures : on peint. Mes mains sont bleues.",
+   "clave": [],
+   "img": "img/g2-u5-p06.jpg"
+  },
+  {
+   "texto": "À trois heures : au revoir, l'école ! À bientôt !",
+   "clave": [],
+   "img": "img/g2-u5-p07.jpg"
+  },
+  {
+   "texto": "La nuit : Pip est encore à l'école. Bonne nuit, Pip.",
+   "clave": [],
+   "img": "img/g2-u5-p08.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "Ma journée",
+  "instruccion": "Touche l'image que tu entends.",
+  "items": [
+   {
+    "palabra": "livre",
+    "img": "img/g2-u5-a-book.png"
+   },
+   {
+    "palabra": "ballon",
+    "img": "img/g2-u5-a-ball.png"
+   },
+   {
+    "palabra": "oiseau",
+    "img": "img/g2-u5-a-bird.png"
+   },
+   {
+    "palabra": "famille",
+    "img": "img/g2-u5-a-family.png"
+   }
+  ]
+ },
+ "lang": "fr"
+}

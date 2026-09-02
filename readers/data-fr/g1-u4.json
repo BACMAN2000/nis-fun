@@ -1,0 +1,79 @@
+{
+ "id": "g1-u4",
+ "grado": "G1",
+ "tema": 4,
+ "nivel": "Pre-A1",
+ "titulo": "La ferme qui fait du bruit",
+ "objetivo": "Les animaux de la ferme et leurs cris",
+ "paginas": [
+  {
+   "texto": "Freya est à la ferme.",
+   "clave": [],
+   "img": "img/g1-u4-p01.jpg"
+  },
+  {
+   "texto": "Un grand animal fait MEUH.",
+   "clave": [],
+   "img": "img/g1-u4-p02.jpg"
+  },
+  {
+   "texto": "Un petit animal fait COIN-COIN.",
+   "clave": [],
+   "img": "img/g1-u4-p03.jpg"
+  },
+  {
+   "texto": "Regarde ! Un perroquet dans l'arbre.",
+   "clave": [
+    "perroquet"
+   ],
+   "img": "img/g1-u4-p04.jpg"
+  },
+  {
+   "texto": "Le perroquet dit BONJOUR !",
+   "clave": [
+    "perroquet"
+   ],
+   "img": "img/g1-u4-p05.jpg"
+  },
+  {
+   "texto": "Bonjour ! dit Freya. Bonjour ! dit le perroquet.",
+   "clave": [
+    "perroquet"
+   ],
+   "img": "img/g1-u4-p06.jpg"
+  },
+  {
+   "texto": "Pip n'est pas content. C'est MON mot !",
+   "clave": [],
+   "img": "img/g1-u4-p07.jpg"
+  },
+  {
+   "texto": "Bonjour, bonjour, bonjour ! Tout le monde rit.",
+   "clave": [],
+   "img": "img/g1-u4-p08.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "Les animaux de la ferme",
+  "instruccion": "Touche l'animal que tu entends.",
+  "items": [
+   {
+    "palabra": "un perroquet",
+    "img": "img/g1-u4-a-a-parrot.png"
+   },
+   {
+    "palabra": "un panda",
+    "img": "img/g1-u4-a-a-panda.png"
+   },
+   {
+    "palabra": "un manchot",
+    "img": "img/g1-u4-a-a-penguin.png"
+   },
+   {
+    "palabra": "un lion",
+    "img": "img/g1-u4-a-a-lion.png"
+   }
+  ]
+ },
+ "lang": "fr"
+}

@@ -1,0 +1,91 @@
+{
+ "id": "g5-u3",
+ "grado": "G5",
+ "tema": 3,
+ "nivel": "A2",
+ "titulo": "Diego pose des questions à tout le monde",
+ "objetivo": "Poser des questions",
+ "paginas": [
+  {
+   "texto": "Diego avait un nouveau microphone et un très gros problème : il n'avait pas d'histoire pour vendredi.",
+   "clave": [],
+   "img": "img/g5-u3-p01.jpg"
+  },
+  {
+   "texto": "« Tu as déjà vu l'aurore boréale ? » a-t-il demandé à la cuisinière. « Deux fois », a-t-elle dit. « Et je portais de la soupe les deux fois. »",
+   "clave": [],
+   "img": "img/g5-u3-p02.jpg"
+  },
+  {
+   "texto": "« Quelle est la meilleure chose de l'hiver ? » a-t-il demandé à Oliver. Oliver a joué quatre notes et a dit : « Ça. »",
+   "clave": [],
+   "img": "img/g5-u3-p03.jpg"
+  },
+  {
+   "texto": "« Le fjord fait quelle profondeur ? » a-t-il demandé à Maya. Maya a ouvert un livre, et Diego a compris que la réponse prendrait du temps.",
+   "clave": [
+    "où"
+   ],
+   "img": "img/g5-u3-p04.jpg"
+  },
+  {
+   "texto": "« Pourquoi tu montes au phare tous les matins ? » a-t-il demandé à Ingrid. « Parce que quelqu'un doit le faire », a-t-elle dit.",
+   "clave": [
+    "pourquoi"
+   ],
+   "img": "img/g5-u3-p05.jpg"
+  },
+  {
+   "texto": "« Où est-ce que tu dors ? » a-t-il demandé à Kili. Kili n'a rien dit, parce que les condors ne donnent pas d'interviews.",
+   "clave": [
+    "où"
+   ],
+   "img": "img/g5-u3-p06.jpg"
+  },
+  {
+   "texto": "Jeudi Diego avait quarante réponses et toujours pas d'histoire. Il s'est assis sur les marches et il a arrêté de demander.",
+   "clave": [],
+   "img": "img/g5-u3-p07.jpg"
+  },
+  {
+   "texto": "Alors Maya s'est assise à côté de lui. « Tu as posé une question à tout le monde », a-t-elle dit. « Personne ne t'en a posé une à TOI. »",
+   "clave": [],
+   "img": "img/g5-u3-p08.jpg"
+  },
+  {
+   "texto": "« Alors : pourquoi tu portes toujours ce microphone ? » Diego a réfléchi longtemps. « Parce que je veux me souvenir de tout ça. »",
+   "clave": [
+    "pourquoi"
+   ],
+   "img": "img/g5-u3-p09.jpg"
+  },
+  {
+   "texto": "Vendredi le journal de l'école avait une seule ligne en première page, et tout le monde l'a lue deux fois.",
+   "clave": [],
+   "img": "img/g5-u3-p10.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "Les mots des questions",
+  "instruccion": "Touche le mot que tu entends.",
+  "items": [
+   {
+    "palabra": "où",
+    "img": "img/g5-u3-a-where.png"
+   },
+   {
+    "palabra": "pourquoi",
+    "img": "img/g5-u3-a-why.png"
+   },
+   {
+    "palabra": "qui",
+    "img": "img/g5-u3-a-who.png"
+   },
+   {
+    "palabra": "quand",
+    "img": "img/g5-u3-a-when.png"
+   }
+  ]
+ },
+ "lang": "fr"
+}

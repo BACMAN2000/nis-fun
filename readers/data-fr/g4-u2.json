@@ -1,0 +1,86 @@
+{
+ "id": "g4-u2",
+ "grado": "G4",
+ "tema": 2,
+ "nivel": "A1",
+ "titulo": "La carte de Sofia",
+ "objetivo": "Les lieux et les indications",
+ "paginas": [
+  {
+   "texto": "Sofia dessine une carte de tout. Sa chambre, l'école, le chemin de la boulangerie. Tout.",
+   "clave": [],
+   "img": "img/g4-u2-p01.jpg"
+  },
+  {
+   "texto": "Samedi elle a fait une carte de la ville pour une visiteuse qui n'y était jamais venue.",
+   "clave": [],
+   "img": "img/g4-u2-p02.jpg"
+  },
+  {
+   "texto": "« Passe devant le musée, tourne à gauche au pont, et le théâtre est sur ta droite. »",
+   "clave": [
+    "musée",
+    "théâtre"
+   ],
+   "img": "img/g4-u2-p03.jpg"
+  },
+  {
+   "texto": "« Si tu vois l'aéroport, tu es allée trop loin. Tout le monde voit l'aéroport au moins une fois. »",
+   "clave": [
+    "aéroport"
+   ],
+   "img": "img/g4-u2-p04.jpg"
+  },
+  {
+   "texto": "Mateo a utilisé la carte dimanche. Il est arrivé au commissariat.",
+   "clave": [],
+   "img": "img/g4-u2-p05.jpg"
+  },
+  {
+   "texto": "« La carte est parfaite », a dit Sofia. « Tu as tourné à gauche au mauvais pont. » Il y a deux ponts.",
+   "clave": [],
+   "img": "img/g4-u2-p06.jpg"
+  },
+  {
+   "texto": "Alors elle a fait une deuxième carte, avec les deux ponts dessinés très grands et un des deux barré.",
+   "clave": [],
+   "img": "img/g4-u2-p07.jpg"
+  },
+  {
+   "texto": "Maintenant la visiteuse trouve le théâtre, le musée et le restaurant, et personne ne va au commissariat par erreur.",
+   "clave": [
+    "musée",
+    "théâtre"
+   ],
+   "img": "img/g4-u2-p08.jpg"
+  },
+  {
+   "texto": "Sofia garde toutes ses vieilles cartes dans une boîte. Elle dit qu'une carte fausse raconte quand même où quelqu'un est allé.",
+   "clave": [],
+   "img": "img/g4-u2-p09.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "Les lieux de la ville",
+  "instruccion": "Touche le lieu que tu entends.",
+  "items": [
+   {
+    "palabra": "musée",
+    "img": "img/g4-u2-a-museum.png"
+   },
+   {
+    "palabra": "théâtre",
+    "img": "img/g4-u2-a-theatre.png"
+   },
+   {
+    "palabra": "restaurant",
+    "img": "img/g4-u2-a-restaurant.png"
+   },
+   {
+    "palabra": "aéroport",
+    "img": "img/g4-u2-a-airport.png"
+   }
+  ]
+ },
+ "lang": "fr"
+}

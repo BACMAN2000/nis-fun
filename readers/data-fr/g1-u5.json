@@ -1,0 +1,81 @@
+{
+ "id": "g1-u5",
+ "grado": "G1",
+ "tema": 5,
+ "nivel": "Pre-A1",
+ "titulo": "La photo de ma famille",
+ "objetivo": "Les membres de la famille",
+ "paginas": [
+  {
+   "texto": "Voici la photo de ma famille.",
+   "clave": [],
+   "img": "img/g1-u5-p01.jpg"
+  },
+  {
+   "texto": "Voici ma maman. Elle est gentille.",
+   "clave": [
+    "maman"
+   ],
+   "img": "img/g1-u5-p02.jpg"
+  },
+  {
+   "texto": "Voici mon papa. Il est grand.",
+   "clave": [
+    "papa"
+   ],
+   "img": "img/g1-u5-p03.jpg"
+  },
+  {
+   "texto": "Voici ma sœur. Elle est petite.",
+   "clave": [],
+   "img": "img/g1-u5-p04.jpg"
+  },
+  {
+   "texto": "Voici ma mamie. Elle est contente.",
+   "clave": [
+    "mamie"
+   ],
+   "img": "img/g1-u5-p05.jpg"
+  },
+  {
+   "texto": "Voici mon papi. Il est vieux.",
+   "clave": [],
+   "img": "img/g1-u5-p06.jpg"
+  },
+  {
+   "texto": "Et voici mon bébé cousin !",
+   "clave": [
+    "bébé"
+   ],
+   "img": "img/g1-u5-p07.jpg"
+  },
+  {
+   "texto": "J'aime ma famille.",
+   "clave": [],
+   "img": "img/g1-u5-p08.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "Ma famille",
+  "instruccion": "Touche la personne que tu entends.",
+  "items": [
+   {
+    "palabra": "maman",
+    "img": "img/g1-u5-a-mum.png"
+   },
+   {
+    "palabra": "papa",
+    "img": "img/g1-u5-a-dad.png"
+   },
+   {
+    "palabra": "mamie",
+    "img": "img/g1-u5-a-grandma.png"
+   },
+   {
+    "palabra": "le bébé",
+    "img": "img/g1-u5-a-baby.png"
+   }
+  ]
+ },
+ "lang": "fr"
+}

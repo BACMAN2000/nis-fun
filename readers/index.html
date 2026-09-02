@@ -133,11 +133,33 @@ const HOME = (() => {
   } catch (e) {}
   return '../engine/';
 })();
-document.getElementById('home').href = HOME;
+document.getElementById('home').href = (() => {
+  if (new URLSearchParams(location.search).get('lang') !== 'fr') return HOME;
+  try { const u = new URL(HOME, location.href); u.searchParams.set('lang', 'fr');
+        return u.pathname + u.search + u.hash; } catch(e){ return HOME; }
+})();
 
 const app = document.getElementById('app');
 const params = new URLSearchParams(location.search);
 const ID = params.get('id');
+
+/* Frances. Misma pagina, mismos dibujos: solo cambia de donde salen los
+   textos, de donde sale el audio y en que idioma lee la voz. */
+const LANG = params.get('lang') === 'fr' ? 'fr' : 'en';
+const DATA = LANG === 'fr' ? 'data-fr' : 'data';
+const AUDIO = LANG === 'fr' ? 'audio-fr' : 'audio';
+const T = (en, fr) => (LANG === 'fr' ? fr : en);
+const Q = extra => (LANG === 'fr' ? (extra ? extra + '&lang=fr' : '?lang=fr') : (extra || './'));
+/* Los rotulos que van escritos en el HTML, para que la pagina diga algo
+   antes de que corra nada. Se reescriben aqui los cinco juntos: asi se
+   traducen en un solo sitio y la auditoria los ve pasar por T(). */
+document.documentElement.lang = LANG;
+document.title = T('Nordic Little Readers', 'Petits Lecteurs Nordic');
+document.getElementById('tit').textContent = T('Nordic Little Readers', 'Petits Lecteurs Nordic');
+document.getElementById('volver').textContent = T('‹ Bookshelf', '‹ La bibliothèque');
+document.getElementById('home').textContent = T('Home ›', 'Accueil ›');
+app.innerHTML = `<p class="muted">${T('Loading…', 'Chargement…')}</p>`;
+document.getElementById('volver').href = LANG === 'fr' ? './?lang=fr' : './';
 
 const esc = t => String(t==null?'':t).replace(/&/g,'&amp;').replace(/</g,'&lt;')
   .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
@@ -150,9 +172,11 @@ function di(texto, btn){
   try { speechSynthesis.cancel(); } catch(e){}
   const fin = () => btn && btn.classList.remove('sonando');
   btn && btn.classList.add('sonando');
-  const slug = texto.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,60);
+  // sin tildes: "poupée" y "poupee" tienen que ser el mismo archivo
+  const slug = texto.normalize('NFD').replace(/[\u0300-\u036f]/g,'')
+    .toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,60);
   // con version, para que un 404 guardado de antes no sobreviva
-  const a = new Audio(`audio/${slug}.mp3?v=2026-08-27`);
+  const a = new Audio(`${AUDIO}/${slug}.mp3?v=2026-08-27`);
   sonando = a;
   a.onended = fin;
   a.onerror = () => { sonando = null; vozNavegador(texto); setTimeout(fin, 1800); };
@@ -169,17 +193,18 @@ function vozNavegador(t, reintento){
       return;
     }
     const u = new SpeechSynthesisUtterance(t);
-    u.lang = 'en-GB'; u.rate = 0.78;
-    const gb = speechSynthesis.getVoices().find(v=>/en[-_]GB/i.test(v.lang));
-    if (gb) u.voice = gb;
+    u.lang = LANG === 'fr' ? 'fr-FR' : 'en-GB'; u.rate = 0.78;
+    const re = LANG === 'fr' ? /fr[-_]FR/i : /en[-_]GB/i;
+    const v = speechSynthesis.getVoices().find(x=>re.test(x.lang));
+    if (v) u.voice = v;
     speechSynthesis.speak(u);
   } catch(e){}
 }
 
 /* ---------- la estantería ---------- */
 async function estante(){
-  const r = await fetch('data/index.json', {cache: 'no-cache'});
-  if (!r.ok){ app.innerHTML = '<p class="muted">No encuentro los cuentos.</p>'; return; }
+  const r = await fetch(`${DATA}/index.json`, {cache: 'no-cache'});
+  if (!r.ok){ app.innerHTML = `<p class="muted">${T('The stories are not here.','Les histoires ne sont pas là.')}</p>`; return; }
   const libros = (await r.json()).libros || [];
   const porGrado = {};
   libros.forEach(l => (porGrado[l.grado] = porGrado[l.grado] || []).push(l));
@@ -187,24 +212,24 @@ async function estante(){
   app.innerHTML = Object.keys(porGrado).sort().map(g => `
     <div class="grupo">${esc(g)} · ${esc(porGrado[g][0].nivel)}</div>
     <div class="estante">${porGrado[g].map(l => `
-      <a class="libro" href="?id=${esc(l.id)}">
+      <a class="libro" href="${Q('?id=' + esc(l.id))}">
         <img src="${esc(l.portada)}?v=${ART_V}" alt="" onerror="this.style.visibility='hidden'">
         <div class="txt">
           <h3>${esc(l.titulo)}</h3>
           <p>${esc(l.objetivo)}</p>
-          <div class="meta">${l.paginas} pages</div>
+          <div class="meta">${l.paginas} ${T('pages','pages')}</div>
         </div></a>`).join('')}</div>`).join('');
 }
 
 /* ---------- un cuento ---------- */
 async function cuento(id){
-  const r = await fetch(`data/${id}.json`, {cache: 'no-cache'});
-  if (!r.ok){ app.innerHTML = '<p class="muted">No encuentro ese cuento.</p>'; return; }
+  const r = await fetch(`${DATA}/${id}.json`, {cache: 'no-cache'});
+  if (!r.ok){ app.innerHTML = `<p class="muted">${T('I cannot find that story.','Je ne trouve pas cette histoire.')}</p>`; return; }
   const d = await r.json();
   document.getElementById('tit').textContent = d.titulo;
   document.getElementById('lvl').textContent = `${d.grado} · ${d.nivel}`;
   document.getElementById('volver').hidden = false;
-  document.title = d.titulo + ' · Nordic Little Readers';
+  document.title = d.titulo + T(' · Nordic Little Readers', ' · Petits Lecteurs Nordic');
 
   let i = 0;
   const total = d.paginas.length + 1;          // +1 por la actividad final
@@ -216,8 +241,8 @@ async function cuento(id){
     const puntos = `<div class="puntos">${Array.from({length: total}, (_, k) =>
       `<span class="punto${k===i?' on':''}"></span>`).join('')}</div>`;
     const barra = `<div class="barra">
-      <button class="nav" id="atras" ${i===0?'disabled':''}>‹ Back</button>
-      <button class="nav" id="alante" ${i>=total-1?'disabled':''}>${i===d.paginas.length-1?'Activity':'Next'} ›</button>
+      <button class="nav" id="atras" ${i===0?'disabled':''}>‹ ${T('Back','Retour')}</button>
+      <button class="nav" id="alante" ${i>=total-1?'disabled':''}>${i===d.paginas.length-1?T('Activity','Activité'):T('Next','Suivant')} ›</button>
     </div>`;
 
     if (i < d.paginas.length){
@@ -231,7 +256,7 @@ async function cuento(id){
       app.innerHTML = `<div class="pag">
           ${p.img ? `<img src="${esc(p.img)}?v=${ART_V}" alt="" onerror="this.remove()">` : ''}
           <p class="frase">${frase}</p>
-          <button class="oir" id="oir">🔊 Listen</button>
+          <button class="oir" id="oir">🔊 ${T('Listen','Écoute')}</button>
         </div>${barra}${puntos}`;
       document.getElementById('oir').onclick = e => di(p.texto, e.currentTarget);
     } else {
@@ -254,8 +279,8 @@ function actividad(d, cola){
   const barajado = items.map((x,k)=>({x,k})).sort(()=>Math.random()-.5);
 
   app.innerHTML = `<div class="fin">
-      <h2>${esc(act.titulo || 'Match the words')}</h2>
-      <p class="muted">${esc(act.instruccion || 'Tap the picture for each word.')}</p>
+      <h2>${esc(act.titulo || T('Match the words','Associe les mots'))}</h2>
+      <p class="muted">${esc(act.instruccion || T('Tap the picture for each word.','Touche l\'image de chaque mot.'))}</p>
       <p class="frase" id="pide"></p>
       <div class="pares">${barajado.map(({x,k}) => `
         <button class="par" data-k="${k}">
@@ -271,7 +296,7 @@ function actividad(d, cola){
 
   function siguiente(){
     if (turno >= items.length){
-      pide.innerHTML = '<span class="listo">Well done! ⭐</span>';
+      pide.innerHTML = `<span class="listo">${T('Well done!','Bravo !')} ⭐</span>`;
       marca.textContent = `${aciertos} / ${items.length}`;
       return;
     }
@@ -295,7 +320,7 @@ function actividad(d, cola){
 }
 
 (ID ? cuento(ID) : estante()).catch(e => {
-  app.innerHTML = '<p class="muted">Something went wrong loading the reader.</p>';
+  app.innerHTML = `<p class="muted">${T('Something went wrong loading the reader.','Une erreur est survenue au chargement.')}</p>`;
 });
 </script>
 </html>

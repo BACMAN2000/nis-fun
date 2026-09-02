@@ -1,0 +1,81 @@
+{
+ "id": "g1-u2",
+ "grado": "G1",
+ "tema": 2,
+ "nivel": "Pre-A1",
+ "titulo": "Où est mon sac ?",
+ "objetivo": "Les objets de la classe",
+ "paginas": [
+  {
+   "texto": "Nico est dans la classe.",
+   "clave": [],
+   "img": "img/g1-u2-p01.jpg"
+  },
+  {
+   "texto": "Où est mon sac ?",
+   "clave": [
+    "sac"
+   ],
+   "img": "img/g1-u2-p02.jpg"
+  },
+  {
+   "texto": "C'est un livre ? Non !",
+   "clave": [],
+   "img": "img/g1-u2-p03.jpg"
+  },
+  {
+   "texto": "C'est un ballon ? Non !",
+   "clave": [
+    "ballon"
+   ],
+   "img": "img/g1-u2-p04.jpg"
+  },
+  {
+   "texto": "C'est un cerf-volant ? Non !",
+   "clave": [
+    "cerf-volant"
+   ],
+   "img": "img/g1-u2-p05.jpg"
+  },
+  {
+   "texto": "Freya a mon sac !",
+   "clave": [
+    "sac"
+   ],
+   "img": "img/g1-u2-p06.jpg"
+  },
+  {
+   "texto": "Merci, Freya !",
+   "clave": [],
+   "img": "img/g1-u2-p07.jpg"
+  },
+  {
+   "texto": "Maintenant on peut lire un livre !",
+   "clave": [],
+   "img": "img/g1-u2-p08.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "Trouve l'objet",
+  "instruccion": "Touche l'image que tu entends.",
+  "items": [
+   {
+    "palabra": "un ballon",
+    "img": "img/g1-u2-a-a-ball.png"
+   },
+   {
+    "palabra": "un cerf-volant",
+    "img": "img/g1-u2-a-a-kite.png"
+   },
+   {
+    "palabra": "un sac",
+    "img": "img/g1-u2-a-a-bag.png"
+   },
+   {
+    "palabra": "un nounours",
+    "img": "img/g1-u2-a-a-teddy.png"
+   }
+  ]
+ },
+ "lang": "fr"
+}

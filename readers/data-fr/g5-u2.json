@@ -1,0 +1,91 @@
+{
+ "id": "g5-u2",
+ "grado": "G5",
+ "tema": 2,
+ "nivel": "A2",
+ "titulo": "Kili livre le courrier",
+ "objetivo": "Écrire une carte postale",
+ "paginas": [
+  {
+   "texto": "Kili est l'oiseau facteur de Nordic. Il est solennel, il est énorme, et il se pose comme une valise qui tombe.",
+   "clave": [
+    "oiseau"
+   ],
+   "img": "img/g5-u2-p01.jpg"
+  },
+  {
+   "texto": "Lundi il a apporté une carte postale de Sven, le grand-père d'Ingrid, qui voyage dans le nord.",
+   "clave": [],
+   "img": "img/g5-u2-p02.jpg"
+  },
+  {
+   "texto": "« Chère Ingrid », disait-elle. « Ici le ciel est vert la nuit. Prends une écharpe bien chaude. Bisous, Papi. »",
+   "clave": [
+    "écharpe",
+    "papi"
+   ],
+   "img": "img/g5-u2-p03.jpg"
+  },
+  {
+   "texto": "Ingrid voulait répondre, mais une carte postale est petite. Qu'est-ce qu'on écrit quand on n'a que six lignes ?",
+   "clave": [],
+   "img": "img/g5-u2-p04.jpg"
+  },
+  {
+   "texto": "Diego a dit : « Écris les nouvelles ! » Maya a dit : « Écris la météo ! » Oliver a dit : « Écris une chanson sur la météo. »",
+   "clave": [],
+   "img": "img/g5-u2-p05.jpg"
+  },
+  {
+   "texto": "Alors Ingrid a écrit les trois, en toutes petites lettres, et ensuite elle n'arrivait plus à lire sa propre carte.",
+   "clave": [],
+   "img": "img/g5-u2-p06.jpg"
+  },
+  {
+   "texto": "Elle a recommencé. « Cher Papi. On va tous bien. Il a plu pendant six jours. J'ai l'écharpe. Rentre vite. »",
+   "clave": [
+    "écharpe",
+    "papi"
+   ],
+   "img": "img/g5-u2-p07.jpg"
+  },
+  {
+   "texto": "Kili a pris la carte dans son bec, a regardé tout le monde, et il a attendu. Personne ne savait pourquoi.",
+   "clave": [],
+   "img": "img/g5-u2-p08.jpg"
+  },
+  {
+   "texto": "« Il veut un biscuit », a dit Maya. Elle avait raison. Elle a en général raison.",
+   "clave": [],
+   "img": "img/g5-u2-p09.jpg"
+  },
+  {
+   "texto": "Puis il est parti vers le nord avec les nouvelles d'une semaine de pluie, et toute l'école l'a regardé s'envoler.",
+   "clave": [],
+   "img": "img/g5-u2-p10.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "Sur la carte postale",
+  "instruccion": "Touche l'image que tu entends.",
+  "items": [
+   {
+    "palabra": "écharpe",
+    "img": "img/g5-u2-a-scarf.png"
+   },
+   {
+    "palabra": "pluvieux",
+    "img": "img/g5-u2-a-rainy.png"
+   },
+   {
+    "palabra": "papi",
+    "img": "img/g5-u2-a-grandpa.png"
+   },
+   {
+    "palabra": "oiseau",
+    "img": "img/g5-u2-a-bird.png"
+   }
+  ]
+ },
+ "lang": "fr"
+}

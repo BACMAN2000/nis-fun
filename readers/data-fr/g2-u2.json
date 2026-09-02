@@ -1,0 +1,81 @@
+{
+ "id": "g2-u2",
+ "grado": "G2",
+ "tema": 2,
+ "nivel": "Pre-A1",
+ "titulo": "Mon sac bleu",
+ "objetivo": "Les couleurs et mes affaires",
+ "paginas": [
+  {
+   "texto": "Voici mon sac. Mon sac est bleu.",
+   "clave": [
+    "bleu"
+   ],
+   "img": "img/g2-u2-p01.jpg"
+  },
+  {
+   "texto": "Dans mon sac : un ballon rouge.",
+   "clave": [
+    "rouge"
+   ],
+   "img": "img/g2-u2-p02.jpg"
+  },
+  {
+   "texto": "Dans mon sac : un cerf-volant jaune.",
+   "clave": [
+    "jaune"
+   ],
+   "img": "img/g2-u2-p03.jpg"
+  },
+  {
+   "texto": "Dans mon sac : deux chaussettes vertes.",
+   "clave": [
+    "vert"
+   ],
+   "img": "img/g2-u2-p04.jpg"
+  },
+  {
+   "texto": "Dans mon sac : mon nounours. Il est marron.",
+   "clave": [],
+   "img": "img/g2-u2-p05.jpg"
+  },
+  {
+   "texto": "Mon sac est plein. Il est très lourd !",
+   "clave": [],
+   "img": "img/g2-u2-p06.jpg"
+  },
+  {
+   "texto": "Freya a un sac aussi. Son sac est petit.",
+   "clave": [],
+   "img": "img/g2-u2-p07.jpg"
+  },
+  {
+   "texto": "Dans son sac : un crayon. C'est tout !",
+   "clave": [],
+   "img": "img/g2-u2-p08.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "Quelle couleur ?",
+  "instruccion": "Touche la couleur que tu entends.",
+  "items": [
+   {
+    "palabra": "rouge",
+    "img": "img/g2-u2-a-red.png"
+   },
+   {
+    "palabra": "bleu",
+    "img": "img/g2-u2-a-blue.png"
+   },
+   {
+    "palabra": "vert",
+    "img": "img/g2-u2-a-green.png"
+   },
+   {
+    "palabra": "jaune",
+    "img": "img/g2-u2-a-yellow.png"
+   }
+  ]
+ },
+ "lang": "fr"
+}

@@ -1,0 +1,75 @@
+{
+ "id": "g2-u6",
+ "grado": "G2",
+ "tema": 6,
+ "nivel": "Pre-A1",
+ "titulo": "Où est Pip ?",
+ "objetivo": "Dans, sur, sous, derrière",
+ "paginas": [
+  {
+   "texto": "C'est un jeu. Trouve Pip ! Prêt ?",
+   "clave": [],
+   "img": "img/g2-u6-p01.jpg"
+  },
+  {
+   "texto": "Pip est dans le sac ? Non, il n'y est pas.",
+   "clave": [
+    "sac"
+   ],
+   "img": "img/g2-u6-p02.jpg"
+  },
+  {
+   "texto": "Pip est sur la table ? Non, il n'y est pas.",
+   "clave": [],
+   "img": "img/g2-u6-p03.jpg"
+  },
+  {
+   "texto": "Pip est sous la chaise ? Non, il n'y est pas.",
+   "clave": [],
+   "img": "img/g2-u6-p04.jpg"
+  },
+  {
+   "texto": "Pip est derrière la porte ? Non, il n'y est pas !",
+   "clave": [],
+   "img": "img/g2-u6-p05.jpg"
+  },
+  {
+   "texto": "Pip est dans le jardin ? Regarde l'arbre.",
+   "clave": [],
+   "img": "img/g2-u6-p06.jpg"
+  },
+  {
+   "texto": "Le voilà ! Pip est DANS l'arbre.",
+   "clave": [],
+   "img": "img/g2-u6-p07.jpg"
+  },
+  {
+   "texto": "Beau jeu, Pip. Maintenant c'est toi qui nous cherches !",
+   "clave": [],
+   "img": "img/g2-u6-p08.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "Où est-il ?",
+  "instruccion": "Touche l'image que tu entends.",
+  "items": [
+   {
+    "palabra": "sac",
+    "img": "img/g2-u6-a-bag.png"
+   },
+   {
+    "palabra": "oiseau",
+    "img": "img/g2-u6-a-bird.png"
+   },
+   {
+    "palabra": "ballon",
+    "img": "img/g2-u6-a-ball.png"
+   },
+   {
+    "palabra": "nounours",
+    "img": "img/g2-u6-a-teddy.png"
+   }
+  ]
+ },
+ "lang": "fr"
+}

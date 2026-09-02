@@ -1,0 +1,99 @@
+{
+ "id": "g5-u1",
+ "grado": "G5",
+ "tema": 1,
+ "nivel": "A2",
+ "titulo": "La lumière dans la tempête",
+ "objetivo": "Le passé : raconter ce qui s'est passé",
+ "paginas": [
+  {
+   "texto": "L'hiver dernier une grosse tempête est arrivée sur le fjord. Le vent était si fort que les fenêtres ont chanté toute la nuit.",
+   "clave": [
+    "tempête",
+    "nuit"
+   ],
+   "img": "img/g5-u1-p01.jpg"
+  },
+  {
+   "texto": "Ingrid était dans la cuisine du phare avec un chocolat chaud. Puis la lumière s'est éteinte.",
+   "clave": [
+    "lumière"
+   ],
+   "img": "img/g5-u1-p02.jpg"
+  },
+  {
+   "texto": "Sans la lumière, les bateaux ne pouvaient pas trouver le port. Ingrid n'a pas attendu. Elle a monté l'escalier en courant.",
+   "clave": [
+    "lumière"
+   ],
+   "img": "img/g5-u1-p03.jpg"
+  },
+  {
+   "texto": "Tout en haut elle a trouvé le problème : la vieille lampe était froide et noire. Quelque chose s'était cassé dedans.",
+   "clave": [
+    "froid"
+   ],
+   "img": "img/g5-u1-p04.jpg"
+  },
+  {
+   "texto": "Ingrid a appelé ses amis. Diego est arrivé le premier, avec son microphone et aucune idée de quoi en faire.",
+   "clave": [],
+   "img": "img/g5-u1-p05.jpg"
+  },
+  {
+   "texto": "Maya a regardé la lampe pendant une minute. « On n'a pas besoin de la réparer ce soir », a-t-elle dit. « On a besoin d'une lumière MAINTENANT. »",
+   "clave": [
+    "lumière"
+   ],
+   "img": "img/g5-u1-p06.jpg"
+  },
+  {
+   "texto": "Alors ils ont monté toutes les lampes de poche de l'école en haut du phare, et Oliver en portait deux.",
+   "clave": [],
+   "img": "img/g5-u1-p07.jpg"
+  },
+  {
+   "texto": "Kili volait au-dessus d'eux en cercles, parce qu'un condor veut toujours savoir ce que font les humains.",
+   "clave": [],
+   "img": "img/g5-u1-p08.jpg"
+  },
+  {
+   "texto": "Cette nuit-là les bateaux ont vu une petite lumière jaune sur le rocher, et ils sont rentrés sains et saufs, un par un.",
+   "clave": [
+    "nuit",
+    "lumière"
+   ],
+   "img": "img/g5-u1-p09.jpg"
+  },
+  {
+   "texto": "Au matin la tempête s'est arrêtée. « On l'a fait », a dit Diego. « Et personne ne l'a enregistré », a répondu son microphone.",
+   "clave": [
+    "tempête"
+   ],
+   "img": "img/g5-u1-p10.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "Qu'est-ce qui s'est passé d'abord ?",
+  "instruccion": "Touche le mot que tu entends.",
+  "items": [
+   {
+    "palabra": "tempête",
+    "img": "img/g5-u1-a-storm.png"
+   },
+   {
+    "palabra": "froid",
+    "img": "img/g5-u1-a-cold.png"
+   },
+   {
+    "palabra": "nuit",
+    "img": "img/g5-u1-a-night.png"
+   },
+   {
+    "palabra": "lumière",
+    "img": "img/g5-u1-a-light.png"
+   }
+  ]
+ },
+ "lang": "fr"
+}

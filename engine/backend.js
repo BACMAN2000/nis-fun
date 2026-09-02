@@ -37,6 +37,10 @@ window.BACKEND = (function () {
     if (!sb || !alumno) return { ok: false, motivo: 'sin sesion' };
     const fila = Object.assign({
       student_id: alumno.id,
+      // El idioma va en la fila y en la clave unica: el curso frances usa los
+      // mismos niveles, unidades y codigos que el ingles, asi que sin esto la
+      // entrega francesa pisaria la inglesa del mismo alumno.
+      lang: (window.LANG === 'fr' ? 'fr' : 'en'),
       level: info.nivel,
       unit: info.unidad,
       activity_code: info.codigo,
@@ -44,8 +48,33 @@ window.BACKEND = (function () {
       payload: payload || {}
     }, extra || {});
     const { error } = await sb.from('fun_submissions')
-      .upsert(fila, { onConflict: 'student_id,level,unit,activity_code,kind' });
+      .upsert(fila, { onConflict: 'student_id,lang,level,unit,activity_code,kind' });
     return error ? { ok: false, motivo: error.message } : { ok: true };
+  }
+
+  /* ---- progreso y tiempo de uso ----------------------------------------
+     Sin esto, de una unidad solo queda rastro si el alumno ESCRIBE algo: los
+     crucigramas, las escuchas y los juegos no dejaban nada, asi que el panel
+     del profesor no podia decir si el curso se usa. Se guarda una fila por
+     actividad terminada, con los segundos que estuvo delante. */
+  let segundos = 0, desde = Date.now(), reloj = null;
+  function cuenta(){
+    if (document.visibilityState === 'visible') { segundos += Math.round((Date.now()-desde)/1000); }
+    desde = Date.now();
+  }
+  function arrancaReloj(){
+    if (reloj) return;
+    document.addEventListener('visibilitychange', cuenta);
+    reloj = setInterval(cuenta, 15000);
+  }
+  async function progreso(info, datos) {
+    arrancaReloj(); cuenta();
+    const r = await guardar('progress', info, Object.assign({
+      hechas: (datos && datos.hechas) || 0,
+      total: (datos && datos.total) || 0,
+      titulo: (datos && datos.titulo) || ''
+    }, datos || {}), { duration_sec: Math.min(segundos, 32000) });
+    return r;
   }
 
   /* ---- grabacion de voz ---- */
@@ -69,6 +98,6 @@ window.BACKEND = (function () {
     return r;
   };
 
-  return { arranca, hayAlumno, guardar, subirAudio,
+  return { arranca, hayAlumno, guardar, progreso, subirAudio,
            alumno: () => alumno };
 })();

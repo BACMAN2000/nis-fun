@@ -1,0 +1,88 @@
+{
+ "id": "g5-u5",
+ "grado": "G5",
+ "tema": 5,
+ "nivel": "A2",
+ "titulo": "La chanson perdue d'Oliver",
+ "objetivo": "Donner des conseils",
+ "paginas": [
+  {
+   "texto": "Le concert était vendredi et Oliver avait écrit la meilleure chanson de sa vie. Mercredi il l'a perdue.",
+   "clave": [],
+   "img": "img/g5-u5-p01.jpg"
+  },
+  {
+   "texto": "« Tu devrais regarder dans ton sac », a dit Ingrid. Il a regardé. Le sac contenait deux pommes et une chaussette.",
+   "clave": [
+    "sac"
+   ],
+   "img": "img/g5-u5-p02.jpg"
+  },
+  {
+   "texto": "« Tu pourrais demander à la salle de musique », a dit Maya. La salle de musique n'a rien dit, parce que les pièces ne parlent pas.",
+   "clave": [],
+   "img": "img/g5-u5-p03.jpg"
+  },
+  {
+   "texto": "« Pourquoi tu ne la réécris pas ? » a demandé Diego. « Parce que je ne m'en souviens pas », a dit Oliver. C'était tout le problème.",
+   "clave": [],
+   "img": "img/g5-u5-p04.jpg"
+  },
+  {
+   "texto": "Ils ont cherché à la bibliothèque, à la piste, au jardin et à la cuisine. Ils ont trouvé un chapeau, une bague et les devoirs de quelqu'un.",
+   "clave": [
+    "chapeau",
+    "bague"
+   ],
+   "img": "img/g5-u5-p05.jpg"
+  },
+  {
+   "texto": "Jeudi soir Oliver s'est assis sur les marches et il a fredonné, parce que c'est ce qu'il fait quand il est triste.",
+   "clave": [],
+   "img": "img/g5-u5-p06.jpg"
+  },
+  {
+   "texto": "Kili s'est posé à côté de lui et a fredonné aussi. Mal. Très mal. Mais les quatre notes étaient les bonnes.",
+   "clave": [],
+   "img": "img/g5-u5-p07.jpg"
+  },
+  {
+   "texto": "Oliver s'est levé si vite qu'il a fait peur au condor. « C'est ma chanson ! Tu écoutais depuis une semaine ! »",
+   "clave": [],
+   "img": "img/g5-u5-p08.jpg"
+  },
+  {
+   "texto": "Il l'a écrite deux fois : une pour le concert et une pour le mur de la cuisine, où rien ne se perd jamais.",
+   "clave": [],
+   "img": "img/g5-u5-p09.jpg"
+  },
+  {
+   "texto": "Vendredi toute l'école l'a chantée, et un condor assis sur le toit l'a chantée plus mal que tout le monde.",
+   "clave": [],
+   "img": "img/g5-u5-p10.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "Un bon conseil",
+  "instruccion": "Touche l'image que tu entends.",
+  "items": [
+   {
+    "palabra": "sac",
+    "img": "img/g5-u5-a-bag.png"
+   },
+   {
+    "palabra": "chapeau",
+    "img": "img/g5-u5-a-hat.png"
+   },
+   {
+    "palabra": "bague",
+    "img": "img/g5-u5-a-ring.png"
+   },
+   {
+    "palabra": "oiseau",
+    "img": "img/g5-u5-a-bird.png"
+   }
+  ]
+ },
+ "lang": "fr"
+}

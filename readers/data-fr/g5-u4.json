@@ -1,0 +1,86 @@
+{
+ "id": "g5-u4",
+ "grado": "G5",
+ "tema": 4,
+ "nivel": "A2",
+ "titulo": "Maya et la rivière",
+ "objetivo": "Comparer les choses",
+ "paginas": [
+  {
+   "texto": "Maya voulait savoir une chose : est-ce que la rivière est plus vieille que l'école, ou l'école plus vieille que la rivière ?",
+   "clave": [],
+   "img": "img/g5-u4-p01.jpg"
+  },
+  {
+   "texto": "L'école a cent ans. Ça semblait beaucoup, jusqu'à ce qu'elle regarde les rochers.",
+   "clave": [],
+   "img": "img/g5-u4-p02.jpg"
+  },
+  {
+   "texto": "La rivière est plus large que la route et plus froide que la mer. En été elle est bruyante. En hiver elle est silencieuse.",
+   "clave": [],
+   "img": "img/g5-u4-p03.jpg"
+  },
+  {
+   "texto": "Ingrid disait que la mer était plus grande. Maya disait que plus grand n'est pas pareil que plus vieux, et elles ont discuté joyeusement pendant une heure.",
+   "clave": [],
+   "img": "img/g5-u4-p04.jpg"
+  },
+  {
+   "texto": "Une baleine est plus grande qu'un dauphin. Un dauphin est plus rapide qu'un bateau. Mais aucun n'est plus vieux que la rivière.",
+   "clave": [
+    "baleine",
+    "dauphin"
+   ],
+   "img": "img/g5-u4-p05.jpg"
+  },
+  {
+   "texto": "Maya a mesuré l'eau tous les lundis pendant deux mois et a écrit chaque chiffre dans un petit carnet vert.",
+   "clave": [],
+   "img": "img/g5-u4-p06.jpg"
+  },
+  {
+   "texto": "Oliver a demandé si la rivière avait une chanson. Maya a dit non. Puis elle a écouté une minute et a dit : « Peut-être. »",
+   "clave": [],
+   "img": "img/g5-u4-p07.jpg"
+  },
+  {
+   "texto": "À la bibliothèque elle a trouvé une carte de 1840. La rivière y était. L'école, non.",
+   "clave": [],
+   "img": "img/g5-u4-p08.jpg"
+  },
+  {
+   "texto": "Donc la rivière est plus vieille. Elle était là avant l'école, avant la ville, et avant que quelqu'un compte les années.",
+   "clave": [],
+   "img": "img/g5-u4-p09.jpg"
+  },
+  {
+   "texto": "« C'est la meilleure réponse que j'ai eue de toute l'année », a dit Diego, et pour une fois il l'a écrite au lieu de l'enregistrer.",
+   "clave": [],
+   "img": "img/g5-u4-p10.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "Lequel est le plus grand ?",
+  "instruccion": "Touche l'animal que tu entends.",
+  "items": [
+   {
+    "palabra": "baleine",
+    "img": "img/g5-u4-a-whale.png"
+   },
+   {
+    "palabra": "dauphin",
+    "img": "img/g5-u4-a-dolphin.png"
+   },
+   {
+    "palabra": "requin",
+    "img": "img/g5-u4-a-shark.png"
+   },
+   {
+    "palabra": "poisson",
+    "img": "img/g5-u4-a-fish.png"
+   }
+  ]
+ },
+ "lang": "fr"
+}

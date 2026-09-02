@@ -1,0 +1,245 @@
+{
+ "lang": "fr",
+ "libros": [
+  {
+   "id": "g1-u1",
+   "grado": "G1",
+   "tema": 1,
+   "nivel": "Pre-A1",
+   "titulo": "Bonjour, Pip !",
+   "objetivo": "Les salutations et les lettres",
+   "paginas": 8,
+   "portada": "img/g1-u1-p01.jpg"
+  },
+  {
+   "id": "g1-u2",
+   "grado": "G1",
+   "tema": 2,
+   "nivel": "Pre-A1",
+   "titulo": "Où est mon sac ?",
+   "objetivo": "Les objets de la classe",
+   "paginas": 8,
+   "portada": "img/g1-u2-p01.jpg"
+  },
+  {
+   "id": "g1-u3",
+   "grado": "G1",
+   "tema": 3,
+   "nivel": "Pre-A1",
+   "titulo": "Bouge ton corps !",
+   "objetivo": "Les parties du corps et les actions",
+   "paginas": 8,
+   "portada": "img/g1-u3-p01.jpg"
+  },
+  {
+   "id": "g1-u4",
+   "grado": "G1",
+   "tema": 4,
+   "nivel": "Pre-A1",
+   "titulo": "La ferme qui fait du bruit",
+   "objetivo": "Les animaux de la ferme et leurs cris",
+   "paginas": 8,
+   "portada": "img/g1-u4-p01.jpg"
+  },
+  {
+   "id": "g1-u5",
+   "grado": "G1",
+   "tema": 5,
+   "nivel": "Pre-A1",
+   "titulo": "La photo de ma famille",
+   "objetivo": "Les membres de la famille",
+   "paginas": 8,
+   "portada": "img/g1-u5-p01.jpg"
+  },
+  {
+   "id": "g1-u6",
+   "grado": "G1",
+   "tema": 6,
+   "nivel": "Pre-A1",
+   "titulo": "Pip a faim",
+   "objetivo": "Les mots de la nourriture",
+   "paginas": 8,
+   "portada": "img/g1-u6-p01.jpg"
+  },
+  {
+   "id": "g2-u1",
+   "grado": "G2",
+   "tema": 1,
+   "nivel": "Pre-A1",
+   "titulo": "Un, deux, Pip !",
+   "objetivo": "Les nombres de 1 à 10",
+   "paginas": 8,
+   "portada": "img/g2-u1-p01.jpg"
+  },
+  {
+   "id": "g2-u2",
+   "grado": "G2",
+   "tema": 2,
+   "nivel": "Pre-A1",
+   "titulo": "Mon sac bleu",
+   "objetivo": "Les couleurs et mes affaires",
+   "paginas": 8,
+   "portada": "img/g2-u2-p01.jpg"
+  },
+  {
+   "id": "g2-u3",
+   "grado": "G2",
+   "tema": 3,
+   "nivel": "Pre-A1",
+   "titulo": "Le jardin d'Astrid",
+   "objetivo": "Les plantes et comment s'en occuper",
+   "paginas": 8,
+   "portada": "img/g2-u3-p01.jpg"
+  },
+  {
+   "id": "g2-u4",
+   "grado": "G2",
+   "tema": 4,
+   "nivel": "Pre-A1",
+   "titulo": "Tomás sait sauter",
+   "objetivo": "Ce que je sais faire",
+   "paginas": 8,
+   "portada": "img/g2-u4-p01.jpg"
+  },
+  {
+   "id": "g2-u5",
+   "grado": "G2",
+   "tema": 5,
+   "nivel": "Pre-A1",
+   "titulo": "Une journée à l'école",
+   "objetivo": "Ma journée",
+   "paginas": 8,
+   "portada": "img/g2-u5-p01.jpg"
+  },
+  {
+   "id": "g2-u6",
+   "grado": "G2",
+   "tema": 6,
+   "nivel": "Pre-A1",
+   "titulo": "Où est Pip ?",
+   "objetivo": "Dans, sur, sous, derrière",
+   "paginas": 8,
+   "portada": "img/g2-u6-p01.jpg"
+  },
+  {
+   "id": "g3-u1",
+   "grado": "G3",
+   "tema": 1,
+   "nivel": "A1",
+   "titulo": "La machine météo d'Erik",
+   "objetivo": "Parler du temps qu'il fait",
+   "paginas": 9,
+   "portada": "img/g3-u1-p01.jpg"
+  },
+  {
+   "id": "g3-u2",
+   "grado": "G3",
+   "tema": 2,
+   "nivel": "A1",
+   "titulo": "Luna s'échappe",
+   "objetivo": "Les animaux et les actions passées",
+   "paginas": 9,
+   "portada": "img/g3-u2-p01.jpg"
+  },
+  {
+   "id": "g3-u3",
+   "grado": "G3",
+   "tema": 3,
+   "nivel": "A1",
+   "titulo": "Le plus long pique-nique",
+   "objetivo": "La nourriture et les quantités",
+   "paginas": 9,
+   "portada": "img/g3-u3-p01.jpg"
+  },
+  {
+   "id": "g4-u1",
+   "grado": "G4",
+   "tema": 1,
+   "nivel": "A1",
+   "titulo": "Valentina raconte une histoire",
+   "objetivo": "Mettre une histoire dans l'ordre",
+   "paginas": 9,
+   "portada": "img/g4-u1-p01.jpg"
+  },
+  {
+   "id": "g4-u2",
+   "grado": "G4",
+   "tema": 2,
+   "nivel": "A1",
+   "titulo": "La carte de Sofia",
+   "objetivo": "Les lieux et les indications",
+   "paginas": 9,
+   "portada": "img/g4-u2-p01.jpg"
+  },
+  {
+   "id": "g4-u3",
+   "grado": "G4",
+   "tema": 3,
+   "nivel": "A1",
+   "titulo": "Mateo perd tout",
+   "objetivo": "Mes affaires et où elles sont",
+   "paginas": 9,
+   "portada": "img/g4-u3-p01.jpg"
+  },
+  {
+   "id": "g5-u1",
+   "grado": "G5",
+   "tema": 1,
+   "nivel": "A2",
+   "titulo": "La lumière dans la tempête",
+   "objetivo": "Le passé : raconter ce qui s'est passé",
+   "paginas": 10,
+   "portada": "img/g5-u1-p01.jpg"
+  },
+  {
+   "id": "g5-u2",
+   "grado": "G5",
+   "tema": 2,
+   "nivel": "A2",
+   "titulo": "Kili livre le courrier",
+   "objetivo": "Écrire une carte postale",
+   "paginas": 10,
+   "portada": "img/g5-u2-p01.jpg"
+  },
+  {
+   "id": "g5-u3",
+   "grado": "G5",
+   "tema": 3,
+   "nivel": "A2",
+   "titulo": "Diego pose des questions à tout le monde",
+   "objetivo": "Poser des questions",
+   "paginas": 10,
+   "portada": "img/g5-u3-p01.jpg"
+  },
+  {
+   "id": "g5-u4",
+   "grado": "G5",
+   "tema": 4,
+   "nivel": "A2",
+   "titulo": "Maya et la rivière",
+   "objetivo": "Comparer les choses",
+   "paginas": 10,
+   "portada": "img/g5-u4-p01.jpg"
+  },
+  {
+   "id": "g5-u5",
+   "grado": "G5",
+   "tema": 5,
+   "nivel": "A2",
+   "titulo": "La chanson perdue d'Oliver",
+   "objetivo": "Donner des conseils",
+   "paginas": 10,
+   "portada": "img/g5-u5-p01.jpg"
+  },
+  {
+   "id": "g5-u6",
+   "grado": "G5",
+   "tema": 6,
+   "nivel": "A2",
+   "titulo": "La nuit de l'aurore",
+   "objetivo": "Faire des projets",
+   "paginas": 10,
+   "portada": "img/g5-u6-p01.jpg"
+  }
+ ]
+}

@@ -634,21 +634,22 @@ if(/\.github\.io$/i.test(location.hostname)){
      origen, misma sessionStorage); sigue siendo una vez por sesion, asi
      que no reaparece al abrir cada una de las 45-55 unidades. -->
 <script src="../nis-splash.js?v=4" data-key="nis_splash_curso"></script>
+<script src="i18n.js?v=2"></script>
 <script src="crossword-layout.js"></script>
 <script src="emoji-map.js"></script>
-<script src="vocab-art.js?v=2"></script>
+<script src="vocab-art.js?v=3"></script>
 <script src="orientacion.js?v=1"></script>
-<script src="screens.js?v=4"></script>
-<script src="banner.js?v=8"></script>
-<script src="magicbox.js?v=4"></script>
-<script src="recorder.js?v=1"></script>
+<script src="screens.js?v=6"></script>
+<script src="banner.js?v=10"></script>
+<script src="magicbox.js?v=6"></script>
+<script src="recorder.js?v=3"></script>
 <!-- el curso comparte dominio y sesion con el portal -->
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4"></script>
 <script src="../../config.js"></script>
 <script src="backend.js?v=1"></script>
 <main id="app"><div class="app-loading" role="status" aria-live="polite">
-  <div><span aria-hidden="true"></span><strong>Preparing your course…</strong>
-    <small>Loading activities and illustrations.</small></div></div></main>
+  <div><span aria-hidden="true"></span><strong id="splash-h2">Preparing your course…</strong>
+    <small id="splash-sub">Loading activities and illustrations.</small></div></div></main>
 <div id="cele"><div class="box"><img id="cele-img" alt=""><h2 id="cele-h2">Well done!</h2><p id="cele-msg"></p><button onclick="document.getElementById('cele').classList.remove('on')">OK</button></div></div>
 <script>
 const qs = new URLSearchParams(location.search);
@@ -658,19 +659,27 @@ const UNIT = qs.get('unit');
    mismos: lo unico que cambia es de que carpeta sale el texto. Por eso la
    version francesa no es una copia del motor -que habria que mantener dos
    veces- sino ?lang=fr y una carpeta de contenido al lado. */
-const LANG = qs.get('lang') === 'fr' ? 'fr' : 'en';
+const LANG = window.LANG;   // lo calcula i18n.js, que carga antes que todos
 const CDIR = LANG === 'fr' ? '../content-fr' : '../content';
 /* El audio SI se separa por idioma, al reves que los dibujos: 'train', 'six' u
    'orange' se escriben igual en los dos idiomas pero no se pronuncian igual, y
    compartir carpeta haria sonar la voz inglesa en la clase de frances. */
 const ADIR = LANG === 'fr' ? '../audio/fr' : '../audio';
-const T = (en, fr) => (LANG === 'fr' ? fr : en);
+const T = window.T;   // el mismo que usan banner.js, screens.js y magicbox.js
 /* Nombre de archivo del dibujo. Se calcula sobre la clave canonica (inglesa),
    no sobre la palabra que lee el alumno: 'cerf-volant' y 'kite' comparten el
    mismo kite.png. Traducir el curso no duplica ni un solo dibujo. */
 const slugArte = k => String((window.VOCAB_ART && VOCAB_ART.base(k)) || k)
   .toLowerCase().replace(/'/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
-if (LANG === 'fr') { const h = document.getElementById('cele-h2'); if (h) h.textContent = 'Bravo !'; }
+/* Los rotulos que van escritos en el HTML: el splash tiene que decir algo
+   mientras carga el motor, asi que no pueden nacer de T(). Se reescriben
+   aqui, los tres juntos, para que se traduzcan en un solo sitio. */
+[['splash-h2',  T('Preparing your course…', 'Préparation du cours…')],
+ ['splash-sub', T('Loading activities and illustrations.', 'Chargement des activités et des illustrations.')],
+ ['cele-h2',    T('Well done!', 'Bravo !')]].forEach(([id, txt]) => {
+  const el = document.getElementById(id);
+  if (el) el.textContent = txt;
+});
 const app = document.getElementById('app');
 const COLORS = { starters:'#d97d0d', movers:'#2f9268', flyers:'#3b6fb5' };
 // Escapa el texto que va dentro de un atributo (las palabras del wordlist
@@ -760,7 +769,7 @@ async function levels(){
     ${PORTAL ? `<p class="crumb" style="margin:.6rem 0 0"><a href="${PORTAL}">‹ ${T('Portal','Portail')}</a></p>` : ''}
     <h1 style="font-size:2.2rem;margin:.6rem 0 .2rem">Fun for Nordic</h1>
     <p style="color:var(--soft);margin:0 0 1.4rem">${T("Cambridge Young Learners", "Français · niveaux A1-A2")} · Nordic International School</p>
-    <div class="campus-banner"><img src="../assets/scenes/main-building.jpg?v=${ART_V}" alt="Nordic campus"></div>
+    <div class="campus-banner"><img src="../assets/scenes/main-building.jpg?v=${ART_V}" alt="${T('Nordic campus','Le campus Nordic')}"></div>
     <div class="lvcards">${data.levels.map(l=>`
       <a class="lvcard" href="${Q(`?level=${l.id}`)}" style="--lv:${l.color}"
          aria-label="Open ${l.name}, ${l.exam}">
@@ -773,7 +782,7 @@ async function levels(){
             <source src="../assets/videos/${l.mascot}-intro.mp4?v=${VIDEO_V}" type="video/mp4">
           </video>
           <span class="lvbadge">${l.exam}</span>
-          <span class="lvplaying"><span class="lvpulse"></span> Adventure playing</span>
+          <span class="lvplaying"><span class="lvpulse"></span> ${T('Adventure playing',"L'aventure est en cours")}</span>
           <span class="lvshade"></span>
         </div>
         <span class="lvinfo">
@@ -835,12 +844,12 @@ async function hub(){
   const introKey = `nisfun-${LEVEL}-intro-seen`;
   const introVista = localStorage.getItem(introKey) === '1';
 
-  const estadoCurso = `<section class="course-status" aria-label="Course progress">
-    <div><h3>${totalHechas ? `Continue Unit ${siguiente.unit.n}` : 'Start your first unit'}</h3>
-      <p>${terminadas} of ${unidades.length} units completed · ${porcentaje}% overall</p></div>
+  const estadoCurso = `<section class="course-status" aria-label="${T('Course progress','Progression du cours')}">
+    <div><h3>${totalHechas ? T(`Continue Unit ${siguiente.unit.n}`, `Continuer l'unité ${siguiente.unit.n}`) : T('Start your first unit','Commence ta première unité')}</h3>
+      <p>${T(`${terminadas} of ${unidades.length} units completed · ${porcentaje}% overall`, `${terminadas} unités sur ${unidades.length} terminées · ${porcentaje}% en tout`)}</p></div>
     <a class="continue" href="${Q(`?level=${LEVEL}&unit=${siguiente.unit.n}`)}">
-      ${totalHechas ? 'Continue learning' : 'Start learning'} <span aria-hidden="true">›</span></a>
-    <div class="course-meter" role="progressbar" aria-label="Overall course progress"
+      ${totalHechas ? T('Continue learning','Continuer') : T('Start learning','Commencer')} <span aria-hidden="true">›</span></a>
+    <div class="course-meter" role="progressbar" aria-label="${T('Overall course progress','Progression générale du cours')}"
       aria-valuemin="0" aria-valuemax="100" aria-valuenow="${porcentaje}">
       <span style="--progress:${porcentaje}%"></span></div>
   </section>`;
@@ -860,7 +869,7 @@ async function hub(){
       <span class="n">${u.n}</span> <b>${u.title}</b><br>
       <small>${u.topic}</small><br>
       <span class="stars" aria-hidden="true">${'★'.repeat(hechas)}${'☆'.repeat(4-hechas)}</span>
-      <span class="sr-only">${hechas} of 4 activities completed.</span>
+      <span class="sr-only">${T(`${hechas} of 4 activities completed.`, `${hechas} activités sur 4 terminées.`)}</span>
       <span class="unit-progress"><span class="unit-meter" aria-hidden="true"><span style="width:${pct}%"></span></span>
         <span>${hechas}/4</span></span></a>`;
   };
@@ -871,9 +880,9 @@ async function hub(){
       html: `<div class="scr-centro">
         ${BANNER.html(idx, LEVEL)}
         ${estadoCurso}
-        ${DEMO ? `<div class="demoflag">Demonstration — this preview covers the first two units.
-           The full course has ${idx.units.length} units.</div>` : ''}
-        <p class="scr-pie">Meet the characters in 3D, then continue with your guide.</p>
+        ${DEMO ? `<div class="demoflag">${T(`Demonstration — this preview covers the first two units. The full course has ${idx.units.length} units.`,
+           `Démonstration — cet aperçu ne montre que les deux premières unités. Le cours complet en a ${idx.units.length}.`)}</div>` : ''}
+        <p class="scr-pie">${T('Meet the characters in 3D, then continue with your guide.','Rencontre les personnages en 3D, puis continue avec ton guide.')}</p>
         <button class="intro-skip" type="button">${T("Skip introduction and see all units", "Passer l’introduction et voir les unités")}</button>
       </div>`,
       alMostrar(el){
@@ -905,13 +914,13 @@ async function hub(){
     titulo: T('Story time — read a book','Le coin lecture — lis un livre'),
     etiquetaSiguiente: T('Units','Les unités'),
     html: `<div class="scr-centro"><div id="cuentos">
-        <p class="scr-pie">Looking for stories…</p></div></div>`,
+        <p class="scr-pie">${T('Looking for stories…','Recherche des histoires…')}</p></div></div>`,
     alMostrar(el){ pintaCuentos(el.querySelector('#cuentos'), LEVEL); } });
 
   tandas.forEach((tanda, k) => pantallas.push({
     titulo: tandas.length > 1
-      ? `Units ${tanda[0].n}–${tanda[tanda.length-1].n}`
-      : 'Units',
+      ? T(`Units ${tanda[0].n}–${tanda[tanda.length-1].n}`, `Unités ${tanda[0].n}–${tanda[tanda.length-1].n}`)
+      : T('Units','Les unités'),
     etiquetaSiguiente: T('More units','Plus d’unités'),
     html: `<div class="scr-centro">
       ${k === 0 ? estadoCurso : ''}
@@ -929,12 +938,15 @@ async function hub(){
 /* Lo que cuenta cada mascota de si misma. Sale debajo de su video, que
    antes se quedaba solo en medio de una pantalla vacia. */
 const MASCOTA = {
-  pip:  { que:'a little puffin', dice:"I live on the rocks by the lighthouse. I am very shy, "
-          + "so I hide in every picture — can you find me?" },
-  luna: { que:'a husky', dice:"I love the snow and I remember everything that happened. "
-          + "I will tell you the stories!" },
-  kili: { que:'an Andean condor', dice:"I am the postman of the school. I bring letters and "
-          + "postcards from far away — but I am not very good at landing!" },
+  pip:  { que: T('a little puffin', 'un petit macareux'),
+          dice: T("I live on the rocks by the lighthouse. I am very shy, so I hide in every picture — can you find me?",
+                  "J'habite sur les rochers, près du phare. Je suis très timide, alors je me cache dans chaque image — tu me trouves ?") },
+  luna: { que: T('a husky', 'une husky'),
+          dice: T("I love the snow and I remember everything that happened. I will tell you the stories!",
+                  "J'adore la neige et je me souviens de tout ce qui s'est passé. C'est moi qui vais te raconter les histoires !") },
+  kili: { que: T('an Andean condor', 'un condor des Andes'),
+          dice: T("I am the postman of the school. I bring letters and postcards from far away — but I am not very good at landing!",
+                  "Je suis le facteur de l'école. J'apporte des lettres et des cartes postales de très loin — mais je me pose très mal !") },
 };
 
 const GUIA = { starters: 'pip', movers: 'luna', flyers: 'kili' };
@@ -956,7 +968,7 @@ function guiaHTML(texto, etiqueta){
     <img class="guia-mascota" src="${CHAR(m, 3)}" alt="${nombre}"${giro} ${FB}>
     <div class="guia-globo">
       <p>${esc(texto)}</p>
-      <button class="guia-say" type="button">🔊 ${etiqueta || 'Listen'}</button>
+      <button class="guia-say" type="button">🔊 ${etiqueta || T('Listen','Écoute')}</button>
     </div>
   </div>`;
 }
@@ -983,16 +995,16 @@ async function pintaCuentos(el, nivel){
   if (!el) return;
   let libros = [];
   try {
-    const r = await fetch('../readers/data/index.json', {cache: 'no-cache'});
+    const r = await fetch(`../readers/data${LANG === 'fr' ? '-fr' : ''}/index.json`, {cache: 'no-cache'});
     if (r.ok) libros = (await r.json()).libros || [];
   } catch(e){}
   const mios = libros.filter(l => (CUENTOS_DE[nivel] || []).includes(l.grado));
   if (!mios.length){
-    el.innerHTML = `<p class="scr-pie">The stories for this level are on their way.</p>`;
+    el.innerHTML = `<p class="scr-pie">${T("The stories for this level are on their way.","Les histoires de ce niveau arrivent bientôt.")}</p>`;
     return;
   }
   el.innerHTML = `<div class="cuentos">${mios.map(l => `
-    <a class="cuento" href="../readers/?id=${esc(l.id)}">
+    <a class="cuento" href="../readers/?id=${esc(l.id)}${LANG === 'fr' ? '&lang=fr' : ''}">
       <img src="../readers/${esc(l.portada)}" alt="" onerror="this.remove()">
       <b>${esc(l.titulo)}</b>
       <small>${esc(l.objetivo)}</small>
@@ -1065,9 +1077,12 @@ function makeIntro(ud){
   if (ud.scene && ud.scene.intro) return ud.scene.intro;
   const cap = n => n.charAt(0).toUpperCase()+n.slice(1);
   const c1 = cap(ud.characters[0]||''), c2 = cap(ud.characters[1]||c1);
-  if (LEVEL==='starters') return `Hello, explorers! Today ${c1} and ${c2} are playing with the world of ${ud.topic}. Look at the big pictures, say every new word out loud and listen to the story with your best ears. Pip is hiding somewhere in this unit too! When you finish all the games, you win a star. Ready, explorers? One, two, three… let's go!`;
-  if (LEVEL==='movers') return `Welcome back, Fjord Club! In this unit, ${c1} and ${c2} discover the world of ${ud.topic}. First learn the picture words, then read carefully and listen to your friends — the answers are always hiding in the story. You will also practise ${ud.grammar}. Luna is watching and she only barks for good answers. The adventure starts now!`;
-  return `The Aurora Expedition continues! This time, ${c1} and ${c2} take you deep into the world of ${ud.topic}. Read the texts slowly, listen twice like in the real exam, and use ${ud.grammar} like a true explorer. Every activity you finish takes you one step closer to the Flyers exam — and Kili is carrying a star with your name on it. Good luck, explorer!`;
+  if (LEVEL==='starters') return T(`Hello, explorers! Today ${c1} and ${c2} are playing with the world of ${ud.topic}. Look at the big pictures, say every new word out loud and listen to the story with your best ears. Pip is hiding somewhere in this unit too! When you finish all the games, you win a star. Ready, explorers? One, two, three… let's go!`,
+    `Bonjour, les explorateurs ! Aujourd'hui ${c1} et ${c2} jouent avec le monde de ${ud.topic}. Regarde bien les grandes images, dis chaque mot nouveau à voix haute et écoute l'histoire avec tes meilleures oreilles. Pip se cache quelque part dans cette unité aussi ! Quand tu finis tous les jeux, tu gagnes une étoile. Prêts, les explorateurs ? Un, deux, trois… c'est parti !`);
+  if (LEVEL==='movers') return T(`Welcome back, Fjord Club! In this unit, ${c1} and ${c2} discover the world of ${ud.topic}. First learn the picture words, then read carefully and listen to your friends — the answers are always hiding in the story. You will also practise ${ud.grammar}. Luna is watching and she only barks for good answers. The adventure starts now!`,
+    `Content de te revoir, Club du Fjord ! Dans cette unité, ${c1} et ${c2} découvrent le monde de ${ud.topic}. Apprends d'abord les mots en images, puis lis attentivement et écoute tes amis — les réponses se cachent toujours dans l'histoire. Tu vas aussi travailler ${ud.grammar}. Luna regarde, et elle n'aboie que pour les bonnes réponses. L'aventure commence !`);
+  return T(`The Aurora Expedition continues! This time, ${c1} and ${c2} take you deep into the world of ${ud.topic}. Read the texts slowly, listen twice like in the real exam, and use ${ud.grammar} like a true explorer. Every activity you finish takes you one step closer to the Flyers exam — and Kili is carrying a star with your name on it. Good luck, explorer!`,
+    `L'Expédition Aurore continue ! Cette fois, ${c1} et ${c2} t'emmènent au cœur du monde de ${ud.topic}. Lis les textes doucement, écoute deux fois comme au vrai examen, et sers-toi de ${ud.grammar} comme un vrai explorateur. Chaque activité terminée te rapproche de l'examen — et Kili porte une étoile avec ton nom dessus. Bonne chance, explorateur !`);
 }
 function sceneFor(ud){
   const t = ((ud.topic||'')+' '+(ud.title||'')+' '+(ud.grammar||'')).toLowerCase();
@@ -1140,7 +1155,7 @@ async function unit(){
   const vistasClave = new Set();
   const historiaHTML = frasesHistoria.map((f, k) =>
     `<span class="sfr" data-k="${k}" role="button" tabindex="0"
-       title="Listen to this part again">${marcaClaves(f, UD.wordlist, vistasClave)}</span>`
+       title="${T('Listen to this part again','Réécoute ce passage')}">${marcaClaves(f, UD.wordlist, vistasClave)}</span>`
   ).join(' ');
 
   // Las de wordlist_extra vienen del Scope & Sequence: son las palabras
@@ -1170,7 +1185,7 @@ async function unit(){
       etiquetaSiguiente: T('The story', "L'histoire"),
       html: `<div class="scr-centro">
         <div class="band"><span class="unum">${UD.number}</span><h1>${UD.title}</h1>
-          <span class="meta">${UD.exam_focus.paper} · Part ${UD.exam_focus.part}</span></div>
+          <span class="meta">${UD.exam_focus.paper} · ${T('Part','partie')} ${UD.exam_focus.part}</span></div>
         <div class="scene">
           ${UD.characters.map(c=>`<img src="${CHAR(c,(UD.scene.pose||{})[c]||1)}" alt="${c}" ${FB}>`).join('')}
           <div class="bubble">${UD.scene.bubble}</div></div>
@@ -1183,20 +1198,20 @@ async function unit(){
         ${escenaHTML}
         <div class="op-text">
           <p id="lahistoria">${historiaHTML}</p>
-          <button class="guia-say historia-say" type="button">🔊 Listen to the story</button>
+          <button class="guia-say historia-say" type="button">🔊 ${T('Listen to the story',"Écoute l'histoire")}</button>
           <div class="sp" hidden>
             <audio class="sp-audio" preload="none"></audio>
             <div class="sp-btns">
-              <button class="sp-b sp-main sp-play" type="button">&#9654; Play</button>
-              <button class="sp-b sp-stop" type="button">&#9209; Stop</button>
-              <button class="sp-b sp-prev" type="button" aria-label="Previous part">&#9198; Back</button>
-              <button class="sp-b sp-again" type="button" aria-label="Hear this part again">&#128257; Again</button>
-              <button class="sp-b sp-next" type="button" aria-label="Next part">&#9197; Next</button>
-              <button class="sp-b sp-slow" type="button" aria-pressed="false">&#128034; Slow</button>
+              <button class="sp-b sp-main sp-play" type="button">&#9654; ${T('Play','Lire')}</button>
+              <button class="sp-b sp-stop" type="button">&#9209; ${T('Stop','Arrêter')}</button>
+              <button class="sp-b sp-prev" type="button" aria-label="${T('Previous part','Passage précédent')}">&#9198; ${T('Back','Retour')}</button>
+              <button class="sp-b sp-again" type="button" aria-label="${T('Hear this part again','Réécoute ce passage')}">&#128257; ${T('Again','Encore')}</button>
+              <button class="sp-b sp-next" type="button" aria-label="${T('Next part','Passage suivant')}">&#9197; ${T('Next','Suivant')}</button>
+              <button class="sp-b sp-slow" type="button" aria-pressed="false">&#128034; ${T('Slow','Lent')}</button>
             </div>
             <div class="sp-bar"><div class="sp-fill"></div></div>
             <div class="sp-pie"><span class="sp-parte"></span><span class="sp-reloj"></span></div>
-            <p class="sp-tip">Tap any sentence to hear that part again.</p>
+            <p class="sp-tip">${T("Tap any sentence to hear that part again.","Touche une phrase pour la réécouter.")}</p>
           </div>
         </div>
       </div>`,
@@ -1224,7 +1239,7 @@ async function unit(){
         titulo: caja.titulo,
         etiquetaSiguiente: T('Activity ','Activité ') + a.code,
         html: `<div class="scr-centro">
-          ${guiaHTML('Look at my magic box. Watch what happens to the word!', 'Listen')}
+          ${guiaHTML(T('Look at my magic box. Watch what happens to the word!','Regarde ma boîte magique. Observe ce qui arrive au mot !'), T('Listen','Écoute'))}
           ${caja.html}</div>`,
         alMostrar(el){ guiaViva(el); caja.alMostrar(el); },
       });
@@ -1233,7 +1248,7 @@ async function unit(){
     titulo: `${a.code} · ${a.title}`,
     etiquetaSiguiente: k < digital.length - 1 ? T('Activity ','Activité ') + digital[k+1].code : T('Self-check','Auto-évaluation'),
     html: `<div class="scr-centro">
-      ${guiaHTML(a.instructions || a.title, 'Listen')}
+      ${guiaHTML(a.instructions || a.title, T('Listen','Écoute'))}
       <section class="act ${PROG.done[a.code]?'done':''}" id="act-${a.code}">
         <div class="body" id="body-${a.code}"></div></section></div>`,
     alMostrar(el){
@@ -1277,45 +1292,65 @@ function pintaSelfCheck(el, digital){
   // Lo que puede hacer sale de la propia unidad: el vocabulario, la
   // gramatica y lo que pide cada actividad.
   const puedo = [
-    `I can say and write the new words: ${(UD.wordlist||[]).slice(0,6).join(', ')}…`,
-    UD.grammar ? `I can use <b>${UD.grammar}</b>.` : null,
-    `I can understand the story of this unit.`,
+    T(`I can say and write the new words: ${(UD.wordlist||[]).slice(0,6).join(', ')}…`,
+      `Je sais dire et écrire les mots nouveaux : ${(UD.wordlist||[]).slice(0,6).join(', ')}…`),
+    UD.grammar ? T(`I can use <b>${UD.grammar}</b>.`, `Je sais employer <b>${UD.grammar}</b>.`) : null,
+    T(`I can understand the story of this unit.`, `Je comprends l'histoire de cette unité.`),
   ].filter(Boolean);
   // Lo que la secuencia del colegio espera de este grado. Es lo que el
   // profesor tiene que poder dar por conseguido al acabar el ano, asi que
   // el alumno lo ve aqui con sus mismas palabras.
   const delGrado = ((UD.scope||{}).outcomes||[]).map(o => `<b>${esc(o.destreza)}</b> — ${esc(o.puede)}`);
 
+  // Una frase por tipo de actividad. En tabla y no en once ifs seguidos
+  // porque cada una hay que decirla en los dos idiomas.
+  const PUEDO_POR_TIPO = {
+    listening:      T('I can listen and write the missing words.',
+                      "Je sais écouter et écrire les mots qui manquent."),
+    crossword:      T('I can read a clue and write the word.',
+                      'Je sais lire une définition et écrire le mot.'),
+    match_words:    T('I can match words that go together.',
+                      'Je sais associer les mots qui vont ensemble.'),
+    exam_task:      T('I can choose the right answer in an exam task.',
+                      "Je sais choisir la bonne réponse dans un exercice d'examen."),
+    gap_text:       T('I can read a text and fill in the gaps.',
+                      'Je sais lire un texte et compléter les trous.'),
+    spot_diff:      T('I can compare two pictures and say the differences.',
+                      'Je sais comparer deux images et dire les différences.'),
+    pairwork:       T('I can talk about this topic with a partner.',
+                      'Je sais parler de ce sujet avec un camarade.'),
+    label_people:   T('I can listen and write the right name under each person.',
+                      'Je sais écouter et écrire le bon prénom sous chaque personne.'),
+    picture_mc:     T('I can listen and choose the right picture.',
+                      "Je sais écouter et choisir la bonne image."),
+    match_pictures: T('I can listen and match each person to a picture.',
+                      'Je sais écouter et associer chaque personne à une image.'),
+    picture_story:  T('I can look at three pictures and write the story in 20-25 words.',
+                      "Je sais regarder trois images et écrire l'histoire en 20-25 mots."),
+  };
+  // Sin repetir: dos actividades del mismo tipo son la misma frase, y
+  // verla dos veces en la lista parece un fallo de la pagina.
   digital.forEach(a => {
-    if (a.type === 'listening') puedo.push('I can listen and write the missing words.');
-    if (a.type === 'crossword') puedo.push('I can read a clue and write the word.');
-    if (a.type === 'match_words') puedo.push('I can match words that go together.');
-    if (a.type === 'exam_task') puedo.push('I can choose the right answer in an exam task.');
-    if (a.type === 'gap_text') puedo.push('I can read a text and fill in the gaps.');
-    if (a.type === 'spot_diff') puedo.push('I can compare two pictures and say the differences.');
-    if (a.type === 'pairwork') puedo.push('I can talk about this topic with a partner.');
-    if (a.type === 'label_people') puedo.push('I can listen and write the right name under each person.');
-    if (a.type === 'picture_mc') puedo.push('I can listen and choose the right picture.');
-    if (a.type === 'match_pictures') puedo.push('I can listen and match each person to a picture.');
-    if (a.type === 'picture_story') puedo.push('I can look at three pictures and write the story in 20-25 words.');
+    const t = PUEDO_POR_TIPO[a.type];
+    if (t && !puedo.includes(t)) puedo.push(t);
   });
 
   el.innerHTML = `
-    <p class="sc-intro">Tick the things you can do. Be honest — it helps your teacher.</p>
+    <p class="sc-intro">${T('Tick the things you can do. Be honest — it helps your teacher.','Coche ce que tu sais faire. Sois honnête — ça aide ton professeur.')}</p>
     <ul class="sc-lista">${puedo.map((t,i)=>`
       <li><label><input type="checkbox" data-i="${i}"${marcado[i]?' checked':''}>
         <span>${t}</span></label></li>`).join('')}</ul>
     <p class="sc-cuenta"></p>
     ${delGrado.length ? `<div class="sc-grado">
       <h4>${esc(((UD.scope||{}).tema)||'')} · ${esc(((UD.scope||{}).grado)||'')}</h4>
-      <p class="sc-nota">This unit is part of what you will be able to do
-        by the end of the year:</p>
+      <p class="sc-nota">${T('This unit is part of what you will be able to do by the end of the year:',
+        "Cette unité fait partie de ce que tu sauras faire à la fin de l'année :")}</p>
       <ul>${delGrado.map(t=>`<li>${t}</li>`).join('')}</ul>
     </div>` : ''}`;
 
   const cuenta = () => {
     const n = el.querySelectorAll('input:checked').length;
-    el.querySelector('.sc-cuenta').textContent = `${n} / ${puedo.length} — well done!`;
+    el.querySelector('.sc-cuenta').textContent = T(`${n} / ${puedo.length} — well done!`, `${n} / ${puedo.length} — bravo !`);
   };
   el.querySelectorAll('input').forEach(c => c.onchange = () => {
     marcado[c.dataset.i] = c.checked;
@@ -1471,14 +1506,14 @@ function montaHistoria(el, frases){
   }
 
   function pinta(){
-    bPlay.innerHTML = sonando ? '&#9208; Pause' : '&#9654; Play';
+    bPlay.innerHTML = sonando ? T('&#9208; Pause','&#9208; Pause') : T('&#9654; Play','&#9654; Lire');
     bPlay.classList.toggle('on', sonando);
     bSlow.classList.toggle('on', lento);
     bSlow.setAttribute('aria-pressed', lento ? 'true' : 'false');
     // sin el reproductor abierto no se resalta nada: al entrar en la
     // pantalla la primera frase salia marcada como si ya sonara
     spans.forEach((s, k) => s.classList.toggle('on', !sp.hidden && k === i));
-    parte.textContent = 'Part ' + (i+1) + ' of ' + frases.length;
+    parte.textContent = T('Part ', 'Passage ') + (i+1) + T(' of ', ' sur ') + frases.length;
     if (modo === 'mp3' && isFinite(audio.duration) && audio.duration){
       fill.style.width = (100*audio.currentTime/audio.duration) + '%';
       reloj.textContent = mmss(audio.currentTime) + ' / ' + mmss(audio.duration);
@@ -1694,7 +1729,16 @@ function wirePictureWords(){
 }
 
 function complete(code, msg){
-  if(!PROG.done[code]){ PROG.done[code]=true; store.set(UD.number, PROG); }
+  if(!PROG.done[code]){
+    PROG.done[code]=true; store.set(UD.number, PROG);
+    // Que quede en la cuenta, no solo en este navegador: es lo unico que
+    // permite al profesor ver cuanto se trabaja de verdad en cada unidad.
+    if (window.BACKEND) BACKEND.progreso(
+      {nivel: LEVEL, unidad: UD.number, codigo: code},
+      {hechas: Object.keys(PROG.done).length,
+       total: (UD.activities||[]).length,
+       titulo: UD.title || ''});
+  }
   // lo que escribio queda guardado para que el profesor lo revise
   if (window.BACKEND) {
     const caja = document.getElementById('body-'+code);
@@ -1709,8 +1753,8 @@ function complete(code, msg){
   const c = document.getElementById('cele');
   const ci = document.getElementById('cele-img'); ci.onerror = ()=>{ ci.onerror=null; ci.src = ci.src.replace('.png','.svg'); }; ci.src = CHAR(UD.characters[0],10);
   document.getElementById('cele-msg').textContent = done>=total
-    ? `You have finished Unit ${UD.number}! ⭐⭐⭐⭐`
-    : msg || `Activity complete! (${done}/${total})`;
+    ? T(`You have finished Unit ${UD.number}! ⭐⭐⭐⭐`, `Tu as fini l'unité ${UD.number} ! ⭐⭐⭐⭐`)
+    : msg || T(`Activity complete! (${done}/${total})`, `Activité terminée ! (${done}/${total})`);
   c.classList.add('on');
 }
 
@@ -1758,10 +1802,12 @@ function cicloIntentos(el, cfg){
     if (intento < INTENTOS){
       bOtra.hidden = false;
       const quedan = INTENTOS - intento;
-      cuenta.textContent = quedan === 1 ? 'one more try' : `${quedan} more tries`;
+      cuenta.textContent = quedan === 1 ? T('one more try','encore un essai')
+        : T(`${quedan} more tries`, `encore ${quedan} essais`);
     } else {
       bVer.hidden = false;
-      cuenta.textContent = 'Let\'s look at the answers together.';
+      cuenta.textContent = T("Let's look at the answers together.",
+                             'Regardons les réponses ensemble.');
     }
   };
 
@@ -1889,8 +1935,10 @@ function visPersona(p){
 function visKpi(act){
   const k = act.kpi; if(!k) return '';
   const partes = [];
-  if(k.examen_parte) partes.push(`${k.examen} · ${k.examen_parte.paper} Part ${k.examen_parte.part}`);
-  if(k.tema && k.tema.nombre) partes.push(`${k.grado} · Unit ${k.tema.n}: ${k.tema.nombre}`);
+  if(k.examen_parte) partes.push(T(`${k.examen} · ${k.examen_parte.paper} Part ${k.examen_parte.part}`,
+                                   `${k.examen} · ${k.examen_parte.paper} partie ${k.examen_parte.part}`));
+  if(k.tema && k.tema.nombre) partes.push(T(`${k.grado} · Unit ${k.tema.n}: ${k.tema.nombre}`,
+                                            `${k.grado} · Unité ${k.tema.n} : ${k.tema.nombre}`));
   if(k.destreza) partes.push(k.destreza);
   return `<div class="vis-kpi">${partes.map(t=>`<span>${esc(t)}</span>`).join('')}</div>`;
 }
@@ -1902,8 +1950,8 @@ function visKpi(act){
 function visAudio(el, act, guion){
   const caja = document.createElement('div');
   caja.className = 'lsn-mando';
-  caja.innerHTML = `<button class="play" type="button">▶ Play</button>
-    <button class="stop" type="button" disabled>⏹ Stop</button>
+  caja.innerHTML = `<button class="play" type="button">▶ ${T('Play','Lire')}</button>
+    <button class="stop" type="button" disabled>⏹ ${T('Stop','Arrêter')}</button>
     <span class="provisional"></span>`;
   el.prepend(caja);
 
@@ -1917,7 +1965,7 @@ function visAudio(el, act, guion){
       '(temporary browser voice — the real audio is coming soon)'; };
 
   const estado = son => { bStop.disabled = !son;
-    bPlay.textContent = son ? '▶ Playing…' : '▶ Play'; bPlay.disabled = son; };
+    bPlay.textContent = son ? T('▶ Playing…','▶ Lecture…') : T('▶ Play','▶ Lire'); bPlay.disabled = son; };
   if (audio) audio.onended = () => estado(false);
 
   bPlay.onclick = () => {
@@ -1947,7 +1995,7 @@ const RENDER = {
 label_people(act, el){
   const d = act.data;
   el.innerHTML = `${visKpi(act)}
-    <p class="vis-sitio">Everybody is in ${esc(d.place || 'the picture')}.</p>
+    <p class="vis-sitio">${T('Everybody is in','Tout le monde est')} ${esc(d.place || T('the picture',"sur l'image"))}.</p>
     <div class="vis-escena">${visFondo(d.scene)}
       <div class="vis-fila">${d.people.map((p,i)=>`<div class="vis-quien">
         <span class="num">${i+1}</span>${visPersona(p)}
@@ -1956,7 +2004,7 @@ label_people(act, el){
     <div class="vis-banco">${d.names.map(n=>`<span data-n="${esc(n)}">${esc(n)}</span>`).join('')}</div>
     <div class="checkrow final"><button class="chk">${T("Check","Vérifier")}</button>
       <button class="again" type="button" hidden>↻ ${T("Try again","Réessaie")}</button>
-      <button class="reveal" type="button" hidden>👁 See the answers</button>
+      <button class="reveal" type="button" hidden>👁 ${T('See the answers','Voir les réponses')}</button>
       <span class="score"></span><span class="tries"></span></div>`;
 
   visAudio(el, act, d.script);
@@ -2010,7 +2058,7 @@ picture_mc(act, el){
           <span class="pie">${esc(o.pie || o.word)}</span></button>`).join('')}</div></div>`).join('')}
     <div class="checkrow final"><button class="chk">${T("Check","Vérifier")}</button>
       <button class="again" type="button" hidden>↻ ${T("Try again","Réessaie")}</button>
-      <button class="reveal" type="button" hidden>👁 See the answers</button>
+      <button class="reveal" type="button" hidden>👁 ${T('See the answers','Voir les réponses')}</button>
       <span class="score"></span><span class="tries"></span></div>`;
 
   visAudio(el, act, d.script);
@@ -2066,7 +2114,7 @@ match_pictures(act, el){
       </select></div>`).join('')}</div>
     <div class="checkrow final"><button class="chk">${T("Check","Vérifier")}</button>
       <button class="again" type="button" hidden>↻ ${T("Try again","Réessaie")}</button>
-      <button class="reveal" type="button" hidden>👁 See the answers</button>
+      <button class="reveal" type="button" hidden>👁 ${T('See the answers','Voir les réponses')}</button>
       <span class="score"></span><span class="tries"></span></div>`;
 
   visAudio(el, act, d.script);
@@ -2121,11 +2169,11 @@ picture_story(act, el){
       ${(d.support.words||[]).map(w=>`<span>${esc(w)}</span>`).join('')}</div>` : ''}
     <div class="vis-historia">
       <textarea placeholder="Write the story here — ${min} to ${max} words."
-        aria-label="Your story"></textarea>
-      <div class="vis-contador">0 words</div>
+        aria-label="${T('Your story','Ton histoire')}"></textarea>
+      <div class="vis-contador">${T('0 words','0 mot')}</div>
     </div>
-    <div class="checkrow"><button class="chk">I have finished</button>
-      <button class="reveal" type="button">👁 See one possible story</button>
+    <div class="checkrow"><button class="chk">${T("I have finished","J'ai fini")}</button>
+      <button class="reveal" type="button">👁 ${T('See one possible story','Voir une histoire possible')}</button>
       <span class="score"></span></div>`;
 
   const ta = el.querySelector('textarea');
@@ -2133,20 +2181,23 @@ picture_story(act, el){
   const cuenta = () => (ta.value.trim().match(/\S+/g) || []).length;
   ta.addEventListener('input', () => {
     const n = cuenta();
-    cnt.textContent = `${n} word${n === 1 ? '' : 's'}` +
-      (n < min ? ` — ${min - n} more to go` : (n > max ? ` — ${n - max} too many` : ' — just right'));
+    cnt.textContent = T(`${n} word${n === 1 ? '' : 's'}`, `${n} mot${n === 1 ? '' : 's'}`) +
+      (n < min ? T(` — ${min - n} more to go`, ` — encore ${min - n}`)
+               : (n > max ? T(` — ${n - max} too many`, ` — ${n - max} de trop`)
+                          : T(' — just right', ' — parfait')));
     cnt.classList.toggle('bien', n >= min && n <= max);
   });
 
   el.querySelector('.chk').onclick = () => {
     const n = cuenta();
     const s = el.querySelector('.score');
-    if (!n){ s.textContent = 'Write your story first.'; s.className = 'score partial'; return; }
+    if (!n){ s.textContent = T('Write your story first.',"Écris ton histoire d'abord."); s.className = 'score partial'; return; }
     // Escribir no se corrige solo: se da por hecha y complete() ya guarda el
     // texto para que lo lea el profesor. Poner una nota automatica a una
     // redaccion seria mentir.
-    s.textContent = n >= min && n <= max ? 'Sent to your teacher ✓'
-                                         : `Sent — but it is ${n} words, not ${min}-${max}.`;
+    s.textContent = n >= min && n <= max ? T('Sent to your teacher ✓','Envoyé à ton professeur ✓')
+                                         : T(`Sent — but it is ${n} words, not ${min}-${max}.`,
+                                             `Envoyé — mais ça fait ${n} mots, pas ${min}-${max}.`);
     s.className = 'score ' + (n >= min && n <= max ? 'good' : 'partial');
     complete(act.code);
   };
@@ -2155,7 +2206,7 @@ picture_story(act, el){
     e.target.hidden = true;
     const caja = document.createElement('div');
     caja.className = 'vis-modelo';
-    caja.innerHTML = `<b>One way of telling it:</b><br>${esc(d.model)}`;
+    caja.innerHTML = `<b>${T('One way of telling it:','Une façon de la raconter :')}</b><br>${esc(d.model)}`;
     el.querySelector('.vis-historia').appendChild(caja);
   };
 },
@@ -2186,7 +2237,7 @@ crossword(act, el){
     .map(({n,w})=>`<li value="${n}">
       <span class="clue-n">${n}</span>
       <button class="clue-say" type="button" data-clue="${esc(w.clue)}"
-        title="Listen to the clue" aria-label="Listen to clue ${n}">🔊</button>
+        title="${T('Listen to the clue',"Écoute la définition")}" aria-label="${T('Listen to clue',"Écoute la définition")} ${n}">🔊</button>
       <span class="clue-t">${w.clue} <small>(${w.word.length})</small></span></li>`).join('')}</ol>`;
   el.innerHTML = `<div class="xw"><div class="xw-gridwrap">${g}</div>
     <div class="xw-clues"><h3>${T("Across ➜","Horizontal ➜")}</h3>${list('across')}<h3>${T("Down ⬇","Vertical ⬇")}</h3>${list('down')}</div></div>
@@ -2220,7 +2271,7 @@ crossword(act, el){
     const todo = Object.keys(cells).every(k => ((inp(k) || {}).value || '').toUpperCase() === cells[k]);
     if (todo) {
       const s = el.querySelector('.score');
-      s.textContent = 'All correct!'; s.className = 'score good';
+      s.textContent = T('All correct!','Tout est juste !'); s.className = 'score good';
       complete(act.code);
     }
   }
@@ -2276,7 +2327,7 @@ crossword(act, el){
       td.classList.remove('ok','bad');
       if(v===cells[k]){ td.classList.add('ok'); ok++; } else if(v) td.classList.add('bad'); });
     const s=el.querySelector('.score');
-    s.textContent = `${ok} / ${tot} letters`;
+    s.textContent = T(`${ok} / ${tot} letters`, `${ok} / ${tot} lettres`);
     s.className = 'score '+(ok===tot?'good':'partial');
     pintaPalabras();
     if(ok===tot) complete(act.code);
@@ -2293,7 +2344,7 @@ match_words(act, el){
     grid += pairs[i] ? `<button class="mbtn l" data-v="${pairs[i].left}">${pairs[i].left}</button>` : `<span></span>`;
     grid += rights[i]!==undefined ? `<button class="mbtn r" data-v="${rights[i]}">${rights[i]}</button>` : `<span></span>`;
   }
-  el.innerHTML = `${act.data.extra?`<p style="margin-top:0"><i>Careful — one answer is extra and matches nothing!</i></p>`:''}
+  el.innerHTML = `${act.data.extra?`<p style="margin-top:0"><i>${T('Careful — one answer is extra and matches nothing!','Attention — il y a une réponse en trop, elle ne va avec rien !')}</i></p>`:''}
     <div class="match">${grid}</div><div class="checkrow"><span class="score"></span></div>`;
   let sel=null, matched=0, tries=0;
   const map=Object.fromEntries(pairs.map(p=>[p.left,p.right]));
@@ -2317,15 +2368,15 @@ pairwork(act, el){
 listening(act, el){
   el.classList.add('lsn');
   el.innerHTML = `<div class="lsn-mando">
-      <button class="play" type="button">▶ Play</button>
-      <button class="pause" type="button" disabled>⏸ Pause</button>
-      <button class="stop" type="button" disabled>⏹ Stop</button>
+      <button class="play" type="button">▶ ${T('Play','Lire')}</button>
+      <button class="pause" type="button" disabled>⏸ ${T('Pause','Pause')}</button>
+      <button class="stop" type="button" disabled>⏹ ${T('Stop','Arrêter')}</button>
       <span class="provisional"></span></div>
     <div class="gaps">${act.data.questions.map((q,i)=>
       `<label>${i+1}. ${q.q.replace('…','<b>…</b>')} <input data-i="${i}" autocomplete="off"></label>`).join('')}</div>
     <div class="checkrow final"><button class="chk">${T("Check","Vérifier")}</button>
       <button class="again" type="button" hidden>↻ ${T("Try again","Réessaie")}</button>
-      <button class="reveal" type="button" hidden>👁 See the answers</button>
+      <button class="reveal" type="button" hidden>👁 ${T('See the answers','Voir les réponses')}</button>
       <span class="score"></span><span class="tries"></span></div>`;
 
   const bPlay = el.querySelector('.play');
@@ -2341,7 +2392,7 @@ listening(act, el){
   function estado(sonando){
     bPausa.disabled = !sonando || modo === 'tts';   // la voz del navegador
     bStop.disabled = !sonando;                      // no se puede pausar
-    bPlay.textContent = sonando ? '▶ Playing…' : '▶ Play';
+    bPlay.textContent = sonando ? T('▶ Playing…','▶ Lecture…') : T('▶ Play','▶ Lire');
     bPlay.disabled = sonando;
   }
   audio.onended = () => estado(false);
@@ -2436,9 +2487,9 @@ spot_diff(act, el){
   function pintaFotos(info){
     const zonas = info.zonas || [];
     el.innerHTML = `
-      <p style="margin-top:0"><i>Look at picture A and picture B.
-        Find and TAP the differences in picture B — there are ${zonas.length}!
-        Then tell your partner: <b>"In A the ball is red, but in B it is blue."</b></i></p>
+      <p style="margin-top:0"><i>${T('Look at picture A and picture B.','Regarde l\'image A et l\'image B.')}
+        ${T('Find and TAP the differences in picture B — there are','Trouve et TOUCHE les différences sur l\'image B — il y en a')} ${zonas.length}!
+        ${T('Then tell your partner:','Puis dis à ton camarade :')} <b>"${T('In A the ball is red, but in B it is blue.','Sur A le ballon est rouge, mais sur B il est bleu.')}"</b></i></p>
       <div class="sd-wrap">
         <div class="sd-scene"><h4>A</h4><img class="sd-img" src="${base}-A.jpg?v=${ART_V}" alt=""></div>
         <div class="sd-scene"><h4>B</h4>
@@ -2461,11 +2512,11 @@ spot_diff(act, el){
   }
 
   function pintaEmoji(){
-    if (!d.sceneA) { el.innerHTML = '<p><i>Coming soon.</i></p>'; return; }
+    if (!d.sceneA) { el.innerHTML = `<p><i>${T('Coming soon.','Bientôt disponible.')}</i></p>`; return; }
     const isDiff = (r,c)=> d.diffs.some(([dr,dc])=>dr===r&&dc===c);
     const grid = scene=>`<div class="sd-grid" style="grid-template-columns:repeat(${scene[0].length},auto)">${
       scene.map((row,r)=>row.map((ch,c)=>`<div class="sd-cell" data-r="${r}" data-c="${c}">${ch}</div>`).join('')).join('')}</div>`;
-    el.innerHTML = `<p style="margin-top:0"><i>Look at picture A. Find and TAP the ${d.diffs.length} differences in picture B!</i></p>
+    el.innerHTML = `<p style="margin-top:0"><i>${T('Look at picture A. Find and TAP the','Regarde l\'image A. Trouve et TOUCHE les')} ${d.diffs.length} ${T('differences in picture B!','différences sur l\'image B !')}</i></p>
       <div class="sd-wrap">
         <div class="sd-scene"><h4>A</h4>${grid(d.sceneA)}</div>
         <div class="sd-scene clickable" id="sdB-${act.code}"><h4>B</h4>${grid(d.sceneB)}</div>
@@ -2489,7 +2540,7 @@ spot_diff(act, el){
 /* ---- exam task ---- */
 exam_task(act, el){
   el.classList.add('exam');
-  el.innerHTML = `${act.data.text?`<div class="rtext">${act.data.text}<p class="credit">Written by Paolo Baca</p></div>`:''}
+  el.innerHTML = `${act.data.text?`<div class="rtext">${act.data.text}<p class="credit">${T('Written by','Texte de')} Paolo Baca</p></div>`:''}
     <p><i>${act.data.instructions}</i></p>
     ${act.data.items.map((it,i)=>`<div class="item" data-i="${i}">
       <div class="stem">${i+1}. ${it.sentence.replace('___','<b>____</b>')}</div>
@@ -2519,7 +2570,7 @@ exam_task(act, el){
 }
 };
 
-(UNIT ? unit() : (LEVEL ? hub() : levels())).catch(e=>{ app.textContent = 'Error loading content: '+e.message; });
+(UNIT ? unit() : (LEVEL ? hub() : levels())).catch(e=>{ app.textContent = T('Error loading content: ',"Erreur au chargement du contenu : ")+e.message; });
 </script>
 </body>
 </html>

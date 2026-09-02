@@ -1,0 +1,78 @@
+{
+ "id": "g3-u1",
+ "grado": "G3",
+ "tema": 1,
+ "nivel": "A1",
+ "titulo": "La machine météo d'Erik",
+ "objetivo": "Parler du temps qu'il fait",
+ "paginas": [
+  {
+   "texto": "Erik a fabriqué une machine météo avec un parapluie, deux cuillères et une sonnette de vélo.",
+   "clave": [],
+   "img": "img/g3-u1-p01.jpg"
+  },
+  {
+   "texto": "« Elle peut nous dire s'il va pleuvoir », a-t-il dit. Personne ne l'a cru. Même pas Luna.",
+   "clave": [],
+   "img": "img/g3-u1-p02.jpg"
+  },
+  {
+   "texto": "Lundi la machine a sonné la cloche. Il a fait soleil toute la journée.",
+   "clave": [],
+   "img": "img/g3-u1-p03.jpg"
+  },
+  {
+   "texto": "Mardi la machine n'a rien dit. Il a plu pendant six heures.",
+   "clave": [],
+   "img": "img/g3-u1-p04.jpg"
+  },
+  {
+   "texto": "« Ta machine se trompe à chaque fois », a dit Sofia. « Ça aussi c'est très difficile », a répondu Erik.",
+   "clave": [],
+   "img": "img/g3-u1-p05.jpg"
+  },
+  {
+   "texto": "Samedi le Club voulait faire un pique-nique. Erik a regardé sa machine et a dit : « Prenez vos manteaux. »",
+   "clave": [],
+   "img": "img/g3-u1-p06.jpg"
+  },
+  {
+   "texto": "Le ciel était bleu. Tout le monde a ri d'Erik et a laissé son manteau à la maison.",
+   "clave": [],
+   "img": "img/g3-u1-p07.jpg"
+  },
+  {
+   "texto": "À quatre heures il a neigé. Il ne neige jamais en septembre. Tout le monde est rentré en courant.",
+   "clave": [],
+   "img": "img/g3-u1-p08.jpg"
+  },
+  {
+   "texto": "Erik n'a rien dit. Il a juste sonné sa petite cloche, une fois, et il a rangé la machine dans son sac.",
+   "clave": [],
+   "img": "img/g3-u1-p09.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "Quel temps fait-il ?",
+  "instruccion": "Touche l'image que tu entends.",
+  "items": [
+   {
+    "palabra": "ensoleillé",
+    "img": "img/g3-u1-a-sunny.png"
+   },
+   {
+    "palabra": "pluvieux",
+    "img": "img/g3-u1-a-rainy.png"
+   },
+   {
+    "palabra": "neigeux",
+    "img": "img/g3-u1-a-snowy.png"
+   },
+   {
+    "palabra": "venteux",
+    "img": "img/g3-u1-a-windy.png"
+   }
+  ]
+ },
+ "lang": "fr"
+}

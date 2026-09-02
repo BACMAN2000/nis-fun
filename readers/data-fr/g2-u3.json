@@ -1,0 +1,75 @@
+{
+ "id": "g2-u3",
+ "grado": "G2",
+ "tema": 3,
+ "nivel": "Pre-A1",
+ "titulo": "Le jardin d'Astrid",
+ "objetivo": "Les plantes et comment s'en occuper",
+ "paginas": [
+  {
+   "texto": "Astrid a un jardin. Il est tout petit.",
+   "clave": [],
+   "img": "img/g2-u3-p01.jpg"
+  },
+  {
+   "texto": "Lundi : une plante verte.",
+   "clave": [],
+   "img": "img/g2-u3-p02.jpg"
+  },
+  {
+   "texto": "Mardi : de l'eau, de l'eau, de l'eau.",
+   "clave": [],
+   "img": "img/g2-u3-p03.jpg"
+  },
+  {
+   "texto": "Mercredi : un escargot ! Bonjour, escargot.",
+   "clave": [
+    "escargot"
+   ],
+   "img": "img/g2-u3-p04.jpg"
+  },
+  {
+   "texto": "Jeudi : de la pluie. C'est bon pour la plante.",
+   "clave": [],
+   "img": "img/g2-u3-p05.jpg"
+  },
+  {
+   "texto": "Vendredi : du soleil. C'est bon aussi.",
+   "clave": [],
+   "img": "img/g2-u3-p06.jpg"
+  },
+  {
+   "texto": "Samedi : une petite fleur. Regarde !",
+   "clave": [],
+   "img": "img/g2-u3-p07.jpg"
+  },
+  {
+   "texto": "Dimanche : Astrid ne fait rien. Le jardin est content.",
+   "clave": [],
+   "img": "img/g2-u3-p08.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "Dans le jardin",
+  "instruccion": "Touche l'image que tu entends.",
+  "items": [
+   {
+    "palabra": "escargot",
+    "img": "img/g2-u3-a-snail.png"
+   },
+   {
+    "palabra": "oiseau",
+    "img": "img/g2-u3-a-bird.png"
+   },
+   {
+    "palabra": "pluvieux",
+    "img": "img/g2-u3-a-rainy.png"
+   },
+   {
+    "palabra": "ensoleillé",
+    "img": "img/g2-u3-a-sunny.png"
+   }
+  ]
+ },
+ "lang": "fr"
+}

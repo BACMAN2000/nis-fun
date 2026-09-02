@@ -1,0 +1,83 @@
+{
+ "id": "g5-u6",
+ "grado": "G5",
+ "tema": 6,
+ "nivel": "A2",
+ "titulo": "La nuit de l'aurore",
+ "objetivo": "Faire des projets",
+ "paginas": [
+  {
+   "texto": "Maya a lu que l'aurore boréale serait visible samedi, et toute l'école s'est mise à préparer la sortie.",
+   "clave": [],
+   "img": "img/g5-u6-p01.jpg"
+  },
+  {
+   "texto": "« On va marcher jusqu'au belvédère », a dit Ingrid. « On part à huit heures et on ne va PAS être en retard. »",
+   "clave": [],
+   "img": "img/g5-u6-p02.jpg"
+  },
+  {
+   "texto": "Oliver allait apporter la guitare. Diego allait apporter le microphone. Kili allait s'apporter lui-même.",
+   "clave": [],
+   "img": "img/g5-u6-p03.jpg"
+  },
+  {
+   "texto": "Il fallait des vêtements chauds, parce qu'en haut de la colline le vent ne demande jamais ton avis.",
+   "clave": [],
+   "img": "img/g5-u6-p04.jpg"
+  },
+  {
+   "texto": "Samedi à huit heures ils sont partis. À huit heures et quart Diego est retourné chercher le microphone qu'il avait laissé chez lui.",
+   "clave": [],
+   "img": "img/g5-u6-p05.jpg"
+  },
+  {
+   "texto": "La marche était longue, sombre et froide, et personne n'a dit un mot sur le fait de faire demi-tour.",
+   "clave": [],
+   "img": "img/g5-u6-p06.jpg"
+  },
+  {
+   "texto": "En haut ils ont attendu. Rien ne s'est passé. Il faisait froid. Quelqu'un a dit le mot « chocolat » et tout le monde était d'accord.",
+   "clave": [],
+   "img": "img/g5-u6-p07.jpg"
+  },
+  {
+   "texto": "Et puis le ciel est devenu vert. Pas un peu vert. Tout entier, de la mer à la montagne.",
+   "clave": [],
+   "img": "img/g5-u6-p08.jpg"
+  },
+  {
+   "texto": "Diego n'a rien enregistré. Il a dit après qu'il avait oublié, mais Maya dit qu'il a choisi de regarder.",
+   "clave": [],
+   "img": "img/g5-u6-p09.jpg"
+  },
+  {
+   "texto": "Ils sont rentrés très tard et très heureux, et lundi personne n'a réussi à l'expliquer à ceux qui étaient restés au lit.",
+   "clave": [],
+   "img": "img/g5-u6-p10.jpg"
+  }
+ ],
+ "actividad": {
+  "titulo": "Qu'est-ce qu'on emporte ?",
+  "instruccion": "Touche l'image que tu entends.",
+  "items": [
+   {
+    "palabra": "gants",
+    "img": "img/g5-u6-a-gloves.png"
+   },
+   {
+    "palabra": "écharpe",
+    "img": "img/g5-u6-a-scarf.png"
+   },
+   {
+    "palabra": "chaussettes",
+    "img": "img/g5-u6-a-socks.png"
+   },
+   {
+    "palabra": "parapluie",
+    "img": "img/g5-u6-a-umbrella.png"
+   }
+  ]
+ },
+ "lang": "fr"
+}
