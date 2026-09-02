@@ -4,6 +4,8 @@
 # los clips en bruto de Veo pesan ~450 MB; solo se versiona la marca
 build-videos/*
 !build-videos/brand/
+# Los clips en bruto pesan 450 MB y no van; los guiones que los montan, si.
+!build-videos/*.py
 
 # cache de Python de las herramientas
 __pycache__/
