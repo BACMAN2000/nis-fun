@@ -1,0 +1,273 @@
+{
+ "id": "starters-fr-15",
+ "level": "starters",
+ "number": 15,
+ "title": "Les animaux à la maison",
+ "topic": "animaux de compagnie",
+ "grammar": "Tu as… ?",
+ "wordlist": [
+  "chien",
+  "chat",
+  "poisson",
+  "oiseau",
+  "lapin",
+  "souris",
+  "animal de compagnie",
+  "queue",
+  "petit",
+  "ami"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 1,
+  "skill": "animaux de compagnie"
+ },
+ "characters": [
+  "freya",
+  "astrid"
+ ],
+ "scene": {
+  "speaker": "freya",
+  "pose": {
+   "freya": 1,
+   "astrid": 3
+  },
+  "bubble": "Jour des animaux à l'école ! Des chiens, des chats, un lapin… et Pip, le seul macareux de toute l'école !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Écris les noms des animaux de compagnie.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "CHIEN",
+      "clue": "Il fait ouaf et il t'adore."
+     },
+     {
+      "word": "CHAT",
+      "clue": "Il fait miaou et il dort beaucoup."
+     },
+     {
+      "word": "POISSON",
+      "clue": "Il nage dans une petite maison en verre."
+     },
+     {
+      "word": "LAPIN",
+      "clue": "Il a de longues oreilles et il saute."
+     },
+     {
+      "word": "OISEAU",
+      "clue": "Il chante dans sa cage ou dans l'arbre."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Associe l'animal et ce dont il a besoin.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Animal",
+    "right_label": "Il a besoin de",
+    "pairs": [
+     {
+      "left": "un chien",
+      "right": "promenades au parc"
+     },
+     {
+      "left": "un chat",
+      "right": "un endroit chaud pour dormir"
+     },
+     {
+      "left": "un poisson",
+      "right": "de l'eau propre"
+     },
+     {
+      "left": "un oiseau",
+      "right": "des graines et des chansons"
+     },
+     {
+      "left": "un lapin",
+      "right": "des carottes et de la place pour sauter"
+     },
+     {
+      "left": "chaque animal",
+      "right": "de l'amour et des soins"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute le jour des animaux. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u15-c.mp3",
+   "data": {
+    "voice_note": "Voces: Freya y Astrid (en el día de mascotas).",
+    "script": "Freya : Jour des animaux ! Regarde, quatre chiens et deux chats ! … Astrid : Le lapin de Marco est blanc avec une oreille grise. … Freya : Le poisson d'Ana est orange. Il s'appelle Sol. … Astrid : Tu as un animal, Freya ? … Freya : Oui ! Pip ! C'est un macareux. Le seul de l'école ! … Astrid : Mon animal est une petite souris marron. Elle s'appelle Nuez. … Freya : Tous les animaux reçoivent un autocollant étoile aujourd'hui ! … Astrid : Même le poisson. Sur son verre, bien sûr !",
+    "questions": [
+     {
+      "q": "Il y a quatre chiens et deux …",
+      "answer": "chats"
+     },
+     {
+      "q": "Le lapin est blanc avec une … grise.",
+      "answer": "gris"
+     },
+     {
+      "q": "Le poisson orange s'appelle …",
+      "answer": "Sol"
+     },
+     {
+      "q": "La souris d'Astrid s'appelle …",
+      "answer": "Nuez"
+     },
+     {
+      "q": "Tous les animaux reçoivent un autocollant …",
+      "answer": "étoile"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "___ tu un animal ?",
+      "options": [
+       "Avoir",
+       "Sont",
+       "Fais as"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un lapin a de longues …",
+      "options": [
+       "oreilles",
+       "ailes",
+       "dents seulement"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un poisson vit dans …",
+      "options": [
+       "eau",
+       "un lit",
+       "un arbre"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un chien content remue sa …",
+      "options": [
+       "queue",
+       "oreilles seulement",
+       "nez"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un animal de compagnie est un petit …",
+      "options": [
+       "ami",
+       "jouet",
+       "chaise"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Demande à ton camarade : « Tu as un animal ? C'est quoi ? Comment il s'appelle ? » S'il n'en a pas, demande : « Quel animal tu voudrais ? »"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Deux images, plein de différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 11 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Dessine ton animal (ou l'animal de tes rêves) et écris 3 phrases : son nom, sa couleur, ce qu'il sait faire."
+  }
+ ],
+ "scope": {
+  "grado": "G2",
+  "temaN": 3,
+  "tema": "Animaux et compagnons",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues simples sur la famille, l'école, les animaux et la nourriture."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Répondre à des questions à partir d'une image ; décrire une image en phrases simples."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire des textes de 2 à 3 phrases ; associer images, mots et légendes courtes."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Recopier des mots et compléter des phrases courtes."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~450 mots ; présent, être et avoir, il y a, aimer + infinitif."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [
+   "Le présent, 3e personne : il vit, il mange"
+  ],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

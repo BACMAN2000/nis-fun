@@ -1,0 +1,300 @@
+{
+ "id": "movers-fr-20",
+ "level": "movers",
+ "number": 20,
+ "title": "Dans la ville",
+ "topic": "lieux",
+ "grammar": "Où… ? + les lieux",
+ "wordlist": [
+  "bibliothèque",
+  "piscine",
+  "cinéma",
+  "magasin",
+  "supermarché",
+  "hôpital",
+  "école",
+  "café",
+  "cour de récréation",
+  "banque"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 1,
+  "skill": "définitions"
+ },
+ "characters": [
+  "mateo",
+  "sofia"
+ ],
+ "scene": {
+  "speaker": "mateo",
+  "pose": {
+   "mateo": 2,
+   "sofia": 1
+  },
+  "bubble": "Visite de la ville pour mon cousin ! D'abord l'aire de jeux, ensuite le café… et la bibliothèque, parce que Valentina l'a dit."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Lis les phrases et écris les lieux.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "BIBLIOTHEQUE",
+      "clue": "Un endroit calme plein de livres."
+     },
+     {
+      "word": "CINEMA",
+      "clue": "Tu y regardes des films sur un grand écran."
+     },
+     {
+      "word": "HOPITAL",
+      "clue": "Les médecins et les infirmiers y travaillent."
+     },
+     {
+      "word": "SUPERMARCHE",
+      "clue": "Un grand magasin où tu achètes à manger."
+     },
+     {
+      "word": "AIREDEJEUX",
+      "clue": "Les enfants y jouent après l'école."
+     },
+     {
+      "word": "CAFE",
+      "clue": "Tu y bois un chocolat chaud et tu manges un gâteau."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Associe le lieu et ce qu'on y fait.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Lieu",
+    "right_label": "Ce que tu fais",
+    "pairs": [
+     {
+      "left": "la piscine",
+      "right": "nager et sauter dans l'eau"
+     },
+     {
+      "left": "la bibliothèque",
+      "right": "lire et emprunter des livres"
+     },
+     {
+      "left": "le cinéma",
+      "right": "regarder un film avec du pop-corn"
+     },
+     {
+      "left": "le supermarché",
+      "right": "acheter à manger pour la semaine"
+     },
+     {
+      "left": "l'aire de jeux",
+      "right": "jouer au toboggan et aux balançoires"
+     },
+     {
+      "left": "le café",
+      "right": "boire un chocolat chaud"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute la visite de la ville. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u20-c.mp3",
+   "data": {
+    "voice_note": "Voces: Mateo (guía turístico) y Sofía (apoyo).",
+    "script": "Mateo : Visite de la ville ! Premier arrêt : l'aire de jeux. Le nouveau toboggan est rouge et très rapide ! … Sofia : Ensuite le café de la place. Leur chocolat chaud a des petits nuages de crème. … Mateo : Après, la bibliothèque. Chut ! Valentina habite ici… enfin, presque. … Sofia : La piscine ouvre à neuf heures. Le petit bassin est chaud pour les débutants. … Mateo : Et le cinéma ! Le samedi le premier film commence à dix heures. … Sofia : Dernier arrêt : le glacier à côté de la banque. … Mateo : Toute bonne visite finit par deux boules de chocolat !",
+    "questions": [
+     {
+      "q": "Le nouveau toboggan est … et très rapide.",
+      "answer": "rouge"
+     },
+     {
+      "q": "Le chocolat chaud a des petits nuages de …",
+      "answer": "crème"
+     },
+     {
+      "q": "La piscine ouvre à …",
+      "answer": "neuf"
+     },
+     {
+      "q": "Le samedi le premier film commence à …",
+      "answer": "dix"
+     },
+     {
+      "q": "Le glacier est à côté de la …",
+      "answer": "banque"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Tu empruntes des livres à la …",
+      "options": [
+       "bibliothèque",
+       "cinéma",
+       "banque"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les malades vont à l'…",
+      "options": [
+       "hôpital",
+       "cour de récréation",
+       "café"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« ___ est la piscine ? » — « À côté du parc. »",
+      "options": [
+       "Où",
+       "Quand",
+       "Qui"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu regardes des films au …",
+      "options": [
+       "cinéma",
+       "supermarché",
+       "école"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les enfants jouent aux balançoires à l'…",
+      "options": [
+       "cour de récréation",
+       "hôpital",
+       "banque"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Imaginez la ville parfaite : chacun ajoute 4 lieux et dit pourquoi. Dessinez une carte simple ensemble et présentez-la : « Il y a un cinéma à côté de… »"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Trouve les différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 11 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris sur 4 vrais lieux de ton quartier : le nom, où c'est, ce que tu y fais."
+  }
+ ],
+ "scope": {
+  "grado": "G4",
+  "temaN": 1,
+  "tema": "En ville",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues plus longs ; repérer une information précise à l'oral."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire des lieux, des objets, des événements passés ; jouer une situation simple."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et remettre en ordre des histoires courtes ; trouver une information dans un panneau ou une affiche."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un message de 30 à 40 mots ; paragraphes de classe de 60 à 100 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~1350 mots ; passé composé, pronoms relatifs, pour + infinitif, devoir."
+   }
+  ],
+  "vocabulario": [
+   "marché",
+   "librairie",
+   "centre sportif",
+   "musée",
+   "restaurant",
+   "banque",
+   "pharmacien"
+  ],
+  "gramatica": [
+   "Les prépositions de mouvement : le long de, devant, par-dessus, à travers"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "market",
+    "bookshop",
+    "sports centre",
+    "museum",
+    "restaurant",
+    "chemist"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "marché",
+  "librairie",
+  "centre sportif",
+  "musée",
+  "restaurant",
+  "pharmacien"
+ ],
+ "lang": "fr"
+}

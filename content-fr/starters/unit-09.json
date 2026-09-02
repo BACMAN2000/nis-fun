@@ -1,0 +1,305 @@
+{
+ "id": "starters-fr-09",
+ "level": "starters",
+ "number": 9,
+ "title": "Les vêtements que je porte",
+ "topic": "vêtements",
+ "grammar": "Je porte…",
+ "wordlist": [
+  "t-shirt",
+  "pantalon",
+  "robe",
+  "chaussures",
+  "chaussettes",
+  "veste",
+  "chapeau",
+  "short",
+  "jupe",
+  "porter"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 4,
+  "skill": "vêtements et couleurs"
+ },
+ "characters": [
+  "astrid",
+  "tomas"
+ ],
+ "scene": {
+  "speaker": "astrid",
+  "pose": {
+   "astrid": 2,
+   "tomas": 1
+  },
+  "bubble": "Jour du déguisement à l'école ! Je porte ma robe verte et Tomás porte… un chapeau de pirate ?"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Écris les mots des vêtements.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "CHAUSSURES",
+      "clue": "Tu les portes aux pieds."
+     },
+     {
+      "word": "CHAPEAU",
+      "clue": "Tu le portes sur la tête."
+     },
+     {
+      "word": "ROBE",
+      "clue": "Certaines filles la portent. C'est une seule pièce."
+     },
+     {
+      "word": "CHAUSSETTES",
+      "clue": "Elles vont aux pieds, sous les chaussures."
+     },
+     {
+      "word": "VESTE",
+      "clue": "Tu le portes quand il fait froid."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Associe le vêtement et l'endroit du corps.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Vêtements",
+    "right_label": "Où",
+    "pairs": [
+     {
+      "left": "un chapeau",
+      "right": "sur la tête"
+     },
+     {
+      "left": "un t-shirt",
+      "right": "sur ton corps"
+     },
+     {
+      "left": "pantalon",
+      "right": "sur les jambes"
+     },
+     {
+      "left": "chaussettes",
+      "right": "aux pieds, en premier"
+     },
+     {
+      "left": "chaussures",
+      "right": "aux pieds, par-dessus"
+     },
+     {
+      "left": "short",
+      "right": "aux jambes en été"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute. Qu'est-ce que chacun porte ? Écris un mot dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u09-c.mp3",
+   "data": {
+    "voice_note": "Voces: Astrid (describiendo) y Tomás (pirata).",
+    "script": "Astrid : Jour du déguisement ! Moi je porte ma robe verte. … Tomás : Moi je suis un pirate ! Un grand chapeau noir et une botte rouge. … Astrid : Une seule botte, Tomás ? … Tomás : Je ne trouve pas l'autre ! … Astrid : Freya porte une robe jaune, comme une princesse. … Tomás : Et Nico est un dinosaure. Son costume a une longue queue verte ! … Astrid : Et Pip ? … Tomás : Pip porte un tout petit chapeau bleu. Le plus petit chapeau du monde !",
+    "questions": [
+     {
+      "q": "Astrid porte une robe …",
+      "answer": "vert"
+     },
+     {
+      "q": "Tomás a une … rouge.",
+      "answer": "botte"
+     },
+     {
+      "q": "Freya porte une robe …",
+      "answer": "jaune"
+     },
+     {
+      "q": "Le costume de Nico a une longue … verte.",
+      "answer": "queue"
+     },
+     {
+      "q": "Pip porte un tout petit chapeau …",
+      "answer": "bleu"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Tu portes des ___ aux pieds.",
+      "options": [
+       "chaussures",
+       "chapeaux",
+       "robes"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "En été je porte un …",
+      "options": [
+       "short",
+       "une veste",
+       "deux manteaux"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Je ___ un t-shirt rouge aujourd'hui.",
+      "options": [
+       "en train de porter",
+       "mange",
+       "en train de lire"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Quand il fait froid, mets ton …",
+      "options": [
+       "veste",
+       "short",
+       "lunettes de soleil"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les chaussettes vont ___ les chaussures.",
+      "options": [
+       "sous",
+       "au-dessus de",
+       "derrière"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Regarde ton camarade 5 secondes, ferme les yeux, et dis ce qu'il porte : « Tu portes… » Tu te souviens de combien de choses ?"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Trouve les différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Dessine tes vêtements préférés et écris 4 phrases : Je porte mon… bleu."
+  }
+ ],
+ "scope": {
+  "grado": "G2",
+  "temaN": 1,
+  "tema": "Tout sur moi",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues simples sur la famille, l'école, les animaux et la nourriture."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Répondre à des questions à partir d'une image ; décrire une image en phrases simples."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire des textes de 2 à 3 phrases ; associer images, mots et légendes courtes."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Recopier des mots et compléter des phrases courtes."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~450 mots ; présent, être et avoir, il y a, aimer + infinitif."
+   }
+  ],
+  "vocabulario": [
+   "grand",
+   "court",
+   "mince",
+   "bouclé",
+   "cheveux raides",
+   "couleur des yeux"
+  ],
+  "gramatica": [
+   "ÊTRE et AVOIR : toutes les formes"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "tall",
+    "short",
+    "thin",
+    "curly",
+    "straight hair",
+    "eyes colour"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "grand",
+  "court",
+  "mince",
+  "bouclé",
+  "cheveux raides",
+  "couleur des yeux",
+  "âge",
+  "ans",
+  "les nombres",
+  "les nombres ordinaux",
+  "premier",
+  "deuxième",
+  "troisième",
+  "onze",
+  "douze",
+  "vingt"
+ ],
+ "lang": "fr"
+}

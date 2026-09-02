@@ -1,0 +1,352 @@
+{
+ "id": "starters-fr-01",
+ "level": "starters",
+ "number": 1,
+ "title": "Les couleurs et les jouets",
+ "topic": "les jouets",
+ "grammar": "C'est un… / C'est une… · De quelle couleur est…?",
+ "wordlist": [
+  "ballon",
+  "cerf-volant",
+  "train",
+  "voiture",
+  "nounours",
+  "poupée",
+  "rouge",
+  "bleu",
+  "vert",
+  "jaune"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 1,
+  "skill": "associer le mot et l'image"
+ },
+ "characters": [
+  "freya",
+  "pip"
+ ],
+ "scene": {
+  "speaker": "freya",
+  "pose": {
+   "freya": 8,
+   "pip": 1
+  },
+  "bubble": "Qu'est-ce que c'est ? C'est ma boîte à jouets ! Regarde — un ballon rouge, un cerf-volant jaune… et Pip est caché dedans !",
+  "intro": "Freya ouvre sa grande boîte à jouets et — surprise ! — tout tombe par terre : un ballon rouge, un cerf-volant jaune, trois petites voitures et un macareux tout endormi qui s'appelle Pip. Maintenant il faut tout ranger, et ça aussi c'est un jeu ! Dis le nom de chaque jouet, dis sa couleur, et compte-les avec Freya. Combien de jouets est-ce que TU trouves dans cette unité ? Ouvre la boîte et on joue !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Lis et écris le nom des jouets.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "TRAIN",
+      "clue": "Il est long et il roule sur des rails. Tchou-tchou !"
+     },
+     {
+      "word": "VOITURE",
+      "clue": "Elle a quatre roues. Papa la conduit."
+     },
+     {
+      "word": "BALLON",
+      "clue": "Il est rond. Tu tapes dedans ou tu le lances."
+     },
+     {
+      "word": "POUPEE",
+      "clue": "Elle a des cheveux et une robe. Tu joues avec elle."
+     },
+     {
+      "word": "NOUNOURS",
+      "clue": "C'est un ours tout doux. Tu le serres dans tes bras la nuit."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Associe la chose et sa couleur.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "La chose",
+    "right_label": "La couleur",
+    "pairs": [
+     {
+      "left": "une pomme",
+      "right": "rouge"
+     },
+     {
+      "left": "une banane",
+      "right": "jaune"
+     },
+     {
+      "left": "la mer",
+      "right": "bleu"
+     },
+     {
+      "left": "une grenouille",
+      "right": "vert"
+     },
+     {
+      "left": "une carotte",
+      "right": "orange"
+     },
+     {
+      "left": "la nuit",
+      "right": "noire"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute Freya. Écris une couleur ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u01-c.mp3",
+   "data": {
+    "voice_note": "Voces: Freya (curiosa, dulce) y Nico (bromista).",
+    "script": "Nico : Freya, qu'est-ce qu'il y a dans ta boîte à jouets ? … Freya : Regarde ! C'est mon ballon. Il est rouge. … Nico : Et ça, qu'est-ce que c'est ? … Freya : C'est mon cerf-volant. Il est jaune et très grand ! … Nico : Tu as combien de voitures ? … Freya : J'ai trois voitures. Une, deux, trois ! … Nico : Et lui, c'est qui ? … Freya : C'est mon nounours. Il est marron. Il s'appelle Max. … Nico : Et… c'est quoi, ce truc noir et blanc ? … Freya : Ça, ce n'est pas un jouet ! C'est Pip ! Il dort encore dans ma boîte !",
+    "questions": [
+     {
+      "q": "Le ballon est …",
+      "answer": "rouge"
+     },
+     {
+      "q": "Le cerf-volant est … et très grand.",
+      "answer": "jaune"
+     },
+     {
+      "q": "Freya a … voitures.",
+      "answer": "trois"
+     },
+     {
+      "q": "Le nounours est …",
+      "answer": "marron"
+     },
+     {
+      "q": "… dort dans la boîte à jouets.",
+      "answer": "Pip"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Lis et choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Il est rond. Tu joues au foot avec.",
+      "options": [
+       "un ballon",
+       "un cerf-volant",
+       "une voiture"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Il vole dans le ciel.",
+      "options": [
+       "un train",
+       "un cerf-volant",
+       "un nounours"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Une banane est …",
+      "options": [
+       "bleu",
+       "rouge",
+       "jaune"
+      ],
+      "answer": 2
+     },
+     {
+      "sentence": "Il fait tchou-tchou sur les rails.",
+      "options": [
+       "un train",
+       "une poupée",
+       "un ballon"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Une grenouille est …",
+      "options": [
+       "orange",
+       "vert",
+       "noire"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "L'élève A montre quelque chose dans la classe et demande : « De quelle couleur c'est ? » L'élève B répond : « C'est bleu ! » Trois choses chacun, puis on échange. Bonus : trouve quelque chose d'orange !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Deux boîtes à jouets ! Trouve les différences.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "sceneA": [
+     [
+      "⚽",
+      "🧸",
+      "🚗",
+      "🪁"
+     ],
+     [
+      "🎲",
+      "🪆",
+      "🚂",
+      "🎈"
+     ],
+     [
+      "🖍️",
+      "📚",
+      "🥁",
+      "🤖"
+     ]
+    ],
+    "sceneB": [
+     [
+      "🏀",
+      "🧸",
+      "🚗",
+      "🪁"
+     ],
+     [
+      "🎲",
+      "🪆",
+      "🚂",
+      "🎁"
+     ],
+     [
+      "🖍️",
+      "📚",
+      "🎺",
+      "🤖"
+     ]
+    ],
+    "diffs": [
+     [
+      0,
+      0
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      2,
+      2
+     ]
+    ]
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Dessine tes 3 jouets préférés. Écris une phrase pour chacun : C'est mon ballon. Il est rouge."
+  }
+ ],
+ "scope": {
+  "grado": "G1",
+  "temaN": 1,
+  "tema": "Bonjour le monde !",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Suivre les consignes de la classe ; reconnaître des mots connus dans une chanson ou une phrase courte."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Saluer ; dire son nom, son âge, les couleurs ; nommer des objets ; répondre par oui ou non."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Reconnaître les lettres de l'alphabet ; associer un mot à une image (famille, nourriture, animaux, corps)."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire son prénom ; recopier des mots ; légender une image (3 à 5 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~150 mots actifs ; le verbe être, un/une, c'est/ce sont, l'impératif."
+   }
+  ],
+  "vocabulario": [
+   "bonjour",
+   "salut",
+   "au revoir"
+  ],
+  "gramatica": [
+   "Le verbe ÊTRE : je suis, tu es, il/elle est"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "hello",
+    "goodbye",
+    "good morning"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "bonjour",
+  "salut",
+  "au revoir",
+  "les nombres",
+  "un",
+  "deux",
+  "trois",
+  "quatre",
+  "cinq",
+  "six",
+  "sept",
+  "huit",
+  "neuf",
+  "dix"
+ ],
+ "lang": "fr"
+}

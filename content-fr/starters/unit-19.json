@@ -1,0 +1,300 @@
+{
+ "id": "starters-fr-19",
+ "level": "starters",
+ "number": 19,
+ "title": "Les gens",
+ "topic": "gens",
+ "grammar": "un homme / une femme / un garçon / une fille",
+ "wordlist": [
+  "homme",
+  "femme",
+  "garçon",
+  "fille",
+  "bébé",
+  "enfant",
+  "enfants",
+  "personne",
+  "gens",
+  "nom"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 1,
+  "skill": "les mots des gens"
+ },
+ "characters": [
+  "astrid",
+  "nico"
+ ],
+ "scene": {
+  "speaker": "astrid",
+  "pose": {
+   "astrid": 2,
+   "nico": 3
+  },
+  "bubble": "Regarde la place : un homme avec un chien, une femme avec des fleurs, trois enfants qui jouent… et un macareux qui regarde !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe le mot et la personne.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Mot",
+    "right_label": "Personne",
+    "pairs": [
+     {
+      "left": "un homme",
+      "right": "le père de Nico"
+     },
+     {
+      "left": "une femme",
+      "right": "la maîtresse Lily"
+     },
+     {
+      "left": "un garçon",
+      "right": "Tomás"
+     },
+     {
+      "left": "une fille",
+      "right": "Freya"
+     },
+     {
+      "left": "un bébé",
+      "right": "le petit cousin de Nico"
+     },
+     {
+      "left": "enfants",
+      "right": "toute la classe ensemble"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "Un enfant, deux …",
+      "options": [
+       "enfants",
+       "enfantes",
+       "enfans"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Freya est une …",
+      "options": [
+       "fille",
+       "garçon",
+       "homme"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Mon papa est un …",
+      "options": [
+       "homme",
+       "femme",
+       "bébé"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Une personne, plusieurs …",
+      "options": [
+       "gens",
+       "personne",
+       "gentes"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Quel est ton ___ ? » — « Tomás ! »",
+      "options": [
+       "nom",
+       "couleur",
+       "nombre"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute sur la place. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u19-c.mp3",
+   "data": {
+    "voice_note": "Voces: Astrid (observando) y Nico (contando gente).",
+    "script": "Astrid : Regarde la place ! Un homme se promène avec un grand chien blanc. … Nico : Et une femme a des fleurs rouges. Beaucoup de fleurs ! … Astrid : Trois enfants jouent avec un ballon. … Nico : Un bébé dort dans une petite poussette. Il est tout petit ! … Astrid : Le marchand de glaces a un chapeau bleu. … Nico : Il y a combien de personnes sur la place ? … Astrid : Une, deux… dix personnes ! Et un Pip.",
+    "questions": [
+     {
+      "q": "L'homme se promène avec un grand chien …",
+      "answer": "blanc"
+     },
+     {
+      "q": "La femme a des … rouges.",
+      "answer": "fleurs"
+     },
+     {
+      "q": "… enfants jouent avec un ballon.",
+      "answer": "Trois"
+     },
+     {
+      "q": "Le marchand de glaces a un chapeau …",
+      "answer": "bleu"
+     },
+     {
+      "q": "Il y a … personnes sur la place.",
+      "answer": "dix"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Un jeune garçon ou une jeune fille est un …",
+      "options": [
+       "enfant",
+       "homme",
+       "femme"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Mamie est une …",
+      "options": [
+       "femme",
+       "homme",
+       "garçon"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "La plus petite personne de la famille est le …",
+      "options": [
+       "bébé",
+       "père",
+       "maître"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Plusieurs personnes ensemble sont des …",
+      "options": [
+       "gens",
+       "gentes",
+       "enfantes"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tomás et Nico sont deux …",
+      "options": [
+       "garçons",
+       "filles",
+       "femmes"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Regarde une image de ton livre : trouve et dis « un homme, une femme, un garçon, une fille… » Qui trouve le plus de personnes en une minute ?"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Trouve les différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Dessine ta rue avec 4 personnes et écris qui elles sont : Il y a un homme… Il y a deux enfants…"
+  }
+ ],
+ "scope": {
+  "grado": "G2",
+  "temaN": 1,
+  "tema": "Tout sur moi",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues simples sur la famille, l'école, les animaux et la nourriture."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Répondre à des questions à partir d'une image ; décrire une image en phrases simples."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire des textes de 2 à 3 phrases ; associer images, mots et légendes courtes."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Recopier des mots et compléter des phrases courtes."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~450 mots ; présent, être et avoir, il y a, aimer + infinitif."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [
+   "Avoir : j'ai les yeux bleus"
+  ],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

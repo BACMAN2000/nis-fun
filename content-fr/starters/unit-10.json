@@ -1,0 +1,278 @@
+{
+ "id": "starters-fr-10",
+ "level": "starters",
+ "number": 10,
+ "title": "Ma maison",
+ "topic": "maison",
+ "grammar": "Où est… ? C'est dans la…",
+ "wordlist": [
+  "maison",
+  "cuisine",
+  "chambre",
+  "salle de bains",
+  "salon",
+  "jardin",
+  "porte",
+  "fenêtre",
+  "mur",
+  "sol"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 1,
+  "skill": "les pièces"
+ },
+ "characters": [
+  "nico",
+  "pip"
+ ],
+ "scene": {
+  "speaker": "nico",
+  "pose": {
+   "nico": 3,
+   "pip": 4
+  },
+  "bubble": "Bienvenue chez moi ! La cuisine, la chambre, le jardin… et la pièce préférée de Pip : la cuisine, bien sûr."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Écris les mots de la maison.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "CUISINE",
+      "clue": "Maman et papa cuisinent ici."
+     },
+     {
+      "word": "CHAMBRE",
+      "clue": "Tu dors ici."
+     },
+     {
+      "word": "JARDIN",
+      "clue": "L'endroit vert dehors avec des fleurs."
+     },
+     {
+      "word": "PORTE",
+      "clue": "Tu l'ouvres pour entrer."
+     },
+     {
+      "word": "FENETRE",
+      "clue": "Tu regardes à travers. C'est en verre."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Associe la pièce et ce qu'on y fait.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Pièce",
+    "right_label": "Tu…",
+    "pairs": [
+     {
+      "left": "la cuisine",
+      "right": "prendre le petit-déjeuner"
+     },
+     {
+      "left": "la chambre",
+      "right": "dormir la nuit"
+     },
+     {
+      "left": "la salle de bains",
+      "right": "se brosser les dents"
+     },
+     {
+      "left": "le salon",
+      "right": "regarder la télé avec ta famille"
+     },
+     {
+      "left": "le jardin",
+      "right": "jouer dehors"
+     },
+     {
+      "left": "la porte",
+      "right": "dire bonjour aux visiteurs"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute la visite de la maison. Écris un mot dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u10-c.mp3",
+   "data": {
+    "voice_note": "Voces: Nico (mostrando su casa) y Astrid (visita).",
+    "script": "Nico : Voici ma maison ! La porte est bleue. … Astrid : J'aime le salon. Le canapé est grand et orange ! … Nico : Voici la cuisine. Ça sent le gâteau ! … Astrid : Et où est ta chambre ? … Nico : En haut. Mon lit est à côté de la fenêtre. … Astrid : Le jardin est magnifique. Regarde, des fleurs ! … Nico : Et regarde qui est encore dans la cuisine… PIP ! … Astrid : Lui aussi il sent le gâteau !",
+    "questions": [
+     {
+      "q": "La porte est …",
+      "answer": "bleu"
+     },
+     {
+      "q": "Le canapé est grand et …",
+      "answer": "orange"
+     },
+     {
+      "q": "La cuisine sent le …",
+      "answer": "gâteau"
+     },
+     {
+      "q": "Le lit de Nico est à côté de la …",
+      "answer": "fenêtre"
+     },
+     {
+      "q": "… est encore dans la cuisine.",
+      "answer": "Pip"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Tu cuisines dans la …",
+      "options": [
+       "cuisine",
+       "chambre",
+       "jardin"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu dors dans le …",
+      "options": [
+       "chambre",
+       "salle de bains",
+       "cuisine"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les fleurs poussent dans le …",
+      "options": [
+       "jardin",
+       "salon",
+       "mur"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu regardes à travers la …",
+      "options": [
+       "fenêtre",
+       "mur",
+       "sol"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« ___ est le chat ? » — « Dans le jardin. »",
+      "options": [
+       "Où",
+       "Quoi",
+       "Qui"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Dessine ta maison avec 4 pièces. Fais la visite à ton camarade : « Voici la cuisine. Voici ma chambre. » Il demande : « Où est la… ? »"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Regarde A et B. Qu'est-ce qui change ?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 11 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Dessine ta maison et légende les pièces en français. Écris : Ma pièce préférée est…"
+  }
+ ],
+ "scope": {
+  "grado": "G2",
+  "temaN": 2,
+  "tema": "Ma maison et ma famille",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues simples sur la famille, l'école, les animaux et la nourriture."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Répondre à des questions à partir d'une image ; décrire une image en phrases simples."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire des textes de 2 à 3 phrases ; associer images, mots et légendes courtes."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Recopier des mots et compléter des phrases courtes."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~450 mots ; présent, être et avoir, il y a, aimer + infinitif."
+   }
+  ],
+  "vocabulario": [
+   "chambre",
+   "cuisine",
+   "salle de bains",
+   "salon"
+  ],
+  "gramatica": [
+   "Les prépositions de lieu : dans, sur, sous, à côté de"
+  ],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

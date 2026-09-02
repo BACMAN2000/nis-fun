@@ -1,0 +1,300 @@
+{
+ "id": "movers-fr-36",
+ "level": "movers",
+ "number": 36,
+ "title": "Je vais…",
+ "topic": "le futur proche",
+ "grammar": "le futur proche (les projets)",
+ "wordlist": [
+  "plan",
+  "demain",
+  "la semaine prochaine",
+  "anniversaire",
+  "préparer",
+  "inviter",
+  "surprise",
+  "liste",
+  "prêt",
+  "bientôt"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 3,
+  "skill": "conversation"
+ },
+ "characters": [
+  "erik",
+  "valentina"
+ ],
+ "scene": {
+  "speaker": "erik",
+  "pose": {
+   "erik": 4,
+   "valentina": 3
+  },
+  "bubble": "Top secret : l'anniversaire de Sofía est vendredi. On va préparer la MEILLEURE fête surprise de l'histoire du club !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe la personne et sa tâche pour la fête.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Personne",
+    "right_label": "Métier",
+    "pairs": [
+     {
+      "left": "Erik va",
+      "right": "construire une machine à confettis"
+     },
+     {
+      "left": "Valentina va",
+      "right": "écrire les cartons d'invitation"
+     },
+     {
+      "left": "Mateo va",
+      "right": "garder les biscuits (dangereux !)"
+     },
+     {
+      "left": "Mamie va",
+      "right": "préparer le gâteau au chocolat"
+     },
+     {
+      "left": "Luna va",
+      "right": "éloigner Sofia jusqu'à cinq heures"
+     },
+     {
+      "left": "Tout le monde va",
+      "right": "crier SURPRISE à la porte"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis la bonne forme du futur proche.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "On ___ faire une fête vendredi.",
+      "options": [
+       "sont",
+       "est",
+       "suis"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Elle ___ adorer la surprise !",
+      "options": [
+       "est",
+       "sont",
+       "suis"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Je vais ___ la carte d'anniversaire.",
+      "options": [
+       "à",
+       "pour",
+       "à"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___ tu inviter toute la classe ?",
+      "options": [
+       "Sont",
+       "Est",
+       "Est-ce que"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Ils ne vont rien ___ à Sofia !",
+      "options": [
+       "dire",
+       "disant",
+       "a dit"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute le plan secret. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u36-c.mp3",
+   "data": {
+    "voice_note": "Voces: Erik (susurrando el plan) y Valentina (lista en mano).",
+    "script": "Erik : Réunion secrète ! La fête va être vendredi à cinq heures. … Valentina : Je vais écrire douze invitations ce soir. … Erik : Ma machine à confettis va tirer des confettis pendant une minute ! … Valentina : Mamie va préparer un gâteau au chocolat avec des fraises. … Erik : Et Mateo ? … Valentina : Il va gonfler trente ballons. Verts et dorés. … Erik : Mission de Luna : se promener avec Sofia au parc jusqu'à cinq heures. … Valentina : Ça va être la meilleure surprise du monde !",
+    "questions": [
+     {
+      "q": "La fête est vendredi à …",
+      "answer": "cinq"
+     },
+     {
+      "q": "Valentina va écrire … invitations.",
+      "answer": "douze"
+     },
+     {
+      "q": "La machine à confettis tire pendant une …",
+      "answer": "minute"
+     },
+     {
+      "q": "Le gâteau est au chocolat avec des …",
+      "answer": "fraises"
+     },
+     {
+      "q": "Mateo va gonfler … ballons.",
+      "answer": "trente"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis la meilleure réponse.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis la meilleure réponse.",
+    "items": [
+     {
+      "sentence": "« Qu'est-ce que tu vas faire demain ? »",
+      "options": [
+       "Je vais voir mes cousins.",
+       "Hier matin.",
+       "C'est à Luna."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Tu vas venir à la fête ? »",
+      "options": [
+       "Oui, bien sûr !",
+       "Il est deux heures et demie.",
+       "Sous le lit."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Qui va apporter la musique ? »",
+      "options": [
+       "C'est Erik.",
+       "Deux soles.",
+       "Dans la cuisine."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Une fête que personne n'attend est une …",
+      "options": [
+       "surprise",
+       "liste secrète",
+       "plan B"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Avant une fête tu ___ tout.",
+      "options": [
+       "préparer",
+       "oublier",
+       "fermer"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Prépare une fête surprise pour un ami imaginaire : 5 phrases au futur proche (qui, où, la nourriture, la musique, la surprise). Présente ton plan en 30 secondes !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Deux images, plein de différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris 5 projets pour le week-end prochain au futur proche : Je vais… Ma famille va…"
+  }
+ ],
+ "scope": {
+  "grado": "G4",
+  "temaN": 6,
+  "tema": "Mon avenir",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues plus longs ; repérer une information précise à l'oral."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire des lieux, des objets, des événements passés ; jouer une situation simple."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et remettre en ordre des histoires courtes ; trouver une information dans un panneau ou une affiche."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un message de 30 à 40 mots ; paragraphes de classe de 60 à 100 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~1350 mots ; passé composé, pronoms relatifs, pour + infinitif, devoir."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [
+   "Vouloir / aimerait : les ambitions"
+  ],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

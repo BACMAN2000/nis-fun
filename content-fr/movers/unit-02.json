@@ -1,0 +1,365 @@
+{
+ "id": "movers-fr-02",
+ "level": "movers",
+ "number": 2,
+ "title": "Quel temps fait-il ?",
+ "topic": "météo",
+ "grammar": "le futur proche + la météo",
+ "wordlist": [
+  "météo",
+  "ensoleillé",
+  "pluvieux",
+  "venteux",
+  "neigeux",
+  "nuageux",
+  "chaud",
+  "froid",
+  "arc-en-ciel"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 4,
+  "skill": "choix multiple"
+ },
+ "characters": [
+  "sofia",
+  "erik"
+ ],
+ "scene": {
+  "speaker": "sofia",
+  "pose": {
+   "sofia": 2,
+   "erik": 1
+  },
+  "bubble": "Regarde ma carte ! On va faire un pique-nique au bord du fjord samedi… s'il ne pleut pas !",
+  "intro": "La toute nouvelle invention d'Erik est une machine météo faite d'un parapluie, deux cuillères et une sonnette de vélo. Est-ce que ça marche ? Personne ne le sait ! Mais ce samedi le Club en a vraiment besoin, parce qu'un pique-nique est prévu au bord du fjord. Est-ce qu'il fera beau ou est-ce qu'il pleuvra ? Faut-il prendre le cerf-volant ou les jeux de société ? Dans cette unité tu vas apprendre à parler de tous les temps qu'il fait — et peut-être, comme Sofia, tu verras un arc-en-ciel avec ses deux bouts dans l'eau."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe le temps qu'il fait et ce que tu fais.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Météo",
+    "right_label": "Ce que tu fais",
+    "pairs": [
+     {
+      "left": "ensoleillé",
+      "right": "mettre un chapeau de soleil"
+     },
+     {
+      "left": "pluvieux",
+      "right": "prendre un parapluie"
+     },
+     {
+      "left": "neigeux",
+      "right": "faire un bonhomme de neige"
+     },
+     {
+      "left": "venteux",
+      "right": "faire voler un cerf-volant"
+     },
+     {
+      "left": "froid",
+      "right": "mettre des gants et une écharpe"
+     },
+     {
+      "left": "chaud",
+      "right": "aller nager"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "crossword",
+   "title": "Écris les mots de la météo.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "TEMPS",
+      "clue": "Tu demandes : « Quel ___ fait-il aujourd'hui ? »"
+     },
+     {
+      "word": "VENTEUX",
+      "clue": "Les arbres dansent et ton chapeau s'envole !"
+     },
+     {
+      "word": "PLUVIEUX",
+      "clue": "Il te faut un parapluie ce jour-là."
+     },
+     {
+      "word": "NEIGEUX",
+      "clue": "Tout est blanc et tu peux faire un bonhomme de neige."
+     },
+     {
+      "word": "FROID",
+      "clue": "Brrr ! Le contraire de chaud."
+     },
+     {
+      "word": "CHAUD",
+      "clue": "En été le soleil rend les journées très ___."
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute. Sofía téléphone à Erik pour le pique-nique. Écris un mot dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u02-c.mp3",
+   "data": {
+    "voice_note": "Voces: Sofía (viajera, entusiasta) y Erik (inventor, práctico).",
+    "script": "Sofia : Erik ! On va faire le pique-nique samedi ? … Erik : Je ne sais pas. Ma machine météo dit qu'il va pleuvoir le matin. … Sofia : Oh non ! Et l'après-midi ? … Erik : L'après-midi il va faire beau et il va y avoir du vent. … Sofia : Du vent ? Parfait ! On peut faire voler mon nouveau cerf-volant. Il est orange et vert. … Erik : Bonne idée ! Je vais apporter du chocolat chaud, parce qu'il va faire un peu froid. … Sofia : Et après la pluie, on verra peut-être un arc-en-ciel au-dessus du fjord ! … Erik : J'espère ! À samedi à midi.",
+    "questions": [
+     {
+      "q": "Le matin il va …",
+      "answer": "pluvieux"
+     },
+     {
+      "q": "L'après-midi il va faire beau et il va y avoir du …",
+      "answer": "venteux"
+     },
+     {
+      "q": "Le nouveau cerf-volant de Sofía est orange et …",
+      "answer": "vert"
+     },
+     {
+      "q": "Erik va apporter du … chaud.",
+      "answer": "chocolat"
+     },
+     {
+      "q": "Après la pluie ils veulent voir un …",
+      "answer": "arc-en-ciel"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Lis la carte postale de Sofía et choisis la bonne réponse.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Lis le texte. Choisis la bonne réponse à chaque question.",
+    "text": "Chère Mamie, samedi était une drôle de journée ! Le matin il a plu et plu, alors on a joué à des jeux de société chez Erik. Mais l'après-midi le soleil est sorti et il y avait beaucoup de vent — parfait pour mon nouveau cerf-volant ! On a fait notre pique-nique au bord du fjord. Erik a apporté du chocolat chaud parce qu'il faisait froid. Le meilleur : après la pluie on a vu un grand arc-en-ciel au-dessus de l'eau. Bisous, Sofía.",
+    "items": [
+     {
+      "sentence": "Qu'est-ce qu'ils ont fait le matin ?",
+      "options": [
+       "fait voler un cerf-volant",
+       "joué à des jeux de société",
+       "nagé"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Quel temps faisait-il l'après-midi ?",
+      "options": [
+       "du soleil et du vent",
+       "de la pluie et du froid",
+       "neigeux"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Où était le pique-nique ?",
+      "options": [
+       "chez Erik",
+       "au bord du fjord",
+       "à l'école"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Pourquoi Erik a-t-il apporté du chocolat chaud ?",
+      "options": [
+       "il faisait froid",
+       "c'était son anniversaire",
+       "Sofía l'avait demandé"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Qu'ont-ils vu après la pluie ?",
+      "options": [
+       "un bonhomme de neige",
+       "un bateau",
+       "un arc-en-ciel"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "L'élève A est le présentateur météo à la télé : dessine quatre symboles pour lundi à jeudi et présente-les : « Lundi il va pleuvoir… » L'élève B choisit quoi mettre chaque jour. Puis on échange."
+   }
+  },
+  {
+   "code": "F",
+   "type": "gap_text",
+   "title": "Lis la carte postale de Sofía. Écris les mots qui manquent.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "rainy",
+     "sunny",
+     "kite",
+     "chocolate",
+     "rainbow",
+     "picnic",
+     "snowy"
+    ],
+    "text": "Chère Mamie, samedi la météo était folle ! Le matin il a {1}, alors on a joué à des jeux de société chez Erik. Après le déjeuner le ciel a changé : il faisait {2} et il y avait du vent — parfait pour mon nouveau {3} orange ! On a fait notre {4} au bord du fjord et Erik a apporté du {5} chaud parce qu'il faisait un peu froid. Le meilleur : après la pluie on a vu un immense {6} au-dessus de l'eau. Bisous, Sofía.",
+    "answers": [
+     "rainy",
+     "sunny",
+     "kite",
+     "picnic",
+     "chocolate",
+     "rainbow"
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "spot_diff",
+   "title": "Deux journées de météo ! Trouve les différences.",
+   "outputs": [
+    "digital",
+    "book"
+   ],
+   "data": {
+    "diffs": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ]
+    ]
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Regarde par ta fenêtre tous les jours pendant 3 jours. Écris une phrase par jour : Aujourd'hui il y a des nuages et il fait froid."
+  }
+ ],
+ "scope": {
+  "grado": "G3",
+  "temaN": 3,
+  "tema": "Le temps et les saisons",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues courts avec plus de vocabulaire ; repérer l'information principale dans des annonces simples."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire ses habitudes, ses préférés, les métiers du quartier ; donner une opinion courte."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire de courts paragraphes ; répondre à des questions simples ; trouver une information précise."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un court paragraphe sur soi, sa famille ou sa journée (40 à 70 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~800 mots ; les temps de base ; devoir, pouvoir ; l'accord du verbe ; le superlatif."
+   }
+  ],
+  "vocabulario": [
+   "ensoleillé",
+   "nuageux",
+   "pluvieux",
+   "venteux",
+   "neigeux",
+   "brumeux",
+   "orageux"
+  ],
+  "gramatica": [
+   "Le temps qu'il fait : les expressions (il fait beau)"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "foggy",
+    "stormy"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "brumeux",
+  "orageux"
+ ],
+ "lang": "fr"
+}

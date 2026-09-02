@@ -1,0 +1,468 @@
+{
+ "id": "flyers-fr-27",
+ "level": "flyers",
+ "number": 27,
+ "title": "Qu'est-ce qui vient de se passer ?",
+ "topic": "vient de / déjà / pas encore",
+ "grammar": "le passé composé avec vient de / déjà / pas encore (bilan)",
+ "wordlist": [
+  "juste",
+  "déjà",
+  "encore",
+  "arriver",
+  "est arrivé",
+  "finir",
+  "a fini",
+  "casser",
+  "cassé",
+  "nouvelles"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 6,
+  "skill": "phrases à trous"
+ },
+ "characters": [
+  "kili",
+  "oliver"
+ ],
+ "scene": {
+  "speaker": "oliver",
+  "pose": {
+   "oliver": 5,
+   "kili": 5
+  },
+  "bubble": "Kili vient de rentrer dans la fenêtre avec le courrier du jour ! Ne t'inquiète pas — la fenêtre va bien. Kili aussi… plus ou moins."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe la phrase et ce qu'elle veut dire.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Phrase",
+    "right_label": "Sens",
+    "pairs": [
+     {
+      "left": "Le bus vient de partir.",
+      "right": "il est parti il y a un instant"
+     },
+     {
+      "left": "Je l'ai déjà fait.",
+      "right": "c'est fait — avant maintenant"
+     },
+     {
+      "left": "Je ne l'ai pas encore fait.",
+      "right": "ce n'est pas fait, mais je le ferai"
+     },
+     {
+      "left": "Est-ce que le film a déjà commencé ?",
+      "right": "demander s'il a commencé"
+     },
+     {
+      "left": "Elle vient d'arriver.",
+      "right": "elle est entrée il y a une seconde"
+     },
+     {
+      "left": "On a déjà mangé.",
+      "right": "on n'a pas faim maintenant"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis déjà, encore ou jamais.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "Chut ! Le bébé ___ de s'endormir.",
+      "options": [
+       "juste",
+       "encore",
+       "déjà"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu as ___ fini ton projet ?",
+      "options": [
+       "déjà",
+       "juste",
+       "encore"
+      ],
+      "answer": 2
+     },
+     {
+      "sentence": "J'ai ___ vu ce film deux fois — regardons-en un autre.",
+      "options": [
+       "encore",
+       "déjà",
+       "jamais"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Le courrier n'est ___ arrivé.",
+      "options": [
+       "juste",
+       "encore",
+       "déjà"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Regarde par la fenêtre — il ___ de commencer à neiger !",
+      "options": [
+       "juste",
+       "encore",
+       "jamais"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute les infos de dernière minute. Écris un mot dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u27-c.mp3",
+   "data": {
+    "voice_note": "Voces: Oliver (testigo) y Kili (protagonista del choque).",
+    "script": "Oliver : Flash info ! Kili vient de rentrer dans la fenêtre de la cuisine. … Oliver : Il va bien ! Il a déjà mangé trois biscuits pour se remettre. … Oliver : Le courrier est bien arrivé : deux lettres et un gros colis jaune. … Oliver : On n'a pas encore ouvert le colis — il est pour Ingrid. … Oliver : Attends… Ingrid vient d'arriver ! Elle l'ouvre… … Oliver : C'est un nouveau drapeau pour l'expédition ! Bleu, avec une étoile argentée. … Oliver : Kili a déjà oublié l'accident. Il fait des loopings autour du drapeau !",
+    "questions": [
+     {
+      "q": "Kili est rentré dans la … de la cuisine.",
+      "answer": "fenêtre"
+     },
+     {
+      "q": "Il a déjà mangé trois …",
+      "answer": "biscuits"
+     },
+     {
+      "q": "Le gros colis est …",
+      "answer": "jaune"
+     },
+     {
+      "q": "Dans le colis il y a un nouveau …",
+      "answer": "drapeau"
+     },
+     {
+      "q": "Le drapeau est bleu avec une … argentée.",
+      "answer": "étoile"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis la bonne forme.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis la bonne forme.",
+    "items": [
+     {
+      "sentence": "Le train vient d'___.",
+      "options": [
+       "arriver",
+       "est arrivé",
+       "en train d'arriver"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Oh non ! J'ai ___ mon crayon !",
+      "options": [
+       "a cassé",
+       "cassé",
+       "casser"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "___ ils déjà fini le jeu ?",
+      "options": [
+       "A",
+       "Avoir",
+       "Est-ce que"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Elle a déjà ___ ses devoirs.",
+      "options": [
+       "finir",
+       "finit",
+       "a fini"
+      ],
+      "answer": 2
+     },
+     {
+      "sentence": "Super ___ ! On a gagné le concours !",
+      "options": [
+       "nouvelles",
+       "nouveau",
+       "bruit"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Mime quelque chose qui vient de se passer (tu viens de te réveiller, tu viens de gagner une course…). Ton camarade dit la phrase : « Tu viens de… ! » Trois mimes chacun."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Regarde A et B. Qu'est-ce qui change ?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 11 différences et parles-en avec ton camarade.",
+   "data": {}
+  },
+  {
+   "type": "picture_story",
+   "title": "Regarde les trois images et écris l'histoire.",
+   "instructions": "Regarde les images. Écris l'histoire en 20-25 mots. Aide-toi des mots sous chaque image.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 1,
+     "nombre": "Mon identité"
+    },
+    "destreza": "Writing",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots.",
+    "clase": "Type examen : histoire en images de 20 à 25 mots (production écrite)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "entrance",
+      "people": [
+       {
+        "slug": "oliver",
+        "pose": 4
+       }
+      ],
+      "word": "",
+      "hint": "Oliver / à l'entrée de l'école",
+      "model": "Un matin Oliver est à l'entrée de l'école."
+     },
+     {
+      "n": 2,
+      "scene": "campus-hex",
+      "people": [
+       {
+        "slug": "oliver",
+        "pose": 3
+       },
+       {
+        "slug": "lia",
+        "pose": 3
+       }
+      ],
+      "word": "",
+      "hint": "Oliver / rencontrer / Lia",
+      "model": "Ensuite Oliver rencontre Lia dans la cour de l'école."
+     },
+     {
+      "n": 3,
+      "scene": "classroom",
+      "people": [
+       {
+        "slug": "oliver",
+        "pose": 10
+       },
+       {
+        "slug": "lia",
+        "pose": 1
+       }
+      ],
+      "word": "",
+      "hint": "dans la classe / content",
+      "model": "Dans la classe ils sont très contents ensemble."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Un matin Oliver est à l'entrée de l'école. Ensuite Oliver rencontre Lia dans la cour de l'école. Dans la classe ils sont très contents ensemble.",
+    "words": [],
+    "support": {
+     "grammar": "le passé composé avec vient de / déjà / pas encore (bilan)",
+     "words": [
+      "juste",
+      "déjà",
+      "encore",
+      "arriver",
+      "est arrivé",
+      "finir"
+     ]
+    }
+   },
+   "code": "H"
+  },
+  {
+   "type": "label_people",
+   "title": "Écoute et écris les prénoms.",
+   "instructions": "Regarde l'image. Écoute et écris le prénom sous chaque personne. Attention : il y a trois prénoms en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 1,
+     "nombre": "Mon identité"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et écrire le prénom de chaque personne de l'image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u27-g.mp3",
+   "data": {
+    "scene": "classroom",
+    "place": "la classe",
+    "people": [
+     {
+      "slug": "kili",
+      "name": "Kili",
+      "clue": "le grand oiseau noir avec un collier blanc",
+      "action": "porte une lettre",
+      "pose": 3
+     },
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "clue": "le garçon aux cheveux roux et au t-shirt jaune",
+      "action": "chante",
+      "pose": 7
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "clue": "le garçon aux cheveux bruns bouclés et au t-shirt vert",
+      "action": "court après le ballon",
+      "pose": 7
+     },
+     {
+      "slug": "samu",
+      "name": "Samu",
+      "clue": "le garçon aux cheveux blonds courts avec un sac à dos",
+      "action": "fait signe",
+      "pose": 7
+     },
+     {
+      "slug": "vega",
+      "name": "Mr Vega",
+      "clue": "l'homme à la chemise bleue",
+      "action": "montre le chemin du centre sportif",
+      "figura": "father"
+     }
+    ],
+    "names": [
+     "Bruno",
+     "Ingrid",
+     "Iris",
+     "Kili",
+     "Mr Vega",
+     "Oliver",
+     "Samu",
+     "Tino"
+    ],
+    "script": "Regarde l'image. Écoute et écris les prénoms. Il y a un exemple. … Diego : Qui est-ce dans la classe ? Le grand oiseau noir avec un collier blanc. … Maya : C'est Kili. Kili porte une lettre. … Diego : Et qui est le garçon aux cheveux roux et au t-shirt jaune ? … Maya : C'est Oliver. Regarde, Oliver chante. … Diego : Et qui est le garçon aux cheveux bruns bouclés et au t-shirt vert ? … Maya : C'est Bruno. Regarde, Bruno court après le ballon. … Diego : Et qui est le garçon aux cheveux blonds courts avec un sac à dos ? … Maya : C'est Samu. Regarde, Samu fait signe. … Diego : Et qui est l'homme à la chemise bleue ? … Maya : C'est M. Vega. Regarde, M. Vega montre le chemin du centre sportif.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Ce soir, écris 3 choses qui viennent de se passer chez toi et 2 que tu n'as pas encore faites : Ma mère vient de… Je n'ai pas encore…"
+  }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 1,
+  "tema": "Mon identité",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Raconter des histoires au passé, au présent et au futur ; exprimer ses préférences avec des raisons."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et comprendre des histoires courtes (80 à 250 mots) ; trouver l'idée principale et les détails."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~2500 mots ; passé composé, questions négatives, si + présent, futur proche."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

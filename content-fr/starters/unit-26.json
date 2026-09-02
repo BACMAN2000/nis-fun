@@ -1,0 +1,300 @@
+{
+ "id": "starters-fr-26",
+ "level": "starters",
+ "number": 26,
+ "title": "Dans la classe",
+ "topic": "les actions de l'école",
+ "grammar": "le présent (regarde et dis)",
+ "wordlist": [
+  "lire",
+  "écrire",
+  "dessiner",
+  "peindre",
+  "compter",
+  "couper",
+  "colle",
+  "demander",
+  "réponse",
+  "apprendre"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 1,
+  "skill": "les actions de la classe"
+ },
+ "characters": [
+  "freya",
+  "astrid"
+ ],
+ "scene": {
+  "speaker": "astrid",
+  "pose": {
+   "astrid": 3,
+   "freya": 1
+  },
+  "bubble": "Regarde autour de toi : Freya dessine, Nico compte, Tomás… mais où est Tomás ?"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe l'action et l'objet.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Action",
+    "right_label": "La chose",
+    "pairs": [
+     {
+      "left": "lire",
+      "right": "un livre"
+     },
+     {
+      "left": "écrire",
+      "right": "ton prénom"
+     },
+     {
+      "left": "dessiner",
+      "right": "un dessin"
+     },
+     {
+      "left": "peindre",
+      "right": "avec des couleurs et de l'eau"
+     },
+     {
+      "left": "compter",
+      "right": "de un à dix"
+     },
+     {
+      "left": "couper",
+      "right": "du papier avec des ciseaux"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Qu'est-ce qu'ils font ? Choisis la bonne forme.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "Freya ___ un bateau.",
+      "options": [
+       "est",
+       "sont",
+       "suis"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les enfants ___ jusqu'à vingt.",
+      "options": [
+       "sont",
+       "est",
+       "suis"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "J'___ mon prénom.",
+      "options": [
+       "suis",
+       "est",
+       "sont"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Nico ___ un dessin de dinosaure.",
+      "options": [
+       "peinture",
+       "peindre",
+       "peint"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Nous ___ le français !",
+      "options": [
+       "apprenons",
+       "apprendre",
+       "apprend"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute. Qu'est-ce que chacun fait ? Écris un mot dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u26-c.mp3",
+   "data": {
+    "voice_note": "Voces: Astrid (mirando la clase) y Freya (dibujando).",
+    "script": "Astrid : Temps de travail calme ! Freya dessine un grand bateau. … Freya : Avec trois voiles ! … Astrid : Nico compte ses crayons. Douze ! … Astrid : Tomás découpe du papier jaune pour le soleil. … Freya : Et toi, Astrid ? … Astrid : J'écris la date sur mon cahier. … Freya : Et Pip dort dans le coin lecture. … Astrid : Chut ! Temps de travail ET temps de sieste.",
+    "questions": [
+     {
+      "q": "Freya dessine un grand …",
+      "answer": "bateau"
+     },
+     {
+      "q": "Le bateau a trois …",
+      "answer": "voiles"
+     },
+     {
+      "q": "Nico compte ses …",
+      "answer": "crayons de couleur"
+     },
+     {
+      "q": "Tomás découpe du papier …",
+      "answer": "jaune"
+     },
+     {
+      "q": "Pip dort dans le coin …",
+      "answer": "coin"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Tu ___ un livre avec tes yeux.",
+      "options": [
+       "lire",
+       "manger",
+       "peindre"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu ___ le papier avec des ciseaux.",
+      "options": [
+       "couper",
+       "compter",
+       "chanter"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le maître demande, les enfants …",
+      "options": [
+       "réponse",
+       "dormir",
+       "courir"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un, deux, trois… je …",
+      "options": [
+       "compte",
+       "découpe",
+       "ferme"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "À l'école on ___ de nouvelles choses tous les jours.",
+      "options": [
+       "apprendre",
+       "perdre",
+       "voler"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Mime une action de la classe. Ton camarade dit : « Tu lis ! Tu découpes ! » Quatre mimes chacun."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Regarde A et B. Qu'est-ce qui change ?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris 4 phrases sur ta classe : Mon maître… Mes amis… (au présent)."
+  }
+ ],
+ "scope": {
+  "grado": "G1",
+  "temaN": 2,
+  "tema": "Ma classe",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Suivre les consignes de la classe ; reconnaître des mots connus dans une chanson ou une phrase courte."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Saluer ; dire son nom, son âge, les couleurs ; nommer des objets ; répondre par oui ou non."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Reconnaître les lettres de l'alphabet ; associer un mot à une image (famille, nourriture, animaux, corps)."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire son prénom ; recopier des mots ; légender une image (3 à 5 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~150 mots actifs ; le verbe être, un/une, c'est/ce sont, l'impératif."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [
+   "Les noms singuliers avec article"
+  ],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

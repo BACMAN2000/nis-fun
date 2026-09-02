@@ -1,0 +1,300 @@
+{
+ "id": "starters-fr-34",
+ "level": "starters",
+ "number": 34,
+ "title": "L'heure du petit-déjeuner",
+ "topic": "petit-déjeuner",
+ "grammar": "Je prends… au petit-déjeuner",
+ "wordlist": [
+  "petit-déjeuner",
+  "lait",
+  "pain",
+  "confiture",
+  "œuf",
+  "banane",
+  "jus",
+  "cuillère",
+  "tasse",
+  "matin"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 4,
+  "skill": "petit-déjeuner"
+ },
+ "characters": [
+  "freya",
+  "astrid"
+ ],
+ "scene": {
+  "speaker": "freya",
+  "pose": {
+   "freya": 1,
+   "astrid": 3
+  },
+  "bubble": "Bonjour ! Du lait, du pain avec de la confiture, une banane… le petit-déjeuner rend les explorateurs forts !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe l'aliment du petit-déjeuner et son compagnon.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "La chose",
+    "right_label": "Ami",
+    "pairs": [
+     {
+      "left": "pain",
+      "right": "avec du beurre et de la confiture"
+     },
+     {
+      "left": "lait",
+      "right": "dans une grande tasse"
+     },
+     {
+      "left": "un œuf",
+      "right": "avec un peu de sel"
+     },
+     {
+      "left": "céréales",
+      "right": "avec du lait froid"
+     },
+     {
+      "left": "jus",
+      "right": "fait avec des oranges"
+     },
+     {
+      "left": "une banane",
+      "right": "facile à emporter à l'école"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "Le petit-déjeuner est le …",
+      "options": [
+       "matin",
+       "nuit",
+       "après-midi"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Je bois le lait dans une …",
+      "options": [
+       "tasse",
+       "assiette",
+       "boîte"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Je mange les céréales avec une …",
+      "options": [
+       "cuillère",
+       "crayon",
+       "règle"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Je ___ des œufs et du pain au petit-déjeuner.",
+      "options": [
+       "avoir",
+       "a",
+       "suis"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le ___ d'orange est ma boisson préférée.",
+      "options": [
+       "jus",
+       "soupe",
+       "sable"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute au petit-déjeuner. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u34-c.mp3",
+   "data": {
+    "voice_note": "Voces: Freya y Astrid (desayunando).",
+    "script": "Freya : L'heure du petit-déjeuner ! Moi je prends du pain avec de la confiture de fraises. … Astrid : Moi je prends des céréales avec du lait. Et une banane. … Freya : Mon jus est un jus d'orange. Tout frais ! … Astrid : Papa fait deux œufs pour Tomás. Il a toujours faim ! … Freya : Et Pip ? … Astrid : Pip a trois petits poissons. Petit-déjeuner de macareux ! … Freya : Bon petit-déjeuner, explorateurs en forme !",
+    "questions": [
+     {
+      "q": "Freya prend du pain avec de la confiture de …",
+      "answer": "fraise"
+     },
+     {
+      "q": "Astrid prend des céréales avec du …",
+      "answer": "lait"
+     },
+     {
+      "q": "Papa fait deux … pour Tomás.",
+      "answer": "œufs"
+     },
+     {
+      "q": "Pip a trois petits …",
+      "answer": "poisson"
+     },
+     {
+      "q": "Bon petit-déjeuner, … en forme !",
+      "answer": "explorateurs"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Le premier repas de la journée est le …",
+      "options": [
+       "petit-déjeuner",
+       "dîner",
+       "déjeuner"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "La confiture est …",
+      "options": [
+       "sucré",
+       "salé",
+       "froide toujours"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les vaches nous donnent du …",
+      "options": [
+       "lait",
+       "jus",
+       "confiture"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les poules nous donnent des …",
+      "options": [
+       "œufs",
+       "pain",
+       "bananes"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Qu'est-ce que tu ___ au petit-déjeuner ? »",
+      "options": [
+       "avoir",
+       "a",
+       "fais être"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Interview du petit-déjeuner : « Qu'est-ce que tu prends au petit-déjeuner ? » Demande la nourriture et la boisson. Trouve une chose que vous prenez tous les deux !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "A et B ne sont pas pareils. Trouve pourquoi !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 11 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Dessine ta table du petit-déjeuner et écris : Au petit-déjeuner je prends… (3 phrases)."
+  }
+ ],
+ "scope": {
+  "grado": "G2",
+  "temaN": 5,
+  "tema": "Manger et rester en forme",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues simples sur la famille, l'école, les animaux et la nourriture."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Répondre à des questions à partir d'une image ; décrire une image en phrases simples."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire des textes de 2 à 3 phrases ; associer images, mots et légendes courtes."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Recopier des mots et compléter des phrases courtes."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~450 mots ; présent, être et avoir, il y a, aimer + infinitif."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [
+   "Du / de la / des (introduction)"
+  ],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

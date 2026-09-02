@@ -1,0 +1,296 @@
+{
+ "id": "movers-fr-07",
+ "level": "movers",
+ "number": 7,
+ "title": "Au marché",
+ "topic": "les fruits et les légumes",
+ "grammar": "Combien de",
+ "wordlist": [
+  "raisins",
+  "poire",
+  "citron",
+  "noix de coco",
+  "oignon",
+  "carotte",
+  "pomme de terre",
+  "haricots",
+  "kiwi",
+  "panier"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 1,
+  "skill": "définitions"
+ },
+ "characters": [
+  "sofia",
+  "valentina"
+ ],
+ "scene": {
+  "speaker": "sofia",
+  "pose": {
+   "sofia": 8,
+   "valentina": 1
+  },
+  "bubble": "Jour de marché ! Il nous faut des fruits pour les milk-shakes du club — et Luna porte le panier !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Lis les phrases et écris les fruits et les légumes.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "RAISINS",
+      "clue": "De petits fruits verts ou violets qui poussent ensemble."
+     },
+     {
+      "word": "CITRON",
+      "clue": "Un fruit jaune. Il est très acide !"
+     },
+     {
+      "word": "NOIXDECOCO",
+      "clue": "Un gros fruit marron avec du blanc et du lait dedans."
+     },
+     {
+      "word": "CAROTTE",
+      "clue": "Un long légume orange. Les lapins l'adorent."
+     },
+     {
+      "word": "POMMEDETERRE",
+      "clue": "Le Pérou a des milliers de variétés de ce légume !"
+     },
+     {
+      "word": "OIGNON",
+      "clue": "Un légume rond qui te fait pleurer quand tu le coupes."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Associe le fruit et sa couleur.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Fruit / légume",
+    "right_label": "La couleur",
+    "pairs": [
+     {
+      "left": "un citron",
+      "right": "jaune"
+     },
+     {
+      "left": "un kiwi",
+      "right": "vert dedans"
+     },
+     {
+      "left": "une carotte",
+      "right": "orange"
+     },
+     {
+      "left": "une noix de coco",
+      "right": "marron dehors, blanc dedans"
+     },
+     {
+      "left": "raisins",
+      "right": "verts ou violets"
+     },
+     {
+      "left": "haricots",
+      "right": "verts dans leurs longues cosses"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute au marché. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u07-c.mp3",
+   "data": {
+    "voice_note": "Voces: Sofía (comprando) y Valentina (con la lista).",
+    "script": "Valentina : La liste dit : des fruits pour les milk-shakes ! … Sofia : Bonjour ! Combien coûtent les raisins ? … Sofia : Deux soles ? On en prend un kilo, s'il vous plaît. … Valentina : Il nous faut aussi trois poires et deux kiwis. … Sofia : Et une noix de coco — Erik veut l'ouvrir avec sa nouvelle invention. … Valentina : Ça m'inquiète un peu. … Sofia : Le panier est lourd maintenant. Luna, à toi ! … Valentina : Regarde-la — la chienne la plus fière du marché !",
+    "questions": [
+     {
+      "q": "Les raisins coûtent deux …",
+      "answer": "semelles"
+     },
+     {
+      "q": "Ils prennent un … de raisins.",
+      "answer": "kilo"
+     },
+     {
+      "q": "Il leur faut trois … et deux kiwis.",
+      "answer": "poires"
+     },
+     {
+      "q": "Erik veut ouvrir la … avec son invention.",
+      "answer": "noix de coco"
+     },
+     {
+      "q": "Le … est lourd maintenant.",
+      "answer": "panier"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "« ___ coûtent les citrons ? » — « Un sol chacun. »",
+      "options": [
+       "beaucoup",
+       "beaucoup de",
+       "vieux"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« ___ de poires tu veux ? » — « Trois, s'il te plaît. »",
+      "options": [
+       "beaucoup",
+       "beaucoup de",
+       "long"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Tu portes les courses dans un …",
+      "options": [
+       "panier",
+       "botte",
+       "bol"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le fruit avec du lait dedans est la …",
+      "options": [
+       "noix de coco",
+       "citron",
+       "raisin"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Couper un ___ fait pleurer les gens.",
+      "options": [
+       "oignon",
+       "pomme",
+       "orange"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Jeu de rôle au marché : l'élève A vend, l'élève B achète 4 choses avec Combien coûte… ? / Combien de… ? Puis on échange. Dis s'il te plaît et merci !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Deux images, plein de différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris la vraie liste de courses de ta famille en français (8 choses) et marque lesquelles sont des fruits et lesquelles des légumes."
+  }
+ ],
+ "scope": {
+  "grado": "G3",
+  "temaN": 6,
+  "tema": "Mon quartier",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues courts avec plus de vocabulaire ; repérer l'information principale dans des annonces simples."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire ses habitudes, ses préférés, les métiers du quartier ; donner une opinion courte."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire de courts paragraphes ; répondre à des questions simples ; trouver une information précise."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un court paragraphe sur soi, sa famille ou sa journée (40 à 70 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~800 mots ; les temps de base ; devoir, pouvoir ; l'accord du verbe ; le superlatif."
+   }
+  ],
+  "vocabulario": [
+   "caserne de pompiers",
+   "bureau de poste",
+   "boulangerie",
+   "centre social",
+   "cabinet vétérinaire"
+  ],
+  "gramatica": [
+   "Les articles : un/une/le/la (emploi élargi)"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "fire station",
+    "post office",
+    "bakery",
+    "community centre",
+    "vet's clinic"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "caserne de pompiers",
+  "bureau de poste",
+  "boulangerie",
+  "centre social",
+  "cabinet vétérinaire"
+ ],
+ "lang": "fr"
+}

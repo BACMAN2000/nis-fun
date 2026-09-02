@@ -1,0 +1,314 @@
+{
+ "id": "starters-fr-45",
+ "level": "starters",
+ "number": 45,
+ "title": "La fête du phare",
+ "topic": "bilan et fête",
+ "grammar": "bilan de tout le cours",
+ "wordlist": [
+  "fête",
+  "phare",
+  "diplôme",
+  "étoile",
+  "chanter",
+  "danser",
+  "fier",
+  "amis",
+  "merci",
+  "bravo"
+ ],
+ "exam_focus": {
+  "paper": "Bilan",
+  "part": 0,
+  "skill": "tout le cours"
+ },
+ "characters": [
+  "freya",
+  "nico",
+  "astrid",
+  "tomas"
+ ],
+ "scene": {
+  "speaker": "freya",
+  "pose": {
+   "freya": 10,
+   "nico": 10,
+   "astrid": 10,
+   "tomas": 10
+  },
+  "bubble": "Quarante-cinq unités ! Les Explorateurs l'ont fait ! Fête au phare — et Pip allume la grande lumière pour nous !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe chaque explorateur et son moment étoile.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Explorateur",
+    "right_label": "Moment étoile",
+    "pairs": [
+     {
+      "left": "Freya",
+      "right": "a posé mille questions"
+     },
+     {
+      "left": "Nico",
+      "right": "a fait rire tout le monde"
+     },
+     {
+      "left": "Astrid",
+      "right": "a tout gardé bien rangé"
+     },
+     {
+      "left": "Tomás",
+      "right": "n'a jamais arrêté de bouger"
+     },
+     {
+      "left": "Pip",
+      "right": "était dans chaque unité !"
+     },
+     {
+      "left": "Tu",
+      "right": "a fini tout le livre !"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Le bilan final · Choisis la bonne réponse.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Une question de tout le cours !",
+    "items": [
+     {
+      "sentence": "Une grenouille est …",
+      "options": [
+       "vert",
+       "violet",
+       "gris"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Dix plus dix font …",
+      "options": [
+       "vingt",
+       "douze",
+       "deux"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu dors dans le …",
+      "options": [
+       "chambre",
+       "cuisine",
+       "jardin"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un oiseau ___ voler.",
+      "options": [
+       "pouvoir",
+       "ne peut pas",
+       "n'est pas"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Voici Freya. ___ est contente.",
+      "options": [
+       "Elle",
+       "Il",
+       "Ça"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute la fête du phare. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u45-c.mp3",
+   "data": {
+    "voice_note": "Voces: los cuatro exploradores — fiesta final.",
+    "script": "Freya : Bienvenue à la fête du phare ! Quarante-cinq unités — on l'a fait ! … Nico : Il y a un grand gâteau avec un phare dessus ! … Astrid : Chaque explorateur reçoit un diplôme avec une étoile d'or. … Tomás : Et on danse la chanson qui bouge encore une fois ! … Freya : Regardez en haut ! Pip allume la grande lumière ! … Nico : Toute la mer est éclairée ! … Tout le monde : Un, deux, trois… BRAVO LES EXPLORATEURS !",
+    "questions": [
+     {
+      "q": "Ils ont fini quarante-cinq …",
+      "answer": "unités"
+     },
+     {
+      "q": "Le gâteau a un … dessus.",
+      "answer": "phare"
+     },
+     {
+      "q": "Le diplôme a une … d'or.",
+      "answer": "étoile"
+     },
+     {
+      "q": "Ils dansent la chanson qui …",
+      "answer": "bouge"
+     },
+     {
+      "q": "… allume la grande lumière.",
+      "answer": "Pip"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Le papier avec l'étoile d'or est un …",
+      "options": [
+       "diplôme",
+       "billet",
+       "lettre"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Ta famille est ___ de toi !",
+      "options": [
+       "fier",
+       "fatigué",
+       "froid"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "À une fête on chante et on …",
+      "options": [
+       "danser",
+       "dormir",
+       "étudie"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« ___ les maîtres ! »",
+      "options": [
+       "Remercie",
+       "S'il te plaît",
+       "Désolé"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Prochain livre : Fun for Nordic 2 — … !",
+      "options": [
+       "Les Aventuriers",
+       "Les Navigateurs",
+       "Les Explorateurs"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · le discours étoile",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Dis 3 phrases à la classe : ton unité préférée, un mot que tu adores en français, et un merci à quelqu'un. On applaudit tout le monde !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Trouve les différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 11 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Dessine-toi en explorateur du français avec ton diplôme. Écris : Je sais… (3 choses apprises cette année !)"
+  }
+ ],
+ "scope": {
+  "grado": "G2",
+  "temaN": 6,
+  "tema": "Loisirs et jeux",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues simples sur la famille, l'école, les animaux et la nourriture."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Répondre à des questions à partir d'une image ; décrire une image en phrases simples."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire des textes de 2 à 3 phrases ; associer images, mots et légendes courtes."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Recopier des mots et compléter des phrases courtes."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~450 mots ; présent, être et avoir, il y a, aimer + infinitif."
+   }
+  ],
+  "vocabulario": [
+   "tous les jours",
+   "le samedi"
+  ],
+  "gramatica": [
+   "La question : Tu aimes… ? Oui / Non"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "every day",
+    "on saturdays"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "tous les jours",
+  "le samedi"
+ ],
+ "lang": "fr"
+}

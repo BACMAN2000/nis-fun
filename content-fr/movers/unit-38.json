@@ -1,0 +1,298 @@
+{
+ "id": "movers-fr-38",
+ "level": "movers",
+ "number": 38,
+ "title": "Silence, s'il vous plaît !",
+ "topic": "l'impératif",
+ "grammar": "l'impératif : Fais… / Ne fais pas…",
+ "wordlist": [
+  "écouter",
+  "regarder",
+  "arrêter",
+  "attendre",
+  "ouvrir",
+  "fermer",
+  "assieds-toi",
+  "lève-toi",
+  "fais attention",
+  "ne... pas"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 4,
+  "skill": "choix multiple"
+ },
+ "characters": [
+  "sofia",
+  "erik"
+ ],
+ "scene": {
+  "speaker": "sofia",
+  "pose": {
+   "sofia": 2,
+   "erik": 5
+  },
+  "bubble": "Jacques a dit, version club ! Lève-toi, tourne, ne ris pas… Erik rit toujours."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe la consigne et l'endroit où tu l'entends.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Consigne",
+    "right_label": "Lieu",
+    "pairs": [
+     {
+      "left": "Silence, s'il vous plaît !",
+      "right": "à la bibliothèque"
+     },
+     {
+      "left": "Regarde des deux côtés !",
+      "right": "avant de traverser la rue"
+     },
+     {
+      "left": "Assieds-toi, s'il te plaît.",
+      "right": "quand le cours commence"
+     },
+     {
+      "left": "Ne cours pas !",
+      "right": "à côté de la piscine"
+     },
+     {
+      "left": "Fais attention !",
+      "right": "quand tu portes du verre"
+     },
+     {
+      "left": "Attends le feu vert.",
+      "right": "au feu tricolore"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis le bon impératif.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "___ la fenêtre, s'il te plaît. Il fait froid !",
+      "options": [
+       "Ferme",
+       "Fermant",
+       "Fermé"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___ pas la peinture fraîche !",
+      "options": [
+       "Ne",
+       "Ne",
+       "Non"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___-vous, tout le monde ! La maîtresse arrive.",
+      "options": [
+       "Lève-toi",
+       "Debout être",
+       "Se lève"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___ bien — c'est la partie importante.",
+      "options": [
+       "Écoute",
+       "Écouter",
+       "Écouté"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___ pas en retard au spectacle !",
+      "options": [
+       "Ne",
+       "Ne",
+       "Pas"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute la partie de Jacques a dit. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u38-c.mp3",
+   "data": {
+    "voice_note": "Voces: Sofía (Simon) y Erik (jugador que ríe).",
+    "script": "Sofia : Jacques a dit : levez-vous ! … Sofia : Jacques a dit : touchez votre nez avec la main gauche. … Sofia : Maintenant… sautez trois fois ! Ha ! Je n'ai pas dit Jacques a dit. Erik est éliminé ! … Erik : Nooon ! Bon, d'accord. Je suis l'arbitre maintenant. … Sofia : Jacques a dit : tournez lentement. … Sofia : Jacques a dit : ne riez pas… ne riez pas… … Erik : Mateo rit ! Éliminé ! … Sofia : Et la gagnante est… Valentina ! Championne du visage sérieux, cinq minutes sans rire !",
+    "questions": [
+     {
+      "q": "Jacques a dit : touchez votre nez avec la main …",
+      "answer": "gauche"
+     },
+     {
+      "q": "Le piège était : sautez … fois.",
+      "answer": "trois"
+     },
+     {
+      "q": "… est devenu l'arbitre.",
+      "answer": "Erik"
+     },
+     {
+      "q": "… a ri et a été éliminé.",
+      "answer": "Mateo"
+     },
+     {
+      "q": "Valentina a gagné : … minutes sans rire.",
+      "answer": "cinq"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "La maîtresse dit : « ___ vos livres à la page dix. »",
+      "options": [
+       "Ouvre",
+       "Ouvre-t-il",
+       "Ouvrant"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« ___ ! » veut dire : ne bouge pas, ne continue pas.",
+      "options": [
+       "Arrête",
+       "Commence",
+       "Chante"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Avant de répondre, ___ la question.",
+      "options": [
+       "écouter",
+       "cuisinier",
+       "sauter"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Sois ___ avec les ciseaux ! »",
+      "options": [
+       "prudent",
+       "bouclé",
+       "nuageux"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« ___ ici, s'il te plaît. Le médecin va t'appeler. »",
+      "options": [
+       "Attends",
+       "Attend",
+       "Attendant"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Jouez à Jacques a dit à deux : 10 consignes chacun, dont 3 au moins avec Ne… pas. Celui qui écoute ne fait que les « Jacques a dit » !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "A et B ne sont pas pareils. Trouve pourquoi !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris 6 règles pour s'occuper d'un animal, à l'impératif : Nourris-le tous les jours. Ne…"
+  }
+ ],
+ "scope": {
+  "grado": "G3",
+  "temaN": 4,
+  "tema": "La nature et les animaux",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues courts avec plus de vocabulaire ; repérer l'information principale dans des annonces simples."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire ses habitudes, ses préférés, les métiers du quartier ; donner une opinion courte."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire de courts paragraphes ; répondre à des questions simples ; trouver une information précise."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un court paragraphe sur soi, sa famille ou sa journée (40 à 70 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~800 mots ; les temps de base ; devoir, pouvoir ; l'accord du verbe ; le superlatif."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

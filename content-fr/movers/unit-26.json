@@ -1,0 +1,307 @@
+{
+ "id": "movers-fr-26",
+ "level": "movers",
+ "number": 26,
+ "title": "Chez le médecin",
+ "topic": "santé",
+ "grammar": "devrait / ne devrait pas",
+ "wordlist": [
+  "médecin",
+  "infirmier",
+  "dentiste",
+  "dent",
+  "médicament",
+  "ouvre la bouche",
+  "fort",
+  "en bonne santé",
+  "fruit",
+  "dormir"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 3,
+  "skill": "conversation"
+ },
+ "characters": [
+  "erik",
+  "mateo"
+ ],
+ "scene": {
+  "speaker": "erik",
+  "pose": {
+   "erik": 4,
+   "mateo": 5
+  },
+  "bubble": "Jour du dentiste pour Mateo ! Pas de panique — la docteure Ana compte tes dents et te donne un autocollant. La science le dit : ça ne fait pas mal !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe la personne de la santé et son travail.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Personne",
+    "right_label": "Travail",
+    "pairs": [
+     {
+      "left": "le médecin",
+      "right": "t'examine quand tu es malade"
+     },
+     {
+      "left": "le dentiste",
+      "right": "s'occupe de tes dents"
+     },
+     {
+      "left": "l'infirmier",
+      "right": "aide et donne les médicaments"
+     },
+     {
+      "left": "les fruits et les légumes",
+      "right": "te gardent fort et en bonne santé"
+     },
+     {
+      "left": "dix heures de sommeil",
+      "right": "te donnent de l'énergie pour l'école"
+     },
+     {
+      "left": "se laver les mains",
+      "right": "éloigne les microbes"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis devrait ou ne devrait pas.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "Tu ___ te brosser les dents deux fois par jour.",
+      "options": [
+       "devrait",
+       "ne devrait pas",
+       "ne sont pas"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu ___ manger des bonbons avant de dormir.",
+      "options": [
+       "devrait",
+       "ne devrait pas",
+       "ne... pas"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Les enfants ___ dormir dix heures.",
+      "options": [
+       "devrait",
+       "ne devrait pas",
+       "ne peut pas"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu ___ regarder la télé tout l'après-midi.",
+      "options": [
+       "devrait",
+       "ne devrait pas",
+       "dois à"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Tu ___ boire beaucoup d'eau tous les jours.",
+      "options": [
+       "devrait",
+       "ne devrait pas",
+       "ne va pas"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute chez le dentiste. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u26-c.mp3",
+   "data": {
+    "voice_note": "Voces: Mateo (valiente) y la dentista Ana (voz adulta amable).",
+    "script": "Mateo : Bonjour, docteure Ana. Je suis un peu nerveux. … Mateo : Elle dit : ouvre la bouche, s'il te plaît. Une, deux, trois… elle compte mes dents ! … Mateo : Vingt-quatre dents, toutes solides ! … Mateo : Elle dit que je devrais me brosser les dents deux minutes, matin et soir. … Mateo : Et que je ne devrais pas manger de bonbons tous les jours. Seulement le samedi ! … Mateo : Le meilleur moment : la boîte à autocollants. Je choisis le dinosaure. … Mateo : À dans six mois, docteure Ana !",
+    "questions": [
+     {
+      "q": "La docteure Ana compte … dents.",
+      "answer": "vingt-quatre"
+     },
+     {
+      "q": "Mateo devrait se brosser les dents deux …",
+      "answer": "minutes"
+     },
+     {
+      "q": "Il peut manger des bonbons seulement le …",
+      "answer": "samedi"
+     },
+     {
+      "q": "Il choisit l'autocollant …",
+      "answer": "dinosaure"
+     },
+     {
+      "q": "La prochaine visite est dans six …",
+      "answer": "mois"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Le ___ dit : ouvre la bouche, s'il te plaît.",
+      "options": [
+       "dentiste",
+       "conducteur",
+       "serveur"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Manger des fruits te garde en bonne …",
+      "options": [
+       "en bonne santé",
+       "affamé",
+       "lourd"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le médecin te donne des ___ quand tu es malade.",
+      "options": [
+       "médicament",
+       "autocollants",
+       "bonbons"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le lait et le fromage rendent tes ___ solides.",
+      "options": [
+       "dents",
+       "cheveux",
+       "chaussettes"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Une bonne nuit de ___ te donne de l'énergie.",
+      "options": [
+       "dormir",
+       "soupe",
+       "chanson"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Équipe affiche santé : écrivez 4 règles pour une vie saine (2 avec devrait, 2 avec ne devrait pas) et dessinez une icône pour chacune. Présentez-la en 30 secondes."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Regarde A et B. Qu'est-ce qui change ?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris ta journée saine : 5 phrases avec devrait / ne devrait pas sur la nourriture, le sommeil et le sport."
+  }
+ ],
+ "scope": {
+  "grado": "G3",
+  "temaN": 5,
+  "tema": "Émotions et santé",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues courts avec plus de vocabulaire ; repérer l'information principale dans des annonces simples."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire ses habitudes, ses préférés, les métiers du quartier ; donner une opinion courte."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire de courts paragraphes ; répondre à des questions simples ; trouver une information précise."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un court paragraphe sur soi, sa famille ou sa journée (40 à 70 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~800 mots ; les temps de base ; devoir, pouvoir ; l'accord du verbe ; le superlatif."
+   }
+  ],
+  "vocabulario": [
+   "malade"
+  ],
+  "gramatica": [
+   "La question simple : Tu étais malade hier ?"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "sick"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "malade"
+ ],
+ "lang": "fr"
+}

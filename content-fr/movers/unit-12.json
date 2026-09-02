@@ -1,0 +1,289 @@
+{
+ "id": "movers-fr-12",
+ "level": "movers",
+ "number": 12,
+ "title": "Mon sac d'école",
+ "topic": "les affaires d'école",
+ "grammar": "avoir",
+ "wordlist": [
+  "trousse",
+  "règle",
+  "gomme",
+  "ciseaux",
+  "colle",
+  "cahier",
+  "crayons de couleur",
+  "taille-crayon",
+  "sac à dos",
+  "agenda"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 1,
+  "skill": "définitions"
+ },
+ "characters": [
+  "erik",
+  "valentina"
+ ],
+ "scene": {
+  "speaker": "erik",
+  "pose": {
+   "erik": 8,
+   "valentina": 4
+  },
+  "bubble": "Mon sac à dos a 23 choses dedans. Valentina dit que 20 sont des petites machines. Elle a raison."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Lis les phrases et écris les affaires d'école.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "REGLE",
+      "clue": "Tu traces des lignes droites avec."
+     },
+     {
+      "word": "GOMME",
+      "clue": "Elle efface tes erreurs de crayon."
+     },
+     {
+      "word": "CISEAUX",
+      "clue": "Tu coupes le papier avec. Attention !"
+     },
+     {
+      "word": "COLLE",
+      "clue": "Elle colle deux papiers ensemble."
+     },
+     {
+      "word": "CAHIER",
+      "clue": "Tu y écris tes exercices."
+     },
+     {
+      "word": "CRAYONSDECOULEUR",
+      "clue": "Des bâtons de couleur pour dessiner."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Associe l'objet et ce qu'il fait.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "La chose",
+    "right_label": "Ce qu'il fait",
+    "pairs": [
+     {
+      "left": "le taille-crayon",
+      "right": "rend ton crayon pointu à nouveau"
+     },
+     {
+      "left": "la trousse",
+      "right": "garde tes stylos ensemble"
+     },
+     {
+      "left": "le sac à dos",
+      "right": "porte tout sur ton dos"
+     },
+     {
+      "left": "l'agenda",
+      "right": "retient les dates de tes devoirs"
+     },
+     {
+      "left": "le bâton de colle",
+      "right": "colle des images dans ton exposé"
+     },
+     {
+      "left": "la règle",
+      "right": "mesure la longueur des choses"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute. Qu'est-ce que chacun a ? Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u12-c.mp3",
+   "data": {
+    "voice_note": "Voces: Erik (inventario) y Valentina (auditora).",
+    "script": "Valentina : Inspection des sacs ! Erik, qu'est-ce que tu as ? … Erik : J'ai trois crayons, une règle verte et mon cahier robot. … Valentina : Sofia a de nouveaux ciseaux avec des poignées orange. … Erik : Mateo a une trousse en forme de poisson ! … Valentina : Et il a encore perdu sa gomme — la troisième ce mois-ci. … Erik : Moi j'ai de la colle, des crayons de couleur et un taille-crayon qui garde les copeaux. … Valentina : Une invention ? … Erik : Bien sûr ! Rien ne tombe par terre. Approuvé par la maîtresse !",
+    "questions": [
+     {
+      "q": "Erik a trois crayons et une règle …",
+      "answer": "vert"
+     },
+     {
+      "q": "Les nouveaux ciseaux de Sofía ont des poignées …",
+      "answer": "orange"
+     },
+     {
+      "q": "La trousse de Mateo est en forme de …",
+      "answer": "poisson"
+     },
+     {
+      "q": "Mateo a encore perdu sa …",
+      "answer": "gomme"
+     },
+     {
+      "q": "Le taille-crayon d'Erik garde les …",
+      "answer": "copeaux"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "J'___ une trousse bleue.",
+      "options": [
+       "avoir",
+       "a",
+       "suis"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Elle ___ de nouveaux crayons de couleur.",
+      "options": [
+       "avoir",
+       "a",
+       "est"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Tu coupes le papier avec des …",
+      "options": [
+       "ciseaux",
+       "colle",
+       "une règle"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___ tu un stylo rouge ?",
+      "options": [
+       "Avoir",
+       "A",
+       "Est-ce que"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Mon crayon est cassé — il me faut le …",
+      "options": [
+       "taille-crayon",
+       "gomme",
+       "agenda"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Jeu de mémoire : regarde dans la trousse de ton camarade 10 secondes. Ferme-la. Dis tout ce dont tu te souviens : « Tu as deux crayons, une gomme… » Compte les bonnes réponses !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "A et B ne sont pas pareils. Trouve pourquoi !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris 5 phrases sur ce que toi et ta famille avez : J'ai… Ma mère a…"
+  }
+ ],
+ "scope": {
+  "grado": "G3",
+  "temaN": 1,
+  "tema": "La vie à l'école",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues courts avec plus de vocabulaire ; repérer l'information principale dans des annonces simples."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire ses habitudes, ses préférés, les métiers du quartier ; donner une opinion courte."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire de courts paragraphes ; répondre à des questions simples ; trouver une information précise."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un court paragraphe sur soi, sa famille ou sa journée (40 à 70 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~800 mots ; les temps de base ; devoir, pouvoir ; l'accord du verbe ; le superlatif."
+   }
+  ],
+  "vocabulario": [
+   "règle",
+   "calculatrice",
+   "boussole",
+   "ciseaux"
+  ],
+  "gramatica": [
+   "Le présent (toutes les personnes) : je vais, elle va, nous jouons"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "calculator",
+    "compass"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "calculatrice",
+  "boussole"
+ ],
+ "lang": "fr"
+}

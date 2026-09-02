@@ -1,0 +1,322 @@
+{
+ "id": "movers-fr-11",
+ "level": "movers",
+ "number": 11,
+ "title": "Au bord du lac",
+ "topic": "nature",
+ "grammar": "Allons + activité",
+ "wordlist": [
+  "lac",
+  "forêt",
+  "montagne",
+  "rocher",
+  "poisson",
+  "bateau",
+  "pique-nique",
+  "nager",
+  "sauter",
+  "froid"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 4,
+  "skill": "choix multiple"
+ },
+ "characters": [
+  "valentina",
+  "erik"
+ ],
+ "scene": {
+  "speaker": "valentina",
+  "pose": {
+   "valentina": 1,
+   "erik": 5
+  },
+  "bubble": "Le lac est comme un miroir aujourd'hui ! Prenons la petite barque — et Erik, s'il te plaît, pas d'inventions qui coulent."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe l'endroit et ce qu'on y trouve.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Lieu",
+    "right_label": "Tu trouves…",
+    "pairs": [
+     {
+      "left": "le lac",
+      "right": "de l'eau calme et de petites barques"
+     },
+     {
+      "left": "la forêt",
+      "right": "de grands arbres et de l'ombre"
+     },
+     {
+      "left": "la montagne",
+      "right": "de la neige au sommet"
+     },
+     {
+      "left": "le gros rocher",
+      "right": "le meilleur endroit pour sauter"
+     },
+     {
+      "left": "la couverture de pique-nique",
+      "right": "des sandwichs et du jus"
+     },
+     {
+      "left": "l'eau près de la plage",
+      "right": "de petits poissons argentés"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis la bonne proposition avec Allons.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis les bons mots.",
+    "items": [
+     {
+      "sentence": "Il fait chaud ! ___ nager dans le lac.",
+      "options": [
+       "Allons-y",
+       "Alons-y",
+       "Laisse"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Allons ___ la barque jusqu'à l'île.",
+      "options": [
+       "prendre",
+       "en train de prendre",
+       "prend"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "J'ai faim. Allons ___ le pique-nique maintenant !",
+      "options": [
+       "avoir",
+       "en train d'avoir",
+       "a"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Sautons du rocher ! » — « ___ »",
+      "options": [
+       "Bonne idée !",
+       "Hier.",
+       "C'est à elle."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Rentrons ___ avant qu'il fasse nuit.",
+      "options": [
+       "aller",
+       "va",
+       "en train d'aller"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute la journée au lac. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u11-c.mp3",
+   "data": {
+    "voice_note": "Voces: Valentina (narrando) y Erik (con frío).",
+    "script": "Valentina : On a marché dans la forêt pendant une heure pour arriver au lac. … Erik : L'eau est magnifique… et FROIDE ! Très froide ! … Valentina : Mateo a sauté du gros rocher en premier. Quelle éclaboussure ! … Erik : Moi je teste ma nouvelle barque. Elle est faite avec six bouteilles en plastique. … Valentina : Et elle flotte ! La science, ça marche, Erik. … Erik : Vers l'île ! Il y a des centaines de petits poissons sous nous. … Valentina : Après la baignade on a fait le pique-nique : des sandwichs au fromage et du jus de raisin. … Erik : Le meilleur laboratoire du monde : le plein air !",
+    "questions": [
+     {
+      "q": "Ils ont marché dans la forêt pendant une …",
+      "answer": "heure"
+     },
+     {
+      "q": "… a sauté du gros rocher en premier.",
+      "answer": "Mateo"
+     },
+     {
+      "q": "La barque d'Erik est faite avec six … en plastique.",
+      "answer": "bouteilles"
+     },
+     {
+      "q": "Sous la barque il y a des centaines de petits …",
+      "answer": "poisson"
+     },
+     {
+      "q": "Pour le pique-nique ils ont eu des sandwichs au fromage et du jus de …",
+      "answer": "jus"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Un ___ est de l'eau entourée de terre.",
+      "options": [
+       "lac",
+       "montagne",
+       "forêt"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un endroit plein d'arbres est une …",
+      "options": [
+       "forêt",
+       "rocher",
+       "bateau"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu voyages sur l'eau dans une …",
+      "options": [
+       "bateau",
+       "panier",
+       "lit"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le contraire d'eau chaude est de l'eau ___.",
+      "options": [
+       "froid",
+       "savoureux",
+       "lourd"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Manger dehors sur une couverture, c'est un …",
+      "options": [
+       "pique-nique",
+       "affiche",
+       "mare"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Prépare une journée au lac avec 4 propositions avec Allons… Ton camarade répond à chacune (Bonne idée ! / Hmm, allons plutôt…). Mettez-vous d'accord sur le programme final."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Deux images, plein de différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Décris un endroit naturel que tu as visité : où, ce qu'il y a, ce que tu as fait. 5 phrases."
+  }
+ ],
+ "scope": {
+  "grado": "G3",
+  "temaN": 4,
+  "tema": "La nature et les animaux",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues courts avec plus de vocabulaire ; repérer l'information principale dans des annonces simples."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire ses habitudes, ses préférés, les métiers du quartier ; donner une opinion courte."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire de courts paragraphes ; répondre à des questions simples ; trouver une information précise."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un court paragraphe sur soi, sa famille ou sa journée (40 à 70 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~800 mots ; les temps de base ; devoir, pouvoir ; l'accord du verbe ; le superlatif."
+   }
+  ],
+  "vocabulario": [
+   "jungle",
+   "océan",
+   "désert",
+   "forêt tropicale",
+   "arctique",
+   "savane"
+  ],
+  "gramatica": [
+   "Du / de la / des avec les noms pluriels"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "jungle",
+    "ocean",
+    "desert",
+    "rainforest",
+    "arctic",
+    "savanna"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "jungle",
+  "océan",
+  "désert",
+  "forêt tropicale",
+  "arctique",
+  "savane"
+ ],
+ "lang": "fr"
+}

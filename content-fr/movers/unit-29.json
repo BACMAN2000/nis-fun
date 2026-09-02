@@ -1,0 +1,300 @@
+{
+ "id": "movers-fr-29",
+ "level": "movers",
+ "number": 29,
+ "title": "Le chien perdu",
+ "topic": "une histoire au passé",
+ "grammar": "le passé composé : raconter une histoire dans l'ordre",
+ "wordlist": [
+  "perdu",
+  "a cherché",
+  "a appelé",
+  "inquiet",
+  "affiche",
+  "parc",
+  "banc",
+  "queue",
+  "content",
+  "maison"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 5,
+  "skill": "histoire"
+ },
+ "characters": [
+  "sofia",
+  "mateo"
+ ],
+ "scene": {
+  "speaker": "sofia",
+  "pose": {
+   "sofia": 5,
+   "mateo": 3
+  },
+  "bubble": "L'après-midi la plus effrayante de l'année : pendant deux heures, personne ne savait où était Luna…"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Remets l'histoire dans l'ordre : associe le moment et ce qui s'est passé.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Moment",
+    "right_label": "Ce qui s'est passé",
+    "pairs": [
+     {
+      "left": "À trois heures",
+      "right": "Luna a disparu du jardin"
+     },
+     {
+      "left": "D'abord",
+      "right": "on l'a cherchée dans le club"
+     },
+     {
+      "left": "Ensuite",
+      "right": "on a crié son nom dans chaque rue"
+     },
+     {
+      "left": "Après ça",
+      "right": "on a fait des affiches avec sa photo"
+     },
+     {
+      "left": "À cinq heures",
+      "right": "un garçon a téléphoné : elle était à la boulangerie !"
+     },
+     {
+      "left": "À la fin",
+      "right": "elle est rentrée avec un cadeau en pain"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis le bon mot pour l'histoire.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "Luna était ___ — personne ne la trouvait.",
+      "options": [
+       "perdu",
+       "a trouvé",
+       "fatigué"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "On l'___ partout.",
+      "options": [
+       "a cherchée",
+       "regarder",
+       "cherche"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tout le monde était très ___ pour elle.",
+      "options": [
+       "inquiet",
+       "affamé",
+       "drôle"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "On a mis des ___ avec sa photo sur les arbres.",
+      "options": [
+       "affiches",
+       "cartes postales",
+       "timbres"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "À la fin elle est rentrée ___ et contente.",
+      "options": [
+       "maison",
+       "maison",
+       "hôtel"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute toute l'histoire. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u29-c.mp3",
+   "data": {
+    "voice_note": "Voces: Sofía (narrando con emoción) y Mateo (el más preocupado).",
+    "script": "Sofia : À trois heures le portail du jardin était ouvert… et Luna n'était pas là. … Mateo : On a cherché dans le club, sous l'escalier, partout ! … Sofia : Ensuite on a traversé le parc en criant son nom. … Mateo : Valentina a fait vingt affiches en dix minutes. Vitesse d'artiste ! … Sofia : À cinq heures, un garçon a téléphoné : un chien gris était assis devant la boulangerie. … Mateo : Évidemment ! L'odeur du pain frais ! … Sofia : Le boulanger lui a donné de l'eau et un petit pain. … Mateo : Maintenant le portail a deux serrures. DEUX !",
+    "questions": [
+     {
+      "q": "À trois heures le … du jardin était ouvert.",
+      "answer": "portail"
+     },
+     {
+      "q": "Valentina a fait vingt … en dix minutes.",
+      "answer": "affiches"
+     },
+     {
+      "q": "Un chien gris était assis devant la …",
+      "answer": "boulangerie"
+     },
+     {
+      "q": "Le boulanger lui a donné de l'eau et un petit …",
+      "answer": "pain"
+     },
+     {
+      "q": "Maintenant le portail a deux …",
+      "answer": "serrures"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Un chien remue sa ___ quand il est content.",
+      "options": [
+       "queue",
+       "dent",
+       "serviette"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "On s'est assis sur le ___ du parc pour se reposer.",
+      "options": [
+       "banc",
+       "plage",
+       "branche"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Tu as vu mon chat ? » — « Il est ___ ? »",
+      "options": [
+       "perdu",
+       "fort",
+       "long"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "On ___ mamie tous les dimanches soir.",
+      "options": [
+       "appelle",
+       "grimper",
+       "porter"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le contraire d'inquiet est …",
+      "options": [
+       "calme",
+       "froid",
+       "bouclé"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Histoire en chaîne : racontez ensemble l'histoire de Luna — une phrase chacun, dans l'ordre (D'abord… Ensuite… Après ça… À la fin…). Sans notes !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Deux images, plein de différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris une histoire d'objet ou d'animal perdu (vraie ou inventée) en 6 phrases avec D'abord, Ensuite, Après ça, À la fin."
+  }
+ ],
+ "scope": {
+  "grado": "G4",
+  "temaN": 2,
+  "tema": "L'école et les apprentissages",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues plus longs ; repérer une information précise à l'oral."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire des lieux, des objets, des événements passés ; jouer une situation simple."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et remettre en ordre des histoires courtes ; trouver une information dans un panneau ou une affiche."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un message de 30 à 40 mots ; paragraphes de classe de 60 à 100 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~1350 mots ; passé composé, pronoms relatifs, pour + infinitif, devoir."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [
+   "Donner son avis : je pense, je crois, à mon avis"
+  ],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

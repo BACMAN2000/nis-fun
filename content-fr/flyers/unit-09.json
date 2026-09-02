@@ -1,0 +1,700 @@
+{
+ "id": "flyers-fr-09",
+ "level": "flyers",
+ "number": 9,
+ "title": "Dans la maison",
+ "topic": "maison",
+ "grammar": "les prépositions de lieu",
+ "wordlist": [
+  "balcon",
+  "sous-sol",
+  "escalier",
+  "soulever",
+  "portail",
+  "toit",
+  "étagère",
+  "placard",
+  "frigo",
+  "coin"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 2,
+  "skill": "texte à trous"
+ },
+ "characters": [
+  "maya",
+  "ingrid"
+ ],
+ "scene": {
+  "speaker": "maya",
+  "pose": {
+   "maya": 2,
+   "ingrid": 1
+  },
+  "bubble": "Bienvenue dans mon nouvel appartement ! L'ascenseur est en panne, alors… quatre-vingt-dix-huit marches jusqu'au cinquième !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Lis les phrases et écris les mots de la maison.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "BALCON",
+      "clue": "Un petit espace dehors, à l'étage, où on peut s'asseoir au soleil."
+     },
+     {
+      "word": "SOUSSOL",
+      "clue": "La pièce sous la maison. Elle est souvent sombre."
+     },
+     {
+      "word": "ESCALIER",
+      "clue": "Tu le montes et tu le descends dans un bâtiment."
+     },
+     {
+      "word": "TOIT",
+      "clue": "Le haut d'une maison. Les oiseaux aiment s'y poser."
+     },
+     {
+      "word": "ETAGERE",
+      "clue": "Tu poses des livres dessus, contre le mur."
+     },
+     {
+      "word": "FRIGO",
+      "clue": "Un placard froid dans la cuisine pour le lait et les yaourts."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Où est caché Kili ? Associe les moitiés de phrase.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Kili est…",
+    "right_label": "lieu",
+    "pairs": [
+     {
+      "left": "derrière",
+      "right": "la porte de la cuisine"
+     },
+     {
+      "left": "sous",
+      "right": "le lit de Maya"
+     },
+     {
+      "left": "au-dessus de",
+      "right": "le frigo"
+     },
+     {
+      "left": "dedans",
+      "right": "le grand placard"
+     },
+     {
+      "left": "entre",
+      "right": "les deux plantes du balcon"
+     },
+     {
+      "left": "dans le coin de",
+      "right": "le sous-sol"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute. Maya fait visiter le nouvel appartement à Ingrid. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u09-c.mp3",
+   "data": {
+    "voice_note": "Voces: Maya (orgullosa) e Ingrid (visitante).",
+    "script": "Maya : Entre, Ingrid ! Voici le salon. … Ingrid : J'adore le canapé jaune ! Et quelle grande étagère ! … Maya : Oui, il y a de la place pour deux cents livres. … Ingrid : Où est ton laboratoire de sciences ? … Maya : Au sous-sol ! C'est un peu sombre, mais très calme. … Ingrid : Et cette porte ? … Maya : C'est le balcon. On voit la mer de là ! … Ingrid : Magnifique ! Où dort Kili quand il vient ? … Maya : Sur le toit, bien sûr. Il dit que c'est la meilleure chambre de la ville !",
+    "questions": [
+     {
+      "q": "Le canapé du salon est …",
+      "answer": "jaune"
+     },
+     {
+      "q": "L'étagère a de la place pour deux cents …",
+      "answer": "livres"
+     },
+     {
+      "q": "Le laboratoire de Maya est au …",
+      "answer": "sous-sol"
+     },
+     {
+      "q": "Du balcon on voit la …",
+      "answer": "mer"
+     },
+     {
+      "q": "Kili dort sur le …",
+      "answer": "toit"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Tu gardes la nourriture au froid dans le …",
+      "options": [
+       "étagère",
+       "frigo",
+       "toit"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Si l'ascenseur est en panne, prends l'…",
+      "options": [
+       "escalier",
+       "portail",
+       "balcon"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "La pièce sous la maison, c'est le …",
+      "options": [
+       "balcon",
+       "toit",
+       "sous-sol"
+      ],
+      "answer": 2
+     },
+     {
+      "sentence": "Le chat est ___ les deux chaises.",
+      "options": [
+       "entre",
+       "dedans",
+       "sur"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu ouvres le ___ pour entrer dans le jardin.",
+      "options": [
+       "frigo",
+       "portail",
+       "étagère"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "L'élève A cache un trésor imaginaire quelque part dans l'école. L'élève B pose des questions avec des prépositions : « C'est sous le bureau du maître ? Derrière la porte ? » Dix questions maximum !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Deux images, plein de différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  },
+  {
+   "type": "picture_mc",
+   "title": "Écoute et coche la bonne case.",
+   "instructions": "Écoute chaque question et clique sur l'image qui répond.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 2,
+     "nombre": "La vie de tous les jours"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et cocher la bonne image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u09-h.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "Quel mot Maya apprend-elle aujourd'hui ?",
+      "answer": "étagère",
+      "options": [
+       {
+        "word": "étagère",
+        "propio": false
+       },
+       {
+        "word": "gants",
+        "propio": true
+       },
+       {
+        "word": "château",
+        "propio": true
+       }
+      ],
+      "script": "Quel mot Maya apprend-elle aujourd'hui ? … Maya : Aujourd'hui j'apprends le mot étagère."
+     },
+     {
+      "q": "Qu'est-ce qu'Ingrid a dessiné ?",
+      "answer": "balcon",
+      "options": [
+       {
+        "word": "stade",
+        "propio": true
+       },
+       {
+        "word": "balcon",
+        "propio": false
+       },
+       {
+        "word": "valise",
+        "propio": true
+       }
+      ],
+      "script": "Qu'est-ce qu'Ingrid a dessiné ? … Ingrid : J'ai dessiné un balcon."
+     },
+     {
+      "q": "Quelle image Lia regarde-t-elle ?",
+      "answer": "sous-sol",
+      "options": [
+       {
+        "word": "sous-sol",
+        "propio": false
+       },
+       {
+        "word": "aéroport",
+        "propio": true
+       },
+       {
+        "word": "valise",
+        "propio": true
+       }
+      ],
+      "script": "Quelle image Lia regarde-t-elle ? … Lia : Je regarde le sous-sol."
+     },
+     {
+      "q": "Qu'est-ce que Diego voit sur l'image ?",
+      "answer": "frigo",
+      "options": [
+       {
+        "word": "aéroport",
+        "propio": true
+       },
+       {
+        "word": "frigo",
+        "propio": false
+       },
+       {
+        "word": "théâtre",
+        "propio": true
+       }
+      ],
+      "script": "Qu'est-ce que Diego voit sur l'image ? … Diego : Je vois le frigo."
+     },
+     {
+      "q": "Que montre Aiko du doigt ?",
+      "answer": "portail",
+      "options": [
+       {
+        "word": "chapeau de soleil",
+        "propio": true
+       },
+       {
+        "word": "portail",
+        "propio": false
+       },
+       {
+        "word": "famille",
+        "propio": true
+       }
+      ],
+      "script": "Que montre Aiko du doigt ? … Aiko : Je montre le portail."
+     }
+    ],
+    "script": "Écoute et coche la bonne case. Il y a un exemple. … Quel mot Maya apprend-elle aujourd'hui ? … Maya : Aujourd'hui j'apprends le mot étagère. … Qu'est-ce qu'Ingrid a dessiné ? … Ingrid : J'ai dessiné un balcon. … Quelle image Lia regarde-t-elle ? … Lia : Je regarde le sous-sol. … Qu'est-ce que Diego voit sur l'image ? … Diego : Je vois le frigo. … Que montre Aiko du doigt ? … Aiko : Je montre le portail.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "H"
+  },
+  {
+   "type": "match_pictures",
+   "title": "Écoute et associe chaque explorateur à une image.",
+   "instructions": "Écoute. Puis choisis la lettre de l'image pour chaque personne. Attention : certaines images sont en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 2,
+     "nombre": "La vie de tous les jours"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et associer chaque personne à une image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 3
+    }
+   },
+   "audio": "flyers/u09-i.mp3",
+   "data": {
+    "people": [
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 8
+     },
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "pose": 8
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "pose": 3
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 8
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "pose": 3
+     }
+    ],
+    "pictures": [
+     {
+      "word": "pont",
+      "propio": true,
+      "id": "A"
+     },
+     {
+      "word": "frigo",
+      "propio": false,
+      "id": "B"
+     },
+     {
+      "word": "gants",
+      "propio": true,
+      "id": "C"
+     },
+     {
+      "word": "parapluie",
+      "propio": true,
+      "id": "D"
+     },
+     {
+      "word": "sous-sol",
+      "propio": false,
+      "id": "E"
+     },
+     {
+      "word": "balcon",
+      "propio": false,
+      "id": "F"
+     },
+     {
+      "word": "étagère",
+      "propio": false,
+      "id": "G"
+     },
+     {
+      "word": "soulever",
+      "propio": false,
+      "id": "H"
+     }
+    ],
+    "answers": {
+     "Maya": "G",
+     "Ingrid": "F",
+     "Iris": "H",
+     "Diego": "B",
+     "Bruno": "E"
+    },
+    "script": "Écoute et associe chaque personne à une image. Il y a un exemple. … Diego : Maya, quelle image as-tu choisie ? … Maya : J'ai choisi l'étagère. … Diego : Ingrid, quelle image as-tu choisie ? … Ingrid : J'ai choisi le balcon. … Diego : Iris, quelle image as-tu choisie ? … Iris : J'ai choisi l'ascenseur. … Diego : Diego, quelle image as-tu choisie ? … Diego : J'ai choisi le frigo. … Diego : Bruno, quelle image as-tu choisie ? … Bruno : J'ai choisi le sous-sol.",
+    "voice_note": "Diego pregunta; cada explorador responde con su objeto."
+   },
+   "code": "I"
+  },
+  {
+   "type": "picture_story",
+   "title": "Regarde les trois images et écris l'histoire.",
+   "instructions": "Regarde les images. Écris l'histoire en 20-25 mots. Aide-toi des mots sous chaque image.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 2,
+     "nombre": "La vie de tous les jours"
+    },
+    "destreza": "Writing",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots.",
+    "clase": "Type examen : histoire en images de 20 à 25 mots (production écrite)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "picnic-garden",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 4
+       }
+      ],
+      "word": "escalier",
+      "hint": "Maya / montre / un escalier",
+      "model": "Maya montre un escalier au jardin du pique-nique."
+     },
+     {
+      "n": 2,
+      "scene": "classroom",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 8
+       },
+       {
+        "slug": "ingrid",
+        "pose": 1
+       }
+      ],
+      "word": "frigo",
+      "hint": "Ingrid / apporter / un frigo",
+      "model": "Ensuite Ingrid apporte un frigo."
+     },
+     {
+      "n": 3,
+      "scene": "main-building",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 10
+       },
+       {
+        "slug": "maya",
+        "pose": 10
+       }
+      ],
+      "word": "placard",
+      "hint": "maintenant / un placard / content",
+      "model": "Maintenant ils ont aussi un placard, et tous les deux sont contents."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Maya montre un escalier au jardin du pique-nique. Ensuite Ingrid apporte un frigo. Maintenant ils ont aussi un placard, et tous les deux sont contents.",
+    "words": [
+     "escalier",
+     "frigo",
+     "placard"
+    ],
+    "support": {
+     "grammar": "les prépositions de lieu",
+     "words": [
+      "balcon",
+      "sous-sol",
+      "escalier",
+      "soulever",
+      "portail",
+      "toit"
+     ]
+    }
+   },
+   "code": "J"
+  },
+  {
+   "type": "label_people",
+   "title": "Écoute et écris les prénoms.",
+   "instructions": "Regarde l'image. Écoute et écris le prénom sous chaque personne. Attention : il y a trois prénoms en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 2,
+     "nombre": "La vie de tous les jours"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et écrire le prénom de chaque personne de l'image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u09-g.mp3",
+   "data": {
+    "scene": "picnic-garden",
+    "place": "le jardin du pique-nique",
+    "people": [
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "clue": "la fille au t-shirt vert avec une loupe",
+      "action": "observe quelque chose de tout petit",
+      "pose": 7
+     },
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "clue": "la fille aux cheveux blonds et à la veste bleu foncé",
+      "action": "lit le programme de la journée",
+      "pose": 7
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "clue": "la fille aux nattes noires et au t-shirt violet",
+      "action": "saute à la corde",
+      "pose": 7
+     },
+     {
+      "slug": "kili",
+      "name": "Kili",
+      "clue": "le grand oiseau noir avec un collier blanc",
+      "action": "porte une lettre",
+      "pose": 3
+     },
+     {
+      "slug": "vega",
+      "name": "Mr Vega",
+      "clue": "l'homme à la chemise bleue",
+      "action": "montre le chemin du centre sportif",
+      "figura": "father"
+     }
+    ],
+    "names": [
+     "Bruno",
+     "Ingrid",
+     "Iris",
+     "Kili",
+     "Lia",
+     "Maya",
+     "Mr Vega",
+     "Oliver"
+    ],
+    "script": "Regarde l'image. Écoute et écris les prénoms. Il y a un exemple. … Diego : Qui est-ce dans le jardin du pique-nique ? La fille au t-shirt vert avec une loupe. … Maya : C'est Maya. Maya observe quelque chose de tout petit. … Diego : Et qui est la fille aux cheveux blonds et à la veste bleu foncé ? … Maya : C'est Ingrid. Regarde, Ingrid lit le programme de la journée. … Diego : Et qui est la fille aux nattes noires et au t-shirt violet ? … Maya : C'est Lia. Regarde, Lia saute à la corde. … Diego : Et qui est le grand oiseau noir avec un collier blanc ? … Maya : C'est Kili. Regarde, Kili porte une lettre. … Diego : Et qui est l'homme à la chemise bleue ? … Maya : C'est M. Vega. Regarde, M. Vega montre le chemin du centre sportif.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Dessine le plan de ta maison et légende 6 endroits de la liste. Écris : Mon endroit préféré est… parce que…"
+  }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 2,
+  "tema": "La vie de tous les jours",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Raconter des histoires au passé, au présent et au futur ; exprimer ses préférences avec des raisons."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et comprendre des histoires courtes (80 à 250 mots) ; trouver l'idée principale et les détails."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~2500 mots ; passé composé, questions négatives, si + présent, futur proche."
+   }
+  ],
+  "vocabulario": [
+   "date limite",
+   "emploi du temps",
+   "priorité",
+   "remettre à plus tard"
+  ],
+  "gramatica": [
+   "Le présent et l'imparfait : le contraste"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "deadline",
+    "schedule",
+    "priority",
+    "procrastinate"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "date limite",
+  "emploi du temps",
+  "priorité",
+  "remettre à plus tard"
+ ],
+ "lang": "fr"
+}

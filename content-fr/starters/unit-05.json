@@ -1,0 +1,282 @@
+{
+ "id": "starters-fr-05",
+ "level": "starters",
+ "number": 5,
+ "title": "Mes affaires d'école",
+ "topic": "école",
+ "grammar": "Voici mon…",
+ "wordlist": [
+  "stylo",
+  "crayon",
+  "livre",
+  "sac",
+  "gomme",
+  "règle",
+  "chaise",
+  "table",
+  "tableau",
+  "crayon de couleur"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 1,
+  "skill": "mot–image"
+ },
+ "characters": [
+  "astrid",
+  "pip"
+ ],
+ "scene": {
+  "speaker": "astrid",
+  "pose": {
+   "astrid": 2,
+   "pip": 2
+  },
+  "bubble": "Chaque chose à sa place ! Mes crayons ici, mes livres là… et Pip sur ma chaise. Encore."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Écris les affaires d'école.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "STYLO",
+      "clue": "Tu écris avec. Bleu ou noir."
+     },
+     {
+      "word": "LIVRE",
+      "clue": "Tu le lis. Il a beaucoup de pages."
+     },
+     {
+      "word": "SAC",
+      "clue": "Tu emportes tes affaires dedans."
+     },
+     {
+      "word": "REGLE",
+      "clue": "Elle est longue. Tu traces des lignes avec."
+     },
+     {
+      "word": "CHAISE",
+      "clue": "Tu t'assois dessus."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Associe l'objet et ce que tu fais avec.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "La chose",
+    "right_label": "Tu…",
+    "pairs": [
+     {
+      "left": "un crayon",
+      "right": "écrire et dessiner avec"
+     },
+     {
+      "left": "une gomme",
+      "right": "effacer tes erreurs"
+     },
+     {
+      "left": "un livre",
+      "right": "le lire"
+     },
+     {
+      "left": "une chaise",
+      "right": "s'asseoir dessus"
+     },
+     {
+      "left": "un sac",
+      "right": "l'emporter à l'école"
+     },
+     {
+      "left": "crayons de couleur",
+      "right": "colorier avec"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute Astrid. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u05-c.mp3",
+   "data": {
+    "voice_note": "Voces: Astrid (ordenada) y Nico (desordenado).",
+    "script": "Astrid : Regarde mon sac ! Deux livres, trois crayons et une règle. … Nico : Mon sac a… une chaussure ? Comment elle est arrivée là ? … Astrid : Nico ! Où sont tes crayons ? … Nico : Ici ! Dans ma poche. Et ma gomme est dans l'autre poche. … Astrid : Mon objet préféré, c'est mon stylo rouge. Il écrit très bien. … Nico : Mon objet préféré, c'est mon crayon dinosaure. Il est vert ! … Astrid : Affaires prêtes. On y va !",
+    "questions": [
+     {
+      "q": "Astrid a deux livres et … crayons.",
+      "answer": "trois"
+     },
+     {
+      "q": "Dans le sac de Nico il y a une …",
+      "answer": "chaussure"
+     },
+     {
+      "q": "Les crayons de Nico sont dans sa …",
+      "answer": "poche"
+     },
+     {
+      "q": "L'objet préféré d'Astrid est son … rouge.",
+      "answer": "stylo"
+     },
+     {
+      "q": "Le crayon dinosaure de Nico est …",
+      "answer": "vert"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Tu écris dans ton …",
+      "options": [
+       "livre",
+       "chaise",
+       "sac"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu t'assois sur une …",
+      "options": [
+       "chaise",
+       "stylo",
+       "règle"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le maître écrit au …",
+      "options": [
+       "tableau",
+       "sac",
+       "gomme"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu colories avec des …",
+      "options": [
+       "crayons de couleur",
+       "chaises",
+       "livres"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Voici ___ crayon.",
+      "options": [
+       "mon",
+       "Je",
+       "moi"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Montre 4 choses de ton sac : « Voici mon crayon. Voici mon livre. » Ton camarade dit la couleur de chacune."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "A et B ne sont pas pareils. Trouve pourquoi !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Dessine ton sac ouvert. Légende 5 affaires et écris : Voici mon…"
+  }
+ ],
+ "scope": {
+  "grado": "G1",
+  "temaN": 2,
+  "tema": "Ma classe",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Suivre les consignes de la classe ; reconnaître des mots connus dans une chanson ou une phrase courte."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Saluer ; dire son nom, son âge, les couleurs ; nommer des objets ; répondre par oui ou non."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Reconnaître les lettres de l'alphabet ; associer un mot à une image (famille, nourriture, animaux, corps)."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire son prénom ; recopier des mots ; légender une image (3 à 5 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~150 mots actifs ; le verbe être, un/une, c'est/ce sont, l'impératif."
+   }
+  ],
+  "vocabulario": [
+   "livre",
+   "stylo",
+   "crayon",
+   "règle",
+   "sac",
+   "chaise",
+   "table",
+   "tableau"
+  ],
+  "gramatica": [
+   "Les questions avec être : C'est un… ? Oui/Non"
+  ],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

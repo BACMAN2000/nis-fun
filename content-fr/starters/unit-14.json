@@ -1,0 +1,322 @@
+{
+ "id": "starters-fr-14",
+ "level": "starters",
+ "number": 14,
+ "title": "Les boissons",
+ "topic": "boissons",
+ "grammar": "Je peux avoir… ?",
+ "wordlist": [
+  "eau",
+  "lait",
+  "jus",
+  "limonade",
+  "chocolat chaud",
+  "tasse",
+  "verre",
+  "boire",
+  "assoiffé",
+  "froid"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 4,
+  "skill": "boissons"
+ },
+ "characters": [
+  "nico",
+  "tomas"
+ ],
+ "scene": {
+  "speaker": "nico",
+  "pose": {
+   "nico": 3,
+   "tomas": 7
+  },
+  "bubble": "Après le football on a TELLEMENT soif ! De l'eau pour Tomás, de la limonade pour moi… et une petite gamelle d'eau pour Pip."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe la boisson et son moment.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Boisson",
+    "right_label": "Moment",
+    "pairs": [
+     {
+      "left": "eau",
+      "right": "après avoir couru et joué"
+     },
+     {
+      "left": "lait",
+      "right": "avant de dormir"
+     },
+     {
+      "left": "jus d'orange",
+      "right": "au petit-déjeuner"
+     },
+     {
+      "left": "chocolat chaud",
+      "right": "un jour de froid"
+     },
+     {
+      "left": "limonade",
+      "right": "un jour d'été chaud"
+     },
+     {
+      "left": "un milk-shake",
+      "right": "comme petit plaisir"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis les mots polis.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "___ avoir de l'eau, s'il te plaît ?",
+      "options": [
+       "Peux-tu",
+       "Suis",
+       "Est"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Voilà ! » — « ___ ! »",
+      "options": [
+       "Merci",
+       "Au revoir",
+       "Désolé"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Quand tu as besoin de boire, tu as …",
+      "options": [
+       "assoiffé",
+       "endormi",
+       "drôle"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le lait se met dans une ___ ou un verre.",
+      "options": [
+       "tasse",
+       "sac",
+       "boîte"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "La limonade est ___ et sucrée.",
+      "options": [
+       "froid",
+       "chaud",
+       "vert"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute après le match. Écris un mot dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u14-c.mp3",
+   "data": {
+    "voice_note": "Voces: Nico y Tomás (sedientos tras el fútbol).",
+    "script": "Tomás : De l'eau, s'il te plaît ! J'ai tellement soif ! … Nico : Tiens ! Un grand verre d'eau froide. … Tomás : Merci ! Tu bois quoi ? … Nico : De la limonade. Ma mamie la fait avec trois citrons. … Tomás : Freya a du lait et Astrid a du jus de pomme. … Nico : Et regarde — une petite gamelle d'eau pour Pip. … Tomás : À la meilleure équipe ! … Nico : Santé… à la limonade !",
+    "questions": [
+     {
+      "q": "Tomás boit un grand verre d'… froide.",
+      "answer": "eau"
+     },
+     {
+      "q": "Mamie fait la limonade avec trois …",
+      "answer": "citrons"
+     },
+     {
+      "q": "Freya a du …",
+      "answer": "lait"
+     },
+     {
+      "q": "Astrid a du jus de …",
+      "answer": "jus"
+     },
+     {
+      "q": "Pip a une petite … d'eau.",
+      "answer": "bol"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Les vaches nous donnent du …",
+      "options": [
+       "lait",
+       "jus",
+       "limonade"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un jour de froid je bois du … chaud.",
+      "options": [
+       "chocolat",
+       "glace",
+       "limonade"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le jus vient des …",
+      "options": [
+       "fruit",
+       "poisson",
+       "pain"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu bois de l'eau dans un …",
+      "options": [
+       "verre",
+       "assiette",
+       "chaussure"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "La meilleure boisson après le sport, c'est l'…",
+      "options": [
+       "eau",
+       "gâteau",
+       "soupe"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Bar à jus : l'élève A demande « Je peux avoir… ? » pour 3 boissons. L'élève B sert avec « Voilà ! » Puis on échange. Dis toujours merci !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Trouve les différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris ce que tu bois dans une journée : Le matin je bois… (4 phrases)."
+  }
+ ],
+ "scope": {
+  "grado": "G2",
+  "temaN": 5,
+  "tema": "Manger et rester en forme",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues simples sur la famille, l'école, les animaux et la nourriture."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Répondre à des questions à partir d'une image ; décrire une image en phrases simples."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire des textes de 2 à 3 phrases ; associer images, mots et légendes courtes."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Recopier des mots et compléter des phrases courtes."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~450 mots ; présent, être et avoir, il y a, aimer + infinitif."
+   }
+  ],
+  "vocabulario": [
+   "fruit",
+   "légumes",
+   "produits laitiers",
+   "viande",
+   "pain"
+  ],
+  "gramatica": [
+   "Devoir : les conseils de santé"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "fruit",
+    "vegetables",
+    "dairy",
+    "meat",
+    "bread"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "fruit",
+  "légumes",
+  "produits laitiers",
+  "viande",
+  "pain",
+  "en bonne santé",
+  "mauvais pour la santé",
+  "bonbons"
+ ],
+ "lang": "fr"
+}

@@ -1,0 +1,300 @@
+{
+ "id": "starters-fr-30",
+ "level": "starters",
+ "number": 30,
+ "title": "La plage",
+ "topic": "plage",
+ "grammar": "le présent + à la plage",
+ "wordlist": [
+  "plage",
+  "soleil",
+  "sable",
+  "mer",
+  "coquillage",
+  "glace",
+  "chapeau",
+  "château",
+  "chaud",
+  "nager"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 4,
+  "skill": "les mots de la plage"
+ },
+ "characters": [
+  "nico",
+  "pip"
+ ],
+ "scene": {
+  "speaker": "nico",
+  "pose": {
+   "nico": 10,
+   "pip": 1
+  },
+  "bubble": "Journée à la plage ! Le soleil, le sable, un château géant… et Pip qui nage comme un champion !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe l'objet de la plage et son usage.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "La chose",
+    "right_label": "Utilise",
+    "pairs": [
+     {
+      "left": "le chapeau de soleil",
+      "right": "protège ta tête du soleil"
+     },
+     {
+      "left": "le sable",
+      "right": "tu fais des châteaux avec"
+     },
+     {
+      "left": "le seau",
+      "right": "tu portes de l'eau dedans"
+     },
+     {
+      "left": "les coquillages",
+      "right": "tu les ramasses"
+     },
+     {
+      "left": "la glace",
+      "right": "tu la manges avant qu'elle fonde !"
+     },
+     {
+      "left": "la mer",
+      "right": "tu nages et tu sautes dans les vagues"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "À la plage le soleil est très …",
+      "options": [
+       "chaud",
+       "froid",
+       "vert"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "On construit un château de …",
+      "options": [
+       "château",
+       "voiture",
+       "chaise"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Je ___ dans la mer avec mon papa.",
+      "options": [
+       "nager",
+       "dormir",
+       "écrire"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Mets ton ___ — le soleil tape fort !",
+      "options": [
+       "chapeau",
+       "bottes",
+       "gants"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "La glace ___ au soleil. Mange-la vite !",
+      "options": [
+       "fond",
+       "pousse",
+       "chante"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute à la plage. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u30-c.mp3",
+   "data": {
+    "voice_note": "Voces: Nico (arquitecto de castillos) y Freya (coleccionista).",
+    "script": "Nico : Journée à la plage ! Notre château a trois tours ! … Freya : J'ai trouvé six coquillages. Il y en a un rose ! … Nico : L'eau est froide mais c'est trop bien. Saute les vagues ! … Freya : Pip nage ! Il est plus rapide que tout le monde. … Nico : L'heure de la glace ! Moi je veux chocolat. … Freya : Et moi, fraise. … Nico : Oh non, une grosse vague… au revoir, château ! … Freya : Demain on en construit un plus grand !",
+    "questions": [
+     {
+      "q": "Le château a … tours.",
+      "answer": "trois"
+     },
+     {
+      "q": "Freya a trouvé … coquillages.",
+      "answer": "six"
+     },
+     {
+      "q": "Un coquillage est …",
+      "answer": "rose"
+     },
+     {
+      "q": "Nico veut une glace au …",
+      "answer": "chocolat"
+     },
+     {
+      "q": "Une grosse … détruit le château.",
+      "answer": "vague"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "La plage a du … jaune.",
+      "options": [
+       "sable",
+       "neige",
+       "herbe"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu trouves des ___ sur le sable.",
+      "options": [
+       "coquillages",
+       "livres",
+       "chaussures"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "La ___ est grande, bleue et salée.",
+      "options": [
+       "mer",
+       "piscine",
+       "verre"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les jours de chaleur on mange des …",
+      "options": [
+       "glace",
+       "soupe chaude",
+       "toast"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le ___ brille dans le ciel.",
+      "options": [
+       "soleil",
+       "sable",
+       "coquillage"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "On prépare le sac de plage : chacun ajoute une chose à tour de rôle (« Dans mon sac il y a un chapeau… un chapeau et un seau… »). Souviens-toi de toute la liste — qui oublie en premier ?"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Deux images, plein de différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Dessine une journée à la plage et écris 4 phrases sur ce que tu y fais."
+  }
+ ],
+ "scope": {
+  "grado": "G1",
+  "temaN": 5,
+  "tema": "Ma famille",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Suivre les consignes de la classe ; reconnaître des mots connus dans une chanson ou une phrase courte."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Saluer ; dire son nom, son âge, les couleurs ; nommer des objets ; répondre par oui ou non."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Reconnaître les lettres de l'alphabet ; associer un mot à une image (famille, nourriture, animaux, corps)."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire son prénom ; recopier des mots ; légender une image (3 à 5 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~150 mots actifs ; le verbe être, un/une, c'est/ce sont, l'impératif."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [
+   "Les nombres comme adjectifs : deux sœurs"
+  ],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

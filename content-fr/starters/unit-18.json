@@ -1,0 +1,271 @@
+{
+ "id": "starters-fr-18",
+ "level": "starters",
+ "number": 18,
+ "title": "La mer",
+ "topic": "mer",
+ "grammar": "Il y a + la mer",
+ "wordlist": [
+  "mer",
+  "poisson",
+  "bateau",
+  "coquillage",
+  "sable",
+  "vague",
+  "crabe",
+  "étoile",
+  "nager",
+  "bleu"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 4,
+  "skill": "les mots de la mer"
+ },
+ "characters": [
+  "freya",
+  "pip"
+ ],
+ "scene": {
+  "speaker": "freya",
+  "pose": {
+   "freya": 1,
+   "pip": 1
+  },
+  "bubble": "La mer est la maison de Pip ! Des vagues, des poissons, des petits bateaux… et le phare qui regarde tout."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Écris les mots de la mer.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "MER",
+      "clue": "Grande, bleue et pleine de poissons."
+     },
+     {
+      "word": "BATEAU",
+      "clue": "Il navigue sur l'eau."
+     },
+     {
+      "word": "COQUILLAGE",
+      "clue": "Tu le trouves sur le sable. Il est joli."
+     },
+     {
+      "word": "CRABE",
+      "clue": "Il a de grosses pinces et il marche bizarrement."
+     },
+     {
+      "word": "SABLE",
+      "clue": "Jaune et doux. Tu fais des châteaux avec."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Associe la chose de la mer et sa place.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "La chose",
+    "right_label": "Lieu",
+    "pairs": [
+     {
+      "left": "le poisson",
+      "right": "sous l'eau"
+     },
+     {
+      "left": "le bateau",
+      "right": "sur les vagues"
+     },
+     {
+      "left": "les coquillages",
+      "right": "sur le sable"
+     },
+     {
+      "left": "le crabe",
+      "right": "entre les rochers"
+     },
+     {
+      "left": "le soleil",
+      "right": "là-haut dans le ciel"
+     },
+     {
+      "left": "Pip",
+      "right": "en train de voler au-dessus de la mer"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute au bord de la mer. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u18-c.mp3",
+   "data": {
+    "voice_note": "Voces: Freya (en la orilla) y Tomás (nadando).",
+    "script": "Freya : La mer est si bleue aujourd'hui ! … Tomás : Je vois trois petits poissons ! Ils sont argentés. … Freya : Il y a un bateau rouge au loin. … Tomás : J'ai trouvé un grand coquillage blanc ! Écoute — la mer est dedans ! … Freya : Attention, il y a un crabe à côté de ton pied ! … Tomás : Ouah ! Bonjour, petit crabe. … Freya : Et regarde en haut — Pip vole avec deux autres oiseaux. … Tomás : La mer, c'est la meilleure cour de récré !",
+    "questions": [
+     {
+      "q": "Les trois petits poissons sont …",
+      "answer": "argent"
+     },
+     {
+      "q": "Le bateau au loin est …",
+      "answer": "rouge"
+     },
+     {
+      "q": "Tomás a trouvé un grand … blanc.",
+      "answer": "coquillage"
+     },
+     {
+      "q": "Il y a un … à côté de son pied.",
+      "answer": "crabe"
+     },
+     {
+      "q": "Pip vole avec deux autres …",
+      "answer": "oiseaux"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Les poissons vivent dans la …",
+      "options": [
+       "mer",
+       "arbre",
+       "lit"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu fais des châteaux avec du …",
+      "options": [
+       "sable",
+       "eau",
+       "coquillages"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un ___ navigue sur la mer.",
+      "options": [
+       "bateau",
+       "vélo",
+       "bus"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Il ___ beaucoup de poissons dans la mer.",
+      "options": [
+       "sont",
+       "est",
+       "suis"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les poissons savent très bien …",
+      "options": [
+       "nager",
+       "voler",
+       "chanter"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Dessinez la mer ensemble : chacun dit une chose à ajouter (« Il y a un bateau… Il y a deux crabes… ») jusqu'à ce que l'image soit pleine !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Trouve les différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Dessine la mer avec 5 choses et écris : Il y a… pour chacune."
+  }
+ ],
+ "scope": {
+  "grado": "G2",
+  "temaN": 3,
+  "tema": "Animaux et compagnons",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues simples sur la famille, l'école, les animaux et la nourriture."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Répondre à des questions à partir d'une image ; décrire une image en phrases simples."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire des textes de 2 à 3 phrases ; associer images, mots et légendes courtes."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Recopier des mots et compléter des phrases courtes."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~450 mots ; présent, être et avoir, il y a, aimer + infinitif."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

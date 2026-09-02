@@ -1,0 +1,300 @@
+{
+ "id": "starters-fr-36",
+ "level": "starters",
+ "number": 36,
+ "title": "Le gâteau d'anniversaire",
+ "topic": "anniversaire",
+ "grammar": "Quel âge as-tu ? + la fête",
+ "wordlist": [
+  "anniversaire",
+  "gâteau",
+  "bougie",
+  "cadeau",
+  "fête",
+  "ballon de baudruche",
+  "chanter",
+  "souhait",
+  "ami",
+  "ans"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 4,
+  "skill": "anniversaire"
+ },
+ "characters": [
+  "astrid",
+  "pip"
+ ],
+ "scene": {
+  "speaker": "astrid",
+  "pose": {
+   "astrid": 10,
+   "pip": 1
+  },
+  "bubble": "Joyeux anniversaire à moi ! Huit bougies, un souhait, et tous mes amis qui chantent. Le meilleur jour de l'année !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe l'objet de la fête et son moment.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "La chose",
+    "right_label": "Moment",
+    "pairs": [
+     {
+      "left": "les ballons",
+      "right": "décorer la salle"
+     },
+     {
+      "left": "la chanson",
+      "right": "tout le monde chante ensemble"
+     },
+     {
+      "left": "les bougies",
+      "right": "souffler et faire un vœu"
+     },
+     {
+      "left": "le gâteau",
+      "right": "une part pour chacun"
+     },
+     {
+      "left": "les cadeaux",
+      "right": "ouvrir avec un grand sourire"
+     },
+     {
+      "left": "les amis",
+      "right": "le meilleur moment de la fête"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "« Quel ___ as-tu ? » — « J'ai huit ans ! »",
+      "options": [
+       "vieux",
+       "grand",
+       "grand"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Il y a huit ___ sur le gâteau.",
+      "options": [
+       "bougies",
+       "voitures",
+       "chaussettes"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "On chante Joyeux ___ !",
+      "options": [
+       "Anniversaire",
+       "lundi",
+       "Matin"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Souffle les bougies et fais un …",
+      "options": [
+       "souhait",
+       "gâteau",
+       "chaise"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "J'ai huit ___.",
+      "options": [
+       "ans",
+       "jours",
+       "gâteaux"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute la fête d'Astrid. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u36-c.mp3",
+   "data": {
+    "voice_note": "Voces: Astrid (cumpleañera) y Freya (invitada).",
+    "script": "Astrid : Ma fête d'anniversaire ! J'ai huit ans aujourd'hui ! … Freya : La salle a vingt ballons — roses et blancs ! … Astrid : Le gâteau est au chocolat avec huit bougies. … Freya : Un, deux, trois… souffle ! … Astrid : J'ai souhaité… non, c'est un secret ! … Freya : L'heure des cadeaux ! Un nouveau livre, des crayons de couleur et un puzzle. … Astrid : Et le cadeau de Pip : une jolie plume blanche. … Freya : Joyeux anniversaire, Astrid !",
+    "questions": [
+     {
+      "q": "Astrid a … aujourd'hui.",
+      "answer": "huit"
+     },
+     {
+      "q": "Il y a vingt …",
+      "answer": "ballons"
+     },
+     {
+      "q": "Le gâteau est au …",
+      "answer": "chocolat"
+     },
+     {
+      "q": "Elle reçoit un livre, des crayons et un …",
+      "answer": "puzzle"
+     },
+     {
+      "q": "Le cadeau de Pip est une … blanche.",
+      "answer": "plume"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Le jour de ton anniversaire tu as un an de …",
+      "options": [
+       "plus vieux",
+       "plus petit",
+       "plus court"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les ballons volent parce qu'ils sont pleins d'…",
+      "options": [
+       "air",
+       "eau",
+       "gâteau"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le vœu est un …",
+      "options": [
+       "secret",
+       "chanson",
+       "sandwich"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les amis apportent des ___ à la fête.",
+      "options": [
+       "cadeaux",
+       "devoirs",
+       "balais"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Chacun reçoit une part de …",
+      "options": [
+       "gâteau",
+       "papier",
+       "savon"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Questions d'anniversaire : « C'est quand ton anniversaire ? Quel âge as-tu ? Tu aimes quel gâteau ? » Trois questions chacun !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Deux images, plein de différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Dessine le gâteau de tes rêves avec le bon nombre de bougies. Écris : J'ai … ans. Mon gâteau est…"
+  }
+ ],
+ "scope": {
+  "grado": "G1",
+  "temaN": 6,
+  "tema": "Manger et s'amuser",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Suivre les consignes de la classe ; reconnaître des mots connus dans une chanson ou une phrase courte."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Saluer ; dire son nom, son âge, les couleurs ; nommer des objets ; répondre par oui ou non."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Reconnaître les lettres de l'alphabet ; associer un mot à une image (famille, nourriture, animaux, corps)."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire son prénom ; recopier des mots ; légender une image (3 à 5 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~150 mots actifs ; le verbe être, un/une, c'est/ce sont, l'impératif."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [
+   "La phrase simple : sujet + verbe + complément"
+  ],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

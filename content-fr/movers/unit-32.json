@@ -1,0 +1,298 @@
+{
+ "id": "movers-fr-32",
+ "level": "movers",
+ "number": 32,
+ "title": "Des nombres partout",
+ "topic": "les nombres jusqu'à 100",
+ "grammar": "les nombres 20-100 + Combien",
+ "wordlist": [
+  "vingt",
+  "trente",
+  "quarante",
+  "cinquante",
+  "soixante",
+  "soixante-dix",
+  "quatre-vingts",
+  "quatre-vingt-dix",
+  "cent",
+  "compter"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 2,
+  "skill": "écrire les nombres"
+ },
+ "characters": [
+  "erik",
+  "mateo"
+ ],
+ "scene": {
+  "speaker": "erik",
+  "pose": {
+   "erik": 3,
+   "mateo": 4
+  },
+  "bubble": "Mission nombres : compter tout ce qu'il y a dans le club ! Mateo compte les biscuits… lentement et bizarrement."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe le nombre et le mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Nombre",
+    "right_label": "Mot",
+    "pairs": [
+     {
+      "left": "20",
+      "right": "vingt"
+     },
+     {
+      "left": "30",
+      "right": "trente"
+     },
+     {
+      "left": "40",
+      "right": "quarante"
+     },
+     {
+      "left": "50",
+      "right": "cinquante"
+     },
+     {
+      "left": "90",
+      "right": "quatre-vingt-dix"
+     },
+     {
+      "left": "100",
+      "right": "cent"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis le bon nombre en lettres.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "La moitié de cent est …",
+      "options": [
+       "cinquante",
+       "quarante",
+       "soixante"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Vingt plus dix font …",
+      "options": [
+       "trente",
+       "quarante",
+       "cinquante"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Papi a ___ ans : 7-0.",
+      "options": [
+       "soixante-dix",
+       "dix-sept",
+       "sept"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Il y a ___ minutes dans une heure.",
+      "options": [
+       "soixante",
+       "soixante-dix",
+       "trente"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___ y a-t-il de marches ? — Quarante-deux !",
+      "options": [
+       "Comment",
+       "Quoi",
+       "Qui"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute la mission comptage. Écris un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u32-c.mp3",
+   "data": {
+    "voice_note": "Voces: Erik (contando todo) y Mateo (contando galletas).",
+    "script": "Erik : Mission comptage, rapport final ! Livres sur l'étagère : soixante-trois. … Erik : Crayons dans le grand pot : vingt-huit. … Mateo : Pas de la porte à la cuisine : quinze. Je les ai comptés deux fois. … Erik : Photos sur le mur : quarante. Et Luna est sur toutes ! … Mateo : Et les biscuits… il y en avait trente ce matin. … Erik : Et maintenant ? … Mateo : Vingt-deux. La mission était longue. J'avais besoin d'énergie ! … Erik : Mission accomplie. Plus ou moins !",
+    "questions": [
+     {
+      "q": "Livres sur l'étagère : soixante-…",
+      "answer": "trois"
+     },
+     {
+      "q": "Crayons dans le grand pot : vingt-…",
+      "answer": "huit"
+     },
+     {
+      "q": "Pas jusqu'à la cuisine : …",
+      "answer": "quinze"
+     },
+     {
+      "q": "Photos sur le mur : …",
+      "answer": "quarante"
+     },
+     {
+      "q": "Biscuits maintenant : vingt-…",
+      "answer": "deux"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "10, 20, 30, ___ …",
+      "options": [
+       "quarante",
+       "quatorze",
+       "quatre"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un siècle = ___ ans.",
+      "options": [
+       "cent",
+       "mille",
+       "quatre-vingt-dix"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "80 en lettres, c'est …",
+      "options": [
+       "quatre-vingts",
+       "dix-huit",
+       "huit"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Dire les nombres un par un, c'est …",
+      "options": [
+       "compter",
+       "couper",
+       "porter"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Cinquante plus quarante font …",
+      "options": [
+       "quatre-vingt-dix",
+       "soixante",
+       "soixante-dix"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Ping-pong des nombres : comptez de 20 à 100 de dix en dix, à tour de rôle, de plus en plus vite. Puis à l'envers ! Qui se trompe en premier ?"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Regarde A et B. Qu'est-ce qui change ?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 11 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Compte et écris : combien de marches jusqu'à chez toi, de livres dans ta chambre, de cuillères dans la cuisine, de chaussures dans la maison. En phrases complètes : Il y a…"
+  }
+ ],
+ "scope": {
+  "grado": "G3",
+  "temaN": 1,
+  "tema": "La vie à l'école",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues courts avec plus de vocabulaire ; repérer l'information principale dans des annonces simples."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire ses habitudes, ses préférés, les métiers du quartier ; donner une opinion courte."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire de courts paragraphes ; répondre à des questions simples ; trouver une information précise."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un court paragraphe sur soi, sa famille ou sa journée (40 à 70 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~800 mots ; les temps de base ; devoir, pouvoir ; l'accord du verbe ; le superlatif."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

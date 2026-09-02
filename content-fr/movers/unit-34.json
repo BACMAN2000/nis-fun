@@ -1,0 +1,282 @@
+{
+ "id": "movers-fr-34",
+ "level": "movers",
+ "number": 34,
+ "title": "Le temps aujourd'hui",
+ "topic": "le temps et les saisons",
+ "grammar": "Il fait + météo / les saisons",
+ "wordlist": [
+  "printemps",
+  "été",
+  "automne",
+  "hiver",
+  "nuage",
+  "arc-en-ciel",
+  "vent",
+  "neige",
+  "soleil",
+  "saison"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 5,
+  "skill": "colorier et écrire"
+ },
+ "characters": [
+  "valentina",
+  "erik"
+ ],
+ "scene": {
+  "speaker": "valentina",
+  "pose": {
+   "valentina": 1,
+   "erik": 2
+  },
+  "bubble": "Quatre saisons, quatre aventures : les fleurs au printemps, le lac en été, les feuilles en automne et les bonhommes de neige en hiver !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Lis les phrases et écris les saisons et les mots de la météo.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "PRINTEMPS",
+      "clue": "La saison où les fleurs s'ouvrent."
+     },
+     {
+      "word": "ETE",
+      "clue": "La saison la plus chaude — les vacances !"
+     },
+     {
+      "word": "HIVER",
+      "clue": "La saison la plus froide de l'année."
+     },
+     {
+      "word": "ARCENCIEL",
+      "clue": "Sept couleurs dans le ciel après la pluie."
+     },
+     {
+      "word": "NUAGE",
+      "clue": "Blanc ou gris, il flotte dans le ciel."
+     },
+     {
+      "word": "NEIGE",
+      "clue": "Froide et blanche — parfaite pour les bonhommes de neige."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Associe la saison et son activité.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Saison",
+    "right_label": "Activité",
+    "pairs": [
+     {
+      "left": "au printemps",
+      "right": "on plante des fleurs dans le jardin"
+     },
+     {
+      "left": "en été",
+      "right": "on nage dans le lac"
+     },
+     {
+      "left": "en automne",
+      "right": "on saute sur les feuilles sèches"
+     },
+     {
+      "left": "en hiver",
+      "right": "on fait des bonhommes de neige"
+     },
+     {
+      "left": "après la pluie",
+      "right": "on cherche l'arc-en-ciel"
+     },
+     {
+      "left": "les jours de vent",
+      "right": "on fait voler nos cerfs-volants"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute le jeu des saisons. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u34-c.mp3",
+   "data": {
+    "voice_note": "Voces: Valentina (preguntas) y Erik (respuestas).",
+    "script": "Valentina : Quiz des saisons, Erik ! Ma saison préférée a des feuilles orange. … Erik : L'automne ! La mienne a de la neige et du chocolat chaud. … Valentina : L'hiver ! Question deux : quand est-ce que les fleurs s'ouvrent ? … Erik : Au printemps. Notre jardin devient un arc-en-ciel de couleurs ! … Valentina : Et la meilleure saison pour le lac ? … Erik : L'été, quand l'eau est chaude. On nage tous les après-midis. … Valentina : La dernière : qu'est-ce que tu vois après la pluie et le soleil ensemble ? … Erik : Un arc-en-ciel ! La semaine dernière on en a vu un avec les deux bouts dans le lac ! … Valentina : Sans faute ! Gagnant du quiz des saisons !",
+    "questions": [
+     {
+      "q": "La saison préférée de Valentina a des feuilles …",
+      "answer": "feuilles"
+     },
+     {
+      "q": "Celle d'Erik a de la neige et du … chaud.",
+      "answer": "chocolat"
+     },
+     {
+      "q": "Les fleurs s'ouvrent au …",
+      "answer": "printemps"
+     },
+     {
+      "q": "En été ils nagent tous les …",
+      "answer": "après-midi"
+     },
+     {
+      "q": "La semaine dernière l'arc-en-ciel avait ses deux bouts dans le …",
+      "answer": "lac"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "L'année a ___ saisons.",
+      "options": [
+       "quatre",
+       "sept",
+       "douze"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les feuilles tombent en …",
+      "options": [
+       "automne",
+       "printemps",
+       "été"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un ___ a sept couleurs.",
+      "options": [
+       "arc-en-ciel",
+       "nuage",
+       "vent"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le soleil nous donne de la lumière et de la …",
+      "options": [
+       "soleil",
+       "neige",
+       "tempêtes"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Quel temps fait-il ? » — « ___ nuageux. »",
+      "options": [
+       "C'est",
+       "Il est",
+       "Je suis"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Débat des saisons : chacun choisit sa saison préférée et donne 3 raisons. Essaie de convaincre ton camarade de changer d'avis !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Regarde A et B. Qu'est-ce qui change ?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 11 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris une phrase par saison sur ce que fait ta famille : En été on…"
+  }
+ ],
+ "scope": {
+  "grado": "G3",
+  "temaN": 3,
+  "tema": "Le temps et les saisons",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues courts avec plus de vocabulaire ; repérer l'information principale dans des annonces simples."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire ses habitudes, ses préférés, les métiers du quartier ; donner une opinion courte."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire de courts paragraphes ; répondre à des questions simples ; trouver une information précise."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un court paragraphe sur soi, sa famille ou sa journée (40 à 70 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~800 mots ; les temps de base ; devoir, pouvoir ; l'accord du verbe ; le superlatif."
+   }
+  ],
+  "vocabulario": [
+   "printemps",
+   "été",
+   "automne",
+   "hiver"
+  ],
+  "gramatica": [
+   "Les conjonctions : et, mais, parce que"
+  ],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

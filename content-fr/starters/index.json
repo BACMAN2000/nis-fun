@@ -1,0 +1,241 @@
+{
+ "level": "starters",
+ "lang": "fr",
+ "name": "Les Explorateurs - Fun for Nordic 1",
+ "cast": "Les Explorateurs du Phare",
+ "color": "#d97d0d",
+ "mascot": "pip",
+ "kids": [
+  "freya",
+  "nico",
+  "astrid",
+  "tomas"
+ ],
+ "units": [
+  {
+   "n": 1,
+   "title": "Les couleurs et les jouets",
+   "topic": "les jouets"
+  },
+  {
+   "n": 2,
+   "title": "Ma famille",
+   "topic": "famille"
+  },
+  {
+   "n": 3,
+   "title": "Au zoo",
+   "topic": "animaux"
+  },
+  {
+   "n": 4,
+   "title": "Les nombres de 1 à 10",
+   "topic": "les nombres"
+  },
+  {
+   "n": 5,
+   "title": "Mes affaires d'école",
+   "topic": "école"
+  },
+  {
+   "n": 6,
+   "title": "Des couleurs partout",
+   "topic": "couleurs"
+  },
+  {
+   "n": 7,
+   "title": "Mon corps",
+   "topic": "corps"
+  },
+  {
+   "n": 8,
+   "title": "Mon visage",
+   "topic": "visage"
+  },
+  {
+   "n": 9,
+   "title": "Les vêtements que je porte",
+   "topic": "vêtements"
+  },
+  {
+   "n": 10,
+   "title": "Ma maison",
+   "topic": "maison"
+  },
+  {
+   "n": 11,
+   "title": "Dans ma chambre",
+   "topic": "chambre"
+  },
+  {
+   "n": 12,
+   "title": "La nourriture que j'aime",
+   "topic": "nourriture"
+  },
+  {
+   "n": 13,
+   "title": "Les fruits, c'est bon",
+   "topic": "fruit"
+  },
+  {
+   "n": 14,
+   "title": "Les boissons",
+   "topic": "boissons"
+  },
+  {
+   "n": 15,
+   "title": "Les animaux à la maison",
+   "topic": "animaux de compagnie"
+  },
+  {
+   "n": 16,
+   "title": "À la ferme",
+   "topic": "ferme"
+  },
+  {
+   "n": 17,
+   "title": "Les grands animaux",
+   "topic": "animaux sauvages"
+  },
+  {
+   "n": 18,
+   "title": "La mer",
+   "topic": "mer"
+  },
+  {
+   "n": 19,
+   "title": "Les gens",
+   "topic": "gens"
+  },
+  {
+   "n": 20,
+   "title": "Mes amis",
+   "topic": "amis"
+  },
+  {
+   "n": 21,
+   "title": "Grand et petit",
+   "topic": "les adjectifs"
+  },
+  {
+   "n": 22,
+   "title": "Content ou triste ?",
+   "topic": "émotions"
+  },
+  {
+   "n": 23,
+   "title": "Je sais sauter !",
+   "topic": "pouvoir"
+  },
+  {
+   "n": 24,
+   "title": "Cours et joue",
+   "topic": "les verbes d'action"
+  },
+  {
+   "n": 25,
+   "title": "Le jeu de la boîte à jouets",
+   "topic": "dans / sur / sous"
+  },
+  {
+   "n": 26,
+   "title": "Dans la classe",
+   "topic": "les actions de l'école"
+  },
+  {
+   "n": 27,
+   "title": "Les sports que je fais",
+   "topic": "sports"
+  },
+  {
+   "n": 28,
+   "title": "Le parc",
+   "topic": "cour de récréation"
+  },
+  {
+   "n": 29,
+   "title": "La rue",
+   "topic": "rue"
+  },
+  {
+   "n": 30,
+   "title": "La plage",
+   "topic": "plage"
+  },
+  {
+   "n": 31,
+   "title": "Le temps qu'il fait",
+   "topic": "météo"
+  },
+  {
+   "n": 32,
+   "title": "Des journées amusantes",
+   "topic": "jours"
+  },
+  {
+   "n": 33,
+   "title": "Le matin et le soir",
+   "topic": "moments de la journée"
+  },
+  {
+   "n": 34,
+   "title": "L'heure du petit-déjeuner",
+   "topic": "petit-déjeuner"
+  },
+  {
+   "n": 35,
+   "title": "Ma boîte à goûter",
+   "topic": "déjeuner"
+  },
+  {
+   "n": 36,
+   "title": "Le gâteau d'anniversaire",
+   "topic": "anniversaire"
+  },
+  {
+   "n": 37,
+   "title": "La tête et les mains",
+   "topic": "actions du corps"
+  },
+  {
+   "n": 38,
+   "title": "Les animaux savent…",
+   "topic": "les animaux + savoir"
+  },
+  {
+   "n": 39,
+   "title": "Les nombres de 11 à 20",
+   "topic": "les nombres"
+  },
+  {
+   "n": 40,
+   "title": "L'alphabet",
+   "topic": "lettres"
+  },
+  {
+   "n": 41,
+   "title": "Épelle ton prénom",
+   "topic": "orthographe"
+  },
+  {
+   "n": 42,
+   "title": "Il est, elle est",
+   "topic": "il / elle"
+  },
+  {
+   "n": 43,
+   "title": "Celui-ci et celui-là",
+   "topic": "ce / cette"
+  },
+  {
+   "n": 44,
+   "title": "Le jeu du mot magique",
+   "topic": "bilan"
+  },
+  {
+   "n": 45,
+   "title": "La fête du phare",
+   "topic": "bilan et fête"
+  }
+ ]
+}

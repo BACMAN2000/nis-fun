@@ -1,0 +1,705 @@
+{
+ "id": "flyers-fr-46",
+ "level": "flyers",
+ "number": 46,
+ "title": "Plus tard, je serai peut-être…",
+ "topic": "peut-être / il se peut",
+ "grammar": "peut-être (la possibilité)",
+ "wordlist": [
+  "peut-être",
+  "peut",
+  "possible",
+  "sûr",
+  "peut-être",
+  "agriculteur",
+  "vétérinaire",
+  "inventeur",
+  "écrivain",
+  "styliste"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 3,
+  "skill": "conversation"
+ },
+ "characters": [
+  "maya",
+  "oliver"
+ ],
+ "scene": {
+  "speaker": "maya",
+  "pose": {
+   "maya": 4,
+   "oliver": 3
+  },
+  "bubble": "Je serai peut-être scientifique… ou vétérinaire… ou scientifique POUR les animaux ! L'avenir a trop de bonnes options."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe la phrase et ce qu'elle veut dire.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Phrase",
+    "right_label": "Sens",
+    "pairs": [
+     {
+      "left": "Je serai peut-être vétérinaire.",
+      "right": "c'est possible, ce n'est pas sûr"
+     },
+     {
+      "left": "Je serai vétérinaire.",
+      "right": "j'en suis sûr"
+     },
+     {
+      "left": "Il pleuvra peut-être plus tard.",
+      "right": "peut-être — prends un parapluie"
+     },
+     {
+      "left": "Il ne pleuvra pas aujourd'hui.",
+      "right": "pas de pluie, c'est sûr"
+     },
+     {
+      "left": "Elle viendra peut-être à la fête.",
+      "right": "peut-être oui, peut-être non"
+     },
+     {
+      "left": "On voyagera peut-être en été.",
+      "right": "ce n'est qu'une idée pour l'instant"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis peut-être, futur sûr ou négation.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "Je ne sais pas encore — j'étudierai ___ la biologie.",
+      "options": [
+       "peut-être",
+       "va",
+       "ne va pas"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le ciel est noir. Il ___ pleuvoir d'une minute à l'autre !",
+      "options": [
+       "peut",
+       "ne va pas",
+       "n'est pas"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Ne t'inquiète pas, je ___ ton anniversaire. Promis !",
+      "options": [
+       "peut-être",
+       "va",
+       "ne va pas"
+      ],
+      "answer": 2
+     },
+     {
+      "sentence": "On ira ___ camper — ça dépend du temps.",
+      "options": [
+       "peut-être",
+       "devoir",
+       "a fait"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Tu viens ? » — « ___. Je te dirai ce soir. »",
+      "options": [
+       "Peut-être",
+       "Jamais",
+       "Toujours"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute. Qu'est-ce qu'ils seront peut-être ? Écris un mot dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u46-c.mp3",
+   "data": {
+    "voice_note": "Voces: Maya y Oliver (dudando sobre el futuro).",
+    "script": "Oliver : Maya, tu seras quoi plus tard ? … Maya : Hmm. Je serai peut-être vétérinaire, parce que j'adore les animaux. … Maya : Ou inventrice — j'ai déjà onze idées dans mon carnet. … Oliver : Onze ! Moi je serai peut-être professeur de musique. Ou agriculteur avec des vaches qui chantent ! … Maya : Des vaches qui chantent ?! … Oliver : Pourquoi pas ? Vaches contentes, meilleur lait. C'est scientifique ! … Maya : Et Diego dit qu'il écrira peut-être des livres un jour. Des livres d'aventure. … Oliver : Une chose est sûre : quoi qu'on devienne, on sera toujours une équipe. … Maya : C'est la seule chose pour laquelle je ne dis pas peut-être !",
+    "questions": [
+     {
+      "q": "Maya sera peut-être vétérinaire parce qu'elle adore les …",
+      "answer": "animaux"
+     },
+     {
+      "q": "Elle a … idées dans son carnet.",
+      "answer": "onze"
+     },
+     {
+      "q": "Oliver sera peut-être agriculteur avec des … qui chantent.",
+      "answer": "vaches"
+     },
+     {
+      "q": "Diego écrira peut-être des … d'aventure.",
+      "answer": "livres"
+     },
+     {
+      "q": "La chose sûre : ils seront toujours une …",
+      "answer": "équipe"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis la meilleure réponse.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis la meilleure réponse.",
+    "items": [
+     {
+      "sentence": "« Tu seras quoi plus tard ? »",
+      "options": [
+       "Je serai peut-être styliste.",
+       "J'étais à la fête foraine.",
+       "C'est à côté de la banque."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Tu viendras demain ? »",
+      "options": [
+       "Peut-être — je ne sais pas encore.",
+       "Hier matin.",
+       "C'est en laine."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Une personne qui soigne les animaux malades est un …",
+      "options": [
+       "vétérinaire",
+       "serveur",
+       "invité"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Une personne qui écrit des livres est un …",
+      "options": [
+       "écrivain",
+       "agriculteur",
+       "présentateur"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« ___ » veut dire la même chose que « peut-être ».",
+      "options": [
+       "Peut-être",
+       "Jamais",
+       "Hier"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Trois avenirs : dis à ton camarade trois choses différentes que tu seras peut-être, de la plus probable à la plus folle. Il choisit celle qu'il préfère pour toi — et explique pourquoi !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "A et B ne sont pas pareils. Trouve pourquoi !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  },
+  {
+   "type": "picture_mc",
+   "title": "Écoute et coche la bonne case.",
+   "instructions": "Écoute chaque question et clique sur l'image qui répond.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Santé et bien-être"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et cocher la bonne image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u46-h.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "Qu'est-ce que Maya a dessiné ?",
+      "answer": "écrivain",
+      "options": [
+       {
+        "word": "théâtre",
+        "propio": true
+       },
+       {
+        "word": "parapluie",
+        "propio": true
+       },
+       {
+        "word": "écrivain",
+        "propio": false
+       }
+      ],
+      "script": "Qu'est-ce que Maya a dessiné ? … Maya : J'ai dessiné un écrivain."
+     },
+     {
+      "q": "Quelle image Oliver regarde-t-il ?",
+      "answer": "vétérinaire",
+      "options": [
+       {
+        "word": "chapeau de soleil",
+        "propio": true
+       },
+       {
+        "word": "château",
+        "propio": true
+       },
+       {
+        "word": "vétérinaire",
+        "propio": false
+       }
+      ],
+      "script": "Quelle image Oliver regarde-t-il ? … Oliver : Je regarde le vétérinaire."
+     },
+     {
+      "q": "Qu'est-ce qu'Iris voit sur l'image ?",
+      "answer": "inventeur",
+      "options": [
+       {
+        "word": "valise",
+        "propio": true
+       },
+       {
+        "word": "restaurant",
+        "propio": true
+       },
+       {
+        "word": "inventeur",
+        "propio": false
+       }
+      ],
+      "script": "Qu'est-ce qu'Iris voit sur l'image ? … Iris : Je vois l'inventeur."
+     },
+     {
+      "q": "Que montre Lia du doigt ?",
+      "answer": "agriculteur",
+      "options": [
+       {
+        "word": "poche",
+        "propio": true
+       },
+       {
+        "word": "agriculteur",
+        "propio": false
+       },
+       {
+        "word": "aéroport",
+        "propio": true
+       }
+      ],
+      "script": "Que montre Lia du doigt ? … Lia : Je montre l'agriculteur."
+     },
+     {
+      "q": "De quoi Bruno parle-t-il ?",
+      "answer": "styliste",
+      "options": [
+       {
+        "word": "théâtre",
+        "propio": true
+       },
+       {
+        "word": "pharmacie",
+        "propio": true
+       },
+       {
+        "word": "styliste",
+        "propio": false
+       }
+      ],
+      "script": "De quoi Bruno parle-t-il ? … Bruno : Je parle du styliste."
+     }
+    ],
+    "script": "Écoute et coche la bonne case. Il y a un exemple. … Qu'est-ce que Maya a dessiné ? … Maya : J'ai dessiné un écrivain. … Quelle image Oliver regarde-t-il ? … Oliver : Je regarde le vétérinaire. … Qu'est-ce qu'Iris voit sur l'image ? … Iris : Je vois l'inventeur. … Que montre Lia du doigt ? … Lia : Je montre l'agriculteur. … De quoi Bruno parle-t-il ? … Bruno : Je parle du styliste.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "H"
+  },
+  {
+   "type": "match_pictures",
+   "title": "Écoute et associe chaque explorateur à une image.",
+   "instructions": "Écoute. Puis choisis la lettre de l'image pour chaque personne. Attention : certaines images sont en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Santé et bien-être"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et associer chaque personne à une image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 3
+    }
+   },
+   "audio": "flyers/u46-i.mp3",
+   "data": {
+    "people": [
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 8
+     },
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "pose": 8
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 8
+     },
+     {
+      "slug": "samu",
+      "name": "Samu",
+      "pose": 3
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "pose": 3
+     }
+    ],
+    "pictures": [
+     {
+      "word": "famille",
+      "propio": true,
+      "id": "A"
+     },
+     {
+      "word": "styliste",
+      "propio": false,
+      "id": "B"
+     },
+     {
+      "word": "inventeur",
+      "propio": false,
+      "id": "C"
+     },
+     {
+      "word": "écrivain",
+      "propio": false,
+      "id": "D"
+     },
+     {
+      "word": "agriculteur",
+      "propio": false,
+      "id": "E"
+     },
+     {
+      "word": "vétérinaire",
+      "propio": false,
+      "id": "F"
+     },
+     {
+      "word": "pont",
+      "propio": true,
+      "id": "G"
+     },
+     {
+      "word": "musée",
+      "propio": true,
+      "id": "H"
+     }
+    ],
+    "answers": {
+     "Maya": "D",
+     "Oliver": "C",
+     "Diego": "F",
+     "Samu": "B",
+     "Bruno": "E"
+    },
+    "script": "Écoute et associe chaque personne à une image. Il y a un exemple. … Diego : Maya, quelle image as-tu choisie ? … Maya : J'ai choisi l'écrivain. … Diego : Oliver, quelle image as-tu choisie ? … Oliver : J'ai choisi l'inventeur. … Diego : Diego, quelle image as-tu choisie ? … Diego : J'ai choisi le vétérinaire. … Diego : Samu, quelle image as-tu choisie ? … Samu : J'ai choisi le styliste. … Diego : Bruno, quelle image as-tu choisie ? … Bruno : J'ai choisi l'agriculteur.",
+    "voice_note": "Diego pregunta; cada explorador responde con su objeto."
+   },
+   "code": "I"
+  },
+  {
+   "type": "picture_story",
+   "title": "Regarde les trois images et écris l'histoire.",
+   "instructions": "Regarde les images. Écris l'histoire en 20-25 mots. Aide-toi des mots sous chaque image.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Santé et bien-être"
+    },
+    "destreza": "Writing",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots.",
+    "clase": "Type examen : histoire en images de 20 à 25 mots (production écrite)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "hockey",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 4
+       }
+      ],
+      "word": "agriculteur",
+      "hint": "Maya / donne / un agriculteur",
+      "model": "Maya donne un agriculteur au terrain de hockey."
+     },
+     {
+      "n": 2,
+      "scene": "picnic-garden",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 8
+       },
+       {
+        "slug": "oliver",
+        "pose": 1
+       }
+      ],
+      "word": "écrivain",
+      "hint": "Oliver / apporter / un écrivain",
+      "model": "Ensuite Oliver apporte un écrivain."
+     },
+     {
+      "n": 3,
+      "scene": "garden",
+      "people": [
+       {
+        "slug": "oliver",
+        "pose": 10
+       },
+       {
+        "slug": "maya",
+        "pose": 10
+       }
+      ],
+      "word": "inventeur",
+      "hint": "maintenant / un inventeur / content",
+      "model": "Maintenant ils ont aussi un inventeur, et tous les deux sont contents."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Maya donne un agriculteur au terrain de hockey. Ensuite Oliver apporte un écrivain. Maintenant ils ont aussi un inventeur, et tous les deux sont contents.",
+    "words": [
+     "agriculteur",
+     "écrivain",
+     "inventeur"
+    ],
+    "support": {
+     "grammar": "peut-être (la possibilité)",
+     "words": [
+      "peut-être",
+      "peut",
+      "possible",
+      "sûr",
+      "peut-être",
+      "agriculteur"
+     ]
+    }
+   },
+   "code": "J"
+  },
+  {
+   "type": "label_people",
+   "title": "Écoute et écris les prénoms.",
+   "instructions": "Regarde l'image. Écoute et écris le prénom sous chaque personne. Attention : il y a trois prénoms en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Santé et bien-être"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et écrire le prénom de chaque personne de l'image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u46-g.mp3",
+   "data": {
+    "scene": "track",
+    "place": "la piste de course",
+    "people": [
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "clue": "la fille au t-shirt vert avec une loupe",
+      "action": "observe quelque chose de tout petit",
+      "pose": 7
+     },
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "clue": "le garçon aux cheveux roux et au t-shirt jaune",
+      "action": "chante",
+      "pose": 7
+     },
+     {
+      "slug": "tino",
+      "name": "Tino",
+      "clue": "le garçon aux cheveux très courts et au t-shirt blanc et vert",
+      "action": "joue au hockey",
+      "pose": 7
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "clue": "la fille aux nattes noires et au t-shirt violet",
+      "action": "saute à la corde",
+      "pose": 7
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "clue": "le garçon aux cheveux bruns bouclés et au t-shirt vert",
+      "action": "court après le ballon",
+      "pose": 7
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Bruno",
+     "Diego",
+     "Kili",
+     "Lia",
+     "Maya",
+     "Oliver",
+     "Tino"
+    ],
+    "script": "Regarde l'image. Écoute et écris les prénoms. Il y a un exemple. … Diego : Qui est-ce sur la piste de course ? La fille au t-shirt vert avec une loupe. … Maya : C'est Maya. Maya observe quelque chose de tout petit. … Diego : Et qui est le garçon aux cheveux roux et au t-shirt jaune ? … Maya : C'est Oliver. Regarde, Oliver chante. … Diego : Et qui est le garçon aux cheveux très courts et au t-shirt blanc et vert ? … Maya : C'est Tino. Regarde, Tino joue au hockey. … Diego : Et qui est la fille aux nattes noires et au t-shirt violet ? … Maya : C'est Lia. Regarde, Lia saute à la corde. … Diego : Et qui est le garçon aux cheveux bruns bouclés et au t-shirt vert ? … Maya : C'est Bruno. Regarde, Bruno court après le ballon.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris 5 phrases sur ton avenir : 3 avec peut-être, 1 au futur (une chose sûre) et 1 à la forme négative."
+  }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 5,
+  "tema": "Santé et bien-être",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Raconter des histoires au passé, au présent et au futur ; exprimer ses préférences avec des raisons."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et comprendre des histoires courtes (80 à 250 mots) ; trouver l'idée principale et les détails."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~2500 mots ; passé composé, questions négatives, si + présent, futur proche."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

@@ -1,0 +1,328 @@
+{
+ "id": "movers-fr-22",
+ "level": "movers",
+ "number": 22,
+ "title": "Les gens que je connais",
+ "topic": "décrire les personnes",
+ "grammar": "les adjectifs + avoir (décrire les gens)",
+ "wordlist": [
+  "cheveux",
+  "yeux",
+  "lunettes",
+  "barbe",
+  "jeune",
+  "vieux",
+  "joli",
+  "fort",
+  "court",
+  "bouclé"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 1,
+  "skill": "identifier les personnes"
+ },
+ "characters": [
+  "erik",
+  "sofia"
+ ],
+ "scene": {
+  "speaker": "erik",
+  "pose": {
+   "erik": 3,
+   "sofia": 4
+  },
+  "bubble": "Les nouveaux voisins arrivent aujourd'hui ! Apprenons à décrire les gens — sans montrer du doigt, Mateo !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe la description et la personne.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Description",
+    "right_label": "Personne",
+    "pairs": [
+     {
+      "left": "Il a une longue barbe blanche.",
+      "right": "Papi Pablo"
+     },
+     {
+      "left": "Elle a des cheveux bruns bouclés.",
+      "right": "Tante Carmen"
+     },
+     {
+      "left": "Il porte des lunettes rondes.",
+      "right": "Erik"
+     },
+     {
+      "left": "Elle a une longue queue-de-cheval noire.",
+      "right": "le professeur de musique"
+     },
+     {
+      "left": "Il est très grand et fort.",
+      "right": "l'entraîneur de basket"
+     },
+     {
+      "left": "Elle a le poil gris et les yeux bleus.",
+      "right": "Luna"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis le bon mot pour décrire.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "Ma mamie a 70 ans, mais elle se sent …",
+      "options": [
+       "jeune",
+       "grand",
+       "bouclé"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Il peut porter deux grands cartons — il est très …",
+      "options": [
+       "fort",
+       "court",
+       "vieux"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Elle a ___ yeux bleus.",
+      "options": [
+       "a eu",
+       "obtenir",
+       "avoir"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Ses cheveux ne sont pas raides, ils sont …",
+      "options": [
+       "bouclé",
+       "jeune",
+       "joli"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Je ne peux pas lire sans mes …",
+      "options": [
+       "lunettes",
+       "gants",
+       "buts"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute. Qui sont les nouveaux voisins ? Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u22-c.mp3",
+   "data": {
+    "voice_note": "Voces: Sofía (observadora) y Erik (apuntando datos).",
+    "script": "Sofia : Les nouveaux voisins sont là ! Le père est grand et il a une barbe noire courte. … Erik : La mère a de longs cheveux roux. Elle porte une guitare ! … Sofia : Une musicienne ! Oliver sera content… enfin, nos amis des Navigateurs ! … Erik : Il y a deux enfants. Le garçon a environ sept ans, avec des lunettes comme les miennes. … Sofia : Et la fille a l'air d'avoir notre âge. Elle a un ballon de football sous le bras ! … Erik : Et regarde — ils ont un petit chien blanc. … Sofia : Luna remue déjà la queue. De nouveaux amis pour tout le monde !",
+    "questions": [
+     {
+      "q": "Le père a une … noire courte.",
+      "answer": "barbe"
+     },
+     {
+      "q": "La mère a de longs cheveux …",
+      "answer": "rouge"
+     },
+     {
+      "q": "Elle porte une …",
+      "answer": "guitare"
+     },
+     {
+      "q": "Le garçon porte des … comme Erik.",
+      "answer": "lunettes"
+     },
+     {
+      "q": "La fille a un … sous le bras.",
+      "answer": "football"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Des cheveux qui font des boucles sont …",
+      "options": [
+       "bouclé",
+       "fort",
+       "vieux"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le contraire de grand est …",
+      "options": [
+       "court",
+       "jeune",
+       "joli"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Mon petit frère a un an. Il est très …",
+      "options": [
+       "jeune",
+       "vieux",
+       "grand"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Elle a les ___ verts et les cheveux foncés.",
+      "options": [
+       "yeux",
+       "oreilles",
+       "bras"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Papi a une ___ blanche au menton.",
+      "options": [
+       "barbe",
+       "chapeau",
+       "écharpe"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Décris une personne célèbre ou un personnage de dessin animé (3 indices, un par un). Ton camarade devine le plus vite possible. Deux chacun — comptez les indices nécessaires !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Regarde A et B. Qu'est-ce qui change ?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Décris 3 personnes de ta famille : les cheveux, les yeux et un détail de plus pour chacune. Il/Elle a…"
+  }
+ ],
+ "scope": {
+  "grado": "G3",
+  "temaN": 5,
+  "tema": "Émotions et santé",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues courts avec plus de vocabulaire ; repérer l'information principale dans des annonces simples."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire ses habitudes, ses préférés, les métiers du quartier ; donner une opinion courte."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire de courts paragraphes ; répondre à des questions simples ; trouver une information précise."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un court paragraphe sur soi, sa famille ou sa journée (40 à 70 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~800 mots ; les temps de base ; devoir, pouvoir ; l'accord du verbe ; le superlatif."
+   }
+  ],
+  "vocabulario": [
+   "excité",
+   "nerveux",
+   "ennuyé",
+   "fier",
+   "contrarié",
+   "perdu",
+   "effrayé",
+   "surpris"
+  ],
+  "gramatica": [
+   "Le verbe se sentir + adjectif"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "excited",
+    "nervous",
+    "bored",
+    "proud",
+    "upset",
+    "confused",
+    "scared",
+    "surprised"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "excité",
+  "nerveux",
+  "ennuyé",
+  "fier",
+  "contrarié",
+  "perdu",
+  "effrayé",
+  "surpris"
+ ],
+ "lang": "fr"
+}

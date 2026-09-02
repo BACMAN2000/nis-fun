@@ -1,0 +1,716 @@
+{
+ "id": "flyers-fr-44",
+ "level": "flyers",
+ "number": 44,
+ "title": "Une journée à la fête foraine",
+ "topic": "le passé composé",
+ "grammar": "le passé composé : les verbes irréguliers",
+ "wordlist": [
+  "grande roue",
+  "montagnes russes",
+  "billet",
+  "file d'attente",
+  "barbe à papa",
+  "ballon de baudruche",
+  "crier",
+  "tourner",
+  "est tombé",
+  "a gagné"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 2,
+  "skill": "prise de notes"
+ },
+ "characters": [
+  "oliver",
+  "diego"
+ ],
+ "scene": {
+  "speaker": "oliver",
+  "pose": {
+   "oliver": 10,
+   "diego": 5
+  },
+  "bubble": "La fête foraine est arrivée en ville ! J'ai fait quatre fois les montagnes russes et ma voix est encore quelque part là-haut !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe le verbe et son passé irrégulier.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Verbe",
+    "right_label": "Passé",
+    "pairs": [
+     {
+      "left": "acheter",
+      "right": "a acheté"
+     },
+     {
+      "left": "tomber",
+      "right": "est tombé"
+     },
+     {
+      "left": "tenir",
+      "right": "a tenu"
+     },
+     {
+      "left": "être debout",
+      "right": "était debout"
+     },
+     {
+      "left": "perdre",
+      "right": "perdu"
+     },
+     {
+      "left": "dépenser",
+      "right": "a dépensé"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Complète l'histoire de la fête foraine.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis la bonne forme du passé.",
+    "items": [
+     {
+      "sentence": "On ___ dans la file pendant vingt minutes.",
+      "options": [
+       "était debout",
+       "être debout",
+       "a resté debouté"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Diego ___ trois tickets pour la grande roue.",
+      "options": [
+       "a achetu",
+       "a acheté",
+       "acheter"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Ingrid ___ un nounours géant au jeu des anneaux !",
+      "options": [
+       "a gagné",
+       "gagner",
+       "j'ai gagni"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le ballon d'Oliver ___ jusqu'aux nuages.",
+      "options": [
+       "a volé",
+       "voler",
+       "a volu"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "On ___ tout notre argent, mais ça valait le coup !",
+      "options": [
+       "a dépensu",
+       "a dépensé",
+       "dépenser"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute les aventures de la fête foraine. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u44-c.mp3",
+   "data": {
+    "voice_note": "Voces: Oliver y Diego (recordando entre risas).",
+    "script": "Diego : Quelle journée ! D'abord on a fait la queue pour les montagnes russes. … Oliver : Vingt minutes ! Mais après on les a faites quatre fois de suite. … Diego : J'ai crié si fort que j'ai encore mal à la gorge. … Oliver : Ensuite Ingrid a gagné le nounours géant au jeu des anneaux. Du premier coup ! … Diego : On a mangé de la barbe à papa rose, plus grosse que ma tête. … Oliver : Et de la grande roue on a vu toute la ville — même le phare ! … Diego : Le meilleur moment ? Kili a volé à côté de notre cabine tout en haut. … Oliver : Un condor à la fête foraine. Seulement dans notre équipe !",
+    "questions": [
+     {
+      "q": "Ils ont fait les montagnes russes … fois.",
+      "answer": "quatre"
+     },
+     {
+      "q": "Diego a encore mal à la … d'avoir crié.",
+      "answer": "gorge"
+     },
+     {
+      "q": "Ingrid a gagné le nounours géant du premier …",
+      "answer": "essayer"
+     },
+     {
+      "q": "La barbe à papa était …",
+      "answer": "rose"
+     },
+     {
+      "q": "De la grande roue ils ont même vu le …",
+      "answer": "phare"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "La file de gens qui attendent est la …",
+      "options": [
+       "file d'attente",
+       "vue",
+       "voix"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le nuage sucré rose sur un bâton, c'est la …",
+      "options": [
+       "barbe à papa",
+       "yaourt",
+       "céréales"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "L'attraction qui monte, descend et fait des loopings, ce sont les …",
+      "options": [
+       "montagnes russes",
+       "quai",
+       "caravane"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Il te faut un ___ pour entrer dans chaque attraction.",
+      "options": [
+       "billet",
+       "timbre",
+       "cuillère"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "La grande roue ___ lentement pendant qu'on regardait la ville.",
+      "options": [
+       "tournait",
+       "tourne",
+       "tournais"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Raconte une journée à la fête foraine (ou au parc) en exactement 6 phrases, toutes au passé composé. Ton camarade compte tes verbes irréguliers — qui en utilise le plus ?"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Trouve les différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  },
+  {
+   "type": "picture_story",
+   "title": "Regarde les trois images et écris l'histoire.",
+   "instructions": "Regarde les images. Écris l'histoire en 20-25 mots. Aide-toi des mots sous chaque image.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "La nature"
+    },
+    "destreza": "Writing",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots.",
+    "clase": "Type examen : histoire en images de 20 à 25 mots (production écrite)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "mirador",
+      "people": [
+       {
+        "slug": "oliver",
+        "pose": 4
+       }
+      ],
+      "word": "",
+      "hint": "Oliver / au belvédère",
+      "model": "Un matin Oliver est au belvédère."
+     },
+     {
+      "n": 2,
+      "scene": "labyrinth",
+      "people": [
+       {
+        "slug": "oliver",
+        "pose": 3
+       },
+       {
+        "slug": "diego",
+        "pose": 3
+       }
+      ],
+      "word": "",
+      "hint": "Oliver / rencontrer / Diego",
+      "model": "Ensuite Oliver rencontre Diego au labyrinthe."
+     },
+     {
+      "n": 3,
+      "scene": "garden",
+      "people": [
+       {
+        "slug": "oliver",
+        "pose": 10
+       },
+       {
+        "slug": "diego",
+        "pose": 10
+       }
+      ],
+      "word": "",
+      "hint": "au jardin de l'école / content",
+      "model": "Au jardin de l'école ils sont très contents ensemble."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Un matin Oliver est au belvédère. Ensuite Oliver rencontre Diego au labyrinthe. Au jardin de l'école ils sont très contents ensemble.",
+    "words": [],
+    "support": {
+     "grammar": "le passé composé : les verbes irréguliers",
+     "words": [
+      "grande roue",
+      "montagnes russes",
+      "billet",
+      "file d'attente",
+      "barbe à papa",
+      "ballon de baudruche"
+     ]
+    }
+   },
+   "code": "H"
+  },
+  {
+   "type": "match_pictures",
+   "title": "Écoute et associe chaque personne à ce qu'elle faisait.",
+   "instructions": "Écoute. Puis choisis la lettre de l'image pour chaque personne. Attention : certaines images sont en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "La nature"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et associer chaque personne à une image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 3
+    }
+   },
+   "audio": "flyers/u44-i.mp3",
+   "data": {
+    "people": [
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "pose": 3
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 3
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "pose": 3
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "pose": 3
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "pose": 3
+     }
+    ],
+    "pictures": [
+     {
+      "k": "pose",
+      "slug": "oliver",
+      "pose": 4,
+      "v": "thinking",
+      "pie": "thinking",
+      "id": "A"
+     },
+     {
+      "k": "pose",
+      "slug": "oliver",
+      "pose": 8,
+      "v": "holding something",
+      "pie": "holding something",
+      "id": "B"
+     },
+     {
+      "k": "pose",
+      "slug": "oliver",
+      "pose": 3,
+      "v": "talking",
+      "pie": "talking",
+      "id": "C"
+     },
+     {
+      "k": "pose",
+      "slug": "oliver",
+      "pose": 2,
+      "v": "pointing",
+      "pie": "pointing",
+      "id": "D"
+     },
+     {
+      "k": "pose",
+      "slug": "oliver",
+      "pose": 1,
+      "v": "waving",
+      "pie": "waving",
+      "id": "E"
+     },
+     {
+      "k": "pose",
+      "slug": "oliver",
+      "pose": 6,
+      "v": "sitting down",
+      "pie": "sitting down",
+      "id": "F"
+     },
+     {
+      "k": "pose",
+      "slug": "oliver",
+      "pose": 7,
+      "v": "running",
+      "pie": "running",
+      "id": "G"
+     },
+     {
+      "k": "pose",
+      "slug": "oliver",
+      "pose": 10,
+      "v": "celebrating",
+      "pie": "celebrating",
+      "id": "H"
+     }
+    ],
+    "answers": {
+     "Oliver": "H",
+     "Diego": "C",
+     "Iris": "D",
+     "Lia": "E",
+     "Bruno": "A"
+    },
+    "modo": "pose",
+    "script": "Écoute et associe chaque personne à ce qu'elle faisait. Il y a un exemple. … Diego : Oliver ? … Oliver : Je faisais la fête. … Diego : Diego ? … Diego : Je parlais. … Diego : Iris ? … Iris : Je montrais du doigt. … Diego : Lia ? … Lia : Je faisais signe. … Diego : Bruno ? … Bruno : Je réfléchissais.",
+    "voice_note": "Diego pregunta; cada uno responde."
+   },
+   "code": "I"
+  },
+  {
+   "type": "label_people",
+   "title": "Écoute et écris les prénoms.",
+   "instructions": "Regarde l'image. Écoute et écris le prénom sous chaque personne. Attention : il y a trois prénoms en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "La nature"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et écrire le prénom de chaque personne de l'image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u44-g.mp3",
+   "data": {
+    "scene": "mirador",
+    "place": "le belvédère",
+    "people": [
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "clue": "le garçon aux cheveux roux et au t-shirt jaune",
+      "action": "chante",
+      "pose": 7
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "clue": "le garçon au t-shirt rouge avec un microphone",
+      "action": "pose des questions avec son microphone",
+      "pose": 7
+     },
+     {
+      "slug": "samu",
+      "name": "Samu",
+      "clue": "le garçon aux cheveux blonds courts avec un sac à dos",
+      "action": "fait signe",
+      "pose": 7
+     },
+     {
+      "slug": "aiko",
+      "name": "Aiko",
+      "clue": "la fille aux longs cheveux noirs raides et au t-shirt orange",
+      "action": "lit un livre",
+      "pose": 7
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "clue": "la fille aux nattes noires et au t-shirt violet",
+      "action": "saute à la corde",
+      "pose": 7
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Bruno",
+     "Diego",
+     "Lia",
+     "Mr Vega",
+     "Oliver",
+     "Samu",
+     "Tino"
+    ],
+    "script": "Regarde l'image. Écoute et écris les prénoms. Il y a un exemple. … Diego : Qui est-ce au belvédère ? Le garçon aux cheveux roux et au t-shirt jaune. … Maya : C'est Oliver. Oliver chante. … Diego : Et qui est le garçon au t-shirt rouge avec un microphone ? … Maya : C'est Diego. Regarde, Diego pose des questions avec son microphone. … Diego : Et qui est le garçon aux cheveux blonds courts avec un sac à dos ? … Maya : C'est Samu. Regarde, Samu fait signe. … Diego : Et qui est la fille aux longs cheveux noirs raides et au t-shirt orange ? … Maya : C'est Aiko. Regarde, Aiko lit un livre. … Diego : Et qui est la fille aux nattes noires et au t-shirt violet ? … Maya : C'est Lia. Regarde, Lia saute à la corde.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  },
+  {
+   "type": "picture_mc",
+   "title": "Écoute et coche la bonne case.",
+   "instructions": "Écoute chaque question et clique sur l'image qui répond.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "La nature"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et cocher la bonne image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u44-j.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "Qu'est-ce qu'Oliver a fait hier ?",
+      "answer": "parler",
+      "options": [
+       {
+        "k": "pose",
+        "slug": "oliver",
+        "pose": 3,
+        "v": "talking",
+        "pie": "talking"
+       },
+       {
+        "k": "pose",
+        "slug": "oliver",
+        "pose": 10,
+        "v": "celebrating",
+        "pie": "celebrating"
+       },
+       {
+        "k": "pose",
+        "slug": "oliver",
+        "pose": 4,
+        "v": "thinking",
+        "pie": "thinking"
+       }
+      ],
+      "script": "Qu'est-ce qu'Oliver a fait hier ? … Oliver : Hier j'ai passé l'après-midi à parler."
+     },
+     {
+      "q": "Qu'est-ce que Diego a fait hier ?",
+      "answer": "faire la fête",
+      "options": [
+       {
+        "k": "pose",
+        "slug": "diego",
+        "pose": 10,
+        "v": "celebrating",
+        "pie": "celebrating"
+       },
+       {
+        "k": "pose",
+        "slug": "diego",
+        "pose": 7,
+        "v": "running",
+        "pie": "running"
+       },
+       {
+        "k": "pose",
+        "slug": "diego",
+        "pose": 6,
+        "v": "sitting down",
+        "pie": "sitting down"
+       }
+      ],
+      "script": "Qu'est-ce que Diego a fait hier ? … Diego : Hier j'ai passé l'après-midi à faire la fête."
+     },
+     {
+      "q": "Qu'est-ce que Tino a fait hier ?",
+      "answer": "assis",
+      "options": [
+       {
+        "k": "pose",
+        "slug": "tino",
+        "pose": 7,
+        "v": "running",
+        "pie": "running"
+       },
+       {
+        "k": "pose",
+        "slug": "tino",
+        "pose": 3,
+        "v": "talking",
+        "pie": "talking"
+       },
+       {
+        "k": "pose",
+        "slug": "tino",
+        "pose": 6,
+        "v": "sitting down",
+        "pie": "sitting down"
+       }
+      ],
+      "script": "Qu'est-ce que Tino a fait hier ? … Tino : Hier j'ai passé l'après-midi assis."
+     }
+    ],
+    "modo": "pose",
+    "script": "Écoute et coche la bonne case. Il y a un exemple. … Qu'est-ce qu'Oliver a fait hier ? … Oliver : Hier j'ai passé l'après-midi à parler. … Qu'est-ce que Diego a fait hier ? … Diego : Hier j'ai passé l'après-midi à faire la fête. … Qu'est-ce que Tino a fait hier ? … Tino : Hier j'ai passé l'après-midi assis.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "J"
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris l'histoire d'une bonne journée avec 6 passés irréguliers : est allé, a vu, a acheté, a mangé, a gagné, a fait…"
+  }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 3,
+  "tema": "La nature",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Raconter des histoires au passé, au présent et au futur ; exprimer ses préférences avec des raisons."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et comprendre des histoires courtes (80 à 250 mots) ; trouver l'idée principale et les détails."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~2500 mots ; passé composé, questions négatives, si + présent, futur proche."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

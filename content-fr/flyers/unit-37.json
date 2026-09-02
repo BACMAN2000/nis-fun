@@ -1,0 +1,721 @@
+{
+ "id": "flyers-fr-37",
+ "level": "flyers",
+ "number": 37,
+ "title": "S'amuser",
+ "topic": "les loisirs",
+ "grammar": "aimer / adorer + infinitif",
+ "wordlist": [
+  "passe-temps",
+  "collectionner",
+  "échecs",
+  "bandes dessinées",
+  "photographie",
+  "cuisine",
+  "danse",
+  "peinture",
+  "puzzle",
+  "jeu de plateau"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 1,
+  "skill": "définitions"
+ },
+ "characters": [
+  "diego",
+  "oliver"
+ ],
+ "scene": {
+  "speaker": "diego",
+  "pose": {
+   "diego": 3,
+   "oliver": 1
+  },
+  "bubble": "Nouvelle série sur Radio Aurore : les passe-temps secrets ! Tu savais que notre prof de maths collectionne les petites cuillères ?"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Lis les phrases et écris les mots des loisirs.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "ECHECS",
+      "clue": "Un jeu de plateau avec des rois, des reines et des cavaliers."
+     },
+     {
+      "word": "BANDESDESSINEES",
+      "clue": "Des livres avec des images et des bulles."
+     },
+     {
+      "word": "PHOTOGRAPHIE",
+      "clue": "Prendre des photos avec un appareil."
+     },
+     {
+      "word": "DANSE",
+      "clue": "Bouger son corps sur la musique."
+     },
+     {
+      "word": "PUZZLE",
+      "clue": "Tu assembles plein de petites pièces pour faire une image."
+     },
+     {
+      "word": "PEINTURE",
+      "clue": "Faire des images avec des couleurs et un pinceau."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Associe la personne et son loisir.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Personne",
+    "right_label": "Loisir",
+    "pairs": [
+     {
+      "left": "Elle adore cuisiner",
+      "right": "de nouvelles recettes d'autres pays"
+     },
+     {
+      "left": "Il aime collectionner",
+      "right": "des timbres de tous les continents"
+     },
+     {
+      "left": "Ils aiment jouer",
+      "right": "aux échecs dans le parc"
+     },
+     {
+      "left": "J'adore lire",
+      "right": "des bandes dessinées de héros de l'espace"
+     },
+     {
+      "left": "On aime faire",
+      "right": "des puzzles de 1000 pièces"
+     },
+     {
+      "left": "Elle aime prendre",
+      "right": "des photos d'oiseaux"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute le reportage sur les passe-temps secrets. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u37-c.mp3",
+   "data": {
+    "voice_note": "Voces: Diego (reportero) y Oliver (invitado).",
+    "script": "Diego : Passe-temps secrets, épisode un ! D'abord : notre prof de maths collectionne les petites cuillères. Il en a quatre-vingt-douze ! … Oliver : Quatre-vingt-douze cuillères ! Où est-ce qu'il les garde ? … Diego : Sur trois étagères dans sa cuisine. Ensuite : la cuisinière de l'école adore la photographie. … Diego : Elle prend des photos de nuages tous les matins avant le travail. … Oliver : Magnifique ! Et toi, Diego ? … Diego : Moi ? Je collectionne les vieilles radios. Mon papi m'a donné la première. … Oliver : Et mon passe-temps secret, c'est… la cuisine ! Je fais d'excellentes crêpes à la banane. … Diego : Demain : est-ce que le directeur danse vraiment le tango ? Ne le ratez pas !",
+    "questions": [
+     {
+      "q": "Le prof de maths a … petites cuillères.",
+      "answer": "quatre-vingt-douze"
+     },
+     {
+      "q": "Il les garde sur trois …",
+      "answer": "étagères"
+     },
+     {
+      "q": "La cuisinière prend des photos de … tous les matins.",
+      "answer": "nuages"
+     },
+     {
+      "q": "Diego collectionne de vieilles …",
+      "answer": "radios"
+     },
+     {
+      "q": "Oliver fait d'excellentes … à la banane.",
+      "answer": "crêpes"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis la bonne forme.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis les bons mots.",
+    "items": [
+     {
+      "sentence": "J'aime ___ des photos d'animaux.",
+      "options": [
+       "prendre",
+       "en train de prendre",
+       "à prendre"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Elle adore ___ aux échecs avec son papi.",
+      "options": [
+       "en train de jouer",
+       "jouer",
+       "a joué"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Une activité que tu fais pour le plaisir est un …",
+      "options": [
+       "tâche ménagère",
+       "passe-temps",
+       "habitude"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Il ___ de vieilles pièces de beaucoup de pays.",
+      "options": [
+       "collectionne",
+       "fait",
+       "fait"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le Monopoly et les échecs sont des jeux de …",
+      "options": [
+       "tableau",
+       "ennuyé",
+       "large"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Détective des loisirs : pose des questions oui/non pour découvrir le loisir préféré de ton camarade : « Tu le fais à l'intérieur ? Il te faut de la musique ? » Huit questions maximum !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Regarde A et B. Qu'est-ce qui change ?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 11 différences et parles-en avec ton camarade.",
+   "data": {}
+  },
+  {
+   "type": "picture_story",
+   "title": "Regarde les trois images et écris l'histoire.",
+   "instructions": "Regarde les images. Écris l'histoire en 20-25 mots. Aide-toi des mots sous chaque image.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "La nature"
+    },
+    "destreza": "Writing",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots.",
+    "clase": "Type examen : histoire en images de 20 à 25 mots (production écrite)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "garden",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 4
+       }
+      ],
+      "word": "",
+      "hint": "Diego / dans le jardin de l'école",
+      "model": "Un matin Diego est au jardin de l'école."
+     },
+     {
+      "n": 2,
+      "scene": "mirador",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 3
+       },
+       {
+        "slug": "oliver",
+        "pose": 3
+       }
+      ],
+      "word": "",
+      "hint": "Diego / rencontrer / Oliver",
+      "model": "Ensuite Diego rencontre Oliver au belvédère."
+     },
+     {
+      "n": 3,
+      "scene": "labyrinth",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 10
+       },
+       {
+        "slug": "oliver",
+        "pose": 10
+       }
+      ],
+      "word": "",
+      "hint": "au labyrinthe / content",
+      "model": "Au labyrinthe ils sont très contents ensemble."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Un matin Diego est au jardin de l'école. Ensuite Diego rencontre Oliver au belvédère. Au labyrinthe ils sont très contents ensemble.",
+    "words": [],
+    "support": {
+     "grammar": "aimer / adorer + infinitif",
+     "words": [
+      "passe-temps",
+      "collectionner",
+      "échecs",
+      "bandes dessinées",
+      "photographie",
+      "cuisine"
+     ]
+    }
+   },
+   "code": "H"
+  },
+  {
+   "type": "picture_mc",
+   "title": "Écoute et coche la bonne case.",
+   "instructions": "Écoute chaque question et clique sur l'image qui répond.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "La nature"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et cocher la bonne image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u37-i.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "Qu'est-ce que Diego aime faire ?",
+      "answer": "parler",
+      "options": [
+       {
+        "k": "pose",
+        "slug": "diego",
+        "pose": 3,
+        "v": "talking",
+        "pie": "talking"
+       },
+       {
+        "k": "pose",
+        "slug": "diego",
+        "pose": 7,
+        "v": "running",
+        "pie": "running"
+       },
+       {
+        "k": "pose",
+        "slug": "diego",
+        "pose": 6,
+        "v": "sitting down",
+        "pie": "sitting down"
+       }
+      ],
+      "script": "Qu'est-ce que Diego aime faire ? … Diego : J'adore parler."
+     },
+     {
+      "q": "Qu'est-ce qu'Oliver aime faire ?",
+      "answer": "faire la fête",
+      "options": [
+       {
+        "k": "pose",
+        "slug": "oliver",
+        "pose": 4,
+        "v": "thinking",
+        "pie": "thinking"
+       },
+       {
+        "k": "pose",
+        "slug": "oliver",
+        "pose": 7,
+        "v": "running",
+        "pie": "running"
+       },
+       {
+        "k": "pose",
+        "slug": "oliver",
+        "pose": 10,
+        "v": "celebrating",
+        "pie": "celebrating"
+       }
+      ],
+      "script": "Qu'est-ce qu'Oliver aime faire ? … Oliver : J'adore faire la fête."
+     },
+     {
+      "q": "Qu'est-ce que Bruno aime faire ?",
+      "answer": "course",
+      "options": [
+       {
+        "k": "pose",
+        "slug": "bruno",
+        "pose": 3,
+        "v": "talking",
+        "pie": "talking"
+       },
+       {
+        "k": "pose",
+        "slug": "bruno",
+        "pose": 7,
+        "v": "running",
+        "pie": "running"
+       },
+       {
+        "k": "pose",
+        "slug": "bruno",
+        "pose": 6,
+        "v": "sitting down",
+        "pie": "sitting down"
+       }
+      ],
+      "script": "Qu'est-ce que Bruno aime faire ? … Bruno : J'adore courir."
+     },
+     {
+      "q": "Qu'est-ce qu'Ingrid aime faire ?",
+      "answer": "faire la fête",
+      "options": [
+       {
+        "k": "pose",
+        "slug": "ingrid",
+        "pose": 4,
+        "v": "thinking",
+        "pie": "thinking"
+       },
+       {
+        "k": "pose",
+        "slug": "ingrid",
+        "pose": 3,
+        "v": "talking",
+        "pie": "talking"
+       },
+       {
+        "k": "pose",
+        "slug": "ingrid",
+        "pose": 10,
+        "v": "celebrating",
+        "pie": "celebrating"
+       }
+      ],
+      "script": "Qu'est-ce qu'Ingrid aime faire ? … Ingrid : J'adore faire la fête."
+     }
+    ],
+    "modo": "pose",
+    "script": "Écoute et coche la bonne case. Il y a un exemple. … Qu'est-ce que Diego aime faire ? … Diego : J'adore parler. … Qu'est-ce qu'Oliver aime faire ? … Oliver : J'adore faire la fête. … Qu'est-ce que Bruno aime faire ? … Bruno : J'adore courir. … Qu'est-ce qu'Ingrid aime faire ? … Ingrid : J'adore faire la fête.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "I"
+  },
+  {
+   "type": "match_pictures",
+   "title": "Écoute et associe chaque personne à ce qu'elle faisait.",
+   "instructions": "Écoute. Puis choisis la lettre de l'image pour chaque personne. Attention : certaines images sont en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "La nature"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et associer chaque personne à une image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 3
+    }
+   },
+   "audio": "flyers/u37-j.mp3",
+   "data": {
+    "people": [
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 3
+     },
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "pose": 3
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "pose": 3
+     },
+     {
+      "slug": "aiko",
+      "name": "Aiko",
+      "pose": 3
+     },
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 3
+     }
+    ],
+    "pictures": [
+     {
+      "k": "pose",
+      "slug": "diego",
+      "pose": 3,
+      "v": "talking",
+      "pie": "talking",
+      "id": "A"
+     },
+     {
+      "k": "pose",
+      "slug": "diego",
+      "pose": 4,
+      "v": "thinking",
+      "pie": "thinking",
+      "id": "B"
+     },
+     {
+      "k": "pose",
+      "slug": "diego",
+      "pose": 10,
+      "v": "celebrating",
+      "pie": "celebrating",
+      "id": "C"
+     },
+     {
+      "k": "pose",
+      "slug": "diego",
+      "pose": 2,
+      "v": "pointing",
+      "pie": "pointing",
+      "id": "D"
+     },
+     {
+      "k": "pose",
+      "slug": "diego",
+      "pose": 7,
+      "v": "running",
+      "pie": "running",
+      "id": "E"
+     },
+     {
+      "k": "pose",
+      "slug": "diego",
+      "pose": 6,
+      "v": "sitting down",
+      "pie": "sitting down",
+      "id": "F"
+     },
+     {
+      "k": "pose",
+      "slug": "diego",
+      "pose": 1,
+      "v": "waving",
+      "pie": "waving",
+      "id": "G"
+     },
+     {
+      "k": "pose",
+      "slug": "diego",
+      "pose": 8,
+      "v": "holding something",
+      "pie": "holding something",
+      "id": "H"
+     }
+    ],
+    "answers": {
+     "Diego": "A",
+     "Oliver": "D",
+     "Lia": "C",
+     "Aiko": "H",
+     "Maya": "F"
+    },
+    "modo": "pose",
+    "script": "Écoute et associe chaque personne à ce qu'elle faisait. Il y a un exemple. … Diego : Diego ? … Diego : Je parlais. … Diego : Oliver ? … Oliver : Je montrais du doigt. … Diego : Lia ? … Lia : Je faisais la fête. … Diego : Aiko ? … Aiko : Je tenais quelque chose. … Diego : Maya ? … Maya : J'étais assise.",
+    "voice_note": "Diego pregunta; cada uno responde."
+   },
+   "code": "J"
+  },
+  {
+   "type": "label_people",
+   "title": "Écoute et écris les prénoms.",
+   "instructions": "Regarde l'image. Écoute et écris le prénom sous chaque personne. Attention : il y a trois prénoms en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "La nature"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et écrire le prénom de chaque personne de l'image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u37-g.mp3",
+   "data": {
+    "scene": "garden",
+    "place": "le jardin de l'école",
+    "people": [
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "clue": "le garçon au t-shirt rouge avec un microphone",
+      "action": "pose des questions avec son microphone",
+      "pose": 7
+     },
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "clue": "le garçon aux cheveux roux et au t-shirt jaune",
+      "action": "chante",
+      "pose": 7
+     },
+     {
+      "slug": "kili",
+      "name": "Kili",
+      "clue": "le grand oiseau noir avec un collier blanc",
+      "action": "porte une lettre",
+      "pose": 3
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "clue": "le garçon aux cheveux bruns bouclés et au t-shirt vert",
+      "action": "court après le ballon",
+      "pose": 7
+     },
+     {
+      "slug": "aiko",
+      "name": "Aiko",
+      "clue": "la fille aux longs cheveux noirs raides et au t-shirt orange",
+      "action": "lit un livre",
+      "pose": 7
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Bruno",
+     "Diego",
+     "Iris",
+     "Kili",
+     "Maya",
+     "Mr Vega",
+     "Oliver"
+    ],
+    "script": "Regarde l'image. Écoute et écris les prénoms. Il y a un exemple. … Diego : Qui est-ce dans le jardin de l'école ? Le garçon au t-shirt rouge avec un microphone. … Maya : C'est Diego. Diego pose des questions avec son microphone. … Diego : Et qui est le garçon aux cheveux roux et au t-shirt jaune ? … Maya : C'est Oliver. Regarde, Oliver chante. … Diego : Et qui est le grand oiseau noir avec un collier blanc ? … Maya : C'est Kili. Regarde, Kili porte une lettre. … Diego : Et qui est le garçon aux cheveux bruns bouclés et au t-shirt vert ? … Maya : C'est Bruno. Regarde, Bruno court après le ballon. … Diego : Et qui est la fille aux longs cheveux noirs raides et au t-shirt orange ? … Maya : C'est Aiko. Regarde, Aiko lit un livre.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris sur ton loisir : ce que c'est, quand tu le fais, pourquoi tu l'adores, et une chose que tu as faite / gagnée / collectionnée. 4-5 phrases."
+  }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 3,
+  "tema": "La nature",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Raconter des histoires au passé, au présent et au futur ; exprimer ses préférences avec des raisons."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et comprendre des histoires courtes (80 à 250 mots) ; trouver l'idée principale et les détails."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~2500 mots ; passé composé, questions négatives, si + présent, futur proche."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

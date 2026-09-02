@@ -1,0 +1,472 @@
+{
+ "id": "flyers-fr-28",
+ "level": "flyers",
+ "number": 28,
+ "title": "Ils étaient fatigués, alors…",
+ "topic": "alors / parce que",
+ "grammar": "alors (le résultat) / parce que (la cause)",
+ "wordlist": [
+  "fatigué",
+  "affamé",
+  "assoiffé",
+  "ennuyé",
+  "excité",
+  "effrayé",
+  "alors",
+  "parce que",
+  "raison",
+  "dormir"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 5,
+  "skill": "finir l'histoire"
+ },
+ "characters": [
+  "maya",
+  "oliver"
+ ],
+ "scene": {
+  "speaker": "maya",
+  "pose": {
+   "maya": 4,
+   "oliver": 6
+  },
+  "bubble": "Oliver s'est endormi à la bibliothèque parce qu'il a répété toute la nuit. Il était TELLEMENT fatigué qu'il a ronflé sur le dictionnaire !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe la cause et le résultat.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Cause",
+    "right_label": "…alors…",
+    "pairs": [
+     {
+      "left": "Ils étaient fatigués,",
+      "right": "alors ils se sont couchés tôt"
+     },
+     {
+      "left": "Il avait faim,",
+      "right": "alors il a fait un sandwich"
+     },
+     {
+      "left": "Elle avait soif,",
+      "right": "alors elle a bu deux verres d'eau"
+     },
+     {
+      "left": "On s'ennuyait,",
+      "right": "alors on a inventé un nouveau jeu"
+     },
+     {
+      "left": "J'avais peur du noir,",
+      "right": "alors j'ai allumé la lumière"
+     },
+     {
+      "left": "Il a commencé à pleuvoir,",
+      "right": "alors on est rentrés vite à la maison"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis alors ou parce que.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "J'ai pris mon parapluie ___ il pleuvait.",
+      "options": [
+       "alors",
+       "parce que",
+       "mais"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Il pleuvait, ___ j'ai pris mon parapluie.",
+      "options": [
+       "alors",
+       "parce que",
+       "ou"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Elle était excitée ___ c'était son anniversaire.",
+      "options": [
+       "alors",
+       "parce que",
+       "et"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Le film était ennuyeux, ___ on est partis tôt.",
+      "options": [
+       "parce que",
+       "alors",
+       "si"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Il a mal dormi, ___ il est fatigué aujourd'hui.",
+      "options": [
+       "parce que",
+       "mais",
+       "alors"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute l'histoire du concert endormi. Écris un mot dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u28-c.mp3",
+   "data": {
+    "voice_note": "Voces: Maya (narradora divertida) y Oliver (defendiéndose).",
+    "script": "Maya : Laisse-moi raconter à tout le monde ce qui s'est passé, Oliver ! … Maya : Oliver a répété sa guitare jusqu'à trois heures du matin. … Maya : Alors le lendemain il était très, très fatigué. … Maya : Il s'est endormi à la bibliothèque, sur un énorme dictionnaire ! … Oliver : Parce que le dictionnaire était moelleux ! Enfin… non, pas du tout. … Maya : Il a ronflé si fort que la bibliothécaire a cru que c'était le tonnerre. … Maya : Alors maintenant il y a une nouvelle règle à la bibliothèque : interdit de dormir sur les dictionnaires ! … Oliver : Et moi aussi j'ai une nouvelle règle : répéter jusqu'à dix heures, et après dormir !",
+    "questions": [
+     {
+      "q": "Oliver a répété jusqu'à … heures du matin.",
+      "answer": "trois"
+     },
+     {
+      "q": "Il s'est endormi à la …",
+      "answer": "bibliothèque"
+     },
+     {
+      "q": "Il a dormi sur un énorme …",
+      "answer": "dictionnaire"
+     },
+     {
+      "q": "La bibliothécaire a cru que le ronflement était le …",
+      "answer": "tonnerre"
+     },
+     {
+      "q": "La nouvelle règle d'Oliver : répéter jusqu'à … heures.",
+      "answer": "dix"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Quand tu as besoin d'eau, tu as …",
+      "options": [
+       "assoiffé",
+       "ennuyé",
+       "fatigué"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Quand rien n'est intéressant, tu t'…",
+      "options": [
+       "excité",
+       "ennuyé",
+       "courageux"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Avant une fête d'anniversaire, les enfants sont …",
+      "options": [
+       "excité",
+       "fatigué",
+       "effrayé"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Il avait ___ du gros chien, alors il a traversé la rue.",
+      "options": [
+       "effrayé",
+       "affamé",
+       "poli"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "La ___ pour laquelle je suis en retard, c'est la circulation.",
+      "options": [
+       "nouvelles",
+       "raison",
+       "prix"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Histoire en chaîne : l'élève A commence « J'avais faim, alors… ». L'élève B continue le résultat et ajoute une nouvelle cause : « …alors j'ai ouvert le frigo, mais il était vide, alors… ». Continuez pendant 6 tours !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "A et B ne sont pas pareils. Trouve pourquoi !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  },
+  {
+   "type": "picture_story",
+   "title": "Regarde les trois images et écris l'histoire.",
+   "instructions": "Regarde les images. Écris l'histoire en 20-25 mots. Aide-toi des mots sous chaque image.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 2,
+     "nombre": "La vie de tous les jours"
+    },
+    "destreza": "Writing",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots.",
+    "clase": "Type examen : histoire en images de 20 à 25 mots (production écrite)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "chess-plaza",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 4
+       }
+      ],
+      "word": "excité",
+      "hint": "Maya / être / excitée",
+      "model": "Maya est excitée à la place des échecs."
+     },
+     {
+      "n": 2,
+      "scene": "picnic-garden",
+      "people": [
+       {
+        "slug": "oliver",
+        "pose": 3
+       },
+       {
+        "slug": "maya",
+        "pose": 6
+       }
+      ],
+      "word": "ennuyé",
+      "hint": "Oliver / parler à / Maya / ennuyé",
+      "model": "Oliver parle à Maya parce qu'elle a l'air de s'ennuyer."
+     },
+     {
+      "n": 3,
+      "scene": "main-building",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 10
+       },
+       {
+        "slug": "oliver",
+        "pose": 1
+       }
+      ],
+      "word": "fatigué",
+      "hint": "maintenant / tous les deux / fatigués",
+      "model": "Maintenant ils sont tous les deux fatigués et ils sourient."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Maya est excitée à la place des échecs. Oliver parle à Maya parce qu'elle a l'air de s'ennuyer. Maintenant ils sont tous les deux fatigués et ils sourient.",
+    "words": [
+     "excité",
+     "ennuyé",
+     "fatigué"
+    ],
+    "support": {
+     "grammar": "alors (le résultat) / parce que (la cause)",
+     "words": [
+      "fatigué",
+      "affamé",
+      "assoiffé",
+      "ennuyé",
+      "excité",
+      "effrayé"
+     ]
+    }
+   },
+   "code": "H"
+  },
+  {
+   "type": "label_people",
+   "title": "Écoute et écris les prénoms.",
+   "instructions": "Regarde l'image. Écoute et écris le prénom sous chaque personne. Attention : il y a trois prénoms en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 2,
+     "nombre": "La vie de tous les jours"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et écrire le prénom de chaque personne de l'image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u28-g.mp3",
+   "data": {
+    "scene": "picnic-garden",
+    "place": "le jardin du pique-nique",
+    "people": [
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "clue": "la fille au t-shirt vert avec une loupe",
+      "action": "observe quelque chose de tout petit",
+      "pose": 7
+     },
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "clue": "le garçon aux cheveux roux et au t-shirt jaune",
+      "action": "chante",
+      "pose": 7
+     },
+     {
+      "slug": "samu",
+      "name": "Samu",
+      "clue": "le garçon aux cheveux blonds courts avec un sac à dos",
+      "action": "fait signe",
+      "pose": 7
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "clue": "le garçon aux cheveux bruns bouclés et au t-shirt vert",
+      "action": "court après le ballon",
+      "pose": 7
+     },
+     {
+      "slug": "aiko",
+      "name": "Aiko",
+      "clue": "la fille aux longs cheveux noirs raides et au t-shirt orange",
+      "action": "lit un livre",
+      "pose": 7
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Bruno",
+     "Diego",
+     "Iris",
+     "Lia",
+     "Maya",
+     "Oliver",
+     "Samu"
+    ],
+    "script": "Regarde l'image. Écoute et écris les prénoms. Il y a un exemple. … Diego : Qui est-ce dans le jardin du pique-nique ? La fille au t-shirt vert avec une loupe. … Maya : C'est Maya. Maya observe quelque chose de tout petit. … Diego : Et qui est le garçon aux cheveux roux et au t-shirt jaune ? … Maya : C'est Oliver. Regarde, Oliver chante. … Diego : Et qui est le garçon aux cheveux blonds courts avec un sac à dos ? … Maya : C'est Samu. Regarde, Samu fait signe. … Diego : Et qui est le garçon aux cheveux bruns bouclés et au t-shirt vert ? … Maya : C'est Bruno. Regarde, Bruno court après le ballon. … Diego : Et qui est la fille aux longs cheveux noirs raides et au t-shirt orange ? … Maya : C'est Aiko. Regarde, Aiko lit un livre.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris 3 phrases avec alors et 2 avec parce que sur ta vraie semaine : J'étais fatigué lundi parce que…"
+  }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 2,
+  "tema": "La vie de tous les jours",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Raconter des histoires au passé, au présent et au futur ; exprimer ses préférences avec des raisons."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et comprendre des histoires courtes (80 à 250 mots) ; trouver l'idée principale et les détails."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~2500 mots ; passé composé, questions négatives, si + présent, futur proche."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

@@ -1,0 +1,300 @@
+{
+ "id": "movers-fr-31",
+ "level": "movers",
+ "number": 31,
+ "title": "Le meilleur de la classe",
+ "topic": "les superlatifs",
+ "grammar": "le superlatif : le plus / le meilleur",
+ "wordlist": [
+  "le meilleur",
+  "le plus grand",
+  "le plus grand",
+  "le plus rapide",
+  "le plus drôle",
+  "le plus petit",
+  "le plus vieux",
+  "le plus jeune",
+  "le plus fort",
+  "classe"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 3,
+  "skill": "associations"
+ },
+ "characters": [
+  "mateo",
+  "valentina"
+ ],
+ "scene": {
+  "speaker": "valentina",
+  "pose": {
+   "valentina": 10,
+   "mateo": 10
+  },
+  "bubble": "Jour des records de la classe ! Le coureur le plus rapide, la meilleure chanteuse, la blague la plus drôle… tout le monde gagne quelque chose !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe le record et son gagnant.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Record",
+    "right_label": "Gagnant",
+    "pairs": [
+     {
+      "left": "le coureur le plus rapide",
+      "right": "Sofia, bien sûr"
+     },
+     {
+      "left": "le meilleur inventeur",
+      "right": "Erik et ses robots"
+     },
+     {
+      "left": "le conteur le plus drôle",
+      "right": "Valentina"
+     },
+     {
+      "left": "le plus grand cœur",
+      "right": "Mateo, l'ami de tout le monde"
+     },
+     {
+      "left": "l'aboiement le plus fort",
+      "right": "Luna !"
+     },
+     {
+      "left": "le bureau le mieux rangé",
+      "right": "personne — on y travaille"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis le bon superlatif.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "La baleine bleue est ___ animal du monde.",
+      "options": [
+       "le plus grand",
+       "le plus gros de",
+       "le plus grand"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Lundi est ___ jour de la semaine. Si dur !",
+      "options": [
+       "le plus long",
+       "le plus longue",
+       "plus long de"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Ma mamie est ___ personne de la famille.",
+      "options": [
+       "le plus vieux",
+       "la plus vieille de",
+       "le plus vieux"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "C'était ___ blague de tous les temps ! Ha ha !",
+      "options": [
+       "le plus drôle",
+       "la plus drôles",
+       "plus drôle"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Notre bébé cousin est ___ de la maison.",
+      "options": [
+       "le plus jeune",
+       "le plus jeunes",
+       "jeune"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute la cérémonie des records. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u31-c.mp3",
+   "data": {
+    "voice_note": "Voces: Valentina (presentadora) y Mateo (aplaudiendo todo).",
+    "script": "Valentina : Cérémonie des records de la classe ! D'abord : la coureuse la plus rapide… Sofia, avec huit secondes ! … Mateo : Le meilleur dessin de l'année va à Pedro, pour son dragon à trois têtes. … Valentina : Prix du plus grand sourire : Mateo ! Il a souri sur toutes les photos de l'année. … Mateo : C'est vrai. Même sur la photo du dentiste ! … Valentina : La lectrice la plus silencieuse : Ana — elle a lu quarante livres cette année. … Mateo : Et le prix spécial : Luna, la meilleure chienne assistante de l'histoire de l'école ! … Valentina : Félicitations à tous ! Et maintenant : le plus gros gâteau de l'année !",
+    "questions": [
+     {
+      "q": "Sofía a couru en … secondes.",
+      "answer": "huit"
+     },
+     {
+      "q": "Pedro a dessiné un dragon à trois …",
+      "answer": "têtes"
+     },
+     {
+      "q": "Mateo a souri même sur la photo du …",
+      "answer": "dentiste"
+     },
+     {
+      "q": "Ana a lu … livres cette année.",
+      "answer": "quarante"
+     },
+     {
+      "q": "La cérémonie finit par le plus gros … de l'année.",
+      "answer": "gâteau"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Le guépard est ___ animal terrestre.",
+      "options": [
+       "le plus rapide",
+       "le plus rapides",
+       "rapide"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "La fourmi est un des ___ insectes.",
+      "options": [
+       "le plus petit",
+       "plus petits",
+       "petit"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Papa est ___ personne de la famille — il porte tout !",
+      "options": [
+       "le plus fort",
+       "la plus forts",
+       "fort"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Qui est ___ élève de la classe ? » — « Nous tous ! »",
+      "options": [
+       "le meilleur",
+       "le meilleurs",
+       "bon"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "L'Everest est ___ montagne de la Terre.",
+      "options": [
+       "la plus haute",
+       "la plus hautes",
+       "haut"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Inventez 4 records rigolos de la classe avec ton camarade (le meilleur rire, la trousse la mieux rangée…) et décidez ensemble qui gagne chacun — avec une raison !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Deux images, plein de différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris les records de ta famille : le plus vieux, le plus jeune, le plus drôle, le meilleur cuisinier. Une phrase pour chacun avec parce que."
+  }
+ ],
+ "scope": {
+  "grado": "G4",
+  "temaN": 6,
+  "tema": "Mon avenir",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues plus longs ; repérer une information précise à l'oral."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire des lieux, des objets, des événements passés ; jouer une situation simple."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et remettre en ordre des histoires courtes ; trouver une information dans un panneau ou une affiche."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un message de 30 à 40 mots ; paragraphes de classe de 60 à 100 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~1350 mots ; passé composé, pronoms relatifs, pour + infinitif, devoir."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [
+   "Le futur : les prédictions et les décisions"
+  ],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

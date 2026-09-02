@@ -1,0 +1,316 @@
+{
+ "id": "starters-fr-23",
+ "level": "starters",
+ "number": 23,
+ "title": "Je sais sauter !",
+ "topic": "pouvoir",
+ "grammar": "je sais / je ne sais pas",
+ "wordlist": [
+  "sauter",
+  "courir",
+  "nager",
+  "voler",
+  "chanter",
+  "danser",
+  "dessiner",
+  "grimper",
+  "pouvoir",
+  "ne peut pas"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 4,
+  "skill": "les actions"
+ },
+ "characters": [
+  "tomas",
+  "pip"
+ ],
+ "scene": {
+  "speaker": "tomas",
+  "pose": {
+   "tomas": 7,
+   "pip": 1
+  },
+  "bubble": "Je sais sauter, je sais courir, je sais nager ! Pip sait voler… mais il ne sait pas faire du vélo !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe qui sait faire quoi.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Qui",
+    "right_label": "Sait…",
+    "pairs": [
+     {
+      "left": "Tomás",
+      "right": "courir très vite"
+     },
+     {
+      "left": "Pip",
+      "right": "voler au-dessus de la mer"
+     },
+     {
+      "left": "un poisson",
+      "right": "nager toute la journée"
+     },
+     {
+      "left": "Freya",
+      "right": "chanter de belles chansons"
+     },
+     {
+      "left": "un singe",
+      "right": "grimper aux grands arbres"
+     },
+     {
+      "left": "Astrid",
+      "right": "dessiner des étoiles parfaites"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis peut ou ne peut pas.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "Un oiseau ___ voler.",
+      "options": [
+       "pouvoir",
+       "ne peut pas",
+       "est"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un poisson ___ marcher.",
+      "options": [
+       "ne peut pas",
+       "pouvoir",
+       "n'est pas"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Je ___ sauter très haut !",
+      "options": [
+       "pouvoir",
+       "suis",
+       "avoir"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___ tu nager ? — Oui, je sais !",
+      "options": [
+       "Peux-tu",
+       "Sont",
+       "Est-ce que"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un bébé ___ conduire une voiture.",
+      "options": [
+       "ne peut pas",
+       "pouvoir",
+       "fait"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute le spectacle des talents. Écris un mot dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u23-c.mp3",
+   "data": {
+    "voice_note": "Voces: Tomás (presentador) y Freya (talentos).",
+    "script": "Tomás : Spectacle des talents ! Freya, qu'est-ce que tu sais faire ? … Freya : Je sais chanter ! La la la ! … Tomás : Magnifique ! Nico sait sauter comme un kangourou. Montre-nous, Nico ! … Freya : Waouh, si haut ! Astrid, qu'est-ce que tu sais faire ? … Tomás : Elle sait dessiner une étoile les yeux fermés ! … Freya : Et toi, Tomás ? … Tomás : Je sais faire le tour de la cour en une minute ! … Freya : Et Pip sait voler ET danser. Le gagnant est… tout le monde !",
+    "questions": [
+     {
+      "q": "Freya sait …",
+      "answer": "chanter"
+     },
+     {
+      "q": "Nico sait sauter comme un …",
+      "answer": "kangourou"
+     },
+     {
+      "q": "Astrid sait dessiner une étoile les yeux …",
+      "answer": "fermé"
+     },
+     {
+      "q": "Tomás sait faire le tour de la cour en une …",
+      "answer": "minute"
+     },
+     {
+      "q": "Pip sait voler et …",
+      "answer": "danser"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Les grenouilles savent ___ très haut.",
+      "options": [
+       "sauter",
+       "chanter",
+       "lire"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu ___ avec tes jambes.",
+      "options": [
+       "courir",
+       "dessiner",
+       "chanter"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu chantes avec ta …",
+      "options": [
+       "bouche",
+       "pieds",
+       "oreilles"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les singes savent ___ aux arbres.",
+      "options": [
+       "grimper",
+       "cuisinier",
+       "laver"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les manchots savent nager mais ils ___ voler.",
+      "options": [
+       "ne peut pas",
+       "pouvoir",
+       "sont"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Jeu du « tu sais ? » : « Tu sais sauter ? Montre-moi ! » Pose 4 questions et ton camarade fait l'action. Puis on échange !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Trouve les différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris 3 choses que tu sais faire et 2 que tu ne sais pas (encore !) faire : Je sais… Je ne sais pas…"
+  }
+ ],
+ "scope": {
+  "grado": "G1",
+  "temaN": 2,
+  "tema": "Ma classe",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Suivre les consignes de la classe ; reconnaître des mots connus dans une chanson ou une phrase courte."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Saluer ; dire son nom, son âge, les couleurs ; nommer des objets ; répondre par oui ou non."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Reconnaître les lettres de l'alphabet ; associer un mot à une image (famille, nourriture, animaux, corps)."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire son prénom ; recopier des mots ; légender une image (3 à 5 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~150 mots actifs ; le verbe être, un/une, c'est/ce sont, l'impératif."
+   }
+  ],
+  "vocabulario": [
+   "assieds-toi",
+   "lève-toi",
+   "ouvrir",
+   "fermer"
+  ],
+  "gramatica": [
+   "Les démonstratifs : ce / cette"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "sit down",
+    "stand up",
+    "open",
+    "close"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "assieds-toi",
+  "lève-toi",
+  "ouvrir",
+  "fermer"
+ ],
+ "lang": "fr"
+}

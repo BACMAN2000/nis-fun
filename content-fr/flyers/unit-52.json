@@ -1,0 +1,445 @@
+{
+ "id": "flyers-fr-52",
+ "level": "flyers",
+ "number": 52,
+ "title": "Jeux de mots",
+ "topic": "bilan de vocabulaire",
+ "grammar": "bilan de vocabulaire général",
+ "wordlist": [
+  "dictionnaire",
+  "orthographe",
+  "alphabet",
+  "lettre",
+  "voyelle",
+  "son",
+  "rime",
+  "en face de",
+  "paire",
+  "sens"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 1,
+  "skill": "définitions"
+ },
+ "characters": [
+  "ingrid",
+  "oliver"
+ ],
+ "scene": {
+  "speaker": "ingrid",
+  "pose": {
+   "ingrid": 10,
+   "oliver": 3
+  },
+  "bubble": "Championnat de jeux de mots ! Six manches, deux équipes, un dictionnaire comme arbitre. Que les meilleurs gagnent !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Des mots sur les mots ! Lis et écris.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "DICTIONNAIRE",
+      "clue": "Le livre où vivent tous les mots, de A à Z."
+     },
+     {
+      "word": "ORTHOGRAPHE",
+      "clue": "Dire un mot lettre par lettre : C-H-A-T."
+     },
+     {
+      "word": "ALPHABET",
+      "clue": "Toutes les lettres dans l'ordre, de A à Z."
+     },
+     {
+      "word": "VOYELLE",
+      "clue": "A, E, I, O ou U."
+     },
+     {
+      "word": "RIME",
+      "clue": "Quand deux mots finissent par le même son, comme chat et rat."
+     },
+     {
+      "word": "CONTRAIRE",
+      "clue": "Chaud et froid, grand et petit — ce sont des …"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Associe les paires qui riment.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Mot",
+    "right_label": "Ça rime avec…",
+    "pairs": [
+     {
+      "left": "nuit",
+      "right": "lumière"
+     },
+     {
+      "left": "pluie",
+      "right": "train"
+     },
+     {
+      "left": "ours",
+      "right": "chaise"
+     },
+     {
+      "left": "lune",
+      "right": "cuillère"
+     },
+     {
+      "left": "baleine",
+      "right": "queue"
+     },
+     {
+      "left": "étoile",
+      "right": "guitare"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute le championnat. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u52-c.mp3",
+   "data": {
+    "voice_note": "Voces: Ingrid (árbitro) y Oliver (capitán del equipo Puffins).",
+    "script": "Ingrid : Manche un : l'orthographe ! Équipe des Macareux, épelez le mot PHARE. … Oliver : P-H-A-R-E. Phare ! … Ingrid : Correct ! Dix points. Manche deux : trouvez une rime pour GUITARE. … Oliver : Gare ! Une gare pour ma guitare ! … Ingrid : Manche trois : le contraire d'ANCIEN. … Oliver : Moderne ! … Ingrid : Manche quatre : combien de voyelles dans le mot EDUCATION ? … Oliver : E-U-A-I-O… cinq ! … Ingrid : Incroyable ! Score final : Macareux quatre-vingt-dix, Dauphins quatre-vingt-cinq. … Oliver : On a gagné de cinq points ! Kili, apporte le trophée !",
+    "questions": [
+     {
+      "q": "L'équipe des Macareux a épelé le mot …",
+      "answer": "PHARE"
+     },
+     {
+      "q": "La rime pour guitare est …",
+      "answer": "étoile"
+     },
+     {
+      "q": "Le contraire d'ancien est …",
+      "answer": "moderne"
+     },
+     {
+      "q": "EDUCATION a … voyelles.",
+      "answer": "cinq"
+     },
+     {
+      "q": "Les Macareux ont gagné de … points.",
+      "answer": "cinq"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "A, E, I, O, U sont les …",
+      "options": [
+       "voyelles",
+       "rimes",
+       "paires"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Chat » et « rat » …",
+      "options": [
+       "rime",
+       "épeler",
+       "vouloir dire"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu cherches le ___ d'un mot dans le dictionnaire.",
+      "options": [
+       "sens",
+       "file d'attente",
+       "prix"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "L'___ français a 26 lettres.",
+      "options": [
+       "alphabet",
+       "dictionnaire",
+       "son"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Vide » est le ___ de « plein ».",
+      "options": [
+       "en face de",
+       "orthographe",
+       "voyelle"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Mini championnat : 3 manches contre ton camarade — épeler un mot, trouver une rime, dire un contraire. Utilise les mots de n'importe quelle unité du livre. Comptez les points !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Regarde A et B. Qu'est-ce qui change ?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  },
+  {
+   "type": "picture_story",
+   "title": "Regarde les trois images et écris l'histoire.",
+   "instructions": "Regarde les images. Écris l'histoire en 20-25 mots. Aide-toi des mots sous chaque image.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 4,
+     "nombre": "Gens et cultures"
+    },
+    "destreza": "Writing",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots.",
+    "clase": "Type examen : histoire en images de 20 à 25 mots (production écrite)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "facade",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 4
+       }
+      ],
+      "word": "",
+      "hint": "Ingrid / devant l'école",
+      "model": "Un matin Ingrid est devant l'école."
+     },
+     {
+      "n": 2,
+      "scene": "amphitheater",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 3
+       },
+       {
+        "slug": "oliver",
+        "pose": 3
+       }
+      ],
+      "word": "",
+      "hint": "Ingrid / rencontrer / Oliver",
+      "model": "Ensuite Ingrid rencontre Oliver à l'amphithéâtre."
+     },
+     {
+      "n": 3,
+      "scene": "funfair",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 10
+       },
+       {
+        "slug": "oliver",
+        "pose": 10
+       }
+      ],
+      "word": "",
+      "hint": "à la fête foraine / content",
+      "model": "À la fête foraine ils sont très contents ensemble."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Un matin Ingrid est devant l'école. Ensuite Ingrid rencontre Oliver à l'amphithéâtre. À la fête foraine ils sont très contents ensemble.",
+    "words": [],
+    "support": {
+     "grammar": "bilan de vocabulaire général",
+     "words": [
+      "dictionnaire",
+      "orthographe",
+      "alphabet",
+      "lettre",
+      "voyelle",
+      "son"
+     ]
+    }
+   },
+   "code": "H"
+  },
+  {
+   "type": "label_people",
+   "title": "Écoute et écris les prénoms.",
+   "instructions": "Regarde l'image. Écoute et écris le prénom sous chaque personne. Attention : il y a trois prénoms en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 4,
+     "nombre": "Gens et cultures"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et écrire le prénom de chaque personne de l'image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u52-g.mp3",
+   "data": {
+    "scene": "amphitheater",
+    "place": "l'amphithéâtre",
+    "people": [
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "clue": "la fille aux cheveux blonds et à la veste bleu foncé",
+      "action": "lit le programme de la journée",
+      "pose": 7
+     },
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "clue": "le garçon aux cheveux roux et au t-shirt jaune",
+      "action": "chante",
+      "pose": 7
+     },
+     {
+      "slug": "samu",
+      "name": "Samu",
+      "clue": "le garçon aux cheveux blonds courts avec un sac à dos",
+      "action": "fait signe",
+      "pose": 7
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "clue": "le garçon aux cheveux bruns bouclés et au t-shirt vert",
+      "action": "court après le ballon",
+      "pose": 7
+     },
+     {
+      "slug": "tino",
+      "name": "Tino",
+      "clue": "le garçon aux cheveux très courts et au t-shirt blanc et vert",
+      "action": "joue au hockey",
+      "pose": 7
+     }
+    ],
+    "names": [
+     "Bruno",
+     "Diego",
+     "Ingrid",
+     "Iris",
+     "Lia",
+     "Oliver",
+     "Samu",
+     "Tino"
+    ],
+    "script": "Regarde l'image. Écoute et écris les prénoms. Il y a un exemple. … Diego : Qui est-ce dans l'amphithéâtre ? La fille aux cheveux blonds et à la veste bleu foncé. … Maya : C'est Ingrid. Ingrid lit le programme de la journée. … Diego : Et qui est le garçon aux cheveux roux et au t-shirt jaune ? … Maya : C'est Oliver. Regarde, Oliver chante. … Diego : Et qui est le garçon aux cheveux blonds courts avec un sac à dos ? … Maya : C'est Samu. Regarde, Samu fait signe. … Diego : Et qui est le garçon aux cheveux bruns bouclés et au t-shirt vert ? … Maya : C'est Bruno. Regarde, Bruno court après le ballon. … Diego : Et qui est le garçon aux cheveux très courts et au t-shirt blanc et vert ? … Maya : C'est Tino. Regarde, Tino joue au hockey.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Invente un jeu de mots pour la classe : écris ses 3 règles en français. Le meilleur jeu se jouera vendredi !"
+  }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 4,
+  "tema": "Gens et cultures",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Raconter des histoires au passé, au présent et au futur ; exprimer ses préférences avec des raisons."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et comprendre des histoires courtes (80 à 250 mots) ; trouver l'idée principale et les détails."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~2500 mots ; passé composé, questions négatives, si + présent, futur proche."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

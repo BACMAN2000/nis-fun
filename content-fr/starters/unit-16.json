@@ -1,0 +1,296 @@
+{
+ "id": "starters-fr-16",
+ "level": "starters",
+ "number": 16,
+ "title": "À la ferme",
+ "topic": "ferme",
+ "grammar": "les cris des animaux + C'est un…",
+ "wordlist": [
+  "vache",
+  "cheval",
+  "mouton",
+  "canard",
+  "poule",
+  "cochon",
+  "chèvre",
+  "herbe",
+  "œuf",
+  "meuh"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 1,
+  "skill": "animaux de la ferme"
+ },
+ "characters": [
+  "tomas",
+  "pip"
+ ],
+ "scene": {
+  "speaker": "tomas",
+  "pose": {
+   "tomas": 1,
+   "pip": 5
+  },
+  "bubble": "Sortie à la ferme ! Meuh, bêê, coin-coin — c'est une grande chanson d'animaux. Pip parle avec les canards !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Écris les animaux de la ferme.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "VACHE",
+      "clue": "Grande, noire et blanche. Elle donne du lait."
+     },
+     {
+      "word": "MOUTON",
+      "clue": "Il est tout doux et il fait bêê."
+     },
+     {
+      "word": "CANARD",
+      "clue": "Il nage et il fait coin-coin."
+     },
+     {
+      "word": "COCHON",
+      "clue": "Rose et rond. Il adore la boue !"
+     },
+     {
+      "word": "POULE",
+      "clue": "Elle nous donne des œufs."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Associe l'animal et son cri.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Animal",
+    "right_label": "Cri",
+    "pairs": [
+     {
+      "left": "la vache",
+      "right": "meuh"
+     },
+     {
+      "left": "le mouton",
+      "right": "bêê"
+     },
+     {
+      "left": "le canard",
+      "right": "coin-coin"
+     },
+     {
+      "left": "le cochon",
+      "right": "groin"
+     },
+     {
+      "left": "la poule",
+      "right": "cot cot"
+     },
+     {
+      "left": "le cheval",
+      "right": "hiii"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute à la ferme. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u16-c.mp3",
+   "data": {
+    "voice_note": "Voces: Tomás (en la granja) y Freya (contando animales).",
+    "script": "Tomás : Regarde ! Trois vaches sous l'arbre. … Freya : Et cinq petits canards dans l'eau ! … Tomás : Le cochon dort dans la boue. Il est content ! … Freya : Les poules ont des œufs. Un, deux… six œufs ! … Tomás : Je peux monter le cheval ? Il est marron et très grand. … Freya : Et Pip parle avec les canards. Coin-coin, Pip ! … Tomás : La meilleure sortie ! Au revoir, la ferme !",
+    "questions": [
+     {
+      "q": "Il y a … vaches sous l'arbre.",
+      "answer": "trois"
+     },
+     {
+      "q": "Il y a cinq petits … dans l'eau.",
+      "answer": "canards"
+     },
+     {
+      "q": "Le cochon dort dans la …",
+      "answer": "boue"
+     },
+     {
+      "q": "Les poules ont … œufs.",
+      "answer": "six"
+     },
+     {
+      "q": "Le cheval est … et très grand.",
+      "answer": "marron"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "La vache fait …",
+      "options": [
+       "meuh",
+       "miaou",
+       "ouaf"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les œufs viennent de la …",
+      "options": [
+       "poule",
+       "cheval",
+       "cochon"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le mouton nous donne de la …",
+      "options": [
+       "laine",
+       "œufs",
+       "jus"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le cochon adore la …",
+      "options": [
+       "boue",
+       "ciel",
+       "étagère"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les vaches mangent de l'…",
+      "options": [
+       "herbe",
+       "gâteau",
+       "poisson"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Quiz des cris : fais un cri, ton camarade nomme l'animal en français. Trois cris chacun !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Regarde A et B. Qu'est-ce qui change ?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 11 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Dessine une ferme avec 5 animaux. Légende-les et écris un cri pour chacun."
+  }
+ ],
+ "scope": {
+  "grado": "G1",
+  "temaN": 4,
+  "tema": "Animaux de la ferme",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Suivre les consignes de la classe ; reconnaître des mots connus dans une chanson ou une phrase courte."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Saluer ; dire son nom, son âge, les couleurs ; nommer des objets ; répondre par oui ou non."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Reconnaître les lettres de l'alphabet ; associer un mot à une image (famille, nourriture, animaux, corps)."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire son prénom ; recopier des mots ; légender une image (3 à 5 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~150 mots actifs ; le verbe être, un/une, c'est/ce sont, l'impératif."
+   }
+  ],
+  "vocabulario": [
+   "vache",
+   "cochon",
+   "cheval",
+   "mouton",
+   "poule",
+   "chien",
+   "chat",
+   "canard",
+   "meuh",
+   "groin",
+   "hiii"
+  ],
+  "gramatica": [
+   "Pouvoir : la vache peut faire meuh"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "dog",
+    "cat",
+    "oink",
+    "neigh"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "chien",
+  "chat",
+  "groin",
+  "hiii"
+ ],
+ "lang": "fr"
+}

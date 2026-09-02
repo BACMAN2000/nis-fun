@@ -1,0 +1,316 @@
+{
+ "id": "starters-fr-25",
+ "level": "starters",
+ "number": 25,
+ "title": "Le jeu de la boîte à jouets",
+ "topic": "dans / sur / sous",
+ "grammar": "dans, sur, sous",
+ "wordlist": [
+  "dans",
+  "sur",
+  "sous",
+  "boîte",
+  "table",
+  "chaise",
+  "lit",
+  "où",
+  "ici",
+  "là"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 1,
+  "skill": "la position"
+ },
+ "characters": [
+  "astrid",
+  "pip"
+ ],
+ "scene": {
+  "speaker": "astrid",
+  "pose": {
+   "astrid": 4,
+   "pip": 4
+  },
+  "bubble": "Où est la petite voiture ? Dans la boîte ? Sur la chaise ? Sous le lit ? Trouvons tous les jouets !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe le jouet et sa place.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Jouet",
+    "right_label": "Lieu",
+    "pairs": [
+     {
+      "left": "le ballon",
+      "right": "sous le lit"
+     },
+     {
+      "left": "le nounours",
+      "right": "sur l'oreiller"
+     },
+     {
+      "left": "les voitures",
+      "right": "dans la boîte à jouets"
+     },
+     {
+      "left": "le cerf-volant",
+      "right": "sur le placard"
+     },
+     {
+      "left": "la poupée",
+      "right": "sur la chaise"
+     },
+     {
+      "left": "Pip",
+      "right": "dans la boîte à jouets aussi !"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis dans, sur ou sous.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "Le chat est ___ la table. Dessus !",
+      "options": [
+       "sur",
+       "dans",
+       "sous"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les chaussures sont ___ le lit. En dessous !",
+      "options": [
+       "sous",
+       "sur",
+       "dans"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les crayons sont ___ la trousse. Dedans !",
+      "options": [
+       "dans",
+       "sur",
+       "sous"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« ___ est mon ballon ? » — « Sous la chaise ! »",
+      "options": [
+       "Où",
+       "Quoi",
+       "Qui"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le livre est ___ l'étagère.",
+      "options": [
+       "sur",
+       "dans",
+       "sous"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute la chasse aux jouets. Écris un mot dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u25-c.mp3",
+   "data": {
+    "voice_note": "Voces: Astrid (buscando) y Nico (encontrando).",
+    "script": "Astrid : Chasse aux jouets ! Où est la voiture rouge ? … Nico : Sous la chaise ! Trouvée ! … Astrid : Où est le nounours ? … Nico : Sur le lit, sur l'oreiller. … Astrid : Et le petit bateau ? … Nico : Dans la boîte à jouets, tout au fond. … Astrid : Le dernier : où est le cerf-volant jaune ? … Nico : Sur le placard… non attends, SUR PIP ! Il le porte comme un chapeau !",
+    "questions": [
+     {
+      "q": "La voiture rouge est sous la …",
+      "answer": "chaise"
+     },
+     {
+      "q": "Le nounours est sur le …",
+      "answer": "oreiller"
+     },
+     {
+      "q": "Le bateau est dans la … à jouets.",
+      "answer": "boîte"
+     },
+     {
+      "q": "Le cerf-volant est jaune comme une …",
+      "answer": "chapeau"
+     },
+     {
+      "q": "Le cerf-volant est sur … !",
+      "answer": "Pip"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Le poisson est ___ l'eau.",
+      "options": [
+       "dans",
+       "sur",
+       "sous"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le chapeau est ___ ma tête.",
+      "options": [
+       "sur",
+       "dans",
+       "sous"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le chien dort ___ la table.",
+      "options": [
+       "sous",
+       "dans",
+       "dessus sur"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le jus est ___ le verre.",
+      "options": [
+       "dans",
+       "sur",
+       "sous"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Ici » c'est près, « ___ » c'est loin.",
+      "options": [
+       "là",
+       "ensuite",
+       "le"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Cache ta gomme (dans, sur ou sous quelque chose). Ton camarade demande : « C'est sous le… ? » Cinq questions maximum. Puis on échange !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Trouve les différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Dessine ta chambre avec 4 jouets à des endroits différents. Écris : Le ballon est sous… Le nounours est sur…"
+  }
+ ],
+ "scope": {
+  "grado": "G2",
+  "temaN": 2,
+  "tema": "Ma maison et ma famille",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues simples sur la famille, l'école, les animaux et la nourriture."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Répondre à des questions à partir d'une image ; décrire une image en phrases simples."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire des textes de 2 à 3 phrases ; associer images, mots et légendes courtes."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Recopier des mots et compléter des phrases courtes."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~450 mots ; présent, être et avoir, il y a, aimer + infinitif."
+   }
+  ],
+  "vocabulario": [
+   "lit",
+   "canapé",
+   "table",
+   "chaise",
+   "lampe",
+   "armoire"
+  ],
+  "gramatica": [
+   "Le singulier et le pluriel"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "sofa",
+    "lamp",
+    "wardrobe"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "canapé",
+  "lampe",
+  "armoire"
+ ],
+ "lang": "fr"
+}

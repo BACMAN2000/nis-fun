@@ -1,0 +1,697 @@
+{
+ "id": "flyers-fr-15",
+ "level": "flyers",
+ "number": 15,
+ "title": "Les sports qu'on aime",
+ "topic": "sports",
+ "grammar": "jouer à / faire de + sport",
+ "wordlist": [
+  "volley",
+  "patinage",
+  "luge",
+  "snowboard",
+  "golf",
+  "course",
+  "prix",
+  "équipe",
+  "marquer",
+  "champion"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 1,
+  "skill": "définitions"
+ },
+ "characters": [
+  "diego",
+  "oliver"
+ ],
+ "scene": {
+  "speaker": "diego",
+  "pose": {
+   "diego": 3,
+   "oliver": 10
+  },
+  "bubble": "Reportage sportif ! L'équipe de volley de l'école a gagné la coupe régionale — Oliver a marqué le dernier point !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Lis les phrases et écris les mots du sport.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "VOLLEY",
+      "clue": "Deux équipes frappent un ballon avec les mains par-dessus un filet haut."
+     },
+     {
+      "word": "PATINAGE",
+      "clue": "Tu glisses sur la glace ou sur des roulettes."
+     },
+     {
+      "word": "GOLF",
+      "clue": "Tu envoies une petite balle blanche dans un trou très loin."
+     },
+     {
+      "word": "COURSE",
+      "clue": "Une compétition pour savoir qui est le plus rapide."
+     },
+     {
+      "word": "PRIX",
+      "clue": "Tu le gagnes dans une compétition."
+     },
+     {
+      "word": "EQUIPE",
+      "clue": "Un groupe de joueurs qui jouent ensemble."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Associe le sport et ce qu'il te faut.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Sport",
+    "right_label": "Il te faut…",
+    "pairs": [
+     {
+      "left": "volley",
+      "right": "un filet haut"
+     },
+     {
+      "left": "patinage",
+      "right": "de la glace ou des roulettes"
+     },
+     {
+      "left": "golf",
+      "right": "une petite balle blanche"
+     },
+     {
+      "left": "snowboard",
+      "right": "de la neige sur une montagne"
+     },
+     {
+      "left": "natation",
+      "right": "une piscine ou la mer"
+     },
+     {
+      "left": "une course",
+      "right": "une ligne d'arrivée"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute le reportage sportif de Diego. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u15-c.mp3",
+   "data": {
+    "voice_note": "Voces: Diego (comentarista deportivo) y Oliver (héroe del partido).",
+    "script": "Diego : Bienvenue à la finale ! Notre équipe joue en bleu. … Diego : Le score est quatorze-quatorze. Le prochain point fait gagner ! … Diego : Ingrid saute… elle passe à Oliver… … Diego : Oliver envoie le ballon par-dessus le filet… POINT ! Nous sommes champions ! … Oliver : Je n'y crois pas ! J'ai encore mal au bras ! … Diego : L'équipe reçoit la coupe d'or et un prix spécial : de la pizza pendant un mois ! … Oliver : Le meilleur moment ? Kili a survolé le terrain avec notre drapeau !",
+    "questions": [
+     {
+      "q": "L'équipe joue en …",
+      "answer": "bleu"
+     },
+     {
+      "q": "Le score était quatorze-…",
+      "answer": "quatorze"
+     },
+     {
+      "q": "… a passé le ballon à Oliver.",
+      "answer": "Ingrid"
+     },
+     {
+      "q": "Le prix spécial, c'est de la pizza pendant un …",
+      "answer": "mois"
+     },
+     {
+      "q": "Kili a survolé le terrain avec le …",
+      "answer": "drapeau"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "La personne qui gagne est le …",
+      "options": [
+       "champion",
+       "serveur",
+       "directeur"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "En hiver tu peux faire ___ en descendant la colline.",
+      "options": [
+       "luge",
+       "golf",
+       "volley"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "On ___ au volley tous les vendredis.",
+      "options": [
+       "aller",
+       "jouer",
+       "faire"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Le ___ à la fin était trois-un.",
+      "options": [
+       "marquer",
+       "prix",
+       "quai"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Elle ___ du patinage sur le lac gelé.",
+      "options": [
+       "joue",
+       "va",
+       "fait"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Commentateurs sportifs : choisis un sport et raconte 30 secondes d'une finale imaginaire comme Diego (« Elle saute… elle marque ! »). Ton camarade devine le sport. Puis on échange."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "A et B ne sont pas pareils. Trouve pourquoi !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  },
+  {
+   "type": "picture_mc",
+   "title": "Écoute et coche la bonne case.",
+   "instructions": "Écoute chaque question et clique sur l'image qui répond.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Santé et bien-être"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et cocher la bonne image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u15-h.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "Quel mot Diego apprend-il aujourd'hui ?",
+      "answer": "snowboard",
+      "options": [
+       {
+        "word": "théâtre",
+        "propio": true
+       },
+       {
+        "word": "snowboard",
+        "propio": false
+       },
+       {
+        "word": "musée",
+        "propio": true
+       }
+      ],
+      "script": "Quel mot Diego apprend-il aujourd'hui ? … Diego : Aujourd'hui j'apprends le mot snowboard."
+     },
+     {
+      "q": "Qu'est-ce qu'Oliver a dessiné ?",
+      "answer": "champion",
+      "options": [
+       {
+        "word": "poche",
+        "propio": true
+       },
+       {
+        "word": "chaussettes",
+        "propio": true
+       },
+       {
+        "word": "champion",
+        "propio": false
+       }
+      ],
+      "script": "Qu'est-ce qu'Oliver a dessiné ? … Oliver : J'ai dessiné un champion."
+     },
+     {
+      "q": "Quelle image Lia regarde-t-elle ?",
+      "answer": "patinage",
+      "options": [
+       {
+        "word": "fête foraine",
+        "propio": true
+       },
+       {
+        "word": "patinage",
+        "propio": false
+       },
+       {
+        "word": "écharpe",
+        "propio": true
+       }
+      ],
+      "script": "Quelle image Lia regarde-t-elle ? … Lia : Je regarde le patinage."
+     },
+     {
+      "q": "Qu'est-ce que Samu voit sur l'image ?",
+      "answer": "équipe",
+      "options": [
+       {
+        "word": "théâtre",
+        "propio": true
+       },
+       {
+        "word": "équipe",
+        "propio": false
+       },
+       {
+        "word": "famille",
+        "propio": true
+       }
+      ],
+      "script": "Qu'est-ce que Samu voit sur l'image ? … Samu : Je vois l'équipe."
+     },
+     {
+      "q": "Que montre Aiko du doigt ?",
+      "answer": "golf",
+      "options": [
+       {
+        "word": "commissariat",
+        "propio": true
+       },
+       {
+        "word": "ceinture",
+        "propio": true
+       },
+       {
+        "word": "golf",
+        "propio": false
+       }
+      ],
+      "script": "Que montre Aiko du doigt ? … Aiko : Je montre le golf."
+     }
+    ],
+    "script": "Écoute et coche la bonne case. Il y a un exemple. … Quel mot Diego apprend-il aujourd'hui ? … Diego : Aujourd'hui j'apprends le mot snowboard. … Qu'est-ce qu'Oliver a dessiné ? … Oliver : J'ai dessiné un champion. … Quelle image Lia regarde-t-elle ? … Lia : Je regarde le patinage. … Qu'est-ce que Samu voit sur l'image ? … Samu : Je vois l'équipe. … Que montre Aiko du doigt ? … Aiko : Je montre le golf.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "H"
+  },
+  {
+   "type": "match_pictures",
+   "title": "Écoute et associe chaque explorateur à une image.",
+   "instructions": "Écoute. Puis choisis la lettre de l'image pour chaque personne. Attention : certaines images sont en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Santé et bien-être"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et associer chaque personne à une image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 3
+    }
+   },
+   "audio": "flyers/u15-i.mp3",
+   "data": {
+    "people": [
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 8
+     },
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "pose": 8
+     },
+     {
+      "slug": "aiko",
+      "name": "Aiko",
+      "pose": 3
+     },
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "pose": 8
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "pose": 3
+     }
+    ],
+    "pictures": [
+     {
+      "word": "champion",
+      "propio": false,
+      "id": "A"
+     },
+     {
+      "word": "luge",
+      "propio": false,
+      "id": "B"
+     },
+     {
+      "word": "ceinture",
+      "propio": true,
+      "id": "C"
+     },
+     {
+      "word": "pont",
+      "propio": true,
+      "id": "D"
+     },
+     {
+      "word": "aéroport",
+      "propio": true,
+      "id": "E"
+     },
+     {
+      "word": "patinage",
+      "propio": false,
+      "id": "F"
+     },
+     {
+      "word": "équipe",
+      "propio": false,
+      "id": "G"
+     },
+     {
+      "word": "volley",
+      "propio": false,
+      "id": "H"
+     }
+    ],
+    "answers": {
+     "Diego": "F",
+     "Oliver": "B",
+     "Aiko": "A",
+     "Ingrid": "G",
+     "Iris": "H"
+    },
+    "script": "Écoute et associe chaque personne à une image. Il y a un exemple. … Diego : Diego, quelle image as-tu choisie ? … Diego : J'ai choisi le patinage. … Diego : Oliver, quelle image as-tu choisie ? … Oliver : J'ai choisi la luge. … Diego : Aiko, quelle image as-tu choisie ? … Aiko : J'ai choisi le champion. … Diego : Ingrid, quelle image as-tu choisie ? … Ingrid : J'ai choisi l'équipe. … Diego : Iris, quelle image as-tu choisie ? … Iris : J'ai choisi le volley.",
+    "voice_note": "Diego pregunta; cada explorador responde con su objeto."
+   },
+   "code": "I"
+  },
+  {
+   "type": "picture_story",
+   "title": "Regarde les trois images et écris l'histoire.",
+   "instructions": "Regarde les images. Écris l'histoire en 20-25 mots. Aide-toi des mots sous chaque image.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Santé et bien-être"
+    },
+    "destreza": "Writing",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots.",
+    "clase": "Type examen : histoire en images de 20 à 25 mots (production écrite)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "picnic-garden",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 4
+       }
+      ],
+      "word": "golf",
+      "hint": "Diego / montre / un golf",
+      "model": "Diego montre un golf au jardin du pique-nique."
+     },
+     {
+      "n": 2,
+      "scene": "track",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 8
+       },
+       {
+        "slug": "oliver",
+        "pose": 1
+       }
+      ],
+      "word": "luge",
+      "hint": "Oliver / apporter / une luge",
+      "model": "Ensuite Oliver apporte une luge."
+     },
+     {
+      "n": 3,
+      "scene": "hockey",
+      "people": [
+       {
+        "slug": "oliver",
+        "pose": 10
+       },
+       {
+        "slug": "diego",
+        "pose": 10
+       }
+      ],
+      "word": "équipe",
+      "hint": "maintenant / une équipe / content",
+      "model": "Maintenant ils ont aussi une équipe, et tous les deux sont contents."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Diego montre un golf au jardin du pique-nique. Ensuite Oliver apporte une luge. Maintenant ils ont aussi une équipe, et tous les deux sont contents.",
+    "words": [
+     "golf",
+     "luge",
+     "équipe"
+    ],
+    "support": {
+     "grammar": "jouer à / faire de + sport",
+     "words": [
+      "volley",
+      "patinage",
+      "luge",
+      "snowboard",
+      "golf",
+      "course"
+     ]
+    }
+   },
+   "code": "J"
+  },
+  {
+   "type": "label_people",
+   "title": "Écoute et écris les prénoms.",
+   "instructions": "Regarde l'image. Écoute et écris le prénom sous chaque personne. Attention : il y a trois prénoms en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Santé et bien-être"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et écrire le prénom de chaque personne de l'image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u15-g.mp3",
+   "data": {
+    "scene": "track",
+    "place": "la piste de course",
+    "people": [
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "clue": "le garçon au t-shirt rouge avec un microphone",
+      "action": "pose des questions avec son microphone",
+      "pose": 7
+     },
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "clue": "le garçon aux cheveux roux et au t-shirt jaune",
+      "action": "chante",
+      "pose": 7
+     },
+     {
+      "slug": "samu",
+      "name": "Samu",
+      "clue": "le garçon aux cheveux blonds courts avec un sac à dos",
+      "action": "fait signe",
+      "pose": 7
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "clue": "le garçon aux cheveux bruns bouclés et au t-shirt vert",
+      "action": "court après le ballon",
+      "pose": 7
+     },
+     {
+      "slug": "vega",
+      "name": "Mr Vega",
+      "clue": "l'homme à la chemise bleue",
+      "action": "montre le chemin du centre sportif",
+      "figura": "father"
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Bruno",
+     "Diego",
+     "Iris",
+     "Maya",
+     "Mr Vega",
+     "Oliver",
+     "Samu"
+    ],
+    "script": "Regarde l'image. Écoute et écris les prénoms. Il y a un exemple. … Diego : Qui est-ce sur la piste de course ? Le garçon au t-shirt rouge avec un microphone. … Maya : C'est Diego. Diego pose des questions avec son microphone. … Diego : Et qui est le garçon aux cheveux roux et au t-shirt jaune ? … Maya : C'est Oliver. Regarde, Oliver chante. … Diego : Et qui est le garçon aux cheveux blonds courts avec un sac à dos ? … Maya : C'est Samu. Regarde, Samu fait signe. … Diego : Et qui est le garçon aux cheveux bruns bouclés et au t-shirt vert ? … Maya : C'est Bruno. Regarde, Bruno court après le ballon. … Diego : Et qui est l'homme à la chemise bleue ? … Maya : C'est M. Vega. Regarde, M. Vega montre le chemin du centre sportif.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris sur un sport que tu aimes et un que tu n'aimes pas : Je joue à / je fais du… parce que… Je n'aime pas… parce que…"
+  }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 5,
+  "tema": "Santé et bien-être",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Raconter des histoires au passé, au présent et au futur ; exprimer ses préférences avec des raisons."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et comprendre des histoires courtes (80 à 250 mots) ; trouver l'idée principale et les détails."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~2500 mots ; passé composé, questions négatives, si + présent, futur proche."
+   }
+  ],
+  "vocabulario": [
+   "alimentation équilibrée",
+   "routine sportive",
+   "bien dormir"
+  ],
+  "gramatica": [
+   "L'infinitif après le verbe : aimer faire / vouloir faire"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "balanced diet",
+    "exercise routine",
+    "sleep hygiene"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "alimentation équilibrée",
+  "routine sportive",
+  "bien dormir"
+ ],
+ "lang": "fr"
+}

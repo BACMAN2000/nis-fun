@@ -1,0 +1,300 @@
+{
+ "id": "starters-fr-33",
+ "level": "starters",
+ "number": 33,
+ "title": "Le matin et le soir",
+ "topic": "moments de la journée",
+ "grammar": "le matin / la nuit",
+ "wordlist": [
+  "matin",
+  "après-midi",
+  "soir",
+  "nuit",
+  "se réveiller",
+  "dormir",
+  "soleil",
+  "lune",
+  "étoile",
+  "rêve"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 4,
+  "skill": "moments de la journée"
+ },
+ "characters": [
+  "tomas",
+  "pip"
+ ],
+ "scene": {
+  "speaker": "tomas",
+  "pose": {
+   "tomas": 1,
+   "pip": 6
+  },
+  "bubble": "Le soleil dit bonjour, la lune dit bonne nuit… et Pip dort aux deux moments !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe le moment et ce que tu fais.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Heure",
+    "right_label": "Ce que tu fais",
+    "pairs": [
+     {
+      "left": "le matin",
+      "right": "se réveiller et prendre le petit-déjeuner"
+     },
+     {
+      "left": "à midi",
+      "right": "déjeuner"
+     },
+     {
+      "left": "l'après-midi",
+      "right": "jouer après l'école"
+     },
+     {
+      "left": "le soir",
+      "right": "dîner en famille"
+     },
+     {
+      "left": "la nuit",
+      "right": "dormir et rêver"
+     },
+     {
+      "left": "la lune et les étoiles",
+      "right": "brillent dans le ciel noir"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "Le soleil se lève le …",
+      "options": [
+       "matin",
+       "nuit",
+       "soir"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "On voit la ___ la nuit.",
+      "options": [
+       "lune",
+       "soleil",
+       "arc-en-ciel"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Je dors ___ nuit.",
+      "options": [
+       "à",
+       "sur",
+       "dans"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Bonne ___ ! » — tu le dis avant de dormir.",
+      "options": [
+       "nuit",
+       "matin",
+       "après-midi"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Quand tu dors, tu peux …",
+      "options": [
+       "rêve",
+       "courir",
+       "cuisinier"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute la journée de Tomás. Écris un mot dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u33-c.mp3",
+   "data": {
+    "voice_note": "Voces: Tomás (contando su día) y Freya (preguntando).",
+    "script": "Freya : Raconte-moi ta journée, Tomás ! … Tomás : Le matin je me réveille à sept heures et je mange du pain avec de la confiture. … Tomás : À midi, déjeuner à l'école. Jour du riz ! … Tomás : L'après-midi, football au parc. … Tomás : Le soir je dîne et je prends une douche chaude. … Freya : Et la nuit ? … Tomás : Je regarde les étoiles depuis ma fenêtre… et je dors à neuf heures. … Freya : Fais de beaux rêves, Tomás !",
+    "questions": [
+     {
+      "q": "Tomás se réveille à …",
+      "answer": "sept"
+     },
+     {
+      "q": "Il mange du pain avec de la …",
+      "answer": "confiture"
+     },
+     {
+      "q": "L'après-midi : … au parc.",
+      "answer": "football"
+     },
+     {
+      "q": "La nuit il regarde les …",
+      "answer": "étoiles"
+     },
+     {
+      "q": "Il dort à …",
+      "answer": "neuf"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Le petit-déjeuner est le …",
+      "options": [
+       "matin",
+       "nuit",
+       "soir"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le dîner est le …",
+      "options": [
+       "soir",
+       "matin",
+       "midi"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le ciel est noir la …",
+      "options": [
+       "nuit",
+       "midi",
+       "matin"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu te ___ quand le soleil se lève.",
+      "options": [
+       "réveilles",
+       "dormir",
+       "s'asseoir"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les petites lumières du ciel de la nuit sont les …",
+      "options": [
+       "étoiles",
+       "additions",
+       "chaussettes"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Théâtre de la journée : mime un moment de la journée (se réveiller, déjeuner, dormir). Ton camarade devine : « C'est le matin ! Tu te réveilles ! »"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Regarde A et B. Qu'est-ce qui change ?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Partage une feuille en 4 (matin, après-midi, soir, nuit). Dessine et écris ce que tu fais à chaque moment."
+  }
+ ],
+ "scope": {
+  "grado": "G1",
+  "temaN": 3,
+  "tema": "Mon corps",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Suivre les consignes de la classe ; reconnaître des mots connus dans une chanson ou une phrase courte."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Saluer ; dire son nom, son âge, les couleurs ; nommer des objets ; répondre par oui ou non."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Reconnaître les lettres de l'alphabet ; associer un mot à une image (famille, nourriture, animaux, corps)."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire son prénom ; recopier des mots ; légender une image (3 à 5 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~150 mots actifs ; le verbe être, un/une, c'est/ce sont, l'impératif."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [
+   "L'ordre nom + adjectif"
+  ],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

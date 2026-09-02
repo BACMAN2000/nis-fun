@@ -1,0 +1,300 @@
+{
+ "id": "starters-fr-31",
+ "level": "starters",
+ "number": 31,
+ "title": "Le temps qu'il fait",
+ "topic": "météo",
+ "grammar": "Il fait soleil / il pleut…",
+ "wordlist": [
+  "ensoleillé",
+  "pluvieux",
+  "venteux",
+  "nuageux",
+  "chaud",
+  "froid",
+  "parapluie",
+  "arc-en-ciel",
+  "ciel",
+  "aujourd'hui"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 4,
+  "skill": "météo"
+ },
+ "characters": [
+  "freya",
+  "pip"
+ ],
+ "scene": {
+  "speaker": "freya",
+  "pose": {
+   "freya": 2,
+   "pip": 1
+  },
+  "bubble": "Jeu de la fenêtre : regarde dehors et dis-moi — il fait soleil, il y a des nuages ou il pleut aujourd'hui ?"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe le temps qu'il fait et ce que tu fais.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Météo",
+    "right_label": "Ce que tu fais",
+    "pairs": [
+     {
+      "left": "ensoleillé",
+      "right": "mettre un chapeau et jouer dehors"
+     },
+     {
+      "left": "pluvieux",
+      "right": "ouvrir ton parapluie"
+     },
+     {
+      "left": "venteux",
+      "right": "faire voler ton cerf-volant"
+     },
+     {
+      "left": "nuageux",
+      "right": "chercher des formes d'animaux dans le ciel"
+     },
+     {
+      "left": "chaud",
+      "right": "boire de l'eau froide"
+     },
+     {
+      "left": "froid",
+      "right": "mettre ta veste"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis le bon mot du temps.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "Le soleil est là. Il fait …",
+      "options": [
+       "ensoleillé",
+       "pluvieux",
+       "froid"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Prends ton parapluie — il …",
+      "options": [
+       "pluvieux",
+       "ensoleillé",
+       "chaud"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Mon cerf-volant adore les jours de …",
+      "options": [
+       "venteux",
+       "calme",
+       "mouillé"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Après la pluie et le soleil : un ___ !",
+      "options": [
+       "arc-en-ciel",
+       "nuage",
+       "étoile"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Quel temps fait-il ___ ? »",
+      "options": [
+       "aujourd'hui",
+       "jaune",
+       "dix"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute la semaine météo. Écris un mot dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u31-c.mp3",
+   "data": {
+    "voice_note": "Voces: Freya (reportera del clima) y Nico (ayudante).",
+    "script": "Freya : Bulletin météo ! Lundi il a fait soleil. On a joué dehors. … Nico : Mardi il a plu. Jour du parapluie ! … Freya : Mercredi il y a eu du vent — mon chapeau s'est envolé ! … Nico : Pip l'a attrapé en l'air ! … Freya : Jeudi il y a eu des nuages. On a vu un nuage comme un éléphant. … Nico : Et aujourd'hui ? Regarde par la fenêtre… … Freya : DU SOLEIL ! Après-midi au parc, nous voilà !",
+    "questions": [
+     {
+      "q": "Lundi il a fait …",
+      "answer": "ensoleillé"
+     },
+     {
+      "q": "Mardi : jour du … !",
+      "answer": "parapluie"
+     },
+     {
+      "q": "Mercredi le chapeau de Freya s'est …",
+      "answer": "envolé"
+     },
+     {
+      "q": "Le nuage ressemblait à un …",
+      "answer": "éléphant"
+     },
+     {
+      "q": "Aujourd'hui il fait … !",
+      "answer": "ensoleillé"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "La pluie tombe du …",
+      "options": [
+       "nuages",
+       "soleil",
+       "herbe"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un arc-en-ciel a beaucoup de …",
+      "options": [
+       "couleurs",
+       "voitures",
+       "chaussures"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Il fait froid — mets ta …",
+      "options": [
+       "veste",
+       "short",
+       "chapeau de soleil"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le vent fait bouger les …",
+      "options": [
+       "cerfs-volants",
+       "murs",
+       "sols"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Il fait chaud ! » — « Buvons de l'___ froide ! »",
+      "options": [
+       "eau",
+       "soupe",
+       "thé"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Présentateurs météo : regarde par la fenêtre et fais un bulletin de 20 secondes : « Aujourd'hui il fait… On peut… » Puis ton camarade présente une météo folle inventée !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Trouve les différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 11 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Observe le temps pendant 3 jours et écris : Lundi il fait… Dessine un symbole pour chaque jour."
+  }
+ ],
+ "scope": {
+  "grado": "G2",
+  "temaN": 4,
+  "tema": "Ma ville",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues simples sur la famille, l'école, les animaux et la nourriture."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Répondre à des questions à partir d'une image ; décrire une image en phrases simples."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire des textes de 2 à 3 phrases ; associer images, mots et légendes courtes."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Recopier des mots et compléter des phrases courtes."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~450 mots ; présent, être et avoir, il y a, aimer + infinitif."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [
+   "L'impératif pour les indications : tourne à gauche, va tout droit"
+  ],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

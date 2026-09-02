@@ -1,0 +1,296 @@
+{
+ "id": "movers-fr-16",
+ "level": "movers",
+ "number": 16,
+ "title": "Ma semaine",
+ "topic": "les jours de la semaine",
+ "grammar": "le + jour / les questions avec Quand",
+ "wordlist": [
+  "lundi",
+  "mardi",
+  "mercredi",
+  "jeudi",
+  "vendredi",
+  "samedi",
+  "dimanche",
+  "aujourd'hui",
+  "demain",
+  "week-end"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 2,
+  "skill": "texte à trous"
+ },
+ "characters": [
+  "valentina",
+  "sofia"
+ ],
+ "scene": {
+  "speaker": "valentina",
+  "pose": {
+   "valentina": 3,
+   "sofia": 1
+  },
+  "bubble": "Sept jours, sept aventures ! Mon préféré c'est le vendredi — jour du club au phare."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Lis les phrases et écris les jours.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "LUNDI",
+      "clue": "Le premier jour d'école de la semaine."
+     },
+     {
+      "word": "MERCREDI",
+      "clue": "Le milieu de la semaine d'école."
+     },
+     {
+      "word": "VENDREDI",
+      "clue": "Le dernier jour d'école — presque le week-end !"
+     },
+     {
+      "word": "SAMEDI",
+      "clue": "Le premier jour du week-end."
+     },
+     {
+      "word": "DIMANCHE",
+      "clue": "Le jour avant lundi. Jour de la famille !"
+     },
+     {
+      "word": "AUJOURDHUI",
+      "clue": "Ni hier, ni demain — maintenant !"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Associe le jour et l'activité du Club.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Jour",
+    "right_label": "Activité",
+    "pairs": [
+     {
+      "left": "lundi",
+      "right": "cours de natation à cinq heures"
+     },
+     {
+      "left": "le mardi",
+      "right": "après-midi à la bibliothèque"
+     },
+     {
+      "left": "mercredi",
+      "right": "l'atelier d'inventions d'Erik"
+     },
+     {
+      "left": "jeudi",
+      "right": "football au parc"
+     },
+     {
+      "left": "vendredi",
+      "right": "réunion du club au phare"
+     },
+     {
+      "left": "le week-end",
+      "right": "temps en famille et repos"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute le programme de la semaine. Écris un jour ou un mot dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u16-c.mp3",
+   "data": {
+    "voice_note": "Voces: Valentina (agenda) y Sofía (confirmando).",
+    "script": "Valentina : Programme de la semaine ! Le lundi on a le cours de natation. … Sofia : N'oublie pas les lunettes cette fois ! … Valentina : Le mercredi, l'atelier d'Erik. On fabrique une lampe avec une bouteille. … Sofia : Le jeudi, football. Mateo est gardien de but maintenant. … Valentina : Le vendredi, la réunion du club. Apportez vos idées pour le voyage d'été ! … Sofia : Et le samedi ? … Valentina : Le samedi matin, le marché avec ma tante. Mais l'après-midi est libre ! … Sofia : Semaine parfaite. Signée et approuvée !",
+    "questions": [
+     {
+      "q": "Le cours de natation est le …",
+      "answer": "lundi"
+     },
+     {
+      "q": "À l'atelier ils fabriquent une lampe avec une …",
+      "answer": "bouteille"
+     },
+     {
+      "q": "… est gardien de but maintenant.",
+      "answer": "Mateo"
+     },
+     {
+      "q": "Le vendredi ils apportent des idées pour le … d'été.",
+      "answer": "voyage"
+     },
+     {
+      "q": "Le samedi matin Valentina va au … avec sa tante.",
+      "answer": "marché"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Le jour après mardi est …",
+      "options": [
+       "mercredi",
+       "lundi",
+       "vendredi"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Samedi et dimanche sont le …",
+      "options": [
+       "week-end",
+       "semaine",
+       "vacances"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Mon cours de piano est ___ jeudi.",
+      "options": [
+       "sur",
+       "dans",
+       "à"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Si aujourd'hui c'est dimanche, ___ c'est lundi.",
+      "options": [
+       "demain",
+       "hier",
+       "aujourd'hui"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« ___ est le match ? » — « Vendredi. »",
+      "options": [
+       "Quand",
+       "Qui",
+       "À qui"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Interroge ton camarade sur sa vraie semaine : « Qu'est-ce que tu fais le lundi ? » — les sept jours. Trouvez le jour que vous préférez tous les deux."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Deux images, plein de différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris ta semaine : une phrase par jour d'école + une pour le week-end. Le lundi je…"
+  }
+ ],
+ "scope": {
+  "grado": "G3",
+  "temaN": 2,
+  "tema": "Ma journée",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues courts avec plus de vocabulaire ; repérer l'information principale dans des annonces simples."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire ses habitudes, ses préférés, les métiers du quartier ; donner une opinion courte."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire de courts paragraphes ; répondre à des questions simples ; trouver une information précise."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un court paragraphe sur soi, sa famille ou sa journée (40 à 70 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~800 mots ; les temps de base ; devoir, pouvoir ; l'accord du verbe ; le superlatif."
+   }
+  ],
+  "vocabulario": [
+   "premier",
+   "ensuite",
+   "prochain",
+   "ensuite",
+   "enfin"
+  ],
+  "gramatica": [
+   "Les prépositions de temps : à, en, le"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "first",
+    "then",
+    "next",
+    "after that",
+    "finally"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "premier",
+  "ensuite",
+  "prochain",
+  "ensuite",
+  "enfin"
+ ],
+ "lang": "fr"
+}

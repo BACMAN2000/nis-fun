@@ -1,0 +1,316 @@
+{
+ "id": "starters-fr-22",
+ "level": "starters",
+ "number": 22,
+ "title": "Content ou triste ?",
+ "topic": "émotions",
+ "grammar": "je suis… / tu es… ?",
+ "wordlist": [
+  "content",
+  "triste",
+  "fâché",
+  "fatigué",
+  "affamé",
+  "assoiffé",
+  "effrayé",
+  "ça va",
+  "sourire",
+  "pleurer"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 4,
+  "skill": "émotions"
+ },
+ "characters": [
+  "freya",
+  "tomas"
+ ],
+ "scene": {
+  "speaker": "freya",
+  "pose": {
+   "freya": 3,
+   "tomas": 10
+  },
+  "bubble": "Les visages racontent des histoires ! Visage content, visage endormi, visage affamé… Tomás a un visage affamé en ce moment."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe l'émotion et le moment.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Émotion",
+    "right_label": "Moment",
+    "pairs": [
+     {
+      "left": "content",
+      "right": "jouer avec ses amis"
+     },
+     {
+      "left": "triste",
+      "right": "ma glace est tombée"
+     },
+     {
+      "left": "fatigué",
+      "right": "après avoir beaucoup couru"
+     },
+     {
+      "left": "affamé",
+      "right": "avant le déjeuner"
+     },
+     {
+      "left": "effrayé",
+      "right": "un grand bruit fort la nuit"
+     },
+     {
+      "left": "fâché",
+      "right": "quelqu'un a cassé mon jouet"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis la bonne émotion.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "Je veux manger. Je suis …",
+      "options": [
+       "affamé",
+       "content",
+       "propre"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Je veux de l'eau. Je suis …",
+      "options": [
+       "assoiffé",
+       "fatigué",
+       "grand"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "C'est mon anniversaire ! Je suis …",
+      "options": [
+       "content",
+       "triste",
+       "fâché"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Il est tard. Je suis ___ et je veux mon lit.",
+      "options": [
+       "fatigué",
+       "affamé",
+       "nouveau"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« ___ ça va ? » — « Oui, ça va ! »",
+      "options": [
+       "Sont",
+       "Est",
+       "Suis"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute. Comment se sent chacun ? Écris un mot dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u22-c.mp3",
+   "data": {
+    "voice_note": "Voces: Freya y Tomás (jugando a las caras).",
+    "script": "Freya : Jeu des visages ! Regarde mon visage. Comment je me sens ? … Tomás : Tu es contente ! Grand sourire ! … Freya : À toi maintenant. Oh non… tu as faim, Tomás ! … Tomás : Oui ! C'est presque l'heure du déjeuner ! … Freya : Nico est fatigué aujourd'hui. Il a joué au football tout le matin. … Tomás : Et Astrid est contente — elle a un nouveau livre. … Freya : Et Pip ? … Tomás : Pip est endormi. Regarde, ses yeux se ferment… bonne nuit, Pip !",
+    "questions": [
+     {
+      "q": "Freya est … avec un grand sourire.",
+      "answer": "content"
+     },
+     {
+      "q": "Tomás a … avant le déjeuner.",
+      "answer": "affamé"
+     },
+     {
+      "q": "Nico est … après le football.",
+      "answer": "fatigué"
+     },
+     {
+      "q": "Astrid a un nouveau …",
+      "answer": "livre"
+     },
+     {
+      "q": "Pip est …",
+      "answer": "endormi"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Quand tu es content, tu …",
+      "options": [
+       "sourire",
+       "pleurer",
+       "dormir"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Quand tu es très triste, tu peux …",
+      "options": [
+       "pleurer",
+       "rire",
+       "sauter"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Après avoir joué toute la journée, tu es …",
+      "options": [
+       "fatigué",
+       "nouveau",
+       "long"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Comment ça va ? » — « ___, merci ! »",
+      "options": [
+       "ça va",
+       "bleu",
+       "dix"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un câlin aide quand un ami est …",
+      "options": [
+       "triste",
+       "content",
+       "propre"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Fais un visage d'émotion. Ton camarade devine : « Tu es triste ? Tu es fâché ? » — « Oui ! / Non ! » Quatre visages chacun."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Regarde A et B. Qu'est-ce qui change ?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 11 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Dessine 4 visages (content, triste, fatigué, effrayé) et écris : Je suis content quand…"
+  }
+ ],
+ "scope": {
+  "grado": "G2",
+  "temaN": 5,
+  "tema": "Manger et rester en forme",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues simples sur la famille, l'école, les animaux et la nourriture."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Répondre à des questions à partir d'une image ; décrire une image en phrases simples."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire des textes de 2 à 3 phrases ; associer images, mots et légendes courtes."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Recopier des mots et compléter des phrases courtes."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~450 mots ; présent, être et avoir, il y a, aimer + infinitif."
+   }
+  ],
+  "vocabulario": [
+   "mal de tête",
+   "mal au ventre",
+   "froid",
+   "mal de dents"
+  ],
+  "gramatica": [
+   "Le partitif : la nourriture"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "headache",
+    "stomachache",
+    "cold",
+    "toothache"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "mal de tête",
+  "mal au ventre",
+  "froid",
+  "mal de dents"
+ ],
+ "lang": "fr"
+}

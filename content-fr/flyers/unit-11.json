@@ -1,0 +1,700 @@
+{
+ "id": "flyers-fr-11",
+ "level": "flyers",
+ "number": 11,
+ "title": "Les métiers",
+ "topic": "travail",
+ "grammar": "le présent, 3e personne",
+ "wordlist": [
+  "pompier",
+  "journaliste",
+  "ingénieur",
+  "dentiste",
+  "pilote",
+  "serveur",
+  "policier",
+  "infirmier",
+  "cuisinier",
+  "directeur"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 1,
+  "skill": "définitions"
+ },
+ "characters": [
+  "diego",
+  "ingrid"
+ ],
+ "scene": {
+  "speaker": "diego",
+  "pose": {
+   "diego": 3,
+   "ingrid": 4
+  },
+  "bubble": "Aujourd'hui j'interviewe de vrais héros : une pompière, un infirmier et… le cuisinier de l'école !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Lis les phrases et écris les métiers.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "POMPIER",
+      "clue": "Cette personne courageuse arrête les incendies et aide les gens."
+     },
+     {
+      "word": "DENTISTE",
+      "clue": "Tu vas voir cette personne quand tu as mal aux dents."
+     },
+     {
+      "word": "PILOTE",
+      "clue": "Cette personne pilote un avion."
+     },
+     {
+      "word": "SERVEUR",
+      "clue": "Cette personne apporte ton plat au restaurant."
+     },
+     {
+      "word": "INFIRMIER",
+      "clue": "Cette personne aide le médecin et s'occupe des malades."
+     },
+     {
+      "word": "INGENIEUR",
+      "clue": "Cette personne conçoit des ponts, des machines et des robots."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Associe le métier et le lieu.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Métier",
+    "right_label": "Lieu",
+    "pairs": [
+     {
+      "left": "un serveur",
+      "right": "un restaurant"
+     },
+     {
+      "left": "un pilote",
+      "right": "un aéroport"
+     },
+     {
+      "left": "une infirmière",
+      "right": "un hôpital"
+     },
+     {
+      "left": "un journaliste",
+      "right": "un studio de télévision"
+     },
+     {
+      "left": "un policier",
+      "right": "un commissariat"
+     },
+     {
+      "left": "un cuisinier",
+      "right": "une cuisine"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute. Diego interviewe la pompière Rosa. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u11-c.mp3",
+   "data": {
+    "voice_note": "Voces: Diego (reportero) y Rosa (bombera, voz adulta femenina).",
+    "script": "Diego : Radio Aurore ! Rosa, depuis combien de temps es-tu pompière ? … Rosa : Depuis douze ans ! J'ai commencé à vingt ans. … Diego : À quelle heure commence ton travail ? … Rosa : À six heures du matin. On vérifie d'abord le camion. … Diego : Qu'est-ce qui est le plus difficile ? … Rosa : La fumée. C'est pour ça qu'on porte des masques spéciaux. … Diego : Et le meilleur moment ? … Rosa : Aider les gens… et parfois les chats ! La semaine dernière j'ai sauvé un chat sur un toit. … Diego : Que doivent faire les enfants s'ils voient un incendie ? … Rosa : Ne jamais se cacher ! Sortir vite et appeler le cent douze.",
+    "questions": [
+     {
+      "q": "Rosa est pompière depuis … ans.",
+      "answer": "douze"
+     },
+     {
+      "q": "Son travail commence à … heures du matin.",
+      "answer": "six"
+     },
+     {
+      "q": "Le plus difficile, c'est la …",
+      "answer": "fumée"
+     },
+     {
+      "q": "La semaine dernière elle a sauvé un … sur un toit.",
+      "answer": "chat"
+     },
+     {
+      "q": "Si tu vois un incendie, ne jamais te …",
+      "answer": "cacher"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Un ___ écrit les nouvelles pour la télé ou les journaux.",
+      "options": [
+       "journaliste",
+       "dentiste",
+       "serveur"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un pilote ___ un avion.",
+      "options": [
+       "voler",
+       "vole",
+       "en train de voler"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Cette personne cuisine dans un restaurant.",
+      "options": [
+       "un directeur",
+       "un cuisinier",
+       "une infirmière"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Un ingénieur ___ des ponts et des machines.",
+      "options": [
+       "conçoit",
+       "concevoir",
+       "en train de concevoir"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "La personne qui dirige un magasin est le …",
+      "options": [
+       "serveur",
+       "pilote",
+       "directeur"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Mime un métier pour ton camarade (sans parler !). Il devine avec des questions complètes : « Tu travailles dans un hôpital ? Tu es infirmier ? » Trois métiers chacun."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "A et B ne sont pas pareils. Trouve pourquoi !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  },
+  {
+   "type": "picture_mc",
+   "title": "Écoute et coche la bonne case.",
+   "instructions": "Écoute chaque question et clique sur l'image qui répond.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 6,
+     "nombre": "Aventures et expériences"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et cocher la bonne image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u11-h.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "Quelle image Diego regarde-t-il ?",
+      "answer": "directeur",
+      "options": [
+       {
+        "word": "fête foraine",
+        "propio": true
+       },
+       {
+        "word": "aéroport",
+        "propio": true
+       },
+       {
+        "word": "directeur",
+        "propio": false
+       }
+      ],
+      "script": "Quelle image Diego regarde-t-il ? … Diego : Je regarde le directeur."
+     },
+     {
+      "q": "Qu'est-ce qu'Ingrid voit sur l'image ?",
+      "answer": "policier",
+      "options": [
+       {
+        "word": "pharmacie",
+        "propio": true
+       },
+       {
+        "word": "policier",
+        "propio": false
+       },
+       {
+        "word": "restaurant",
+        "propio": true
+       }
+      ],
+      "script": "Qu'est-ce qu'Ingrid voit sur l'image ? … Ingrid : Je vois le policier."
+     },
+     {
+      "q": "Que montre Samu du doigt ?",
+      "answer": "journaliste",
+      "options": [
+       {
+        "word": "écharpe",
+        "propio": true
+       },
+       {
+        "word": "journaliste",
+        "propio": false
+       },
+       {
+        "word": "gants",
+        "propio": true
+       }
+      ],
+      "script": "Que montre Samu du doigt ? … Samu : Je montre le journaliste."
+     },
+     {
+      "q": "De quoi Aiko parle-t-elle ?",
+      "answer": "ingénieur",
+      "options": [
+       {
+        "word": "ingénieur",
+        "propio": false
+       },
+       {
+        "word": "chapeau de soleil",
+        "propio": true
+       },
+       {
+        "word": "chaussettes",
+        "propio": true
+       }
+      ],
+      "script": "De quoi Aiko parle-t-elle ? … Aiko : Je parle de l'ingénieur."
+     },
+     {
+      "q": "Quel mot Maya apprend-elle aujourd'hui ?",
+      "answer": "pilote",
+      "options": [
+       {
+        "word": "pilote",
+        "propio": false
+       },
+       {
+        "word": "aéroport",
+        "propio": true
+       },
+       {
+        "word": "fête foraine",
+        "propio": true
+       }
+      ],
+      "script": "Quel mot Maya apprend-elle aujourd'hui ? … Maya : Aujourd'hui j'apprends le mot pilote."
+     }
+    ],
+    "script": "Écoute et coche la bonne case. Il y a un exemple. … Quelle image Diego regarde-t-il ? … Diego : Je regarde le directeur. … Qu'est-ce qu'Ingrid voit sur l'image ? … Ingrid : Je vois le policier. … Que montre Samu du doigt ? … Samu : Je montre le journaliste. … De quoi Aiko parle-t-elle ? … Aiko : Je parle de l'ingénieur. … Quel mot Maya apprend-elle aujourd'hui ? … Maya : Aujourd'hui j'apprends le mot pilote.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "H"
+  },
+  {
+   "type": "match_pictures",
+   "title": "Écoute et associe chaque explorateur à une image.",
+   "instructions": "Écoute. Puis choisis la lettre de l'image pour chaque personne. Attention : certaines images sont en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 6,
+     "nombre": "Aventures et expériences"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et associer chaque personne à une image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 3
+    }
+   },
+   "audio": "flyers/u11-i.mp3",
+   "data": {
+    "people": [
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 8
+     },
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "pose": 8
+     },
+     {
+      "slug": "samu",
+      "name": "Samu",
+      "pose": 3
+     },
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 8
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "pose": 3
+     }
+    ],
+    "pictures": [
+     {
+      "word": "journaliste",
+      "propio": false,
+      "id": "A"
+     },
+     {
+      "word": "infirmier",
+      "propio": false,
+      "id": "B"
+     },
+     {
+      "word": "directeur",
+      "propio": false,
+      "id": "C"
+     },
+     {
+      "word": "policier",
+      "propio": false,
+      "id": "D"
+     },
+     {
+      "word": "parapluie",
+      "propio": true,
+      "id": "E"
+     },
+     {
+      "word": "château",
+      "propio": true,
+      "id": "F"
+     },
+     {
+      "word": "ingénieur",
+      "propio": false,
+      "id": "G"
+     },
+     {
+      "word": "restaurant",
+      "propio": true,
+      "id": "H"
+     }
+    ],
+    "answers": {
+     "Diego": "D",
+     "Ingrid": "G",
+     "Samu": "B",
+     "Maya": "A",
+     "Lia": "C"
+    },
+    "script": "Écoute et associe chaque personne à une image. Il y a un exemple. … Diego : Diego, quelle image as-tu choisie ? … Diego : J'ai choisi le policier. … Diego : Ingrid, quelle image as-tu choisie ? … Ingrid : J'ai choisi l'ingénieur. … Diego : Samu, quelle image as-tu choisie ? … Samu : J'ai choisi l'infirmier. … Diego : Maya, quelle image as-tu choisie ? … Maya : J'ai choisi le journaliste. … Diego : Lia, quelle image as-tu choisie ? … Lia : J'ai choisi le directeur.",
+    "voice_note": "Diego pregunta; cada explorador responde con su objeto."
+   },
+   "code": "I"
+  },
+  {
+   "type": "picture_story",
+   "title": "Regarde les trois images et écris l'histoire.",
+   "instructions": "Regarde les images. Écris l'histoire en 20-25 mots. Aide-toi des mots sous chaque image.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 6,
+     "nombre": "Aventures et expériences"
+    },
+    "destreza": "Writing",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots.",
+    "clase": "Type examen : histoire en images de 20 à 25 mots (production écrite)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "funfair",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 4
+       }
+      ],
+      "word": "journaliste",
+      "hint": "Diego / apporte / un journaliste",
+      "model": "Diego apporte un journaliste à la fête foraine."
+     },
+     {
+      "n": 2,
+      "scene": "lighthouse-kitchen",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 8
+       },
+       {
+        "slug": "ingrid",
+        "pose": 1
+       }
+      ],
+      "word": "pilote",
+      "hint": "Ingrid / apporter / un pilote",
+      "model": "Ensuite Ingrid apporte un pilote."
+     },
+     {
+      "n": 3,
+      "scene": "labyrinth",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 10
+       },
+       {
+        "slug": "diego",
+        "pose": 10
+       }
+      ],
+      "word": "infirmier",
+      "hint": "maintenant / un infirmier / content",
+      "model": "Maintenant ils ont aussi un infirmier, et tous les deux sont contents."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Diego apporte un journaliste à la fête foraine. Ensuite Ingrid apporte un pilote. Maintenant ils ont aussi un infirmier, et tous les deux sont contents.",
+    "words": [
+     "journaliste",
+     "pilote",
+     "infirmier"
+    ],
+    "support": {
+     "grammar": "le présent, 3e personne",
+     "words": [
+      "pompier",
+      "journaliste",
+      "ingénieur",
+      "dentiste",
+      "pilote",
+      "serveur"
+     ]
+    }
+   },
+   "code": "J"
+  },
+  {
+   "type": "label_people",
+   "title": "Écoute et écris les prénoms.",
+   "instructions": "Regarde l'image. Écoute et écris le prénom sous chaque personne. Attention : il y a trois prénoms en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 6,
+     "nombre": "Aventures et expériences"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et écrire le prénom de chaque personne de l'image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u11-g.mp3",
+   "data": {
+    "scene": "funfair",
+    "place": "la fête foraine",
+    "people": [
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "clue": "le garçon au t-shirt rouge avec un microphone",
+      "action": "pose des questions avec son microphone",
+      "pose": 7
+     },
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "clue": "la fille aux cheveux blonds et à la veste bleu foncé",
+      "action": "lit le programme de la journée",
+      "pose": 7
+     },
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "clue": "le garçon aux cheveux roux et au t-shirt jaune",
+      "action": "chante",
+      "pose": 7
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "clue": "le garçon aux cheveux bruns bouclés et au t-shirt vert",
+      "action": "court après le ballon",
+      "pose": 7
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "clue": "la fille à la queue-de-cheval rousse et aux taches de rousseur",
+      "action": "dessine à la craie par terre",
+      "pose": 7
+     }
+    ],
+    "names": [
+     "Bruno",
+     "Diego",
+     "Ingrid",
+     "Iris",
+     "Kili",
+     "Lia",
+     "Oliver",
+     "Tino"
+    ],
+    "script": "Regarde l'image. Écoute et écris les prénoms. Il y a un exemple. … Diego : Qui est-ce à la fête foraine ? Le garçon au t-shirt rouge avec un microphone. … Maya : C'est Diego. Diego pose des questions avec son microphone. … Diego : Et qui est la fille aux cheveux blonds et à la veste bleu foncé ? … Maya : C'est Ingrid. Regarde, Ingrid lit le programme de la journée. … Diego : Et qui est le garçon aux cheveux roux et au t-shirt jaune ? … Maya : C'est Oliver. Regarde, Oliver chante. … Diego : Et qui est le garçon aux cheveux bruns bouclés et au t-shirt vert ? … Maya : C'est Bruno. Regarde, Bruno court après le ballon. … Diego : Et qui est la fille à la queue-de-cheval rousse et aux taches de rousseur ? … Maya : C'est Iris. Regarde, Iris dessine à la craie par terre.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Interviewe quelqu'un de ta famille sur son métier. Écris 3 phrases : Mon oncle est conducteur. Il commence à… Le meilleur moment, c'est…"
+  }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 6,
+  "tema": "Aventures et expériences",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Raconter des histoires au passé, au présent et au futur ; exprimer ses préférences avec des raisons."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et comprendre des histoires courtes (80 à 250 mots) ; trouver l'idée principale et les détails."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~2500 mots ; passé composé, questions négatives, si + présent, futur proche."
+   }
+  ],
+  "vocabulario": [
+   "a compris",
+   "a découvert",
+   "a surmonté",
+   "a survécu"
+  ],
+  "gramatica": [
+   "Le plus-que-parfait : introduction (j'avais déjà…)"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "realised",
+    "discovered",
+    "overcame",
+    "survived"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "a compris",
+  "a découvert",
+  "a surmonté",
+  "a survécu"
+ ],
+ "lang": "fr"
+}

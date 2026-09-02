@@ -1,0 +1,468 @@
+{
+ "id": "flyers-fr-26",
+ "level": "flyers",
+ "number": 26,
+ "title": "Tu as déjà rencontré une personne célèbre ?",
+ "topic": "le passé composé : déjà",
+ "grammar": "Tu as déjà… ? + ne… jamais",
+ "wordlist": [
+  "déjà",
+  "jamais",
+  "rencontrer",
+  "a rencontré",
+  "voler",
+  "a volé",
+  "nager",
+  "nagé",
+  "grimper",
+  "célèbre"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 4,
+  "skill": "choix multiple"
+ },
+ "characters": [
+  "diego",
+  "ingrid"
+ ],
+ "scene": {
+  "speaker": "diego",
+  "pose": {
+   "diego": 3,
+   "ingrid": 4
+  },
+  "bubble": "La grande question du jour pour toute l'école : tu as déjà rencontré une personne célèbre ? Tu ne vas pas croire les réponses !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe le verbe et son participe passé.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Verbe",
+    "right_label": "Participe passé",
+    "pairs": [
+     {
+      "left": "rencontrer",
+      "right": "a rencontré"
+     },
+     {
+      "left": "voler",
+      "right": "a volé"
+     },
+     {
+      "left": "nager",
+      "right": "nagé"
+     },
+     {
+      "left": "rouler",
+      "right": "monté à cheval"
+     },
+     {
+      "left": "gagner",
+      "right": "a gagné"
+     },
+     {
+      "left": "grimper",
+      "right": "a grimpé"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis déjà ou jamais.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "Tu as ___ volé en hélicoptère ?",
+      "options": [
+       "déjà",
+       "jamais",
+       "juste"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Je n'ai ___ nagé dans l'océan — j'ai peur des vagues !",
+      "options": [
+       "déjà",
+       "jamais",
+       "encore"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Elle a ___ gagné une médaille d'or. Elle est incroyable !",
+      "options": [
+       "jamais",
+       "juste",
+       "déjà"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Tu as ___ grimpé une montagne ?",
+      "options": [
+       "Est-ce que",
+       "Avoir",
+       "Sont"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "On n'est ___ allés en Australie, mais on veut y aller.",
+      "options": [
+       "déjà",
+       "déjà",
+       "jamais"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute les interviews de Diego dans la rue. Écris un mot dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u26-c.mp3",
+   "data": {
+    "voice_note": "Voces: Diego (reportero) e Ingrid (primera entrevistada).",
+    "script": "Diego : Ingrid ! Tu as déjà rencontré une personne célèbre ? … Ingrid : Oui ! J'ai rencontré une nageuse célèbre à la piscine. Elle a signé mon bonnet de bain ! … Diego : Génial ! Notre cuisinier dit qu'il n'a jamais rencontré personne de célèbre… … Diego : …mais il a préparé le dîner pour deux cents personnes d'un coup ! … Diego : Le professeur de musique a volé en montgolfière au-dessus des montagnes. … Diego : Et le chat de l'école ? Il a dormi dans toutes les classes de l'école. Absolument toutes ! … Diego : Moi ? Je n'ai jamais rencontré personne de célèbre… mais après ce reportage, je serai peut-être célèbre !",
+    "questions": [
+     {
+      "q": "La nageuse célèbre a signé le … de bain d'Ingrid.",
+      "answer": "casquette"
+     },
+     {
+      "q": "Le cuisinier a préparé le dîner pour deux cents … d'un coup.",
+      "answer": "gens"
+     },
+     {
+      "q": "Le professeur de musique a volé en …",
+      "answer": "ballon de baudruche"
+     },
+     {
+      "q": "Le chat de l'école a dormi dans chaque …",
+      "answer": "classe"
+     },
+     {
+      "q": "Diego pense qu'il sera peut-être …",
+      "answer": "célèbre"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis la bonne forme.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis la bonne forme.",
+    "items": [
+     {
+      "sentence": "Tu as déjà ___ une personne célèbre ?",
+      "options": [
+       "rencontrer",
+       "a rencontré",
+       "rencontrer"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Je n'ai jamais ___ en hélicoptère.",
+      "options": [
+       "a volé",
+       "a volé",
+       "voler"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Elle a ___ la partie la plus large du lac.",
+      "options": [
+       "nager",
+       "a nagé",
+       "nagé"
+      ],
+      "answer": 2
+     },
+     {
+      "sentence": "« Tu as déjà gagné un prix ? » — « Oui, ___. »",
+      "options": [
+       "a fait",
+       "avoir",
+       "a gagné"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Ils ont ___ monté un chameau. C'était en Égypte.",
+      "options": [
+       "déjà",
+       "jamais",
+       "déjà"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Trouve quelque chose que ton camarade a fait et toi jamais. Demande : « Tu as déjà… ? » (monté à cheval, pris l'avion, gagné une médaille…). Raconte la réponse la plus surprenante."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "A et B ne sont pas pareils. Trouve pourquoi !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  },
+  {
+   "type": "picture_story",
+   "title": "Regarde les trois images et écris l'histoire.",
+   "instructions": "Regarde les images. Écris l'histoire en 20-25 mots. Aide-toi des mots sous chaque image.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 6,
+     "nombre": "Aventures et expériences"
+    },
+    "destreza": "Writing",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots.",
+    "clase": "Type examen : histoire en images de 20 à 25 mots (production écrite)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "lighthouse-kitchen",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 4
+       }
+      ],
+      "word": "",
+      "hint": "Diego / dans la cuisine du phare",
+      "model": "Un matin Diego est dans la cuisine du phare."
+     },
+     {
+      "n": 2,
+      "scene": "mirador",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 3
+       },
+       {
+        "slug": "ingrid",
+        "pose": 3
+       }
+      ],
+      "word": "",
+      "hint": "Diego / rencontrer / Ingrid",
+      "model": "Ensuite Diego rencontre Ingrid au belvédère."
+     },
+     {
+      "n": 3,
+      "scene": "funfair",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 10
+       },
+       {
+        "slug": "ingrid",
+        "pose": 10
+       }
+      ],
+      "word": "",
+      "hint": "à la fête foraine / content",
+      "model": "À la fête foraine ils sont très contents ensemble."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Un matin Diego est dans la cuisine du phare. Ensuite Diego rencontre Ingrid au belvédère. À la fête foraine ils sont très contents ensemble.",
+    "words": [],
+    "support": {
+     "grammar": "Tu as déjà… ? + ne… jamais",
+     "words": [
+      "déjà",
+      "jamais",
+      "rencontrer",
+      "a rencontré",
+      "voler",
+      "a volé"
+     ]
+    }
+   },
+   "code": "H"
+  },
+  {
+   "type": "label_people",
+   "title": "Écoute et écris les prénoms.",
+   "instructions": "Regarde l'image. Écoute et écris le prénom sous chaque personne. Attention : il y a trois prénoms en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 6,
+     "nombre": "Aventures et expériences"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et écrire le prénom de chaque personne de l'image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u26-g.mp3",
+   "data": {
+    "scene": "labyrinth",
+    "place": "le labyrinthe",
+    "people": [
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "clue": "le garçon au t-shirt rouge avec un microphone",
+      "action": "pose des questions avec son microphone",
+      "pose": 7
+     },
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "clue": "la fille aux cheveux blonds et à la veste bleu foncé",
+      "action": "lit le programme de la journée",
+      "pose": 7
+     },
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "clue": "le garçon aux cheveux roux et au t-shirt jaune",
+      "action": "chante",
+      "pose": 7
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "clue": "la fille aux nattes noires et au t-shirt violet",
+      "action": "saute à la corde",
+      "pose": 7
+     },
+     {
+      "slug": "kili",
+      "name": "Kili",
+      "clue": "le grand oiseau noir avec un collier blanc",
+      "action": "porte une lettre",
+      "pose": 3
+     }
+    ],
+    "names": [
+     "Bruno",
+     "Diego",
+     "Ingrid",
+     "Kili",
+     "Lia",
+     "Maya",
+     "Oliver",
+     "Tino"
+    ],
+    "script": "Regarde l'image. Écoute et écris les prénoms. Il y a un exemple. … Diego : Qui est-ce dans le labyrinthe ? Le garçon au t-shirt rouge avec un microphone. … Maya : C'est Diego. Diego pose des questions avec son microphone. … Diego : Et qui est la fille aux cheveux blonds et à la veste bleu foncé ? … Maya : C'est Ingrid. Regarde, Ingrid lit le programme de la journée. … Diego : Et qui est le garçon aux cheveux roux et au t-shirt jaune ? … Maya : C'est Oliver. Regarde, Oliver chante. … Diego : Et qui est la fille aux nattes noires et au t-shirt violet ? … Maya : C'est Lia. Regarde, Lia saute à la corde. … Diego : Et qui est le grand oiseau noir avec un collier blanc ? … Maya : C'est Kili. Regarde, Kili porte une lettre.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris 3 phrases vraies avec J'ai… et 2 avec Je n'ai jamais… Choisis-en des intéressantes !"
+  }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 6,
+  "tema": "Aventures et expériences",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Raconter des histoires au passé, au présent et au futur ; exprimer ses préférences avec des raisons."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et comprendre des histoires courtes (80 à 250 mots) ; trouver l'idée principale et les détails."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~2500 mots ; passé composé, questions négatives, si + présent, futur proche."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

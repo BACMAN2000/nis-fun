@@ -1,0 +1,703 @@
+{
+ "id": "flyers-fr-07",
+ "level": "flyers",
+ "number": 7,
+ "title": "Petit-déjeuner, déjeuner et dîner",
+ "topic": "nourriture",
+ "grammar": "le partitif : du / de la / des",
+ "wordlist": [
+  "beurre",
+  "céréales",
+  "farine",
+  "miel",
+  "confiture",
+  "poivre",
+  "sel",
+  "sucre",
+  "yaourt",
+  "goûter"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 1,
+  "skill": "définitions"
+ },
+ "characters": [
+  "diego",
+  "maya"
+ ],
+ "scene": {
+  "speaker": "diego",
+  "pose": {
+   "diego": 3,
+   "maya": 1
+  },
+  "bubble": "Reportage depuis la cuisine de l'école : le mystère du jour — qui a mis du sel dans le pot de sucre ?!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Lis les phrases et écris les mots de la nourriture.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "CEREALES",
+      "clue": "Beaucoup d'enfants en mangent avec du lait au petit-déjeuner."
+     },
+     {
+      "word": "MIEL",
+      "clue": "C'est sucré et jaune. Ce sont les abeilles qui le font."
+     },
+     {
+      "word": "YAOURT",
+      "clue": "C'est blanc et froid. C'est fait avec du lait."
+     },
+     {
+      "word": "BEURRE",
+      "clue": "C'est jaune. Tu en mets sur le pain."
+     },
+     {
+      "word": "SUCRE",
+      "clue": "C'est blanc et très sucré. Certaines personnes en mettent dans le thé."
+     },
+     {
+      "word": "FARINE",
+      "clue": "C'est une poudre blanche. Il en faut pour faire du pain et des gâteaux."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Associe la nourriture et le repas.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Nourriture",
+    "right_label": "Quand",
+    "pairs": [
+     {
+      "left": "des céréales avec du lait",
+      "right": "petit-déjeuner"
+     },
+     {
+      "left": "un sandwich au fromage",
+      "right": "le déjeuner à l'école"
+     },
+     {
+      "left": "une pomme à onze heures",
+      "right": "un goûter"
+     },
+     {
+      "left": "du riz et du poisson",
+      "right": "dîner"
+     },
+     {
+      "left": "une tartine avec de la confiture",
+      "right": "le dimanche matin"
+     },
+     {
+      "left": "un verre de lait chaud",
+      "right": "avant de dormir"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute. Maya explique son petit-déjeuner aux crêpes. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u07-c.mp3",
+   "data": {
+    "voice_note": "Voces: Maya (científica) y Diego (reportero-goloso).",
+    "script": "Diego : Maya, qu'est-ce que tu as pris au petit-déjeuner ? … Maya : Des crêpes ! Je les ai faites moi-même, comme une expérience scientifique. … Diego : Comment tu les fais ? … Maya : Facile. Il faut de la farine, deux œufs et une tasse de lait. … Diego : Pas de sucre ? … Maya : Un peu. Et une petite cuillère de sel — c'est le secret ! … Diego : Qu'est-ce que tu mets dessus ? … Maya : Du miel. Parfois de la confiture de fraises. … Diego : Tu as mangé combien de crêpes aujourd'hui ? … Maya : Six ! Mon ventre était très content.",
+    "questions": [
+     {
+      "q": "Maya a pris des … au petit-déjeuner.",
+      "answer": "crêpes"
+     },
+     {
+      "q": "Il faut de la farine, deux … et une tasse de lait.",
+      "answer": "œufs"
+     },
+     {
+      "q": "Le secret, c'est une petite cuillère de …",
+      "answer": "sel"
+     },
+     {
+      "q": "Dessus elle met du miel ou de la confiture de …",
+      "answer": "confiture"
+     },
+     {
+      "q": "Aujourd'hui Maya a mangé … crêpes.",
+      "answer": "six"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Les abeilles font cette nourriture sucrée.",
+      "options": [
+       "beurre",
+       "miel",
+       "sel"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Il te faut cette poudre blanche pour les gâteaux.",
+      "options": [
+       "farine",
+       "poivre",
+       "céréales"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Tu veux ___ sucre dans ton thé ? »",
+      "options": [
+       "un",
+       "quelques",
+       "beaucoup de"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Un petit repas entre les repas, c'est un …",
+      "options": [
+       "goûter",
+       "dîner",
+       "petit-déjeuner"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "C'est noir ou blanc et ça relève les plats.",
+      "options": [
+       "confiture",
+       "yaourt",
+       "poivre"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Prépare le menu du déjeuner idéal avec ton camarade : un plat, une boisson, un dessert. Vous devez être d'accord sur tout — vous ne pouvez choisir que ce que vous aimez TOUS LES DEUX. Présentez-le à la classe."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Deux images, plein de différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  },
+  {
+   "type": "picture_mc",
+   "title": "Écoute et coche la bonne case.",
+   "instructions": "Écoute chaque question et clique sur l'image qui répond.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 2,
+     "nombre": "La vie de tous les jours"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et cocher la bonne image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u07-h.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "Que montre Diego du doigt ?",
+      "answer": "miel",
+      "options": [
+       {
+        "word": "famille",
+        "propio": true
+       },
+       {
+        "word": "écharpe",
+        "propio": true
+       },
+       {
+        "word": "miel",
+        "propio": false
+       }
+      ],
+      "script": "Que montre Diego du doigt ? … Diego : Je montre le miel."
+     },
+     {
+      "q": "De quoi Maya parle-t-elle ?",
+      "answer": "goûter",
+      "options": [
+       {
+        "word": "famille",
+        "propio": true
+       },
+       {
+        "word": "pont",
+        "propio": true
+       },
+       {
+        "word": "goûter",
+        "propio": false
+       }
+      ],
+      "script": "De quoi Maya parle-t-elle ? … Maya : Je parle du goûter."
+     },
+     {
+      "q": "Quel mot Bruno apprend-il aujourd'hui ?",
+      "answer": "poivre",
+      "options": [
+       {
+        "word": "commissariat",
+        "propio": true
+       },
+       {
+        "word": "chapeau de soleil",
+        "propio": true
+       },
+       {
+        "word": "poivre",
+        "propio": false
+       }
+      ],
+      "script": "Quel mot Bruno apprend-il aujourd'hui ? … Bruno : Aujourd'hui j'apprends le mot poivre."
+     },
+     {
+      "q": "Qu'est-ce que Tino a dessiné ?",
+      "answer": "farine",
+      "options": [
+       {
+        "word": "château",
+        "propio": true
+       },
+       {
+        "word": "valise",
+        "propio": true
+       },
+       {
+        "word": "farine",
+        "propio": false
+       }
+      ],
+      "script": "Qu'est-ce que Tino a dessiné ? … Tino : J'ai dessiné de la farine."
+     },
+     {
+      "q": "Quelle image Iris regarde-t-elle ?",
+      "answer": "yaourt",
+      "options": [
+       {
+        "word": "pharmacie",
+        "propio": true
+       },
+       {
+        "word": "pont",
+        "propio": true
+       },
+       {
+        "word": "yaourt",
+        "propio": false
+       }
+      ],
+      "script": "Quelle image Iris regarde-t-elle ? … Iris : Je regarde le yaourt."
+     }
+    ],
+    "script": "Écoute et coche la bonne case. Il y a un exemple. … Que montre Diego du doigt ? … Diego : Je montre le miel. … De quoi Maya parle-t-elle ? … Maya : Je parle du goûter. … Quel mot Bruno apprend-il aujourd'hui ? … Bruno : Aujourd'hui j'apprends le mot poivre. … Qu'est-ce que Tino a dessiné ? … Tino : J'ai dessiné de la farine. … Quelle image Iris regarde-t-elle ? … Iris : Je regarde le yaourt.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "H"
+  },
+  {
+   "type": "match_pictures",
+   "title": "Écoute et associe chaque explorateur à une image.",
+   "instructions": "Écoute. Puis choisis la lettre de l'image pour chaque personne. Attention : certaines images sont en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 2,
+     "nombre": "La vie de tous les jours"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et associer chaque personne à une image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 3
+    }
+   },
+   "audio": "flyers/u07-i.mp3",
+   "data": {
+    "people": [
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 8
+     },
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 8
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "pose": 3
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "pose": 3
+     },
+     {
+      "slug": "aiko",
+      "name": "Aiko",
+      "pose": 3
+     }
+    ],
+    "pictures": [
+     {
+      "word": "yaourt",
+      "propio": false,
+      "id": "A"
+     },
+     {
+      "word": "miel",
+      "propio": false,
+      "id": "B"
+     },
+     {
+      "word": "poche",
+      "propio": true,
+      "id": "C"
+     },
+     {
+      "word": "céréales",
+      "propio": false,
+      "id": "D"
+     },
+     {
+      "word": "chaussettes",
+      "propio": true,
+      "id": "E"
+     },
+     {
+      "word": "farine",
+      "propio": false,
+      "id": "F"
+     },
+     {
+      "word": "pharmacie",
+      "propio": true,
+      "id": "G"
+     },
+     {
+      "word": "goûter",
+      "propio": false,
+      "id": "H"
+     }
+    ],
+    "answers": {
+     "Diego": "H",
+     "Maya": "A",
+     "Lia": "F",
+     "Iris": "B",
+     "Aiko": "D"
+    },
+    "script": "Écoute et associe chaque personne à une image. Il y a un exemple. … Diego : Diego, quelle image as-tu choisie ? … Diego : J'ai choisi le goûter. … Diego : Maya, quelle image as-tu choisie ? … Maya : J'ai choisi le yaourt. … Diego : Lia, quelle image as-tu choisie ? … Lia : J'ai choisi la farine. … Diego : Iris, quelle image as-tu choisie ? … Iris : J'ai choisi le miel. … Diego : Aiko, quelle image as-tu choisie ? … Aiko : J'ai choisi les céréales.",
+    "voice_note": "Diego pregunta; cada explorador responde con su objeto."
+   },
+   "code": "I"
+  },
+  {
+   "type": "picture_story",
+   "title": "Regarde les trois images et écris l'histoire.",
+   "instructions": "Regarde les images. Écris l'histoire en 20-25 mots. Aide-toi des mots sous chaque image.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 2,
+     "nombre": "La vie de tous les jours"
+    },
+    "destreza": "Writing",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots.",
+    "clase": "Type examen : histoire en images de 20 à 25 mots (production écrite)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "main-building",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 4
+       }
+      ],
+      "word": "miel",
+      "hint": "Diego / prend / un miel",
+      "model": "Diego prend un miel dans le bâtiment principal."
+     },
+     {
+      "n": 2,
+      "scene": "classroom",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 8
+       },
+       {
+        "slug": "maya",
+        "pose": 1
+       }
+      ],
+      "word": "beurre",
+      "hint": "Maya / apporter / un beurre",
+      "model": "Ensuite Maya apporte un beurre."
+     },
+     {
+      "n": 3,
+      "scene": "chess-plaza",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 10
+       },
+       {
+        "slug": "diego",
+        "pose": 10
+       }
+      ],
+      "word": "goûter",
+      "hint": "maintenant / un goûter / content",
+      "model": "Maintenant ils ont aussi un goûter, et tous les deux sont contents."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Diego prend un miel dans le bâtiment principal. Ensuite Maya apporte un beurre. Maintenant ils ont aussi un goûter, et tous les deux sont contents.",
+    "words": [
+     "miel",
+     "beurre",
+     "goûter"
+    ],
+    "support": {
+     "grammar": "le partitif : du / de la / des",
+     "words": [
+      "beurre",
+      "céréales",
+      "farine",
+      "miel",
+      "confiture",
+      "poivre"
+     ]
+    }
+   },
+   "code": "J"
+  },
+  {
+   "type": "label_people",
+   "title": "Écoute et écris les prénoms.",
+   "instructions": "Regarde l'image. Écoute et écris le prénom sous chaque personne. Attention : il y a trois prénoms en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 2,
+     "nombre": "La vie de tous les jours"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et écrire le prénom de chaque personne de l'image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u07-g.mp3",
+   "data": {
+    "scene": "picnic-garden",
+    "place": "le jardin du pique-nique",
+    "people": [
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "clue": "le garçon au t-shirt rouge avec un microphone",
+      "action": "pose des questions avec son microphone",
+      "pose": 7
+     },
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "clue": "la fille au t-shirt vert avec une loupe",
+      "action": "observe quelque chose de tout petit",
+      "pose": 7
+     },
+     {
+      "slug": "samu",
+      "name": "Samu",
+      "clue": "le garçon aux cheveux blonds courts avec un sac à dos",
+      "action": "fait signe",
+      "pose": 7
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "clue": "la fille à la queue-de-cheval rousse et aux taches de rousseur",
+      "action": "dessine à la craie par terre",
+      "pose": 7
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "clue": "la fille aux nattes noires et au t-shirt violet",
+      "action": "saute à la corde",
+      "pose": 7
+     }
+    ],
+    "names": [
+     "Bruno",
+     "Diego",
+     "Ingrid",
+     "Iris",
+     "Kili",
+     "Lia",
+     "Maya",
+     "Samu"
+    ],
+    "script": "Regarde l'image. Écoute et écris les prénoms. Il y a un exemple. … Diego : Qui est-ce dans le jardin du pique-nique ? Le garçon au t-shirt rouge avec un microphone. … Maya : C'est Diego. Diego pose des questions avec son microphone. … Diego : Et qui est la fille au t-shirt vert avec une loupe ? … Maya : C'est Maya. Regarde, Maya observe quelque chose de tout petit. … Diego : Et qui est le garçon aux cheveux blonds courts avec un sac à dos ? … Maya : C'est Samu. Regarde, Samu fait signe. … Diego : Et qui est la fille à la queue-de-cheval rousse et aux taches de rousseur ? … Maya : C'est Iris. Regarde, Iris dessine à la craie par terre. … Diego : Et qui est la fille aux nattes noires et au t-shirt violet ? … Maya : C'est Lia. Regarde, Lia saute à la corde.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris ce que tu manges dans une journée normale : Au petit-déjeuner je prends… Au déjeuner… Au dîner… (trois phrases, utilise la liste de mots)."
+  }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 2,
+  "tema": "La vie de tous les jours",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Raconter des histoires au passé, au présent et au futur ; exprimer ses préférences avec des raisons."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et comprendre des histoires courtes (80 à 250 mots) ; trouver l'idée principale et les détails."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~2500 mots ; passé composé, questions négatives, si + présent, futur proche."
+   }
+  ],
+  "vocabulario": [
+   "faire du sport",
+   "méditer",
+   "faire du bénévolat",
+   "recycler",
+   "budget"
+  ],
+  "gramatica": [
+   "L'imparfait : les habitudes du passé"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "exercise",
+    "meditate",
+    "volunteer",
+    "recycle",
+    "budget"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "faire du sport",
+  "méditer",
+  "faire du bénévolat",
+  "recycler",
+  "budget"
+ ],
+ "lang": "fr"
+}

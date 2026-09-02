@@ -1,0 +1,319 @@
+{
+ "id": "movers-fr-23",
+ "level": "movers",
+ "number": 23,
+ "title": "Le village de mes grands-parents",
+ "topic": "la campagne",
+ "grammar": "Il y avait",
+ "wordlist": [
+  "village",
+  "champ",
+  "rivière",
+  "pont",
+  "église",
+  "chemin",
+  "calme",
+  "étoile",
+  "frais",
+  "visiter"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 2,
+  "skill": "texte à trous"
+ },
+ "characters": [
+  "valentina",
+  "sofia"
+ ],
+ "scene": {
+  "speaker": "valentina",
+  "pose": {
+   "valentina": 3,
+   "sofia": 9
+  },
+  "bubble": "Dans le village de mes grands-parents le pain sent le matin et les étoiles sont TELLEMENT près !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe les deux moitiés sur le village.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Dans le village…",
+    "right_label": "…détail",
+    "pairs": [
+     {
+      "left": "la rivière",
+      "right": "passe sous le vieux pont"
+     },
+     {
+      "left": "les champs",
+      "right": "sont pleins de maïs en été"
+     },
+     {
+      "left": "l'église",
+      "right": "a une cloche qui sonne à midi"
+     },
+     {
+      "left": "le chemin",
+      "right": "monte la colline jusqu'à la croix"
+     },
+     {
+      "left": "le pain",
+      "right": "est frais tous les matins"
+     },
+     {
+      "left": "les nuits",
+      "right": "sont calmes et pleines d'étoiles"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis Il y avait au singulier ou au pluriel.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase sur l'été dernier.",
+    "items": [
+     {
+      "sentence": "___ une grande fête sur la place du village.",
+      "options": [
+       "Il y avait",
+       "Il y avait",
+       "Il y a"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___ trois chevaux blancs dans le champ.",
+      "options": [
+       "Il y avait",
+       "Il y avait",
+       "Il y a"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "___ de la musique et de la danse jusqu'à tard.",
+      "options": [
+       "Il y avait",
+       "Il y avait",
+       "Il y suis"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___ des centaines d'étoiles chaque nuit.",
+      "options": [
+       "Il y avait",
+       "Il y avait",
+       "Il y être"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "___ un petit magasin à côté de l'église.",
+      "options": [
+       "Il y avait",
+       "Il y avait",
+       "Il y ont"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute les souvenirs de village de Valentina. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u23-c.mp3",
+   "data": {
+    "voice_note": "Voces: Valentina (recordando) y Sofía (escuchando).",
+    "script": "Valentina : Chaque été je vais au village de mes grands-parents, dans la montagne. … Valentina : Papi se lève à cinq heures pour faire le pain. Toute la maison sent bon. … Sofia : Qu'est-ce que tu fais de la journée ? … Valentina : J'aide à ramasser les œufs — les poules me connaissent maintenant ! … Valentina : L'après-midi on nage dans la rivière, près du vieux pont. … Sofia : Et le soir ? … Valentina : Mamie raconte des histoires sur le balcon et on compte les étoiles. … Valentina : L'été dernier j'en ai compté deux cents avant de m'endormir !",
+    "questions": [
+     {
+      "q": "Le village est dans la …",
+      "answer": "montagnes"
+     },
+     {
+      "q": "Papi se lève à … pour faire le pain.",
+      "answer": "cinq"
+     },
+     {
+      "q": "Valentina aide à ramasser les …",
+      "answer": "œufs"
+     },
+     {
+      "q": "Ils nagent dans la rivière près du vieux …",
+      "answer": "pont"
+     },
+     {
+      "q": "L'été dernier elle a compté deux cents …",
+      "answer": "étoiles"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Une toute petite ville à la campagne est un …",
+      "options": [
+       "village",
+       "ville",
+       "cour de récréation"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu traverses la rivière par le …",
+      "options": [
+       "pont",
+       "champ",
+       "chemin"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le contraire de bruyant est …",
+      "options": [
+       "calme",
+       "frais",
+       "vieux"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le pain fait ce matin est …",
+      "options": [
+       "frais",
+       "froid",
+       "bouclé"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Aller voir quelqu'un, c'est lui rendre ___.",
+      "options": [
+       "visiter",
+       "compter",
+       "porter"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Raconte à ton camarade un endroit où tu vas en vacances : qui y habite, ce qu'il y a, ton meilleur moment. Il pose 2 questions. Puis on échange."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Deux images, plein de différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris sur une visite à ta famille : 5 phrases, dont deux avec Il y avait."
+  }
+ ],
+ "scope": {
+  "grado": "G3",
+  "temaN": 6,
+  "tema": "Mon quartier",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues courts avec plus de vocabulaire ; repérer l'information principale dans des annonces simples."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire ses habitudes, ses préférés, les métiers du quartier ; donner une opinion courte."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire de courts paragraphes ; répondre à des questions simples ; trouver une information précise."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un court paragraphe sur soi, sa famille ou sa journée (40 à 70 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~800 mots ; les temps de base ; devoir, pouvoir ; l'accord du verbe ; le superlatif."
+   }
+  ],
+  "vocabulario": [
+   "aider",
+   "protéger",
+   "servir",
+   "faire cuire",
+   "soigner"
+  ],
+  "gramatica": [
+   "La conjonction : alors (j'étais fatigué, alors je me suis reposé)"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "help",
+    "protect",
+    "serve",
+    "bake",
+    "heal"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "aider",
+  "protéger",
+  "servir",
+  "faire cuire",
+  "soigner"
+ ],
+ "lang": "fr"
+}

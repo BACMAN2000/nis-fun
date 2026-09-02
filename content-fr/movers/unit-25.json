@@ -1,0 +1,313 @@
+{
+ "id": "movers-fr-25",
+ "level": "movers",
+ "number": 25,
+ "title": "Je suis malade !",
+ "topic": "santé",
+ "grammar": "Qu'est-ce qui ne va pas ? + avoir",
+ "wordlist": [
+  "malade",
+  "froid",
+  "toux",
+  "mal de tête",
+  "mal de ventre",
+  "température",
+  "lit",
+  "se reposer",
+  "soupe",
+  "meilleur"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 4,
+  "skill": "choix multiple"
+ },
+ "characters": [
+  "sofia",
+  "valentina"
+ ],
+ "scene": {
+  "speaker": "valentina",
+  "pose": {
+   "valentina": 4,
+   "sofia": 3
+  },
+  "bubble": "Sofía a un rhume, alors aujourd'hui le Club se réunit à sa fenêtre — avec de la soupe, des BD et des chansons depuis le jardin !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe le problème et ce qui aide.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Problème",
+    "right_label": "Ce qui aide",
+    "pairs": [
+     {
+      "left": "un rhume",
+      "right": "du citron chaud avec du miel"
+     },
+     {
+      "left": "mal à la tête",
+      "right": "se reposer dans une pièce sombre"
+     },
+     {
+      "left": "un mal de ventre",
+      "right": "du thé tiède et pas de bonbons"
+     },
+     {
+      "left": "de la fièvre",
+      "right": "rester au lit toute la journée"
+     },
+     {
+      "left": "une toux",
+      "right": "une écharpe chaude et une voix douce"
+     },
+     {
+      "left": "se sentir triste et malade",
+      "right": "une visite de tes amis"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis la bonne réponse.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis la meilleure réponse.",
+    "items": [
+     {
+      "sentence": "« Qu'est-ce qui ne va pas ? »",
+      "options": [
+       "J'ai mal à la tête.",
+       "C'est sur l'étagère.",
+       "Deux kilos, s'il vous plaît."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Tu as de la fièvre ? »",
+      "options": [
+       "Oui, trente-huit degrés.",
+       "Non, c'est mardi.",
+       "En bus."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Comment tu te sens aujourd'hui ? »",
+      "options": [
+       "Beaucoup mieux, merci !",
+       "Sous le canapé.",
+       "Trois arrêts."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Tu devrais te reposer. »",
+      "options": [
+       "D'accord, je reste au lit.",
+       "C'est en bois.",
+       "Vendredi."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Bon rétablissement ! »",
+      "options": [
+       "Merci !",
+       "C'est combien ?",
+       "Tourne à gauche."
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute la visite à la fenêtre. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u25-c.mp3",
+   "data": {
+    "voice_note": "Voces: Valentina (desde el jardín) y Sofía (desde la ventana, resfriada).",
+    "script": "Valentina : Sofia ! Comment tu te sens aujourd'hui ? … Sofia : Un peu mieux. Ma température est seulement de trente-sept maintenant. … Valentina : On t'a apporté de la soupe de poulet de ma mamie. … Sofia : Ma préférée ! Mets-la dans le panier et je le remonte. … Valentina : Mateo t'a apporté trois BD et Erik t'a fait une carte… avec un robot dessus. … Sofia : Avec un robot, bien sûr ! Merci, l'équipe ! … Valentina : Repose-toi bien. Samedi tu seras prête pour le pique-nique. … Sofia : Ordonnance : de la soupe, du sommeil et des amis. Ça marche déjà !",
+    "questions": [
+     {
+      "q": "La température de Sofía est seulement de trente-… maintenant.",
+      "answer": "sept"
+     },
+     {
+      "q": "Ils lui ont apporté de la … de poulet de mamie.",
+      "answer": "soupe"
+     },
+     {
+      "q": "Ils mettent la soupe dans le … et elle le remonte.",
+      "answer": "panier"
+     },
+     {
+      "q": "Mateo a apporté trois …",
+      "answer": "bandes dessinées"
+     },
+     {
+      "q": "La carte d'Erik a un … dessus.",
+      "answer": "robot"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Quand tu as mal à la tête, tu as un …",
+      "options": [
+       "mal de tête",
+       "toux",
+       "froid"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Quand tu es malade tu devrais beaucoup te …",
+      "options": [
+       "se reposer",
+       "courir",
+       "crier"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Atchoum ! Je crois que j'ai un …",
+      "options": [
+       "froid",
+       "or",
+       "but"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Après les médicaments et le sommeil tu te sens …",
+      "options": [
+       "meilleur",
+       "plus grand",
+       "plus tard"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "La ___ chaude est parfaite les jours de maladie.",
+      "options": [
+       "soupe",
+       "glace",
+       "barbe à papa"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Jeu de rôle chez le médecin : le patient invente un problème (J'ai…), le médecin pose 2 questions et donne un conseil (Tu devrais…). Puis on échange."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Trouve les différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Fais une carte de bon rétablissement pour un ami malade : une formule, 2 conseils et un dessin drôle."
+  }
+ ],
+ "scope": {
+  "grado": "G3",
+  "temaN": 5,
+  "tema": "Émotions et santé",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues courts avec plus de vocabulaire ; repérer l'information principale dans des annonces simples."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire ses habitudes, ses préférés, les métiers du quartier ; donner une opinion courte."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire de courts paragraphes ; répondre à des questions simples ; trouver une information précise."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un court paragraphe sur soi, sa famille ou sa journée (40 à 70 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~800 mots ; les temps de base ; devoir, pouvoir ; l'accord du verbe ; le superlatif."
+   }
+  ],
+  "vocabulario": [
+   "malade",
+   "température",
+   "se reposer",
+   "médicament",
+   "rendez-vous"
+  ],
+  "gramatica": [
+   "L'imparfait d'être : j'étais, tu étais (introduction)"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "medicine",
+    "appointment"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "médicament",
+  "rendez-vous"
+ ],
+ "lang": "fr"
+}

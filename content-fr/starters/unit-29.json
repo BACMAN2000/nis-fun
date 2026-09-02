@@ -1,0 +1,286 @@
+{
+ "id": "starters-fr-29",
+ "level": "starters",
+ "number": 29,
+ "title": "La rue",
+ "topic": "rue",
+ "grammar": "la sécurité + l'impératif",
+ "wordlist": [
+  "rue",
+  "voiture",
+  "bus",
+  "vélo",
+  "camion",
+  "moto",
+  "magasin",
+  "lumière",
+  "traverser",
+  "prudent"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 1,
+  "skill": "les choses de la rue"
+ },
+ "characters": [
+  "astrid",
+  "tomas"
+ ],
+ "scene": {
+  "speaker": "astrid",
+  "pose": {
+   "astrid": 2,
+   "tomas": 1
+  },
+  "bubble": "Les règles de la rue : arrête-toi, regarde, écoute… et traverse au feu vert. La sécurité d'abord, explorateurs !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Écris les mots de la rue.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "VOITURE",
+      "clue": "Elle a quatre roues et un klaxon. Tut tut !"
+     },
+     {
+      "word": "BUS",
+      "clue": "Il est grand et transporte beaucoup de gens."
+     },
+     {
+      "word": "VELO",
+      "clue": "Il a deux roues et tu pédales."
+     },
+     {
+      "word": "MAGASIN",
+      "clue": "Tu achètes des choses ici."
+     },
+     {
+      "word": "RUE",
+      "clue": "Les voitures et les bus y roulent."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Associe la règle et sa raison.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Règle",
+    "right_label": "Raison",
+    "pairs": [
+     {
+      "left": "Arrête-toi au feu rouge.",
+      "right": "les voitures passent"
+     },
+     {
+      "left": "Traverse au feu vert.",
+      "right": "c'est ton tour"
+     },
+     {
+      "left": "Regarde des deux côtés.",
+      "right": "pour voir toutes les voitures"
+     },
+     {
+      "left": "Tiens une grande main.",
+      "right": "les petits explorateurs traversent avec un adulte"
+     },
+     {
+      "left": "Marche, ne cours pas.",
+      "right": "courir est dangereux ici"
+     },
+     {
+      "left": "Mets un casque à vélo.",
+      "right": "il protège ta tête"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute dans la rue. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u29-c.mp3",
+   "data": {
+    "voice_note": "Voces: Astrid (cuidadosa) y Tomás (aprendiendo).",
+    "script": "Astrid : On va au magasin. Les règles de la rue, Tomás ! … Tomás : Je m'arrête au coin… je regarde à gauche, à droite ! … Astrid : Le feu est rouge. On attend. … Tomás : Maintenant il est vert ! On traverse. … Astrid : Regarde, un grand camion jaune ! Et deux motos. … Tomás : Le magasin est à côté de la boulangerie. Mmm, du pain ! … Astrid : On achète du lait et des œufs… et un petit pain pour le chemin. … Tomás : Les règles de la rue ET du pain. Sortie parfaite !",
+    "questions": [
+     {
+      "q": "Ils s'arrêtent au …",
+      "answer": "coin"
+     },
+     {
+      "q": "Ils traversent au feu …",
+      "answer": "vert"
+     },
+     {
+      "q": "Le grand camion est …",
+      "answer": "jaune"
+     },
+     {
+      "q": "Le magasin est à côté de la …",
+      "answer": "boulangerie"
+     },
+     {
+      "q": "Ils achètent du lait et des …",
+      "answer": "œufs"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Le feu rouge veut dire …",
+      "options": [
+       "arrêter",
+       "aller",
+       "chanter"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le feu vert veut dire que tu peux …",
+      "options": [
+       "traverser",
+       "dormir",
+       "crier"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un ___ est plus grand qu'une voiture.",
+      "options": [
+       "bus",
+       "vélo",
+       "chat"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Sois ___ dans la rue !",
+      "options": [
+       "prudent",
+       "sale",
+       "drôle"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "À vélo, mets un …",
+      "options": [
+       "casque",
+       "chapeau seulement",
+       "écharpe"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Jouez à traverser : l'un est le feu (il dit rouge ! vert !), l'autre marche ou s'arrête. Puis on échange. Regarde toujours des deux côtés !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Regarde A et B. Qu'est-ce qui change ?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 11 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris 3 règles de la rue en français et dessine un feu tricolore. Apprends-les à quelqu'un chez toi !"
+  }
+ ],
+ "scope": {
+  "grado": "G2",
+  "temaN": 4,
+  "tema": "Ma ville",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues simples sur la famille, l'école, les animaux et la nourriture."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Répondre à des questions à partir d'une image ; décrire une image en phrases simples."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire des textes de 2 à 3 phrases ; associer images, mots et légendes courtes."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Recopier des mots et compléter des phrases courtes."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~450 mots ; présent, être et avoir, il y a, aimer + infinitif."
+   }
+  ],
+  "vocabulario": [
+   "bus",
+   "voiture",
+   "vélo",
+   "train",
+   "taxi"
+  ],
+  "gramatica": [
+   "Les questions : Où est… ? Comment on va à… ?"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "train",
+    "taxi"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "train",
+  "taxi"
+ ],
+ "lang": "fr"
+}

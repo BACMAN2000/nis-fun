@@ -1,0 +1,468 @@
+{
+ "id": "flyers-fr-24",
+ "level": "flyers",
+ "number": 24,
+ "title": "Les photos de la famille monstre",
+ "topic": "décrire les personnes",
+ "grammar": "avoir + adjectifs pour décrire",
+ "wordlist": [
+  "bouclé",
+  "tout droit",
+  "blond",
+  "sombre",
+  "grand",
+  "court",
+  "gros",
+  "mince",
+  "vieux",
+  "jeune"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 1,
+  "skill": "identifier les personnes"
+ },
+ "characters": [
+  "diego",
+  "kili"
+ ],
+ "scene": {
+  "speaker": "diego",
+  "pose": {
+   "diego": 3,
+   "kili": 2
+  },
+  "bubble": "Kili a livré un album photo… à la mauvaise maison ! Il appartient à une famille de monstres. Décrivons-les pour retrouver leur maison !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe les contraires.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Mot",
+    "right_label": "Contraire",
+    "pairs": [
+     {
+      "left": "cheveux bouclés",
+      "right": "cheveux raides"
+     },
+     {
+      "left": "cheveux blonds",
+      "right": "cheveux bruns"
+     },
+     {
+      "left": "grand",
+      "right": "court"
+     },
+     {
+      "left": "gros",
+      "right": "mince"
+     },
+     {
+      "left": "vieux",
+      "right": "jeune"
+     },
+     {
+      "left": "une longue barbe",
+      "right": "pas de barbe du tout"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Qui est qui ? Choisis le bon monstre.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Lis la description et choisis le bon monstre.",
+    "items": [
+     {
+      "sentence": "Il est très grand et mince, avec des cheveux violets bouclés.",
+      "options": [
+       "Papi Grum",
+       "Oncle Zog",
+       "Baby Boo"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Elle est vieille et petite, avec un sourire gentil et des cheveux gris bouclés.",
+      "options": [
+       "Mamie Gloop",
+       "Cousin Zip",
+       "Maman Moo"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "C'est le plus jeune, avec trois petites dents.",
+      "options": [
+       "Oncle Zog",
+       "Baby Boo",
+       "Papi Grum"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Elle a de longs cheveux bleus raides et de grandes lunettes.",
+      "options": [
+       "Cousin Zip",
+       "Mamie Gloop",
+       "Baby Boo"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Il a une très longue barbe blanche — c'est le plus vieux.",
+      "options": [
+       "Baby Boo",
+       "Oncle Zog",
+       "Papi Grum"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute. Diego décrit la photo de famille. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u24-c.mp3",
+   "data": {
+    "voice_note": "Voces: Diego (describiendo) y Kili (buscando desde el aire).",
+    "script": "Diego : Bon Kili, écoute ! Sur la photo il y a six monstres. … Diego : Le père est très gros et vert, avec des cheveux orange bouclés. … Diego : La mère est grande et mince, et elle a quatre yeux sympathiques. … Diego : Le grand-père a une barbe blanche de deux mètres de long ! … Diego : Les jumeaux sont jeunes — ils ont le même nez violet. … Diego : Et le bébé dort dans une chaussure. Une grande chaussure rouge ! … Diego : Leur maison doit être celle avec l'énorme porte. Vole, Kili, vole !",
+    "questions": [
+     {
+      "q": "Sur la photo il y a … monstres.",
+      "answer": "six"
+     },
+     {
+      "q": "Le père a des cheveux … bouclés.",
+      "answer": "orange"
+     },
+     {
+      "q": "La mère a quatre … sympathiques.",
+      "answer": "yeux"
+     },
+     {
+      "q": "La barbe du grand-père fait deux … de long.",
+      "answer": "mètres"
+     },
+     {
+      "q": "Le bébé dort dans une grande … rouge.",
+      "answer": "chaussure"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Ses cheveux ne sont pas raides, ils sont …",
+      "options": [
+       "bouclé",
+       "grand",
+       "vieux"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Mon papi a 80 ans — il est plutôt …",
+      "options": [
+       "jeune",
+       "vieux",
+       "mince"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Il ___ des cheveux bruns et des yeux marron.",
+      "options": [
+       "est",
+       "a",
+       "avoir"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Le contraire de cheveux blonds, ce sont les cheveux ___.",
+      "options": [
+       "sombre",
+       "court",
+       "bouclé"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un joueur de basket est en général très …",
+      "options": [
+       "court",
+       "grand",
+       "vieux"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Dessine un monstre en secret. Décris-le à ton camarade (il a…, il est…) pendant qu'il le dessine. Comparez les dessins — la différence la plus drôle gagne !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Deux images, plein de différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  },
+  {
+   "type": "picture_story",
+   "title": "Regarde les trois images et écris l'histoire.",
+   "instructions": "Regarde les images. Écris l'histoire en 20-25 mots. Aide-toi des mots sous chaque image.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 4,
+     "nombre": "Gens et cultures"
+    },
+    "destreza": "Writing",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots.",
+    "clase": "Type examen : histoire en images de 20 à 25 mots (production écrite)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "amphitheater",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 4
+       }
+      ],
+      "word": "",
+      "hint": "Diego / à l'amphithéâtre",
+      "model": "Un matin Diego est à l'amphithéâtre."
+     },
+     {
+      "n": 2,
+      "scene": "main-building",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 3
+       },
+       {
+        "slug": "aiko",
+        "pose": 3
+       }
+      ],
+      "word": "",
+      "hint": "Diego / rencontrer / Aiko",
+      "model": "Ensuite Diego rencontre Aiko dans le bâtiment principal."
+     },
+     {
+      "n": 3,
+      "scene": "facade",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 10
+       },
+       {
+        "slug": "aiko",
+        "pose": 1
+       }
+      ],
+      "word": "",
+      "hint": "devant l'école / content",
+      "model": "Devant l'école ils sont très contents ensemble."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Un matin Diego est à l'amphithéâtre. Ensuite Diego rencontre Aiko dans le bâtiment principal. Devant l'école ils sont très contents ensemble.",
+    "words": [],
+    "support": {
+     "grammar": "avoir + adjectifs pour décrire",
+     "words": [
+      "bouclé",
+      "tout droit",
+      "blond",
+      "sombre",
+      "grand",
+      "court"
+     ]
+    }
+   },
+   "code": "H"
+  },
+  {
+   "type": "label_people",
+   "title": "Écoute et écris les prénoms.",
+   "instructions": "Regarde l'image. Écoute et écris le prénom sous chaque personne. Attention : il y a trois prénoms en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 4,
+     "nombre": "Gens et cultures"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et écrire le prénom de chaque personne de l'image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u24-g.mp3",
+   "data": {
+    "scene": "facade",
+    "place": "le devant de l'école",
+    "people": [
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "clue": "le garçon au t-shirt rouge avec un microphone",
+      "action": "pose des questions avec son microphone",
+      "pose": 7
+     },
+     {
+      "slug": "kili",
+      "name": "Kili",
+      "clue": "le grand oiseau noir avec un collier blanc",
+      "action": "porte une lettre",
+      "pose": 3
+     },
+     {
+      "slug": "grum",
+      "name": "Grum",
+      "clue": "le grand monstre vert avec trois yeux et beaucoup de cheveux",
+      "action": "sourit",
+      "pose": 1
+     },
+     {
+      "slug": "zog",
+      "name": "Zog",
+      "clue": "le monstre violet avec un œil et deux très longs bras",
+      "action": "fait signe d'un long bras",
+      "pose": 1
+     },
+     {
+      "slug": "vega",
+      "name": "Mr Vega",
+      "clue": "l'homme à la chemise bleue",
+      "action": "montre le chemin du centre sportif",
+      "figura": "father"
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Diego",
+     "Grum",
+     "Kili",
+     "Lia",
+     "Maya",
+     "Mr Vega",
+     "Zog"
+    ],
+    "script": "Regarde l'image. Écoute et écris les prénoms. Il y a un exemple. … Diego : Qui est-ce devant l'école ? Le garçon au t-shirt rouge avec un microphone. … Maya : C'est Diego. Diego pose des questions avec son microphone. … Diego : Et qui est le grand oiseau noir avec un collier blanc ? … Maya : C'est Kili. Regarde, Kili porte une lettre. … Diego : Et qui est le grand monstre vert avec trois yeux et beaucoup de cheveux ? … Maya : C'est Grum. Regarde, Grum sourit. … Diego : Et qui est le monstre violet avec un œil et deux très longs bras ? … Maya : C'est Zog. Regarde, Zog fait signe d'un long bras. … Diego : Et qui est l'homme à la chemise bleue ? … Maya : C'est M. Vega. Regarde, M. Vega montre le chemin du centre sportif.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Décris deux personnes de ta famille en 3 phrases chacune : Ma tante est grande. Elle a des cheveux bruns bouclés…"
+  }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 4,
+  "tema": "Gens et cultures",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Raconter des histoires au passé, au présent et au futur ; exprimer ses préférences avec des raisons."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et comprendre des histoires courtes (80 à 250 mots) ; trouver l'idée principale et les détails."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~2500 mots ; passé composé, questions négatives, si + présent, futur proche."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

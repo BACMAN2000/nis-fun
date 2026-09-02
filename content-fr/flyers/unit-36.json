@@ -1,0 +1,468 @@
+{
+ "id": "flyers-fr-36",
+ "level": "flyers",
+ "number": 36,
+ "title": "On le fait ou on le prépare ?",
+ "topic": "faire / préparer",
+ "grammar": "les expressions avec faire",
+ "wordlist": [
+  "faire le lit",
+  "faire ses devoirs",
+  "faire un gâteau",
+  "faire la vaisselle",
+  "faire une erreur",
+  "faire de son mieux",
+  "faire du bruit",
+  "faire du sport",
+  "se faire des amis",
+  "tâches ménagères"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 6,
+  "skill": "phrases à trous"
+ },
+ "characters": [
+  "maya",
+  "ingrid"
+ ],
+ "scene": {
+  "speaker": "maya",
+  "pose": {
+   "maya": 4,
+   "ingrid": 3
+  },
+  "bubble": "Mystère de la langue : on PRÉPARE un gâteau mais on FAIT la vaisselle. Qui a inventé ces règles ?!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "faire ou préparer ? Associe les moitiés.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Verbe",
+    "right_label": "Expression",
+    "pairs": [
+     {
+      "left": "faire son lit",
+      "right": "tous les matins"
+     },
+     {
+      "left": "faire ses devoirs",
+      "right": "avant le dîner"
+     },
+     {
+      "left": "préparer un gâteau au chocolat",
+      "right": "pour un anniversaire"
+     },
+     {
+      "left": "faire la vaisselle",
+      "right": "après le déjeuner"
+     },
+     {
+      "left": "se faire de nouveaux amis",
+      "right": "en colonie de vacances"
+     },
+     {
+      "left": "faire de son mieux",
+      "right": "à chaque examen"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis faire ou préparer.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "Ne ___ pas tant de bruit — le bébé dort !",
+      "options": [
+       "fabriquer",
+       "faire",
+       "avoir"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Je ___ mes devoirs à la bibliothèque.",
+      "options": [
+       "fabriquer",
+       "faire",
+       "prendre"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Tout le monde ___ des erreurs quand on apprend.",
+      "options": [
+       "fait",
+       "fait",
+       "va"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "On ___ du sport deux fois par semaine à l'école.",
+      "options": [
+       "fabriquer",
+       "faire",
+       "jouer"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Tu peux m'aider à ___ un gâteau pour papa ?",
+      "options": [
+       "faire",
+       "fabriquer",
+       "cuisiner le"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute le plan des tâches du samedi. Écris un mot dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u36-c.mp3",
+   "data": {
+    "voice_note": "Voces: Maya (con la lista) e Ingrid (repartiendo tareas).",
+    "script": "Ingrid : Les tâches du samedi, l'équipe ! Maya, lis la liste. … Maya : D'abord : chacun fait son lit. Pas d'exception, Oliver ! … Maya : Diego fait la vaisselle — il n'y a que six assiettes aujourd'hui. … Maya : Ingrid et moi on fait les courses au marché. … Maya : Oliver prépare le déjeuner. S'il te plaît, pas encore une pizza… bon, encore une pizza. … Maya : Et Kili ? Kili fait rire tout le monde. C'est sa tâche officielle ! … Ingrid : Quand on a fini, on prépare une grande limonade et on se repose sur le balcon.",
+    "questions": [
+     {
+      "q": "Chacun fait son …",
+      "answer": "lit"
+     },
+     {
+      "q": "Diego fait la … — seulement six assiettes.",
+      "answer": "vaisselle"
+     },
+     {
+      "q": "Ingrid et Maya font les courses au …",
+      "answer": "marché"
+     },
+     {
+      "q": "Oliver prépare le déjeuner : encore une …",
+      "answer": "pizza"
+     },
+     {
+      "q": "À la fin ils préparent une grande …",
+      "answer": "limonade"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis la bonne expression.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis les bons mots.",
+    "items": [
+     {
+      "sentence": "Avant l'école, je ___ mon lit.",
+      "options": [
+       "fabriquer",
+       "faire",
+       "donner"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "En colonie c'est facile de se ___ de nouveaux amis.",
+      "options": [
+       "faire",
+       "fabriquer",
+       "prendre"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Les petits travaux à la maison s'appellent les …",
+      "options": [
+       "tâches ménagères",
+       "prix",
+       "habitudes"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« J'ai ___ de mon mieux, mais je suis arrivé troisième. » — « Bravo quand même ! »",
+      "options": [
+       "a fait",
+       "a fait",
+       "est allé"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Oups, j'ai ___ une erreur à l'exercice deux.",
+      "options": [
+       "a fait",
+       "a fait",
+       "a pris"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Vrai ou faux : dis 3 phrases sur les tâches que tu fais à la maison (une est fausse !) : « Je fais mon lit tous les jours… » Ton camarade devine le mensonge."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "A et B ne sont pas pareils. Trouve pourquoi !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  },
+  {
+   "type": "picture_story",
+   "title": "Regarde les trois images et écris l'histoire.",
+   "instructions": "Regarde les images. Écris l'histoire en 20-25 mots. Aide-toi des mots sous chaque image.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 2,
+     "nombre": "La vie de tous les jours"
+    },
+    "destreza": "Writing",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots.",
+    "clase": "Type examen : histoire en images de 20 à 25 mots (production écrite)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "chess-plaza",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 4
+       }
+      ],
+      "word": "",
+      "hint": "Maya / à la place des échecs",
+      "model": "Un matin Maya est à la place des échecs."
+     },
+     {
+      "n": 2,
+      "scene": "picnic-garden",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 3
+       },
+       {
+        "slug": "ingrid",
+        "pose": 3
+       }
+      ],
+      "word": "",
+      "hint": "Maya / rencontrer / Ingrid",
+      "model": "Ensuite Maya rencontre Ingrid au jardin du pique-nique."
+     },
+     {
+      "n": 3,
+      "scene": "classroom",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 10
+       },
+       {
+        "slug": "ingrid",
+        "pose": 10
+       }
+      ],
+      "word": "",
+      "hint": "dans la classe / content",
+      "model": "Dans la classe ils sont très contents ensemble."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Un matin Maya est à la place des échecs. Ensuite Maya rencontre Ingrid au jardin du pique-nique. Dans la classe ils sont très contents ensemble.",
+    "words": [],
+    "support": {
+     "grammar": "les expressions avec faire",
+     "words": [
+      "faire le lit",
+      "faire ses devoirs",
+      "faire un gâteau",
+      "faire la vaisselle",
+      "faire une erreur",
+      "faire de son mieux"
+     ]
+    }
+   },
+   "code": "H"
+  },
+  {
+   "type": "label_people",
+   "title": "Écoute et écris les prénoms.",
+   "instructions": "Regarde l'image. Écoute et écris le prénom sous chaque personne. Attention : il y a trois prénoms en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 2,
+     "nombre": "La vie de tous les jours"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et écrire le prénom de chaque personne de l'image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u36-g.mp3",
+   "data": {
+    "scene": "main-building",
+    "place": "le bâtiment principal",
+    "people": [
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "clue": "la fille au t-shirt vert avec une loupe",
+      "action": "observe quelque chose de tout petit",
+      "pose": 7
+     },
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "clue": "la fille aux cheveux blonds et à la veste bleu foncé",
+      "action": "lit le programme de la journée",
+      "pose": 7
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "clue": "la fille à la queue-de-cheval rousse et aux taches de rousseur",
+      "action": "dessine à la craie par terre",
+      "pose": 7
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "clue": "la fille aux nattes noires et au t-shirt violet",
+      "action": "saute à la corde",
+      "pose": 7
+     },
+     {
+      "slug": "vega",
+      "name": "Mr Vega",
+      "clue": "l'homme à la chemise bleue",
+      "action": "montre le chemin du centre sportif",
+      "figura": "father"
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Bruno",
+     "Ingrid",
+     "Iris",
+     "Kili",
+     "Lia",
+     "Maya",
+     "Mr Vega"
+    ],
+    "script": "Regarde l'image. Écoute et écris les prénoms. Il y a un exemple. … Diego : Qui est-ce dans le bâtiment principal ? La fille au t-shirt vert avec une loupe. … Maya : C'est Maya. Maya observe quelque chose de tout petit. … Diego : Et qui est la fille aux cheveux blonds et à la veste bleu foncé ? … Maya : C'est Ingrid. Regarde, Ingrid lit le programme de la journée. … Diego : Et qui est la fille à la queue-de-cheval rousse et aux taches de rousseur ? … Maya : C'est Iris. Regarde, Iris dessine à la craie par terre. … Diego : Et qui est la fille aux nattes noires et au t-shirt violet ? … Maya : C'est Lia. Regarde, Lia saute à la corde. … Diego : Et qui est l'homme à la chemise bleue ? … Maya : C'est M. Vega. Regarde, M. Vega montre le chemin du centre sportif.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris tes tâches du week-end : 3 avec faire et 3 avec préparer. Demande à un adulte de signer si c'est vrai !"
+  }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 2,
+  "tema": "La vie de tous les jours",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Raconter des histoires au passé, au présent et au futur ; exprimer ses préférences avec des raisons."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et comprendre des histoires courtes (80 à 250 mots) ; trouver l'idée principale et les détails."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~2500 mots ; passé composé, questions négatives, si + présent, futur proche."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

@@ -1,0 +1,796 @@
+{
+ "id": "flyers-fr-01",
+ "level": "flyers",
+ "number": 1,
+ "title": "Porter sur soi et emporter",
+ "topic": "vêtements",
+ "grammar": "porter / emporter / mettre",
+ "wordlist": [
+  "parapluie",
+  "gants",
+  "ceinture",
+  "poche",
+  "uniforme",
+  "valise",
+  "bague",
+  "chapeau de soleil",
+  "écharpe",
+  "chaussettes"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 1,
+  "skill": "définitions"
+ },
+ "characters": [
+  "ingrid",
+  "kili"
+ ],
+ "scene": {
+  "speaker": "ingrid",
+  "pose": {
+   "ingrid": 8,
+   "kili": 2
+  },
+  "bubble": "On prépare les valises pour l'Expédition Aurore ! Qu'est-ce qu'on met sur soi et qu'est-ce qu'on emporte ?",
+  "intro": "C'est le premier matin de l'Expédition Aurore, et la cuisine du phare est pleine de valises ouvertes ! Ingrid vérifie sa liste deux fois : l'uniforme pour la photo de classe, des gants et une écharpe pour le vent froid de la mer, et une poche secrète pour l'argent de l'expédition. Kili vole d'une pièce à l'autre avec des chaussettes dans le bec — et parfois ce sont même les bonnes. Qu'est-ce que les explorateurs portent, et qu'est-ce qu'ils emportent ? Ouvre grand les yeux : c'est tout le sujet de cette unité !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Lis les phrases et écris les mots.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "PARAPLUIE",
+      "clue": "Quand il pleut, tu l'ouvres pour ne pas être mouillé."
+     },
+     {
+      "word": "UNIFORME",
+      "clue": "Certains enfants le portent à l'école pour que tout le monde soit habillé pareil."
+     },
+     {
+      "word": "GANTS",
+      "clue": "Tu les portes aux mains quand il fait froid."
+     },
+     {
+      "word": "CEINTURE",
+      "clue": "Tu la portes en haut de ton pantalon."
+     },
+     {
+      "word": "POCHE",
+      "clue": "Un petit endroit dans tes vêtements où tu peux mettre de l'argent."
+     },
+     {
+      "word": "VALISE",
+      "clue": "Tu emportes tes vêtements dedans quand tu pars en vacances."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Associe les objets et les parties du corps.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "La chose",
+    "right_label": "Partie du corps",
+    "pairs": [
+     {
+      "left": "bague",
+      "right": "doigt"
+     },
+     {
+      "left": "chapeau de soleil",
+      "right": "tête"
+     },
+     {
+      "left": "écharpe",
+      "right": "cou"
+     },
+     {
+      "left": "chaussettes",
+      "right": "pieds"
+     },
+     {
+      "left": "gants",
+      "right": "mains"
+     },
+     {
+      "left": "ceinture",
+      "right": "taille"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute. Ingrid fait sa valise. Écris un mot dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u01-c.mp3",
+   "data": {
+    "voice_note": "Voces: Ingrid (niña, decidida) y Diego (niño, reportero).",
+    "script": "Diego : Bonjour Ingrid ! Tu es prête pour l'expédition ? … Ingrid : Presque ! Je fais ma valise maintenant. … Diego : Qu'est-ce que tu as mis dedans ? … Ingrid : D'abord mon uniforme bleu, parce que la photo de classe est lundi. … Diego : Bonne idée. Il fait froid là-bas ? … Ingrid : Oui ! Alors j'emporte mes gants et une écharpe bien chaude. … Diego : Et pour la pluie ? … Ingrid : Mon parapluie est trop grand, alors je prends mon manteau jaune. … Diego : Et n'oublie pas l'argent pour le musée ! … Ingrid : Il est bien rangé dans la petite poche de mon sac à dos.",
+    "questions": [
+     {
+      "q": "La photo de classe est …",
+      "answer": "lundi"
+     },
+     {
+      "q": "Ingrid met son … en premier.",
+      "answer": "uniforme"
+     },
+     {
+      "q": "Pour le froid elle prend des gants et une … bien chaude.",
+      "answer": "écharpe"
+     },
+     {
+      "q": "À la place du parapluie elle prend un … jaune.",
+      "answer": "manteau"
+     },
+     {
+      "q": "L'argent est dans la … de son sac à dos.",
+      "answer": "poche"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Lecture et écriture, partie 1 : choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Lis la phrase et choisis le bon mot, comme à l'examen.",
+    "items": [
+     {
+      "sentence": "Tu portes cette chose douce et longue autour du cou quand il fait froid et qu'il y a du vent.",
+      "options": [
+       "une ceinture",
+       "une écharpe",
+       "une poche"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Les gens y mettent leurs vêtements et leurs affaires quand ils voyagent dans une autre ville.",
+      "options": [
+       "une valise",
+       "un uniforme",
+       "une bague"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu peux porter cette chose ronde sur la tête un jour de plage bien ensoleillé.",
+      "options": [
+       "gants",
+       "un chapeau de soleil",
+       "un parapluie"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Tu les mets aux pieds avant tes chaussures, et elles tiennent tes pieds au chaud en hiver.",
+      "options": [
+       "chaussettes",
+       "ceintures",
+       "écharpes"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Certaines personnes portent cette petite chose jolie au doigt. Elle est parfois en or.",
+      "options": [
+       "une poche",
+       "une chaussette",
+       "une bague"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "L'élève A choisit un mot de la liste et le décrit sans dire son nom. L'élève B devine. Puis on échange. Exemple : « Tu les portes aux mains. » — « Les gants ! »"
+   }
+  },
+  {
+   "code": "F",
+   "type": "gap_text",
+   "title": "Lis l'histoire de l'image. Écris les mots qui manquent.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "suitcase",
+     "gloves",
+     "uniform",
+     "pocket",
+     "scarf",
+     "umbrella",
+     "boots",
+     "ring"
+    ],
+    "text": "Ingrid prépare l'expédition. D'abord elle met son {1} bleu tout au fond, parce que la photo de classe est lundi. Ensuite elle range son {2} bien chaud et son épaisse {3} pour les jours froids sur le bateau. Son argent est en sécurité dans la petite {4} de son sac à dos. Elle ne prend pas son {5} parce qu'il est trop grand — son manteau jaune est mieux pour la pluie. À la fin, sa {6} est si pleine que Kili doit s'asseoir dessus pour la fermer !",
+    "answers": [
+     "uniform",
+     "scarf",
+     "gloves",
+     "pocket",
+     "umbrella",
+     "suitcase"
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "spot_diff",
+   "title": "Regarde et trouve les différences dans le magasin de vêtements.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "sceneA": [
+     [
+      "🧥",
+      "👒",
+      "🧤",
+      "👗",
+      "🧣"
+     ],
+     [
+      "👟",
+      "🎩",
+      "🧦",
+      "👕",
+      "👖"
+     ],
+     [
+      "🧳",
+      "💍",
+      "🥾",
+      "🧢",
+      "☂️"
+     ]
+    ],
+    "sceneB": [
+     [
+      "🧥",
+      "👜",
+      "🧤",
+      "👗",
+      "🧣"
+     ],
+     [
+      "👟",
+      "🎩",
+      "🧦",
+      "🥼",
+      "👖"
+     ],
+     [
+      "🎒",
+      "💍",
+      "🥾",
+      "🧢",
+      "🕶️"
+     ]
+    ],
+    "diffs": [
+     [
+      0,
+      1
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      2,
+      4
+     ]
+    ]
+   }
+  },
+  {
+   "type": "picture_mc",
+   "title": "Écoute et coche la bonne case.",
+   "instructions": "Écoute chaque question et clique sur l'image qui répond.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 1,
+     "nombre": "Mon identité"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et cocher la bonne image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u01-i.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "Que montre Ingrid du doigt ?",
+      "answer": "parapluie",
+      "options": [
+       {
+        "word": "parapluie",
+        "propio": true
+       },
+       {
+        "word": "poche",
+        "propio": true
+       },
+       {
+        "word": "chapeau de soleil",
+        "propio": true
+       }
+      ],
+      "script": "Que montre Ingrid du doigt ? … Ingrid : Je montre le parapluie."
+     },
+     {
+      "q": "De quoi Iris parle-t-elle ?",
+      "answer": "chapeau de soleil",
+      "options": [
+       {
+        "word": "chapeau de soleil",
+        "propio": true
+       },
+       {
+        "word": "valise",
+        "propio": true
+       },
+       {
+        "word": "chaussettes",
+        "propio": true
+       }
+      ],
+      "script": "De quoi Iris parle-t-elle ? … Iris : Je parle du chapeau de soleil."
+     },
+     {
+      "q": "Quel mot Diego apprend-il aujourd'hui ?",
+      "answer": "ceinture",
+      "options": [
+       {
+        "word": "chaussettes",
+        "propio": true
+       },
+       {
+        "word": "ceinture",
+        "propio": true
+       },
+       {
+        "word": "écharpe",
+        "propio": true
+       }
+      ],
+      "script": "Quel mot Diego apprend-il aujourd'hui ? … Diego : Aujourd'hui j'apprends le mot ceinture."
+     },
+     {
+      "q": "Qu'est-ce que Lia a dessiné ?",
+      "answer": "poche",
+      "options": [
+       {
+        "word": "gants",
+        "propio": true
+       },
+       {
+        "word": "écharpe",
+        "propio": true
+       },
+       {
+        "word": "poche",
+        "propio": true
+       }
+      ],
+      "script": "Qu'est-ce que Lia a dessiné ? … Lia : J'ai dessiné une poche."
+     },
+     {
+      "q": "Quelle image Tino regarde-t-il ?",
+      "answer": "uniforme",
+      "options": [
+       {
+        "word": "valise",
+        "propio": true
+       },
+       {
+        "word": "poche",
+        "propio": true
+       },
+       {
+        "word": "uniforme",
+        "propio": true
+       }
+      ],
+      "script": "Quelle image Tino regarde-t-il ? … Tino : Je regarde l'uniforme."
+     }
+    ],
+    "script": "Écoute et coche la bonne case. Il y a un exemple. … Que montre Ingrid du doigt ? … Ingrid : Je montre le parapluie. … De quoi Iris parle-t-elle ? … Iris : Je parle du chapeau de soleil. … Quel mot Diego apprend-il aujourd'hui ? … Diego : Aujourd'hui j'apprends le mot ceinture. … Qu'est-ce que Lia a dessiné ? … Lia : J'ai dessiné une poche. … Quelle image Tino regarde-t-il ? … Tino : Je regarde l'uniforme.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "I"
+  },
+  {
+   "type": "match_pictures",
+   "title": "Écoute et associe chaque explorateur à une image.",
+   "instructions": "Écoute. Puis choisis la lettre de l'image pour chaque personne. Attention : certaines images sont en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 1,
+     "nombre": "Mon identité"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et associer chaque personne à une image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 3
+    }
+   },
+   "audio": "flyers/u01-j.mp3",
+   "data": {
+    "people": [
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "pose": 8
+     },
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "pose": 8
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "pose": 3
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "pose": 3
+     },
+     {
+      "slug": "tino",
+      "name": "Tino",
+      "pose": 3
+     }
+    ],
+    "pictures": [
+     {
+      "word": "musée",
+      "propio": true,
+      "id": "A"
+     },
+     {
+      "word": "valise",
+      "propio": true,
+      "id": "B"
+     },
+     {
+      "word": "écharpe",
+      "propio": true,
+      "id": "C"
+     },
+     {
+      "word": "poche",
+      "propio": true,
+      "id": "D"
+     },
+     {
+      "word": "parapluie",
+      "propio": true,
+      "id": "E"
+     },
+     {
+      "word": "pharmacie",
+      "propio": true,
+      "id": "F"
+     },
+     {
+      "word": "famille",
+      "propio": true,
+      "id": "G"
+     },
+     {
+      "word": "gants",
+      "propio": true,
+      "id": "H"
+     }
+    ],
+    "answers": {
+     "Ingrid": "B",
+     "Oliver": "C",
+     "Iris": "D",
+     "Lia": "E",
+     "Tino": "H"
+    },
+    "script": "Écoute et associe chaque personne à une image. Il y a un exemple. … Diego : Ingrid, quelle image as-tu choisie ? … Ingrid : J'ai choisi la valise. … Diego : Oliver, quelle image as-tu choisie ? … Oliver : J'ai choisi l'écharpe. … Diego : Iris, quelle image as-tu choisie ? … Iris : J'ai choisi la poche. … Diego : Lia, quelle image as-tu choisie ? … Lia : J'ai choisi le parapluie. … Diego : Tino, quelle image as-tu choisie ? … Tino : J'ai choisi les gants.",
+    "voice_note": "Diego pregunta; cada explorador responde con su objeto."
+   },
+   "code": "J"
+  },
+  {
+   "type": "picture_story",
+   "title": "Regarde les trois images et écris l'histoire.",
+   "instructions": "Regarde les images. Écris l'histoire en 20-25 mots. Aide-toi des mots sous chaque image.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 1,
+     "nombre": "Mon identité"
+    },
+    "destreza": "Writing",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots.",
+    "clase": "Type examen : histoire en images de 20 à 25 mots (production écrite)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "library",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 4
+       }
+      ],
+      "word": "ceinture",
+      "hint": "Ingrid / prend / une ceinture",
+      "model": "Ingrid prend une ceinture à la bibliothèque."
+     },
+     {
+      "n": 2,
+      "scene": "campus-hex",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 8
+       },
+       {
+        "slug": "bruno",
+        "pose": 1
+       }
+      ],
+      "word": "poche",
+      "hint": "Bruno / apporter / une poche",
+      "model": "Ensuite Bruno apporte une poche."
+     },
+     {
+      "n": 3,
+      "scene": "classroom",
+      "people": [
+       {
+        "slug": "bruno",
+        "pose": 1
+       },
+       {
+        "slug": "ingrid",
+        "pose": 10
+       }
+      ],
+      "word": "gants",
+      "hint": "maintenant / des gants / content",
+      "model": "Maintenant ils ont aussi des gants, et tous les deux sont contents."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Ingrid prend une ceinture à la bibliothèque. Ensuite Bruno apporte une poche. Maintenant ils ont aussi des gants, et tous les deux sont contents.",
+    "words": [
+     "ceinture",
+     "poche",
+     "gants"
+    ],
+    "support": {
+     "grammar": "porter / emporter / mettre",
+     "words": [
+      "parapluie",
+      "gants",
+      "ceinture",
+      "poche",
+      "uniforme",
+      "valise"
+     ]
+    }
+   },
+   "code": "K"
+  },
+  {
+   "type": "label_people",
+   "title": "Écoute et écris les prénoms.",
+   "instructions": "Regarde l'image. Écoute et écris le prénom sous chaque personne. Attention : il y a trois prénoms en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 1,
+     "nombre": "Mon identité"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et écrire le prénom de chaque personne de l'image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u01-h.mp3",
+   "data": {
+    "scene": "campus-hex",
+    "place": "la cour de l'école",
+    "people": [
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "clue": "la fille aux cheveux blonds et à la veste bleu foncé",
+      "action": "lit le programme de la journée",
+      "pose": 7
+     },
+     {
+      "slug": "kili",
+      "name": "Kili",
+      "clue": "le grand oiseau noir avec un collier blanc",
+      "action": "porte une lettre",
+      "pose": 3
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "clue": "le garçon aux cheveux bruns bouclés et au t-shirt vert",
+      "action": "court après le ballon",
+      "pose": 7
+     },
+     {
+      "slug": "tino",
+      "name": "Tino",
+      "clue": "le garçon aux cheveux très courts et au t-shirt blanc et vert",
+      "action": "joue au hockey",
+      "pose": 7
+     },
+     {
+      "slug": "samu",
+      "name": "Samu",
+      "clue": "le garçon aux cheveux blonds courts avec un sac à dos",
+      "action": "fait signe",
+      "pose": 7
+     }
+    ],
+    "names": [
+     "Bruno",
+     "Diego",
+     "Ingrid",
+     "Kili",
+     "Lia",
+     "Maya",
+     "Samu",
+     "Tino"
+    ],
+    "script": "Regarde l'image. Écoute et écris les prénoms. Il y a un exemple. … Diego : Qui est-ce dans la cour de l'école ? La fille aux cheveux blonds et à la veste bleu foncé. … Maya : C'est Ingrid. Ingrid lit le programme de la journée. … Diego : Et qui est le grand oiseau noir avec un collier blanc ? … Maya : C'est Kili. Regarde, Kili porte une lettre. … Diego : Et qui est le garçon aux cheveux bruns bouclés et au t-shirt vert ? … Maya : C'est Bruno. Regarde, Bruno court après le ballon. … Diego : Et qui est le garçon aux cheveux très courts et au t-shirt blanc et vert ? … Maya : C'est Tino. Regarde, Tino joue au hockey. … Diego : Et qui est le garçon aux cheveux blonds courts avec un sac à dos ? … Maya : C'est Samu. Regarde, Samu fait signe.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "H"
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Dessine et légende 5 choses que tu portes et 3 choses que tu emportes à l'école. Écris une phrase pour chacune : Je porte… / J'emporte…"
+  }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 1,
+  "tema": "Mon identité",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Raconter des histoires au passé, au présent et au futur ; exprimer ses préférences avec des raisons."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et comprendre des histoires courtes (80 à 250 mots) ; trouver l'idée principale et les détails."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~2500 mots ; passé composé, questions négatives, si + présent, futur proche."
+   }
+  ],
+  "vocabulario": [
+   "honnêteté",
+   "respect",
+   "responsabilité",
+   "empathie"
+  ],
+  "gramatica": [
+   "Le passé composé : déjà, jamais, encore (emploi complet)"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "honesty",
+    "respect",
+    "responsibility",
+    "empathy"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "honnêteté",
+  "respect",
+  "responsabilité",
+  "empathie"
+ ],
+ "lang": "fr"
+}

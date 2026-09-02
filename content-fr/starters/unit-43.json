@@ -1,0 +1,298 @@
+{
+ "id": "starters-fr-43",
+ "level": "starters",
+ "number": 43,
+ "title": "Celui-ci et celui-là",
+ "topic": "ce / cette",
+ "grammar": "C'est / C'est là-bas",
+ "wordlist": [
+  "ce",
+  "ce",
+  "ceux-ci",
+  "ceux-là",
+  "ici",
+  "là",
+  "près",
+  "loin",
+  "regarder",
+  "quoi"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 1,
+  "skill": "ce/cette"
+ },
+ "characters": [
+  "tomas",
+  "nico"
+ ],
+ "scene": {
+  "speaker": "tomas",
+  "pose": {
+   "tomas": 2,
+   "nico": 2
+  },
+  "bubble": "CE ballon est ici dans ma main. CET oiseau est loin dans le ciel. Près et loin — facile !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe l'expression et près ou loin.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Expression",
+    "right_label": "Près ou loin",
+    "pairs": [
+     {
+      "left": "ce livre dans ma main",
+      "right": "près — ici"
+     },
+     {
+      "left": "cette montagne",
+      "right": "loin — là-bas"
+     },
+     {
+      "left": "ces chaussures à mes pieds",
+      "right": "près — plusieurs choses"
+     },
+     {
+      "left": "ces oiseaux dans le ciel",
+      "right": "loin — plusieurs choses"
+     },
+     {
+      "left": "ici",
+      "right": "là où je suis"
+     },
+     {
+      "left": "là",
+      "right": "là où je montre"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis ce, cette ou ces.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "___ est mon crayon, ici dans ma main.",
+      "options": [
+       "Ce",
+       "Celui-là",
+       "Ceux-là"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___ est le phare, là-bas au loin !",
+      "options": [
+       "Celui-là",
+       "Ce",
+       "Ceux-ci"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___ sont mes chaussures, à mes pieds.",
+      "options": [
+       "Ceux-ci",
+       "Ceux-là",
+       "Celui-là"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___ sont des oiseaux, là-haut dans le ciel.",
+      "options": [
+       "Ceux-là",
+       "Ceux-ci",
+       "Ce"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Qu'est-ce que c'___ ? » — « C'est un coquillage ! »",
+      "options": [
+       "ce",
+       "ceux-là",
+       "ceux-ci"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute le jeu du doigt. Écris un mot dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u43-c.mp3",
+   "data": {
+    "voice_note": "Voces: Tomás y Nico (señalando cosas).",
+    "script": "Tomás : Jeu du doigt ! Ça, c'est ma casquette. Ici, bleue ! … Nico : Et ça, c'est le portail de l'école, là-bas. … Tomás : Ça, ce sont mes cartes de football. Vingt cartes ! … Nico : Là-bas, ce sont des nuages. Le gros ressemble à un bateau ! … Tomás : Qu'est-ce que c'est, ça, dans ma poche ? … Nico : Un biscuit ? … Tomás : Oui ! Et ÇA, c'est Pip qui arrive vite en volant… il l'a senti ! … Nico : Cours, Tomás, cours !",
+    "questions": [
+     {
+      "q": "Ça, c'est la … bleue de Tomás.",
+      "answer": "casquette"
+     },
+     {
+      "q": "Ça, c'est le … de l'école.",
+      "answer": "portail"
+     },
+     {
+      "q": "Tomás a vingt … de football.",
+      "answer": "cartes"
+     },
+     {
+      "q": "Le gros nuage ressemble à un …",
+      "answer": "navire"
+     },
+     {
+      "q": "Dans la poche il y a un …",
+      "answer": "biscuit"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Pour une chose près : …",
+      "options": [
+       "ce",
+       "ce",
+       "ceux-là"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Pour une chose loin : …",
+      "options": [
+       "ce",
+       "ce",
+       "ceux-ci"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Pour plusieurs choses près : …",
+      "options": [
+       "ceux-ci",
+       "ceux-là",
+       "ce"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le contraire de près est …",
+      "options": [
+       "loin",
+       "rapide",
+       "amusant"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Regarde ___ ! » — tu montres avec ton doigt.",
+      "options": [
+       "là",
+       "ensuite",
+       "le"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Montre et dis : 2 choses près (C'est… Ce sont…) et 2 choses loin (C'est là-bas… Ce sont là-bas…). Ton camarade vérifie : près ou loin ?"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "A et B ne sont pas pareils. Trouve pourquoi !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Mets-toi à la fenêtre. Écris 2 phrases avec ce/cette (dedans) et 2 avec ces (dehors)."
+  }
+ ],
+ "scope": {
+  "grado": "G1",
+  "temaN": 5,
+  "tema": "Ma famille",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Suivre les consignes de la classe ; reconnaître des mots connus dans une chanson ou une phrase courte."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Saluer ; dire son nom, son âge, les couleurs ; nommer des objets ; répondre par oui ou non."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Reconnaître les lettres de l'alphabet ; associer un mot à une image (famille, nourriture, animaux, corps)."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire son prénom ; recopier des mots ; légender une image (3 à 5 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~150 mots actifs ; le verbe être, un/une, c'est/ce sont, l'impératif."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

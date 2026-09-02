@@ -1,0 +1,471 @@
+{
+ "id": "flyers-fr-25",
+ "level": "flyers",
+ "number": 25,
+ "title": "Les gens",
+ "topic": "la personnalité",
+ "grammar": "les adjectifs de personnalité",
+ "wordlist": [
+  "sympathique",
+  "malin",
+  "paresseux",
+  "courageux",
+  "gentil",
+  "calme",
+  "bruyant",
+  "drôle",
+  "prudent",
+  "poli"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 3,
+  "skill": "conversation"
+ },
+ "characters": [
+  "ingrid",
+  "maya"
+ ],
+ "scene": {
+  "speaker": "ingrid",
+  "pose": {
+   "ingrid": 3,
+   "maya": 1
+  },
+  "bubble": "Une bonne équipe d'expédition a besoin de tout le monde : des courageux, des prudents, des drôles… et un qui apporte le goûter !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Lis les phrases et écris les mots de la personnalité.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "SYMPATHIQUE",
+      "clue": "Cette personne sourit et parle à tout le monde."
+     },
+     {
+      "word": "MALIN",
+      "clue": "Cette personne apprend vite et a de bonnes idées."
+     },
+     {
+      "word": "COURAGEUX",
+      "clue": "Cette personne n'a pas peur des choses difficiles."
+     },
+     {
+      "word": "PARESSEUX",
+      "clue": "Cette personne ne veut jamais travailler ni aider !"
+     },
+     {
+      "word": "POLI",
+      "clue": "Cette personne dit toujours s'il te plaît et merci."
+     },
+     {
+      "word": "CALME",
+      "clue": "Cette personne ne parle pas beaucoup et ne fait pas de bruit."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Associe la personne et l'adjectif.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Situation",
+    "right_label": "Adjectif",
+    "pairs": [
+     {
+      "left": "Elle a aidé un petit garçon perdu à retrouver sa maman.",
+      "right": "gentil"
+     },
+     {
+      "left": "Il a grimpé à l'arbre pour sauver le chat.",
+      "right": "courageux"
+     },
+     {
+      "left": "Elle vérifie toujours son travail deux fois.",
+      "right": "prudent"
+     },
+     {
+      "left": "Il raconte des blagues qui font rire tout le monde.",
+      "right": "drôle"
+     },
+     {
+      "left": "Il est resté sur le canapé tout le dimanche.",
+      "right": "paresseux"
+     },
+     {
+      "left": "Ils crient et mettent la musique fort la nuit.",
+      "right": "bruyant"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute. Ingrid décrit son équipe. Écris un mot dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u25-c.mp3",
+   "data": {
+    "voice_note": "Voces: Ingrid (capitana) y Maya (apuntando).",
+    "script": "Ingrid : Chaque explorateur de mon équipe est spécial, Maya. … Ingrid : Diego est le plus courageux — il a interviewé un requin une fois. Depuis un bateau, mais quand même ! … Ingrid : Oliver est le plus drôle. Ses blagues sont nulles, et c'est pour ça qu'on rit. … Ingrid : Toi tu es la plus prudente — tu vérifies la carte trois fois avant de partir. … Maya : Quatre fois, en fait. … Ingrid : Et Kili est le plus gentil. Il partage ses biscuits avec les petits oiseaux. … Maya : Et toi, capitaine ? … Ingrid : Moi ? Je suis la plus bruyante quand on gagne !",
+    "questions": [
+     {
+      "q": "Diego a interviewé un … depuis un bateau.",
+      "answer": "requin"
+     },
+     {
+      "q": "Les … nulles d'Oliver font rire tout le monde.",
+      "answer": "blagues"
+     },
+     {
+      "q": "Maya vérifie la carte … fois.",
+      "answer": "quatre"
+     },
+     {
+      "q": "Kili partage ses … avec les petits oiseaux.",
+      "answer": "biscuits"
+     },
+     {
+      "q": "Ingrid est la … quand ils gagnent.",
+      "answer": "la plus bruyante"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Elle dit toujours « s'il te plaît » — elle est très …",
+      "options": [
+       "poli",
+       "paresseux",
+       "bruyant"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le contraire de calme est …",
+      "options": [
+       "gentil",
+       "bruyant",
+       "courageux"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Une personne qui a plein de bonnes idées est …",
+      "options": [
+       "malin",
+       "paresseux",
+       "grand"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les pompiers doivent être très …",
+      "options": [
+       "paresseux",
+       "courageux",
+       "bruyant"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Sois ___ avec ce vase en verre !",
+      "options": [
+       "prudent",
+       "drôle",
+       "sympathique"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Décris un camarade avec 3 adjectifs de personnalité (que des gentils !) sans dire son nom. Ton camarade devine qui c'est. Deux personnes chacun."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "A et B ne sont pas pareils. Trouve pourquoi !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 11 différences et parles-en avec ton camarade.",
+   "data": {}
+  },
+  {
+   "type": "picture_story",
+   "title": "Regarde les trois images et écris l'histoire.",
+   "instructions": "Regarde les images. Écris l'histoire en 20-25 mots. Aide-toi des mots sous chaque image.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 1,
+     "nombre": "Mon identité"
+    },
+    "destreza": "Writing",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots.",
+    "clase": "Type examen : histoire en images de 20 à 25 mots (production écrite)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "classroom",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 4
+       }
+      ],
+      "word": "calme",
+      "hint": "Ingrid / être / calme",
+      "model": "Ingrid est calme dans la classe."
+     },
+     {
+      "n": 2,
+      "scene": "entrance",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 3
+       },
+       {
+        "slug": "ingrid",
+        "pose": 6
+       }
+      ],
+      "word": "courageux",
+      "hint": "Maya / parler à / Ingrid / courageuse",
+      "model": "Maya parle à Ingrid parce qu'elle a l'air courageuse."
+     },
+     {
+      "n": 3,
+      "scene": "library",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 10
+       },
+       {
+        "slug": "maya",
+        "pose": 1
+       }
+      ],
+      "word": "sympathique",
+      "hint": "maintenant / tous les deux / sympathiques",
+      "model": "Maintenant elles sont toutes les deux sympathiques et elles sourient."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Ingrid est calme dans la classe. Maya parle à Ingrid parce qu'elle a l'air courageuse. Maintenant elles sont toutes les deux sympathiques et elles sourient.",
+    "words": [
+     "calme",
+     "courageux",
+     "sympathique"
+    ],
+    "support": {
+     "grammar": "les adjectifs de personnalité",
+     "words": [
+      "sympathique",
+      "malin",
+      "paresseux",
+      "courageux",
+      "gentil",
+      "calme"
+     ]
+    }
+   },
+   "code": "H"
+  },
+  {
+   "type": "label_people",
+   "title": "Écoute et écris les prénoms.",
+   "instructions": "Regarde l'image. Écoute et écris le prénom sous chaque personne. Attention : il y a trois prénoms en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 1,
+     "nombre": "Mon identité"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et écrire le prénom de chaque personne de l'image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u25-g.mp3",
+   "data": {
+    "scene": "entrance",
+    "place": "l'entrée de l'école",
+    "people": [
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "clue": "la fille aux cheveux blonds et à la veste bleu foncé",
+      "action": "lit le programme de la journée",
+      "pose": 7
+     },
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "clue": "la fille au t-shirt vert avec une loupe",
+      "action": "observe quelque chose de tout petit",
+      "pose": 7
+     },
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "clue": "le garçon aux cheveux roux et au t-shirt jaune",
+      "action": "chante",
+      "pose": 7
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "clue": "la fille à la queue-de-cheval rousse et aux taches de rousseur",
+      "action": "dessine à la craie par terre",
+      "pose": 7
+     },
+     {
+      "slug": "tino",
+      "name": "Tino",
+      "clue": "le garçon aux cheveux très courts et au t-shirt blanc et vert",
+      "action": "joue au hockey",
+      "pose": 7
+     }
+    ],
+    "names": [
+     "Diego",
+     "Ingrid",
+     "Iris",
+     "Kili",
+     "Maya",
+     "Oliver",
+     "Samu",
+     "Tino"
+    ],
+    "script": "Regarde l'image. Écoute et écris les prénoms. Il y a un exemple. … Diego : Qui est-ce à l'entrée de l'école ? La fille aux cheveux blonds et à la veste bleu foncé. … Maya : C'est Ingrid. Ingrid lit le programme de la journée. … Diego : Et qui est la fille au t-shirt vert avec une loupe ? … Maya : C'est Maya. Regarde, Maya observe quelque chose de tout petit. … Diego : Et qui est le garçon aux cheveux roux et au t-shirt jaune ? … Maya : C'est Oliver. Regarde, Oliver chante. … Diego : Et qui est la fille à la queue-de-cheval rousse et aux taches de rousseur ? … Maya : C'est Iris. Regarde, Iris dessine à la craie par terre. … Diego : Et qui est le garçon aux cheveux très courts et au t-shirt blanc et vert ? … Maya : C'est Tino. Regarde, Tino joue au hockey.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris sur ton meilleur ami : trois adjectifs et un exemple pour chacun : Sara est courageuse. Une fois elle…"
+  }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 1,
+  "tema": "Mon identité",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Raconter des histoires au passé, au présent et au futur ; exprimer ses préférences avec des raisons."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et comprendre des histoires courtes (80 à 250 mots) ; trouver l'idée principale et les détails."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~2500 mots ; passé composé, questions négatives, si + présent, futur proche."
+   }
+  ],
+  "vocabulario": [
+   "patient",
+   "ambitieux",
+   "créatif",
+   "têtu",
+   "généreux",
+   "fiable"
+  ],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": [
+    "patient",
+    "ambitious",
+    "creative",
+    "stubborn",
+    "generous",
+    "reliable"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "patient",
+  "ambitieux",
+  "créatif",
+  "têtu",
+  "généreux",
+  "fiable"
+ ],
+ "lang": "fr"
+}

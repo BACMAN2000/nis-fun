@@ -1,0 +1,298 @@
+{
+ "id": "movers-fr-45",
+ "level": "movers",
+ "number": 45,
+ "title": "La fête d'anniversaire",
+ "topic": "les fêtes",
+ "grammar": "les dates + Quel âge",
+ "wordlist": [
+  "anniversaire",
+  "fête",
+  "cadeau",
+  "bougie",
+  "ballon de baudruche",
+  "invité",
+  "jeu",
+  "souhait",
+  "gâteau",
+  "faire la fête"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 4,
+  "skill": "choix multiple"
+ },
+ "characters": [
+  "sofia",
+  "erik"
+ ],
+ "scene": {
+  "speaker": "sofia",
+  "pose": {
+   "sofia": 10,
+   "erik": 10
+  },
+  "bubble": "SURPRISE ! Ça a marché ! Dix invités, trente ballons, une tempête de confettis… et le meilleur club du monde !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe l'objet de la fête et son moment.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "La chose",
+    "right_label": "Moment",
+    "pairs": [
+     {
+      "left": "les ballons",
+      "right": "tu les gonfles avant la fête"
+     },
+     {
+      "left": "les invités",
+      "right": "ils arrivent et crient SURPRISE"
+     },
+     {
+      "left": "les jeux",
+      "right": "tout le monde joue ensemble"
+     },
+     {
+      "left": "les bougies",
+      "right": "tu les souffles et tu fais un vœu"
+     },
+     {
+      "left": "le gâteau",
+      "right": "chacun en reçoit une part"
+     },
+     {
+      "left": "les cadeaux",
+      "right": "la personne dont c'est l'anniversaire les ouvre"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis les bons mots de la fête.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "« Quel ___ as-tu aujourd'hui ? » — « J'ai dix ans ! »",
+      "options": [
+       "vieux",
+       "beaucoup de",
+       "beaucoup"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Souffle les ___ et fais un vœu !",
+      "options": [
+       "bougies",
+       "ballons",
+       "cadeaux"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tout le monde chante Joyeux ___ .",
+      "options": [
+       "Anniversaire",
+       "dimanche",
+       "Vacances"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les gens à une fête sont les …",
+      "options": [
+       "invités",
+       "conducteurs",
+       "vendeurs"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Ne dis pas ton vœu — c'est un ___ !",
+      "options": [
+       "secret",
+       "chanson",
+       "sandwich"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute la fête surprise. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u45-c.mp3",
+   "data": {
+    "voice_note": "Voces: Sofía (cumpleañera feliz) y Erik (maestro del confeti).",
+    "script": "Sofia : J'ai ouvert la porte et… SURPRISE ! Dix amis, trente ballons ! … Erik : Et ma machine à confettis ! Une minute de pluie de papier, comme prévu. … Sofia : Le gâteau avait dix bougies. Je les ai toutes soufflées d'un coup ! … Erik : Tu as souhaité quoi ? … Sofia : Secret ! Mais ça a quatre pattes et ça fait ouaf. … Erik : On a joué à trois jeux et Mateo a gagné la chasse aux pièces en chocolat. … Sofia : Le gâteau de mamie était au chocolat avec des fraises. Parfait. … Sofia : Le plus bel anniversaire. Merci, Club du Fjord !",
+    "questions": [
+     {
+      "q": "Il y avait dix amis et … ballons.",
+      "answer": "trente"
+     },
+     {
+      "q": "La pluie de confettis a duré une …",
+      "answer": "minute"
+     },
+     {
+      "q": "Le gâteau avait … bougies.",
+      "answer": "dix"
+     },
+     {
+      "q": "Le vœu secret a quatre pattes et fait …",
+      "answer": "ouaf"
+     },
+     {
+      "q": "… a gagné la chasse aux pièces en chocolat.",
+      "answer": "Mateo"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Le jour de ton anniversaire tu reçois des …",
+      "options": [
+       "cadeaux",
+       "devoirs",
+       "règles"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les ballons sont pleins d'…",
+      "options": [
+       "air",
+       "eau",
+       "jus"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Faire une fête pour quelque chose de spécial, c'est le ___.",
+      "options": [
+       "faire la fête",
+       "calculer",
+       "grimper"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un ___ de fête peut être les chaises musicales.",
+      "options": [
+       "jeu",
+       "portail",
+       "chèvre"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Quand tu souffles les bougies, tu fais un …",
+      "options": [
+       "souhait",
+       "laver",
+       "regarder"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Souvenir de fête : raconte à ton camarade ton plus bel anniversaire — quel âge tu avais, qui est venu, le meilleur moment. Il pose 2 questions. Puis on échange."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "A et B ne sont pas pareils. Trouve pourquoi !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Prépare ton prochain anniversaire : la date, 3 invités, un jeu, le gâteau et un vœu (tu peux l'inventer !). 5 phrases."
+  }
+ ],
+ "scope": {
+  "grado": "G4",
+  "temaN": 2,
+  "tema": "L'école et les apprentissages",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues plus longs ; repérer une information précise à l'oral."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire des lieux, des objets, des événements passés ; jouer une situation simple."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et remettre en ordre des histoires courtes ; trouver une information dans un panneau ou une affiche."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un message de 30 à 40 mots ; paragraphes de classe de 60 à 100 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~1350 mots ; passé composé, pronoms relatifs, pour + infinitif, devoir."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

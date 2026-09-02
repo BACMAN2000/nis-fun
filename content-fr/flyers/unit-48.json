@@ -1,0 +1,468 @@
+{
+ "id": "flyers-fr-48",
+ "level": "flyers",
+ "number": 48,
+ "title": "La personne qui…",
+ "topic": "qui / que / où",
+ "grammar": "les pronoms relatifs : qui, que, où",
+ "wordlist": [
+  "qui",
+  "quel",
+  "où",
+  "personne",
+  "lieu",
+  "chose",
+  "devinette",
+  "deviner",
+  "décrire",
+  "vouloir dire"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 1,
+  "skill": "définitions"
+ },
+ "characters": [
+  "maya",
+  "diego"
+ ],
+ "scene": {
+  "speaker": "maya",
+  "pose": {
+   "maya": 3,
+   "diego": 4
+  },
+  "bubble": "L'heure des devinettes ! Une personne QUI vole, un endroit OÙ dorment les bateaux, une chose QUI sonne… Tu peux tout deviner ?"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "qui, que ou où ? Associe la définition et le mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Définition",
+    "right_label": "Mot",
+    "pairs": [
+     {
+      "left": "une personne qui apporte tes lettres",
+      "right": "un facteur"
+     },
+     {
+      "left": "une chose qui te réveille",
+      "right": "un réveil"
+     },
+     {
+      "left": "un endroit où tu empruntes des livres",
+      "right": "une bibliothèque"
+     },
+     {
+      "left": "une personne qui pilote des avions",
+      "right": "un pilote"
+     },
+     {
+      "left": "une chose qui montre ton visage",
+      "right": "un miroir"
+     },
+     {
+      "left": "un endroit où les bateaux restent la nuit",
+      "right": "un port"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis qui, que ou où.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "Un infirmier est une personne ___ aide les malades.",
+      "options": [
+       "qui",
+       "quel",
+       "où"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un frigo est une machine ___ garde la nourriture au froid.",
+      "options": [
+       "qui",
+       "quel",
+       "où"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Un stade est un endroit ___ les gens regardent des matchs.",
+      "options": [
+       "qui",
+       "quel",
+       "où"
+      ],
+      "answer": 2
+     },
+     {
+      "sentence": "La fille ___ a gagné la course est dans ma classe !",
+      "options": [
+       "qui",
+       "quel",
+       "où"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "C'est le café ___ on a pris le petit-déjeuner.",
+      "options": [
+       "qui",
+       "quel",
+       "où"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute le jeu des devinettes. Écris un mot dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u48-c.mp3",
+   "data": {
+    "voice_note": "Voces: Maya (adivinanzas) y Diego (concursante).",
+    "script": "Maya : Devinette une ! C'est une chose qui a des dents mais qui ne mange jamais. … Diego : Des dents mais qui ne mange pas… un peigne ! Pour les cheveux ! … Maya : Correct ! Devinette deux : c'est un endroit où vivent les livres. … Diego : La bibliothèque. Trop facile ! … Maya : Devinette trois : une personne qui travaille quand tout le monde dort. … Diego : Hmm… un boulanger ! Il fait le pain la nuit. … Maya : Excellent ! La dernière, la plus difficile. Une chose qui devient plus grande quand on lui enlève quelque chose. … Diego : Quoi ? Plus grande quand on enlève… UN TROU ! … Maya : Champion des devinettes ! Ton prix est… inventer les quatre prochaines devinettes.",
+    "questions": [
+     {
+      "q": "La chose avec des dents qui ne mange jamais est un …",
+      "answer": "peigne"
+     },
+     {
+      "q": "L'endroit où vivent les livres est la …",
+      "answer": "bibliothèque"
+     },
+     {
+      "q": "La personne qui travaille la nuit est un …",
+      "answer": "boulanger"
+     },
+     {
+      "q": "La chose qui devient plus grande est un …",
+      "answer": "trou"
+     },
+     {
+      "q": "Le prix de Diego est d'inventer les … prochaines devinettes.",
+      "answer": "quatre"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Un jeu de questions avec des indices est une …",
+      "options": [
+       "devinette",
+       "file d'attente",
+       "tâche ménagère"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un dentiste est une personne ___ s'occupe des dents.",
+      "options": [
+       "qui",
+       "quel",
+       "où"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un four est une machine ___ cuit la nourriture.",
+      "options": [
+       "où",
+       "quel",
+       "qui"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "La cuisine est la pièce ___ on cuisine.",
+      "options": [
+       "quel",
+       "qui",
+       "où"
+      ],
+      "answer": 2
+     },
+     {
+      "sentence": "« Qu'est-ce que ce mot veut ___ ? » — « Cherche dans le dictionnaire ! »",
+      "options": [
+       "vouloir dire",
+       "deviner",
+       "décrire"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Écris 3 devinettes avec qui/que/où pour un autre binôme (une personne qui…, une chose qui…, un endroit où…). Échangez et résolvez. Un point par bonne réponse !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Trouve les différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 11 différences et parles-en avec ton camarade.",
+   "data": {}
+  },
+  {
+   "type": "picture_story",
+   "title": "Regarde les trois images et écris l'histoire.",
+   "instructions": "Regarde les images. Écris l'histoire en 20-25 mots. Aide-toi des mots sous chaque image.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 1,
+     "nombre": "Mon identité"
+    },
+    "destreza": "Writing",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots.",
+    "clase": "Type examen : histoire en images de 20 à 25 mots (production écrite)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "library",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 4
+       }
+      ],
+      "word": "",
+      "hint": "Maya / à la bibliothèque",
+      "model": "Un matin Maya est à la bibliothèque."
+     },
+     {
+      "n": 2,
+      "scene": "entrance",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 3
+       },
+       {
+        "slug": "diego",
+        "pose": 3
+       }
+      ],
+      "word": "",
+      "hint": "Maya / rencontrer / Diego",
+      "model": "Ensuite Maya rencontre Diego à l'entrée de l'école."
+     },
+     {
+      "n": 3,
+      "scene": "campus-hex",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 10
+       },
+       {
+        "slug": "diego",
+        "pose": 10
+       }
+      ],
+      "word": "",
+      "hint": "dans la cour de l'école / content",
+      "model": "Dans la cour de l'école ils sont très contents ensemble."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Un matin Maya est à la bibliothèque. Ensuite Maya rencontre Diego à l'entrée de l'école. Dans la cour de l'école ils sont très contents ensemble.",
+    "words": [],
+    "support": {
+     "grammar": "les pronoms relatifs : qui, que, où",
+     "words": [
+      "qui",
+      "quel",
+      "où",
+      "personne",
+      "lieu",
+      "chose"
+     ]
+    }
+   },
+   "code": "H"
+  },
+  {
+   "type": "label_people",
+   "title": "Écoute et écris les prénoms.",
+   "instructions": "Regarde l'image. Écoute et écris le prénom sous chaque personne. Attention : il y a trois prénoms en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 1,
+     "nombre": "Mon identité"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et écrire le prénom de chaque personne de l'image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u48-g.mp3",
+   "data": {
+    "scene": "entrance",
+    "place": "l'entrée de l'école",
+    "people": [
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "clue": "la fille au t-shirt vert avec une loupe",
+      "action": "observe quelque chose de tout petit",
+      "pose": 7
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "clue": "le garçon au t-shirt rouge avec un microphone",
+      "action": "pose des questions avec son microphone",
+      "pose": 7
+     },
+     {
+      "slug": "samu",
+      "name": "Samu",
+      "clue": "le garçon aux cheveux blonds courts avec un sac à dos",
+      "action": "fait signe",
+      "pose": 7
+     },
+     {
+      "slug": "tino",
+      "name": "Tino",
+      "clue": "le garçon aux cheveux très courts et au t-shirt blanc et vert",
+      "action": "joue au hockey",
+      "pose": 7
+     },
+     {
+      "slug": "vega",
+      "name": "Mr Vega",
+      "clue": "l'homme à la chemise bleue",
+      "action": "montre le chemin du centre sportif",
+      "figura": "father"
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Bruno",
+     "Diego",
+     "Ingrid",
+     "Maya",
+     "Mr Vega",
+     "Samu",
+     "Tino"
+    ],
+    "script": "Regarde l'image. Écoute et écris les prénoms. Il y a un exemple. … Diego : Qui est-ce à l'entrée de l'école ? La fille au t-shirt vert avec une loupe. … Maya : C'est Maya. Maya observe quelque chose de tout petit. … Diego : Et qui est le garçon au t-shirt rouge avec un microphone ? … Maya : C'est Diego. Regarde, Diego pose des questions avec son microphone. … Diego : Et qui est le garçon aux cheveux blonds courts avec un sac à dos ? … Maya : C'est Samu. Regarde, Samu fait signe. … Diego : Et qui est le garçon aux cheveux très courts et au t-shirt blanc et vert ? … Maya : C'est Tino. Regarde, Tino joue au hockey. … Diego : Et qui est l'homme à la chemise bleue ? … Maya : C'est M. Vega. Regarde, M. Vega montre le chemin du centre sportif.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris les définitions de 5 mots appris ce mois-ci avec qui, que ou où : Un phare est une tour qui…"
+  }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 1,
+  "tema": "Mon identité",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Raconter des histoires au passé, au présent et au futur ; exprimer ses préférences avec des raisons."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et comprendre des histoires courtes (80 à 250 mots) ; trouver l'idée principale et les détails."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~2500 mots ; passé composé, questions négatives, si + présent, futur proche."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

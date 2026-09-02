@@ -1,0 +1,298 @@
+{
+ "id": "movers-fr-40",
+ "level": "movers",
+ "number": 40,
+ "title": "Mon animal préféré",
+ "topic": "savoir + descriptions",
+ "grammar": "savoir / ne pas savoir + descriptions",
+ "wordlist": [
+  "perroquet",
+  "lapin",
+  "pingouin",
+  "dauphin",
+  "kangourou",
+  "malin",
+  "aile",
+  "queue",
+  "sautiller",
+  "préféré"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 1,
+  "skill": "identifier les animaux"
+ },
+ "characters": [
+  "sofia",
+  "mateo"
+ ],
+ "scene": {
+  "speaker": "sofia",
+  "pose": {
+   "sofia": 1,
+   "mateo": 3
+  },
+  "bubble": "Exposé du jour : mon animal préféré ! Le mien sait sauter trois mètres. Celui de Mateo sait dormir vingt heures. Devinez !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe l'animal et ce qu'il sait faire.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Animal",
+    "right_label": "Il sait…",
+    "pairs": [
+     {
+      "left": "un perroquet",
+      "right": "dire bonjour et siffler"
+     },
+     {
+      "left": "un lapin",
+      "right": "sauter très vite"
+     },
+     {
+      "left": "un manchot",
+      "right": "nager comme une torpille"
+     },
+     {
+      "left": "un dauphin",
+      "right": "sauter haut hors de l'eau"
+     },
+     {
+      "left": "un kangourou",
+      "right": "porter son bébé dans sa poche"
+     },
+     {
+      "left": "un chien comme Luna",
+      "right": "trouver des biscuits n'importe où"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis peut ou ne peut pas.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "Un manchot ___ nager, mais il ___ voler.",
+      "options": [
+       "sait / ne sait pas",
+       "ne sait pas / sait",
+       "sait / sait"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les perroquets ___ répéter des mots !",
+      "options": [
+       "pouvoir",
+       "ne peut pas",
+       "ne sont pas"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un lapin ___ sauter très vite.",
+      "options": [
+       "pouvoir",
+       "ne peut pas",
+       "n'est pas"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les poissons ___ marcher sur la terre.",
+      "options": [
+       "ne peut pas",
+       "pouvoir",
+       "ne savent pas de"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___ les dauphins chanter ? — Oui, à leur façon !",
+      "options": [
+       "Peux-tu",
+       "Font savoir",
+       "Sont"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute les exposés. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u40-c.mp3",
+   "data": {
+    "voice_note": "Voces: Sofía (presentando) y Mateo (su turno).",
+    "script": "Sofia : Mon animal préféré est le kangourou. Il sait sauter trois mètres d'un bond ! … Sofia : Et le bébé voyage dans la poche de sa mère. Billet première classe ! … Mateo : Le mien c'est le chat. Il sait dormir vingt heures par jour. Mon héros ! … Sofia : Erik a choisi le perroquet. Le perroquet de son oncle sait dire quatorze mots. … Mateo : Y compris PIZZA. C'est un perroquet très malin. … Sofia : Et Valentina adore le dauphin, parce qu'il sait sauter et qu'il sourit toujours. … Mateo : Le meilleur exposé ! La semaine prochaine : les dinosaures préférés !",
+    "questions": [
+     {
+      "q": "Un kangourou sait sauter trois … d'un bond.",
+      "answer": "mètres"
+     },
+     {
+      "q": "Le chat sait dormir … heures par jour.",
+      "answer": "vingt"
+     },
+     {
+      "q": "Le perroquet sait dire … mots.",
+      "answer": "quatorze"
+     },
+     {
+      "q": "Un des mots du perroquet est …",
+      "answer": "PIZZA"
+     },
+     {
+      "q": "La semaine prochaine : les … préférés.",
+      "answer": "dinosaures"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Les oiseaux volent avec leurs …",
+      "options": [
+       "ailes",
+       "queues",
+       "oreilles"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un lapin ne marche pas, il …",
+      "options": [
+       "saute",
+       "nage",
+       "chante"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un animal très intelligent est …",
+      "options": [
+       "malin",
+       "bouclé",
+       "nuageux"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "L'animal que tu aimes le plus est ton animal ___.",
+      "options": [
+       "préféré",
+       "le plus rapide",
+       "le plus drôle"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les chiens sont contents quand ils remuent leur …",
+      "options": [
+       "queue",
+       "dents",
+       "orteils"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Présente ton animal préféré en 4 phrases : ce que c'est, ce qu'il sait faire, ce qu'il ne sait pas faire, pourquoi tu l'aimes. Ton camarade pose une question."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Regarde A et B. Qu'est-ce qui change ?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris sur ton animal préféré : 5 phrases, au moins deux avec sait et une avec ne sait pas."
+  }
+ ],
+ "scope": {
+  "grado": "G3",
+  "temaN": 6,
+  "tema": "Mon quartier",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues courts avec plus de vocabulaire ; repérer l'information principale dans des annonces simples."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire ses habitudes, ses préférés, les métiers du quartier ; donner une opinion courte."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire de courts paragraphes ; répondre à des questions simples ; trouver une information précise."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un court paragraphe sur soi, sa famille ou sa journée (40 à 70 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~800 mots ; les temps de base ; devoir, pouvoir ; l'accord du verbe ; le superlatif."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

@@ -1,0 +1,302 @@
+{
+ "id": "movers-fr-05",
+ "level": "movers",
+ "number": 5,
+ "title": "Les vêtements de la semaine",
+ "topic": "vêtements",
+ "grammar": "le présent + porter",
+ "wordlist": [
+  "veste",
+  "pull",
+  "écharpe",
+  "bottes",
+  "pantalon",
+  "jupe",
+  "chemise",
+  "casquette",
+  "gants",
+  "chaussettes"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 1,
+  "skill": "définitions"
+ },
+ "characters": [
+  "sofia",
+  "erik"
+ ],
+ "scene": {
+  "speaker": "sofia",
+  "pose": {
+   "sofia": 2,
+   "erik": 1
+  },
+  "bubble": "Un voyageur fait sa valise avec la tête : une veste, deux pulls, et des bottes pour toutes les aventures !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Lis les phrases et écris les mots des vêtements.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "VESTE",
+      "clue": "Tu la portes dehors quand il fait frais."
+     },
+     {
+      "word": "PULL",
+      "clue": "Un haut bien chaud pour les jours froids."
+     },
+     {
+      "word": "BOTTES",
+      "clue": "Des chaussures solides pour la pluie et la montagne."
+     },
+     {
+      "word": "ECHARPE",
+      "clue": "Tu la portes autour du cou."
+     },
+     {
+      "word": "JUPE",
+      "clue": "Certaines filles la portent à la place d'un pantalon."
+     },
+     {
+      "word": "CASQUETTE",
+      "clue": "Un chapeau pour les jours de soleil, souvent avec un nom d'équipe."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Associe le vêtement et la partie du corps.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Vêtements",
+    "right_label": "Où tu le portes",
+    "pairs": [
+     {
+      "left": "une casquette",
+      "right": "sur la tête"
+     },
+     {
+      "left": "une écharpe",
+      "right": "autour du cou"
+     },
+     {
+      "left": "gants",
+      "right": "sur les mains"
+     },
+     {
+      "left": "chaussettes",
+      "right": "aux pieds"
+     },
+     {
+      "left": "un pull",
+      "right": "par-dessus ta chemise"
+     },
+     {
+      "left": "pantalon",
+      "right": "sur les jambes"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute. Qu'est-ce que chacun porte aujourd'hui ? Écris un mot dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u05-c.mp3",
+   "data": {
+    "voice_note": "Voces: Sofía (describiendo) y Erik (apuntando).",
+    "script": "Sofia : Regarde le Club aujourd'hui, Erik ! … Sofia : Valentina porte son pull violet et une jupe grise. … Sofia : Mateo a sa veste verte — et deux chaussettes différentes, comme toujours ! … Erik : Ha ! Et toi ? … Sofia : Mes nouvelles bottes ! Marron, pour marcher dans les collines. … Sofia : Toi tu portes encore ta casquette orange à l'envers. … Erik : Ça m'aide à réfléchir ! … Sofia : Et Luna porte son écharpe rouge d'hiver. La chienne la plus élégante de la ville !",
+    "questions": [
+     {
+      "q": "Valentina porte un … violet et une jupe grise.",
+      "answer": "pull"
+     },
+     {
+      "q": "Mateo a sa … verte.",
+      "answer": "veste"
+     },
+     {
+      "q": "Les nouvelles bottes de Sofía sont …",
+      "answer": "marron"
+     },
+     {
+      "q": "Erik porte sa casquette orange à l'…",
+      "answer": "envers"
+     },
+     {
+      "q": "Luna porte son … rouge d'hiver.",
+      "answer": "écharpe"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Les jours de froid je porte un … bien chaud.",
+      "options": [
+       "pull",
+       "casquette",
+       "jupe"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu portes des ___ aux mains en hiver.",
+      "options": [
+       "chaussettes",
+       "gants",
+       "bottes"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Il ___ une chemise bleue aujourd'hui.",
+      "options": [
+       "en train de porter",
+       "porter",
+       "portes"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Pour la pluie, mets ton …",
+      "options": [
+       "bottes",
+       "casquette",
+       "jupe"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Une ___ garde ton cou au chaud.",
+      "options": [
+       "écharpe",
+       "chaussette",
+       "chemise"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Décris les vêtements d'un camarade sans dire son nom : « Cette personne porte un pull rouge… » Ton camarade devine qui c'est. Deux personnes chacun."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Regarde A et B. Qu'est-ce qui change ?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Dessine-toi avec tes vêtements préférés et écris 4 phrases : Je porte…"
+  }
+ ],
+ "scope": {
+  "grado": "G3",
+  "temaN": 6,
+  "tema": "Mon quartier",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues courts avec plus de vocabulaire ; repérer l'information principale dans des annonces simples."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire ses habitudes, ses préférés, les métiers du quartier ; donner une opinion courte."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire de courts paragraphes ; répondre à des questions simples ; trouver une information précise."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un court paragraphe sur soi, sa famille ou sa journée (40 à 70 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~800 mots ; les temps de base ; devoir, pouvoir ; l'accord du verbe ; le superlatif."
+   }
+  ],
+  "vocabulario": [
+   "médecin",
+   "maître",
+   "pompier",
+   "policier",
+   "boulanger",
+   "bibliothécaire",
+   "vétérinaire"
+  ],
+  "gramatica": [
+   "Le présent : il/elle + les auxiliaires"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "doctor",
+    "teacher",
+    "firefighter",
+    "police officer",
+    "baker",
+    "librarian",
+    "vet"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "médecin",
+  "maître",
+  "pompier",
+  "policier",
+  "boulanger",
+  "bibliothécaire",
+  "vétérinaire"
+ ],
+ "lang": "fr"
+}

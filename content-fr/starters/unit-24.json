@@ -1,0 +1,300 @@
+{
+ "id": "starters-fr-24",
+ "level": "starters",
+ "number": 24,
+ "title": "Cours et joue",
+ "topic": "les verbes d'action",
+ "grammar": "l'impératif des actions",
+ "wordlist": [
+  "marcher",
+  "arrêter",
+  "regarder",
+  "écouter",
+  "applaudir",
+  "tourner",
+  "toucher",
+  "montrer du doigt",
+  "être debout",
+  "s'asseoir"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 4,
+  "skill": "consignes"
+ },
+ "characters": [
+  "nico",
+  "freya"
+ ],
+ "scene": {
+  "speaker": "nico",
+  "pose": {
+   "nico": 7,
+   "freya": 1
+  },
+  "bubble": "L'heure de bouger ! Marche, arrête, tourne, saute… mon cours préféré, c'est le cours qui bouge !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe l'action et la partie du corps.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Action",
+    "right_label": "Partie du corps",
+    "pairs": [
+     {
+      "left": "applaudir",
+      "right": "avec tes mains"
+     },
+     {
+      "left": "marcher",
+      "right": "avec tes jambes"
+     },
+     {
+      "left": "regarder",
+      "right": "avec tes yeux"
+     },
+     {
+      "left": "écouter",
+      "right": "avec tes oreilles"
+     },
+     {
+      "left": "toucher",
+      "right": "avec tes doigts"
+     },
+     {
+      "left": "chanter",
+      "right": "avec ta bouche"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis la bonne action.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque consigne.",
+    "items": [
+     {
+      "sentence": "___ sur la musique !",
+      "options": [
+       "Écoute",
+       "Mange",
+       "Dors"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___ des mains trois fois !",
+      "options": [
+       "Tape",
+       "Lave seulement",
+       "Ferme"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___ le tableau, s'il te plaît.",
+      "options": [
+       "Regarde",
+       "Saute",
+       "Chante"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___-toi sur ta chaise.",
+      "options": [
+       "Assieds-toi",
+       "Lève-toi",
+       "Cours"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Feu rouge ! ___ !",
+      "options": [
+       "Arrête",
+       "Va",
+       "Danse"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute et fais ! Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u24-c.mp3",
+   "data": {
+    "voice_note": "Voces: Nico (dando instrucciones) y Freya (jugando).",
+    "script": "Nico : Jeu des actions ! Tout le monde debout ! … Nico : Marche jusqu'à la fenêtre… et arrête-toi ! … Freya : Arrêtée ! Et maintenant ? … Nico : Tourne sur toi-même deux fois. … Freya : Une… deux ! J'ai la tête qui tourne ! … Nico : Montre la porte. Maintenant montre le tableau ! … Nico : Tape des mains quatre fois… et assieds-toi ! … Freya : C'était drôle ! Maintenant tu joues et moi je dis les actions !",
+    "questions": [
+     {
+      "q": "Marche jusqu'à la … et arrête-toi.",
+      "answer": "fenêtre"
+     },
+     {
+      "q": "Tourne sur toi-même … fois.",
+      "answer": "deux"
+     },
+     {
+      "q": "Freya a la tête qui … !",
+      "answer": "tourne"
+     },
+     {
+      "q": "Montre la porte et le …",
+      "answer": "tableau"
+     },
+     {
+      "q": "Tape des mains … fois.",
+      "answer": "quatre"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Le contraire de se lever est s'…",
+      "options": [
+       "assieds-toi",
+       "sauter en haut",
+       "tourner autour"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le contraire d'aller est s'…",
+      "options": [
+       "arrêter",
+       "courir",
+       "marcher"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu ___ avec ton doigt pour montrer quelque chose.",
+      "options": [
+       "montrer du doigt",
+       "applaudir",
+       "s'asseoir"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les pieds lents ___, les pieds rapides courent.",
+      "options": [
+       "marcher",
+       "voler",
+       "nager"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« ___ la table avec une main ! »",
+      "options": [
+       "Touche",
+       "Mange",
+       "Écoute"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Jeu du robot : donne 5 consignes à ton camarade-robot (marche, arrête, tourne, tape, assieds-toi). Le robot ne bouge qu'avec un français clair ! Puis on échange."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "A et B ne sont pas pareils. Trouve pourquoi !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris ton propre jeu d'actions avec 5 consignes. Joue à la maison !"
+  }
+ ],
+ "scope": {
+  "grado": "G1",
+  "temaN": 4,
+  "tema": "Animaux de la ferme",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Suivre les consignes de la classe ; reconnaître des mots connus dans une chanson ou une phrase courte."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Saluer ; dire son nom, son âge, les couleurs ; nommer des objets ; répondre par oui ou non."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Reconnaître les lettres de l'alphabet ; associer un mot à une image (famille, nourriture, animaux, corps)."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire son prénom ; recopier des mots ; légender une image (3 à 5 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~150 mots actifs ; le verbe être, un/une, c'est/ce sont, l'impératif."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [
+   "Le pluriel des noms : des chats, des chiens"
+  ],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

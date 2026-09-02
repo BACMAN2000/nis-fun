@@ -1,0 +1,681 @@
+{
+ "id": "flyers-fr-39",
+ "level": "flyers",
+ "number": 39,
+ "title": "Les grands explorateurs",
+ "topic": "les biographies",
+ "grammar": "le passé composé dans les biographies",
+ "wordlist": [
+  "explorateur",
+  "voyage",
+  "découvrir",
+  "carte",
+  "navire",
+  "montagne",
+  "pôle",
+  "courageux",
+  "revenir",
+  "histoire"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 4,
+  "skill": "texte documentaire"
+ },
+ "characters": [
+  "maya",
+  "ingrid"
+ ],
+ "scene": {
+  "speaker": "ingrid",
+  "pose": {
+   "ingrid": 2,
+   "maya": 3
+  },
+  "bubble": "Toute grande expédition apprend du passé. Aujourd'hui : de vrais explorateurs qui ont traversé océans, jungles et glaces !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe le mot et son sens.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Mot",
+    "right_label": "Sens",
+    "pairs": [
+     {
+      "left": "un explorateur",
+      "right": "une personne qui voyage vers des lieux inconnus"
+     },
+     {
+      "left": "un voyage",
+      "right": "un long trajet"
+     },
+     {
+      "left": "découvrir",
+      "right": "trouver quelque chose pour la première fois"
+     },
+     {
+      "left": "le pôle Sud",
+      "right": "le point le plus froid tout en bas du monde"
+     },
+     {
+      "left": "revenir",
+      "right": "rentrer à la maison"
+     },
+     {
+      "left": "histoire",
+      "right": "l'histoire du passé"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Lis le texte sur Roald Amundsen et choisis la bonne réponse.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Lis le texte. Choisis la bonne réponse.",
+    "text": "Roald Amundsen est né en Norvège en 1872. Enfant, il dormait la fenêtre ouverte en hiver pour préparer son corps au froid ! En 1911 il a conduit la première équipe arrivée au pôle Sud. Ils ont voyagé avec quatre traîneaux et cinquante-deux chiens, et ils ont planté le drapeau norvégien sur la glace le 14 décembre. Amundsen a écrit dans son journal que le voyage était dur, mais que son équipe était forte et bien préparée. Aujourd'hui, une mer près de l'Antarctique porte son nom.",
+    "items": [
+     {
+      "sentence": "Où est né Amundsen ?",
+      "options": [
+       "au Pérou",
+       "en Norvège",
+       "en Antarctique"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Pourquoi dormait-il la fenêtre ouverte ?",
+      "options": [
+       "pour se préparer au froid",
+       "il aimait les oiseaux",
+       "sa chambre était trop chaude"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Qu'est-ce que son équipe a atteint en 1911 ?",
+      "options": [
+       "le pôle Nord",
+       "le pôle Sud",
+       "l'Amazone"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Avec combien de chiens ont-ils voyagé ?",
+      "options": [
+       "cinquante-deux",
+       "vingt-cinq",
+       "quinze"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Qu'est-ce qui porte son nom aujourd'hui ?",
+      "options": [
+       "une montagne",
+       "une mer",
+       "un bateau"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute les faits d'exploration de Maya. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u39-c.mp3",
+   "data": {
+    "voice_note": "Voces: Maya (datos) e Ingrid (comentando).",
+    "script": "Maya : Faits d'exploration, Ingrid ! Fait numéro un : la première femme à traverser l'Atlantique en solitaire en avion était Amelia Earhart, en 1932. … Ingrid : Toute seule, au-dessus de tout cet océan. Quel courage ! … Maya : Fait numéro deux : María Reiche a étudié les lignes de Nazca au Pérou pendant cinquante ans ! … Maya : Elle nettoyait les lignes du désert avec son propre balai. … Ingrid : Un balai ! Ça, c'est du dévouement. … Maya : Fait numéro trois : la première équipe au sommet de l'Everest portait l'oxygène dans de lourdes bouteilles en métal. … Maya : Et fait numéro quatre : aujourd'hui les explorateurs utilisent des satellites, mais ils emportent encore des cartes en papier. Au cas où ! … Ingrid : Règle numéro un de toute expédition : toujours avoir un plan B.",
+    "questions": [
+     {
+      "q": "Amelia Earhart a traversé l'Atlantique en solitaire en …",
+      "answer": "1932"
+     },
+     {
+      "q": "María Reiche a étudié les lignes de Nazca pendant … ans.",
+      "answer": "cinquante"
+     },
+     {
+      "q": "Elle nettoyait les lignes avec son propre …",
+      "answer": "balai"
+     },
+     {
+      "q": "L'équipe de l'Everest portait l'oxygène dans des … en métal.",
+      "answer": "bouteilles"
+     },
+     {
+      "q": "Les explorateurs d'aujourd'hui emportent encore des … en papier.",
+      "answer": "cartes"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Colomb ___ l'Atlantique en 1492.",
+      "options": [
+       "a traversé",
+       "voiles",
+       "en traversant"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un long trajet est un …",
+      "options": [
+       "voyage",
+       "tâche ménagère",
+       "chaîne"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les explorateurs utilisent une ___ pour trouver le chemin.",
+      "options": [
+       "carte",
+       "oreiller",
+       "timbre"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Elle ___ un nouveau papillon dans la jungle.",
+      "options": [
+       "a découvert",
+       "est revenu",
+       "a signé"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Après deux ans en mer, le bateau ___ à la maison.",
+      "options": [
+       "est revenu",
+       "a découvert",
+       "a collectionné"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Invente un explorateur : nom, année, ce qu'il a découvert, un détail drôle. Raconte son histoire à un autre binôme au passé composé. Votez pour le meilleur explorateur inventé de la classe !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "A et B ne sont pas pareils. Trouve pourquoi !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 11 différences et parles-en avec ton camarade.",
+   "data": {}
+  },
+  {
+   "type": "picture_mc",
+   "title": "Écoute et coche la bonne case.",
+   "instructions": "Écoute chaque question et clique sur l'image qui répond.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 6,
+     "nombre": "Aventures et expériences"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et cocher la bonne image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u39-h.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "Quel mot Maya apprend-elle aujourd'hui ?",
+      "answer": "montagne",
+      "options": [
+       {
+        "word": "gants",
+        "propio": true
+       },
+       {
+        "word": "ceinture",
+        "propio": true
+       },
+       {
+        "word": "montagne",
+        "propio": false
+       }
+      ],
+      "script": "Quel mot Maya apprend-elle aujourd'hui ? … Maya : Aujourd'hui j'apprends le mot montagne."
+     },
+     {
+      "q": "Qu'est-ce qu'Ingrid a dessiné ?",
+      "answer": "carte",
+      "options": [
+       {
+        "word": "carte",
+        "propio": false
+       },
+       {
+        "word": "pont",
+        "propio": true
+       },
+       {
+        "word": "commissariat",
+        "propio": true
+       }
+      ],
+      "script": "Qu'est-ce qu'Ingrid a dessiné ? … Ingrid : J'ai dessiné une carte."
+     },
+     {
+      "q": "Quelle image Tino regarde-t-il ?",
+      "answer": "explorateur",
+      "options": [
+       {
+        "word": "pont",
+        "propio": true
+       },
+       {
+        "word": "explorateur",
+        "propio": false
+       },
+       {
+        "word": "théâtre",
+        "propio": true
+       }
+      ],
+      "script": "Quelle image Tino regarde-t-il ? … Tino : Je regarde l'explorateur."
+     },
+     {
+      "q": "Qu'est-ce qu'Aiko voit sur l'image ?",
+      "answer": "histoire",
+      "options": [
+       {
+        "word": "histoire",
+        "propio": false
+       },
+       {
+        "word": "commissariat",
+        "propio": true
+       },
+       {
+        "word": "pont",
+        "propio": true
+       }
+      ],
+      "script": "Qu'est-ce qu'Aiko voit sur l'image ? … Aiko : Je vois l'histoire."
+     }
+    ],
+    "script": "Écoute et coche la bonne case. Il y a un exemple. … Quel mot Maya apprend-elle aujourd'hui ? … Maya : Aujourd'hui j'apprends le mot montagne. … Qu'est-ce qu'Ingrid a dessiné ? … Ingrid : J'ai dessiné une carte. … Quelle image Tino regarde-t-il ? … Tino : Je regarde l'explorateur. … Qu'est-ce qu'Aiko voit sur l'image ? … Aiko : Je vois l'histoire.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "H"
+  },
+  {
+   "type": "match_pictures",
+   "title": "Écoute et associe chaque explorateur à une image.",
+   "instructions": "Écoute. Puis choisis la lettre de l'image pour chaque personne. Attention : certaines images sont en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 6,
+     "nombre": "Aventures et expériences"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et associer chaque personne à une image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 3
+    }
+   },
+   "audio": "flyers/u39-i.mp3",
+   "data": {
+    "people": [
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 8
+     },
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "pose": 8
+     },
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "pose": 8
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "pose": 3
+     }
+    ],
+    "pictures": [
+     {
+      "word": "montagne",
+      "propio": false,
+      "id": "A"
+     },
+     {
+      "word": "aéroport",
+      "propio": true,
+      "id": "B"
+     },
+     {
+      "word": "musée",
+      "propio": true,
+      "id": "C"
+     },
+     {
+      "word": "histoire",
+      "propio": false,
+      "id": "D"
+     },
+     {
+      "word": "valise",
+      "propio": true,
+      "id": "E"
+     },
+     {
+      "word": "carte",
+      "propio": false,
+      "id": "F"
+     },
+     {
+      "word": "explorateur",
+      "propio": false,
+      "id": "G"
+     },
+     {
+      "word": "parapluie",
+      "propio": true,
+      "id": "H"
+     }
+    ],
+    "answers": {
+     "Maya": "F",
+     "Ingrid": "D",
+     "Oliver": "A",
+     "Iris": "G"
+    },
+    "script": "Écoute et associe chaque personne à une image. Il y a un exemple. … Diego : Maya, quelle image as-tu choisie ? … Maya : J'ai choisi la carte. … Diego : Ingrid, quelle image as-tu choisie ? … Ingrid : J'ai choisi l'histoire. … Diego : Oliver, quelle image as-tu choisie ? … Oliver : J'ai choisi la montagne. … Diego : Iris, quelle image as-tu choisie ? … Iris : J'ai choisi l'explorateur.",
+    "voice_note": "Diego pregunta; cada explorador responde con su objeto."
+   },
+   "code": "I"
+  },
+  {
+   "type": "picture_story",
+   "title": "Regarde les trois images et écris l'histoire.",
+   "instructions": "Regarde les images. Écris l'histoire en 20-25 mots. Aide-toi des mots sous chaque image.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 6,
+     "nombre": "Aventures et expériences"
+    },
+    "destreza": "Writing",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots.",
+    "clase": "Type examen : histoire en images de 20 à 25 mots (production écrite)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "labyrinth",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 4
+       }
+      ],
+      "word": "explorateur",
+      "hint": "Maya / montre / un explorateur",
+      "model": "Maya montre un explorateur au labyrinthe."
+     },
+     {
+      "n": 2,
+      "scene": "lighthouse-kitchen",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 8
+       },
+       {
+        "slug": "ingrid",
+        "pose": 1
+       }
+      ],
+      "word": "montagne",
+      "hint": "Ingrid / apporter / une montagne",
+      "model": "Ensuite Ingrid apporte une montagne."
+     },
+     {
+      "n": 3,
+      "scene": "funfair",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 10
+       },
+       {
+        "slug": "maya",
+        "pose": 10
+       }
+      ],
+      "word": "carte",
+      "hint": "maintenant / une carte / content",
+      "model": "Maintenant ils ont aussi une carte, et tous les deux sont contents."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Maya montre un explorateur au labyrinthe. Ensuite Ingrid apporte une montagne. Maintenant ils ont aussi une carte, et tous les deux sont contents.",
+    "words": [
+     "explorateur",
+     "montagne",
+     "carte"
+    ],
+    "support": {
+     "grammar": "le passé composé dans les biographies",
+     "words": [
+      "explorateur",
+      "voyage",
+      "découvrir",
+      "carte",
+      "navire",
+      "montagne"
+     ]
+    }
+   },
+   "code": "J"
+  },
+  {
+   "type": "label_people",
+   "title": "Écoute et écris les prénoms.",
+   "instructions": "Regarde l'image. Écoute et écris le prénom sous chaque personne. Attention : il y a trois prénoms en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 6,
+     "nombre": "Aventures et expériences"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et écrire le prénom de chaque personne de l'image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u39-g.mp3",
+   "data": {
+    "scene": "funfair",
+    "place": "la fête foraine",
+    "people": [
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "clue": "la fille au t-shirt vert avec une loupe",
+      "action": "observe quelque chose de tout petit",
+      "pose": 7
+     },
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "clue": "la fille aux cheveux blonds et à la veste bleu foncé",
+      "action": "lit le programme de la journée",
+      "pose": 7
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "clue": "la fille aux nattes noires et au t-shirt violet",
+      "action": "saute à la corde",
+      "pose": 7
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "clue": "le garçon aux cheveux bruns bouclés et au t-shirt vert",
+      "action": "court après le ballon",
+      "pose": 7
+     },
+     {
+      "slug": "vega",
+      "name": "Mr Vega",
+      "clue": "l'homme à la chemise bleue",
+      "action": "montre le chemin du centre sportif",
+      "figura": "father"
+     }
+    ],
+    "names": [
+     "Bruno",
+     "Ingrid",
+     "Lia",
+     "Maya",
+     "Mr Vega",
+     "Oliver",
+     "Samu",
+     "Tino"
+    ],
+    "script": "Regarde l'image. Écoute et écris les prénoms. Il y a un exemple. … Diego : Qui est-ce à la fête foraine ? La fille au t-shirt vert avec une loupe. … Maya : C'est Maya. Maya observe quelque chose de tout petit. … Diego : Et qui est la fille aux cheveux blonds et à la veste bleu foncé ? … Maya : C'est Ingrid. Regarde, Ingrid lit le programme de la journée. … Diego : Et qui est la fille aux nattes noires et au t-shirt violet ? … Maya : C'est Lia. Regarde, Lia saute à la corde. … Diego : Et qui est le garçon aux cheveux bruns bouclés et au t-shirt vert ? … Maya : C'est Bruno. Regarde, Bruno court après le ballon. … Diego : Et qui est l'homme à la chemise bleue ? … Maya : C'est M. Vega. Regarde, M. Vega montre le chemin du centre sportif.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Choisis un vrai explorateur (ou scientifique) et écris 4 faits sur lui au passé composé : est né, a voyagé, a découvert…"
+  }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 6,
+  "tema": "Aventures et expériences",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Raconter des histoires au passé, au présent et au futur ; exprimer ses préférences avec des raisons."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et comprendre des histoires courtes (80 à 250 mots) ; trouver l'idée principale et les détails."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~2500 mots ; passé composé, questions négatives, si + présent, futur proche."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

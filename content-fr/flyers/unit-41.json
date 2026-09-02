@@ -1,0 +1,641 @@
+{
+ "id": "flyers-fr-41",
+ "level": "flyers",
+ "number": 41,
+ "title": "Notre ville : hier et aujourd'hui",
+ "topic": "les comparatifs",
+ "grammar": "les comparatifs + que (bilan)",
+ "wordlist": [
+  "moderne",
+  "ancien",
+  "bruyant",
+  "paisible",
+  "bondé",
+  "vide",
+  "étroit",
+  "large",
+  "carré",
+  "marché"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 6,
+  "skill": "phrases à trous"
+ },
+ "characters": [
+  "diego",
+  "maya"
+ ],
+ "scene": {
+  "speaker": "diego",
+  "pose": {
+   "diego": 3,
+   "maya": 2
+  },
+  "bubble": "Reportage spécial : notre ville, il y a 50 ans et aujourd'hui ! Papi dit que la grand-place était bien plus calme… et qu'il y avait plus de pigeons."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe les contraires.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Mot",
+    "right_label": "Contraire",
+    "pairs": [
+     {
+      "left": "moderne",
+      "right": "ancien"
+     },
+     {
+      "left": "bruyant",
+      "right": "paisible"
+     },
+     {
+      "left": "bondé",
+      "right": "vide"
+     },
+     {
+      "left": "étroit",
+      "right": "large"
+     },
+     {
+      "left": "propre",
+      "right": "sale"
+     },
+     {
+      "left": "rapide",
+      "right": "lent"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis le bon comparatif.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "Les nouvelles rues sont ___ que les anciennes.",
+      "options": [
+       "plus larges",
+       "plus larges que plus",
+       "les plus larges"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le centre-ville est ___ qu'avant — tant de voitures !",
+      "options": [
+       "plus bruyant",
+       "plus bruyanter",
+       "bruyantement"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "L'ancien marché était ___ que le nouveau supermarché.",
+      "options": [
+       "plus sympathiquement",
+       "plus sympathique",
+       "le plus sympathique"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "La vie à la campagne est ___ paisible qu'en ville.",
+      "options": [
+       "plus",
+       "le plus",
+       "beaucoup"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "La bibliothèque est bien ___ que le centre sportif.",
+      "options": [
+       "plus calme",
+       "calme",
+       "la plus calme"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute les souvenirs de Papi. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u41-c.mp3",
+   "data": {
+    "voice_note": "Voces: Diego (entrevistando) y el Abuelo (voz mayor, cálida).",
+    "script": "Diego : Papi, comment était la ville il y a cinquante ans ? … Papi : Bien plus petite, Diego ! La rue principale était étroite, avec des maisons en pierre. … Papi : Il n'y avait que deux voitures dans toute la ville. Deux ! … Diego : Et la place ? … Papi : Plus paisible qu'aujourd'hui. On y jouait au football tous les soirs. … Papi : Le marché était le cœur de tout. Ma mère y vendait du fromage. … Diego : Il y a quelque chose de mieux maintenant ? … Papi : Oh oui ! L'hôpital est bien meilleur. Et la bibliothèque est plus grande. … Papi : Mais la glace… la glace était bien meilleure avant !",
+    "questions": [
+     {
+      "q": "La rue principale était étroite, avec des maisons en …",
+      "answer": "pierre"
+     },
+     {
+      "q": "Il n'y avait que … voitures dans toute la ville.",
+      "answer": "deux"
+     },
+     {
+      "q": "Ils jouaient au … sur la place tous les soirs.",
+      "answer": "football"
+     },
+     {
+      "q": "La mère de Papi vendait du … au marché.",
+      "answer": "fromage"
+     },
+     {
+      "q": "Papi dit que la … était meilleure avant.",
+      "answer": "glace"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Un bâtiment très vieux est …",
+      "options": [
+       "ancien",
+       "moderne",
+       "étroit"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Quand un bus est plein de gens, il est …",
+      "options": [
+       "vide",
+       "bondé",
+       "paisible"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "L'espace ouvert au centre-ville est la …",
+      "options": [
+       "carré",
+       "étagère",
+       "écran"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu peux acheter des fruits et du fromage au …",
+      "options": [
+       "marché",
+       "pôle",
+       "quai"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "La nuit ici est ___ qu'en ville — pas de voitures, pas de musique.",
+      "options": [
+       "plus paisible",
+       "paisiblement",
+       "le plus paisible"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Compare ton quartier et le quartier de l'école : 4 phrases avec des comparatifs (plus bruyant, plus propre, plus fréquenté…). Vous êtes d'accord ?"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Trouve les différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  },
+  {
+   "type": "picture_story",
+   "title": "Regarde les trois images et écris l'histoire.",
+   "instructions": "Regarde les images. Écris l'histoire en 20-25 mots. Aide-toi des mots sous chaque image.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 6,
+     "nombre": "Aventures et expériences"
+    },
+    "destreza": "Writing",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots.",
+    "clase": "Type examen : histoire en images de 20 à 25 mots (production écrite)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "funfair",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 4
+       }
+      ],
+      "word": "",
+      "hint": "Diego / à la fête foraine",
+      "model": "Un matin Diego est à la fête foraine."
+     },
+     {
+      "n": 2,
+      "scene": "labyrinth",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 3
+       },
+       {
+        "slug": "maya",
+        "pose": 3
+       }
+      ],
+      "word": "",
+      "hint": "Diego / rencontrer / Maya",
+      "model": "Ensuite Diego rencontre Maya au labyrinthe."
+     },
+     {
+      "n": 3,
+      "scene": "mirador",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 10
+       },
+       {
+        "slug": "maya",
+        "pose": 10
+       }
+      ],
+      "word": "",
+      "hint": "au belvédère / content",
+      "model": "Au belvédère ils sont très contents ensemble."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Un matin Diego est à la fête foraine. Ensuite Diego rencontre Maya au labyrinthe. Au belvédère ils sont très contents ensemble.",
+    "words": [],
+    "support": {
+     "grammar": "les comparatifs + que (bilan)",
+     "words": [
+      "moderne",
+      "ancien",
+      "bruyant",
+      "paisible",
+      "bondé",
+      "vide"
+     ]
+    }
+   },
+   "code": "H"
+  },
+  {
+   "type": "picture_mc",
+   "title": "Écoute et coche la bonne case.",
+   "instructions": "Écoute chaque question et clique sur l'image qui répond.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 6,
+     "nombre": "Aventures et expériences"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et cocher la bonne image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u41-i.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "Combien de sacs a Diego ?",
+      "answer": "1",
+      "options": [
+       {
+        "k": "count",
+        "word": "sac",
+        "n": 2,
+        "v": "2",
+        "pie": "2"
+       },
+       {
+        "k": "count",
+        "word": "sac",
+        "n": 1,
+        "v": "1",
+        "pie": "1"
+       },
+       {
+        "k": "count",
+        "word": "sac",
+        "n": 3,
+        "v": "3",
+        "pie": "3"
+       }
+      ],
+      "script": "Combien de sacs a Diego ? … Diego : J'ai un sac."
+     },
+     {
+      "q": "Combien de ballons a Maya ?",
+      "answer": "1",
+      "options": [
+       {
+        "k": "count",
+        "word": "ballon",
+        "n": 5,
+        "v": "5",
+        "pie": "5"
+       },
+       {
+        "k": "count",
+        "word": "ballon",
+        "n": 1,
+        "v": "1",
+        "pie": "1"
+       },
+       {
+        "k": "count",
+        "word": "ballon",
+        "n": 3,
+        "v": "3",
+        "pie": "3"
+       }
+      ],
+      "script": "Combien de ballons a Maya ? … Maya : J'ai un ballon."
+     },
+     {
+      "q": "Combien de parapluies a Bruno ?",
+      "answer": "2",
+      "options": [
+       {
+        "k": "count",
+        "word": "parapluie",
+        "n": 2,
+        "v": "2",
+        "pie": "2"
+       },
+       {
+        "k": "count",
+        "word": "parapluie",
+        "n": 5,
+        "v": "5",
+        "pie": "5"
+       },
+       {
+        "k": "count",
+        "word": "parapluie",
+        "n": 4,
+        "v": "4",
+        "pie": "4"
+       }
+      ],
+      "script": "Combien de parapluies a Bruno ? … Bruno : J'ai deux parapluies."
+     },
+     {
+      "q": "Combien d'uniformes a Aiko ?",
+      "answer": "2",
+      "options": [
+       {
+        "k": "count",
+        "word": "uniforme",
+        "n": 2,
+        "v": "2",
+        "pie": "2"
+       },
+       {
+        "k": "count",
+        "word": "uniforme",
+        "n": 5,
+        "v": "5",
+        "pie": "5"
+       },
+       {
+        "k": "count",
+        "word": "uniforme",
+        "n": 3,
+        "v": "3",
+        "pie": "3"
+       }
+      ],
+      "script": "Combien d'uniformes a Aiko ? … Aiko : J'ai deux uniformes."
+     },
+     {
+      "q": "Combien de caméras a Lia ?",
+      "answer": "4",
+      "options": [
+       {
+        "k": "count",
+        "word": "appareil photo",
+        "n": 2,
+        "v": "2",
+        "pie": "2"
+       },
+       {
+        "k": "count",
+        "word": "appareil photo",
+        "n": 1,
+        "v": "1",
+        "pie": "1"
+       },
+       {
+        "k": "count",
+        "word": "appareil photo",
+        "n": 4,
+        "v": "4",
+        "pie": "4"
+       }
+      ],
+      "script": "Combien de caméras a Lia ? … Lia : J'ai quatre caméras."
+     }
+    ],
+    "modo": "count",
+    "script": "Écoute et coche la bonne case. Il y a un exemple. … Combien de sacs a Diego ? … Diego : J'ai un sac. … Combien de ballons a Maya ? … Maya : J'ai un ballon. … Combien de parapluies a Bruno ? … Bruno : J'ai deux parapluies. … Combien d'uniformes a Aiko ? … Aiko : J'ai deux uniformes. … Combien de caméras a Lia ? … Lia : J'ai quatre caméras.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "I"
+  },
+  {
+   "type": "label_people",
+   "title": "Écoute et écris les prénoms.",
+   "instructions": "Regarde l'image. Écoute et écris le prénom sous chaque personne. Attention : il y a trois prénoms en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 6,
+     "nombre": "Aventures et expériences"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et écrire le prénom de chaque personne de l'image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u41-g.mp3",
+   "data": {
+    "scene": "mirador",
+    "place": "le belvédère",
+    "people": [
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "clue": "le garçon au t-shirt rouge avec un microphone",
+      "action": "pose des questions avec son microphone",
+      "pose": 7
+     },
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "clue": "la fille au t-shirt vert avec une loupe",
+      "action": "observe quelque chose de tout petit",
+      "pose": 7
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "clue": "le garçon aux cheveux bruns bouclés et au t-shirt vert",
+      "action": "court après le ballon",
+      "pose": 7
+     },
+     {
+      "slug": "aiko",
+      "name": "Aiko",
+      "clue": "la fille aux longs cheveux noirs raides et au t-shirt orange",
+      "action": "lit un livre",
+      "pose": 7
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "clue": "la fille aux nattes noires et au t-shirt violet",
+      "action": "saute à la corde",
+      "pose": 7
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Bruno",
+     "Diego",
+     "Ingrid",
+     "Kili",
+     "Lia",
+     "Maya",
+     "Mr Vega"
+    ],
+    "script": "Regarde l'image. Écoute et écris les prénoms. Il y a un exemple. … Diego : Qui est-ce au belvédère ? Le garçon au t-shirt rouge avec un microphone. … Maya : C'est Diego. Diego pose des questions avec son microphone. … Diego : Et qui est la fille au t-shirt vert avec une loupe ? … Maya : C'est Maya. Regarde, Maya observe quelque chose de tout petit. … Diego : Et qui est le garçon aux cheveux bruns bouclés et au t-shirt vert ? … Maya : C'est Bruno. Regarde, Bruno court après le ballon. … Diego : Et qui est la fille aux longs cheveux noirs raides et au t-shirt orange ? … Maya : C'est Aiko. Regarde, Aiko lit un livre. … Diego : Et qui est la fille aux nattes noires et au t-shirt violet ? … Maya : C'est Lia. Regarde, Lia saute à la corde.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Demande à une personne plus âgée comment était le quartier avant. Écris 4 phrases avec des comparatifs : Les rues étaient plus étroites…"
+  }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 6,
+  "tema": "Aventures et expériences",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Raconter des histoires au passé, au présent et au futur ; exprimer ses préférences avec des raisons."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et comprendre des histoires courtes (80 à 250 mots) ; trouver l'idée principale et les détails."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~2500 mots ; passé composé, questions négatives, si + présent, futur proche."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

@@ -1,0 +1,312 @@
+{
+ "id": "movers-fr-33",
+ "level": "movers",
+ "number": 33,
+ "title": "Dire l'heure",
+ "topic": "heure",
+ "grammar": "heures pile / et demie + Quelle heure",
+ "wordlist": [
+  "heures",
+  "et demie",
+  "horloge",
+  "regarder",
+  "matin",
+  "après-midi",
+  "soir",
+  "nuit",
+  "tôt",
+  "tard"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 4,
+  "skill": "choix multiple"
+ },
+ "characters": [
+  "sofia",
+  "erik"
+ ],
+ "scene": {
+  "speaker": "sofia",
+  "pose": {
+   "sofia": 2,
+   "erik": 5
+  },
+  "bubble": "Erik a fabriqué une horloge qui aboie les heures. Luna est perdue. Les voisins aussi."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe l'heure et le moment de la journée.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Heure",
+    "right_label": "Moment",
+    "pairs": [
+     {
+      "left": "sept heures",
+      "right": "se réveiller — le matin !"
+     },
+     {
+      "left": "midi et demi",
+      "right": "l'heure du déjeuner"
+     },
+     {
+      "left": "quatre heures",
+      "right": "l'heure de jouer l'après-midi"
+     },
+     {
+      "left": "sept heures et demie",
+      "right": "le soir — le dîner est prêt"
+     },
+     {
+      "left": "neuf heures du soir",
+      "right": "l'heure d'aller au lit"
+     },
+     {
+      "left": "minuit",
+      "right": "minuit — tout le monde dort"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis les bons mots de l'heure.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "« Quelle ___ est-il ? » — « Il est trois heures. »",
+      "options": [
+       "heure",
+       "heure",
+       "horloge"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "6 h 30, c'est six heures et …",
+      "options": [
+       "moitié",
+       "quart",
+       "trente"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "L'école commence à huit heures …",
+      "options": [
+       "heures",
+       "heures",
+       "moitié"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu portes une ___ au poignet pour voir l'heure.",
+      "options": [
+       "regarder",
+       "horloge",
+       "bague"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le film commence à 18 h 00. On est arrivés à 18 h 20 — trop ___ !",
+      "options": [
+       "tard",
+       "tôt",
+       "rapide"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute la journée de l'horloge qui aboie. Écris une heure ou un mot dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u33-c.mp3",
+   "data": {
+    "voice_note": "Voces: Erik (orgulloso) y Sofía (entre risas).",
+    "script": "Erik : Ma nouvelle invention : l'horloge qui aboie ! À sept heures elle aboie sept fois. … Sofia : Et Luna a répondu à chaque aboiement. Quatorze aboiements en tout ! … Erik : À midi et demi elle aboie pour le déjeuner. … Sofia : Le voisin a cru qu'il y avait deux chiens dans la maison. … Erik : À quatre heures, l'aboiement du temps de jeu. À neuf heures, celui du coucher. … Sofia : Et à minuit ? … Erik : À minuit elle se tait. Même les horloges qui aboient doivent dormir. … Sofia : Ta meilleure invention… et la plus bruyante !",
+    "questions": [
+     {
+      "q": "À sept heures elle aboie … fois.",
+      "answer": "sept"
+     },
+     {
+      "q": "Luna a répondu : … aboiements en tout !",
+      "answer": "quatorze"
+     },
+     {
+      "q": "L'aboiement du déjeuner est à midi et …",
+      "answer": "douze"
+     },
+     {
+      "q": "L'aboiement du coucher est à …",
+      "answer": "neuf"
+     },
+     {
+      "q": "À minuit l'horloge est …",
+      "answer": "muet"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Le soleil se lève le …",
+      "options": [
+       "matin",
+       "soir",
+       "nuit"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Après l'après-midi vient le …",
+      "options": [
+       "soir",
+       "matin",
+       "midi"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "9 h 30, c'est neuf heures et …",
+      "options": [
+       "neuf",
+       "dix",
+       "huit"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "La grande ___ du mur dit que c'est l'heure de déjeuner.",
+      "options": [
+       "horloge",
+       "regarder",
+       "téléphone"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le contraire d'en retard est en …",
+      "options": [
+       "tôt",
+       "rapide",
+       "premier"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Dessine 4 horloges avec des heures différentes. Ton camarade dit chaque heure et une chose qu'il fait à ce moment-là : « Il est quatre heures et demie — je joue au football. »"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Regarde A et B. Qu'est-ce qui change ?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris ton dimanche avec 5 heures : À neuf heures je… À midi et demi je…"
+  }
+ ],
+ "scope": {
+  "grado": "G3",
+  "temaN": 2,
+  "tema": "Ma journée",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues courts avec plus de vocabulaire ; repérer l'information principale dans des annonces simples."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire ses habitudes, ses préférés, les métiers du quartier ; donner une opinion courte."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire de courts paragraphes ; répondre à des questions simples ; trouver une information précise."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un court paragraphe sur soi, sa famille ou sa journée (40 à 70 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~800 mots ; les temps de base ; devoir, pouvoir ; l'accord du verbe ; le superlatif."
+   }
+  ],
+  "vocabulario": [
+   "heures",
+   "et demie",
+   "moins le quart",
+   "passé"
+  ],
+  "gramatica": [
+   "Les mots de l'ordre : d'abord, ensuite, puis, enfin"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "quarter to",
+    "past"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "moins le quart",
+  "passé"
+ ],
+ "lang": "fr"
+}

@@ -1,0 +1,316 @@
+{
+ "id": "movers-fr-08",
+ "level": "movers",
+ "number": 8,
+ "title": "Ma maison, ma chambre",
+ "topic": "maison",
+ "grammar": "Il y a",
+ "wordlist": [
+  "cuisine",
+  "salle de bains",
+  "chambre",
+  "salon",
+  "couloir",
+  "lit",
+  "bureau",
+  "armoire",
+  "affiche",
+  "horloge"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 2,
+  "skill": "prise de notes"
+ },
+ "characters": [
+  "valentina",
+  "mateo"
+ ],
+ "scene": {
+  "speaker": "valentina",
+  "pose": {
+   "valentina": 2,
+   "mateo": 3
+  },
+  "bubble": "Chaque pièce raconte une histoire. La chambre de Mateo raconte celle de quinze chaussettes perdues !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe la pièce et ce qu'on y fait.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Pièce",
+    "right_label": "Ce que tu fais",
+    "pairs": [
+     {
+      "left": "la cuisine",
+      "right": "cuisiner et manger"
+     },
+     {
+      "left": "la salle de bains",
+      "right": "se laver et se brosser les dents"
+     },
+     {
+      "left": "la chambre",
+      "right": "dormir et rêver"
+     },
+     {
+      "left": "le salon",
+      "right": "regarder la télé ensemble"
+     },
+     {
+      "left": "l'entrée",
+      "right": "accrocher ta veste en arrivant"
+     },
+     {
+      "left": "le jardin",
+      "right": "jouer dehors"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis Il y a ou Ce sont.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "___ une grande horloge dans la cuisine.",
+      "options": [
+       "Il y a",
+       "Il y a",
+       "C'est"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___ deux lits dans ma chambre — un pour les invités.",
+      "options": [
+       "Il y a",
+       "Il y a",
+       "Ce sont"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "___ une télé dans ta chambre ?",
+      "options": [
+       "Est",
+       "Sont",
+       "Est-ce que"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Il ___ quatre affiches sur mon mur.",
+      "options": [
+       "est",
+       "sont",
+       "suis"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Il ___ une armoire à côté du bureau.",
+      "options": [
+       "est",
+       "sont",
+       "être"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute. Mateo montre sa chambre. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u08-c.mp3",
+   "data": {
+    "voice_note": "Voces: Mateo (tour de su cuarto) y Valentina (riéndose).",
+    "script": "Mateo : Bienvenue dans ma chambre ! Il y a un lit, un bureau et une grande armoire. … Mateo : Sur le mur il y a trois affiches de planètes. … Valentina : Qu'est-ce qu'il y a sous le lit, Mateo ? … Mateo : Euh… mon musée de chaussettes. Quinze chaussettes, toutes sans leur paire. … Valentina : Quinze ! Et qu'est-ce qu'il y a sur le bureau ? … Mateo : Mes devoirs, mon robot et un pot avec sept crayons. … Valentina : Et ce bruit dans l'armoire ? … Mateo : Luna ! Elle dort là quand il pleut. C'est sa grotte !",
+    "questions": [
+     {
+      "q": "Sur le mur il y a trois affiches de …",
+      "answer": "planètes"
+     },
+     {
+      "q": "Sous le lit il y a … chaussettes.",
+      "answer": "quinze"
+     },
+     {
+      "q": "Sur le bureau il y a un pot avec sept …",
+      "answer": "crayons"
+     },
+     {
+      "q": "… dort dans l'armoire quand il pleut.",
+      "answer": "Luna"
+     },
+     {
+      "q": "L'armoire est sa …",
+      "answer": "grotte"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Tu ranges tes vêtements dans une …",
+      "options": [
+       "armoire",
+       "horloge",
+       "affiche"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu fais tes devoirs à ton …",
+      "options": [
+       "lit",
+       "bureau",
+       "bain"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "L'___ te donne l'heure.",
+      "options": [
+       "horloge",
+       "affiche",
+       "oreiller"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu prépares le dîner dans la …",
+      "options": [
+       "salle de bains",
+       "cuisine",
+       "couloir"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Une image sur ton mur est une …",
+      "options": [
+       "affiche",
+       "armoire",
+       "bureau"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Décris ta chambre en 5 phrases (Il y a…). Ton camarade la dessine. Comparez le dessin et la réalité !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Regarde A et B. Qu'est-ce qui change ?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris 6 phrases sur ta maison : une par pièce, avec Il y a."
+  }
+ ],
+ "scope": {
+  "grado": "G4",
+  "temaN": 2,
+  "tema": "L'école et les apprentissages",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues plus longs ; repérer une information précise à l'oral."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire des lieux, des objets, des événements passés ; jouer une situation simple."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et remettre en ordre des histoires courtes ; trouver une information dans un panneau ou une affiche."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un message de 30 à 40 mots ; paragraphes de classe de 60 à 100 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~1350 mots ; passé composé, pronoms relatifs, pour + infinitif, devoir."
+   }
+  ],
+  "vocabulario": [
+   "réviser",
+   "prendre des notes",
+   "rendre",
+   "se concentrer"
+  ],
+  "gramatica": [
+   "Aussi… que / pas aussi… que"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "revise",
+    "take notes",
+    "hand in",
+    "concentrate"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "réviser",
+  "prendre des notes",
+  "rendre",
+  "se concentrer"
+ ],
+ "lang": "fr"
+}

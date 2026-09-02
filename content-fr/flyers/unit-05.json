@@ -1,0 +1,730 @@
+{
+ "id": "flyers-fr-05",
+ "level": "flyers",
+ "number": 5,
+ "title": "Ma journée d'école",
+ "topic": "école",
+ "grammar": "le présent + les matières",
+ "wordlist": [
+  "maths",
+  "sciences",
+  "art",
+  "musique",
+  "histoire",
+  "géographie",
+  "sport",
+  "emploi du temps",
+  "casser",
+  "devoirs"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 2,
+  "skill": "prise de notes"
+ },
+ "characters": [
+  "ingrid",
+  "diego"
+ ],
+ "scene": {
+  "speaker": "ingrid",
+  "pose": {
+   "ingrid": 2,
+   "diego": 3
+  },
+  "bubble": "Nouvel emploi du temps, l'équipe ! Maths avant la récré, sciences après le déjeuner… et double sport le vendredi !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe la matière et ce qu'on y fait.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Matière",
+    "right_label": "Ce que tu fais",
+    "pairs": [
+     {
+      "left": "maths",
+      "right": "travailler avec les nombres"
+     },
+     {
+      "left": "sciences",
+      "right": "faire des expériences"
+     },
+     {
+      "left": "art",
+      "right": "peindre et dessiner"
+     },
+     {
+      "left": "musique",
+      "right": "chanter et jouer d'un instrument"
+     },
+     {
+      "left": "géographie",
+      "right": "étudier les cartes et les pays"
+     },
+     {
+      "left": "histoire",
+      "right": "apprendre le passé"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Lis l'emploi du temps d'Ingrid et choisis la bonne réponse.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Lis le texte. Choisis la bonne réponse.",
+    "text": "Lundi est mon jour préféré. On commence par la musique à huit heures et demie — je suis assise à côté d'Oliver, et il joue super bien de la guitare. Ensuite on a maths pendant deux heures. Après la récré on fait sciences avec M. Holm ; la semaine dernière on a fabriqué un petit volcan ! On déjeune à une heure, et l'après-midi il y a arts plastiques. Je peins toujours des montagnes. On finit à trois heures et demie.",
+    "items": [
+     {
+      "sentence": "Quel est le premier cours du lundi ?",
+      "options": [
+       "maths",
+       "musique",
+       "sciences"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Qui joue super bien de la guitare ?",
+      "options": [
+       "Ingrid",
+       "M. Holm",
+       "Oliver"
+      ],
+      "answer": 2
+     },
+     {
+      "sentence": "Qu'est-ce qu'ils ont fabriqué en sciences la semaine dernière ?",
+      "options": [
+       "un volcan",
+       "une carte",
+       "un gâteau"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "À quelle heure est le déjeuner ?",
+      "options": [
+       "à huit heures et demie",
+       "à une heure",
+       "à trois heures et demie"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Qu'est-ce qu'Ingrid peint toujours ?",
+      "options": [
+       "volcans",
+       "des rivières",
+       "montagnes"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute. Diego interviewe Ingrid sur son mardi. Écris un mot dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u05-c.mp3",
+   "data": {
+    "voice_note": "Voces: Diego (reportero) e Ingrid (capitana).",
+    "script": "Diego : Radio Aurore ! Ingrid, il ressemble à quoi ton mardi ? … Ingrid : On commence par la géographie. On étudie les fleuves d'Amérique du Sud. … Diego : Intéressant ! Et après ? … Ingrid : Histoire. On apprend les châteaux ce mois-ci. … Diego : Qu'est-ce que tu fais à la récré ? … Ingrid : On joue au basket dans la cour. … Diego : Et ton dernier cours ? … Ingrid : Sport — mon préféré ! On s'entraîne pour la compétition de natation. … Diego : Tu as beaucoup de devoirs ? … Ingrid : Seulement en maths. Vingt exercices ! … Diego : Vingt ! Bon courage, capitaine !",
+    "questions": [
+     {
+      "q": "En géographie ils étudient les fleuves d'Amérique du …",
+      "answer": "Sud"
+     },
+     {
+      "q": "En histoire ils apprennent les …",
+      "answer": "châteaux"
+     },
+     {
+      "q": "À la récré ils jouent au …",
+      "answer": "basket"
+     },
+     {
+      "q": "Ils s'entraînent pour la compétition de …",
+      "answer": "natation"
+     },
+     {
+      "q": "Ingrid a … exercices de maths en devoirs.",
+      "answer": "vingt"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Tu étudies les cartes et les pays en …",
+      "options": [
+       "histoire",
+       "géographie",
+       "musique"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "La feuille qui montre tes cours, c'est un …",
+      "options": [
+       "emploi du temps",
+       "devoirs",
+       "casser"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Entre les cours tu as une courte …",
+      "options": [
+       "matière",
+       "casser",
+       "emploi du temps"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "En … tu apprends les rois et les reines du passé.",
+      "options": [
+       "histoire",
+       "maths",
+       "art"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le travail que tu fais à la maison, ce sont les …",
+      "options": [
+       "casser",
+       "sport",
+       "devoirs"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Interviewe ton camarade sur sa journée d'école idéale : « Quel est le premier cours ? Qu'est-ce que tu fais à la récré ? » Puis présente-la : « Dans la journée idéale d'Ana, le premier cours est arts plastiques… »"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Trouve les différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 11 différences et parles-en avec ton camarade.",
+   "data": {}
+  },
+  {
+   "type": "picture_mc",
+   "title": "Écoute et coche la bonne case.",
+   "instructions": "Écoute chaque question et clique sur l'image qui répond.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "La nature"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et cocher la bonne image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u05-h.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "Quelle image Ingrid regarde-t-elle ?",
+      "answer": "art",
+      "options": [
+       {
+        "word": "fête foraine",
+        "propio": true
+       },
+       {
+        "word": "art",
+        "propio": false
+       },
+       {
+        "word": "restaurant",
+        "propio": true
+       }
+      ],
+      "script": "Quelle image Ingrid regarde-t-elle ? … Ingrid : Je regarde les arts plastiques."
+     },
+     {
+      "q": "Qu'est-ce que Diego voit sur l'image ?",
+      "answer": "emploi du temps",
+      "options": [
+       {
+        "word": "aéroport",
+        "propio": true
+       },
+       {
+        "word": "pharmacie",
+        "propio": true
+       },
+       {
+        "word": "emploi du temps",
+        "propio": false
+       }
+      ],
+      "script": "Qu'est-ce que Diego voit sur l'image ? … Diego : Je vois l'emploi du temps."
+     },
+     {
+      "q": "Que montre Lia du doigt ?",
+      "answer": "maths",
+      "options": [
+       {
+        "word": "commissariat",
+        "propio": true
+       },
+       {
+        "word": "théâtre",
+        "propio": true
+       },
+       {
+        "word": "maths",
+        "propio": false
+       }
+      ],
+      "script": "Que montre Lia du doigt ? … Lia : Je montre les maths."
+     },
+     {
+      "q": "De quoi Maya parle-t-elle ?",
+      "answer": "sport",
+      "options": [
+       {
+        "word": "aéroport",
+        "propio": true
+       },
+       {
+        "word": "pont",
+        "propio": true
+       },
+       {
+        "word": "sport",
+        "propio": false
+       }
+      ],
+      "script": "De quoi Maya parle-t-elle ? … Maya : Je parle du sport."
+     },
+     {
+      "q": "Quel mot Tino apprend-il aujourd'hui ?",
+      "answer": "sciences",
+      "options": [
+       {
+        "word": "théâtre",
+        "propio": true
+       },
+       {
+        "word": "sciences",
+        "propio": false
+       },
+       {
+        "word": "famille",
+        "propio": true
+       }
+      ],
+      "script": "Quel mot Tino apprend-il aujourd'hui ? … Tino : Aujourd'hui j'apprends le mot sciences."
+     }
+    ],
+    "script": "Écoute et coche la bonne case. Il y a un exemple. … Quelle image Ingrid regarde-t-elle ? … Ingrid : Je regarde les arts plastiques. … Qu'est-ce que Diego voit sur l'image ? … Diego : Je vois l'emploi du temps. … Que montre Lia du doigt ? … Lia : Je montre les maths. … De quoi Maya parle-t-elle ? … Maya : Je parle du sport. … Quel mot Tino apprend-il aujourd'hui ? … Tino : Aujourd'hui j'apprends le mot sciences.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "H"
+  },
+  {
+   "type": "match_pictures",
+   "title": "Écoute et associe chaque explorateur à une image.",
+   "instructions": "Écoute. Puis choisis la lettre de l'image pour chaque personne. Attention : certaines images sont en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "La nature"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et associer chaque personne à une image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 3
+    }
+   },
+   "audio": "flyers/u05-i.mp3",
+   "data": {
+    "people": [
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "pose": 8
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 8
+     },
+     {
+      "slug": "tino",
+      "name": "Tino",
+      "pose": 3
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "pose": 3
+     },
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 8
+     }
+    ],
+    "pictures": [
+     {
+      "word": "écharpe",
+      "propio": true,
+      "id": "A"
+     },
+     {
+      "word": "maths",
+      "propio": false,
+      "id": "B"
+     },
+     {
+      "word": "histoire",
+      "propio": false,
+      "id": "C"
+     },
+     {
+      "word": "poche",
+      "propio": true,
+      "id": "D"
+     },
+     {
+      "word": "géographie",
+      "propio": false,
+      "id": "E"
+     },
+     {
+      "word": "art",
+      "propio": false,
+      "id": "F"
+     },
+     {
+      "word": "chaussettes",
+      "propio": true,
+      "id": "G"
+     },
+     {
+      "word": "sport",
+      "propio": false,
+      "id": "H"
+     }
+    ],
+    "answers": {
+     "Ingrid": "H",
+     "Diego": "B",
+     "Tino": "E",
+     "Bruno": "C",
+     "Maya": "F"
+    },
+    "script": "Écoute et associe chaque personne à une image. Il y a un exemple. … Diego : Ingrid, quelle image as-tu choisie ? … Ingrid : J'ai choisi le sport. … Diego : Diego, quelle image as-tu choisie ? … Diego : J'ai choisi les maths. … Diego : Tino, quelle image as-tu choisie ? … Tino : J'ai choisi la géographie. … Diego : Bruno, quelle image as-tu choisie ? … Bruno : J'ai choisi l'histoire. … Diego : Maya, quelle image as-tu choisie ? … Maya : J'ai choisi les arts plastiques.",
+    "voice_note": "Diego pregunta; cada explorador responde con su objeto."
+   },
+   "code": "I"
+  },
+  {
+   "type": "picture_story",
+   "title": "Regarde les trois images et écris l'histoire.",
+   "instructions": "Regarde les images. Écris l'histoire en 20-25 mots. Aide-toi des mots sous chaque image.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "La nature"
+    },
+    "destreza": "Writing",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots.",
+    "clase": "Type examen : histoire en images de 20 à 25 mots (production écrite)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "garden",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 4
+       }
+      ],
+      "word": "art",
+      "hint": "Ingrid / apporte / des arts plastiques",
+      "model": "Ingrid apporte des arts plastiques au jardin de l'école."
+     },
+     {
+      "n": 2,
+      "scene": "zoo",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 8
+       },
+       {
+        "slug": "diego",
+        "pose": 1
+       }
+      ],
+      "word": "maths",
+      "hint": "Diego / apporter / des maths",
+      "model": "Ensuite Diego apporte des maths."
+     },
+     {
+      "n": 3,
+      "scene": "mirador",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 10
+       },
+       {
+        "slug": "ingrid",
+        "pose": 10
+       }
+      ],
+      "word": "sport",
+      "hint": "maintenant / un sport / content",
+      "model": "Maintenant ils ont aussi un sport, et tous les deux sont contents."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Ingrid apporte des arts plastiques au jardin de l'école. Ensuite Diego apporte des maths. Maintenant ils ont aussi un sport, et tous les deux sont contents.",
+    "words": [
+     "art",
+     "maths",
+     "sport"
+    ],
+    "support": {
+     "grammar": "le présent + les matières",
+     "words": [
+      "maths",
+      "sciences",
+      "art",
+      "musique",
+      "histoire",
+      "géographie"
+     ]
+    }
+   },
+   "code": "J"
+  },
+  {
+   "type": "label_people",
+   "title": "Écoute et écris les prénoms.",
+   "instructions": "Regarde l'image. Écoute et écris le prénom sous chaque personne. Attention : il y a trois prénoms en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "La nature"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et écrire le prénom de chaque personne de l'image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u05-g.mp3",
+   "data": {
+    "scene": "mirador",
+    "place": "le belvédère",
+    "people": [
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "clue": "la fille aux cheveux blonds et à la veste bleu foncé",
+      "action": "lit le programme de la journée",
+      "pose": 7
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "clue": "le garçon au t-shirt rouge avec un microphone",
+      "action": "pose des questions avec son microphone",
+      "pose": 7
+     },
+     {
+      "slug": "kili",
+      "name": "Kili",
+      "clue": "le grand oiseau noir avec un collier blanc",
+      "action": "porte une lettre",
+      "pose": 3
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "clue": "le garçon aux cheveux bruns bouclés et au t-shirt vert",
+      "action": "court après le ballon",
+      "pose": 7
+     },
+     {
+      "slug": "samu",
+      "name": "Samu",
+      "clue": "le garçon aux cheveux blonds courts avec un sac à dos",
+      "action": "fait signe",
+      "pose": 7
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Bruno",
+     "Diego",
+     "Ingrid",
+     "Kili",
+     "Mr Vega",
+     "Oliver",
+     "Samu"
+    ],
+    "script": "Regarde l'image. Écoute et écris les prénoms. Il y a un exemple. … Diego : Qui est-ce au belvédère ? La fille aux cheveux blonds et à la veste bleu foncé. … Maya : C'est Ingrid. Ingrid lit le programme de la journée. … Diego : Et qui est le garçon au t-shirt rouge avec un microphone ? … Maya : C'est Diego. Regarde, Diego pose des questions avec son microphone. … Diego : Et qui est le grand oiseau noir avec un collier blanc ? … Maya : C'est Kili. Regarde, Kili porte une lettre. … Diego : Et qui est le garçon aux cheveux bruns bouclés et au t-shirt vert ? … Maya : C'est Bruno. Regarde, Bruno court après le ballon. … Diego : Et qui est le garçon aux cheveux blonds courts avec un sac à dos ? … Maya : C'est Samu. Regarde, Samu fait signe.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris ton vrai emploi du temps du mardi en français et une phrase sur ta matière préférée et pourquoi."
+  }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 3,
+  "tema": "La nature",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Raconter des histoires au passé, au présent et au futur ; exprimer ses préférences avec des raisons."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et comprendre des histoires courtes (80 à 250 mots) ; trouver l'idée principale et les détails."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~2500 mots ; passé composé, questions négatives, si + présent, futur proche."
+   }
+  ],
+  "vocabulario": [
+   "déforestation",
+   "pollution",
+   "sécheresse",
+   "inondation",
+   "biodiversité",
+   "écosystème"
+  ],
+  "gramatica": [
+   "Le futur pour les prédictions : les scientifiques pensent que…"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "deforestation",
+    "pollution",
+    "drought",
+    "flood",
+    "biodiversity",
+    "ecosystem"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "déforestation",
+  "pollution",
+  "sécheresse",
+  "inondation",
+  "biodiversité",
+  "écosystème"
+ ],
+ "lang": "fr"
+}

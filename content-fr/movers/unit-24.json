@@ -1,0 +1,316 @@
+{
+ "id": "movers-fr-24",
+ "level": "movers",
+ "number": 24,
+ "title": "Aider à la maison",
+ "topic": "tâches ménagères",
+ "grammar": "devoir + les routines",
+ "wordlist": [
+  "propre",
+  "faire la vaisselle",
+  "nourrir",
+  "arroser les plantes",
+  "balayer",
+  "table",
+  "déchets",
+  "serviable",
+  "tâche",
+  "équipe"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 3,
+  "skill": "associations"
+ },
+ "characters": [
+  "mateo",
+  "erik"
+ ],
+ "scene": {
+  "speaker": "mateo",
+  "pose": {
+   "mateo": 3,
+   "erik": 1
+  },
+  "bubble": "Les tâches du samedi au club ! Je nourris Luna, Erik répare des choses… et les déchets sortent AVANT de sentir mauvais."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe la tâche et la pièce ou l'endroit.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Métier",
+    "right_label": "Lieu",
+    "pairs": [
+     {
+      "left": "faire la vaisselle",
+      "right": "dans la cuisine"
+     },
+     {
+      "left": "balayer le sol",
+      "right": "dans chaque pièce"
+     },
+     {
+      "left": "arroser les plantes",
+      "right": "sur le balcon"
+     },
+     {
+      "left": "nourrir le chien",
+      "right": "à côté de sa gamelle"
+     },
+     {
+      "left": "sortir les déchets",
+      "right": "jusqu'à la grande poubelle dehors"
+     },
+     {
+      "left": "mettre la table",
+      "right": "avant le dîner"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "Je ___ faire mon lit tous les matins.",
+      "options": [
+       "avoir",
+       "a",
+       "suis"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Elle ___ nourrir le chat avant l'école.",
+      "options": [
+       "avoir",
+       "a",
+       "est"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "On ___ la vaisselle après le déjeuner.",
+      "options": [
+       "laver",
+       "lave",
+       "lavant"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Sors les ___, s'il te plaît — c'est plein !",
+      "options": [
+       "déchets",
+       "table",
+       "plantes"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Une personne qui aime aider est …",
+      "options": [
+       "serviable",
+       "nulle",
+       "lourd"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute les tâches du samedi. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u24-c.mp3",
+   "data": {
+    "voice_note": "Voces: Mateo (repartiendo) y Erik (mejorando todo).",
+    "script": "Mateo : Les tâches du samedi ! Je nourris Luna en premier — deux bols de croquettes, pas plus ! … Erik : Moi je nettoie les fenêtres avec ma nouvelle machine à pulvériser. … Mateo : Sofia balaie le sol et Valentina arrose les plantes. … Erik : Les déchets, c'est mon travail aujourd'hui. Dehors ! … Mateo : Et à midi on fait la vaisselle tous ensemble. Quatre mains, c'est rapide ! … Erik : Six mains. Luna aide en regardant. … Mateo : Fini en une heure. Maintenant : football !",
+    "questions": [
+     {
+      "q": "Luna reçoit deux … de croquettes.",
+      "answer": "bols"
+     },
+     {
+      "q": "Erik nettoie les fenêtres avec sa … à pulvériser.",
+      "answer": "machine"
+     },
+     {
+      "q": "… arrose les plantes.",
+      "answer": "Valentina"
+     },
+     {
+      "q": "À midi ils font la … tous ensemble.",
+      "answer": "vaisselle"
+     },
+     {
+      "q": "Tout est fini en une …",
+      "answer": "heure"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Tu ___ le sol avec un balai.",
+      "options": [
+       "balayer",
+       "laver",
+       "nourrir"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Donner à manger à un animal = le ___.",
+      "options": [
+       "nourrir",
+       "eau",
+       "propre"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Avant le dîner, on met la …",
+      "options": [
+       "table",
+       "déchets",
+       "lit"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les plantes ont besoin que tu les ___.",
+      "options": [
+       "eau",
+       "balayer",
+       "laver"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le vieux papier et les bouteilles vides vont au …",
+      "options": [
+       "déchets",
+       "frigo",
+       "armoire"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Comparez les tâches : « Tu dois faire ton lit ? Tu dois faire la vaisselle ? » Trouvez une tâche que vous faites tous les deux et une que seul ton camarade fait."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "A et B ne sont pas pareils. Trouve pourquoi !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris tes 4 tâches à la maison avec devoir : Je dois… Le dimanche je dois…"
+  }
+ ],
+ "scope": {
+  "grado": "G4",
+  "temaN": 1,
+  "tema": "En ville",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues plus longs ; repérer une information précise à l'oral."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire des lieux, des objets, des événements passés ; jouer une situation simple."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et remettre en ordre des histoires courtes ; trouver une information dans un panneau ou une affiche."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un message de 30 à 40 mots ; paragraphes de classe de 60 à 100 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~1350 mots ; passé composé, pronoms relatifs, pour + infinitif, devoir."
+   }
+  ],
+  "vocabulario": [
+   "métro",
+   "ferry",
+   "tramway",
+   "trottinette"
+  ],
+  "gramatica": [
+   "L'impératif pour les indications"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "underground",
+    "ferry",
+    "tram",
+    "scooter"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "métro",
+  "ferry",
+  "tramway",
+  "trottinette"
+ ],
+ "lang": "fr"
+}

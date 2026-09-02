@@ -1,0 +1,273 @@
+{
+ "id": "starters-fr-13",
+ "level": "starters",
+ "number": 13,
+ "title": "Les fruits, c'est bon",
+ "topic": "fruit",
+ "grammar": "le pluriel + les couleurs",
+ "wordlist": [
+  "pomme",
+  "banane",
+  "orange",
+  "raisins",
+  "mangue",
+  "pastèque",
+  "ananas",
+  "fraise",
+  "sucré",
+  "jus"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 4,
+  "skill": "fruits et couleurs"
+ },
+ "characters": [
+  "astrid",
+  "freya"
+ ],
+ "scene": {
+  "speaker": "astrid",
+  "pose": {
+   "astrid": 8,
+   "freya": 1
+  },
+  "bubble": "Jour de la salade de fruits ! Des pommes, des bananes, de la mangue… on coupe, on mélange, on mange. La meilleure leçon !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Écris les noms des fruits.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "POMME",
+      "clue": "Rouge ou verte. Elle croque."
+     },
+     {
+      "word": "BANANE",
+      "clue": "Longue et jaune. Les singes l'adorent."
+     },
+     {
+      "word": "MANGUE",
+      "clue": "Orange dedans, sucrée et juteuse."
+     },
+     {
+      "word": "RAISINS",
+      "clue": "Petits, verts ou violets, en grappe."
+     },
+     {
+      "word": "ORANGE",
+      "clue": "Un fruit qui porte le nom d'une couleur !"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Associe le fruit et sa couleur.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Fruit",
+    "right_label": "La couleur",
+    "pairs": [
+     {
+      "left": "une banane",
+      "right": "jaune"
+     },
+     {
+      "left": "une fraise",
+      "right": "rouge"
+     },
+     {
+      "left": "une orange",
+      "right": "orange"
+     },
+     {
+      "left": "raisins",
+      "right": "violets ou verts"
+     },
+     {
+      "left": "une pastèque",
+      "right": "verte dehors, rouge dedans"
+     },
+     {
+      "left": "un ananas",
+      "right": "jaune avec un chapeau vert"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute la salade de fruits. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u13-c.mp3",
+   "data": {
+    "voice_note": "Voces: Astrid (chef) y Freya (ayudante).",
+    "script": "Astrid : L'heure de la salade de fruits ! D'abord, deux pommes rouges. … Freya : On coupe ! Et après ? … Astrid : Trois bananes. Jaunes et sucrées. … Freya : Maintenant la mangue ! Ça sent trop bon. … Astrid : Et dix raisins. Des violets. … Freya : On peut ajouter des fraises ? … Astrid : Oui ! Cinq grosses fraises. … Freya : On mélange, on mélange… c'est prêt ! La salade a six couleurs ! … Astrid : Et un oiseau affamé qui regarde. Bonjour, Pip !",
+    "questions": [
+     {
+      "q": "D'abord, deux … rouges.",
+      "answer": "pommes"
+     },
+     {
+      "q": "Ensuite … bananes.",
+      "answer": "trois"
+     },
+     {
+      "q": "Les raisins sont …",
+      "answer": "violet"
+     },
+     {
+      "q": "Ils ajoutent cinq grosses …",
+      "answer": "fraises"
+     },
+     {
+      "q": "La salade a … couleurs !",
+      "answer": "six"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Une banane est …",
+      "options": [
+       "jaune",
+       "bleu",
+       "noire"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Une pomme, deux …",
+      "options": [
+       "pommes",
+       "pomme",
+       "pommess"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Une pastèque est ___ dedans.",
+      "options": [
+       "rouge",
+       "jaune",
+       "blanc"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Fruit orange + eau = jus d'…",
+      "options": [
+       "jus",
+       "gâteau",
+       "soupe"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les fruits sont ___ et bons pour la santé.",
+      "options": [
+       "sucré",
+       "salé",
+       "gris"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Marchand de fruits : l'élève A vend, l'élève B achète 3 fruits (« Deux pommes, s'il te plaît ! »). Dis s'il te plaît et merci. Puis on échange."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Trouve les différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Dessine une salade de fruits avec 5 fruits et légende-les. Écris : Ma salade a…"
+  }
+ ],
+ "scope": {
+  "grado": "G1",
+  "temaN": 6,
+  "tema": "Manger et s'amuser",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Suivre les consignes de la classe ; reconnaître des mots connus dans une chanson ou une phrase courte."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Saluer ; dire son nom, son âge, les couleurs ; nommer des objets ; répondre par oui ou non."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Reconnaître les lettres de l'alphabet ; associer un mot à une image (famille, nourriture, animaux, corps)."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire son prénom ; recopier des mots ; légender une image (3 à 5 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~150 mots actifs ; le verbe être, un/une, c'est/ce sont, l'impératif."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [
+   "Ne pas aimer : je n'aime pas le lait"
+  ],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

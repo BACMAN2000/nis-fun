@@ -1,0 +1,468 @@
+{
+ "id": "flyers-fr-53",
+ "level": "flyers",
+ "number": 53,
+ "title": "Jour d'examen : la compréhension orale",
+ "topic": "entraînement à l'examen",
+ "grammar": "les stratégies de l'oral",
+ "wordlist": [
+  "consignes",
+  "exemple",
+  "deux fois",
+  "crayon",
+  "vérifier",
+  "trou",
+  "orthographe",
+  "nombre",
+  "couleur",
+  "se détendre"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 2,
+  "skill": "stratégie générale"
+ },
+ "characters": [
+  "kili",
+  "maya"
+ ],
+ "scene": {
+  "speaker": "maya",
+  "pose": {
+   "maya": 3,
+   "kili": 1
+  },
+  "bubble": "Secrets de l'examen d'écoute : lis d'abord, écoute deux fois, et ne laisse jamais un trou vide. Même Kili les connaît !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe la règle de l'examen et sa raison.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Règle",
+    "right_label": "Raison",
+    "pairs": [
+     {
+      "left": "Lis les questions avant d'écouter.",
+      "right": "tu sauras quoi écouter"
+     },
+     {
+      "left": "Tu entends chaque partie deux fois.",
+      "right": "la deuxième fois sert à vérifier"
+     },
+     {
+      "left": "Écris les nombres en chiffres.",
+      "right": "15 est plus rapide et plus sûr que quinze"
+     },
+     {
+      "left": "Vérifie ton orthographe à la fin.",
+      "right": "une faute d'orthographe peut coûter le point"
+     },
+     {
+      "left": "Ne laisse jamais un trou vide.",
+      "right": "une bonne intuition peut être juste !"
+     },
+     {
+      "left": "Reste calme si tu rates une réponse.",
+      "right": "la question suivante a besoin de tes oreilles"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Que faut-il faire ? Choisis la meilleure option.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis la meilleure stratégie d'examen.",
+    "items": [
+     {
+      "sentence": "L'enregistrement dit « elle s'appelle Katy, K-A-T-Y ». Tu écris…",
+      "options": [
+       "Katy",
+       "Katie",
+       "Cathy"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu as raté la question 3. Que faire ?",
+      "options": [
+       "Continue d'écouter et reviens-y à la deuxième écoute",
+       "Arrête-toi et réfléchis deux minutes",
+       "Pleure un peu"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le trou demande un nombre et tu entends « quarante ». Tu écris…",
+      "options": [
+       "40",
+       "quatorze",
+       "4"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Avant que l'enregistrement commence, tu dois…",
+      "options": [
+       "lire les questions rapidement",
+       "fermer les yeux",
+       "compter les pages"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Dans la partie du coloriage, il te faut…",
+      "options": [
+       "des crayons de couleur prêts",
+       "une calculatrice",
+       "ciseaux"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Mini examen ! Écoute et écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u53-c.mp3",
+   "data": {
+    "voice_note": "Voces: Maya (examinadora de práctica) — formato Listening Part 2 real.",
+    "script": "Maya : Ceci est un test d'entraînement. Écoute et écris. … Maya : La sortie scolaire est jeudi. Jeudi, J-E-U-D-I. … Maya : Le bus part à neuf heures quinze. Neuf un cinq. … Maya : Apporte un pique-nique et une bouteille d'eau. Le plus important, c'est la bouteille d'eau. … Maya : Le ticket d'entrée coûte sept soles. Sept. … Maya : Et le numéro de téléphone du maître est neuf-neuf-deux, trois-quatre-cinq, six-sept-huit. … Maya : Maintenant vérifie tes réponses. Tu l'as fait deux fois ? Parfait. C'est comme ça qu'on fait à l'examen !",
+    "questions": [
+     {
+      "q": "La sortie est …",
+      "answer": "jeudi"
+     },
+     {
+      "q": "Le bus part à neuf heures …",
+      "answer": "quinze"
+     },
+     {
+      "q": "Le plus important à apporter, c'est la bouteille d'…",
+      "answer": "bouteille"
+     },
+     {
+      "q": "Le ticket coûte … soles.",
+      "answer": "sept"
+     },
+     {
+      "q": "Le numéro de téléphone commence par neuf-neuf-…",
+      "answer": "deux"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Chaque partie de l'écoute commence par un …",
+      "options": [
+       "exemple",
+       "en face de",
+       "enveloppe"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu entends chaque enregistrement …",
+      "options": [
+       "deux fois",
+       "une fois",
+       "cinq fois"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Écris tes réponses avec un …",
+      "options": [
+       "crayon",
+       "brosse",
+       "cuillère"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un espace vide où tu écris un mot est un …",
+      "options": [
+       "trou",
+       "file d'attente",
+       "pas"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Avant l'examen, respire un grand coup et …",
+      "options": [
+       "se détendre",
+       "courir",
+       "crier"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Duel de dictée : lis 5 mots de ce livre à ton camarade, lettre par lettre s'il le demande. Il écrit ; puis vérifiez l'orthographe ensemble. Échangez. Champion = le moins de fautes."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Regarde A et B. Qu'est-ce qui change ?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  },
+  {
+   "type": "picture_story",
+   "title": "Regarde les trois images et écris l'histoire.",
+   "instructions": "Regarde les images. Écris l'histoire en 20-25 mots. Aide-toi des mots sous chaque image.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Santé et bien-être"
+    },
+    "destreza": "Writing",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots.",
+    "clase": "Type examen : histoire en images de 20 à 25 mots (production écrite)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "hockey",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 4
+       }
+      ],
+      "word": "",
+      "hint": "Maya / au terrain de hockey",
+      "model": "Un matin Maya est au terrain de hockey."
+     },
+     {
+      "n": 2,
+      "scene": "picnic-garden",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 3
+       },
+       {
+        "slug": "diego",
+        "pose": 3
+       }
+      ],
+      "word": "",
+      "hint": "Maya / rencontrer / Diego",
+      "model": "Ensuite Maya rencontre Diego au jardin du pique-nique."
+     },
+     {
+      "n": 3,
+      "scene": "garden",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 10
+       },
+       {
+        "slug": "diego",
+        "pose": 10
+       }
+      ],
+      "word": "",
+      "hint": "au jardin de l'école / content",
+      "model": "Au jardin de l'école ils sont très contents ensemble."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Un matin Maya est au terrain de hockey. Ensuite Maya rencontre Diego au jardin du pique-nique. Au jardin de l'école ils sont très contents ensemble.",
+    "words": [],
+    "support": {
+     "grammar": "les stratégies de l'oral",
+     "words": [
+      "consignes",
+      "exemple",
+      "deux fois",
+      "crayon",
+      "vérifier",
+      "trou"
+     ]
+    }
+   },
+   "code": "H"
+  },
+  {
+   "type": "label_people",
+   "title": "Écoute et écris les prénoms.",
+   "instructions": "Regarde l'image. Écoute et écris le prénom sous chaque personne. Attention : il y a trois prénoms en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Santé et bien-être"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et écrire le prénom de chaque personne de l'image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u53-g.mp3",
+   "data": {
+    "scene": "garden",
+    "place": "le jardin de l'école",
+    "people": [
+     {
+      "slug": "kili",
+      "name": "Kili",
+      "clue": "le grand oiseau noir avec un collier blanc",
+      "action": "porte une lettre",
+      "pose": 3
+     },
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "clue": "la fille au t-shirt vert avec une loupe",
+      "action": "observe quelque chose de tout petit",
+      "pose": 7
+     },
+     {
+      "slug": "aiko",
+      "name": "Aiko",
+      "clue": "la fille aux longs cheveux noirs raides et au t-shirt orange",
+      "action": "lit un livre",
+      "pose": 7
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "clue": "la fille aux nattes noires et au t-shirt violet",
+      "action": "saute à la corde",
+      "pose": 7
+     },
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "clue": "le garçon aux cheveux roux et au t-shirt jaune",
+      "action": "chante",
+      "pose": 7
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Bruno",
+     "Kili",
+     "Lia",
+     "Maya",
+     "Oliver",
+     "Samu",
+     "Tino"
+    ],
+    "script": "Regarde l'image. Écoute et écris les prénoms. Il y a un exemple. … Diego : Qui est-ce dans le jardin de l'école ? Le grand oiseau noir avec un collier blanc. … Maya : C'est Kili. Kili porte une lettre. … Diego : Et qui est la fille au t-shirt vert avec une loupe ? … Maya : C'est Maya. Regarde, Maya observe quelque chose de tout petit. … Diego : Et qui est la fille aux longs cheveux noirs raides et au t-shirt orange ? … Maya : C'est Aiko. Regarde, Aiko lit un livre. … Diego : Et qui est la fille aux nattes noires et au t-shirt violet ? … Maya : C'est Lia. Regarde, Lia saute à la corde. … Diego : Et qui est le garçon aux cheveux roux et au t-shirt jaune ? … Maya : C'est Oliver. Regarde, Oliver chante.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris tes 3 règles personnelles d'examen (en français) et colle-les sur ton bureau : Je lirai d'abord. Je…"
+  }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 5,
+  "tema": "Santé et bien-être",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Raconter des histoires au passé, au présent et au futur ; exprimer ses préférences avec des raisons."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et comprendre des histoires courtes (80 à 250 mots) ; trouver l'idée principale et les détails."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~2500 mots ; passé composé, questions négatives, si + présent, futur proche."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

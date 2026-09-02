@@ -1,0 +1,300 @@
+{
+ "id": "starters-fr-41",
+ "level": "starters",
+ "number": 41,
+ "title": "Épelle ton prénom",
+ "topic": "orthographe",
+ "grammar": "Comment ça s'écrit… ?",
+ "wordlist": [
+  "épeler",
+  "nom",
+  "nom de famille",
+  "lettre",
+  "encore",
+  "lentement",
+  "écouter",
+  "écrire",
+  "correct",
+  "bravo"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 2,
+  "skill": "épeler les prénoms"
+ },
+ "characters": [
+  "nico",
+  "astrid"
+ ],
+ "scene": {
+  "speaker": "nico",
+  "pose": {
+   "nico": 3,
+   "astrid": 2
+  },
+  "bubble": "N-I-C-O ! Épeler son prénom, c'est comme une petite chanson. Et TOI, comment s'écrit ton prénom ?"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe le prénom et son épellation.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Prénom",
+    "right_label": "Épellation",
+    "pairs": [
+     {
+      "left": "Nico",
+      "right": "N-I-C-O"
+     },
+     {
+      "left": "Freya",
+      "right": "F-R-E-Y-A"
+     },
+     {
+      "left": "Astrid",
+      "right": "A-S-T-R-I-D"
+     },
+     {
+      "left": "Tomás",
+      "right": "T-O-M-A-S"
+     },
+     {
+      "left": "Pip",
+      "right": "P-I-P"
+     },
+     {
+      "left": "le chien du phare",
+      "right": "L-U-N-A (une amie des Aventuriers !)"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis la bonne épellation.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis la bonne option.",
+    "items": [
+     {
+      "sentence": "Comment s'écrit CHAT ?",
+      "options": [
+       "C-H-A-T",
+       "K-A-T",
+       "C-T-A-H"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Comment s'écrit CHIEN ?",
+      "options": [
+       "C-H-I-E-N",
+       "C-H-N-I-E",
+       "S-I-E-N"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Comment s'écrit SOLEIL ?",
+      "options": [
+       "S-O-L-E-I-L",
+       "S-O-L-A-I-L",
+       "Z-O-L-E-I-L"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« ___ s'écrit ton prénom ? »",
+      "options": [
+       "Comment",
+       "Quoi",
+       "Qui"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Tu peux le dire ___, s'il te plaît ? » — lentement !",
+      "options": [
+       "encore",
+       "jamais",
+       "hier"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute et épelle. Écris un prénom dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u41-c.mp3",
+   "data": {
+    "voice_note": "Voces: Nico (deletreando) y Astrid (escribiendo).",
+    "script": "Nico : Jeu d'épellation ! Le nouveau garçon s'appelle Leo. L-E-O. … Astrid : L-E-O. Leo. C'est noté ! … Nico : Le chat de la maîtresse s'appelle Misu. M-I-S-U. … Astrid : M-I-S-U. Quel joli nom ! … Nico : Le bateau du port s'appelle Rosa. R-O-S-A. … Astrid : R-O-S-A. Comme une fleur ! … Nico : Et le plus difficile… le nom du phare : FARO. F-A-R-O ! … Astrid : Tout juste. Champions de l'épellation !",
+    "questions": [
+     {
+      "q": "Le nouveau garçon est L-E-O : …",
+      "answer": "Leo"
+     },
+     {
+      "q": "Le chat est M-I-S-U : …",
+      "answer": "Misu"
+     },
+     {
+      "q": "Le bateau est R-O-S-A : …",
+      "answer": "Rosa"
+     },
+     {
+      "q": "Le nom du phare est F-A-R-O : …",
+      "answer": "FARO"
+     },
+     {
+      "q": "Ils sont … de l'épellation !",
+      "answer": "champions"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Dire un mot lettre par lettre, c'est l'___.",
+      "options": [
+       "épeler",
+       "chanter",
+       "manger"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Ton nom de famille est ton …",
+      "options": [
+       "nom de famille",
+       "couleur",
+       "nombre"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Si tu n'entends pas bien, dis : « ___, s'il te plaît ! »",
+      "options": [
+       "Encore",
+       "Au revoir",
+       "Jamais"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "P-I-P s'écrit …",
+      "options": [
+       "Pip",
+       "Pop",
+       "Pat"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Quand ton camarade épelle bien, dis : « ___ ! »",
+      "options": [
+       "Bravo",
+       "Oh non",
+       "Dommage"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Épelle ton prénom et ton nom à ton camarade. Il l'écrit et te le montre. C'est bon ? Maintenant épelle ton animal préféré !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Trouve les différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris les prénoms de 4 personnes de ta famille et épelle-les lettre par lettre : M-A-M-A-N…"
+  }
+ ],
+ "scope": {
+  "grado": "G2",
+  "temaN": 1,
+  "tema": "Tout sur moi",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues simples sur la famille, l'école, les animaux et la nourriture."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Répondre à des questions à partir d'une image ; décrire une image en phrases simples."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire des textes de 2 à 3 phrases ; associer images, mots et légendes courtes."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Recopier des mots et compléter des phrases courtes."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~450 mots ; présent, être et avoir, il y a, aimer + infinitif."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [
+   "Les adjectifs de description"
+  ],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

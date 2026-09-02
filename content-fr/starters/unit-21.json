@@ -1,0 +1,312 @@
+{
+ "id": "starters-fr-21",
+ "level": "starters",
+ "number": 21,
+ "title": "Grand et petit",
+ "topic": "les adjectifs",
+ "grammar": "les adjectifs de base",
+ "wordlist": [
+  "grand",
+  "petit",
+  "long",
+  "court",
+  "vieux",
+  "nouveau",
+  "propre",
+  "sale",
+  "content",
+  "beau"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 2,
+  "skill": "des phrases sur les images"
+ },
+ "characters": [
+  "nico",
+  "pip"
+ ],
+ "scene": {
+  "speaker": "nico",
+  "pose": {
+   "nico": 2,
+   "pip": 1
+  },
+  "bubble": "L'éléphant est grand, la souris est petite, mes chaussures sont sales… et maman n'est pas contente !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe les contraires.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Mot",
+    "right_label": "Contraire",
+    "pairs": [
+     {
+      "left": "grand",
+      "right": "petit"
+     },
+     {
+      "left": "long",
+      "right": "court"
+     },
+     {
+      "left": "vieux",
+      "right": "nouveau"
+     },
+     {
+      "left": "propre",
+      "right": "sale"
+     },
+     {
+      "left": "content",
+      "right": "triste"
+     },
+     {
+      "left": "chaud",
+      "right": "froid"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis le bon adjectif.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "L'éléphant est ___ et la souris est petite.",
+      "options": [
+       "grand",
+       "court",
+       "nouveau"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le cou de la girafe est très …",
+      "options": [
+       "long",
+       "sale",
+       "froid"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Mes chaussures sont ___ après le football.",
+      "options": [
+       "sale",
+       "propre",
+       "nouveau"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "La radio de papi est très …",
+      "options": [
+       "vieux",
+       "jeune",
+       "vert"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les fleurs sont ___ — je les adore !",
+      "options": [
+       "beau",
+       "sale",
+       "triste"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute le jeu des contraires. Écris un mot dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u21-c.mp3",
+   "data": {
+    "voice_note": "Voces: Nico (preguntando) y Astrid (respondiendo rápido).",
+    "script": "Nico : Jeu des contraires ! Grand ? … Astrid : Petit ! … Nico : Long ? … Astrid : Court ! Comme les jambes de Pip. … Nico : Propre ? … Astrid : Sale ! Comme tes chaussures, Nico. … Nico : Hé ! Bon… vieux ? … Astrid : Neuf ! Comme mon crayon jaune. … Nico : La dernière : triste ? … Astrid : CONTENT ! Comme nous, tous les jours à la récré !",
+    "questions": [
+     {
+      "q": "Le contraire de grand est …",
+      "answer": "petit"
+     },
+     {
+      "q": "Les jambes de Pip sont …",
+      "answer": "court"
+     },
+     {
+      "q": "Les chaussures de Nico sont …",
+      "answer": "sale"
+     },
+     {
+      "q": "Le nouveau crayon d'Astrid est …",
+      "answer": "jaune"
+     },
+     {
+      "q": "Le contraire de triste est …",
+      "answer": "content"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Une souris est …",
+      "options": [
+       "petit",
+       "grand",
+       "long"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Après le bain, tu es …",
+      "options": [
+       "propre",
+       "sale",
+       "vieux"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un serpent est …",
+      "options": [
+       "long",
+       "court",
+       "carré"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Mon nouveau jouet est ___, pas vieux.",
+      "options": [
+       "nouveau",
+       "sale",
+       "triste"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le jour de mon anniversaire je suis très …",
+      "options": [
+       "content",
+       "triste",
+       "froid"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Montre et dis : trouve dans la classe des choses grandes, petites, longues, neuves. « Le tableau est grand ! Ton crayon est court ! » Cinq chacun."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Trouve les différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Trouve chez toi : quelque chose de grand, de petit, de vieux, de neuf. Écris 4 phrases."
+  }
+ ],
+ "scope": {
+  "grado": "G1",
+  "temaN": 5,
+  "tema": "Ma famille",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Suivre les consignes de la classe ; reconnaître des mots connus dans une chanson ou une phrase courte."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Saluer ; dire son nom, son âge, les couleurs ; nommer des objets ; répondre par oui ou non."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Reconnaître les lettres de l'alphabet ; associer un mot à une image (famille, nourriture, animaux, corps)."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire son prénom ; recopier des mots ; légender une image (3 à 5 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~150 mots actifs ; le verbe être, un/une, c'est/ce sont, l'impératif."
+   }
+  ],
+  "vocabulario": [
+   "vieux",
+   "jeune",
+   "content",
+   "gentil"
+  ],
+  "gramatica": [
+   "ÊTRE : c'est ma mamie"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "young",
+    "kind"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "jeune",
+  "gentil"
+ ],
+ "lang": "fr"
+}

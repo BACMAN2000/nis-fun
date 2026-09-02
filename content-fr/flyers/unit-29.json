@@ -1,0 +1,626 @@
+{
+ "id": "flyers-fr-29",
+ "level": "flyers",
+ "number": 29,
+ "title": "Quand est-ce que ça arrive ?",
+ "topic": "la fréquence",
+ "grammar": "toujours / d'habitude / souvent / parfois / jamais",
+ "wordlist": [
+  "toujours",
+  "d'habitude",
+  "souvent",
+  "parfois",
+  "jamais",
+  "une fois",
+  "deux fois",
+  "week-end",
+  "quotidienne",
+  "habitude"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 4,
+  "skill": "choix multiple"
+ },
+ "characters": [
+  "ingrid",
+  "kili"
+ ],
+ "scene": {
+  "speaker": "ingrid",
+  "pose": {
+   "ingrid": 1,
+   "kili": 1
+  },
+  "bubble": "Kili livre toujours le courrier à huit heures, d'habitude avec un grand bonjour… et jamais, jamais le dimanche !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe le mot et sa fréquence.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Mot",
+    "right_label": "À quelle fréquence",
+    "pairs": [
+     {
+      "left": "toujours",
+      "right": "100 % du temps"
+     },
+     {
+      "left": "d'habitude",
+      "right": "presque à chaque fois"
+     },
+     {
+      "left": "souvent",
+      "right": "beaucoup de fois"
+     },
+     {
+      "left": "parfois",
+      "right": "pas souvent, pas jamais"
+     },
+     {
+      "left": "jamais",
+      "right": "0 % du temps"
+     },
+     {
+      "left": "deux fois par semaine",
+      "right": "deux fois chaque semaine"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Mets le mot à la bonne place.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis la phrase correcte.",
+    "items": [
+     {
+      "sentence": "Quelle phrase est correcte ?",
+      "options": [
+       "Je toujours suis content.",
+       "Je suis toujours content.",
+       "Toujours je suis content."
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Quelle phrase est correcte ?",
+      "options": [
+       "Elle ne mange jamais de poisson.",
+       "Elle mange jamais de poisson.",
+       "Jamais elle mange de poisson."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Quelle phrase est correcte ?",
+      "options": [
+       "On va d'habitude en bus.",
+       "On va d'habitude en bus le matin.",
+       "D'habitude on va toujours en bus."
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "« ___ souvent tu t'entraînes ? » — « Deux fois par semaine. »",
+      "options": [
+       "souvent",
+       "beaucoup",
+       "long"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Je rends visite à mes grands-parents une fois par ___.",
+      "options": [
+       "une fois",
+       "un",
+       "premier"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute la journée de Kili. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u29-c.mp3",
+   "data": {
+    "voice_note": "Voces: Ingrid (contando la rutina de Kili).",
+    "script": "Ingrid : La journée de Kili, c'est une horloge ! Il se réveille toujours à six heures, quand le soleil touche le phare. … Ingrid : D'habitude il prend le petit-déjeuner avec nous : du pain, des graines et une fraise. … Ingrid : À huit heures il livre le courrier. Il chante souvent en volant — très mal ! … Ingrid : L'après-midi il visite parfois les bateaux du port. … Ingrid : Il ne vole jamais la nuit. La nuit, c'est pour dormir dans son nid. … Ingrid : Et le dimanche ? Le dimanche Kili ne fait absolument rien. C'est son habitude préférée !",
+    "questions": [
+     {
+      "q": "Kili se réveille toujours à …",
+      "answer": "six"
+     },
+     {
+      "q": "Au petit-déjeuner il prend du pain, des graines et une …",
+      "answer": "fraise"
+     },
+     {
+      "q": "Il … souvent en volant.",
+      "answer": "chante"
+     },
+     {
+      "q": "Il visite parfois les bateaux du …",
+      "answer": "port"
+     },
+     {
+      "q": "Il ne vole jamais la …",
+      "answer": "nuit"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Samedi et dimanche sont le …",
+      "options": [
+       "week-end",
+       "habitude",
+       "vacances"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Quelque chose que tu fais tous les jours est une habitude …",
+      "options": [
+       "prix",
+       "habitude",
+       "nouvelles"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "« Une fois » veut dire ___ fois.",
+      "options": [
+       "un",
+       "deux",
+       "non"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Il ___ neige à Lima — presque jamais !",
+      "options": [
+       "toujours",
+       "rarement",
+       "d'habitude"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Je me brosse les dents ___ fois par jour : le matin et le soir.",
+      "options": [
+       "une fois",
+       "deux fois",
+       "jamais"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Interview des habitudes : pose 5 questions à ton camarade avec À quelle fréquence… ? (regarder la télé, jouer aux jeux vidéo, aider à la maison…). Raconte ensuite la plus intéressante : « Marco ne boit jamais de lait ! »"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Trouve les différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  },
+  {
+   "type": "picture_story",
+   "title": "Regarde les trois images et écris l'histoire.",
+   "instructions": "Regarde les images. Écris l'histoire en 20-25 mots. Aide-toi des mots sous chaque image.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 2,
+     "nombre": "La vie de tous les jours"
+    },
+    "destreza": "Writing",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots.",
+    "clase": "Type examen : histoire en images de 20 à 25 mots (production écrite)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "picnic-garden",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 4
+       }
+      ],
+      "word": "",
+      "hint": "Ingrid / au jardin du pique-nique",
+      "model": "Un matin Ingrid est au jardin du pique-nique."
+     },
+     {
+      "n": 2,
+      "scene": "chess-plaza",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 3
+       },
+       {
+        "slug": "tino",
+        "pose": 3
+       }
+      ],
+      "word": "",
+      "hint": "Ingrid / rencontrer / Tino",
+      "model": "Ensuite Ingrid rencontre Tino à la place des échecs."
+     },
+     {
+      "n": 3,
+      "scene": "main-building",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 10
+       },
+       {
+        "slug": "tino",
+        "pose": 1
+       }
+      ],
+      "word": "",
+      "hint": "dans le bâtiment principal / content",
+      "model": "Dans le bâtiment principal ils sont très contents ensemble."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Un matin Ingrid est au jardin du pique-nique. Ensuite Ingrid rencontre Tino à la place des échecs. Dans le bâtiment principal ils sont très contents ensemble.",
+    "words": [],
+    "support": {
+     "grammar": "toujours / d'habitude / souvent / parfois / jamais",
+     "words": [
+      "toujours",
+      "d'habitude",
+      "souvent",
+      "parfois",
+      "jamais",
+      "une fois"
+     ]
+    }
+   },
+   "code": "H"
+  },
+  {
+   "type": "picture_mc",
+   "title": "Écoute et coche la bonne case.",
+   "instructions": "Écoute chaque question et clique sur l'image qui répond.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 2,
+     "nombre": "La vie de tous les jours"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et cocher la bonne image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u29-i.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "À quelle fréquence Ingrid va-t-elle au jardin du pique-nique ?",
+      "answer": "tous les jours",
+      "options": [
+       {
+        "k": "freq",
+        "dias": 1,
+        "v": "once a week",
+        "pie": "once a week"
+       },
+       {
+        "k": "freq",
+        "dias": 2,
+        "v": "twice a week",
+        "pie": "twice a week"
+       },
+       {
+        "k": "freq",
+        "dias": 7,
+        "v": "every day",
+        "pie": "every day"
+       }
+      ],
+      "script": "À quelle fréquence Ingrid va-t-elle au jardin du pique-nique ? … Ingrid : Je vais au jardin du pique-nique tous les jours."
+     },
+     {
+      "q": "À quelle fréquence Lia va-t-elle dans le bâtiment principal ?",
+      "answer": "une fois par semaine",
+      "options": [
+       {
+        "k": "freq",
+        "dias": 2,
+        "v": "twice a week",
+        "pie": "twice a week"
+       },
+       {
+        "k": "freq",
+        "dias": 1,
+        "v": "once a week",
+        "pie": "once a week"
+       },
+       {
+        "k": "freq",
+        "dias": 0,
+        "v": "never",
+        "pie": "never"
+       }
+      ],
+      "script": "À quelle fréquence Lia va-t-elle dans le bâtiment principal ? … Lia : Je vais dans le bâtiment principal une fois par semaine."
+     },
+     {
+      "q": "À quelle fréquence Bruno va-t-il à la place des échecs ?",
+      "answer": "une fois par semaine",
+      "options": [
+       {
+        "k": "freq",
+        "dias": 5,
+        "v": "usually",
+        "pie": "usually"
+       },
+       {
+        "k": "freq",
+        "dias": 0,
+        "v": "never",
+        "pie": "never"
+       },
+       {
+        "k": "freq",
+        "dias": 1,
+        "v": "once a week",
+        "pie": "once a week"
+       }
+      ],
+      "script": "À quelle fréquence Bruno va-t-il à la place des échecs ? … Bruno : Je vais à la place des échecs une fois par semaine."
+     },
+     {
+      "q": "À quelle fréquence Samu va-t-il dans la classe ?",
+      "answer": "d'habitude",
+      "options": [
+       {
+        "k": "freq",
+        "dias": 2,
+        "v": "twice a week",
+        "pie": "twice a week"
+       },
+       {
+        "k": "freq",
+        "dias": 7,
+        "v": "every day",
+        "pie": "every day"
+       },
+       {
+        "k": "freq",
+        "dias": 5,
+        "v": "usually",
+        "pie": "usually"
+       }
+      ],
+      "script": "À quelle fréquence Samu va-t-il dans la classe ? … Samu : Je vais dans la classe d'habitude."
+     },
+     {
+      "q": "À quelle fréquence Tino va-t-il au jardin du pique-nique ?",
+      "answer": "d'habitude",
+      "options": [
+       {
+        "k": "freq",
+        "dias": 5,
+        "v": "usually",
+        "pie": "usually"
+       },
+       {
+        "k": "freq",
+        "dias": 0,
+        "v": "never",
+        "pie": "never"
+       },
+       {
+        "k": "freq",
+        "dias": 1,
+        "v": "once a week",
+        "pie": "once a week"
+       }
+      ],
+      "script": "À quelle fréquence Tino va-t-il au jardin du pique-nique ? … Tino : Je vais au jardin du pique-nique d'habitude."
+     }
+    ],
+    "modo": "freq",
+    "script": "Écoute et coche la bonne case. Il y a un exemple. … À quelle fréquence Ingrid va-t-elle au jardin du pique-nique ? … Ingrid : Je vais au jardin du pique-nique tous les jours. … À quelle fréquence Lia va-t-elle dans le bâtiment principal ? … Lia : Je vais dans le bâtiment principal une fois par semaine. … À quelle fréquence Bruno va-t-il à la place des échecs ? … Bruno : Je vais à la place des échecs une fois par semaine. … À quelle fréquence Samu va-t-il dans la classe ? … Samu : Je vais dans la classe d'habitude. … À quelle fréquence Tino va-t-il au jardin du pique-nique ? … Tino : Je vais au jardin du pique-nique d'habitude.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "I"
+  },
+  {
+   "type": "label_people",
+   "title": "Écoute et écris les prénoms.",
+   "instructions": "Regarde l'image. Écoute et écris le prénom sous chaque personne. Attention : il y a trois prénoms en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 2,
+     "nombre": "La vie de tous les jours"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et écrire le prénom de chaque personne de l'image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u29-g.mp3",
+   "data": {
+    "scene": "picnic-garden",
+    "place": "le jardin du pique-nique",
+    "people": [
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "clue": "la fille aux cheveux blonds et à la veste bleu foncé",
+      "action": "lit le programme de la journée",
+      "pose": 7
+     },
+     {
+      "slug": "kili",
+      "name": "Kili",
+      "clue": "le grand oiseau noir avec un collier blanc",
+      "action": "porte une lettre",
+      "pose": 3
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "clue": "la fille aux nattes noires et au t-shirt violet",
+      "action": "saute à la corde",
+      "pose": 7
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "clue": "le garçon aux cheveux bruns bouclés et au t-shirt vert",
+      "action": "court après le ballon",
+      "pose": 7
+     },
+     {
+      "slug": "samu",
+      "name": "Samu",
+      "clue": "le garçon aux cheveux blonds courts avec un sac à dos",
+      "action": "fait signe",
+      "pose": 7
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Bruno",
+     "Ingrid",
+     "Iris",
+     "Kili",
+     "Lia",
+     "Oliver",
+     "Samu"
+    ],
+    "script": "Regarde l'image. Écoute et écris les prénoms. Il y a un exemple. … Diego : Qui est-ce dans le jardin du pique-nique ? La fille aux cheveux blonds et à la veste bleu foncé. … Maya : C'est Ingrid. Ingrid lit le programme de la journée. … Diego : Et qui est le grand oiseau noir avec un collier blanc ? … Maya : C'est Kili. Regarde, Kili porte une lettre. … Diego : Et qui est la fille aux nattes noires et au t-shirt violet ? … Maya : C'est Lia. Regarde, Lia saute à la corde. … Diego : Et qui est le garçon aux cheveux bruns bouclés et au t-shirt vert ? … Maya : C'est Bruno. Regarde, Bruno court après le ballon. … Diego : Et qui est le garçon aux cheveux blonds courts avec un sac à dos ? … Maya : C'est Samu. Regarde, Samu fait signe.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris ta journée avec 5 mots de fréquence : Je me réveille toujours à… Je … parfois."
+  }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 2,
+  "tema": "La vie de tous les jours",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Raconter des histoires au passé, au présent et au futur ; exprimer ses préférences avec des raisons."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et comprendre des histoires courtes (80 à 250 mots) ; trouver l'idée principale et les détails."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~2500 mots ; passé composé, questions négatives, si + présent, futur proche."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

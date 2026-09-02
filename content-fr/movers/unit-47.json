@@ -1,0 +1,298 @@
+{
+ "id": "movers-fr-47",
+ "level": "movers",
+ "number": 47,
+ "title": "L'album photo",
+ "topic": "le passé + la famille",
+ "grammar": "le passé : quand j'étais petit",
+ "wordlist": [
+  "photo",
+  "album",
+  "bébé",
+  "petit",
+  "se souvenir",
+  "sourire",
+  "appareil photo",
+  "vieux",
+  "mémoire",
+  "famille"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 2,
+  "skill": "prise de notes"
+ },
+ "characters": [
+  "valentina",
+  "erik"
+ ],
+ "scene": {
+  "speaker": "valentina",
+  "pose": {
+   "valentina": 6,
+   "erik": 1
+  },
+  "bubble": "L'album photo de mamie ! Regarde — ma mère quand elle était petite… avec LE MÊME sourire que moi !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe la photo et le moment.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Photo",
+    "right_label": "Moment",
+    "pairs": [
+     {
+      "left": "un bébé avec un tout petit bonnet",
+      "right": "Valentina, six mois"
+     },
+     {
+      "left": "un garçon avec un robot en jouet",
+      "right": "Erik, quatre ans"
+     },
+     {
+      "left": "deux filles sur un seul vélo",
+      "right": "Sofia et sa sœur"
+     },
+     {
+      "left": "un chiot dans une boîte à chaussures",
+      "right": "Luna le premier jour"
+     },
+     {
+      "left": "un mariage sous les arbres",
+      "right": "Mamie et Papi"
+     },
+     {
+      "left": "tout le club avec des médailles",
+      "right": "la journée du sport de l'an dernier"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis était ou étaient.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "Quand j'___ petite, j'avais les cheveux bouclés.",
+      "options": [
+       "était",
+       "étaient",
+       "suis"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Mes grands-parents ___ très jeunes sur cette photo.",
+      "options": [
+       "était",
+       "étaient",
+       "sont étant"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Luna ___ plus petite qu'une chaussure !",
+      "options": [
+       "était",
+       "étaient",
+       "est étant"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___-tu un bébé calme ? — Non ! Je pleurais beaucoup.",
+      "options": [
+       "Était",
+       "Étaient",
+       "Est-ce que"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Les photos ___ en noir et blanc du temps de papi.",
+      "options": [
+       "était",
+       "étaient",
+       "être"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute l'après-midi album. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u47-c.mp3",
+   "data": {
+    "voice_note": "Voces: Valentina (con el álbum) y Erik (invitado curioso).",
+    "script": "Valentina : Cet album a quarante ans. Mamie le garde dans une boîte en bois. … Erik : Regarde ! C'est ta mère à cheval ? … Valentina : Oui ! Elle avait sept ans. C'était la ferme de son oncle. … Erik : Et ce bébé avec l'énorme gâteau ? … Valentina : Moi ! Mon premier anniversaire. J'ai mis toute la main dans le gâteau. … Erik : Un classique ! Qui a pris toutes ces photos ? … Valentina : Papi, avec son vieil appareil argenté. Il l'a toujours ! … Valentina : Mamie dit : les photos gardent les sourires pour toujours.",
+    "questions": [
+     {
+      "q": "L'album a … ans.",
+      "answer": "quarante"
+     },
+     {
+      "q": "Mamie le garde dans une boîte en …",
+      "answer": "bois"
+     },
+     {
+      "q": "La mère de Valentina était à cheval à la … de son oncle.",
+      "answer": "ferme"
+     },
+     {
+      "q": "Bébé Valentina a mis sa main dans le …",
+      "answer": "gâteau"
+     },
+     {
+      "q": "Le vieil appareil de papi est …",
+      "answer": "argent"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Tu ranges les photos dans un …",
+      "options": [
+       "album",
+       "enveloppe",
+       "four"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu prends des photos avec un …",
+      "options": [
+       "appareil photo",
+       "bougie",
+       "carotte"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Tu te ___ de ton premier jour d'école ? »",
+      "options": [
+       "se souvenir",
+       "répondre",
+       "revenir"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un tout jeune enfant est un …",
+      "options": [
+       "bébé",
+       "invité",
+       "serveur"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un moment que tu gardes dans ta tête est un …",
+      "options": [
+       "mémoire",
+       "menu",
+       "médaille"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Décris une photo de famille que tu aimes (de mémoire) : qui était là, où c'était, pourquoi tu l'aimes. Ton camarade pose 2 questions."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "A et B ne sont pas pareils. Trouve pourquoi !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Demande une vieille photo à ta famille. Écris 4 phrases : qui, où, quand, et un détail drôle. Utilise l'imparfait."
+  }
+ ],
+ "scope": {
+  "grado": "G4",
+  "temaN": 5,
+  "tema": "Vacances et voyages",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues plus longs ; repérer une information précise à l'oral."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire des lieux, des objets, des événements passés ; jouer une situation simple."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et remettre en ordre des histoires courtes ; trouver une information dans un panneau ou une affiche."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un message de 30 à 40 mots ; paragraphes de classe de 60 à 100 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~1350 mots ; passé composé, pronoms relatifs, pour + infinitif, devoir."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

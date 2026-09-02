@@ -1,0 +1,302 @@
+{
+ "id": "movers-fr-50",
+ "level": "movers",
+ "number": 50,
+ "title": "La remise des diplômes du Club du Fjord",
+ "topic": "bilan et fête",
+ "grammar": "bilan de tout le cours",
+ "wordlist": [
+  "remise des diplômes",
+  "diplôme",
+  "fier",
+  "équipe",
+  "se souvenir",
+  "aventure",
+  "merci",
+  "salut",
+  "prochain",
+  "faire la fête"
+ ],
+ "exam_focus": {
+  "paper": "Bilan",
+  "part": 0,
+  "skill": "tout le cours"
+ },
+ "characters": [
+  "erik",
+  "valentina",
+  "sofia",
+  "mateo"
+ ],
+ "scene": {
+  "speaker": "sofia",
+  "pose": {
+   "sofia": 10,
+   "erik": 10,
+   "valentina": 10,
+   "mateo": 10
+  },
+  "bubble": "Cinquante unités ! Le Club du Fjord l'a fait — et Luna a son diplôme aussi. Prochaine étape : LES NAVIGATEURS !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe chaque membre et son meilleur moment.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Membre",
+    "right_label": "Meilleur moment",
+    "pairs": [
+     {
+      "left": "Erik",
+      "right": "la machine à confettis et le réveil qui aboie"
+     },
+     {
+      "left": "Valentina",
+      "right": "vingt affiches en dix minutes"
+     },
+     {
+      "left": "Sofia",
+      "right": "le record de la course en huit secondes"
+     },
+     {
+      "left": "Mateo",
+      "right": "le plus grand sourire sur chaque photo"
+     },
+     {
+      "left": "Luna",
+      "right": "a trouvé la clé ET la boulangerie"
+     },
+     {
+      "left": "Tu",
+      "right": "a fini les cinquante unités !"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Le bilan final · Choisis la bonne réponse.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Une question de chaque unité — tu sais encore le faire ?",
+    "items": [
+     {
+      "sentence": "Un panda mange du …",
+      "options": [
+       "bambou",
+       "pizza",
+       "fromage"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Hier nous ___ à la fête foraine.",
+      "options": [
+       "est allé",
+       "aller",
+       "j'ai allé"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un éléphant est ___ qu'un cheval.",
+      "options": [
+       "plus grand",
+       "grand",
+       "le plus grand"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu ___ pas courir à côté de la piscine.",
+      "options": [
+       "ne doit pas",
+       "devoir",
+       "devrais à"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "On ___ faire la fête aujourd'hui !",
+      "options": [
+       "sont",
+       "est",
+       "suis"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute la remise des diplômes. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u50-c.mp3",
+   "data": {
+    "voice_note": "Voces: todo el Club — ceremonia alegre.",
+    "script": "Sofia : Bienvenue à la remise des diplômes du Club du Fjord, ici au bord du lac ! … Erik : Cinquante unités, des centaines de mots, et une seule invention inondée. Belles statistiques ! … Valentina : Chaque explorateur reçoit un diplôme vert avec un fjord doré. … Mateo : Et une médaille en chocolat. La mienne est déjà… partie. … Sofia : Luna reçoit le diplôme de Meilleure Assistante. Elle porte son écharpe rouge ! … Erik : L'année prochaine : Les Navigateurs, avec l'équipe de l'Aurore ! … Valentina : Trois hourras pour le Club du Fjord ! … Tout le monde : Hip hip… HOURRA !",
+    "questions": [
+     {
+      "q": "La remise des diplômes est au bord du …",
+      "answer": "lac"
+     },
+     {
+      "q": "Le diplôme est vert avec un … doré.",
+      "answer": "fjord"
+     },
+     {
+      "q": "La médaille est en …",
+      "answer": "chocolat"
+     },
+     {
+      "q": "Luna porte son … rouge.",
+      "answer": "écharpe"
+     },
+     {
+      "q": "L'année prochaine ils passent chez …",
+      "answer": "Les Navigateurs"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Le papier qui dit que tu as fini est un …",
+      "options": [
+       "diplôme",
+       "billet",
+       "menu"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Ta famille est ___ de toi aujourd'hui.",
+      "options": [
+       "fier",
+       "inquiet",
+       "ennuyé"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un groupe qui travaille ensemble est une …",
+      "options": [
+       "équipe",
+       "file d'attente",
+       "liste"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« ___ pour tout, les maîtres ! »",
+      "options": [
+       "Remercie",
+       "S'il te plaît",
+       "Désolé"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Garder quelque chose dans sa tête pour toujours, c'est s'en ___.",
+      "options": [
+       "se souvenir",
+       "oublier",
+       "vendre"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · le discours de fin d'année",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Fais un discours de 20 secondes : ton unité préférée, le moment le plus drôle et un merci. La classe applaudit tout le monde !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Regarde A et B. Qu'est-ce qui change ?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris une lettre à la classe des Aventuriers de l'an prochain : 4 conseils et un secret sur le cours. Signe-la !"
+  }
+ ],
+ "scope": {
+  "grado": "G3",
+  "temaN": 2,
+  "tema": "Ma journée",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues courts avec plus de vocabulaire ; repérer l'information principale dans des annonces simples."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire ses habitudes, ses préférés, les métiers du quartier ; donner une opinion courte."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire de courts paragraphes ; répondre à des questions simples ; trouver une information précise."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un court paragraphe sur soi, sa famille ou sa journée (40 à 70 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~800 mots ; les temps de base ; devoir, pouvoir ; l'accord du verbe ; le superlatif."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

@@ -1,0 +1,311 @@
+{
+ "id": "movers-fr-43",
+ "level": "movers",
+ "number": 43,
+ "title": "Le jeu du trésor",
+ "topic": "indications",
+ "grammar": "les indications : tourner et compter les pas",
+ "wordlist": [
+  "gauche",
+  "droite",
+  "tout droit",
+  "tourner",
+  "marches",
+  "carte",
+  "traverser",
+  "trésor",
+  "commencer",
+  "finir"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 2,
+  "skill": "suivre les consignes"
+ },
+ "characters": [
+  "erik",
+  "mateo"
+ ],
+ "scene": {
+  "speaker": "erik",
+  "pose": {
+   "erik": 2,
+   "mateo": 7
+  },
+  "bubble": "J'ai inventé un jeu du trésor dans le jardin du club ! Suis la carte : dix pas, deux virages… et ne marche pas sur les tomates !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe la consigne et ce que tu fais.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Consigne",
+    "right_label": "Tu…",
+    "pairs": [
+     {
+      "left": "Tourne à gauche.",
+      "right": "va de ce côté ←"
+     },
+     {
+      "left": "Tourne à droite.",
+      "right": "va de ce côté →"
+     },
+     {
+      "left": "Va tout droit.",
+      "right": "marche devant toi, sans tourner"
+     },
+     {
+      "left": "Fais cinq pas.",
+      "right": "marche 1-2-3-4-5 et arrête-toi"
+     },
+     {
+      "left": "Traverse le pont.",
+      "right": "passe de l'autre côté"
+     },
+     {
+      "left": "La croix marque l'endroit.",
+      "right": "le trésor est ici !"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Suis la carte du jeu. Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque consigne.",
+    "items": [
+     {
+      "sentence": "___ à la porte du jardin.",
+      "options": [
+       "Commence",
+       "Arrête",
+       "Dors"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Fais dix ___ vers le grand arbre.",
+      "options": [
+       "marches",
+       "arrêts",
+       "étoiles"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___ à droite aux pots de fleurs.",
+      "options": [
+       "Tourne",
+       "Prends",
+       "Parle"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Va ___ jusqu'au petit pont.",
+      "options": [
+       "tout droit",
+       "fort",
+       "étrange"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le ___ est sous le seau jaune !",
+      "options": [
+       "trésor",
+       "maître",
+       "tomate"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute le jeu du trésor. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u43-c.mp3",
+   "data": {
+    "voice_note": "Voces: Erik (leyendo el mapa) y Mateo (buscador oficial).",
+    "script": "Erik : Jeu du trésor, joueur un : Mateo ! Pars de la porte du jardin. … Erik : Fais douze pas vers le pommier. … Mateo : Un, deux, trois… douze ! Et maintenant ? … Erik : Tourne à gauche au tonneau d'eau. … Erik : Traverse le petit pont en bois — ne tombe pas dans la mare ! … Mateo : Traversé ! Je vois le potager. … Erik : Attention aux tomates ! Maintenant trois pas à droite… et creuse à côté du tournesol. … Mateo : Une boîte ! Dedans… des pièces en chocolat ! Le meilleur trésor ! … Erik : Et une nouvelle carte pour le joueur deux !",
+    "questions": [
+     {
+      "q": "Fais douze pas vers le …",
+      "answer": "pomme"
+     },
+     {
+      "q": "Tourne à gauche au … d'eau.",
+      "answer": "tonneau"
+     },
+     {
+      "q": "Traverse le petit … en bois.",
+      "answer": "pont"
+     },
+     {
+      "q": "Creuse à côté du …",
+      "answer": "tournesol"
+     },
+     {
+      "q": "Dans la boîte : des … en chocolat.",
+      "answer": "pièces"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Le contraire de gauche est …",
+      "options": [
+       "droite",
+       "tout droit",
+       "en haut"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le dessin qui montre le chemin est une …",
+      "options": [
+       "carte",
+       "serpillière",
+       "casquette"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le jeu commence au point de ___.",
+      "options": [
+       "commencer",
+       "finir",
+       "milieu"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Marcher sans tourner = aller …",
+      "options": [
+       "tout droit",
+       "de côté",
+       "dos"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le dernier point d'une course est l'…",
+      "options": [
+       "finir",
+       "commencer",
+       "coin"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Fais une mini carte au trésor de la classe (5 consignes). Guide ton camarade avec la voix seulement. Trésor trouvé = tape m'en cinq !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Regarde A et B. Qu'est-ce qui change ?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Dessine une carte au trésor de chez toi avec 5 consignes écrites en français."
+  }
+ ],
+ "scope": {
+  "grado": "G4",
+  "temaN": 1,
+  "tema": "En ville",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues plus longs ; repérer une information précise à l'oral."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire des lieux, des objets, des événements passés ; jouer une situation simple."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et remettre en ordre des histoires courtes ; trouver une information dans un panneau ou une affiche."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un message de 30 à 40 mots ; paragraphes de classe de 60 à 100 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~1350 mots ; passé composé, pronoms relatifs, pour + infinitif, devoir."
+   }
+  ],
+  "vocabulario": [
+   "tourne à gauche",
+   "droite",
+   "tout droit"
+  ],
+  "gramatica": [
+   "Les questions : Comment on va à… ? C'est loin ?"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "turn left",
+    "straight ahead"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "tourne à gauche",
+  "tout droit"
+ ],
+ "lang": "fr"
+}

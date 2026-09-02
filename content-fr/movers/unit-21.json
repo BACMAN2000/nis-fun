@@ -1,0 +1,319 @@
+{
+ "id": "movers-fr-21",
+ "level": "movers",
+ "number": 21,
+ "title": "Où est le chat ?",
+ "topic": "les prépositions",
+ "grammar": "dans, sur, sous, derrière, à côté de, entre",
+ "wordlist": [
+  "dans",
+  "sur",
+  "sous",
+  "derrière",
+  "devant",
+  "à côté de",
+  "entre",
+  "au-dessus",
+  "ici",
+  "là"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 5,
+  "skill": "couleur et place"
+ },
+ "characters": [
+  "valentina",
+  "mateo"
+ ],
+ "scene": {
+  "speaker": "valentina",
+  "pose": {
+   "valentina": 4,
+   "mateo": 5
+  },
+  "bubble": "Le chat du voisin est quelque part dans le club — et Luna n'est PAS contente !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe la préposition et l'idée de l'image.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Préposition",
+    "right_label": "Idée",
+    "pairs": [
+     {
+      "left": "dans",
+      "right": "à l'intérieur de la boîte"
+     },
+     {
+      "left": "sur",
+      "right": "dessus, en le touchant"
+     },
+     {
+      "left": "sous",
+      "right": "en dessous"
+     },
+     {
+      "left": "derrière",
+      "right": "tu ne le vois pas de devant"
+     },
+     {
+      "left": "à côté de",
+      "right": "à son côté"
+     },
+     {
+      "left": "entre",
+      "right": "au milieu de deux choses"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Où est-il ? Choisis la bonne préposition.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "Le chat est ___ le canapé — je vois sa queue !",
+      "options": [
+       "sous",
+       "sur",
+       "dans"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "L'horloge est ___ la porte, en haut du mur.",
+      "options": [
+       "au-dessus",
+       "sous",
+       "entre"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "La poubelle est ___ le bureau et le mur.",
+      "options": [
+       "entre",
+       "sur",
+       "dans"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Mon sac est ___ la chaise. Regarde derrière !",
+      "options": [
+       "derrière",
+       "au-dessus",
+       "sur"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les clés sont ___ le tiroir, dedans.",
+      "options": [
+       "dans",
+       "sur",
+       "à côté de"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute la chasse au chat. Écris un mot dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u21-c.mp3",
+   "data": {
+    "voice_note": "Voces: Valentina (buscando) y Mateo (reportando posiciones).",
+    "script": "Valentina : Opération Trouve Le Chat ! Mateo, regarde sous le canapé. … Mateo : Pas sous le canapé. Seulement trois biscuits. Des vieux. … Valentina : Derrière les rideaux ? … Mateo : Non… attends ! Des poils blancs SUR le fauteuil. Elle est passée par là ! … Valentina : Regarde entre la bibliothèque et la fenêtre. … Mateo : La voilà ! Elle dort dans la boîte à outils d'Erik ! … Valentina : Dans la boîte à outils ! Et où est Luna ? … Mateo : Cachée derrière la porte. Je crois que le chat a gagné.",
+    "questions": [
+     {
+      "q": "Sous le canapé il n'y a que trois vieux …",
+      "answer": "biscuits"
+     },
+     {
+      "q": "Il y a des poils blancs sur le …",
+      "answer": "fauteuil"
+     },
+     {
+      "q": "Le chat est entre la bibliothèque et la …",
+      "answer": "fenêtre"
+     },
+     {
+      "q": "Elle dort dans la … à outils d'Erik.",
+      "answer": "boîte"
+     },
+     {
+      "q": "Luna est cachée derrière la …",
+      "answer": "porte"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "La lampe est ___ la table. Elle la touche.",
+      "options": [
+       "sur",
+       "sous",
+       "derrière"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le poisson est ___ l'eau.",
+      "options": [
+       "dans",
+       "sur",
+       "au-dessus"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le contraire d'ici est …",
+      "options": [
+       "là",
+       "ensuite",
+       "ce"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "B est ___ A et C dans l'alphabet.",
+      "options": [
+       "entre",
+       "derrière",
+       "sous"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le soleil est ___ les nuages aujourd'hui.",
+      "options": [
+       "derrière",
+       "devant",
+       "à côté de"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Cache et raconte : pose ta gomme quelque part (sous le livre, derrière la trousse…). Ton camarade demande : « C'est sous… ? C'est derrière… ? » Six questions maximum. Puis on échange."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "A et B ne sont pas pareils. Trouve pourquoi !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris 6 phrases sur l'endroit où sont les choses de ta chambre, une par préposition de l'activité A."
+  }
+ ],
+ "scope": {
+  "grado": "G3",
+  "temaN": 4,
+  "tema": "La nature et les animaux",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues courts avec plus de vocabulaire ; repérer l'information principale dans des annonces simples."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire ses habitudes, ses préférés, les métiers du quartier ; donner une opinion courte."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire de courts paragraphes ; répondre à des questions simples ; trouver une information précise."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un court paragraphe sur soi, sa famille ou sa journée (40 à 70 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~800 mots ; les temps de base ; devoir, pouvoir ; l'accord du verbe ; le superlatif."
+   }
+  ],
+  "vocabulario": [
+   "chasser",
+   "nager",
+   "voler",
+   "grrr",
+   "hiberner"
+  ],
+  "gramatica": [
+   "Le comparatif : plus grand que, plus rapide que"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "hunt",
+    "swim",
+    "fly",
+    "roar",
+    "hibernate"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "chasser",
+  "nager",
+  "voler",
+  "grrr",
+  "hiberner"
+ ],
+ "lang": "fr"
+}

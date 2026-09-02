@@ -1,0 +1,296 @@
+{
+ "id": "movers-fr-19",
+ "level": "movers",
+ "number": 19,
+ "title": "Le bus pour l'école",
+ "topic": "transport",
+ "grammar": "Comment tu vas… ? + en",
+ "wordlist": [
+  "bus",
+  "train",
+  "voiture",
+  "vélo",
+  "marcher",
+  "conducteur",
+  "arrêter",
+  "siège",
+  "fenêtre",
+  "billet"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 1,
+  "skill": "identifier les véhicules"
+ },
+ "characters": [
+  "sofia",
+  "erik"
+ ],
+ "scene": {
+  "speaker": "sofia",
+  "pose": {
+   "sofia": 2,
+   "erik": 1
+  },
+  "bubble": "La question du jour : comment tout le monde vient à l'école ? En bus, à vélo, en bottes… ou en robot ?"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Lis les phrases et écris les moyens de transport.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "TRAIN",
+      "clue": "Long, rapide, et il roule sur des rails."
+     },
+     {
+      "word": "CHAUFFEUR",
+      "clue": "La personne à l'avant du bus."
+     },
+     {
+      "word": "TICKET",
+      "clue": "Tu le montres en montant."
+     },
+     {
+      "word": "SIEGE",
+      "clue": "Tu t'assois dessus pendant le trajet."
+     },
+     {
+      "word": "FENETRE",
+      "clue": "Tu regardes à travers et tu vois la ville."
+     },
+     {
+      "word": "ARRET",
+      "clue": "L'endroit où le bus attend les gens."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Associe la personne et son moyen de transport.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Personne",
+    "right_label": "Comment",
+    "pairs": [
+     {
+      "left": "Sofia",
+      "right": "à vélo, dix minutes"
+     },
+     {
+      "left": "Erik",
+      "right": "à pied, avec son sac à dos robot"
+     },
+     {
+      "left": "Valentina",
+      "right": "en bus, trois arrêts"
+     },
+     {
+      "left": "Mateo",
+      "right": "en voiture avec son papa"
+     },
+     {
+      "left": "la maîtresse",
+      "right": "en train depuis la ville d'à côté"
+     },
+     {
+      "left": "Luna",
+      "right": "en courant à côté du vélo de Sofia"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute le trajet en bus. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u19-c.mp3",
+   "data": {
+    "voice_note": "Voces: Valentina (en el bus) y el conductor (voz amable).",
+    "script": "Valentina : Bonjour ! Un ticket étudiant, s'il vous plaît. … Valentina : Le bus est plein aujourd'hui. Mais il y a une place à côté de la fenêtre. … Valentina : On passe devant le marché, le parc et le vieux pont. … Valentina : Une dame monte avec une grande caisse d'oranges. Ça sent très bon ! … Valentina : Mon arrêt est le numéro sept, devant le portail de l'école. … Valentina : Merci, monsieur le chauffeur ! À demain ! … Valentina : Trajet total : douze minutes. Les douze meilleures minutes pour lire !",
+    "questions": [
+     {
+      "q": "Valentina demande un … étudiant.",
+      "answer": "billet"
+     },
+     {
+      "q": "Il y a une place à côté de la …",
+      "answer": "fenêtre"
+     },
+     {
+      "q": "Une dame monte avec une caisse d'…",
+      "answer": "oranges"
+     },
+     {
+      "q": "L'arrêt de Valentina est le numéro …",
+      "answer": "sept"
+     },
+     {
+      "q": "Le trajet dure douze …",
+      "answer": "minutes"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "« Comment tu vas à l'école ? » — « ___ bus. »",
+      "options": [
+       "En",
+       "Sur",
+       "Dans"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Si tu y vas en marchant, tu y vas à ___.",
+      "options": [
+       "sur",
+       "par",
+       "à"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le ___ du bus conduit prudemment.",
+      "options": [
+       "conducteur",
+       "billet",
+       "siège"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Attends le bus à l'… de bus.",
+      "options": [
+       "arrêter",
+       "magasin",
+       "pas"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le train roule sur des …",
+      "options": [
+       "rails",
+       "herbe",
+       "eau"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Sondage auprès de 4 camarades : « Comment tu viens à l'école ? Ça prend combien de temps ? » Fais un petit tableau et dis quel transport gagne."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Regarde A et B. Qu'est-ce qui change ?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris comment voyagent 4 personnes que tu connais : Mon cousin va au travail en… Ça prend…"
+  }
+ ],
+ "scope": {
+  "grado": "G3",
+  "temaN": 1,
+  "tema": "La vie à l'école",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues courts avec plus de vocabulaire ; repérer l'information principale dans des annonces simples."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire ses habitudes, ses préférés, les métiers du quartier ; donner une opinion courte."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire de courts paragraphes ; répondre à des questions simples ; trouver une information précise."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un court paragraphe sur soi, sa famille ou sa journée (40 à 70 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~800 mots ; les temps de base ; devoir, pouvoir ; l'accord du verbe ; le superlatif."
+   }
+  ],
+  "vocabulario": [
+   "préféré",
+   "difficile",
+   "facile",
+   "ennuyeux",
+   "intéressant"
+  ],
+  "gramatica": [
+   "Les questions : À quelle heure tu… ? Quel est ton… préféré ?"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "favourite",
+    "difficult",
+    "easy",
+    "boring",
+    "interesting"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "préféré",
+  "difficile",
+  "facile",
+  "ennuyeux",
+  "intéressant"
+ ],
+ "lang": "fr"
+}

@@ -1,0 +1,319 @@
+{
+ "id": "movers-fr-18",
+ "level": "movers",
+ "number": 18,
+ "title": "Habillé pour l'hiver",
+ "topic": "les vêtements et le temps",
+ "grammar": "Il fait + adjectif, mettre / enlever",
+ "wordlist": [
+  "manteau",
+  "chapeau",
+  "pull",
+  "neige",
+  "vent",
+  "chaud",
+  "frais",
+  "mettre",
+  "décoller",
+  "dehors"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 5,
+  "skill": "colorier et écrire"
+ },
+ "characters": [
+  "erik",
+  "valentina"
+ ],
+ "scene": {
+  "speaker": "erik",
+  "pose": {
+   "erik": 5,
+   "valentina": 1
+  },
+  "bubble": "Jour de neige ! Mets ton manteau, ton bonnet, tes gants… et maintenant personne ne peut bouger. Parfait."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe le temps qu'il fait et les vêtements.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Météo",
+    "right_label": "Vêtements",
+    "pairs": [
+     {
+      "left": "Il neige.",
+      "right": "mets ton gros manteau"
+     },
+     {
+      "left": "Il y a du vent.",
+      "right": "tiens ton bonnet !"
+     },
+     {
+      "left": "Il fait frais.",
+      "right": "un pull léger suffit"
+     },
+     {
+      "left": "Il fait chaud dedans.",
+      "right": "enlève ta veste"
+     },
+     {
+      "left": "Il pleut.",
+      "right": "des bottes et un parapluie"
+     },
+     {
+      "left": "Il fait beau et chaud.",
+      "right": "un t-shirt et une casquette"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis mets ou enlève.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "Il fait froid dehors — ___ ton manteau.",
+      "options": [
+       "mettre",
+       "décoller",
+       "laver"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "On est à l'intérieur maintenant. Tu peux ___ tes gants.",
+      "options": [
+       "mettre",
+       "décoller",
+       "lancer"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "___ tes bottes avant la neige !",
+      "options": [
+       "Mets",
+       "Enlève",
+       "Tape"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Il fait chaud ici. ___ ton écharpe.",
+      "options": [
+       "Enlève",
+       "Mets",
+       "Attrape"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Il neige ! Dehors tout est …",
+      "options": [
+       "blanc",
+       "vert",
+       "sec"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute le matin de neige. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u18-c.mp3",
+   "data": {
+    "voice_note": "Voces: Valentina (organizada) y Erik (como cebolla, con capas).",
+    "script": "Valentina : Jour de neige ! Tout le monde s'habille pour la montagne. … Erik : Je mets deux pulls, un manteau, un bonnet et deux écharpes. … Valentina : Deux écharpes ? On dirait une armoire qui marche ! … Erik : Chaud c'est chaud ! Où sont mes gants ? … Valentina : Sur l'étagère, à côté de ton bonnet jaune. … Erik : Prêt ! Attends… je n'arrive plus à baisser les bras. … Valentina : Ha ! Enlève un pull, l'ingénieur. … Erik : Mieux. Maintenant : bonhomme de neige ! Le nôtre fera trois mètres de haut !",
+    "questions": [
+     {
+      "q": "Erik met deux pulls et deux …",
+      "answer": "écharpes"
+     },
+     {
+      "q": "Valentina dit qu'il ressemble à une … qui marche.",
+      "answer": "armoire"
+     },
+     {
+      "q": "Les gants sont sur l'étagère à côté du bonnet …",
+      "answer": "jaune"
+     },
+     {
+      "q": "Erik n'arrive plus à baisser les …",
+      "answer": "bras"
+     },
+     {
+      "q": "Leur bonhomme de neige fera trois mètres de …",
+      "answer": "grand"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "En hiver, l'eau devient de la …",
+      "options": [
+       "glace",
+       "jus",
+       "thé"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le contraire de mettre est …",
+      "options": [
+       "décoller",
+       "allumer",
+       "se lever"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Entre chaud et froid il y a …",
+      "options": [
+       "frais",
+       "fort",
+       "rangé"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Une grosse veste chaude pour l'hiver est un …",
+      "options": [
+       "manteau",
+       "casquette",
+       "jupe"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "La neige tombe — faisons un …",
+      "options": [
+       "bonhomme de neige",
+       "château de sable",
+       "salade"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Habille l'explorateur : dis à ton camarade quoi mettre pour (a) la plage, (b) la neige, (c) la pluie. Il mime chaque vêtement. Puis on échange !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Regarde A et B. Qu'est-ce qui change ?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris ce que tu mets pour 3 temps différents : Quand il pleut, je mets…"
+  }
+ ],
+ "scope": {
+  "grado": "G3",
+  "temaN": 3,
+  "tema": "Le temps et les saisons",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues courts avec plus de vocabulaire ; repérer l'information principale dans des annonces simples."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire ses habitudes, ses préférés, les métiers du quartier ; donner une opinion courte."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire de courts paragraphes ; répondre à des questions simples ; trouver une information précise."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un court paragraphe sur soi, sa famille ou sa journée (40 à 70 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~800 mots ; les temps de base ; devoir, pouvoir ; l'accord du verbe ; le superlatif."
+   }
+  ],
+  "vocabulario": [
+   "parapluie",
+   "imperméable",
+   "bottes",
+   "écharpe",
+   "lunettes de soleil"
+  ],
+  "gramatica": [
+   "Devrait / ne devrait pas (le conseil)"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "umbrella",
+    "raincoat",
+    "boots",
+    "scarf",
+    "sunglasses"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "parapluie",
+  "imperméable",
+  "bottes",
+  "écharpe",
+  "lunettes de soleil"
+ ],
+ "lang": "fr"
+}

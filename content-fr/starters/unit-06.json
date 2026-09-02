@@ -1,0 +1,279 @@
+{
+ "id": "starters-fr-06",
+ "level": "starters",
+ "number": 6,
+ "title": "Des couleurs partout",
+ "topic": "couleurs",
+ "grammar": "De quelle couleur est… ?",
+ "wordlist": [
+  "rouge",
+  "bleu",
+  "vert",
+  "jaune",
+  "orange",
+  "violet",
+  "rose",
+  "noire",
+  "blanc",
+  "marron"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 4,
+  "skill": "couleurs"
+ },
+ "characters": [
+  "nico",
+  "pip"
+ ],
+ "scene": {
+  "speaker": "nico",
+  "pose": {
+   "nico": 1,
+   "pip": 1
+  },
+  "bubble": "Chasse aux couleurs ! Trouve quelque chose de rouge, quelque chose de bleu… Pip a trouvé quelque chose de noir et blanc : lui-même !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe la chose et sa couleur.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "La chose",
+    "right_label": "La couleur",
+    "pairs": [
+     {
+      "left": "le soleil",
+      "right": "jaune"
+     },
+     {
+      "left": "le ciel",
+      "right": "bleu"
+     },
+     {
+      "left": "l'herbe",
+      "right": "vert"
+     },
+     {
+      "left": "une fraise",
+      "right": "rouge"
+     },
+     {
+      "left": "un cochon",
+      "right": "rose"
+     },
+     {
+      "left": "chocolat",
+      "right": "marron"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "crossword",
+   "title": "Écris les couleurs.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "ROUGE",
+      "clue": "La couleur d'une pomme et d'un camion de pompiers."
+     },
+     {
+      "word": "BLEU",
+      "clue": "La couleur de la mer et du ciel."
+     },
+     {
+      "word": "VERT",
+      "clue": "La couleur de l'herbe et des grenouilles."
+     },
+     {
+      "word": "NOIR",
+      "clue": "La couleur de la nuit."
+     },
+     {
+      "word": "BLANC",
+      "clue": "La couleur de la neige et du lait."
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute la chasse aux couleurs. Écris une couleur dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u06-c.mp3",
+   "data": {
+    "voice_note": "Voces: Nico (buscando) y Freya (encontrando).",
+    "script": "Nico : Chasse aux couleurs ! Trouve quelque chose de rouge. … Freya : Facile ! Le stylo d'Astrid est rouge. … Nico : Quelque chose de jaune ? … Freya : Le petit canard sur l'image. Il est jaune ! … Nico : Maintenant quelque chose de violet. Le violet, c'est difficile… … Freya : Mon crayon ! Mon crayon est violet. … Nico : Le dernier : noir et blanc ensemble. … Freya : PIP ! Pip est noir et blanc ! … Nico : Gagnante : Freya ! Prix : un bonbon orange.",
+    "questions": [
+     {
+      "q": "Le stylo d'Astrid est …",
+      "answer": "rouge"
+     },
+     {
+      "q": "Le petit canard est …",
+      "answer": "jaune"
+     },
+     {
+      "q": "Le crayon de Freya est …",
+      "answer": "violet"
+     },
+     {
+      "q": "Pip est noir et …",
+      "answer": "blanc"
+     },
+     {
+      "q": "Le prix est un bonbon …",
+      "answer": "orange"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choisis la bonne couleur.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Le lait est …",
+      "options": [
+       "blanc",
+       "noire",
+       "vert"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Une banane est …",
+      "options": [
+       "jaune",
+       "bleu",
+       "violet"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le ciel de la nuit est …",
+      "options": [
+       "noire",
+       "rose",
+       "orange"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« De quelle ___ est la grenouille ? » — « Verte ! »",
+      "options": [
+       "couleur",
+       "nom",
+       "nombre"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le rouge et le jaune font de l'…",
+      "options": [
+       "orange",
+       "bleu",
+       "noire"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Devinette des couleurs : « Je vois quelque chose de bleu… » Ton camarade le trouve dans la classe. Trois couleurs chacun !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Deux images, plein de différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Dessine un arc-en-ciel et légende les couleurs. Écris : Ma couleur préférée est…"
+  }
+ ],
+ "scope": {
+  "grado": "G1",
+  "temaN": 1,
+  "tema": "Bonjour le monde !",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Suivre les consignes de la classe ; reconnaître des mots connus dans une chanson ou une phrase courte."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Saluer ; dire son nom, son âge, les couleurs ; nommer des objets ; répondre par oui ou non."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Reconnaître les lettres de l'alphabet ; associer un mot à une image (famille, nourriture, animaux, corps)."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire son prénom ; recopier des mots ; légender une image (3 à 5 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~150 mots actifs ; le verbe être, un/une, c'est/ce sont, l'impératif."
+   }
+  ],
+  "vocabulario": [
+   "rouge",
+   "bleu",
+   "vert",
+   "jaune",
+   "orange"
+  ],
+  "gramatica": [
+   "L'article : un / une (introduction)"
+  ],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

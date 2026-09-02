@@ -1,0 +1,298 @@
+{
+ "id": "movers-fr-37",
+ "level": "movers",
+ "number": 37,
+ "title": "Le spectacle de l'école",
+ "topic": "le présent",
+ "grammar": "le présent (ce qui se passe maintenant)",
+ "wordlist": [
+  "scène",
+  "rideau",
+  "costume",
+  "danser",
+  "chanter",
+  "jouer",
+  "public",
+  "lumières",
+  "spectacle",
+  "applaudir"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 3,
+  "skill": "associations"
+ },
+ "characters": [
+  "valentina",
+  "mateo"
+ ],
+ "scene": {
+  "speaker": "valentina",
+  "pose": {
+   "valentina": 10,
+   "mateo": 5
+  },
+  "bubble": "Le spectacle de l'école commence ! Le rideau s'ouvre, les lumières brillent… et Mateo cherche son costume !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe le mot du spectacle et son sens.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Mot",
+    "right_label": "Sens",
+    "pairs": [
+     {
+      "left": "la scène",
+      "right": "là où jouent les acteurs"
+     },
+     {
+      "left": "le rideau",
+      "right": "il s'ouvre quand le spectacle commence"
+     },
+     {
+      "left": "un costume",
+      "right": "des vêtements spéciaux pour ton rôle"
+     },
+     {
+      "left": "le public",
+      "right": "les gens qui regardent"
+     },
+     {
+      "left": "les lumières",
+      "right": "elles éclairent les acteurs"
+     },
+     {
+      "left": "jouer",
+      "right": "interpréter un personnage"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Qu'est-ce qui se passe sur scène ? Choisis la bonne forme.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "Le rideau ___ maintenant !",
+      "options": [
+       "est",
+       "sont",
+       "suis"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le premier groupe ___.",
+      "options": [
+       "est",
+       "sont",
+       "être"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Valentina ___ une princesse dans la pièce.",
+      "options": [
+       "joue",
+       "jouant",
+       "jouer être"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le public ___ très fort !",
+      "options": [
+       "est",
+       "suis",
+       "être"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Qu'est-ce qu'ils ___ maintenant ?",
+      "options": [
+       "sont",
+       "est",
+       "faire"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute le spectacle, en direct ! Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u37-c.mp3",
+   "data": {
+    "voice_note": "Voces: Mateo (tras bambalinas) y Valentina (protagonista).",
+    "script": "Mateo : Reportage des coulisses ! Le rideau s'ouvre… maintenant ! … Mateo : Le premier groupe danse avec des étoiles en papier. C'est magnifique ! … Mateo : Valentina joue la reine de la montagne. Son costume a des étoiles argentées. … Mateo : Les lumières d'Erik changent de couleur : bleu, vert, violet ! … Mateo : Maintenant toute la classe chante la chanson finale. … Mateo : Le public est debout et applaudit ! Je vois ma mamie qui pleure de joie. … Mateo : Et moi ? J'ai trouvé mon costume… deux minutes après ma scène. L'année prochaine, mieux !",
+    "questions": [
+     {
+      "q": "Le premier groupe danse avec des étoiles en …",
+      "answer": "étoiles"
+     },
+     {
+      "q": "Valentina est la … de la montagne.",
+      "answer": "reine"
+     },
+     {
+      "q": "Les lumières d'Erik changent : bleu, vert, …",
+      "answer": "violet"
+     },
+     {
+      "q": "La mamie de Mateo pleure de …",
+      "answer": "joie"
+     },
+     {
+      "q": "Mateo a trouvé son costume deux … trop tard.",
+      "answer": "minutes"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Les acteurs jouent sur la …",
+      "options": [
+       "scène",
+       "escalier",
+       "étagère"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un ___ de pirate est parfait pour le spectacle.",
+      "options": [
+       "costume",
+       "rideau",
+       "coussin"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "À la fin, tout le monde …",
+      "options": [
+       "applaudit",
+       "dort",
+       "cuisine"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Regarde ! Le bébé ___ sur la musique !",
+      "options": [
+       "est",
+       "sont",
+       "faire"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les gens qui regardent le spectacle sont le …",
+      "options": [
+       "public",
+       "acteurs",
+       "conducteurs"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Commentaire en direct : ton camarade joue quelque chose lentement (danser, chanter, faire le lion). Tu racontes : « Maintenant tu… » Puis on échange. Applaudissements pour tout le monde !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Trouve les différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Observe ta famille pendant 10 minutes ce soir. Écris 5 phrases sur ce que chacun fait (au présent)."
+  }
+ ],
+ "scope": {
+  "grado": "G3",
+  "temaN": 3,
+  "tema": "Le temps et les saisons",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues courts avec plus de vocabulaire ; repérer l'information principale dans des annonces simples."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire ses habitudes, ses préférés, les métiers du quartier ; donner une opinion courte."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire de courts paragraphes ; répondre à des questions simples ; trouver une information précise."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un court paragraphe sur soi, sa famille ou sa journée (40 à 70 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~800 mots ; les temps de base ; devoir, pouvoir ; l'accord du verbe ; le superlatif."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

@@ -1,0 +1,316 @@
+{
+ "id": "starters-fr-20",
+ "level": "starters",
+ "number": 20,
+ "title": "Mes amis",
+ "topic": "amis",
+ "grammar": "Il s'appelle… / Elle s'appelle…",
+ "wordlist": [
+  "ami",
+  "son",
+  "son",
+  "nom",
+  "jouer",
+  "partager",
+  "gentil",
+  "drôle",
+  "ensemble",
+  "le meilleur"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 1,
+  "skill": "prénoms"
+ },
+ "characters": [
+  "tomas",
+  "freya"
+ ],
+ "scene": {
+  "speaker": "tomas",
+  "pose": {
+   "tomas": 1,
+   "freya": 1
+  },
+  "bubble": "Voici mon meilleur ami Nico. Ses blagues sont nulles… et c'est pour ça qu'on rit autant !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe l'ami et la description.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Ami",
+    "right_label": "Description",
+    "pairs": [
+     {
+      "left": "Freya",
+      "right": "Ses cheveux sont blonds. Elle pose des questions."
+     },
+     {
+      "left": "Nico",
+      "right": "Ses blagues sont drôles. Il sourit beaucoup."
+     },
+     {
+      "left": "Astrid",
+      "right": "Son bureau est toujours rangé."
+     },
+     {
+      "left": "Tomás",
+      "right": "Son ballon de football est toujours avec lui."
+     },
+     {
+      "left": "Pip",
+      "right": "Sa maison, c'est le phare."
+     },
+     {
+      "left": "un bon ami",
+      "right": "partage et aide"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis son ou sa.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "Voici Nico. ___ prénom est Nico.",
+      "options": [
+       "Son",
+       "Sa",
+       "Mon"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Voici Freya. ___ cheveux sont blonds.",
+      "options": [
+       "Sa",
+       "Son",
+       "Son"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Voilà ma maîtresse. ___ nom est Mademoiselle Lily.",
+      "options": [
+       "Sa",
+       "Son",
+       "Tu"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Mon ami partage ___ crayons avec moi.",
+      "options": [
+       "son",
+       "il",
+       "lui"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un ami qui aide est …",
+      "options": [
+       "gentil",
+       "froid",
+       "bleu"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute. Qui sont les nouveaux amis ? Écris un prénom ou un mot dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u20-c.mp3",
+   "data": {
+    "voice_note": "Voces: Tomás y Freya (presentando amigos).",
+    "script": "Tomás : Voici mon nouvel ami. Il s'appelle Leo. Il joue très bien au football ! … Freya : Et voici Emma. Son prénom est sur son sac — E-M-M-A. … Tomás : La couleur préférée de Leo est le vert, comme sa casquette. … Freya : Emma a un petit chien. Il s'appelle Toto. … Tomás : On joue tous ensemble à la récré. … Freya : Les amis font de l'école le meilleur endroit !",
+    "questions": [
+     {
+      "q": "Le nouveau garçon s'appelle …",
+      "answer": "Leo"
+     },
+     {
+      "q": "La nouvelle fille s'appelle …",
+      "answer": "Emma"
+     },
+     {
+      "q": "La casquette de Leo est …",
+      "answer": "vert"
+     },
+     {
+      "q": "Le chien d'Emma s'appelle …",
+      "answer": "Toto"
+     },
+     {
+      "q": "Ils jouent tous ensemble à la …",
+      "answer": "casser"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Une personne avec qui tu joues est ton …",
+      "options": [
+       "ami",
+       "chaise",
+       "chaussure"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les bons amis ___ leurs jouets.",
+      "options": [
+       "partager",
+       "cacher",
+       "manger"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Voici Ana. ___ sourire est grand.",
+      "options": [
+       "Sa",
+       "Son",
+       "Mon"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Voici Pedro. ___ sac est rouge.",
+      "options": [
+       "Son",
+       "Sa",
+       "Son"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Mon ___ ami me fait rire.",
+      "options": [
+       "le meilleur",
+       "froid",
+       "mouillé"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Présente ton camarade à un autre binôme : « Voici… Il/Elle s'appelle… Il/Elle aime… » Deux phrases chacun !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Trouve les différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 11 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Dessine ton meilleur ami et écris 4 phrases : Il/Elle s'appelle… Il/Elle aime…"
+  }
+ ],
+ "scope": {
+  "grado": "G2",
+  "temaN": 6,
+  "tema": "Loisirs et jeux",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues simples sur la famille, l'école, les animaux et la nourriture."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Répondre à des questions à partir d'une image ; décrire une image en phrases simples."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire des textes de 2 à 3 phrases ; associer images, mots et légendes courtes."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Recopier des mots et compléter des phrases courtes."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~450 mots ; présent, être et avoir, il y a, aimer + infinitif."
+   }
+  ],
+  "vocabulario": [
+   "poupée",
+   "puzzle",
+   "jeu vidéo",
+   "ballon"
+  ],
+  "gramatica": [
+   "Le présent : aimer + infinitif"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "doll",
+    "puzzle",
+    "video game",
+    "ball"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "poupée",
+  "puzzle",
+  "jeu vidéo",
+  "ballon"
+ ],
+ "lang": "fr"
+}

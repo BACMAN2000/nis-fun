@@ -1,0 +1,697 @@
+{
+ "id": "flyers-fr-13",
+ "level": "flyers",
+ "number": 13,
+ "title": "Se déplacer en ville",
+ "topic": "transport",
+ "grammar": "comment + transport / en + véhicule",
+ "wordlist": [
+  "vélo",
+  "autoroute",
+  "quai",
+  "chemin de fer",
+  "taxi",
+  "tramway",
+  "ambulance",
+  "camion de pompiers",
+  "hélicoptère",
+  "circulation"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 1,
+  "skill": "identifier les véhicules"
+ },
+ "characters": [
+  "ingrid",
+  "diego"
+ ],
+ "scene": {
+  "speaker": "ingrid",
+  "pose": {
+   "ingrid": 2,
+   "diego": 5
+  },
+  "bubble": "Mission : traverser toute la ville en une heure avec quatre moyens de transport. Prêt, Diego ?"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Lis les phrases et écris les moyens de transport.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "VELO",
+      "clue": "Il a deux roues et tu pédales."
+     },
+     {
+      "word": "TAXI",
+      "clue": "Une voiture avec un chauffeur que tu payes."
+     },
+     {
+      "word": "TRAMWAY",
+      "clue": "Comme un petit train qui roule dans les rues de la ville."
+     },
+     {
+      "word": "AMBULANCE",
+      "clue": "Elle emmène les malades à l'hôpital, vite !"
+     },
+     {
+      "word": "HELICOPTERE",
+      "clue": "Il monte tout droit et n'a pas d'ailes."
+     },
+     {
+      "word": "QUAI",
+      "clue": "Tu attends le train ici, à la gare."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Associe le véhicule et son rôle.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Véhicule",
+    "right_label": "Son rôle",
+    "pairs": [
+     {
+      "left": "une ambulance",
+      "right": "emmène les gens à l'hôpital"
+     },
+     {
+      "left": "un camion de pompiers",
+      "right": "transporte les pompiers"
+     },
+     {
+      "left": "un tramway",
+      "right": "traverse la ville sur des rails"
+     },
+     {
+      "left": "un taxi",
+      "right": "t'emmène où tu demandes"
+     },
+     {
+      "left": "un hélicoptère",
+      "right": "se pose sur le toit de l'hôpital"
+     },
+     {
+      "left": "un vélo",
+      "right": "est le plus silencieux et le plus propre"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute la mission en ville. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u13-c.mp3",
+   "data": {
+    "voice_note": "Voces: Ingrid (capitana) y Diego (narrando en vivo).",
+    "script": "Diego : La mission commence au portail de l'école ! D'abord on va à la rivière à vélo. … Ingrid : Dix minutes, bravo. Maintenant le tramway — quai numéro deux ! … Diego : Le tramway est vert et très plein. On est debout à côté d'un monsieur avec un grand chien. … Ingrid : Ensuite : on traverse le vieux pont à pied et on prend un taxi. … Diego : Notre chauffeur de taxi s'appelle Pedro. Il y a beaucoup de circulation sur l'autoroute ! … Ingrid : Dernière étape — le bateau pour traverser la baie ! … Diego : On arrive au phare en cinquante-huit minutes. Mission accomplie !",
+    "questions": [
+     {
+      "q": "D'abord ils vont à la rivière à …",
+      "answer": "vélo"
+     },
+     {
+      "q": "Le tramway part du quai numéro …",
+      "answer": "deux"
+     },
+     {
+      "q": "Le chauffeur de taxi s'appelle …",
+      "answer": "Pedro"
+     },
+     {
+      "q": "Il y a beaucoup de circulation sur l'…",
+      "answer": "autoroute"
+     },
+     {
+      "q": "Ils arrivent au phare en cinquante-huit …",
+      "answer": "minutes"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Tu attends le train sur le …",
+      "options": [
+       "quai",
+       "toit",
+       "balcon"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Une grande route rapide entre les villes est une …",
+      "options": [
+       "chemin de fer",
+       "autoroute",
+       "coin"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Quand il y a trop de voitures, il y a beaucoup de …",
+      "options": [
+       "circulation",
+       "météo",
+       "devoirs"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "On est allés à l'aéroport ___ taxi.",
+      "options": [
+       "sur",
+       "par",
+       "à"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Les trains roulent sur le …",
+      "options": [
+       "chemin de fer",
+       "balcon",
+       "escalier"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Prépare un itinéraire : comment vas-tu de l'école à la plage avec exactement trois moyens de transport ? Explique : « D'abord en bus, ensuite… » Compare avec un autre binôme — quel itinéraire est le plus rapide ?"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Trouve les différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  },
+  {
+   "type": "picture_mc",
+   "title": "Écoute et coche la bonne case.",
+   "instructions": "Écoute chaque question et clique sur l'image qui répond.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "La nature"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et cocher la bonne image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u13-h.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "Que montre Ingrid du doigt ?",
+      "answer": "tramway",
+      "options": [
+       {
+        "word": "château",
+        "propio": true
+       },
+       {
+        "word": "stade",
+        "propio": true
+       },
+       {
+        "word": "tramway",
+        "propio": false
+       }
+      ],
+      "script": "Que montre Ingrid du doigt ? … Ingrid : Je montre le tramway."
+     },
+     {
+      "q": "De quoi Diego parle-t-il ?",
+      "answer": "ambulance",
+      "options": [
+       {
+        "word": "gants",
+        "propio": true
+       },
+       {
+        "word": "commissariat",
+        "propio": true
+       },
+       {
+        "word": "ambulance",
+        "propio": false
+       }
+      ],
+      "script": "De quoi Diego parle-t-il ? … Diego : Je parle de l'ambulance."
+     },
+     {
+      "q": "Quel mot Maya apprend-elle aujourd'hui ?",
+      "answer": "autoroute",
+      "options": [
+       {
+        "word": "restaurant",
+        "propio": true
+       },
+       {
+        "word": "pont",
+        "propio": true
+       },
+       {
+        "word": "autoroute",
+        "propio": false
+       }
+      ],
+      "script": "Quel mot Maya apprend-elle aujourd'hui ? … Maya : Aujourd'hui j'apprends le mot autoroute."
+     },
+     {
+      "q": "Qu'est-ce que Lia a dessiné ?",
+      "answer": "taxi",
+      "options": [
+       {
+        "word": "commissariat",
+        "propio": true
+       },
+       {
+        "word": "taxi",
+        "propio": false
+       },
+       {
+        "word": "aéroport",
+        "propio": true
+       }
+      ],
+      "script": "Qu'est-ce que Lia a dessiné ? … Lia : J'ai dessiné un taxi."
+     },
+     {
+      "q": "Quelle image Aiko regarde-t-elle ?",
+      "answer": "hélicoptère",
+      "options": [
+       {
+        "word": "hélicoptère",
+        "propio": false
+       },
+       {
+        "word": "restaurant",
+        "propio": true
+       },
+       {
+        "word": "château",
+        "propio": true
+       }
+      ],
+      "script": "Quelle image Aiko regarde-t-elle ? … Aiko : Je regarde l'hélicoptère."
+     }
+    ],
+    "script": "Écoute et coche la bonne case. Il y a un exemple. … Que montre Ingrid du doigt ? … Ingrid : Je montre le tramway. … De quoi Diego parle-t-il ? … Diego : Je parle de l'ambulance. … Quel mot Maya apprend-elle aujourd'hui ? … Maya : Aujourd'hui j'apprends le mot autoroute. … Qu'est-ce que Lia a dessiné ? … Lia : J'ai dessiné un taxi. … Quelle image Aiko regarde-t-elle ? … Aiko : Je regarde l'hélicoptère.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "H"
+  },
+  {
+   "type": "match_pictures",
+   "title": "Écoute et associe chaque explorateur à une image.",
+   "instructions": "Écoute. Puis choisis la lettre de l'image pour chaque personne. Attention : certaines images sont en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "La nature"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et associer chaque personne à une image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 3
+    }
+   },
+   "audio": "flyers/u13-i.mp3",
+   "data": {
+    "people": [
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "pose": 8
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 8
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "pose": 3
+     },
+     {
+      "slug": "aiko",
+      "name": "Aiko",
+      "pose": 3
+     },
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 8
+     }
+    ],
+    "pictures": [
+     {
+      "word": "château",
+      "propio": true,
+      "id": "A"
+     },
+     {
+      "word": "vélo",
+      "propio": false,
+      "id": "B"
+     },
+     {
+      "word": "pharmacie",
+      "propio": true,
+      "id": "C"
+     },
+     {
+      "word": "quai",
+      "propio": false,
+      "id": "D"
+     },
+     {
+      "word": "taxi",
+      "propio": false,
+      "id": "E"
+     },
+     {
+      "word": "hélicoptère",
+      "propio": false,
+      "id": "F"
+     },
+     {
+      "word": "musée",
+      "propio": true,
+      "id": "G"
+     },
+     {
+      "word": "tramway",
+      "propio": false,
+      "id": "H"
+     }
+    ],
+    "answers": {
+     "Ingrid": "B",
+     "Diego": "E",
+     "Iris": "D",
+     "Aiko": "H",
+     "Maya": "F"
+    },
+    "script": "Écoute et associe chaque personne à une image. Il y a un exemple. … Diego : Ingrid, quelle image as-tu choisie ? … Ingrid : J'ai choisi le vélo. … Diego : Diego, quelle image as-tu choisie ? … Diego : J'ai choisi le taxi. … Diego : Iris, quelle image as-tu choisie ? … Iris : J'ai choisi le quai. … Diego : Aiko, quelle image as-tu choisie ? … Aiko : J'ai choisi le tramway. … Diego : Maya, quelle image as-tu choisie ? … Maya : J'ai choisi l'hélicoptère.",
+    "voice_note": "Diego pregunta; cada explorador responde con su objeto."
+   },
+   "code": "I"
+  },
+  {
+   "type": "picture_story",
+   "title": "Regarde les trois images et écris l'histoire.",
+   "instructions": "Regarde les images. Écris l'histoire en 20-25 mots. Aide-toi des mots sous chaque image.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "La nature"
+    },
+    "destreza": "Writing",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots.",
+    "clase": "Type examen : histoire en images de 20 à 25 mots (production écrite)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "labyrinth",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 4
+       }
+      ],
+      "word": "vélo",
+      "hint": "Ingrid / prend / un vélo",
+      "model": "Ingrid prend un vélo au labyrinthe."
+     },
+     {
+      "n": 2,
+      "scene": "mirador",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 8
+       },
+       {
+        "slug": "diego",
+        "pose": 1
+       }
+      ],
+      "word": "taxi",
+      "hint": "Diego / apporter / un taxi",
+      "model": "Ensuite Diego apporte un taxi."
+     },
+     {
+      "n": 3,
+      "scene": "zoo",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 10
+       },
+       {
+        "slug": "ingrid",
+        "pose": 10
+       }
+      ],
+      "word": "ambulance",
+      "hint": "maintenant / une ambulance / content",
+      "model": "Maintenant ils ont aussi une ambulance, et tous les deux sont contents."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Ingrid prend un vélo au labyrinthe. Ensuite Diego apporte un taxi. Maintenant ils ont aussi une ambulance, et tous les deux sont contents.",
+    "words": [
+     "vélo",
+     "taxi",
+     "ambulance"
+    ],
+    "support": {
+     "grammar": "comment + transport / en + véhicule",
+     "words": [
+      "vélo",
+      "autoroute",
+      "quai",
+      "chemin de fer",
+      "taxi",
+      "tramway"
+     ]
+    }
+   },
+   "code": "J"
+  },
+  {
+   "type": "label_people",
+   "title": "Écoute et écris les prénoms.",
+   "instructions": "Regarde l'image. Écoute et écris le prénom sous chaque personne. Attention : il y a trois prénoms en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "La nature"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et écrire le prénom de chaque personne de l'image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u13-g.mp3",
+   "data": {
+    "scene": "mirador",
+    "place": "le belvédère",
+    "people": [
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "clue": "la fille aux cheveux blonds et à la veste bleu foncé",
+      "action": "lit le programme de la journée",
+      "pose": 7
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "clue": "le garçon au t-shirt rouge avec un microphone",
+      "action": "pose des questions avec son microphone",
+      "pose": 7
+     },
+     {
+      "slug": "aiko",
+      "name": "Aiko",
+      "clue": "la fille aux longs cheveux noirs raides et au t-shirt orange",
+      "action": "lit un livre",
+      "pose": 7
+     },
+     {
+      "slug": "kili",
+      "name": "Kili",
+      "clue": "le grand oiseau noir avec un collier blanc",
+      "action": "porte une lettre",
+      "pose": 3
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "clue": "le garçon aux cheveux bruns bouclés et au t-shirt vert",
+      "action": "court après le ballon",
+      "pose": 7
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Bruno",
+     "Diego",
+     "Ingrid",
+     "Iris",
+     "Kili",
+     "Maya",
+     "Mr Vega"
+    ],
+    "script": "Regarde l'image. Écoute et écris les prénoms. Il y a un exemple. … Diego : Qui est-ce au belvédère ? La fille aux cheveux blonds et à la veste bleu foncé. … Maya : C'est Ingrid. Ingrid lit le programme de la journée. … Diego : Et qui est le garçon au t-shirt rouge avec un microphone ? … Maya : C'est Diego. Regarde, Diego pose des questions avec son microphone. … Diego : Et qui est la fille aux longs cheveux noirs raides et au t-shirt orange ? … Maya : C'est Aiko. Regarde, Aiko lit un livre. … Diego : Et qui est le grand oiseau noir avec un collier blanc ? … Maya : C'est Kili. Regarde, Kili porte une lettre. … Diego : Et qui est le garçon aux cheveux bruns bouclés et au t-shirt vert ? … Maya : C'est Bruno. Regarde, Bruno court après le ballon.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris comment 3 personnes de ta famille vont au travail ou à l'école : Ma maman va au travail en… Ça prend… minutes."
+  }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 3,
+  "tema": "La nature",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Raconter des histoires au passé, au présent et au futur ; exprimer ses préférences avec des raisons."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et comprendre des histoires courtes (80 à 250 mots) ; trouver l'idée principale et les détails."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~2500 mots ; passé composé, questions négatives, si + présent, futur proche."
+   }
+  ],
+  "vocabulario": [
+   "énergie renouvelable",
+   "empreinte carbone",
+   "panneau solaire"
+  ],
+  "gramatica": [
+   "Si + présent, futur : la condition"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "renewable energy",
+    "carbon footprint",
+    "solar panel"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "énergie renouvelable",
+  "empreinte carbone",
+  "panneau solaire"
+ ],
+ "lang": "fr"
+}

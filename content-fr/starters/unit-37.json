@@ -1,0 +1,298 @@
+{
+ "id": "starters-fr-37",
+ "level": "starters",
+ "number": 37,
+ "title": "La tête et les mains",
+ "topic": "actions du corps",
+ "grammar": "les verbes d'action : toucher, bouger, lever",
+ "wordlist": [
+  "secouer",
+  "hocher la tête",
+  "lever",
+  "vague",
+  "timbre",
+  "remuer",
+  "toucher",
+  "fermer",
+  "ouvrir",
+  "les mains en haut"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 4,
+  "skill": "actions du corps"
+ },
+ "characters": [
+  "tomas",
+  "freya"
+ ],
+ "scene": {
+  "speaker": "tomas",
+  "pose": {
+   "tomas": 10,
+   "freya": 1
+  },
+  "bubble": "La chanson qui bouge ! Secoue les mains, tape des pieds, remue les doigts… ne t'arrête pas !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe l'action et la partie du corps.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Action",
+    "right_label": "Partie du corps",
+    "pairs": [
+     {
+      "left": "hocher la tête",
+      "right": "ta tête — oui, oui !"
+     },
+     {
+      "left": "vague",
+      "right": "ta main — bonjour !"
+     },
+     {
+      "left": "timbre",
+      "right": "tes pieds — boum boum !"
+     },
+     {
+      "left": "remuer",
+      "right": "tes doigts comme des vers"
+     },
+     {
+      "left": "fermer",
+      "right": "tes yeux — tout noir !"
+     },
+     {
+      "left": "lever",
+      "right": "ton bras vers le ciel"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis la bonne action.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque consigne.",
+    "items": [
+     {
+      "sentence": "___ la tête pour dire oui.",
+      "options": [
+       "Hoche la tête",
+       "Fais signe",
+       "Tape du pied"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___ la main pour dire bonjour.",
+      "options": [
+       "Fais signe",
+       "Ferme",
+       "Mange"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___ les yeux et compte jusqu'à dix.",
+      "options": [
+       "Ferme",
+       "Ouvre",
+       "Remue"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les mains en ___ ! Touche le ciel !",
+      "options": [
+       "en haut",
+       "bas",
+       "dans"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___ des pieds comme un gros éléphant.",
+      "options": [
+       "Tape du pied",
+       "Hoche la tête",
+       "Dessine"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute la chanson qui bouge. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u37-c.mp3",
+   "data": {
+    "voice_note": "Voces: Tomás (cantando) y Freya (bailando).",
+    "script": "Tomás : La chanson qui bouge ! Secoue les mains — un, deux, trois ! … Freya : Ça secoue, ça secoue ! … Tomás : Tape des pieds quatre fois ! … Freya : Boum, boum, boum, boum ! … Tomás : Remue les doigts comme de petits vers. … Freya : Ils dansent ! … Tomás : Maintenant ferme les yeux… ouvre les yeux… et FAIS SIGNE ! … Freya : Même Pip fait signe avec son aile ! … Tomás : Grand final : les mains en haut et on saute !",
+    "questions": [
+     {
+      "q": "Secoue les mains — un, deux, … !",
+      "answer": "trois"
+     },
+     {
+      "q": "Tape des pieds … fois.",
+      "answer": "quatre"
+     },
+     {
+      "q": "Remue les doigts comme de petits …",
+      "answer": "vers"
+     },
+     {
+      "q": "Pip fait signe avec son …",
+      "answer": "aile"
+     },
+     {
+      "q": "Grand final : les mains en haut et on … !",
+      "answer": "sauter"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Pour dire oui sans parler, tu ___ la tête.",
+      "options": [
+       "hocher la tête",
+       "fermer",
+       "laver"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Pour dire non, tu ___ la tête.",
+      "options": [
+       "secouer",
+       "lever",
+       "timbre"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu fais signe avec ta …",
+      "options": [
+       "main",
+       "pied",
+       "nez"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le contraire d'ouvrir les yeux, c'est les ___.",
+      "options": [
+       "fermer",
+       "remuer",
+       "lever"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "En classe, ___ la main pour parler.",
+      "options": [
+       "lever",
+       "timbre",
+       "secouer"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Invente une danse de 4 mouvements avec ton camarade (secouer, taper, remuer, sauter…). Apprenez-la à un autre binôme en français !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Regarde A et B. Qu'est-ce qui change ?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris ta propre chanson qui bouge avec 5 consignes. Chante-la à la maison !"
+  }
+ ],
+ "scope": {
+  "grado": "G1",
+  "temaN": 3,
+  "tema": "Mon corps",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Suivre les consignes de la classe ; reconnaître des mots connus dans une chanson ou une phrase courte."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Saluer ; dire son nom, son âge, les couleurs ; nommer des objets ; répondre par oui ou non."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Reconnaître les lettres de l'alphabet ; associer un mot à une image (famille, nourriture, animaux, corps)."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire son prénom ; recopier des mots ; légender une image (3 à 5 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~150 mots actifs ; le verbe être, un/une, c'est/ce sont, l'impératif."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

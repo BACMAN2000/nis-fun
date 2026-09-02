@@ -1,0 +1,325 @@
+{
+ "id": "movers-fr-13",
+ "level": "movers",
+ "number": 13,
+ "title": "Les règles de la classe",
+ "topic": "devoir / ne pas devoir",
+ "grammar": "devoir / ne pas devoir",
+ "wordlist": [
+  "règle",
+  "écouter",
+  "lever la main",
+  "partager",
+  "crier",
+  "courir",
+  "rangé",
+  "respect",
+  "calme",
+  "aider"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 6,
+  "skill": "phrases à trous"
+ },
+ "characters": [
+  "sofia",
+  "mateo"
+ ],
+ "scene": {
+  "speaker": "sofia",
+  "pose": {
+   "sofia": 2,
+   "mateo": 1
+  },
+  "bubble": "Nouvelles règles de classe, écrites par nous ! Règle un : on doit s'entraider. Règle deux : Luna doit rester LOIN des boîtes à goûter."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe la règle et sa raison.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Règle",
+    "right_label": "Raison",
+    "pairs": [
+     {
+      "left": "On doit écouter le maître.",
+      "right": "pour apprendre de nouvelles choses"
+     },
+     {
+      "left": "On doit lever la main.",
+      "right": "pour que chacun puisse parler"
+     },
+     {
+      "left": "On ne doit pas courir dans la classe.",
+      "right": "quelqu'un peut tomber"
+     },
+     {
+      "left": "On ne doit pas crier.",
+      "right": "les autres classes travaillent"
+     },
+     {
+      "left": "On doit ranger nos bureaux.",
+      "right": "une classe propre est une classe heureuse"
+     },
+     {
+      "left": "On doit partager le matériel.",
+      "right": "il y en a assez pour tout le monde"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis doit ou ne doit pas.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "Tu ___ faire tes devoirs tous les jours.",
+      "options": [
+       "devoir",
+       "ne doit pas",
+       "ne sont pas"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu ___ manger à la bibliothèque.",
+      "options": [
+       "devoir",
+       "ne doit pas",
+       "ne... pas"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "On ___ être silencieux pendant l'examen.",
+      "options": [
+       "devoir",
+       "ne doit pas",
+       "ne peut être"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu ___ oublier tes affaires de sport le vendredi.",
+      "options": [
+       "devoir",
+       "ne doit pas",
+       "ne sont pas"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Tout le monde ___ respecter les autres.",
+      "options": [
+       "devoir",
+       "ne doit pas",
+       "ne... pas"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute la réunion des règles. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u13-c.mp3",
+   "data": {
+    "voice_note": "Voces: Sofía (moderadora) y Mateo (secretario).",
+    "script": "Sofia : Réunion de classe ! On écrit nos dix règles. Mateo, note. … Mateo : Prêt ! Mon crayon est bien taillé. … Sofia : Règle un : on doit s'entraider pour les exercices difficiles. … Sofia : Règle deux : on ne doit pas rire des erreurs. Les erreurs nous font apprendre ! … Mateo : Règle trois : on doit arroser la plante de la classe tous les lundis. … Sofia : Bonne idée ! Et règle quatre : on ne doit pas laisser de déchets par terre. … Mateo : Et règle cinq, très importante : Luna ne doit pas ouvrir les boîtes à goûter ! … Sofia : Approuvé ! Cinq règles de plus demain.",
+    "questions": [
+     {
+      "q": "Ils écrivent … règles en tout.",
+      "answer": "dix"
+     },
+     {
+      "q": "Ils doivent s'entraider pour les … difficiles.",
+      "answer": "exercices"
+     },
+     {
+      "q": "Ils ne doivent pas rire des …",
+      "answer": "erreurs"
+     },
+     {
+      "q": "Ils doivent arroser la plante de la classe tous les …",
+      "answer": "lundi"
+     },
+     {
+      "q": "… ne doit pas ouvrir les boîtes à goûter.",
+      "answer": "Luna"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Avant de parler, ___ la main.",
+      "options": [
+       "lever",
+       "laver",
+       "fermer"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le contraire de bruyant est …",
+      "options": [
+       "calme",
+       "rapide",
+       "sale"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___, c'est donner une partie de ce que tu as aux autres.",
+      "options": [
+       "partager",
+       "crier",
+       "courir"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Garde ton bureau ___ et propre.",
+      "options": [
+       "rangé",
+       "mouillé",
+       "lourd"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Une ___ dit ce que tu dois ou ne dois pas faire.",
+      "options": [
+       "règle",
+       "règle",
+       "gomme"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Invente 3 règles pour un endroit fou (une école de dragons, un bateau pirate…) : « Tu dois… Tu ne dois pas… » Lis-les à voix haute — la classe devine l'endroit !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "A et B ne sont pas pareils. Trouve pourquoi !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris 4 règles de ta maison : deux avec doit et deux avec ne doit pas. Tu les respectes toutes ? Sois honnête !"
+  }
+ ],
+ "scope": {
+  "grado": "G3",
+  "temaN": 1,
+  "tema": "La vie à l'école",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues courts avec plus de vocabulaire ; repérer l'information principale dans des annonces simples."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire ses habitudes, ses préférés, les métiers du quartier ; donner une opinion courte."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire de courts paragraphes ; répondre à des questions simples ; trouver une information précise."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un court paragraphe sur soi, sa famille ou sa journée (40 à 70 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~800 mots ; les temps de base ; devoir, pouvoir ; l'accord du verbe ; le superlatif."
+   }
+  ],
+  "vocabulario": [
+   "maths",
+   "sciences",
+   "art",
+   "eps",
+   "anglais",
+   "musique",
+   "histoire"
+  ],
+  "gramatica": [
+   "Les adverbes de fréquence : toujours, d'habitude, parfois, jamais"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "maths",
+    "science",
+    "art",
+    "pe",
+    "english",
+    "music",
+    "history"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "maths",
+  "sciences",
+  "art",
+  "eps",
+  "anglais",
+  "musique",
+  "histoire"
+ ],
+ "lang": "fr"
+}

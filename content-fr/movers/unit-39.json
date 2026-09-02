@@ -1,0 +1,298 @@
+{
+ "id": "movers-fr-39",
+ "level": "movers",
+ "number": 39,
+ "title": "Un bon appétit",
+ "topic": "les quantités",
+ "grammar": "beaucoup de / un peu de / quelques",
+ "wordlist": [
+  "beaucoup de",
+  "quelques",
+  "un peu",
+  "un morceau de",
+  "un verre de",
+  "un bol de",
+  "pain",
+  "poulet",
+  "frites",
+  "plein"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 6,
+  "skill": "phrases à trous"
+ },
+ "characters": [
+  "mateo",
+  "valentina"
+ ],
+ "scene": {
+  "speaker": "valentina",
+  "pose": {
+   "valentina": 5,
+   "mateo": 10
+  },
+  "bubble": "Le déjeuner de Mateo : un bol de soupe, deux morceaux de poulet, une montagne de riz… et il dit qu'il a encore faim !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe la quantité et la nourriture.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Quantité",
+    "right_label": "Nourriture",
+    "pairs": [
+     {
+      "left": "un verre de",
+      "right": "de la limonade fraîche"
+     },
+     {
+      "left": "un bol de",
+      "right": "soupe chaude"
+     },
+     {
+      "left": "un morceau de",
+      "right": "du gâteau au chocolat"
+     },
+     {
+      "left": "une assiette de",
+      "right": "du poulet et du riz"
+     },
+     {
+      "left": "un paquet de",
+      "right": "des chips croustillantes"
+     },
+     {
+      "left": "une tranche de",
+      "right": "du pain frais"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis le bon mot de quantité.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "Il y a ___ pommes dans le panier — peut-être quarante !",
+      "options": [
+       "beaucoup",
+       "un peu",
+       "un morceau"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Je peux avoir ___ eau, s'il te plaît ? Juste un peu.",
+      "options": [
+       "un peu",
+       "beaucoup",
+       "beaucoup de"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Il nous faut ___ œufs pour le gâteau — six.",
+      "options": [
+       "quelques",
+       "un peu",
+       "un morceau de"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Il a mangé un ___ de gâteau. Un très gros morceau !",
+      "options": [
+       "morceau",
+       "verre",
+       "sac"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Après le déjeuner j'étais complètement …",
+      "options": [
+       "plein",
+       "vide",
+       "tôt"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute le déjeuner géant. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u39-c.mp3",
+   "data": {
+    "voice_note": "Voces: Valentina (asombrada) y Mateo (comiendo, feliz).",
+    "script": "Valentina : Rapport déjeuner : l'assiette de Mateo, épisode cent. … Mateo : Un bol de soupe de poulet pour commencer. La recette de mamie ! … Valentina : Ensuite du riz avec deux morceaux de poulet et un peu de salade. … Mateo : Et un verre de jus d'orange. Des vitamines ! … Valentina : Maintenant il regarde le pain… beaucoup de pain. … Mateo : Seulement trois tranches ! Avec un peu de beurre. … Valentina : Et comme dessert ? … Mateo : Un morceau de gâteau aux pommes. Petit. Enfin… moyen. … Valentina : Mais où est-ce que ça VA, Mateo ?!",
+    "questions": [
+     {
+      "q": "La soupe est la … de mamie.",
+      "answer": "recette"
+     },
+     {
+      "q": "Le riz vient avec deux morceaux de …",
+      "answer": "poulet"
+     },
+     {
+      "q": "Le jus est à l'…",
+      "answer": "orange"
+     },
+     {
+      "q": "Mateo mange trois … de pain.",
+      "answer": "tranches"
+     },
+     {
+      "q": "Le dessert est un morceau de gâteau aux …",
+      "answer": "pomme"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Le lait arrive dans un ___ au petit-déjeuner.",
+      "options": [
+       "verre",
+       "sac",
+       "morceau"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "La soupe se met dans un …",
+      "options": [
+       "bol",
+       "sac",
+       "boîte"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Combien de riz ? » — « Juste ___, merci. »",
+      "options": [
+       "un peu",
+       "beaucoup très",
+       "beaucoup de"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Des pommes de terre coupées et frites, ce sont des …",
+      "options": [
+       "frites",
+       "côtelettes",
+       "joues"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Il y a ___ étoiles dans le ciel — des millions !",
+      "options": [
+       "beaucoup de",
+       "un peu",
+       "un morceau de"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Commande au restaurant : l'élève A est le serveur, l'élève B commande un repas complet avec des quantités (un bol de…, un verre de…). Puis on échange. Bon appétit !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Regarde A et B. Qu'est-ce qui change ?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 11 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris le déjeuner de tes rêves avec 5 quantités : un bol de…, un morceau de…, un verre de…"
+  }
+ ],
+ "scope": {
+  "grado": "G3",
+  "temaN": 5,
+  "tema": "Émotions et santé",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues courts avec plus de vocabulaire ; repérer l'information principale dans des annonces simples."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire ses habitudes, ses préférés, les métiers du quartier ; donner une opinion courte."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire de courts paragraphes ; répondre à des questions simples ; trouver une information précise."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un court paragraphe sur soi, sa famille ou sa journée (40 à 70 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~800 mots ; les temps de base ; devoir, pouvoir ; l'accord du verbe ; le superlatif."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

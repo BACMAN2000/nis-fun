@@ -1,0 +1,312 @@
+{
+ "id": "movers-fr-04",
+ "level": "movers",
+ "number": 4,
+ "title": "Mon matin chargé",
+ "topic": "la routine du matin",
+ "grammar": "le présent : les routines",
+ "wordlist": [
+  "se réveiller",
+  "se lever",
+  "laver",
+  "brosse",
+  "s'habiller",
+  "petit-déjeuner",
+  "prendre le bus",
+  "peigne",
+  "serviette",
+  "brosse à dents"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 2,
+  "skill": "prise de notes"
+ },
+ "characters": [
+  "mateo",
+  "valentina"
+ ],
+ "scene": {
+  "speaker": "valentina",
+  "pose": {
+   "valentina": 3,
+   "mateo": 5
+  },
+  "bubble": "Mateo se réveille à sept heures… mais il perd toujours une chaussette, alors il attrape le bus à la dernière seconde !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe l'action et ce qu'il te faut.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Action",
+    "right_label": "La chose",
+    "pairs": [
+     {
+      "left": "se brosser les dents",
+      "right": "une brosse à dents"
+     },
+     {
+      "left": "se laver le visage",
+      "right": "de l'eau et du savon"
+     },
+     {
+      "left": "se sécher les mains",
+      "right": "une serviette"
+     },
+     {
+      "left": "se coiffer",
+      "right": "un peigne"
+     },
+     {
+      "left": "prendre le petit-déjeuner",
+      "right": "un bol et une cuillère"
+     },
+     {
+      "left": "prendre le bus",
+      "right": "des jambes rapides !"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Remets le matin de Mateo dans l'ordre. Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "D'abord, Mateo se ___ à sept heures.",
+      "options": [
+       "réveille",
+       "lave",
+       "attrape"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Ensuite il se ___ le visage à l'eau froide.",
+      "options": [
+       "peigne",
+       "lave",
+       "mange"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Il s'___ vite — où est cette chaussette ?!",
+      "options": [
+       "habillé",
+       "petit-déjeuner",
+       "bus"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Il prend son ___ : du pain avec de la confiture et du lait.",
+      "options": [
+       "une serviette",
+       "petit-déjeuner",
+       "un peigne"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "À huit heures il ___ le bus scolaire.",
+      "options": [
+       "attrape",
+       "brosse",
+       "sèche"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute le matin fou de Mateo. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u04-c.mp3",
+   "data": {
+    "voice_note": "Voces: Valentina (narradora) y Mateo (con sueño).",
+    "script": "Valentina : Raconte-nous ton matin, Mateo ! … Mateo : Je me réveille à sept heures, quand Luna saute sur mon lit. … Mateo : Je me lave le visage et je me brosse les dents pendant deux minutes. … Mateo : Ensuite le problème : aujourd'hui j'ai trouvé une chaussette bleue et une chaussette rouge ! … Valentina : Alors tu as mis quoi ? … Mateo : Les deux ! Personne ne regarde les chaussettes. … Mateo : J'ai pris du pain avec du miel au petit-déjeuner et j'ai couru vers le bus. … Valentina : Et tu l'as attrapé ? … Mateo : Oui ! Le chauffeur me connaît. Il attend toujours dix secondes de plus.",
+    "questions": [
+     {
+      "q": "Mateo se réveille quand … saute sur son lit.",
+      "answer": "Luna"
+     },
+     {
+      "q": "Il se brosse les dents pendant deux …",
+      "answer": "minutes"
+     },
+     {
+      "q": "Il a trouvé une chaussette bleue et une chaussette …",
+      "answer": "rouge"
+     },
+     {
+      "q": "Au petit-déjeuner il a pris du pain avec du …",
+      "answer": "miel"
+     },
+     {
+      "q": "Le chauffeur attend dix … de plus.",
+      "answer": "secondes"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Tu te sèches les mains avec une …",
+      "options": [
+       "serviette",
+       "peigne",
+       "cuillère"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Elle se ___ les cheveux tous les matins.",
+      "options": [
+       "peigne",
+       "peigne",
+       "coiffant"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le premier repas de la journée est le …",
+      "options": [
+       "dîner",
+       "petit-déjeuner",
+       "déjeuner"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Je m'___ avant l'école : chemise, pantalon, chaussures.",
+      "options": [
+       "habillé",
+       "lavé",
+       "en haut"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Dépêche-toi ou tu vas rater le ___ ! »",
+      "options": [
+       "bus",
+       "serviette",
+       "chaussette"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Mime ta routine du matin étape par étape. Ton camarade dit chaque action : « Tu te réveilles ! Tu te brosses les dents ! » Puis on échange. Qui a la routine la plus drôle ?"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Trouve les différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris ton matin en 5 étapes : D'abord je me réveille à… Ensuite je… Dessine une horloge à côté de chaque étape."
+  }
+ ],
+ "scope": {
+  "grado": "G3",
+  "temaN": 2,
+  "tema": "Ma journée",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues courts avec plus de vocabulaire ; repérer l'information principale dans des annonces simples."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire ses habitudes, ses préférés, les métiers du quartier ; donner une opinion courte."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire de courts paragraphes ; répondre à des questions simples ; trouver une information précise."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un court paragraphe sur soi, sa famille ou sa journée (40 à 70 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~800 mots ; les temps de base ; devoir, pouvoir ; l'accord du verbe ; le superlatif."
+   }
+  ],
+  "vocabulario": [
+   "se réveiller",
+   "s'habiller",
+   "prendre le petit-déjeuner",
+   "faire ses devoirs"
+  ],
+  "gramatica": [
+   "Le présent : routines et habitudes (bilan)"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "have breakfast",
+    "do homework"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "prendre le petit-déjeuner",
+  "faire ses devoirs"
+ ],
+ "lang": "fr"
+}

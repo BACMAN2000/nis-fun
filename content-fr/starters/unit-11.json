@@ -1,0 +1,289 @@
+{
+ "id": "starters-fr-11",
+ "level": "starters",
+ "number": 11,
+ "title": "Dans ma chambre",
+ "topic": "chambre",
+ "grammar": "Il y a… + les couleurs",
+ "wordlist": [
+  "lit",
+  "lampe",
+  "boîte à jouets",
+  "image",
+  "horloge",
+  "placard",
+  "oreiller",
+  "couverture",
+  "étagère",
+  "tapis"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 2,
+  "skill": "des phrases sur une image"
+ },
+ "characters": [
+  "freya",
+  "pip"
+ ],
+ "scene": {
+  "speaker": "freya",
+  "pose": {
+   "freya": 1,
+   "pip": 6
+  },
+  "bubble": "Ma chambre est mon petit monde : mon lit, mes livres, ma boîte à jouets… et Pip qui dort sur mon oreiller !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Écris les mots de la chambre.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "LIT",
+      "clue": "Tu dors dessus."
+     },
+     {
+      "word": "LAMPE",
+      "clue": "Elle te donne de la lumière la nuit."
+     },
+     {
+      "word": "HORLOGE",
+      "clue": "Elle dit l'heure. Tic tac !"
+     },
+     {
+      "word": "OREILLER",
+      "clue": "Ta tête dort dessus."
+     },
+     {
+      "word": "ETAGERE",
+      "clue": "Tes livres sont posés dessus."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Associe l'objet et sa place.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "La chose",
+    "right_label": "Lieu",
+    "pairs": [
+     {
+      "left": "l'oreiller",
+      "right": "sur le lit"
+     },
+     {
+      "left": "la lampe",
+      "right": "à côté du lit"
+     },
+     {
+      "left": "les jouets",
+      "right": "dans la boîte à jouets"
+     },
+     {
+      "left": "le tableau",
+      "right": "sur le mur"
+     },
+     {
+      "left": "le tapis",
+      "right": "par terre"
+     },
+     {
+      "left": "les vêtements",
+      "right": "dans le placard"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute la chambre de Freya. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u11-c.mp3",
+   "data": {
+    "voice_note": "Voces: Freya (mostrando) y Tomás (curioso).",
+    "script": "Freya : Voici ma chambre ! Mon lit a une couverture rose. … Tomás : Et quelle grande boîte à jouets ! … Freya : Il y a vingt jouets dedans. Mon préféré est le petit bateau. … Tomás : Qu'est-ce qu'il y a sur le mur ? … Freya : Un tableau du phare. C'est papi qui l'a peint ! … Tomás : Et sur l'étagère ? … Freya : Mes livres. Sept livres ! … Tomás : Et qui dort sur ton oreiller ?! … Freya : Pip ! Tous les après-midis. C'est sa place préférée.",
+    "questions": [
+     {
+      "q": "La couverture est …",
+      "answer": "rose"
+     },
+     {
+      "q": "Il y a … jouets dans la boîte.",
+      "answer": "vingt"
+     },
+     {
+      "q": "Le tableau montre le …",
+      "answer": "phare"
+     },
+     {
+      "q": "Il y a … livres sur l'étagère.",
+      "answer": "sept"
+     },
+     {
+      "q": "… dort sur l'oreiller.",
+      "answer": "Pip"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "La nuit j'allume ma …",
+      "options": [
+       "lampe",
+       "oreiller",
+       "tapis"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Il ___ une horloge sur le mur.",
+      "options": [
+       "est",
+       "sont",
+       "suis"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Ta tête dort sur l'…",
+      "options": [
+       "oreiller",
+       "étagère",
+       "horloge"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les jouets vivent dans la … à jouets.",
+      "options": [
+       "boîte",
+       "lit",
+       "mur"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Quand il fait froid, je dors sous ma …",
+      "options": [
+       "couverture",
+       "lampe",
+       "image"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Décris ta chambre en 4 phrases (Il y a… / Mon lit est…). Ton camarade la dessine vite. Montrez et riez ensemble !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Deux images, plein de différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris 5 phrases sur ta chambre avec Il y a et des couleurs : Il y a une lampe bleue…"
+  }
+ ],
+ "scope": {
+  "grado": "G2",
+  "temaN": 2,
+  "tema": "Ma maison et ma famille",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues simples sur la famille, l'école, les animaux et la nourriture."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Répondre à des questions à partir d'une image ; décrire une image en phrases simples."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire des textes de 2 à 3 phrases ; associer images, mots et légendes courtes."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Recopier des mots et compléter des phrases courtes."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~450 mots ; présent, être et avoir, il y a, aimer + infinitif."
+   }
+  ],
+  "vocabulario": [
+   "dans",
+   "sur",
+   "sous",
+   "à côté de"
+  ],
+  "gramatica": [
+   "Il y a (introduction)"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "in",
+    "on",
+    "under",
+    "next to"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "dans",
+  "sur",
+  "sous",
+  "à côté de"
+ ],
+ "lang": "fr"
+}

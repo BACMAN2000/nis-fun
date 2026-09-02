@@ -1,0 +1,298 @@
+{
+ "id": "starters-fr-32",
+ "level": "starters",
+ "number": 32,
+ "title": "Des journées amusantes",
+ "topic": "jours",
+ "grammar": "le + jour",
+ "wordlist": [
+  "lundi",
+  "mardi",
+  "mercredi",
+  "jeudi",
+  "vendredi",
+  "samedi",
+  "dimanche",
+  "semaine",
+  "aujourd'hui",
+  "demain"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 1,
+  "skill": "jours"
+ },
+ "characters": [
+  "astrid",
+  "nico"
+ ],
+ "scene": {
+  "speaker": "astrid",
+  "pose": {
+   "astrid": 2,
+   "nico": 1
+  },
+  "bubble": "Sept jours, sept programmes ! Mon préféré, c'est le samedi — crêpes et parc avec toute la famille."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe le jour et le programme.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Jour",
+    "right_label": "Programme",
+    "pairs": [
+     {
+      "left": "lundi",
+      "right": "cours de natation"
+     },
+     {
+      "left": "mercredi",
+      "right": "livres de la bibliothèque"
+     },
+     {
+      "left": "vendredi",
+      "right": "jeux au club"
+     },
+     {
+      "left": "le samedi",
+      "right": "crêpes et parc"
+     },
+     {
+      "left": "dimanche",
+      "right": "déjeuner chez mamie"
+     },
+     {
+      "left": "tous les jours",
+      "right": "jouer avec Pip"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis le bon jour.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "Le premier jour d'école est …",
+      "options": [
+       "lundi",
+       "dimanche",
+       "vendredi"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Après mardi vient …",
+      "options": [
+       "mercredi",
+       "lundi",
+       "dimanche"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les jours du week-end sont samedi et …",
+      "options": [
+       "dimanche",
+       "lundi",
+       "vendredi"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Ma fête est ___ samedi.",
+      "options": [
+       "sur",
+       "dans",
+       "à"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Une semaine a ___ jours.",
+      "options": [
+       "sept",
+       "cinq",
+       "dix"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute la chanson de la semaine. Écris un jour dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u32-c.mp3",
+   "data": {
+    "voice_note": "Voces: Astrid (cantando la semana) y Nico (acompañando).",
+    "script": "Astrid : La chanson de la semaine ! Lundi — l'école et la natation. … Nico : Mardi — football à la récré ! … Astrid : Mercredi — jour de la bibliothèque. De nouveaux livres ! … Nico : Jeudi — papi vient avec des gâteaux. … Astrid : Vendredi — jour du club au phare ! … Nico : Samedi — crêpes et parc ! … Astrid : Et dimanche — jour de la famille, tranquille et joyeux. … Nico : Sept jours, sept sourires !",
+    "questions": [
+     {
+      "q": "La natation est le …",
+      "answer": "lundi"
+     },
+     {
+      "q": "Le jour de la bibliothèque est le …",
+      "answer": "mercredi"
+     },
+     {
+      "q": "Papi vient le …",
+      "answer": "jeudi"
+     },
+     {
+      "q": "Le jour du club est le …",
+      "answer": "vendredi"
+     },
+     {
+      "q": "Le jour des crêpes est le …",
+      "answer": "samedi"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Hier, ___, demain.",
+      "options": [
+       "aujourd'hui",
+       "dimanche",
+       "semaine"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Avant vendredi vient …",
+      "options": [
+       "jeudi",
+       "samedi",
+       "lundi"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Si aujourd'hui c'est samedi, demain c'est …",
+      "options": [
+       "dimanche",
+       "vendredi",
+       "lundi"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les jours d'école vont de lundi à …",
+      "options": [
+       "vendredi",
+       "dimanche",
+       "samedi"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Sept jours font une …",
+      "options": [
+       "semaine",
+       "jour",
+       "année"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Dites les jours dans l'ordre, à tour de rôle, de plus en plus vite. Puis demandez : « Qu'est-ce que tu fais le samedi ? » — deux questions chacun."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Trouve les différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris ta semaine : une chose pour chaque jour. Le lundi je… (7 phrases courtes)."
+  }
+ ],
+ "scope": {
+  "grado": "G1",
+  "temaN": 2,
+  "tema": "Ma classe",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Suivre les consignes de la classe ; reconnaître des mots connus dans une chanson ou une phrase courte."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Saluer ; dire son nom, son âge, les couleurs ; nommer des objets ; répondre par oui ou non."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Reconnaître les lettres de l'alphabet ; associer un mot à une image (famille, nourriture, animaux, corps)."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire son prénom ; recopier des mots ; légender une image (3 à 5 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~150 mots actifs ; le verbe être, un/une, c'est/ce sont, l'impératif."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

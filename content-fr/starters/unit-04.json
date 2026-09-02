@@ -1,0 +1,269 @@
+{
+ "id": "starters-fr-04",
+ "level": "starters",
+ "number": 4,
+ "title": "Les nombres de 1 à 10",
+ "topic": "les nombres",
+ "grammar": "Combien… ?",
+ "wordlist": [
+  "un",
+  "deux",
+  "trois",
+  "quatre",
+  "cinq",
+  "six",
+  "sept",
+  "huit",
+  "neuf",
+  "dix"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 4,
+  "skill": "les nombres"
+ },
+ "characters": [
+  "freya",
+  "pip"
+ ],
+ "scene": {
+  "speaker": "freya",
+  "pose": {
+   "freya": 2,
+   "pip": 1
+  },
+  "bubble": "On compte tout ! Un soleil, deux chaussures, trois oiseaux… et un Pip !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe le nombre et le mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Nombre",
+    "right_label": "Mot",
+    "pairs": [
+     {
+      "left": "1",
+      "right": "un"
+     },
+     {
+      "left": "3",
+      "right": "trois"
+     },
+     {
+      "left": "5",
+      "right": "cinq"
+     },
+     {
+      "left": "7",
+      "right": "sept"
+     },
+     {
+      "left": "9",
+      "right": "neuf"
+     },
+     {
+      "left": "10",
+      "right": "dix"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "crossword",
+   "title": "Écris les nombres en lettres.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "DEUX",
+      "clue": "Tu en as autant de mains."
+     },
+     {
+      "word": "QUATRE",
+      "clue": "Un chien a autant de pattes."
+     },
+     {
+      "word": "SIX",
+      "clue": "Trois plus trois."
+     },
+     {
+      "word": "HUIT",
+      "clue": "Une pieuvre a autant de bras."
+     },
+     {
+      "word": "DIX",
+      "clue": "Tous tes doigts !"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute et compte avec Freya. Écris un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u04-c.mp3",
+   "data": {
+    "voice_note": "Voces: Freya (contando) y Nico (jugando).",
+    "script": "Freya : On compte ! Combien de crayons ? Un, deux, trois. Trois crayons ! … Nico : Combien d'oiseaux dans l'arbre ? … Freya : Un, deux, trois, quatre, cinq ! Cinq oiseaux. … Nico : Et Pip, il a combien de pattes ? … Freya : Deux ! Les oiseaux ont deux pattes. … Nico : Combien de biscuits dans l'assiette ? … Freya : Dix ! Non, attends… neuf. Pip en mange un !",
+    "questions": [
+     {
+      "q": "Il y a … crayons.",
+      "answer": "trois"
+     },
+     {
+      "q": "Il y a … oiseaux dans l'arbre.",
+      "answer": "cinq"
+     },
+     {
+      "q": "Pip a … pattes.",
+      "answer": "deux"
+     },
+     {
+      "q": "Maintenant il y a … biscuits.",
+      "answer": "neuf"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choisis le bon nombre.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Deux plus deux font …",
+      "options": [
+       "quatre",
+       "cinq",
+       "trois"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu as ___ doigts à une main.",
+      "options": [
+       "cinq",
+       "dix",
+       "deux"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un chat a ___ pattes.",
+      "options": [
+       "quatre",
+       "deux",
+       "six"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Après six vient …",
+      "options": [
+       "sept",
+       "cinq",
+       "neuf"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le plus grand nombre ici est …",
+      "options": [
+       "dix",
+       "un",
+       "six"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Compte des choses dans la classe avec ton camarade : fenêtres, portes, sacs, chaussures. « Combien de fenêtres ? Deux ! »"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "A et B ne sont pas pareils. Trouve pourquoi !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Compte chez toi et écris : combien de portes, de lits, de chaises et de cuillères. Il y a…"
+  }
+ ],
+ "scope": {
+  "grado": "G1",
+  "temaN": 1,
+  "tema": "Bonjour le monde !",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Suivre les consignes de la classe ; reconnaître des mots connus dans une chanson ou une phrase courte."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Saluer ; dire son nom, son âge, les couleurs ; nommer des objets ; répondre par oui ou non."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Reconnaître les lettres de l'alphabet ; associer un mot à une image (famille, nourriture, animaux, corps)."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire son prénom ; recopier des mots ; légender une image (3 à 5 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~150 mots actifs ; le verbe être, un/une, c'est/ce sont, l'impératif."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [
+   "Les pronoms sujets : je, tu, il, elle"
+  ],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

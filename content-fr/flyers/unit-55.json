@@ -1,0 +1,688 @@
+{
+ "id": "flyers-fr-55",
+ "level": "flyers",
+ "number": 55,
+ "title": "La remise des diplômes de l'Aurore",
+ "topic": "bilan et fête",
+ "grammar": "bilan de tout le cours",
+ "wordlist": [
+  "remise des diplômes",
+  "diplôme",
+  "cérémonie",
+  "fier",
+  "se souvenir",
+  "aventure",
+  "ensemble",
+  "salut",
+  "futur",
+  "félicitations"
+ ],
+ "exam_focus": {
+  "paper": "Bilan",
+  "part": 0,
+  "skill": "tout le cours"
+ },
+ "characters": [
+  "ingrid",
+  "diego",
+  "maya",
+  "oliver",
+  "kili"
+ ],
+ "scene": {
+  "speaker": "ingrid",
+  "pose": {
+   "ingrid": 10,
+   "diego": 10,
+   "maya": 10,
+   "oliver": 10,
+   "kili": 1
+  },
+  "bubble": "Cinquante-cinq unités, des centaines de mots, une équipe formidable. Félicitations, explorateurs — vous êtes prêts !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Le mots croisés de la remise des diplômes — bilan du cours !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "AVENTURE",
+      "clue": "Un voyage passionnant — comme ce cours !"
+     },
+     {
+      "word": "DIPLOME",
+      "clue": "Le papier qui dit : tu l'as fait !"
+     },
+     {
+      "word": "ENSEMBLE",
+      "clue": "Pas tout seul — avec ton équipe."
+     },
+     {
+      "word": "SESOUVENIR",
+      "clue": "Garder quelque chose dans sa mémoire."
+     },
+     {
+      "word": "FIER",
+      "clue": "Ce que ta famille ressent pour toi aujourd'hui."
+     },
+     {
+      "word": "AVENIR",
+      "clue": "Demain, l'année prochaine, et tout ce qui vient après."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Associe chaque explorateur et son meilleur moment.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Explorateur",
+    "right_label": "Meilleur moment",
+    "pairs": [
+     {
+      "left": "Ingrid",
+      "right": "a mené la chasse au trésor du phare"
+     },
+     {
+      "left": "Diego",
+      "right": "a interviewé une vraie pompière"
+     },
+     {
+      "left": "Maya",
+      "right": "a expliqué la tempête comme une scientifique"
+     },
+     {
+      "left": "Oliver",
+      "right": "a chanté sous la pluie avec 500 personnes"
+     },
+     {
+      "left": "Kili",
+      "right": "a livré chaque lettre, même dans le vent"
+     },
+     {
+      "left": "Tu",
+      "right": "a fini les cinquante-cinq unités !"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute la cérémonie de remise des diplômes. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u55-c.mp3",
+   "data": {
+    "voice_note": "Voces: todo el elenco — ceremonia emotiva y divertida.",
+    "script": "Diego : Bienvenue à la cérémonie de l'Aurore, en direct du jardin de l'école ! … Ingrid : Explorateurs, vous avez appris des centaines de mots et vous n'avez jamais abandonné. … Maya : Scientifiquement parlant, vos cerveaux ont pris deux tailles. … Oliver : Cette chanson est pour vous. Elle s'appelle Prêts à Voler ! … Diego : Le directeur remet les diplômes. Ruban bleu, lettres dorées ! … Ingrid : Et le dernier diplôme est pour… Kili ! La meilleure mascotte de l'histoire. … Diego : Kili pleure de joie. Les condors font ça, apparemment. … Ingrid : Un, deux, trois… FÉLICITATIONS, EXPLORATEURS !",
+    "questions": [
+     {
+      "q": "La cérémonie est en direct du … de l'école.",
+      "answer": "jardin"
+     },
+     {
+      "q": "Maya dit que vos cerveaux ont pris deux …",
+      "answer": "plus grand"
+     },
+     {
+      "q": "La chanson d'Oliver s'appelle Prêts à …",
+      "answer": "Voler"
+     },
+     {
+      "q": "Les diplômes ont un … bleu.",
+      "answer": "ruban"
+     },
+     {
+      "q": "Le dernier diplôme est pour …",
+      "answer": "Kili"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Le bilan final · Choisis la bonne réponse.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Une question de chaque unité — tu sais encore le faire ?",
+    "items": [
+     {
+      "sentence": "Tu y mets tes vêtements quand tu voyages.",
+      "options": [
+       "une valise",
+       "une étagère",
+       "un timbre"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu as ___ rencontré une personne célèbre ?",
+      "options": [
+       "déjà",
+       "encore",
+       "déjà"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "La baleine est le ___ animal de la mer.",
+      "options": [
+       "le plus grand",
+       "plus grand",
+       "plus grand"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "S'il pleut, on ___ le pique-nique à l'intérieur.",
+      "options": [
+       "fera",
+       "avait",
+       "en train d'avoir"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Une personne ___ aide les malades est un infirmier.",
+      "options": [
+       "qui",
+       "quel",
+       "où"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · le discours de fin d'année",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Écris et prononce un discours de 30 secondes : ton unité préférée, le moment le plus drôle, une chose dont tu te souviendras, et un merci. La classe applaudit tout le monde !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Trouve les différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  },
+  {
+   "type": "picture_mc",
+   "title": "Écoute et coche la bonne case.",
+   "instructions": "Écoute chaque question et clique sur l'image qui répond.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 1,
+     "nombre": "Mon identité"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et cocher la bonne image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u55-h.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "Que montre Ingrid du doigt ?",
+      "answer": "remise des diplômes",
+      "options": [
+       {
+        "word": "uniforme",
+        "propio": true
+       },
+       {
+        "word": "remise des diplômes",
+        "propio": false
+       },
+       {
+        "word": "valise",
+        "propio": true
+       }
+      ],
+      "script": "Que montre Ingrid du doigt ? … Ingrid : Je montre la remise des diplômes."
+     },
+     {
+      "q": "De quoi Diego parle-t-il ?",
+      "answer": "ensemble",
+      "options": [
+       {
+        "word": "ceinture",
+        "propio": true
+       },
+       {
+        "word": "écharpe",
+        "propio": true
+       },
+       {
+        "word": "ensemble",
+        "propio": false
+       }
+      ],
+      "script": "De quoi Diego parle-t-il ? … Diego : Je parle de l'ensemble."
+     },
+     {
+      "q": "Quel mot Maya apprend-elle aujourd'hui ?",
+      "answer": "diplôme",
+      "options": [
+       {
+        "word": "diplôme",
+        "propio": false
+       },
+       {
+        "word": "uniforme",
+        "propio": true
+       },
+       {
+        "word": "restaurant",
+        "propio": true
+       }
+      ],
+      "script": "Quel mot Maya apprend-elle aujourd'hui ? … Maya : Aujourd'hui j'apprends le mot diplôme."
+     },
+     {
+      "q": "Qu'est-ce qu'Oliver a dessiné ?",
+      "answer": "aventure",
+      "options": [
+       {
+        "word": "aventure",
+        "propio": false
+       },
+       {
+        "word": "ceinture",
+        "propio": true
+       },
+       {
+        "word": "pont",
+        "propio": true
+       }
+      ],
+      "script": "Qu'est-ce qu'Oliver a dessiné ? … Oliver : J'ai dessiné une aventure."
+     },
+     {
+      "q": "Quelle image Bruno regarde-t-il ?",
+      "answer": "futur",
+      "options": [
+       {
+        "word": "château",
+        "propio": true
+       },
+       {
+        "word": "futur",
+        "propio": false
+       },
+       {
+        "word": "chaussettes",
+        "propio": true
+       }
+      ],
+      "script": "Quelle image Bruno regarde-t-il ? … Bruno : Je regarde l'avenir."
+     }
+    ],
+    "script": "Écoute et coche la bonne case. Il y a un exemple. … Que montre Ingrid du doigt ? … Ingrid : Je montre la remise des diplômes. … De quoi Diego parle-t-il ? … Diego : Je parle de l'ensemble. … Quel mot Maya apprend-elle aujourd'hui ? … Maya : Aujourd'hui j'apprends le mot diplôme. … Qu'est-ce qu'Oliver a dessiné ? … Oliver : J'ai dessiné une aventure. … Quelle image Bruno regarde-t-il ? … Bruno : Je regarde l'avenir.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "H"
+  },
+  {
+   "type": "match_pictures",
+   "title": "Écoute et associe chaque explorateur à une image.",
+   "instructions": "Écoute. Puis choisis la lettre de l'image pour chaque personne. Attention : certaines images sont en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 1,
+     "nombre": "Mon identité"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et associer chaque personne à une image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 3
+    }
+   },
+   "audio": "flyers/u55-i.mp3",
+   "data": {
+    "people": [
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "pose": 8
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 8
+     },
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 8
+     },
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "pose": 8
+     },
+     {
+      "slug": "samu",
+      "name": "Samu",
+      "pose": 3
+     }
+    ],
+    "pictures": [
+     {
+      "word": "aventure",
+      "propio": false,
+      "id": "A"
+     },
+     {
+      "word": "écharpe",
+      "propio": true,
+      "id": "B"
+     },
+     {
+      "word": "futur",
+      "propio": false,
+      "id": "C"
+     },
+     {
+      "word": "stade",
+      "propio": true,
+      "id": "D"
+     },
+     {
+      "word": "ensemble",
+      "propio": false,
+      "id": "E"
+     },
+     {
+      "word": "gants",
+      "propio": true,
+      "id": "F"
+     },
+     {
+      "word": "diplôme",
+      "propio": false,
+      "id": "G"
+     },
+     {
+      "word": "remise des diplômes",
+      "propio": false,
+      "id": "H"
+     }
+    ],
+    "answers": {
+     "Ingrid": "E",
+     "Diego": "A",
+     "Maya": "G",
+     "Oliver": "H",
+     "Samu": "C"
+    },
+    "script": "Écoute et associe chaque personne à une image. Il y a un exemple. … Diego : Ingrid, quelle image as-tu choisie ? … Ingrid : J'ai choisi l'ensemble. … Diego : Diego, quelle image as-tu choisie ? … Diego : J'ai choisi l'aventure. … Diego : Maya, quelle image as-tu choisie ? … Maya : J'ai choisi le diplôme. … Diego : Oliver, quelle image as-tu choisie ? … Oliver : J'ai choisi la remise des diplômes. … Diego : Samu, quelle image as-tu choisie ? … Samu : J'ai choisi l'avenir.",
+    "voice_note": "Diego pregunta; cada explorador responde con su objeto."
+   },
+   "code": "I"
+  },
+  {
+   "type": "picture_story",
+   "title": "Regarde les trois images et écris l'histoire.",
+   "instructions": "Regarde les images. Écris l'histoire en 20-25 mots. Aide-toi des mots sous chaque image.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 1,
+     "nombre": "Mon identité"
+    },
+    "destreza": "Writing",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots.",
+    "clase": "Type examen : histoire en images de 20 à 25 mots (production écrite)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "library",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 4
+       }
+      ],
+      "word": "diplôme",
+      "hint": "Ingrid / prend / un diplôme",
+      "model": "Ingrid prend un diplôme à la bibliothèque."
+     },
+     {
+      "n": 2,
+      "scene": "entrance",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 8
+       },
+       {
+        "slug": "diego",
+        "pose": 1
+       }
+      ],
+      "word": "futur",
+      "hint": "Diego / apporter / un avenir",
+      "model": "Ensuite Diego apporte un avenir."
+     },
+     {
+      "n": 3,
+      "scene": "classroom",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 10
+       },
+       {
+        "slug": "ingrid",
+        "pose": 10
+       }
+      ],
+      "word": "remise des diplômes",
+      "hint": "maintenant / une remise des diplômes / content",
+      "model": "Maintenant ils ont aussi une remise des diplômes, et tous les deux sont contents."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Ingrid prend un diplôme à la bibliothèque. Ensuite Diego apporte un avenir. Maintenant ils ont aussi une remise des diplômes, et tous les deux sont contents.",
+    "words": [
+     "diplôme",
+     "futur",
+     "remise des diplômes"
+    ],
+    "support": {
+     "grammar": "bilan de tout le cours",
+     "words": [
+      "remise des diplômes",
+      "diplôme",
+      "cérémonie",
+      "fier",
+      "se souvenir",
+      "aventure"
+     ]
+    }
+   },
+   "code": "J"
+  },
+  {
+   "type": "label_people",
+   "title": "Écoute et écris les prénoms.",
+   "instructions": "Regarde l'image. Écoute et écris le prénom sous chaque personne. Attention : il y a trois prénoms en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 1,
+     "nombre": "Mon identité"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et écrire le prénom de chaque personne de l'image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u55-g.mp3",
+   "data": {
+    "scene": "campus-hex",
+    "place": "la cour de l'école",
+    "people": [
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "clue": "la fille aux cheveux blonds et à la veste bleu foncé",
+      "action": "lit le programme de la journée",
+      "pose": 7
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "clue": "le garçon au t-shirt rouge avec un microphone",
+      "action": "pose des questions avec son microphone",
+      "pose": 7
+     },
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "clue": "la fille au t-shirt vert avec une loupe",
+      "action": "observe quelque chose de tout petit",
+      "pose": 7
+     },
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "clue": "le garçon aux cheveux roux et au t-shirt jaune",
+      "action": "chante",
+      "pose": 7
+     },
+     {
+      "slug": "kili",
+      "name": "Kili",
+      "clue": "le grand oiseau noir avec un collier blanc",
+      "action": "porte une lettre",
+      "pose": 3
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Bruno",
+     "Diego",
+     "Ingrid",
+     "Kili",
+     "Maya",
+     "Oliver",
+     "Tino"
+    ],
+    "script": "Regarde l'image. Écoute et écris les prénoms. Il y a un exemple. … Diego : Qui est-ce dans la cour de l'école ? La fille aux cheveux blonds et à la veste bleu foncé. … Maya : C'est Ingrid. Ingrid lit le programme de la journée. … Diego : Et qui est le garçon au t-shirt rouge avec un microphone ? … Maya : C'est Diego. Regarde, Diego pose des questions avec son microphone. … Diego : Et qui est la fille au t-shirt vert avec une loupe ? … Maya : C'est Maya. Regarde, Maya observe quelque chose de tout petit. … Diego : Et qui est le garçon aux cheveux roux et au t-shirt jaune ? … Maya : C'est Oliver. Regarde, Oliver chante. … Diego : Et qui est le grand oiseau noir avec un collier blanc ? … Maya : C'est Kili. Regarde, Kili porte une lettre.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris une lettre à toi-même dans le futur (5 phrases) : ce que tu as appris, ce dont tu es fier, et ce que tu seras peut-être un jour. Garde-la !"
+  }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 1,
+  "tema": "Mon identité",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Raconter des histoires au passé, au présent et au futur ; exprimer ses préférences avec des raisons."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et comprendre des histoires courtes (80 à 250 mots) ; trouver l'idée principale et les détails."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~2500 mots ; passé composé, questions négatives, si + présent, futur proche."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

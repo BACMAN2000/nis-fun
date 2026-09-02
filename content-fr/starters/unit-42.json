@@ -1,0 +1,298 @@
+{
+ "id": "starters-fr-42",
+ "level": "starters",
+ "number": 42,
+ "title": "Il est, elle est",
+ "topic": "il / elle",
+ "grammar": "Il est / Elle est / C'est",
+ "wordlist": [
+  "il",
+  "elle",
+  "ça",
+  "est",
+  "garçon",
+  "fille",
+  "maître",
+  "médecin",
+  "content",
+  "grand"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 2,
+  "skill": "des phrases"
+ },
+ "characters": [
+  "astrid",
+  "freya"
+ ],
+ "scene": {
+  "speaker": "astrid",
+  "pose": {
+   "astrid": 3,
+   "freya": 1
+  },
+  "bubble": "Magie de la grammaire : IL pour les garçons, ELLE pour les filles, et C'EST pour le poisson de Pip ! Facile quand on s'entraîne."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe la personne et il, elle ou c'est.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Personne / animal",
+    "right_label": "Mot + info",
+    "pairs": [
+     {
+      "left": "Tomás",
+      "right": "Il est rapide."
+     },
+     {
+      "left": "Freya",
+      "right": "Elle est curieuse."
+     },
+     {
+      "left": "le poisson",
+      "right": "C'est orange."
+     },
+     {
+      "left": "mon papa",
+      "right": "Il est grand."
+     },
+     {
+      "left": "la maîtresse Lily",
+      "right": "Elle est gentille."
+     },
+     {
+      "left": "le soleil",
+      "right": "C'est chaud."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis il, elle ou c'est.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "Voici Nico. ___ est drôle.",
+      "options": [
+       "Il",
+       "Elle",
+       "Ça"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Voici Astrid. ___ est bien rangée.",
+      "options": [
+       "Elle",
+       "Il",
+       "Ça"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Voici mon ballon. ___ rouge.",
+      "options": [
+       "Ça",
+       "Il",
+       "Elle"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Ma mamie est gentille. ___ fait des gâteaux.",
+      "options": [
+       "Elle",
+       "Il",
+       "Ça"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Pip est un oiseau. ___ est noir et blanc.",
+      "options": [
+       "Il",
+       "Elle seulement",
+       "Ils"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute. Qui est-ce ? Écris il, elle ou un prénom dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u42-c.mp3",
+   "data": {
+    "voice_note": "Voces: Astrid y Freya (jugando a adivinar personas).",
+    "script": "Astrid : Devine la personne ! Il est rapide et il adore le football. … Freya : Tomás ! C'est le plus rapide. … Astrid : Elle a les cheveux blonds et plein de questions. … Freya : C'est moi ! Freya ! … Astrid : Il est petit, noir et blanc, et il sait voler. … Freya : Pip ! C'est notre oiseau préféré. … Astrid : Elle est notre maîtresse et son sourire est grand. … Freya : Mademoiselle Lily ! Elle est si gentille. … Astrid : Tout juste ! Tu connais tout le monde !",
+    "questions": [
+     {
+      "q": "… est rapide et adore le football.",
+      "answer": "Tomás"
+     },
+     {
+      "q": "La fille avec plein de questions est …",
+      "answer": "Freya"
+     },
+     {
+      "q": "Pip sait …",
+      "answer": "voler"
+     },
+     {
+      "q": "La maîtresse est Mademoiselle …",
+      "answer": "Lily"
+     },
+     {
+      "q": "Son … est grand.",
+      "answer": "sourire"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Pour un garçon on dit …",
+      "options": [
+       "il",
+       "elle",
+       "ça"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Pour une fille on dit …",
+      "options": [
+       "elle",
+       "il",
+       "ça"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Pour un jouet on dit …",
+      "options": [
+       "ça",
+       "il",
+       "elle"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Ma mère est médecin. ___ aide les gens.",
+      "options": [
+       "Elle",
+       "Il",
+       "Ça"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Il ___ mon meilleur ami.",
+      "options": [
+       "est",
+       "sont",
+       "suis"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Montre (gentiment !) tes camarades et dis : « Il est… Elle est… » avec un mot gentil pour chacun (rapide, gentil, drôle). Cinq personnes !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Regarde A et B. Qu'est-ce qui change ?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris sur 3 personnes et 1 objet de chez toi : Il est… Elle est… C'est… (une phrase pour chacun)."
+  }
+ ],
+ "scope": {
+  "grado": "G2",
+  "temaN": 1,
+  "tema": "Tout sur moi",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues simples sur la famille, l'école, les animaux et la nourriture."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Répondre à des questions à partir d'une image ; décrire une image en phrases simples."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire des textes de 2 à 3 phrases ; associer images, mots et légendes courtes."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Recopier des mots et compléter des phrases courtes."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~450 mots ; présent, être et avoir, il y a, aimer + infinitif."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

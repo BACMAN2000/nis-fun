@@ -1,0 +1,468 @@
+{
+ "id": "flyers-fr-50",
+ "level": "flyers",
+ "number": 50,
+ "title": "Vite et bien",
+ "topic": "les adverbes",
+ "grammar": "les adverbes de manière : -ment, bien, vite",
+ "wordlist": [
+  "vite",
+  "lentement",
+  "soigneusement",
+  "doucement",
+  "fort",
+  "bien",
+  "mal",
+  "facilement",
+  "soudain",
+  "joyeusement"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 6,
+  "skill": "phrases à trous"
+ },
+ "characters": [
+  "oliver",
+  "maya"
+ ],
+ "scene": {
+  "speaker": "oliver",
+  "pose": {
+   "oliver": 3,
+   "maya": 1
+  },
+  "bubble": "Conseil de musique : ce n'est pas seulement CE que tu joues — c'est COMMENT tu le joues. Lentement, doucement, fort… c'est ça la magie !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe l'adjectif et son adverbe.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Adjectif",
+    "right_label": "Adverbe",
+    "pairs": [
+     {
+      "left": "rapide",
+      "right": "vite"
+     },
+     {
+      "left": "prudent",
+      "right": "soigneusement"
+     },
+     {
+      "left": "bon",
+      "right": "bien"
+     },
+     {
+      "left": "mauvais",
+      "right": "mal"
+     },
+     {
+      "left": "facile",
+      "right": "facilement"
+     },
+     {
+      "left": "content",
+      "right": "joyeusement"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis le bon adverbe.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "Porte les verres ___ — ils peuvent se casser !",
+      "options": [
+       "soigneusement",
+       "prudent",
+       "n'importe comment"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le bébé dort. Parle ___ !",
+      "options": [
+       "doucement",
+       "calme",
+       "fort"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Ingrid nage très ___ — elle gagne toutes les courses.",
+      "options": [
+       "bon",
+       "bien",
+       "bienment"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "___, la lumière s'est éteinte et tout le monde a crié !",
+      "options": [
+       "Soudain",
+       "Lentement",
+       "Joyeusement"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Maya a résolu le puzzle ___ — en deux minutes !",
+      "options": [
+       "facilement",
+       "facile",
+       "mal"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute le cours de musique. Écris un mot dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u50-c.mp3",
+   "data": {
+    "voice_note": "Voces: Oliver (profesor por un día) y Maya (alumna de guitarra).",
+    "script": "Oliver : Cours de guitare numéro un, Maya ! Première règle : tiens la guitare doucement, comme un bébé manchot. … Maya : Un bébé manchot. D'accord… … Oliver : Maintenant joue la première note lentement. Len-te-ment. … Maya : Comme ça ? … Oliver : Parfait ! Maintenant la même note rapidement. … Maya : Oh ! Elle sonne plus joyeuse quand c'est rapide ! … Oliver : Exactement ! Les notes rapides rient, les notes lentes rêvent. … Maya : Et les notes fortes ? … Oliver : Les notes fortes crient ! Mais joue doucement à la maison, ou tes voisins viendront te voir méchamment. … Maya : La science a des formules, la musique a des adverbes !",
+    "questions": [
+     {
+      "q": "Tiens la guitare doucement, comme un bébé …",
+      "answer": "pingouin"
+     },
+     {
+      "q": "D'abord joue la note …",
+      "answer": "lentement"
+     },
+     {
+      "q": "La note sonne … quand c'est rapide.",
+      "answer": "plus content"
+     },
+     {
+      "q": "Les notes lentes …",
+      "answer": "rêve"
+     },
+     {
+      "q": "Joue doucement à la maison ou les voisins viendront …",
+      "answer": "méchamment"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Une tortue marche …",
+      "options": [
+       "lentement",
+       "vite",
+       "fort"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Il chante ___ — ferme les fenêtres !",
+      "options": [
+       "mal",
+       "mauvais",
+       "bon"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le contraire de fort est …",
+      "options": [
+       "doucement",
+       "vite",
+       "facilement"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Elle parle trois langues très …",
+      "options": [
+       "bien",
+       "bon",
+       "le meilleur"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Ils vécurent ___ et eurent beaucoup d'enfants. Fin !",
+      "options": [
+       "joyeusement",
+       "content",
+       "plus content"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Théâtre des adverbes : ton camarade te donne une action et un adverbe (« manger de la soupe… méchamment ! »). Joue-le ! Puis échangez. Quatre tours — la classe choisit la meilleure performance."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Trouve les différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  },
+  {
+   "type": "picture_story",
+   "title": "Regarde les trois images et écris l'histoire.",
+   "instructions": "Regarde les images. Écris l'histoire en 20-25 mots. Aide-toi des mots sous chaque image.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "La nature"
+    },
+    "destreza": "Writing",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots.",
+    "clase": "Type examen : histoire en images de 20 à 25 mots (production écrite)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "garden",
+      "people": [
+       {
+        "slug": "oliver",
+        "pose": 4
+       }
+      ],
+      "word": "",
+      "hint": "Oliver / dans le jardin de l'école",
+      "model": "Un matin Oliver est au jardin de l'école."
+     },
+     {
+      "n": 2,
+      "scene": "labyrinth",
+      "people": [
+       {
+        "slug": "oliver",
+        "pose": 3
+       },
+       {
+        "slug": "maya",
+        "pose": 3
+       }
+      ],
+      "word": "",
+      "hint": "Oliver / rencontrer / Maya",
+      "model": "Ensuite Oliver rencontre Maya au labyrinthe."
+     },
+     {
+      "n": 3,
+      "scene": "mirador",
+      "people": [
+       {
+        "slug": "oliver",
+        "pose": 10
+       },
+       {
+        "slug": "maya",
+        "pose": 10
+       }
+      ],
+      "word": "",
+      "hint": "au belvédère / content",
+      "model": "Au belvédère ils sont très contents ensemble."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Un matin Oliver est au jardin de l'école. Ensuite Oliver rencontre Maya au labyrinthe. Au belvédère ils sont très contents ensemble.",
+    "words": [],
+    "support": {
+     "grammar": "les adverbes de manière : -ment, bien, vite",
+     "words": [
+      "vite",
+      "lentement",
+      "soigneusement",
+      "doucement",
+      "fort",
+      "bien"
+     ]
+    }
+   },
+   "code": "H"
+  },
+  {
+   "type": "label_people",
+   "title": "Écoute et écris les prénoms.",
+   "instructions": "Regarde l'image. Écoute et écris le prénom sous chaque personne. Attention : il y a trois prénoms en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "La nature"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et écrire le prénom de chaque personne de l'image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u50-g.mp3",
+   "data": {
+    "scene": "mirador",
+    "place": "le belvédère",
+    "people": [
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "clue": "le garçon aux cheveux roux et au t-shirt jaune",
+      "action": "chante",
+      "pose": 7
+     },
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "clue": "la fille au t-shirt vert avec une loupe",
+      "action": "observe quelque chose de tout petit",
+      "pose": 7
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "clue": "le garçon aux cheveux bruns bouclés et au t-shirt vert",
+      "action": "court après le ballon",
+      "pose": 7
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "clue": "la fille aux nattes noires et au t-shirt violet",
+      "action": "saute à la corde",
+      "pose": 7
+     },
+     {
+      "slug": "aiko",
+      "name": "Aiko",
+      "clue": "la fille aux longs cheveux noirs raides et au t-shirt orange",
+      "action": "lit un livre",
+      "pose": 7
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Bruno",
+     "Diego",
+     "Ingrid",
+     "Lia",
+     "Maya",
+     "Oliver",
+     "Samu"
+    ],
+    "script": "Regarde l'image. Écoute et écris les prénoms. Il y a un exemple. … Diego : Qui est-ce au belvédère ? Le garçon aux cheveux roux et au t-shirt jaune. … Maya : C'est Oliver. Oliver chante. … Diego : Et qui est la fille au t-shirt vert avec une loupe ? … Maya : C'est Maya. Regarde, Maya observe quelque chose de tout petit. … Diego : Et qui est le garçon aux cheveux bruns bouclés et au t-shirt vert ? … Maya : C'est Bruno. Regarde, Bruno court après le ballon. … Diego : Et qui est la fille aux nattes noires et au t-shirt violet ? … Maya : C'est Lia. Regarde, Lia saute à la corde. … Diego : Et qui est la fille aux longs cheveux noirs raides et au t-shirt orange ? … Maya : C'est Aiko. Regarde, Aiko lit un livre.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris 5 phrases sur la façon dont les gens de ta famille font les choses : Ma mamie cuisine lentement et bien. Mon frère…"
+  }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 3,
+  "tema": "La nature",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Raconter des histoires au passé, au présent et au futur ; exprimer ses préférences avec des raisons."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et comprendre des histoires courtes (80 à 250 mots) ; trouver l'idée principale et les détails."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~2500 mots ; passé composé, questions négatives, si + présent, futur proche."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

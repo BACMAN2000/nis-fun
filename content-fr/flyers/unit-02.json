@@ -1,0 +1,816 @@
+{
+ "id": "flyers-fr-02",
+ "level": "flyers",
+ "number": 2,
+ "title": "Les endroits où on va",
+ "topic": "lieux",
+ "grammar": "le passé composé : est allé / a vu / était",
+ "wordlist": [
+  "musée",
+  "théâtre",
+  "château",
+  "stade",
+  "aéroport",
+  "fête foraine",
+  "pharmacie",
+  "pont",
+  "commissariat",
+  "restaurant"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 1,
+  "skill": "lieux et activités"
+ },
+ "characters": [
+  "diego",
+  "maya"
+ ],
+ "scene": {
+  "speaker": "diego",
+  "pose": {
+   "diego": 3,
+   "maya": 1
+  },
+  "bubble": "C'est Diego, le reporter de l'Expédition Aurore ! Maya, où es-tu allée ce week-end ?",
+  "intro": "Le reporter Diego a une nouvelle mission : faire la carte de tous les endroits extraordinaires de la ville ! Samedi, il suit Maya avec son microphone — au musée avec les os de dinosaure, sur le vieux pont au-dessus de la rivière verte, et au théâtre où un dragon apparaît sur la scène. Certains endroits sont bruyants, d'autres sont calmes, et l'un d'eux cache la meilleure glace de la ville. Et TOI, où vas-tu le week-end ? Allons voir comment on en parle !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe le lieu et ce qu'on y fait.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Lieu",
+    "right_label": "Ce qu'on y fait",
+    "pairs": [
+     {
+      "left": "théâtre",
+      "right": "regarder une pièce de théâtre"
+     },
+     {
+      "left": "fête foraine",
+      "right": "faire des manèges"
+     },
+     {
+      "left": "pharmacie",
+      "right": "acheter des médicaments"
+     },
+     {
+      "left": "stade",
+      "right": "regarder un match de football"
+     },
+     {
+      "left": "restaurant",
+      "right": "dîner"
+     },
+     {
+      "left": "commissariat",
+      "right": "demander de l'aide à un policier"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "crossword",
+   "title": "Où sont-ils ? Écris les lieux.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "THEATRE",
+      "clue": "On vient ici pour voir des pièces et des spectacles."
+     },
+     {
+      "word": "CHATEAU",
+      "clue": "Un très vieux bâtiment où vivaient les rois et les reines."
+     },
+     {
+      "word": "STADE",
+      "clue": "Des milliers de gens y regardent des matchs de football."
+     },
+     {
+      "word": "MUSEE",
+      "clue": "On peut y voir des choses très vieilles et très intéressantes."
+     },
+     {
+      "word": "AEROPORT",
+      "clue": "On vient ici pour prendre l'avion."
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute l'interview de Diego. Où est allée Maya ? Écris un mot dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u02-c.mp3",
+   "data": {
+    "voice_note": "Voces: Diego (reportero, enérgico) y Maya (científica, tranquila).",
+    "script": "Diego : Bonjour Maya ! Ici Radio Aurore. Où es-tu allée ce week-end ? … Maya : Salut Diego ! Samedi matin je suis allée au musée avec ma tante. … Diego : Au musée ? Qu'est-ce que tu as vu ? … Maya : On a vu des os de dinosaure ! Ensuite on a déjeuné dans un restaurant près du pont. … Diego : Super ! Et l'après-midi ? … Maya : On a vu une pièce au théâtre. C'était l'histoire d'un dragon. … Diego : Et dimanche ? … Maya : Dimanche l'équipe de mon cousin jouait, alors on est allés au stade. Ils ont gagné deux à un ! … Diego : Quel week-end ! Merci, Maya.",
+    "questions": [
+     {
+      "q": "Samedi matin Maya est allée au …",
+      "answer": "musée"
+     },
+     {
+      "q": "Là-bas elle a vu des … de dinosaure.",
+      "answer": "os"
+     },
+     {
+      "q": "Ils ont déjeuné dans un restaurant près du …",
+      "answer": "pont"
+     },
+     {
+      "q": "La pièce au théâtre parlait d'un …",
+      "answer": "dragon"
+     },
+     {
+      "q": "Dimanche ils sont allés au …",
+      "answer": "stade"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Lecture : lis le journal de Maya et choisis la bonne réponse.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Lis le texte. Choisis la bonne réponse à chaque question.",
+    "text": "Samedi, c'était fantastique ! Le matin, tante Rosa m'a emmenée au musée de la ville. Ma salle préférée, c'est celle des os de dinosaure — certains ont quatre-vingts millions d'années ! À midi on avait faim, alors on a mangé du riz et du poisson dans un petit restaurant près du vieux pont. L'après-midi, on a vu une pièce sur un gentil dragon au théâtre. Dimanche, l'équipe de football de mon cousin jouait au grand stade. Ils ont gagné, et mon cousin a marqué le premier but !",
+    "items": [
+     {
+      "sentence": "Avec qui Maya est-elle allée au musée ?",
+      "options": [
+       "son cousin",
+       "sa tante",
+       "Diego"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Qu'est-ce qu'il y avait dans la salle préférée de Maya ?",
+      "options": [
+       "de vieux tableaux",
+       "des os de dinosaure",
+       "des bagues en or"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Où était le restaurant ?",
+      "options": [
+       "près du pont",
+       "dans le stade",
+       "à côté du théâtre"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "La pièce au théâtre parlait…",
+      "options": [
+       "d'une équipe de football",
+       "d'un musée",
+       "d'un dragon"
+      ],
+      "answer": 2
+     },
+     {
+      "sentence": "Qui a marqué le premier but dimanche ?",
+      "options": [
+       "Maya",
+       "le cousin de Maya",
+       "tante Rosa"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "L'élève A mime quelque chose qu'on fait dans un des lieux de la liste. L'élève B devine le lieu avec une question complète : « Tu es allé à la fête foraine ? » Puis on échange."
+   }
+  },
+  {
+   "code": "F",
+   "type": "match_words",
+   "title": "Trouve la réponse à chaque question. Attention — il y a une réponse en trop !",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Question",
+    "right_label": "Réponse",
+    "pairs": [
+     {
+      "left": "Comment vas-tu à l'école tous les matins ?",
+      "right": "En tram, mais je marche quand il fait beau."
+     },
+     {
+      "left": "Qu'est-ce que tu fais quand tu vas à la fête foraine ?",
+      "right": "Je fais trois tours de grande roue !"
+     },
+     {
+      "left": "Où achète-t-on des médicaments dans ta ville ?",
+      "right": "À la pharmacie à côté de la banque."
+     },
+     {
+      "left": "Qu'est-ce que tu as vu au musée la semaine dernière ?",
+      "right": "De très vieilles pièces et une couronne en or."
+     },
+     {
+      "left": "Avec qui es-tu assis au stade ?",
+      "right": "Avec mon papa et ma petite sœur."
+     },
+     {
+      "left": "Le soir, le théâtre ouvre à quelle heure ?",
+      "right": "À six heures et demie, une heure avant la pièce."
+     }
+    ],
+    "extra": [
+     "C'est en bois et en verre."
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "gap_text",
+   "title": "Lis le week-end de Maya. Écris les mots qui manquent.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "museum",
+     "bones",
+     "bridge",
+     "dragon",
+     "stadium",
+     "three",
+     "funfair",
+     "tickets"
+    ],
+    "text": "Samedi matin, Maya et sa tante ont visité le {1} de la ville, où elles ont vu des {2} de dinosaure vieux de quatre-vingts millions d'années. À midi elles ont mangé du riz et du poisson dans un petit restaurant à côté du vieux {3} en pierre. L'après-midi elles ont vu une pièce sur un gentil {4} au théâtre. Dimanche, toute la famille est allée au {5} pour voir le match du cousin. Après le match, ils ont fêté ça avec les plus grandes glaces de la ville — Maya a choisi {6} parfums : chocolat, citron et mangue !",
+    "answers": [
+     "museum",
+     "bones",
+     "bridge",
+     "dragon",
+     "stadium",
+     "three"
+    ]
+   }
+  },
+  {
+   "code": "H",
+   "type": "spot_diff",
+   "title": "Deux vues de la ville ! Trouve les différences.",
+   "outputs": [
+    "digital",
+    "book"
+   ],
+   "data": {
+    "diffs": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "type": "picture_mc",
+   "title": "Écoute et coche la bonne case.",
+   "instructions": "Écoute chaque question et clique sur l'image qui répond.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 4,
+     "nombre": "Gens et cultures"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et cocher la bonne image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u02-j.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "De quoi Diego parle-t-il ?",
+      "answer": "restaurant",
+      "options": [
+       {
+        "word": "musée",
+        "propio": true
+       },
+       {
+        "word": "restaurant",
+        "propio": true
+       },
+       {
+        "word": "pharmacie",
+        "propio": true
+       }
+      ],
+      "script": "De quoi Diego parle-t-il ? … Diego : Je parle du restaurant."
+     },
+     {
+      "q": "Quel mot Maya apprend-elle aujourd'hui ?",
+      "answer": "pont",
+      "options": [
+       {
+        "word": "stade",
+        "propio": true
+       },
+       {
+        "word": "aéroport",
+        "propio": true
+       },
+       {
+        "word": "pont",
+        "propio": true
+       }
+      ],
+      "script": "Quel mot Maya apprend-elle aujourd'hui ? … Maya : Aujourd'hui j'apprends le mot pont."
+     },
+     {
+      "q": "Qu'est-ce que Bruno a dessiné ?",
+      "answer": "château",
+      "options": [
+       {
+        "word": "château",
+        "propio": true
+       },
+       {
+        "word": "musée",
+        "propio": true
+       },
+       {
+        "word": "théâtre",
+        "propio": true
+       }
+      ],
+      "script": "Qu'est-ce que Bruno a dessiné ? … Bruno : J'ai dessiné un château."
+     },
+     {
+      "q": "Quelle image Iris regarde-t-elle ?",
+      "answer": "fête foraine",
+      "options": [
+       {
+        "word": "théâtre",
+        "propio": true
+       },
+       {
+        "word": "aéroport",
+        "propio": true
+       },
+       {
+        "word": "fête foraine",
+        "propio": true
+       }
+      ],
+      "script": "Quelle image Iris regarde-t-elle ? … Iris : Je regarde la fête foraine."
+     },
+     {
+      "q": "Qu'est-ce que Tino voit sur l'image ?",
+      "answer": "pharmacie",
+      "options": [
+       {
+        "word": "pharmacie",
+        "propio": true
+       },
+       {
+        "word": "théâtre",
+        "propio": true
+       },
+       {
+        "word": "château",
+        "propio": true
+       }
+      ],
+      "script": "Qu'est-ce que Tino voit sur l'image ? … Tino : Je vois la pharmacie."
+     }
+    ],
+    "script": "Écoute et coche la bonne case. Il y a un exemple. … De quoi Diego parle-t-il ? … Diego : Je parle du restaurant. … Quel mot Maya apprend-elle aujourd'hui ? … Maya : Aujourd'hui j'apprends le mot pont. … Qu'est-ce que Bruno a dessiné ? … Bruno : J'ai dessiné un château. … Quelle image Iris regarde-t-elle ? … Iris : Je regarde la fête foraine. … Qu'est-ce que Tino voit sur l'image ? … Tino : Je vois la pharmacie.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "J"
+  },
+  {
+   "type": "match_pictures",
+   "title": "Écoute et associe chaque explorateur à une image.",
+   "instructions": "Écoute. Puis choisis la lettre de l'image pour chaque personne. Attention : certaines images sont en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 4,
+     "nombre": "Gens et cultures"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et associer chaque personne à une image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 3
+    }
+   },
+   "audio": "flyers/u02-k.mp3",
+   "data": {
+    "people": [
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 8
+     },
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 8
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "pose": 3
+     },
+     {
+      "slug": "tino",
+      "name": "Tino",
+      "pose": 3
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "pose": 3
+     }
+    ],
+    "pictures": [
+     {
+      "word": "parapluie",
+      "propio": true,
+      "id": "A"
+     },
+     {
+      "word": "musée",
+      "propio": true,
+      "id": "B"
+     },
+     {
+      "word": "stade",
+      "propio": true,
+      "id": "C"
+     },
+     {
+      "word": "écharpe",
+      "propio": true,
+      "id": "D"
+     },
+     {
+      "word": "pharmacie",
+      "propio": true,
+      "id": "E"
+     },
+     {
+      "word": "pont",
+      "propio": true,
+      "id": "F"
+     },
+     {
+      "word": "château",
+      "propio": true,
+      "id": "G"
+     },
+     {
+      "word": "uniforme",
+      "propio": true,
+      "id": "H"
+     }
+    ],
+    "answers": {
+     "Diego": "B",
+     "Maya": "C",
+     "Iris": "G",
+     "Tino": "E",
+     "Lia": "F"
+    },
+    "script": "Écoute et associe chaque personne à une image. Il y a un exemple. … Diego : Diego, quelle image as-tu choisie ? … Diego : J'ai choisi le musée. … Diego : Maya, quelle image as-tu choisie ? … Maya : J'ai choisi le stade. … Diego : Iris, quelle image as-tu choisie ? … Iris : J'ai choisi le château. … Diego : Tino, quelle image as-tu choisie ? … Tino : J'ai choisi la pharmacie. … Diego : Lia, quelle image as-tu choisie ? … Lia : J'ai choisi le pont.",
+    "voice_note": "Diego pregunta; cada explorador responde con su objeto."
+   },
+   "code": "K"
+  },
+  {
+   "type": "picture_story",
+   "title": "Regarde les trois images et écris l'histoire.",
+   "instructions": "Regarde les images. Écris l'histoire en 20-25 mots. Aide-toi des mots sous chaque image.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 4,
+     "nombre": "Gens et cultures"
+    },
+    "destreza": "Writing",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots.",
+    "clase": "Type examen : histoire en images de 20 à 25 mots (production écrite)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "funfair",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 4
+       }
+      ],
+      "word": "pont",
+      "hint": "Diego / porte / un pont",
+      "model": "Diego porte un pont à la fête foraine."
+     },
+     {
+      "n": 2,
+      "scene": "facade",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 8
+       },
+       {
+        "slug": "maya",
+        "pose": 1
+       }
+      ],
+      "word": "pharmacie",
+      "hint": "Maya / apporter / une pharmacie",
+      "model": "Ensuite Maya apporte une pharmacie."
+     },
+     {
+      "n": 3,
+      "scene": "main-building",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 10
+       },
+       {
+        "slug": "diego",
+        "pose": 10
+       }
+      ],
+      "word": "musée",
+      "hint": "maintenant / un musée / content",
+      "model": "Maintenant ils ont aussi un musée, et tous les deux sont contents."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Diego porte un pont à la fête foraine. Ensuite Maya apporte une pharmacie. Maintenant ils ont aussi un musée, et tous les deux sont contents.",
+    "words": [
+     "pont",
+     "pharmacie",
+     "musée"
+    ],
+    "support": {
+     "grammar": "le passé composé : est allé / a vu / était",
+     "words": [
+      "musée",
+      "théâtre",
+      "château",
+      "stade",
+      "aéroport",
+      "fête foraine"
+     ]
+    }
+   },
+   "code": "L"
+  },
+  {
+   "type": "label_people",
+   "title": "Écoute et écris les prénoms.",
+   "instructions": "Regarde l'image. Écoute et écris le prénom sous chaque personne. Attention : il y a trois prénoms en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 4,
+     "nombre": "Gens et cultures"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et écrire le prénom de chaque personne de l'image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u02-i.mp3",
+   "data": {
+    "scene": "amphitheater",
+    "place": "l'amphithéâtre",
+    "people": [
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "clue": "le garçon au t-shirt rouge avec un microphone",
+      "action": "pose des questions avec son microphone",
+      "pose": 7
+     },
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "clue": "la fille au t-shirt vert avec une loupe",
+      "action": "observe quelque chose de tout petit",
+      "pose": 7
+     },
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "clue": "la fille aux cheveux blonds et à la veste bleu foncé",
+      "action": "lit le programme de la journée",
+      "pose": 7
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "clue": "la fille aux nattes noires et au t-shirt violet",
+      "action": "saute à la corde",
+      "pose": 7
+     },
+     {
+      "slug": "kili",
+      "name": "Kili",
+      "clue": "le grand oiseau noir avec un collier blanc",
+      "action": "porte une lettre",
+      "pose": 3
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Bruno",
+     "Diego",
+     "Ingrid",
+     "Kili",
+     "Lia",
+     "Maya",
+     "Mr Vega"
+    ],
+    "script": "Regarde l'image. Écoute et écris les prénoms. Il y a un exemple. … Diego : Qui est-ce dans l'amphithéâtre ? Le garçon au t-shirt rouge avec un microphone. … Maya : C'est Diego. Diego pose des questions avec son microphone. … Diego : Et qui est la fille au t-shirt vert avec une loupe ? … Maya : C'est Maya. Regarde, Maya observe quelque chose de tout petit. … Diego : Et qui est la fille aux cheveux blonds et à la veste bleu foncé ? … Maya : C'est Ingrid. Regarde, Ingrid lit le programme de la journée. … Diego : Et qui est la fille aux nattes noires et au t-shirt violet ? … Maya : C'est Lia. Regarde, Lia saute à la corde. … Diego : Et qui est le grand oiseau noir avec un collier blanc ? … Maya : C'est Kili. Regarde, Kili porte une lettre.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "I"
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris 5 phrases sur ton dernier week-end avec est allé / a vu / était. Utilise au moins 3 lieux de la liste."
+  }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 4,
+  "tema": "Gens et cultures",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Raconter des histoires au passé, au présent et au futur ; exprimer ses préférences avec des raisons."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et comprendre des histoires courtes (80 à 250 mots) ; trouver l'idée principale et les détails."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~2500 mots ; passé composé, questions négatives, si + présent, futur proche."
+   }
+  ],
+  "vocabulario": [
+   "tradition",
+   "coutume",
+   "cérémonie",
+   "ancêtre",
+   "patrimoine",
+   "fête"
+  ],
+  "gramatica": [
+   "Comparatif et superlatif : les formes irrégulières"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "tradition",
+    "custom",
+    "ceremony",
+    "ancestor",
+    "heritage",
+    "festival"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "tradition",
+  "coutume",
+  "cérémonie",
+  "ancêtre",
+  "patrimoine",
+  "fête"
+ ],
+ "lang": "fr"
+}

@@ -1,0 +1,772 @@
+{
+ "id": "flyers-fr-18",
+ "level": "flyers",
+ "number": 18,
+ "title": "Quelle heure est-il ?",
+ "topic": "dire l'heure",
+ "grammar": "et quart / et demie / moins le quart",
+ "wordlist": [
+  "minuit",
+  "midi",
+  "quart",
+  "et demie",
+  "tôt",
+  "tard",
+  "se dépêcher",
+  "heures",
+  "minute",
+  "réveil"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 2,
+  "skill": "prise de notes"
+ },
+ "characters": [
+  "ingrid",
+  "diego"
+ ],
+ "scene": {
+  "speaker": "ingrid",
+  "pose": {
+   "ingrid": 2,
+   "diego": 7
+  },
+  "bubble": "L'emploi du temps de l'expédition est strict, Diego ! Petit-déjeuner à sept heures et quart — et tu es ENCORE en retard !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe l'heure du cadran et les mots.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Chiffres",
+    "right_label": "En mots",
+    "pairs": [
+     {
+      "left": "7:15",
+      "right": "sept heures et quart"
+     },
+     {
+      "left": "7:30",
+      "right": "sept heures et demie"
+     },
+     {
+      "left": "7:45",
+      "right": "huit heures moins le quart"
+     },
+     {
+      "left": "minuit",
+      "right": "minuit"
+     },
+     {
+      "left": "midi",
+      "right": "midi"
+     },
+     {
+      "left": "neuf heures pile",
+      "right": "neuf heures"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "En avance ou en retard ? Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "L'école commence à 8 h 00. Diego arrive à 8 h 20. Il est …",
+      "options": [
+       "tôt",
+       "tard",
+       "prêt"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Le film commence à 18 h 00. On arrive à 17 h 40. On est …",
+      "options": [
+       "tard",
+       "tôt",
+       "lent"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "« ___-toi ! Le bus part dans deux minutes ! »",
+      "options": [
+       "Dépêche",
+       "Dors",
+       "Assieds-toi"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Mon ___ sonne à six heures et demie.",
+      "options": [
+       "réveil",
+       "mur",
+       "soleil"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Soixante secondes font une …",
+      "options": [
+       "heure",
+       "minute",
+       "jour"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute l'emploi du temps de l'expédition. Écris une heure ou un mot dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u18-c.mp3",
+   "data": {
+    "voice_note": "Voces: Ingrid (leyendo el horario) y Diego (apuntando).",
+    "script": "Ingrid : Écoute bien, Diego. Le petit-déjeuner est à sept heures et quart. … Diego : Sept heures et quart, compris. … Ingrid : Le bateau part à huit heures et demie — si tu es en retard, tu nages ! … Diego : Ha ! Et on arrive à l'île à quelle heure ? … Ingrid : À midi, si la mer est calme. … Diego : Le pique-nique, c'est quand ? … Ingrid : À une heure, sur la plage. … Diego : Et le retour ? … Ingrid : On repart à cinq heures moins le quart. Mets ton réveil ! … Diego : Ne t'inquiète pas, capitaine. Je mettrai deux réveils !",
+    "questions": [
+     {
+      "q": "Le petit-déjeuner est à sept heures et …",
+      "answer": "sept"
+     },
+     {
+      "q": "Le bateau part à huit heures et …",
+      "answer": "huit"
+     },
+     {
+      "q": "Ils arrivent à l'île à …",
+      "answer": "midi"
+     },
+     {
+      "q": "Le pique-nique est à une …",
+      "answer": "heures"
+     },
+     {
+      "q": "Diego mettra deux …",
+      "answer": "réveils"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "7 h 45, c'est huit heures ___ le quart.",
+      "options": [
+       "passé",
+       "à",
+       "à"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "12 h 00 la nuit, c'est …",
+      "options": [
+       "midi",
+       "minuit",
+       "matin"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "3 h 30, c'est trois heures ___.",
+      "options": [
+       "quart",
+       "moitié",
+       "dix"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Le contraire d'en avance est en …",
+      "options": [
+       "tard",
+       "rapide",
+       "prêt"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Quelle heure ___-il ? » — « Il est dix heures. »",
+      "options": [
+       "sont",
+       "est",
+       "fait"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "L'élève A dessine une heure sur une feuille. L'élève B la dit en mots (« Il est quatre heures moins le quart ») et raconte une chose qu'il fait à cette heure-là. Cinq horloges chacun."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "A et B ne sont pas pareils. Trouve pourquoi !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  },
+  {
+   "type": "picture_story",
+   "title": "Regarde les trois images et écris l'histoire.",
+   "instructions": "Regarde les images. Écris l'histoire en 20-25 mots. Aide-toi des mots sous chaque image.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 2,
+     "nombre": "La vie de tous les jours"
+    },
+    "destreza": "Writing",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots.",
+    "clase": "Type examen : histoire en images de 20 à 25 mots (production écrite)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "main-building",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 4
+       }
+      ],
+      "word": "",
+      "hint": "Ingrid / dans le bâtiment principal",
+      "model": "Un matin Ingrid est dans le bâtiment principal."
+     },
+     {
+      "n": 2,
+      "scene": "chess-plaza",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 3
+       },
+       {
+        "slug": "diego",
+        "pose": 3
+       }
+      ],
+      "word": "",
+      "hint": "Ingrid / rencontrer / Diego",
+      "model": "Ensuite Ingrid rencontre Diego à la place des échecs."
+     },
+     {
+      "n": 3,
+      "scene": "picnic-garden",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 10
+       },
+       {
+        "slug": "diego",
+        "pose": 10
+       }
+      ],
+      "word": "",
+      "hint": "au jardin du pique-nique / content",
+      "model": "Au jardin du pique-nique ils sont très contents ensemble."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Un matin Ingrid est dans le bâtiment principal. Ensuite Ingrid rencontre Diego à la place des échecs. Au jardin du pique-nique ils sont très contents ensemble.",
+    "words": [],
+    "support": {
+     "grammar": "et quart / et demie / moins le quart",
+     "words": [
+      "minuit",
+      "midi",
+      "quart",
+      "et demie",
+      "tôt",
+      "tard"
+     ]
+    }
+   },
+   "code": "H"
+  },
+  {
+   "type": "picture_mc",
+   "title": "Écoute et coche la bonne case.",
+   "instructions": "Écoute chaque question et clique sur l'image qui répond.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 2,
+     "nombre": "La vie de tous les jours"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et cocher la bonne image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u18-i.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "À quelle heure commence le cours d'Ingrid ?",
+      "answer": "sept heures",
+      "options": [
+       {
+        "k": "clock",
+        "h": 8,
+        "m": 15,
+        "v": "quarter past eight",
+        "pie": "quarter past eight"
+       },
+       {
+        "k": "clock",
+        "h": 7,
+        "m": 0,
+        "v": "seven o'clock",
+        "pie": "seven o'clock"
+       },
+       {
+        "k": "clock",
+        "h": 11,
+        "m": 15,
+        "v": "quarter past eleven",
+        "pie": "quarter past eleven"
+       }
+      ],
+      "script": "À quelle heure commence le cours d'Ingrid ? … Ingrid : Mon cours commence à sept heures."
+     },
+     {
+      "q": "À quelle heure commence le cours de Diego ?",
+      "answer": "cinq heures moins le quart",
+      "options": [
+       {
+        "k": "clock",
+        "h": 10,
+        "m": 30,
+        "v": "half past ten",
+        "pie": "half past ten"
+       },
+       {
+        "k": "clock",
+        "h": 4,
+        "m": 45,
+        "v": "quarter to five",
+        "pie": "quarter to five"
+       },
+       {
+        "k": "clock",
+        "h": 11,
+        "m": 15,
+        "v": "quarter past eleven",
+        "pie": "quarter past eleven"
+       }
+      ],
+      "script": "À quelle heure commence le cours de Diego ? … Diego : Mon cours commence à cinq heures moins le quart."
+     },
+     {
+      "q": "À quelle heure commence le cours d'Aiko ?",
+      "answer": "six heures et demie",
+      "options": [
+       {
+        "k": "clock",
+        "h": 10,
+        "m": 30,
+        "v": "half past ten",
+        "pie": "half past ten"
+       },
+       {
+        "k": "clock",
+        "h": 4,
+        "m": 45,
+        "v": "quarter to five",
+        "pie": "quarter to five"
+       },
+       {
+        "k": "clock",
+        "h": 6,
+        "m": 30,
+        "v": "half past six",
+        "pie": "half past six"
+       }
+      ],
+      "script": "À quelle heure commence le cours d'Aiko ? … Aiko : Mon cours commence à six heures et demie."
+     },
+     {
+      "q": "À quelle heure commence le cours de Maya ?",
+      "answer": "six heures et demie",
+      "options": [
+       {
+        "k": "clock",
+        "h": 10,
+        "m": 30,
+        "v": "half past ten",
+        "pie": "half past ten"
+       },
+       {
+        "k": "clock",
+        "h": 11,
+        "m": 15,
+        "v": "quarter past eleven",
+        "pie": "quarter past eleven"
+       },
+       {
+        "k": "clock",
+        "h": 6,
+        "m": 30,
+        "v": "half past six",
+        "pie": "half past six"
+       }
+      ],
+      "script": "À quelle heure commence le cours de Maya ? … Maya : Mon cours commence à six heures et demie."
+     },
+     {
+      "q": "À quelle heure commence le cours de Bruno ?",
+      "answer": "midi",
+      "options": [
+       {
+        "k": "clock",
+        "h": 10,
+        "m": 30,
+        "v": "half past ten",
+        "pie": "half past ten"
+       },
+       {
+        "k": "clock",
+        "h": 12,
+        "m": 0,
+        "v": "twelve o'clock",
+        "pie": "twelve o'clock"
+       },
+       {
+        "k": "clock",
+        "h": 8,
+        "m": 15,
+        "v": "quarter past eight",
+        "pie": "quarter past eight"
+       }
+      ],
+      "script": "À quelle heure commence le cours de Bruno ? … Bruno : Mon cours commence à midi."
+     }
+    ],
+    "modo": "clock",
+    "script": "Écoute et coche la bonne case. Il y a un exemple. … À quelle heure commence le cours d'Ingrid ? … Ingrid : Mon cours commence à sept heures. … À quelle heure commence le cours de Diego ? … Diego : Mon cours commence à cinq heures moins le quart. … À quelle heure commence le cours d'Aiko ? … Aiko : Mon cours commence à six heures et demie. … À quelle heure commence le cours de Maya ? … Maya : Mon cours commence à six heures et demie. … À quelle heure commence le cours de Bruno ? … Bruno : Mon cours commence à midi.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "I"
+  },
+  {
+   "type": "match_pictures",
+   "title": "Écoute et associe chaque personne à une heure.",
+   "instructions": "Écoute. Puis choisis la lettre de l'image pour chaque personne. Attention : certaines images sont en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 2,
+     "nombre": "La vie de tous les jours"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et associer chaque personne à une image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 3
+    }
+   },
+   "audio": "flyers/u18-j.mp3",
+   "data": {
+    "people": [
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "pose": 3
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 3
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "pose": 3
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "pose": 3
+     },
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 3
+     }
+    ],
+    "pictures": [
+     {
+      "k": "clock",
+      "h": 8,
+      "m": 15,
+      "v": "quarter past eight",
+      "pie": "quarter past eight",
+      "id": "A"
+     },
+     {
+      "k": "clock",
+      "h": 9,
+      "m": 0,
+      "v": "nine o'clock",
+      "pie": "nine o'clock",
+      "id": "B"
+     },
+     {
+      "k": "clock",
+      "h": 7,
+      "m": 0,
+      "v": "seven o'clock",
+      "pie": "seven o'clock",
+      "id": "C"
+     },
+     {
+      "k": "clock",
+      "h": 10,
+      "m": 30,
+      "v": "half past ten",
+      "pie": "half past ten",
+      "id": "D"
+     },
+     {
+      "k": "clock",
+      "h": 12,
+      "m": 0,
+      "v": "twelve o'clock",
+      "pie": "twelve o'clock",
+      "id": "E"
+     },
+     {
+      "k": "clock",
+      "h": 4,
+      "m": 45,
+      "v": "quarter to five",
+      "pie": "quarter to five",
+      "id": "F"
+     },
+     {
+      "k": "clock",
+      "h": 7,
+      "m": 30,
+      "v": "half past seven",
+      "pie": "half past seven",
+      "id": "G"
+     },
+     {
+      "k": "clock",
+      "h": 8,
+      "m": 45,
+      "v": "quarter to nine",
+      "pie": "quarter to nine",
+      "id": "H"
+     }
+    ],
+    "answers": {
+     "Ingrid": "H",
+     "Diego": "F",
+     "Bruno": "B",
+     "Iris": "C",
+     "Maya": "A"
+    },
+    "modo": "clock",
+    "script": "Écoute et associe chaque personne à une heure. Il y a un exemple. … Diego : Ingrid ? … Ingrid : Je suis arrivée à neuf heures moins le quart. … Diego : Diego ? … Diego : Je suis arrivé à cinq heures moins le quart. … Diego : Bruno ? … Bruno : Je suis arrivé à neuf heures. … Diego : Iris ? … Iris : Je suis arrivée à sept heures. … Diego : Maya ? … Maya : Je suis arrivée à huit heures et quart.",
+    "voice_note": "Diego pregunta; cada uno responde."
+   },
+   "code": "J"
+  },
+  {
+   "type": "label_people",
+   "title": "Écoute et écris les prénoms.",
+   "instructions": "Regarde l'image. Écoute et écris le prénom sous chaque personne. Attention : il y a trois prénoms en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 2,
+     "nombre": "La vie de tous les jours"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et écrire le prénom de chaque personne de l'image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u18-g.mp3",
+   "data": {
+    "scene": "classroom",
+    "place": "la classe",
+    "people": [
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "clue": "la fille aux cheveux blonds et à la veste bleu foncé",
+      "action": "lit le programme de la journée",
+      "pose": 7
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "clue": "le garçon au t-shirt rouge avec un microphone",
+      "action": "pose des questions avec son microphone",
+      "pose": 7
+     },
+     {
+      "slug": "aiko",
+      "name": "Aiko",
+      "clue": "la fille aux longs cheveux noirs raides et au t-shirt orange",
+      "action": "lit un livre",
+      "pose": 7
+     },
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "clue": "la fille au t-shirt vert avec une loupe",
+      "action": "observe quelque chose de tout petit",
+      "pose": 7
+     },
+     {
+      "slug": "vega",
+      "name": "Mr Vega",
+      "clue": "l'homme à la chemise bleue",
+      "action": "montre le chemin du centre sportif",
+      "figura": "father"
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Bruno",
+     "Diego",
+     "Ingrid",
+     "Kili",
+     "Maya",
+     "Mr Vega",
+     "Samu"
+    ],
+    "script": "Regarde l'image. Écoute et écris les prénoms. Il y a un exemple. … Diego : Qui est-ce dans la classe ? La fille aux cheveux blonds et à la veste bleu foncé. … Maya : C'est Ingrid. Ingrid lit le programme de la journée. … Diego : Et qui est le garçon au t-shirt rouge avec un microphone ? … Maya : C'est Diego. Regarde, Diego pose des questions avec son microphone. … Diego : Et qui est la fille aux longs cheveux noirs raides et au t-shirt orange ? … Maya : C'est Aiko. Regarde, Aiko lit un livre. … Diego : Et qui est la fille au t-shirt vert avec une loupe ? … Maya : C'est Maya. Regarde, Maya observe quelque chose de tout petit. … Diego : Et qui est l'homme à la chemise bleue ? … Maya : C'est M. Vega. Regarde, M. Vega montre le chemin du centre sportif.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris ton samedi avec les heures : Je me réveille à… Je déjeune à… Utilise et quart / et demie / moins le quart au moins deux fois."
+  }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 2,
+  "tema": "La vie de tous les jours",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Raconter des histoires au passé, au présent et au futur ; exprimer ses préférences avec des raisons."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et comprendre des histoires courtes (80 à 250 mots) ; trouver l'idée principale et les détails."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~2500 mots ; passé composé, questions négatives, si + présent, futur proche."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

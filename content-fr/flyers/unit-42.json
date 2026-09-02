@@ -1,0 +1,468 @@
+{
+ "id": "flyers-fr-42",
+ "level": "flyers",
+ "number": 42,
+ "title": "Qui est à l'appareil ?",
+ "topic": "téléphone",
+ "grammar": "les formules au téléphone + pouvoir",
+ "wordlist": [
+  "appel",
+  "message",
+  "bague",
+  "réponse",
+  "ne quitte pas",
+  "mauvais numéro",
+  "occupée",
+  "plus tard",
+  "portable",
+  "voix"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 1,
+  "skill": "identifier qui parle"
+ },
+ "characters": [
+  "kili",
+  "diego"
+ ],
+ "scene": {
+  "speaker": "diego",
+  "pose": {
+   "diego": 3,
+   "kili": 5
+  },
+  "bubble": "Le téléphone de l'école a sonné six fois aujourd'hui — et un appel était pour Kili. Un condor qui reçoit des appels, imagine !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe la formule du téléphone et son sens.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Expression",
+    "right_label": "Sens",
+    "pairs": [
+     {
+      "left": "Qui est à l'appareil ?",
+      "right": "Qui es-tu ?"
+     },
+     {
+      "left": "Ne quitte pas, s'il te plaît.",
+      "right": "Attends un moment."
+     },
+     {
+      "left": "Je peux laisser un message ?",
+      "right": "Dis-leur quelque chose de ma part."
+     },
+     {
+      "left": "Tu t'es trompé de numéro.",
+      "right": "Ce n'est pas la personne que tu voulais."
+     },
+     {
+      "left": "La ligne est occupée.",
+      "right": "Ils parlent avec quelqu'un d'autre."
+     },
+     {
+      "left": "Je rappellerai plus tard.",
+      "right": "Je rappellerai une autre fois."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis la meilleure réponse au téléphone.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis la meilleure réponse.",
+    "items": [
+     {
+      "sentence": "« Allô, est-ce que Maya est là ? »",
+      "options": [
+       "Ne quitte pas, je vais la chercher.",
+       "C'est en verre.",
+       "Deux fois par semaine."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Qui est à l'appareil ? »",
+      "options": [
+       "C'est Diego, de l'école.",
+       "À la pharmacie.",
+       "Le plus grand."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Je peux laisser un message ? »",
+      "options": [
+       "Bien sûr, un instant.",
+       "C'est trop lourd.",
+       "À côté de la banque."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Désolé, je crois que vous vous êtes trompé de numéro. »",
+      "options": [
+       "Oh, excusez-moi !",
+       "Bonne idée !",
+       "C'est le plus drôle."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« La ligne est occupée. »",
+      "options": [
+       "Je rappellerai plus tard.",
+       "Il est minuit.",
+       "Elle a les cheveux bouclés."
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute les six appels. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u42-c.mp3",
+   "data": {
+    "voice_note": "Voces: Diego (recepcionista por un día) y varias llamadas.",
+    "script": "Diego : Téléphone de l'école, Diego à l'appareil ! … Diego : Appel un : le chauffeur du bus. Le bus de la sortie arrivera à neuf heures et quart, pas à neuf heures. … Diego : Appel deux : la mère d'Oliver. Il a oublié sa boîte à goûter — encore ! … Diego : Appel trois : mauvais numéro. Quelqu'un voulait une pizzeria. … Diego : Appel quatre : la bibliothèque. Le livre de sciences de Maya est arrivé. … Diego : Appel cinq : le vétérinaire ! Les nouvelles vitamines de Kili sont prêtes. Oui, l'appel était pour Kili ! … Diego : Et appel six… ma propre mamie, juste pour me souhaiter bonne chance avec mon reportage. Merci, mamie !",
+    "questions": [
+     {
+      "q": "Le bus arrivera à neuf heures et …",
+      "answer": "neuf"
+     },
+     {
+      "q": "Oliver a oublié sa boîte à …",
+      "answer": "boîte"
+     },
+     {
+      "q": "Le mauvais numéro voulait une …",
+      "answer": "restaurant"
+     },
+     {
+      "q": "Le … de sciences de Maya est arrivé.",
+      "answer": "livre"
+     },
+     {
+      "q": "Le vétérinaire a les nouvelles … de Kili.",
+      "answer": "vitamines"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Le téléphone ___ — écoute ce bruit !",
+      "options": [
+       "sonne",
+       "dort",
+       "pleut"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Si personne ne répond, tu peux laisser un …",
+      "options": [
+       "message",
+       "timbre",
+       "prix"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Ne ___ pas, s'il te plaît, je vais chercher mon papa. »",
+      "options": [
+       "quitte",
+       "Prends",
+       "mets"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un téléphone que tu emportes avec toi est un …",
+      "options": [
+       "portable",
+       "écran",
+       "chaîne"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "J'ai reconnu mamie à sa …",
+      "options": [
+       "voix",
+       "chaussures",
+       "adresse"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Appel dos à dos : asseyez-vous dos à dos et jouez un appel — invite ton camarade à une fête (jour, heure, quoi apporter). Utilise au moins 3 formules de l'activité A."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Trouve les différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  },
+  {
+   "type": "picture_story",
+   "title": "Regarde les trois images et écris l'histoire.",
+   "instructions": "Regarde les images. Écris l'histoire en 20-25 mots. Aide-toi des mots sous chaque image.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 1,
+     "nombre": "Mon identité"
+    },
+    "destreza": "Writing",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots.",
+    "clase": "Type examen : histoire en images de 20 à 25 mots (production écrite)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "campus-hex",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 4
+       }
+      ],
+      "word": "",
+      "hint": "Diego / dans la cour de l'école",
+      "model": "Un matin Diego est dans la cour de l'école."
+     },
+     {
+      "n": 2,
+      "scene": "entrance",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 3
+       },
+       {
+        "slug": "maya",
+        "pose": 3
+       }
+      ],
+      "word": "",
+      "hint": "Diego / rencontrer / Maya",
+      "model": "Ensuite Diego rencontre Maya à l'entrée de l'école."
+     },
+     {
+      "n": 3,
+      "scene": "classroom",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 10
+       },
+       {
+        "slug": "maya",
+        "pose": 10
+       }
+      ],
+      "word": "",
+      "hint": "dans la classe / content",
+      "model": "Dans la classe ils sont très contents ensemble."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Un matin Diego est dans la cour de l'école. Ensuite Diego rencontre Maya à l'entrée de l'école. Dans la classe ils sont très contents ensemble.",
+    "words": [],
+    "support": {
+     "grammar": "les formules au téléphone + pouvoir",
+     "words": [
+      "appel",
+      "message",
+      "bague",
+      "réponse",
+      "ne quitte pas",
+      "mauvais numéro"
+     ]
+    }
+   },
+   "code": "H"
+  },
+  {
+   "type": "label_people",
+   "title": "Écoute et écris les prénoms.",
+   "instructions": "Regarde l'image. Écoute et écris le prénom sous chaque personne. Attention : il y a trois prénoms en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 1,
+     "nombre": "Mon identité"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et écrire le prénom de chaque personne de l'image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u42-g.mp3",
+   "data": {
+    "scene": "library",
+    "place": "la bibliothèque",
+    "people": [
+     {
+      "slug": "kili",
+      "name": "Kili",
+      "clue": "le grand oiseau noir avec un collier blanc",
+      "action": "porte une lettre",
+      "pose": 3
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "clue": "le garçon au t-shirt rouge avec un microphone",
+      "action": "pose des questions avec son microphone",
+      "pose": 7
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "clue": "le garçon aux cheveux bruns bouclés et au t-shirt vert",
+      "action": "court après le ballon",
+      "pose": 7
+     },
+     {
+      "slug": "tino",
+      "name": "Tino",
+      "clue": "le garçon aux cheveux très courts et au t-shirt blanc et vert",
+      "action": "joue au hockey",
+      "pose": 7
+     },
+     {
+      "slug": "vega",
+      "name": "Mr Vega",
+      "clue": "l'homme à la chemise bleue",
+      "action": "montre le chemin du centre sportif",
+      "figura": "father"
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Bruno",
+     "Diego",
+     "Ingrid",
+     "Kili",
+     "Mr Vega",
+     "Samu",
+     "Tino"
+    ],
+    "script": "Regarde l'image. Écoute et écris les prénoms. Il y a un exemple. … Diego : Qui est-ce à la bibliothèque ? Le grand oiseau noir avec un collier blanc. … Maya : C'est Kili. Kili porte une lettre. … Diego : Et qui est le garçon au t-shirt rouge avec un microphone ? … Maya : C'est Diego. Regarde, Diego pose des questions avec son microphone. … Diego : Et qui est le garçon aux cheveux bruns bouclés et au t-shirt vert ? … Maya : C'est Bruno. Regarde, Bruno court après le ballon. … Diego : Et qui est le garçon aux cheveux très courts et au t-shirt blanc et vert ? … Maya : C'est Tino. Regarde, Tino joue au hockey. … Diego : Et qui est l'homme à la chemise bleue ? … Maya : C'est M. Vega. Regarde, M. Vega montre le chemin du centre sportif.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris un dialogue téléphonique de 6 lignes : quelqu'un appelle pour inviter un ami au cinéma. Utilise Qui est à l'appareil ? et Ne quitte pas."
+  }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 1,
+  "tema": "Mon identité",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Raconter des histoires au passé, au présent et au futur ; exprimer ses préférences avec des raisons."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et comprendre des histoires courtes (80 à 250 mots) ; trouver l'idée principale et les détails."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~2500 mots ; passé composé, questions négatives, si + présent, futur proche."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

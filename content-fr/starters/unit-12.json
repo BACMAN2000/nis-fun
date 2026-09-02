@@ -1,0 +1,298 @@
+{
+ "id": "starters-fr-12",
+ "level": "starters",
+ "number": 12,
+ "title": "La nourriture que j'aime",
+ "topic": "nourriture",
+ "grammar": "J'aime… / Je n'aime pas…",
+ "wordlist": [
+  "pain",
+  "fromage",
+  "œuf",
+  "riz",
+  "poulet",
+  "poisson",
+  "gâteau",
+  "glace",
+  "pizza",
+  "miam"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 4,
+  "skill": "les mots de la nourriture"
+ },
+ "characters": [
+  "tomas",
+  "nico"
+ ],
+ "scene": {
+  "speaker": "tomas",
+  "pose": {
+   "tomas": 3,
+   "nico": 1
+  },
+  "bubble": "L'heure du déjeuner ! J'aime le poulet et le riz. Nico aime la pizza. Pip aime… tout !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Écris les mots de la nourriture.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "PAIN",
+      "clue": "Tu le manges avec du beurre ou du fromage."
+     },
+     {
+      "word": "UF",
+      "clue": "Il est blanc dehors et jaune dedans."
+     },
+     {
+      "word": "RIZ",
+      "clue": "Petit et blanc. Très populaire au Pérou !"
+     },
+     {
+      "word": "GATEAU",
+      "clue": "Sucré ! Tu en manges le jour de ton anniversaire."
+     },
+     {
+      "word": "PIZZA",
+      "clue": "Ronde, avec du fromage et de la tomate dessus."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Associe la nourriture et son compagnon.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Nourriture",
+    "right_label": "Va avec…",
+    "pairs": [
+     {
+      "left": "pain",
+      "right": "du beurre et de la confiture"
+     },
+     {
+      "left": "riz",
+      "right": "poulet"
+     },
+     {
+      "left": "poisson",
+      "right": "citron"
+     },
+     {
+      "left": "gâteau",
+      "right": "les bougies d'anniversaire"
+     },
+     {
+      "left": "glace",
+      "right": "un jour d'été chaud"
+     },
+     {
+      "left": "œufs",
+      "right": "l'heure du petit-déjeuner"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute au déjeuner. Écris un mot dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u12-c.mp3",
+   "data": {
+    "voice_note": "Voces: Tomás y Nico (almorzando).",
+    "script": "Tomás : L'heure du déjeuner ! Moi j'ai du poulet et du riz. Miam ! … Nico : Moi j'ai de la pizza. Ma préférée ! … Tomás : Tu aimes le poisson, Nico ? … Nico : Oui ! Avec du citron. Mais je n'aime pas les œufs. … Tomás : Astrid a des sandwichs au fromage et une pomme. … Nico : Et Freya a de la soupe. Elle est orange — de la soupe de potiron ! … Tomás : Regarde Pip. Il veut mon riz ! … Nico : Pip aime tout. Absolument tout !",
+    "questions": [
+     {
+      "q": "Tomás a du poulet et du …",
+      "answer": "riz"
+     },
+     {
+      "q": "Nico a de la …",
+      "answer": "pizza"
+     },
+     {
+      "q": "Nico n'aime pas les …",
+      "answer": "œufs"
+     },
+     {
+      "q": "La soupe de Freya est une soupe de …",
+      "answer": "potiron"
+     },
+     {
+      "q": "Pip veut le … de Tomás.",
+      "answer": "riz"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "J'___ la glace. C'est ma préférée !",
+      "options": [
+       "aimer",
+       "aime",
+       "suis"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Il ___ aime pas le poisson.",
+      "options": [
+       "ne... pas",
+       "ne... pas",
+       "n'est pas"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le jour de mon anniversaire je mange du …",
+      "options": [
+       "gâteau",
+       "soupe",
+       "riz"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "La pizza a du fromage et de la ___ dessus.",
+      "options": [
+       "tomate",
+       "glace",
+       "gâteau"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Tu aimes le pain ? » — « Oui, j'___ ! »",
+      "options": [
+       "faire",
+       "suis",
+       "aime fais"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Interview nourriture : pose 4 questions (« Tu aimes… ? »). Puis raconte une chose à la classe : « Ana aime la pizza mais elle n'aime pas le poisson. »"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Deux images, plein de différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Dessine ton plat préféré. Écris : J'aime… Je n'aime pas… (4 phrases)."
+  }
+ ],
+ "scope": {
+  "grado": "G1",
+  "temaN": 6,
+  "tema": "Manger et s'amuser",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Suivre les consignes de la classe ; reconnaître des mots connus dans une chanson ou une phrase courte."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Saluer ; dire son nom, son âge, les couleurs ; nommer des objets ; répondre par oui ou non."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Reconnaître les lettres de l'alphabet ; associer un mot à une image (famille, nourriture, animaux, corps)."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire son prénom ; recopier des mots ; légender une image (3 à 5 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~150 mots actifs ; le verbe être, un/une, c'est/ce sont, l'impératif."
+   }
+  ],
+  "vocabulario": [
+   "pomme",
+   "banane",
+   "pain",
+   "lait",
+   "œuf",
+   "gâteau",
+   "eau",
+   "jus"
+  ],
+  "gramatica": [
+   "Aimer + nom : j'aime les pommes"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "apple",
+    "banana",
+    "milk",
+    "water",
+    "juice"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "pomme",
+  "banane",
+  "lait",
+  "eau",
+  "jus",
+  "j'aime",
+  "je n'aime pas",
+  "mon préféré"
+ ],
+ "lang": "fr"
+}

@@ -1,0 +1,716 @@
+{
+ "id": "flyers-fr-33",
+ "level": "flyers",
+ "number": 33,
+ "title": "Et si on jouait au tennis ?",
+ "topic": "les propositions",
+ "grammar": "Et si on… / On pourrait… / Allons…",
+ "wordlist": [
+  "proposer",
+  "idée",
+  "être d'accord",
+  "préférer",
+  "à la place",
+  "peut-être",
+  "super",
+  "ennuyeux",
+  "club",
+  "rejoindre"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 3,
+  "skill": "les réponses dans la conversation"
+ },
+ "characters": [
+  "ingrid",
+  "diego"
+ ],
+ "scene": {
+  "speaker": "ingrid",
+  "pose": {
+   "ingrid": 3,
+   "diego": 4
+  },
+  "bubble": "Samedi est libre ! Et si on jouait au tennis ? Ou on pourrait aller à la piscine ? Diego, arrête de filmer et aide-nous à choisir !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe la proposition et la réponse.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Proposition",
+    "right_label": "Réponse",
+    "pairs": [
+     {
+      "left": "Et si on jouait au tennis ?",
+      "right": "Bonne idée ! J'adore le tennis."
+     },
+     {
+      "left": "On pourrait regarder un film ?",
+      "right": "Lequel ? Je préfère les films drôles."
+     },
+     {
+      "left": "Allons à la piscine !",
+      "right": "Oui ! J'apporte mes lunettes de natation."
+     },
+     {
+      "left": "Pourquoi on ne cuisinerait pas quelque chose ?",
+      "right": "D'accord, encore des crêpes ?"
+     },
+     {
+      "left": "Et si on faisait les devoirs d'abord ?",
+      "right": "Hmm… d'accord, mais vite !"
+     },
+     {
+      "left": "On pourrait demander à Oliver de venir ?",
+      "right": "Bien sûr, il est toujours drôle."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis la bonne forme de la proposition.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis les bons mots.",
+    "items": [
+     {
+      "sentence": "Et si on ___ à la plage ?",
+      "options": [
+       "aller",
+       "en train d'aller",
+       "aller"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "___ on joue aux échecs après le déjeuner ?",
+      "options": [
+       "Et si",
+       "Est-ce que",
+       "Comment"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Allons ___ le nouveau musée !",
+      "options": [
+       "en train de visiter",
+       "visiter",
+       "visiter"
+      ],
+      "answer": 2
+     },
+     {
+      "sentence": "Pourquoi ___ on pas toute la classe ?",
+      "options": [
+       "ne... pas",
+       "ne sont pas",
+       "n'invitons"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Je préfère nager ___ de courir.",
+      "options": [
+       "à la place",
+       "parce que",
+       "aussi"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute. Qu'est-ce qu'ils décident de faire ? Écris un mot dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u33-c.mp3",
+   "data": {
+    "voice_note": "Voces: Ingrid (proponiendo) y Diego (votando).",
+    "script": "Ingrid : Bon l'équipe, le programme de samedi ! Et si on jouait au tennis le matin ? … Diego : Hmm, les courts sont fermés le samedi. Et la piscine ? … Ingrid : La piscine ouvre à dix heures. Parfait pour le matin ! … Diego : Et l'après-midi ? On pourrait aller au cinéma ? … Ingrid : Maya préfère le musée des sciences. Il y a une nouvelle salle des dinosaures ! … Diego : Les dinosaures gagnent ! Le cinéma la semaine prochaine. … Ingrid : Donc : piscine à dix heures, sandwichs à une heure, dinosaures à trois heures. … Diego : Et glace à cinq heures. Tout bon programme finit par une glace !",
+    "questions": [
+     {
+      "q": "Les courts de tennis sont … le samedi.",
+      "answer": "fermé"
+     },
+     {
+      "q": "La piscine ouvre à …",
+      "answer": "dix"
+     },
+     {
+      "q": "Maya préfère le musée des …",
+      "answer": "musée"
+     },
+     {
+      "q": "Le musée a une nouvelle salle des …",
+      "answer": "dinosaure"
+     },
+     {
+      "q": "Tout bon programme finit par une …",
+      "answer": "crème"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis la meilleure réponse.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis la meilleure réponse.",
+    "items": [
+     {
+      "sentence": "« Et si on allait patiner ? »",
+      "options": [
+       "Bonne idée !",
+       "C'est en laine.",
+       "Deux fois par semaine."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« On commence maintenant ? »",
+      "options": [
+       "Oui, allons-y !",
+       "Hier.",
+       "C'est à moi."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Je n'aime pas ce jeu. »",
+      "options": [
+       "Alors jouons à autre chose.",
+       "Le train est en retard.",
+       "Il a une barbe."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Pourquoi on ne s'inscrirait pas au club d'échecs ? »",
+      "options": [
+       "Peut-être — c'est le vendredi ?",
+       "C'est en face de la banque.",
+       "Elle vient d'arriver."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Tu es d'accord avec le plan ? »",
+      "options": [
+       "Oui, tout à fait !",
+       "En hélicoptère.",
+       "Deux heures et quart."
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Préparez le samedi parfait ensemble. Chacun fait 3 propositions (Et si on… ? / On pourrait… ?) et vous devez tomber d'accord sur un programme de 3 activités. Présentez-le : « D'abord on va… »"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Trouve les différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  },
+  {
+   "type": "picture_story",
+   "title": "Regarde les trois images et écris l'histoire.",
+   "instructions": "Regarde les images. Écris l'histoire en 20-25 mots. Aide-toi des mots sous chaque image.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Santé et bien-être"
+    },
+    "destreza": "Writing",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots.",
+    "clase": "Type examen : histoire en images de 20 à 25 mots (production écrite)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "hockey",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 4
+       }
+      ],
+      "word": "",
+      "hint": "Ingrid / au terrain de hockey",
+      "model": "Un matin Ingrid est au terrain de hockey."
+     },
+     {
+      "n": 2,
+      "scene": "garden",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 3
+       },
+       {
+        "slug": "diego",
+        "pose": 3
+       }
+      ],
+      "word": "",
+      "hint": "Ingrid / rencontrer / Diego",
+      "model": "Ensuite Ingrid rencontre Diego au jardin de l'école."
+     },
+     {
+      "n": 3,
+      "scene": "picnic-garden",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 10
+       },
+       {
+        "slug": "diego",
+        "pose": 10
+       }
+      ],
+      "word": "",
+      "hint": "au jardin du pique-nique / content",
+      "model": "Au jardin du pique-nique ils sont très contents ensemble."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Un matin Ingrid est au terrain de hockey. Ensuite Ingrid rencontre Diego au jardin de l'école. Au jardin du pique-nique ils sont très contents ensemble.",
+    "words": [],
+    "support": {
+     "grammar": "Et si on… / On pourrait… / Allons…",
+     "words": [
+      "proposer",
+      "idée",
+      "être d'accord",
+      "préférer",
+      "à la place",
+      "peut-être"
+     ]
+    }
+   },
+   "code": "H"
+  },
+  {
+   "type": "picture_mc",
+   "title": "Écoute et coche la bonne case.",
+   "instructions": "Écoute chaque question et clique sur l'image qui répond.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Santé et bien-être"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et cocher la bonne image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u33-i.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "Que faisait Ingrid ?",
+      "answer": "en train de montrer du doigt",
+      "options": [
+       {
+        "k": "pose",
+        "slug": "ingrid",
+        "pose": 1,
+        "v": "waving",
+        "pie": "waving"
+       },
+       {
+        "k": "pose",
+        "slug": "ingrid",
+        "pose": 2,
+        "v": "pointing",
+        "pie": "pointing"
+       },
+       {
+        "k": "pose",
+        "slug": "ingrid",
+        "pose": 3,
+        "v": "talking",
+        "pie": "talking"
+       }
+      ],
+      "script": "Que faisait Ingrid ? … Ingrid : Je montrais du doigt."
+     },
+     {
+      "q": "Que faisait Diego ?",
+      "answer": "avoir l'air surpris",
+      "options": [
+       {
+        "k": "pose",
+        "slug": "diego",
+        "pose": 2,
+        "v": "pointing",
+        "pie": "pointing"
+       },
+       {
+        "k": "pose",
+        "slug": "diego",
+        "pose": 8,
+        "v": "holding something",
+        "pie": "holding something"
+       },
+       {
+        "k": "pose",
+        "slug": "diego",
+        "pose": 5,
+        "v": "looking surprised",
+        "pie": "looking surprised"
+       }
+      ],
+      "script": "Que faisait Diego ? … Diego : J'avais l'air surpris."
+     },
+     {
+      "q": "Que faisait Maya ?",
+      "answer": "parler",
+      "options": [
+       {
+        "k": "pose",
+        "slug": "maya",
+        "pose": 6,
+        "v": "sitting down",
+        "pie": "sitting down"
+       },
+       {
+        "k": "pose",
+        "slug": "maya",
+        "pose": 3,
+        "v": "talking",
+        "pie": "talking"
+       },
+       {
+        "k": "pose",
+        "slug": "maya",
+        "pose": 1,
+        "v": "waving",
+        "pie": "waving"
+       }
+      ],
+      "script": "Que faisait Maya ? … Maya : Je parlais."
+     }
+    ],
+    "modo": "pose",
+    "script": "Écoute et coche la bonne case. Il y a un exemple. … Que faisait Ingrid ? … Ingrid : Je montrais du doigt. … Que faisait Diego ? … Diego : J'avais l'air surpris. … Que faisait Maya ? … Maya : Je parlais.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "I"
+  },
+  {
+   "type": "match_pictures",
+   "title": "Écoute et associe chaque personne à ce qu'elle faisait.",
+   "instructions": "Écoute. Puis choisis la lettre de l'image pour chaque personne. Attention : certaines images sont en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Santé et bien-être"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et associer chaque personne à une image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 3
+    }
+   },
+   "audio": "flyers/u33-j.mp3",
+   "data": {
+    "people": [
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "pose": 3
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 3
+     },
+     {
+      "slug": "aiko",
+      "name": "Aiko",
+      "pose": 3
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "pose": 3
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "pose": 3
+     }
+    ],
+    "pictures": [
+     {
+      "k": "pose",
+      "slug": "ingrid",
+      "pose": 8,
+      "v": "holding something",
+      "pie": "holding something",
+      "id": "A"
+     },
+     {
+      "k": "pose",
+      "slug": "ingrid",
+      "pose": 4,
+      "v": "thinking",
+      "pie": "thinking",
+      "id": "B"
+     },
+     {
+      "k": "pose",
+      "slug": "ingrid",
+      "pose": 7,
+      "v": "running",
+      "pie": "running",
+      "id": "C"
+     },
+     {
+      "k": "pose",
+      "slug": "ingrid",
+      "pose": 1,
+      "v": "waving",
+      "pie": "waving",
+      "id": "D"
+     },
+     {
+      "k": "pose",
+      "slug": "ingrid",
+      "pose": 10,
+      "v": "celebrating",
+      "pie": "celebrating",
+      "id": "E"
+     },
+     {
+      "k": "pose",
+      "slug": "ingrid",
+      "pose": 6,
+      "v": "sitting down",
+      "pie": "sitting down",
+      "id": "F"
+     },
+     {
+      "k": "pose",
+      "slug": "ingrid",
+      "pose": 3,
+      "v": "talking",
+      "pie": "talking",
+      "id": "G"
+     },
+     {
+      "k": "pose",
+      "slug": "ingrid",
+      "pose": 2,
+      "v": "pointing",
+      "pie": "pointing",
+      "id": "H"
+     }
+    ],
+    "answers": {
+     "Ingrid": "C",
+     "Diego": "E",
+     "Aiko": "G",
+     "Lia": "F",
+     "Bruno": "D"
+    },
+    "modo": "pose",
+    "script": "Écoute et associe chaque personne à ce qu'elle faisait. Il y a un exemple. … Diego : Ingrid ? … Ingrid : Je courais. … Diego : Diego ? … Diego : Je faisais la fête. … Diego : Aiko ? … Aiko : Je parlais. … Diego : Lia ? … Lia : J'étais assise. … Diego : Bruno ? … Bruno : Je faisais signe.",
+    "voice_note": "Diego pregunta; cada uno responde."
+   },
+   "code": "J"
+  },
+  {
+   "type": "label_people",
+   "title": "Écoute et écris les prénoms.",
+   "instructions": "Regarde l'image. Écoute et écris le prénom sous chaque personne. Attention : il y a trois prénoms en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Santé et bien-être"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et écrire le prénom de chaque personne de l'image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u33-g.mp3",
+   "data": {
+    "scene": "garden",
+    "place": "le jardin de l'école",
+    "people": [
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "clue": "la fille aux cheveux blonds et à la veste bleu foncé",
+      "action": "lit le programme de la journée",
+      "pose": 7
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "clue": "le garçon au t-shirt rouge avec un microphone",
+      "action": "pose des questions avec son microphone",
+      "pose": 7
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "clue": "la fille à la queue-de-cheval rousse et aux taches de rousseur",
+      "action": "dessine à la craie par terre",
+      "pose": 7
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "clue": "la fille aux nattes noires et au t-shirt violet",
+      "action": "saute à la corde",
+      "pose": 7
+     },
+     {
+      "slug": "vega",
+      "name": "Mr Vega",
+      "clue": "l'homme à la chemise bleue",
+      "action": "montre le chemin du centre sportif",
+      "figura": "father"
+     }
+    ],
+    "names": [
+     "Bruno",
+     "Diego",
+     "Ingrid",
+     "Iris",
+     "Lia",
+     "Maya",
+     "Mr Vega",
+     "Oliver"
+    ],
+    "script": "Regarde l'image. Écoute et écris les prénoms. Il y a un exemple. … Diego : Qui est-ce dans le jardin de l'école ? La fille aux cheveux blonds et à la veste bleu foncé. … Maya : C'est Ingrid. Ingrid lit le programme de la journée. … Diego : Et qui est le garçon au t-shirt rouge avec un microphone ? … Maya : C'est Diego. Regarde, Diego pose des questions avec son microphone. … Diego : Et qui est la fille à la queue-de-cheval rousse et aux taches de rousseur ? … Maya : C'est Iris. Regarde, Iris dessine à la craie par terre. … Diego : Et qui est la fille aux nattes noires et au t-shirt violet ? … Maya : C'est Lia. Regarde, Lia saute à la corde. … Diego : Et qui est l'homme à la chemise bleue ? … Maya : C'est M. Vega. Regarde, M. Vega montre le chemin du centre sportif.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris un mot à un ami avec 3 propositions pour le week-end, chacune avec une structure différente : Et si on… ? On pourrait… ? Allons…"
+  }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 5,
+  "tema": "Santé et bien-être",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Raconter des histoires au passé, au présent et au futur ; exprimer ses préférences avec des raisons."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et comprendre des histoires courtes (80 à 250 mots) ; trouver l'idée principale et les détails."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~2500 mots ; passé composé, questions négatives, si + présent, futur proche."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

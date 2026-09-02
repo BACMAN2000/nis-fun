@@ -1,0 +1,291 @@
+{
+ "level": "flyers",
+ "lang": "fr",
+ "name": "Les Navigateurs - Fun for Nordic 3",
+ "cast": "L'Expedition Aurore",
+ "color": "#3b6fb5",
+ "mascot": "kili",
+ "kids": [
+  "ingrid",
+  "diego",
+  "maya",
+  "oliver"
+ ],
+ "units": [
+  {
+   "n": 1,
+   "title": "Porter sur soi et emporter",
+   "topic": "vêtements"
+  },
+  {
+   "n": 2,
+   "title": "Les endroits où on va",
+   "topic": "lieux"
+  },
+  {
+   "n": 3,
+   "title": "J'ai oublié mon parapluie !",
+   "topic": "le passé composé"
+  },
+  {
+   "n": 4,
+   "title": "Le corps et le visage",
+   "topic": "corps"
+  },
+  {
+   "n": 5,
+   "title": "Ma journée d'école",
+   "topic": "école"
+  },
+  {
+   "n": 6,
+   "title": "Qu'est-ce qui ne va pas ?",
+   "topic": "santé"
+  },
+  {
+   "n": 7,
+   "title": "Petit-déjeuner, déjeuner et dîner",
+   "topic": "nourriture"
+  },
+  {
+   "n": 8,
+   "title": "On fait une pizza",
+   "topic": "la nourriture · du / de la / des"
+  },
+  {
+   "n": 9,
+   "title": "Dans la maison",
+   "topic": "maison"
+  },
+  {
+   "n": 10,
+   "title": "C'est à qui ?",
+   "topic": "les possessifs"
+  },
+  {
+   "n": 11,
+   "title": "Les métiers",
+   "topic": "travail"
+  },
+  {
+   "n": 12,
+   "title": "Quand je serai grand",
+   "topic": "le futur / peut-être"
+  },
+  {
+   "n": 13,
+   "title": "Se déplacer en ville",
+   "topic": "transport"
+  },
+  {
+   "n": 14,
+   "title": "À gauche, à droite, tout droit",
+   "topic": "indications"
+  },
+  {
+   "n": 15,
+   "title": "Les sports qu'on aime",
+   "topic": "sports"
+  },
+  {
+   "n": 16,
+   "title": "Au centre sportif",
+   "topic": "l'imparfait"
+  },
+  {
+   "n": 17,
+   "title": "Les mois et les saisons",
+   "topic": "heure"
+  },
+  {
+   "n": 18,
+   "title": "Quelle heure est-il ?",
+   "topic": "dire l'heure"
+  },
+  {
+   "n": 19,
+   "title": "Le temps déchaîné",
+   "topic": "météo"
+  },
+  {
+   "n": 20,
+   "title": "C'est en quoi ?",
+   "topic": "les matières"
+  },
+  {
+   "n": 21,
+   "title": "À la campagne",
+   "topic": "nature"
+  },
+  {
+   "n": 22,
+   "title": "Les fleuves du monde",
+   "topic": "géographie"
+  },
+  {
+   "n": 23,
+   "title": "Quelle drôle de planète !",
+   "topic": "espace"
+  },
+  {
+   "n": 24,
+   "title": "Les photos de la famille monstre",
+   "topic": "décrire les personnes"
+  },
+  {
+   "n": 25,
+   "title": "Les gens",
+   "topic": "la personnalité"
+  },
+  {
+   "n": 26,
+   "title": "Tu as déjà rencontré une personne célèbre ?",
+   "topic": "le passé composé : déjà"
+  },
+  {
+   "n": 27,
+   "title": "Qu'est-ce qui vient de se passer ?",
+   "topic": "vient de / déjà / pas encore"
+  },
+  {
+   "n": 28,
+   "title": "Ils étaient fatigués, alors…",
+   "topic": "alors / parce que"
+  },
+  {
+   "n": 29,
+   "title": "Quand est-ce que ça arrive ?",
+   "topic": "la fréquence"
+  },
+  {
+   "n": 30,
+   "title": "On déménage !",
+   "topic": "les meubles"
+  },
+  {
+   "n": 31,
+   "title": "Une semaine à l'hôpital",
+   "topic": "santé"
+  },
+  {
+   "n": 32,
+   "title": "Les cartes postales",
+   "topic": "en train d'écrire"
+  },
+  {
+   "n": 33,
+   "title": "Et si on jouait au tennis ?",
+   "topic": "les propositions"
+  },
+  {
+   "n": 34,
+   "title": "C'est trop fort !",
+   "topic": "trop + adjectif"
+  },
+  {
+   "n": 35,
+   "title": "Quand je suis triste",
+   "topic": "émotions"
+  },
+  {
+   "n": 36,
+   "title": "On le fait ou on le prépare ?",
+   "topic": "faire / préparer"
+  },
+  {
+   "n": 37,
+   "title": "S'amuser",
+   "topic": "les loisirs"
+  },
+  {
+   "n": 38,
+   "title": "Tu passes à la télé !",
+   "topic": "le temps d'écran"
+  },
+  {
+   "n": 39,
+   "title": "Les grands explorateurs",
+   "topic": "les biographies"
+  },
+  {
+   "n": 40,
+   "title": "Le plus beau jour",
+   "topic": "les superlatifs"
+  },
+  {
+   "n": 41,
+   "title": "Notre ville : hier et aujourd'hui",
+   "topic": "les comparatifs"
+  },
+  {
+   "n": 42,
+   "title": "Qui est à l'appareil ?",
+   "topic": "téléphone"
+  },
+  {
+   "n": 43,
+   "title": "Où dormir en vacances",
+   "topic": "les vacances"
+  },
+  {
+   "n": 44,
+   "title": "Une journée à la fête foraine",
+   "topic": "le passé composé"
+  },
+  {
+   "n": 45,
+   "title": "La carte au trésor",
+   "topic": "les mots de position"
+  },
+  {
+   "n": 46,
+   "title": "Plus tard, je serai peut-être…",
+   "topic": "peut-être / il se peut"
+  },
+  {
+   "n": 47,
+   "title": "S'il pleut samedi…",
+   "topic": "si / quand"
+  },
+  {
+   "n": 48,
+   "title": "La personne qui…",
+   "topic": "qui / que / où"
+  },
+  {
+   "n": 49,
+   "title": "Donne-moi une réponse courte",
+   "topic": "les réponses courtes"
+  },
+  {
+   "n": 50,
+   "title": "Vite et bien",
+   "topic": "les adverbes"
+  },
+  {
+   "n": 51,
+   "title": "Tout sur toi",
+   "topic": "questions personnelles"
+  },
+  {
+   "n": 52,
+   "title": "Jeux de mots",
+   "topic": "bilan de vocabulaire"
+  },
+  {
+   "n": 53,
+   "title": "Jour d'examen : la compréhension orale",
+   "topic": "entraînement à l'examen"
+  },
+  {
+   "n": 54,
+   "title": "Jour d'examen : lecture et écriture",
+   "topic": "entraînement à l'examen"
+  },
+  {
+   "n": 55,
+   "title": "La remise des diplômes de l'Aurore",
+   "topic": "bilan et fête"
+  }
+ ]
+}

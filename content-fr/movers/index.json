@@ -1,0 +1,266 @@
+{
+ "level": "movers",
+ "lang": "fr",
+ "name": "Les Aventuriers - Fun for Nordic 2",
+ "cast": "Le Club du Fjord",
+ "color": "#2f9268",
+ "mascot": "luna",
+ "kids": [
+  "erik",
+  "valentina",
+  "sofia",
+  "mateo"
+ ],
+ "units": [
+  {
+   "n": 1,
+   "title": "Nos amis les animaux",
+   "topic": "animaux"
+  },
+  {
+   "n": 2,
+   "title": "Quel temps fait-il ?",
+   "topic": "météo"
+  },
+  {
+   "n": 3,
+   "title": "Hier à la fête foraine",
+   "topic": "le passé composé"
+  },
+  {
+   "n": 4,
+   "title": "Mon matin chargé",
+   "topic": "la routine du matin"
+  },
+  {
+   "n": 5,
+   "title": "Les vêtements de la semaine",
+   "topic": "vêtements"
+  },
+  {
+   "n": 6,
+   "title": "La nourriture que j'adore",
+   "topic": "nourriture"
+  },
+  {
+   "n": 7,
+   "title": "Au marché",
+   "topic": "les fruits et les légumes"
+  },
+  {
+   "n": 8,
+   "title": "Ma maison, ma chambre",
+   "topic": "maison"
+  },
+  {
+   "n": 9,
+   "title": "Dans le jardin",
+   "topic": "jardin"
+  },
+  {
+   "n": 10,
+   "title": "Une journée à la ferme",
+   "topic": "animaux de la ferme"
+  },
+  {
+   "n": 11,
+   "title": "Au bord du lac",
+   "topic": "nature"
+  },
+  {
+   "n": 12,
+   "title": "Mon sac d'école",
+   "topic": "les affaires d'école"
+  },
+  {
+   "n": 13,
+   "title": "Les règles de la classe",
+   "topic": "devoir / ne pas devoir"
+  },
+  {
+   "n": 14,
+   "title": "Après l'école",
+   "topic": "le temps libre"
+  },
+  {
+   "n": 15,
+   "title": "La journée du sport",
+   "topic": "sports"
+  },
+  {
+   "n": 16,
+   "title": "Ma semaine",
+   "topic": "les jours de la semaine"
+  },
+  {
+   "n": 17,
+   "title": "Le pique-nique",
+   "topic": "à manger et à boire"
+  },
+  {
+   "n": 18,
+   "title": "Habillé pour l'hiver",
+   "topic": "les vêtements et le temps"
+  },
+  {
+   "n": 19,
+   "title": "Le bus pour l'école",
+   "topic": "transport"
+  },
+  {
+   "n": 20,
+   "title": "Dans la ville",
+   "topic": "lieux"
+  },
+  {
+   "n": 21,
+   "title": "Où est le chat ?",
+   "topic": "les prépositions"
+  },
+  {
+   "n": 22,
+   "title": "Les gens que je connais",
+   "topic": "décrire les personnes"
+  },
+  {
+   "n": 23,
+   "title": "Le village de mes grands-parents",
+   "topic": "la campagne"
+  },
+  {
+   "n": 24,
+   "title": "Aider à la maison",
+   "topic": "tâches ménagères"
+  },
+  {
+   "n": 25,
+   "title": "Je suis malade !",
+   "topic": "santé"
+  },
+  {
+   "n": 26,
+   "title": "Chez le médecin",
+   "topic": "santé"
+  },
+  {
+   "n": 27,
+   "title": "La sortie scolaire",
+   "topic": "le passé composé"
+  },
+  {
+   "n": 28,
+   "title": "L'aventure d'hier",
+   "topic": "les passés irréguliers"
+  },
+  {
+   "n": 29,
+   "title": "Le chien perdu",
+   "topic": "une histoire au passé"
+  },
+  {
+   "n": 30,
+   "title": "Plus grand et plus petit",
+   "topic": "les comparatifs"
+  },
+  {
+   "n": 31,
+   "title": "Le meilleur de la classe",
+   "topic": "les superlatifs"
+  },
+  {
+   "n": 32,
+   "title": "Des nombres partout",
+   "topic": "les nombres jusqu'à 100"
+  },
+  {
+   "n": 33,
+   "title": "Dire l'heure",
+   "topic": "heure"
+  },
+  {
+   "n": 34,
+   "title": "Le temps aujourd'hui",
+   "topic": "le temps et les saisons"
+  },
+  {
+   "n": 35,
+   "title": "À qui sont ces jouets ?",
+   "topic": "les possessifs"
+  },
+  {
+   "n": 36,
+   "title": "Je vais…",
+   "topic": "le futur proche"
+  },
+  {
+   "n": 37,
+   "title": "Le spectacle de l'école",
+   "topic": "le présent"
+  },
+  {
+   "n": 38,
+   "title": "Silence, s'il vous plaît !",
+   "topic": "l'impératif"
+  },
+  {
+   "n": 39,
+   "title": "Un bon appétit",
+   "topic": "les quantités"
+  },
+  {
+   "n": 40,
+   "title": "Mon animal préféré",
+   "topic": "savoir + descriptions"
+  },
+  {
+   "n": 41,
+   "title": "Dans la jungle",
+   "topic": "animaux sauvages"
+  },
+  {
+   "n": 42,
+   "title": "Sous la mer",
+   "topic": "les animaux marins"
+  },
+  {
+   "n": 43,
+   "title": "Le jeu du trésor",
+   "topic": "indications"
+  },
+  {
+   "n": 44,
+   "title": "Une lettre à une amie",
+   "topic": "en train d'écrire"
+  },
+  {
+   "n": 45,
+   "title": "La fête d'anniversaire",
+   "topic": "les fêtes"
+  },
+  {
+   "n": 46,
+   "title": "Au café",
+   "topic": "commander à manger"
+  },
+  {
+   "n": 47,
+   "title": "L'album photo",
+   "topic": "le passé + la famille"
+  },
+  {
+   "n": 48,
+   "title": "Jeux de mots",
+   "topic": "bilan de vocabulaire"
+  },
+  {
+   "n": 49,
+   "title": "Conseils pour le jour de l'examen",
+   "topic": "entraînement à l'examen"
+  },
+  {
+   "n": 50,
+   "title": "La remise des diplômes du Club du Fjord",
+   "topic": "bilan et fête"
+  }
+ ]
+}

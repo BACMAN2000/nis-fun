@@ -1,0 +1,299 @@
+{
+ "id": "movers-fr-44",
+ "level": "movers",
+ "number": 44,
+ "title": "Une lettre à une amie",
+ "topic": "en train d'écrire",
+ "grammar": "les formules de la lettre + le présent",
+ "wordlist": [
+  "lettre",
+  "chère",
+  "bisous de",
+  "écrire",
+  "envoyer",
+  "poste",
+  "nouvelles",
+  "ami",
+  "répondre",
+  "enveloppe"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 5,
+  "skill": "histoire"
+ },
+ "characters": [
+  "valentina",
+  "sofia"
+ ],
+ "scene": {
+  "speaker": "valentina",
+  "pose": {
+   "valentina": 6,
+   "sofia": 1
+  },
+  "bubble": "Mon amie Emma a déménagé dans une autre ville, alors maintenant on s'écrit de vraies lettres — avec des timbres, des autocollants et des blagues secrètes !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe la partie de la lettre et sa place.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Partie",
+    "right_label": "Place / sens",
+    "pairs": [
+     {
+      "left": "Chère Emma,",
+      "right": "la formule du début, tout en haut"
+     },
+     {
+      "left": "les nouvelles",
+      "right": "le milieu — ce qui s'est passé"
+     },
+     {
+      "left": "une question",
+      "right": "pour que ton amie réponde !"
+     },
+     {
+      "left": "Bisous de Valentina",
+      "right": "la formule de fin"
+     },
+     {
+      "left": "l'enveloppe",
+      "right": "la lettre voyage dedans"
+     },
+     {
+      "left": "le timbre",
+      "right": "le ticket du voyage"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Lis la lettre d'Emma et choisis la bonne réponse.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Lis le texte. Choisis la bonne réponse.",
+    "text": "Chère Valentina, merci pour ta lettre et le dessin de Luna ! Mes nouvelles : notre nouvel appartement est au cinquième étage et de ma fenêtre je vois le port avec ses bateaux rouges. Ma nouvelle école est sympa — ma maîtresse a une guitare, comme ton ami Oliver ! J'ai une nouvelle amie. Elle s'appelle Paula et elle adore lire, comme moi. Écris-moi vite et dis-moi : est-ce qu'Erik a fini la machine à confettis ? Bisous d'Emma.",
+    "items": [
+     {
+      "sentence": "Qu'est-ce que Valentina a envoyé avec sa lettre ?",
+      "options": [
+       "un dessin de Luna",
+       "une photo",
+       "chocolat"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "L'appartement d'Emma est au ___ étage.",
+      "options": [
+       "cinquième",
+       "premier",
+       "neuvième"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "De sa fenêtre elle voit …",
+      "options": [
+       "le port",
+       "un parc",
+       "les montagnes"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "La nouvelle amie d'Emma s'appelle …",
+      "options": [
+       "Paula",
+       "Petra",
+       "Pilar"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Emma pose une question sur …",
+      "options": [
+       "la machine à confettis",
+       "le spectacle de l'école",
+       "la nourriture de Luna"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute. Valentina écrit sa réponse. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u44-c.mp3",
+   "data": {
+    "voice_note": "Voces: Valentina (leyendo en voz alta mientras escribe) y Sofía (aportando noticias).",
+    "script": "Valentina : Chère Emma… merci pour ta lettre ! … Valentina : Grande nouvelle : la machine à confettis marche ! Elle a peint le plafond avec des petits papiers. … Sofia : Parle-lui de la journée du sport ! … Valentina : Sofia a encore gagné la course — huit secondes, nouveau record. … Valentina : Luna t'envoie une empreinte de patte. Elle est vraie : j'ai posé sa patte sur le papier ! … Sofia : Et demande-lui pour les bateaux rouges ! … Valentina : Question : tu peux compter les bateaux rouges depuis ta fenêtre ? … Valentina : Bisous de Valentina… et un autocollant de renard pour l'enveloppe !",
+    "questions": [
+     {
+      "q": "La machine à confettis a peint le …",
+      "answer": "plafond"
+     },
+     {
+      "q": "Sofía a gagné la course en huit …",
+      "answer": "secondes"
+     },
+     {
+      "q": "Luna envoie une vraie empreinte de …",
+      "answer": "patte"
+     },
+     {
+      "q": "La question porte sur les … rouges.",
+      "answer": "bateaux"
+     },
+     {
+      "q": "L'enveloppe reçoit un autocollant de …",
+      "answer": "renard"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Une lettre commence par « ___ Anna, ».",
+      "options": [
+       "Chère",
+       "Bonjour la",
+       "De"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Quand tu réponds à une lettre, tu …",
+      "options": [
+       "répondre",
+       "dormir",
+       "balayer"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "La lettre va dans une …",
+      "options": [
+       "enveloppe",
+       "éléphant",
+       "moteur"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu ___ la lettre à la poste.",
+      "options": [
+       "poste",
+       "peindre",
+       "plante"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Ce qui s'est passé récemment, ce sont tes …",
+      "options": [
+       "nouvelles",
+       "notes",
+       "prénoms"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Écris une lettre de 4 lignes à ton camarade (formule de début, une nouvelle, une question, formule de fin). Échangez, lisez à voix haute et répondez à la question !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Trouve les différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris une vraie lettre (6 lignes) à un ami ou un cousin. Demande à un adulte de t'aider à la poster — ou envoie-en une photo !"
+  }
+ ],
+ "scope": {
+  "grado": "G4",
+  "temaN": 1,
+  "tema": "En ville",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues plus longs ; repérer une information précise à l'oral."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire des lieux, des objets, des événements passés ; jouer une situation simple."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et remettre en ordre des histoires courtes ; trouver une information dans un panneau ou une affiche."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un message de 30 à 40 mots ; paragraphes de classe de 60 à 100 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~1350 mots ; passé composé, pronoms relatifs, pour + infinitif, devoir."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

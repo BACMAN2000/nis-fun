@@ -1,0 +1,298 @@
+{
+ "id": "movers-fr-49",
+ "level": "movers",
+ "number": 49,
+ "title": "Conseils pour le jour de l'examen",
+ "topic": "entraînement à l'examen",
+ "grammar": "les stratégies d'examen",
+ "wordlist": [
+  "examen",
+  "exemple",
+  "écouter",
+  "deux fois",
+  "couleur",
+  "crayon",
+  "vérifier",
+  "calme",
+  "essayer",
+  "sourire"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 1,
+  "skill": "stratégie générale"
+ },
+ "characters": [
+  "valentina",
+  "mateo"
+ ],
+ "scene": {
+  "speaker": "valentina",
+  "pose": {
+   "valentina": 3,
+   "mateo": 1
+  },
+  "bubble": "Les secrets du Club du Fjord : écoute deux fois, colorie soigneusement… et n'oublie pas de respirer !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe la règle de l'examen et sa raison.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Règle",
+    "right_label": "Raison",
+    "pairs": [
+     {
+      "left": "Écoute d'abord l'exemple.",
+      "right": "il te montre comment répondre"
+     },
+     {
+      "left": "Tu entends tout deux fois.",
+      "right": "la deuxième fois tu vérifies"
+     },
+     {
+      "left": "Apporte des crayons de couleur.",
+      "right": "une partie demande de colorier"
+     },
+     {
+      "left": "Écris lisiblement.",
+      "right": "l'examinateur doit pouvoir te lire"
+     },
+     {
+      "left": "Réponds à chaque question.",
+      "right": "une case vide ne rapporte rien"
+     },
+     {
+      "left": "Reste calme et souris.",
+      "right": "un cerveau calme se souvient mieux"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Que faut-il faire ? Choisis la meilleure option.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis la meilleure stratégie d'examen.",
+    "items": [
+     {
+      "sentence": "Tu entends « colorie le petit poisson en vert ». Tu…",
+      "options": [
+       "colories le petit poisson en vert",
+       "colories tous les poissons",
+       "attends une autre consigne"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu ne comprends pas un mot de la question. Tu…",
+      "options": [
+       "regardes l'image pour t'aider",
+       "laisses vide",
+       "pleures tout doucement"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu finis en avance. Tu…",
+      "options": [
+       "revérifies tes réponses",
+       "dormir",
+       "dessines des dinosaures"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "L'enregistrement commence. Tu…",
+      "options": [
+       "restes silencieux et tu écoutes",
+       "parles à ton camarade",
+       "chantes avec"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Avant l'examen tu devrais…",
+      "options": [
+       "bien dormir et prendre un petit-déjeuner",
+       "étudier toute la nuit",
+       "boire cinq colas"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Mini entraînement ! Écoute et écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u49-c.mp3",
+   "data": {
+    "voice_note": "Voces: Valentina (examinadora de práctica) — formato Movers real.",
+    "script": "Valentina : Test d'entraînement ! Écoute bien et écris. … Valentina : L'examen est samedi. Samedi, S-A-M-E-D-I. … Valentina : Il commence à dix heures du matin. … Valentina : Apporte deux crayons et tes crayons de couleur. … Valentina : La compréhension orale a cinq parties. Cinq. … Valentina : Et après l'examen… une glace au Café Aurore, bien sûr ! … Valentina : Maintenant vérifie tes réponses. Bravo, l'équipe !",
+    "questions": [
+     {
+      "q": "L'examen est …",
+      "answer": "samedi"
+     },
+     {
+      "q": "Il commence à … heures.",
+      "answer": "dix"
+     },
+     {
+      "q": "Apporte deux … et tes crayons de couleur.",
+      "answer": "crayons"
+     },
+     {
+      "q": "La compréhension orale a … parties.",
+      "answer": "cinq"
+     },
+     {
+      "q": "Après l'examen : une glace au Café …",
+      "answer": "Aurore"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Chaque partie de l'écoute commence par un …",
+      "options": [
+       "exemple",
+       "examen",
+       "sortie"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu entends chaque enregistrement …",
+      "options": [
+       "deux fois",
+       "une fois",
+       "dix fois"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Dans une partie tu ___ des images.",
+      "options": [
+       "couleur",
+       "couper",
+       "cuisinier"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "À la fin, ___ tes réponses.",
+      "options": [
+       "vérifier",
+       "change toutes",
+       "oublier"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Nerveux ? Respire et reste …",
+      "options": [
+       "calme",
+       "froid",
+       "bouclé"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Explique à ton camarade tes 3 conseils d'examen préférés en français. Ensemble, choisissez les 5 meilleurs pour une affiche de classe."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Trouve les différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris ton programme du jour d'examen : à quelle heure tu te réveilles, ce que tu apportes, ta règle personnelle. 4 phrases."
+  }
+ ],
+ "scope": {
+  "grado": "G3",
+  "temaN": 1,
+  "tema": "La vie à l'école",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues courts avec plus de vocabulaire ; repérer l'information principale dans des annonces simples."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire ses habitudes, ses préférés, les métiers du quartier ; donner une opinion courte."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire de courts paragraphes ; répondre à des questions simples ; trouver une information précise."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un court paragraphe sur soi, sa famille ou sa journée (40 à 70 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~800 mots ; les temps de base ; devoir, pouvoir ; l'accord du verbe ; le superlatif."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

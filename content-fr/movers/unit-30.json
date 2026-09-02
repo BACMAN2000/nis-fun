@@ -1,0 +1,313 @@
+{
+ "id": "movers-fr-30",
+ "level": "movers",
+ "number": 30,
+ "title": "Plus grand et plus petit",
+ "topic": "les comparatifs",
+ "grammar": "le comparatif : plus … que",
+ "wordlist": [
+  "plus grand",
+  "plus petit",
+  "plus grand",
+  "plus court",
+  "plus rapide",
+  "plus lent",
+  "plus vieux",
+  "plus jeune",
+  "plus long",
+  "que"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 6,
+  "skill": "phrases à trous"
+ },
+ "characters": [
+  "erik",
+  "valentina"
+ ],
+ "scene": {
+  "speaker": "erik",
+  "pose": {
+   "erik": 2,
+   "valentina": 1
+  },
+  "bubble": "La science des tailles ! Mon robot est plus petit que Luna, mais Luna est plus rapide que mon robot. Données recueillies !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe les contraires.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Comparatif",
+    "right_label": "Contraire",
+    "pairs": [
+     {
+      "left": "plus grand",
+      "right": "plus petit"
+     },
+     {
+      "left": "plus grand",
+      "right": "plus court"
+     },
+     {
+      "left": "plus rapide",
+      "right": "plus lent"
+     },
+     {
+      "left": "plus vieux",
+      "right": "plus jeune"
+     },
+     {
+      "left": "plus long",
+      "right": "plus court en longueur"
+     },
+     {
+      "left": "plus lourd",
+      "right": "plus léger"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis le bon comparatif.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "Un éléphant est ___ qu'un cheval.",
+      "options": [
+       "plus grand",
+       "grand",
+       "le plus grand"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Une souris est ___ qu'un chat.",
+      "options": [
+       "plus petit",
+       "petit",
+       "le plus petit"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Mon frère a deux ans de ___ que moi.",
+      "options": [
+       "plus vieux",
+       "vieux",
+       "le plus vieux"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un vélo est ___ qu'un avion.",
+      "options": [
+       "plus lent",
+       "lent",
+       "le plus lent"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "La rivière est plus longue ___ la rue.",
+      "options": [
+       "que",
+       "ce",
+       "ensuite"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute le jour des mesures. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u30-c.mp3",
+   "data": {
+    "voice_note": "Voces: Erik (con la cinta métrica) y Valentina (anotando).",
+    "script": "Erik : Jour des mesures ! Valentina, tu fais un mètre quarante. … Valentina : Et toi un mètre trente-huit. Je suis plus grande que toi ! … Erik : De deux centimètres seulement ! Maintenant le test de saut. … Valentina : Mateo a sauté un mètre — c'est le meilleur sauteur. … Erik : Et à la course, Sofia était plus rapide que tout le monde. Huit secondes ! … Valentina : Et Luna ? … Erik : Luna est plus rapide que Sofia. Mais elle ne suit pas les règles — elle part avant le sifflet ! … Valentina : Conclusion : chacun est le meilleur en quelque chose !",
+    "questions": [
+     {
+      "q": "Valentina fait un mètre …",
+      "answer": "quarante"
+     },
+     {
+      "q": "Elle est plus grande de deux …",
+      "answer": "centimètres"
+     },
+     {
+      "q": "Mateo a sauté un …",
+      "answer": "mètre"
+     },
+     {
+      "q": "Sofía a couru en huit …",
+      "answer": "secondes"
+     },
+     {
+      "q": "Luna part avant le …",
+      "answer": "sifflet"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Une girafe est ___ qu'un mouton.",
+      "options": [
+       "plus grand",
+       "plus court",
+       "plus jeune"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un train est ___ qu'un vélo.",
+      "options": [
+       "plus rapide",
+       "plus lent",
+       "plus petit"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Papi est ___ que papa.",
+      "options": [
+       "plus vieux",
+       "plus jeune",
+       "plus grand"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un serpent est ___ qu'un ver.",
+      "options": [
+       "plus long",
+       "plus court",
+       "plus lent"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Mon sac est lourd, mais le tien est ___ !",
+      "options": [
+       "plus lourd",
+       "lourd",
+       "le plus lourd"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Comparez 5 choses sur vos bureaux : « Mon crayon est plus long que le tien. Ton livre est plus lourd… » Vérifiez chacune — c'est vrai ?"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Deux images, plein de différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 11 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Compare-toi avec quelqu'un de ta famille : 5 phrases avec plus … que (plus grand, plus vieux, plus rapide…)."
+  }
+ ],
+ "scope": {
+  "grado": "G4",
+  "temaN": 4,
+  "tema": "Sport et santé",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues plus longs ; repérer une information précise à l'oral."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire des lieux, des objets, des événements passés ; jouer une situation simple."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et remettre en ordre des histoires courtes ; trouver une information dans un panneau ou une affiche."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un message de 30 à 40 mots ; paragraphes de classe de 60 à 100 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~1350 mots ; passé composé, pronoms relatifs, pour + infinitif, devoir."
+   }
+  ],
+  "vocabulario": [
+   "bras cassé",
+   "cheville foulée",
+   "allergie"
+  ],
+  "gramatica": [
+   "Le partitif avec le vocabulaire de la santé"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "broken arm",
+    "sprained ankle",
+    "allergy"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "bras cassé",
+  "cheville foulée",
+  "allergie"
+ ],
+ "lang": "fr"
+}

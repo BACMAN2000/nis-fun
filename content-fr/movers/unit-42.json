@@ -1,0 +1,275 @@
+{
+ "id": "movers-fr-42",
+ "level": "movers",
+ "number": 42,
+ "title": "Sous la mer",
+ "topic": "les animaux marins",
+ "grammar": "le présent + la description",
+ "wordlist": [
+  "mer",
+  "vague",
+  "coquillage",
+  "crabe",
+  "pieuvre",
+  "étoile de mer",
+  "méduse",
+  "requin",
+  "nager",
+  "profond"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 1,
+  "skill": "définitions"
+ },
+ "characters": [
+  "valentina",
+  "mateo"
+ ],
+ "scene": {
+  "speaker": "valentina",
+  "pose": {
+   "valentina": 3,
+   "mateo": 5
+  },
+  "bubble": "L'heure de l'histoire : la pieuvre qui voulait faire des câlins à tout le monde ! Huit bras, huit câlins en même temps."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Lis les phrases et écris les mots de la mer.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "PIEUVRE",
+      "clue": "Elle a huit bras !"
+     },
+     {
+      "word": "CRABE",
+      "clue": "Il marche de côté sur la plage."
+     },
+     {
+      "word": "ETOILEDEMER",
+      "clue": "Un animal marin en forme d'étoile."
+     },
+     {
+      "word": "COQUILLAGE",
+      "clue": "Tu le trouves sur le sable. Mets-le à ton oreille !"
+     },
+     {
+      "word": "REQUIN",
+      "clue": "Un grand poisson avec beaucoup de dents pointues."
+     },
+     {
+      "word": "VAGUE",
+      "clue": "La mer monte et descend avec elles."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Associe l'animal marin et sa particularité.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Animal",
+    "right_label": "Chose spéciale",
+    "pairs": [
+     {
+      "left": "la pieuvre",
+      "right": "a huit bras"
+     },
+     {
+      "left": "le crabe",
+      "right": "marche de côté"
+     },
+     {
+      "left": "l'étoile de mer",
+      "right": "ressemble à une étoile"
+     },
+     {
+      "left": "la méduse",
+      "right": "est molle comme de la gelée — ne touche pas !"
+     },
+     {
+      "left": "le requin",
+      "right": "n'arrête jamais de nager"
+     },
+     {
+      "left": "le dauphin",
+      "right": "parle avec des clics et des sifflements"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute l'histoire de la pieuvre. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u42-c.mp3",
+   "data": {
+    "voice_note": "Voces: Valentina (cuentacuentos) y Mateo (efectos de sonido marinos).",
+    "script": "Valentina : Il était une fois, tout au fond de la mer, une pieuvre qui s'appelait Otto. … Valentina : Otto avait huit bras et un grand rêve : faire un câlin à chaque animal de l'océan. … Valentina : Il a fait un câlin au crabe — doucement, à cause des pinces. … Valentina : Il a fait un câlin à cinq étoiles de mer en même temps ! … Valentina : Mais la méduse a dit : plutôt un sourire qu'un câlin, cher Otto. … Valentina : Et le requin ? Otto lui a fait signe… de très loin. … Valentina : À la fin, tous les animaux ont fait un cercle et ont fait un câlin à Otto tous ensemble. … Mateo : Huit bras, ce n'était pas assez pour tant d'amour !",
+    "questions": [
+     {
+      "q": "La pieuvre s'appelle …",
+      "answer": "Otto"
+     },
+     {
+      "q": "Il a fait un câlin au crabe doucement à cause des …",
+      "answer": "pinces"
+     },
+     {
+      "q": "Il a fait un câlin à … étoiles de mer en même temps.",
+      "answer": "cinq"
+     },
+     {
+      "q": "La … préférait un sourire.",
+      "answer": "méduse"
+     },
+     {
+      "q": "Otto a fait signe au requin de très …",
+      "answer": "loin"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Une pieuvre a ___ bras.",
+      "options": [
+       "huit",
+       "six",
+       "dix"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu entends la mer dans un …",
+      "options": [
+       "coquillage",
+       "vague",
+       "rocher"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le fond de l'océan est très …",
+      "options": [
+       "profond",
+       "sec",
+       "ensoleillé"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les poissons ___ toute la journée.",
+      "options": [
+       "nager",
+       "courir",
+       "voler"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "La ___ fait monter et descendre les bateaux.",
+      "options": [
+       "vague",
+       "étoile",
+       "coquillage"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Inventez ensemble un personnage marin (nom, animal, rêve) et racontez son histoire de 30 secondes à un autre binôme. Bruitages bienvenus !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Regarde A et B. Qu'est-ce qui change ?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 11 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Dessine la mer avec 5 animaux et écris une phrase sur chacun."
+  }
+ ],
+ "scope": {
+  "grado": "G4",
+  "temaN": 3,
+  "tema": "Animaux sauvages et nature",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues plus longs ; repérer une information précise à l'oral."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire des lieux, des objets, des événements passés ; jouer une situation simple."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et remettre en ordre des histoires courtes ; trouver une information dans un panneau ou une affiche."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un message de 30 à 40 mots ; paragraphes de classe de 60 à 100 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~1350 mots ; passé composé, pronoms relatifs, pour + infinitif, devoir."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

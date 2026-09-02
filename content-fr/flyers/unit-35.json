@@ -1,0 +1,538 @@
+{
+ "id": "flyers-fr-35",
+ "level": "flyers",
+ "number": 35,
+ "title": "Quand je suis triste",
+ "topic": "émotions",
+ "grammar": "quand + présent",
+ "wordlist": [
+  "content",
+  "triste",
+  "fâché",
+  "inquiet",
+  "surpris",
+  "fier",
+  "sourire",
+  "pleurer",
+  "rire",
+  "câlin"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 1,
+  "skill": "définitions"
+ },
+ "characters": [
+  "oliver",
+  "kili"
+ ],
+ "scene": {
+  "speaker": "oliver",
+  "pose": {
+   "oliver": 3,
+   "kili": 3
+  },
+  "bubble": "Quand je suis triste, je joue de la guitare. Quand Kili est triste, il mange sept biscuits. Chacun a son remède !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Lis les phrases et écris les mots des émotions.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "INQUIET",
+      "clue": "Ce que tu ressens avant un test difficile."
+     },
+     {
+      "word": "FIER",
+      "clue": "Ce que tu ressens quand tu réussis très bien quelque chose."
+     },
+     {
+      "word": "FACHE",
+      "clue": "Ce que tu ressens quand quelque chose est vraiment injuste !"
+     },
+     {
+      "word": "SURPRIS",
+      "clue": "Ce que tu ressens quand quelque chose d'inattendu arrive."
+     },
+     {
+      "word": "CONTENT",
+      "clue": "Ce que tu ressens le jour de ton anniversaire."
+     },
+     {
+      "word": "TRISTE",
+      "clue": "Ce que tu ressens quand ton meilleur ami déménage."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Associe la situation et l'émotion.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Situation",
+    "right_label": "Émotion",
+    "pairs": [
+     {
+      "left": "Tu as gagné le premier prix !",
+      "right": "fier"
+     },
+     {
+      "left": "Ta glace est tombée par terre.",
+      "right": "triste"
+     },
+     {
+      "left": "Il y a une araignée dans ta chaussure !",
+      "right": "surpris"
+     },
+     {
+      "left": "Quelqu'un a cassé ton cerf-volant exprès.",
+      "right": "fâché"
+     },
+     {
+      "left": "Le test est demain et tu n'as pas révisé.",
+      "right": "inquiet"
+     },
+     {
+      "left": "Ton chien court vers toi à la sortie de l'école.",
+      "right": "content"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute. Qu'est-ce qui fait du bien à l'équipe ? Écris un mot dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u35-c.mp3",
+   "data": {
+    "voice_note": "Voces: Oliver (preguntando al equipo) y Kili (con respuestas dulces).",
+    "script": "Oliver : Question à l'équipe : qu'est-ce que vous faites quand vous êtes tristes ? … Oliver : Ingrid dit qu'elle nage. L'eau emporte la tristesse, dit-elle. … Oliver : Diego regarde de vieux films drôles et rit jusqu'à avoir mal au ventre. … Oliver : Maya regarde les étoiles avec son télescope. Le ciel est grand, les problèmes sont petits. … Oliver : Moi ? Je joue des chansons lentes à la guitare jusqu'à ce qu'elles deviennent gaies. … Oliver : Et Kili… Kili mange exactement sept biscuits et fait un câlin à quelqu'un. … Oliver : Un câlin de condor répare presque tout !",
+    "questions": [
+     {
+      "q": "Ingrid … quand elle est triste.",
+      "answer": "nage"
+     },
+     {
+      "q": "Diego regarde de vieux … drôles.",
+      "answer": "films"
+     },
+     {
+      "q": "Maya regarde les étoiles avec son …",
+      "answer": "télescope"
+     },
+     {
+      "q": "Oliver joue des … lentes à la guitare.",
+      "answer": "chansons"
+     },
+     {
+      "q": "Kili mange exactement … biscuits.",
+      "answer": "sept"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Quand tu es content, tu …",
+      "options": [
+       "pleurer",
+       "sourire",
+       "crier"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Quand quelque chose est très drôle, tu …",
+      "options": [
+       "rire",
+       "dormir",
+       "s'inquiéter"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les parents sont ___ quand leurs enfants aident les autres.",
+      "options": [
+       "fâché",
+       "fier",
+       "ennuyé"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Un bon ___ peut faire du bien à un ami triste.",
+      "options": [
+       "câlin",
+       "tempête",
+       "timbre"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___ je suis inquiet, je parle à ma mère.",
+      "options": [
+       "Quand",
+       "Quoi",
+       "Qui"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Mime des émotions : montre une émotion seulement avec ton visage et ton corps. Ton camarade devine et demande : « Quand est-ce que tu ressens ça ? » Réponds avec Quand je… Trois émotions chacun."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Regarde A et B. Qu'est-ce qui change ?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  },
+  {
+   "type": "picture_mc",
+   "title": "Écoute et coche la bonne case.",
+   "instructions": "Écoute chaque question et clique sur l'image qui répond.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 1,
+     "nombre": "Mon identité"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et cocher la bonne image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u35-h.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "Quelle image Oliver regarde-t-il ?",
+      "answer": "inquiet",
+      "options": [
+       {
+        "word": "inquiet",
+        "propio": false
+       },
+       {
+        "word": "poche",
+        "propio": true
+       },
+       {
+        "word": "ceinture",
+        "propio": true
+       }
+      ],
+      "script": "Quelle image Oliver regarde-t-il ? … Oliver : Je regarde l'inquiet."
+     },
+     {
+      "q": "Qu'est-ce qu'Ingrid voit sur l'image ?",
+      "answer": "câlin",
+      "options": [
+       {
+        "word": "pharmacie",
+        "propio": true
+       },
+       {
+        "word": "château",
+        "propio": true
+       },
+       {
+        "word": "câlin",
+        "propio": false
+       }
+      ],
+      "script": "Qu'est-ce qu'Ingrid voit sur l'image ? … Ingrid : Je vois le câlin."
+     },
+     {
+      "q": "Que montre Maya du doigt ?",
+      "answer": "surpris",
+      "options": [
+       {
+        "word": "aéroport",
+        "propio": true
+       },
+       {
+        "word": "gants",
+        "propio": true
+       },
+       {
+        "word": "surpris",
+        "propio": false
+       }
+      ],
+      "script": "Que montre Maya du doigt ? … Maya : Je montre le surpris."
+     }
+    ],
+    "script": "Écoute et coche la bonne case. Il y a un exemple. … Quelle image Oliver regarde-t-il ? … Oliver : Je regarde l'inquiet. … Qu'est-ce qu'Ingrid voit sur l'image ? … Ingrid : Je vois le câlin. … Que montre Maya du doigt ? … Maya : Je montre le surpris.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "H"
+  },
+  {
+   "type": "picture_story",
+   "title": "Regarde les trois images et écris l'histoire.",
+   "instructions": "Regarde les images. Écris l'histoire en 20-25 mots. Aide-toi des mots sous chaque image.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 1,
+     "nombre": "Mon identité"
+    },
+    "destreza": "Writing",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots.",
+    "clase": "Type examen : histoire en images de 20 à 25 mots (production écrite)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "library",
+      "people": [
+       {
+        "slug": "oliver",
+        "pose": 4
+       }
+      ],
+      "word": "fier",
+      "hint": "Oliver / être / fier",
+      "model": "Oliver est fier à la bibliothèque."
+     },
+     {
+      "n": 2,
+      "scene": "classroom",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 3
+       },
+       {
+        "slug": "oliver",
+        "pose": 6
+       }
+      ],
+      "word": "fâché",
+      "hint": "Maya / parler à / Oliver / fâché",
+      "model": "Maya parle à Oliver parce qu'il a l'air fâché."
+     },
+     {
+      "n": 3,
+      "scene": "campus-hex",
+      "people": [
+       {
+        "slug": "oliver",
+        "pose": 10
+       },
+       {
+        "slug": "maya",
+        "pose": 1
+       }
+      ],
+      "word": "content",
+      "hint": "maintenant / tous les deux / contents",
+      "model": "Maintenant ils sont tous les deux contents et ils sourient."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Oliver est fier à la bibliothèque. Maya parle à Oliver parce qu'il a l'air fâché. Maintenant ils sont tous les deux contents et ils sourient.",
+    "words": [
+     "fier",
+     "fâché",
+     "content"
+    ],
+    "support": {
+     "grammar": "quand + présent",
+     "words": [
+      "content",
+      "triste",
+      "fâché",
+      "inquiet",
+      "surpris",
+      "fier"
+     ]
+    }
+   },
+   "code": "I"
+  },
+  {
+   "type": "label_people",
+   "title": "Écoute et écris les prénoms.",
+   "instructions": "Regarde l'image. Écoute et écris le prénom sous chaque personne. Attention : il y a trois prénoms en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 1,
+     "nombre": "Mon identité"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et écrire le prénom de chaque personne de l'image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u35-g.mp3",
+   "data": {
+    "scene": "campus-hex",
+    "place": "la cour de l'école",
+    "people": [
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "clue": "le garçon aux cheveux roux et au t-shirt jaune",
+      "action": "chante",
+      "pose": 7
+     },
+     {
+      "slug": "kili",
+      "name": "Kili",
+      "clue": "le grand oiseau noir avec un collier blanc",
+      "action": "porte une lettre",
+      "pose": 3
+     },
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "clue": "la fille au t-shirt vert avec une loupe",
+      "action": "observe quelque chose de tout petit",
+      "pose": 7
+     },
+     {
+      "slug": "tino",
+      "name": "Tino",
+      "clue": "le garçon aux cheveux très courts et au t-shirt blanc et vert",
+      "action": "joue au hockey",
+      "pose": 7
+     },
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "clue": "la fille aux cheveux blonds et à la veste bleu foncé",
+      "action": "lit le programme de la journée",
+      "pose": 7
+     }
+    ],
+    "names": [
+     "Ingrid",
+     "Iris",
+     "Kili",
+     "Lia",
+     "Maya",
+     "Mr Vega",
+     "Oliver",
+     "Tino"
+    ],
+    "script": "Regarde l'image. Écoute et écris les prénoms. Il y a un exemple. … Diego : Qui est-ce dans la cour de l'école ? Le garçon aux cheveux roux et au t-shirt jaune. … Maya : C'est Oliver. Oliver chante. … Diego : Et qui est le grand oiseau noir avec un collier blanc ? … Maya : C'est Kili. Regarde, Kili porte une lettre. … Diego : Et qui est la fille au t-shirt vert avec une loupe ? … Maya : C'est Maya. Regarde, Maya observe quelque chose de tout petit. … Diego : Et qui est le garçon aux cheveux très courts et au t-shirt blanc et vert ? … Maya : C'est Tino. Regarde, Tino joue au hockey. … Diego : Et qui est la fille aux cheveux blonds et à la veste bleu foncé ? … Maya : C'est Ingrid. Regarde, Ingrid lit le programme de la journée.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris ta recette personnelle contre la tristesse : Quand je suis triste, je… (3 idées). Décore-la — elle ira au mur de la classe !"
+  }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 1,
+  "tema": "Mon identité",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Raconter des histoires au passé, au présent et au futur ; exprimer ses préférences avec des raisons."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et comprendre des histoires courtes (80 à 250 mots) ; trouver l'idée principale et les détails."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~2500 mots ; passé composé, questions négatives, si + présent, futur proche."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

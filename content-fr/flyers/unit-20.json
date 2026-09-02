@@ -1,0 +1,561 @@
+{
+ "id": "flyers-fr-20",
+ "level": "flyers",
+ "number": 20,
+ "title": "C'est en quoi ?",
+ "topic": "les matières",
+ "grammar": "en + matière",
+ "wordlist": [
+  "bois",
+  "métal",
+  "verre",
+  "plastique",
+  "papier",
+  "laine",
+  "or",
+  "argent",
+  "pierre",
+  "carte"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 1,
+  "skill": "définitions"
+ },
+ "characters": [
+  "maya",
+  "diego"
+ ],
+ "scene": {
+  "speaker": "maya",
+  "pose": {
+   "maya": 8,
+   "diego": 4
+  },
+  "bubble": "Défi du musée ! Cette boîte est en bois, cette bague est en or… Et ton microphone, Diego, il est en quoi ?"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe l'objet et sa matière.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Objet",
+    "right_label": "C'est en…",
+    "pairs": [
+     {
+      "left": "une fenêtre",
+      "right": "verre"
+     },
+     {
+      "left": "un pull chaud d'hiver",
+      "right": "laine"
+     },
+     {
+      "left": "un journal",
+      "right": "papier"
+     },
+     {
+      "left": "le mur d'un vieux château",
+      "right": "pierre"
+     },
+     {
+      "left": "la bague d'une reine",
+      "right": "or"
+     },
+     {
+      "left": "une bouteille d'eau",
+      "right": "plastique"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis la bonne matière.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Cette table est ___ bois.",
+      "options": [
+       "de",
+       "par",
+       "dans"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les pièces de monnaie sont souvent en …",
+      "options": [
+       "papier",
+       "métal",
+       "laine"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Fais attention à ce vase — il est en …",
+      "options": [
+       "verre",
+       "carte",
+       "laine"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Une carte d'anniversaire est en …",
+      "options": [
+       "pierre",
+       "carte",
+       "argent"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Le collier de mamie est en ___ — il est gris et brillant.",
+      "options": [
+       "bois",
+       "laine",
+       "argent"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute la visite du musée. Écris un mot dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u20-c.mp3",
+   "data": {
+    "voice_note": "Voces: Maya (guía del museo) y Diego (visitante-reportero).",
+    "script": "Maya : Bienvenue au musée de la ville ! Cette première salle est la plus ancienne. … Diego : Waouh, regarde cette énorme porte ! … Maya : Elle est en bois, celui d'un bateau qui est arrivé ici il y a quatre cents ans. … Diego : Et cette couronne brillante ? … Maya : Elle est en or, avec sept pierres bleues. … Diego : Qu'est-ce qu'il y a dans la vitrine ? … Maya : Un tout petit sifflet en argent. Les capitaines l'utilisaient les nuits de tempête. … Diego : Et cette chose toute douce ? … Maya : Une couverture en laine de moutons de la montagne. Tu peux la toucher ! … Diego : Le meilleur musée du monde !",
+    "questions": [
+     {
+      "q": "L'énorme porte est en …",
+      "answer": "bois"
+     },
+     {
+      "q": "Le bois vient d'un … arrivé il y a 400 ans.",
+      "answer": "navire"
+     },
+     {
+      "q": "La couronne en or a sept … bleues.",
+      "answer": "pierres"
+     },
+     {
+      "q": "Le petit sifflet est en …",
+      "answer": "argent"
+     },
+     {
+      "q": "La couverture est en … de moutons de la montagne.",
+      "answer": "laine"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "C'est transparent et on voit à travers.",
+      "options": [
+       "verre",
+       "bois",
+       "pierre"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les moutons nous donnent cette matière chaude.",
+      "options": [
+       "plastique",
+       "laine",
+       "métal"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Les livres et les cahiers sont en …",
+      "options": [
+       "papier",
+       "or",
+       "verre"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les vieux châteaux sont en grosses … grises.",
+      "options": [
+       "cartes",
+       "pierres",
+       "papiers"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Le métal jaune et cher des bagues, c'est l'…",
+      "options": [
+       "argent",
+       "fer",
+       "or"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Devinette des matières : « Je vois quelque chose en verre… » Ton camarade devine l'objet dans la classe. Trois objets chacun."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Deux images, plein de différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 11 différences et parles-en avec ton camarade.",
+   "data": {}
+  },
+  {
+   "type": "picture_mc",
+   "title": "Écoute et coche la bonne case.",
+   "instructions": "Écoute chaque question et clique sur l'image qui répond.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 4,
+     "nombre": "Gens et cultures"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et cocher la bonne image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u20-h.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "De quoi Maya parle-t-elle ?",
+      "answer": "bois",
+      "options": [
+       {
+        "word": "chaussettes",
+        "propio": true
+       },
+       {
+        "word": "bois",
+        "propio": false
+       },
+       {
+        "word": "famille",
+        "propio": true
+       }
+      ],
+      "script": "De quoi Maya parle-t-elle ? … Maya : Je parle du bois."
+     },
+     {
+      "q": "Quel mot Diego apprend-il aujourd'hui ?",
+      "answer": "verre",
+      "options": [
+       {
+        "word": "verre",
+        "propio": false
+       },
+       {
+        "word": "chapeau de soleil",
+        "propio": true
+       },
+       {
+        "word": "ceinture",
+        "propio": true
+       }
+      ],
+      "script": "Quel mot Diego apprend-il aujourd'hui ? … Diego : Aujourd'hui j'apprends le mot verre."
+     },
+     {
+      "q": "Qu'est-ce que Bruno a dessiné ?",
+      "answer": "carte",
+      "options": [
+       {
+        "word": "ceinture",
+        "propio": true
+       },
+       {
+        "word": "écharpe",
+        "propio": true
+       },
+       {
+        "word": "carte",
+        "propio": false
+       }
+      ],
+      "script": "Qu'est-ce que Bruno a dessiné ? … Bruno : J'ai dessiné une carte."
+     }
+    ],
+    "script": "Écoute et coche la bonne case. Il y a un exemple. … De quoi Maya parle-t-elle ? … Maya : Je parle du bois. … Quel mot Diego apprend-il aujourd'hui ? … Diego : Aujourd'hui j'apprends le mot verre. … Qu'est-ce que Bruno a dessiné ? … Bruno : J'ai dessiné une carte.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "H"
+  },
+  {
+   "type": "picture_story",
+   "title": "Regarde les trois images et écris l'histoire.",
+   "instructions": "Regarde les images. Écris l'histoire en 20-25 mots. Aide-toi des mots sous chaque image.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 4,
+     "nombre": "Gens et cultures"
+    },
+    "destreza": "Writing",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots.",
+    "clase": "Type examen : histoire en images de 20 à 25 mots (production écrite)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "funfair",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 4
+       }
+      ],
+      "word": "carte",
+      "hint": "Maya / porte / une carte",
+      "model": "Maya porte une carte à la fête foraine."
+     },
+     {
+      "n": 2,
+      "scene": "facade",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 8
+       },
+       {
+        "slug": "diego",
+        "pose": 1
+       }
+      ],
+      "word": "verre",
+      "hint": "Diego / apporter / un verre",
+      "model": "Ensuite Diego apporte un verre."
+     },
+     {
+      "n": 3,
+      "scene": "amphitheater",
+      "people": [
+       {
+        "slug": "diego",
+        "pose": 10
+       },
+       {
+        "slug": "maya",
+        "pose": 10
+       }
+      ],
+      "word": "bois",
+      "hint": "maintenant / un bois / content",
+      "model": "Maintenant ils ont aussi un bois, et tous les deux sont contents."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Maya porte une carte à la fête foraine. Ensuite Diego apporte un verre. Maintenant ils ont aussi un bois, et tous les deux sont contents.",
+    "words": [
+     "carte",
+     "verre",
+     "bois"
+    ],
+    "support": {
+     "grammar": "en + matière",
+     "words": [
+      "bois",
+      "métal",
+      "verre",
+      "plastique",
+      "papier",
+      "laine"
+     ]
+    }
+   },
+   "code": "I"
+  },
+  {
+   "type": "label_people",
+   "title": "Écoute et écris les prénoms.",
+   "instructions": "Regarde l'image. Écoute et écris le prénom sous chaque personne. Attention : il y a trois prénoms en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 4,
+     "nombre": "Gens et cultures"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et écrire le prénom de chaque personne de l'image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u20-g.mp3",
+   "data": {
+    "scene": "facade",
+    "place": "le devant de l'école",
+    "people": [
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "clue": "la fille au t-shirt vert avec une loupe",
+      "action": "observe quelque chose de tout petit",
+      "pose": 7
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "clue": "le garçon au t-shirt rouge avec un microphone",
+      "action": "pose des questions avec son microphone",
+      "pose": 7
+     },
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "clue": "la fille aux cheveux blonds et à la veste bleu foncé",
+      "action": "lit le programme de la journée",
+      "pose": 7
+     },
+     {
+      "slug": "aiko",
+      "name": "Aiko",
+      "clue": "la fille aux longs cheveux noirs raides et au t-shirt orange",
+      "action": "lit un livre",
+      "pose": 7
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "clue": "la fille à la queue-de-cheval rousse et aux taches de rousseur",
+      "action": "dessine à la craie par terre",
+      "pose": 7
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Diego",
+     "Ingrid",
+     "Iris",
+     "Maya",
+     "Mr Vega",
+     "Oliver",
+     "Tino"
+    ],
+    "script": "Regarde l'image. Écoute et écris les prénoms. Il y a un exemple. … Diego : Qui est-ce devant l'école ? La fille au t-shirt vert avec une loupe. … Maya : C'est Maya. Maya observe quelque chose de tout petit. … Diego : Et qui est le garçon au t-shirt rouge avec un microphone ? … Maya : C'est Diego. Regarde, Diego pose des questions avec son microphone. … Diego : Et qui est la fille aux cheveux blonds et à la veste bleu foncé ? … Maya : C'est Ingrid. Regarde, Ingrid lit le programme de la journée. … Diego : Et qui est la fille aux longs cheveux noirs raides et au t-shirt orange ? … Maya : C'est Aiko. Regarde, Aiko lit un livre. … Diego : Et qui est la fille à la queue-de-cheval rousse et aux taches de rousseur ? … Maya : C'est Iris. Regarde, Iris dessine à la craie par terre.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Trouve 5 objets chez toi faits de matières différentes. Écris : La cuillère est en métal. La chaise est en…"
+  }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 4,
+  "tema": "Gens et cultures",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Raconter des histoires au passé, au présent et au futur ; exprimer ses préférences avec des raisons."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et comprendre des histoires courtes (80 à 250 mots) ; trouver l'idée principale et les détails."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~2500 mots ; passé composé, questions négatives, si + présent, futur proche."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

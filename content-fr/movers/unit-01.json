@@ -1,0 +1,384 @@
+{
+ "id": "movers-fr-01",
+ "level": "movers",
+ "number": 1,
+ "title": "Nos amis les animaux",
+ "topic": "animaux",
+ "grammar": "le comparatif : plus grand / plus petit que",
+ "wordlist": [
+  "chauve-souris",
+  "dauphin",
+  "kangourou",
+  "lion",
+  "panda",
+  "perroquet",
+  "pingouin",
+  "requin",
+  "escargot",
+  "baleine"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 1,
+  "skill": "définitions"
+ },
+ "characters": [
+  "valentina",
+  "erik"
+ ],
+ "scene": {
+  "speaker": "valentina",
+  "pose": {
+   "valentina": 3,
+   "erik": 5
+  },
+  "bubble": "Il était une fois, le Club du Fjord est allé au zoo. Erik, quel animal tu veux voir en premier ?",
+  "intro": "Les portes du zoo ouvrent à neuf heures, et le Club du Fjord est le premier dans la file ! Valentina veut voir les pandas manger leur petit-déjeuner de bambou, Erik apporte un carnet pour dessiner chaque animal, et Sofia a la carte avec tous les chemins. Qui est le plus grand, une baleine ou un dauphin ? Qui saute le plus haut, un kangourou ou une grenouille ? Aujourd'hui on les compare tous — et Luna attend à la maison en rêvant d'un très gros os."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Lis les phrases et écris les animaux.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "DAUPHIN",
+      "clue": "Un animal gris et malin qui saute hors de la mer."
+     },
+     {
+      "word": "LION",
+      "clue": "Un grand chat jaune. C'est le roi de la jungle."
+     },
+     {
+      "word": "PANDA",
+      "clue": "Un ours noir et blanc qui mange du bambou."
+     },
+     {
+      "word": "MANCHOT",
+      "clue": "Un oiseau noir et blanc qui nage mais ne sait pas voler."
+     },
+     {
+      "word": "BALEINE",
+      "clue": "Le plus grand animal de la mer."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Associe l'animal et son talent.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Animal",
+    "right_label": "Ce qu'il fait",
+    "pairs": [
+     {
+      "left": "chauve-souris",
+      "right": "vole la nuit"
+     },
+     {
+      "left": "kangourou",
+      "right": "saute avec ses pattes puissantes"
+     },
+     {
+      "left": "escargot",
+      "right": "porte sa maison"
+     },
+     {
+      "left": "requin",
+      "right": "a des dents très pointues"
+     },
+     {
+      "left": "perroquet",
+      "right": "sait dire des mots"
+     },
+     {
+      "left": "dauphin",
+      "right": "saute hors de l'eau"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute. Valentina raconte le zoo à Erik. Écris un mot dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u01-c.mp3",
+   "data": {
+    "voice_note": "Voces: Valentina (narradora, cálida) y Erik (inventor, curioso).",
+    "script": "Erik : Valentina, raconte-moi le zoo ! … Valentina : C'était génial ! D'abord on a vu les pandas. Ils mangeaient du bambou. … Erik : Il y avait combien de pandas ? … Valentina : Deux ! Un grand et un bébé. … Erik : Et ton animal préféré ? … Valentina : Les dauphins ! Ils sautaient très haut, plus haut que la barrière ! … Erik : Waouh ! Tu as vu les manchots ? … Valentina : Oui, ils nageaient dans une eau bleue toute froide. … Erik : Moi aussi je veux y aller. On peut emmener Luna ? … Valentina : Pas de chiens au zoo, Erik ! Luna peut attendre à la maison avec un gros os.",
+    "questions": [
+     {
+      "q": "Les pandas mangeaient du …",
+      "answer": "bambou"
+     },
+     {
+      "q": "Il y avait … pandas.",
+      "answer": "deux"
+     },
+     {
+      "q": "Les animaux préférés de Valentina étaient les …",
+      "answer": "dauphins"
+     },
+     {
+      "q": "Les manchots nageaient dans une eau … froide.",
+      "answer": "bleu"
+     },
+     {
+      "q": "Luna attend à la maison avec un gros …",
+      "answer": "os"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Lis et choisis le bon mot, comme à l'examen.",
+    "items": [
+     {
+      "sentence": "Une baleine est ___ qu'un dauphin.",
+      "options": [
+       "grand",
+       "plus grand",
+       "le plus grand"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Un escargot est ___ qu'un kangourou.",
+      "options": [
+       "plus lent",
+       "lent",
+       "le plus lent"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Cet animal vole la nuit.",
+      "options": [
+       "un requin",
+       "une chauve-souris",
+       "un panda"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Les manchots savent ___ très bien.",
+      "options": [
+       "voler",
+       "chanter",
+       "nager"
+      ],
+      "answer": 2
+     },
+     {
+      "sentence": "Un lion est ___ qu'un chat.",
+      "options": [
+       "le plus fort",
+       "fort",
+       "plus fort"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "L'élève A pense à un animal de la liste. L'élève B pose des questions oui/non pour deviner : « Il est plus grand qu'un chien ? Il sait nager ? » Cinq questions maximum, puis on échange."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Deux images du zoo. Trouve les différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "sceneA": [
+     [
+      "🐼",
+      "🦁",
+      "🐧",
+      "🐬",
+      "🦘"
+     ],
+     [
+      "🌴",
+      "🌳",
+      "🍃",
+      "🪨",
+      "🌿"
+     ],
+     [
+      "🐍",
+      "🦜",
+      "🐒",
+      "🐢",
+      "🦩"
+     ]
+    ],
+    "sceneB": [
+     [
+      "🐼",
+      "🐯",
+      "🐧",
+      "🐬",
+      "🦘"
+     ],
+     [
+      "🌴",
+      "🌳",
+      "🍌",
+      "🪨",
+      "🌿"
+     ],
+     [
+      "🐊",
+      "🦜",
+      "🐒",
+      "🐢",
+      "🦚"
+     ]
+    ],
+    "diffs": [
+     [
+      0,
+      1
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      2,
+      4
+     ]
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "gap_text",
+   "title": "Lis le texte de la sortie. Écris les mots qui manquent.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "pandas",
+     "dolphins",
+     "penguins",
+     "bamboo",
+     "bone",
+     "zoo",
+     "cats"
+    ],
+    "text": "Samedi dernier le Club du Fjord est allé au {1}. D'abord ils ont vu les {2} — ils mangeaient du {3} vert tout le temps ! Ensuite ils ont regardé les {4} sauter plus haut que la barrière. Les {5} nageaient dans une eau bleue très froide. À la maison, Luna a eu un gros {6} parce qu'elle a attendu toute la journée comme une très gentille chienne.",
+    "answers": [
+     "zoo",
+     "pandas",
+     "bamboo",
+     "dolphins",
+     "penguins",
+     "bone"
+    ]
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Choisis 3 animaux de la liste. Écris une phrase au comparatif sur chacun : Un requin est plus rapide qu'un escargot."
+  }
+ ],
+ "scope": {
+  "grado": "G4",
+  "temaN": 3,
+  "tema": "Animaux sauvages et nature",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues plus longs ; repérer une information précise à l'oral."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire des lieux, des objets, des événements passés ; jouer une situation simple."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et remettre en ordre des histoires courtes ; trouver une information dans un panneau ou une affiche."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un message de 30 à 40 mots ; paragraphes de classe de 60 à 100 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~1350 mots ; passé composé, pronoms relatifs, pour + infinitif, devoir."
+   }
+  ],
+  "vocabulario": [
+   "en danger",
+   "disparu",
+   "protéger",
+   "climat"
+  ],
+  "gramatica": [
+   "Le présent continu (ce qui se passe maintenant)"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "endangered",
+    "extinct",
+    "protect",
+    "climate"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "en danger",
+  "disparu",
+  "protéger",
+  "climat"
+ ],
+ "lang": "fr"
+}

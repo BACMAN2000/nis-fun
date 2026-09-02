@@ -1,0 +1,365 @@
+{
+ "id": "movers-fr-03",
+ "level": "movers",
+ "number": 3,
+ "title": "Hier à la fête foraine",
+ "topic": "le passé composé",
+ "grammar": "le passé composé : est allé / a vu / a eu / a fait / a gagné",
+ "wordlist": [
+  "aller",
+  "est allé",
+  "voir",
+  "a vu",
+  "avoir",
+  "avait",
+  "manger",
+  "a mangé",
+  "rouler",
+  "a roulé",
+  "gagner",
+  "a gagné",
+  "fête foraine",
+  "billet"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 2,
+  "skill": "prise de notes"
+ },
+ "characters": [
+  "valentina",
+  "sofia"
+ ],
+ "scene": {
+  "speaker": "valentina",
+  "pose": {
+   "valentina": 5,
+   "sofia": 1
+  },
+  "bubble": "Devine quoi ! Hier le Club du Fjord est allé à la fête foraine — et Mateo a perdu son ticket DEUX fois !",
+  "intro": "Hier la fête foraine est arrivée en ville, avec sa grande roue, son jeu des anneaux et sa montagne de pop-corn ! Le Club du Fjord y est allé à dix heures et y est resté toute la journée. Mateo a perdu son ticket DEUX fois, Erik a gagné un petit dragon vert, et tout le monde a crié sur la grande roue. Aujourd'hui ils n'arrêtent pas d'en parler — au passé ! Est allé, a vu, a mangé, a fait, a gagné : ce sont les mots d'une belle histoire. Viens l'écouter !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe le verbe et son passé.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Verbe",
+    "right_label": "Passé",
+    "pairs": [
+     {
+      "left": "aller",
+      "right": "est allé"
+     },
+     {
+      "left": "voir",
+      "right": "a vu"
+     },
+     {
+      "left": "avoir",
+      "right": "avait"
+     },
+     {
+      "left": "manger",
+      "right": "a mangé"
+     },
+     {
+      "left": "rouler",
+      "right": "a roulé"
+     },
+     {
+      "left": "gagner",
+      "right": "a gagné"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis était, étaient ou a fait.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase avec le bon mot.",
+    "items": [
+     {
+      "sentence": "La fête foraine ___ fantastique !",
+      "options": [
+       "était",
+       "étaient",
+       "a fait"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Il y ___ beaucoup de monde.",
+      "options": [
+       "était",
+       "étaient",
+       "a fait"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "___ tu fait la grande roue ?",
+      "options": [
+       "Était",
+       "Étaient",
+       "Est-ce que"
+      ],
+      "answer": 2
+     },
+     {
+      "sentence": "Mateo ___ très affamé, alors il a mangé deux glaces.",
+      "options": [
+       "étaient",
+       "était",
+       "a fait"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "On n'___ pas gagné le gros nounours.",
+      "options": [
+       "a fait",
+       "était",
+       "étaient"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute. Valentina raconte l'histoire de la fête foraine. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u03-c.mp3",
+   "data": {
+    "voice_note": "Voces: Valentina (narradora) y Sofía (preguntona).",
+    "script": "Sofia : Raconte-moi tout, Valentina ! … Valentina : Alors, on est allés à la fête foraine à dix heures. D'abord, Mateo a perdu son ticket dans le bus ! … Sofia : Oh non ! Il a fait quoi ? … Valentina : Le chauffeur l'a retrouvé sous un siège. Ensuite on a fait la grande roue — c'était très haut ! … Sofia : Vous avez mangé quelque chose ? … Valentina : Oui, on a mangé du pop-corn et Erik a pris une grande glace rouge. … Sofia : Et les jeux ? … Valentina : Erik a gagné un prix au jeu des anneaux — un petit dragon vert ! … Sofia : Et le ticket de Mateo ? … Valentina : Il l'a encore perdu à l'entrée… mais cette fois il était dans sa poche depuis le début !",
+    "questions": [
+     {
+      "q": "Ils sont allés à la fête foraine à … heures.",
+      "answer": "dix"
+     },
+     {
+      "q": "Mateo a perdu son ticket dans le …",
+      "answer": "bus"
+     },
+     {
+      "q": "Ils ont mangé du pop-corn et Erik a pris une … rouge.",
+      "answer": "glace"
+     },
+     {
+      "q": "Erik a gagné un petit … vert.",
+      "answer": "dragon"
+     },
+     {
+      "q": "La deuxième fois, le ticket était dans la … de Mateo.",
+      "answer": "poche"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis la bonne forme du passé.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis la bonne forme du passé composé.",
+    "items": [
+     {
+      "sentence": "Hier nous ___ à la fête foraine.",
+      "options": [
+       "aller",
+       "est allé",
+       "j'ai allé"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "J'___ un clown avec un chapeau rigolo.",
+      "options": [
+       "a vu",
+       "voir",
+       "vu"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Mateo ___ deux glaces !",
+      "options": [
+       "manger",
+       "a mangi",
+       "a mangé"
+      ],
+      "answer": 2
+     },
+     {
+      "sentence": "On ___ la grande roue trois fois.",
+      "options": [
+       "a faisu",
+       "a roulé",
+       "rouler"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Erik ___ un prix au jeu des anneaux.",
+      "options": [
+       "a gagné",
+       "gagner",
+       "j'ai gagni"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Raconte à ton camarade ton dernier week-end avec est allé / a vu / a mangé / a fait. Ton camarade écoute puis raconte à la classe : « Samedi, Ana est allée… »"
+   }
+  },
+  {
+   "code": "F",
+   "type": "match_words",
+   "title": "Associe chaque question à sa réponse. Il y a une réponse en trop !",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Question",
+    "right_label": "Réponse",
+    "pairs": [
+     {
+      "left": "À quelle heure êtes-vous allés à la fête foraine ?",
+      "right": "À dix heures du matin."
+     },
+     {
+      "left": "Qui a perdu son ticket dans le bus ?",
+      "right": "Mateo — mais le chauffeur l'a retrouvé !"
+     },
+     {
+      "left": "Qu'est-ce qu'Erik a gagné au jeu des anneaux ?",
+      "right": "Un petit dragon vert."
+     },
+     {
+      "left": "Qu'est-ce que vous avez mangé à la fête foraine ?",
+      "right": "Du pop-corn et une grande glace rouge."
+     },
+     {
+      "left": "Combien de fois avez-vous fait la grande roue ?",
+      "right": "Trois fois — c'était très haut !"
+     },
+     {
+      "left": "Pourquoi tout le monde riait à l'entrée ?",
+      "right": "Parce que le ticket était dans la poche de Mateo !"
+     }
+    ],
+    "extra": [
+     "C'est à côté du commissariat."
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "spot_diff",
+   "title": "A et B ne sont pas pareils. Trouve pourquoi !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris l'histoire d'une journée amusante avec ces cinq verbes au passé composé : est allé, a vu, a mangé, a fait, a gagné. Cinq phrases."
+  }
+ ],
+ "scope": {
+  "grado": "G4",
+  "temaN": 5,
+  "tema": "Vacances et voyages",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues plus longs ; repérer une information précise à l'oral."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire des lieux, des objets, des événements passés ; jouer une situation simple."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et remettre en ordre des histoires courtes ; trouver une information dans un panneau ou une affiche."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un message de 30 à 40 mots ; paragraphes de classe de 60 à 100 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~1350 mots ; passé composé, pronoms relatifs, pour + infinitif, devoir."
+   }
+  ],
+  "vocabulario": [
+   "a nagé",
+   "a visité",
+   "a pris",
+   "a acheté",
+   "a mangé"
+  ],
+  "gramatica": [
+   "Le passé composé : verbes réguliers et irréguliers"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "swam",
+    "visited",
+    "took",
+    "bought"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "a nagé",
+  "a visité",
+  "a pris",
+  "a acheté"
+ ],
+ "lang": "fr"
+}

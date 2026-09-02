@@ -1,0 +1,641 @@
+{
+ "id": "flyers-fr-40",
+ "level": "flyers",
+ "number": 40,
+ "title": "Le plus beau jour",
+ "topic": "les superlatifs",
+ "grammar": "les superlatifs : le meilleur, le plus grand, le plus…",
+ "wordlist": [
+  "le meilleur",
+  "le pire",
+  "le plus grand",
+  "le plus petit",
+  "le plus drôle",
+  "le plus beau",
+  "le plus passionnant",
+  "déjà",
+  "moment",
+  "mémoire"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 4,
+  "skill": "choix multiple"
+ },
+ "characters": [
+  "oliver",
+  "ingrid"
+ ],
+ "scene": {
+  "speaker": "oliver",
+  "pose": {
+   "oliver": 10,
+   "ingrid": 1
+  },
+  "bubble": "Question de la semaine : quel a été le plus beau jour de ta vie ? Le mien avait une scène, un orage et 500 personnes qui chantaient !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe l'adjectif et son superlatif.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Adjectif",
+    "right_label": "Superlatif",
+    "pairs": [
+     {
+      "left": "bon",
+      "right": "le meilleur"
+     },
+     {
+      "left": "mauvais",
+      "right": "le pire"
+     },
+     {
+      "left": "grand",
+      "right": "le plus grand"
+     },
+     {
+      "left": "drôle",
+      "right": "le plus drôle"
+     },
+     {
+      "left": "beau",
+      "right": "le plus beau"
+     },
+     {
+      "left": "passionnant",
+      "right": "le plus passionnant"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis le bon superlatif.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "C'était le ___ film que j'aie jamais vu !",
+      "options": [
+       "meilleur",
+       "le meilleur",
+       "bon"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "La baleine bleue est le ___ animal du monde.",
+      "options": [
+       "plus grand",
+       "le plus grand",
+       "plus grand"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "C'est le musée le ___ intéressant de la ville.",
+      "options": [
+       "le plus",
+       "plus",
+       "beaucoup"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Lundi a été le ___ jour de ma semaine — tout est allé de travers !",
+      "options": [
+       "le pire",
+       "pire",
+       "mauvais"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Kili est le ___ facteur de tous les temps !",
+      "options": [
+       "plus drôle",
+       "le plus drôle",
+       "plus drôle"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute le plus beau jour d'Oliver. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u40-c.mp3",
+   "data": {
+    "voice_note": "Voces: Oliver (contando) e Ingrid (preguntando).",
+    "script": "Ingrid : Alors Oliver, raconte-nous le plus beau jour ! … Oliver : Le festival d'été, l'an dernier. Notre groupe a joué sur la grande scène ! … Ingrid : Il y avait combien de personnes ? … Oliver : Cinq cents ! Le plus grand public de ma vie. … Ingrid : Mais il n'y a pas eu un orage ? … Oliver : Si ! Au milieu de notre chanson la pluie a commencé. Et tu sais quoi ? Personne n'est parti ! … Oliver : Tout le monde chantait sous les parapluies. C'était le plus beau son que j'aie jamais entendu. … Ingrid : Et le pire moment ? … Oliver : Quand ma corde de guitare a cassé… mais Maya l'a réparée en deux minutes. La meilleure équipe du monde !",
+    "questions": [
+     {
+      "q": "Le groupe a joué au festival d'…",
+      "answer": "fête"
+     },
+     {
+      "q": "Il y avait cinq cents …",
+      "answer": "gens"
+     },
+     {
+      "q": "Au milieu de la chanson la … a commencé.",
+      "answer": "pluie"
+     },
+     {
+      "q": "Tout le monde chantait sous les …",
+      "answer": "parapluies"
+     },
+     {
+      "q": "Maya a réparé la corde en deux …",
+      "answer": "minutes"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Un moment spécial dont tu te souviens toujours est un …",
+      "options": [
+       "mémoire",
+       "tâche ménagère",
+       "chaîne"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« C'est la meilleure pizza ___ ! »",
+      "options": [
+       "déjà",
+       "jamais",
+       "encore"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "La souris est un des ___ animaux de la ferme.",
+      "options": [
+       "le plus petit",
+       "plus petit",
+       "le plus petits"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "La partie la ___ passionnante du film était la fin.",
+      "options": [
+       "le plus",
+       "plus",
+       "très"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Ma ___ matière est les maths — j'ai toujours de mauvaises notes !",
+      "options": [
+       "le pire",
+       "le meilleur",
+       "le plus grand"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Raconte à ton camarade le plus beau jour de ta vie : où, avec qui, le meilleur moment et un petit problème. Ton camarade pose 2 questions. Puis échangez."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Regarde A et B. Qu'est-ce qui change ?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  },
+  {
+   "type": "picture_story",
+   "title": "Regarde les trois images et écris l'histoire.",
+   "instructions": "Regarde les images. Écris l'histoire en 20-25 mots. Aide-toi des mots sous chaque image.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Santé et bien-être"
+    },
+    "destreza": "Writing",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots.",
+    "clase": "Type examen : histoire en images de 20 à 25 mots (production écrite)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "track",
+      "people": [
+       {
+        "slug": "oliver",
+        "pose": 4
+       }
+      ],
+      "word": "",
+      "hint": "Oliver / sur la piste de course",
+      "model": "Un matin Oliver est à la piste de course."
+     },
+     {
+      "n": 2,
+      "scene": "garden",
+      "people": [
+       {
+        "slug": "oliver",
+        "pose": 3
+       },
+       {
+        "slug": "ingrid",
+        "pose": 3
+       }
+      ],
+      "word": "",
+      "hint": "Oliver / rencontrer / Ingrid",
+      "model": "Ensuite Oliver rencontre Ingrid au jardin de l'école."
+     },
+     {
+      "n": 3,
+      "scene": "picnic-garden",
+      "people": [
+       {
+        "slug": "oliver",
+        "pose": 10
+       },
+       {
+        "slug": "ingrid",
+        "pose": 10
+       }
+      ],
+      "word": "",
+      "hint": "au jardin du pique-nique / content",
+      "model": "Au jardin du pique-nique ils sont très contents ensemble."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Un matin Oliver est à la piste de course. Ensuite Oliver rencontre Ingrid au jardin de l'école. Au jardin du pique-nique ils sont très contents ensemble.",
+    "words": [],
+    "support": {
+     "grammar": "les superlatifs : le meilleur, le plus grand, le plus…",
+     "words": [
+      "le meilleur",
+      "le pire",
+      "le plus grand",
+      "le plus petit",
+      "le plus drôle",
+      "le plus beau"
+     ]
+    }
+   },
+   "code": "H"
+  },
+  {
+   "type": "picture_mc",
+   "title": "Écoute et coche la bonne case.",
+   "instructions": "Écoute chaque question et clique sur l'image qui répond.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Santé et bien-être"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et cocher la bonne image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u40-i.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "Combien de manteaux a Oliver ?",
+      "answer": "4",
+      "options": [
+       {
+        "k": "count",
+        "word": "manteau",
+        "n": 4,
+        "v": "4",
+        "pie": "4"
+       },
+       {
+        "k": "count",
+        "word": "manteau",
+        "n": 5,
+        "v": "5",
+        "pie": "5"
+       },
+       {
+        "k": "count",
+        "word": "manteau",
+        "n": 1,
+        "v": "1",
+        "pie": "1"
+       }
+      ],
+      "script": "Combien de manteaux a Oliver ? … Oliver : J'ai quatre manteaux."
+     },
+     {
+      "q": "Combien de ceintures a Ingrid ?",
+      "answer": "1",
+      "options": [
+       {
+        "k": "count",
+        "word": "ceinture",
+        "n": 1,
+        "v": "1",
+        "pie": "1"
+       },
+       {
+        "k": "count",
+        "word": "ceinture",
+        "n": 4,
+        "v": "4",
+        "pie": "4"
+       },
+       {
+        "k": "count",
+        "word": "ceinture",
+        "n": 3,
+        "v": "3",
+        "pie": "3"
+       }
+      ],
+      "script": "Combien de ceintures a Ingrid ? … Ingrid : J'ai une ceinture."
+     },
+     {
+      "q": "Combien de poupées a Diego ?",
+      "answer": "4",
+      "options": [
+       {
+        "k": "count",
+        "word": "poupée",
+        "n": 5,
+        "v": "5",
+        "pie": "5"
+       },
+       {
+        "k": "count",
+        "word": "poupée",
+        "n": 4,
+        "v": "4",
+        "pie": "4"
+       },
+       {
+        "k": "count",
+        "word": "poupée",
+        "n": 1,
+        "v": "1",
+        "pie": "1"
+       }
+      ],
+      "script": "Combien de poupées a Diego ? … Diego : J'ai quatre poupées."
+     },
+     {
+      "q": "Combien de parapluies a Iris ?",
+      "answer": "4",
+      "options": [
+       {
+        "k": "count",
+        "word": "parapluie",
+        "n": 4,
+        "v": "4",
+        "pie": "4"
+       },
+       {
+        "k": "count",
+        "word": "parapluie",
+        "n": 5,
+        "v": "5",
+        "pie": "5"
+       },
+       {
+        "k": "count",
+        "word": "parapluie",
+        "n": 1,
+        "v": "1",
+        "pie": "1"
+       }
+      ],
+      "script": "Combien de parapluies a Iris ? … Iris : J'ai quatre parapluies."
+     },
+     {
+      "q": "Combien d'écharpes a Lia ?",
+      "answer": "5",
+      "options": [
+       {
+        "k": "count",
+        "word": "écharpe",
+        "n": 5,
+        "v": "5",
+        "pie": "5"
+       },
+       {
+        "k": "count",
+        "word": "écharpe",
+        "n": 3,
+        "v": "3",
+        "pie": "3"
+       },
+       {
+        "k": "count",
+        "word": "écharpe",
+        "n": 2,
+        "v": "2",
+        "pie": "2"
+       }
+      ],
+      "script": "Combien d'écharpes a Lia ? … Lia : J'ai cinq écharpes."
+     }
+    ],
+    "modo": "count",
+    "script": "Écoute et coche la bonne case. Il y a un exemple. … Combien de manteaux a Oliver ? … Oliver : J'ai quatre manteaux. … Combien de ceintures a Ingrid ? … Ingrid : J'ai une ceinture. … Combien de poupées a Diego ? … Diego : J'ai quatre poupées. … Combien de parapluies a Iris ? … Iris : J'ai quatre parapluies. … Combien d'écharpes a Lia ? … Lia : J'ai cinq écharpes.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "I"
+  },
+  {
+   "type": "label_people",
+   "title": "Écoute et écris les prénoms.",
+   "instructions": "Regarde l'image. Écoute et écris le prénom sous chaque personne. Attention : il y a trois prénoms en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Santé et bien-être"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et écrire le prénom de chaque personne de l'image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u40-g.mp3",
+   "data": {
+    "scene": "track",
+    "place": "la piste de course",
+    "people": [
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "clue": "le garçon aux cheveux roux et au t-shirt jaune",
+      "action": "chante",
+      "pose": 7
+     },
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "clue": "la fille aux cheveux blonds et à la veste bleu foncé",
+      "action": "lit le programme de la journée",
+      "pose": 7
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "clue": "le garçon au t-shirt rouge avec un microphone",
+      "action": "pose des questions avec son microphone",
+      "pose": 7
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "clue": "la fille à la queue-de-cheval rousse et aux taches de rousseur",
+      "action": "dessine à la craie par terre",
+      "pose": 7
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "clue": "la fille aux nattes noires et au t-shirt violet",
+      "action": "saute à la corde",
+      "pose": 7
+     }
+    ],
+    "names": [
+     "Bruno",
+     "Diego",
+     "Ingrid",
+     "Iris",
+     "Kili",
+     "Lia",
+     "Maya",
+     "Oliver"
+    ],
+    "script": "Regarde l'image. Écoute et écris les prénoms. Il y a un exemple. … Diego : Qui est-ce sur la piste de course ? Le garçon aux cheveux roux et au t-shirt jaune. … Maya : C'est Oliver. Oliver chante. … Diego : Et qui est la fille aux cheveux blonds et à la veste bleu foncé ? … Maya : C'est Ingrid. Regarde, Ingrid lit le programme de la journée. … Diego : Et qui est le garçon au t-shirt rouge avec un microphone ? … Maya : C'est Diego. Regarde, Diego pose des questions avec son microphone. … Diego : Et qui est la fille à la queue-de-cheval rousse et aux taches de rousseur ? … Maya : C'est Iris. Regarde, Iris dessine à la craie par terre. … Diego : Et qui est la fille aux nattes noires et au t-shirt violet ? … Maya : C'est Lia. Regarde, Lia saute à la corde.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris sur le plus beau jour de ta vie : 5 phrases avec au moins 3 superlatifs (le meilleur, le plus drôle, le plus…)."
+  }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 5,
+  "tema": "Santé et bien-être",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Raconter des histoires au passé, au présent et au futur ; exprimer ses préférences avec des raisons."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et comprendre des histoires courtes (80 à 250 mots) ; trouver l'idée principale et les détails."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~2500 mots ; passé composé, questions négatives, si + présent, futur proche."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

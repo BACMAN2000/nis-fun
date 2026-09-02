@@ -1,0 +1,682 @@
+{
+ "id": "flyers-fr-21",
+ "level": "flyers",
+ "number": 21,
+ "title": "À la campagne",
+ "topic": "nature",
+ "grammar": "il y a + descriptions",
+ "wordlist": [
+  "île",
+  "cascade",
+  "grotte",
+  "colline",
+  "chemin",
+  "bois",
+  "ruisseau",
+  "tente",
+  "feu",
+  "ciel"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 5,
+  "skill": "colorier et écrire"
+ },
+ "characters": [
+  "ingrid",
+  "oliver"
+ ],
+ "scene": {
+  "speaker": "ingrid",
+  "pose": {
+   "ingrid": 9,
+   "oliver": 1
+  },
+  "bubble": "Week-end camping ! Suis le chemin qui monte la colline — notre camp est à côté de la cascade."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Lis les phrases et écris les mots de la nature.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "CASCADE",
+      "clue": "De l'eau qui tombe de rochers très hauts. C'est très bruyant !"
+     },
+     {
+      "word": "ILE",
+      "clue": "Une terre avec de l'eau tout autour."
+     },
+     {
+      "word": "GROTTE",
+      "clue": "Un trou sombre dans une montagne. Les chauves-souris y vivent."
+     },
+     {
+      "word": "RUISSEAU",
+      "clue": "Une toute petite rivière."
+     },
+     {
+      "word": "CHEMIN",
+      "clue": "Un petit passage pour marcher à la campagne."
+     },
+     {
+      "word": "TENTE",
+      "clue": "Tu dors dedans quand tu fais du camping."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Associe le lieu et ce qu'on peut y faire.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Lieu",
+    "right_label": "Activité",
+    "pairs": [
+     {
+      "left": "le ruisseau",
+      "right": "attraper de petits poissons"
+     },
+     {
+      "left": "la grotte",
+      "right": "explorer avec une lampe"
+     },
+     {
+      "left": "la colline",
+      "right": "grimper pour voir la vue"
+     },
+     {
+      "left": "le bois",
+      "right": "ramasser des branches sèches"
+     },
+     {
+      "left": "le feu de camp",
+      "right": "faire griller des chamallows"
+     },
+     {
+      "left": "le ciel de la nuit",
+      "right": "compter les étoiles"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute l'histoire du camping. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u21-c.mp3",
+   "data": {
+    "voice_note": "Voces: Ingrid (capitana de campamento) y Oliver (con la guitarra).",
+    "script": "Ingrid : On a monté le chemin pendant deux heures pour arriver au camp. … Oliver : J'ai mal aux jambes ! Mais la vue depuis la colline était fantastique. … Ingrid : On a planté nos tentes à côté de la cascade. … Oliver : L'eau faisait tellement de bruit que j'ai chanté plus fort que jamais ! … Ingrid : Le soir on a fait un feu et on a cuisiné de la soupe. … Oliver : Ensuite on a exploré la grotte derrière la cascade — on a vu six petites chauves-souris ! … Ingrid : La nuit, le ciel était plein d'étoiles. On en a compté plus de cent. … Oliver : Le meilleur camping de tous les temps. La prochaine fois, Kili vient aussi !",
+    "questions": [
+     {
+      "q": "Ils ont monté le chemin pendant deux …",
+      "answer": "heures"
+     },
+     {
+      "q": "Ils ont planté les tentes à côté de la …",
+      "answer": "cascade"
+     },
+     {
+      "q": "Le soir ils ont cuisiné de la … sur le feu.",
+      "answer": "soupe"
+     },
+     {
+      "q": "Dans la grotte ils ont vu six petites …",
+      "answer": "chauves-souris"
+     },
+     {
+      "q": "La nuit ils ont compté plus de cent …",
+      "answer": "étoiles"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Une terre avec de l'eau tout autour est une …",
+      "options": [
+       "île",
+       "colline",
+       "grotte"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Une toute petite rivière est un …",
+      "options": [
+       "cascade",
+       "ruisseau",
+       "inondation"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Il ___ deux tentes à côté des arbres.",
+      "options": [
+       "est",
+       "sont",
+       "était"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Les chauves-souris dorment dans des … sombres.",
+      "options": [
+       "grottes",
+       "ruisseaux",
+       "chemins"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "On a marché le long du ___ à travers le bois.",
+      "options": [
+       "ciel",
+       "chemin",
+       "feu"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Dessine le camping de tes rêves : une carte simple (colline, ruisseau, tentes, feu) et décris-la à ton camarade avec il y a. Il dessine ce qu'il entend — comparez les cartes !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "A et B ne sont pas pareils. Trouve pourquoi !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  },
+  {
+   "type": "picture_mc",
+   "title": "Écoute et coche la bonne case.",
+   "instructions": "Écoute chaque question et clique sur l'image qui répond.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Santé et bien-être"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et cocher la bonne image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u21-h.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "Quel mot Ingrid apprend-elle aujourd'hui ?",
+      "answer": "cascade",
+      "options": [
+       {
+        "word": "écharpe",
+        "propio": true
+       },
+       {
+        "word": "château",
+        "propio": true
+       },
+       {
+        "word": "cascade",
+        "propio": false
+       }
+      ],
+      "script": "Quel mot Ingrid apprend-elle aujourd'hui ? … Ingrid : Aujourd'hui j'apprends le mot cascade."
+     },
+     {
+      "q": "Qu'est-ce qu'Oliver a dessiné ?",
+      "answer": "ciel",
+      "options": [
+       {
+        "word": "ciel",
+        "propio": false
+       },
+       {
+        "word": "pont",
+        "propio": true
+       },
+       {
+        "word": "musée",
+        "propio": true
+       }
+      ],
+      "script": "Qu'est-ce qu'Oliver a dessiné ? … Oliver : J'ai dessiné un ciel."
+     },
+     {
+      "q": "Quelle image Bruno regarde-t-il ?",
+      "answer": "île",
+      "options": [
+       {
+        "word": "parapluie",
+        "propio": true
+       },
+       {
+        "word": "écharpe",
+        "propio": true
+       },
+       {
+        "word": "île",
+        "propio": false
+       }
+      ],
+      "script": "Quelle image Bruno regarde-t-il ? … Bruno : Je regarde l'île."
+     },
+     {
+      "q": "Qu'est-ce que Lia voit sur l'image ?",
+      "answer": "grotte",
+      "options": [
+       {
+        "word": "stade",
+        "propio": true
+       },
+       {
+        "word": "grotte",
+        "propio": false
+       },
+       {
+        "word": "château",
+        "propio": true
+       }
+      ],
+      "script": "Qu'est-ce que Lia voit sur l'image ? … Lia : Je vois la grotte."
+     },
+     {
+      "q": "Que montre Diego du doigt ?",
+      "answer": "colline",
+      "options": [
+       {
+        "word": "pont",
+        "propio": true
+       },
+       {
+        "word": "colline",
+        "propio": false
+       },
+       {
+        "word": "fête foraine",
+        "propio": true
+       }
+      ],
+      "script": "Que montre Diego du doigt ? … Diego : Je montre la colline."
+     }
+    ],
+    "script": "Écoute et coche la bonne case. Il y a un exemple. … Quel mot Ingrid apprend-elle aujourd'hui ? … Ingrid : Aujourd'hui j'apprends le mot cascade. … Qu'est-ce qu'Oliver a dessiné ? … Oliver : J'ai dessiné un ciel. … Quelle image Bruno regarde-t-il ? … Bruno : Je regarde l'île. … Qu'est-ce que Lia voit sur l'image ? … Lia : Je vois la grotte. … Que montre Diego du doigt ? … Diego : Je montre la colline.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "H"
+  },
+  {
+   "type": "match_pictures",
+   "title": "Écoute et associe chaque explorateur à une image.",
+   "instructions": "Écoute. Puis choisis la lettre de l'image pour chaque personne. Attention : certaines images sont en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Santé et bien-être"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et associer chaque personne à une image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 3
+    }
+   },
+   "audio": "flyers/u21-i.mp3",
+   "data": {
+    "people": [
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "pose": 8
+     },
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "pose": 8
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "pose": 8
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "pose": 3
+     },
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 8
+     }
+    ],
+    "pictures": [
+     {
+      "word": "ruisseau",
+      "propio": false,
+      "id": "A"
+     },
+     {
+      "word": "grotte",
+      "propio": false,
+      "id": "B"
+     },
+     {
+      "word": "chaussettes",
+      "propio": true,
+      "id": "C"
+     },
+     {
+      "word": "poche",
+      "propio": true,
+      "id": "D"
+     },
+     {
+      "word": "chemin",
+      "propio": false,
+      "id": "E"
+     },
+     {
+      "word": "ciel",
+      "propio": false,
+      "id": "F"
+     },
+     {
+      "word": "cascade",
+      "propio": false,
+      "id": "G"
+     },
+     {
+      "word": "ceinture",
+      "propio": true,
+      "id": "H"
+     }
+    ],
+    "answers": {
+     "Ingrid": "A",
+     "Oliver": "B",
+     "Diego": "E",
+     "Iris": "G",
+     "Maya": "F"
+    },
+    "script": "Écoute et associe chaque personne à une image. Il y a un exemple. … Diego : Ingrid, quelle image as-tu choisie ? … Ingrid : J'ai choisi le ruisseau. … Diego : Oliver, quelle image as-tu choisie ? … Oliver : J'ai choisi la grotte. … Diego : Diego, quelle image as-tu choisie ? … Diego : J'ai choisi le chemin. … Diego : Iris, quelle image as-tu choisie ? … Iris : J'ai choisi la cascade. … Diego : Maya, quelle image as-tu choisie ? … Maya : J'ai choisi le ciel.",
+    "voice_note": "Diego pregunta; cada explorador responde con su objeto."
+   },
+   "code": "I"
+  },
+  {
+   "type": "picture_story",
+   "title": "Regarde les trois images et écris l'histoire.",
+   "instructions": "Regarde les images. Écris l'histoire en 20-25 mots. Aide-toi des mots sous chaque image.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Santé et bien-être"
+    },
+    "destreza": "Writing",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots.",
+    "clase": "Type examen : histoire en images de 20 à 25 mots (production écrite)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "picnic-garden",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 4
+       }
+      ],
+      "word": "ruisseau",
+      "hint": "Ingrid / montre / un ruisseau",
+      "model": "Ingrid montre un ruisseau au jardin du pique-nique."
+     },
+     {
+      "n": 2,
+      "scene": "garden",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 8
+       },
+       {
+        "slug": "oliver",
+        "pose": 1
+       }
+      ],
+      "word": "feu",
+      "hint": "Oliver / apporter / un feu",
+      "model": "Ensuite Oliver apporte un feu."
+     },
+     {
+      "n": 3,
+      "scene": "track",
+      "people": [
+       {
+        "slug": "oliver",
+        "pose": 10
+       },
+       {
+        "slug": "ingrid",
+        "pose": 10
+       }
+      ],
+      "word": "chemin",
+      "hint": "maintenant / un chemin / content",
+      "model": "Maintenant ils ont aussi un chemin, et tous les deux sont contents."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Ingrid montre un ruisseau au jardin du pique-nique. Ensuite Oliver apporte un feu. Maintenant ils ont aussi un chemin, et tous les deux sont contents.",
+    "words": [
+     "ruisseau",
+     "feu",
+     "chemin"
+    ],
+    "support": {
+     "grammar": "il y a + descriptions",
+     "words": [
+      "île",
+      "cascade",
+      "grotte",
+      "colline",
+      "chemin",
+      "bois"
+     ]
+    }
+   },
+   "code": "J"
+  },
+  {
+   "type": "label_people",
+   "title": "Écoute et écris les prénoms.",
+   "instructions": "Regarde l'image. Écoute et écris le prénom sous chaque personne. Attention : il y a trois prénoms en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 5,
+     "nombre": "Santé et bien-être"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et écrire le prénom de chaque personne de l'image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u21-g.mp3",
+   "data": {
+    "scene": "picnic-garden",
+    "place": "le jardin du pique-nique",
+    "people": [
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "clue": "la fille aux cheveux blonds et à la veste bleu foncé",
+      "action": "lit le programme de la journée",
+      "pose": 7
+     },
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "clue": "le garçon aux cheveux roux et au t-shirt jaune",
+      "action": "chante",
+      "pose": 7
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "clue": "la fille à la queue-de-cheval rousse et aux taches de rousseur",
+      "action": "dessine à la craie par terre",
+      "pose": 7
+     },
+     {
+      "slug": "kili",
+      "name": "Kili",
+      "clue": "le grand oiseau noir avec un collier blanc",
+      "action": "porte une lettre",
+      "pose": 3
+     },
+     {
+      "slug": "vega",
+      "name": "Mr Vega",
+      "clue": "l'homme à la chemise bleue",
+      "action": "montre le chemin du centre sportif",
+      "figura": "father"
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Ingrid",
+     "Iris",
+     "Kili",
+     "Lia",
+     "Maya",
+     "Mr Vega",
+     "Oliver"
+    ],
+    "script": "Regarde l'image. Écoute et écris les prénoms. Il y a un exemple. … Diego : Qui est-ce dans le jardin du pique-nique ? La fille aux cheveux blonds et à la veste bleu foncé. … Maya : C'est Ingrid. Ingrid lit le programme de la journée. … Diego : Et qui est le garçon aux cheveux roux et au t-shirt jaune ? … Maya : C'est Oliver. Regarde, Oliver chante. … Diego : Et qui est la fille à la queue-de-cheval rousse et aux taches de rousseur ? … Maya : C'est Iris. Regarde, Iris dessine à la craie par terre. … Diego : Et qui est le grand oiseau noir avec un collier blanc ? … Maya : C'est Kili. Regarde, Kili porte une lettre. … Diego : Et qui est l'homme à la chemise bleue ? … Maya : C'est M. Vega. Regarde, M. Vega montre le chemin du centre sportif.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Décris un endroit naturel que tu connais en 5 phrases avec il y a : Il y a un ruisseau. Il y a de grands arbres…"
+  }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 5,
+  "tema": "Santé et bien-être",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Raconter des histoires au passé, au présent et au futur ; exprimer ses préférences avec des raisons."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et comprendre des histoires courtes (80 à 250 mots) ; trouver l'idée principale et les détails."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~2500 mots ; passé composé, questions négatives, si + présent, futur proche."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

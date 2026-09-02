@@ -1,0 +1,316 @@
+{
+ "id": "movers-fr-15",
+ "level": "movers",
+ "number": 15,
+ "title": "La journée du sport",
+ "topic": "sports",
+ "grammar": "les adverbes : bien, vite, haut",
+ "wordlist": [
+  "courir",
+  "sauter",
+  "lancer",
+  "attraper",
+  "donner un coup de pied",
+  "course",
+  "équipe",
+  "gagnant",
+  "médaille",
+  "applaudir"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 4,
+  "skill": "choix multiple"
+ },
+ "characters": [
+  "sofia",
+  "mateo"
+ ],
+ "scene": {
+  "speaker": "sofia",
+  "pose": {
+   "sofia": 7,
+   "mateo": 10
+  },
+  "bubble": "Journée du sport ! Équipe verte contre équipe bleue — et Luna est la ramasseuse de ballons officielle !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe l'action et le moment sportif.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Action",
+    "right_label": "Moment",
+    "pairs": [
+     {
+      "left": "courir",
+      "right": "au 100 mètres"
+     },
+     {
+      "left": "sauter",
+      "right": "par-dessus la barre haute"
+     },
+     {
+      "left": "lancer",
+      "right": "le ballon à ton camarade"
+     },
+     {
+      "left": "attraper",
+      "right": "le ballon à deux mains"
+     },
+     {
+      "left": "donner un coup de pied",
+      "right": "le ballon dans le but"
+     },
+     {
+      "left": "applaudir",
+      "right": "quand quelqu'un gagne"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "Sofia court très ___ — personne ne la rattrape !",
+      "options": [
+       "rapide",
+       "lent",
+       "haut"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Mateo sait sauter très ___ — plus d'un mètre !",
+      "options": [
+       "haut",
+       "fort",
+       "savoureux"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Valentina lance le ballon très …",
+      "options": [
+       "bien",
+       "bon",
+       "le meilleur"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le ___ reçoit une médaille d'or.",
+      "options": [
+       "gagnant",
+       "équipe",
+       "course"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Notre ___ porte des maillots verts.",
+      "options": [
+       "équipe",
+       "médaille",
+       "but"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute la journée du sport. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u15-c.mp3",
+   "data": {
+    "voice_note": "Voces: Mateo (comentarista) y Sofía (estrella del día).",
+    "script": "Mateo : Journée du sport, en direct ! Première course : cent mètres. … Mateo : Sofia court comme le vent… et elle gagne ! Équipe verte, cinq points. … Mateo : Maintenant le saut en hauteur. Erik saute… un mètre dix ! … Mateo : La course au ballon : Valentina lance, j'attrape… oups, je l'ai fait tomber. L'équipe bleue rigole. … Mateo : Mais Luna attrape le suivant EN L'AIR. Le public devient fou ! … Mateo : Score final : verts vingt, bleus dix-huit. … Sofia : Et tout le monde a une glace, parce qu'à la journée du sport tout le monde gagne quelque chose !",
+    "questions": [
+     {
+      "q": "La première course est de cent …",
+      "answer": "mètres"
+     },
+     {
+      "q": "Sofía gagne … points pour l'équipe verte.",
+      "answer": "cinq"
+     },
+     {
+      "q": "Erik saute un mètre …",
+      "answer": "dix"
+     },
+     {
+      "q": "… attrape le ballon en l'air.",
+      "answer": "Luna"
+     },
+     {
+      "q": "Score final : verts vingt, bleus …",
+      "answer": "dix-huit"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Tu ___ dans le ballon avec ton pied.",
+      "options": [
+       "donner un coup de pied",
+       "attraper",
+       "applaudir"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu ___ le ballon avec tes mains.",
+      "options": [
+       "attraper",
+       "donner un coup de pied",
+       "courir"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Une compétition de vitesse est une …",
+      "options": [
+       "course",
+       "règle",
+       "toit"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le gagnant reçoit une … d'or.",
+      "options": [
+       "médaille",
+       "milieu",
+       "repas"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Quand on est content d'un joueur, on l'…",
+      "options": [
+       "applaudir",
+       "pleurer",
+       "dormir"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Entraînement de commentateur : raconte 20 secondes pendant que ton camarade mime un sport (courir, sauter, tirer). Utilise vite, haut, bien. Puis on échange !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Deux images, plein de différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris sur ta journée du sport ou ton cours d'EPS : 5 phrases avec courir, sauter, lancer, attraper, tirer."
+  }
+ ],
+ "scope": {
+  "grado": "G4",
+  "temaN": 4,
+  "tema": "Sport et santé",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues plus longs ; repérer une information précise à l'oral."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire des lieux, des objets, des événements passés ; jouer une situation simple."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et remettre en ordre des histoires courtes ; trouver une information dans un panneau ou une affiche."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un message de 30 à 40 mots ; paragraphes de classe de 60 à 100 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~1350 mots ; passé composé, pronoms relatifs, pour + infinitif, devoir."
+   }
+  ],
+  "vocabulario": [
+   "muscles",
+   "s'échauffer",
+   "s'étirer",
+   "endurance"
+  ],
+  "gramatica": [
+   "L'impératif : affirmatif et négatif"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "muscles",
+    "warm up",
+    "stretch",
+    "stamina"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "muscles",
+  "s'échauffer",
+  "s'étirer",
+  "endurance"
+ ],
+ "lang": "fr"
+}

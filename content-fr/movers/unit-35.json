@@ -1,0 +1,298 @@
+{
+ "id": "movers-fr-35",
+ "level": "movers",
+ "number": 35,
+ "title": "À qui sont ces jouets ?",
+ "topic": "les possessifs",
+ "grammar": "le possessif + À qui",
+ "wordlist": [
+  "à qui",
+  "le mien",
+  "le tien",
+  "jouet",
+  "robot",
+  "cerf-volant",
+  "ballon",
+  "poupée",
+  "jeu",
+  "propriétaire"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 1,
+  "skill": "identifier les objets"
+ },
+ "characters": [
+  "mateo",
+  "sofia"
+ ],
+ "scene": {
+  "speaker": "sofia",
+  "pose": {
+   "sofia": 4,
+   "mateo": 3
+  },
+  "bubble": "Vente de jouets pour le jardin de l'école ! Chaque chose sur cette table a besoin d'un prix… et d'abord, d'un propriétaire !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe le jouet et son propriétaire.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Jouet",
+    "right_label": "Propriétaire",
+    "pairs": [
+     {
+      "left": "le robot bleu",
+      "right": "C'est celui d'Erik, bien sûr."
+     },
+     {
+      "left": "le cerf-volant orange",
+      "right": "C'est celui de Sofia."
+     },
+     {
+      "left": "les livres d'histoires",
+      "right": "Ce sont ceux de Valentina."
+     },
+     {
+      "left": "le vieux ballon de football",
+      "right": "C'est celui de Mateo."
+     },
+     {
+      "left": "l'os en caoutchouc",
+      "right": "C'est celui de Luna — pas à vendre !"
+     },
+     {
+      "left": "le puzzle de 500 pièces",
+      "right": "C'est celui de tout le club."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis le bon possessif.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "___ est ce cerf-volant ? — C'est celui de Sofia.",
+      "options": [
+       "À qui",
+       "Qui",
+       "Quel"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Ce robot n'est pas le tien, c'est ___ !",
+      "options": [
+       "le mien",
+       "mon",
+       "moi"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Ce ballon est ___, Mateo ?",
+      "options": [
+       "le tien",
+       "ton",
+       "tu"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "C'est la poupée de ma ___ — elle l'a depuis des années.",
+      "options": [
+       "sœur",
+       "sœurs",
+       "sœur"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "L'os appartient à Luna. Elle en est la …",
+      "options": [
+       "propriétaire",
+       "vendeuse",
+       "conducteur"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute la vente de jouets. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u35-c.mp3",
+   "data": {
+    "voice_note": "Voces: Sofía (vendedora) y Mateo (etiquetando).",
+    "script": "Sofia : Vente de jouets pour le jardin de l'école ! Chaque chose doit avoir une étiquette de prix. … Mateo : À qui est ce robot ? Le bleu avec un seul bras. … Sofia : À Erik ! Il dit deux soles — l'autre bras est dans la boîte. … Mateo : Ces cinq livres d'histoires sont à Valentina. Un sol chacun. … Sofia : Mon vieux cerf-volant part à trois soles. Il vole encore ! … Mateo : Et cet os en caoutchouc ? … Sofia : Attention ! Il est à Luna. PAS à vendre. Elle nous regarde. … Mateo : Total après une heure : vingt-huit soles pour le jardin !",
+    "questions": [
+     {
+      "q": "Le robot bleu a un seul …",
+      "answer": "bras"
+     },
+     {
+      "q": "Le robot d'Erik coûte deux …",
+      "answer": "semelles"
+     },
+     {
+      "q": "Valentina vend … livres d'histoires.",
+      "answer": "cinq"
+     },
+     {
+      "q": "L'os en caoutchouc est à …",
+      "answer": "Luna"
+     },
+     {
+      "q": "Ils ont fait vingt-… soles pour le jardin.",
+      "answer": "huit"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "« ___ est ce crayon par terre ? » — « À Ana. »",
+      "options": [
+       "À qui",
+       "Qui est le",
+       "Lequel de"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "C'est le robot d'Erik. C'est ___ jouet préféré.",
+      "options": [
+       "son",
+       "son",
+       "son propriétaire"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Cette poupée est à ma sœur. C'est ___.",
+      "options": [
+       "le sien",
+       "son",
+       "elle"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les jeux de la classe sont ___ — ils sont à nous tous.",
+      "options": [
+       "le nôtre",
+       "le mien",
+       "les leurs seulement"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "La personne à qui appartient une chose en est le …",
+      "options": [
+       "propriétaire",
+       "gagnant",
+       "conducteur"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "C'est à qui ? Ramasse 5 petits objets de tes camarades (avec leur accord). Ton camarade devine le propriétaire de chacun : « Je crois que c'est à Marco. » Vérifiez et rendez tout !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "A et B ne sont pas pareils. Trouve pourquoi !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris sur 5 choses de chez toi et leurs propriétaires : La tasse rouge est à mon papa…"
+  }
+ ],
+ "scope": {
+  "grado": "G3",
+  "temaN": 2,
+  "tema": "Ma journée",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues courts avec plus de vocabulaire ; repérer l'information principale dans des annonces simples."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire ses habitudes, ses préférés, les métiers du quartier ; donner une opinion courte."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire de courts paragraphes ; répondre à des questions simples ; trouver une information précise."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un court paragraphe sur soi, sa famille ou sa journée (40 à 70 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~800 mots ; les temps de base ; devoir, pouvoir ; l'accord du verbe ; le superlatif."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

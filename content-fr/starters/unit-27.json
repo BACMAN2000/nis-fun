@@ -1,0 +1,311 @@
+{
+ "id": "starters-fr-27",
+ "level": "starters",
+ "number": 27,
+ "title": "Les sports que je fais",
+ "topic": "sports",
+ "grammar": "je joue à… / jouons à…",
+ "wordlist": [
+  "football",
+  "basket",
+  "tennis",
+  "natation",
+  "course",
+  "ballon",
+  "but",
+  "équipe",
+  "gagner",
+  "jouer"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 4,
+  "skill": "sports"
+ },
+ "characters": [
+  "tomas",
+  "nico"
+ ],
+ "scene": {
+  "speaker": "tomas",
+  "pose": {
+   "tomas": 7,
+   "nico": 10
+  },
+  "bubble": "BUUUT ! Football à la récré, basket après l'école, natation le lundi… le sport est mon mot préféré !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe le sport et ce qu'il te faut.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Sport",
+    "right_label": "Il te faut",
+    "pairs": [
+     {
+      "left": "football",
+      "right": "un ballon et un but"
+     },
+     {
+      "left": "basket",
+      "right": "un ballon et un panier haut"
+     },
+     {
+      "left": "tennis",
+      "right": "une petite balle et une raquette"
+     },
+     {
+      "left": "natation",
+      "right": "de l'eau et des lunettes"
+     },
+     {
+      "left": "course",
+      "right": "des chaussures rapides"
+     },
+     {
+      "left": "chaque sport",
+      "right": "de l'eau à boire après"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "Je ___ au football avec mes amis.",
+      "options": [
+       "jouer",
+       "aller",
+       "faire"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___ au basket après l'école !",
+      "options": [
+       "Allons-y",
+       "Alons-y",
+       "Laisse"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Envoie le ballon dans le …",
+      "options": [
+       "but",
+       "arbre",
+       "sac"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Dans la piscine on fait de la …",
+      "options": [
+       "natation",
+       "course",
+       "en train de lire"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Notre ___ porte des maillots rouges.",
+      "options": [
+       "équipe",
+       "ballon",
+       "but"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute le grand match. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u27-c.mp3",
+   "data": {
+    "voice_note": "Voces: Tomás (jugando) y Nico (narrando).",
+    "script": "Nico : Le grand match de la récré ! Équipe rouge contre équipe bleue. … Nico : Tomás a le ballon… il court… BUT ! … Tomás : Un-zéro ! … Nico : Maintenant Freya a le ballon. Elle est rapide ! … Nico : But pour l'équipe bleue ! Un-un ! … Tomás : Dernière minute… Astrid tire… BUT ! Deux-un ! … Nico : L'équipe rouge gagne ! Et Pip survole le but comme un avion ! … Tomás : Beau match, tout le monde. Tape m'en cinq !",
+    "questions": [
+     {
+      "q": "L'équipe rouge joue contre l'équipe …",
+      "answer": "bleu"
+     },
+     {
+      "q": "Tomás marque le premier …",
+      "answer": "but"
+     },
+     {
+      "q": "… marque pour l'équipe bleue.",
+      "answer": "Freya"
+     },
+     {
+      "q": "Le score final est deux-…",
+      "answer": "un"
+     },
+     {
+      "q": "Pip survole le but comme un …",
+      "answer": "avion"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Tu tapes dans le ballon avec ton …",
+      "options": [
+       "pied",
+       "main",
+       "nez"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Au basket le panier est très …",
+      "options": [
+       "haut",
+       "petit",
+       "mouillé"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu nages dans la …",
+      "options": [
+       "piscine",
+       "but",
+       "sac"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "L'équipe qui a le plus de buts …",
+      "options": [
+       "gagne",
+       "dort",
+       "pleure"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le tennis se joue avec une ___ balle.",
+      "options": [
+       "petit",
+       "géante",
+       "carré"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Mime de sport : joue à un sport invisible. Ton camarade devine : « Tu joues au tennis ! » Trois sports chacun."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Regarde A et B. Qu'est-ce qui change ?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris sur ton sport préféré : ce que c'est, quand tu y joues, avec qui. 3 phrases."
+  }
+ ],
+ "scope": {
+  "grado": "G2",
+  "temaN": 6,
+  "tema": "Loisirs et jeux",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues simples sur la famille, l'école, les animaux et la nourriture."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Répondre à des questions à partir d'une image ; décrire une image en phrases simples."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire des textes de 2 à 3 phrases ; associer images, mots et légendes courtes."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Recopier des mots et compléter des phrases courtes."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~450 mots ; présent, être et avoir, il y a, aimer + infinitif."
+   }
+  ],
+  "vocabulario": [
+   "football",
+   "natation",
+   "vélo",
+   "tennis",
+   "basket"
+  ],
+  "gramatica": [
+   "Les adverbes de fréquence : toujours, d'habitude, parfois, jamais"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "cycling"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "vélo"
+ ],
+ "lang": "fr"
+}

@@ -1,0 +1,300 @@
+{
+ "id": "starters-fr-38",
+ "level": "starters",
+ "number": 38,
+ "title": "Les animaux savent…",
+ "topic": "les animaux + savoir",
+ "grammar": "savoir + les animaux (bilan)",
+ "wordlist": [
+  "voler",
+  "nager",
+  "sauter",
+  "courir",
+  "grimper",
+  "chanter",
+  "marcher",
+  "dormir",
+  "rapide",
+  "haut"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 2,
+  "skill": "des phrases vraies"
+ },
+ "characters": [
+  "nico",
+  "pip"
+ ],
+ "scene": {
+  "speaker": "nico",
+  "pose": {
+   "nico": 3,
+   "pip": 1
+  },
+  "bubble": "Les talents des animaux ! Les oiseaux savent voler, les poissons savent nager, les singes savent grimper… et Pip sait presque tout faire !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe l'animal et son talent.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Animal",
+    "right_label": "Talent",
+    "pairs": [
+     {
+      "left": "l'oiseau",
+      "right": "sait voler haut"
+     },
+     {
+      "left": "le poisson",
+      "right": "sait nager toute la journée"
+     },
+     {
+      "left": "la grenouille",
+      "right": "sait sauter loin"
+     },
+     {
+      "left": "le cheval",
+      "right": "sait courir vite"
+     },
+     {
+      "left": "le singe",
+      "right": "sait grimper aux arbres"
+     },
+     {
+      "left": "le chat",
+      "right": "sait dormir n'importe où"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Vrai ou faux ? Choisis la bonne option.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis la bonne fin de phrase.",
+    "items": [
+     {
+      "sentence": "Un poisson sait ___ mais il ne sait pas marcher.",
+      "options": [
+       "nager",
+       "voler",
+       "chanter"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un oiseau sait voler et …",
+      "options": [
+       "chanter",
+       "conduire",
+       "lire"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un éléphant sait marcher mais il ne sait pas …",
+      "options": [
+       "sauter haut",
+       "manger",
+       "boire"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un singe sait ___ très bien.",
+      "options": [
+       "grimper",
+       "nager seulement",
+       "voler"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un cheval sait courir très …",
+      "options": [
+       "rapide",
+       "lentement seulement",
+       "haut"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute le quiz des talents. Écris un mot dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u38-c.mp3",
+   "data": {
+    "voice_note": "Voces: Nico (preguntando) y Astrid (respondiendo).",
+    "script": "Nico : Quiz des animaux ! Est-ce qu'un poisson sait voler ? … Astrid : Non ! Mais il sait nager. … Nico : Est-ce qu'un singe sait grimper ? … Astrid : Oui ! Très haut ! … Nico : Est-ce qu'un éléphant sait sauter ? … Astrid : Non ! Les éléphants ne savent pas sauter. C'est vrai ! … Nico : Est-ce que Pip sait nager ET voler ? … Astrid : Oui ! Les macareux sont incroyables. … Nico : Gagnante : Astrid, quatre sur quatre !",
+    "questions": [
+     {
+      "q": "Un poisson ne sait pas voler mais il sait …",
+      "answer": "nager"
+     },
+     {
+      "q": "Un singe sait grimper très …",
+      "answer": "haut"
+     },
+     {
+      "q": "Les éléphants ne savent pas …",
+      "answer": "sauter"
+     },
+     {
+      "q": "Pip sait nager et …",
+      "answer": "voler"
+     },
+     {
+      "q": "Astrid gagne : quatre sur …",
+      "answer": "quatre"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Les oiseaux volent ___ dans le ciel.",
+      "options": [
+       "haut",
+       "sous",
+       "lent"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un guépard court très …",
+      "options": [
+       "rapide",
+       "lentement",
+       "tristement"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les chats dorment beaucoup d'___ par jour.",
+      "options": [
+       "heures",
+       "livres",
+       "chaussures"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les grenouilles savent ___ d'une feuille à l'autre.",
+      "options": [
+       "sauter",
+       "lire",
+       "cuisinier"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Tu sais nager ? » — « Oui, je ___ ! »",
+      "options": [
+       "pouvoir",
+       "suis",
+       "faire"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Bataille de quiz : 4 questions chacun (« Est-ce qu'un … sait voler ? »). Réponds avec des réponses courtes complètes : « Oui, il sait ! / Non, il ne sait pas ! »"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "A et B ne sont pas pareils. Trouve pourquoi !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 11 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Choisis 3 animaux. Pour chacun, écris une chose qu'il sait et une qu'il ne sait pas faire : Un canard sait nager mais il ne sait pas grimper."
+  }
+ ],
+ "scope": {
+  "grado": "G1",
+  "temaN": 4,
+  "tema": "Animaux de la ferme",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Suivre les consignes de la classe ; reconnaître des mots connus dans une chanson ou une phrase courte."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Saluer ; dire son nom, son âge, les couleurs ; nommer des objets ; répondre par oui ou non."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Reconnaître les lettres de l'alphabet ; associer un mot à une image (famille, nourriture, animaux, corps)."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire son prénom ; recopier des mots ; légender une image (3 à 5 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~150 mots actifs ; le verbe être, un/une, c'est/ce sont, l'impératif."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [
+   "La conjonction : et"
+  ],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

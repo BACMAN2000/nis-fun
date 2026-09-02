@@ -1,0 +1,323 @@
+{
+ "id": "movers-fr-27",
+ "level": "movers",
+ "number": 27,
+ "title": "La sortie scolaire",
+ "topic": "le passé composé",
+ "grammar": "le passé composé : les verbes réguliers",
+ "wordlist": [
+  "a visité",
+  "a marché",
+  "a regardé",
+  "a joué",
+  "a écouté",
+  "a grimpé",
+  "a sauté",
+  "a aidé",
+  "a ri",
+  "hier"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 4,
+  "skill": "texte documentaire"
+ },
+ "characters": [
+  "valentina",
+  "erik"
+ ],
+ "scene": {
+  "speaker": "valentina",
+  "pose": {
+   "valentina": 3,
+   "erik": 10
+  },
+  "bubble": "Hier on a visité le musée des sciences — et Erik a parlé au robot pendant une heure entière !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe le verbe et son passé.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Verbe",
+    "right_label": "Passé",
+    "pairs": [
+     {
+      "left": "visiter",
+      "right": "a visité"
+     },
+     {
+      "left": "marcher",
+      "right": "a marché"
+     },
+     {
+      "left": "regarder",
+      "right": "a regardé"
+     },
+     {
+      "left": "jouer",
+      "right": "a joué"
+     },
+     {
+      "left": "grimper",
+      "right": "a grimpé"
+     },
+     {
+      "left": "rire",
+      "right": "a ri"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Lis le texte de la sortie et choisis la bonne réponse.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Lis le texte. Choisis la bonne réponse.",
+    "text": "Hier notre classe a visité le musée des sciences. On y est allés à pied en vingt minutes. D'abord on a regardé un film sur les volcans — l'écran était grand comme un mur ! Ensuite on a visité la salle des robots. Un petit robot qui s'appelle Beep a parlé avec nous et a répondu à nos questions. Erik lui a posé onze questions ! À midi on a joué dans le jardin du musée et on a écouté une scientifique qui étudie les baleines. Tout le monde a ri quand elle nous a montré comment les baleines chantent. On est rentrés fatigués et contents.",
+    "items": [
+     {
+      "sentence": "Comment la classe est-elle allée au musée ?",
+      "options": [
+       "en bus",
+       "à pied",
+       "en train"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Le film parlait des …",
+      "options": [
+       "baleines",
+       "volcans",
+       "robots"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Le petit robot s'appelait …",
+      "options": [
+       "Bip",
+       "Bop",
+       "Bip"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Combien de questions Erik a-t-il posées ?",
+      "options": [
+       "sept",
+       "onze",
+       "vingt"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "La scientifique étudie les …",
+      "options": [
+       "baleines",
+       "étoiles",
+       "plantes"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute les souvenirs de la sortie. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u27-c.mp3",
+   "data": {
+    "voice_note": "Voces: Valentina y Erik (recordando el paseo).",
+    "script": "Valentina : Quelle sortie ! On a marché jusqu'au musée en vingt minutes. … Erik : Le film sur les volcans était incroyable. L'écran était immense ! … Valentina : Tu as parlé avec le robot pendant une heure, Erik. … Erik : Beep est mon ami maintenant ! Il s'est souvenu de mon prénom ! … Valentina : Dans le jardin on a écouté la scientifique des baleines. … Erik : Et tout le monde a ri quand elle a chanté comme une baleine ! … Valentina : Je lui ai demandé un autographe. Elle a signé mon cahier ! … Erik : La. Meilleure. Sortie. De. L'année.",
+    "questions": [
+     {
+      "q": "Ils ont marché jusqu'au musée en vingt …",
+      "answer": "minutes"
+     },
+     {
+      "q": "Erik a parlé avec le robot pendant une …",
+      "answer": "heure"
+     },
+     {
+      "q": "Le robot s'appelle …",
+      "answer": "Bip"
+     },
+     {
+      "q": "La scientifique a chanté comme une …",
+      "answer": "baleine"
+     },
+     {
+      "q": "Elle a signé le … de Valentina.",
+      "answer": "cahier"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis la bonne forme du passé.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "Hier on ___ le vieux château.",
+      "options": [
+       "a visité",
+       "visiter",
+       "en train de visiter"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Elle ___ un film drôle hier soir.",
+      "options": [
+       "a regardé",
+       "regarder",
+       "regarde"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Ils ___ au football sous la pluie !",
+      "options": [
+       "a joué",
+       "jouer",
+       "joue"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Il ___ au grand arbre.",
+      "options": [
+       "a grimpé",
+       "grimper",
+       "en train de grimper"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "On ___ tellement au chant de la baleine !",
+      "options": [
+       "a ri",
+       "rire",
+       "rit"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Raconte à ton camarade ta dernière sortie scolaire (ou un voyage en famille) : 5 phrases, toutes au passé composé. Il compte tes verbes au passé !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Regarde A et B. Qu'est-ce qui change ?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris le journal d'hier : 5 phrases au passé composé (a visité, a joué, a regardé, a aidé, a écouté)."
+  }
+ ],
+ "scope": {
+  "grado": "G4",
+  "temaN": 5,
+  "tema": "Vacances et voyages",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues plus longs ; repérer une information précise à l'oral."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire des lieux, des objets, des événements passés ; jouer une situation simple."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et remettre en ordre des histoires courtes ; trouver une information dans un panneau ou une affiche."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un message de 30 à 40 mots ; paragraphes de classe de 60 à 100 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~1350 mots ; passé composé, pronoms relatifs, pour + infinitif, devoir."
+   }
+  ],
+  "vocabulario": [
+   "plage",
+   "montagnes",
+   "camping",
+   "visite touristique",
+   "souvenir",
+   "crème solaire"
+  ],
+  "gramatica": [
+   "Le passé composé : les questions et la négation"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "beach",
+    "mountains",
+    "camping",
+    "sightseeing",
+    "souvenir",
+    "sunscreen"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "plage",
+  "montagnes",
+  "camping",
+  "visite touristique",
+  "souvenir",
+  "crème solaire"
+ ],
+ "lang": "fr"
+}

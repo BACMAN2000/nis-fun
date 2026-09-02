@@ -1,0 +1,346 @@
+{
+ "id": "starters-fr-02",
+ "level": "starters",
+ "number": 2,
+ "title": "Ma famille",
+ "topic": "famille",
+ "grammar": "Voici mon… / Qui est-ce ?",
+ "wordlist": [
+  "mère",
+  "père",
+  "frère",
+  "sœur",
+  "mamie",
+  "papi",
+  "bébé",
+  "famille"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 1,
+  "skill": "identifier les personnes"
+ },
+ "characters": [
+  "nico",
+  "pip"
+ ],
+ "scene": {
+  "speaker": "nico",
+  "pose": {
+   "nico": 3,
+   "pip": 2
+  },
+  "bubble": "Regarde la photo de ma famille ! Voici ma mère, voici mon père… et oups — Pip est sur la photo aussi !",
+  "intro": "Aujourd'hui Nico apporte une photo spéciale à l'école : la photo de sa famille ! Regarde — sa mère Rosa avec son grand sourire, son père Juan qui est très grand, sa petite sœur, et le bébé cousin qui n'a qu'un an. Mais attends… c'est qui ce petit oiseau noir et blanc à côté de mamie ? PIP ! Il s'est envolé dans la photo ! Et TOI, qui est dans ta famille ? Dans cette unité tu vas apprendre à le dire en français."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Lis et écris les mots de la famille.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "PERE",
+      "clue": "Ton papa."
+     },
+     {
+      "word": "MERE",
+      "clue": "Ta maman."
+     },
+     {
+      "word": "MAMIE",
+      "clue": "La mère de ta mère."
+     },
+     {
+      "word": "FRERE",
+      "clue": "Un garçon de ta famille."
+     },
+     {
+      "word": "BEBE",
+      "clue": "La plus petite personne de la famille."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Associe le mot et le mot court.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Mot long",
+    "right_label": "Mot court",
+    "pairs": [
+     {
+      "left": "mère",
+      "right": "maman"
+     },
+     {
+      "left": "père",
+      "right": "papa"
+     },
+     {
+      "left": "grand-mère",
+      "right": "mamie"
+     },
+     {
+      "left": "grand-père",
+      "right": "papi"
+     },
+     {
+      "left": "frère",
+      "right": "frérot"
+     },
+     {
+      "left": "sœur",
+      "right": "sœurette"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute Nico. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u02-c.mp3",
+   "data": {
+    "voice_note": "Voces: Nico (bromista) y Astrid (ordenada).",
+    "script": "Astrid : Nico, qui est sur ta photo ? … Nico : C'est ma famille ! Regarde, voici ma mère. Elle s'appelle Rosa. … Astrid : Et c'est ton père ? … Nico : Oui ! Il s'appelle Juan. Il est très grand. … Astrid : Tu as des frères et des sœurs ? … Nico : J'ai une sœur. Elle a cinq ans. … Astrid : Et le bébé, c'est qui ? … Nico : C'est mon cousin. Il a un an ! … Astrid : Et… pourquoi il y a un oiseau sur la photo ? … Nico : Ha ! C'est Pip ! Il s'est envolé dans la photo. Ce Pip, alors !",
+    "questions": [
+     {
+      "q": "La mère de Nico s'appelle …",
+      "answer": "Rosa"
+     },
+     {
+      "q": "Son père est très …",
+      "answer": "grand"
+     },
+     {
+      "q": "Sa sœur a … ans.",
+      "answer": "cinq"
+     },
+     {
+      "q": "Le bébé est le … de Nico.",
+      "answer": "cousin"
+     },
+     {
+      "q": "L'oiseau sur la photo est …",
+      "answer": "Pip"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Lis et choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "La mère de ta maman est ta …",
+      "options": [
+       "sœur",
+       "mamie",
+       "bébé"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Un garçon de ta famille est ton …",
+      "options": [
+       "frère",
+       "sœur",
+       "mère"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "La plus petite personne de la famille est le …",
+      "options": [
+       "père",
+       "papi",
+       "bébé"
+      ],
+      "answer": 2
+     },
+     {
+      "sentence": "« Papa » est le mot court pour …",
+      "options": [
+       "père",
+       "frère",
+       "papi"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Maman, papa, les frères et les sœurs sont ta …",
+      "options": [
+       "école",
+       "famille",
+       "les jouets"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Dessine ta famille en une minute (des bonshommes suffisent !). Montre à ton camarade et dis : « Voici ma mère. Voici mon frère. » Ton camarade montre et demande : « Qui est-ce ? »"
+   }
+  },
+  {
+   "code": "F",
+   "type": "gap_text",
+   "title": "Lis le texte de la photo. Écris les mots qui manquent.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "mother",
+     "father",
+     "sister",
+     "baby",
+     "dog"
+    ],
+    "text": "C'est la photo de ma famille ! Ma {1} s'appelle Rosa et mon {2} s'appelle Juan. Ma petite {3} a cinq ans. Le {4} est mon cousin — il a un an !",
+    "answers": [
+     "mother",
+     "father",
+     "sister",
+     "baby"
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "spot_diff",
+   "title": "Deux photos de famille ! Trouve les différences.",
+   "outputs": [
+    "digital",
+    "book"
+   ],
+   "data": {
+    "diffs": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ]
+    ]
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Colle ou dessine une photo de famille. Écris les mots avec des flèches : mère, père, sœur… et une phrase entière : C'est ma famille."
+  }
+ ],
+ "scope": {
+  "grado": "G1",
+  "temaN": 5,
+  "tema": "Ma famille",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Suivre les consignes de la classe ; reconnaître des mots connus dans une chanson ou une phrase courte."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Saluer ; dire son nom, son âge, les couleurs ; nommer des objets ; répondre par oui ou non."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Reconnaître les lettres de l'alphabet ; associer un mot à une image (famille, nourriture, animaux, corps)."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire son prénom ; recopier des mots ; légender une image (3 à 5 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~150 mots actifs ; le verbe être, un/une, c'est/ce sont, l'impératif."
+   }
+  ],
+  "vocabulario": [
+   "maman",
+   "papa",
+   "sœur",
+   "frère",
+   "mamie",
+   "papi"
+  ],
+  "gramatica": [
+   "Les adjectifs possessifs : mon, ton, son"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "mum",
+    "dad"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "maman",
+  "papa"
+ ],
+ "lang": "fr"
+}

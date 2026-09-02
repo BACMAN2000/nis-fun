@@ -1,0 +1,296 @@
+{
+ "id": "starters-fr-28",
+ "level": "starters",
+ "number": 28,
+ "title": "Le parc",
+ "topic": "cour de récréation",
+ "grammar": "Allons + jouer",
+ "wordlist": [
+  "parc",
+  "toboggan",
+  "balançoire",
+  "arbre",
+  "oiseau",
+  "fleur",
+  "banc",
+  "herbe",
+  "jouer",
+  "amusant"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 1,
+  "skill": "les choses du parc"
+ },
+ "characters": [
+  "freya",
+  "nico"
+ ],
+ "scene": {
+  "speaker": "freya",
+  "pose": {
+   "freya": 1,
+   "nico": 7
+  },
+  "bubble": "Le parc après l'école : le toboggan, les balançoires, le grand arbre… et une heure de pur bonheur !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Écris les mots du parc.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "TOBOGGAN",
+      "clue": "Tu montes l'escalier et tu descends vite !"
+     },
+     {
+      "word": "BALANCOIRE",
+      "clue": "Tu t'assois et tu montes et descends en l'air."
+     },
+     {
+      "word": "ARBRE",
+      "clue": "Grand et vert. Les oiseaux y vivent."
+     },
+     {
+      "word": "BANC",
+      "clue": "Mamie s'assoit ici et regarde."
+     },
+     {
+      "word": "HERBE",
+      "clue": "Verte et douce sous tes pieds."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Associe l'endroit et l'action.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Lieu",
+    "right_label": "Action",
+    "pairs": [
+     {
+      "left": "le toboggan",
+      "right": "descendre vite — youpi !"
+     },
+     {
+      "left": "les balançoires",
+      "right": "voler en haut et en bas"
+     },
+     {
+      "left": "l'herbe",
+      "right": "s'asseoir et goûter"
+     },
+     {
+      "left": "le grand arbre",
+      "right": "chercher les oiseaux"
+     },
+     {
+      "left": "le chemin",
+      "right": "faire du vélo"
+     },
+     {
+      "left": "le banc",
+      "right": "se reposer une minute"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute au parc. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u28-c.mp3",
+   "data": {
+    "voice_note": "Voces: Freya y Nico (tarde de parque).",
+    "script": "Freya : Le parc ! J'adore le toboggan rouge. … Nico : Moi je suis sur la balançoire ! Plus haut, plus haut ! … Freya : Regarde, cinq petits oiseaux dans le grand arbre. … Nico : Et Pip leur parle. Réunion d'oiseaux ! … Freya : Goûtons sur l'herbe. … Nico : Des pommes et des biscuits. Parfait ! … Freya : Encore une fois au toboggan avant de rentrer ? … Nico : Encore dix fois !",
+    "questions": [
+     {
+      "q": "Le toboggan est …",
+      "answer": "rouge"
+     },
+     {
+      "q": "Il y a … petits oiseaux dans l'arbre.",
+      "answer": "cinq"
+     },
+     {
+      "q": "… parle aux oiseaux.",
+      "answer": "Pip"
+     },
+     {
+      "q": "Ils goûtent sur l'…",
+      "answer": "herbe"
+     },
+     {
+      "q": "Nico veut … fois de plus au toboggan.",
+      "answer": "dix"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Tu descends le ___ très vite.",
+      "options": [
+       "toboggan",
+       "banc",
+       "arbre"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les oiseaux font leur maison dans les …",
+      "options": [
+       "arbres",
+       "toboggans",
+       "bancs"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« ___ au parc ! »",
+      "options": [
+       "Allons-y",
+       "Alons-y",
+       "Laisse"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu t'assois et tu voles sur la …",
+      "options": [
+       "balançoire",
+       "herbe",
+       "fleur"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le parc est plein d'___ après l'école.",
+      "options": [
+       "amusant",
+       "lits",
+       "bureaux"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Préparez un après-midi au parc : chacun dit 3 choses avec Allons… (« Allons au toboggan ! »). Mettez-vous d'accord sur l'ordre : d'abord, ensuite, à la fin."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Regarde A et B. Qu'est-ce qui change ?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Dessine ton parc préféré et légende 5 choses. Écris : J'aime le… parce que…"
+  }
+ ],
+ "scope": {
+  "grado": "G2",
+  "temaN": 4,
+  "tema": "Ma ville",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues simples sur la famille, l'école, les animaux et la nourriture."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Répondre à des questions à partir d'une image ; décrire une image en phrases simples."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire des textes de 2 à 3 phrases ; associer images, mots et légendes courtes."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Recopier des mots et compléter des phrases courtes."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~450 mots ; présent, être et avoir, il y a, aimer + infinitif."
+   }
+  ],
+  "vocabulario": [
+   "parc",
+   "école",
+   "hôpital",
+   "supermarché",
+   "bibliothèque",
+   "cinéma",
+   "arrêt de bus"
+  ],
+  "gramatica": [
+   "Les prépositions : dans, sur, près de, à"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "school",
+    "hospital",
+    "supermarket",
+    "library",
+    "cinema",
+    "bus stop"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "école",
+  "hôpital",
+  "supermarché",
+  "bibliothèque",
+  "cinéma",
+  "arrêt de bus"
+ ],
+ "lang": "fr"
+}

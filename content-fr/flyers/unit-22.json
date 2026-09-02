@@ -1,0 +1,681 @@
+{
+ "id": "flyers-fr-22",
+ "level": "flyers",
+ "number": 22,
+ "title": "Les fleuves du monde",
+ "topic": "géographie",
+ "grammar": "les superlatifs + les nombres",
+ "wordlist": [
+  "rivière",
+  "océan",
+  "pont",
+  "bateau",
+  "profond",
+  "large",
+  "long",
+  "kilomètre",
+  "sud",
+  "nord"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 4,
+  "skill": "texte documentaire"
+ },
+ "characters": [
+  "maya",
+  "kili"
+ ],
+ "scene": {
+  "speaker": "maya",
+  "pose": {
+   "maya": 3,
+   "kili": 2
+  },
+  "bubble": "C'est l'heure du quiz ! Quel fleuve est le plus long — l'Amazone ou le Nil ? Kili a survolé les deux !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe le mot et son sens.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Mot",
+    "right_label": "Sens",
+    "pairs": [
+     {
+      "left": "profond",
+      "right": "une grande distance du haut vers le bas"
+     },
+     {
+      "left": "large",
+      "right": "une grande distance d'un côté à l'autre"
+     },
+     {
+      "left": "un pont",
+      "right": "tu traverses le fleuve dessus"
+     },
+     {
+      "left": "un océan",
+      "right": "la plus grande étendue d'eau de la Terre"
+     },
+     {
+      "left": "un kilomètre",
+      "right": "mille mètres"
+     },
+     {
+      "left": "un bateau",
+      "right": "tu voyages sur l'eau dedans"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Lis le texte sur l'Amazone et choisis la bonne réponse.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Lis le texte. Choisis la bonne réponse.",
+    "text": "L'Amazone est un fleuve d'Amérique du Sud. Il fait environ six mille quatre cents kilomètres de long, et à la saison des pluies certaines parties font presque cinquante kilomètres de large ! Il y a plus d'espèces de poissons dans l'Amazone que dans n'importe quel autre fleuve — plus de deux mille. Des dauphins roses nagent dans son eau brune. Il y a très peu de ponts sur l'Amazone, alors les gens voyagent en bateau entre les villages.",
+    "items": [
+     {
+      "sentence": "L'Amazone est en …",
+      "options": [
+       "Afrique",
+       "Amérique du Sud",
+       "Europe"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "À la saison des pluies certaines parties font presque ___ de large.",
+      "options": [
+       "cinquante kilomètres",
+       "cinq kilomètres",
+       "quinze mètres"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Plus de deux mille espèces de ___ y vivent.",
+      "options": [
+       "oiseaux",
+       "poisson",
+       "singes"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Les dauphins de l'Amazone sont …",
+      "options": [
+       "gris",
+       "bleu",
+       "rose"
+      ],
+      "answer": 2
+     },
+     {
+      "sentence": "Les gens voyagent entre les villages en …",
+      "options": [
+       "train",
+       "bateau",
+       "tramway"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute la visite des fleuves avec Kili. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u22-c.mp3",
+   "data": {
+    "voice_note": "Voces: Maya (entrevista) y Kili (recuerdos de vuelo — narrados por Maya).",
+    "script": "Maya : Kili, parle-nous des fleuves que tu connais ! … Maya : Il dit que le Nil est le plus long — environ six mille six cents kilomètres. … Maya : Il l'a survolé pendant trois jours sans s'arrêter ! … Maya : Son préféré, c'est l'Amazone, à cause des dauphins roses. … Maya : Le fleuve le plus froid qu'il connaît est dans le nord, plein de glace en hiver. … Maya : Et le plus beau pont ? Le vieux pont en pierre de notre ville, bien sûr ! … Maya : Merci, capitaine Kili, le meilleur géographe volant !",
+    "questions": [
+     {
+      "q": "Le fleuve le plus long est le …",
+      "answer": "Nil"
+     },
+     {
+      "q": "Kili l'a survolé pendant trois … sans s'arrêter.",
+      "answer": "jours"
+     },
+     {
+      "q": "Son fleuve préféré a des dauphins …",
+      "answer": "dauphins"
+     },
+     {
+      "q": "Le fleuve le plus froid est plein de … en hiver.",
+      "answer": "glace"
+     },
+     {
+      "q": "Le plus beau pont est en …",
+      "answer": "pierre"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Le Nil est ___ que la Tamise.",
+      "options": [
+       "long",
+       "plus long",
+       "le plus long"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Le Pacifique est l'océan le ___ du monde.",
+      "options": [
+       "plus grand",
+       "le plus grand",
+       "grand"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Mille mètres font un …",
+      "options": [
+       "kilomètre",
+       "siècle",
+       "minute"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le contraire de nord est …",
+      "options": [
+       "ouest",
+       "est",
+       "sud"
+      ],
+      "answer": 2
+     },
+     {
+      "sentence": "Cette partie du fleuve est très ___ — ne plonge pas ici !",
+      "options": [
+       "profond",
+       "sec",
+       "large"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Prépare un quiz de 3 questions sur les fleuves pour un autre binôme avec plus long / plus profond / plus large (invente les nombres s'il le faut) : « Lequel est le plus long, le X ou le Y ? » Les gagnants écrivent leur nom au tableau !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Regarde A et B. Qu'est-ce qui change ?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  },
+  {
+   "type": "picture_mc",
+   "title": "Écoute et coche la bonne case.",
+   "instructions": "Écoute chaque question et clique sur l'image qui répond.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "La nature"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et cocher la bonne image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u22-h.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "Qu'est-ce que Maya a dessiné ?",
+      "answer": "pont",
+      "options": [
+       {
+        "word": "stade",
+        "propio": true
+       },
+       {
+        "word": "pont",
+        "propio": true
+       },
+       {
+        "word": "théâtre",
+        "propio": true
+       }
+      ],
+      "script": "Qu'est-ce que Maya a dessiné ? … Maya : J'ai dessiné un pont."
+     },
+     {
+      "q": "Quelle image Diego regarde-t-il ?",
+      "answer": "nord",
+      "options": [
+       {
+        "word": "nord",
+        "propio": false
+       },
+       {
+        "word": "restaurant",
+        "propio": true
+       },
+       {
+        "word": "pont",
+        "propio": true
+       }
+      ],
+      "script": "Quelle image Diego regarde-t-il ? … Diego : Je regarde le nord."
+     },
+     {
+      "q": "Qu'est-ce qu'Ingrid voit sur l'image ?",
+      "answer": "bateau",
+      "options": [
+       {
+        "word": "bateau",
+        "propio": false
+       },
+       {
+        "word": "gants",
+        "propio": true
+       },
+       {
+        "word": "pont",
+        "propio": true
+       }
+      ],
+      "script": "Qu'est-ce qu'Ingrid voit sur l'image ? … Ingrid : Je vois le bateau."
+     },
+     {
+      "q": "Que montre Bruno du doigt ?",
+      "answer": "sud",
+      "options": [
+       {
+        "word": "pont",
+        "propio": true
+       },
+       {
+        "word": "sud",
+        "propio": false
+       },
+       {
+        "word": "poche",
+        "propio": true
+       }
+      ],
+      "script": "Que montre Bruno du doigt ? … Bruno : Je montre le sud."
+     }
+    ],
+    "script": "Écoute et coche la bonne case. Il y a un exemple. … Qu'est-ce que Maya a dessiné ? … Maya : J'ai dessiné un pont. … Quelle image Diego regarde-t-il ? … Diego : Je regarde le nord. … Qu'est-ce qu'Ingrid voit sur l'image ? … Ingrid : Je vois le bateau. … Que montre Bruno du doigt ? … Bruno : Je montre le sud.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "H"
+  },
+  {
+   "type": "match_pictures",
+   "title": "Écoute et associe chaque explorateur à une image.",
+   "instructions": "Écoute. Puis choisis la lettre de l'image pour chaque personne. Attention : certaines images sont en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "La nature"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et associer chaque personne à une image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 3
+    }
+   },
+   "audio": "flyers/u22-i.mp3",
+   "data": {
+    "people": [
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 8
+     },
+     {
+      "slug": "aiko",
+      "name": "Aiko",
+      "pose": 3
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "pose": 3
+     },
+     {
+      "slug": "tino",
+      "name": "Tino",
+      "pose": 3
+     }
+    ],
+    "pictures": [
+     {
+      "word": "pont",
+      "propio": true,
+      "id": "A"
+     },
+     {
+      "word": "nord",
+      "propio": false,
+      "id": "B"
+     },
+     {
+      "word": "uniforme",
+      "propio": true,
+      "id": "C"
+     },
+     {
+      "word": "commissariat",
+      "propio": true,
+      "id": "D"
+     },
+     {
+      "word": "sud",
+      "propio": false,
+      "id": "E"
+     },
+     {
+      "word": "gants",
+      "propio": true,
+      "id": "F"
+     },
+     {
+      "word": "stade",
+      "propio": true,
+      "id": "G"
+     },
+     {
+      "word": "bateau",
+      "propio": false,
+      "id": "H"
+     }
+    ],
+    "answers": {
+     "Maya": "A",
+     "Aiko": "E",
+     "Lia": "H",
+     "Tino": "B"
+    },
+    "script": "Écoute et associe chaque personne à une image. Il y a un exemple. … Diego : Maya, quelle image as-tu choisie ? … Maya : J'ai choisi le pont. … Diego : Aiko, quelle image as-tu choisie ? … Aiko : J'ai choisi le sud. … Diego : Lia, quelle image as-tu choisie ? … Lia : J'ai choisi le bateau. … Diego : Tino, quelle image as-tu choisie ? … Tino : J'ai choisi le nord.",
+    "voice_note": "Diego pregunta; cada explorador responde con su objeto."
+   },
+   "code": "I"
+  },
+  {
+   "type": "picture_story",
+   "title": "Regarde les trois images et écris l'histoire.",
+   "instructions": "Regarde les images. Écris l'histoire en 20-25 mots. Aide-toi des mots sous chaque image.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "La nature"
+    },
+    "destreza": "Writing",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots.",
+    "clase": "Type examen : histoire en images de 20 à 25 mots (production écrite)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "mirador",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 4
+       }
+      ],
+      "word": "pont",
+      "hint": "Maya / donne / un pont",
+      "model": "Maya donne un pont au belvédère."
+     },
+     {
+      "n": 2,
+      "scene": "labyrinth",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 8
+       },
+       {
+        "slug": "oliver",
+        "pose": 1
+       }
+      ],
+      "word": "nord",
+      "hint": "Oliver / apporter / un nord",
+      "model": "Ensuite Oliver apporte un nord."
+     },
+     {
+      "n": 3,
+      "scene": "zoo",
+      "people": [
+       {
+        "slug": "oliver",
+        "pose": 10
+       },
+       {
+        "slug": "maya",
+        "pose": 10
+       }
+      ],
+      "word": "sud",
+      "hint": "maintenant / un sud / content",
+      "model": "Maintenant ils ont aussi un sud, et tous les deux sont contents."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Maya donne un pont au belvédère. Ensuite Oliver apporte un nord. Maintenant ils ont aussi un sud, et tous les deux sont contents.",
+    "words": [
+     "pont",
+     "nord",
+     "sud"
+    ],
+    "support": {
+     "grammar": "les superlatifs + les nombres",
+     "words": [
+      "rivière",
+      "océan",
+      "pont",
+      "bateau",
+      "profond",
+      "large"
+     ]
+    }
+   },
+   "code": "J"
+  },
+  {
+   "type": "label_people",
+   "title": "Écoute et écris les prénoms.",
+   "instructions": "Regarde l'image. Écoute et écris le prénom sous chaque personne. Attention : il y a trois prénoms en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "La nature"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et écrire le prénom de chaque personne de l'image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u22-g.mp3",
+   "data": {
+    "scene": "zoo",
+    "place": "le zoo",
+    "people": [
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "clue": "la fille au t-shirt vert avec une loupe",
+      "action": "observe quelque chose de tout petit",
+      "pose": 7
+     },
+     {
+      "slug": "kili",
+      "name": "Kili",
+      "clue": "le grand oiseau noir avec un collier blanc",
+      "action": "porte une lettre",
+      "pose": 3
+     },
+     {
+      "slug": "samu",
+      "name": "Samu",
+      "clue": "le garçon aux cheveux blonds courts avec un sac à dos",
+      "action": "fait signe",
+      "pose": 7
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "clue": "le garçon au t-shirt rouge avec un microphone",
+      "action": "pose des questions avec son microphone",
+      "pose": 7
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "clue": "la fille à la queue-de-cheval rousse et aux taches de rousseur",
+      "action": "dessine à la craie par terre",
+      "pose": 7
+     }
+    ],
+    "names": [
+     "Bruno",
+     "Diego",
+     "Ingrid",
+     "Iris",
+     "Kili",
+     "Lia",
+     "Maya",
+     "Samu"
+    ],
+    "script": "Regarde l'image. Écoute et écris les prénoms. Il y a un exemple. … Diego : Qui est-ce au zoo ? La fille au t-shirt vert avec une loupe. … Maya : C'est Maya. Maya observe quelque chose de tout petit. … Diego : Et qui est le grand oiseau noir avec un collier blanc ? … Maya : C'est Kili. Regarde, Kili porte une lettre. … Diego : Et qui est le garçon aux cheveux blonds courts avec un sac à dos ? … Maya : C'est Samu. Regarde, Samu fait signe. … Diego : Et qui est le garçon au t-shirt rouge avec un microphone ? … Maya : C'est Diego. Regarde, Diego pose des questions avec son microphone. … Diego : Et qui est la fille à la queue-de-cheval rousse et aux taches de rousseur ? … Maya : C'est Iris. Regarde, Iris dessine à la craie par terre.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Trouve un fait sur un fleuve du Pérou et écris 3 phrases : Le fleuve … fait … kilomètres de long. Il est dans le…"
+  }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 3,
+  "tema": "La nature",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Raconter des histoires au passé, au présent et au futur ; exprimer ses préférences avec des raisons."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et comprendre des histoires courtes (80 à 250 mots) ; trouver l'idée principale et les détails."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~2500 mots ; passé composé, questions négatives, si + présent, futur proche."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

@@ -1,0 +1,298 @@
+{
+ "id": "movers-fr-48",
+ "level": "movers",
+ "number": 48,
+ "title": "Jeux de mots",
+ "topic": "bilan de vocabulaire",
+ "grammar": "bilan de vocabulaire des Aventuriers",
+ "wordlist": [
+  "mot",
+  "lettre",
+  "épeler",
+  "deviner",
+  "définition",
+  "paire",
+  "en face de",
+  "son",
+  "jeu",
+  "montrer du doigt"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 1,
+  "skill": "définitions"
+ },
+ "characters": [
+  "erik",
+  "sofia"
+ ],
+ "scene": {
+  "speaker": "erik",
+  "pose": {
+   "erik": 10,
+   "sofia": 2
+  },
+  "bubble": "Après-midi jeux de mots ! Épellation, contraires, devinettes… et le champion gagne le crayon d'or !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe les contraires — bilan des Aventuriers !",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Mot",
+    "right_label": "Contraire",
+    "pairs": [
+     {
+      "left": "grand",
+      "right": "petit"
+     },
+     {
+      "left": "rapide",
+      "right": "lent"
+     },
+     {
+      "left": "chaud",
+      "right": "froid"
+     },
+     {
+      "left": "content",
+      "right": "triste"
+     },
+     {
+      "left": "tôt",
+      "right": "tard"
+     },
+     {
+      "left": "calme",
+      "right": "bruyant"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Devine le mot grâce à l'indice.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Lis la définition et choisis le mot.",
+    "items": [
+     {
+      "sentence": "Il a huit bras et il vit dans la mer.",
+      "options": [
+       "une pieuvre",
+       "un crabe",
+       "un requin"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu dors dessus toutes les nuits.",
+      "options": [
+       "un lit",
+       "un bureau",
+       "une étagère"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "La saison où les feuilles tombent.",
+      "options": [
+       "automne",
+       "printemps",
+       "été"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "La personne qui apporte les plats au café.",
+      "options": [
+       "le serveur",
+       "le dentiste",
+       "le conducteur"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu les souffles à ton anniversaire.",
+      "options": [
+       "bougies",
+       "ballons",
+       "cadeaux"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute le championnat. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u48-c.mp3",
+   "data": {
+    "voice_note": "Voces: Erik (presentador) y Sofía (concursante).",
+    "script": "Erik : Finale des jeux de mots ! Sofia, épelle le mot JARDIN. … Sofia : J-A-R-D-I-N. Jardin ! … Erik : Dix points ! Maintenant : le contraire de VIDE. … Sofia : Plein ! … Erik : Correct ! Nomme trois animaux qui savent nager. … Sofia : Le dauphin, le manchot et… Luna ! … Erik : Ha ! On accepte. Dernière question : combien de lettres dans CROCODILE ? … Sofia : C-R-O-C-O-D-I-L-E… neuf ! … Erik : Championne ! Le crayon d'or est à toi !",
+    "questions": [
+     {
+      "q": "Sofía épelle le mot …",
+      "answer": "JARDIN"
+     },
+     {
+      "q": "Le contraire de vide est …",
+      "answer": "plein"
+     },
+     {
+      "q": "Ses trois nageurs : le dauphin, le manchot et …",
+      "answer": "Luna"
+     },
+     {
+      "q": "CROCODILE a … lettres.",
+      "answer": "neuf"
+     },
+     {
+      "q": "Le prix est le … d'or.",
+      "answer": "crayon"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Dire un mot lettre par lettre, c'est l'___.",
+      "options": [
+       "épeler",
+       "renverser",
+       "sentir"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Chaud et froid sont des …",
+      "options": [
+       "contraires",
+       "paires de chaussures",
+       "saisons"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Une petite aide pour trouver la réponse est un …",
+      "options": [
+       "définition",
+       "club",
+       "nuage"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Quand tu ne sais pas, tu peux …",
+      "options": [
+       "deviner",
+       "dormir",
+       "crier"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Chaque bonne réponse te donne un …",
+      "options": [
+       "montrer du doigt",
+       "peindre",
+       "pot"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Mini championnat : 3 manches chacun — épeler un mot, donner un contraire, décrire un mot que ton camarade devine. Le gagnant choisit le jeu suivant !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "A et B ne sont pas pareils. Trouve pourquoi !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Fabrique une grille de mots mêlés avec 8 mots de ce livre (dessine la grille !). Apporte-la pour qu'un camarade la résolve."
+  }
+ ],
+ "scope": {
+  "grado": "G4",
+  "temaN": 6,
+  "tema": "Mon avenir",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues plus longs ; repérer une information précise à l'oral."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire des lieux, des objets, des événements passés ; jouer une situation simple."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et remettre en ordre des histoires courtes ; trouver une information dans un panneau ou une affiche."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un message de 30 à 40 mots ; paragraphes de classe de 60 à 100 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~1350 mots ; passé composé, pronoms relatifs, pour + infinitif, devoir."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

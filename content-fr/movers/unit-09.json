@@ -1,0 +1,328 @@
+{
+ "id": "movers-fr-09",
+ "level": "movers",
+ "number": 9,
+ "title": "Dans le jardin",
+ "topic": "jardin",
+ "grammar": "le présent (maintenant)",
+ "wordlist": [
+  "herbe",
+  "fleur",
+  "arbre",
+  "feuille",
+  "plante",
+  "eau",
+  "grandir",
+  "creuser",
+  "papillon",
+  "abeille"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 5,
+  "skill": "colorier et écrire"
+ },
+ "characters": [
+  "erik",
+  "sofia"
+ ],
+ "scene": {
+  "speaker": "erik",
+  "pose": {
+   "erik": 3,
+   "sofia": 1
+  },
+  "bubble": "De la science au jardin ! Ma nouvelle invention arrose les plantes… et parfois le jardinier aussi."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe le mot du jardin et sa description.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Mot",
+    "right_label": "Description",
+    "pairs": [
+     {
+      "left": "herbe",
+      "right": "le sol vert du jardin"
+     },
+     {
+      "left": "une feuille",
+      "right": "verte, elle pousse sur les arbres"
+     },
+     {
+      "left": "un papillon",
+      "right": "un insecte aux ailes magnifiques"
+     },
+     {
+      "left": "une abeille",
+      "right": "un insecte jaune et noir qui fait du miel"
+     },
+     {
+      "left": "arroser",
+      "right": "donner à boire aux plantes"
+     },
+     {
+      "left": "pousser",
+      "right": "devenir plus grand, lentement"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Qu'est-ce qui se passe maintenant ? Choisis la bonne forme.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis la bonne forme du présent continu.",
+    "items": [
+     {
+      "sentence": "Sofia ___ les roses en ce moment.",
+      "options": [
+       "arrose",
+       "arrosait",
+       "a arrosé"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Deux abeilles ___ autour des fleurs jaunes.",
+      "options": [
+       "vole",
+       "volent",
+       "vole"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Luna ___ un trou sous l'arbre. Encore !",
+      "options": [
+       "creuse",
+       "creusait",
+       "a creusé"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Qu'est-ce que tu ___, Erik ?",
+      "options": [
+       "est",
+       "sont",
+       "faire"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Le soleil ___ et le jardin est content.",
+      "options": [
+       "brille",
+       "brillait",
+       "a brillé"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute. Qu'est-ce qui se passe dans le jardin ? Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u09-c.mp3",
+   "data": {
+    "voice_note": "Voces: Erik (probando su invento) y Sofía (jardinera).",
+    "script": "Erik : Invention numéro douze : la machine à arroser automatique ! … Sofia : Moi je plante des tomates ici, Erik. Fais attention ! … Erik : Ne t'inquiète pas ! J'appuie sur le bouton vert maintenant… … Sofia : Erik ! Tu arroses MON CHAPEAU ! … Erik : Oups. Petite erreur. Maintenant le bouton rouge… … Sofia : Mieux ! Regarde, la machine arrose les fleurs parfaitement. … Sofia : Et il y a un papillon posé dessus. Il croit que c'est une grande fleur ! … Erik : Invention numéro douze : réussie ! Plus ou moins.",
+    "questions": [
+     {
+      "q": "C'est l'invention numéro …",
+      "answer": "douze"
+     },
+     {
+      "q": "Sofía plante des …",
+      "answer": "tomates"
+     },
+     {
+      "q": "D'abord, la machine arrose le … de Sofía.",
+      "answer": "chapeau"
+     },
+     {
+      "q": "Avec le bouton rouge elle arrose les … parfaitement.",
+      "answer": "fleurs"
+     },
+     {
+      "q": "Un … est posé sur la machine.",
+      "answer": "papillon"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Les arbres sont pleins de … vertes.",
+      "options": [
+       "feuilles",
+       "abeilles",
+       "bottes"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les abeilles font du …",
+      "options": [
+       "miel",
+       "lait",
+       "riz"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les plantes ont besoin d'eau et de soleil pour …",
+      "options": [
+       "grandir",
+       "voler",
+       "chanter"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les chiens adorent ___ des trous dans le jardin.",
+      "options": [
+       "creuser",
+       "lire",
+       "cuisinier"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "On s'assoit sur l'___ pour le pique-nique.",
+      "options": [
+       "herbe",
+       "feuille",
+       "abeille"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Théâtre du jardin : l'un est une plante qui pousse (lentement !), l'autre est le jardinier qui raconte au présent : « La plante pousse… je l'arrose… » Puis on échange."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Deux images, plein de différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Regarde par la fenêtre pendant 5 minutes. Écris 4 phrases sur ce qui se passe : Un oiseau chante…"
+  }
+ ],
+ "scope": {
+  "grado": "G3",
+  "temaN": 4,
+  "tema": "La nature et les animaux",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues courts avec plus de vocabulaire ; repérer l'information principale dans des annonces simples."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire ses habitudes, ses préférés, les métiers du quartier ; donner une opinion courte."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire de courts paragraphes ; répondre à des questions simples ; trouver une information précise."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un court paragraphe sur soi, sa famille ou sa journée (40 à 70 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~800 mots ; les temps de base ; devoir, pouvoir ; l'accord du verbe ; le superlatif."
+   }
+  ],
+  "vocabulario": [
+   "pingouin",
+   "crocodile",
+   "girafe",
+   "flamant rose",
+   "aigle",
+   "baleine",
+   "requin",
+   "ours"
+  ],
+  "gramatica": [
+   "Il y a (singulier et pluriel)"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "penguin",
+    "crocodile",
+    "giraffe",
+    "flamingo",
+    "eagle",
+    "whale",
+    "shark",
+    "bear"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "pingouin",
+  "crocodile",
+  "girafe",
+  "flamant rose",
+  "aigle",
+  "baleine",
+  "requin",
+  "ours"
+ ],
+ "lang": "fr"
+}

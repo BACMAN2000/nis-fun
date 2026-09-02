@@ -1,0 +1,486 @@
+{
+ "id": "flyers-fr-14",
+ "level": "flyers",
+ "number": 14,
+ "title": "À gauche, à droite, tout droit",
+ "topic": "indications",
+ "grammar": "l'impératif + les prépositions de mouvement",
+ "wordlist": [
+  "gauche",
+  "droite",
+  "tout droit",
+  "passé",
+  "le long de",
+  "au-dessus",
+  "à travers",
+  "en face de",
+  "à côté de",
+  "coin"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 6,
+  "skill": "phrases à trous"
+ },
+ "characters": [
+  "maya",
+  "kili"
+ ],
+ "scene": {
+  "speaker": "maya",
+  "pose": {
+   "maya": 2,
+   "kili": 2
+  },
+  "bubble": "Kili doit livrer une lettre au nouveau musée — donnons-lui les indications depuis le ciel !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe l'indication et son sens.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Indication",
+    "right_label": "Sens",
+    "pairs": [
+     {
+      "left": "va tout droit",
+      "right": "ne tourne pas"
+     },
+     {
+      "left": "tourne à gauche",
+      "right": "va de ce côté ←"
+     },
+     {
+      "left": "passe devant la banque",
+      "right": "marche devant et continue"
+     },
+     {
+      "left": "traverse le pont",
+      "right": "passe de l'autre côté"
+     },
+     {
+      "left": "traverse le parc",
+      "right": "entre dedans et traverse"
+     },
+     {
+      "left": "c'est en face de l'école",
+      "right": "c'est de l'autre côté de la rue"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Complète les indications.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot pour chaque trou.",
+    "items": [
+     {
+      "sentence": "Marche ___ la rivière jusqu'à ce que tu voies le pont.",
+      "options": [
+       "le long de",
+       "au-dessus",
+       "dedans"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Traverse ___ pont et tourne à droite.",
+      "options": [
+       "à travers",
+       "au-dessus",
+       "entre"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Passe ___ le supermarché — ne t'arrête pas là.",
+      "options": [
+       "passé",
+       "sous",
+       "dedans"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "La pharmacie est ___ la banque, de l'autre côté.",
+      "options": [
+       "en face de",
+       "sur",
+       "au-dessus"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tourne à gauche au ___ de la rue.",
+      "options": [
+       "toit",
+       "coin",
+       "étagère"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute. Maya guide Kili jusqu'au musée. Écris un mot dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u14-c.mp3",
+   "data": {
+    "voice_note": "Voces: Maya (guiando) y Kili (graznidos de confirmación — narrar sus acciones).",
+    "script": "Maya : Bon Kili, vole tout droit le long de la rue principale. … Maya : Maintenant tourne à gauche à la tour de l'horloge. … Maya : Tu vois le marché ? Passe devant — ne t'arrête pas pour manger ! … Maya : Maintenant survole le vieux pont en pierre. … Maya : Traverse le parc de la ville, entre les grands arbres. … Maya : Le musée est en face de la fontaine — le bâtiment au toit rouge. … Maya : Atterrissage parfait ! Donne la lettre au directeur. Mission accomplie !",
+    "questions": [
+     {
+      "q": "Kili tourne à gauche à la … de l'horloge.",
+      "answer": "tour"
+     },
+     {
+      "q": "Il passe devant le … sans s'arrêter.",
+      "answer": "marché"
+     },
+     {
+      "q": "Il survole le vieux … en pierre.",
+      "answer": "pont"
+     },
+     {
+      "q": "Il traverse le … de la ville.",
+      "answer": "parc"
+     },
+     {
+      "q": "Le musée a un toit …",
+      "answer": "rouge"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "« Pardon, ___ est la gare ? » — « Tourne à droite. »",
+      "options": [
+       "où",
+       "quand",
+       "à qui"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le train passe ___ un long tunnel sombre.",
+      "options": [
+       "à travers",
+       "en face de",
+       "passé"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le café est ___ le cinéma — ils partagent un mur.",
+      "options": [
+       "à côté de",
+       "au-dessus",
+       "à travers"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Ne tourne pas. Va tout ___.",
+      "options": [
+       "gauche",
+       "tout droit",
+       "passé"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Marche ___ la plage et profite de l'air marin.",
+      "options": [
+       "le long de",
+       "sous",
+       "dedans"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "L'élève A ferme les yeux. L'élève B le guide dans la classe avec des indications (doucement et prudemment !) : « Trois pas tout droit… tourne à gauche… » But : arriver à la porte. Puis on échange."
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "A et B ne sont pas pareils. Trouve pourquoi !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  },
+  {
+   "type": "picture_story",
+   "title": "Regarde les trois images et écris l'histoire.",
+   "instructions": "Regarde les images. Écris l'histoire en 20-25 mots. Aide-toi des mots sous chaque image.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 4,
+     "nombre": "Gens et cultures"
+    },
+    "destreza": "Writing",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots.",
+    "clase": "Type examen : histoire en images de 20 à 25 mots (production écrite)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "facade",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 4
+       }
+      ],
+      "word": "",
+      "hint": "Maya / devant l'école",
+      "model": "Un matin Maya est devant l'école."
+     },
+     {
+      "n": 2,
+      "scene": "funfair",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 3
+       },
+       {
+        "slug": "iris",
+        "pose": 3
+       }
+      ],
+      "word": "",
+      "hint": "Maya / rencontrer / Iris",
+      "model": "Ensuite Maya rencontre Iris à la fête foraine."
+     },
+     {
+      "n": 3,
+      "scene": "amphitheater",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 10
+       },
+       {
+        "slug": "iris",
+        "pose": 1
+       }
+      ],
+      "word": "",
+      "hint": "à l'amphithéâtre / content",
+      "model": "À l'amphithéâtre ils sont très contents ensemble."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Un matin Maya est devant l'école. Ensuite Maya rencontre Iris à la fête foraine. À l'amphithéâtre ils sont très contents ensemble.",
+    "words": [],
+    "support": {
+     "grammar": "l'impératif + les prépositions de mouvement",
+     "words": [
+      "gauche",
+      "droite",
+      "tout droit",
+      "passé",
+      "le long de",
+      "au-dessus"
+     ]
+    }
+   },
+   "code": "H"
+  },
+  {
+   "type": "label_people",
+   "title": "Écoute et écris les prénoms.",
+   "instructions": "Regarde l'image. Écoute et écris le prénom sous chaque personne. Attention : il y a trois prénoms en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 4,
+     "nombre": "Gens et cultures"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et écrire le prénom de chaque personne de l'image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u14-g.mp3",
+   "data": {
+    "scene": "funfair",
+    "place": "la fête foraine",
+    "people": [
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "clue": "la fille au t-shirt vert avec une loupe",
+      "action": "observe quelque chose de tout petit",
+      "pose": 7
+     },
+     {
+      "slug": "kili",
+      "name": "Kili",
+      "clue": "le grand oiseau noir avec un collier blanc",
+      "action": "porte une lettre",
+      "pose": 3
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "clue": "la fille aux nattes noires et au t-shirt violet",
+      "action": "saute à la corde",
+      "pose": 7
+     },
+     {
+      "slug": "samu",
+      "name": "Samu",
+      "clue": "le garçon aux cheveux blonds courts avec un sac à dos",
+      "action": "fait signe",
+      "pose": 7
+     },
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "clue": "la fille aux cheveux blonds et à la veste bleu foncé",
+      "action": "lit le programme de la journée",
+      "pose": 7
+     }
+    ],
+    "names": [
+     "Diego",
+     "Ingrid",
+     "Iris",
+     "Kili",
+     "Lia",
+     "Maya",
+     "Mr Vega",
+     "Samu"
+    ],
+    "script": "Regarde l'image. Écoute et écris les prénoms. Il y a un exemple. … Diego : Qui est-ce à la fête foraine ? La fille au t-shirt vert avec une loupe. … Maya : C'est Maya. Maya observe quelque chose de tout petit. … Diego : Et qui est le grand oiseau noir avec un collier blanc ? … Maya : C'est Kili. Regarde, Kili porte une lettre. … Diego : Et qui est la fille aux nattes noires et au t-shirt violet ? … Maya : C'est Lia. Regarde, Lia saute à la corde. … Diego : Et qui est le garçon aux cheveux blonds courts avec un sac à dos ? … Maya : C'est Samu. Regarde, Samu fait signe. … Diego : Et qui est la fille aux cheveux blonds et à la veste bleu foncé ? … Maya : C'est Ingrid. Regarde, Ingrid lit le programme de la journée.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris le chemin de chez toi à l'école en 4-5 étapes avec : tout droit, tourne, devant, en face de."
+  }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 4,
+  "tema": "Gens et cultures",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Raconter des histoires au passé, au présent et au futur ; exprimer ses préférences avec des raisons."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et comprendre des histoires courtes (80 à 250 mots) ; trouver l'idée principale et les détails."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~2500 mots ; passé composé, questions négatives, si + présent, futur proche."
+   }
+  ],
+  "vocabulario": [
+   "varié",
+   "multiculturel",
+   "autochtone",
+   "vivant"
+  ],
+  "gramatica": [
+   "Les pronoms relatifs : qui, que, où (introduction)"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "diverse",
+    "multicultural",
+    "indigenous",
+    "vibrant"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "varié",
+  "multiculturel",
+  "autochtone",
+  "vivant"
+ ],
+ "lang": "fr"
+}

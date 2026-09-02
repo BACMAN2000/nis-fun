@@ -1,0 +1,298 @@
+{
+ "id": "movers-fr-46",
+ "level": "movers",
+ "number": 46,
+ "title": "Au café",
+ "topic": "commander à manger",
+ "grammar": "Je peux avoir… ? / Et avec ça ?",
+ "wordlist": [
+  "menu",
+  "serveur",
+  "commander",
+  "chocolat chaud",
+  "toast",
+  "crêpes",
+  "addition",
+  "s'il te plaît",
+  "délicieux",
+  "table"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 3,
+  "skill": "conversation"
+ },
+ "characters": [
+  "mateo",
+  "valentina"
+ ],
+ "scene": {
+  "speaker": "mateo",
+  "pose": {
+   "mateo": 3,
+   "valentina": 1
+  },
+  "bubble": "Tradition du club : samedi crêpes au Café Aurore ! Je commande toujours la même chose… tout."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe la phrase du café et qui la dit.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Expression",
+    "right_label": "Qui le dit",
+    "pairs": [
+     {
+      "left": "Une table pour quatre, s'il vous plaît.",
+      "right": "le client à la porte"
+     },
+     {
+      "left": "Voici la carte.",
+      "right": "le serveur, en souriant"
+     },
+     {
+      "left": "Je peux avoir des crêpes, s'il vous plaît ?",
+      "right": "le client affamé"
+     },
+     {
+      "left": "Et avec ça ?",
+      "right": "le serveur avec son carnet"
+     },
+     {
+      "left": "L'addition, s'il vous plaît.",
+      "right": "le client à la fin"
+     },
+     {
+      "left": "C'était délicieux !",
+      "right": "tout le monde à table"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis la commande polie.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis les meilleurs mots.",
+    "items": [
+     {
+      "sentence": "___ avoir un chocolat chaud, s'il vous plaît ?",
+      "options": [
+       "Peux-tu",
+       "Suis",
+       "Est-ce que"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Et avec ça ? » — « ___, c'est tout. »",
+      "options": [
+       "Non, merci",
+       "Oui, au revoir",
+       "Jamais"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Voici vos crêpes. » — « ___ ! »",
+      "options": [
+       "Merci",
+       "Tourne à gauche",
+       "C'est à moi"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu lis la ___ pour choisir ton plat.",
+      "options": [
+       "menu",
+       "carte",
+       "lettre"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "À la fin tu payes l'…",
+      "options": [
+       "addition",
+       "ballon",
+       "cloche"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute la commande au café. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u46-c.mp3",
+   "data": {
+    "voice_note": "Voces: Mateo (ordenando) y la mesera Rosa (voz adulta amable).",
+    "script": "Mateo : Bonjour ! Une table pour quatre, s'il vous plaît. À côté de la fenêtre ! … Mateo : Je peux avoir des crêpes au miel, s'il vous plaît ? … Mateo : Valentina veut une tartine au fromage et un chocolat chaud. … Mateo : Erik et Sofia veulent la coupe de fruits avec du yaourt — à partager. … Mateo : Et un peu d'eau pour Luna, s'il vous plaît. Elle attend dehors. … Mateo : Et avec ça ? Hmm… encore une crêpe. Pour des raisons scientifiques. … Mateo : L'addition ? Quatorze soles. On paye ensemble — règle du club ! … Mateo : Tout était délicieux. À samedi prochain !",
+    "questions": [
+     {
+      "q": "Ils veulent une table à côté de la …",
+      "answer": "fenêtre"
+     },
+     {
+      "q": "Mateo commande des crêpes au …",
+      "answer": "miel"
+     },
+     {
+      "q": "Valentina veut une tartine au …",
+      "answer": "fromage"
+     },
+     {
+      "q": "Erik et Sofía partagent la coupe de fruits avec du …",
+      "answer": "yaourt"
+     },
+     {
+      "q": "L'addition est de … soles.",
+      "answer": "quatorze"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis la meilleure réponse.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis la meilleure réponse.",
+    "items": [
+     {
+      "sentence": "« Qu'est-ce que vous voulez ? »",
+      "options": [
+       "Des crêpes, s'il vous plaît.",
+       "Jeudi.",
+       "C'est à Erik."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Tout va bien ? »",
+      "options": [
+       "Oui, délicieux, merci !",
+       "Tourne à droite.",
+       "Deux mètres."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Et avec ça ? »",
+      "options": [
+       "Un jus, s'il vous plaît.",
+       "Sous le lit.",
+       "Mardi dernier."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "La personne qui apporte ton plat est le …",
+      "options": [
+       "serveur",
+       "conducteur",
+       "dentiste"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Une nourriture qui a un goût merveilleux est …",
+      "options": [
+       "délicieux",
+       "dangereux",
+       "difficile"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Jeu de rôle au café : serveur et client, scène complète (la table, la carte, la commande, et avec ça ?, l'addition, au revoir). Puis échangez les rôles. La politesse rapporte des points !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Trouve les différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 11 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris la carte du café de tes rêves : 6 plats avec leurs prix, et un plat du jour."
+  }
+ ],
+ "scope": {
+  "grado": "G4",
+  "temaN": 4,
+  "tema": "Sport et santé",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues plus longs ; repérer une information précise à l'oral."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire des lieux, des objets, des événements passés ; jouer une situation simple."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et remettre en ordre des histoires courtes ; trouver une information dans un panneau ou une affiche."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un message de 30 à 40 mots ; paragraphes de classe de 60 à 100 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~1350 mots ; passé composé, pronoms relatifs, pour + infinitif, devoir."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

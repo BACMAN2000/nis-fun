@@ -1,0 +1,299 @@
+{
+ "id": "movers-fr-41",
+ "level": "movers",
+ "number": 41,
+ "title": "Dans la jungle",
+ "topic": "animaux sauvages",
+ "grammar": "les adjectifs + le présent",
+ "wordlist": [
+  "jungle",
+  "singe",
+  "serpent",
+  "tigre",
+  "crocodile",
+  "éléphant",
+  "dangereux",
+  "sauvage",
+  "cacher",
+  "grimper"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 5,
+  "skill": "colorier et écrire"
+ },
+ "characters": [
+  "erik",
+  "sofia"
+ ],
+ "scene": {
+  "speaker": "erik",
+  "pose": {
+   "erik": 5,
+   "sofia": 2
+  },
+  "bubble": "Soirée documentaire sur la jungle ! Sofia connaît tous les animaux — et j'ai apporté du pop-corn pour des raisons scientifiques."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Lis les phrases et écris les animaux de la jungle.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "SINGE",
+      "clue": "Il grimpe aux arbres et adore les bananes."
+     },
+     {
+      "word": "SERPENT",
+      "clue": "Long, sans pattes. Il fait sss !"
+     },
+     {
+      "word": "TIGRE",
+      "clue": "Un grand chat orange à rayures noires."
+     },
+     {
+      "word": "CROCODILE",
+      "clue": "Long, vert, avec de grandes dents. Il nage dans les rivières."
+     },
+     {
+      "word": "ELEPHANT",
+      "clue": "Le plus grand animal terrestre, avec un long nez."
+     },
+     {
+      "word": "JUNGLE",
+      "clue": "Une forêt chaude pleine d'animaux sauvages."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Associe l'animal et sa cachette.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Animal",
+    "right_label": "Où",
+    "pairs": [
+     {
+      "left": "le singe",
+      "right": "tout en haut des arbres"
+     },
+     {
+      "left": "le serpent",
+      "right": "sous les feuilles"
+     },
+     {
+      "left": "le crocodile",
+      "right": "dans la rivière brune"
+     },
+     {
+      "left": "le tigre",
+      "right": "dans les hautes herbes"
+     },
+     {
+      "left": "le perroquet",
+      "right": "parmi les branches vertes"
+     },
+     {
+      "left": "la grenouille",
+      "right": "sur une grande feuille mouillée"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute le documentaire. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u41-c.mp3",
+   "data": {
+    "voice_note": "Voces: Sofía (narradora de documental) y Erik (público con palomitas).",
+    "script": "Sofia : Bienvenue dans la jungle, l'endroit le plus bruyant de la Terre ! … Sofia : Les singes se réveillent en premier, à cinq heures du matin. … Erik : Comme mon petit frère ! … Sofia : Le tigre dort seize heures et chasse la nuit. … Sofia : Le crocodile peut attendre dans l'eau deux heures sans bouger. … Erik : Niveau de patience : maximum. … Sofia : Et la famille éléphant marche dix kilomètres par jour pour trouver de l'eau. … Sofia : La règle de la jungle : chacun a sa place, chacun a son rôle. … Erik : Magnifique ! Encore du pop-corn ?",
+    "questions": [
+     {
+      "q": "Les singes se réveillent à … heures du matin.",
+      "answer": "cinq"
+     },
+     {
+      "q": "Le tigre dort … heures.",
+      "answer": "seize"
+     },
+     {
+      "q": "Le crocodile peut attendre deux … sans bouger.",
+      "answer": "heures"
+     },
+     {
+      "q": "Les éléphants marchent dix … par jour.",
+      "answer": "kilomètres"
+     },
+     {
+      "q": "Ils marchent pour trouver de l'…",
+      "answer": "eau"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Un tigre est orange avec des … noires.",
+      "options": [
+       "rayures",
+       "étoiles",
+       "taches seulement"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un animal qui n'est pas un animal de compagnie est …",
+      "options": [
+       "sauvage",
+       "rangé",
+       "poli"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les crocodiles sont beaux mais …",
+      "options": [
+       "dangereux",
+       "serviable",
+       "calme"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les singes ___ aux arbres mieux que personne.",
+      "options": [
+       "grimper",
+       "cuisinier",
+       "compter"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Se ___, c'est aller là où personne ne peut te voir.",
+      "options": [
+       "cacher",
+       "sautiller",
+       "aider"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Guide de jungle : emmène ton camarade en promenade imaginaire dans la jungle. Montre et décris 4 animaux : « Regarde ! Un serpent se cache sous… » Chuchote — ne réveille pas le tigre !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Deux images, plein de différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Choisis 3 animaux de la jungle et écris 2 phrases sur chacun : où il vit, ce qu'il sait faire."
+  }
+ ],
+ "scope": {
+  "grado": "G4",
+  "temaN": 3,
+  "tema": "Animaux sauvages et nature",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues plus longs ; repérer une information précise à l'oral."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire des lieux, des objets, des événements passés ; jouer une situation simple."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et remettre en ordre des histoires courtes ; trouver une information dans un panneau ou une affiche."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un message de 30 à 40 mots ; paragraphes de classe de 60 à 100 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~1350 mots ; passé composé, pronoms relatifs, pour + infinitif, devoir."
+   }
+  ],
+  "vocabulario": [
+   "guépard",
+   "gorille",
+   "anaconda",
+   "toucan",
+   "ours polaire",
+   "ornithorynque"
+  ],
+  "gramatica": [
+   "Devoir / ne pas devoir (obligation et interdiction)"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "cheetah",
+    "gorilla",
+    "anaconda",
+    "toucan",
+    "polar bear",
+    "platypus"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "guépard",
+  "gorille",
+  "anaconda",
+  "toucan",
+  "ours polaire",
+  "ornithorynque"
+ ],
+ "lang": "fr"
+}

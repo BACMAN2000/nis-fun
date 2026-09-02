@@ -1,0 +1,682 @@
+{
+ "id": "flyers-fr-23",
+ "level": "flyers",
+ "number": 23,
+ "title": "Quelle drôle de planète !",
+ "topic": "espace",
+ "grammar": "Quel + adjectif + nom ! (l'exclamation)",
+ "wordlist": [
+  "planète",
+  "lune",
+  "étoile",
+  "fusée",
+  "vaisseau spatial",
+  "extraterrestre",
+  "Terre",
+  "astronaute",
+  "espace",
+  "rond"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 5,
+  "skill": "finir l'histoire"
+ },
+ "characters": [
+  "oliver",
+  "maya"
+ ],
+ "scene": {
+  "speaker": "oliver",
+  "pose": {
+   "oliver": 5,
+   "maya": 2
+  },
+  "bubble": "J'ai rêvé qu'on atterrissait sur une planète violette où les rivières étaient en limonade ! Quel rêve bizarre !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Lis les phrases et écris les mots de l'espace.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "PLANETE",
+      "clue": "La Terre en est une. Mars en est une autre."
+     },
+     {
+      "word": "FUSEE",
+      "clue": "Elle monte dans l'espace avec du feu en dessous."
+     },
+     {
+      "word": "ASTRONAUTE",
+      "clue": "Une personne qui voyage dans l'espace."
+     },
+     {
+      "word": "ETOILE",
+      "clue": "Une petite lumière dans le ciel de la nuit. Le Soleil en est une !"
+     },
+     {
+      "word": "EXTRATERRESTRE",
+      "clue": "Quelqu'un d'une autre planète — dans les histoires !"
+     },
+     {
+      "word": "LUNE",
+      "clue": "Elle tourne autour de la Terre. Tu la vois la nuit."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Associe les deux moitiés des exclamations.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Quel…",
+    "right_label": "…!",
+    "pairs": [
+     {
+      "left": "Quelle drôle de",
+      "right": "planète !"
+     },
+     {
+      "left": "Quelle",
+      "right": "étoile brillante !"
+     },
+     {
+      "left": "Quel énorme",
+      "right": "vaisseau spatial !"
+     },
+     {
+      "left": "Quels",
+      "right": "extraterrestres sympathiques !"
+     },
+     {
+      "left": "Quelle rapide",
+      "right": "fusée !"
+     },
+     {
+      "left": "Quelle belle",
+      "right": "vue de la Terre !"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute le rêve spatial d'Oliver. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u23-c.mp3",
+   "data": {
+    "voice_note": "Voces: Oliver (contando el sueño) y Maya (tomando notas científicas).",
+    "script": "Oliver : Dans mon rêve, notre vaisseau était jaune, comme une banane ! … Maya : Un vaisseau banane. C'est noté. Où avez-vous atterri ? … Oliver : Sur une planète violette avec trois lunes dans le ciel. … Maya : Trois lunes ! Et les extraterrestres ? … Oliver : Ils étaient petits et verts, avec quatre oreilles chacun. Très sympathiques ! … Maya : Qu'est-ce qu'ils t'ont offert ? … Oliver : Un concert ! Ils jouaient de la musique sur des tambours en verre. … Oliver : Et les rivières, Maya… les rivières étaient en limonade. J'en ai bu ! … Maya : Quelle planète bizarre et délicieuse !",
+    "questions": [
+     {
+      "q": "Le vaisseau était jaune comme une …",
+      "answer": "banane"
+     },
+     {
+      "q": "La planète violette avait trois …",
+      "answer": "lunes"
+     },
+     {
+      "q": "Les extraterrestres avaient quatre … chacun.",
+      "answer": "oreilles"
+     },
+     {
+      "q": "Les extraterrestres jouaient sur des … en verre.",
+      "answer": "tambours"
+     },
+     {
+      "q": "Les rivières étaient en …",
+      "answer": "limonade"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Nous vivons sur la planète …",
+      "options": [
+       "Lune",
+       "Terre",
+       "Étoile"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "« ___ drôle de planète ! »",
+      "options": [
+       "Quoi",
+       "Comment",
+       "Quel"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un ___ voyage dans un vaisseau spatial.",
+      "options": [
+       "extraterrestre",
+       "astronaute",
+       "ingénieur"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "La Terre est ___, comme une balle.",
+      "options": [
+       "rond",
+       "carré",
+       "plat"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "La nuit le ciel est plein d'…",
+      "options": [
+       "fusées",
+       "étoiles",
+       "inondations"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Invente une planète avec ton camarade : le nom, la couleur, en quoi sont les rivières, à quoi ressemblent les extraterrestres. Présentez-la avec au moins deux exclamations : « Quelle … planète ! »"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Regarde A et B. Qu'est-ce qui change ?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  },
+  {
+   "type": "picture_mc",
+   "title": "Écoute et coche la bonne case.",
+   "instructions": "Écoute chaque question et clique sur l'image qui répond.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "La nature"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et cocher la bonne image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 4
+    }
+   },
+   "audio": "flyers/u23-h.mp3",
+   "data": {
+    "questions": [
+     {
+      "q": "Quelle image Oliver regarde-t-il ?",
+      "answer": "terre",
+      "options": [
+       {
+        "word": "terre",
+        "propio": false
+       },
+       {
+        "word": "stade",
+        "propio": true
+       },
+       {
+        "word": "théâtre",
+        "propio": true
+       }
+      ],
+      "script": "Quelle image Oliver regarde-t-il ? … Oliver : Je regarde la Terre."
+     },
+     {
+      "q": "Qu'est-ce que Maya voit sur l'image ?",
+      "answer": "étoile",
+      "options": [
+       {
+        "word": "étoile",
+        "propio": false
+       },
+       {
+        "word": "famille",
+        "propio": true
+       },
+       {
+        "word": "pont",
+        "propio": true
+       }
+      ],
+      "script": "Qu'est-ce que Maya voit sur l'image ? … Maya : Je vois l'étoile."
+     },
+     {
+      "q": "Que montre Lia du doigt ?",
+      "answer": "planète",
+      "options": [
+       {
+        "word": "gants",
+        "propio": true
+       },
+       {
+        "word": "uniforme",
+        "propio": true
+       },
+       {
+        "word": "planète",
+        "propio": false
+       }
+      ],
+      "script": "Que montre Lia du doigt ? … Lia : Je montre la planète."
+     },
+     {
+      "q": "De quoi Bruno parle-t-il ?",
+      "answer": "espace",
+      "options": [
+       {
+        "word": "espace",
+        "propio": false
+       },
+       {
+        "word": "ceinture",
+        "propio": true
+       },
+       {
+        "word": "chapeau de soleil",
+        "propio": true
+       }
+      ],
+      "script": "De quoi Bruno parle-t-il ? … Bruno : Je parle de l'espace."
+     },
+     {
+      "q": "Quel mot Diego apprend-il aujourd'hui ?",
+      "answer": "astronaute",
+      "options": [
+       {
+        "word": "fête foraine",
+        "propio": true
+       },
+       {
+        "word": "château",
+        "propio": true
+       },
+       {
+        "word": "astronaute",
+        "propio": false
+       }
+      ],
+      "script": "Quel mot Diego apprend-il aujourd'hui ? … Diego : Aujourd'hui j'apprends le mot astronaute."
+     }
+    ],
+    "script": "Écoute et coche la bonne case. Il y a un exemple. … Quelle image Oliver regarde-t-il ? … Oliver : Je regarde la Terre. … Qu'est-ce que Maya voit sur l'image ? … Maya : Je vois l'étoile. … Que montre Lia du doigt ? … Lia : Je montre la planète. … De quoi Bruno parle-t-il ? … Bruno : Je parle de l'espace. … Quel mot Diego apprend-il aujourd'hui ? … Diego : Aujourd'hui j'apprends le mot astronaute.",
+    "voice_note": "Una voz por pregunta; la respuesta se dice entera."
+   },
+   "code": "H"
+  },
+  {
+   "type": "match_pictures",
+   "title": "Écoute et associe chaque explorateur à une image.",
+   "instructions": "Écoute. Puis choisis la lettre de l'image pour chaque personne. Attention : certaines images sont en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "La nature"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et associer chaque personne à une image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 3
+    }
+   },
+   "audio": "flyers/u23-i.mp3",
+   "data": {
+    "people": [
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "pose": 8
+     },
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "pose": 8
+     },
+     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "pose": 3
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "pose": 3
+     },
+     {
+      "slug": "samu",
+      "name": "Samu",
+      "pose": 3
+     }
+    ],
+    "pictures": [
+     {
+      "word": "vaisseau spatial",
+      "propio": false,
+      "id": "A"
+     },
+     {
+      "word": "terre",
+      "propio": false,
+      "id": "B"
+     },
+     {
+      "word": "pharmacie",
+      "propio": true,
+      "id": "C"
+     },
+     {
+      "word": "théâtre",
+      "propio": true,
+      "id": "D"
+     },
+     {
+      "word": "extraterrestre",
+      "propio": false,
+      "id": "E"
+     },
+     {
+      "word": "espace",
+      "propio": false,
+      "id": "F"
+     },
+     {
+      "word": "astronaute",
+      "propio": false,
+      "id": "G"
+     },
+     {
+      "word": "fête foraine",
+      "propio": true,
+      "id": "H"
+     }
+    ],
+    "answers": {
+     "Oliver": "B",
+     "Maya": "E",
+     "Bruno": "G",
+     "Iris": "A",
+     "Samu": "F"
+    },
+    "script": "Écoute et associe chaque personne à une image. Il y a un exemple. … Diego : Oliver, quelle image as-tu choisie ? … Oliver : J'ai choisi la Terre. … Diego : Maya, quelle image as-tu choisie ? … Maya : J'ai choisi l'extraterrestre. … Diego : Bruno, quelle image as-tu choisie ? … Bruno : J'ai choisi l'astronaute. … Diego : Iris, quelle image as-tu choisie ? … Iris : J'ai choisi le vaisseau spatial. … Diego : Samu, quelle image as-tu choisie ? … Samu : J'ai choisi l'espace.",
+    "voice_note": "Diego pregunta; cada explorador responde con su objeto."
+   },
+   "code": "I"
+  },
+  {
+   "type": "picture_story",
+   "title": "Regarde les trois images et écris l'histoire.",
+   "instructions": "Regarde les images. Écris l'histoire en 20-25 mots. Aide-toi des mots sous chaque image.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "La nature"
+    },
+    "destreza": "Writing",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots.",
+    "clase": "Type examen : histoire en images de 20 à 25 mots (production écrite)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "garden",
+      "people": [
+       {
+        "slug": "oliver",
+        "pose": 4
+       }
+      ],
+      "word": "planète",
+      "hint": "Oliver / apporte / une planète",
+      "model": "Oliver apporte une planète au jardin de l'école."
+     },
+     {
+      "n": 2,
+      "scene": "labyrinth",
+      "people": [
+       {
+        "slug": "oliver",
+        "pose": 8
+       },
+       {
+        "slug": "maya",
+        "pose": 1
+       }
+      ],
+      "word": "terre",
+      "hint": "Maya / apporter / une terre",
+      "model": "Ensuite Maya apporte une terre."
+     },
+     {
+      "n": 3,
+      "scene": "mirador",
+      "people": [
+       {
+        "slug": "maya",
+        "pose": 10
+       },
+       {
+        "slug": "oliver",
+        "pose": 10
+       }
+      ],
+      "word": "vaisseau spatial",
+      "hint": "maintenant / un vaisseau spatial / content",
+      "model": "Maintenant ils ont aussi un vaisseau spatial, et tous les deux sont contents."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Oliver apporte une planète au jardin de l'école. Ensuite Maya apporte une terre. Maintenant ils ont aussi un vaisseau spatial, et tous les deux sont contents.",
+    "words": [
+     "planète",
+     "terre",
+     "vaisseau spatial"
+    ],
+    "support": {
+     "grammar": "Quel + adjectif + nom ! (l'exclamation)",
+     "words": [
+      "planète",
+      "lune",
+      "étoile",
+      "fusée",
+      "vaisseau spatial",
+      "extraterrestre"
+     ]
+    }
+   },
+   "code": "J"
+  },
+  {
+   "type": "label_people",
+   "title": "Écoute et écris les prénoms.",
+   "instructions": "Regarde l'image. Écoute et écris le prénom sous chaque personne. Attention : il y a trois prénoms en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 3,
+     "nombre": "La nature"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et écrire le prénom de chaque personne de l'image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u23-g.mp3",
+   "data": {
+    "scene": "labyrinth",
+    "place": "le labyrinthe",
+    "people": [
+     {
+      "slug": "oliver",
+      "name": "Oliver",
+      "clue": "le garçon aux cheveux roux et au t-shirt jaune",
+      "action": "chante",
+      "pose": 7
+     },
+     {
+      "slug": "maya",
+      "name": "Maya",
+      "clue": "la fille au t-shirt vert avec une loupe",
+      "action": "observe quelque chose de tout petit",
+      "pose": 7
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "clue": "le garçon au t-shirt rouge avec un microphone",
+      "action": "pose des questions avec son microphone",
+      "pose": 7
+     },
+     {
+      "slug": "lia",
+      "name": "Lia",
+      "clue": "la fille aux nattes noires et au t-shirt violet",
+      "action": "saute à la corde",
+      "pose": 7
+     },
+     {
+      "slug": "aiko",
+      "name": "Aiko",
+      "clue": "la fille aux longs cheveux noirs raides et au t-shirt orange",
+      "action": "lit un livre",
+      "pose": 7
+     }
+    ],
+    "names": [
+     "Aiko",
+     "Bruno",
+     "Diego",
+     "Iris",
+     "Lia",
+     "Maya",
+     "Oliver",
+     "Tino"
+    ],
+    "script": "Regarde l'image. Écoute et écris les prénoms. Il y a un exemple. … Diego : Qui est-ce dans le labyrinthe ? Le garçon aux cheveux roux et au t-shirt jaune. … Maya : C'est Oliver. Oliver chante. … Diego : Et qui est la fille au t-shirt vert avec une loupe ? … Maya : C'est Maya. Regarde, Maya observe quelque chose de tout petit. … Diego : Et qui est le garçon au t-shirt rouge avec un microphone ? … Maya : C'est Diego. Regarde, Diego pose des questions avec son microphone. … Diego : Et qui est la fille aux nattes noires et au t-shirt violet ? … Maya : C'est Lia. Regarde, Lia saute à la corde. … Diego : Et qui est la fille aux longs cheveux noirs raides et au t-shirt orange ? … Maya : C'est Aiko. Regarde, Aiko lit un livre.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Dessine ta planète inventée et écris 5 phrases dessus. Utilise une exclamation avec Quel(le) …!"
+  }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 3,
+  "tema": "La nature",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Raconter des histoires au passé, au présent et au futur ; exprimer ses préférences avec des raisons."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et comprendre des histoires courtes (80 à 250 mots) ; trouver l'idée principale et les détails."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~2500 mots ; passé composé, questions négatives, si + présent, futur proche."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

@@ -1,0 +1,316 @@
+{
+ "id": "movers-fr-06",
+ "level": "movers",
+ "number": 6,
+ "title": "La nourriture que j'adore",
+ "topic": "nourriture",
+ "grammar": "aimer / ne pas aimer + nom",
+ "wordlist": [
+  "pâtes",
+  "riz",
+  "soupe",
+  "salade",
+  "fromage",
+  "saucisse",
+  "milk-shake",
+  "légumes",
+  "viande",
+  "savoureux"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 3,
+  "skill": "associations"
+ },
+ "characters": [
+  "erik",
+  "mateo"
+ ],
+ "scene": {
+  "speaker": "erik",
+  "pose": {
+   "erik": 3,
+   "mateo": 1
+  },
+  "bubble": "Sondage du club : pâtes ou riz ? Soupe ou salade ? Les résultats seront très scientifiques… et très bons !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe la nourriture et sa description.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Nourriture",
+    "right_label": "Description",
+    "pairs": [
+     {
+      "left": "pâtes",
+      "right": "longues et jaunes, venues d'Italie"
+     },
+     {
+      "left": "soupe",
+      "right": "chaude et liquide, parfaite en hiver"
+     },
+     {
+      "left": "salade",
+      "right": "des feuilles vertes et des tomates"
+     },
+     {
+      "left": "fromage",
+      "right": "jaune ou blanc, fait avec du lait"
+     },
+     {
+      "left": "un milk-shake",
+      "right": "froid, sucré et avec une paille"
+     },
+     {
+      "left": "une saucisse",
+      "right": "de la viande longue, bonne avec des œufs"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis aime ou aimes.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "J'___ les sandwichs au fromage.",
+      "options": [
+       "aimer",
+       "aime",
+       "en train d'aimer"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Mateo ___ les milk-shakes au chocolat.",
+      "options": [
+       "aimer",
+       "aime",
+       "en train d'aimer"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Luna n'___ pas les légumes.",
+      "options": [
+       "aimer",
+       "aime",
+       "aimé"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___ tu la soupe de tomate ?",
+      "options": [
+       "Est-ce que",
+       "Est-ce que",
+       "Est"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "On n'___ pas la soupe froide. Beurk !",
+      "options": [
+       "ne... pas",
+       "ne... pas",
+       "ne sont pas"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute le sondage nourriture. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u06-c.mp3",
+   "data": {
+    "voice_note": "Voces: Erik (encuestador) y Mateo (primer encuestado).",
+    "script": "Erik : Sondage nourriture, question un ! Mateo, pâtes ou riz ? … Mateo : Des pâtes ! Avec plein de fromage dessus. … Erik : Valentina dit de la soupe, parce que sa mamie fait la meilleure soupe de poulet. … Erik : Sofia aime la salade avec des œufs et des olives. … Erik : Et moi j'aime les saucisses avec de la purée. De la nourriture d'ingénieur ! … Mateo : Et Luna ? … Erik : Luna a voté avec sa queue : elle aime la viande. Quelle surprise ! … Erik : Résultat final : tout est bon quand le Club mange ensemble !",
+    "questions": [
+     {
+      "q": "Mateo aime les pâtes avec plein de … dessus.",
+      "answer": "fromage"
+     },
+     {
+      "q": "La mamie de Valentina fait la meilleure soupe de …",
+      "answer": "soupe"
+     },
+     {
+      "q": "Sofía aime la salade avec des œufs et des …",
+      "answer": "olives"
+     },
+     {
+      "q": "Erik aime les saucisses avec de la …",
+      "answer": "pomme de terre"
+     },
+     {
+      "q": "Luna a voté avec sa …",
+      "answer": "queue"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Les carottes et les petits pois sont des …",
+      "options": [
+       "légumes",
+       "milk-shakes",
+       "saucisses"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Une nourriture très bonne est …",
+      "options": [
+       "savoureux",
+       "sale",
+       "bruyant"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "La soupe est en général …",
+      "options": [
+       "chaud",
+       "carré",
+       "fort"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Le fromage est fait avec du …",
+      "options": [
+       "lait",
+       "riz",
+       "eau"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Quel est ton ___ préféré ? » — « Les pâtes ! »",
+      "options": [
+       "nourriture",
+       "pied",
+       "inondation"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Fais le sondage nourriture avec ton camarade : 4 questions (Tu aimes… ?). Note les réponses et raconte : « Ana aime les pâtes mais elle n'aime pas la soupe. »"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Trouve les différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 11 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris 3 aliments que tu aimes et 2 que tu n'aimes pas, avec une raison : J'aime le riz parce que…"
+  }
+ ],
+ "scope": {
+  "grado": "G4",
+  "temaN": 2,
+  "tema": "L'école et les apprentissages",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues plus longs ; repérer une information précise à l'oral."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire des lieux, des objets, des événements passés ; jouer une situation simple."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et remettre en ordre des histoires courtes ; trouver une information dans un panneau ou une affiche."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un message de 30 à 40 mots ; paragraphes de classe de 60 à 100 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~1350 mots ; passé composé, pronoms relatifs, pour + infinitif, devoir."
+   }
+  ],
+  "vocabulario": [
+   "géographie",
+   "biologie",
+   "chimie",
+   "théâtre"
+  ],
+  "gramatica": [
+   "Le comparatif et le superlatif (toutes les formes)"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "geography",
+    "biology",
+    "chemistry",
+    "drama"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "géographie",
+  "biologie",
+  "chimie",
+  "théâtre"
+ ],
+ "lang": "fr"
+}

@@ -1,0 +1,328 @@
+{
+ "id": "movers-fr-17",
+ "level": "movers",
+ "number": 17,
+ "title": "Le pique-nique",
+ "topic": "à manger et à boire",
+ "grammar": "Tu veux… ? (proposer)",
+ "wordlist": [
+  "sandwich",
+  "jus",
+  "eau",
+  "biscuits",
+  "pomme",
+  "banane",
+  "gâteau",
+  "bouteille",
+  "couverture",
+  "affamé"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 1,
+  "skill": "identifier les objets"
+ },
+ "characters": [
+  "mateo",
+  "valentina"
+ ],
+ "scene": {
+  "speaker": "mateo",
+  "pose": {
+   "mateo": 8,
+   "valentina": 1
+  },
+  "bubble": "Jour de pique-nique ! Je porte les biscuits… enfin, la plupart des biscuits. Certains sont tombés dans ma bouche."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe l'objet du pique-nique et son usage.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "La chose",
+    "right_label": "Utilise",
+    "pairs": [
+     {
+      "left": "la couverture",
+      "right": "tu t'assois dessus"
+     },
+     {
+      "left": "la bouteille",
+      "right": "elle garde le jus dedans"
+     },
+     {
+      "left": "les sandwichs",
+      "right": "le plat principal, dans une boîte"
+     },
+     {
+      "left": "les biscuits",
+      "right": "sucrés, ronds et croquants"
+     },
+     {
+      "left": "les pommes",
+      "right": "bonnes pour la santé et faciles à emporter"
+     },
+     {
+      "left": "le gâteau",
+      "right": "la grande surprise sucrée de la fin"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis les mots polis.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque proposition ou réponse.",
+    "items": [
+     {
+      "sentence": "___ tu un sandwich ?",
+      "options": [
+       "Veux",
+       "Est-ce que",
+       "Sont"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Tu veux du jus ? » — « Oui, ___. »",
+      "options": [
+       "s'il te plaît",
+       "ici",
+       "jus"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Encore du gâteau ? » — « Non, ___. Je n'ai plus faim ! »",
+      "options": [
+       "merci",
+       "s'il te plaît",
+       "pardon"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "J'ai ___ — on mange quand ?",
+      "options": [
+       "affamé",
+       "fâché",
+       "lourd"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu peux ___ les biscuits, s'il te plaît ?",
+      "options": [
+       "passer",
+       "donner un coup de pied",
+       "laver"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute au pique-nique. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u17-c.mp3",
+   "data": {
+    "voice_note": "Voces: Valentina (repartiendo) y Mateo (con hambre).",
+    "script": "Valentina : L'heure du pique-nique ! La couverture va sous le grand arbre. … Mateo : J'ai tellement faim ! Qu'est-ce qu'on a ? … Valentina : Dix sandwichs : fromage, poulet et un spécial à la banane. … Mateo : Un sandwich à la banane ? Celui-là est pour moi ! … Valentina : Tu veux du jus de pomme ou de l'eau ? … Mateo : Du jus, s'il te plaît. Dans le gobelet bleu ! … Valentina : Et comme dessert, le gâteau au citron de mamie. … Mateo : Attends… où sont les biscuits ? … Valentina : Mateo ! Il n'en reste que trois ! … Mateo : Le paquet était ouvert ! C'était un accident !",
+    "questions": [
+     {
+      "q": "La couverture va sous le grand …",
+      "answer": "arbre"
+     },
+     {
+      "q": "Il y a … sandwichs.",
+      "answer": "dix"
+     },
+     {
+      "q": "Le sandwich spécial est à la …",
+      "answer": "banane"
+     },
+     {
+      "q": "Mateo veut du jus dans le gobelet …",
+      "answer": "bleu"
+     },
+     {
+      "q": "Il ne reste que … biscuits !",
+      "answer": "trois"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Le jus arrive dans une …",
+      "options": [
+       "bouteille",
+       "couverture",
+       "panier"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un fruit jaune que les singes adorent est une …",
+      "options": [
+       "banane",
+       "biscuit",
+       "bouteille"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Quand tu as besoin de manger, tu as …",
+      "options": [
+       "affamé",
+       "endormi",
+       "bruyant"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Du pain avec du fromage dedans est un …",
+      "options": [
+       "sandwich",
+       "salade",
+       "soupe"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Tu veux de l'eau ? » — « Oui, ___. »",
+      "options": [
+       "s'il te plaît",
+       "salut",
+       "pardon"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Propositions de pique-nique : l'élève A propose 4 aliments (Tu veux… ?), l'élève B accepte ou refuse poliment. Puis on échange. Point bonus pour le « Non, merci » le plus poli !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Deux images, plein de différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 11 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Prépare un pique-nique pour 4 personnes : écris la liste (6 choses) et 2 propositions avec Tu veux… ?"
+  }
+ ],
+ "scope": {
+  "grado": "G4",
+  "temaN": 6,
+  "tema": "Mon avenir",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues plus longs ; repérer une information précise à l'oral."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire des lieux, des objets, des événements passés ; jouer une situation simple."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et remettre en ordre des histoires courtes ; trouver une information dans un panneau ou une affiche."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un message de 30 à 40 mots ; paragraphes de classe de 60 à 100 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~1350 mots ; passé composé, pronoms relatifs, pour + infinitif, devoir."
+   }
+  ],
+  "vocabulario": [
+   "ingénieur",
+   "scientifique",
+   "artiste",
+   "athlète",
+   "entrepreneur",
+   "programmeur"
+  ],
+  "gramatica": [
+   "Le futur proche : les projets"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "engineer",
+    "scientist",
+    "artist",
+    "athlete",
+    "entrepreneur",
+    "programmer"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "ingénieur",
+  "scientifique",
+  "artiste",
+  "athlète",
+  "entrepreneur",
+  "programmeur",
+  "Je veux être",
+  "J'aimerais",
+  "les projets",
+  "Je vais étudier",
+  "l'année prochaine",
+  "quand je serai grand"
+ ],
+ "lang": "fr"
+}

@@ -34,7 +34,10 @@ CLAVES_TEXTO = {"title", "clue", "prompt", "sentence", "text", "instructions",
                 # produccion, lo que hace cada persona de la lamina, y las dos
                 # lineas del KPI que ve el profesor
                 "model", "action", "puede", "clase", "place", "extra",
-                "grammar", "support", "topic", "note"}
+                "grammar", "support", "topic", "note",
+                # el nombre del tema del Scope & Sequence: solo existe bajo
+                # activities[].kpi.tema y el alumno lo ve en la chapa
+                "nombre"}
 
 
 def textos_de(o, ruta="", dentro=False):

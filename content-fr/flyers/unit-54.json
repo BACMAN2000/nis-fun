@@ -1,0 +1,468 @@
+{
+ "id": "flyers-fr-54",
+ "level": "flyers",
+ "number": 54,
+ "title": "Jour d'examen : lecture et écriture",
+ "topic": "entraînement à l'examen",
+ "grammar": "les stratégies de l'écrit",
+ "wordlist": [
+  "texte",
+  "titre",
+  "paragraphe",
+  "souligner",
+  "recopier",
+  "majuscule",
+  "point",
+  "nombre de mots",
+  "feuille de réponses",
+  "heure"
+ ],
+ "exam_focus": {
+  "paper": "Lecture et écriture",
+  "part": 7,
+  "skill": "stratégie générale"
+ },
+ "characters": [
+  "ingrid",
+  "diego"
+ ],
+ "scene": {
+  "speaker": "ingrid",
+  "pose": {
+   "ingrid": 2,
+   "diego": 6
+  },
+  "bubble": "Lecture et écriture : 40 minutes, 7 parties. La règle d'or : recopie les mots EXACTEMENT comme ils apparaissent !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe le mot de l'écrit et son sens.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Mot",
+    "right_label": "Sens",
+    "pairs": [
+     {
+      "left": "un titre",
+      "right": "le nom en haut d'un texte"
+     },
+     {
+      "left": "un paragraphe",
+      "right": "un groupe de phrases ensemble"
+     },
+     {
+      "left": "une majuscule",
+      "right": "A, B, C — les grandes lettres pour les noms"
+     },
+     {
+      "left": "un point",
+      "right": "le point à la fin d'une phrase"
+     },
+     {
+      "left": "souligner",
+      "right": "tracer un trait sous un mot"
+     },
+     {
+      "left": "recopier",
+      "right": "écrire exactement pareil"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis la meilleure stratégie d'examen.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Qu'est-ce qu'il faut faire ?",
+    "items": [
+     {
+      "sentence": "La réponse dans le texte est « un vieux château ». Tu écris…",
+      "options": [
+       "un vieux château",
+       "un château vieux",
+       "un vieu chateau"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu ne connais pas un mot du texte. Tu dois…",
+      "options": [
+       "le deviner grâce aux autres mots",
+       "arrêter de lire",
+       "inventer une nouvelle question"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Dans la partie de l'histoire, les noms commencent toujours par…",
+      "options": [
+       "une majuscule",
+       "un point",
+       "un chiffre"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "La consigne dit « écris UN mot ». Tu écris…",
+      "options": [
+       "exactement un mot",
+       "deux, pour être sûr",
+       "une phrase entière"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Il te reste 5 minutes. Tu dois…",
+      "options": [
+       "vérifier tes réponses et compléter les trous",
+       "commencer à dessiner",
+       "partir plus tôt"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute le matin du jour d'examen. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "flyers/u54-c.mp3",
+   "data": {
+    "voice_note": "Voces: Ingrid (repasando el plan) y Diego (nervioso pero listo).",
+    "script": "Ingrid : Programme du jour d'examen ! Réveil à sept heures — pas plus tard. … Diego : Réveil réglé. Deux réveils, comme toujours ! … Ingrid : Bon petit-déjeuner : des œufs, du pain et des fruits. Le cerveau a besoin de carburant. … Ingrid : On arrive à l'école à huit heures et demie, quarante minutes en avance. … Diego : J'apporte trois crayons bien taillés et une gomme. … Ingrid : À l'examen : lis les consignes deux fois, réponds à tout, vérifie l'orthographe. … Diego : Et après l'examen ? … Ingrid : Après l'examen… une glace avec toute l'équipe. Ordre du capitaine ! … Diego : C'est la meilleure partie du programme !",
+    "questions": [
+     {
+      "q": "Réveil à … — pas plus tard.",
+      "answer": "sept"
+     },
+     {
+      "q": "Petit-déjeuner : des œufs, du pain et des …",
+      "answer": "fruit"
+     },
+     {
+      "q": "Ils arrivent à huit heures et demie, … minutes en avance.",
+      "answer": "quarante"
+     },
+     {
+      "q": "Diego apporte trois … bien taillés.",
+      "answer": "crayons"
+     },
+     {
+      "q": "Après l'examen : une … avec l'équipe.",
+      "answer": "glace"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Une phrase se termine par un …",
+      "options": [
+       "point",
+       "voyelle",
+       "titre"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Londres, Kili et Pérou commencent par une ___.",
+      "options": [
+       "majuscule",
+       "petit",
+       "muet"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Écris tes réponses sur la … de réponses.",
+      "options": [
+       "feuille",
+       "étagère",
+       "navire"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Un long texte est divisé en …",
+      "options": [
+       "paragraphes",
+       "crayons",
+       "prix"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "___ les mots importants de la question pour te concentrer.",
+      "options": [
+       "Souligne",
+       "Efface",
+       "Chante"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Explique à ton camarade les 3 conseils d'examen les plus utiles des unités 53-54, en français. Il en ajoute un. Vous voilà prêts tous les deux !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Regarde A et B. Qu'est-ce qui change ?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 11 différences et parles-en avec ton camarade.",
+   "data": {}
+  },
+  {
+   "type": "picture_story",
+   "title": "Regarde les trois images et écris l'histoire.",
+   "instructions": "Regarde les images. Écris l'histoire en 20-25 mots. Aide-toi des mots sous chaque image.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 6,
+     "nombre": "Aventures et expériences"
+    },
+    "destreza": "Writing",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots.",
+    "clase": "Type examen : histoire en images de 20 à 25 mots (production écrite)",
+    "examen_parte": {
+     "paper": "Reading & Writing",
+     "part": 7
+    }
+   },
+   "data": {
+    "frames": [
+     {
+      "n": 1,
+      "scene": "lighthouse-kitchen",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 4
+       }
+      ],
+      "word": "",
+      "hint": "Ingrid / dans la cuisine du phare",
+      "model": "Un matin Ingrid est dans la cuisine du phare."
+     },
+     {
+      "n": 2,
+      "scene": "labyrinth",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 3
+       },
+       {
+        "slug": "diego",
+        "pose": 3
+       }
+      ],
+      "word": "",
+      "hint": "Ingrid / rencontrer / Diego",
+      "model": "Ensuite Ingrid rencontre Diego au labyrinthe."
+     },
+     {
+      "n": 3,
+      "scene": "mirador",
+      "people": [
+       {
+        "slug": "ingrid",
+        "pose": 10
+       },
+       {
+        "slug": "diego",
+        "pose": 10
+       }
+      ],
+      "word": "",
+      "hint": "au belvédère / content",
+      "model": "Au belvédère ils sont très contents ensemble."
+     }
+    ],
+    "min_words": 20,
+    "max_words": 25,
+    "model": "Un matin Ingrid est dans la cuisine du phare. Ensuite Ingrid rencontre Diego au labyrinthe. Au belvédère ils sont très contents ensemble.",
+    "words": [],
+    "support": {
+     "grammar": "les stratégies de l'écrit",
+     "words": [
+      "texte",
+      "titre",
+      "paragraphe",
+      "souligner",
+      "recopier",
+      "majuscule"
+     ]
+    }
+   },
+   "code": "H"
+  },
+  {
+   "type": "label_people",
+   "title": "Écoute et écris les prénoms.",
+   "instructions": "Regarde l'image. Écoute et écris le prénom sous chaque personne. Attention : il y a trois prénoms en trop.",
+   "outputs": [
+    "digital"
+   ],
+   "kpi": {
+    "grado": "G5",
+    "cefr": "A2",
+    "examen": "Cambridge Flyers",
+    "tema": {
+     "n": 6,
+     "nombre": "Aventures et expériences"
+    },
+    "destreza": "Listening",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation.",
+    "clase": "Type examen : écouter et écrire le prénom de chaque personne de l'image",
+    "examen_parte": {
+     "paper": "Listening",
+     "part": 1
+    }
+   },
+   "audio": "flyers/u54-g.mp3",
+   "data": {
+    "scene": "funfair",
+    "place": "la fête foraine",
+    "people": [
+     {
+      "slug": "ingrid",
+      "name": "Ingrid",
+      "clue": "la fille aux cheveux blonds et à la veste bleu foncé",
+      "action": "lit le programme de la journée",
+      "pose": 7
+     },
+     {
+      "slug": "diego",
+      "name": "Diego",
+      "clue": "le garçon au t-shirt rouge avec un microphone",
+      "action": "pose des questions avec son microphone",
+      "pose": 7
+     },
+     {
+      "slug": "tino",
+      "name": "Tino",
+      "clue": "le garçon aux cheveux très courts et au t-shirt blanc et vert",
+      "action": "joue au hockey",
+      "pose": 7
+     },
+     {
+      "slug": "iris",
+      "name": "Iris",
+      "clue": "la fille à la queue-de-cheval rousse et aux taches de rousseur",
+      "action": "dessine à la craie par terre",
+      "pose": 7
+     },
+     {
+      "slug": "vega",
+      "name": "Mr Vega",
+      "clue": "l'homme à la chemise bleue",
+      "action": "montre le chemin du centre sportif",
+      "figura": "father"
+     }
+    ],
+    "names": [
+     "Bruno",
+     "Diego",
+     "Ingrid",
+     "Iris",
+     "Lia",
+     "Mr Vega",
+     "Samu",
+     "Tino"
+    ],
+    "script": "Regarde l'image. Écoute et écris les prénoms. Il y a un exemple. … Diego : Qui est-ce à la fête foraine ? La fille aux cheveux blonds et à la veste bleu foncé. … Maya : C'est Ingrid. Ingrid lit le programme de la journée. … Diego : Et qui est le garçon au t-shirt rouge avec un microphone ? … Maya : C'est Diego. Regarde, Diego pose des questions avec son microphone. … Diego : Et qui est le garçon aux cheveux très courts et au t-shirt blanc et vert ? … Maya : C'est Tino. Regarde, Tino joue au hockey. … Diego : Et qui est la fille à la queue-de-cheval rousse et aux taches de rousseur ? … Maya : C'est Iris. Regarde, Iris dessine à la craie par terre. … Diego : Et qui est l'homme à la chemise bleue ? … Maya : C'est M. Vega. Regarde, M. Vega montre le chemin du centre sportif.",
+    "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
+   },
+   "code": "G"
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Fais ta check-list du jour d'examen en français (6 choses) : crayons, eau, arriver en avance… Dessine une case à cocher pour chacune."
+  }
+ ],
+ "scope": {
+  "grado": "G5",
+  "temaN": 6,
+  "tema": "Aventures et expériences",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues et des histoires courtes ; deviner l'humeur d'après l'intonation."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Raconter des histoires au passé, au présent et au futur ; exprimer ses préférences avec des raisons."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et comprendre des histoires courtes (80 à 250 mots) ; trouver l'idée principale et les détails."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire une histoire en images de 20 à 25 mots ; textes de classe de 100 à 150 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~2500 mots ; passé composé, questions négatives, si + présent, futur proche."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}

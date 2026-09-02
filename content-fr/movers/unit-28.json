@@ -1,0 +1,316 @@
+{
+ "id": "movers-fr-28",
+ "level": "movers",
+ "number": 28,
+ "title": "L'aventure d'hier",
+ "topic": "les passés irréguliers",
+ "grammar": "le passé composé : est allé, a vu, a eu, a pris, est venu",
+ "wordlist": [
+  "est allé",
+  "a vu",
+  "avait",
+  "a eu",
+  "est venu",
+  "a pris",
+  "a trouvé",
+  "a fait",
+  "a dit",
+  "aventure"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 2,
+  "skill": "prise de notes"
+ },
+ "characters": [
+  "mateo",
+  "sofia"
+ ],
+ "scene": {
+  "speaker": "mateo",
+  "pose": {
+   "mateo": 1,
+   "sofia": 5
+  },
+  "bubble": "Hier Luna a trouvé quelque chose au parc… et c'est comme ça que notre petite aventure a commencé !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe le verbe et son passé irrégulier.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Verbe",
+    "right_label": "Passé",
+    "pairs": [
+     {
+      "left": "aller",
+      "right": "est allé"
+     },
+     {
+      "left": "voir",
+      "right": "a vu"
+     },
+     {
+      "left": "avoir",
+      "right": "avait"
+     },
+     {
+      "left": "venir",
+      "right": "est venu"
+     },
+     {
+      "left": "prendre",
+      "right": "a pris"
+     },
+     {
+      "left": "trouver",
+      "right": "a trouvé"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis la bonne forme du passé.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "Hier on ___ au parc après l'école.",
+      "options": [
+       "est allé",
+       "aller",
+       "j'ai allé"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Luna ___ une vieille clé dans l'herbe !",
+      "options": [
+       "a trouvé",
+       "trouver",
+       "a trouvi"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "On ___ un plan au dos du porte-clés.",
+      "options": [
+       "a vu",
+       "voir",
+       "a vi"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Erik ___ sa lampe et on a suivi le plan.",
+      "options": [
+       "a pris",
+       "prendre",
+       "a prendu"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "L'aventure ___ une fin heureuse !",
+      "options": [
+       "avait",
+       "avoir",
+       "a avu"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute l'aventure de la clé. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u28-c.mp3",
+   "data": {
+    "voice_note": "Voces: Mateo (narrador de la aventura) y Sofía (co-protagonista).",
+    "script": "Mateo : Hier à quatre heures, Luna a trouvé une vieille clé sous le banc du parc. … Sofia : Il y avait une petite étiquette : Cabane à bateaux numéro Neuf. … Mateo : Alors on est allés au lac et on a trouvé la cabane numéro neuf. … Sofia : Dedans il y avait une vieille barque… pleine de pots de fleurs ! … Mateo : Ensuite un vieux monsieur est arrivé. C'était M. Torres, le jardinier ! … Sofia : Il avait perdu la clé il y a deux semaines. La cabane est son petit jardin. … Mateo : Il a dit merci et nous a donné un sachet de fraises. … Sofia : Petite aventure, fin toute douce !",
+    "questions": [
+     {
+      "q": "Luna a trouvé la clé sous le … du parc.",
+      "answer": "banc"
+     },
+     {
+      "q": "L'étiquette disait Cabane à bateaux numéro …",
+      "answer": "Neuf"
+     },
+     {
+      "q": "La vieille barque était pleine de … de fleurs.",
+      "answer": "pots"
+     },
+     {
+      "q": "M. Torres est le …",
+      "answer": "jardinier"
+     },
+     {
+      "q": "Il leur a donné un sachet de …",
+      "answer": "fraises"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Elle ___ à ma fête samedi dernier.",
+      "options": [
+       "est venu",
+       "venir",
+       "a venu"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "J'___ mes devoirs avant le dîner.",
+      "options": [
+       "a fait",
+       "ai faisu",
+       "fabriquer"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Merci ! » ___-il.",
+      "options": [
+       "a dit",
+       "dire",
+       "a disé"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "On ___ un bel arc-en-ciel après la pluie.",
+      "options": [
+       "a vu",
+       "voir",
+       "vu"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Une histoire passionnante qui t'arrive est une …",
+      "options": [
+       "aventure",
+       "réponse",
+       "adresse"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Invente une mini aventure en 6 phrases avec est allé, a vu, a trouvé, a pris, est venu, a dit. Raconte-la à un autre binôme — la meilleure aventure gagne !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "A et B ne sont pas pareils. Trouve pourquoi !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris une aventure vraie ou inventée de ton animal (ou de celui d'un voisin) avec 5 passés irréguliers."
+  }
+ ],
+ "scope": {
+  "grado": "G4",
+  "temaN": 5,
+  "tema": "Vacances et voyages",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues plus longs ; repérer une information précise à l'oral."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire des lieux, des objets, des événements passés ; jouer une situation simple."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et remettre en ordre des histoires courtes ; trouver une information dans un panneau ou une affiche."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un message de 30 à 40 mots ; paragraphes de classe de 60 à 100 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~1350 mots ; passé composé, pronoms relatifs, pour + infinitif, devoir."
+   }
+  ],
+  "vocabulario": [
+   "glacial",
+   "brûlant",
+   "humide",
+   "doux"
+  ],
+  "gramatica": [
+   "Les expressions de temps : hier, la semaine dernière, en 2023, il y a"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "freezing",
+    "boiling",
+    "humid",
+    "mild"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "glacial",
+  "brûlant",
+  "humide",
+  "doux"
+ ],
+ "lang": "fr"
+}

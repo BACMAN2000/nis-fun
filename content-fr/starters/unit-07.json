@@ -1,0 +1,289 @@
+{
+ "id": "starters-fr-07",
+ "level": "starters",
+ "number": 7,
+ "title": "Mon corps",
+ "topic": "corps",
+ "grammar": "J'ai…",
+ "wordlist": [
+  "tête",
+  "bras",
+  "main",
+  "jambe",
+  "pied",
+  "pieds",
+  "corps",
+  "doigts",
+  "genou",
+  "orteils"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 4,
+  "skill": "les mots du corps"
+ },
+ "characters": [
+  "tomas",
+  "pip"
+ ],
+ "scene": {
+  "speaker": "tomas",
+  "pose": {
+   "tomas": 7,
+   "pip": 1
+  },
+  "bubble": "La tête, les bras, les jambes, les pieds — mon corps adore BOUGER ! Prêt pour la gym du corps ?"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "crossword",
+   "title": "Écris les mots du corps.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "words": [
+     {
+      "word": "TETE",
+      "clue": "Tes cheveux sont dessus."
+     },
+     {
+      "word": "BRAS",
+      "clue": "Il est entre ton épaule et ta main."
+     },
+     {
+      "word": "MAIN",
+      "clue": "Elle a cinq doigts."
+     },
+     {
+      "word": "JAMBE",
+      "clue": "Tu marches et tu cours avec."
+     },
+     {
+      "word": "PIED",
+      "clue": "Tu mets une chaussure dessus."
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "match_words",
+   "title": "Associe la partie du corps et ce qu'elle fait.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Partie du corps",
+    "right_label": "Ce qu'il fait",
+    "pairs": [
+     {
+      "left": "mes jambes",
+      "right": "courent et sautent"
+     },
+     {
+      "left": "mes mains",
+      "right": "tapent et dessinent"
+     },
+     {
+      "left": "ma tête",
+      "right": "pense et fait oui"
+     },
+     {
+      "left": "mes doigts",
+      "right": "comptent jusqu'à dix"
+     },
+     {
+      "left": "mes pieds",
+      "right": "tapent dans le ballon"
+     },
+     {
+      "left": "mes bras",
+      "right": "font des câlins à ma famille"
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute la gym du corps. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u07-c.mp3",
+   "data": {
+    "voice_note": "Voces: Tomás (instructor) y Freya (siguiendo).",
+    "script": "Tomás : Gym du corps ! Touche ta tête avec les deux mains. … Freya : C'est fait ! C'est facile. … Tomás : Maintenant tiens-toi sur une jambe. Un, deux, trois… … Freya : Je suis un flamant rose ! … Tomás : Tape des mains cinq fois ! … Freya : Un, deux, trois, quatre, cinq ! … Tomás : Maintenant touche tes orteils… et saute comme Pip ! … Freya : Pip ne saute pas, il vole ! … Tomás : Alors bats des bras ! Bonne gym, l'équipe !",
+    "questions": [
+     {
+      "q": "Touche ta tête avec les deux …",
+      "answer": "mains"
+     },
+     {
+      "q": "Tiens-toi sur une …",
+      "answer": "jambe"
+     },
+     {
+      "q": "Tape des mains … fois.",
+      "answer": "cinq"
+     },
+     {
+      "q": "Touche tes …",
+      "answer": "orteils"
+     },
+     {
+      "q": "Bats des … comme Pip !",
+      "answer": "bras"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Une main a cinq …",
+      "options": [
+       "doigts",
+       "pieds",
+       "têtes"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Tu marches avec tes …",
+      "options": [
+       "jambes",
+       "bras",
+       "oreilles"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Deux pied = deux …",
+      "options": [
+       "pieds",
+       "pieds s",
+       "piedes"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "J'___ deux bras.",
+      "options": [
+       "a eu",
+       "obtenir",
+       "aller"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Ta jambe se plie au …",
+      "options": [
+       "genou",
+       "nez",
+       "cou"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Joue à Touche : dis une partie du corps, ton camarade la touche vite (« Touche ton genou ! »). Cinq chacun — de plus en plus vite !"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Deux images, plein de différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Dessine-toi et légende 6 parties du corps. Écris : J'ai deux bras…"
+  }
+ ],
+ "scope": {
+  "grado": "G1",
+  "temaN": 3,
+  "tema": "Mon corps",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Suivre les consignes de la classe ; reconnaître des mots connus dans une chanson ou une phrase courte."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Saluer ; dire son nom, son âge, les couleurs ; nommer des objets ; répondre par oui ou non."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Reconnaître les lettres de l'alphabet ; associer un mot à une image (famille, nourriture, animaux, corps)."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire son prénom ; recopier des mots ; légender une image (3 à 5 mots)."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~150 mots actifs ; le verbe être, un/une, c'est/ce sont, l'impératif."
+   }
+  ],
+  "vocabulario": [
+   "grand",
+   "petit",
+   "grand",
+   "court"
+  ],
+  "gramatica": [
+   "Avoir : les parties du corps"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "big",
+    "small",
+    "tall",
+    "short"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "grand",
+  "petit",
+  "grand",
+  "court"
+ ],
+ "lang": "fr"
+}

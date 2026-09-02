@@ -1,0 +1,322 @@
+{
+ "id": "movers-fr-14",
+ "level": "movers",
+ "number": 14,
+ "title": "Après l'école",
+ "topic": "le temps libre",
+ "grammar": "aimer + infinitif",
+ "wordlist": [
+  "jouer dehors",
+  "faire du vélo",
+  "lire",
+  "dessiner",
+  "regarder la télé",
+  "jeu vidéo",
+  "skateboard",
+  "cerf-volant",
+  "parc",
+  "amusant"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 3,
+  "skill": "associations"
+ },
+ "characters": [
+  "mateo",
+  "erik"
+ ],
+ "scene": {
+  "speaker": "mateo",
+  "pose": {
+   "mateo": 1,
+   "erik": 3
+  },
+  "bubble": "La meilleure heure de la journée : après l'école ! Les vélos, le parc, et Luna qui court derrière nous."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe l'activité et l'endroit où tu la fais.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Activité",
+    "right_label": "Où",
+    "pairs": [
+     {
+      "left": "faire du vélo",
+      "right": "sur la piste cyclable"
+     },
+     {
+      "left": "faire voler un cerf-volant",
+      "right": "dans le parc quand il y a du vent"
+     },
+     {
+      "left": "lire des bandes dessinées",
+      "right": "dans un coin tranquille"
+     },
+     {
+      "left": "jouer aux jeux vidéo",
+      "right": "à la maison, une heure seulement"
+     },
+     {
+      "left": "faire du skate",
+      "right": "au skatepark"
+     },
+     {
+      "left": "en train de dessiner",
+      "right": "n'importe où avec du papier"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis la bonne forme de l'infinitif.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "J'aime ___ à vélo au bord de la rivière.",
+      "options": [
+       "en train de rouler",
+       "rouler",
+       "a roulé"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Elle adore ___ des dragons et des châteaux.",
+      "options": [
+       "en train de dessiner",
+       "dessiner",
+       "dessine"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Ils aiment ___ au football après l'école.",
+      "options": [
+       "en train de jouer",
+       "jouer",
+       "a joué"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Il n'aime pas ___ la télé le matin.",
+      "options": [
+       "regarder",
+       "regarder",
+       "regarde"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "On adore ___ notre cerf-volant sur la colline.",
+      "options": [
+       "en train de voler",
+       "voler",
+       "a volé"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute. Qu'est-ce que chacun fait après l'école ? Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "movers/u14-c.mp3",
+   "data": {
+    "voice_note": "Voces: Mateo (feliz) y Erik (con agenda).",
+    "script": "Erik : Rapport d'après l'école ! Le lundi et le mercredi je construis mes robots. … Mateo : Moi je fais du vélo tous les jours. Hier j'ai fait deux fois le tour du lac ! … Erik : Valentina lit à la bibliothèque le mardi. Elle lit quatre livres par mois. … Mateo : Sofia fait voler son cerf-volant quand il y a du vent. L'orange avec la longue queue. … Erik : Et le vendredi on se retrouve tous au parc à quatre heures. … Mateo : Avec Luna ! Elle attrape le ballon mieux que nous tous. … Erik : Le temps libre : officiellement le meilleur moment.",
+    "questions": [
+     {
+      "q": "Erik construit des robots le lundi et le …",
+      "answer": "mercredi"
+     },
+     {
+      "q": "Mateo a fait … fois le tour du lac hier.",
+      "answer": "deux fois"
+     },
+     {
+      "q": "Valentina lit quatre … par mois.",
+      "answer": "livres"
+     },
+     {
+      "q": "Le cerf-volant de Sofía est orange avec une longue …",
+      "answer": "queue"
+     },
+     {
+      "q": "Le vendredi ils se retrouvent au parc à … heures.",
+      "answer": "quatre"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Petit test · Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Tu fais voler un ___ les jours de vent.",
+      "options": [
+       "cerf-volant",
+       "vélo",
+       "livre"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Une planche à quatre roues est un …",
+      "options": [
+       "skateboard",
+       "cerf-volant",
+       "règle"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les enfants jouent dehors dans le …",
+      "options": [
+       "parc",
+       "frigo",
+       "armoire"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "« Qu'est-ce que tu fais après l'école ? » — « Je ___ du vélo. »",
+      "options": [
+       "rouler",
+       "en train de rouler",
+       "fait"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Quelque chose que tu aimes beaucoup est …",
+      "options": [
+       "amusant",
+       "plat",
+       "plein"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Trouvez 2 choses que vous aimez faire TOUS LES DEUX après l'école et 1 que seul l'un de vous aime. Racontez : « On aime tous les deux… mais seule Ana aime… »"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Trouve les différences !",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Écris ton après-midi parfait : 5 phrases avec aimer / adorer + infinitif."
+  }
+ ],
+ "scope": {
+  "grado": "G4",
+  "temaN": 4,
+  "tema": "Sport et santé",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues plus longs ; repérer une information précise à l'oral."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Décrire des lieux, des objets, des événements passés ; jouer une situation simple."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire et remettre en ordre des histoires courtes ; trouver une information dans un panneau ou une affiche."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Écrire un message de 30 à 40 mots ; paragraphes de classe de 60 à 100 mots."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~1350 mots ; passé composé, pronoms relatifs, pour + infinitif, devoir."
+   }
+  ],
+  "vocabulario": [
+   "gymnastique",
+   "volley",
+   "athlétisme",
+   "arts martiaux",
+   "aviron",
+   "ski"
+  ],
+  "gramatica": [
+   "Les verbes modaux : devoir, il faut"
+  ],
+  "pendiente": {
+   "vocabulario": [
+    "gymnastics",
+    "volleyball",
+    "athletics",
+    "martial arts",
+    "rowing",
+    "skiing"
+   ]
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "wordlist_extra": [
+  "gymnastique",
+  "volley",
+  "athlétisme",
+  "arts martiaux",
+  "aviron",
+  "ski"
+ ],
+ "lang": "fr"
+}

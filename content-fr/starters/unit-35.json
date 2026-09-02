@@ -1,0 +1,298 @@
+{
+ "id": "starters-fr-35",
+ "level": "starters",
+ "number": 35,
+ "title": "Ma boîte à goûter",
+ "topic": "déjeuner",
+ "grammar": "Il y a + la nourriture",
+ "wordlist": [
+  "boîte à goûter",
+  "sandwich",
+  "pomme",
+  "biscuit",
+  "eau",
+  "serviette",
+  "carotte",
+  "fromage",
+  "partager",
+  "savoureux"
+ ],
+ "exam_focus": {
+  "paper": "Écouter",
+  "part": 1,
+  "skill": "les choses du goûter"
+ },
+ "characters": [
+  "nico",
+  "tomas"
+ ],
+ "scene": {
+  "speaker": "nico",
+  "pose": {
+   "nico": 8,
+   "tomas": 3
+  },
+  "bubble": "Surprise dans la boîte ! Qu'est-ce qu'il y a dedans aujourd'hui ? Un sandwich, une pomme… et un petit mot de maman !"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Associe l'objet de la boîte et pourquoi il est là.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "La chose",
+    "right_label": "Pourquoi",
+    "pairs": [
+     {
+      "left": "le sandwich",
+      "right": "le plat principal"
+     },
+     {
+      "left": "la pomme",
+      "right": "sucrée et bonne pour la santé"
+     },
+     {
+      "left": "la bouteille d'eau",
+      "right": "pour boire à la récré"
+     },
+     {
+      "left": "la serviette",
+      "right": "pour nettoyer tes mains"
+     },
+     {
+      "left": "les carottes",
+      "right": "des légumes qui croquent"
+     },
+     {
+      "left": "le petit mot",
+      "right": "de l'amour de la maison !"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complète chaque phrase.",
+    "items": [
+     {
+      "sentence": "Il ___ un sandwich dans ma boîte.",
+      "options": [
+       "est",
+       "sont",
+       "suis"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Il ___ deux biscuits aujourd'hui !",
+      "options": [
+       "sont",
+       "est",
+       "être"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Je nettoie mes mains avec une …",
+      "options": [
+       "serviette",
+       "carotte",
+       "biscuit"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les bons amis ___ leurs biscuits.",
+      "options": [
+       "partager",
+       "cacher",
+       "lancer"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Mon sandwich est très …",
+      "options": [
+       "savoureux",
+       "sale",
+       "fâché"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "listening",
+   "title": "Écoute à la récré du goûter. Écris un mot ou un nombre dans chaque trou.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "starters/u35-c.mp3",
+   "data": {
+    "voice_note": "Voces: Nico y Tomás (abriendo loncheras).",
+    "script": "Nico : L'heure de la boîte à goûter ! Moi j'ai un sandwich au fromage. … Tomás : Moi j'ai du poulet et du riz dans ma boîte. C'est encore chaud ! … Nico : Il y a deux biscuits… un pour toi ! … Tomás : Merci ! Je partage mes raisins. Dix raisins verts. … Nico : Il y a un mot de ma mère. Il dit : Je t'aime, campeón ! … Tomás : Et regarde — Pip a une toute petite boîte aussi. Avec des graines ! … Nico : La meilleure récré de tous les temps.",
+    "questions": [
+     {
+      "q": "Nico a un sandwich au …",
+      "answer": "fromage"
+     },
+     {
+      "q": "La nourriture de Tomás est encore …",
+      "answer": "chaud"
+     },
+     {
+      "q": "Tomás partage dix … verts.",
+      "answer": "raisins"
+     },
+     {
+      "q": "Le mot dit : Je t'aime, … !",
+      "answer": "campeón"
+     },
+     {
+      "q": "La petite boîte de Pip a des …",
+      "answer": "graines"
+     }
+    ]
+   }
+  },
+  {
+   "code": "D",
+   "type": "exam_task",
+   "title": "Choisis le bon mot.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choisis le bon mot.",
+    "items": [
+     {
+      "sentence": "Tu emportes ton goûter dans une …",
+      "options": [
+       "boîte à goûter",
+       "trousse",
+       "chaussure"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Une pomme est un …",
+      "options": [
+       "fruit",
+       "boire",
+       "jouet"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Les carottes sont ___ et orange.",
+      "options": [
+       "croquantes",
+       "molles",
+       "violet"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Bois de l'___ à la récré.",
+      "options": [
+       "eau",
+       "sable",
+       "colle"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Donner la moitié à un ami, c'est …",
+      "options": [
+       "partager",
+       "crier",
+       "dormir"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "pairwork",
+   "title": "Parler · à deux",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Montre ta boîte : dis à ton camarade ce qu'il y a vraiment dans ta boîte aujourd'hui (Il y a…). Quelle boîte est la plus colorée ?"
+   }
+  },
+  {
+   "code": "F",
+   "type": "spot_diff",
+   "title": "Regarde A et B. Qu'est-ce qui change ?",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "instructions": "Regarde l'image A et l'image B. Trouve les 12 différences et parles-en avec ton camarade.",
+   "data": {}
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Imagine la boîte à goûter parfaite : dessine-la et écris Il y a pour 5 choses."
+  }
+ ],
+ "scope": {
+  "grado": "G2",
+  "temaN": 5,
+  "tema": "Manger et rester en forme",
+  "outcomes": [
+   {
+    "destreza": "Écouter",
+    "puede": "Comprendre des dialogues simples sur la famille, l'école, les animaux et la nourriture."
+   },
+   {
+    "destreza": "Parler",
+    "puede": "Répondre à des questions à partir d'une image ; décrire une image en phrases simples."
+   },
+   {
+    "destreza": "Lire",
+    "puede": "Lire des textes de 2 à 3 phrases ; associer images, mots et légendes courtes."
+   },
+   {
+    "destreza": "Écrire",
+    "puede": "Recopier des mots et compléter des phrases courtes."
+   },
+   {
+    "destreza": "Grammaire et vocabulaire",
+    "puede": "~450 mots ; présent, être et avoir, il y a, aimer + infinitif."
+   }
+  ],
+  "vocabulario": [],
+  "gramatica": [],
+  "pendiente": {
+   "vocabulario": []
+  },
+  "nota": "Equivalencia provisional del Scope & Sequence de ingles. El de Frances no esta cargado todavia: confirmar con el colegio antes de darlo por oficial."
+ },
+ "lang": "fr"
+}
