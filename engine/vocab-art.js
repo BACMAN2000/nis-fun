@@ -490,12 +490,35 @@ window.VOCAB_ART = (function () {
     `<path d="M46 8 q8 4 8 16 q0 8-5 10 l0 22 q0 4-3 4 q-3 0-3-4z" fill="${C.grisOsc}"/>` +
     `<ellipse cx="32" cy="58" rx="26" ry="4" fill="${C.crema}"/>`);
 
+  /* Alias de otros idiomas. El dibujo NO cambia con el idioma: cambia la palabra
+     que lo nombra. Asi la version francesa reutiliza el arte ingles sin duplicar
+     un solo SVG, y una palabra sin alias simplemente no dibuja (como ya pasa en
+     ingles con las que no tienen arte). */
+  const ALIAS = {
+    'ballon':'ball', 'cerf-volant':'kite', 'cerf volant':'kite', 'voiture':'car',
+    'nounours':'teddy', 'ours en peluche':'teddy', 'poupee':'doll', 'poupée':'doll',
+    'rouge':'red', 'bleu':'blue', 'bleue':'blue', 'vert':'green', 'verte':'green',
+    'jaune':'yellow', 'orange':'orange', 'noir':'black', 'noire':'black',
+    'marron':'brown', 'pomme':'apple', 'banane':'banana', 'grenouille':'frog',
+    'carotte':'carrot', 'mer':'sea', 'nuit':'night',
+    'bonjour':'hello', 'salut':'hello', 'au revoir':'goodbye', 'les nombres':'numbers',
+    'un':'one', 'deux':'two', 'trois':'three', 'quatre':'four', 'cinq':'five',
+    'six':'six', 'sept':'seven', 'huit':'eight', 'neuf':'nine', 'dix':'ten'
+  };
+
   // ---- API ---------------------------------------------------------------
   return {
     get(word) {
       if (!word) return null;
       const k = String(word).toLowerCase().trim();
-      return A[k] || null;
+      return A[k] || A[ALIAS[k]] || null;
+    },
+    /* La clave inglesa con la que se archiva el dibujo. La usa el motor para
+       pedir el PNG: los archivos se llaman en ingles y no se renombran por
+       traducir el curso. */
+    base(word) {
+      const k = String(word || '').toLowerCase().trim();
+      return ALIAS[k] || k;
     },
     has(word) { return !!this.get(word); },
     count: Object.keys(A).length

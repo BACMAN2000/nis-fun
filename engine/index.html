@@ -636,7 +636,7 @@ if(/\.github\.io$/i.test(location.hostname)){
 <script src="../nis-splash.js?v=4" data-key="nis_splash_curso"></script>
 <script src="crossword-layout.js"></script>
 <script src="emoji-map.js"></script>
-<script src="vocab-art.js?v=1"></script>
+<script src="vocab-art.js?v=2"></script>
 <script src="orientacion.js?v=1"></script>
 <script src="screens.js?v=4"></script>
 <script src="banner.js?v=8"></script>
@@ -649,11 +649,28 @@ if(/\.github\.io$/i.test(location.hostname)){
 <main id="app"><div class="app-loading" role="status" aria-live="polite">
   <div><span aria-hidden="true"></span><strong>Preparing your course…</strong>
     <small>Loading activities and illustrations.</small></div></div></main>
-<div id="cele"><div class="box"><img id="cele-img" alt=""><h2>Well done!</h2><p id="cele-msg"></p><button onclick="document.getElementById('cele').classList.remove('on')">OK</button></div></div>
+<div id="cele"><div class="box"><img id="cele-img" alt=""><h2 id="cele-h2">Well done!</h2><p id="cele-msg"></p><button onclick="document.getElementById('cele').classList.remove('on')">OK</button></div></div>
 <script>
 const qs = new URLSearchParams(location.search);
 const LEVEL = qs.get('level');
 const UNIT = qs.get('unit');
+/* Idioma del curso. El motor, los dibujos y las laminas son EXACTAMENTE los
+   mismos: lo unico que cambia es de que carpeta sale el texto. Por eso la
+   version francesa no es una copia del motor -que habria que mantener dos
+   veces- sino ?lang=fr y una carpeta de contenido al lado. */
+const LANG = qs.get('lang') === 'fr' ? 'fr' : 'en';
+const CDIR = LANG === 'fr' ? '../content-fr' : '../content';
+/* El audio SI se separa por idioma, al reves que los dibujos: 'train', 'six' u
+   'orange' se escriben igual en los dos idiomas pero no se pronuncian igual, y
+   compartir carpeta haria sonar la voz inglesa en la clase de frances. */
+const ADIR = LANG === 'fr' ? '../audio/fr' : '../audio';
+const T = (en, fr) => (LANG === 'fr' ? fr : en);
+/* Nombre de archivo del dibujo. Se calcula sobre la clave canonica (inglesa),
+   no sobre la palabra que lee el alumno: 'cerf-volant' y 'kite' comparten el
+   mismo kite.png. Traducir el curso no duplica ni un solo dibujo. */
+const slugArte = k => String((window.VOCAB_ART && VOCAB_ART.base(k)) || k)
+  .toLowerCase().replace(/'/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+if (LANG === 'fr') { const h = document.getElementById('cele-h2'); if (h) h.textContent = 'Bravo !'; }
 const app = document.getElementById('app');
 const COLORS = { starters:'#d97d0d', movers:'#2f9268', flyers:'#3b6fb5' };
 // Escapa el texto que va dentro de un atributo (las palabras del wordlist
@@ -661,7 +678,7 @@ const COLORS = { starters:'#d97d0d', movers:'#2f9268', flyers:'#3b6fb5' };
 // Modo demostracion (?demo=1): solo las dos primeras unidades de cada nivel,
 // con un aviso visible. Sirve para ensenar el curso sin abrir las 150.
 const DEMO = new URLSearchParams(location.search).get('demo') === '1';
-const Q = extra => (DEMO ? extra + '&demo=1' : extra);
+const Q = extra => (LANG === 'fr' ? extra + '&lang=fr' : extra) + (DEMO ? '&demo=1' : '');
 
 const esc = t => String(t).replace(/&/g,'&amp;').replace(/"/g,'&quot;')
                           .replace(/</g,'&lt;').replace(/>/g,'&gt;');
@@ -737,12 +754,12 @@ async function j(path){
 
 /* ---------------- PORTADA: los 3 niveles ---------------- */
 async function levels(){
-  const data = await j('../content/levels.json');
+  const data = await j(CDIR + '/levels.json');
   document.title = 'Fun for Nordic';
   app.innerHTML = `
-    ${PORTAL ? `<p class="crumb" style="margin:.6rem 0 0"><a href="${PORTAL}">‹ Portal</a></p>` : ''}
+    ${PORTAL ? `<p class="crumb" style="margin:.6rem 0 0"><a href="${PORTAL}">‹ ${T('Portal','Portail')}</a></p>` : ''}
     <h1 style="font-size:2.2rem;margin:.6rem 0 .2rem">Fun for Nordic</h1>
-    <p style="color:var(--soft);margin:0 0 1.4rem">Cambridge Young Learners · Nordic International School</p>
+    <p style="color:var(--soft);margin:0 0 1.4rem">${T("Cambridge Young Learners", "Français · niveaux A1-A2")} · Nordic International School</p>
     <div class="campus-banner"><img src="../assets/scenes/main-building.jpg?v=${ART_V}" alt="Nordic campus"></div>
     <div class="lvcards">${data.levels.map(l=>`
       <a class="lvcard" href="${Q(`?level=${l.id}`)}" style="--lv:${l.color}"
@@ -762,7 +779,7 @@ async function levels(){
         <span class="lvinfo">
           <b>${l.name}</b>
           <span class="cast">${l.cast}</span>
-          <span class="lvcta">Enter the adventure <span aria-hidden="true">›</span></span>
+          <span class="lvcta">${T("Enter the adventure", "Entre dans l’aventure")} <span aria-hidden="true">›</span></span>
         </span>
       </a>`).join('')}</div>`;
   levelPreviews(app);
@@ -799,7 +816,7 @@ function levelPreviews(root){
 
 /* ---------------- HUB ---------------- */
 async function hub(){
-  const idx = await j(`../content/${LEVEL}/index.json`);
+  const idx = await j(`${CDIR}/${LEVEL}/index.json`);
   document.title = idx.name;
   app.classList.add('hub');
   const mascota = idx.mascot[0].toUpperCase() + idx.mascot.slice(1);
@@ -850,14 +867,14 @@ async function hub(){
 
   const pantallas = [
     { titulo: idx.name,
-      etiquetaSiguiente: `Meet ${mascota}`,
+      etiquetaSiguiente: `${T('Meet','Rencontre')} ${mascota}`,
       html: `<div class="scr-centro">
         ${BANNER.html(idx, LEVEL)}
         ${estadoCurso}
         ${DEMO ? `<div class="demoflag">Demonstration — this preview covers the first two units.
            The full course has ${idx.units.length} units.</div>` : ''}
         <p class="scr-pie">Meet the characters in 3D, then continue with your guide.</p>
-        <button class="intro-skip" type="button">Skip introduction and see all units</button>
+        <button class="intro-skip" type="button">${T("Skip introduction and see all units", "Passer l’introduction et voir les unités")}</button>
       </div>`,
       alMostrar(el){
         BANNER.vivo(el);
@@ -867,8 +884,8 @@ async function hub(){
           SCREENS.ir(3);
         };
       } },
-    { titulo: `Meet ${mascota} — your guide!`,
-      etiquetaSiguiente: 'Story time',
+    { titulo: `${T('Meet','Rencontre')} ${mascota} — ${T('your guide!','ton guide !')}`,
+      etiquetaSiguiente: T('Story time','Le coin lecture'),
       html: `<div class="scr-centro">
         <video class="scr-video" controls preload="metadata"
           src="../assets/videos/${idx.mascot}-intro.mp4?v=${VIDEO_V}"
@@ -885,8 +902,8 @@ async function hub(){
   // Los cuentos del nivel, si los hay. Se comprueba al vuelo: Starters ya
   // tiene los seis de G1 y los demas iran llegando.
   pantallas.push({
-    titulo: 'Story time — read a book',
-    etiquetaSiguiente: 'Units',
+    titulo: T('Story time — read a book','Le coin lecture — lis un livre'),
+    etiquetaSiguiente: T('Units','Les unités'),
     html: `<div class="scr-centro"><div id="cuentos">
         <p class="scr-pie">Looking for stories…</p></div></div>`,
     alMostrar(el){ pintaCuentos(el.querySelector('#cuentos'), LEVEL); } });
@@ -895,7 +912,7 @@ async function hub(){
     titulo: tandas.length > 1
       ? `Units ${tanda[0].n}–${tanda[tanda.length-1].n}`
       : 'Units',
-    etiquetaSiguiente: 'More units',
+    etiquetaSiguiente: T('More units','Plus d’unités'),
     html: `<div class="scr-centro">
       ${k === 0 ? estadoCurso : ''}
       <div class="units">${tanda.map(tarjeta).join('')}</div></div>`,
@@ -1087,10 +1104,10 @@ function sceneFor(ud){
   return pool[(Number(ud.number)||0) % pool.length];
 }
 async function unit(){
-  UD = await j(`../content/${LEVEL}/unit-${String(UNIT).padStart(2,'0')}.json`);
+  UD = await j(`${CDIR}/${LEVEL}/unit-${String(UNIT).padStart(2,'0')}.json`);
   try { localStorage.setItem(`nisfun-${LEVEL}-lastUnit`, String(UNIT)); } catch(e) {}
   PROG = store.get(UD.number); PROG.done = PROG.done || {};
-  document.title = `Unit ${UD.number} · ${UD.title}`;
+  document.title = `${T("Unit","Unité")} ${UD.number} · ${UD.title}`;
   // el JSON las guarda en el orden en que se escribieron (F antes que E);
   // el alumno las espera por letra
   const digital = UD.activities.filter(a=>a.outputs.includes('digital'))
@@ -1113,7 +1130,7 @@ async function unit(){
     return `<div class="guia">
       <img class="guia-mascota" src="${CHAR(quien, 3)}" alt=""${giro} ${FB}>
       <div class="guia-globo" data-voz="bubbles"><p>${esc(UD.scene.bubble)}</p>
-        <button class="guia-say" type="button">&#128266; Listen</button></div>
+        <button class="guia-say" type="button">&#128266; ${T("Listen","Écoute")}</button></div>
     </div>`; })() : '';
 
   /* La historia se pinta frase a frase para que el reproductor pueda
@@ -1136,21 +1153,21 @@ async function unit(){
   const pwHTML = `<div class="pwrow">${pwLista.map(({w, extra})=>{
       const key = w.replace(/^(a|an|the) /,'');
       const art = (window.VOCAB_ART && VOCAB_ART.get(key)) || null;
-      const plano = art || `<span class="emo">${EMOJI[key] || EMOJI[key.toLowerCase()] || '✏️'}</span>`;
-      const slug3d = key.toLowerCase().replace(/'/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+      const plano = art || `<span class="emo">${EMOJI[key] || EMOJI[key.toLowerCase()] || EMOJI[slugArte(key)] || '✏️'}</span>`;
+      const slug3d = slugArte(key);
       const ico = `<img class="art3d" src="../assets/vocab/${slug3d}.png?v=${ART_V}" alt=""
                      onerror="this.replaceWith(...new DOMParser().parseFromString(this.dataset.fb,'text/html').body.childNodes)"
                      data-fb="${esc(plano)}">`;
       return `<button class="pw${extra?' pw-extra':''}" type="button" data-say="${esc(w)}"
-                title="Click to hear it" aria-label="Say ${esc(w)}">
+                title="${T('Click to hear it','Clique pour écouter')}" aria-label="${T('Say','Dis')} ${esc(w)}">
                 <div class="ico">${ico}</div><div class="w">${w}</div>
                 <span class="spk" aria-hidden="true">🔊</span></button>`;
     }).join('')}</div>`;
 
   const pantallas = [
     // 1. quienes hablan y de que va la unidad
-    { titulo: `Unit ${UD.number} · ${UD.title}`,
-      etiquetaSiguiente: 'The story',
+    { titulo: `${T("Unit","Unité")} ${UD.number} · ${UD.title}`,
+      etiquetaSiguiente: T('The story', "L'histoire"),
       html: `<div class="scr-centro">
         <div class="band"><span class="unum">${UD.number}</span><h1>${UD.title}</h1>
           <span class="meta">${UD.exam_focus.paper} · Part ${UD.exam_focus.part}</span></div>
@@ -1159,8 +1176,8 @@ async function unit(){
           <div class="bubble">${UD.scene.bubble}</div></div>
       </div>` },
     // 2. la historia, con su ilustracion y su reproductor
-    { titulo: 'The story of this unit',
-      etiquetaSiguiente: 'Picture words',
+    { titulo: T('The story of this unit', "L'histoire de cette unité"),
+      etiquetaSiguiente: T('Picture words', 'Les mots en images'),
       html: `<div class="scr-centro">
         ${bocadilloHTML}
         ${escenaHTML}
@@ -1185,8 +1202,8 @@ async function unit(){
       </div>`,
       alMostrar(el){ montaHistoria(el, frasesHistoria); guiaViva(el); } },
     // 3. el vocabulario, que se oye al pulsarlo
-    { titulo: 'Picture words — look, say and copy',
-      etiquetaSiguiente: digital.length ? 'Activity ' + digital[0].code : 'Finish',
+    { titulo: T('Picture words — look, say and copy', 'Les mots en images — regarde, dis et recopie'),
+      etiquetaSiguiente: digital.length ? T('Activity ','Activité ') + digital[0].code : T('Finish','Terminer'),
       html: `<div class="scr-centro">${pwHTML}</div>`,
       alMostrar(){ wirePictureWords(); } },
   ];
@@ -1205,7 +1222,7 @@ async function unit(){
       cajaPuesta = true;
       pantallas.push({
         titulo: caja.titulo,
-        etiquetaSiguiente: 'Activity ' + a.code,
+        etiquetaSiguiente: T('Activity ','Activité ') + a.code,
         html: `<div class="scr-centro">
           ${guiaHTML('Look at my magic box. Watch what happens to the word!', 'Listen')}
           ${caja.html}</div>`,
@@ -1214,7 +1231,7 @@ async function unit(){
     }
     pantallas.push({
     titulo: `${a.code} · ${a.title}`,
-    etiquetaSiguiente: k < digital.length - 1 ? 'Activity ' + digital[k+1].code : 'Self-check',
+    etiquetaSiguiente: k < digital.length - 1 ? T('Activity ','Activité ') + digital[k+1].code : T('Self-check','Auto-évaluation'),
     html: `<div class="scr-centro">
       ${guiaHTML(a.instructions || a.title, 'Listen')}
       <section class="act ${PROG.done[a.code]?'done':''}" id="act-${a.code}">
@@ -1240,7 +1257,7 @@ async function unit(){
 
   // 5. repaso: que sabe hacer ya
   pantallas.push({
-    titulo: 'Self-check — what can you do now?',
+    titulo: T('Self-check — what can you do now?', 'Auto-évaluation — qu’est-ce que tu sais faire ?'),
     html: `<div class="scr-centro"><div class="selfcheck" id="selfcheck"></div></div>`,
     alMostrar(){ pintaSelfCheck(document.getElementById('selfcheck'), digital); } });
 
@@ -1338,7 +1355,11 @@ const SAY = {
     // guiones largos y los puntos suspensivos ya convertidos
     return String(t).replace(/<[^>]+>/g,' ').replace(/…/g,'...').replace(/—/g,', ')
       .replace(/\s+/g,' ').trim()
-      .toLowerCase().replace(/'/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+      .toLowerCase()
+      // sin acentos: 'poupee.mp3' y no 'poup-e.mp3'. En ingles no cambia nada,
+      // asi que los mp3 ya grabados siguen resolviendo igual.
+      .normalize('NFD').replace(/[̀-ͯ]/g,'')
+      .replace(/'/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
   },
   voz(t, ritmo, reintento){
     if (!window.speechSynthesis) return;
@@ -1366,7 +1387,7 @@ const SAY = {
     this.parar();
     const fin = () => btn && btn.classList.remove('saying');
     btn && btn.classList.add('saying');
-    const src = '../audio/words/' + this.slug(w) + '.mp3?v=' + AUDIO_V;
+    const src = ADIR + '/words/' + this.slug(w) + '.mp3?v=' + AUDIO_V;
     let a = this.cache[src];
     if (!a){ a = this.cache[src] = new Audio(src); a.preload = 'auto'; }
     a.currentTime = 0;
@@ -1383,7 +1404,7 @@ const SAY = {
     this.parar();
     const fin = () => btn && btn.classList.remove('saying');
     btn && btn.classList.add('saying');
-    const src = '../audio/' + (carpeta || 'clues') + '/' + this.slug(t).slice(0, 60) + '.mp3?v=' + AUDIO_V;
+    const src = ADIR + '/' + (carpeta || 'clues') + '/' + this.slug(t).slice(0, 60) + '.mp3?v=' + AUDIO_V;
     const a = new Audio(src);
     this.sonando = a;
     a.onended = fin;
@@ -1593,7 +1614,7 @@ function montaHistoria(el, frases){
     sonando = true;
     if (modo === 'voz'){ pinta(); hablar(); return; }
     if (modo === 'mp3'){ saltaMp3(); audio.play(); pinta(); return; }
-    audio.src = '../audio/stories/' + SAY.slug(texto).slice(0, 60) + '.mp3?v=' + AUDIO_V;
+    audio.src = ADIR + '/stories/' + SAY.slug(texto).slice(0, 60) + '.mp3?v=' + AUDIO_V;
     audio.onloadedmetadata = () => {
       modo = 'mp3';
       reparte(audio.duration || 1);
@@ -1778,8 +1799,8 @@ function cicloIntentos(el, cfg){
 function visDibujo(palabra){
   const k = String(palabra||'').toLowerCase().replace(/^(a|an|the) /,'');
   const art = (window.VOCAB_ART && VOCAB_ART.get(k)) || null;
-  const plano = art || `<span class="emo">${EMOJI[k] || '✏️'}</span>`;
-  const slug = k.replace(/'/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+  const plano = art || `<span class="emo">${EMOJI[k] || EMOJI[slugArte(k)] || '✏️'}</span>`;
+  const slug = slugArte(k);
   return `<img src="../assets/vocab/${slug}.png?v=${ART_V}" alt="${esc(k)}"
     onerror="this.replaceWith(...new DOMParser().parseFromString(this.dataset.fb,'text/html').body.childNodes)"
     data-fb="${esc(plano)}">`;
@@ -1887,7 +1908,7 @@ function visAudio(el, act, guion){
   el.prepend(caja);
 
   const bPlay = caja.querySelector('.play'), bStop = caja.querySelector('.stop');
-  const audio = act.audio ? new Audio(`../audio/${act.audio}`) : null;
+  const audio = act.audio ? new Audio(`${ADIR}/${act.audio}`) : null;
   let modo = audio ? 'mp3' : 'tts', hablando = false;
   if (!audio) caja.querySelector('.provisional').textContent =
     '(temporary browser voice — the real audio is coming soon)';
@@ -1933,8 +1954,8 @@ label_people(act, el){
         <input data-i="${i}" autocomplete="off" spellcheck="false" aria-label="Name ${i+1}"></div>`).join('')}</div>
     </div>
     <div class="vis-banco">${d.names.map(n=>`<span data-n="${esc(n)}">${esc(n)}</span>`).join('')}</div>
-    <div class="checkrow final"><button class="chk">Check</button>
-      <button class="again" type="button" hidden>↻ Try again</button>
+    <div class="checkrow final"><button class="chk">${T("Check","Vérifier")}</button>
+      <button class="again" type="button" hidden>↻ ${T("Try again","Réessaie")}</button>
       <button class="reveal" type="button" hidden>👁 See the answers</button>
       <span class="score"></span><span class="tries"></span></div>`;
 
@@ -1987,8 +2008,8 @@ picture_mc(act, el){
           <span class="letra">${LET[j]}</span>
           <span class="dib">${visOpcion(o)}</span>
           <span class="pie">${esc(o.pie || o.word)}</span></button>`).join('')}</div></div>`).join('')}
-    <div class="checkrow final"><button class="chk">Check</button>
-      <button class="again" type="button" hidden>↻ Try again</button>
+    <div class="checkrow final"><button class="chk">${T("Check","Vérifier")}</button>
+      <button class="again" type="button" hidden>↻ ${T("Try again","Réessaie")}</button>
       <button class="reveal" type="button" hidden>👁 See the answers</button>
       <span class="score"></span><span class="tries"></span></div>`;
 
@@ -2043,8 +2064,8 @@ match_pictures(act, el){
         <option value="">–</option>
         ${letras.map(l=>`<option value="${l}">${l}</option>`).join('')}
       </select></div>`).join('')}</div>
-    <div class="checkrow final"><button class="chk">Check</button>
-      <button class="again" type="button" hidden>↻ Try again</button>
+    <div class="checkrow final"><button class="chk">${T("Check","Vérifier")}</button>
+      <button class="again" type="button" hidden>↻ ${T("Try again","Réessaie")}</button>
       <button class="reveal" type="button" hidden>👁 See the answers</button>
       <span class="score"></span><span class="tries"></span></div>`;
 
@@ -2168,8 +2189,8 @@ crossword(act, el){
         title="Listen to the clue" aria-label="Listen to clue ${n}">🔊</button>
       <span class="clue-t">${w.clue} <small>(${w.word.length})</small></span></li>`).join('')}</ol>`;
   el.innerHTML = `<div class="xw"><div class="xw-gridwrap">${g}</div>
-    <div class="xw-clues"><h3>Across ➜</h3>${list('across')}<h3>Down ⬇</h3>${list('down')}</div></div>
-    <div class="checkrow"><button>Check</button><span class="score"></span></div>`;
+    <div class="xw-clues"><h3>${T("Across ➜","Horizontal ➜")}</h3>${list('across')}<h3>${T("Down ⬇","Vertical ⬇")}</h3>${list('down')}</div></div>
+    <div class="checkrow"><button>${T("Check","Vérifier")}</button><span class="score"></span></div>`;
 
   /* ---- escribir de corrido y ver la palabra en verde ----------------
      Sin esto hay que pinchar casilla por casilla, que con ninos pequenos
@@ -2302,15 +2323,15 @@ listening(act, el){
       <span class="provisional"></span></div>
     <div class="gaps">${act.data.questions.map((q,i)=>
       `<label>${i+1}. ${q.q.replace('…','<b>…</b>')} <input data-i="${i}" autocomplete="off"></label>`).join('')}</div>
-    <div class="checkrow final"><button class="chk">Check</button>
-      <button class="again" type="button" hidden>↻ Try again</button>
+    <div class="checkrow final"><button class="chk">${T("Check","Vérifier")}</button>
+      <button class="again" type="button" hidden>↻ ${T("Try again","Réessaie")}</button>
       <button class="reveal" type="button" hidden>👁 See the answers</button>
       <span class="score"></span><span class="tries"></span></div>`;
 
   const bPlay = el.querySelector('.play');
   const bPausa = el.querySelector('.pause');
   const bStop = el.querySelector('.stop');
-  const audio = new Audio(`../audio/${act.audio}`);
+  const audio = new Audio(`${ADIR}/${act.audio}`);
   let modo = 'mp3', hablando = false;
 
   audio.onerror = () => { modo = 'tts';
@@ -2384,7 +2405,7 @@ gap_text(act, el){
                   alt="" onerror="this.remove()">`;
   el.innerHTML = `${foto}${d.box?`<div class="gt-box">${[...d.box].sort(()=>Math.random()-.5).map(w=>`<span>${w}</span>`).join('')}</div>`:''}
     <div class="gt-text">${html}</div>
-    <div class="checkrow"><button class="chk">Check</button><span class="score"></span></div>`;
+    <div class="checkrow"><button class="chk">${T("Check","Vérifier")}</button><span class="score"></span></div>`;
   el.querySelector('.chk').onclick = ()=>{
     let ok=0;
     el.querySelectorAll('.gt-text input').forEach(inp=>{
@@ -2474,7 +2495,7 @@ exam_task(act, el){
       <div class="stem">${i+1}. ${it.sentence.replace('___','<b>____</b>')}</div>
       <div class="opts">${it.options.map((o,k)=>`<button class="obtn" data-k="${k}">${o}</button>`).join('')}</div>
     </div>`).join('')}
-    <div class="checkrow"><button class="chk">Check</button><span class="score"></span></div>`;
+    <div class="checkrow"><button class="chk">${T("Check","Vérifier")}</button><span class="score"></span></div>`;
   el.querySelectorAll('.item').forEach(item=>{
     item.querySelectorAll('.obtn').forEach(b=>b.onclick=()=>{
       item.querySelectorAll('.obtn').forEach(x=>x.classList.remove('sel')); b.classList.add('sel');
