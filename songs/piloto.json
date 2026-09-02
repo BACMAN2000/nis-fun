@@ -1,75 +1,118 @@
 {
  "_nota": "Piloto de canciones y chants. Una unidad por nivel en ingles y una en frances, para aprobar el estilo antes de escribir las 150. La letra sale del vocabulario y la gramatica de la propia unidad: no es una cancion generica con el titulo cambiado.",
-
  "en/starters/01": {
   "unidad": "Colours and toys",
   "gramatica": "It is a… / What colour is…?",
-  "palabras": ["ball","kite","train","car","teddy","doll","red","blue","green","yellow"],
-
+  "palabras": [
+   "ball",
+   "kite",
+   "train",
+   "car",
+   "teddy",
+   "doll",
+   "red",
+   "blue",
+   "green",
+   "yellow"
+  ],
   "chant": {
    "titulo": "What Colour Is It?",
    "estilo": "playground chant for 6-year-olds, call and response, handclaps and foot stomps, one adult leader voice and a small chorus of children answering, spoken-sung, 92 BPM, no melody instruments, very clear consonants",
    "letra": "[Leader]\nWhat colour is it? What colour is it?\n[Kids]\nRed! Red! The ball is red!\n\n[Leader]\nWhat colour is it? What colour is it?\n[Kids]\nYellow! Yellow! The kite is yellow!\n\n[Leader]\nWhat colour is it? What colour is it?\n[Kids]\nBlue! Blue! The train is blue!\n\n[Leader]\nWhat colour is it? What colour is it?\n[Kids]\nGreen! Green! The car is green!\n\n[Leader]\nOne more time — everybody!\n[Kids]\nRed ball, yellow kite, blue train, green car!\nIt's my toy box! It's my toy box!"
   },
-
   "cancion": {
    "titulo": "Pip's Toy Box",
    "estilo": "happy children's pop, ukulele, glockenspiel and handclaps, bright warm female voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums",
    "letra": "[Verse 1]\nOpen the box and look inside,\nthere's a red ball ready to hide.\nA yellow kite, a little blue train,\nlet's take them out and play again!\n\n[Chorus]\nIt's a ball! It's a kite!\nIt's a train! It's a car!\nWhat colour is it? What colour is it?\nTell me what you are!\n\n[Verse 2]\nHere's my teddy, soft and brown,\nhere's my doll with a yellow gown.\nGreen and red and blue and gold —\nmore than my two hands can hold!\n\n[Chorus]\nIt's a ball! It's a kite!\nIt's a train! It's a car!\nWhat colour is it? What colour is it?\nTell me what you are!\n\n[Bridge — soft]\nWho is hiding in the toy box?\nA little bird with an orange beak…\nPip! Pip! Hello, Pip!\n\n[Chorus — big finish]\nIt's a ball! It's a kite!\nIt's a train! It's a car!\nWhat colour is it? What colour is it?\nTell me what you are!"
   }
  },
-
  "en/movers/03": {
   "unidad": "Yesterday at the funfair",
   "gramatica": "past simple: went / saw / had / rode / won",
-  "palabras": ["go","went","see","saw","have","had","eat","ate","ride","rode","win","won"],
-
+  "palabras": [
+   "go",
+   "went",
+   "see",
+   "saw",
+   "have",
+   "had",
+   "eat",
+   "ate",
+   "ride",
+   "rode",
+   "win",
+   "won"
+  ],
   "chant": {
    "titulo": "Yesterday!",
    "estilo": "playground chant for 9-year-olds, call and response, claps on the off-beat and stomps, leader voice plus kids chorus, spoken-sung, 96 BPM, no melody instruments, punchy",
    "letra": "[Leader]\nToday I go —\n[Kids]\nyesterday I WENT!\n\n[Leader]\nToday I see —\n[Kids]\nyesterday I SAW!\n\n[Leader]\nToday I have —\n[Kids]\nyesterday I HAD!\n\n[Leader]\nToday I ride —\n[Kids]\nyesterday I RODE!\n\n[Leader]\nToday I eat —\n[Kids]\nyesterday I ATE!\n\n[Leader]\nToday I win —\n[Kids]\nyesterday I WON!\n\n[All]\nWent, saw, had, rode, ate, won —\nyesterday at the funfair, everyone!"
   },
-
   "cancion": {
    "titulo": "Yesterday at the Funfair",
    "estilo": "upbeat children's indie-pop, acoustic guitar, tambourine, fairground organ in the chorus, bright mixed voices, 112 BPM, cheerful and story-like",
    "letra": "[Verse 1]\nYesterday we went to the funfair,\nyesterday we saw the big wheel turn.\nMateo had a ticket in his pocket —\nhe lost it twice, but he never learns!\n\n[Chorus]\nWent, saw, had —\nyesterday, yesterday!\nRode, ate, won —\nwhat a day, what a day!\n\n[Verse 2]\nSofía rode the horses round and round,\nErik ate a hot dog on the way.\nValentina won a giant panda —\nshe couldn't even carry it away!\n\n[Chorus]\nWent, saw, had —\nyesterday, yesterday!\nRode, ate, won —\nwhat a day, what a day!\n\n[Bridge]\nToday is today and today we say GO,\nbut when it's finished we say WENT.\nToday we SEE, and after that\nwe tell the story: yesterday we SAW.\n\n[Chorus — final]\nWent, saw, had —\nyesterday, yesterday!\nRode, ate, won —\nwhat a day, what a day!"
   }
  },
-
  "en/flyers/05": {
   "unidad": "My school day",
   "gramatica": "present simple + school subjects",
-  "palabras": ["maths","science","art","music","history","geography","sport","timetable","break","homework"],
-
+  "palabras": [
+   "maths",
+   "science",
+   "art",
+   "music",
+   "history",
+   "geography",
+   "sport",
+   "timetable",
+   "break",
+   "homework"
+  ],
   "chant": {
    "titulo": "Monday To Friday",
    "estilo": "school-yard chant for 11-year-olds, body percussion, claps and desk taps, leader and chorus, spoken with attitude, 100 BPM, no melody instruments",
    "letra": "[Leader]\nWhat have you got on Monday?\n[Kids]\nMaths, maths, we've got maths!\n\n[Leader]\nWhat have you got on Tuesday?\n[Kids]\nScience and art, science and art!\n\n[Leader]\nWhat have you got on Wednesday?\n[Kids]\nMusic and history — clap your hands!\n\n[Leader]\nWhat have you got on Thursday?\n[Kids]\nGeography — where in the world?\n\n[Leader]\nWhat have you got on Friday?\n[Kids]\nSPORT! SPORT! Double sport!\n\n[All]\nCheck the timetable, don't be late,\nbreak at eleven, homework at eight!"
   },
-
   "cancion": {
    "titulo": "Check the Timetable",
    "estilo": "energetic children's pop-rock, electric guitar, driving bass, claps, confident young mixed voices, 120 BPM, school-anthem feel",
    "letra": "[Verse 1]\nI get up early, I check the timetable,\nmaths before break and science after lunch.\nI carry my books and I know where I'm going,\nFriday is double sport — thanks a bunch!\n\n[Chorus]\nShe studies history, he studies art,\nwe all do music on Wednesday.\nCheck the timetable, know it by heart —\nthis is my school day!\n\n[Verse 2]\nDiego finishes his homework on the bus,\nMaya draws a map of every sea.\nOliver plays guitar in the music room,\nand the bell goes at half past three.\n\n[Chorus]\nShe studies history, he studies art,\nwe all do music on Wednesday.\nCheck the timetable, know it by heart —\nthis is my school day!\n\n[Bridge — quieter]\nI study. You study. He studies.\nOne little S when it's he, she or it —\nand the whole week fits.\n\n[Chorus — final]\nShe studies history, he studies art,\nwe all do music on Wednesday.\nCheck the timetable, know it by heart —\nthis is my school day!"
   }
  },
-
  "fr/starters/01": {
   "unidad": "Les couleurs et les jouets",
   "gramatica": "C'est un… / De quelle couleur est… ?",
-  "palabras": ["ballon","cerf-volant","train","voiture","nounours","poupée","rouge","bleu","vert","jaune"],
-
+  "palabras": [
+   "ballon",
+   "cerf-volant",
+   "train",
+   "voiture",
+   "nounours",
+   "poupée",
+   "rouge",
+   "bleu",
+   "vert",
+   "jaune"
+  ],
   "chant": {
    "titulo": "De quelle couleur ?",
    "estilo": "comptine de cour de récréation pour enfants de 6 ans, question-réponse, claquements de mains et pieds, une voix d'adulte qui mène et un petit chœur d'enfants qui répond, parlé-chanté, 92 BPM, sans instruments mélodiques, articulation très nette, français de France",
    "letra": "[Meneur]\nDe quelle couleur ? De quelle couleur ?\n[Enfants]\nRouge ! Rouge ! Le ballon est rouge !\n\n[Meneur]\nDe quelle couleur ? De quelle couleur ?\n[Enfants]\nJaune ! Jaune ! Le cerf-volant est jaune !\n\n[Meneur]\nDe quelle couleur ? De quelle couleur ?\n[Enfants]\nBleu ! Bleu ! Le train est bleu !\n\n[Meneur]\nDe quelle couleur ? De quelle couleur ?\n[Enfants]\nVert ! Vert ! La voiture est verte !\n\n[Meneur]\nEncore une fois — tout le monde !\n[Enfants]\nBallon rouge, cerf-volant jaune, train bleu, voiture verte !\nC'est ma boîte à jouets ! C'est ma boîte à jouets !"
   },
-
   "cancion": {
    "titulo": "La boîte à jouets de Pip",
    "estilo": "chanson pour enfants joyeuse, ukulélé, glockenspiel et claquements de mains, voix féminine chaleureuse avec un petit chœur d'enfants au refrain, 104 BPM, simple et enfantine, français de France, sans grosse batterie",
    "letra": "[Couplet 1]\nOuvre la boîte et regarde dedans,\nun ballon rouge se cache dedans.\nUn cerf-volant jaune, un petit train bleu,\nsors-les vite, on joue tous les deux !\n\n[Refrain]\nC'est un ballon ! C'est un cerf-volant !\nC'est un train ! C'est une voiture !\nDe quelle couleur ? De quelle couleur ?\nDis-le-moi, je t'assure !\n\n[Couplet 2]\nVoici mon nounours, tout doux, tout brun,\nvoici ma poupée en jaune et carmin.\nVert et rouge et bleu et doré —\nmes deux mains ne peuvent pas tout porter !\n\n[Refrain]\nC'est un ballon ! C'est un cerf-volant !\nC'est un train ! C'est une voiture !\nDe quelle couleur ? De quelle couleur ?\nDis-le-moi, je t'assure !\n\n[Pont — doux]\nQui se cache dans la boîte à jouets ?\nUn petit oiseau au bec orangé…\nPip ! Pip ! Bonjour, Pip !\n\n[Refrain — final]\nC'est un ballon ! C'est un cerf-volant !\nC'est un train ! C'est une voiture !\nDe quelle couleur ? De quelle couleur ?\nDis-le-moi, je t'assure !"
   }
+ },
+ "_aprobado": {
+  "nota": "La toma que el usuario marco con pulgar arriba el 2-sep-2026. El prompt de estilo de ese chant queda como formula: si otro chant no suena bien, comparar contra este.",
+  "pieza": "en/movers/03 · chant",
+  "suno_id": "4b72f075-b1c2-4aaa-abeb-727b980d5279",
+  "url": "https://suno.com/song/4b72f075-b1c2-4aaa-abeb-727b980d5279",
+  "duracion": "0:26",
+  "cuenta": "pbaca",
+  "modelo": "v5.5"
  }
 }
