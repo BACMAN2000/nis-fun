@@ -670,6 +670,7 @@ const T = window.T;   // el mismo que usan banner.js, screens.js y magicbox.js
    no sobre la palabra que lee el alumno: 'cerf-volant' y 'kite' comparten el
    mismo kite.png. Traducir el curso no duplica ni un solo dibujo. */
 const slugArte = k => String((window.VOCAB_ART && VOCAB_ART.base(k)) || k)
+  .normalize('NFD').replace(/[̀-ͯ]/g,'')   // geographie, no g-ographie
   .toLowerCase().replace(/'/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 /* Los rotulos que van escritos en el HTML: el splash tiene que decir algo
    mientras carga el motor, asi que no pueden nacer de T(). Se reescriben
