@@ -439,7 +439,10 @@ async function build(){
     for(const ud of uds)
       book.insertAdjacentHTML('beforeend', MODE === 'wb' ? wbPage(ud, pageno++) : sbPage(ud, pageno++));
   }
-  document.title = 'READY';
+  // El nombre del libro, no un 'READY': se queda en las propiedades del PDF
+  // y es lo que ve el profesor en la pestana al abrirlo. El compilador no lo
+  // mira -espera a que el archivo tenga bytes-, asi que no rompe nada.
+  document.title = `${idx.name} — ${subtitle}`;
 }
 build();
 </script>
