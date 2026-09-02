@@ -67,6 +67,9 @@ MARCAS = {
     "Enter", "Escape", "IntersectionObserver", "ABC", "NFD",
     "#sdB- .sd-cell",                    # un selector, no un rotulo
     "Paolo Baca",                        # quien escribio los textos
+    "NORDIC INTERNATIONAL SCHOOL · COHASSET",
+    "READY",                             # la senal de "PDF listo", no un rotulo
+    "% across, % down", "row , col",     # comentarios del crucigrama
 }
 
 

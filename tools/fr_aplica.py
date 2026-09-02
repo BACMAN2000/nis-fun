@@ -26,12 +26,12 @@ GLOSARIO = os.path.join(AQUI, "fr_glosario.json")
 # dibujos, de poses y de audio se llaman starters/movers/flyers), solo cambia
 # lo que se lee.
 NIVELES = {
-    "starters": {"nombre": "Les Explorateurs", "orden": 1, "nivel": "Pre-A1 - debutants",
+    "starters": {"nombre": "Les Explorateurs", "orden": 1, "nivel": "Pré-A1 · débutants",
                  "cast": "Les Explorateurs du Phare"},
-    "movers":   {"nombre": "Les Aventuriers", "orden": 2, "nivel": "A1 - en route",
+    "movers":   {"nombre": "Les Aventuriers", "orden": 2, "nivel": "A1 · en route",
                  "cast": "Le Club du Fjord"},
-    "flyers":   {"nombre": "Les Navigateurs", "orden": 3, "nivel": "A2 - exploration",
-                 "cast": "L'Expedition Aurore"},
+    "flyers":   {"nombre": "Les Navigateurs", "orden": 3, "nivel": "A2 · exploration",
+                 "cast": "L'Expédition Aurore"},
 }
 
 NOTA_SCOPE = ("Equivalencia provisional del Scope & Sequence de ingles. El de "

@@ -3,7 +3,7 @@
   {
    "id": "starters",
    "name": "Les Explorateurs",
-   "exam": "Pre-A1 - debutants",
+   "exam": "Pré-A1 · débutants",
    "cast": "Les Explorateurs du Phare",
    "mascot": "pip",
    "color": "#d97d0d"
@@ -11,7 +11,7 @@
   {
    "id": "movers",
    "name": "Les Aventuriers",
-   "exam": "A1 - en route",
+   "exam": "A1 · en route",
    "cast": "Le Club du Fjord",
    "mascot": "luna",
    "color": "#2f9268"
@@ -19,8 +19,8 @@
   {
    "id": "flyers",
    "name": "Les Navigateurs",
-   "exam": "A2 - exploration",
-   "cast": "L'Expedition Aurore",
+   "exam": "A2 · exploration",
+   "cast": "L'Expédition Aurore",
    "mascot": "kili",
    "color": "#3b6fb5"
   }
