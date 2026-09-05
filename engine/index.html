@@ -305,6 +305,10 @@ if(/\.github\.io$/i.test(location.hostname)){
   button{font-family:"Baloo 2",sans-serif;font-weight:700;font-size:1rem;border:0;border-radius:10px;padding:.55rem 1.2rem;cursor:pointer;background:var(--accent);color:#fff}
   button.secondary{background:var(--surface2);color:var(--ink)}
   button:disabled{opacity:.5;cursor:default}
+  .cpic-instr{font-weight:600;margin:.2rem 0 .6rem}
+  .cpic-pic{width:100%;max-width:820px;border:1px solid var(--line);border-radius:14px;display:block}
+  .cpic-items{margin:.6rem 0 0 1.2rem;font-size:1.02rem;line-height:1.7}
+  .cpic-items input{width:1.1rem;height:1.1rem;vertical-align:-2px;margin-right:.35rem}
   .checkrow{display:flex;align-items:center;gap:1rem;margin-top:1rem;flex-wrap:wrap}
   .score{font-weight:700}
   .score.good{color:var(--ok)} .score.partial{color:var(--star)}
@@ -649,6 +653,7 @@ if(/\.github\.io$/i.test(location.hostname)){
 <script src="banner.js?v=12"></script>
 <script src="magicbox.js?v=6"></script>
 <script src="recorder.js?v=3"></script>
+<script src="paint-layer.js?v=1"></script>
 <!-- el curso comparte dominio y sesion con el portal -->
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4"></script>
 <script src="../../config.js"></script>
@@ -1357,6 +1362,8 @@ function pintaSelfCheck(el, digital){
                       'Je sais associer les mots qui vont ensemble.'),
     exam_task:      T('I can choose the right answer in an exam task.',
                       "Je sais choisir la bonne réponse dans un exercice d'examen."),
+    colour_picture: T('I can listen and colour the picture.',
+                      "Je sais écouter et colorier l'image."),
     gap_text:       T('I can read a text and fill in the gaps.',
                       'Je sais lire un texte et compléter les trous.'),
     spot_diff:      T('I can compare two pictures and say the differences.',
@@ -2034,6 +2041,66 @@ function visAudio(el, act, guion){
 }
 
 const RENDER = {
+
+/* ---- Listening «colour and write»: pintar la lamina con lo que se oye ---- */
+colour_picture(act, el){
+  const d = act.data || {};
+  const items = d.items || [];
+  el.classList.add('cpic');
+  const conAudio = !!(act.audio || d.script);
+  el.innerHTML = `${conAudio ? `<div class="lsn-mando">
+      <button class="play" type="button">▶ ${T('Play','Lire')}</button>
+      <button class="stop" type="button" disabled>⏹ ${T('Stop','Arrêter')}</button>
+      <span class="provisional"></span></div>` : ''}
+    <p class="cpic-instr">${esc(d.instructions || T('Listen and colour the picture. Then write the words.', "Écoute et colorie l'image. Puis écris les mots."))}</p>
+    <img class="cpic-pic" src="${esc(d.image)}" alt="">
+    ${items.length ? `<ol class="cpic-items">${items.map((it,i)=>`<li><label><input type="checkbox" data-i="${i}"> ${esc(typeof it === 'string' ? it : it.text)}</label></li>`).join('')}</ol>` : ''}
+    <div class="checkrow final"><button class="chk">✅ ${T('I have finished','J’ai terminé')}</button><span class="score"></span></div>`;
+
+  // audio como en listening: mp3 si lo hay, si no la voz del navegador
+  if (conAudio){
+    const bPlay = el.querySelector('.play'), bStop = el.querySelector('.stop');
+    const audio = act.audio ? new Audio(`${ADIR}/${act.audio}`) : null;
+    let modo = audio ? 'mp3' : 'tts';
+    if (audio) audio.onerror = () => { modo = 'tts'; el.querySelector('.provisional').textContent = '(temporary browser voice — the real audio is coming soon)'; };
+    const estado = s => { bStop.disabled = !s; bPlay.disabled = s; bPlay.textContent = s ? T('▶ Playing…','▶ Lecture…') : T('▶ Play','▶ Lire'); };
+    if (audio) audio.onended = () => estado(false);
+    bPlay.onclick = () => {
+      if (modo === 'mp3' && audio && !audio.error){ audio.play(); estado(true); return; }
+      speechSynthesis.cancel();
+      const u = new SpeechSynthesisUtterance(String(d.script || items.map(it => typeof it === 'string' ? it : it.text).join(' … ')));
+      u.lang = 'en-GB'; u.rate = .85; u.onend = () => estado(false);
+      speechSynthesis.speak(u); estado(true);
+    };
+    bStop.onclick = () => { if (audio){ audio.pause(); audio.currentTime = 0; } speechSynthesis.cancel(); estado(false); };
+  }
+
+  // la pintura se guarda con el progreso de la unidad, por actividad
+  const img = el.querySelector('.cpic-pic');
+  PROG.paint = PROG.paint || {};
+  const paleta = d.colours && window.PaintLayer ? PaintLayer.YLE.filter(c => d.colours.indexOf(c.n) >= 0) : null;
+  const api = window.PaintLayer ? PaintLayer.attach(img, {
+    colours: (paleta && paleta.length) ? paleta.concat(PaintLayer.YLE.filter(c => c.n === 'black' && !paleta.some(p => p.n === 'black'))) : undefined,
+    initial: PROG.paint[act.code],
+    onChange(data){ PROG.paint[act.code] = data; store.set(UD.number, PROG); }
+  }) : null;
+
+  const marca = el.querySelector('.score');
+  el.querySelector('.chk').onclick = () => {
+    if (api && api.isEmpty()){
+      marca.textContent = T('Paint something first!', 'Colorie quelque chose d’abord !'); marca.className = 'score partial';
+      return;
+    }
+    const cajas = [...el.querySelectorAll('.cpic-items input')];
+    if (cajas.length && cajas.some(c => !c.checked)){
+      marca.textContent = T('Tick each thing when you have done it.', 'Coche chaque consigne quand c’est fait.'); marca.className = 'score partial';
+      return;
+    }
+    marca.textContent = '✔'; marca.className = 'score good';
+    el.querySelector('.chk').hidden = true;
+    complete(act.code, T('Lovely colours!', 'Belles couleurs !'));
+  };
+},
 
 /* ---- Listening Part 1: escribir el nombre debajo de cada persona ---- */
 label_people(act, el){
