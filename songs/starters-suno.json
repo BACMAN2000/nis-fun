@@ -1,0 +1,204 @@
+{
+ "_cuenta": "pbaca",
+ "_modelo": "v5.5",
+ "_nota": "Suno renombra las piezas. 'titulo' es el nuestro (starters.json), 'suno' el que puso Suno. Cada generacion deja DOS clips; hay que escuchar y quedarse con uno.",
+ "canciones": {
+  "01": {
+   "titulo": "Pip's Toy Box",
+   "suno": "Toy Box Fun",
+   "ids": [
+    "4dec8205-3893-4826-8a5c-3466d63c91ee",
+    "bba0913d-6139-45d9-8778-89d2156ffed2"
+   ],
+   "estado": "listo",
+   "groove": "ukelele"
+  },
+  "02": {
+   "titulo": "This Is My Family",
+   "suno": "This Is My Family",
+   "estado": "listo",
+   "ids_v1_ukelele": [
+    "b2e33408-adad-4db6-bbf3-f484b7543f95",
+    "f56daf3c-866c-4aae-8ff0-842b9c931d8a"
+   ],
+   "ids": [
+    "1054b764-91d8-44ec-9a4c-c01e1d2afdc7",
+    "82b6ae89-d497-4f77-80df-86b17034dd4c"
+   ],
+   "groove": "waltz"
+  },
+  "03": {
+   "titulo": "A Day at the Zoo",
+   "suno": "Zoo Counting Fun",
+   "estado": "listo",
+   "ids_v1_ukelele": [
+    "2ece59b9-9b05-4b54-bb76-d6887226daff",
+    "30d8147f-7c3b-4193-b56a-9e66457da8e1"
+   ],
+   "ids": [
+    "ab4219ba-8939-408c-948b-5663ec1a5293",
+    "ede22670-efdf-4b1a-8755-602db024d4a0"
+   ],
+   "groove": "banda"
+  },
+  "04": {
+   "titulo": "Count With Pip",
+   "suno": "Count Them All With Me",
+   "estado": "listo",
+   "ids_v1_ukelele": [
+    "ce0d71d2-c21c-40c7-af3f-45f114b923d0",
+    "66c42c27-9fdb-458d-b3fa-de42182cf44a"
+   ],
+   "ids": [
+    "748d4de3-716a-4f86-ad4b-b4e4edf19e05",
+    "cecf6a05-c3b9-4df8-8560-4385404214d4"
+   ],
+   "groove": "electro"
+  },
+  "05": {
+   "titulo": "Everything in My Bag",
+   "suno": "This Is My Bag",
+   "estado": "listo",
+   "ids_v1_ukelele": [
+    "7e2bec4a-d8d3-477f-8a26-cb9e232e3eca",
+    "703187a4-4914-4170-82a0-d09fd82566fe"
+   ],
+   "ids": [
+    "ead86f60-0b75-43ac-9fe8-baf16d1f0528",
+    "6a2e7680-8800-412b-bc4b-66303ed5fac4"
+   ],
+   "groove": "skiffle"
+  },
+  "06": {
+   "titulo": "What Colour Is the Sky?",
+   "suno": "What Colour Is?",
+   "estado": "listo",
+   "ids_v1_ukelele": [
+    "c8eaa3c6-21e5-4eff-b16a-f58d3f41a462",
+    "c7af2509-c606-4513-8839-0c64fec0c391"
+   ],
+   "ids": [
+    "a40e9fa2-138e-42ff-bc26-c469032ff0a4",
+    "c52e7179-39f9-458d-99c2-a05b18436ec0"
+   ],
+   "groove": "bossa"
+  },
+  "07": {
+   "titulo": "This Is My Body",
+   "suno": "From My Head Down To My",
+   "estado": "listo",
+   "ids_v1_ukelele": [
+    "aadf7271-101c-412f-b633-a77047bce54a",
+    "4114ed51-5bb2-4321-82bb-cbccd9a02714"
+   ],
+   "ids": [
+    "fe6b297e-af4d-423c-b30c-5192a8b1f69c",
+    "51a8e298-15b1-48fd-a3bb-6217a77dab6c"
+   ],
+   "groove": "funk"
+  },
+  "08": {
+   "titulo": "Look at My Face",
+   "suno": "Every Single Face Belongs",
+   "estado": "listo",
+   "ids_v1_ukelele": [
+    "d8e0ef06-d8b1-48af-9adb-758ddbdbaff1",
+    "8a0f17d6-d2a7-4f66-8deb-cb58935ca7ab"
+   ],
+   "ids": [
+    "4d23d7b7-4e04-4933-82e6-d881e3ab302e",
+    "cc9e58e2-38a7-4859-a52a-7834e88fca63"
+   ],
+   "groove": "doowop"
+  },
+  "_nota_v1": "'ids_v1_ukelele' son los clips de la primera tanda, cuando las ocho sonaban igual. Se dejan por si hace falta comparar; no son los buenos."
+ },
+ "chants": {
+  "01": {
+   "titulo": "What Colour Is It?",
+   "suno": "My Toy Box",
+   "ids": [
+    "f057a6c9-af64-423c-abf7-77fd6d1119a9",
+    "85066db2-156b-488f-8f81-54496d1012ba"
+   ],
+   "estado": "listo"
+  },
+  "02": {
+   "titulo": "Who Is This?",
+   "suno": "This Is My Family",
+   "ids": [
+    "5cf39c5c-0cbf-44d4-9421-1d38f95a2c6a",
+    "808302ae-c881-41b9-9dd9-7386f6d47ba1"
+   ],
+   "estado": "listo"
+  },
+  "03": {
+   "titulo": "It Can!",
+   "suno": "What Can It Do?",
+   "ids": [
+    "1998dee8-c88f-498b-a57f-d7c898a388c4",
+    "aee518fa-30b5-46d5-abdf-76d0223d0f78"
+   ],
+   "estado": "listo"
+  },
+  "04": {
+   "titulo": "How Many?",
+   "suno": "Count Them All",
+   "ids": [
+    "9b68e592-7b8c-47a0-a53d-067fd540a0ba",
+    "cebf4ff0-ecf7-4515-b2aa-e5e99b55635a"
+   ],
+   "estado": "listo",
+   "nota": "La letra original la rechazo Suno tres veces con \"Your lyrics contain copyrighted material\": el recitado seco uno-a-diez coincide con canciones infantiles conocidas. Se reescribio contando objetos (tres balls, seis kites, nueve cars) y paso. La letra buena esta en starters.json, ya cambiada."
+  },
+  "05": {
+   "titulo": "This Is My Bag",
+   "suno": "What's in Your Bag?",
+   "ids": [
+    "8c0871e9-619a-41a5-9683-6c7b95bca450",
+    "bdf61f34-4c88-4537-a7a4-436d944a0d86"
+   ],
+   "estado": "listo"
+  },
+  "06": {
+   "titulo": "Colours Everywhere",
+   "suno": "Colours Everywhere",
+   "ids": [
+    "4e6a8f8f-b731-4199-8a20-969991b4c51c",
+    "ad8cc4f7-2c7a-41ae-8b3e-3844b1b93267"
+   ],
+   "estado": "listo"
+  },
+  "07": {
+   "titulo": "I Have Got",
+   "suno": "Head to Feet",
+   "ids": [
+    "40dd7099-54ff-4793-bb92-a5ed4708d02b",
+    "bba2ea35-71fd-4130-a933-052fd8e73360"
+   ],
+   "estado": "listo"
+  },
+  "08": {
+   "titulo": "She Has Got",
+   "suno": "A Big, Big Smile",
+   "ids": [
+    "f92401d4-ea60-4d0d-8978-695ce93f0a1a",
+    "fa508709-d283-4f1b-add1-9c5316a2c050"
+   ],
+   "estado": "listo"
+  }
+ },
+ "descartar": {
+  "que": "chants con la letra de la unidad 1 y la 2 pegadas en el mismo clip",
+  "titulo_en_suno": "This Is My Family",
+  "ids": [
+   "e8eb3104-b11e-497c-a204-92d749497717",
+   "e5ffc6b0-3501-4ba6-ae16-7e4d068ced15",
+   "a33b6727-8a53-4ebb-8595-6b3dabc22fca",
+   "5c65df43-c8e4-4c09-8cfa-324dbcd6c9d4"
+  ],
+  "ojo": "en la biblioteca hay OTROS dos clips con este mismo titulo que si valen: son la cancion de la unidad 2. Se distinguen por el estilo: estos dicen \"children's music, chant\"."
+ },
+ "_moderacion": "Suno tiene un filtro de copyright que corta SIN decir nada en la biblioteca: solo sale un aviso rojo un par de segundos sobre el boton Create. Si una pieza no aparece, es esto. Hay que mirar la pantalla justo despues de pulsar, no la lista.",
+ "_grooves": "Las 45 canciones ya no comparten formula: cada unidad coge un groove distinto segun su tema (desfile para el zoo, vals para la familia, funk para mover el cuerpo) y dos unidades seguidas nunca llevan el mismo. Lo decide monta.py, no se escribe a mano. La 01 conserva el ukelele de la primera tanda."
+}

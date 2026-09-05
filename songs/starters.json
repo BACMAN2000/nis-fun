@@ -1,6 +1,6 @@
 {
  "_nivel": "starters",
- "_nota": "Una cancion y un chant por unidad, con la letra sacada del vocabulario y la gramatica de esa unidad. 'usa' dice cuantas palabras de la unidad aparecen de verdad en la letra.",
+ "_nota": "Una cancion y un chant por unidad, con la letra sacada del vocabulario y la gramatica de esa unidad. 'usa' dice cuantas palabras de la unidad aparecen de verdad en la letra; 'groove' es el aire musical, y no se repite dos unidades seguidas.",
  "unidades": {
   "01": {
    "unidad": "Colours and toys",
@@ -14,8 +14,9 @@
    "cancion": {
     "titulo": "Pip's Toy Box",
     "letra": "[Verse 1]\nOpen the box and look inside,\nthere's a red ball ready to hide.\nA yellow kite, a little blue train,\nlet's take them out and play again!\n\n[Chorus]\nIt's a ball! It's a kite!\nIt's a train! It's a car!\nWhat colour is it? What colour is it?\nTell me what you are!\n\n[Verse 2]\nHere's my teddy, soft and brown,\nhere's my doll in a yellow gown.\nGreen and red and blue and gold —\nmore than my two hands can hold!\n\n[Chorus]\nIt's a ball! It's a kite!\nIt's a train! It's a car!\nWhat colour is it? What colour is it?\nTell me what you are!\n\n[Bridge — soft]\nWho is hiding in the toy box?\nA little bird with an orange beak…\nPip! Pip! Hello, Pip!\n\n[Chorus]\nIt's a ball! It's a kite!\nIt's a train! It's a car!\nWhat colour is it? What colour is it?\nTell me what you are!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
-    "usa": 12
+    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, 104 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "usa": 12,
+    "groove": "ukelele"
    },
    "palabras": [
     "ball",
@@ -57,8 +58,9 @@
    "cancion": {
     "titulo": "This Is My Family",
     "letra": "[Verse 1]\nThis is my mother, she is kind,\nthis is my father, tall and tall.\nThis is my brother with a football,\nthis is my sister, very small.\n\n[Chorus]\nThis is my family, one, two, three,\nevery one of them belongs to me!\nMother, father, sister, brother —\nwe all look after one another.\n\n[Verse 2]\nThis is my grandma, she can sing,\nthis is my grandpa, he can too.\nAnd this is the baby, fast asleep —\nshh, don't wake him, wave hello!\n\n[Chorus]\nThis is my family, one, two, three,\nevery one of them belongs to me!\nMother, father, sister, brother —\nwe all look after one another.\n\n[Bridge]\nWho is this? Who is this?\nPoint and tell me, don't be shy!\n\n[Chorus]\nThis is my family, one, two, three,\nevery one of them belongs to me!\nMother, father, sister, brother —\nwe all look after one another.",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
-    "usa": 8
+    "estilo": "gentle children's waltz in 3/4, accordion and soft acoustic strings, 92 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "usa": 8,
+    "groove": "vals"
    },
    "palabras": [
     "mother",
@@ -85,9 +87,10 @@
    },
    "cancion": {
     "titulo": "A Day at the Zoo",
-    "letra": "[Verse 1]\nWe went to the zoo on a sunny day,\na dog and a cat came out to play.\nA bird up high, a fish below,\nhow many animals? Let's count and go!\n\n[Chorus]\nIt can fly, it can swim,\nit can run, it can climb!\nOne, two, three, four, five —\nwe could stay here all the time!\n\n[Verse 2]\nA horse says neigh, a cow says moo,\na duck goes quack the whole day through.\nA monkey swings from tree to tree,\nan elephant waves his trunk at me!\n\n[Chorus]\nIt can fly, it can swim,\nit can run, it can climb!\nOne, two, three, four, five —\nwe could stay here all the time!\n\n[Bridge — quiet]\nHow many animals did you see?\nCount them softly, one, two, three…\n\n[Chorus]\nIt can fly, it can swim,\nit can run, it can climb!\nOne, two, three, four, five —\nwe could stay here all the time!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
-    "usa": 9
+    "letra": "[Verse 1]\nWe went to the zoo on a sunny day,\na dog and a cat came out to play.\nA bird up high, a fish below,\nhow many animals? Let's count and go!\n\n[Chorus]\nIt can fly, it can swim,\nit can run, it can climb!\nOne, two, three, four, five —\nwe could stay here all the time!\n\n[Verse 2]\nA horse says neigh, a cow says moo,\na duck goes quack the whole day through.\nA monkey swings from tree to tree,\nan elephant waves his trunk at me!\n\n[Chorus]\nIt can fly, it can swim,\nit can run, it can climb!\nOne, two, three, four, five —\nwe could stay here all the time!\n\n[Bridge — quiet]\nHow many animals did you see?\nCount them softly, one and two and three.\n\n[Chorus]\nIt can fly, it can swim,\nit can run, it can climb!\nOne, two, three, four, five —\nwe could stay here all the time!",
+    "estilo": "cheerful marching band parade, snare drum, tuba and bright brass, 116 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "usa": 9,
+    "groove": "banda"
    },
    "palabras": [
     "dog",
@@ -107,15 +110,16 @@
    "gramatica": "How many…?",
    "chant": {
     "titulo": "How Many?",
-    "letra": "[Leader]\nHow many? How many?\n[Kids]\nOne, two, three!\n\n[Leader]\nHow many? How many?\n[Kids]\nFour, five, six!\n\n[Leader]\nHow many? How many?\n[Kids]\nSeven, eight, nine!\n\n[Leader]\nAnd one more makes…\n[Kids]\nTEN! TEN! TEN!\n\n[All]\nOne two three four five,\nsix seven eight nine ten —\nclap your hands and count again!",
+    "letra": "[Leader]\nHow many balls? How many balls?\n[Kids]\nOne ball, two balls, three red balls!\n\n[Leader]\nHow many kites? How many kites?\n[Kids]\nFour kites, five kites, six blue kites!\n\n[Leader]\nHow many cars? How many cars?\n[Kids]\nSeven cars, eight cars, nine little cars!\n\n[Leader]\nAnd one more? And one more?\n[Kids]\nTEN! That makes ten!\n\n[All]\nTen red balls, ten blue kites,\nten little cars — count them all!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
     "usa": 10
    },
    "cancion": {
     "titulo": "Count With Pip",
-    "letra": "[Verse 1]\nOne little puffin on a rock,\ntwo little boats and three grey stones.\nFour white clouds and five green hills,\nsix small shells all on our own.\n\n[Chorus]\nHow many? How many?\nCount them all with me!\nOne, two, three, four, five,\nsix, seven, eight, nine — and ten makes three… cheers!\n\n[Verse 2]\nSeven seagulls in the sky,\neight bright windows in the town.\nNine small footprints in the sand,\nten little fingers, up and down!\n\n[Chorus]\nHow many? How many?\nCount them all with me!\nOne, two, three, four, five,\nsix, seven, eight, nine — and ten makes three… cheers!\n\n[Bridge]\nStart again and don't be slow:\none, two, three… here we go!\n\n[Chorus]\nHow many? How many?\nCount them all with me!\nOne, two, three, four, five,\nsix, seven, eight, nine — and TEN!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
-    "usa": 10
+    "letra": "[Verse 1]\nOne little puffin on a rock,\ntwo little boats and three grey stones.\nFour white clouds and five green hills,\nsix small shells all on our own.\n\n[Chorus]\nHow many? How many?\nCount them all with me!\nFive on the hill and five on the shore —\nthat makes ten, let's count some more!\n\n[Verse 2]\nSeven seagulls in the sky,\neight bright windows in the town.\nNine small footprints in the sand,\nten little fingers, up and down!\n\n[Chorus]\nHow many? How many?\nCount them all with me!\nFive on the hill and five on the shore —\nthat makes ten, let's count some more!\n\n[Bridge]\nStart again and don't be slow:\none and two and three, let's go!\n\n[Chorus]\nHow many? How many?\nCount them all with me!\nFive on the hill and five on the shore —\nthat makes TEN!",
+    "estilo": "playful kids' electro-pop, bouncy synth bass, bleeps and claps, 110 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "usa": 10,
+    "groove": "electro"
    },
    "palabras": [
     "one",
@@ -143,8 +147,9 @@
    "cancion": {
     "titulo": "Everything in My Bag",
     "letra": "[Verse 1]\nThis is my pen and this is my book,\nthis is my pencil, come and look.\nAn eraser to rub the mistakes away,\nand a ruler for a straight, straight day.\n\n[Chorus]\nThis is my bag, this is my chair,\nthis is my table over there!\nCrayons, pencils, book and pen —\nlet's open up and start again!\n\n[Verse 2]\nRed crayon, blue crayon, green and gold,\nmore colours than my hands can hold.\nThe board is big, the board is white,\nthe teacher writes and we get it right!\n\n[Chorus]\nThis is my bag, this is my chair,\nthis is my table over there!\nCrayons, pencils, book and pen —\nlet's open up and start again!\n\n[Bridge — soft]\nPut it back, put it back,\neverything goes in my bag.\n\n[Chorus]\nThis is my bag, this is my chair,\nthis is my table over there!\nCrayons, pencils, book and pen —\nlet's open up and start again!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
-    "usa": 10
+    "estilo": "skiffle shuffle, washboard, upright bass and strummed acoustic guitar, 118 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "usa": 10,
+    "groove": "skiffle"
    },
    "palabras": [
     "pen",
@@ -172,8 +177,9 @@
    "cancion": {
     "titulo": "What Colour Is the Sky?",
     "letra": "[Verse 1]\nWhat colour is the sky today?\nBlue, blue, blue above the bay.\nWhat colour is the grass below?\nGreen, green, green wherever I go.\n\n[Chorus]\nRed and blue and green and yellow,\norange, purple, pink!\nBlack and white and brown as well —\nmore colours than you think!\n\n[Verse 2]\nWhat colour is the little sun?\nYellow, yellow, warm for everyone.\nWhat colour is the puffin's beak?\nOrange, orange — take a peek!\n\n[Chorus]\nRed and blue and green and yellow,\norange, purple, pink!\nBlack and white and brown as well —\nmore colours than you think!\n\n[Bridge]\nPoint at something in the room,\nsay its colour, don't be slow!\n\n[Chorus]\nRed and blue and green and yellow,\norange, purple, pink!\nBlack and white and brown as well —\nmore colours than you think!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
-    "usa": 10
+    "estilo": "light bossa nova, nylon-string guitar, shakers and brushed drums, 100 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "usa": 10,
+    "groove": "bossa"
    },
    "palabras": [
     "red",
@@ -201,8 +207,9 @@
    "cancion": {
     "titulo": "This Is My Body",
     "letra": "[Verse 1]\nI have got a head to think and dream,\nI have got two arms to swing.\nI have got two hands to clap and hold,\nI have got a voice to sing!\n\n[Chorus]\nHead and arms and hands and legs,\nfingers, knees and toes!\nThis is my body, this is me,\nfrom my head down to my toes!\n\n[Verse 2]\nI have got two legs to run and hop,\ntwo feet to take me far.\nTen little fingers, ten little toes,\nand knees that bend — here we are!\n\n[Chorus]\nHead and arms and hands and legs,\nfingers, knees and toes!\nThis is my body, this is me,\nfrom my head down to my toes!\n\n[Bridge — slow]\nTouch your head. Touch your knee.\nTouch your toes and look at me!\n\n[Chorus]\nHead and arms and hands and legs,\nfingers, knees and toes!\nThis is my body, this is me,\nfrom my head down to my toes!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
-    "usa": 9
+    "estilo": "clean kids' funk, clavinet, wah guitar and tight snappy drums, 104 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "usa": 9,
+    "groove": "funk"
    },
    "palabras": [
     "head",
@@ -234,8 +241,9 @@
    "cancion": {
     "titulo": "Look at My Face",
     "letra": "[Verse 1]\nShe has got two shining eyes,\nhe has got two ears to hear.\nShe has got a little nose,\nhe has got a smile from ear to ear.\n\n[Chorus]\nEyes and ears and nose and mouth,\nteeth so white and hair so long!\nLook at my face, look at yours —\nevery single face belongs!\n\n[Verse 2]\nHis hair is short, her hair is long,\nhis teeth are white, her smile is wide.\nWe are not the same at all\nand that's the best thing, side by side.\n\n[Chorus]\nEyes and ears and nose and mouth,\nteeth so white and hair so long!\nLook at my face, look at yours —\nevery single face belongs!\n\n[Bridge — soft]\nHe has got. She has got.\nOne little word tells you who!\n\n[Chorus]\nEyes and ears and nose and mouth,\nteeth so white and hair so long!\nLook at my face, look at yours —\nevery single face belongs!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
-    "usa": 10
+    "estilo": "sweet 50s doo-wop, finger snaps, piano triplets and sha-la-la backing, 124 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "usa": 10,
+    "groove": "doowop"
    },
    "palabras": [
     "face",
@@ -258,18 +266,19 @@
   },
   "09": {
    "unidad": "Clothes I wear",
-   "gramatica": "I am wearing…",
+   "gramatica": "I am wearing...",
    "chant": {
-    "titulo": "I Am Wearing",
-    "letra": "[Leader]\nWhat are you wearing?\n[Kids]\nI am wearing a t-shirt!\n\n[Leader]\nWhat are you wearing?\n[Kids]\nI am wearing trousers!\n\n[Leader]\nWhat are you wearing?\n[Kids]\nI am wearing shoes and socks!\n\n[Leader]\nAnd what is on your head?\n[Kids]\nA hat! A hat! A big red hat!\n\n[All]\nT-shirt, trousers, shoes and socks,\njacket, hat — we're ready to walk!",
+    "titulo": "What Are You Wearing?",
+    "letra": "[Leader]\nWhat are you wearing? What are you wearing?\n[Kids]\nA red t-shirt! A red t-shirt!\n\n[Leader]\nWhat are you wearing? What are you wearing?\n[Kids]\nBlue trousers! Blue trousers!\n\n[Leader]\nWhat are you wearing? What are you wearing?\n[Kids]\nGreen socks and yellow shoes!\n\n[Leader]\nAnd what is on your head?\n[Kids]\nA hat! A hat! A big blue hat!\n\n[All]\nT-shirt, trousers, socks and shoes,\njacket, hat — we're ready to move!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
     "usa": 7
    },
    "cancion": {
-    "titulo": "Ready to Go",
-    "letra": "[Verse 1]\nI am wearing my favourite t-shirt,\nI am wearing my blue trousers too.\nSocks on my feet and shoes on top —\nnow I'm ready, how about you?\n\n[Chorus]\nT-shirt, trousers, dress and skirt,\njacket, shorts and shoes!\nI am wearing, you are wearing —\ntell me what you choose!\n\n[Verse 2]\nAstrid's wearing a yellow dress,\nFreya's wearing a skirt today.\nNico's wearing a big warm jacket\nand shorts because he wants to play!\n\n[Chorus]\nT-shirt, trousers, dress and skirt,\njacket, shorts and shoes!\nI am wearing, you are wearing —\ntell me what you choose!\n\n[Bridge]\nIs it cold? Then wear your jacket.\nIs it hot? Then wear your hat!\n\n[Chorus]\nT-shirt, trousers, dress and skirt,\njacket, shorts and shoes!\nI am wearing, you are wearing —\ntell me what you choose!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
-    "usa": 11
+    "titulo": "I Am Wearing",
+    "letra": "[Verse 1]\nFreya is wearing a long green dress,\nNico is wearing a yellow hat.\nAstrid has got her jacket on,\nTomás has shorts — imagine that!\n\n[Chorus]\nI am wearing, you are wearing,\nt-shirt, trousers, skirt and shoes!\nSocks and jacket, hat and dress —\ntell me what you choose!\n\n[Verse 2]\nCurly hair and straight hair too,\nshort and tall, we're all a crew.\nSeven years old, then eight, then nine,\nfirst, second, third — we're right in line!\n\n[Chorus]\nI am wearing, you are wearing,\nt-shirt, trousers, skirt and shoes!\nSocks and jacket, hat and dress —\ntell me what you choose!\n\n[Bridge]\nLook at me and look at you,\nwhat am I wearing? What are you?\n\n[Chorus]\nI am wearing, you are wearing,\nt-shirt, trousers, skirt and shoes!\nSocks and jacket, hat and dress —\ntell me what you choose!",
+    "estilo": "bouncy accordion polka, tuba oom-pah and tambourine, 120 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "groove": "polka",
+    "usa": 18
    },
    "palabras": [
     "t-shirt",
@@ -303,17 +312,18 @@
   },
   "10": {
    "unidad": "My house",
-   "gramatica": "Where is…? It's in the…",
+   "gramatica": "Where is...? It's in the...",
    "chant": {
     "titulo": "Where Is Pip?",
-    "letra": "[Leader]\nWhere is Pip?\n[Kids]\nIn the kitchen! In the kitchen!\n\n[Leader]\nWhere is Pip?\n[Kids]\nIn the bedroom! In the bedroom!\n\n[Leader]\nWhere is Pip?\n[Kids]\nIn the bathroom! In the bathroom!\n\n[Leader]\nWhere is Pip?\n[Kids]\nIn the garden! In the garden!\n\n[All]\nKitchen, bedroom, bathroom, garden —\nopen the door and come on in!",
+    "letra": "[Leader]\nWhere is Pip? Where is Pip?\n[Kids]\nIn the kitchen! In the kitchen!\n\n[Leader]\nWhere is Pip? Where is Pip?\n[Kids]\nIn the bedroom! Under the bed!\n\n[Leader]\nWhere is Pip? Where is Pip?\n[Kids]\nIn the bathroom! Behind the door!\n\n[Leader]\nWhere is Pip? Where is Pip?\n[Kids]\nIn the garden! By the wall!\n\n[All]\nKitchen, bedroom, bathroom, garden —\nfind that puffin, everyone!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
-    "usa": 5
+    "usa": 6
    },
    "cancion": {
     "titulo": "Come Into My House",
-    "letra": "[Verse 1]\nOpen the door and come inside,\nthis is the house where I live.\nThe kitchen smells of bread and jam,\nthe living room is warm and big.\n\n[Chorus]\nWhere is it? Where is it?\nIt's in the house, it's here!\nKitchen, bedroom, bathroom, garden —\ncome and look, my dear!\n\n[Verse 2]\nUp the stairs, my bedroom waits,\nthe bathroom door is blue.\nThrough the window, past the wall,\nthe garden's green and new.\n\n[Chorus]\nWhere is it? Where is it?\nIt's in the house, it's here!\nKitchen, bedroom, bathroom, garden —\ncome and look, my dear!\n\n[Bridge — soft]\nFloor below and wall beside,\nwindow letting in the light.\n\n[Chorus]\nWhere is it? Where is it?\nIt's in the house, it's here!\nKitchen, bedroom, bathroom, garden —\ncome and look, my dear!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
+    "letra": "[Verse 1]\nCome into my house, the door is open wide,\nthere's a window in the kitchen looking out.\nThe living room has pictures on the wall\nand a warm wooden floor to walk about.\n\n[Chorus]\nWhere is the cat? Where is the ball?\nIt's in the bedroom, down the hall!\nKitchen, bathroom, garden, wall —\nthis is my house, I love it all!\n\n[Verse 2]\nPip is in the garden by the little tree,\nLucía's in the bathroom, one, two, three.\nRosa's in the kitchen making something sweet\nand the living room is where we meet.\n\n[Chorus]\nWhere is the cat? Where is the ball?\nIt's in the bedroom, down the hall!\nKitchen, bathroom, garden, wall —\nthis is my house, I love it all!\n\n[Bridge]\nKnock, knock, knock — who's at the door?\nCome inside and look around some more!\n\n[Chorus]\nWhere is the cat? Where is the ball?\nIt's in the bedroom, down the hall!\nKitchen, bathroom, garden, wall —\nthis is my house, I love it all!",
+    "estilo": "gentle children's waltz in 3/4, accordion and soft acoustic strings, 92 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "groove": "vals",
     "usa": 10
    },
    "palabras": [
@@ -332,18 +342,19 @@
   },
   "11": {
    "unidad": "In my bedroom",
-   "gramatica": "There is… + colours",
+   "gramatica": "There is... + colours",
    "chant": {
     "titulo": "There Is, There Is",
-    "letra": "[Leader]\nThere is a bed —\n[Kids]\na big blue bed!\n\n[Leader]\nThere is a lamp —\n[Kids]\na small yellow lamp!\n\n[Leader]\nThere is a clock —\n[Kids]\na round red clock!\n\n[Leader]\nThere is a toy box —\n[Kids]\na green toy box!\n\n[All]\nBed, lamp, clock, toy box,\npicture, pillow, blanket, rug —\nthis is my bedroom, snug as a bug!",
+    "letra": "[Leader]\nThere is a bed — where is the bed?\n[Kids]\nNext to the window! Next to the window!\n\n[Leader]\nThere is a lamp — where is the lamp?\n[Kids]\nOn the shelf! On the shelf!\n\n[Leader]\nThere is a toy box — where's the toy box?\n[Kids]\nUnder the bed! Under the bed!\n\n[Leader]\nThere is a clock — where is the clock?\n[Kids]\nOn the wall! Tick tock, tick tock!\n\n[All]\nBed and lamp and toy box too,\npillow, blanket, me and you!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
-    "usa": 8
+    "usa": 10
    },
    "cancion": {
     "titulo": "My Little Room",
-    "letra": "[Verse 1]\nThere is a bed with a soft white pillow,\nthere is a blanket, warm and blue.\nThere is a lamp beside the window\nand a rug that's green and new.\n\n[Chorus]\nThere is, there is, there is —\neverything is in its place!\nToy box, cupboard, clock and picture,\nmy own little space!\n\n[Verse 2]\nThere is a shelf with all my books,\nthere is a picture on the wall.\nThere is a clock that says goodnight\nand a toy box for them all.\n\n[Chorus]\nThere is, there is, there is —\neverything is in its place!\nToy box, cupboard, clock and picture,\nmy own little space!\n\n[Bridge — quiet]\nGoodnight lamp, goodnight clock,\ngoodnight bed and goodnight rug…\n\n[Chorus]\nThere is, there is, there is —\neverything is in its place!\nToy box, cupboard, clock and picture,\nmy own little space!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
-    "usa": 12
+    "letra": "[Verse 1]\nThere is a bed with a soft white pillow,\nthere is a blanket, warm and blue.\nThere is a rug beside the cupboard\nand a little lamp that shines for you.\n\n[Chorus]\nThis is my room, my little room,\nthere is a picture on the wall.\nToy box, clock and shelf and bed —\ngoodnight, goodnight to all.\n\n[Verse 2]\nPip is sleeping in the toy box,\none grey feather on the rug.\nThe clock says ten, the lamp goes off,\nthe blanket gives a gentle hug.\n\n[Chorus]\nThis is my room, my little room,\nthere is a picture on the wall.\nToy box, clock and shelf and bed —\ngoodnight, goodnight to all.\n\n[Bridge — very soft]\nIn the cupboard, on the shelf,\nunder the bed — sleep well yourself.\n\n[Chorus]\nThis is my room, my little room,\nthere is a picture on the wall.\nToy box, clock and shelf and bed —\ngoodnight, goodnight to all.",
+    "estilo": "soft lullaby, music box, celesta and gentle strings, 72 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "groove": "nana",
+    "usa": 13
    },
    "palabras": [
     "bed",
@@ -365,18 +376,19 @@
   },
   "12": {
    "unidad": "Food I like",
-   "gramatica": "I like… / I don't like…",
+   "gramatica": "I like... / I don't like...",
    "chant": {
-    "titulo": "I Like, I Don't Like",
-    "letra": "[Leader]\nI like cake!\n[Kids]\nYes! Yes! I like cake!\n\n[Leader]\nI like pizza!\n[Kids]\nYes! Yes! I like pizza!\n\n[Leader]\nI don't like… fish!\n[Kids]\nNo! No! I don't like fish!\n\n[Leader]\nI like ice cream!\n[Kids]\nYUMMY! YUMMY!\n\n[All]\nBread and cheese and egg and rice,\nchicken, cake — it's all so nice!",
+    "titulo": "Do You Like It?",
+    "letra": "[Leader]\nDo you like cheese? Do you like cheese?\n[Kids]\nYes, I like cheese! Yummy, yummy cheese!\n\n[Leader]\nDo you like fish? Do you like fish?\n[Kids]\nNo, I don't like fish! No, no, no!\n\n[Leader]\nDo you like cake? Do you like cake?\n[Kids]\nYes, I like cake! My favourite cake!\n\n[Leader]\nBread and rice and chicken too?\n[Kids]\nYes, we do! Yes, we do!\n\n[All]\nI like, I like, I don't like —\ntell me what you like tonight!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
-    "usa": 12
+    "usa": 10
    },
    "cancion": {
-    "titulo": "Yummy!",
-    "letra": "[Verse 1]\nI like bread and I like cheese,\nI like eggs and rice as well.\nI like chicken on my plate —\nyou can smell it, you can tell!\n\n[Chorus]\nI like, I like, I like it — yummy!\nI don't like, I don't like — no thank you!\nCake and pizza, ice cream too,\nwhat do you like? Tell me, do!\n\n[Verse 2]\nTomás likes his pizza hot,\nAstrid likes her ice cream cold.\nFreya doesn't like the fish,\nbut she eats her bread, we're told!\n\n[Chorus]\nI like, I like, I like it — yummy!\nI don't like, I don't like — no thank you!\nCake and pizza, ice cream too,\nwhat do you like? Tell me, do!\n\n[Bridge]\nSay yes please and say no thank you,\nboth are kind and both are true.\n\n[Chorus]\nI like, I like, I like it — yummy!\nI don't like, I don't like — no thank you!\nCake and pizza, ice cream too,\nwhat do you like? Tell me, do!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
-    "usa": 13
+    "titulo": "My Favourite Food",
+    "letra": "[Verse 1]\nI like bread and I like cheese,\nI like rice with chicken, please!\nNico likes his pizza hot,\nFreya likes an egg — I do not!\n\n[Chorus]\nI like, I like, I don't like —\ntell me what you like!\nCake and ice cream, milk and juice,\nmy favourite every night!\n\n[Verse 2]\nAstrid likes a yellow banana,\nTomás likes an apple, red.\nWater when you're very thirsty,\nwarm milk when you go to bed.\n\n[Chorus]\nI like, I like, I don't like —\ntell me what you like!\nCake and ice cream, milk and juice,\nmy favourite every night!\n\n[Bridge]\nYummy, yummy — say it loud!\nWhat's your favourite? Say it proud!\n\n[Chorus]\nI like, I like, I don't like —\ntell me what you like!\nCake and ice cream, milk and juice,\nmy favourite every night!",
+    "estilo": "sunny calypso, steel drums and shakers, 108 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "groove": "calipso",
+    "usa": 17
    },
    "palabras": [
     "bread",
@@ -405,14 +417,15 @@
    "gramatica": "plurals + colours",
    "chant": {
     "titulo": "One Apple, Two Apples",
-    "letra": "[Leader]\nOne apple —\n[Kids]\ntwo appleS!\n\n[Leader]\nOne banana —\n[Kids]\ntwo bananaS!\n\n[Leader]\nOne orange —\n[Kids]\ntwo orangeS!\n\n[Leader]\nOne mango —\n[Kids]\ntwo mangoES!\n\n[Leader]\nAnd the grapes?\n[Kids]\nAlways grapes! Always grapes!\n\n[All]\nRed apple, yellow banana,\ngreen grapes, sweet mango — yum!",
+    "letra": "[Leader]\nOne apple —\n[Kids]\ntwo apples, three apples!\n\n[Leader]\nOne banana —\n[Kids]\ntwo bananas, yellow bananas!\n\n[Leader]\nOne orange —\n[Kids]\ntwo oranges, round and sweet!\n\n[Leader]\nOne strawberry —\n[Kids]\ntwo strawberries, red and small!\n\n[All]\nGrapes and mango, pineapple too —\nwatermelon for me and you!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
-    "usa": 6
+    "usa": 9
    },
    "cancion": {
-    "titulo": "Fruit Fun",
-    "letra": "[Verse 1]\nOne red apple, two red apples,\nthree yellow bananas in a row.\nGreen, green grapes upon the table,\nsweet as sweet wherever they go.\n\n[Chorus]\nAdd a little S, add a little S,\none becomes two — that's the trick!\nApples, oranges, mangoes, grapes,\nstrawberry juice, take your pick!\n\n[Verse 2]\nOne big watermelon, cool and pink,\ntwo pineapples standing tall.\nStrawberries small and strawberries red —\nlet's share the fruit with all!\n\n[Chorus]\nAdd a little S, add a little S,\none becomes two — that's the trick!\nApples, oranges, mangoes, grapes,\nstrawberry juice, take your pick!\n\n[Bridge]\nOne is one, but two needs S,\nsay it softly — you'll not miss!\n\n[Chorus]\nAdd a little S, add a little S,\none becomes two — that's the trick!\nApples, oranges, mangoes, grapes,\nstrawberry juice, take your pick!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
+    "titulo": "The Fruit Shop",
+    "letra": "[Verse 1]\nGreen grapes, purple grapes hanging in a row,\none banana, two bananas, yellow in the sun.\nA big red watermelon, sweeter than you know,\nand a little strawberry for everyone.\n\n[Chorus]\nApples, oranges, mangoes, grapes —\nsay them all with me!\nOne is one but two are TWO,\nfruit for you and me!\n\n[Verse 2]\nPineapple is spiky, orange is round,\nmango juice is dripping on the ground.\nFreya counts the apples, one, two, three,\nand Pip is hiding in the strawberry tree!\n\n[Chorus]\nApples, oranges, mangoes, grapes —\nsay them all with me!\nOne is one but two are TWO,\nfruit for you and me!\n\n[Bridge]\nSweet and sweet and sweet again,\nsqueeze it up and drink the juice!\n\n[Chorus]\nApples, oranges, mangoes, grapes —\nsay them all with me!\nOne is one but two are TWO,\nfruit for you and me!",
+    "estilo": "light bossa nova, nylon-string guitar, shakers and brushed drums, 100 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "groove": "bossa",
     "usa": 10
    },
    "palabras": [
@@ -431,18 +444,19 @@
   },
   "14": {
    "unidad": "Drinks",
-   "gramatica": "Can I have…?",
+   "gramatica": "Can I have...?",
    "chant": {
     "titulo": "Can I Have?",
-    "letra": "[Leader]\nCan I have some water?\n[Kids]\nYes, you can! Yes, you can!\n\n[Leader]\nCan I have some milk?\n[Kids]\nYes, you can! Yes, you can!\n\n[Leader]\nCan I have some juice?\n[Kids]\nYes, you can! Yes, you can!\n\n[Leader]\nCan I have hot chocolate?\n[Kids]\nYes! In a big warm cup!\n\n[All]\nWater, milk and juice and lemonade —\nI'm thirsty! Can I have some, please?",
+    "letra": "[Leader]\nCan I have some water?\n[Kids]\nYes, you can! A glass of water!\n\n[Leader]\nCan I have some milk?\n[Kids]\nYes, you can! A cup of milk!\n\n[Leader]\nCan I have some juice?\n[Kids]\nCold, cold juice for a thirsty day!\n\n[Leader]\nCan I have hot chocolate?\n[Kids]\nYes! Yes! Hot chocolate, please!\n\n[All]\nWater, milk and juice and more —\nhealthy drinks, that's what they're for!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
-    "usa": 7
+    "usa": 10
    },
    "cancion": {
-    "titulo": "Can I Have Some Water?",
-    "letra": "[Verse 1]\nI ran and ran around the park,\nnow I'm hot and I am dry.\nCan I have a glass of water?\nCold and clear — I'll tell you why!\n\n[Chorus]\nCan I have, can I have,\ncan I have some, please?\nWater, milk and juice and lemonade —\nsay please and say thank you!\n\n[Verse 2]\nWhen it's cold outside the door\nand my fingers feel like ice,\ncan I have hot chocolate in a cup?\nWarm and sweet — oh, that is nice!\n\n[Chorus]\nCan I have, can I have,\ncan I have some, please?\nWater, milk and juice and lemonade —\nsay please and say thank you!\n\n[Bridge — soft]\nA glass for cold, a cup for hot,\nI'm thirsty — that's my favourite spot!\n\n[Chorus]\nCan I have, can I have,\ncan I have some, please?\nWater, milk and juice and lemonade —\nsay please and say thank you!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
-    "usa": 9
+    "titulo": "A Cup and a Glass",
+    "letra": "[Verse 1]\nI am thirsty, very thirsty,\ncan I have a glass of water, please?\nCold and clear and good for running,\nbetter than the sweets, believe me!\n\n[Chorus]\nCan I have, can I have\na cup of milk, a glass of juice?\nLemonade or hot chocolate —\nsay the words and they're for you!\n\n[Verse 2]\nFruit and vegetables, bread and dairy,\nmeat and fish to make you strong.\nHealthy first and sweets on Sunday,\nthat's the way we get along.\n\n[Chorus]\nCan I have, can I have\na cup of milk, a glass of juice?\nLemonade or hot chocolate —\nsay the words and they're for you!\n\n[Bridge]\nThirsty, thirsty in the sun —\none big glass for everyone!\n\n[Chorus]\nCan I have, can I have\na cup of milk, a glass of juice?\nLemonade or hot chocolate —\nsay the words and they're for you!",
+    "estilo": "sunny calypso, steel drums and shakers, 108 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "groove": "calipso",
+    "usa": 16
    },
    "palabras": [
     "water",
@@ -468,17 +482,18 @@
   },
   "15": {
    "unidad": "Pets at home",
-   "gramatica": "Have you got…?",
+   "gramatica": "Have you got...?",
    "chant": {
     "titulo": "Have You Got a Pet?",
-    "letra": "[Leader]\nHave you got a dog?\n[Kids]\nYes, I have! Woof, woof!\n\n[Leader]\nHave you got a cat?\n[Kids]\nYes, I have! Meow!\n\n[Leader]\nHave you got a fish?\n[Kids]\nYes, I have! Blub, blub!\n\n[Leader]\nHave you got a bird?\n[Kids]\nYes, I have! Tweet, tweet!\n\n[Leader]\nHave you got an elephant?\n[Kids]\nNo, I haven't! Too big!",
+    "letra": "[Leader]\nHave you got a dog?\n[Kids]\nYes, I have! A big brown dog!\n\n[Leader]\nHave you got a cat?\n[Kids]\nYes, I have! A small grey cat!\n\n[Leader]\nHave you got a fish?\n[Kids]\nYes, I have! In a bowl of blue!\n\n[Leader]\nHave you got a mouse?\n[Kids]\nNo, I haven't! Not a mouse!\n\n[All]\nDog and cat and bird and fish —\nevery pet's a little friend!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
-    "usa": 4
+    "usa": 8
    },
    "cancion": {
     "titulo": "My Little Friend",
-    "letra": "[Verse 1]\nHave you got a dog with a waggy tail?\nHave you got a cat so small?\nHave you got a fish that never speaks\nbut hears you when you call?\n\n[Chorus]\nHave you got, have you got,\nhave you got a pet?\nDog and cat and bird and rabbit —\nthe best friend you can get!\n\n[Verse 2]\nA rabbit with two long, long ears,\na mouse so quiet, quick and grey.\nA bird that sings above your bed\nto wake you up at break of day.\n\n[Chorus]\nHave you got, have you got,\nhave you got a pet?\nDog and cat and bird and rabbit —\nthe best friend you can get!\n\n[Bridge — gentle]\nGive it water, give it food,\nand it will give you all its love.\n\n[Chorus]\nHave you got, have you got,\nhave you got a pet?\nDog and cat and bird and rabbit —\nthe best friend you can get!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
+    "letra": "[Verse 1]\nHave you got a dog with a waggy tail?\nHave you got a cat that sleeps all day?\nNico's got a rabbit, small and white,\nAstrid's got a bird that sings away.\n\n[Chorus]\nHave you got, have you got\na pet to call your friend?\nDog and cat and fish and bird —\nwe'll love them to the end!\n\n[Verse 2]\nA mouse is small, a dog is tall,\na fish says nothing much at all.\nPip is not a pet, he's free,\nbut he comes back home for tea!\n\n[Chorus]\nHave you got, have you got\na pet to call your friend?\nDog and cat and fish and bird —\nwe'll love them to the end!\n\n[Bridge]\nFeed them, brush them, keep them warm —\na pet's a friend in every storm.\n\n[Chorus]\nHave you got, have you got\na pet to call your friend?\nDog and cat and fish and bird —\nwe'll love them to the end!",
+    "estilo": "country hoedown, banjo, fiddle and foot stomps, 96 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "groove": "campo",
     "usa": 10
    },
    "palabras": [
@@ -497,18 +512,19 @@
   },
   "16": {
    "unidad": "On the farm",
-   "gramatica": "animal sounds + It is a…",
+   "gramatica": "animal sounds + It is a...",
    "chant": {
-    "titulo": "What Says Moo?",
-    "letra": "[Leader]\nWhat says MOO?\n[Kids]\nIt is a cow! It is a cow!\n\n[Leader]\nWhat says NEIGH?\n[Kids]\nIt is a horse! It is a horse!\n\n[Leader]\nWhat says QUACK?\n[Kids]\nIt is a duck! It is a duck!\n\n[Leader]\nWhat says OINK?\n[Kids]\nIt is a pig! It is a pig!\n\n[All]\nMoo, neigh, quack, oink, baa!\nCow and horse and duck and pig — hurrah!",
+    "titulo": "What Is It?",
+    "letra": "[Leader]\nMoo! Moo! What is it?\n[Kids]\nIt is a cow! It is a cow!\n\n[Leader]\nNeigh! Neigh! What is it?\n[Kids]\nIt is a horse! It is a horse!\n\n[Leader]\nOink! Oink! What is it?\n[Kids]\nIt is a pig! A pink, pink pig!\n\n[Leader]\nQuack! Quack! What is it?\n[Kids]\nIt is a duck down by the grass!\n\n[All]\nCow and horse and pig and duck,\nsheep and goat and hen — good luck!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
-    "usa": 7
+    "usa": 11
    },
    "cancion": {
-    "titulo": "Down on the Farm",
-    "letra": "[Verse 1]\nDown on the farm the sun comes up,\nthe hen lays one white egg.\nThe cow says moo across the grass,\nthe horse stands on four legs.\n\n[Chorus]\nMoo and neigh and quack and baa,\noink and cluck all day!\nIt is a cow, it is a horse —\ncome down to the farm and play!\n\n[Verse 2]\nThe sheep says baa, so soft and slow,\nthe goat eats everything he sees.\nThe duck goes quack down to the pond\nand the pig sleeps under the trees.\n\n[Chorus]\nMoo and neigh and quack and baa,\noink and cluck all day!\nIt is a cow, it is a horse —\ncome down to the farm and play!\n\n[Bridge]\nClose your eyes and tell me true:\nwhat is that? What says moo?\n\n[Chorus]\nMoo and neigh and quack and baa,\noink and cluck all day!\nIt is a cow, it is a horse —\ncome down to the farm and play!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
-    "usa": 12
+    "titulo": "Morning on the Farm",
+    "letra": "[Verse 1]\nThe sun comes up on the farm at seven,\nthe hen is looking for a place to sit.\nShe leaves one egg in the yellow straw\nand the goat eats grass — that's it!\n\n[Chorus]\nMoo says the cow, neigh says the horse,\noink says the pig in the mud!\nIt is a sheep, it is a duck,\nit is a farm and it is good!\n\n[Verse 2]\nThe dog runs out and the cat runs in,\nthe sheep are white, the mud is thick.\nTomás carries a bucket of water,\nFreya counts the ducks — that's the trick!\n\n[Chorus]\nMoo says the cow, neigh says the horse,\noink says the pig in the mud!\nIt is a sheep, it is a duck,\nit is a farm and it is good!\n\n[Bridge]\nListen, listen, what do you hear?\nSay the animal loud and clear!\n\n[Chorus]\nMoo says the cow, neigh says the horse,\noink says the pig in the mud!\nIt is a sheep, it is a duck,\nit is a farm and it is good!",
+    "estilo": "clean kids' funk, clavinet, wah guitar and tight snappy drums, 104 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "groove": "funk",
+    "usa": 14
    },
    "palabras": [
     "cow",
@@ -532,16 +548,17 @@
    "unidad": "Big animals",
    "gramatica": "It is big / small + can",
    "chant": {
-    "titulo": "Big and Small",
-    "letra": "[Leader]\nThe elephant —\n[Kids]\nIt is BIG! It is BIG!\n\n[Leader]\nThe monkey —\n[Kids]\nIt is small! It is small!\n\n[Leader]\nThe giraffe —\n[Kids]\nIt is TALL! It is TALL!\n\n[Leader]\nThe snake —\n[Kids]\nIt is long! It is long!\n\n[Leader]\nAnd what can the lion do?\n[Kids]\nIt can ROAR! ROAR! ROAR!",
+    "titulo": "Big or Small?",
+    "letra": "[Leader]\nAn elephant — big or small?\n[Kids]\nBIG! Very, very big!\n\n[Leader]\nA hamster — big or small?\n[Kids]\nSmall! Very, very small!\n\n[Leader]\nA giraffe — short or tall?\n[Kids]\nTall! Tall! Very tall!\n\n[Leader]\nA tiger — fast or slow?\n[Kids]\nFast! Fast! Run, run, run!\n\n[All]\nLion, monkey, hippo, bear —\nwild animals everywhere!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
-    "usa": 7
+    "usa": 13
    },
    "cancion": {
-    "titulo": "Wild and Wonderful",
-    "letra": "[Verse 1]\nThe elephant is big and grey,\nthe monkey's small and quick.\nThe giraffe is very, very tall,\nthe snake is long and slick.\n\n[Chorus]\nIt is big, it is small,\nit is tall, it is long!\nLion, tiger, bear and hippo —\nsing the wild song!\n\n[Verse 2]\nThe lion roars, the tiger runs,\nthe hippo swims all day.\nThe bear is big, the bear is brown,\nand he can climb away!\n\n[Chorus]\nIt is big, it is small,\nit is tall, it is long!\nLion, tiger, bear and hippo —\nsing the wild song!\n\n[Bridge — slow]\nThey live wild, they live free,\nat the zoo we come to see.\n\n[Chorus]\nIt is big, it is small,\nit is tall, it is long!\nLion, tiger, bear and hippo —\nsing the wild song!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
-    "usa": 13
+    "titulo": "At the Big Zoo",
+    "letra": "[Verse 1]\nThe lion is big and the lion is loud,\nthe monkey is quick and the monkey is proud.\nA hippo is heavy, a snake is long,\na parrot is friendly and sings a song.\n\n[Chorus]\nIt is big! It is small!\nIt can run and it can climb!\nLion, tiger, bear and hippo —\nwild ones all the time!\n\n[Verse 2]\nA giraffe can reach the highest leaf,\nan elephant is slow but strong.\nA rabbit and a hamster are small and soft\nand a tiger's stripes are never wrong.\n\n[Chorus]\nIt is big! It is small!\nIt can run and it can climb!\nLion, tiger, bear and hippo —\nwild ones all the time!\n\n[Bridge]\nScary? No — just big and wild.\nSay hello and stay a while!\n\n[Chorus]\nIt is big! It is small!\nIt can run and it can climb!\nLion, tiger, bear and hippo —\nwild ones all the time!",
+    "estilo": "cheerful marching band parade, snare drum, tuba and bright brass, 116 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "groove": "banda",
+    "usa": 17
    },
    "palabras": [
     "lion",
@@ -570,16 +587,17 @@
    "unidad": "The sea",
    "gramatica": "There is / There are",
    "chant": {
-    "titulo": "There Is the Sea",
-    "letra": "[Leader]\nThere is a boat —\n[Kids]\none little boat!\n\n[Leader]\nThere are shells —\n[Kids]\nmany, many shells!\n\n[Leader]\nThere is a crab —\n[Kids]\none red crab!\n\n[Leader]\nThere are waves —\n[Kids]\nbig blue waves!\n\n[All]\nOne is IS, many is ARE.\nSea and sand and shell and star!",
+    "titulo": "There Is, There Are",
+    "letra": "[Leader]\nThere is a boat!\n[Kids]\nThere is a boat on the blue, blue sea!\n\n[Leader]\nThere are shells!\n[Kids]\nThere are shells on the golden sand!\n\n[Leader]\nThere is a crab!\n[Kids]\nThere is a crab — run, run, run!\n\n[Leader]\nThere are fish!\n[Kids]\nThere are fish and they swim and swim!\n\n[All]\nSea and sand and shell and star —\nthere they are, there they are!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
-    "usa": 8
+    "usa": 9
    },
    "cancion": {
-    "titulo": "Blue, Blue Sea",
-    "letra": "[Verse 1]\nThere is a boat out on the water,\nthere are waves that come and go.\nThere is a crab beneath a rock,\nthere are shells all in a row.\n\n[Chorus]\nThere is one, there are many,\nblue, blue sea and golden sand!\nFish below and birds above —\nthe sea is the biggest land!\n\n[Verse 2]\nThere is a star upon the shore,\nthere are fish beneath the blue.\nThere is a lighthouse, tall and white,\nand a puffin waving too!\n\n[Chorus]\nThere is one, there are many,\nblue, blue sea and golden sand!\nFish below and birds above —\nthe sea is the biggest land!\n\n[Bridge — gentle]\nOne shell — there IS.\nTen shells — there ARE.\n\n[Chorus]\nThere is one, there are many,\nblue, blue sea and golden sand!\nFish below and birds above —\nthe sea is the biggest land!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
-    "usa": 9
+    "titulo": "Down by the Blue Sea",
+    "letra": "[Verse 1]\nThere is a little boat out on the water,\nthere are waves that come and go.\nThere is a crab beneath a broken shell\nand a starfish down below.\n\n[Chorus]\nThere is, there are,\ndown by the blue, blue sea!\nFish that swim and sand that's warm —\ncome along with me!\n\n[Verse 2]\nPip is standing on a rock and looking,\nAstrid counts the shells she found.\nThere are footprints in the yellow sand\nand a wave that makes a sound.\n\n[Chorus]\nThere is, there are,\ndown by the blue, blue sea!\nFish that swim and sand that's warm —\ncome along with me!\n\n[Bridge]\nOne is \"there is\", more is \"there are\" —\nsay it right and swim out far!\n\n[Chorus]\nThere is, there are,\ndown by the blue, blue sea!\nFish that swim and sand that's warm —\ncome along with me!",
+    "estilo": "easy children's reggae, offbeat guitar skank and warm bass, 88 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "groove": "reggae",
+    "usa": 10
    },
    "palabras": [
     "sea",
@@ -600,15 +618,16 @@
    "gramatica": "man / woman / boy / girl",
    "chant": {
     "titulo": "Who Is It?",
-    "letra": "[Leader]\nA big person — a father?\n[Kids]\nA man! A man!\n\n[Leader]\nA big person — a mother?\n[Kids]\nA woman! A woman!\n\n[Leader]\nA small person — like Nico?\n[Kids]\nA boy! A boy!\n\n[Leader]\nA small person — like Freya?\n[Kids]\nA girl! A girl!\n\n[All]\nMan, woman, boy and girl,\none child, two children — hello, world!",
+    "letra": "[Leader]\nWho is it? Who is it?\n[Kids]\nIt's a man! A tall, tall man!\n\n[Leader]\nWho is it? Who is it?\n[Kids]\nIt's a woman with a big red bag!\n\n[Leader]\nWho is it? Who is it?\n[Kids]\nIt's a boy! It's a girl!\n\n[Leader]\nAnd who is small and fast asleep?\n[Kids]\nA baby! A baby! Shh, shh, shh!\n\n[All]\nMan and woman, boy and girl —\npeople, people round the world!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
-    "usa": 7
+    "usa": 6
    },
    "cancion": {
-    "titulo": "People Like You and Me",
-    "letra": "[Verse 1]\nA man walks by with a big blue hat,\na woman waves from her front door.\nA boy runs past to catch the bus,\na girl counts shells upon the shore.\n\n[Chorus]\nMan and woman, boy and girl,\none child, two children, three!\nEvery person has a name —\npeople just like you and me!\n\n[Verse 2]\nThe baby sleeps, the children play,\nthe people fill the sunny street.\nEveryone has got a name,\nsay hello to all you meet!\n\n[Chorus]\nMan and woman, boy and girl,\none child, two children, three!\nEvery person has a name —\npeople just like you and me!\n\n[Bridge — soft]\nOne child. Two children.\nThat one is different — remember it!\n\n[Chorus]\nMan and woman, boy and girl,\none child, two children, three!\nEvery person has a name —\npeople just like you and me!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
-    "usa": 10
+    "titulo": "One Big World of People",
+    "letra": "[Verse 1]\nA man walks by with a yellow umbrella,\na woman waves from the shop next door.\nA boy and a girl are counting windows,\na baby sleeps on the second floor.\n\n[Chorus]\nMan and woman, boy and girl,\none child, two children, more!\nEvery person has a name —\nthat's what a name is for!\n\n[Verse 2]\nAna is a girl, Bruno is a boy,\nRosa is a woman, kind and warm.\nJuan is a man who mends the bicycles\nand Beto is the baby of them all.\n\n[Chorus]\nMan and woman, boy and girl,\none child, two children, more!\nEvery person has a name —\nthat's what a name is for!\n\n[Bridge]\nWhat's your name? What's your name?\nSay it loud — we're not the same!\n\n[Chorus]\nMan and woman, boy and girl,\none child, two children, more!\nEvery person has a name —\nthat's what a name is for!",
+    "estilo": "sweet 50s doo-wop, finger snaps, piano triplets and sha-la-la backing, 124 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "groove": "doowop",
+    "usa": 9
    },
    "palabras": [
     "man",
@@ -626,18 +645,19 @@
   },
   "20": {
    "unidad": "My friends",
-   "gramatica": "His name is… / Her name is…",
+   "gramatica": "His name is... / Her name is...",
    "chant": {
-    "titulo": "His Name, Her Name",
-    "letra": "[Leader]\nHis name is —\n[Kids]\nNico! Nico!\n\n[Leader]\nHer name is —\n[Kids]\nFreya! Freya!\n\n[Leader]\nHis name is —\n[Kids]\nTomás! Tomás!\n\n[Leader]\nHer name is —\n[Kids]\nAstrid! Astrid!\n\n[All]\nHis name, her name, your name, my name —\nwe are friends and that's the game!",
+    "titulo": "What's His Name?",
+    "letra": "[Leader]\nWhat's his name? What's his name?\n[Kids]\nHis name is Nico! His name is Nico!\n\n[Leader]\nWhat's her name? What's her name?\n[Kids]\nHer name is Freya! Her name is Freya!\n\n[Leader]\nWhat's her name? The girl over there!\n[Kids]\nHer name is Ana! She is kind!\n\n[Leader]\nAnd what do good friends do?\n[Kids]\nPlay and share! Play and share!\n\n[All]\nHis name, her name, yours and mine —\nfriends together all the time!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
-    "usa": 4
+    "usa": 8
    },
    "cancion": {
     "titulo": "Best Friends",
-    "letra": "[Verse 1]\nHis name is Nico, he can run,\nher name is Freya, she can sing.\nHis name is Tomás, he is funny,\nher name is Astrid — she draws everything!\n\n[Chorus]\nHis name is, her name is,\nsay it loud and clear!\nKind and funny, side by side —\nthe best of friends are here!\n\n[Verse 2]\nWe share our crayons, share our snack,\nwe play together every day.\nAnd when a friend is feeling sad\nwe sit with them and stay.\n\n[Chorus]\nHis name is, her name is,\nsay it loud and clear!\nKind and funny, side by side —\nthe best of friends are here!\n\n[Bridge]\nHIS for a boy, HER for a girl,\nand a friend is the best in the world!\n\n[Chorus]\nHis name is, her name is,\nsay it loud and clear!\nKind and funny, side by side —\nthe best of friends are here!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
-    "usa": 10
+    "letra": "[Verse 1]\nHis name is Tomás, he is funny,\nher name is Astrid, she is kind.\nWe share a puzzle in the morning\nand a video game we always find.\n\n[Chorus]\nHis name is, her name is —\nsay the name of your best friend!\nPlay together, share together,\nfriends until the end!\n\n[Verse 2]\nHer name is Lía, she can skip,\nhis name is Bruno, he can run.\nWe throw the ball, we swap the doll\nand everybody has some fun.\n\n[Chorus]\nHis name is, her name is —\nsay the name of your best friend!\nPlay together, share together,\nfriends until the end!\n\n[Bridge]\nA friend is someone who is kind,\na friend is someone you can find.\n\n[Chorus]\nHis name is, her name is —\nsay the name of your best friend!\nPlay together, share together,\nfriends until the end!",
+    "estilo": "playful kids' electro-pop, bouncy synth bass, bleeps and claps, 110 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "groove": "electro",
+    "usa": 14
    },
    "palabras": [
     "friend",
@@ -662,15 +682,16 @@
    "gramatica": "basic adjectives",
    "chant": {
     "titulo": "Big! Small!",
-    "letra": "[Leader]\nBig!\n[Kids]\nSmall!\n[Leader]\nLong!\n[Kids]\nShort!\n[Leader]\nOld!\n[Kids]\nNew!\n[Leader]\nClean!\n[Kids]\nDirty!\n[Leader]\nHappy!\n[Kids]\nHappy! Happy! Beautiful!\n\n[All]\nBig and small and long and short,\nold and new — say them all!",
+    "letra": "[Leader]\nBig!\n[Kids]\nSmall!\n\n[Leader]\nLong!\n[Kids]\nShort!\n\n[Leader]\nOld!\n[Kids]\nNew!\n\n[Leader]\nDirty!\n[Kids]\nClean!\n\n[Leader]\nAnd how do we feel today?\n[Kids]\nHappy! Happy! Very happy!\n\n[All]\nBig and small and old and new —\nkind and happy, me and you!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
     "usa": 10
    },
    "cancion": {
-    "titulo": "Opposites",
-    "letra": "[Verse 1]\nThe elephant is big, the mouse is small,\nthe snake is long, the pen is short.\nGrandpa's clock is very old,\nmy shiny shoes are brand new — sort of!\n\n[Chorus]\nBig and small, long and short,\nold and new, clean and dirty!\nSay the word and say its friend,\nthey always go together — surely!\n\n[Verse 2]\nMy hands were dirty from the sand,\nnow they're clean and dry again.\nA happy face, a beautiful day,\nsunshine after all the rain!\n\n[Chorus]\nBig and small, long and short,\nold and new, clean and dirty!\nSay the word and say its friend,\nthey always go together — surely!\n\n[Bridge — slow]\nEvery word has got a partner,\nsay the first and find the other.\n\n[Chorus]\nBig and small, long and short,\nold and new, clean and dirty!\nSay the word and say its friend,\nthey always go together — surely!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
-    "usa": 10
+    "titulo": "Big, Small, Old, New",
+    "letra": "[Verse 1]\nThe lighthouse is big, the puffin is small,\nthe road is long, the wall is short.\nMy shoes are old, my hat is new,\nmy hands are dirty — and yours are too!\n\n[Chorus]\nBig and small, long and short,\nold and new and clean!\nHappy, beautiful, young and kind —\nsay the word you mean!\n\n[Verse 2]\nA young girl sings a beautiful song,\nan old man claps along.\nA clean white boat, a dirty brown boot\nand a happy little tune!\n\n[Chorus]\nBig and small, long and short,\nold and new and clean!\nHappy, beautiful, young and kind —\nsay the word you mean!\n\n[Bridge]\nPoint at something big — point at something small!\nSay the word and that is all!\n\n[Chorus]\nBig and small, long and short,\nold and new and clean!\nHappy, beautiful, young and kind —\nsay the word you mean!",
+    "estilo": "bouncy accordion polka, tuba oom-pah and tambourine, 120 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "groove": "polka",
+    "usa": 12
    },
    "palabras": [
     "big",
@@ -690,17 +711,18 @@
   },
   "22": {
    "unidad": "Happy or sad?",
-   "gramatica": "I am… / Are you…?",
+   "gramatica": "I am... / Are you...?",
    "chant": {
-    "titulo": "How Are You?",
-    "letra": "[Leader]\nAre you happy?\n[Kids]\nI am happy! Clap your hands!\n\n[Leader]\nAre you sad?\n[Kids]\nI am sad… boo hoo.\n\n[Leader]\nAre you tired?\n[Kids]\nI am tired… yawn!\n\n[Leader]\nAre you hungry?\n[Kids]\nI am hungry! Rumble, rumble!\n\n[Leader]\nAre you fine?\n[Kids]\nI am FINE! I am FINE!",
+    "titulo": "Are You Happy?",
+    "letra": "[Leader]\nAre you happy?\n[Kids]\nYes, I am! I am happy!\n\n[Leader]\nAre you sad?\n[Kids]\nNo, I'm not! I am fine!\n\n[Leader]\nAre you tired? Are you hungry?\n[Kids]\nI am tired! I am hungry!\n\n[Leader]\nAre you thirsty? Are you scared?\n[Kids]\nI am thirsty — but I'm not scared!\n\n[All]\nHappy, sad and angry, tired —\nsmile at me and we're all fine!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
-    "usa": 5
+    "usa": 9
    },
    "cancion": {
-    "titulo": "I Am Fine",
-    "letra": "[Verse 1]\nWhen the sun comes out I am happy,\nwhen my friend goes home I am sad.\nWhen I run and run I am tired,\nand that's all right — it isn't bad.\n\n[Chorus]\nAre you happy? Are you sad?\nAre you tired or hungry too?\nTell me how you feel today —\nI am fine, how about you?\n\n[Verse 2]\nWhen my tummy makes a noise I'm hungry,\nwhen it's hot I'm thirsty too.\nWhen it's dark I can be scared,\nbut a friend can help me through.\n\n[Chorus]\nAre you happy? Are you sad?\nAre you tired or hungry too?\nTell me how you feel today —\nI am fine, how about you?\n\n[Bridge — gentle]\nSmile or cry, it's all okay,\nfeelings come and go each day.\n\n[Chorus]\nAre you happy? Are you sad?\nAre you tired or hungry too?\nTell me how you feel today —\nI am fine, how about you?",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
+    "titulo": "How Are You Today?",
+    "letra": "[Verse 1]\nI am happy, I am fine,\nthe sun is out and the day is mine.\nNico's tired, he did not sleep,\nAstrid's hungry — that's no crime.\n\n[Chorus]\nAre you happy? Are you sad?\nTell me how you feel today!\nI am fine, I am tired,\na smile can chase the grey away.\n\n[Verse 2]\nFreya's got a little headache,\nTomás has got a stomachache.\nRest a while and drink some water,\nsoon there'll be no ache to take.\n\n[Chorus]\nAre you happy? Are you sad?\nTell me how you feel today!\nI am fine, I am tired,\na smile can chase the grey away.\n\n[Bridge — soft]\nIf you cry, that's alright,\ntell a friend and hold on tight.\n\n[Chorus]\nAre you happy? Are you sad?\nTell me how you feel today!\nI am fine, I am tired,\na smile can chase the grey away.",
+    "estilo": "gentle children's waltz in 3/4, accordion and soft acoustic strings, 92 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "groove": "vals",
     "usa": 9
    },
    "palabras": [
@@ -725,16 +747,17 @@
    "unidad": "I can jump!",
    "gramatica": "I can / I can't",
    "chant": {
-    "titulo": "I Can, I Can't",
-    "letra": "[Leader]\nCan you jump?\n[Kids]\nYes! I can jump!\n\n[Leader]\nCan you run?\n[Kids]\nYes! I can run!\n\n[Leader]\nCan you swim?\n[Kids]\nYes! I can swim!\n\n[Leader]\nCan you fly?\n[Kids]\nNo! I can't fly!\n\n[Leader]\nBut who can fly?\n[Kids]\nPIP! Pip can fly!",
+    "titulo": "I Can!",
+    "letra": "[Leader]\nCan you jump?\n[Kids]\nYes, I can! I can jump!\n\n[Leader]\nCan you swim?\n[Kids]\nYes, I can! I can swim!\n\n[Leader]\nCan you fly?\n[Kids]\nNo, I can't! I can't fly!\n\n[Leader]\nBut who can fly?\n[Kids]\nPip can fly! Pip can fly!\n\n[All]\nJump and run and sing and dance —\nI can, I can, give me a chance!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
-    "usa": 6
+    "usa": 8
    },
    "cancion": {
-    "titulo": "Look What I Can Do",
-    "letra": "[Verse 1]\nI can jump up high, up high,\nI can run so fast, so fast.\nI can swim across the pool\nfrom the first one to the last!\n\n[Chorus]\nI can, I can, look what I can do!\nI can't, I can't — and that's all right too!\nJump and run and swim and sing,\neveryone can do a thing!\n\n[Verse 2]\nI can sing and I can dance,\nI can draw a great big sun.\nI can climb the climbing frame,\nbut I can't fly — that's Pip's one!\n\n[Chorus]\nI can, I can, look what I can do!\nI can't, I can't — and that's all right too!\nJump and run and swim and sing,\neveryone can do a thing!\n\n[Bridge]\nWhat can you do? Show me now!\nEverybody take a bow!\n\n[Chorus]\nI can, I can, look what I can do!\nI can't, I can't — and that's all right too!\nJump and run and swim and sing,\neveryone can do a thing!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
-    "usa": 10
+    "titulo": "I Can, I Can't",
+    "letra": "[Verse 1]\nI can run and I can jump,\nI can climb a great big tree.\nI can draw a yellow boat\nand sing a song for you and me.\n\n[Chorus]\nI can, I can, I can't, I can't —\ntell me what you can do!\nStand up, sit down, open, close,\nnow it's up to you!\n\n[Verse 2]\nI can't fly like Pip the puffin,\nI can't swim as fast as fish.\nBut I can dance and I can laugh\nand that's a pretty good wish.\n\n[Chorus]\nI can, I can, I can't, I can't —\ntell me what you can do!\nStand up, sit down, open, close,\nnow it's up to you!\n\n[Bridge]\nStand up! Sit down! Open! Close!\nDo it fast from head to toes!\n\n[Chorus]\nI can, I can, I can't, I can't —\ntell me what you can do!\nStand up, sit down, open, close,\nnow it's up to you!",
+    "estilo": "clean kids' funk, clavinet, wah guitar and tight snappy drums, 104 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "groove": "funk",
+    "usa": 14
    },
    "palabras": [
     "jump",
@@ -758,15 +781,16 @@
    "unidad": "Run and play",
    "gramatica": "action imperatives",
    "chant": {
-    "titulo": "Stop and Go",
-    "letra": "[Leader]\nWalk!\n[Kids]\nWalk, walk, walk!\n[Leader]\nStop!\n[Kids]\nSTOP!\n[Leader]\nLook!\n[Kids]\nLook, look, look!\n[Leader]\nListen!\n[Kids]\nShhh…\n[Leader]\nClap!\n[Kids]\nClap, clap, clap!\n[Leader]\nTurn! Touch! Point!\n[Kids]\nStand up! Sit down! Again!",
+    "titulo": "Stop and Go!",
+    "letra": "[Leader]\nWalk, walk, walk!\n[Kids]\nWalk, walk, walk!\n\n[Leader]\nStop!\n[Kids]\nSTOP!\n\n[Leader]\nLook and listen!\n[Kids]\nLook and listen!\n\n[Leader]\nClap your hands and turn around!\n[Kids]\nClap and turn! Clap and turn!\n\n[All]\nWalk, stop, look and listen, clap —\ntouch and point and stand and sit!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
     "usa": 10
    },
    "cancion": {
-    "titulo": "Everybody Move!",
-    "letra": "[Verse 1]\nWalk, walk, walk around the room,\nstop and stand up straight.\nLook at me and listen well,\nthen clap your hands — that's great!\n\n[Chorus]\nWalk and stop and look and listen,\nclap and turn and touch!\nStand up, sit down, do it again —\nmoving is so much!\n\n[Verse 2]\nTurn around and touch your nose,\npoint up high at the sky.\nSit down slowly on the floor,\nnow stand up — reach up high!\n\n[Chorus]\nWalk and stop and look and listen,\nclap and turn and touch!\nStand up, sit down, do it again —\nmoving is so much!\n\n[Bridge — fast]\nFaster now! Walk, stop, clap!\nSlower now… and rest.\n\n[Chorus]\nWalk and stop and look and listen,\nclap and turn and touch!\nStand up, sit down, do it again —\nmoving is so much!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
+    "titulo": "Follow Me",
+    "letra": "[Verse 1]\nWalk with me and don't be slow,\nstop the moment Astrid says so.\nLook up high and listen well,\nthere's a story it will tell.\n\n[Chorus]\nClap your hands and turn around,\ntouch your nose and point at me!\nStand up tall and sit back down —\nfollow me, one, two, three!\n\n[Verse 2]\nNico walks and Tomás runs,\nFreya stops and counts to four.\nPip is pointing with his beak\nat a shell beside the door.\n\n[Chorus]\nClap your hands and turn around,\ntouch your nose and point at me!\nStand up tall and sit back down —\nfollow me, one, two, three!\n\n[Bridge]\nFast, fast — and now go slow!\nListen, look and off we go!\n\n[Chorus]\nClap your hands and turn around,\ntouch your nose and point at me!\nStand up tall and sit back down —\nfollow me, one, two, three!",
+    "estilo": "gentle children's waltz in 3/4, accordion and soft acoustic strings, 92 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "groove": "vals",
     "usa": 10
    },
    "palabras": [
@@ -787,16 +811,17 @@
    "unidad": "The toy box game",
    "gramatica": "in, on, under",
    "chant": {
-    "titulo": "In, On, Under",
-    "letra": "[Leader]\nWhere is the ball?\n[Kids]\nIN the box! IN the box!\n\n[Leader]\nWhere is the ball?\n[Kids]\nON the table! ON the table!\n\n[Leader]\nWhere is the ball?\n[Kids]\nUNDER the chair! UNDER the chair!\n\n[Leader]\nWhere is Pip?\n[Kids]\nHere! There! Where? WHERE?\n\n[All]\nIn, on, under — look and see,\nthe ball is hiding — find it with me!",
+    "titulo": "Where Is It?",
+    "letra": "[Leader]\nWhere is the ball?\n[Kids]\nIn the box! In the box!\n\n[Leader]\nWhere is the hat?\n[Kids]\nOn the chair! On the chair!\n\n[Leader]\nWhere is the cat?\n[Kids]\nUnder the table! Under the table!\n\n[Leader]\nWhere is Pip?\n[Kids]\nHere! There! In the wardrobe!\n\n[All]\nIn and on and under too —\nwhere is it? It's up to you!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
-    "usa": 9
+    "usa": 10
    },
    "cancion": {
-    "titulo": "Where Is the Ball?",
-    "letra": "[Verse 1]\nThe ball is in the big toy box,\nthe ball is on the table too.\nThe ball is under grandma's chair —\nnow it's rolling straight to you!\n\n[Chorus]\nIn, on, under — where, oh where?\nIn the box or on the chair?\nHere it is! No, there it goes!\nWhere it stops nobody knows!\n\n[Verse 2]\nUnder the bed and in the bag,\non the shelf and on the floor.\nEvery time I turn around\nit's somewhere else than it was before!\n\n[Chorus]\nIn, on, under — where, oh where?\nIn the box or on the chair?\nHere it is! No, there it goes!\nWhere it stops nobody knows!\n\n[Bridge — slow]\nThe box does not move.\nThe ball moves. Look again!\n\n[Chorus]\nIn, on, under — where, oh where?\nIn the box or on the chair?\nHere it is! No, there it goes!\nWhere it stops nobody knows!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
-    "usa": 10
+    "titulo": "The Toy Box Game",
+    "letra": "[Verse 1]\nPut the ball in the big blue box,\nput the hat on the wooden chair.\nLook under the table, look under the bed,\nsomething small is hiding there!\n\n[Chorus]\nIn, on, under — where is it?\nHere or there or everywhere!\nBox and table, bed and sofa,\nlamp and wardrobe, chair!\n\n[Verse 2]\nAstrid hides a little puzzle,\nNico counts to ten and looks.\nIt's not in the wardrobe, not on the lamp —\nit's under a pile of books!\n\n[Chorus]\nIn, on, under — where is it?\nHere or there or everywhere!\nBox and table, bed and sofa,\nlamp and wardrobe, chair!\n\n[Bridge]\nNot on. Not in. Look again —\nUNDER! There it is, my friend!\n\n[Chorus]\nIn, on, under — where is it?\nHere or there or everywhere!\nBox and table, bed and sofa,\nlamp and wardrobe, chair!",
+    "estilo": "skiffle shuffle, washboard, upright bass and strummed acoustic guitar, 118 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "groove": "skiffle",
+    "usa": 13
    },
    "palabras": [
     "in",
@@ -817,18 +842,19 @@
   },
   "26": {
    "unidad": "In the classroom",
-   "gramatica": "present continuous (look and say)",
+   "gramatica": "present continuous",
    "chant": {
-    "titulo": "Look, We Are Working!",
-    "letra": "[Leader]\nWhat is Freya doing?\n[Kids]\nShe is reading! She is reading!\n\n[Leader]\nWhat is Nico doing?\n[Kids]\nHe is writing! He is writing!\n\n[Leader]\nWhat is Astrid doing?\n[Kids]\nShe is drawing! She is drawing!\n\n[Leader]\nWhat is Tomás doing?\n[Kids]\nHe is painting! He is painting!\n\n[All]\nRead and write and draw and paint,\ncount and cut and glue — and learn!",
+    "titulo": "What Are You Doing?",
+    "letra": "[Leader]\nWhat are you doing?\n[Kids]\nI am reading! I am reading!\n\n[Leader]\nWhat are you doing?\n[Kids]\nI am writing! I am writing!\n\n[Leader]\nWhat are you doing?\n[Kids]\nDrawing and painting! Drawing and painting!\n\n[Leader]\nAnd what do we all do here?\n[Kids]\nWe learn! We learn! We learn together!\n\n[All]\nRead and write and draw and paint —\ncount and cut and glue and learn!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
     "usa": 8
    },
    "cancion": {
     "titulo": "In Our Classroom",
-    "letra": "[Verse 1]\nFreya is reading a book about the sea,\nNico is writing his name.\nAstrid is drawing a big yellow sun,\nTomás is painting a train.\n\n[Chorus]\nWe are reading, we are writing,\nwe are drawing too!\nCount and cut and glue and ask —\nlearning something new!\n\n[Verse 2]\nSomebody's counting one to ten,\nsomebody's cutting paper stars.\nSomebody's asking a good question\nand somebody's gluing Mars!\n\n[Chorus]\nWe are reading, we are writing,\nwe are drawing too!\nCount and cut and glue and ask —\nlearning something new!\n\n[Bridge — soft]\nAsk a question, hear the answer,\nthat's the way we learn.\n\n[Chorus]\nWe are reading, we are writing,\nwe are drawing too!\nCount and cut and glue and ask —\nlearning something new!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
-    "usa": 9
+    "letra": "[Verse 1]\nAstrid is reading a story out loud,\nNico is writing his name.\nFreya is drawing a lighthouse in blue,\nTomás is painting the same.\n\n[Chorus]\nWe read, we write, we draw, we paint,\nwe count and cut and glue!\nAsk a question, give an answer —\nthat's how we learn, it's true!\n\n[Verse 2]\nScissors cutting, glue is sticky,\npaper flying everywhere.\nAsk me something, I will answer,\nlearning here and learning there.\n\n[Chorus]\nWe read, we write, we draw, we paint,\nwe count and cut and glue!\nAsk a question, give an answer —\nthat's how we learn, it's true!\n\n[Bridge]\nWhat are you doing? Say it now:\nI am learning — this is how!\n\n[Chorus]\nWe read, we write, we draw, we paint,\nwe count and cut and glue!\nAsk a question, give an answer —\nthat's how we learn, it's true!",
+    "estilo": "cheerful marching band parade, snare drum, tuba and bright brass, 116 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "groove": "banda",
+    "usa": 10
    },
    "palabras": [
     "read",
@@ -846,18 +872,19 @@
   },
   "27": {
    "unidad": "Sports I play",
-   "gramatica": "I play… / Let's play…",
+   "gramatica": "I play... / Let's play...",
    "chant": {
     "titulo": "Let's Play!",
-    "letra": "[Leader]\nI play —\n[Kids]\nfootball! football!\n\n[Leader]\nI play —\n[Kids]\nbasketball! basketball!\n\n[Leader]\nI play —\n[Kids]\ntennis! tennis!\n\n[Leader]\nAnd swimming? And running?\n[Kids]\nWe GO swimming! We GO running!\n\n[All]\nBall and goal and team and win —\nlet's play! Let's play! Let's begin!",
+    "letra": "[Leader]\nLet's play football!\n[Kids]\nFootball! Football! Kick the ball!\n\n[Leader]\nLet's play basketball!\n[Kids]\nBasketball! Up and in!\n\n[Leader]\nLet's play tennis!\n[Kids]\nTennis! Tennis! Over the net!\n\n[Leader]\nAnd what are we together?\n[Kids]\nA team! A team! One big team!\n\n[All]\nFootball, tennis, swimming, running —\nplay together, that's the fun!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
-    "usa": 10
+    "usa": 8
    },
    "cancion": {
-    "titulo": "On the Blue Court",
-    "letra": "[Verse 1]\nI play football on the grass,\nI play tennis on the court.\nI play basketball with my team —\nevery day a different sport!\n\n[Chorus]\nLet's play, let's play,\ngrab the ball and go!\nFootball, tennis, basketball —\nready, steady, throw!\n\n[Verse 2]\nWe go swimming in the pool,\nwe go running round the track.\nAnd when our team scores a goal\nwe cheer and cheer and cheer right back!\n\n[Chorus]\nLet's play, let's play,\ngrab the ball and go!\nFootball, tennis, basketball —\nready, steady, throw!\n\n[Bridge]\nWin or lose, we shake your hand,\nthat's the rule of every land.\n\n[Chorus]\nLet's play, let's play,\ngrab the ball and go!\nFootball, tennis, basketball —\nready, steady, throw!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
-    "usa": 10
+    "titulo": "One Big Team",
+    "letra": "[Verse 1]\nI play football after school,\nBruno kicks it hard and high.\nLía plays basketball in the yard,\nthe ball goes up into the sky.\n\n[Chorus]\nLet's play, let's play —\nfootball, tennis, basketball!\nSwimming, running, cycling too,\none big team, that's all!\n\n[Verse 2]\nTino runs the fastest lap,\nIris scores the winning goal.\nIt doesn't matter if we win,\nplaying here is what we love.\n\n[Chorus]\nLet's play, let's play —\nfootball, tennis, basketball!\nSwimming, running, cycling too,\none big team, that's all!\n\n[Bridge]\nReady? Steady? Off we go!\nPass the ball and don't be slow!\n\n[Chorus]\nLet's play, let's play —\nfootball, tennis, basketball!\nSwimming, running, cycling too,\none big team, that's all!",
+    "estilo": "light bossa nova, nylon-string guitar, shakers and brushed drums, 100 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "groove": "bossa",
+    "usa": 11
    },
    "palabras": [
     "football",
@@ -876,18 +903,19 @@
   },
   "28": {
    "unidad": "The park",
-   "gramatica": "Let's + verbo",
+   "gramatica": "Let's + places",
    "chant": {
-    "titulo": "Let's Go to the Park",
-    "letra": "[Leader]\nLet's go to the park!\n[Kids]\nLet's go! Let's go!\n\n[Leader]\nLet's use the slide!\n[Kids]\nWheee! Down we go!\n\n[Leader]\nLet's use the swing!\n[Kids]\nUp and down! Up and down!\n\n[Leader]\nLet's climb the tree!\n[Kids]\nUp, up, up — careful!\n\n[All]\nSlide and swing and tree and flower,\nlet's play in the park for an hour!",
+    "titulo": "Let's Go to the Park!",
+    "letra": "[Leader]\nLet's go to the park!\n[Kids]\nTo the park! To the park!\n\n[Leader]\nLet's go down the slide!\n[Kids]\nDown the slide! Whee!\n\n[Leader]\nLet's go on the swing!\n[Kids]\nOn the swing! Up and up!\n\n[Leader]\nAnd what is next to the park?\n[Kids]\nThe school! The library! The bus stop!\n\n[All]\nSlide and swing and tree and bench —\npark and grass and lots of fun!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
-    "usa": 6
+    "usa": 10
    },
    "cancion": {
-    "titulo": "Let's Go to the Park",
-    "letra": "[Verse 1]\nLet's go down to the park today,\nthe sun is out, come on, let's play!\nThe slide is high, the swing is free,\nthere's a little bird up in the tree.\n\n[Chorus]\nLet's run! Let's climb!\nLet's swing up to the sky!\nGrass and flowers, bench and bird —\nthe best word is LET'S — that's why!\n\n[Verse 2]\nLet's sit down on the wooden bench,\nlet's count the flowers, red and blue.\nLet's watch the bird fly round the tree\nand then let's run — me and you!\n\n[Chorus]\nLet's run! Let's climb!\nLet's swing up to the sky!\nGrass and flowers, bench and bird —\nthe best word is LET'S — that's why!\n\n[Bridge — soft]\nLET'S means me AND you,\nnot just one — but two!\n\n[Chorus]\nLet's run! Let's climb!\nLet's swing up to the sky!\nGrass and flowers, bench and bird —\nthe best word is LET'S — that's why!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
-    "usa": 9
+    "titulo": "Down the Slide",
+    "letra": "[Verse 1]\nLet's go to the park, the sun is out,\nthere's a swing beneath the tallest tree.\nA little bird is singing on the bench\nand the grass is soft for you and me.\n\n[Chorus]\nLet's play, let's run,\ndown the slide and up again!\nPark and flowers, tree and bench —\nwe'll stay until it's ten!\n\n[Verse 2]\nPast the school and past the library,\npast the supermarket door.\nThe cinema is on the corner\nand the bus stop's just before.\n\n[Chorus]\nLet's play, let's run,\ndown the slide and up again!\nPark and flowers, tree and bench —\nwe'll stay until it's ten!\n\n[Bridge]\nPick a flower, count the birds,\nsay the place without the words!\n\n[Chorus]\nLet's play, let's run,\ndown the slide and up again!\nPark and flowers, tree and bench —\nwe'll stay until it's ten!",
+    "estilo": "sunny calypso, steel drums and shakers, 108 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "groove": "calipso",
+    "usa": 14
    },
    "palabras": [
     "park",
@@ -914,15 +942,16 @@
    "gramatica": "road safety + imperatives",
    "chant": {
     "titulo": "Stop! Look! Listen!",
-    "letra": "[Leader]\nBefore you cross —\n[Kids]\nSTOP!\n\n[Leader]\nBefore you cross —\n[Kids]\nLOOK!\n\n[Leader]\nBefore you cross —\n[Kids]\nLISTEN!\n\n[Leader]\nIs the light red?\n[Kids]\nWAIT! WAIT! WAIT!\n\n[Leader]\nIs the light green?\n[Kids]\nCross! Cross carefully!\n\n[All]\nCar, bus, bike, lorry, motorbike —\nbe careful on the street!",
+    "letra": "[Leader]\nStop!\n[Kids]\nSTOP at the light!\n\n[Leader]\nLook!\n[Kids]\nLOOK to the left and right!\n\n[Leader]\nListen!\n[Kids]\nLISTEN for a car!\n\n[Leader]\nNow cross!\n[Kids]\nCross! Cross! Careful, careful!\n\n[All]\nCar and bus and bike and lorry —\ncross the street and don't you worry!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
-    "usa": 9
+    "usa": 8
    },
    "cancion": {
-    "titulo": "Careful on the Street",
-    "letra": "[Verse 1]\nCars go fast along the road,\nbuses stop and open wide.\nBikes go ringing round the corner,\nkeep your feet on the safe side.\n\n[Chorus]\nStop and look and listen,\nwait until it's green!\nCar and bus and bike and lorry —\nbe the most careful you've ever been!\n\n[Verse 2]\nA lorry rumbles, big and slow,\na motorbike goes zooming by.\nThe shop is just across the road —\nbut wait for green before you try!\n\n[Chorus]\nStop and look and listen,\nwait until it's green!\nCar and bus and bike and lorry —\nbe the most careful you've ever been!\n\n[Bridge — serious]\nRed means wait. Green means go.\nHold a hand and take it slow.\n\n[Chorus]\nStop and look and listen,\nwait until it's green!\nCar and bus and bike and lorry —\nbe the most careful you've ever been!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
-    "usa": 7
+    "titulo": "Careful in the Street",
+    "letra": "[Verse 1]\nA red car and a yellow taxi,\na big blue bus goes by.\nA lorry rumbles down the street\nand a motorbike goes flying.\n\n[Chorus]\nStop, look, listen, cross —\nbe careful, hold my hand!\nRed light waits and green light goes,\nthat's how we understand!\n\n[Verse 2]\nSamu rides his little bike,\nthe shop is on the other side.\nThe train goes past behind the houses\nand Aiko waves as we ride.\n\n[Chorus]\nStop, look, listen, cross —\nbe careful, hold my hand!\nRed light waits and green light goes,\nthat's how we understand!\n\n[Bridge]\nNever run and never hide,\nwalk across and hold on tight.\n\n[Chorus]\nStop, look, listen, cross —\nbe careful, hold my hand!\nRed light waits and green light goes,\nthat's how we understand!",
+    "estilo": "skiffle shuffle, washboard, upright bass and strummed acoustic guitar, 118 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "groove": "skiffle",
+    "usa": 12
    },
    "palabras": [
     "street",
@@ -944,15 +973,16 @@
    "unidad": "The beach",
    "gramatica": "present simple at the beach",
    "chant": {
-    "titulo": "Down at the Beach",
-    "letra": "[Leader]\nAt the beach I —\n[Kids]\nswim! swim! swim!\n\n[Leader]\nAt the beach I —\n[Kids]\nbuild a castle!\n\n[Leader]\nAt the beach I —\n[Kids]\nfind a shell!\n\n[Leader]\nAt the beach I —\n[Kids]\neat ice cream!\n\n[All]\nSun and sand and sea and shell,\nhat on my head — I feel so well!",
+    "titulo": "At the Beach",
+    "letra": "[Leader]\nWhat's on the sand?\n[Kids]\nA shell! A shell! A little white shell!\n\n[Leader]\nWhat's in the sea?\n[Kids]\nPip! Pip! Pip can swim!\n\n[Leader]\nWhat's on your head?\n[Kids]\nA hat! A hat! A big straw hat!\n\n[Leader]\nAnd what do we build?\n[Kids]\nA castle! A castle! A big sand castle!\n\n[All]\nSun and sand and sea and shell —\nice cream day, we love it well!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
-    "usa": 9
+    "usa": 8
    },
    "cancion": {
-    "titulo": "Sand Between My Toes",
-    "letra": "[Verse 1]\nThe sun is hot, the sand is gold,\nthe sea is cool and blue.\nI put my hat upon my head\nand off I go — come too!\n\n[Chorus]\nSwim in the sea, build in the sand,\nfind a shell and hold my hand!\nIce cream melting, sun so bright —\nthe beach is best in all the light!\n\n[Verse 2]\nI build a castle big and tall\nwith a shell on every wall.\nThe wave comes in and knocks it down —\nso I build it up again, that's all!\n\n[Chorus]\nSwim in the sea, build in the sand,\nfind a shell and hold my hand!\nIce cream melting, sun so bright —\nthe beach is best in all the light!\n\n[Bridge — gentle]\nHat on head when the sun is hot,\nthat's the rule — don't forget the lot!\n\n[Chorus]\nSwim in the sea, build in the sand,\nfind a shell and hold my hand!\nIce cream melting, sun so bright —\nthe beach is best in all the light!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
+    "titulo": "A Day at the Beach",
+    "letra": "[Verse 1]\nThe sun is hot, the sand is gold,\nwe build a castle big and tall.\nThe sea comes in, the sea goes out\nand takes a little of the wall.\n\n[Chorus]\nAt the beach we swim and play,\nwe find a shell, we wear a hat.\nIce cream melting in the sun —\nthere's nothing better than that!\n\n[Verse 2]\nFreya swims and Nico digs,\nAstrid counts the shells she's found.\nTomás runs into the waves\nand Pip is sleeping on the ground.\n\n[Chorus]\nAt the beach we swim and play,\nwe find a shell, we wear a hat.\nIce cream melting in the sun —\nthere's nothing better than that!\n\n[Bridge]\nHot, hot, hot — into the sea!\nCool, cool, cool — come with me!\n\n[Chorus]\nAt the beach we swim and play,\nwe find a shell, we wear a hat.\nIce cream melting in the sun —\nthere's nothing better than that!",
+    "estilo": "easy children's reggae, offbeat guitar skank and warm bass, 88 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "groove": "reggae",
     "usa": 10
    },
    "palabras": [
@@ -971,17 +1001,18 @@
   },
   "31": {
    "unidad": "The weather",
-   "gramatica": "It's sunny / rainy…",
+   "gramatica": "It's sunny / rainy...",
    "chant": {
     "titulo": "What's the Weather?",
-    "letra": "[Leader]\nWhat's the weather?\n[Kids]\nIt's sunny! It's sunny!\n\n[Leader]\nWhat's the weather?\n[Kids]\nIt's rainy! Umbrella!\n\n[Leader]\nWhat's the weather?\n[Kids]\nIt's windy! Hold your hat!\n\n[Leader]\nWhat's the weather?\n[Kids]\nIt's cloudy! Grey and grey!\n\n[Leader]\nHot or cold?\n[Kids]\nHOT! COLD! Look at the sky today!",
+    "letra": "[Leader]\nWhat's the weather? What's the weather?\n[Kids]\nIt's sunny! It's sunny today!\n\n[Leader]\nWhat's the weather? What's the weather?\n[Kids]\nIt's rainy! Get the umbrella!\n\n[Leader]\nWhat's the weather? What's the weather?\n[Kids]\nIt's windy! Hold your hat!\n\n[Leader]\nNow look up — what can you see?\n[Kids]\nA rainbow! A rainbow in the sky!\n\n[All]\nSunny, rainy, windy, cloudy —\nhot or cold, we're going out!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
-    "usa": 9
+    "usa": 10
    },
    "cancion": {
     "titulo": "Look at the Sky",
-    "letra": "[Verse 1]\nIt's sunny, it's sunny, the sky is blue,\nput your hat on, off we go!\nIt's rainy, it's rainy, take your umbrella,\njump in the puddles — to and fro!\n\n[Chorus]\nWhat's the weather like today?\nSunny, rainy, windy, grey!\nHot or cold, look at the sky —\nand a rainbow says goodbye!\n\n[Verse 2]\nIt's windy, it's windy, hold your hat,\nthe kite is dancing far and high.\nIt's cloudy, it's cloudy, soft and grey,\nbut the sun is still up in the sky.\n\n[Chorus]\nWhat's the weather like today?\nSunny, rainy, windy, grey!\nHot or cold, look at the sky —\nand a rainbow says goodbye!\n\n[Bridge — soft]\nAfter the rain, look up high:\na rainbow painted on the sky.\n\n[Chorus]\nWhat's the weather like today?\nSunny, rainy, windy, grey!\nHot or cold, look at the sky —\nand a rainbow says goodbye!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
+    "letra": "[Verse 1]\nIt's sunny today, the sky is wide,\nthe sea is bright and blue.\nTomorrow it is cloudy\nand the wind comes rushing through.\n\n[Chorus]\nIt's sunny, it's rainy,\nit's windy, it's cold!\nTake your umbrella, look at the sky —\na rainbow made of gold!\n\n[Verse 2]\nIt's hot inside my woolly hat,\nit's cold beside the door.\nThe rain is falling on the lighthouse,\nseven colours, maybe more.\n\n[Chorus]\nIt's sunny, it's rainy,\nit's windy, it's cold!\nTake your umbrella, look at the sky —\na rainbow made of gold!\n\n[Bridge]\nLook outside and tell me true:\nwhat's the weather? How are you?\n\n[Chorus]\nIt's sunny, it's rainy,\nit's windy, it's cold!\nTake your umbrella, look at the sky —\na rainbow made of gold!",
+    "estilo": "sunny calypso, steel drums and shakers, 108 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "groove": "calipso",
     "usa": 10
    },
    "palabras": [
@@ -1003,14 +1034,15 @@
    "gramatica": "on + day",
    "chant": {
     "titulo": "On Monday",
-    "letra": "[Leader]\nOn Monday —\n[Kids]\nwe run!\n[Leader]\nOn Tuesday —\n[Kids]\nwe sing!\n[Leader]\nOn Wednesday —\n[Kids]\nwe draw!\n[Leader]\nOn Thursday —\n[Kids]\nwe count!\n[Leader]\nOn Friday —\n[Kids]\nwe PLAY!\n[Leader]\nAnd Saturday and Sunday?\n[Kids]\nWe rest! We rest! Hooray!",
+    "letra": "[Leader]\nOn Monday —\n[Kids]\nwe go to school!\n\n[Leader]\nOn Tuesday —\n[Kids]\nwe play football!\n\n[Leader]\nOn Wednesday —\n[Kids]\nwe paint and draw!\n\n[Leader]\nOn Thursday —\n[Kids]\nwe read a book!\n\n[Leader]\nOn Friday —\n[Kids]\nwe sing a song!\n\n[Leader]\nAnd on Saturday and Sunday?\n[Kids]\nWe rest! We play! We're free!\n\n[All]\nSeven days make one whole week —\ntoday, tomorrow, here we go!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
-    "usa": 7
+    "usa": 10
    },
    "cancion": {
     "titulo": "Seven Days",
-    "letra": "[Verse 1]\nOn Monday morning we begin,\non Tuesday we all sing.\nOn Wednesday we draw the sea,\non Thursday we count everything.\n\n[Chorus]\nMonday, Tuesday, Wednesday,\nThursday, Friday too!\nSaturday and Sunday —\nseven days for me and you!\n\n[Verse 2]\nOn Friday we play in the sun,\non Saturday we stay in bed.\nOn Sunday we go to the sea\nwith a hat upon our head!\n\n[Chorus]\nMonday, Tuesday, Wednesday,\nThursday, Friday too!\nSaturday and Sunday —\nseven days for me and you!\n\n[Bridge — soft]\nToday is today,\ntomorrow comes next —\nand the week starts again!\n\n[Chorus]\nMonday, Tuesday, Wednesday,\nThursday, Friday too!\nSaturday and Sunday —\nseven days for me and you!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
+    "letra": "[Verse 1]\nOn Monday Freya feeds the birds,\non Tuesday Nico kicks the ball.\nOn Wednesday Astrid paints a picture\nand hangs it on the wall.\n\n[Chorus]\nMonday, Tuesday, Wednesday,\nThursday, Friday too!\nSaturday and Sunday —\none week for me and you!\n\n[Verse 2]\nOn Thursday Tomás climbs the hill,\non Friday everybody sings.\nToday we run, tomorrow rest —\na week can hold a hundred things.\n\n[Chorus]\nMonday, Tuesday, Wednesday,\nThursday, Friday too!\nSaturday and Sunday —\none week for me and you!\n\n[Bridge]\nWhat day is it? What day is it?\nSay it now and don't forget!\n\n[Chorus]\nMonday, Tuesday, Wednesday,\nThursday, Friday too!\nSaturday and Sunday —\none week for me and you!",
+    "estilo": "bouncy accordion polka, tuba oom-pah and tambourine, 120 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "groove": "polka",
     "usa": 10
    },
    "palabras": [
@@ -1031,16 +1063,17 @@
    "unidad": "Morning and night",
    "gramatica": "in the morning / at night",
    "chant": {
-    "titulo": "Morning and Night",
-    "letra": "[Leader]\nIn the morning —\n[Kids]\nI wake up!\n\n[Leader]\nIn the afternoon —\n[Kids]\nI play!\n\n[Leader]\nIn the evening —\n[Kids]\nI eat!\n\n[Leader]\nAt night —\n[Kids]\nI sleep… shhh.\n\n[All]\nSun in the morning, moon at night,\nstars above and dreams so bright!",
+    "titulo": "Morning, Night",
+    "letra": "[Leader]\nIn the morning —\n[Kids]\nwe wake up! We wake up!\n\n[Leader]\nIn the afternoon —\n[Kids]\nwe play! We play!\n\n[Leader]\nIn the evening —\n[Kids]\nwe eat! We eat!\n\n[Leader]\nAnd at night?\n[Kids]\nWe sleep! We sleep! Shh, shh, shh.\n\n[All]\nSun and moon and star and dream —\nmorning, night and in between!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
     "usa": 10
    },
    "cancion": {
-    "titulo": "Sun and Moon",
-    "letra": "[Verse 1]\nIn the morning I wake up,\nthe sun comes through my window bright.\nIn the afternoon I run and play\nuntil the evening turns to night.\n\n[Chorus]\nIn the morning, in the afternoon,\nin the evening, at night!\nSun and moon and stars above —\ngoodnight, goodnight, goodnight!\n\n[Verse 2]\nIn the evening we eat together,\nwe talk about our day.\nAt night the moon comes up so round\nand takes the sun away.\n\n[Chorus]\nIn the morning, in the afternoon,\nin the evening, at night!\nSun and moon and stars above —\ngoodnight, goodnight, goodnight!\n\n[Bridge — very soft]\nIN the morning. AT night.\nOne little word — get it right.\n\n[Chorus — quiet]\nIn the morning, in the afternoon,\nin the evening, at night!\nSun and moon and stars above —\ngoodnight, goodnight, goodnight!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
-    "usa": 8
+    "titulo": "The Sun and the Moon",
+    "letra": "[Verse 1]\nIn the morning the sun comes up,\nI wake up slowly, one, two, three.\nIn the afternoon I run and play\nbeneath the lighthouse by the sea.\n\n[Chorus]\nIn the morning, in the evening,\nin the afternoon, at night!\nThe sun goes down, the moon comes up\nand every star is bright.\n\n[Verse 2]\nIn the evening Rosa reads a story,\nBeto's yawning, Lucía too.\nAt night the moon is on the water\nand I dream a dream of you.\n\n[Chorus]\nIn the morning, in the evening,\nin the afternoon, at night!\nThe sun goes down, the moon comes up\nand every star is bright.\n\n[Bridge — very soft]\nClose your eyes and count a star,\none, two, three — that's where you are.\n\n[Chorus]\nIn the morning, in the evening,\nin the afternoon, at night!\nThe sun goes down, the moon comes up\nand every star is bright.",
+    "estilo": "soft lullaby, music box, celesta and gentle strings, 72 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "groove": "nana",
+    "usa": 9
    },
    "palabras": [
     "morning",
@@ -1058,17 +1091,18 @@
   },
   "34": {
    "unidad": "Breakfast time",
-   "gramatica": "I have… for breakfast",
+   "gramatica": "I have... for breakfast",
    "chant": {
     "titulo": "For Breakfast",
-    "letra": "[Leader]\nFor breakfast I have —\n[Kids]\nmilk! milk!\n\n[Leader]\nFor breakfast I have —\n[Kids]\nbread and jam!\n\n[Leader]\nFor breakfast I have —\n[Kids]\nan egg! an egg!\n\n[Leader]\nFor breakfast I have —\n[Kids]\na banana! juice!\n\n[All]\nSpoon and cup and bread and jam —\ngood morning! Breakfast time!",
+    "letra": "[Leader]\nWhat do you have for breakfast?\n[Kids]\nBread and jam! Bread and jam!\n\n[Leader]\nWhat do you have for breakfast?\n[Kids]\nAn egg! An egg! A little egg!\n\n[Leader]\nAnd what do you drink?\n[Kids]\nMilk in a cup! Juice in a glass!\n\n[Leader]\nAnd what do you eat it with?\n[Kids]\nA spoon! A spoon! A little spoon!\n\n[All]\nBread and jam and egg and milk —\nbreakfast time, good morning, everyone!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
-    "usa": 10
+    "usa": 9
    },
    "cancion": {
     "titulo": "Good Morning, Breakfast!",
-    "letra": "[Verse 1]\nI have milk for breakfast,\nI have bread with sweet red jam.\nI have an egg, I have a banana,\nI'm as hungry as I am!\n\n[Chorus]\nFor breakfast, for breakfast,\nwhat do you have today?\nMilk and bread and egg and juice —\nnow we're ready for the day!\n\n[Verse 2]\nA spoon for the egg, a cup for the milk,\nthe morning sun is on my plate.\nI eat it all and off I go —\ngood morning! I'm not late!\n\n[Chorus]\nFor breakfast, for breakfast,\nwhat do you have today?\nMilk and bread and egg and juice —\nnow we're ready for the day!\n\n[Bridge]\nWhat do YOU have? Tell me now,\nbefore the school bell rings!\n\n[Chorus]\nFor breakfast, for breakfast,\nwhat do you have today?\nMilk and bread and egg and juice —\nnow we're ready for the day!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
+    "letra": "[Verse 1]\nGood morning, good morning, the kettle is on,\nthere's bread on the table and jam in the jar.\nAn egg in a cup and a spoon by the plate,\na banana for later — we won't go far.\n\n[Chorus]\nI have bread, I have jam,\nI have milk for breakfast time!\nJuice and eggs and a big banana —\nmorning, morning, we feel fine!\n\n[Verse 2]\nNico drops his spoon again,\nLucía wants the biggest cup.\nRosa cuts the bread in half\nand Pip comes in to clean it up!\n\n[Chorus]\nI have bread, I have jam,\nI have milk for breakfast time!\nJuice and eggs and a big banana —\nmorning, morning, we feel fine!\n\n[Bridge]\nWhat do you have? What do you have?\nSay it now before you laugh!\n\n[Chorus]\nI have bread, I have jam,\nI have milk for breakfast time!\nJuice and eggs and a big banana —\nmorning, morning, we feel fine!",
+    "estilo": "country hoedown, banjo, fiddle and foot stomps, 96 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "groove": "campo",
     "usa": 10
    },
    "palabras": [
@@ -1087,17 +1121,18 @@
   },
   "35": {
    "unidad": "My lunchbox",
-   "gramatica": "There is / There are + food",
+   "gramatica": "There is / are + food",
    "chant": {
     "titulo": "In My Lunchbox",
-    "letra": "[Leader]\nThere is a sandwich —\n[Kids]\none big sandwich!\n\n[Leader]\nThere is an apple —\n[Kids]\none red apple!\n\n[Leader]\nThere are biscuits —\n[Kids]\ntwo, three, four biscuits!\n\n[Leader]\nThere are carrots —\n[Kids]\ncrunchy carrots!\n\n[All]\nSandwich, apple, cheese and water —\nshare your lunch, it's tasty!",
+    "letra": "[Leader]\nWhat's in your lunchbox?\n[Kids]\nA sandwich! A big cheese sandwich!\n\n[Leader]\nWhat's in your lunchbox?\n[Kids]\nAn apple! A red, red apple!\n\n[Leader]\nWhat's in your lunchbox?\n[Kids]\nA carrot and a biscuit!\n\n[Leader]\nAnd what do good friends do?\n[Kids]\nWe share! We share! We share it all!\n\n[All]\nSandwich, apple, cheese and water —\ntasty lunch, let's share it, everyone!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
-    "usa": 8
+    "usa": 9
    },
    "cancion": {
-    "titulo": "Share My Lunch",
-    "letra": "[Verse 1]\nThere is a sandwich in my lunchbox,\nthere is an apple, round and red.\nThere are biscuits, one, two, three,\nand a napkin neatly spread.\n\n[Chorus]\nThere is one, there are many,\nopen up and see!\nSandwich, apple, cheese and carrot —\ncome and share with me!\n\n[Verse 2]\nThere is water in my bottle,\nthere is cheese cut nice and thin.\nThere are carrots, orange and crunchy —\ntasty things from within!\n\n[Chorus]\nThere is one, there are many,\nopen up and see!\nSandwich, apple, cheese and carrot —\ncome and share with me!\n\n[Bridge — warm]\nA lunch is better when it's shared,\nask a friend to sit with you.\n\n[Chorus]\nThere is one, there are many,\nopen up and see!\nSandwich, apple, cheese and carrot —\ncome and share with me!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
+    "titulo": "Open the Lunchbox",
+    "letra": "[Verse 1]\nThere is a sandwich in my lunchbox,\nthere are two biscuits, brown and round.\nThere is an apple and a carrot\nand a napkin folded down.\n\n[Chorus]\nThere is, there are —\nopen up and take a look!\nCheese and water, sweet and tasty,\nbetter than a picture book!\n\n[Verse 2]\nAstrid shares her orange carrot,\nNico shares his cheese with me.\nFreya pours a cup of water,\nlunch is best in company.\n\n[Chorus]\nThere is, there are —\nopen up and take a look!\nCheese and water, sweet and tasty,\nbetter than a picture book!\n\n[Bridge]\nShare a little, share a lot,\nthat's the tastiest thing we've got!\n\n[Chorus]\nThere is, there are —\nopen up and take a look!\nCheese and water, sweet and tasty,\nbetter than a picture book!",
+    "estilo": "sunny calypso, steel drums and shakers, 108 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "groove": "calipso",
     "usa": 10
    },
    "palabras": [
@@ -1119,15 +1154,16 @@
    "gramatica": "How old are you? + party",
    "chant": {
     "titulo": "How Old Are You?",
-    "letra": "[Leader]\nHow old are you?\n[Kids]\nI am six! I am six!\n\n[Leader]\nHow old are you?\n[Kids]\nI am seven! I am seven!\n\n[Leader]\nHow many candles?\n[Kids]\nCount them! One, two, three…\n\n[Leader]\nMake a wish!\n[Kids]\nShhh… now BLOW!\n\n[All]\nCake and candles, balloons and friends —\nhappy birthday! Sing again!",
+    "letra": "[Leader]\nHow old are you?\n[Kids]\nI am seven! I am seven!\n\n[Leader]\nHow old are you?\n[Kids]\nI am eight! I am eight years old!\n\n[Leader]\nWhat's on the cake?\n[Kids]\nCandles! Candles! Count the candles!\n\n[Leader]\nAnd what do we do?\n[Kids]\nWe sing! We wish! We eat the cake!\n\n[All]\nCake and candles, balloons and friends —\na birthday party never ends!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
-    "usa": 7
+    "usa": 9
    },
    "cancion": {
-    "titulo": "Candles on the Cake",
-    "letra": "[Verse 1]\nHow old are you? I'm seven today!\nThere are seven candles on my cake.\nThe balloons are red, the room is loud,\nand the biggest wish is mine to make!\n\n[Chorus]\nHappy birthday! Sing it loud!\nCount the candles, one by one!\nPresents, party, friends and cake —\nseven years old is so much fun!\n\n[Verse 2]\nMy friends are here, they brought a present,\nwrapped in paper, blue and gold.\nWe sing the song and then I blow —\nnow I'm one year more than old!\n\n[Chorus]\nHappy birthday! Sing it loud!\nCount the candles, one by one!\nPresents, party, friends and cake —\nseven years old is so much fun!\n\n[Bridge — soft]\nClose your eyes and make a wish,\ndon't tell anyone — then blow!\n\n[Chorus]\nHappy birthday! Sing it loud!\nCount the candles, one by one!\nPresents, party, friends and cake —\nseven years old is so much fun!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
-    "usa": 10
+    "titulo": "It's Your Day",
+    "letra": "[Verse 1]\nThere's a cake with seven candles\nand a balloon on every chair.\nThere's a present in blue paper\nand your best friends everywhere.\n\n[Chorus]\nIt's your day, it's your day,\nhow old are you today?\nBlow the candles, make a wish\nand sing the night away!\n\n[Verse 2]\nNico brought a paper crown,\nAstrid brought a puzzle box.\nTomás dropped the lemonade\nand Freya laughed till she fell down.\n\n[Chorus]\nIt's your day, it's your day,\nhow old are you today?\nBlow the candles, make a wish\nand sing the night away!\n\n[Bridge]\nClose your eyes and make a wish,\nopen them — the cake's the best!\n\n[Chorus]\nIt's your day, it's your day,\nhow old are you today?\nBlow the candles, make a wish\nand sing the night away!",
+    "estilo": "playful 12-bar rock and roll, boogie piano and clean electric guitar, 128 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "groove": "rocanrol",
+    "usa": 7
    },
    "palabras": [
     "birthday",
@@ -1147,15 +1183,16 @@
    "unidad": "Head and hands",
    "gramatica": "action words: touch, move, lift",
    "chant": {
-    "titulo": "Shake and Wave",
-    "letra": "[Leader]\nShake your hands!\n[Kids]\nShake, shake, shake!\n[Leader]\nNod your head!\n[Kids]\nNod, nod, nod!\n[Leader]\nRaise your arms!\n[Kids]\nUp, up, up!\n[Leader]\nWave hello!\n[Kids]\nHello! Hello!\n[Leader]\nStamp your feet! Wiggle your fingers!\n[Kids]\nHands up! Open! Close! Again!",
+    "titulo": "Hands Up!",
+    "letra": "[Leader]\nHands up!\n[Kids]\nHANDS UP!\n\n[Leader]\nShake your hands!\n[Kids]\nShake, shake, shake!\n\n[Leader]\nNod your head!\n[Kids]\nNod, nod, nod!\n\n[Leader]\nWave hello!\n[Kids]\nWave, wave, wave!\n\n[Leader]\nStamp your feet and wiggle!\n[Kids]\nStamp and wiggle! Stamp and wiggle!\n\n[All]\nShake and nod and raise and wave —\nopen, close and hands up high!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
     "usa": 9
    },
    "cancion": {
-    "titulo": "Hands Up!",
-    "letra": "[Verse 1]\nShake your hands and nod your head,\nraise your arms up to the sky.\nWave hello to everyone\nand wiggle all your fingers high!\n\n[Chorus]\nHands up! Hands down!\nTouch and move and shake!\nOpen, close and stamp your feet —\nhow much noise can we make?\n\n[Verse 2]\nStamp your feet upon the floor,\nopen your hands and close them tight.\nTouch your head and touch your toes\nand wave goodnight, goodnight!\n\n[Chorus]\nHands up! Hands down!\nTouch and move and shake!\nOpen, close and stamp your feet —\nhow much noise can we make?\n\n[Bridge — slow]\nNow be still… very still…\nand only wiggle one finger.\n\n[Chorus]\nHands up! Hands down!\nTouch and move and shake!\nOpen, close and stamp your feet —\nhow much noise can we make?",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
+    "titulo": "Wiggle and Wave",
+    "letra": "[Verse 1]\nRaise your hands up to the ceiling,\nshake them slowly, shake them fast.\nNod your head and wave to Astrid,\nwiggle till the music's past.\n\n[Chorus]\nHands up! Shake! Nod! Wave!\nStamp your feet and touch the floor!\nOpen, close and open again —\nnow let's do it once more!\n\n[Verse 2]\nTouch your nose and close your fingers,\nopen wide and count to four.\nStamp the left and stamp the right,\nwiggle out and through the door!\n\n[Chorus]\nHands up! Shake! Nod! Wave!\nStamp your feet and touch the floor!\nOpen, close and open again —\nnow let's do it once more!\n\n[Bridge]\nSlow, slow, slow — and FAST!\nWiggle, wiggle, make it last!\n\n[Chorus]\nHands up! Shake! Nod! Wave!\nStamp your feet and touch the floor!\nOpen, close and open again —\nnow let's do it once more!",
+    "estilo": "clean kids' funk, clavinet, wah guitar and tight snappy drums, 104 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "groove": "funk",
     "usa": 10
    },
    "palabras": [
@@ -1173,18 +1210,19 @@
    "titulo_unidad": "Head and hands"
   },
   "38": {
-   "unidad": "Animals can…",
+   "unidad": "Animals can...",
    "gramatica": "can + animals (review)",
    "chant": {
-    "titulo": "Animals Can",
-    "letra": "[Leader]\nA bird can —\n[Kids]\nFLY!\n[Leader]\nA fish can —\n[Kids]\nSWIM!\n[Leader]\nA rabbit can —\n[Kids]\nJUMP!\n[Leader]\nA horse can —\n[Kids]\nRUN!\n[Leader]\nA monkey can —\n[Kids]\nCLIMB!\n[Leader]\nAnd a bear at night can —\n[Kids]\nSLEEP! Shhh…",
+    "titulo": "Can It Fly?",
+    "letra": "[Leader]\nCan a bird fly?\n[Kids]\nYes, it can! High, high, high!\n\n[Leader]\nCan a fish swim?\n[Kids]\nYes, it can! Fast, fast, fast!\n\n[Leader]\nCan a monkey climb?\n[Kids]\nYes, it can! Up the tree!\n\n[Leader]\nCan a rabbit jump?\n[Kids]\nYes, it can! Jump, jump, jump!\n\n[All]\nFly and swim and jump and climb —\nanimals can, and so can I!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
     "usa": 6
    },
    "cancion": {
-    "titulo": "Fast and High",
-    "letra": "[Verse 1]\nA bird can fly up very high,\na fish can swim down very deep.\nA rabbit jumps across the grass,\na bear lies down to sleep.\n\n[Chorus]\nFly and swim and jump and run,\nclimb and sing and walk!\nEvery animal can do something —\nlisten while they talk!\n\n[Verse 2]\nA horse can run so very fast,\na monkey climbs from tree to tree.\nA bird can sing a morning song\nand a snail just walks — slowly!\n\n[Chorus]\nFly and swim and jump and run,\nclimb and sing and walk!\nEvery animal can do something —\nlisten while they talk!\n\n[Bridge]\nWhat can YOU do? Show me now —\nfast or high or both somehow!\n\n[Chorus]\nFly and swim and jump and run,\nclimb and sing and walk!\nEvery animal can do something —\nlisten while they talk!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
+    "titulo": "Animals Can",
+    "letra": "[Verse 1]\nA bird can fly up very high,\na fish can swim down very deep.\nA horse can run across the field\nand a cat can find a place to sleep.\n\n[Chorus]\nAnimals can fly and swim,\nanimals can jump and run!\nClimb and walk and sing and sleep,\nfast and high and lots of fun!\n\n[Verse 2]\nA monkey climbs from branch to branch,\na puffin walks and looks around.\nPip can sing a funny song\nthat hardly makes a sound.\n\n[Chorus]\nAnimals can fly and swim,\nanimals can jump and run!\nClimb and walk and sing and sleep,\nfast and high and lots of fun!\n\n[Bridge]\nWhat can you do? What can you do?\nFly? No — but you can run, it's true!\n\n[Chorus]\nAnimals can fly and swim,\nanimals can jump and run!\nClimb and walk and sing and sleep,\nfast and high and lots of fun!",
+    "estilo": "cheerful marching band parade, snare drum, tuba and bright brass, 116 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "groove": "banda",
     "usa": 10
    },
    "palabras": [
@@ -1205,15 +1243,16 @@
    "unidad": "Numbers 11 to 20",
    "gramatica": "numbers 11-20",
    "chant": {
-    "titulo": "Eleven to Twenty",
-    "letra": "[Leader]\nEleven, twelve!\n[Kids]\nEleven, twelve!\n[Leader]\nThirteen, fourteen!\n[Kids]\nThirteen, fourteen!\n[Leader]\nFifteen, sixteen!\n[Kids]\nFifteen, sixteen!\n[Leader]\nSeventeen, eighteen!\n[Kids]\nSeventeen, eighteen!\n[Leader]\nNineteen and…\n[Kids]\nTWENTY! TWENTY! TWENTY!",
+    "titulo": "Eleven What?",
+    "letra": "[Leader]\nEleven what?\n[Kids]\nEleven birds on the lighthouse wall!\n\n[Leader]\nTwelve what?\n[Kids]\nTwelve small shells beside the sea!\n\n[Leader]\nFifteen what?\n[Kids]\nFifteen steps up to the door!\n\n[Leader]\nEighteen what?\n[Kids]\nEighteen waves and nineteen more!\n\n[Leader]\nAnd how many candles on the cake?\n[Kids]\nTWENTY! Twenty! Count them all!\n\n[All]\nThirteen, fourteen, sixteen, seventeen —\nup to twenty, that's the game!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
     "usa": 10
    },
    "cancion": {
-    "titulo": "All the Way to Twenty",
-    "letra": "[Verse 1]\nTen was the end but not any more,\neleven and twelve are knocking at the door.\nThirteen, fourteen, here they come,\nfifteen, sixteen — count with everyone!\n\n[Chorus]\nEleven, twelve, thirteen, fourteen,\nfifteen, sixteen, seventeen!\nEighteen, nineteen, and at the end\nTWENTY — the biggest we have seen!\n\n[Verse 2]\nSeventeen shells upon the sand,\neighteen birds up in the sky.\nNineteen steps up to the light\nand twenty waves as we go by!\n\n[Chorus]\nEleven, twelve, thirteen, fourteen,\nfifteen, sixteen, seventeen!\nEighteen, nineteen, and at the end\nTWENTY — the biggest we have seen!\n\n[Bridge — slow]\nListen to the end of the word:\n-teen, -teen, -teen — did you hear?\n\n[Chorus]\nEleven, twelve, thirteen, fourteen,\nfifteen, sixteen, seventeen!\nEighteen, nineteen, and at the end\nTWENTY — the biggest we have seen!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
+    "titulo": "Past Ten",
+    "letra": "[Verse 1]\nEleven birds are on the wall,\ntwelve small shells beside the sea.\nThirteen windows in the lighthouse,\nfourteen boats for you and me.\n\n[Chorus]\nPast ten and counting,\neleven, twelve and more!\nFifteen, sixteen, seventeen —\nwho's keeping score?\n\n[Verse 2]\nEighteen footprints in the sand,\nnineteen feathers, soft and grey.\nTwenty candles on the table —\nthat's a very special day!\n\n[Chorus]\nPast ten and counting,\neleven, twelve and more!\nFifteen, sixteen, seventeen —\nwho's keeping score?\n\n[Bridge]\nStart at ten and don't be slow,\nadd one more and up we go!\n\n[Chorus]\nPast ten and counting,\neleven, twelve and more!\nFifteen, sixteen, seventeen —\nwho's keeping score?",
+    "estilo": "playful kids' electro-pop, bouncy synth bass, bleeps and claps, 110 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "groove": "electro",
     "usa": 10
    },
    "palabras": [
@@ -1234,15 +1273,16 @@
    "unidad": "The alphabet",
    "gramatica": "the alphabet",
    "chant": {
-    "titulo": "A to Z",
-    "letra": "[Leader]\nA, B, C!\n[Kids]\nA, B, C!\n[Leader]\nD, E, F!\n[Kids]\nD, E, F!\n[Leader]\nG, H, I, J, K!\n[Kids]\nG, H, I, J, K!\n[Leader]\nL, M, N, O, P!\n[Kids]\nL, M, N, O, P!\n[Leader]\nAll the way to…\n[Kids]\nZ! Z! Z! That's the alphabet!",
+    "titulo": "A Is First",
+    "letra": "[Leader]\nWhat is the first letter?\n[Kids]\nA! A! A is first!\n\n[Leader]\nAnd after A?\n[Kids]\nB! B! B comes next!\n\n[Leader]\nWhat is the last letter?\n[Kids]\nZ! Z! Z is last!\n\n[Leader]\nBig letter or small letter?\n[Kids]\nBoth! A big A and a small a!\n\n[All]\nTwenty-six letters in a row —\nthat's the alphabet, off we go!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
-    "usa": 4
+    "usa": 9
    },
    "cancion": {
-    "titulo": "The Alphabet Song",
-    "letra": "[Verse 1]\nA is the first, it starts the line,\nB and C come right behind.\nD, E, F and G and H —\ntwenty-six of every kind!\n\n[Chorus]\nSing the alphabet with me,\nfrom the first one to the last!\nA is first and Z is last —\ndon't go too fast!\n\n[Verse 2]\nA big letter starts a name,\na small letter fills the rest.\nBig A, small a — both the same,\nboth of them are best!\n\n[Chorus]\nSing the alphabet with me,\nfrom the first one to the last!\nA is first and Z is last —\ndon't go too fast!\n\n[Bridge — slow]\nA… B… C…\nsay each letter carefully.\n\n[Chorus]\nSing the alphabet with me,\nfrom the first one to the last!\nA is first and Z is last —\ndon't go too fast!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
+    "titulo": "Twenty-Six Letters",
+    "letra": "[Verse 1]\nA is the first and Z is the last,\ntwenty-six letters, don't say them too fast.\nA big letter here and a small letter there,\nletters in the water and letters in the air.\n\n[Chorus]\nSing the alphabet, sing it with me,\nletter after letter, easy as can be!\nFirst letter, last letter, big one and small —\nthe alphabet is holding them all!\n\n[Verse 2]\nFreya finds an F in the sand,\nNico writes an N with his hand.\nAstrid says the letter A\nand Tomás sings a T all day.\n\n[Chorus]\nSing the alphabet, sing it with me,\nletter after letter, easy as can be!\nFirst letter, last letter, big one and small —\nthe alphabet is holding them all!\n\n[Bridge]\nPoint at a letter, say its name,\nevery single one's a game!\n\n[Chorus]\nSing the alphabet, sing it with me,\nletter after letter, easy as can be!\nFirst letter, last letter, big one and small —\nthe alphabet is holding them all!",
+    "estilo": "clean kids' funk, clavinet, wah guitar and tight snappy drums, 104 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "groove": "funk",
     "usa": 10
    },
    "palabras": [
@@ -1261,18 +1301,19 @@
   },
   "41": {
    "unidad": "Spell your name",
-   "gramatica": "How do you spell…?",
+   "gramatica": "How do you spell...?",
    "chant": {
     "titulo": "How Do You Spell It?",
-    "letra": "[Leader]\nHow do you spell your name?\n[Kids]\nP - I - P! Pip!\n\n[Leader]\nHow do you spell your name?\n[Kids]\nN - I - C - O! Nico!\n\n[Leader]\nAgain, slowly!\n[Kids]\nN… I… C… O!\n\n[Leader]\nIs that correct?\n[Kids]\nYES! Well done! Well done!\n\n[All]\nListen, write, and say again —\nspell your name and spell it plain!",
+    "letra": "[Leader]\nHow do you spell your name?\n[Kids]\nListen! Listen! Letter by letter!\n\n[Leader]\nSay it again!\n[Kids]\nAgain! Again! Slowly, slowly!\n\n[Leader]\nIs it correct?\n[Kids]\nYes! It is correct!\n\n[Leader]\nThen what do we say?\n[Kids]\nWell done! Well done! Well done!\n\n[All]\nSpell your name and spell your surname —\nletter, letter, write it down!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
-    "usa": 8
+    "usa": 10
    },
    "cancion": {
-    "titulo": "Spell It Slowly",
-    "letra": "[Verse 1]\nHow do you spell your name, my friend?\nSay it slowly, letter by letter.\nI will listen, I will write,\nand together we'll do better!\n\n[Chorus]\nSpell it slowly, spell it clear,\nsay it once and say it twice!\nName and surname, letter by letter —\nwell done, that was nice!\n\n[Verse 2]\nSorry — can you say again?\nA little slower, if you please.\nNow I've got it, now it's right,\nspelling names is such a breeze!\n\n[Chorus]\nSpell it slowly, spell it clear,\nsay it once and say it twice!\nName and surname, letter by letter —\nwell done, that was nice!\n\n[Bridge — soft]\nIf you don't hear it the first time,\njust say: again, please — slowly.\n\n[Chorus]\nSpell it slowly, spell it clear,\nsay it once and say it twice!\nName and surname, letter by letter —\nwell done, that was nice!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
-    "usa": 9
+    "titulo": "Letter by Letter",
+    "letra": "[Verse 1]\nHow do you spell it? Say it slowly,\nletter by letter, one by one.\nListen carefully, write it down\nand check it when you're done.\n\n[Chorus]\nSpell your name, spell your surname,\nsay it again, don't be shy!\nListen, write it — is it correct?\nWell done, that's how you fly!\n\n[Verse 2]\nAstrid spells her name out loud,\nNico writes his on the board.\nFreya says it far too fast\nand everybody shouts: once more!\n\n[Chorus]\nSpell your name, spell your surname,\nsay it again, don't be shy!\nListen, write it — is it correct?\nWell done, that's how you fly!\n\n[Bridge]\nSlowly, slowly, letter by letter,\nsay it twice and it gets better!\n\n[Chorus]\nSpell your name, spell your surname,\nsay it again, don't be shy!\nListen, write it — is it correct?\nWell done, that's how you fly!",
+    "estilo": "playful kids' electro-pop, bouncy synth bass, bleeps and claps, 110 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "groove": "electro",
+    "usa": 10
    },
    "palabras": [
     "spell",
@@ -1292,15 +1333,16 @@
    "unidad": "He is, she is",
    "gramatica": "He is / She is / It is",
    "chant": {
-    "titulo": "He Is, She Is, It Is",
-    "letra": "[Leader]\nNico —\n[Kids]\nHE is a boy!\n\n[Leader]\nFreya —\n[Kids]\nSHE is a girl!\n\n[Leader]\nPip —\n[Kids]\nIT is a bird!\n\n[Leader]\nThe teacher —\n[Kids]\nSHE is tall! HE is tall!\n\n[All]\nHe is, she is, it is —\nthree little words and that is it!",
+    "titulo": "He Is, She Is",
+    "letra": "[Leader]\nWho is he?\n[Kids]\nHe is a boy! He is Nico!\n\n[Leader]\nWho is she?\n[Kids]\nShe is a girl! She is Freya!\n\n[Leader]\nAnd who is she?\n[Kids]\nShe is a teacher! She is tall!\n\n[Leader]\nAnd who is he?\n[Kids]\nHe is a doctor! He is kind!\n\n[All]\nHe is, she is, it is too —\nhappy, tall, and so are you!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
-    "usa": 8
+    "usa": 10
    },
    "cancion": {
-    "titulo": "He, She, It",
-    "letra": "[Verse 1]\nHe is a boy with a big red ball,\nshe is a girl who can draw the sea.\nIt is a bird with an orange beak —\nhe, she, it: just three!\n\n[Chorus]\nHe is, she is, it is,\npick the little word!\nBoy or girl or animal —\nthe clearest thing you've heard!\n\n[Verse 2]\nHe is a doctor, tall and kind,\nshe is a teacher, happy too.\nIt is a puffin on a rock —\nnow you say it, over to you!\n\n[Chorus]\nHe is, she is, it is,\npick the little word!\nBoy or girl or animal —\nthe clearest thing you've heard!\n\n[Bridge — slow]\nBoy is HE. Girl is SHE.\nAnimal or thing is IT.\n\n[Chorus]\nHe is, she is, it is,\npick the little word!\nBoy or girl or animal —\nthe clearest thing you've heard!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
+    "titulo": "He Is, She Is, It Is",
+    "letra": "[Verse 1]\nHe is a boy with a yellow ball,\nshe is a girl who is very tall.\nIt is a puffin with an orange beak\nstanding on the lighthouse peak.\n\n[Chorus]\nHe is, she is, it is —\none small word tells you who!\nHe is happy, she is happy\nand it is happy too!\n\n[Verse 2]\nShe is a teacher, she is kind,\nhe is a doctor you can find.\nIt is a morning, warm and blue,\nand everybody knows what to do.\n\n[Chorus]\nHe is, she is, it is —\none small word tells you who!\nHe is happy, she is happy\nand it is happy too!\n\n[Bridge]\nBoy or girl or bird or ball —\nhe, she, it: that's all!\n\n[Chorus]\nHe is, she is, it is —\none small word tells you who!\nHe is happy, she is happy\nand it is happy too!",
+    "estilo": "sweet 50s doo-wop, finger snaps, piano triplets and sha-la-la backing, 124 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "groove": "doowop",
     "usa": 10
    },
    "palabras": [
@@ -1321,15 +1363,16 @@
    "unidad": "This and that",
    "gramatica": "This is / That is",
    "chant": {
-    "titulo": "This and That",
-    "letra": "[Leader]\nHere, near me —\n[Kids]\nTHIS is my book!\n\n[Leader]\nThere, far away —\n[Kids]\nTHAT is your bag!\n\n[Leader]\nHere, many —\n[Kids]\nTHESE are my crayons!\n\n[Leader]\nThere, many —\n[Kids]\nTHOSE are the trees!\n\n[All]\nThis and that, these and those,\nnear and far — everybody knows!",
+    "titulo": "This or That?",
+    "letra": "[Leader]\nWhat is this?\n[Kids]\nThis is a shell! Here! Here!\n\n[Leader]\nWhat is that?\n[Kids]\nThat is a boat! There! There!\n\n[Leader]\nWhat are these?\n[Kids]\nThese are my shoes! Near, near!\n\n[Leader]\nWhat are those?\n[Kids]\nThose are the hills! Far, far away!\n\n[All]\nThis and that and these and those —\nhere and there, look where it goes!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
-    "usa": 8
+    "usa": 10
    },
    "cancion": {
-    "titulo": "Near and Far",
-    "letra": "[Verse 1]\nThis is my book, it's in my hand,\nthat is the door across the room.\nThis is near and that is far —\nlook and say it, say it soon!\n\n[Chorus]\nThis is here and that is there,\nthese are near and those are far!\nPoint your finger, say the word —\nnow you know just where you are!\n\n[Verse 2]\nThese are the crayons on my desk,\nthose are the trees outside the wall.\nOne is one and many is many —\nlook, and you can name them all!\n\n[Chorus]\nThis is here and that is there,\nthese are near and those are far!\nPoint your finger, say the word —\nnow you know just where you are!\n\n[Bridge — soft]\nNear me: THIS. Far from me: THAT.\nMany near: THESE. Many far: THOSE.\n\n[Chorus]\nThis is here and that is there,\nthese are near and those are far!\nPoint your finger, say the word —\nnow you know just where you are!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
+    "titulo": "Here and There",
+    "letra": "[Verse 1]\nThis is my hat and that is yours,\nthis one's near and that one's far.\nThese are the shells I found this morning,\nthose are the boats — look where they are!\n\n[Chorus]\nThis and that, these and those,\nhere and there, now look and see!\nOne is \"this\" and many are \"these\" —\nsay it right and follow me!\n\n[Verse 2]\nLook at this, it's small and round,\nlook at that, it's on the ground.\nThese are near and those are far,\nthat's the way the small words are.\n\n[Chorus]\nThis and that, these and those,\nhere and there, now look and see!\nOne is \"this\" and many are \"these\" —\nsay it right and follow me!\n\n[Bridge]\nPoint at something close to you: THIS.\nPoint at something far away: THAT.\n\n[Chorus]\nThis and that, these and those,\nhere and there, now look and see!\nOne is \"this\" and many are \"these\" —\nsay it right and follow me!",
+    "estilo": "bouncy accordion polka, tuba oom-pah and tambourine, 120 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "groove": "polka",
     "usa": 9
    },
    "palabras": [
@@ -1350,15 +1393,16 @@
    "unidad": "The magic word game",
    "gramatica": "Starters vocabulary review",
    "chant": {
-    "titulo": "The Magic Word",
-    "letra": "[Leader]\nGuess the word!\n[Kids]\nGuess the word!\n\n[Leader]\nIt is red and it is round —\n[Kids]\nA BALL!\n\n[Leader]\nIt can fly and it is small —\n[Kids]\nA BIRD!\n\n[Leader]\nYou eat it and it is sweet —\n[Kids]\nA CAKE!\n\n[Leader]\nPoint! Guess! Team one, team two!\n[Kids]\nWINNER! Clap your hands! Again!",
+    "titulo": "Guess the Word!",
+    "letra": "[Leader]\nIt's a magic word!\n[Kids]\nGuess it! Guess it!\n\n[Leader]\nPoint at the picture!\n[Kids]\nPoint! Point! Point!\n\n[Leader]\nIs it right?\n[Kids]\nYes! Clap your hands!\n\n[Leader]\nWhich team wins?\n[Kids]\nOur team! Our team! We're the winners!\n\n[All]\nWord and game and guess and point —\nplay it once and play again!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
-    "usa": 7
+    "usa": 9
    },
    "cancion": {
-    "titulo": "Guess the Magic Word",
-    "letra": "[Verse 1]\nI'm thinking of a magic word,\nit's hiding somewhere in your head.\nIt's something that you know so well —\nremember what your teacher said!\n\n[Chorus]\nGuess the word, guess the word,\npoint and shout it out!\nTeam one, team two, who will win?\nThat's what the game's about!\n\n[Verse 2]\nIt's red, it's round, it bounces high —\nyou've got it! Clap your hands!\nNow it's your turn, choose a word\nand see who understands!\n\n[Chorus]\nGuess the word, guess the word,\npoint and shout it out!\nTeam one, team two, who will win?\nThat's what the game's about!\n\n[Bridge]\nWin or lose, we play again,\nthe game is better with a friend!\n\n[Chorus]\nGuess the word, guess the word,\npoint and shout it out!\nTeam one, team two, who will win?\nThat's what the game's about!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
+    "titulo": "The Magic Word",
+    "letra": "[Verse 1]\nPick a card, don't show it yet,\nthere's a magic word inside.\nPoint at something in the picture,\ngive your team a little guide.\n\n[Chorus]\nGuess the word, guess the word,\nclap your hands, we play again!\nTeam by team and one by one,\neverybody wins, my friend!\n\n[Verse 2]\nFreya guesses \"kite\" and wins it,\nNico guesses \"cat\" — so close!\nAstrid points and Tomás shouts it,\nthis is the game we love the most.\n\n[Chorus]\nGuess the word, guess the word,\nclap your hands, we play again!\nTeam by team and one by one,\neverybody wins, my friend!\n\n[Bridge]\nOne more word and one more clap,\none more game before we stop!\n\n[Chorus]\nGuess the word, guess the word,\nclap your hands, we play again!\nTeam by team and one by one,\neverybody wins, my friend!",
+    "estilo": "playful 12-bar rock and roll, boogie piano and clean electric guitar, 128 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "groove": "rocanrol",
     "usa": 8
    },
    "palabras": [
@@ -1379,16 +1423,17 @@
    "unidad": "The Lighthouse party",
    "gramatica": "whole course review",
    "chant": {
-    "titulo": "We Did It!",
-    "letra": "[Leader]\nWe can count!\n[Kids]\nOne to twenty!\n\n[Leader]\nWe can spell!\n[Kids]\nA to Z!\n\n[Leader]\nWe know the colours!\n[Kids]\nRed, blue, green, yellow!\n\n[Leader]\nWe know the animals!\n[Kids]\nCow, horse, monkey, bird!\n\n[Leader]\nAre we proud?\n[Kids]\nYES! HOORAY! Thank you, Pip!",
+    "titulo": "Hooray!",
+    "letra": "[Leader]\nWhere's the party?\n[Kids]\nAt the lighthouse! At the lighthouse!\n\n[Leader]\nWhat do we get?\n[Kids]\nA certificate! A gold star!\n\n[Leader]\nWhat do we do?\n[Kids]\nWe sing! We dance! Every day!\n\n[Leader]\nAnd how do we feel?\n[Kids]\nProud! Proud! Very proud!\n\n[All]\nThank you, friends — hooray, hooray!\nThe lighthouse party's here today!",
     "estilo": "playground chant for 6-year-old children, call and response, handclaps and foot stomps, one adult leader voice and a chorus of kids answering, spoken-sung not melodic, 96 BPM, no melody instruments, very clear diction",
-    "usa": 4
+    "usa": 11
    },
    "cancion": {
     "titulo": "The Lighthouse Party",
-    "letra": "[Verse 1]\nThe lighthouse light is shining bright,\nthere's music down beside the sea.\nWe started small, we didn't know —\nand look how much we can be!\n\n[Chorus]\nSing and dance and clap your hands,\nwe are proud and we are here!\nCertificate and shining star —\nwhat a wonderful, wonderful year!\n\n[Verse 2]\nWe learned the colours, learned the numbers,\nlearned to say what we can do.\nWe made some friends along the way\nand Pip was hiding — he was too!\n\n[Chorus]\nSing and dance and clap your hands,\nwe are proud and we are here!\nCertificate and shining star —\nwhat a wonderful, wonderful year!\n\n[Bridge — warm]\nThank you, friends. Thank you, Pip.\nThe Lighthouse Explorers, all of us!\n\n[Chorus — big finish]\nSing and dance and clap your hands,\nwe are proud and we are here!\nCertificate and shining star —\nHOORAY for a wonderful year!",
-    "estilo": "happy children's pop, ukulele, acoustic guitar and handclaps, bright warm voice with a small kids' chorus on the refrain, 104 BPM, simple and nursery-friendly, no heavy drums, very clear diction",
-    "usa": 9
+    "letra": "[Verse 1]\nThe light is on, the door is open,\nevery friend is coming through.\nThere's a certificate with your name on it\nand a golden star for you.\n\n[Chorus]\nSing and dance, we're at the party,\nup the lighthouse, all the way!\nThank you, friends, for every lesson —\nhooray, hooray, hooray!\n\n[Verse 2]\nOn Saturdays we came together,\nevery day we learned a word.\nFreya, Nico, Astrid, Tomás\nand the smallest puffin bird.\n\n[Chorus]\nSing and dance, we're at the party,\nup the lighthouse, all the way!\nThank you, friends, for every lesson —\nhooray, hooray, hooray!\n\n[Bridge]\nLook how far you've come — be proud!\nSay it once and say it loud!\n\n[Chorus]\nSing and dance, we're at the party,\nup the lighthouse, all the way!\nThank you, friends, for every lesson —\nhooray, hooray, hooray!",
+    "estilo": "joyful gospel handclap, upright piano and a big children's choir, 96 BPM, for 6-year-old children, bright warm lead voice with a small kids' chorus on the refrain, simple and nursery-friendly, very clear diction",
+    "groove": "gospel",
+    "usa": 12
    },
    "palabras": [
     "party",
