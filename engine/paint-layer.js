@@ -45,15 +45,37 @@ var SIZES = {S:.6, M:1, L:1.8};
 var MAXW = 1600;            // el lienzo interno no pasa de aquí: memoria en tablets
 var CSS_ID = 'pl-css';
 
+/* Tipografía de marca de Nordic (Brandbook): Gotham en la barra y TT Rounds
+   Neue, redonda y amable, para las palabras que el niño escribe en la lámina.
+   Los .ttf viven en una carpeta fonts/ junto a este archivo (en el portal es
+   la fonts/ de la raíz); si una página los tiene en otro sitio, declara
+   window.PAINT_FONT_DIR antes de cargar el script. Si no cargan, se cae a la
+   letra del sistema sin romper nada. */
+var FONT_DIR = (function(){
+  if(window.PAINT_FONT_DIR) return window.PAINT_FONT_DIR;
+  var src = document.currentScript && document.currentScript.src;
+  return src ? src.replace(/[?#].*$/, '').replace(/[^\/]*$/, '') + 'fonts/' : 'fonts/';
+})();
+var TEXT_FONT = '"TT Rounds Neue","Gotham","Comic Sans MS","Segoe Print",sans-serif';
+var UI_FONT = '"Gotham","TT Rounds Neue",system-ui,"Segoe UI",sans-serif';
+var FACES = [
+  ['Gotham', 'GothamBook.ttf', 400], ['Gotham', 'GothamMedium.ttf', 500],
+  ['TT Rounds Neue', 'TTRoundsNeue-Regular.ttf', 400], ['TT Rounds Neue', 'TTRoundsNeue-Bold.ttf', 700]
+];
+
 function css(){
   if(document.getElementById(CSS_ID)) return;
   var s = document.createElement('style'); s.id = CSS_ID;
-  s.textContent = [
+  s.textContent = FACES.map(function(f){
+    return '@font-face{font-family:"' + f[0] + '";src:url("' + FONT_DIR + f[1] + '") format("truetype");font-weight:' + f[2] + ';font-display:swap}';
+  }).concat([
+  '.pl-bar,.pl-textbox{font-family:' + UI_FONT + '}',
+  '.pl-textbox{font-family:' + TEXT_FONT + '}',
   '.pl-wrap{position:relative;display:block;width:100%;max-width:820px;margin:10px 0;user-select:none;-webkit-user-select:none}',
   '.pl-wrap img{display:block;width:100%;height:auto;margin:0!important;border-radius:14px}',
   '.pl-canvas{position:absolute;left:0;top:0;width:100%;height:100%;touch-action:none;cursor:crosshair;border-radius:14px}',
   '.pl-wrap.pl-text .pl-canvas{cursor:text}',
-  '.pl-bar{display:flex;flex-wrap:wrap;align-items:center;gap:6px;padding:8px 10px;margin:8px 0 0;background:#f4f6fb;border:1px solid #d9deea;border-radius:12px;font-family:inherit}',
+  '.pl-bar{display:flex;flex-wrap:wrap;align-items:center;gap:6px;padding:8px 10px;margin:8px 0 0;background:#f4f6fb;border:1px solid #d9deea;border-radius:12px}',
   '.pl-bar .pl-grp{display:flex;align-items:center;gap:4px;padding-right:8px;margin-right:2px;border-right:1px solid #d9deea}',
   '.pl-bar .pl-grp:last-child{border-right:0}',
   '.pl-bar button{border:1px solid #cfd6e4;background:#fff;border-radius:9px;min-width:38px;height:36px;padding:0 8px;font-size:1.05rem;cursor:pointer;line-height:1;color:#1e293b}',
@@ -66,7 +88,7 @@ function css(){
   '.pl-bar .pl-hint{font-size:.78rem;color:#64748b;margin-left:auto}',
   '.pl-textbox{position:absolute;z-index:5;border:2px dashed #1e3a8a;background:rgba(255,255,255,.9);border-radius:6px;padding:2px 6px;font-weight:700;outline:none;min-width:60px}',
   '@media (max-width:600px){.pl-bar button{min-width:34px;height:34px;font-size:1rem}.pl-bar .pl-sw{width:24px;height:24px}}'
-  ].join('\n');
+  ]).join('\n');
   document.head.appendChild(s);
 }
 
@@ -77,7 +99,7 @@ function attach(img, opts){
   var tools = opts.tools || ['pencil','brush','pen','eraser','text'];
   var colours = opts.colours || YLE;
   var lang = opts.lang || 'en';
-  var font = opts.font || '"Comic Sans MS","Segoe Print","Chalkboard SE",sans-serif';
+  var font = opts.font || TEXT_FONT;
 
   /* ---- DOM: envolver la imagen y poner el lienzo encima ---- */
   var wrap = document.createElement('div'); wrap.className = 'pl-wrap';
@@ -104,6 +126,11 @@ function attach(img, opts){
     repinta();
   }
   if(img.complete && img.naturalWidth) medir(); else img.addEventListener('load', medir);
+  // el lienzo pinta el texto con la letra que haya en ese momento: cuando
+  // llega TT Rounds se vuelve a pintar para que las palabras salgan con ella
+  if(document.fonts && document.fonts.load){
+    document.fonts.load('bold 32px "TT Rounds Neue"').then(function(){ repinta(); }, function(){});
+  }
 
   function trazo(o){
     if(o.t === 'text'){
