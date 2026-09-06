@@ -1,0 +1,415 @@
+{
+ "id": "c1a-04",
+ "level": "c1a",
+ "number": 4,
+ "title": "The shape of an argument",
+ "topic": "word formation & nominalisation",
+ "grammar": "Nominalisation and word formation for academic style",
+ "wordlist": [
+  "nominalisation",
+  "objective",
+  "formal",
+  "abstract",
+  "precise",
+  "root",
+  "impersonal",
+  "hallmark",
+  "measured",
+  "authoritative"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Use of English",
+  "part": 3,
+  "skill": "word formation"
+ },
+ "characters": [
+  "nova"
+ ],
+ "scene": {
+  "speaker": "nova",
+  "bubble": "Sound objective and authoritative. Learn nominalisation and word formation for real academic style.",
+  "intro": "Serious writing has a shape of its own. Watch how an academic writer turns actions into nouns — fail into failure, decide into decision — and suddenly the argument sounds measured, objective, authoritative. In this unit you learn nominalisation and word formation, the exact skill tested in Part 3 of the exam, and the secret behind a strong C1 essay. For the Inspiring Nordic project, this is how your ideas earn respect. Let's begin."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Vocabulary — academic style. Match each word with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "nominalisation",
+      "right": "turning a verb or adjective into a noun"
+     },
+     {
+      "left": "objective",
+      "right": "not influenced by personal feelings"
+     },
+     {
+      "left": "formal",
+      "right": "suitable for serious, official use"
+     },
+     {
+      "left": "abstract",
+      "right": "expressing an idea rather than a physical thing"
+     },
+     {
+      "left": "precise",
+      "right": "exact and accurate"
+     },
+     {
+      "left": "root",
+      "right": "the base form from which a word family grows"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "reading",
+   "title": "Reading — the reading club on academic style",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "kicker": "Academic Style",
+    "title": "The shape of an argument",
+    "author": "sofia",
+    "byline": "by Sofía",
+    "text": "<p>Read any serious essay and you will notice something curious: the people disappear. Where an everyday speaker says “the government failed, so voters got angry”, an academic writer prefers “<i>the government's failure provoked public anger</i>”. The events are the same; the grammar is transformed.</p><p>This trick has a name — <b>nominalisation</b>, the art of turning verbs and adjectives into nouns. <i>Decide</i> becomes <i>decision</i>; <i>analyse</i> becomes <i>analysis</i>; <i>clear</i> becomes <i>clarity</i>. In our Grade 11 club we tried rewriting a heated opinion as a cool academic paragraph, and <b>Mateo</b> admitted that it suddenly sounded far more authoritative — even though the ideas had not changed at all.</p><p>Why does this matter? Because nominalisation lets a writer sound objective and impersonal. Instead of blaming a named person, the sentence presents a process. <b>Nadia</b> noticed the danger too: hidden behind an abstract noun, responsibility can quietly vanish. “A mistake was made” tells us nothing about who made it.</p><p>Word formation is therefore both a tool and a test. Part 3 of the Cambridge exam asks you to build the right member of a word family from a single root — <i>strong, strength, strengthen, strongly</i> — and one wrong ending costs the mark. <b>Liam</b> keeps a notebook of these families, adding a new one every day.</p><p>For the Inspiring Nordic project, our essays must sound measured and formal without becoming lifeless. The best academic writing is precise, not pompous. Master nominalisation, use it sparingly, and your argument will have shape, weight and the quiet confidence that persuades a demanding reader.</p>",
+    "script": "Read any serious essay and you will notice something curious: the people disappear. Where an everyday speaker says the government failed, so voters got angry, an academic writer prefers the government's failure provoked public anger. The events are the same; the grammar is transformed. This trick is called nominalisation, the art of turning verbs and adjectives into nouns. Decide becomes decision; analyse becomes analysis; clear becomes clarity. Mateo admitted that a rewritten paragraph suddenly sounded more authoritative. Nadia noticed the danger too: hidden behind an abstract noun, responsibility can vanish. Part 3 of the exam asks you to build the right word from a single root. For our project, essays must sound measured and formal without becoming lifeless.",
+    "questions": [
+     {
+      "q": "In academic writing, according to Sofía, the people often …",
+      "options": [
+       "disappear",
+       "shout",
+       "celebrate"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What is nominalisation?",
+      "options": [
+       "turning verbs and adjectives into nouns",
+       "adding many more verbs",
+       "removing all nouns"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "Why did the rewritten paragraph sound more authoritative to Mateo?",
+      "options": [
+       "it sounded objective and impersonal",
+       "it was much longer",
+       "it used slang"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What danger did Nadia notice?",
+      "options": [
+       "responsibility can vanish behind abstract nouns",
+       "essays become too short",
+       "words are easy to spell"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "The best academic writing is …",
+      "options": [
+       "precise, not pompous",
+       "long and vague",
+       "full of jokes"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "grammar_box",
+   "title": "Grammar — Nominalisation and word formation",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "title": "Nominalisation and word formation",
+    "intro": "Formal and academic English prefers nouns to verbs. By turning actions and qualities into nouns, we make writing sound objective and compact. Word formation — knowing the noun, verb, adjective and adverb in a family — is the key skill.",
+    "examples": [
+     {
+      "text": "The <b>government's failure</b> to act angered voters.",
+      "note": "fail (v) → failure (n)"
+     },
+     {
+      "text": "The <b>discovery</b> of the vaccine changed medicine.",
+      "note": "discover (v) → discovery (n)"
+     },
+     {
+      "text": "A careful <b>analysis</b> of the data followed.",
+      "note": "analyse (v) → analysis (n)"
+     },
+     {
+      "text": "The <b>clarity</b> of her argument impressed everyone.",
+      "note": "clear (adj) → clarity (n)"
+     }
+    ],
+    "rules": [
+     "Turn a verb or adjective into a noun to sound formal and objective: <i>decide → decision</i>, <i>strong → strength</i>.",
+     "Common noun endings: <b>-tion, -ment, -ity, -ness, -ure, -al</b>: <i>improve → improvement</i>.",
+     "In Part 3, read the whole sentence: the gap may need a noun, verb, adjective, adverb, a negative prefix (<b>un-, in-, dis-</b>) or a plural."
+    ],
+    "practice": {
+     "instructions": "Choose the correct form of the word in brackets.",
+     "items": [
+      {
+       "sentence": "The ___ of the bridge took two years. (construct)",
+       "options": [
+        "construction",
+        "constructive",
+        "constructed"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "Her ___ to detail is remarkable. (attend)",
+       "options": [
+        "attention",
+        "attentive",
+        "attentively"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "The plan was a complete ___. (fail)",
+       "options": [
+        "failure",
+        "failing",
+        "failed"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "We admired the ___ of his prose. (clear)",
+       "options": [
+        "clarity",
+        "clearly",
+        "clear"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "The ___ of the results was surprising. (analyse)",
+       "options": [
+        "analysis",
+        "analyst",
+        "analytical"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "code": "D",
+   "type": "key_transform",
+   "title": "Use of English Part 4 — key word transformations",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete the second sentence so that it means the same as the first. Use the KEY WORD. Write between two and five words.",
+    "items": [
+     {
+      "first": "The committee decided quickly, which surprised everyone.",
+      "key": "DECISION",
+      "second_start": "The committee's",
+      "second_end": "surprised everyone.",
+      "answers": [
+       "quick decision"
+      ]
+     },
+     {
+      "first": "Scientists discovered the vaccine and this changed medicine.",
+      "key": "DISCOVERY",
+      "second_start": "The",
+      "second_end": "changed medicine.",
+      "answers": [
+       "discovery of the vaccine"
+      ]
+     },
+     {
+      "first": "The government failed to act, and this angered voters.",
+      "key": "FAILURE",
+      "second_start": "The",
+      "second_end": "angered voters.",
+      "answers": [
+       "government's failure to act"
+      ]
+     },
+     {
+      "first": "They analysed the data carefully before deciding.",
+      "key": "ANALYSIS",
+      "second_start": "A careful",
+      "second_end": "preceded the decision.",
+      "answers": [
+       "analysis of the data"
+      ]
+     },
+     {
+      "first": "Sofía argued clearly, and the judges were impressed.",
+      "key": "CLARITY",
+      "second_start": "The",
+      "second_end": "impressed the judges.",
+      "answers": [
+       "clarity of Sofía's argument"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "gap_text",
+   "title": "Use of English Part 2 — open cloze. Write ONE word in each gap.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "on",
+     "to",
+     "as",
+     "into",
+     "which",
+     "that"
+    ],
+    "text": "Academic English relies heavily {1} nouns. Instead of saying that prices rose sharply, a writer refers {2} a sharp rise in prices. This makes the argument sound objective, {3} it removes the person from the sentence. The transformation of verbs {4} nouns is called nominalisation, {5} is a hallmark of formal style. It is precision {6} readers of academic prose expect above all.",
+    "answers": [
+     "on",
+     "to",
+     "as",
+     "into",
+     "which",
+     "that"
+    ]
+   }
+  },
+  {
+   "code": "F",
+   "type": "listening",
+   "title": "Listening — the word-formation lesson. Write ONE word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "c1a/u04-f.mp3",
+   "data": {
+    "voice_note": "Voz: la profesora (Miss Vega), sobre word formation.",
+    "script": "Good morning, Grade 11. Today we practise word formation — the skill tested in Part 3 of the exam. From one root, English builds a family: decide, decision, decisive, decisively. Learning these families will transform your writing and your reading. In academic style, we often turn verbs into nouns; this process is called nominalisation. It makes an argument sound objective. Sofía will present her word map first on Monday. For homework, build five word families from the reading. Remember: a strong essay is precise, formal and impersonal. Bring your best examples.",
+    "questions": [
+     {
+      "q": "Part 3 of the exam tests word …",
+      "answer": "formation"
+     },
+     {
+      "q": "From the root 'decide' we get the noun …",
+      "answer": "decision"
+     },
+     {
+      "q": "Turning verbs into nouns is called …",
+      "answer": "nominalisation"
+     },
+     {
+      "q": "… will present her word map first on Monday.",
+      "answer": "Sofía"
+     },
+     {
+      "q": "A strong essay is precise, formal and …",
+      "answer": "impersonal"
+     }
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "pairwork",
+   "title": "Speaking — rephrase in academic style. In pairs, then record it.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "In pairs, take a strong personal opinion and rephrase it in cool academic style, using nominalisation. Model: “Rather than ‘people waste water’, we might write: ‘the wastage of water remains a serious concern’.” 1) Does formal language make an argument fairer or just colder? 2) When does ‘objective’ writing hide who is responsible? 3) Which sounds stronger to you — a verb or its noun? Give reasons and examples, then record your discussion."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write a short academic paragraph (10–12 sentences) on a topic from the Inspiring Nordic project, using at least four nominalisations (e.g. failure, decision, analysis, improvement) to sound formal and objective. Capital letters and full stops!"
+  }
+ ],
+ "scope": {
+  "grado": "G11",
+  "temaN": 4,
+  "tema": "The Shape of an Argument — Inspiring Nordic",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Follow a lesson on word formation and note precise details (C1 Advanced Listening)."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Rephrase opinions in objective, academic style aloud (C1 Advanced Speaking)."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read a text on academic style and grasp its argument and tone (C1 Advanced Reading)."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write a formal paragraph using nominalisation for an objective, measured tone."
+   },
+   {
+    "destreza": "Use of English",
+    "puede": "Nominalisation and word formation; word formation task (Part 3)."
+   }
+  ],
+  "vocabulario": [
+   "nominalisation",
+   "objective",
+   "formal",
+   "abstract",
+   "precise",
+   "root"
+  ],
+  "gramatica": [
+   "Nominalisation and word formation",
+   "Word formation (Part 3)"
+  ],
+  "pendiente": {}
+ },
+ "wordlist_extra": [
+  "impersonal",
+  "hallmark",
+  "measured"
+ ]
+}

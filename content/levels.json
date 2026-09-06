@@ -58,6 +58,17 @@
       "grades": [
         10
       ]
+    },
+    {
+      "id": "c1a",
+      "name": "Cambridge · C1 Advanced",
+      "exam": "C1 Advanced for Schools",
+      "cast": "Grade 11 · Inspiring Nordic",
+      "mascot": "nova",
+      "color": "#334155",
+      "grades": [
+        11
+      ]
     }
   ]
 }

@@ -1,0 +1,415 @@
+{
+ "id": "c1a-05",
+ "level": "c1a",
+ "number": 5,
+ "title": "Joining the dots",
+ "topic": "discourse markers & cohesion",
+ "grammar": "Discourse markers and cohesion (however, moreover, consequently, in contrast)",
+ "wordlist": [
+  "cohesion",
+  "discourse",
+  "contrast",
+  "signpost",
+  "disjointed",
+  "qualify",
+  "furthermore",
+  "nevertheless",
+  "coherent",
+  "paragraph"
+ ],
+ "exam_focus": {
+  "paper": "Writing",
+  "part": 1,
+  "skill": "essay"
+ },
+ "characters": [
+  "nova"
+ ],
+ "scene": {
+  "speaker": "nova",
+  "bubble": "Great writing connects ideas. Learn discourse markers and make your argument flow from first line to last.",
+  "intro": "A pile of good points is not an argument. What turns a list into a line of thought is cohesion — the discourse markers that link one idea to the next. In this unit you read a feature article on a societal issue and learn how however, moreover, consequently and in contrast guide a reader from start to finish. You will plan the essay from Writing Part 1. For the Inspiring Nordic project, this is how you join the dots. Let's begin."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Vocabulary — cohesion and argument. Match each word with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "cohesion",
+      "right": "the way parts of a text hold together"
+     },
+     {
+      "left": "discourse",
+      "right": "connected spoken or written language"
+     },
+     {
+      "left": "contrast",
+      "right": "a clear difference between two things"
+     },
+     {
+      "left": "signpost",
+      "right": "a word that shows the reader where the text is going"
+     },
+     {
+      "left": "disjointed",
+      "right": "lacking smooth connection between parts"
+     },
+     {
+      "left": "qualify",
+      "right": "to add detail that limits a statement"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "reading",
+   "title": "Reading — a feature article on a societal issue",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "kicker": "Feature Article",
+    "title": "Joining the dots",
+    "author": "mateo",
+    "byline": "by Mateo",
+    "text": "<p>We live in the most connected age in history; paradoxically, many people have never felt more alone. This contradiction is the starting point of a feature article our Grade 11 club wrote together, and writing it taught us as much about <i>structure</i> as about the subject.</p><p>The topic was digital loneliness. Our first draft, <b>Sofía</b> admitted, was a heap of good points with no thread between them. Each sentence was true; nevertheless, the reader had no idea where the argument was going. <b>However</b>, the moment we added discourse markers, everything changed.</p><p>Consider the difference. “Social media connects us. It also isolates us.” Two flat statements. Now join them: “Social media undeniably connects us; <b>however</b>, it can quietly isolate us at the same time.” <b>Moreover</b>, once one idea flows into the next, the reader trusts the writer. <b>Consequently</b>, the argument feels not just true but inevitable.</p><p><b>Nadia</b> made a sharp point: markers are not decoration. Used carelessly, a stray “therefore” promises a logic that isn't there. <b>Liam</b> agreed, adding that the best writers use these signposts sparingly, letting the ideas themselves do most of the work.</p><p>For the Inspiring Nordic project, our essays must read as a single, unbroken line of thought. A reader should never wonder how paragraph three relates to paragraph two. <b>In contrast</b> to a shopping list of opinions, a genuine argument moves — it builds, qualifies and concludes. Join the dots well, and the reader will follow you anywhere.</p>",
+    "script": "We live in the most connected age in history; paradoxically, many people have never felt more alone. This contradiction is the starting point of a feature article our club wrote together. The topic was digital loneliness. Our first draft, Sofía admitted, was a heap of good points with no thread between them. Each sentence was true; however, the reader had no idea where the argument was going. The moment we added discourse markers, everything changed. Social media connects us; however, it can quietly isolate us. Moreover, once one idea flows into the next, the reader trusts the writer. Nadia made a sharp point: markers are not decoration. For our project, essays must read as a single, unbroken line of thought.",
+    "questions": [
+     {
+      "q": "According to Mateo, our connected age has left many people feeling …",
+      "options": [
+       "alone",
+       "wealthy",
+       "bored"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What was wrong with the club's first draft?",
+      "options": [
+       "good points with no thread between them",
+       "too many pictures",
+       "no ideas at all"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What changed when they added discourse markers?",
+      "options": [
+       "the argument began to flow",
+       "the essay got shorter",
+       "the topic changed"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What did Nadia warn about markers?",
+      "options": [
+       "a careless 'therefore' promises false logic",
+       "they should be used constantly",
+       "they are only decoration"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "A genuine argument, unlike a list of opinions, …",
+      "options": [
+       "builds, qualifies and concludes",
+       "stays completely still",
+       "avoids any structure"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "grammar_box",
+   "title": "Grammar — Discourse markers and cohesion",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "title": "Discourse markers and cohesion",
+    "intro": "Discourse markers are the signposts that link ideas across sentences and paragraphs. They tell the reader whether you are adding, contrasting, giving a result or concluding. Used well, they turn a list of points into an argument.",
+    "examples": [
+     {
+      "text": "The plan is cheap; <b>however</b>, it is risky.",
+      "note": "however = contrast"
+     },
+     {
+      "text": "It saves money; <b>moreover</b>, it saves time.",
+      "note": "moreover = adding"
+     },
+     {
+      "text": "Costs rose; <b>consequently</b>, prices went up.",
+      "note": "consequently = result"
+     },
+     {
+      "text": "Cities grew fast; <b>in contrast</b>, villages emptied.",
+      "note": "in contrast = opposition"
+     }
+    ],
+    "rules": [
+     "Adding: <b>moreover, furthermore, in addition</b>. Contrast: <b>however, nevertheless, in contrast</b>.",
+     "Result: <b>therefore, consequently, as a result</b>. Concession: <b>although, despite, even so</b>.",
+     "Punctuation: after a full stop or semicolon, follow the marker with a comma — <i>However, …</i>; <i>…; however, …</i>"
+    ],
+    "practice": {
+     "instructions": "Choose the best marker.",
+     "items": [
+      {
+       "sentence": "The idea was clever; ___, it was expensive.",
+       "options": [
+        "however",
+        "moreover",
+        "therefore"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "She trained daily; ___, she won easily.",
+       "options": [
+        "consequently",
+        "however",
+        "nevertheless"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "It saves money; ___, it protects the planet.",
+       "options": [
+        "moreover",
+        "however",
+        "in contrast"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "___ the rain, the match went ahead.",
+       "options": [
+        "Despite",
+        "However",
+        "Moreover"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "The north grew rich; ___, the south stayed poor.",
+       "options": [
+        "in contrast",
+        "as a result",
+        "furthermore"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "code": "D",
+   "type": "key_transform",
+   "title": "Use of English Part 4 — key word transformations",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete the second sentence so that it means the same as the first. Use the KEY WORD. Write between two and five words.",
+    "items": [
+     {
+      "first": "The road was icy, so the race was cancelled.",
+      "key": "RESULT",
+      "second_start": "The road was icy, and",
+      "second_end": "the race was cancelled.",
+      "answers": [
+       "as a result"
+      ]
+     },
+     {
+      "first": "Although he was exhausted, Mateo finished the essay.",
+      "key": "DESPITE",
+      "second_start": "Mateo finished the essay",
+      "second_end": "exhausted.",
+      "answers": [
+       "despite being"
+      ]
+     },
+     {
+      "first": "Liam is cautious, whereas Nadia takes risks.",
+      "key": "CONTRAST",
+      "second_start": "Liam is cautious;",
+      "second_end": "Nadia takes risks.",
+      "answers": [
+       "in contrast,"
+      ]
+     },
+     {
+      "first": "The essay was well argued. It was also beautifully written.",
+      "key": "MOREOVER",
+      "second_start": "The essay was well argued;",
+      "second_end": "beautifully written.",
+      "answers": [
+       "moreover, it was"
+      ]
+     },
+     {
+      "first": "He studied hard, so he passed with ease.",
+      "key": "THEREFORE",
+      "second_start": "He studied hard;",
+      "second_end": "with ease.",
+      "answers": [
+       "therefore, he passed"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "gap_text",
+   "title": "Use of English Part 2 — open cloze. Write ONE word in each gap.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "to",
+     "that",
+     "Without",
+     "and",
+     "on",
+     "upon"
+    ],
+    "text": "Strong writing does not simply list facts; it connects them. One idea leads {1} another, guiding the reader from beginning to end. Discourse markers are the signposts {2} make this possible. {3} them, an argument feels disjointed, {4} the reader soon gets lost. Consider a feature article {5} climate change: each paragraph builds {6} the last, so the case grows steadily stronger.",
+    "answers": [
+     "to",
+     "that",
+     "Without",
+     "and",
+     "on",
+     "upon"
+    ]
+   }
+  },
+  {
+   "code": "F",
+   "type": "listening",
+   "title": "Listening — the essay lesson. Write ONE word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "c1a/u05-f.mp3",
+   "data": {
+    "voice_note": "Voz: la profesora (Miss Vega), sobre el essay de la Parte 1.",
+    "script": "Good morning, Grade 11. Part 1 of the Writing paper is always an essay, so today we focus on cohesion. A strong essay flows: each paragraph links to the next with markers like however, moreover and consequently. Plan first, then connect your ideas clearly. Mateo will share his essay outline first on Wednesday. Remember the structure: introduction, two main paragraphs, and a firm conclusion. Use a discourse marker to signal contrast, and another to add support. Bring your best linking words, and make your argument flow.",
+    "questions": [
+     {
+      "q": "Part 1 of the Writing paper is always an …",
+      "answer": "essay"
+     },
+     {
+      "q": "Today we focus on …",
+      "answer": "cohesion"
+     },
+     {
+      "q": "… will share his essay outline first on Wednesday.",
+      "answer": "Mateo"
+     },
+     {
+      "q": "A good essay ends with a firm …",
+      "answer": "conclusion"
+     },
+     {
+      "q": "Use a discourse marker to signal …",
+      "answer": "contrast"
+     }
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "pairwork",
+   "title": "Speaking — plan an essay. In pairs, then record it.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "In pairs, plan the two body paragraphs of an essay on a societal issue, connecting your points with discourse markers. Model: “Fast fashion is cheap; however, its true cost is paid by the planet. Moreover, it fuels waste.” 1) Which societal issue most deserves a full essay this year? 2) Can a well-linked argument make a weak idea sound convincing? 3) Which is harder: finding good points or joining them well? Give reasons and examples, then record your discussion."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write the two body paragraphs (10–12 sentences) of an essay on a societal issue for the Inspiring Nordic project, linking your ideas with at least four discourse markers (however, moreover, consequently, in contrast). Capital letters and full stops!"
+  }
+ ],
+ "scope": {
+  "grado": "G11",
+  "temaN": 5,
+  "tema": "Joining the Dots — Inspiring Nordic",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Follow a lesson on essay structure and note precise details (C1 Advanced Listening)."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Plan and outline an argument aloud, linking ideas with discourse markers (C1 Advanced Speaking)."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read a feature article and follow how its ideas are connected (C1 Advanced Reading)."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write cohesive essay paragraphs using discourse markers to link ideas (Writing Part 1)."
+   },
+   {
+    "destreza": "Use of English",
+    "puede": "Discourse markers and cohesion; key word transformations (Part 4)."
+   }
+  ],
+  "vocabulario": [
+   "cohesion",
+   "discourse",
+   "contrast",
+   "signpost",
+   "disjointed",
+   "qualify"
+  ],
+  "gramatica": [
+   "Discourse markers and cohesion",
+   "Essay (Writing Part 1)"
+  ],
+  "pendiente": {}
+ },
+ "wordlist_extra": [
+  "furthermore",
+  "nevertheless",
+  "coherent"
+ ]
+}

@@ -1,0 +1,415 @@
+{
+ "id": "c1a-03",
+ "level": "c1a",
+ "number": 3,
+ "title": "Ways of saying",
+ "topic": "advanced verb patterns",
+ "grammar": "Advanced verb patterns (verb + object + to-infinitive / -ing; reporting verbs; verbs of perception)",
+ "wordlist": [
+  "misunderstanding",
+  "interpret",
+  "report",
+  "perception",
+  "accuse",
+  "faithful",
+  "retell",
+  "convey",
+  "neutral",
+  "reliable"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Use of English",
+  "part": 2,
+  "skill": "open cloze"
+ },
+ "characters": [
+  "nova"
+ ],
+ "scene": {
+  "speaker": "nova",
+  "bubble": "How we report what others say changes everything. Master advanced verb patterns and say exactly what you mean.",
+  "intro": "Communication is trickier than it looks. A single reporting verb can accuse, excuse or forgive; a verb of perception can turn a debate into a quarrel. In this unit you explore how we retell what others say, and you master the advanced verb patterns that C1 English demands — verb plus object plus infinitive or -ing, reporting verbs and verbs of perception. You will also practise the open cloze from Part 2. For the Inspiring Nordic project, saying it accurately is everything. Let's begin."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Vocabulary — communication. Match each word with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "misunderstanding",
+      "right": "a failure to understand something correctly"
+     },
+     {
+      "left": "interpret",
+      "right": "to explain the meaning of what someone says"
+     },
+     {
+      "left": "report",
+      "right": "to tell others what someone said or did"
+     },
+     {
+      "left": "perception",
+      "right": "the way we notice and understand things"
+     },
+     {
+      "left": "accuse",
+      "right": "to say that someone has done something wrong"
+     },
+     {
+      "left": "faithful",
+      "right": "true to the original meaning"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "reading",
+   "title": "Reading — the reading club on communication",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "kicker": "Language & Mind",
+    "title": "Ways of saying",
+    "author": "nadia",
+    "byline": "by Nadia",
+    "text": "<p>How often have you meant one thing and been understood to say another? Communication, it turns out, is far less reliable than we like to believe. We do not simply exchange words; we interpret, we report, and in reporting we quietly reshape.</p><p>Consider the humble reporting verb. If I tell you that <b>Mateo</b> <i>admitted forgetting</i> his homework, you picture guilt. If I say he <i>explained that he had forgotten</i> it, you feel sympathy. The event is identical; only the verb has changed. In our Grade 11 club we spent a whole session watching how a single word can accuse, excuse or forgive.</p><p>Verbs of perception play a similar game. When <b>Liam</b> said he <i>heard Sofía arguing</i> with a teacher, the class assumed a conflict — yet what he had actually seen was a lively debate about a poem. We hear people <i>doing</i> things and instantly build a story around them.</p><p>Then there are the verbs that carry instructions. Parents <i>warn us not to</i> stay out late; friends <i>persuade us to</i> take risks; teachers <i>advise us to</i> think twice. Each pattern — verb plus object plus infinitive or -ing — encodes an attitude as much as an action.</p><p>The lesson for the Inspiring Nordic project is sobering. Before we report what a tradesperson or an expert has told us, we should ask whether our chosen verbs are faithful or merely convenient. To misquote is easy; to represent someone accurately is a genuine skill. As <b>Nadia</b> reminded the club, the way of saying is never neutral.</p>",
+    "script": "How often have you meant one thing and been understood to say another? Communication is far less reliable than we like to believe. We do not simply exchange words; we interpret and report, and in reporting we reshape. Consider the reporting verb. If I say Mateo admitted forgetting his homework, you picture guilt. If I say he explained that he had forgotten it, you feel sympathy. Only the verb has changed. Verbs of perception play a similar game. When Liam said he heard Sofía arguing with a teacher, the class assumed a conflict. Yet it was only a lively debate. Before we report what an expert has told us, we should ask whether our verbs are faithful or merely convenient.",
+    "questions": [
+     {
+      "q": "According to Nadia, communication is …",
+      "options": [
+       "less reliable than we believe",
+       "always perfectly clear",
+       "completely unimportant"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "If Mateo 'admitted forgetting', we picture …",
+      "options": [
+       "guilt",
+       "sympathy",
+       "joy"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What had Liam actually seen between Sofía and the teacher?",
+      "options": [
+       "a lively debate",
+       "a serious fight",
+       "complete silence"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "Verb + object + infinitive patterns encode …",
+      "options": [
+       "an attitude as much as an action",
+       "nothing at all",
+       "only spelling rules"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "Before reporting an expert for the project, we should ask whether our verbs are …",
+      "options": [
+       "faithful or merely convenient",
+       "long enough",
+       "in the past tense"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "grammar_box",
+   "title": "Grammar — Advanced verb patterns",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "title": "Advanced verb patterns",
+    "intro": "Many verbs are followed by a particular pattern, and the pattern carries meaning. Learn which verbs take an object + to-infinitive, which take -ing, and how reporting and perception verbs behave.",
+    "examples": [
+     {
+      "text": "The teacher <b>advised us to rewrite</b> the essay.",
+      "note": "verb + object + to-infinitive"
+     },
+     {
+      "text": "Mateo <b>admitted breaking</b> the window.",
+      "note": "reporting verb + -ing"
+     },
+     {
+      "text": "We <b>heard Sofía singing</b> in the hall.",
+      "note": "perception verb + object + -ing"
+     },
+     {
+      "text": "They <b>warned us not to be</b> late.",
+      "note": "negative: not before the to-infinitive"
+     }
+    ],
+    "rules": [
+     "persuade, advise, warn, encourage, remind + object + to-infinitive: <b>They encouraged me to apply</b>.",
+     "admit, deny, suggest, recommend + -ing: <b>She suggested leaving</b> early.",
+     "see, hear, watch, feel + object + -ing (action in progress) or bare infinitive (whole action): <b>I saw him fall</b>."
+    ],
+    "practice": {
+     "instructions": "Choose the correct form.",
+     "items": [
+      {
+       "sentence": "Nadia advised Mateo ___ the letter.",
+       "options": [
+        "to rewrite",
+        "rewriting",
+        "rewrite"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "Liam admitted ___ the vase.",
+       "options": [
+        "breaking",
+        "to break",
+        "break"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "We heard someone ___ in the next room.",
+       "options": [
+        "shouting",
+        "to shout",
+        "shouts"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "The sign warns visitors ___ the animals.",
+       "options": [
+        "not to feed",
+        "not feeding",
+        "to not feeding"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "She suggested ___ a different approach.",
+       "options": [
+        "trying",
+        "to try",
+        "try"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "code": "D",
+   "type": "key_transform",
+   "title": "Use of English Part 4 — key word transformations",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete the second sentence so that it means the same as the first. Use the KEY WORD. Write between two and five words.",
+    "items": [
+     {
+      "first": "“You should apologise,” Nadia told Mateo.",
+      "key": "ADVISED",
+      "second_start": "Nadia",
+      "second_end": ".",
+      "answers": [
+       "advised Mateo to apologise"
+      ]
+     },
+     {
+      "first": "“I broke the window,” Liam said.",
+      "key": "ADMITTED",
+      "second_start": "Liam",
+      "second_end": "the window.",
+      "answers": [
+       "admitted breaking"
+      ]
+     },
+     {
+      "first": "“Don't touch the wires,” the teacher said to us.",
+      "key": "WARNED",
+      "second_start": "The teacher",
+      "second_end": "the wires.",
+      "answers": [
+       "warned us not to touch"
+      ]
+     },
+     {
+      "first": "Sofía was crossing the square when I saw her.",
+      "key": "SAW",
+      "second_start": "I",
+      "second_end": "the square.",
+      "answers": [
+       "saw Sofía crossing"
+      ]
+     },
+     {
+      "first": "“Let's take a different route,” said Nadia.",
+      "key": "SUGGESTED",
+      "second_start": "Nadia",
+      "second_end": "a different route.",
+      "answers": [
+       "suggested taking"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "gap_text",
+   "title": "Use of English Part 2 — open cloze. Write ONE word in each gap.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "as",
+     "for",
+     "to",
+     "what",
+     "which",
+     "do"
+    ],
+    "text": "Communication often goes wrong. We assume that others think {1} we do, and then we blame them {2} the confusion. Nadia warned us not {3} jump to conclusions. When someone reports {4} another person said, the meaning can quietly shift. What matters is listening, {5} we rarely do carefully enough. Only then {6} we begin to understand each other.",
+    "answers": [
+     "as",
+     "for",
+     "to",
+     "what",
+     "which",
+     "do"
+    ]
+   }
+  },
+  {
+   "code": "F",
+   "type": "listening",
+   "title": "Listening — the reporting-verbs lesson. Write ONE word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "c1a/u03-f.mp3",
+   "data": {
+    "voice_note": "Voz: la profesora (Miss Vega), sobre los reporting verbs.",
+    "script": "Good morning, Grade 11. Today we look at reporting verbs and the way we retell what people say. Notice how a single verb changes everything: he admitted lying, she denied cheating, they suggested leaving. Small choices, big meanings. For homework, listen to a real conversation and report three sentences using different verbs. Nadia will share her examples first on Friday. Remember: verbs of perception like watch and hear take an object plus an -ing form. Bring your sharpest ear, and report what you hear precisely.",
+    "questions": [
+     {
+      "q": "Today we look at reporting …",
+      "answer": "verbs"
+     },
+     {
+      "q": "He admitted …",
+      "answer": "lying"
+     },
+     {
+      "q": "For homework, report three …",
+      "answer": "sentences"
+     },
+     {
+      "q": "… will share her examples first on Friday.",
+      "answer": "Nadia"
+     },
+     {
+      "q": "Verbs of perception take an object plus an -ing …",
+      "answer": "form"
+     }
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "pairwork",
+   "title": "Speaking — retell a conversation. In pairs, then record it.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "In pairs, retell a recent conversation, choosing your reporting verbs carefully. Model: “She admitted forgetting, but I suspect she simply chose not to reply.” 1) When was the last time you were badly misunderstood? 2) Do we report gossip more accurately than facts? 3) Which reporting verb — admit, deny, claim, insist — is most often abused in the news? Give reasons and examples, then record your discussion."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write a short account (10–12 sentences) of a real misunderstanding, reporting what each person said with a range of verb patterns (advised… to…, admitted …-ing, warned… not to…, heard… -ing). Capital letters and full stops!"
+  }
+ ],
+ "scope": {
+  "grado": "G11",
+  "temaN": 3,
+  "tema": "Ways of Saying — Inspiring Nordic",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Follow a lesson on reporting verbs and note precise details (C1 Advanced Listening)."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Retell conversations accurately, choosing reporting verbs with care (C1 Advanced Speaking)."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read a demanding text on communication and grasp its argument (C1 Advanced Reading)."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write an accurate account using a range of advanced verb patterns."
+   },
+   {
+    "destreza": "Use of English",
+    "puede": "Advanced verb patterns; open cloze (Part 2)."
+   }
+  ],
+  "vocabulario": [
+   "misunderstanding",
+   "interpret",
+   "report",
+   "perception",
+   "accuse",
+   "faithful"
+  ],
+  "gramatica": [
+   "Advanced verb patterns",
+   "Open cloze (Part 2)"
+  ],
+  "pendiente": {}
+ },
+ "wordlist_extra": [
+  "retell",
+  "convey",
+  "neutral"
+ ]
+}

@@ -1,0 +1,1528 @@
+{
+ "G1": {
+  "1": {
+   "arc": "g1.t1",
+   "icon": "🐞",
+   "grad": {
+    "from": "#5c3a10",
+    "to": "#c9a227"
+   },
+   "trimestre": 1,
+   "periodo": 1,
+   "arcTitle": {
+    "en": "This place is not only mine",
+    "es": "This place is not only mine"
+   },
+   "arcSubtitle": {
+    "en": "Who I am, where I live, and who else lives here",
+    "es": "Quién soy, dónde vivo, y quién más vive aquí"
+   },
+   "toddle": null,
+   "essentialQ": {
+    "en": "Who lives in this place with me, and how do we look after it?",
+    "es": "¿Quién vive en este sitio conmigo, y cómo lo cuidamos?"
+   },
+   "englishMission": {
+    "en": "Can I name what I see and say how it is?",
+    "es": "¿Sé nombrar lo que veo y decir cómo es?"
+   },
+   "product": {
+    "en": "Who lives here — the video",
+    "es": "Who lives here — the video"
+   },
+   "unitTheme": "Hello World!",
+   "contribution": {
+    "en": "The English in this unit (theme: “Hello World!”) is the language you use in the school project “This place is not only mine”. Your English mission: Can I name what I see and say how it is? — building toward the Who lives here — the video.",
+    "es": "El inglés de esta unidad (tema: «Hello World!») es la lengua que usas en el proyecto del colegio «This place is not only mine». Tu misión de inglés: ¿Sé nombrar lo que veo y decir cómo es? — para construir el Who lives here — the video."
+   }
+  },
+  "2": {
+   "arc": "g1.t1",
+   "icon": "🐞",
+   "grad": {
+    "from": "#5c3a10",
+    "to": "#c9a227"
+   },
+   "trimestre": 1,
+   "periodo": 2,
+   "arcTitle": {
+    "en": "This place is not only mine",
+    "es": "This place is not only mine"
+   },
+   "arcSubtitle": {
+    "en": "Who I am, where I live, and who else lives here",
+    "es": "Quién soy, dónde vivo, y quién más vive aquí"
+   },
+   "toddle": null,
+   "essentialQ": {
+    "en": "Who lives in this place with me, and how do we look after it?",
+    "es": "¿Quién vive en este sitio conmigo, y cómo lo cuidamos?"
+   },
+   "englishMission": {
+    "en": "Can I name what I see and say how it is?",
+    "es": "¿Sé nombrar lo que veo y decir cómo es?"
+   },
+   "product": {
+    "en": "Who lives here — the video",
+    "es": "Who lives here — the video"
+   },
+   "unitTheme": "My Classroom",
+   "contribution": {
+    "en": "The English in this unit (theme: “My Classroom”) is the language you use in the school project “This place is not only mine”. Your English mission: Can I name what I see and say how it is? — building toward the Who lives here — the video.",
+    "es": "El inglés de esta unidad (tema: «My Classroom») es la lengua que usas en el proyecto del colegio «This place is not only mine». Tu misión de inglés: ¿Sé nombrar lo que veo y decir cómo es? — para construir el Who lives here — the video."
+   }
+  },
+  "3": {
+   "arc": "g1.t2",
+   "icon": "🏔️",
+   "grad": {
+    "from": "#6b3410",
+    "to": "#d98b3a"
+   },
+   "trimestre": 2,
+   "periodo": 3,
+   "arcTitle": {
+    "en": "Coast, mountains and jungle",
+    "es": "Coast, mountains and jungle"
+   },
+   "arcSubtitle": {
+    "en": "What the land decides: what shakes, what grows and what we build",
+    "es": "Lo que la tierra decide: lo que tiembla, lo que crece y lo que construimos"
+   },
+   "toddle": null,
+   "essentialQ": {
+    "en": "Our country has three very different lands. What does that change for us?",
+    "es": "Nuestro país tiene tres tierras muy distintas. ¿Qué cambia eso para nosotros?"
+   },
+   "englishMission": {
+    "en": "Can I say where things are and what they are like?",
+    "es": "¿Sé decir dónde están las cosas y cómo son?"
+   },
+   "product": {
+    "en": "The city that stands, and the Food Scientists Fair",
+    "es": "The city that stands, and the Food Scientists Fair"
+   },
+   "unitTheme": "My Body",
+   "contribution": {
+    "en": "The English in this unit (theme: “My Body”) is the language you use in the school project “Coast, mountains and jungle”. Your English mission: Can I say where things are and what they are like? — building toward the The city that stands, and the Food Scientists Fair.",
+    "es": "El inglés de esta unidad (tema: «My Body») es la lengua que usas en el proyecto del colegio «Coast, mountains and jungle». Tu misión de inglés: ¿Sé decir dónde están las cosas y cómo son? — para construir el The city that stands, and the Food Scientists Fair."
+   }
+  },
+  "4": {
+   "arc": "g1.t2",
+   "icon": "🏔️",
+   "grad": {
+    "from": "#6b3410",
+    "to": "#d98b3a"
+   },
+   "trimestre": 2,
+   "periodo": 4,
+   "arcTitle": {
+    "en": "Coast, mountains and jungle",
+    "es": "Coast, mountains and jungle"
+   },
+   "arcSubtitle": {
+    "en": "What the land decides: what shakes, what grows and what we build",
+    "es": "Lo que la tierra decide: lo que tiembla, lo que crece y lo que construimos"
+   },
+   "toddle": null,
+   "essentialQ": {
+    "en": "Our country has three very different lands. What does that change for us?",
+    "es": "Nuestro país tiene tres tierras muy distintas. ¿Qué cambia eso para nosotros?"
+   },
+   "englishMission": {
+    "en": "Can I say where things are and what they are like?",
+    "es": "¿Sé decir dónde están las cosas y cómo son?"
+   },
+   "product": {
+    "en": "The city that stands, and the Food Scientists Fair",
+    "es": "The city that stands, and the Food Scientists Fair"
+   },
+   "unitTheme": "Farm Animals",
+   "contribution": {
+    "en": "The English in this unit (theme: “Farm Animals”) is the language you use in the school project “Coast, mountains and jungle”. Your English mission: Can I say where things are and what they are like? — building toward the The city that stands, and the Food Scientists Fair.",
+    "es": "El inglés de esta unidad (tema: «Farm Animals») es la lengua que usas en el proyecto del colegio «Coast, mountains and jungle». Tu misión de inglés: ¿Sé decir dónde están las cosas y cómo son? — para construir el The city that stands, and the Food Scientists Fair."
+   }
+  }
+ },
+ "G2": {
+  "1": {
+   "arc": "g2.t1",
+   "icon": "🏡",
+   "grad": {
+    "from": "#1d4e6e",
+    "to": "#4aa3c7"
+   },
+   "trimestre": 1,
+   "periodo": 1,
+   "arcTitle": {
+    "en": "The place where I live",
+    "es": "The place where I live"
+   },
+   "arcSubtitle": {
+    "en": "How it was, how it is, and what I can do about it",
+    "es": "Cómo era, cómo está y qué puedo hacer yo"
+   },
+   "toddle": "P1 - Community Voices",
+   "essentialQ": {
+    "en": "How was my place before, how is it now, and what can I do about it?",
+    "es": "¿Cómo era mi sitio antes, cómo está ahora, y qué puedo hacer yo?"
+   },
+   "englishMission": {
+    "en": "Can I describe my place and say what people do there?",
+    "es": "¿Sé describir mi sitio y decir qué hace la gente allí?"
+   },
+   "product": {
+    "en": "A letter and a count",
+    "es": "A letter and a count"
+   },
+   "unitTheme": "All About Me",
+   "contribution": {
+    "en": "The English in this unit (theme: “All About Me”) is the language you use in the school project “P1 - Community Voices”. Your English mission: Can I describe my place and say what people do there? — building toward the A letter and a count.",
+    "es": "El inglés de esta unidad (tema: «All About Me») es la lengua que usas en el proyecto del colegio «P1 - Community Voices». Tu misión de inglés: ¿Sé describir mi sitio y decir qué hace la gente allí? — para construir el A letter and a count."
+   }
+  },
+  "2": {
+   "arc": "g2.t1",
+   "icon": "🏡",
+   "grad": {
+    "from": "#1d4e6e",
+    "to": "#4aa3c7"
+   },
+   "trimestre": 1,
+   "periodo": 2,
+   "arcTitle": {
+    "en": "The place where I live",
+    "es": "The place where I live"
+   },
+   "arcSubtitle": {
+    "en": "How it was, how it is, and what I can do about it",
+    "es": "Cómo era, cómo está y qué puedo hacer yo"
+   },
+   "toddle": "P2 - Living Changes: My Story, Our World and Life Cycles",
+   "essentialQ": {
+    "en": "How was my place before, how is it now, and what can I do about it?",
+    "es": "¿Cómo era mi sitio antes, cómo está ahora, y qué puedo hacer yo?"
+   },
+   "englishMission": {
+    "en": "Can I describe my place and say what people do there?",
+    "es": "¿Sé describir mi sitio y decir qué hace la gente allí?"
+   },
+   "product": {
+    "en": "A letter and a count",
+    "es": "A letter and a count"
+   },
+   "unitTheme": "My Home & Family",
+   "contribution": {
+    "en": "The English in this unit (theme: “My Home & Family”) is the language you use in the school project “P2 - Living Changes: My Story, Our World and Life Cycles”. Your English mission: Can I describe my place and say what people do there? — building toward the A letter and a count.",
+    "es": "El inglés de esta unidad (tema: «My Home & Family») es la lengua que usas en el proyecto del colegio «P2 - Living Changes: My Story, Our World and Life Cycles». Tu misión de inglés: ¿Sé describir mi sitio y decir qué hace la gente allí? — para construir el A letter and a count."
+   }
+  },
+  "3": {
+   "arc": "g2.t2",
+   "icon": "🦋",
+   "grad": {
+    "from": "#245c34",
+    "to": "#68b46c"
+   },
+   "trimestre": 2,
+   "periodo": 3,
+   "arcTitle": {
+    "en": "Who lives in our school",
+    "es": "Who lives in our school"
+   },
+   "arcSubtitle": {
+    "en": "A field guide to the playground, and to the people who look after it",
+    "es": "Una guía de campo del patio, y de la gente que lo cuida"
+   },
+   "toddle": "P3 - Peru: Our Home",
+   "essentialQ": {
+    "en": "Who lives in our school, and who looks after them?",
+    "es": "¿Quién vive en nuestro colegio y quién lo cuida?"
+   },
+   "englishMission": {
+    "en": "Can I describe a living thing and say where it is?",
+    "es": "¿Sé describir un ser vivo y decir dónde está?"
+   },
+   "product": {
+    "en": "The Nordic Field Guide",
+    "es": "The Nordic Field Guide"
+   },
+   "unitTheme": "Animals & Pets",
+   "contribution": {
+    "en": "The English in this unit (theme: “Animals & Pets”) is the language you use in the school project “P3 - Peru: Our Home”. Your English mission: Can I describe a living thing and say where it is? — building toward the The Nordic Field Guide.",
+    "es": "El inglés de esta unidad (tema: «Animals & Pets») es la lengua que usas en el proyecto del colegio «P3 - Peru: Our Home». Tu misión de inglés: ¿Sé describir un ser vivo y decir dónde está? — para construir el The Nordic Field Guide."
+   }
+  },
+  "4": {
+   "arc": "g2.t2",
+   "icon": "🦋",
+   "grad": {
+    "from": "#245c34",
+    "to": "#68b46c"
+   },
+   "trimestre": 2,
+   "periodo": 4,
+   "arcTitle": {
+    "en": "Who lives in our school",
+    "es": "Who lives in our school"
+   },
+   "arcSubtitle": {
+    "en": "A field guide to the playground, and to the people who look after it",
+    "es": "Una guía de campo del patio, y de la gente que lo cuida"
+   },
+   "toddle": "P4 - Growing, Changing and Learning",
+   "essentialQ": {
+    "en": "Who lives in our school, and who looks after them?",
+    "es": "¿Quién vive en nuestro colegio y quién lo cuida?"
+   },
+   "englishMission": {
+    "en": "Can I describe a living thing and say where it is?",
+    "es": "¿Sé describir un ser vivo y decir dónde está?"
+   },
+   "product": {
+    "en": "The Nordic Field Guide",
+    "es": "The Nordic Field Guide"
+   },
+   "unitTheme": "My Town",
+   "contribution": {
+    "en": "The English in this unit (theme: “My Town”) is the language you use in the school project “P4 - Growing, Changing and Learning”. Your English mission: Can I describe a living thing and say where it is? — building toward the The Nordic Field Guide.",
+    "es": "El inglés de esta unidad (tema: «My Town») es la lengua que usas en el proyecto del colegio «P4 - Growing, Changing and Learning». Tu misión de inglés: ¿Sé describir un ser vivo y decir dónde está? — para construir el The Nordic Field Guide."
+   }
+  },
+  "5": {
+   "arc": "g2.t3",
+   "icon": "🔦",
+   "grad": {
+    "from": "#7a4a10",
+    "to": "#e0a83a"
+   },
+   "trimestre": 3,
+   "periodo": 5,
+   "arcTitle": {
+    "en": "Light and movement",
+    "es": "Light and movement"
+   },
+   "arcSubtitle": {
+    "en": "The shadow theatre and the things that move",
+    "es": "El teatro de sombras y las cosas que se mueven"
+   },
+   "toddle": "P5 - Matter Around Us: Little Scientists, Big Changes",
+   "essentialQ": {
+    "en": "What makes things visible, and what makes things move?",
+    "es": "¿Qué hace que las cosas se vean, y qué hace que las cosas se muevan?"
+   },
+   "englishMission": {
+    "en": "Can I explain my show to somebody younger than me?",
+    "es": "¿Sé explicar mi show a alguien más pequeño que yo?"
+   },
+   "product": {
+    "en": "Two shows for Nursery",
+    "es": "Two shows for Nursery"
+   },
+   "unitTheme": "Food & Health",
+   "contribution": {
+    "en": "The English in this unit (theme: “Food & Health”) is the language you use in the school project “P5 - Matter Around Us: Little Scientists, Big Changes”. Your English mission: Can I explain my show to somebody younger than me? — building toward the Two shows for Nursery.",
+    "es": "El inglés de esta unidad (tema: «Food & Health») es la lengua que usas en el proyecto del colegio «P5 - Matter Around Us: Little Scientists, Big Changes». Tu misión de inglés: ¿Sé explicar mi show a alguien más pequeño que yo? — para construir el Two shows for Nursery."
+   }
+  },
+  "6": {
+   "arc": "g2.t3",
+   "icon": "🔦",
+   "grad": {
+    "from": "#7a4a10",
+    "to": "#e0a83a"
+   },
+   "trimestre": 3,
+   "periodo": 6,
+   "arcTitle": {
+    "en": "Light and movement",
+    "es": "Light and movement"
+   },
+   "arcSubtitle": {
+    "en": "The shadow theatre and the things that move",
+    "es": "El teatro de sombras y las cosas que se mueven"
+   },
+   "toddle": null,
+   "essentialQ": {
+    "en": "What makes things visible, and what makes things move?",
+    "es": "¿Qué hace que las cosas se vean, y qué hace que las cosas se muevan?"
+   },
+   "englishMission": {
+    "en": "Can I explain my show to somebody younger than me?",
+    "es": "¿Sé explicar mi show a alguien más pequeño que yo?"
+   },
+   "product": {
+    "en": "Two shows for Nursery",
+    "es": "Two shows for Nursery"
+   },
+   "unitTheme": "Hobbies & Play",
+   "contribution": {
+    "en": "The English in this unit (theme: “Hobbies & Play”) is the language you use in the school project “Light and movement”. Your English mission: Can I explain my show to somebody younger than me? — building toward the Two shows for Nursery.",
+    "es": "El inglés de esta unidad (tema: «Hobbies & Play») es la lengua que usas en el proyecto del colegio «Light and movement». Tu misión de inglés: ¿Sé explicar mi show a alguien más pequeño que yo? — para construir el Two shows for Nursery."
+   }
+  }
+ },
+ "G3": {
+  "1": {
+   "arc": "g3.t1",
+   "icon": "🥪",
+   "grad": {
+    "from": "#7a2d3a",
+    "to": "#d4756a"
+   },
+   "trimestre": 1,
+   "periodo": 1,
+   "arcTitle": {
+    "en": "From problem to proposal",
+    "es": "From problem to proposal"
+   },
+   "arcSubtitle": {
+    "en": "The healthy stand the class elects, sets up and proves",
+    "es": "El quiosco saludable que la clase elige, monta y demuestra"
+   },
+   "toddle": "P1 - My Vote, My Voice",
+   "essentialQ": {
+    "en": "How do we turn a problem in our community into a proposal that actually works?",
+    "es": "¿Cómo convertimos un problema de nuestra comunidad en una propuesta que funcione?"
+   },
+   "englishMission": {
+    "en": "Can I give my opinion about food and say why?",
+    "es": "¿Sé dar mi opinión sobre la comida y decir por qué?"
+   },
+   "product": {
+    "en": "The healthy snack stand",
+    "es": "The healthy snack stand"
+   },
+   "unitTheme": "School Life",
+   "contribution": {
+    "en": "The English in this unit (theme: “School Life”) is the language you use in the school project “P1 - My Vote, My Voice”. Your English mission: Can I give my opinion about food and say why? — building toward the The healthy snack stand.",
+    "es": "El inglés de esta unidad (tema: «School Life») es la lengua que usas en el proyecto del colegio «P1 - My Vote, My Voice». Tu misión de inglés: ¿Sé dar mi opinión sobre la comida y decir por qué? — para construir el The healthy snack stand."
+   }
+  },
+  "2": {
+   "arc": "g3.t1",
+   "icon": "🥪",
+   "grad": {
+    "from": "#7a2d3a",
+    "to": "#d4756a"
+   },
+   "trimestre": 1,
+   "periodo": 2,
+   "arcTitle": {
+    "en": "From problem to proposal",
+    "es": "From problem to proposal"
+   },
+   "arcSubtitle": {
+    "en": "The healthy stand the class elects, sets up and proves",
+    "es": "El quiosco saludable que la clase elige, monta y demuestra"
+   },
+   "toddle": "P2 - The Power of Food (We are Against Anemia)",
+   "essentialQ": {
+    "en": "How do we turn a problem in our community into a proposal that actually works?",
+    "es": "¿Cómo convertimos un problema de nuestra comunidad en una propuesta que funcione?"
+   },
+   "englishMission": {
+    "en": "Can I give my opinion about food and say why?",
+    "es": "¿Sé dar mi opinión sobre la comida y decir por qué?"
+   },
+   "product": {
+    "en": "The healthy snack stand",
+    "es": "The healthy snack stand"
+   },
+   "unitTheme": "Daily Routines",
+   "contribution": {
+    "en": "The English in this unit (theme: “Daily Routines”) is the language you use in the school project “P2 - The Power of Food (We are Against Anemia)”. Your English mission: Can I give my opinion about food and say why? — building toward the The healthy snack stand.",
+    "es": "El inglés de esta unidad (tema: «Daily Routines») es la lengua que usas en el proyecto del colegio «P2 - The Power of Food (We are Against Anemia)». Tu misión de inglés: ¿Sé dar mi opinión sobre la comida y decir por qué? — para construir el The healthy snack stand."
+   }
+  },
+  "3": {
+   "arc": "g3.t2",
+   "icon": "🏔️",
+   "grad": {
+    "from": "#1f4f43",
+    "to": "#5fae8f"
+   },
+   "trimestre": 2,
+   "periodo": 3,
+   "arcTitle": {
+    "en": "One region, and what keeps it alive",
+    "es": "One region, and what keeps it alive"
+   },
+   "arcSubtitle": {
+    "en": "From researching the region to the conservation model",
+    "es": "De la investigación de la región al modelo de conservación"
+   },
+   "toddle": "P3 - Passport Through Peru",
+   "essentialQ": {
+    "en": "How do people use what their region gives them without destroying the place they live in?",
+    "es": "¿Cómo usan las personas los recursos de su región sin destruir el lugar donde viven?"
+   },
+   "englishMission": {
+    "en": "Can I write an informative text about my region and suggest what should be done?",
+    "es": "¿Sé escribir un texto informativo sobre mi región y sugerir qué habría que hacer?"
+   },
+   "product": {
+    "en": "Region file + habitat model",
+    "es": "Region file + habitat model"
+   },
+   "unitTheme": "Weather & Seasons",
+   "contribution": {
+    "en": "The English in this unit (theme: “Weather & Seasons”) is the language you use in the school project “P3 - Passport Through Peru”. Your English mission: Can I write an informative text about my region and suggest what should be done? — building toward the Region file + habitat model.",
+    "es": "El inglés de esta unidad (tema: «Weather & Seasons») es la lengua que usas en el proyecto del colegio «P3 - Passport Through Peru». Tu misión de inglés: ¿Sé escribir un texto informativo sobre mi región y sugerir qué habría que hacer? — para construir el Region file + habitat model."
+   }
+  },
+  "4": {
+   "arc": "g3.t2",
+   "icon": "🏔️",
+   "grad": {
+    "from": "#1f4f43",
+    "to": "#5fae8f"
+   },
+   "trimestre": 2,
+   "periodo": 4,
+   "arcTitle": {
+    "en": "One region, and what keeps it alive",
+    "es": "One region, and what keeps it alive"
+   },
+   "arcSubtitle": {
+    "en": "From researching the region to the conservation model",
+    "es": "De la investigación de la región al modelo de conservación"
+   },
+   "toddle": "P4 - Guardians of Our Ecosystems",
+   "essentialQ": {
+    "en": "How do people use what their region gives them without destroying the place they live in?",
+    "es": "¿Cómo usan las personas los recursos de su región sin destruir el lugar donde viven?"
+   },
+   "englishMission": {
+    "en": "Can I write an informative text about my region and suggest what should be done?",
+    "es": "¿Sé escribir un texto informativo sobre mi región y sugerir qué habría que hacer?"
+   },
+   "product": {
+    "en": "Region file + habitat model",
+    "es": "Region file + habitat model"
+   },
+   "unitTheme": "Nature & Animals",
+   "contribution": {
+    "en": "The English in this unit (theme: “Nature & Animals”) is the language you use in the school project “P4 - Guardians of Our Ecosystems”. Your English mission: Can I write an informative text about my region and suggest what should be done? — building toward the Region file + habitat model.",
+    "es": "El inglés de esta unidad (tema: «Nature & Animals») es la lengua que usas en el proyecto del colegio «P4 - Guardians of Our Ecosystems». Tu misión de inglés: ¿Sé escribir un texto informativo sobre mi región y sugerir qué habría que hacer? — para construir el Region file + habitat model."
+   }
+  },
+  "5": {
+   "arc": "g3.t3",
+   "icon": "🪐",
+   "grad": {
+    "from": "#2b2c66",
+    "to": "#7b6ad0"
+   },
+   "trimestre": 3,
+   "periodo": 5,
+   "arcTitle": {
+    "en": "Looking out, looking in",
+    "es": "Looking out, looking in"
+   },
+   "arcSubtitle": {
+    "en": "The same method for the sky and for my own life",
+    "es": "El mismo método para el cielo y para mi propia vida"
+   },
+   "toddle": null,
+   "essentialQ": {
+    "en": "What can I explain with evidence — about the sky, and about myself?",
+    "es": "¿Qué puedo explicar con evidencia — del cielo y de mí mismo?"
+   },
+   "englishMission": {
+    "en": "Can I explain how something works, and write about a goal I will reach?",
+    "es": "¿Sé explicar cómo funciona algo y escribir sobre una meta que voy a alcanzar?"
+   },
+   "product": {
+    "en": "The model, and the plan",
+    "es": "The model, and the plan"
+   },
+   "unitTheme": "Feelings & Health",
+   "contribution": {
+    "en": "The English in this unit (theme: “Feelings & Health”) is the language you use in the school project “Looking out, looking in”. Your English mission: Can I explain how something works, and write about a goal I will reach? — building toward the The model, and the plan.",
+    "es": "El inglés de esta unidad (tema: «Feelings & Health») es la lengua que usas en el proyecto del colegio «Looking out, looking in». Tu misión de inglés: ¿Sé explicar cómo funciona algo y escribir sobre una meta que voy a alcanzar? — para construir el The model, and the plan."
+   }
+  },
+  "6": {
+   "arc": "g3.t3",
+   "icon": "🪐",
+   "grad": {
+    "from": "#2b2c66",
+    "to": "#7b6ad0"
+   },
+   "trimestre": 3,
+   "periodo": 6,
+   "arcTitle": {
+    "en": "Looking out, looking in",
+    "es": "Looking out, looking in"
+   },
+   "arcSubtitle": {
+    "en": "The same method for the sky and for my own life",
+    "es": "El mismo método para el cielo y para mi propia vida"
+   },
+   "toddle": null,
+   "essentialQ": {
+    "en": "What can I explain with evidence — about the sky, and about myself?",
+    "es": "¿Qué puedo explicar con evidencia — del cielo y de mí mismo?"
+   },
+   "englishMission": {
+    "en": "Can I explain how something works, and write about a goal I will reach?",
+    "es": "¿Sé explicar cómo funciona algo y escribir sobre una meta que voy a alcanzar?"
+   },
+   "product": {
+    "en": "The model, and the plan",
+    "es": "The model, and the plan"
+   },
+   "unitTheme": "My Community",
+   "contribution": {
+    "en": "The English in this unit (theme: “My Community”) is the language you use in the school project “Looking out, looking in”. Your English mission: Can I explain how something works, and write about a goal I will reach? — building toward the The model, and the plan.",
+    "es": "El inglés de esta unidad (tema: «My Community») es la lengua que usas en el proyecto del colegio «Looking out, looking in». Tu misión de inglés: ¿Sé explicar cómo funciona algo y escribir sobre una meta que voy a alcanzar? — para construir el The model, and the plan."
+   }
+  }
+ },
+ "G4": {
+  "1": {
+   "arc": "g4.t1",
+   "icon": "🫀",
+   "grad": {
+    "from": "#6b1f38",
+    "to": "#c66a80"
+   },
+   "trimestre": 1,
+   "periodo": 1,
+   "arcTitle": {
+    "en": "Systems that keep us going",
+    "es": "Systems that keep us going"
+   },
+   "arcSubtitle": {
+    "en": "A body works because its systems coordinate; so does a class",
+    "es": "El cuerpo funciona porque sus sistemas se coordinan; la clase, también"
+   },
+   "toddle": "P1 - Making Choices",
+   "essentialQ": {
+    "en": "What keeps a body working, and what keeps a group working?",
+    "es": "¿Qué mantiene funcionando a un cuerpo, y qué mantiene funcionando a un grupo?"
+   },
+   "englishMission": {
+    "en": "Can I write an opinion text and say what I do every day?",
+    "es": "¿Sé escribir un texto de opinión y decir lo que hago cada día?"
+   },
+   "product": {
+    "en": "The class agreement, and my anecdote",
+    "es": "The class agreement, and my anecdote"
+   },
+   "unitTheme": "Around Town",
+   "contribution": {
+    "en": "The English in this unit (theme: “Around Town”) is the language you use in the school project “P1 - Making Choices”. Your English mission: Can I write an opinion text and say what I do every day? — building toward the The class agreement, and my anecdote.",
+    "es": "El inglés de esta unidad (tema: «Around Town») es la lengua que usas en el proyecto del colegio «P1 - Making Choices». Tu misión de inglés: ¿Sé escribir un texto de opinión y decir lo que hago cada día? — para construir el The class agreement, and my anecdote."
+   }
+  },
+  "2": {
+   "arc": "g4.t1",
+   "icon": "🫀",
+   "grad": {
+    "from": "#6b1f38",
+    "to": "#c66a80"
+   },
+   "trimestre": 1,
+   "periodo": 2,
+   "arcTitle": {
+    "en": "Systems that keep us going",
+    "es": "Systems that keep us going"
+   },
+   "arcSubtitle": {
+    "en": "A body works because its systems coordinate; so does a class",
+    "es": "El cuerpo funciona porque sus sistemas se coordinan; la clase, también"
+   },
+   "toddle": "P2 - Asking Questions, Researching Answers",
+   "essentialQ": {
+    "en": "What keeps a body working, and what keeps a group working?",
+    "es": "¿Qué mantiene funcionando a un cuerpo, y qué mantiene funcionando a un grupo?"
+   },
+   "englishMission": {
+    "en": "Can I write an opinion text and say what I do every day?",
+    "es": "¿Sé escribir un texto de opinión y decir lo que hago cada día?"
+   },
+   "product": {
+    "en": "The class agreement, and my anecdote",
+    "es": "The class agreement, and my anecdote"
+   },
+   "unitTheme": "School & Learning",
+   "contribution": {
+    "en": "The English in this unit (theme: “School & Learning”) is the language you use in the school project “P2 - Asking Questions, Researching Answers”. Your English mission: Can I write an opinion text and say what I do every day? — building toward the The class agreement, and my anecdote.",
+    "es": "El inglés de esta unidad (tema: «School & Learning») es la lengua que usas en el proyecto del colegio «P2 - Asking Questions, Researching Answers». Tu misión de inglés: ¿Sé escribir un texto de opinión y decir lo que hago cada día? — para construir el The class agreement, and my anecdote."
+   }
+  },
+  "3": {
+   "arc": "g4.t2",
+   "icon": "📏",
+   "grad": {
+    "from": "#1c4a6b",
+    "to": "#5fa9d4"
+   },
+   "trimestre": 2,
+   "periodo": 3,
+   "arcTitle": {
+    "en": "How do you know it changed?",
+    "es": "How do you know it changed?"
+   },
+   "arcSubtitle": {
+    "en": "Measuring matter, and measuring what changes over time",
+    "es": "Medir la materia, y medir lo que cambia con el tiempo"
+   },
+   "toddle": "P.3 \"Peru to the World\"",
+   "essentialQ": {
+    "en": "How do you know that something has changed?",
+    "es": "¿Cómo sabes que algo ha cambiado?"
+   },
+   "englishMission": {
+    "en": "Can I write an informative text about what I measured?",
+    "es": "¿Sé escribir un texto informativo sobre lo que medí?"
+   },
+   "product": {
+    "en": "The measurement journal",
+    "es": "The measurement journal"
+   },
+   "unitTheme": "Wild Animals & Nature",
+   "contribution": {
+    "en": "The English in this unit (theme: “Wild Animals & Nature”) is the language you use in the school project “P.3 \"Peru to the World\"”. Your English mission: Can I write an informative text about what I measured? — building toward the The measurement journal.",
+    "es": "El inglés de esta unidad (tema: «Wild Animals & Nature») es la lengua que usas en el proyecto del colegio «P.3 \"Peru to the World\"». Tu misión de inglés: ¿Sé escribir un texto informativo sobre lo que medí? — para construir el The measurement journal."
+   }
+  },
+  "4": {
+   "arc": "g4.t2",
+   "icon": "📏",
+   "grad": {
+    "from": "#1c4a6b",
+    "to": "#5fa9d4"
+   },
+   "trimestre": 2,
+   "periodo": 4,
+   "arcTitle": {
+    "en": "How do you know it changed?",
+    "es": "How do you know it changed?"
+   },
+   "arcSubtitle": {
+    "en": "Measuring matter, and measuring what changes over time",
+    "es": "Medir la materia, y medir lo que cambia con el tiempo"
+   },
+   "toddle": "U.4 Sustainable Ica: History, Economy and Environment",
+   "essentialQ": {
+    "en": "How do you know that something has changed?",
+    "es": "¿Cómo sabes que algo ha cambiado?"
+   },
+   "englishMission": {
+    "en": "Can I write an informative text about what I measured?",
+    "es": "¿Sé escribir un texto informativo sobre lo que medí?"
+   },
+   "product": {
+    "en": "The measurement journal",
+    "es": "The measurement journal"
+   },
+   "unitTheme": "Sports & Health",
+   "contribution": {
+    "en": "The English in this unit (theme: “Sports & Health”) is the language you use in the school project “U.4 Sustainable Ica: History, Economy and Environment”. Your English mission: Can I write an informative text about what I measured? — building toward the The measurement journal.",
+    "es": "El inglés de esta unidad (tema: «Sports & Health») es la lengua que usas en el proyecto del colegio «U.4 Sustainable Ica: History, Economy and Environment». Tu misión de inglés: ¿Sé escribir un texto informativo sobre lo que medí? — para construir el The measurement journal."
+   }
+  },
+  "5": {
+   "arc": "g4.t3",
+   "icon": "🌦️",
+   "grad": {
+    "from": "#134e63",
+    "to": "#59b6c9"
+   },
+   "trimestre": 3,
+   "periodo": 5,
+   "arcTitle": {
+    "en": "The weather station",
+    "es": "The weather station"
+   },
+   "arcSubtitle": {
+    "en": "What moves the water and the air over our city, and can it be forecast?",
+    "es": "¿Qué mueve el agua y el aire de nuestra ciudad, y se puede predecir?"
+   },
+   "toddle": "U5 - Science · U5 - English · U5 - Social Studies · U5 - Math",
+   "essentialQ": {
+    "en": "What moves the water and the air over our city, and can we forecast it?",
+    "es": "¿Qué mueve el agua y el aire de nuestra ciudad, y podemos predecirlo?"
+   },
+   "englishMission": {
+    "en": "Can I report what I measured and what I predict?",
+    "es": "¿Sé informar de lo que medí y de lo que predigo?"
+   },
+   "product": {
+    "en": "A working station and a forecast",
+    "es": "A working station and a forecast"
+   },
+   "unitTheme": "Holidays & Travel",
+   "contribution": {
+    "en": "The English in this unit (theme: “Holidays & Travel”) is the language you use in the school project “U5 - Science · U5 - English · U5 - Social Studies · U5 - Math”. Your English mission: Can I report what I measured and what I predict? — building toward the A working station and a forecast.",
+    "es": "El inglés de esta unidad (tema: «Holidays & Travel») es la lengua que usas en el proyecto del colegio «U5 - Science · U5 - English · U5 - Social Studies · U5 - Math». Tu misión de inglés: ¿Sé informar de lo que medí y de lo que predigo? — para construir el A working station and a forecast."
+   }
+  },
+  "6": {
+   "arc": "g4.t3",
+   "icon": "🌦️",
+   "grad": {
+    "from": "#134e63",
+    "to": "#59b6c9"
+   },
+   "trimestre": 3,
+   "periodo": 6,
+   "arcTitle": {
+    "en": "The weather station",
+    "es": "The weather station"
+   },
+   "arcSubtitle": {
+    "en": "What moves the water and the air over our city, and can it be forecast?",
+    "es": "¿Qué mueve el agua y el aire de nuestra ciudad, y se puede predecir?"
+   },
+   "toddle": null,
+   "essentialQ": {
+    "en": "What moves the water and the air over our city, and can we forecast it?",
+    "es": "¿Qué mueve el agua y el aire de nuestra ciudad, y podemos predecirlo?"
+   },
+   "englishMission": {
+    "en": "Can I report what I measured and what I predict?",
+    "es": "¿Sé informar de lo que medí y de lo que predigo?"
+   },
+   "product": {
+    "en": "A working station and a forecast",
+    "es": "A working station and a forecast"
+   },
+   "unitTheme": "My Future",
+   "contribution": {
+    "en": "The English in this unit (theme: “My Future”) is the language you use in the school project “The weather station”. Your English mission: Can I report what I measured and what I predict? — building toward the A working station and a forecast.",
+    "es": "El inglés de esta unidad (tema: «My Future») es la lengua que usas en el proyecto del colegio «The weather station». Tu misión de inglés: ¿Sé informar de lo que medí y de lo que predigo? — para construir el A working station and a forecast."
+   }
+  }
+ },
+ "G5": {
+  "1": {
+   "arc": "g5.t1",
+   "icon": "🧭",
+   "grad": {
+    "from": "#3d2a5c",
+    "to": "#8d76c4"
+   },
+   "trimestre": 1,
+   "periodo": 1,
+   "arcTitle": {
+    "en": "5th Grade Territory",
+    "es": "5th Grade Territory"
+   },
+   "arcSubtitle": {
+    "en": "What our territory is made of and what we are doing to it",
+    "es": "De qué está hecho nuestro territorio y qué le estamos haciendo"
+   },
+   "toddle": "Project 1: Building our 5th Grade Territory!",
+   "essentialQ": {
+    "en": "What is our territory made of, and what are we doing to it?",
+    "es": "¿De qué está hecho nuestro territorio, y qué le estamos haciendo?"
+   },
+   "englishMission": {
+    "en": "Can I write a narrative of 200-250 words that holds together?",
+    "es": "¿Sé escribir una narración de 200 a 250 palabras que se sostenga?"
+   },
+   "product": {
+    "en": "The Territory File",
+    "es": "The Territory File"
+   },
+   "unitTheme": "Personal Identity",
+   "contribution": {
+    "en": "The English in this unit (theme: “Personal Identity”) is the language you use in the school project “Project 1: Building our 5th Grade Territory!”. Your English mission: Can I write a narrative of 200-250 words that holds together? — building toward the The Territory File.",
+    "es": "El inglés de esta unidad (tema: «Personal Identity») es la lengua que usas en el proyecto del colegio «Project 1: Building our 5th Grade Territory!». Tu misión de inglés: ¿Sé escribir una narración de 200 a 250 palabras que se sostenga? — para construir el The Territory File."
+   }
+  },
+  "2": {
+   "arc": "g5.t1",
+   "icon": "🧭",
+   "grad": {
+    "from": "#3d2a5c",
+    "to": "#8d76c4"
+   },
+   "trimestre": 1,
+   "periodo": 2,
+   "arcTitle": {
+    "en": "5th Grade Territory",
+    "es": "5th Grade Territory"
+   },
+   "arcSubtitle": {
+    "en": "What our territory is made of and what we are doing to it",
+    "es": "De qué está hecho nuestro territorio y qué le estamos haciendo"
+   },
+   "toddle": "PROJECT 2 - Life Systems: Everything is Connected",
+   "essentialQ": {
+    "en": "What is our territory made of, and what are we doing to it?",
+    "es": "¿De qué está hecho nuestro territorio, y qué le estamos haciendo?"
+   },
+   "englishMission": {
+    "en": "Can I write a narrative of 200-250 words that holds together?",
+    "es": "¿Sé escribir una narración de 200 a 250 palabras que se sostenga?"
+   },
+   "product": {
+    "en": "The Territory File",
+    "es": "The Territory File"
+   },
+   "unitTheme": "Everyday Life & Habits",
+   "contribution": {
+    "en": "The English in this unit (theme: “Everyday Life & Habits”) is the language you use in the school project “PROJECT 2 - Life Systems: Everything is Connected”. Your English mission: Can I write a narrative of 200-250 words that holds together? — building toward the The Territory File.",
+    "es": "El inglés de esta unidad (tema: «Everyday Life & Habits») es la lengua que usas en el proyecto del colegio «PROJECT 2 - Life Systems: Everything is Connected». Tu misión de inglés: ¿Sé escribir una narración de 200 a 250 palabras que se sostenga? — para construir el The Territory File."
+   }
+  },
+  "4": {
+   "arc": "g5.p4p5",
+   "icon": "🔬",
+   "grad": {
+    "from": "#14503f",
+    "to": "#4fa886"
+   },
+   "trimestre": 2,
+   "periodo": 4,
+   "arcTitle": {
+    "en": "Scientific Field Researchers",
+    "es": "Scientific Field Researchers"
+   },
+   "arcSubtitle": {
+    "en": "Discovering the science behind the communities of Cajamarca",
+    "es": "Descubriendo la ciencia detrás de las comunidades de Cajamarca"
+   },
+   "toddle": "UNITS 4 & 5 - Discovering Sustainable Communities Through Science",
+   "essentialQ": {
+    "en": "How does science help communities use natural resources sustainably?",
+    "es": "¿Cómo ayuda la ciencia a que las comunidades aprovechen los recursos naturales de forma sostenible?"
+   },
+   "englishMission": {
+    "en": "Can I research, take notes and give an informative talk about what I found?",
+    "es": "¿Sé investigar, tomar notas y dar una charla informativa sobre lo que encontré?"
+   },
+   "product": {
+    "en": "Scientific Field Report + Science Fair Research Project",
+    "es": "Scientific Field Report + Science Fair Research Project"
+   },
+   "unitTheme": "People & Cultures",
+   "contribution": {
+    "en": "The English in this unit (theme: “People & Cultures”) is the language you use in the school project “UNITS 4 & 5 - Discovering Sustainable Communities Through Science”. Your English mission: Can I research, take notes and give an informative talk about what I found? — building toward the Scientific Field Report + Science Fair Research Project.",
+    "es": "El inglés de esta unidad (tema: «People & Cultures») es la lengua que usas en el proyecto del colegio «UNITS 4 & 5 - Discovering Sustainable Communities Through Science». Tu misión de inglés: ¿Sé investigar, tomar notas y dar una charla informativa sobre lo que encontré? — para construir el Scientific Field Report + Science Fair Research Project."
+   }
+  },
+  "5": {
+   "arc": "g5.p4p5",
+   "icon": "🔬",
+   "grad": {
+    "from": "#14503f",
+    "to": "#4fa886"
+   },
+   "trimestre": 2,
+   "periodo": 5,
+   "arcTitle": {
+    "en": "Scientific Field Researchers",
+    "es": "Scientific Field Researchers"
+   },
+   "arcSubtitle": {
+    "en": "Discovering the science behind the communities of Cajamarca",
+    "es": "Descubriendo la ciencia detrás de las comunidades de Cajamarca"
+   },
+   "toddle": "UNITS 4 & 5 - Discovering Sustainable Communities Through Science",
+   "essentialQ": {
+    "en": "How does science help communities use natural resources sustainably?",
+    "es": "¿Cómo ayuda la ciencia a que las comunidades aprovechen los recursos naturales de forma sostenible?"
+   },
+   "englishMission": {
+    "en": "Can I research, take notes and give an informative talk about what I found?",
+    "es": "¿Sé investigar, tomar notas y dar una charla informativa sobre lo que encontré?"
+   },
+   "product": {
+    "en": "Scientific Field Report + Science Fair Research Project",
+    "es": "Scientific Field Report + Science Fair Research Project"
+   },
+   "unitTheme": "Health & Wellbeing",
+   "contribution": {
+    "en": "The English in this unit (theme: “Health & Wellbeing”) is the language you use in the school project “UNITS 4 & 5 - Discovering Sustainable Communities Through Science”. Your English mission: Can I research, take notes and give an informative talk about what I found? — building toward the Scientific Field Report + Science Fair Research Project.",
+    "es": "El inglés de esta unidad (tema: «Health & Wellbeing») es la lengua que usas en el proyecto del colegio «UNITS 4 & 5 - Discovering Sustainable Communities Through Science». Tu misión de inglés: ¿Sé investigar, tomar notas y dar una charla informativa sobre lo que encontré? — para construir el Scientific Field Report + Science Fair Research Project."
+   }
+  }
+ },
+ "G6": {
+  "1": {
+   "icon": "🛠️",
+   "toddle": "Inspiring Nordic · Trades (Lower Secondary)",
+   "grad": {
+    "to": "#6d5bd0"
+   },
+   "essentialQ": {
+    "en": "How do everyday skills and trades shape the people and places around us?",
+    "es": "How do everyday skills and trades shape the people and places around us?"
+   },
+   "englishMission": {
+    "en": "Put the English of this unit — All about me — to work in the project (school, family & hobbies).",
+    "es": "Lleva el inglés de esta unidad al proyecto."
+   },
+   "product": {
+    "en": "the Inspiring Nordic Trades fair",
+    "es": "the Inspiring Nordic Trades fair"
+   }
+  },
+  "2": {
+   "icon": "🛠️",
+   "toddle": "Inspiring Nordic · Trades (Lower Secondary)",
+   "grad": {
+    "to": "#6d5bd0"
+   },
+   "essentialQ": {
+    "en": "How do everyday skills and trades shape the people and places around us?",
+    "es": "How do everyday skills and trades shape the people and places around us?"
+   },
+   "englishMission": {
+    "en": "Put the English of this unit — My week so far — to work in the project (routines · present perfect).",
+    "es": "Lleva el inglés de esta unidad al proyecto."
+   },
+   "product": {
+    "en": "the Inspiring Nordic Trades fair",
+    "es": "the Inspiring Nordic Trades fair"
+   }
+  },
+  "3": {
+   "icon": "🛠️",
+   "toddle": "Inspiring Nordic · Trades (Lower Secondary)",
+   "grad": {
+    "to": "#6d5bd0"
+   },
+   "essentialQ": {
+    "en": "How do everyday skills and trades shape the people and places around us?",
+    "es": "How do everyday skills and trades shape the people and places around us?"
+   },
+   "englishMission": {
+    "en": "Put the English of this unit — Keeping in touch — to work in the project (letters & emails).",
+    "es": "Lleva el inglés de esta unidad al proyecto."
+   },
+   "product": {
+    "en": "the Inspiring Nordic Trades fair",
+    "es": "the Inspiring Nordic Trades fair"
+   }
+  },
+  "4": {
+   "icon": "🛠️",
+   "toddle": "Inspiring Nordic · Trades (Lower Secondary)",
+   "grad": {
+    "to": "#6d5bd0"
+   },
+   "essentialQ": {
+    "en": "How do everyday skills and trades shape the people and places around us?",
+    "es": "How do everyday skills and trades shape the people and places around us?"
+   },
+   "englishMission": {
+    "en": "Put the English of this unit — Rules and good advice — to work in the project (modal verbs · rules).",
+    "es": "Lleva el inglés de esta unidad al proyecto."
+   },
+   "product": {
+    "en": "the Inspiring Nordic Trades fair",
+    "es": "the Inspiring Nordic Trades fair"
+   }
+  },
+  "5": {
+   "icon": "🛠️",
+   "toddle": "Inspiring Nordic · Trades (Lower Secondary)",
+   "grad": {
+    "to": "#6d5bd0"
+   },
+   "essentialQ": {
+    "en": "How do everyday skills and trades shape the people and places around us?",
+    "es": "How do everyday skills and trades shape the people and places around us?"
+   },
+   "englishMission": {
+    "en": "Put the English of this unit — Telling the story — to work in the project (narratives · adverbs).",
+    "es": "Lleva el inglés de esta unidad al proyecto."
+   },
+   "product": {
+    "en": "the Inspiring Nordic Trades fair",
+    "es": "the Inspiring Nordic Trades fair"
+   }
+  },
+  "6": {
+   "icon": "🛠️",
+   "toddle": "Inspiring Nordic · Trades (Lower Secondary)",
+   "grad": {
+    "to": "#6d5bd0"
+   },
+   "essentialQ": {
+    "en": "How do everyday skills and trades shape the people and places around us?",
+    "es": "How do everyday skills and trades shape the people and places around us?"
+   },
+   "englishMission": {
+    "en": "Put the English of this unit — Sharing what I know — to work in the project (presentations & poems).",
+    "es": "Lleva el inglés de esta unidad al proyecto."
+   },
+   "product": {
+    "en": "the Inspiring Nordic Trades fair",
+    "es": "the Inspiring Nordic Trades fair"
+   }
+  }
+ },
+ "G8": {
+  "1": {
+   "icon": "🛠️",
+   "toddle": "Inspiring Nordic · Trades (Lower Secondary)",
+   "grad": {
+    "to": "#0e7490"
+   },
+   "essentialQ": {
+    "en": "How are real things made, and why do real skills still matter?",
+    "es": "How are real things made, and why do real skills still matter?"
+   },
+   "englishMission": {
+    "en": "Put the English of this unit — Choices and consequences — to work in the project (conditionals).",
+    "es": "Lleva el inglés de esta unidad al proyecto."
+   },
+   "product": {
+    "en": "the Inspiring Nordic Trades fair",
+    "es": "the Inspiring Nordic Trades fair"
+   }
+  },
+  "2": {
+   "icon": "🛠️",
+   "toddle": "Inspiring Nordic · Trades (Lower Secondary)",
+   "grad": {
+    "to": "#0e7490"
+   },
+   "essentialQ": {
+    "en": "How are real things made, and why do real skills still matter?",
+    "es": "How are real things made, and why do real skills still matter?"
+   },
+   "englishMission": {
+    "en": "Put the English of this unit — How it's made — to work in the project (the passive).",
+    "es": "Lleva el inglés de esta unidad al proyecto."
+   },
+   "product": {
+    "en": "the Inspiring Nordic Trades fair",
+    "es": "the Inspiring Nordic Trades fair"
+   }
+  },
+  "3": {
+   "icon": "🛠️",
+   "toddle": "Inspiring Nordic · Trades (Lower Secondary)",
+   "grad": {
+    "to": "#0e7490"
+   },
+   "essentialQ": {
+    "en": "How are real things made, and why do real skills still matter?",
+    "es": "How are real things made, and why do real skills still matter?"
+   },
+   "englishMission": {
+    "en": "Put the English of this unit — What people say — to work in the project (reported speech).",
+    "es": "Lleva el inglés de esta unidad al proyecto."
+   },
+   "product": {
+    "en": "the Inspiring Nordic Trades fair",
+    "es": "the Inspiring Nordic Trades fair"
+   }
+  },
+  "4": {
+   "icon": "🛠️",
+   "toddle": "Inspiring Nordic · Trades (Lower Secondary)",
+   "grad": {
+    "to": "#0e7490"
+   },
+   "essentialQ": {
+    "en": "How are real things made, and why do real skills still matter?",
+    "es": "How are real things made, and why do real skills still matter?"
+   },
+   "englishMission": {
+    "en": "Put the English of this unit — The power of words — to work in the project (word formation).",
+    "es": "Lleva el inglés de esta unidad al proyecto."
+   },
+   "product": {
+    "en": "the Inspiring Nordic Trades fair",
+    "es": "the Inspiring Nordic Trades fair"
+   }
+  },
+  "5": {
+   "icon": "🛠️",
+   "toddle": "Inspiring Nordic · Trades (Lower Secondary)",
+   "grad": {
+    "to": "#0e7490"
+   },
+   "essentialQ": {
+    "en": "How are real things made, and why do real skills still matter?",
+    "es": "How are real things made, and why do real skills still matter?"
+   },
+   "englishMission": {
+    "en": "Put the English of this unit — The future of work — to work in the project (future forms).",
+    "es": "Lleva el inglés de esta unidad al proyecto."
+   },
+   "product": {
+    "en": "the Inspiring Nordic Trades fair",
+    "es": "the Inspiring Nordic Trades fair"
+   }
+  },
+  "6": {
+   "icon": "🛠️",
+   "toddle": "Inspiring Nordic · Trades (Lower Secondary)",
+   "grad": {
+    "to": "#0e7490"
+   },
+   "essentialQ": {
+    "en": "How are real things made, and why do real skills still matter?",
+    "es": "How are real things made, and why do real skills still matter?"
+   },
+   "englishMission": {
+    "en": "Put the English of this unit — Our project, our voice — to work in the project (presenting & connectors).",
+    "es": "Lleva el inglés de esta unidad al proyecto."
+   },
+   "product": {
+    "en": "the Inspiring Nordic Trades fair",
+    "es": "the Inspiring Nordic Trades fair"
+   }
+  }
+ },
+ "G9": {
+  "1": {
+   "icon": "⚙️",
+   "toddle": "Inspiring Nordic · Trades (Upper Secondary)",
+   "grad": {
+    "to": "#0e7490"
+   },
+   "essentialQ": {
+    "en": "How do our choices, and society, shape the work and the world we inherit?",
+    "es": "How do our choices, and society, shape the work and the world we inherit?"
+   },
+   "englishMission": {
+    "en": "Put the English of this unit — What if things were different? — to work in the project (third conditional).",
+    "es": "Lleva el inglés de esta unidad al proyecto."
+   },
+   "product": {
+    "en": "the Inspiring Nordic enterprise showcase",
+    "es": "the Inspiring Nordic enterprise showcase"
+   }
+  },
+  "2": {
+   "icon": "⚙️",
+   "toddle": "Inspiring Nordic · Trades (Upper Secondary)",
+   "grad": {
+    "to": "#0e7490"
+   },
+   "essentialQ": {
+    "en": "How do our choices, and society, shape the work and the world we inherit?",
+    "es": "How do our choices, and society, shape the work and the world we inherit?"
+   },
+   "englishMission": {
+    "en": "Put the English of this unit — A world in progress — to work in the project (passive continuous).",
+    "es": "Lleva el inglés de esta unidad al proyecto."
+   },
+   "product": {
+    "en": "the Inspiring Nordic enterprise showcase",
+    "es": "the Inspiring Nordic enterprise showcase"
+   }
+  },
+  "3": {
+   "icon": "⚙️",
+   "toddle": "Inspiring Nordic · Trades (Upper Secondary)",
+   "grad": {
+    "to": "#0e7490"
+   },
+   "essentialQ": {
+    "en": "How do our choices, and society, shape the work and the world we inherit?",
+    "es": "How do our choices, and society, shape the work and the world we inherit?"
+   },
+   "englishMission": {
+    "en": "Put the English of this unit — What has been done — to work in the project (passive perfect).",
+    "es": "Lleva el inglés de esta unidad al proyecto."
+   },
+   "product": {
+    "en": "the Inspiring Nordic enterprise showcase",
+    "es": "the Inspiring Nordic enterprise showcase"
+   }
+  },
+  "4": {
+   "icon": "⚙️",
+   "toddle": "Inspiring Nordic · Trades (Upper Secondary)",
+   "grad": {
+    "to": "#0e7490"
+   },
+   "essentialQ": {
+    "en": "How do our choices, and society, shape the work and the world we inherit?",
+    "es": "How do our choices, and society, shape the work and the world we inherit?"
+   },
+   "englishMission": {
+    "en": "Put the English of this unit — It must have happened — to work in the project (past modals of deduction).",
+    "es": "Lleva el inglés de esta unidad al proyecto."
+   },
+   "product": {
+    "en": "the Inspiring Nordic enterprise showcase",
+    "es": "the Inspiring Nordic enterprise showcase"
+   }
+  },
+  "5": {
+   "icon": "⚙️",
+   "toddle": "Inspiring Nordic · Trades (Upper Secondary)",
+   "grad": {
+    "to": "#0e7490"
+   },
+   "essentialQ": {
+    "en": "How do our choices, and society, shape the work and the world we inherit?",
+    "es": "How do our choices, and society, shape the work and the world we inherit?"
+   },
+   "englishMission": {
+    "en": "Put the English of this unit — Justice and voice — to work in the project (review · punctuation).",
+    "es": "Lleva el inglés de esta unidad al proyecto."
+   },
+   "product": {
+    "en": "the Inspiring Nordic enterprise showcase",
+    "es": "the Inspiring Nordic enterprise showcase"
+   }
+  },
+  "6": {
+   "icon": "⚙️",
+   "toddle": "Inspiring Nordic · Trades (Upper Secondary)",
+   "grad": {
+    "to": "#0e7490"
+   },
+   "essentialQ": {
+    "en": "How do our choices, and society, shape the work and the world we inherit?",
+    "es": "How do our choices, and society, shape the work and the world we inherit?"
+   },
+   "englishMission": {
+    "en": "Put the English of this unit — Stand up and speak — to work in the project (debating · connectors).",
+    "es": "Lleva el inglés de esta unidad al proyecto."
+   },
+   "product": {
+    "en": "the Inspiring Nordic enterprise showcase",
+    "es": "the Inspiring Nordic enterprise showcase"
+   }
+  }
+ },
+ "G10": {
+  "1": {
+   "icon": "⚙️",
+   "toddle": "Inspiring Nordic · Trades (Upper Secondary)",
+   "grad": {
+    "to": "#a3324e"
+   },
+   "essentialQ": {
+    "en": "How do skills, technology and fairness shape the future of work?",
+    "es": "How do skills, technology and fairness shape the future of work?"
+   },
+   "englishMission": {
+    "en": "Put the English of this unit — If only... — to work in the project (mixed conditionals).",
+    "es": "Lleva el inglés de esta unidad al proyecto."
+   },
+   "product": {
+    "en": "the Inspiring Nordic enterprise showcase",
+    "es": "the Inspiring Nordic enterprise showcase"
+   }
+  },
+  "2": {
+   "icon": "⚙️",
+   "toddle": "Inspiring Nordic · Trades (Upper Secondary)",
+   "grad": {
+    "to": "#a3324e"
+   },
+   "essentialQ": {
+    "en": "How do skills, technology and fairness shape the future of work?",
+    "es": "How do skills, technology and fairness shape the future of work?"
+   },
+   "englishMission": {
+    "en": "Put the English of this unit — Getting things done — to work in the project (the causative).",
+    "es": "Lleva el inglés de esta unidad al proyecto."
+   },
+   "product": {
+    "en": "the Inspiring Nordic enterprise showcase",
+    "es": "the Inspiring Nordic enterprise showcase"
+   }
+  },
+  "3": {
+   "icon": "⚙️",
+   "toddle": "Inspiring Nordic · Trades (Upper Secondary)",
+   "grad": {
+    "to": "#a3324e"
+   },
+   "essentialQ": {
+    "en": "How do skills, technology and fairness shape the future of work?",
+    "es": "How do skills, technology and fairness shape the future of work?"
+   },
+   "englishMission": {
+    "en": "Put the English of this unit — Words at work — to work in the project (word formation).",
+    "es": "Lleva el inglés de esta unidad al proyecto."
+   },
+   "product": {
+    "en": "the Inspiring Nordic enterprise showcase",
+    "es": "the Inspiring Nordic enterprise showcase"
+   }
+  },
+  "4": {
+   "icon": "⚙️",
+   "toddle": "Inspiring Nordic · Trades (Upper Secondary)",
+   "grad": {
+    "to": "#a3324e"
+   },
+   "essentialQ": {
+    "en": "How do skills, technology and fairness shape the future of work?",
+    "es": "How do skills, technology and fairness shape the future of work?"
+   },
+   "englishMission": {
+    "en": "Put the English of this unit — The bigger picture — to work in the project (relative clauses).",
+    "es": "Lleva el inglés de esta unidad al proyecto."
+   },
+   "product": {
+    "en": "the Inspiring Nordic enterprise showcase",
+    "es": "the Inspiring Nordic enterprise showcase"
+   }
+  },
+  "5": {
+   "icon": "⚙️",
+   "toddle": "Inspiring Nordic · Trades (Upper Secondary)",
+   "grad": {
+    "to": "#a3324e"
+   },
+   "essentialQ": {
+    "en": "How do skills, technology and fairness shape the future of work?",
+    "es": "How do skills, technology and fairness shape the future of work?"
+   },
+   "englishMission": {
+    "en": "Put the English of this unit — Making the case — to work in the project (persuasion & emphasis).",
+    "es": "Lleva el inglés de esta unidad al proyecto."
+   },
+   "product": {
+    "en": "the Inspiring Nordic enterprise showcase",
+    "es": "the Inspiring Nordic enterprise showcase"
+   }
+  },
+  "6": {
+   "icon": "⚙️",
+   "toddle": "Inspiring Nordic · Trades (Upper Secondary)",
+   "grad": {
+    "to": "#a3324e"
+   },
+   "essentialQ": {
+    "en": "How do skills, technology and fairness shape the future of work?",
+    "es": "How do skills, technology and fairness shape the future of work?"
+   },
+   "englishMission": {
+    "en": "Put the English of this unit — Our voice, our world — to work in the project (review & debate).",
+    "es": "Lleva el inglés de esta unidad al proyecto."
+   },
+   "product": {
+    "en": "the Inspiring Nordic enterprise showcase",
+    "es": "the Inspiring Nordic enterprise showcase"
+   }
+  }
+ },
+ "G11": {
+  "1": {
+   "icon": "⚙️",
+   "toddle": "Inspiring Nordic · Trades (Upper Secondary)",
+   "grad": {
+    "to": "#334155"
+   },
+   "essentialQ": {
+    "en": "What kind of society, and what kind of work, do we want to build — and how do we argue for it?",
+    "es": "What kind of society, and what kind of work, do we want to build — and how do we argue for it?"
+   },
+   "englishMission": {
+    "en": "Put the English of this unit — Never before... — to work in the project (inversion).",
+    "es": "Lleva el inglés de esta unidad al proyecto."
+   },
+   "product": {
+    "en": "the Inspiring Nordic final debate & showcase",
+    "es": "the Inspiring Nordic final debate & showcase"
+   }
+  },
+  "2": {
+   "icon": "⚙️",
+   "toddle": "Inspiring Nordic · Trades (Upper Secondary)",
+   "grad": {
+    "to": "#334155"
+   },
+   "essentialQ": {
+    "en": "What kind of society, and what kind of work, do we want to build — and how do we argue for it?",
+    "es": "What kind of society, and what kind of work, do we want to build — and how do we argue for it?"
+   },
+   "englishMission": {
+    "en": "Put the English of this unit — It's the message that matters — to work in the project (cleft sentences).",
+    "es": "Lleva el inglés de esta unidad al proyecto."
+   },
+   "product": {
+    "en": "the Inspiring Nordic final debate & showcase",
+    "es": "the Inspiring Nordic final debate & showcase"
+   }
+  },
+  "3": {
+   "icon": "⚙️",
+   "toddle": "Inspiring Nordic · Trades (Upper Secondary)",
+   "grad": {
+    "to": "#334155"
+   },
+   "essentialQ": {
+    "en": "What kind of society, and what kind of work, do we want to build — and how do we argue for it?",
+    "es": "What kind of society, and what kind of work, do we want to build — and how do we argue for it?"
+   },
+   "englishMission": {
+    "en": "Put the English of this unit — Ways of saying — to work in the project (advanced verb patterns).",
+    "es": "Lleva el inglés de esta unidad al proyecto."
+   },
+   "product": {
+    "en": "the Inspiring Nordic final debate & showcase",
+    "es": "the Inspiring Nordic final debate & showcase"
+   }
+  },
+  "4": {
+   "icon": "⚙️",
+   "toddle": "Inspiring Nordic · Trades (Upper Secondary)",
+   "grad": {
+    "to": "#334155"
+   },
+   "essentialQ": {
+    "en": "What kind of society, and what kind of work, do we want to build — and how do we argue for it?",
+    "es": "What kind of society, and what kind of work, do we want to build — and how do we argue for it?"
+   },
+   "englishMission": {
+    "en": "Put the English of this unit — The shape of an argument — to work in the project (word formation & nominalisation).",
+    "es": "Lleva el inglés de esta unidad al proyecto."
+   },
+   "product": {
+    "en": "the Inspiring Nordic final debate & showcase",
+    "es": "the Inspiring Nordic final debate & showcase"
+   }
+  },
+  "5": {
+   "icon": "⚙️",
+   "toddle": "Inspiring Nordic · Trades (Upper Secondary)",
+   "grad": {
+    "to": "#334155"
+   },
+   "essentialQ": {
+    "en": "What kind of society, and what kind of work, do we want to build — and how do we argue for it?",
+    "es": "What kind of society, and what kind of work, do we want to build — and how do we argue for it?"
+   },
+   "englishMission": {
+    "en": "Put the English of this unit — Joining the dots — to work in the project (discourse markers & cohesion).",
+    "es": "Lleva el inglés de esta unidad al proyecto."
+   },
+   "product": {
+    "en": "the Inspiring Nordic final debate & showcase",
+    "es": "the Inspiring Nordic final debate & showcase"
+   }
+  },
+  "6": {
+   "icon": "⚙️",
+   "toddle": "Inspiring Nordic · Trades (Upper Secondary)",
+   "grad": {
+    "to": "#334155"
+   },
+   "essentialQ": {
+    "en": "What kind of society, and what kind of work, do we want to build — and how do we argue for it?",
+    "es": "What kind of society, and what kind of work, do we want to build — and how do we argue for it?"
+   },
+   "englishMission": {
+    "en": "Put the English of this unit — The last word — to work in the project (review & critical debate).",
+    "es": "Lleva el inglés de esta unidad al proyecto."
+   },
+   "product": {
+    "en": "the Inspiring Nordic final debate & showcase",
+    "es": "the Inspiring Nordic final debate & showcase"
+   }
+  }
+ }
+}

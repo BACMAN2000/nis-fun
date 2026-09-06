@@ -1,0 +1,415 @@
+{
+ "id": "c1a-02",
+ "level": "c1a",
+ "number": 2,
+ "title": "It's the message that matters",
+ "topic": "cleft sentences",
+ "grammar": "Cleft sentences (It is… that… / What… is…)",
+ "wordlist": [
+  "rhetoric",
+  "emphasis",
+  "persuade",
+  "spotlight",
+  "resonate",
+  "concise",
+  "orator",
+  "argument",
+  "conviction",
+  "deliver"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Use of English",
+  "part": 4,
+  "skill": "key word transformations"
+ },
+ "characters": [
+  "nova"
+ ],
+ "scene": {
+  "speaker": "nova",
+  "bubble": "This unit is all about emphasis. Learn cleft sentences — It is… that…, What… is… — and put the spotlight exactly where you want it.",
+  "intro": "Welcome back. Some of the most powerful sentences in English do one simple thing: they place a single idea in the spotlight. In this unit our club studies rhetoric and emphasis — from Melville's Ahab to the great speeches of history — and you learn the cleft sentence, the elegant structure that lets you say, quite literally, ‘It is this that matters.’ You will also tackle key word transformations from the exam. For the Inspiring Nordic project, this is the grammar of persuasion. Let's begin."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Vocabulary — rhetoric and emphasis. Match each word with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "rhetoric",
+      "right": "the art of persuasive speaking or writing"
+     },
+     {
+      "left": "emphasis",
+      "right": "special importance given to something"
+     },
+     {
+      "left": "persuade",
+      "right": "to make someone believe or do something through reasoning"
+     },
+     {
+      "left": "spotlight",
+      "right": "attention directed at one particular thing"
+     },
+     {
+      "left": "resonate",
+      "right": "to have a lasting effect on an audience"
+     },
+     {
+      "left": "concise",
+      "right": "saying much in few words"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "reading",
+   "title": "Reading — the reading club on rhetoric",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "kicker": "Speech & Rhetoric",
+    "title": "It's the message that matters",
+    "author": "liam",
+    "byline": "by Liam",
+    "text": "<p>What separates a forgettable talk from an unforgettable one? Not volume, and not vocabulary. <b>It is emphasis that</b> does the work — the art of placing one idea in the spotlight and holding it there until the audience cannot look away.</p><p>Our Grade 11 reading club noticed this while comparing Melville's <i>Moby Dick</i> with a handful of famous speeches. Captain Ahab is, above all, a rhetorician: he does not simply order his crew to hunt the whale — he persuades them. <b>Mateo</b> observed that Ahab repeats a single image again and again, so that <b>what the sailors finally believe is</b> the captain's obsession, not their own reason.</p><p>Great orators use the same trick. <b>It was in the closing lines</b> of the most celebrated speeches that history was made, precisely because the speaker narrowed everything down to one unforgettable claim. <b>Nadia</b> put it neatly: “<b>What a crowd remembers is</b> a feeling, rarely the exact words.”</p><p>For the Inspiring Nordic project, this matters enormously. Each of us is preparing a short persuasive piece, and <b>Sofía</b> reminded the club that a cluttered argument convinces nobody. The discipline of the cleft sentence — <i>It is… that…</i>, <i>What… is…</i> — forces us to decide what truly counts and to give it pride of place.</p><p>So before you write your next paragraph, ask the ruthless question the whale seems to ask Ahab: of everything you could say, what is the one thing that must not be missed? Answer that, put it in the spotlight, and let the rest fall quietly into the background.</p>",
+    "script": "What separates a forgettable talk from an unforgettable one? Not volume, and not vocabulary. It is emphasis that does the work — placing one idea in the spotlight and holding it there. Our reading club noticed this while comparing Moby Dick with famous speeches. Captain Ahab is a rhetorician: he does not simply order his crew to hunt the whale, he persuades them. Mateo observed that Ahab repeats one image again and again. Great orators use the same trick. It was in the closing lines of famous speeches that history was made. Nadia said that what a crowd remembers is a feeling, rarely the exact words. For the Inspiring Nordic project, each of us is preparing a short persuasive piece.",
+    "questions": [
+     {
+      "q": "According to Liam, what does the real work in a great talk?",
+      "options": [
+       "emphasis",
+       "volume",
+       "vocabulary"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "How does Ahab get his crew to hunt the whale?",
+      "options": [
+       "he persuades them",
+       "he pays them well",
+       "he forces them in silence"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What did Nadia say a crowd remembers?",
+      "options": [
+       "a feeling, rarely the exact words",
+       "every word precisely",
+       "only the speaker's name"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "Why does emphasis matter for the Inspiring Nordic project?",
+      "options": [
+       "they are preparing persuasive pieces",
+       "they are painting the school",
+       "they are learning to swim"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What does the cleft sentence force a writer to do?",
+      "options": [
+       "decide what truly counts",
+       "use much longer words",
+       "avoid all punctuation"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "grammar_box",
+   "title": "Grammar — Cleft sentences",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "title": "Cleft sentences (It is… that… / What… is…)",
+    "intro": "When we want to highlight one part of a sentence, we can split it in two — a 'cleft'. English has two common patterns: the it-cleft (It is X that…) and the wh-cleft (What… is X).",
+    "examples": [
+     {
+      "text": "<b>It is the message that</b> matters, not the volume.",
+      "note": "It + is + focus + that"
+     },
+     {
+      "text": "<b>What great speakers do is</b> control our attention.",
+      "note": "What-clause + is + focus"
+     },
+     {
+      "text": "<b>It was in 1863 that</b> the speech was delivered.",
+      "note": "clefting an adverbial of time"
+     },
+     {
+      "text": "<b>What we remember is</b> the feeling, not the words.",
+      "note": "the focus comes after 'is'"
+     }
+    ],
+    "rules": [
+     "Use It + is/was + the focus + that/who to spotlight a noun, phrase or adverbial: <b>It was Sofía who</b> spoke first.",
+     "Use What… + is/was + focus to highlight an action or idea: <b>What matters is</b> honesty.",
+     "Keep the tense consistent across the split: <b>It is</b> emphasis <b>that counts</b>; <b>It was</b> Liam <b>who won</b>."
+    ],
+    "practice": {
+     "instructions": "Choose the correct form.",
+     "items": [
+      {
+       "sentence": "___ the message that matters, not the noise.",
+       "options": [
+        "It is",
+        "There is",
+        "That is"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "___ great writers do is cut every unnecessary word.",
+       "options": [
+        "What",
+        "That",
+        "It"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "It was Liam ___ opened the debate.",
+       "options": [
+        "who",
+        "which",
+        "what"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "___ we remember is the feeling, not the words.",
+       "options": [
+        "What",
+        "It",
+        "Who"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "It ___ in the final line that the point became clear.",
+       "options": [
+        "was",
+        "did",
+        "has"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "code": "D",
+   "type": "key_transform",
+   "title": "Use of English Part 4 — key word transformations",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete the second sentence so that it means the same as the first. Use the KEY WORD. Write between two and five words.",
+    "items": [
+     {
+      "first": "The message matters most, not the volume.",
+      "key": "IT",
+      "second_start": "It",
+      "second_end": "matters most, not the volume.",
+      "answers": [
+       "is the message that"
+      ]
+     },
+     {
+      "first": "Great speakers control the audience's attention.",
+      "key": "WHAT",
+      "second_start": "What",
+      "second_end": "the audience's attention.",
+      "answers": [
+       "great speakers do is control"
+      ]
+     },
+     {
+      "first": "Lincoln delivered his most famous speech in 1863.",
+      "key": "IT",
+      "second_start": "It",
+      "second_end": "Lincoln delivered his most famous speech.",
+      "answers": [
+       "was in 1863 that"
+      ]
+     },
+     {
+      "first": "We remember the feeling, not the exact words.",
+      "key": "WHAT",
+      "second_start": "What",
+      "second_end": "the feeling, not the exact words.",
+      "answers": [
+       "we remember is"
+      ]
+     },
+     {
+      "first": "Nadia's careful structure impressed the judges.",
+      "key": "IT",
+      "second_start": "It",
+      "second_end": "impressed the judges.",
+      "answers": [
+       "was Nadia's careful structure that"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "gap_text",
+   "title": "Use of English Part 2 — open cloze. Write ONE word in each gap.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "that",
+     "What",
+     "in",
+     "is",
+     "when",
+     "why"
+    ],
+    "text": "It is emphasis {1} makes a speech unforgettable. {2} great speakers do is put one idea in the spotlight. It was {3} the final sentence that the point became clear. What the audience remembers {4} the feeling, not the words. Only {5} you stress the key phrase does it land. And that is {6} we quote it.",
+    "answers": [
+     "that",
+     "What",
+     "in",
+     "is",
+     "when",
+     "why"
+    ]
+   }
+  },
+  {
+   "code": "F",
+   "type": "listening",
+   "title": "Listening — the rhetoric lesson. Write ONE word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "c1a/u02-f.mp3",
+   "data": {
+    "voice_note": "Voz: la profesora (Miss Vega), presentando las cleft sentences.",
+    "script": "Good morning, Grade 11. Today we study cleft sentences — the elegant way to put the spotlight on what matters. Think of a great speech: it is one idea that the speaker repeats until we remember it. What powerful writers do is control our attention. For our Inspiring Nordic project, each of you will polish one persuasive line. Liam will present first on Thursday. Remember: it is emphasis that turns a sentence into a message. Bring your boldest claim, and make every word count.",
+    "questions": [
+     {
+      "q": "Today we study cleft …",
+      "answer": "sentences"
+     },
+     {
+      "q": "Cleft sentences put the spotlight on what …",
+      "answer": "matters"
+     },
+     {
+      "q": "What powerful writers do is control our …",
+      "answer": "attention"
+     },
+     {
+      "q": "… will present first on Thursday.",
+      "answer": "Liam"
+     },
+     {
+      "q": "It is emphasis that turns a sentence into a …",
+      "answer": "message"
+     }
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "pairwork",
+   "title": "Speaking — a persuasive appeal. In pairs, then record it.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "In pairs, prepare a one-minute persuasive appeal for the Inspiring Nordic project, using at least one cleft sentence to spotlight your key idea. Model: “It is trust, not talent, that holds a team together.” 1) What single change would most improve your school? 2) Persuasion or honesty — which matters more in public speaking? 3) When does emphasis become manipulation? Give reasons and examples, then record your discussion."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write a short persuasive paragraph (10–12 sentences) about an idea worth defending, using at least three cleft sentences (It is… that…, What… is…, It was… who…) to place your key points in the spotlight. Capital letters and full stops!"
+  }
+ ],
+ "scope": {
+  "grado": "G11",
+  "temaN": 2,
+  "tema": "The Message That Matters — Inspiring Nordic",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Follow a lesson on rhetoric and note precise details (C1 Advanced Listening)."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Deliver a persuasive appeal, using cleft sentences for emphasis (C1 Advanced Speaking)."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read a critical text on rhetoric and grasp its argument and tone (C1 Advanced Reading)."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write a persuasive paragraph using cleft sentences to highlight key ideas."
+   },
+   {
+    "destreza": "Use of English",
+    "puede": "Cleft sentences (It is… that… / What… is…); key word transformations (Part 4)."
+   }
+  ],
+  "vocabulario": [
+   "rhetoric",
+   "emphasis",
+   "persuade",
+   "spotlight",
+   "resonate",
+   "concise"
+  ],
+  "gramatica": [
+   "Cleft sentences (It is… that… / What… is…)",
+   "Key word transformations"
+  ],
+  "pendiente": {}
+ },
+ "wordlist_extra": [
+  "orator",
+  "argument",
+  "conviction"
+ ]
+}

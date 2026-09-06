@@ -1,0 +1,18 @@
+{
+  "level": "c1a",
+  "name": "Cambridge · C1 Advanced · Grade 11",
+  "cast": "Grade 11 · Inspiring Nordic",
+  "color": "#334155",
+  "mascot": "nova",
+  "kids": ["mateo", "sofia", "liam", "nadia"],
+  "exam": "C1 Advanced for Schools",
+  "project": "Inspiring Nordic — Trades",
+  "units": [
+    { "n": 1, "title": "Never before...", "topic": "inversion" },
+    { "n": 2, "title": "It's the message that matters", "topic": "cleft sentences" },
+    { "n": 3, "title": "Ways of saying", "topic": "advanced verb patterns" },
+    { "n": 4, "title": "The shape of an argument", "topic": "word formation & nominalisation" },
+    { "n": 5, "title": "Joining the dots", "topic": "discourse markers & cohesion" },
+    { "n": 6, "title": "The last word", "topic": "review & critical debate" }
+  ]
+}

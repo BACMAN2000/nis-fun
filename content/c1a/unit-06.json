@@ -1,0 +1,415 @@
+{
+ "id": "c1a-06",
+ "level": "c1a",
+ "number": 6,
+ "title": "The last word",
+ "topic": "review & critical debate",
+ "grammar": "Language of formal argument (concession, hedging: admittedly, arguably, to some extent)",
+ "wordlist": [
+  "concede",
+  "hedge",
+  "qualify",
+  "rebut",
+  "authority",
+  "provocative",
+  "motion",
+  "counter",
+  "measured",
+  "reasoned"
+ ],
+ "exam_focus": {
+  "paper": "Speaking",
+  "part": 4,
+  "skill": "discussion"
+ },
+ "characters": [
+  "nova"
+ ],
+ "scene": {
+  "speaker": "nova",
+  "bubble": "The last word. Learn to concede, hedge and qualify — and speak with real authority in the final debate.",
+  "intro": "This is where the year comes together. Our Grade 11 class holds its final critical debate for the Inspiring Nordic project, and you learn the language that makes an argument sound reasonable rather than loud — concession and hedging: admittedly, arguably, to some extent. You will prepare for the Part 4 discussion of the Speaking exam. To speak with authority is not to shout down the other side; it is to hold your view while granting the truth in another's. Let's begin."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Vocabulary — debate and argument. Match each word with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "concede",
+      "right": "to admit that a point is true"
+     },
+     {
+      "left": "hedge",
+      "right": "to avoid making a claim too strong"
+     },
+     {
+      "left": "qualify",
+      "right": "to limit a statement to make it more accurate"
+     },
+     {
+      "left": "rebut",
+      "right": "to argue that a claim is false"
+     },
+     {
+      "left": "authority",
+      "right": "the confidence that makes people trust a speaker"
+     },
+     {
+      "left": "provocative",
+      "right": "deliberately likely to cause strong reactions"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "reading",
+   "title": "Reading — the final critical debate",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "kicker": "Final Debate",
+    "title": "The last word",
+    "author": "mateo",
+    "byline": "by Mateo",
+    "text": "<p>On the last Friday of the year, our Grade 11 class held its final critical debate for the Inspiring Nordic project. The motion was deliberately provocative: “This house believes that ambition does more harm than good.” After a year of reading, writing and arguing, it was, in a sense, our graduation.</p><p>What struck me was how much our club had changed. In September we shouted opinions; by June we had learned to reason. <b>Sofía</b>, opening for the proposition, conceded straight away that ambition drives progress — <i>admittedly</i>, she said, no cure was ever found by the complacent. Yet she argued that unchecked ambition, like Ahab's, destroys as often as it builds.</p><p><b>Liam</b> replied with characteristic care. Ambition, he suggested, is <i>arguably</i> neutral; it is the values behind it that decide everything. <b>Nadia</b> then made the sharpest point of the afternoon: to some extent, she said, every one of us in that room was ambitious simply by trying to speak well.</p><p>Nobody was declared the winner, and rightly so. The purpose of a serious debate is not victory but understanding. We hedged, we conceded, we qualified — and precisely because we did, we listened to one another for real.</p><p>This is the last word of our course, and perhaps the most important. To speak with authority is not to shout down the other side; it is to hold your view firmly while granting the truth in theirs. That, more than any single grammar point, is what a year of C1 English has taught us.</p>",
+    "script": "On the last Friday of the year, our Grade 11 class held its final critical debate for the Inspiring Nordic project. The motion was provocative: this house believes that ambition does more harm than good. What struck me was how much our club had changed. In September we shouted opinions; by June we had learned to reason. Sofía, opening for the proposition, conceded that ambition drives progress. Yet she argued that unchecked ambition, like Ahab's, destroys as often as it builds. Liam replied that ambition is arguably neutral; the values behind it decide everything. Nadia made the sharpest point: to some extent, everyone in the room was ambitious. Nobody won, and rightly so. The purpose of a debate is understanding, not victory.",
+    "questions": [
+     {
+      "q": "What was the motion of the final debate?",
+      "options": [
+       "ambition does more harm than good",
+       "phones should be banned",
+       "school should be shorter"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "How had the club changed by June?",
+      "options": [
+       "they had learned to reason",
+       "they had stopped talking",
+       "they argued more angrily"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What did Sofía concede at once?",
+      "options": [
+       "ambition drives progress",
+       "she was always wrong",
+       "the debate was pointless"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "According to Liam, ambition is …",
+      "options": [
+       "arguably neutral",
+       "always evil",
+       "always good"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What is the purpose of a serious debate, according to Mateo?",
+      "options": [
+       "understanding, not victory",
+       "winning at any cost",
+       "complete silence"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "grammar_box",
+   "title": "Grammar — The language of formal argument",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "title": "The language of formal argument",
+    "intro": "Advanced speakers and writers do not overstate. They concede points, hedge their claims and qualify their opinions. This makes them sound reasonable and authoritative — and, paradoxically, more convincing.",
+    "examples": [
+     {
+      "text": "<b>Admittedly</b>, the plan has flaws, but it is the best we have.",
+      "note": "admittedly = conceding a point"
+     },
+     {
+      "text": "The policy is <b>arguably</b> the fairest option.",
+      "note": "arguably = a hedged claim"
+     },
+     {
+      "text": "I agree <b>to some extent</b>, though not entirely.",
+      "note": "to some extent = partial agreement"
+     },
+     {
+      "text": "<b>Granted</b>, costs will rise; <b>even so</b>, we should act.",
+      "note": "granted / even so = concession"
+     }
+    ],
+    "rules": [
+     "Concede first, then counter: <b>Admittedly</b> …, <b>but</b> / <b>even so</b> …",
+     "Hedge strong claims to sound measured: <b>arguably, to some extent, it could be argued that</b>.",
+     "Qualify, don't exaggerate: prefer <i>the evidence suggests</i> to <i>the evidence proves</i>."
+    ],
+    "practice": {
+     "instructions": "Choose the best option.",
+     "items": [
+      {
+       "sentence": "___, the idea has weaknesses, but it is worth trying.",
+       "options": [
+        "Admittedly",
+        "Obviously",
+        "Never"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "This is ___ the strongest argument on either side.",
+       "options": [
+        "arguably",
+        "impossibly",
+        "rarely"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "I agree ___, though I still have doubts.",
+       "options": [
+        "to some extent",
+        "at all costs",
+        "by no means"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "___ that costs will rise, we should still invest.",
+       "options": [
+        "Granted",
+        "Unless",
+        "Because"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "The evidence ___ that screens harm sleep.",
+       "options": [
+        "suggests",
+        "proves beyond all doubt",
+        "shouts"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "code": "D",
+   "type": "key_transform",
+   "title": "Use of English Part 4 — key word transformations",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete the second sentence so that it means the same as the first. Use the KEY WORD. Write between two and five words.",
+    "items": [
+     {
+      "first": "The argument is partly true.",
+      "key": "EXTENT",
+      "second_start": "The argument is true",
+      "second_end": ".",
+      "answers": [
+       "to some extent"
+      ]
+     },
+     {
+      "first": "I admit that the essay had a few weaknesses.",
+      "key": "ADMITTEDLY",
+      "second_start": "Admittedly,",
+      "second_end": "a few weaknesses.",
+      "answers": [
+       "the essay had"
+      ]
+     },
+     {
+      "first": "Although she was nervous, Nadia argued brilliantly.",
+      "key": "DESPITE",
+      "second_start": "Nadia argued brilliantly",
+      "second_end": "nervous.",
+      "answers": [
+       "despite being"
+      ]
+     },
+     {
+      "first": "One could argue that technology has done more harm than good.",
+      "key": "ARGUED",
+      "second_start": "It",
+      "second_end": "that technology has done more harm than good.",
+      "answers": [
+       "could be argued"
+      ]
+     },
+     {
+      "first": "Generally speaking, the year has been a success.",
+      "key": "WHOLE",
+      "second_start": "On",
+      "second_end": "the year has been a success.",
+      "answers": [
+       "the whole,"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "gap_text",
+   "title": "Use of English Part 2 — open cloze. Write ONE word in each gap.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "when",
+     "than",
+     "to",
+     "By",
+     "and",
+     "in"
+    ],
+    "text": "A good debate is not a shouting match. It is about listening, conceding a point {1} necessary, and answering with evidence. This, admittedly, is harder {2} it sounds. The best speakers hedge their claims, arguing that something is true only {3} a certain extent. {4} doing so, they sound reasonable, {5} the audience comes to trust them. That, {6} the end, is how a debate is won.",
+    "answers": [
+     "when",
+     "than",
+     "to",
+     "By",
+     "and",
+     "in"
+    ]
+   }
+  },
+  {
+   "code": "F",
+   "type": "listening",
+   "title": "Listening — the final-debate briefing. Write ONE word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "c1a/u06-f.mp3",
+   "data": {
+    "voice_note": "Voz: la profesora (Miss Vega), preparando el debate final.",
+    "script": "Good morning, Grade 11. Today is our final critical debate for the Inspiring Nordic project. Part 4 of the Speaking exam is a discussion, so practise speaking with authority. Concede a point when your partner is right; then answer with evidence. Use hedging language — arguably, admittedly, to some extent — to sound measured, not arrogant. Mateo will chair the debate first on Friday. Remember: the aim is not to win but to reason. Listen carefully, build on each other's ideas, and give every claim your best support. Speak with confidence.",
+    "questions": [
+     {
+      "q": "Today is our final critical …",
+      "answer": "debate"
+     },
+     {
+      "q": "Part 4 of the Speaking exam is a …",
+      "answer": "discussion"
+     },
+     {
+      "q": "Concede a point when your partner is …",
+      "answer": "right"
+     },
+     {
+      "q": "… will chair the debate first on Friday.",
+      "answer": "Mateo"
+     },
+     {
+      "q": "The aim is not to win but to …",
+      "answer": "reason"
+     }
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "pairwork",
+   "title": "Speaking — a critical debate. In pairs, then record it.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "In pairs, hold a two-minute critical debate on a motion of your choice, conceding at least one point and hedging your strongest claim. Model: “Admittedly, technology isolates us; even so, it is arguably the greatest connector we have.” 1) Does ambition do more harm than good? 2) Is it braver to concede a point or to stand firm? 3) What has this year taught you about arguing well? Give reasons and examples, then record it."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write a short reflective argument (10–12 sentences) responding to the motion ‘Ambition does more harm than good’, using at least three markers of concession or hedging (admittedly, arguably, to some extent, granted). Capital letters and full stops!"
+  }
+ ],
+ "scope": {
+  "grado": "G11",
+  "temaN": 6,
+  "tema": "The Last Word — Inspiring Nordic",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Follow a debate briefing and note precise details (C1 Advanced Listening)."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Hold a critical discussion with authority, conceding and hedging (C1 Advanced Speaking, Part 4)."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read a reflective account of a debate and grasp its argument and tone (C1 Advanced Reading)."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write a reflective argument using concession and hedging for a measured tone."
+   },
+   {
+    "destreza": "Use of English",
+    "puede": "Language of formal argument; key word transformations (Part 4)."
+   }
+  ],
+  "vocabulario": [
+   "concede",
+   "hedge",
+   "qualify",
+   "rebut",
+   "authority",
+   "provocative"
+  ],
+  "gramatica": [
+   "Language of formal argument (concession, hedging)",
+   "Discussion (Speaking Part 4)"
+  ],
+  "pendiente": {}
+ },
+ "wordlist_extra": [
+  "motion",
+  "counter",
+  "measured"
+ ]
+}

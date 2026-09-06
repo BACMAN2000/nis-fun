@@ -1,0 +1,415 @@
+{
+ "id": "c1a-01",
+ "level": "c1a",
+ "number": 1,
+ "title": "Never before...",
+ "topic": "inversion",
+ "grammar": "Inversion after negative adverbials",
+ "wordlist": [
+  "obsession",
+  "pursue",
+  "revenge",
+  "warning",
+  "ambition",
+  "downfall",
+  "relentless",
+  "consequence",
+  "blinded",
+  "restraint"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Use of English",
+  "part": 4,
+  "skill": "key word transformations"
+ },
+ "characters": [
+  "nova"
+ ],
+ "scene": {
+  "speaker": "nova",
+  "bubble": "Welcome to C1! We're reading Moby Dick. Learn inversion — and put emphasis exactly where you want it.",
+  "intro": "Welcome to Grade 11 and to C1 Advanced. This year the Inspiring Nordic project turns to the biggest questions: ambition, society and the choices that define us. In this unit you read what our club makes of Melville's Moby Dick, you learn inversion — the elegant structure that fronts a negative adverbial for emphasis — and you practise the key word transformation task from the exam. Never before have your sentences had so much power. Let's begin."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Vocabulary — ambition and its limits. Match each word with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "obsession",
+      "right": "a fixed idea that dominates a person's mind"
+     },
+     {
+      "left": "pursue",
+      "right": "to follow or chase a goal with determination"
+     },
+     {
+      "left": "revenge",
+      "right": "harm done to punish someone for a past wrong"
+     },
+     {
+      "left": "relentless",
+      "right": "never stopping, however hard it becomes"
+     },
+     {
+      "left": "downfall",
+      "right": "the cause of someone's ruin or failure"
+     },
+     {
+      "left": "restraint",
+      "right": "the ability to control yourself"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "reading",
+   "title": "Reading — the reading club on Moby Dick",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "kicker": "Reading Club",
+    "title": "Moby Dick: the danger of obsession",
+    "author": "sofia",
+    "byline": "by Sofía",
+    "text": "<p>This term our Grade 11 reading club has taken on a giant: <i>Moby Dick</i> by Herman Melville. It is long, strange and unforgettable — the story of Captain Ahab, whose single obsession is to hunt and kill the white whale that once took his leg.</p><p>Rarely has literature painted such a powerful portrait of obsession. Not only does Ahab risk his own life, but he also drags his entire crew towards disaster. So blinded is he by revenge that he ignores every warning. <b>Mateo</b> put it well in our discussion: “Only when it is far too late does Ahab understand what his obsession has cost.”</p><p>Yet the novel is about more than one mad captain. Melville asks what happens when a person — or a society — pursues a single goal at any price. <b>Nadia</b> drew a modern parallel: “Never before have we had so much power to change the world, and never before has it mattered so much how we use it.”</p><p>The whale itself remains a mystery. To some it is nature; to others, fate; to Ahab, pure evil. What is certain is this: had Ahab shown a little restraint, he would have lived. Seldom does a story warn us so clearly — and seldom do we listen.</p>",
+    "script": "This term our Grade 11 reading club has taken on a giant: Moby Dick by Herman Melville. It is the story of Captain Ahab, whose single obsession is to hunt and kill the white whale that once took his leg. Rarely has literature painted such a powerful portrait of obsession. Not only does Ahab risk his own life, but he also drags his entire crew towards disaster. Mateo put it well: only when it is far too late does Ahab understand what his obsession has cost. Yet the novel is about more than one mad captain. Nadia drew a modern parallel: never before have we had so much power to change the world. Seldom does a story warn us so clearly, and seldom do we listen.",
+    "questions": [
+     {
+      "q": "What is Captain Ahab obsessed with?",
+      "options": [
+       "hunting the white whale",
+       "finding buried treasure",
+       "returning safely home"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What does Ahab's obsession do to his crew?",
+      "options": [
+       "it drags them towards disaster",
+       "it makes them all rich",
+       "it saves their lives"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What did Nadia say?",
+      "options": [
+       "never before have we had so much power to change the world",
+       "the book is far too long",
+       "Ahab was completely right"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What does the whale mean, according to the text?",
+      "options": [
+       "different things to different people",
+       "only money and profit",
+       "nothing important at all"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What is the story's warning?",
+      "options": [
+       "obsession can destroy us",
+       "whales are dangerous animals",
+       "the sea is beautiful"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "grammar_box",
+   "title": "Grammar — Inversion",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "title": "Inversion after negative adverbials",
+    "intro": "In formal and literary English we can front a negative or limiting adverbial for emphasis. When we do, we invert the subject and the auxiliary, exactly as in a question.",
+    "examples": [
+     {
+      "text": "<b>Never before have</b> we faced such a challenge.",
+      "note": "never before + have we"
+     },
+     {
+      "text": "<b>Not only did</b> he fail, but he also lied.",
+      "note": "not only + did he"
+     },
+     {
+      "text": "<b>Rarely does</b> a story warn us so clearly.",
+      "note": "rarely + does"
+     },
+     {
+      "text": "<b>Only when</b> it was too late <b>did</b> he understand.",
+      "note": "only when + did"
+     }
+    ],
+    "rules": [
+     "Front a negative/limiting adverbial (never, rarely, seldom, not only, only when, no sooner) for emphasis.",
+     "Then invert: put the auxiliary before the subject — Never <b>have I</b> seen…",
+     "If there is no auxiliary, use do / does / did: Rarely <b>does he</b> speak."
+    ],
+    "practice": {
+     "instructions": "Choose the correct form.",
+     "items": [
+      {
+       "sentence": "Never before ___ such a storm.",
+       "options": [
+        "had we seen",
+        "we had seen",
+        "we saw"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "Not only ___ late, but he also forgot the tickets.",
+       "options": [
+        "was he",
+        "he was",
+        "he is"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "Rarely ___ a book move me so much.",
+       "options": [
+        "does",
+        "do",
+        "is"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "No sooner ___ we arrived than it started to rain.",
+       "options": [
+        "had",
+        "have",
+        "did"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "Only after the exam ___ how hard it was.",
+       "options": [
+        "did I realise",
+        "I realised",
+        "I did realise"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "code": "D",
+   "type": "key_transform",
+   "title": "Use of English Part 4 — key word transformations",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete the second sentence so that it means the same as the first. Use the KEY WORD. Write between two and five words.",
+    "items": [
+     {
+      "first": "I have never read such a long book.",
+      "key": "NEVER",
+      "second_start": "Never",
+      "second_end": "such a long book.",
+      "answers": [
+       "have I read"
+      ]
+     },
+     {
+      "first": "The film started as soon as we sat down.",
+      "key": "SOONER",
+      "second_start": "No sooner",
+      "second_end": "than the film started.",
+      "answers": [
+       "had we sat down"
+      ]
+     },
+     {
+      "first": "A story rarely warns us so clearly.",
+      "key": "RARELY",
+      "second_start": "Rarely",
+      "second_end": "us so clearly.",
+      "answers": [
+       "does a story warn"
+      ]
+     },
+     {
+      "first": "He only understood when it was too late.",
+      "key": "ONLY",
+      "second_start": "Only when it was too late",
+      "second_end": "the truth.",
+      "answers": [
+       "did he understand"
+      ]
+     },
+     {
+      "first": "He was late and he also forgot the tickets.",
+      "key": "ONLY",
+      "second_start": "Not only",
+      "second_end": "but he also forgot the tickets.",
+      "answers": [
+       "was he late"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "gap_text",
+   "title": "Use of English Part 2 — open cloze. Write ONE word in each gap.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "have",
+     "not",
+     "when",
+     "does",
+     "so",
+     "that"
+    ],
+    "text": "Never before {1} we seen such a thing. {2} only Ahab suffers; the whole crew does too. Only {3} it is too late does he understand. Rarely {4} a story warn us {5} clearly {6} everyone should read it.",
+    "answers": [
+     "have",
+     "Not",
+     "when",
+     "does",
+     "so",
+     "that"
+    ]
+   }
+  },
+  {
+   "code": "F",
+   "type": "listening",
+   "title": "Listening — the club plan. Write ONE word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "c1a/u01-f.mp3",
+   "data": {
+    "voice_note": "Voz: la profesora (Miss Vega), presentando la novela.",
+    "script": "Good morning, Grade 11. This term we're reading Moby Dick, Melville's masterpiece about obsession. Remember, Captain Ahab hunts the white whale that took his leg. Our theme is the danger of pursuing one goal at any price. For Thursday, prepare one sentence with inversion — for example, never before had a captain been so obsessed. Sofía will open the debate, and we'll link the novel to modern social issues. Bring your sharpest argument!",
+    "questions": [
+     {
+      "q": "This term the class is reading Moby …",
+      "answer": "Dick"
+     },
+     {
+      "q": "The novel is about the danger of …",
+      "answer": "obsession"
+     },
+     {
+      "q": "Captain Ahab hunts the white …",
+      "answer": "whale"
+     },
+     {
+      "q": "For Thursday, prepare one sentence with …",
+      "answer": "inversion"
+     },
+     {
+      "q": "… will open the debate.",
+      "answer": "Sofía"
+     }
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "pairwork",
+   "title": "Speaking — discuss a social issue. In pairs, then record it.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "In pairs, discuss a social issue, trying to use at least one inverted sentence for emphasis. Model: “Never before have young people had such a voice — but rarely is it truly heard.” 1) What is the most urgent issue for your generation? 2) Technology is useful, but how can it also be harmful? 3) What finally makes people change their habits? Give reasons and examples, then record your discussion."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write a short critical paragraph (10–12 sentences) about obsession in Moby Dick, or about a modern obsession (fame, phones, success). Use at least three inverted structures for emphasis (Never…, Not only…, Only when…). Capital letters and full stops!"
+  }
+ ],
+ "scope": {
+  "grado": "G11",
+  "temaN": 1,
+  "tema": "The Danger of Obsession — Inspiring Nordic",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Follow a literary discussion and note precise details (C1 Advanced Listening)."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Discuss abstract social issues, using inversion for emphasis (C1 Advanced Speaking)."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read a demanding literary-critical text and grasp its argument and tone (C1 Advanced Reading)."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write a critical paragraph using inverted structures for emphasis and effect."
+   },
+   {
+    "destreza": "Use of English",
+    "puede": "Inversion after negative adverbials; key word transformations (Part 4)."
+   }
+  ],
+  "vocabulario": [
+   "obsession",
+   "pursue",
+   "revenge",
+   "relentless",
+   "downfall",
+   "restraint"
+  ],
+  "gramatica": [
+   "Inversion after negative adverbials",
+   "Key word transformations"
+  ],
+  "pendiente": {}
+ },
+ "wordlist_extra": [
+  "ambition",
+  "society",
+  "consequence"
+ ]
+}
