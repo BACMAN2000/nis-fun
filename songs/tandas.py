@@ -47,6 +47,9 @@ for u in sorted(d['unidades'], key=lambda x: int(x)):
             'estilo': p.get('estilo', ''),
             'hecha': f'{u}-{tipo}' in hechas,
             'elegida': elegidas.get(f'{u}-{tipo}'),
+            # el curso busca EXACTAMENTE este nombre; renombrar mal es la unica
+            # forma de gastar una descarga y que la pantalla siga sin aparecer
+            'archivo': f'en-starters-{int(u):02d}-{tipo}.mp3',
         })
 
 def esc(s):
@@ -60,7 +63,9 @@ for i, p in enumerate(piezas):
     <b>U{p['unidad']} · {esc(p['tipo'])}</b>
     <span class="tit">{esc(p['titulo'])}</span>
     <span class="tema">{esc(p['tema'])} — {esc(p['gramatica'])}</span>
-    <code class="id">{esc((p['elegida'] or '')[:8])}</code></label>
+    <code class="id">{esc((p['elegida'] or '')[:8])}</code>
+    {('<a class="ir" target="_blank" rel="noopener" href="https://suno.com/song/' + p['elegida'] + '">abrir la toma elegida ↗</a>') if p['elegida'] else ''}
+    <code class="fich">{esc(p['archivo'])}</code></label>
   <div class="cajas">
     <div><h4>Lyrics <button class="cp" data-t="l{i}">copiar</button></h4>
       <pre id="l{i}">{esc(p['letra'])}</pre></div>
@@ -82,6 +87,9 @@ html = f'''<!doctype html><html lang="es"><head><meta charset="utf-8">
  .cab{{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap;cursor:pointer}}
  .tit{{font-weight:600}}
  .tema{{color:#64748b;font-size:12.5px}}
+ .ir{{font-size:12px;color:#1d4ed8;text-decoration:none;border-bottom:1px solid #bfdbfe}}
+ .ir:hover{{border-bottom-color:#1d4ed8}}
+ .fich{{font-size:11.5px;color:#7c3aed;background:#f3e8ff;padding:1px 6px;border-radius:5px}}
  .cajas{{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:8px}}
  @media(max-width:820px){{.cajas{{grid-template-columns:1fr}}}}
  h4{{margin:0 0 4px;font-size:12px;color:#5b6b8c;display:flex;gap:8px;align-items:center}}
