@@ -1,0 +1,415 @@
+{
+ "id": "ket-03",
+ "level": "ket",
+ "number": 3,
+ "title": "Keeping in touch",
+ "topic": "letters & emails",
+ "grammar": "Asking questions in the present simple · email writing",
+ "wordlist": [
+  "email",
+  "letter",
+  "message",
+  "address",
+  "envelope",
+  "stamp",
+  "reply",
+  "invite",
+  "news",
+  "friendly"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 1,
+  "skill": "short messages"
+ },
+ "characters": [
+  "nova"
+ ],
+ "scene": {
+  "speaker": "nova",
+  "bubble": "Read Liam's email to his new pen-friend, learn how to ask good questions, then write your own.",
+  "intro": "Part of the Inspiring Nordic project is meeting new people. This term every student has a pen-friend from another school. In this unit you read a real email from Liam to his pen-friend Sam, you learn how to ask good questions in the present simple, and you write a friendly email of your own. A good email tells about you and asks about the other person — so let's learn to keep in touch."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Vocabulary — match each word with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "envelope",
+      "right": "the paper cover you put a letter in"
+     },
+     {
+      "left": "stamp",
+      "right": "the small picture you buy and stick on a letter"
+     },
+     {
+      "left": "address",
+      "right": "the place where a person lives"
+     },
+     {
+      "left": "reply",
+      "right": "an answer to a message or letter"
+     },
+     {
+      "left": "invite",
+      "right": "to ask someone to come to an event"
+     },
+     {
+      "left": "news",
+      "right": "information about what has happened"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "reading",
+   "title": "Reading — an email to a pen-friend",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "kicker": "Pen-friend email",
+    "author": "liam",
+    "title": "Hi from Nordic!",
+    "byline": "an email from Liam to Sam",
+    "text": "<p>Hi Sam,</p><p>Thanks for your email — it's great to have a pen-friend! My name is <b>Liam</b> and I'm in Grade 6 at Nordic School in Peru.</p><p>I love sport, especially football. I play every day after school with my friends, and at the weekend I watch matches on TV with my cousin. I'm also in the reading club now. This term our class is reading <i>Charlie and the Chocolate Factory</i> — it's really funny, and Willy Wonka is my favourite character.</p><p>My family is quite big. I live with my mum, my dad, my two sisters and our dog, Rocky. My best friend, <b>Mateo</b>, lives next door, so we walk to school together.</p><p>What about you? What do you do in your free time? Do you have any pets? Please write back soon and tell me all about your school.</p><p>Best wishes,<br>Liam</p>",
+    "script": "Hi Sam, Thanks for your email — it's great to have a pen-friend! My name is Liam and I'm in Grade 6 at Nordic School in Peru. I love sport, especially football. I play every day after school with my friends, and at the weekend I watch matches on TV with my cousin. I'm also in the reading club now. This term our class is reading Charlie and the Chocolate Factory. It's really funny. My family is quite big. I live with my mum, my dad, my two sisters and our dog, Rocky. My best friend, Mateo, lives next door, so we walk to school together. What about you? What do you do in your free time? Please write back soon. Best wishes, Liam.",
+    "questions": [
+     {
+      "q": "Why is Liam writing to Sam?",
+      "options": [
+       "to reply to Sam's email",
+       "to invite Sam to Peru",
+       "to say goodbye"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "When does Liam play football?",
+      "options": [
+       "every day after school",
+       "only at the weekend",
+       "never"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "Which book is Liam's class reading?",
+      "options": [
+       "Charlie and the Chocolate Factory",
+       "Charlotte's Web",
+       "Matilda"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "Who is Liam's best friend?",
+      "options": [
+       "Mateo",
+       "Sam",
+       "Rocky"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What does Liam ask Sam?",
+      "options": [
+       "what he does in his free time",
+       "how old he is",
+       "where his house is"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "grammar_box",
+   "title": "Grammar — Asking questions",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "title": "Asking questions (present simple)",
+    "intro": "In an email to a new friend, we ask questions. In the present simple, we make questions with do and does.",
+    "examples": [
+     {
+      "text": "<b>What do</b> you do in your free time?",
+      "note": "do + you"
+     },
+     {
+      "text": "<b>Where does</b> your friend live?",
+      "note": "does + he / she"
+     },
+     {
+      "text": "<b>Do</b> you <b>like</b> football?",
+      "note": "yes / no question"
+     },
+     {
+      "text": "<b>What's</b> your favourite book?",
+      "note": "be: what is"
+     }
+    ],
+    "rules": [
+     "Make present simple questions with <b>do</b> (I / you / we / they) and <b>does</b> (he / she / it).",
+     "After <b>do / does</b>, use the base verb with no -s: Does he <b>play</b>? (not <i>plays</i>).",
+     "With <b>be</b>, put the verb first: <b>What's</b> your name? <b>Are</b> you from Peru?"
+    ],
+    "practice": {
+     "instructions": "Choose the correct word.",
+     "items": [
+      {
+       "sentence": "___ you like reading?",
+       "options": [
+        "Do",
+        "Does",
+        "Are"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "Where ___ your cousin live?",
+       "options": [
+        "does",
+        "do",
+        "is"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "What ___ your favourite hobby?",
+       "options": [
+        "is",
+        "do",
+        "does"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "Does Liam ___ football?",
+       "options": [
+        "play",
+        "plays",
+        "playing"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "___ your friends from many countries?",
+       "options": [
+        "Are",
+        "Do",
+        "Does"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "code": "D",
+   "type": "gap_text",
+   "title": "Vocabulary in context — complete the email.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "Dear",
+     "because",
+     "and",
+     "reading",
+     "weekend",
+     "wishes"
+    ],
+    "text": "{1} Nadia, Thank you for your letter! I am happy {2} you want to be my friend. I like football {3} music. This week our class is {4} a very funny book. At the {5} I play chess with my cousin. Please write back soon. Best {6}, Mateo",
+    "answers": [
+     "Dear",
+     "because",
+     "and",
+     "reading",
+     "weekend",
+     "wishes"
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "listening",
+   "title": "Listening — the class news. Write ONE word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "ket/u03-e.mp3",
+   "data": {
+    "voice_note": "Voz: la profesora (Miss Vega), presentando el proyecto de pen-friends.",
+    "script": "Hello, Grade 6! Here is some exciting news about our Inspiring Nordic project. This term, each of you has a new friend from another school. You are going to write a first email to say hello and describe your hobbies. Please send your email by Wednesday, and remember to write a friendly 'Dear' at the top and 'Best wishes' at the end. Your friend will reply next week. Have fun writing!",
+    "questions": [
+     {
+      "q": "Each student has a new … from another school.",
+      "answer": "friend"
+     },
+     {
+      "q": "You are going to write a first … to say hello.",
+      "answer": "email"
+     },
+     {
+      "q": "Please send your email by …",
+      "answer": "Wednesday"
+     },
+     {
+      "q": "Write a friendly 'Dear' at the …",
+      "answer": "top"
+     },
+     {
+      "q": "Your friend will … next week.",
+      "answer": "reply"
+     }
+    ]
+   }
+  },
+  {
+   "code": "F",
+   "type": "exam_task",
+   "title": "Exam task · Reading & Writing Part 1 — read the message. What does it mean?",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Read each message. Choose the correct answer A, B or C, like in the A2 Key for Schools exam.",
+    "items": [
+     {
+      "sentence": "Email from Sam: “Got your message! I'll write a long reply this weekend.”",
+      "options": [
+       "Sam will answer Liam soon.",
+       "Sam didn't get the message.",
+       "Sam wants to stop writing."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Note on the club board: “Reading club moves to the library from today.”",
+      "options": [
+       "The reading club has a new place.",
+       "The reading club is cancelled.",
+       "The reading club has a new book."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Text to Mateo: “Wait for me at the gate — we can walk to school together.”",
+      "options": [
+       "Mateo should wait at the gate.",
+       "Mateo should walk alone.",
+       "Mateo is late for school."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Sign: “Please put your letters in the blue box before 9 a.m.”",
+      "options": [
+       "Post your letters in the blue box in the morning.",
+       "The blue box is closed today.",
+       "Letters cost more after 9 a.m."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Message from Mum: “I've posted your pen-friend letter today.”",
+      "options": [
+       "Mum has sent the letter.",
+       "Mum forgot the letter.",
+       "Mum needs a stamp."
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "pairwork",
+   "title": "Speaking — meet a pen-friend. Role-play in pairs, then record it.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Role-play meeting a new pen-friend. Model: “Where do you study?” — “I study at Nordic School. What about you?”  Student A asks four questions: What's your name? Where do you study? What do you do in your free time? Do you have any pets? Student B answers in full sentences, then you swap. Record your best conversation."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write a friendly email (6–7 sentences) to a new pen-friend for the Inspiring Nordic project. Start with 'Dear ___,' and end with 'Best wishes'. Tell them your name and class, one hobby, the book your class is reading, and ask them two questions. Capital letters and full stops!"
+  }
+ ],
+ "scope": {
+  "grado": "G6",
+  "temaN": 3,
+  "tema": "Keeping in Touch — Inspiring Nordic",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Catch the key points of a class announcement about the pen-friend project (A2 Key Listening)."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Ask and answer present simple questions to meet a new friend (A2 Key Speaking Part 1)."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read an informal email and find the main idea and the details (A2 Key Reading)."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write a friendly email with 'Dear…' and 'Best wishes', telling about myself and asking questions."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "Asking questions with do / does and be; words for letters and emails."
+   }
+  ],
+  "vocabulario": [
+   "email",
+   "letter",
+   "message",
+   "stamp",
+   "reply",
+   "invite"
+  ],
+  "gramatica": [
+   "Questions in the present simple (do / does)",
+   "Questions with be"
+  ],
+  "pendiente": {}
+ },
+ "wordlist_extra": [
+  "pen-friend",
+  "hobby",
+  "describe"
+ ]
+}

@@ -1,0 +1,415 @@
+{
+ "id": "ket-02",
+ "level": "ket",
+ "number": 2,
+ "title": "My week so far",
+ "topic": "routines · present perfect",
+ "grammar": "Present perfect: ever, never, just, already, yet",
+ "wordlist": [
+  "routine",
+  "already",
+  "yet",
+  "just",
+  "breakfast",
+  "homework",
+  "tidy",
+  "busy",
+  "finish",
+  "still"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 5,
+  "skill": "open cloze"
+ },
+ "characters": [
+  "nova"
+ ],
+ "scene": {
+  "speaker": "nova",
+  "bubble": "Read Mateo's diary of a busy week, learn the present perfect, then tell us what you have done.",
+  "intro": "The Inspiring Nordic year has just started, and it is already full of things to do. In this unit you read Mateo's diary of the first week, you learn the present perfect — the tense we use to say what we have and haven't done — and you talk about your own week. Have you ever kept a diary? By the end of this lesson you will be able to say what you have already done and what you haven't finished yet. Let's begin."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Vocabulary — match each time word with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "already",
+      "right": "before now, sooner than you expected"
+     },
+     {
+      "left": "yet",
+      "right": "used in questions and negatives about up to now"
+     },
+     {
+      "left": "just",
+      "right": "a very short time ago"
+     },
+     {
+      "left": "ever",
+      "right": "at any time in your life"
+     },
+     {
+      "left": "never",
+      "right": "at no time in your life"
+     },
+     {
+      "left": "still",
+      "right": "continuing up to now"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "reading",
+   "title": "Reading — Mateo's diary",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "kicker": "Nordic School Blog",
+    "author": "mateo",
+    "title": "Our first week!",
+    "byline": "by Mateo",
+    "text": "<p>What a week! The Inspiring Nordic year has just started, and we are already very busy.</p><p>On Monday, our teacher put us in project groups. My group has already chosen its topic: local jobs in our town. I have never worked in a group like this before, and I love it.</p><p><b>Sofía</b> has finished the first chapters of <i>Charlotte's Web</i> — she reads every night! <b>Liam</b> hasn't started the reading yet, because he has football practice every day. <b>Nadia</b> has just made the first drawing for our poster, and it looks amazing.</p><p>I have done a lot this week too. I have tidied our project table, written my first notes and helped Liam with his homework. But I haven't chosen my job for the poster yet.</p><p>Have you had a busy week? What have you already done, and what haven't you finished yet? Write and tell us!</p>",
+    "script": "What a week! The Inspiring Nordic year has just started, and we are already very busy. On Monday, our teacher put us in project groups. My group has already chosen its topic: local jobs in our town. I have never worked in a group like this before, and I love it. Sofía has finished the first chapters of Charlotte's Web. She reads every night! Liam hasn't started the reading yet, because he has football practice every day. Nadia has just made the first drawing for our poster, and it looks amazing. I have done a lot this week too, but I haven't chosen my job for the poster yet.",
+    "questions": [
+     {
+      "q": "What has Mateo's group already chosen?",
+      "options": [
+       "its topic",
+       "its poster",
+       "its teacher"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "How often does Sofía read?",
+      "options": [
+       "every night",
+       "never",
+       "only at the weekend"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "Why hasn't Liam started the reading?",
+      "options": [
+       "He has football practice every day.",
+       "He doesn't like books.",
+       "He has lost the book."
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What has Nadia just made?",
+      "options": [
+       "the first drawing",
+       "the poster text",
+       "the timetable"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What hasn't Mateo done yet?",
+      "options": [
+       "chosen his job for the poster",
+       "tidied the project table",
+       "written his notes"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "grammar_box",
+   "title": "Grammar — Present perfect",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "title": "Present perfect",
+    "intro": "We use the present perfect for experiences and for recent actions when the exact time is not important. We form it with have / has + the past participle.",
+    "examples": [
+     {
+      "text": "I <b>have finished</b> my homework.",
+      "note": "have + finished"
+     },
+     {
+      "text": "Sofía <b>has read</b> three chapters.",
+      "note": "he / she / it → has"
+     },
+     {
+      "text": "Liam <b>hasn't started</b> the book <b>yet</b>.",
+      "note": "negative + yet"
+     },
+     {
+      "text": "<b>Have</b> you <b>ever</b> worked in a group?",
+      "note": "question + ever"
+     }
+    ],
+    "rules": [
+     "Form: <b>have / has</b> + past participle (finished, read, done, made…).",
+     "Use <b>already</b> and <b>just</b> in positive sentences; use <b>yet</b> in negatives and questions.",
+     "Use <b>ever</b> in questions and <b>never</b> in negatives to talk about experiences."
+    ],
+    "practice": {
+     "instructions": "Choose the correct answer.",
+     "items": [
+      {
+       "sentence": "Mateo ___ his notes.",
+       "options": [
+        "has written",
+        "have written",
+        "write"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "We ___ our topic already.",
+       "options": [
+        "have chosen",
+        "has chosen",
+        "choose"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "Liam ___ the book yet.",
+       "options": [
+        "hasn't started",
+        "haven't started",
+        "doesn't start"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "___ you ever won a game?",
+       "options": [
+        "Have",
+        "Has",
+        "Do"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "Nadia has ___ made the drawing.",
+       "options": [
+        "just",
+        "yet",
+        "ever"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "code": "D",
+   "type": "gap_text",
+   "title": "Vocabulary in context — complete Mateo's email to his grandma.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "have",
+     "because",
+     "already",
+     "yet",
+     "just",
+     "and"
+    ],
+    "text": "Hi Grandma! This week has been very busy. We {1} started our Inspiring Nordic project {2} I love it. I have {3} read three chapters of my book, but I haven't finished it {4}. My cousin has {5} arrived from Lima, {6} we are going to play chess this weekend. Write soon! Mateo",
+    "answers": [
+     "have",
+     "because",
+     "already",
+     "yet",
+     "just",
+     "and"
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "listening",
+   "title": "Listening — the class news. Write ONE word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "ket/u02-e.mp3",
+   "data": {
+    "voice_note": "Voz: la profesora (Miss Vega), tono animado de lunes.",
+    "script": "Good morning, Grade 6! What a busy start to the Inspiring Nordic year. We have already chosen our project groups, and most of you have finished the first chapter of your book. Well done! We haven't started the Trades posters yet, so bring your ideas on Friday. Sofía has just won the class chess game — congratulations, Sofía! And remember, your reading homework is due on Thursday. Have a great week!",
+    "questions": [
+     {
+      "q": "The class have already chosen their project …",
+      "answer": "groups"
+     },
+     {
+      "q": "Most students have finished the first …",
+      "answer": "chapter"
+     },
+     {
+      "q": "They haven't started the Trades … yet.",
+      "answer": "posters"
+     },
+     {
+      "q": "Sofía has just won the class … game.",
+      "answer": "chess"
+     },
+     {
+      "q": "The reading homework is due on …",
+      "answer": "Thursday"
+     }
+    ]
+   }
+  },
+  {
+   "code": "F",
+   "type": "exam_task",
+   "title": "Exam task · Reading & Writing — choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word to complete each sentence, like in the A2 Key for Schools exam.",
+    "items": [
+     {
+      "sentence": "I have ___ finished my homework, so now I can play.",
+      "options": [
+       "already",
+       "yet",
+       "never"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Have you ___ been to Lima?",
+      "options": [
+       "yet",
+       "ever",
+       "just"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "She hasn't tidied her room ___.",
+      "options": [
+       "already",
+       "just",
+       "yet"
+      ],
+      "answer": 2
+     },
+     {
+      "sentence": "We have ___ started the new project — only five minutes ago!",
+      "options": [
+       "just",
+       "never",
+       "yet"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "I have ___ played ice hockey. It looks difficult!",
+      "options": [
+       "already",
+       "never",
+       "yet"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "pairwork",
+   "title": "Speaking — talk about your week. In pairs, then record it.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Ask and answer with a partner, using the present perfect. Model: “What have you already done today?” — “I have already had breakfast and tidied my room.”  1) What have you already done today? 2) Have you ever read Charlotte's Web? 3) What haven't you finished yet this week? 4) Have you ever won a game? Tell your partner about it. 5) What have you just learned in this unit? Then record your best answers."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write a short diary entry (5–6 sentences) about your week for the Inspiring Nordic blog, using the present perfect: something you have already done, something you haven't done yet, something you have just finished, a place you have never been, and something you have done this week that made you happy. Capital letters and full stops!"
+  }
+ ],
+ "scope": {
+  "grado": "G6",
+  "temaN": 2,
+  "tema": "My Busy Week — Inspiring Nordic",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Catch the key points in the class news and write the missing word in each gap (A2 Key Listening)."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Talk about experiences and this week's activities using the present perfect (A2 Key Speaking)."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read a diary and understand what a person has and hasn't done this week (A2 Key Reading)."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write a short diary using the present perfect, with correct capital letters and full stops."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "Present perfect (have/has + past participle) with ever, never, just, already and yet; routine words."
+   }
+  ],
+  "vocabulario": [
+   "routine",
+   "breakfast",
+   "homework",
+   "busy",
+   "tidy",
+   "finish"
+  ],
+  "gramatica": [
+   "Present perfect (have/has + past participle)",
+   "ever, never, just, already, yet"
+  ],
+  "pendiente": {}
+ },
+ "wordlist_extra": [
+  "experience",
+  "chapter",
+  "project"
+ ]
+}

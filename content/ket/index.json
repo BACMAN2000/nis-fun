@@ -1,0 +1,18 @@
+{
+  "level": "ket",
+  "name": "Cambridge · KET · Grade 6",
+  "cast": "Grade 6 · Inspiring Nordic",
+  "color": "#6d5bd0",
+  "mascot": "nova",
+  "kids": ["mateo", "sofia", "liam", "nadia"],
+  "exam": "A2 Key for Schools",
+  "project": "Inspiring Nordic — Trades",
+  "units": [
+    { "n": 1, "title": "All about me", "topic": "school, family & hobbies" },
+    { "n": 2, "title": "My week so far", "topic": "routines · present perfect" },
+    { "n": 3, "title": "Keeping in touch", "topic": "letters & emails" },
+    { "n": 4, "title": "Rules and good advice", "topic": "modal verbs" },
+    { "n": 5, "title": "Telling the story", "topic": "narratives · adverbs" },
+    { "n": 6, "title": "Sharing what I know", "topic": "presentations & poems" }
+  ]
+}

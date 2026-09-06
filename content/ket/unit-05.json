@@ -1,0 +1,415 @@
+{
+ "id": "ket-05",
+ "level": "ket",
+ "number": 5,
+ "title": "Telling the story",
+ "topic": "narratives · adverbs",
+ "grammar": "Adverbs of manner (quickly, carefully, quietly)",
+ "wordlist": [
+  "story",
+  "character",
+  "beginning",
+  "ending",
+  "suddenly",
+  "slowly",
+  "carefully",
+  "quietly",
+  "happily",
+  "finally"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 7,
+  "skill": "story writing"
+ },
+ "characters": [
+  "nova"
+ ],
+ "scene": {
+  "speaker": "nova",
+  "bubble": "Read Sofía's story for story night, learn the adverbs that bring a story alive, then write your own.",
+  "intro": "The Inspiring Nordic year has a story night, and everyone tells a tale. In this unit you read a short story that Sofía wrote, you learn the adverbs of manner — the words that say HOW something happens — and then you write your own story. Good stories need good adverbs: the fox moves slowly, then suddenly it jumps! We are also reading Matilda, a girl who loves books just like you. Turn the page — it's story time."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Vocabulary — match each adverb with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Adverb",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "suddenly",
+      "right": "quickly and without warning"
+     },
+     {
+      "left": "slowly",
+      "right": "not fast, taking a long time"
+     },
+     {
+      "left": "carefully",
+      "right": "with a lot of attention"
+     },
+     {
+      "left": "quietly",
+      "right": "with little or no noise"
+     },
+     {
+      "left": "happily",
+      "right": "in a happy way"
+     },
+     {
+      "left": "finally",
+      "right": "at the end, after a long time"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "reading",
+   "title": "Reading — a story for story night",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "kicker": "Story Night",
+    "author": "sofia",
+    "title": "The book that opened by itself",
+    "byline": "a story by Sofía",
+    "text": "<p>It was late, and the school library was very quiet. Sofía walked in <b>slowly</b> to return her book. <b>Suddenly</b>, she heard a soft noise near the window.</p><p>She looked <b>carefully</b> between the shelves. There, on a small table, an old book was open — but nobody was there! Sofía's heart beat <b>quickly</b>. Was it a ghost, like in a story?</p><p>She walked closer and looked at the page. It was <i>Matilda</i>, her favourite book. Then she smiled: the window was open, and the wind was <b>gently</b> turning the pages.</p><p>Sofía closed the window <b>quietly</b> and picked up the book. She read the first page again, and <b>finally</b> she understood something. Books are a little like magic — they open new worlds, even on a windy night.</p><p>The next day, she told the story to her class, and everyone listened <b>happily</b>. It was the best story of the Inspiring Nordic story night.</p>",
+    "script": "It was late, and the school library was very quiet. Sofía walked in slowly to return her book. Suddenly, she heard a soft noise near the window. She looked carefully between the shelves. There, on a small table, an old book was open, but nobody was there! Sofía's heart beat quickly. Was it a ghost? She walked closer and looked at the page. It was Matilda, her favourite book. Then she smiled: the window was open, and the wind was gently turning the pages. Sofía closed the window quietly and finally understood something. Books are a little like magic. The next day, she told the story to her class, and everyone listened happily.",
+    "questions": [
+     {
+      "q": "Where does the story happen?",
+      "options": [
+       "in the school library",
+       "at Sofía's house",
+       "in the workshop"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "Why was the book moving?",
+      "options": [
+       "The wind was turning the pages.",
+       "A ghost was reading it.",
+       "Sofía pushed it."
+      ],
+      "answer": 0
+     },
+     {
+      "q": "Which book was open on the table?",
+      "options": [
+       "Matilda",
+       "Charlotte's Web",
+       "Charlie and the Chocolate Factory"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "How did Sofía feel when she first heard the noise?",
+      "options": [
+       "scared",
+       "bored",
+       "angry"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What did Sofía do the next day?",
+      "options": [
+       "She told the story to her class.",
+       "She lost the book.",
+       "She closed the library."
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "grammar_box",
+   "title": "Grammar — Adverbs of manner",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "title": "Adverbs of manner",
+    "intro": "Adverbs of manner tell us HOW we do something. We usually make them by adding -ly to an adjective.",
+    "examples": [
+     {
+      "text": "She walked <b>slowly</b>.",
+      "note": "slow → slowly"
+     },
+     {
+      "text": "He listened <b>carefully</b>.",
+      "note": "careful → carefully"
+     },
+     {
+      "text": "They ran <b>quickly</b>.",
+      "note": "quick → quickly"
+     },
+     {
+      "text": "<b>Suddenly</b>, the door opened.",
+      "note": "can start a sentence"
+     }
+    ],
+    "rules": [
+     "Make most adverbs of manner by adding <b>-ly</b> to the adjective: quiet → quiet<b>ly</b>, happy → happi<b>ly</b>.",
+     "Adverbs of manner usually go <b>after the verb</b> or after the object: She reads <b>quietly</b>.",
+     "Some words are irregular: good → <b>well</b>, fast → <b>fast</b>."
+    ],
+    "practice": {
+     "instructions": "Choose the correct adverb.",
+     "items": [
+      {
+       "sentence": "The turtle moved ___ across the garden.",
+       "options": [
+        "slowly",
+        "slow",
+        "more slow"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "Please close the door ___.",
+       "options": [
+        "quietly",
+        "quiet",
+        "quietness"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "Matilda reads ___ and remembers everything.",
+       "options": [
+        "carefully",
+        "careful",
+        "care"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "___, the rain started and we ran inside.",
+       "options": [
+        "Suddenly",
+        "Sudden",
+        "Suddenness"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "Liam plays football very ___.",
+       "options": [
+        "well",
+        "good",
+        "goodly"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "code": "D",
+   "type": "gap_text",
+   "title": "Vocabulary in context — complete the story.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "slowly",
+     "suddenly",
+     "carefully",
+     "quietly",
+     "finally",
+     "happily"
+    ],
+    "text": "Sofía walked {1} through the forest. Then she {2} heard a noise and looked {3} behind a tree. A tiny fox sat very {4} and looked at her. She smiled and, {5}, gave it some bread. The fox ate {6} and ran away.",
+    "answers": [
+     "slowly",
+     "suddenly",
+     "carefully",
+     "quietly",
+     "finally",
+     "happily"
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "listening",
+   "title": "Listening — the start of a story. Write ONE word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "ket/u05-e.mp3",
+   "data": {
+    "voice_note": "Voz: narrador tranquilo, tono de cuento.",
+    "script": "Listen to the start of Mateo's story for our Inspiring Nordic story night. One cold morning, a small girl called Mia walked slowly to school. Suddenly, she saw a little bird with a hurt wing on the ground. Carefully, she picked it up and put it in her warm hat. All day, the bird slept quietly. Finally, after school, Mia took it home and her family helped it get better. In the spring, the bird flew happily back to the trees.",
+    "questions": [
+     {
+      "q": "The girl in the story is called …",
+      "answer": "Mia"
+     },
+     {
+      "q": "Mia walked … to school.",
+      "answer": "slowly"
+     },
+     {
+      "q": "She found a bird with a hurt …",
+      "answer": "wing"
+     },
+     {
+      "q": "All day the bird slept …",
+      "answer": "quietly"
+     },
+     {
+      "q": "In the spring, the bird flew … away.",
+      "answer": "happily"
+     }
+    ]
+   }
+  },
+  {
+   "code": "F",
+   "type": "exam_task",
+   "title": "Exam task · Reading & Writing — choose the correct adverb.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct adverb to complete each sentence, like in the A2 Key for Schools exam.",
+    "items": [
+     {
+      "sentence": "The rain started ___, so we ran inside.",
+      "options": [
+       "suddenly",
+       "slowly",
+       "quietly"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Please close the door ___ — the baby is sleeping.",
+      "options": [
+       "quietly",
+       "loudly",
+       "quickly"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Matilda reads books ___ and remembers everything.",
+      "options": [
+       "carefully",
+       "angrily",
+       "badly"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "We waited a long time, and ___ the bus arrived.",
+      "options": [
+       "finally",
+       "never",
+       "already"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The turtle moved ___ across the garden.",
+      "options": [
+       "slowly",
+       "suddenly",
+       "happily"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "pairwork",
+   "title": "Speaking — tell a one-minute story. In pairs, then record it.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Prepare a one-minute story to tell your group, like a mini TED talk. Use at least four of these adverbs: suddenly, slowly, carefully, quietly, finally. Model: “One morning I walked slowly to school. Suddenly, I saw…” Your story can be true or invented. Then record your best telling."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write a short story (6–8 sentences) for our Inspiring Nordic story night. Use at least four adverbs (for example: slowly, suddenly, carefully, quietly, finally). Give your story a beginning, a middle and an end. Capital letters and full stops!"
+  }
+ ],
+ "scope": {
+  "grado": "G6",
+  "temaN": 5,
+  "tema": "Telling the Story — Inspiring Nordic",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Catch the key points of a short story and write the missing word in each gap (A2 Key Listening)."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Tell a short story out loud using adverbs of manner (mini TED talk)."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read a simple story and understand the events and feelings (A2 Key Reading)."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write a short story with a beginning, a middle and an end, using adverbs (A2 Key Writing Part 7)."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "Adverbs of manner (verb + -ly) and where to put them; story words."
+   }
+  ],
+  "vocabulario": [
+   "story",
+   "character",
+   "suddenly",
+   "slowly",
+   "carefully",
+   "finally"
+  ],
+  "gramatica": [
+   "Adverbs of manner (adjective + -ly)",
+   "Word order with adverbs"
+  ],
+  "pendiente": {}
+ },
+ "wordlist_extra": [
+  "narrative",
+  "beginning",
+  "ending"
+ ]
+}

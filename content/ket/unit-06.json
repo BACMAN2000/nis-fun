@@ -1,0 +1,415 @@
+{
+ "id": "ket-06",
+ "level": "ket",
+ "number": 6,
+ "title": "Sharing what I know",
+ "topic": "presentations & poems",
+ "grammar": "Connectors: and, but, because, so",
+ "wordlist": [
+  "presentation",
+  "poem",
+  "rhyme",
+  "audience",
+  "topic",
+  "opinion",
+  "reason",
+  "proud",
+  "share",
+  "clearly"
+ ],
+ "exam_focus": {
+  "paper": "Speaking",
+  "part": 2,
+  "skill": "talking with reasons"
+ },
+ "characters": [
+  "nova"
+ ],
+ "scene": {
+  "speaker": "nova",
+  "bubble": "Read about presentation day, learn to join your ideas with connectors, then share your own year.",
+  "intro": "This is the last unit of the year, and it is presentation day for the Inspiring Nordic project. In this unit you read Mateo's blog about the big day, you learn how to join your ideas with connectors — and, but, because and so — and you prepare your own short presentation. You have learned so much this year. Now it's time to be proud and share it. The stage is yours!"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Vocabulary — match each word with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "presentation",
+      "right": "when you talk about a topic in front of people"
+     },
+     {
+      "left": "poem",
+      "right": "a short text, often with rhyme, that shows feelings"
+     },
+     {
+      "left": "rhyme",
+      "right": "words that end with the same sound, like cat and hat"
+     },
+     {
+      "left": "audience",
+      "right": "the people who listen to you or watch you"
+     },
+     {
+      "left": "opinion",
+      "right": "what you think about something"
+     },
+     {
+      "left": "clearly",
+      "right": "in a way that is easy to understand"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "reading",
+   "title": "Reading — presentation day",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "kicker": "Nordic School Blog",
+    "author": "mateo",
+    "title": "Presentation day!",
+    "byline": "by Mateo",
+    "text": "<p>Today was presentation day for our Inspiring Nordic project, <b>and</b> it was the best day of the year!</p><p>Each group had three minutes to share its work. My group talked about local jobs in our town, <b>because</b> we think they are important. We were a little nervous, <b>but</b> we practised a lot, <b>so</b> in the end we spoke clearly.</p><p><b>Nadia</b> showed our poster, and everyone loved her drawings. <b>Sofía</b> read a short poem at the end, and the whole class listened quietly. <b>Liam</b> gave his opinion with a good reason: “I like this project because we learn about real life, not just books.”</p><p>When we finished, the audience clapped. Our teacher was very proud of us, and so were we. I have learned so much this year: I can read, write, listen, speak — and work in a team.</p><p>What about you? What are you most proud of this year? Tell us and share your best moment!</p>",
+    "script": "Today was presentation day for our Inspiring Nordic project, and it was the best day of the year! Each group had three minutes to share its work. My group talked about local jobs in our town, because we think they are important. We were a little nervous, but we practised a lot, so in the end we spoke clearly. Nadia showed our poster, and everyone loved her drawings. Sofía read a short poem at the end. Liam gave his opinion with a good reason: I like this project because we learn about real life, not just books. When we finished, the audience clapped. Our teacher was very proud of us, and so were we.",
+    "questions": [
+     {
+      "q": "What day was it?",
+      "options": [
+       "presentation day",
+       "the first day of school",
+       "story night"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What did Mateo's group talk about?",
+      "options": [
+       "local jobs in their town",
+       "football",
+       "the reading club"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "Why were they able to speak clearly?",
+      "options": [
+       "They practised a lot.",
+       "They read from a book.",
+       "The teacher spoke for them."
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What did Sofía do at the end?",
+      "options": [
+       "read a short poem",
+       "showed the poster",
+       "gave the rules"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "Why does Liam like the project?",
+      "options": [
+       "They learn about real life.",
+       "There is no homework.",
+       "It is very short."
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "grammar_box",
+   "title": "Grammar — Connectors",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "title": "Connectors: and, but, because, so",
+    "intro": "Connectors join ideas and make your speaking and writing flow. Each one has a different job.",
+    "examples": [
+     {
+      "text": "I like art <b>and</b> music.",
+      "note": "and = adds an idea"
+     },
+     {
+      "text": "It was hard, <b>but</b> fun.",
+      "note": "but = contrast"
+     },
+     {
+      "text": "I'm happy <b>because</b> we won.",
+      "note": "because = reason"
+     },
+     {
+      "text": "It rained, <b>so</b> we stayed inside.",
+      "note": "so = result"
+     }
+    ],
+    "rules": [
+     "<b>and</b> adds an idea; <b>but</b> shows a difference or a surprise.",
+     "<b>because</b> gives a reason (why); <b>so</b> gives a result (what happened next).",
+     "Use a comma before <b>but</b> and <b>so</b> in a long sentence."
+    ],
+    "practice": {
+     "instructions": "Choose the correct connector.",
+     "items": [
+      {
+       "sentence": "I like our project ___ it is about real jobs.",
+       "options": [
+        "because",
+        "but",
+        "or"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "Mateo is shy, ___ he spoke very clearly.",
+       "options": [
+        "but",
+        "because",
+        "so"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "We finished the poster, ___ we started the poem.",
+       "options": [
+        "so",
+        "but",
+        "because"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "I enjoy reading ___ writing stories.",
+       "options": [
+        "and",
+        "but",
+        "because"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "The talk was short ___ very interesting.",
+       "options": [
+        "but",
+        "so",
+        "because"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "code": "D",
+   "type": "gap_text",
+   "title": "Vocabulary in context — complete the mini-presentation.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "because",
+     "and",
+     "but",
+     "clearly",
+     "opinion",
+     "proud"
+    ],
+    "text": "Hello! Our project is about local jobs, {1} they are important for our town. We made a poster {2} a short poem. It was hard to speak in front of the class, {3} we practised a lot. Please speak {4} so everyone understands. In my {5}, teamwork is the best part. We are very {6} of our work!",
+    "answers": [
+     "because",
+     "and",
+     "but",
+     "clearly",
+     "opinion",
+     "proud"
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "listening",
+   "title": "Listening — the presentation-day plan. Write ONE word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "ket/u06-e.mp3",
+   "data": {
+    "voice_note": "Voz: la profesora (Miss Vega), tono de día especial.",
+    "script": "Good morning, Grade 6! Today is our Inspiring Nordic presentation day. Here is how it works. Each group has three minutes to share its project. Speak clearly and look at your audience. You can show one poster and read your short poem at the end. Remember to give your opinion and one reason. When you finish, the audience will clap. Good luck — we are all very proud of you!",
+    "questions": [
+     {
+      "q": "Each group has … minutes to share its project.",
+      "answer": "three"
+     },
+     {
+      "q": "Speak clearly and look at your …",
+      "answer": "audience"
+     },
+     {
+      "q": "You can show one …",
+      "answer": "poster"
+     },
+     {
+      "q": "Read your short … at the end.",
+      "answer": "poem"
+     },
+     {
+      "q": "Give your opinion and one …",
+      "answer": "reason"
+     }
+    ]
+   }
+  },
+  {
+   "code": "F",
+   "type": "exam_task",
+   "title": "Exam task · Reading & Writing — read the poem, then choose the answer.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "text": "<p><i>My Nordic Year</i><br>This year I learned to read and write,<br>to share my work and get it right.<br>I built, I spoke, I read a book,<br>I helped my friends, I gave, I took.<br>And now I stand up, proud and tall —<br>I am not shy at all!</p>",
+    "instructions": "Read the poem. Then choose the correct answer for each question, like in the exam.",
+    "items": [
+     {
+      "sentence": "What is the poem about?",
+      "options": [
+       "the writer's year at school",
+       "a holiday by the sea",
+       "a football match"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Which two words rhyme in the poem?",
+      "options": [
+       "write and right",
+       "read and speak",
+       "book and friend"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "How does the writer feel at the end?",
+      "options": [
+       "proud and confident",
+       "tired and sad",
+       "angry"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "What did the writer do this year?",
+      "options": [
+       "built things and read a book",
+       "travelled abroad",
+       "learned to swim"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "What has changed for the writer?",
+      "options": [
+       "They are not shy anymore.",
+       "They have moved to a new school.",
+       "They have stopped reading."
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "pairwork",
+   "title": "Speaking — give a mini-presentation. In pairs, then record it.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Give a one-minute mini-presentation about your Inspiring Nordic year, like a TED talk. Model: “This year I am proud of my project, because I learned to work in a team.” Say: one thing you have learned, one thing you are proud of, and your opinion about the project (with a reason using because). Look at your audience and speak clearly. Then record your presentation."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write a short paragraph (6–8 sentences) about your Inspiring Nordic year to read on presentation day. Say what you have learned, what you are proud of, and your opinion of the project — join your ideas with because, and, but and so. Capital letters and full stops!"
+  }
+ ],
+ "scope": {
+  "grado": "G6",
+  "temaN": 6,
+  "tema": "Sharing What I Know — Inspiring Nordic",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Catch the key points of the presentation-day plan and write the missing word in each gap (A2 Key Listening)."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Give a short presentation with an opinion and a reason (A2 Key Speaking Part 2)."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read a blog and a poem, notice rhyme and give a personal response (A2 Key Reading)."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write a short paragraph joining ideas with because, and, but and so, with correct punctuation."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "Connectors (and, but, because, so); words for presentations and poems."
+   }
+  ],
+  "vocabulario": [
+   "presentation",
+   "poem",
+   "rhyme",
+   "audience",
+   "opinion",
+   "proud"
+  ],
+  "gramatica": [
+   "Connectors: and, but, because, so"
+  ],
+  "pendiente": {}
+ },
+ "wordlist_extra": [
+  "reason",
+  "topic",
+  "share"
+ ]
+}

@@ -1,0 +1,414 @@
+{
+ "id": "ket-04",
+ "level": "ket",
+ "number": 4,
+ "title": "Rules and good advice",
+ "topic": "modal verbs · rules",
+ "grammar": "Modal verbs: can, must, mustn't, should, have to",
+ "wordlist": [
+  "rule",
+  "careful",
+  "quiet",
+  "safe",
+  "allowed",
+  "wear",
+  "helmet",
+  "polite",
+  "remember",
+  "litter"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 4,
+  "skill": "multiple-choice cloze"
+ },
+ "characters": [
+  "nova"
+ ],
+ "scene": {
+  "speaker": "nova",
+  "bubble": "Read about Nadia's first workshop, learn the modal verbs, then write the rules for your own team.",
+  "intro": "The Inspiring Nordic project has its first Trades workshop this week, and workshops need rules to keep everyone safe. In this unit you read about Nadia's first day in the workshop, you learn the modal verbs we use for rules and advice — must, mustn't, should, have to and can — and then you write the rules for your own team. Good rules don't stop the fun; they keep it safe. Let's get started."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Vocabulary — match each word with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "rule",
+      "right": "something you must or must not do"
+     },
+     {
+      "left": "careful",
+      "right": "paying attention so nothing bad happens"
+     },
+     {
+      "left": "quiet",
+      "right": "making little or no noise"
+     },
+     {
+      "left": "safe",
+      "right": "not in danger"
+     },
+     {
+      "left": "polite",
+      "right": "speaking and acting in a kind, respectful way"
+     },
+     {
+      "left": "litter",
+      "right": "rubbish that people leave on the ground"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "reading",
+   "title": "Reading — my first workshop",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "kicker": "Nordic School Blog",
+    "author": "nadia",
+    "title": "My first workshop",
+    "byline": "by Nadia",
+    "text": "<p>Today we had our first Trades workshop for the Inspiring Nordic project, and I was so excited — but also a little nervous. There are so many rules!</p><p>Before we started, our teacher explained them. You <b>must</b> wear safety glasses and closed shoes. You <b>mustn't</b> run near the machines, and you <b>mustn't</b> touch the tools without asking. You <b>should</b> always listen carefully and put your things away at the end.</p><p>At first the rules seemed difficult, but our teacher said something clever: “The rules are not here to stop the fun. They are here to keep the fun safe.” After that, I felt much braver.</p><p>I <b>can</b> tell you it was a great class. I built a small wooden box, I helped <b>Liam</b> with his, and I followed every rule. Next week we <b>have to</b> bring our own ideas for the poster. I can't wait!</p>",
+    "script": "Today we had our first Trades workshop for the Inspiring Nordic project, and I was so excited, but also a little nervous. There are so many rules! Before we started, our teacher explained them. You must wear safety glasses and closed shoes. You mustn't run near the machines, and you mustn't touch the tools without asking. You should always listen carefully. At first the rules seemed difficult, but our teacher said: the rules are not here to stop the fun, they are here to keep the fun safe. I built a small wooden box, I helped Liam with his, and I followed every rule. Next week we have to bring our own ideas for the poster.",
+    "questions": [
+     {
+      "q": "How did Nadia feel before the workshop?",
+      "options": [
+       "excited but a little nervous",
+       "angry",
+       "bored"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What must the students wear?",
+      "options": [
+       "safety glasses and closed shoes",
+       "gloves and a helmet",
+       "a special uniform"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What did the teacher say about the rules?",
+      "options": [
+       "They keep the fun safe.",
+       "They make the class boring.",
+       "They are not important."
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What did Nadia build?",
+      "options": [
+       "a small wooden box",
+       "a poster",
+       "a chess set"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What do the students have to bring next week?",
+      "options": [
+       "their own ideas for the poster",
+       "new tools",
+       "their lunch"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "grammar_box",
+   "title": "Grammar — Modal verbs",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "title": "Modal verbs: rules and advice",
+    "intro": "We use modal verbs to talk about rules, advice and ability. After a modal verb we use the base verb with no 'to'.",
+    "examples": [
+     {
+      "text": "You <b>must</b> wear glasses.",
+      "note": "a rule (necessary)"
+     },
+     {
+      "text": "You <b>mustn't</b> run.",
+      "note": "not allowed"
+     },
+     {
+      "text": "You <b>should</b> ask if you're not sure.",
+      "note": "advice"
+     },
+     {
+      "text": "We <b>have to</b> bring ideas.",
+      "note": "necessary (like must)"
+     }
+    ],
+    "rules": [
+     "<b>must</b> = it is necessary; <b>mustn't</b> = it is not allowed (prohibited).",
+     "<b>should</b> = it is a good idea (advice).",
+     "After a modal, use the base verb with no <i>to</i>: You should <b>ask</b> (not <i>to ask</i>). We say <b>have to</b> + verb."
+    ],
+    "practice": {
+     "instructions": "Choose the correct answer.",
+     "items": [
+      {
+       "sentence": "You ___ wear a helmet on a bike. It's the law.",
+       "options": [
+        "must",
+        "might",
+        "could"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "You ___ run in the lab. It's dangerous.",
+       "options": [
+        "mustn't",
+        "don't have to",
+        "should"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "You look tired. You ___ go to bed early.",
+       "options": [
+        "should",
+        "mustn't",
+        "can't"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "We ___ bring our own ideas next week.",
+       "options": [
+        "have to",
+        "are to",
+        "must to"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "It's Saturday, so we ___ get up early.",
+       "options": [
+        "don't have to",
+        "must",
+        "should"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "code": "D",
+   "type": "gap_text",
+   "title": "Vocabulary in context — complete the workshop rules.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "must",
+     "glasses",
+     "mustn't",
+     "should",
+     "careful",
+     "safe"
+    ],
+    "text": "Welcome to the workshop! Please read the rules. You {1} wear safety {2} at all times. You {3} run near the machines — it is dangerous. You {4} listen to the teacher and be {5} with the tools. If we follow the rules, everyone stays {6}.",
+    "answers": [
+     "must",
+     "glasses",
+     "mustn't",
+     "should",
+     "careful",
+     "safe"
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "listening",
+   "title": "Listening — the safety talk. Write ONE word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "ket/u04-e.mp3",
+   "data": {
+    "voice_note": "Voz: la profesora (Miss Vega), tono claro dando reglas.",
+    "script": "Good morning, Grade 6. Before our first Trades workshop, here are some important rules. You must wear closed shoes in the workshop, and you mustn't run near the machines. You should always listen to the teacher and put on safety glasses. You can ask questions at any time, but you have to keep your table tidy. If we follow these rules, everyone stays safe. Thank you!",
+    "questions": [
+     {
+      "q": "You must wear closed … in the workshop.",
+      "answer": "shoes"
+     },
+     {
+      "q": "You mustn't … near the machines.",
+      "answer": "run"
+     },
+     {
+      "q": "You should put on safety …",
+      "answer": "glasses"
+     },
+     {
+      "q": "You can ask … at any time.",
+      "answer": "questions"
+     },
+     {
+      "q": "You have to keep your table …",
+      "answer": "tidy"
+     }
+    ]
+   }
+  },
+  {
+   "code": "F",
+   "type": "exam_task",
+   "title": "Exam task · Reading & Writing Part 4 — choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct modal verb to complete each sentence, like in the A2 Key for Schools exam.",
+    "items": [
+     {
+      "sentence": "You ___ wear a helmet when you ride your bike. It's the law.",
+      "options": [
+       "must",
+       "might",
+       "could"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "You ___ run in the science lab. It's dangerous.",
+      "options": [
+       "mustn't",
+       "don't have to",
+       "should"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "You look tired. You ___ go to bed early tonight.",
+      "options": [
+       "should",
+       "mustn't",
+       "can't"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "You ___ be quiet in the library so people can read.",
+      "options": [
+       "have to",
+       "don't have to",
+       "couldn't"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "It's Saturday, so we ___ get up early. We can sleep!",
+      "options": [
+       "don't have to",
+       "must",
+       "should"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "pairwork",
+   "title": "Speaking — give the rules. In pairs, then record it.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "In pairs, give three rules for a place you know: your classroom, the library or your home. Use must, mustn't and should. Model: “In the library you must be quiet. You mustn't eat. You should return your books.” Then record your rules."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write five rules for your Inspiring Nordic Trades team. Use must, mustn't and should, for example: 'We must clean our table.' 'We mustn't shout.' 'We should help each other.' Capital letters and full stops!"
+  }
+ ],
+ "scope": {
+  "grado": "G6",
+  "temaN": 4,
+  "tema": "Rules and Good Advice — Inspiring Nordic",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Catch the key points of a safety talk and write the missing word in each gap (A2 Key Listening)."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Give rules and advice for a place using must, mustn't and should."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read a short blog post and understand the rules and how a person feels."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write a set of rules for my team with correct capital letters and full stops."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "Modal verbs (can, must, mustn't, should, have to); words about rules and safety."
+   }
+  ],
+  "vocabulario": [
+   "rule",
+   "careful",
+   "quiet",
+   "safe",
+   "polite",
+   "helmet"
+  ],
+  "gramatica": [
+   "Modal verbs: can, must, mustn't, should, have to"
+  ],
+  "pendiente": {}
+ },
+ "wordlist_extra": [
+  "workshop",
+  "safety",
+  "advice"
+ ]
+}

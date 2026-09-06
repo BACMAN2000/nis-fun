@@ -1,0 +1,415 @@
+{
+ "id": "ket-01",
+ "level": "ket",
+ "number": 1,
+ "title": "All about me",
+ "topic": "school, family & hobbies",
+ "grammar": "Present simple · subject pronouns",
+ "wordlist": [
+  "timetable",
+  "classmate",
+  "cousin",
+  "hobby",
+  "weekend",
+  "club",
+  "practise",
+  "favourite",
+  "together",
+  "describe"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Writing",
+  "part": 1,
+  "skill": "short messages"
+ },
+ "characters": [
+  "nova"
+ ],
+ "scene": {
+  "speaker": "nova",
+  "bubble": "New year, new class! Read our class blog, learn the present simple, then tell us all about you.",
+  "intro": "Welcome to Grade 6 and to the Inspiring Nordic year. In this first unit you get to know your class. You read the class blog, where Mateo, Sofía, Liam and Nadia introduce themselves, you learn how to talk about routines with the present simple, and then you write and say a few true things about you. This is how our project starts: before we build anything together, we find out who is in the room. Turn the page and meet Grade 6."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Vocabulary — school, family and hobbies. Match each word with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "classmate",
+      "right": "a person who is in the same class as you"
+     },
+     {
+      "left": "cousin",
+      "right": "the child of your aunt or uncle"
+     },
+     {
+      "left": "timetable",
+      "right": "a list that shows the time of each lesson"
+     },
+     {
+      "left": "hobby",
+      "right": "something you enjoy doing in your free time"
+     },
+     {
+      "left": "club",
+      "right": "a group that meets to do the same activity"
+     },
+     {
+      "left": "weekend",
+      "right": "Saturday and Sunday, when there is no school"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "reading",
+   "title": "Reading — the class blog",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "kicker": "Nordic School Blog",
+    "title": "Welcome to Grade 6!",
+    "byline": "by Miss Vega's class",
+    "text": "<p>Hello! We are the new Grade 6 class at Nordic School, and this year our big project is called <b>Inspiring Nordic — Trades</b>. Before we start, let us introduce ourselves.</p><p><b>Mateo</b> is twelve. He lives with his mum, his dad and his little brother. His favourite hobby is chess, and he plays every weekend with his cousin. He also loves building things, so he is very happy about the Trades project.</p><p><b>Sofía</b> is new this year. She is a little shy, but she loves books, and she has already joined the reading club. Right now the club is reading <i>Charlotte's Web</i>.</p><p><b>Liam</b> is eleven and full of energy. He plays football every day after school, and he has friends from many countries. His timetable is always busy!</p><p><b>Nadia</b> loves art and design. She draws in every free minute, and she wants to make the posters for our project.</p><p>We are all different, but we are one class. What about you? Tell us about your family, your classmates and your favourite hobby!</p>",
+    "script": "Hello! We are the new Grade 6 class at Nordic School, and this year our big project is called Inspiring Nordic, Trades. Before we start, let us introduce ourselves. Mateo is twelve. He lives with his mum, his dad and his little brother. His favourite hobby is chess, and he plays every weekend with his cousin. Sofía is new this year. She is a little shy, but she loves books, and she has already joined the reading club. Liam is eleven and full of energy. He plays football every day after school. Nadia loves art and design, and she wants to make the posters for our project. We are all different, but we are one class!",
+    "questions": [
+     {
+      "q": "What is the class project called?",
+      "options": [
+       "Inspiring Nordic — Trades",
+       "The Reading Club",
+       "Football for All"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "Who does Mateo play chess with?",
+      "options": [
+       "his cousin",
+       "his little brother",
+       "Liam"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "Which club has Sofía joined?",
+      "options": [
+       "the reading club",
+       "the chess club",
+       "the art club"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What does Liam do every day after school?",
+      "options": [
+       "plays football",
+       "reads Charlotte's Web",
+       "plays chess"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What does Nadia want to make for the project?",
+      "options": [
+       "the posters",
+       "the food",
+       "the timetable"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "grammar_box",
+   "title": "Grammar — Present simple",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "title": "Present simple",
+    "intro": "We use the present simple for routines, habits and facts — the things we do again and again.",
+    "examples": [
+     {
+      "text": "I <b>play</b> chess every weekend.",
+      "note": "I / you / we / they"
+     },
+     {
+      "text": "Liam <b>plays</b> football every day.",
+      "note": "he / she / it + -s"
+     },
+     {
+      "text": "Sofía <b>doesn't play</b> football.",
+      "note": "negative"
+     },
+     {
+      "text": "<b>Do</b> you <b>like</b> reading?",
+      "note": "question"
+     }
+    ],
+    "rules": [
+     "With <b>he / she / it</b>, add <b>-s</b> or <b>-es</b> to the verb: play → play<b>s</b>, watch → watch<b>es</b>.",
+     "Make the negative with <b>don't</b> (I / you / we / they) and <b>doesn't</b> (he / she / it).",
+     "Make questions with <b>do</b> and <b>does</b>: Do you…? / Does she…?"
+    ],
+    "practice": {
+     "instructions": "Choose the correct form of the verb.",
+     "items": [
+      {
+       "sentence": "Mateo ___ chess every weekend.",
+       "options": [
+        "plays",
+        "play",
+        "playing"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "My cousins ___ to school by bus.",
+       "options": [
+        "go",
+        "goes",
+        "going"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "Nadia ___ football. She prefers art.",
+       "options": [
+        "doesn't play",
+        "don't play",
+        "not play"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "___ you like reading?",
+       "options": [
+        "Do",
+        "Does",
+        "Are"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "Liam ___ his homework after football.",
+       "options": [
+        "does",
+        "do",
+        "doing"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "code": "D",
+   "type": "gap_text",
+   "title": "Vocabulary in context — complete Mateo's profile.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "and",
+     "on",
+     "because",
+     "favourite",
+     "together",
+     "weekend"
+    ],
+    "text": "Hi! I am Mateo, from Grade 6. I live with my mum, dad {1} my little brother. I go to the chess club {2} Saturday {3} it is my {4} hobby. My cousin comes too, and we play {5}. I really love the {6}!",
+    "answers": [
+     "and",
+     "on",
+     "because",
+     "favourite",
+     "together",
+     "weekend"
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "listening",
+   "title": "Listening — the first club announcement. Write ONE word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "ket/u01-e.mp3",
+   "data": {
+    "voice_note": "Voz: una profesora (Miss Vega), tono amable de bienvenida.",
+    "script": "Good morning, Grade 6, and welcome to the Inspiring Nordic year! Here is the news about our clubs. The chess club meets on Monday in Room 12. The art club is on Wednesday, and this year you can paint one big picture together. On Friday there is a new music club, so bring your favourite song. Remember, the club timetable is on the green door. Have a great weekend, and see you at your first club!",
+    "questions": [
+     {
+      "q": "The chess club meets on …",
+      "answer": "Monday"
+     },
+     {
+      "q": "The art club is on …",
+      "answer": "Wednesday"
+     },
+     {
+      "q": "At the music club, bring your favourite …",
+      "answer": "song"
+     },
+     {
+      "q": "The club timetable is on the … door.",
+      "answer": "green"
+     },
+     {
+      "q": "The teacher wishes the students a great …",
+      "answer": "weekend"
+     }
+    ]
+   }
+  },
+  {
+   "code": "F",
+   "type": "exam_task",
+   "title": "Exam task · Reading & Writing Part 1 — read the message. What does it mean?",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Read each message. Choose the correct answer A, B or C, like in the A2 Key for Schools exam.",
+    "items": [
+     {
+      "sentence": "Message from Miss Vega: “Chess club is now on TUESDAY, not Monday. Same room.”",
+      "options": [
+       "The chess club has a new day.",
+       "The chess club has a new room.",
+       "The chess club is closed this week."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Sign on the art room door: “Please clean your brushes before you leave.”",
+      "options": [
+       "You must bring your own brushes.",
+       "You must wash the brushes after class.",
+       "You cannot use the brushes today."
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Text to Sofía: “Don't forget to bring your book to the reading club tomorrow!”",
+      "options": [
+       "Sofía should buy a book.",
+       "Sofía can read in class today.",
+       "Sofía needs to take her book to the club."
+      ],
+      "answer": 2
+     },
+     {
+      "sentence": "Notice: “The club timetable is on the green door. Check your day and time.”",
+      "options": [
+       "Students can join any club they want.",
+       "Students can find their club day on the green door.",
+       "The clubs start next month."
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Message from Dad: “I can pick you up after chess club at 4.30.”",
+      "options": [
+       "Dad will take you home after the club.",
+       "Dad wants you to walk home.",
+       "Chess club starts at 4.30."
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "pairwork",
+   "title": "Speaking — introduce yourself. In pairs, then record it.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Ask and answer these questions about yourself, like in A2 Key Speaking Part 1. Use the present simple. Model: “What's your favourite hobby?” — “My favourite hobby is drawing. I draw every day.”  1) What is your name, and which class are you in? 2) Who is in your family? 3) What is your favourite hobby, and when do you do it? 4) What do you do at the weekend? 5) Which club would you like to join, and why? Give a reason with because. Then record your best answers."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write a short blog post (5–6 sentences) about yourself for our Inspiring Nordic class blog, like the one you read: your name and class, one person in your family, your favourite hobby and when you do it, your favourite weekend activity, and the club you want to join — say why with because. Use the present simple, capital letters and full stops!"
+  }
+ ],
+ "scope": {
+  "grado": "G6",
+  "temaN": 1,
+  "tema": "All About Me — Inspiring Nordic",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Catch key points in a short school announcement and fill in the missing words (A2 Key Listening)."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Give personal information and talk about a routine with reasons (A2 Key Speaking Part 1)."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read a class blog and understand the main idea and the details about each person (A2 Key Reading)."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write a short blog post about myself using the present simple, with correct capital letters and full stops."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "Present simple (routines, -s / don't / doesn't, do / does) and words for school, family and hobbies."
+   }
+  ],
+  "vocabulario": [
+   "timetable",
+   "classmate",
+   "cousin",
+   "hobby",
+   "club",
+   "weekend"
+  ],
+  "gramatica": [
+   "Present simple: -s with he/she/it, don't/doesn't, do/does",
+   "Subject pronouns"
+  ],
+  "pendiente": {}
+ },
+ "wordlist_extra": [
+  "opinion",
+  "reason",
+  "introduce",
+  "favourite"
+ ]
+}
