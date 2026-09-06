@@ -1333,7 +1333,7 @@ async function unit(){
   // "Choose the correct word" sin que nadie le hubiera ensenado la regla.
   // La caja la ensena en dibujos y sin nombrarla — a un nino de siete anos
   // la palabra "comparativo" no le dice nada.
-  const caja = LEVEL==='ket' ? null : MAGICBOX.para(UD);
+  const caja = ['starters','movers','flyers'].includes(LEVEL) ? MAGICBOX.para(UD) : null;
   let cajaPuesta = false;
 
   digital.forEach((a, k) => {
