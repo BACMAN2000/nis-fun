@@ -1,0 +1,415 @@
+{
+ "id": "b2f-05",
+ "level": "b2f",
+ "number": 5,
+ "title": "Making the case",
+ "topic": "persuasion & emphasis",
+ "grammar": "Formal suggestions and the subjunctive (I suggest that…, it's essential that…, it's important that he be…)",
+ "wordlist": [
+  "argument",
+  "persuade",
+  "essential",
+  "viewpoint",
+  "convincing",
+  "emphasis",
+  "opinion",
+  "evidence",
+  "conclusion",
+  "propose"
+ ],
+ "exam_focus": {
+  "paper": "Writing",
+  "part": 1,
+  "skill": "opinion essay"
+ },
+ "characters": [
+  "nova"
+ ],
+ "scene": {
+  "speaker": "nova",
+  "bubble": "Make your case! Learn to write a persuasive essay, use formal suggestions and the subjunctive, and win the argument.",
+  "intro": "Welcome to Unit 5. Now the project needs a voice on paper. In this unit you read how to plan a persuasive essay for the exam, you learn formal suggestions and the subjunctive (it is essential that schools teach…), and you prepare for the opinion essay in Writing Part 1. A strong opinion needs a strong structure — let's build one."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Vocabulary — argument and persuasion. Match each word with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "argument",
+      "right": "a set of reasons given to persuade others"
+     },
+     {
+      "left": "persuade",
+      "right": "to make someone agree by giving good reasons"
+     },
+     {
+      "left": "essential",
+      "right": "absolutely necessary"
+     },
+     {
+      "left": "viewpoint",
+      "right": "a particular way of thinking about something"
+     },
+     {
+      "left": "convincing",
+      "right": "able to make you believe something is true"
+     },
+     {
+      "left": "emphasis",
+      "right": "special importance given to something"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "reading",
+   "title": "Reading — making your case in the exam",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "kicker": "Writing Lab",
+    "title": "Making your case in the exam",
+    "author": "mateo",
+    "byline": "by Mateo",
+    "text": "<p>In the B2 First Writing paper, Part one always asks for an essay. You are given a question and two ideas, and you must argue clearly. For <i>Inspiring Nordic</i>, we turned this exam skill into a real one: writing to persuade our school to support the trades.</p><p><b>Mateo</b> — that's me — learned the hard way that opinions are not enough. A strong essay needs structure. It is essential that every paragraph <b>have</b> one clear idea, supported by a reason and an example. Examiners reward organisation.</p><p>Our teacher taught us the language of emphasis. Instead of “schools should teach repair skills”, we now write, “It is vital that schools <b>teach</b> practical skills.” The subjunctive sounds formal and confident. <b>Sofía</b> suggested that we also include a counter-argument, because acknowledging the other side makes you more convincing, not less.</p><p><b>Nadia</b> added a golden rule: always plan before you write. She recommends four paragraphs — an introduction, two body paragraphs and a conclusion. <b>Liam</b>, who used to write huge, messy answers, now sticks to the word limit.</p><p>What have we learned? A persuasive essay is not about big words; it is about clear thinking, honest reasons and a confident voice. Master that, and you can make your case — in the exam, and in the world.</p>",
+    "script": "In the B2 First Writing paper, Part one always asks for an essay. You are given a question and two ideas, and you must argue clearly. Mateo learned that opinions are not enough; a strong essay needs structure. It is essential that every paragraph have one clear idea, supported by a reason and an example. Our teacher taught us the language of emphasis. Instead of saying schools should teach repair skills, we now write, it is vital that schools teach practical skills. Sofía suggested that we include a counter-argument, because acknowledging the other side makes you more convincing. Nadia added a golden rule: always plan before you write.",
+    "questions": [
+     {
+      "q": "What does Writing Part one always ask for?",
+      "options": [
+       "an essay",
+       "a poem",
+       "a story"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What does a strong essay need?",
+      "options": [
+       "structure",
+       "long words",
+       "many colours"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What did Sofía suggest including?",
+      "options": [
+       "a counter-argument",
+       "a joke",
+       "a drawing"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What is Nadia's golden rule?",
+      "options": [
+       "always plan before you write",
+       "never plan",
+       "write as much as possible"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "According to the writer, a persuasive essay is about …",
+      "options": [
+       "clear thinking and honest reasons",
+       "using the biggest words",
+       "writing as fast as you can"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "grammar_box",
+   "title": "Grammar — Formal suggestions and the subjunctive",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "title": "Formal suggestions and the subjunctive",
+    "intro": "To sound formal and persuasive, we use the subjunctive after certain expressions. After 'it is essential/important/vital that' and verbs like 'suggest, recommend, propose', the verb stays in its base form for every subject.",
+    "examples": [
+     {
+      "text": "It is essential that every paragraph <b>have</b> one clear idea.",
+      "note": "base form, not 'has'"
+     },
+     {
+      "text": "It is important that he <b>be</b> on time.",
+      "note": "'be', not 'is'"
+     },
+     {
+      "text": "I suggest that she <b>include</b> a counter-argument.",
+      "note": "base form after 'suggest'"
+     },
+     {
+      "text": "We recommend that the school <b>support</b> the trades.",
+      "note": "formal register"
+     }
+    ],
+    "rules": [
+     "After <b>it is essential/important/vital that</b>, use the <b>base form</b> of the verb (he be, she have).",
+     "After <b>suggest, recommend, propose, insist that</b>, also use the base form.",
+     "The subjunctive does not change for the third person: <b>he be</b>, not 'he is'; <b>she have</b>, not 'she has'."
+    ],
+    "practice": {
+     "instructions": "Choose the correct form.",
+     "items": [
+      {
+       "sentence": "It is essential that everyone ___ on time.",
+       "options": [
+        "be",
+        "is",
+        "being"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "I suggest that she ___ a counter-argument.",
+       "options": [
+        "include",
+        "includes",
+        "including"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "It is vital that the school ___ practical skills.",
+       "options": [
+        "teach",
+        "teaches",
+        "teaching"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "We recommend that he ___ his plan first.",
+       "options": [
+        "write",
+        "writes",
+        "wrote"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "It is important that every paragraph ___ one clear idea.",
+       "options": [
+        "have",
+        "has",
+        "having"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "code": "D",
+   "type": "key_transform",
+   "title": "Use of English Part 4 — key word transformations",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete the second sentence so that it means the same as the first. Use the KEY WORD. Write between two and five words.",
+    "items": [
+     {
+      "first": "The teacher told us to plan before writing.",
+      "key": "RECOMMENDED",
+      "second_start": "The teacher",
+      "second_end": "before writing.",
+      "answers": [
+       "recommended that we plan"
+      ]
+     },
+     {
+      "first": "Students really must include a counter-argument.",
+      "key": "ESSENTIAL",
+      "second_start": "It is",
+      "second_end": "a counter-argument.",
+      "answers": [
+       "essential that students include"
+      ]
+     },
+     {
+      "first": "Sofía advised us to write a plan first.",
+      "key": "SUGGESTED",
+      "second_start": "Sofía",
+      "second_end": "a plan first.",
+      "answers": [
+       "suggested that we write"
+      ]
+     },
+     {
+      "first": "It is very important for him to be punctual.",
+      "key": "BE",
+      "second_start": "It is important that he",
+      "second_end": ".",
+      "answers": [
+       "be punctual"
+      ]
+     },
+     {
+      "first": "Our head teacher insists on shorter essays.",
+      "key": "INSISTS",
+      "second_start": "Our head teacher",
+      "second_end": "shorter essays.",
+      "answers": [
+       "insists that we write"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "gap_text",
+   "title": "Use of English Part 2 — open cloze. Write ONE word in each gap.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "if",
+     "what",
+     "in",
+     "which",
+     "that",
+     "with"
+    ],
+    "text": "A good essay is not difficult {1} you plan it well. First, decide {2} your opinion is, and write it clearly {3} the introduction. Each paragraph should have one idea {4} is supported by an example. It is essential {5} you also mention the other side. Finally, end {6} a strong conclusion.",
+    "answers": [
+     "if",
+     "what",
+     "in",
+     "which",
+     "that",
+     "with"
+    ]
+   }
+  },
+  {
+   "code": "F",
+   "type": "listening",
+   "title": "Listening — essay tips. Write ONE word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "b2f/u05-f.mp3",
+   "data": {
+    "voice_note": "Voz: la profesora (Miss Vega), con consejos para el ensayo del examen.",
+    "script": "Hello, Grade 10. Let's prepare for the Writing paper. In Part one you must write an essay of about one hundred and forty words. My first tip: always plan. It is essential that your essay have four paragraphs — an introduction, two main ideas, and a conclusion. Second, use formal language; avoid slang. Third, include a counter-argument to sound balanced. And remember to check your grammar at the end. Mateo will share his model essay on Wednesday. Write clearly, argue honestly, and your marks will improve.",
+    "questions": [
+     {
+      "q": "In Part one you write an essay of about one hundred and forty …",
+      "answer": "words"
+     },
+     {
+      "q": "My first tip: always …",
+      "answer": "plan"
+     },
+     {
+      "q": "It is essential that your essay have four …",
+      "answer": "paragraphs"
+     },
+     {
+      "q": "Include a counter-argument to sound …",
+      "answer": "balanced"
+     },
+     {
+      "q": "… will share his model essay on Wednesday.",
+      "answer": "Mateo"
+     }
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "pairwork",
+   "title": "Speaking — making a case. In pairs, then record it.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "In pairs, practise making a case. Model: “It is essential that our school support the trades, because these skills last a lifetime.” 1) Should schools spend more time on practical subjects? Give one reason for and one against. 2) Suggest, formally, one change your school should make (e.g. “I recommend that the school open a workshop.”). 3) What makes an argument convincing rather than just loud? Give reasons and examples, then record your discussion."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write a short opinion essay (about 120–150 words) answering: 'Should every student learn a practical trade?' Include an introduction, two reasons and a conclusion, and use at least three formal structures with the subjunctive (e.g. 'It is essential that schools teach…' / 'I recommend that students be…'). Capital letters and full stops!"
+  }
+ ],
+ "scope": {
+  "grado": "G10",
+  "temaN": 5,
+  "tema": "Making the Case — Inspiring Nordic",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Understand and note tips for an exam writing task (B2 First Listening)."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Present and defend an opinion using formal suggestions (B2 First Speaking)."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read advice about essay writing and identify key steps (B2 First Reading)."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write a structured opinion essay of about 140 words (B2 First Writing Part 1)."
+   },
+   {
+    "destreza": "Use of English",
+    "puede": "Formal suggestions and the subjunctive; essay register."
+   }
+  ],
+  "vocabulario": [
+   "argument",
+   "persuade",
+   "essential",
+   "viewpoint",
+   "convincing",
+   "emphasis"
+  ],
+  "gramatica": [
+   "Formal suggestions and the subjunctive",
+   "Opinion essay structure (Writing Part 1)"
+  ],
+  "pendiente": {}
+ },
+ "wordlist_extra": [
+  "paragraph",
+  "register",
+  "thesis"
+ ]
+}

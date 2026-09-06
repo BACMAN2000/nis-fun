@@ -1,0 +1,413 @@
+{
+ "id": "b2f-01",
+ "level": "b2f",
+ "number": 1,
+ "title": "If only...",
+ "topic": "mixed conditionals",
+ "grammar": "Mixed conditionals",
+ "wordlist": [
+  "circumstance",
+  "upbringing",
+  "deserve",
+  "overcome",
+  "privilege",
+  "injustice",
+  "resilience",
+  "fate",
+  "opportunity",
+  "consequence"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Use of English",
+  "part": 4,
+  "skill": "key word transformations"
+ },
+ "characters": [
+  "nova"
+ ],
+ "scene": {
+  "speaker": "nova",
+  "bubble": "Welcome to B2! We're reading Oliver Twist. Learn mixed conditionals — and master key word transformations.",
+  "intro": "Welcome to Grade 10 and to B2 First. This year the Inspiring Nordic project asks harder questions about society and fairness. In this unit you read what our club thinks about Dickens's Oliver Twist, you learn mixed conditionals to connect a past cause with a present result, and you practise the key word transformation task from the exam. How much does our past decide our present? Let's explore it."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Vocabulary — society and circumstance. Match each word with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "circumstance",
+      "right": "a fact or condition that affects a situation"
+     },
+     {
+      "left": "upbringing",
+      "right": "the way a child is raised by their family"
+     },
+     {
+      "left": "overcome",
+      "right": "to succeed in dealing with a difficulty"
+     },
+     {
+      "left": "injustice",
+      "right": "a situation that is unfair or wrong"
+     },
+     {
+      "left": "resilience",
+      "right": "the ability to recover from hard times"
+     },
+     {
+      "left": "privilege",
+      "right": "an advantage that only some people have"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "reading",
+   "title": "Reading — the reading club on Oliver Twist",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "kicker": "Reading Club",
+    "title": "Oliver Twist: the past in the present",
+    "author": "mateo",
+    "byline": "by Mateo",
+    "text": "<p>Our Grade 10 reading club has begun <i>Oliver Twist</i> by Charles Dickens, and it has started some serious conversations. Oliver is an orphan who grows up in poverty and cruelty, yet somehow stays gentle and honest.</p><p>The novel raises an uncomfortable question: how much does our past decide our present? If Oliver had been born into a rich family, he wouldn't be suffering now. If society cared more about poor children, thousands of Olivers wouldn't exist today. These are 'mixed conditionals' — a past cause with a present result.</p><p>In our discussion, <b>Nadia</b> argued that circumstances are powerful but not everything. “If Oliver were a weaker person,” she said, “he would have given up long ago.” <b>Liam</b> added that we shouldn't judge people without knowing their story: “If I had grown up like Oliver, I might not be so confident today.”</p><p>Dickens wrote the book to change minds. In his time, many people believed the poor deserved their poverty. He wanted readers to feel the injustice — and to act.</p><p>Almost two hundred years later, the question remains. If we understood each other's stories better, our world would be kinder. That is a conditional worth making real.</p>",
+    "script": "Our Grade 10 reading club has begun Oliver Twist by Charles Dickens. Oliver is an orphan who grows up in poverty and cruelty, yet somehow stays gentle and honest. The novel raises an uncomfortable question: how much does our past decide our present? If Oliver had been born into a rich family, he wouldn't be suffering now. In our discussion, Nadia argued that circumstances are powerful but not everything. If Oliver were a weaker person, she said, he would have given up long ago. Liam added that we shouldn't judge people without knowing their story. Dickens wrote the book to change minds. Almost two hundred years later, the question remains: if we understood each other's stories better, our world would be kinder.",
+    "questions": [
+     {
+      "q": "Who is Oliver?",
+      "options": [
+       "an orphan who grows up in poverty",
+       "a rich young lord",
+       "a cruel businessman"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What uncomfortable question does the novel raise?",
+      "options": [
+       "how much our past decides our present",
+       "how to become rich quickly",
+       "where to find the best food"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What did Nadia argue?",
+      "options": [
+       "circumstances are powerful but not everything",
+       "circumstances mean nothing at all",
+       "Oliver was simply very lucky"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "Why did Dickens write the book?",
+      "options": [
+       "to change minds about the poor",
+       "to make readers laugh",
+       "to describe London's buildings"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What is the writer's final point?",
+      "options": [
+       "understanding each other's stories would make the world kinder",
+       "the past should never be discussed",
+       "poverty is not a real problem"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "grammar_box",
+   "title": "Grammar — Mixed conditionals",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "title": "Mixed conditionals",
+    "intro": "A mixed conditional combines two time frames: usually a past condition with a present result, or a present condition with a past result.",
+    "examples": [
+     {
+      "text": "If Oliver <b>had been born</b> rich, he <b>wouldn't be</b> poor now.",
+      "note": "past → present"
+     },
+     {
+      "text": "If I <b>were</b> braver, I <b>would have said</b> something.",
+      "note": "present → past"
+     },
+     {
+      "text": "If they <b>had listened</b>, things <b>would be</b> different today.",
+      "note": "past → present"
+     }
+    ],
+    "rules": [
+     "Past cause → present result: If + <b>past perfect</b>, <b>would</b> + verb (now).",
+     "Present cause → past result: If + <b>past simple</b>, <b>would have</b> + participle.",
+     "Mixed conditionals are common when a past event still affects the present."
+    ],
+    "practice": {
+     "instructions": "Choose the correct form.",
+     "items": [
+      {
+       "sentence": "If she had studied medicine, she ___ a doctor now.",
+       "options": [
+        "would be",
+        "would have been",
+        "is"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "If I weren't so tired, I ___ to the party last night.",
+       "options": [
+        "would have gone",
+        "would go",
+        "went"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "If he had saved money, he ___ his own workshop today.",
+       "options": [
+        "would have",
+        "would have had",
+        "has"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "If we understood each other, there ___ fewer problems now.",
+       "options": [
+        "would be",
+        "would have been",
+        "are"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "If they had planned better, we ___ lost yesterday.",
+       "options": [
+        "wouldn't have",
+        "wouldn't",
+        "don't"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "code": "D",
+   "type": "key_transform",
+   "title": "Use of English Part 4 — key word transformations",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete the second sentence so that it means the same as the first. Use the KEY WORD. Write between two and five words.",
+    "items": [
+     {
+      "first": "Oliver is poor now because he was born into a poor family.",
+      "key": "BORN",
+      "second_start": "If Oliver",
+      "second_end": "into a rich family, he wouldn't be poor now.",
+      "answers": [
+       "had been born"
+      ]
+     },
+     {
+      "first": "I'm not brave, so I didn't speak yesterday.",
+      "key": "WERE",
+      "second_start": "If I",
+      "second_end": ", I would have spoken yesterday.",
+      "answers": [
+       "were brave",
+       "were braver"
+      ]
+     },
+     {
+      "first": "She didn't train, so she isn't fit now.",
+      "key": "TRAINED",
+      "second_start": "If she",
+      "second_end": ", she would be fit now.",
+      "answers": [
+       "had trained"
+      ]
+     },
+     {
+      "first": "They didn't listen, so we have this problem today.",
+      "key": "LISTENED",
+      "second_start": "If they",
+      "second_end": ", we wouldn't have this problem today.",
+      "answers": [
+       "had listened"
+      ]
+     },
+     {
+      "first": "I'm tired now because I went to bed very late.",
+      "key": "GONE",
+      "second_start": "If I",
+      "second_end": "to bed so late, I wouldn't be tired now.",
+      "answers": [
+       "hadn't gone",
+       "had not gone"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "gap_text",
+   "title": "Use of English Part 2 — open cloze. Write ONE word in each gap.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "if",
+     "had",
+     "been",
+     "cared",
+     "would",
+     "not"
+    ],
+    "text": "{1} people {2} understood the poor, history would have {3} kinder. Even now, if we {4} more, the world {5} be better — but too often we do {6}.",
+    "answers": [
+     "If",
+     "had",
+     "been",
+     "cared",
+     "would",
+     "not"
+    ]
+   }
+  },
+  {
+   "code": "F",
+   "type": "listening",
+   "title": "Listening — the club plan. Write ONE word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "b2f/u01-f.mp3",
+   "data": {
+    "voice_note": "Voz: la profesora (Miss Vega), presentando la novela.",
+    "script": "Good morning, Grade 10. This term we're reading Oliver Twist. Dickens wrote it to show the injustice of poverty. Remember our theme: how the past shapes the present. For Friday, prepare a mixed conditional about Oliver — for example, if he had been born rich, he wouldn't be suffering. Nadia will lead the debate, and we'll compare the book with the modern world. Bring your best argument!",
+    "questions": [
+     {
+      "q": "This term the class is reading Oliver …",
+      "answer": "Twist"
+     },
+     {
+      "q": "Dickens wrote it to show the injustice of …",
+      "answer": "poverty"
+     },
+     {
+      "q": "The theme is how the past shapes the …",
+      "answer": "present"
+     },
+     {
+      "q": "For Friday, prepare a mixed … about Oliver.",
+      "answer": "conditional"
+     },
+     {
+      "q": "… will lead the debate.",
+      "answer": "Nadia"
+     }
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "pairwork",
+   "title": "Speaking — discuss society. In pairs, then record it.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "In pairs, discuss using mixed conditionals. Model: “If I had grown up in another country, I would probably speak a different language now.” 1) How would your life be different now if you had been born somewhere else? 2) If schools taught one more subject, what should it be, and why? 3) If people understood each other's stories better, would the world really be kinder? Give reasons and examples, then record your discussion."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write an opinion paragraph (8–10 sentences) responding to Oliver Twist: does our past decide our present? Use at least three mixed conditionals (e.g. 'If society had cared more, fewer children would suffer today.'). Support your view with reasons. Capital letters and full stops!"
+  }
+ ],
+ "scope": {
+  "grado": "G10",
+  "temaN": 1,
+  "tema": "The Past in the Present — Inspiring Nordic",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Understand a discussion of social themes and note key details (B2 First Listening)."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Discuss society and fairness using mixed conditionals and giving reasons (B2 First Speaking)."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read a longer argumentative text and follow its ideas (B2 First Reading)."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write an opinion paragraph using mixed conditionals to link past and present."
+   },
+   {
+    "destreza": "Use of English",
+    "puede": "Mixed conditionals; key word transformations (Part 4) and open cloze (Part 2)."
+   }
+  ],
+  "vocabulario": [
+   "circumstance",
+   "upbringing",
+   "injustice",
+   "resilience",
+   "privilege",
+   "overcome"
+  ],
+  "gramatica": [
+   "Mixed conditionals (past cause → present result)",
+   "Key word transformations"
+  ],
+  "pendiente": {}
+ },
+ "wordlist_extra": [
+  "society",
+  "fairness",
+  "empathy"
+ ]
+}

@@ -1,0 +1,415 @@
+{
+ "id": "pet-11",
+ "level": "pet",
+ "number": 11,
+ "title": "Justice and voice",
+ "topic": "review · punctuation",
+ "grammar": "Punctuation for effect: dashes and commas",
+ "wordlist": [
+  "justice",
+  "fairness",
+  "prejudice",
+  "courage",
+  "defend",
+  "witness",
+  "jury",
+  "innocent",
+  "conscience",
+  "equality"
+ ],
+ "exam_focus": {
+  "paper": "Reading",
+  "part": 4,
+  "skill": "gapped text"
+ },
+ "characters": [
+  "nova"
+ ],
+ "scene": {
+  "speaker": "nova",
+  "bubble": "We're reading To Kill a Mockingbird. Review your grammar and learn to punctuate for effect.",
+  "intro": "Our reading club has reached To Kill a Mockingbird by Harper Lee, a novel about justice, fairness and speaking up for others. In this unit you read about a famous trial, you review the grammar of earlier units, and you learn to use dashes and commas for effect in your writing. A well-placed dash — like this one — can make a reader stop and think. Let's give your sentences a stronger voice."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Vocabulary — justice and fairness. Match each word with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "justice",
+      "right": "fair treatment and the system that decides what is right by law"
+     },
+     {
+      "left": "prejudice",
+      "right": "an unfair opinion about someone before you know them"
+     },
+     {
+      "left": "courage",
+      "right": "the ability to do something that frightens you"
+     },
+     {
+      "left": "witness",
+      "right": "a person who saw an event and describes it in court"
+     },
+     {
+      "left": "innocent",
+      "right": "not guilty of a crime"
+     },
+     {
+      "left": "conscience",
+      "right": "the inner feeling that tells you right from wrong"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "reading",
+   "title": "Reading — a trial and a brave choice",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "kicker": "Reading Club",
+    "title": "To Kill a Mockingbird: standing up for what is right",
+    "author": "mateo",
+    "byline": "by Mateo",
+    "text": "<p>This month our reading club is discussing <i>To Kill a Mockingbird</i> by Harper Lee. It is narrated by Scout, a curious young girl who watches her small town struggle with prejudice.</p><p>Her father, Atticus, is a lawyer — a calm, principled man — who agrees to defend an innocent person that most people have already judged. It is not a popular choice. Yet Atticus does it anyway, because his conscience will not let him look away.</p><p>The trial is the heart of the book. The evidence is clear, the witnesses contradict each other, and the truth seems obvious — but fairness does not win easily. <b>Nadia</b> was moved by one line: “Courage, real courage, is knowing you are beaten before you begin, and starting anyway.”</p><p>In our discussion, <b>Liam</b> made a simple point. “The book is not only about a trial,” he said. “It is about listening — really listening — to people who are different from us.”</p><p>Harper Lee teaches us that justice needs voices. When something is wrong, someone must stand up, speak clearly, and refuse to stay silent.</p>",
+    "script": "This month our reading club is discussing To Kill a Mockingbird by Harper Lee. It is narrated by Scout, a curious young girl who watches her small town struggle with prejudice. Her father, Atticus, is a lawyer, a calm and principled man, who agrees to defend an innocent person that most people have already judged. It is not a popular choice. Yet Atticus does it anyway, because his conscience will not let him look away. The trial is the heart of the book. The evidence is clear, the witnesses contradict each other, and the truth seems obvious, but fairness does not win easily. Nadia was moved by one line about real courage. In our discussion, Liam said the book is about listening to people who are different from us. Harper Lee teaches us that justice needs voices.",
+    "questions": [
+     {
+      "q": "Who narrates the novel?",
+      "options": [
+       "Scout, a curious young girl",
+       "Atticus, the lawyer",
+       "the judge of the town"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What does Atticus decide to do?",
+      "options": [
+       "leave the town quietly",
+       "defend an innocent person",
+       "refuse to go to court"
+      ],
+      "answer": 1
+     },
+     {
+      "q": "Why does Atticus take the case?",
+      "options": [
+       "because his conscience will not let him look away",
+       "because it will make him rich",
+       "because everyone tells him to"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What line moved Nadia?",
+      "options": [
+       "a line about a beautiful house",
+       "a line about winning money",
+       "a line about real courage"
+      ],
+      "answer": 2
+     },
+     {
+      "q": "What does the writer say justice needs?",
+      "options": [
+       "voices that stand up and speak",
+       "more silence in court",
+       "faster trials"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "grammar_box",
+   "title": "Grammar — Punctuation for effect",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "title": "Punctuation for effect: dashes and commas",
+    "intro": "Good writers use punctuation to control the reader's attention. A dash adds a dramatic pause or an extra idea; a pair of commas adds extra, non-essential information smoothly.",
+    "examples": [
+     {
+      "text": "Atticus defends Tom <b>—</b> a brave, unpopular choice.",
+      "note": "dash = dramatic pause"
+     },
+     {
+      "text": "Scout<b>,</b> curious as ever<b>,</b> watches everything.",
+      "note": "commas = extra info"
+     },
+     {
+      "text": "The truth was clear <b>—</b> yet the jury did not listen.",
+      "note": "dash before a surprise"
+     },
+     {
+      "text": "Courage<b>,</b> real courage<b>,</b> means standing alone.",
+      "note": "commas add emphasis"
+     }
+    ],
+    "rules": [
+     "Use a <b>dash</b> ( — ) to add a dramatic pause or an extra idea at the end of a sentence.",
+     "Use a <b>pair of commas</b> to add extra, non-essential information in the middle of a sentence.",
+     "Do not overuse dashes; one strong dash has more effect than many."
+    ],
+    "practice": {
+     "instructions": "Choose the best option to complete each sentence.",
+     "items": [
+      {
+       "sentence": "Atticus made his choice ___ he would defend an innocent man.",
+       "options": [
+        "—",
+        "?",
+        "!"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "Scout, ___ as ever, followed the whole trial.",
+       "options": [
+        "curious",
+        "curiously",
+        "curiosity"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "We use a pair of ___ to add extra, non-essential information.",
+       "options": [
+        "commas",
+        "capitals",
+        "numbers"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "Review: Justice ___ not always been served in the story.",
+       "options": [
+        "has",
+        "have",
+        "is"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "Review: During the trial an innocent man ___ being judged unfairly.",
+       "options": [
+        "was",
+        "has",
+        "does"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "code": "D",
+   "type": "gap_text",
+   "title": "Open cloze — review the novel. Write ONE word in each gap.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "is",
+     "has",
+     "been",
+     "might",
+     "had",
+     "as"
+    ],
+    "text": "In the novel, an innocent man {1} being judged by the whole town. The trial {2} been watched by curious children. Justice has not {3} done fairly here. Atticus knows the verdict {4} have been different. If people {5} really listened, the outcome would have changed. Real courage, {6} Atticus shows, means standing alone.",
+    "answers": [
+     "is",
+     "has",
+     "been",
+     "might",
+     "had",
+     "as"
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "listening",
+   "title": "Listening — the reading-club briefing. Write ONE word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "pet/u11-e.mp3",
+   "data": {
+    "voice_note": "Voz: la profesora (Miss Vega), presentando la novela y sus temas.",
+    "script": "Good morning, Grade 9. Today we discuss To Kill a Mockingbird by Harper Lee. The story is narrated by a young girl called Scout. Her father, Atticus, is a lawyer who defends an innocent man. The trial is unfair, and the verdict shocks the town. Mateo says the novel is really about courage and justice, and I agree completely. Notice how Harper Lee uses simple words to show deep ideas. For Thursday, choose one moment that shows real bravery. Read closely, and always think about fairness.",
+    "questions": [
+     {
+      "q": "The story is narrated by a young girl called …",
+      "answer": "Scout"
+     },
+     {
+      "q": "Atticus is a lawyer who defends an innocent …",
+      "answer": "man"
+     },
+     {
+      "q": "… says the novel is about courage and justice.",
+      "answer": "Mateo"
+     },
+     {
+      "q": "For Thursday, choose one moment that shows real …",
+      "answer": "bravery"
+     },
+     {
+      "q": "The novel is written by Harper …",
+      "answer": "Lee"
+     }
+    ]
+   }
+  },
+  {
+   "code": "F",
+   "type": "exam_task",
+   "title": "Exam task · B1 Reading & Grammar — review and punctuation.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct answer to complete each sentence, like in the B1 Preliminary exam.",
+    "items": [
+     {
+      "sentence": "The truth was obvious ___ but the jury refused to see it.",
+      "options": [
+       "—",
+       ".",
+       "?"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Scout, ___ as ever, asked her father difficult questions.",
+      "options": [
+       "brave",
+       "bravely",
+       "bravery"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "An innocent person ___ being defended by Atticus at that time.",
+      "options": [
+       "was",
+       "has",
+       "does"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Justice ___ been discussed in every reading-club meeting.",
+      "options": [
+       "has",
+       "have",
+       "is"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "If people had listened, the result ___ have been fairer.",
+      "options": [
+       "might",
+       "must",
+       "can't"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "pairwork",
+   "title": "Speaking — justice and voice. In pairs, then record it.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "In pairs, talk about justice, fairness and speaking up. Model: “When is it important to speak up?” — “It is important to speak up when someone is treated unfairly, even if it is hard.” 1) Why does Atticus defend an innocent man? 2) Is it easy to be brave when others disagree? 3) When have you seen someone stand up for what is right? 4) How can students make their school fairer? Then record your best answers."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write 6–8 sentences about justice, fairness or a brave choice in To Kill a Mockingbird. Use at least one dash and one pair of commas for effect, for example: 'Courage, real courage, means standing alone' and 'The truth was clear — yet nobody listened'. Capital letters and full stops!"
+  }
+ ],
+ "scope": {
+  "grado": "G9",
+  "temaN": 5,
+  "tema": "Justice and voice — Inspiring Nordic",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Understand a briefing about a novel and note key details (B1 Preliminary Listening)."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Discuss justice, fairness and speaking up for others (B1 Speaking)."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read about a trial and follow how ideas connect in a gapped text (B1 Reading)."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Use dashes and commas for effect and review earlier grammar in writing."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "Punctuation for effect (dashes and commas); review of passives and modals; vocabulary of justice and fairness."
+   }
+  ],
+  "vocabulario": [
+   "justice",
+   "prejudice",
+   "courage",
+   "witness",
+   "innocent",
+   "conscience"
+  ],
+  "gramatica": [
+   "Punctuation for effect: dashes and commas",
+   "Review: passives and past modals"
+  ],
+  "pendiente": {}
+ },
+ "wordlist_extra": [
+  "verdict",
+  "trial",
+  "bravery"
+ ]
+}

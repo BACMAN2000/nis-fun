@@ -1,0 +1,415 @@
+{
+ "id": "pet-08",
+ "level": "pet",
+ "number": 8,
+ "title": "A world in progress",
+ "topic": "passive continuous",
+ "grammar": "Present & past continuous passive (is/was being done)",
+ "wordlist": [
+  "renovate",
+  "install",
+  "scaffolding",
+  "timber",
+  "blueprint",
+  "measure",
+  "construction",
+  "progress",
+  "upgrade",
+  "workshop"
+ ],
+ "exam_focus": {
+  "paper": "Reading",
+  "part": 5,
+  "skill": "multiple-choice cloze"
+ },
+ "characters": [
+  "nova"
+ ],
+ "scene": {
+  "speaker": "nova",
+  "bubble": "Our workshop is being renovated right now! Learn the continuous passive to describe changes in progress.",
+  "intro": "For our Inspiring Nordic — Trades project, the Grade 9 workshop is being renovated this term. In this unit you read how the room is being changed, you learn the present and past continuous passive to describe actions in progress, and you talk about what is being built or improved around you. If a new sports centre is being built near your home, how would you say it? Let's find out."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Vocabulary — building and renovation. Match each word with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "renovate",
+      "right": "to repair and improve an old building or room"
+     },
+     {
+      "left": "install",
+      "right": "to put a piece of equipment somewhere so it is ready to use"
+     },
+     {
+      "left": "scaffolding",
+      "right": "the metal frame that workers stand on to reach high places"
+     },
+     {
+      "left": "blueprint",
+      "right": "a detailed plan or drawing of a building"
+     },
+     {
+      "left": "measure",
+      "right": "to find the size or amount of something"
+     },
+     {
+      "left": "upgrade",
+      "right": "to change something so it is more modern or better"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "reading",
+   "title": "Reading — the workshop is being rebuilt",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "kicker": "Trades Project",
+    "title": "Inside the workshop that is being rebuilt",
+    "author": "liam",
+    "byline": "by Liam",
+    "text": "<p>Walk past the old technology room this month and you will hear drills, hammers and laughter. As part of <i>Inspiring Nordic — Trades</i>, our school workshop <b>is being renovated</b> by Grade 9 and a friendly local team.</p><p>Right now, new workbenches <b>are being installed</b> along the walls, and brighter lights <b>are being fitted</b> in the ceiling. When I visited on Monday, the floor <b>was being replaced</b> with strong, non-slip tiles. At the same time, the tool cupboards <b>were being painted</b> a cheerful blue.</p><p><b>Mateo</b> is proud of the progress. “Every corner is being improved,” he told me. “Even the old sink is being repaired.” <b>Nadia</b> added that safety posters are being designed by the art class, so nobody forgets the rules.</p><p>The best part? Students are doing much of the work themselves. Skills like measuring, drilling and painting are being learned in real conditions, not just from a book. A short film <b>is being made</b> too, so families can see how the room was changed.</p><p>By next term, a modern, safe workshop will be ready — and we can honestly say it was built by us.</p>",
+    "script": "Walk past the old technology room this month and you will hear drills, hammers and laughter. As part of Inspiring Nordic Trades, our school workshop is being renovated by Grade 9 and a friendly local team. Right now, new workbenches are being installed along the walls, and brighter lights are being fitted in the ceiling. When I visited on Monday, the floor was being replaced with strong tiles. Mateo is proud of the progress. Every corner is being improved, he told me. Nadia added that safety posters are being designed by the art class. Students are doing much of the work themselves. Skills like measuring, drilling and painting are being learned in real conditions. By next term, a modern, safe workshop will be ready, and we can honestly say it was built by us.",
+    "questions": [
+     {
+      "q": "What is happening to the school workshop this month?",
+      "options": [
+       "It is being renovated.",
+       "It is being sold.",
+       "It is being closed forever."
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What are being installed along the walls?",
+      "options": [
+       "old computers",
+       "new workbenches",
+       "glass windows"
+      ],
+      "answer": 1
+     },
+     {
+      "q": "What was being replaced when Liam visited on Monday?",
+      "options": [
+       "the floor",
+       "the roof",
+       "the door"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "Who is designing the safety posters?",
+      "options": [
+       "a TV company",
+       "the head teacher",
+       "the art class"
+      ],
+      "answer": 2
+     },
+     {
+      "q": "Who is doing much of the work?",
+      "options": [
+       "the students themselves",
+       "only professional builders",
+       "workers from another school"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "grammar_box",
+   "title": "Grammar — Continuous passive",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "title": "Present & past continuous passive",
+    "intro": "We use the continuous passive to describe an action in progress when we care more about the thing than the person doing it. It is common on building sites and in project reports.",
+    "examples": [
+     {
+      "text": "The workshop <b>is being renovated</b> this month.",
+      "note": "present: happening now"
+     },
+     {
+      "text": "New benches <b>are being installed</b> today.",
+      "note": "present, plural subject"
+     },
+     {
+      "text": "Yesterday the floor <b>was being replaced</b>.",
+      "note": "past: in progress then"
+     },
+     {
+      "text": "The walls <b>were being painted</b> when we arrived.",
+      "note": "past, plural subject"
+     }
+    ],
+    "rules": [
+     "Present form: <b>am/is/are + being + past participle</b> (The room is being cleaned).",
+     "Past form: <b>was/were + being + past participle</b> (The room was being cleaned).",
+     "Use it for an action in progress; the subject receives the action, not does it."
+    ],
+    "practice": {
+     "instructions": "Choose the correct form.",
+     "items": [
+      {
+       "sentence": "Right now the workshop ___ being renovated.",
+       "options": [
+        "is",
+        "has",
+        "does"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "New tools ___ being installed this week.",
+       "options": [
+        "is",
+        "are",
+        "was"
+       ],
+       "answer": 1
+      },
+      {
+       "sentence": "Yesterday the floor ___ being replaced.",
+       "options": [
+        "was",
+        "is",
+        "are"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "Last term the walls ___ being painted.",
+       "options": [
+        "were",
+        "is",
+        "has"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "Look! A new sign ___ being made right now.",
+       "options": [
+        "is",
+        "were",
+        "have"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "code": "D",
+   "type": "gap_text",
+   "title": "Open cloze — complete the site report. Write ONE word in each gap.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "is",
+     "being",
+     "was",
+     "were",
+     "being",
+     "done"
+    ],
+    "text": "At the moment the workshop {1} being renovated. New benches are {2} installed today. Yesterday the floor {3} being replaced. The old walls {4} being painted last week. A modern sign is {5} designed right now. All this work is being {6} by Grade 9 students.",
+    "answers": [
+     "is",
+     "being",
+     "was",
+     "were",
+     "being",
+     "done"
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "listening",
+   "title": "Listening — the project update. Write ONE word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "pet/u08-e.mp3",
+   "data": {
+    "voice_note": "Voz: la profesora (Miss Vega), dando el parte de obra del taller.",
+    "script": "Good morning, Grade 9. Let me update you on our Trades project. Right now the workshop is being renovated for the Inspiring Nordic exhibition. New benches are being installed this week, and the old walls are being painted a fresh white. While we were away, the floor was being replaced by a local team. Liam is being trained to use the new drill safely. Remember, safety goggles are being provided for everyone. Next Monday the finished room is being opened. Bring your notebooks and your best ideas!",
+    "questions": [
+     {
+      "q": "Right now the workshop is being …",
+      "answer": "renovated"
+     },
+     {
+      "q": "New benches are being … this week.",
+      "answer": "installed"
+     },
+     {
+      "q": "The old walls are being painted a fresh …",
+      "answer": "white"
+     },
+     {
+      "q": "… is being trained to use the new drill.",
+      "answer": "Liam"
+     },
+     {
+      "q": "Safety goggles are being … for everyone.",
+      "answer": "provided"
+     }
+    ]
+   }
+  },
+  {
+   "code": "F",
+   "type": "exam_task",
+   "title": "Exam task · B1 Reading Part 5 — multiple-choice cloze.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word for each gap, like in the B1 Preliminary multiple-choice cloze.",
+    "items": [
+     {
+      "sentence": "At the moment the library ___ being modernised.",
+      "options": [
+       "is",
+       "has",
+       "does"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Two classrooms ___ being repainted this week.",
+      "options": [
+       "is",
+       "are",
+       "was"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "When we arrived, lunch ___ being prepared in the kitchen.",
+      "options": [
+       "was",
+       "is",
+       "are"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "New computers are ___ set up in the lab right now.",
+      "options": [
+       "being",
+       "been",
+       "be"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Be careful — the wet floor ___ being cleaned.",
+      "options": [
+       "is",
+       "are",
+       "were"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "pairwork",
+   "title": "Speaking — changes in progress. In pairs, then record it.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "In pairs, describe what is being changed in your school or town right now. Model: “What is being built near your home?” — “A new sports centre is being built, and the road is being repaired.” 1) What is being improved in your classroom this year? 2) What was being built in your town last summer? 3) In the workshop, which jobs are being done by students? 4) What new skill is being learned by your group? Then record your best answers."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write 6–8 sentences about a place that is being changed (your school, a park or a building). Use the present and past continuous passive at least four times, for example: 'The workshop is being renovated' and 'The floor was being replaced'. Capital letters and full stops!"
+  }
+ ],
+ "scope": {
+  "grado": "G9",
+  "temaN": 2,
+  "tema": "A world in progress — Inspiring Nordic",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Understand a project update about work in progress and note key details (B1 Preliminary Listening)."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Describe changes happening now using the continuous passive (B1 Speaking)."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read a project article and follow actions in progress (B1 Reading, multiple-choice cloze)."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Describe a place being changed using continuous passive forms."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "Present and past continuous passive (is/was being done); vocabulary of building and renovation."
+   }
+  ],
+  "vocabulario": [
+   "renovate",
+   "install",
+   "scaffolding",
+   "blueprint",
+   "measure",
+   "upgrade"
+  ],
+  "gramatica": [
+   "Present continuous passive (is/are being done)",
+   "Past continuous passive (was/were being done)"
+  ],
+  "pendiente": {}
+ },
+ "wordlist_extra": [
+  "welding",
+  "carpentry",
+  "toolkit"
+ ]
+}

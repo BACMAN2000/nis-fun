@@ -1,18 +1,77 @@
 {
   "level": "pet",
-  "name": "Cambridge · PET · Grade 8",
-  "cast": "Grade 8 · Inspiring Nordic",
+  "name": "Cambridge · PET · Grades 8-9",
+  "cast": "Grades 8-9 · Inspiring Nordic",
   "color": "#0e7490",
   "mascot": "nova",
-  "kids": ["mateo", "sofia", "liam", "nadia"],
+  "kids": [
+    "mateo",
+    "sofia",
+    "liam",
+    "nadia"
+  ],
   "exam": "B1 Preliminary for Schools",
   "project": "Inspiring Nordic — Trades",
   "units": [
-    { "n": 1, "title": "Choices and consequences", "topic": "conditionals" },
-    { "n": 2, "title": "How it's made", "topic": "the passive" },
-    { "n": 3, "title": "What people say", "topic": "reported speech" },
-    { "n": 4, "title": "The power of words", "topic": "word formation" },
-    { "n": 5, "title": "The future of work", "topic": "future forms" },
-    { "n": 6, "title": "Our project, our voice", "topic": "presenting & connectors" }
+    {
+      "n": 1,
+      "title": "Choices and consequences",
+      "topic": "conditionals"
+    },
+    {
+      "n": 2,
+      "title": "How it's made",
+      "topic": "the passive"
+    },
+    {
+      "n": 3,
+      "title": "What people say",
+      "topic": "reported speech"
+    },
+    {
+      "n": 4,
+      "title": "The power of words",
+      "topic": "word formation"
+    },
+    {
+      "n": 5,
+      "title": "The future of work",
+      "topic": "future forms"
+    },
+    {
+      "n": 6,
+      "title": "Our project, our voice",
+      "topic": "presenting & connectors"
+    },
+    {
+      "n": 7,
+      "title": "What if things were different?",
+      "topic": "third conditional"
+    },
+    {
+      "n": 8,
+      "title": "A world in progress",
+      "topic": "passive continuous"
+    },
+    {
+      "n": 9,
+      "title": "What has been done",
+      "topic": "passive perfect"
+    },
+    {
+      "n": 10,
+      "title": "It must have happened",
+      "topic": "past modals of deduction"
+    },
+    {
+      "n": 11,
+      "title": "Justice and voice",
+      "topic": "review · punctuation"
+    },
+    {
+      "n": 12,
+      "title": "Stand up and speak",
+      "topic": "debating · connectors"
+    }
   ]
 }

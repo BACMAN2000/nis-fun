@@ -1,0 +1,18 @@
+{
+  "level": "b2f",
+  "name": "Cambridge · B2 First · Grade 10",
+  "cast": "Grade 10 · Inspiring Nordic",
+  "color": "#a3324e",
+  "mascot": "nova",
+  "kids": ["mateo", "sofia", "liam", "nadia"],
+  "exam": "B2 First for Schools",
+  "project": "Inspiring Nordic — Trades",
+  "units": [
+    { "n": 1, "title": "If only...", "topic": "mixed conditionals" },
+    { "n": 2, "title": "Getting things done", "topic": "the causative" },
+    { "n": 3, "title": "Words at work", "topic": "word formation" },
+    { "n": 4, "title": "The bigger picture", "topic": "relative clauses" },
+    { "n": 5, "title": "Making the case", "topic": "persuasion & emphasis" },
+    { "n": 6, "title": "Our voice, our world", "topic": "review & debate" }
+  ]
+}

@@ -1,0 +1,411 @@
+{
+ "id": "pet-07",
+ "level": "pet",
+ "number": 7,
+ "title": "What if things were different?",
+ "topic": "third conditional",
+ "grammar": "Third conditional (past unreal)",
+ "wordlist": [
+  "regret",
+  "opportunity",
+  "realise",
+  "wish",
+  "fortune",
+  "poverty",
+  "ambition",
+  "grateful",
+  "humble",
+  "proud"
+ ],
+ "exam_focus": {
+  "paper": "Reading",
+  "part": 3,
+  "skill": "reading for detail"
+ },
+ "characters": [
+  "nova"
+ ],
+ "scene": {
+  "speaker": "nova",
+  "bubble": "We're reading Great Expectations. Learn the third conditional and imagine how the past could have been different.",
+  "intro": "Our Grade 9 reading club has started Great Expectations by Charles Dickens — a story full of choices and regrets. In this unit you read about Pip, you learn the third conditional to imagine an unreal past and its results, and you talk about your own 'what if' questions. If you had made a different choice last year, where would you be now? Let's find out how to say it."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Vocabulary — choices and regrets. Match each word with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "regret",
+      "right": "to feel sorry about something you did or didn't do"
+     },
+     {
+      "left": "fortune",
+      "right": "a very large amount of money"
+     },
+     {
+      "left": "grateful",
+      "right": "feeling thankful for something"
+     },
+     {
+      "left": "humble",
+      "right": "not proud; modest about yourself"
+     },
+     {
+      "left": "ambition",
+      "right": "a strong wish to succeed or achieve something"
+     },
+     {
+      "left": "poverty",
+      "right": "the state of being very poor"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "reading",
+   "title": "Reading — the reading club on Great Expectations",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "kicker": "Reading Club",
+    "title": "Great Expectations: the choices that made Pip",
+    "author": "sofia",
+    "byline": "by Sofía",
+    "text": "<p>Our Grade 9 reading club has just started <i>Great Expectations</i> by Charles Dickens. It is the story of Pip, a poor boy who suddenly receives a fortune from a mysterious person and becomes a 'gentleman'.</p><p>At first, money changes Pip for the worse. He becomes proud and forgets the kind people who raised him. Later, he regrets it deeply. If he had stayed humble, he would not have hurt his old friends. If he had valued real friendship, he would have been happier.</p><p>In our discussion, <b>Mateo</b> made a good point. “If Pip hadn't become rich so easily,” he said, “he might have appreciated it more.” <b>Nadia</b> agreed: “If I had received a fortune at fifteen, I'm not sure I would have used it well either.”</p><p>That is the power of Dickens: he makes us ask 'what if?'. What if Pip had made different choices? The whole story would have changed. But if everything had gone perfectly, there would have been no lesson — and no novel.</p><p>By the end, Pip learns what really matters: kindness, honesty and gratitude. If only he had known that at the start!</p>",
+    "script": "Our Grade 9 reading club has just started Great Expectations by Charles Dickens. It is the story of Pip, a poor boy who suddenly receives a fortune and becomes a gentleman. At first, money changes Pip for the worse. He becomes proud and forgets the kind people who raised him. Later, he regrets it deeply. If he had stayed humble, he would not have hurt his old friends. In our discussion, Mateo said: if Pip hadn't become rich so easily, he might have appreciated it more. That is the power of Dickens: he makes us ask what if. By the end, Pip learns what really matters: kindness, honesty and gratitude.",
+    "questions": [
+     {
+      "q": "Who is Pip?",
+      "options": [
+       "a poor boy who receives a fortune",
+       "a rich and famous lord",
+       "a school teacher"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "How does money first change Pip?",
+      "options": [
+       "he becomes proud and forgets kind people",
+       "he becomes very generous",
+       "he leaves school at once"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What did Mateo say in the discussion?",
+      "options": [
+       "if Pip hadn't become rich so easily, he might have appreciated it more",
+       "the book was far too boring",
+       "Pip was always perfectly kind"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What does Dickens make readers ask?",
+      "options": [
+       "'what if?'",
+       "'how much?'",
+       "'who cares?'"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What does Pip learn by the end?",
+      "options": [
+       "kindness, honesty and gratitude matter most",
+       "money is the only thing that matters",
+       "friends are a waste of time"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "grammar_box",
+   "title": "Grammar — Third conditional",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "title": "Third conditional",
+    "intro": "We use the third conditional to imagine a different past — something that did NOT happen — and its result. It is common when we talk about regrets.",
+    "examples": [
+     {
+      "text": "If Pip <b>had stayed</b> humble, he <b>wouldn't have hurt</b> his friends.",
+      "note": "past unreal"
+     },
+     {
+      "text": "If I <b>had known</b>, I <b>would have helped</b>.",
+      "note": "regret"
+     },
+     {
+      "text": "She <b>might have won</b> if she <b>had trained</b> more.",
+      "note": "might have = possible"
+     }
+    ],
+    "rules": [
+     "Form: If + <b>past perfect</b> (had + participle), <b>would have</b> + participle.",
+     "It describes an unreal past — the opposite of what really happened.",
+     "Use <b>might have / could have</b> for a possible (not certain) past result."
+    ],
+    "practice": {
+     "instructions": "Choose the correct form.",
+     "items": [
+      {
+       "sentence": "If Pip had been wiser, he ___ his friends.",
+       "options": [
+        "wouldn't have hurt",
+        "won't hurt",
+        "doesn't hurt"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "If I ___ earlier, I would have caught the bus.",
+       "options": [
+        "had left",
+        "left",
+        "would leave"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "She would have passed if she ___ harder.",
+       "options": [
+        "had studied",
+        "studied",
+        "would study"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "We ___ won if we had trained more.",
+       "options": [
+        "might have",
+        "might",
+        "will"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "If they had listened, this ___ happened.",
+       "options": [
+        "wouldn't have",
+        "won't have",
+        "didn't"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "code": "D",
+   "type": "gap_text",
+   "title": "Open cloze — complete the reflection. Write ONE word in each gap.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "If",
+     "had",
+     "would",
+     "have",
+     "been",
+     "only"
+    ],
+    "text": "{1} Pip {2} stayed with his true friends, life {3} have been simpler. He would not {4} become so proud, and he would have {5} much happier. If {6} he had understood that at the start!",
+    "answers": [
+     "If",
+     "had",
+     "would",
+     "have",
+     "been",
+     "only"
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "listening",
+   "title": "Listening — the club plan. Write ONE word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "pet/u07-e.mp3",
+   "data": {
+    "voice_note": "Voz: la profesora (Miss Vega), presentando la novela.",
+    "script": "Good morning, Grade 9. Let's talk about Great Expectations. Remember, this is Pip's story: a poor boy who suddenly becomes rich. Our big question is about choices. If Pip had stayed in the village, his life would have been very different. For Wednesday, prepare one 'what if' question about the story. Also, Sofía has volunteered to lead the discussion, and Mateo will bring the film version. See you then!",
+    "questions": [
+     {
+      "q": "Great Expectations is the story of …",
+      "answer": "Pip"
+     },
+     {
+      "q": "Pip is a poor boy who suddenly becomes …",
+      "answer": "rich"
+     },
+     {
+      "q": "For Wednesday, prepare one 'what if' …",
+      "answer": "question"
+     },
+     {
+      "q": "… has volunteered to lead the discussion.",
+      "answer": "Sofía"
+     },
+     {
+      "q": "Mateo will bring the … version.",
+      "answer": "film"
+     }
+    ]
+   }
+  },
+  {
+   "code": "F",
+   "type": "exam_task",
+   "title": "Exam task · B1 Reading & Grammar — choose the correct form.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct answer to complete each sentence, like in the B1 Preliminary exam.",
+    "items": [
+     {
+      "sentence": "If we had left earlier, we ___ the train.",
+      "options": [
+       "would have caught",
+       "would catch",
+       "catch"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "She ___ have passed if she had revised.",
+      "options": [
+       "would",
+       "will",
+       "did"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "If I ___ your number, I would have called.",
+      "options": [
+       "had had",
+       "had",
+       "have"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "They wouldn't have got lost if they ___ a map.",
+      "options": [
+       "had used",
+       "used",
+       "would use"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "If Pip had been humbler, he ___ happier.",
+      "options": [
+       "would have been",
+       "will be",
+       "is"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "pairwork",
+   "title": "Speaking — imagine the past. In pairs, then record it.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "In pairs, talk about the past using the third conditional. Model: “What would you have done if you had won a fortune at fifteen?” — “If I had won a fortune, I would have travelled the world.” 1) What would you have done if you had been born in another country? 2) Is there a choice you would have made differently? 3) What would have happened if you hadn't come to this school? Then record your best answers."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write a short reflection (6–8 sentences) about Pip, or about a 'what if' in your own life, using the third conditional. Example: 'If Pip had stayed humble, he would not have lost his friends.' Use at least three third conditionals. Capital letters and full stops!"
+  }
+ ],
+ "scope": {
+  "grado": "G9",
+  "temaN": 1,
+  "tema": "What If? — Inspiring Nordic",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Understand a discussion about a novel and note key details (B1 Preliminary Listening)."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Talk about an unreal past and regrets using the third conditional (B1 Speaking)."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read about a novel and understand a character's choices and consequences (B1 Reading)."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write a reflection about the past using the third conditional."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "Third conditional (if + past perfect, would have…); vocabulary of choices and regrets."
+   }
+  ],
+  "vocabulario": [
+   "regret",
+   "fortune",
+   "grateful",
+   "humble",
+   "ambition",
+   "poverty"
+  ],
+  "gramatica": [
+   "Third conditional (past unreal)",
+   "might have / could have"
+  ],
+  "pendiente": {}
+ },
+ "wordlist_extra": [
+  "consequence",
+  "choice",
+  "gentleman"
+ ]
+}

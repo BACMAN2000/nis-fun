@@ -1,0 +1,415 @@
+{
+ "id": "b2f-02",
+ "level": "b2f",
+ "number": 2,
+ "title": "Getting things done",
+ "topic": "the causative",
+ "grammar": "The causative: have / get something done",
+ "wordlist": [
+  "commission",
+  "refurbish",
+  "workshop",
+  "install",
+  "craftsmanship",
+  "estimate",
+  "repair",
+  "quotation",
+  "restore",
+  "upholster"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Use of English",
+  "part": 2,
+  "skill": "open cloze"
+ },
+ "characters": [
+  "nova"
+ ],
+ "scene": {
+  "speaker": "nova",
+  "bubble": "Welcome back! For the Trades project we're getting the workshop rebuilt. Learn the causative — have and get things done — and master the open cloze.",
+  "intro": "Welcome to Unit 2. The Inspiring Nordic project moves into the workshop, where we arrange for experts to make, repair and build. In this unit you read how Grade 10 got an old workshop refurbished, you learn the causative (have/get something done) to talk about services, and you practise the open cloze from Reading and Use of English Part 2. Who does the work — and how do we say it in English? Let's find out."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Vocabulary — trades and services. Match each word with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "commission",
+      "right": "to formally arrange for something to be made or done"
+     },
+     {
+      "left": "refurbish",
+      "right": "to renovate and improve something old"
+     },
+     {
+      "left": "workshop",
+      "right": "a room or building where things are made or repaired"
+     },
+     {
+      "left": "install",
+      "right": "to put equipment into position, ready for use"
+     },
+     {
+      "left": "craftsmanship",
+      "right": "great skill in making things by hand"
+     },
+     {
+      "left": "estimate",
+      "right": "a rough calculation of cost before work begins"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "reading",
+   "title": "Reading — getting the workshop ready",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "kicker": "Project Diary",
+    "title": "Getting the workshop ready",
+    "author": "liam",
+    "byline": "by Liam",
+    "text": "<p>For our <i>Inspiring Nordic</i> project, Grade 10 decided to bring an old school workshop back to life. None of us are professional builders, so the real lesson has been learning how to <b>get things done</b> — by arranging for experts to do the difficult jobs.</p><p>First, we <b>had the walls repaired</b> by a local mason, because the plaster was falling apart. Then <b>Sofía</b> contacted a carpenter and we <b>had ten workbenches made</b> from recycled timber. They are beautiful, and much cheaper than new ones.</p><p>Not everything needs a specialist, of course. <b>Mateo</b> insisted on painting the door himself, and <b>Liam</b> and I sanded the old shelves. But we are <b>getting the electrics checked</b> by a qualified electrician this week — that is one job you should never do yourself.</p><p>The most exciting part is the sign. <b>Nadia</b> designed a logo on her tablet, and we are <b>having it printed</b> on metal so that it lasts for years. Next month we will <b>have photographs taken</b> for the school website.</p><p>What surprised us most was how much planning a small project needs. You cannot simply <b>have everything done</b> at once; you book each trade, wait, and pay. Still, seeing a tired old room transformed by so many skilled hands has taught us to respect the trades — and to value getting things done well.</p>",
+    "script": "For our Inspiring Nordic project, Grade 10 decided to bring an old school workshop back to life. None of us are professional builders, so the real lesson has been learning how to get things done. First, we had the walls repaired by a local mason. Then Sofía contacted a carpenter and we had ten workbenches made from recycled timber. Mateo painted the door himself, but we are getting the electrics checked by an electrician. Nadia designed a logo and we are having it printed on metal. Seeing a tired old room transformed by so many skilled hands has taught us to respect the trades.",
+    "questions": [
+     {
+      "q": "What did Grade 10 decide to do for the project?",
+      "options": [
+       "bring an old workshop back to life",
+       "build a brand-new school",
+       "close the old workshop"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "Who contacted a carpenter?",
+      "options": [
+       "Sofía",
+       "Mateo",
+       "Nadia"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What were the workbenches made from?",
+      "options": [
+       "recycled timber",
+       "plastic sheets",
+       "old glass"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "Which job did the students not do themselves?",
+      "options": [
+       "checking the electrics",
+       "sanding the shelves",
+       "painting the door"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What has the project taught the students?",
+      "options": [
+       "to respect the trades",
+       "that planning is unnecessary",
+       "to do every job alone"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "grammar_box",
+   "title": "Grammar — The causative: have / get something done",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "title": "The causative: have / get something done",
+    "intro": "We use the causative when we arrange for someone else to do something for us. The structure is have/get + object + past participle.",
+    "examples": [
+     {
+      "text": "We <b>had the workbenches made</b> from recycled timber.",
+      "note": "arranged by a carpenter"
+     },
+     {
+      "text": "We are <b>getting the electrics checked</b> this week.",
+      "note": "get is more informal than have"
+     },
+     {
+      "text": "Nadia <b>had her logo printed</b> on metal.",
+      "note": "object + past participle"
+     },
+     {
+      "text": "We will <b>have photographs taken</b> for the website.",
+      "note": "we don't take them ourselves"
+     }
+    ],
+    "rules": [
+     "Structure: <b>have/get</b> + object + <b>past participle</b> (We had the room painted).",
+     "It shows that someone else did the work for us, not us.",
+     "<b>Get</b> is a little more informal than <b>have</b>, but the meaning is the same."
+    ],
+    "practice": {
+     "instructions": "Choose the correct form.",
+     "items": [
+      {
+       "sentence": "We ___ the walls painted by a professional.",
+       "options": [
+        "had",
+        "painted",
+        "have paint"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "She is getting her bike ___ at the shop.",
+       "options": [
+        "repaired",
+        "repair",
+        "to repair"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "They had the photos ___ last month.",
+       "options": [
+        "taken",
+        "take",
+        "took"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "We need to ___ the heater checked before winter.",
+       "options": [
+        "get",
+        "getting",
+        "got"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "He had his hair ___ yesterday.",
+       "options": [
+        "cut",
+        "cutting",
+        "to cut"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "code": "D",
+   "type": "key_transform",
+   "title": "Use of English Part 4 — key word transformations",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete the second sentence so that it means the same as the first. Use the KEY WORD. Write between two and five words.",
+    "items": [
+     {
+      "first": "A carpenter made our workbenches for us.",
+      "key": "HAD",
+      "second_start": "We",
+      "second_end": "by a carpenter.",
+      "answers": [
+       "had our workbenches made"
+      ]
+     },
+     {
+      "first": "An electrician is checking our wiring at the moment.",
+      "key": "GETTING",
+      "second_start": "We are",
+      "second_end": "at the moment.",
+      "answers": [
+       "getting our wiring checked"
+      ]
+     },
+     {
+      "first": "Someone printed Nadia's logo on metal.",
+      "key": "HAD",
+      "second_start": "Nadia",
+      "second_end": "on metal.",
+      "answers": [
+       "had her logo printed"
+      ]
+     },
+     {
+      "first": "A photographer will take our photos next month.",
+      "key": "HAVE",
+      "second_start": "We will",
+      "second_end": "next month.",
+      "answers": [
+       "have our photos taken"
+      ]
+     },
+     {
+      "first": "A mason repaired the school walls.",
+      "key": "GOT",
+      "second_start": "The school",
+      "second_end": "by a mason.",
+      "answers": [
+       "got its walls repaired"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "gap_text",
+   "title": "Use of English Part 2 — open cloze. Write ONE word in each gap.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "had",
+     "done",
+     "were",
+     "made",
+     "being",
+     "have"
+    ],
+    "text": "Last term we {1} the old workshop refurbished by local experts. We didn't do the work ourselves; instead, we had it {2} for us. First, the walls {3} repaired, and then we got new benches {4}. The sign is {5} printed on metal right now. By June, we will {6} everything finished.",
+    "answers": [
+     "had",
+     "done",
+     "were",
+     "made",
+     "being",
+     "have"
+    ]
+   }
+  },
+  {
+   "code": "F",
+   "type": "listening",
+   "title": "Listening — the workshop plan. Write ONE word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "b2f/u02-f.mp3",
+   "data": {
+    "voice_note": "Voz: el profesor de proyecto (Mr. Vega), organizando el taller.",
+    "script": "Good morning, everyone. Great progress on the workshop this week. On Monday we had the floor repaired, and it looks fantastic. Tomorrow we are getting the windows cleaned by a professional, so please keep the room tidy. Remember, we are not painting the shelves ourselves; Sofía has arranged to have that done by an expert. On Friday we will have our project photos taken for the website. Finally, don't forget to get your reports finished before the holiday. Well done, team — the trades are teaching us a lot.",
+    "questions": [
+     {
+      "q": "On Monday they had the floor …",
+      "answer": "repaired"
+     },
+     {
+      "q": "Tomorrow they are getting the windows …",
+      "answer": "cleaned"
+     },
+     {
+      "q": "Sofía arranged to have the shelves painted by an …",
+      "answer": "expert"
+     },
+     {
+      "q": "On Friday they will have their project photos …",
+      "answer": "taken"
+     },
+     {
+      "q": "Students must get their reports … before the holiday.",
+      "answer": "finished"
+     }
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "pairwork",
+   "title": "Speaking — services and arrangements. In pairs, then record it.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "In pairs, talk about jobs you would rather have done for you. Model: “I would rather have my photos taken by a professional than take them myself.” 1) What is one thing at home you should get repaired soon? 2) Would you rather cut your own hair or have it cut, and why? 3) For a school event, what jobs would you have done by experts, and what would you do yourselves? Give reasons and examples, then record your discussion."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write a short project update (8–10 sentences) about a room you would like to transform. Use at least four causative structures with have/get something done (e.g. 'We are having the walls painted' / 'We had new shelves made'). Explain who does each job and why. Capital letters and full stops!"
+  }
+ ],
+ "scope": {
+  "grado": "G10",
+  "temaN": 2,
+  "tema": "Getting Things Done — Inspiring Nordic",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Follow instructions about a practical project and note key details (B2 First Listening)."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Discuss services and arrangements using the causative and giving reasons (B2 First Speaking)."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read a project report and identify who does what (B2 First Reading)."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write a project update using the causative to describe arranged work."
+   },
+   {
+    "destreza": "Use of English",
+    "puede": "The causative have/get something done; open cloze (Part 2)."
+   }
+  ],
+  "vocabulario": [
+   "commission",
+   "refurbish",
+   "workshop",
+   "install",
+   "craftsmanship",
+   "estimate"
+  ],
+  "gramatica": [
+   "The causative: have/get something done",
+   "Open cloze (Part 2)"
+  ],
+  "pendiente": {}
+ },
+ "wordlist_extra": [
+  "tradesperson",
+  "contractor",
+  "invoice"
+ ]
+}

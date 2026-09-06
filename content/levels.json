@@ -47,6 +47,17 @@
         8,
         9
       ]
+    },
+    {
+      "id": "b2f",
+      "name": "Cambridge · B2 First",
+      "exam": "B2 First for Schools",
+      "cast": "Grade 10 · Inspiring Nordic",
+      "mascot": "nova",
+      "color": "#a3324e",
+      "grades": [
+        10
+      ]
     }
   ]
 }

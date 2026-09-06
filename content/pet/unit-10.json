@@ -1,0 +1,415 @@
+{
+ "id": "pet-10",
+ "level": "pet",
+ "number": 10,
+ "title": "It must have happened",
+ "topic": "past modals of deduction",
+ "grammar": "Past modals of deduction: must have / might have / can't have + past participle",
+ "wordlist": [
+  "deduce",
+  "evidence",
+  "clue",
+  "mystery",
+  "guess",
+  "conclusion",
+  "certain",
+  "doubt",
+  "suspect",
+  "obvious"
+ ],
+ "exam_focus": {
+  "paper": "Listening",
+  "part": 4,
+  "skill": "attitudes & inference"
+ },
+ "characters": [
+  "nova"
+ ],
+ "scene": {
+  "speaker": "nova",
+  "bubble": "We're reading The House on Mango Street. Learn past modals to deduce what must have happened.",
+  "intro": "Our Grade 9 reading club is enjoying The House on Mango Street by Sandra Cisneros. Its short chapters are full of small mysteries. In this unit you read about Esperanza, you learn past modals of deduction to guess about the past — must have, might have and can't have — and you make your own careful conclusions from the clues. If a character looks sad, what must have happened? Let's deduce it together."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Vocabulary — mystery and deduction. Match each word with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "deduce",
+      "right": "to work something out from the facts you have"
+     },
+     {
+      "left": "evidence",
+      "right": "the facts or signs that show what is true"
+     },
+     {
+      "left": "clue",
+      "right": "a small piece of information that helps you solve a mystery"
+     },
+     {
+      "left": "conclusion",
+      "right": "the decision or idea you reach after thinking"
+     },
+     {
+      "left": "suspect",
+      "right": "to think something is probably true, without being sure"
+     },
+     {
+      "left": "obvious",
+      "right": "very easy to see or understand"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "reading",
+   "title": "Reading — a small mystery on Mango Street",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "kicker": "Reading Club",
+    "title": "What must have happened to Esperanza?",
+    "author": "sofia",
+    "byline": "by Sofía",
+    "text": "<p>This week our reading club opened <i>The House on Mango Street</i> by Sandra Cisneros to a strange, quiet chapter. Esperanza, the young narrator, comes home late, says almost nothing, and goes straight to her room.</p><p>So what happened? We could only use the clues. “She looks upset, so something must have happened at school,” said <b>Mateo</b>. He might be right. Esperanza usually writes pages in her notebook, but tonight the page is empty — she can't have felt like writing.</p><p><b>Nadia</b> noticed a torn shoe by the door. “She might have run home,” Nadia guessed, “or she may have tripped on the broken pavement.” Both ideas fit the evidence.</p><p>There is one more clue: a folded letter on the table. Esperanza's mother must have read it before her, because her eyes are red. Perhaps good news about a real house has finally arrived — or perhaps not.</p><p>Cisneros never tells us everything, and that is the magic. As careful readers, we cannot be certain; we can only deduce what most probably happened, sentence by quiet sentence.</p>",
+    "script": "This week our reading club opened The House on Mango Street by Sandra Cisneros to a strange, quiet chapter. Esperanza, the young narrator, comes home late, says almost nothing, and goes straight to her room. So what happened? We could only use the clues. She looks upset, so something must have happened at school, said Mateo. He might be right. Esperanza usually writes pages in her notebook, but tonight the page is empty. She can't have felt like writing. Nadia noticed a torn shoe by the door. She might have run home, Nadia guessed, or she may have tripped on the broken pavement. There is one more clue: a folded letter on the table. Esperanza's mother must have read it first. Cisneros never tells us everything, and that is the magic.",
+    "questions": [
+     {
+      "q": "How does Esperanza behave when she comes home?",
+      "options": [
+       "She comes home late and says almost nothing.",
+       "She sings and laughs loudly.",
+       "She invites all her friends inside."
+      ],
+      "answer": 0
+     },
+     {
+      "q": "Why does Mateo think something happened at school?",
+      "options": [
+       "because she brought home a prize",
+       "because she looks upset",
+       "because she is very hungry"
+      ],
+      "answer": 1
+     },
+     {
+      "q": "What clue does Nadia notice by the door?",
+      "options": [
+       "a torn shoe",
+       "a new bicycle",
+       "an open umbrella"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "Why does the writer think Esperanza's mother read the letter?",
+      "options": [
+       "because the letter is missing",
+       "because her mother told everyone",
+       "because her mother's eyes are red"
+      ],
+      "answer": 2
+     },
+     {
+      "q": "What does the writer say about Cisneros's style?",
+      "options": [
+       "She never tells us everything.",
+       "She explains every detail clearly.",
+       "She writes very long chapters."
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "grammar_box",
+   "title": "Grammar — Past modals of deduction",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "title": "Past modals of deduction",
+    "intro": "We use past modals to guess about the past from the clues we have. They show how sure we are, from almost certain to almost impossible.",
+    "examples": [
+     {
+      "text": "She looks sad; something bad <b>must have happened</b>.",
+      "note": "must have = I'm sure it did"
+     },
+     {
+      "text": "She <b>might have moved</b> house again.",
+      "note": "might/may have = possible"
+     },
+     {
+      "text": "He <b>can't have known</b> the truth.",
+      "note": "can't have = I'm sure it didn't"
+     },
+     {
+      "text": "They <b>could have left</b> early.",
+      "note": "could have = one possibility"
+     }
+    ],
+    "rules": [
+     "Form: <b>must / might / may / could / can't + have + past participle</b>.",
+     "Use <b>must have</b> when you are almost sure it is true.",
+     "Use <b>can't have</b> when you are almost sure it is NOT true; use <b>might/could have</b> for a possibility."
+    ],
+    "practice": {
+     "instructions": "Choose the correct form.",
+     "items": [
+      {
+       "sentence": "Her eyes are red; she ___ have been crying.",
+       "options": [
+        "must",
+        "can't",
+        "won't"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "The page is empty, so she ___ have felt like writing.",
+       "options": [
+        "must",
+        "can't",
+        "should"
+       ],
+       "answer": 1
+      },
+      {
+       "sentence": "Nobody is sure, but she ___ have run home.",
+       "options": [
+        "might",
+        "must",
+        "can't"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "He knew nothing about it; he ___ have read the letter.",
+       "options": [
+        "can't",
+        "must",
+        "should"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "The door was open, so someone ___ have come in.",
+       "options": [
+        "must",
+        "can't",
+        "won't"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "code": "D",
+   "type": "gap_text",
+   "title": "Open cloze — complete the deduction. Write ONE word in each gap.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "must",
+     "might",
+     "have",
+     "seen",
+     "might",
+     "must"
+    ],
+    "text": "Esperanza looks upset, so something {1} have happened. She {2} have moved house again, but we are not sure. She can't {3} forgotten her old street so quickly. Her neighbour must have {4} her leave. The family {5} have saved enough money at last. Whatever it was, it {6} have changed her life.",
+    "answers": [
+     "must",
+     "might",
+     "have",
+     "seen",
+     "might",
+     "must"
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "listening",
+   "title": "Listening — the teacher's reading notes. Write ONE word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "pet/u10-e.mp3",
+   "data": {
+    "voice_note": "Voz: la profesora (Miss Vega), comentando la novela y lo que se deduce.",
+    "script": "Good afternoon, readers. Let's think about Esperanza in The House on Mango Street. In this chapter she seems thoughtful and a little sad. Something important must have happened to her family. Maybe they have moved again, or maybe a friend has left. Sofía believes Esperanza has grown more confident, and I agree; her voice sounds stronger now. She can't have forgotten her dream of a real house. For Friday, find one clue that shows how she feels. Read carefully and always trust the evidence!",
+    "questions": [
+     {
+      "q": "The chapter is about a character called …",
+      "answer": "Esperanza"
+     },
+     {
+      "q": "In this chapter Esperanza seems thoughtful and a little …",
+      "answer": "sad"
+     },
+     {
+      "q": "… believes Esperanza has grown more confident.",
+      "answer": "Sofía"
+     },
+     {
+      "q": "For Friday, find one … that shows how she feels.",
+      "answer": "clue"
+     },
+     {
+      "q": "Read carefully and always trust the …",
+      "answer": "evidence"
+     }
+    ]
+   }
+  },
+  {
+   "code": "F",
+   "type": "exam_task",
+   "title": "Exam task · B1 Grammar — past modals of deduction.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct answer to complete each sentence, like in the B1 Preliminary exam.",
+    "items": [
+     {
+      "sentence": "The ground is wet, so it ___ have rained in the night.",
+      "options": [
+       "must",
+       "can't",
+       "won't"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "She was at home all day, so she ___ have seen the accident.",
+      "options": [
+       "must",
+       "can't",
+       "should"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "I'm not sure, but they ___ have missed the bus.",
+      "options": [
+       "might",
+       "must",
+       "can't"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "He passed easily, so he ___ have studied a lot.",
+      "options": [
+       "must",
+       "can't",
+       "won't"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The lights are off, so nobody ___ have been at home.",
+      "options": [
+       "can",
+       "can't",
+       "must"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "pairwork",
+   "title": "Speaking — make your deductions. In pairs, then record it.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "In pairs, look at the clues and deduce what happened, using past modals. Model: “Her shoes are muddy. What happened?” — “She must have walked in the park, or she might have missed the bus.” 1) The classroom is a mess — what must have happened? 2) Esperanza's page is empty — why can't she have written? 3) Your friend is smiling all day — what might have happened? 4) The cake is gone — who could have eaten it? Then record your best answers."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write 6–8 sentences deducing what happened to a character in The House on Mango Street, or in a small mystery of your own. Use past modals of deduction at least four times, for example: 'She must have felt sad' and 'He can't have known the truth'. Capital letters and full stops!"
+  }
+ ],
+ "scope": {
+  "grado": "G9",
+  "temaN": 4,
+  "tema": "It must have happened — Inspiring Nordic",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Understand a speaker's attitude and infer meaning from what is said (B1 Preliminary Listening)."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Make careful deductions about the past using past modals (B1 Speaking)."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read a story and infer what probably happened from the clues (B1 Reading)."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write deductions about a character using past modal forms."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "Past modals of deduction (must/might/can't have done); vocabulary of mystery and deduction."
+   }
+  ],
+  "vocabulario": [
+   "deduce",
+   "evidence",
+   "clue",
+   "conclusion",
+   "suspect",
+   "obvious"
+  ],
+  "gramatica": [
+   "Past modals of deduction (must have / might have / can't have + past participle)",
+   "could have / may have for possibility"
+  ],
+  "pendiente": {}
+ },
+ "wordlist_extra": [
+  "narrator",
+  "chapter",
+  "inference"
+ ]
+}

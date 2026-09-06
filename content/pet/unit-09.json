@@ -1,0 +1,415 @@
+{
+ "id": "pet-09",
+ "level": "pet",
+ "number": 9,
+ "title": "What has been done",
+ "topic": "passive perfect",
+ "grammar": "Present perfect passive (has/have been done)",
+ "wordlist": [
+  "achievement",
+  "deadline",
+  "budget",
+  "teamwork",
+  "exhibition",
+  "donation",
+  "volunteer",
+  "milestone",
+  "improvement",
+  "result"
+ ],
+ "exam_focus": {
+  "paper": "Reading",
+  "part": 6,
+  "skill": "open cloze"
+ },
+ "characters": [
+  "nova"
+ ],
+ "scene": {
+  "speaker": "nova",
+  "bubble": "Look how far we've come! Learn the present perfect passive to say what has been achieved this year.",
+  "intro": "Our Inspiring Nordic — Trades project has reached an exciting point. In this unit you read about everything that has been achieved by Grade 9 this year, you learn the present perfect passive to report finished results, and you talk about what has been done in your own life. When a job is complete and we want the result, we say 'It has been done.' Let's practise it."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Vocabulary — projects and results. Match each word with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "achievement",
+      "right": "something good and difficult that you have succeeded in doing"
+     },
+     {
+      "left": "deadline",
+      "right": "the latest time by which something must be finished"
+     },
+     {
+      "left": "budget",
+      "right": "the amount of money you have to spend on something"
+     },
+     {
+      "left": "exhibition",
+      "right": "an event where you show your work to the public"
+     },
+     {
+      "left": "milestone",
+      "right": "an important stage or moment in a project"
+     },
+     {
+      "left": "donation",
+      "right": "money or things given to help a person or project"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "reading",
+   "title": "Reading — what the class has achieved",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "kicker": "Project Report",
+    "title": "A year of Trades: what has already been done",
+    "author": "nadia",
+    "byline": "by Nadia",
+    "text": "<p>It is hard to believe how much <b>has been achieved</b> this year in our <i>Inspiring Nordic — Trades</i> project. Twelve months ago the workshop was tired and empty. Today it is one of the busiest rooms in school.</p><p>Since September, the old benches <b>have been repaired</b> and new tools <b>have been bought</b> with a careful budget. A small garden <b>has been planted</b> behind the building, and the safety rules <b>have been printed</b> on bright new posters.</p><p>Money has mattered too. A generous donation <b>has been given</b> by a local carpenter, and every coin <b>has been recorded</b> by the treasurer. Because of this, our deadline <b>has been met</b> without stress.</p><p><b>Mateo</b> is proud of the teamwork. “Nothing here <b>has been done</b> by one person,” he says. <b>Liam</b> agrees: “Every job has been shared, so every success belongs to all of us.”</p><p>The biggest milestone is still to come. A public exhibition <b>has been organised</b> for December, when families will see exactly what has been built, mended and imagined by Grade 9.</p>",
+    "script": "It is hard to believe how much has been achieved this year in our Inspiring Nordic Trades project. Twelve months ago the workshop was tired and empty. Today it is one of the busiest rooms in school. Since September, the old benches have been repaired and new tools have been bought with a careful budget. A small garden has been planted behind the building, and the safety rules have been printed on bright new posters. A generous donation has been given by a local carpenter, and every coin has been recorded by the treasurer. Because of this, our deadline has been met without stress. Mateo is proud of the teamwork. Nothing here has been done by one person, he says. The biggest milestone is still to come. A public exhibition has been organised for December.",
+    "questions": [
+     {
+      "q": "How was the workshop twelve months ago?",
+      "options": [
+       "tired and empty",
+       "modern and busy",
+       "closed and locked"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What has been done with the old benches?",
+      "options": [
+       "They have been thrown away.",
+       "They have been repaired.",
+       "They have been sold."
+      ],
+      "answer": 1
+     },
+     {
+      "q": "What has been planted behind the building?",
+      "options": [
+       "a small garden",
+       "a large tree",
+       "nothing at all"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "Who has given a generous donation?",
+      "options": [
+       "a local carpenter",
+       "the government",
+       "a famous singer"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What has been organised for December?",
+      "options": [
+       "a school trip",
+       "a football match",
+       "a public exhibition"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "grammar_box",
+   "title": "Grammar — Present perfect passive",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "title": "Present perfect passive",
+    "intro": "We use the present perfect passive to report a finished action when we care about the result, not who did it. It is perfect for project reports about what is already complete.",
+    "examples": [
+     {
+      "text": "The workshop <b>has been renovated</b>.",
+      "note": "singular result now"
+     },
+     {
+      "text": "New tools <b>have been bought</b>.",
+      "note": "plural subject"
+     },
+     {
+      "text": "The plan <b>has been approved</b> by the head.",
+      "note": "'by' shows the doer"
+     },
+     {
+      "text": "Many hours <b>have been spent</b> on this.",
+      "note": "result up to now"
+     }
+    ],
+    "rules": [
+     "Form: <b>has/have + been + past participle</b> (The room has been cleaned).",
+     "Use it for a finished action with a result we can see now.",
+     "Add <b>by + person</b> only if the doer is important."
+    ],
+    "practice": {
+     "instructions": "Choose the correct form.",
+     "items": [
+      {
+       "sentence": "The old workshop ___ been renovated completely.",
+       "options": [
+        "has",
+        "have",
+        "is"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "New tools ___ been bought with our budget.",
+       "options": [
+        "has",
+        "have",
+        "was"
+       ],
+       "answer": 1
+      },
+      {
+       "sentence": "A garden has been ___ behind the building.",
+       "options": [
+        "planted",
+        "planting",
+        "plant"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "The safety posters have ___ printed already.",
+       "options": [
+        "been",
+        "being",
+        "be"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "Our deadline ___ been met without stress.",
+       "options": [
+        "has",
+        "have",
+        "are"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "code": "D",
+   "type": "gap_text",
+   "title": "Open cloze — complete the results report. Write ONE word in each gap.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "has",
+     "been",
+     "have",
+     "planted",
+     "have",
+     "done"
+    ],
+    "text": "This year a lot {1} been achieved by Grade 9. The old workshop has {2} renovated completely. New tools {3} been bought with our budget. A garden has been {4} in the yard. Two exhibitions {5} been organised so far. We are proud of everything that has been {6}.",
+    "answers": [
+     "has",
+     "been",
+     "have",
+     "planted",
+     "have",
+     "done"
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "listening",
+   "title": "Listening — the head teacher's message. Write ONE word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "pet/u09-e.mp3",
+   "data": {
+    "voice_note": "Voz: la profesora (Miss Vega), celebrando los resultados del proyecto.",
+    "script": "Hello, Grade 9. I want to celebrate what has been done this year for Inspiring Nordic. The workshop has been renovated, and it looks wonderful. Many new tools have been bought with our budget. A small garden has been planted behind the building. The final exhibition has been planned for December. Nadia has been chosen to present our results to the parents. Every task has been completed on time. I am very proud of you. Well done, everyone, and keep going!",
+    "questions": [
+     {
+      "q": "The workshop has been … this year.",
+      "answer": "renovated"
+     },
+     {
+      "q": "Many new tools have been … with our budget.",
+      "answer": "bought"
+     },
+     {
+      "q": "A small garden has been … behind the building.",
+      "answer": "planted"
+     },
+     {
+      "q": "… has been chosen to present the results.",
+      "answer": "Nadia"
+     },
+     {
+      "q": "Every task has been … on time.",
+      "answer": "completed"
+     }
+    ]
+   }
+  },
+  {
+   "code": "F",
+   "type": "exam_task",
+   "title": "Exam task · B1 Reading Part 6 — open cloze focus.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word for each gap, practising the grammar tested in the B1 Preliminary open cloze.",
+    "items": [
+     {
+      "sentence": "The whole project ___ been finished on time.",
+      "options": [
+       "has",
+       "have",
+       "is"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "All the tickets ___ been sold for the exhibition.",
+      "options": [
+       "has",
+       "have",
+       "was"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "The report has ___ written by the whole team.",
+      "options": [
+       "been",
+       "being",
+       "be"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "New chairs have been ___ in the hall.",
+      "options": [
+       "installed",
+       "installing",
+       "install"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "A prize ___ been given to the best group.",
+      "options": [
+       "has",
+       "have",
+       "are"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "pairwork",
+   "title": "Speaking — what has been done. In pairs, then record it.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "In pairs, talk about results using the present perfect passive. Model: “What has been done in your classroom this year?” — “The walls have been painted and new books have been added.” 1) What has been improved in your school recently? 2) What has been organised for your class this term? 3) In the Trades project, what has already been built or repaired? 4) What good thing has been achieved by your team? Then record your best answers."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write a short report (6–8 sentences) about what has been done in your school or in the Trades project this year. Use the present perfect passive at least four times, for example: 'The workshop has been renovated' and 'New tools have been bought'. Capital letters and full stops!"
+  }
+ ],
+ "scope": {
+  "grado": "G9",
+  "temaN": 3,
+  "tema": "What has been done — Inspiring Nordic",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Understand a message about finished results and note key details (B1 Preliminary Listening)."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Report what has been achieved using the present perfect passive (B1 Speaking)."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read a project report and identify completed actions (B1 Reading, open cloze)."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write a results report using present perfect passive forms."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "Present perfect passive (has/have been done); vocabulary of projects and results."
+   }
+  ],
+  "vocabulario": [
+   "achievement",
+   "deadline",
+   "budget",
+   "exhibition",
+   "milestone",
+   "donation"
+  ],
+  "gramatica": [
+   "Present perfect passive (has/have been done)",
+   "by + doer for emphasis"
+  ],
+  "pendiente": {}
+ },
+ "wordlist_extra": [
+  "treasurer",
+  "showcase",
+  "outcome"
+ ]
+}

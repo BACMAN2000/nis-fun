@@ -1,0 +1,415 @@
+{
+ "id": "pet-12",
+ "level": "pet",
+ "number": 12,
+ "title": "Stand up and speak",
+ "topic": "debating · connectors",
+ "grammar": "Language for debating (I believe / on the other hand / to sum up)",
+ "wordlist": [
+  "debate",
+  "argument",
+  "opinion",
+  "persuade",
+  "disagree",
+  "viewpoint",
+  "conclusion",
+  "polite",
+  "convince",
+  "motion"
+ ],
+ "exam_focus": {
+  "paper": "Speaking",
+  "part": 3,
+  "skill": "discussion & negotiation"
+ },
+ "characters": [
+  "nova"
+ ],
+ "scene": {
+  "speaker": "nova",
+  "bubble": "Time for our big debate! Learn the language to argue clearly and disagree politely.",
+  "intro": "To finish our Inspiring Nordic — Trades project, the Grade 9 class is preparing a formal debate. In this unit you read how a good debate works, you learn the language of debating — I believe, on the other hand, to sum up — and you practise arguing your case and disagreeing politely. A great speaker is confident but respectful. How do you say 'I disagree' without being rude? Let's find out and get ready to speak."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Vocabulary — debating. Match each word with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "debate",
+      "right": "a formal discussion in which two sides argue for and against an idea"
+     },
+     {
+      "left": "argument",
+      "right": "a reason you give to support your opinion"
+     },
+     {
+      "left": "persuade",
+      "right": "to make someone agree with you by giving good reasons"
+     },
+     {
+      "left": "viewpoint",
+      "right": "the way a person thinks about something; an opinion"
+     },
+     {
+      "left": "conclusion",
+      "right": "the final part where you sum up your ideas"
+     },
+     {
+      "left": "motion",
+      "right": "the statement that a debate argues for or against"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "reading",
+   "title": "Reading — getting ready to debate",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "kicker": "Project Debate",
+    "title": "How to argue well and disagree politely",
+    "author": "mateo",
+    "byline": "by Mateo",
+    "text": "<p>For the final event of <i>Inspiring Nordic — Trades</i>, our Grade 9 class is preparing a formal debate. The motion is simple but interesting: “Every student should learn a practical trade at school.”</p><p>A good debate is not a shouting match. It is a chance to think clearly and speak with respect. In practice this week, our teacher taught us useful phrases. To open, you say what you think: “I believe that trade skills prepare us for real life.” Then you give a reason and an example.</p><p>The clever part is answering the other side. <b>Sofía</b> showed us how. “I see your point,” she said calmly, “but on the other hand, not everyone wants the same career.” Nobody got angry; the discussion only got better.</p><p><b>Nadia</b> reminded us to finish strongly. “To sum up,” she said, “a trade gives you confidence and a skill for life.” A clear conclusion helps the audience remember your best idea.</p><p>The lesson is clear. When we listen, stay calm, and choose our words well, disagreement becomes a way to learn — not a fight to win.</p>",
+    "script": "For the final event of Inspiring Nordic Trades, our Grade 9 class is preparing a formal debate. The motion is simple but interesting: every student should learn a practical trade at school. A good debate is not a shouting match. It is a chance to think clearly and speak with respect. In practice this week, our teacher taught us useful phrases. To open, you say what you think: I believe that trade skills prepare us for real life. Then you give a reason and an example. The clever part is answering the other side. Sofía showed us how. I see your point, she said calmly, but on the other hand, not everyone wants the same career. Nadia reminded us to finish strongly. To sum up, a trade gives you confidence and a skill for life.",
+    "questions": [
+     {
+      "q": "What is the motion of the debate?",
+      "options": [
+       "Every student should learn a practical trade at school.",
+       "School should start one hour later.",
+       "Students should have no homework."
+      ],
+      "answer": 0
+     },
+     {
+      "q": "According to the writer, a good debate is …",
+      "options": [
+       "a shouting match",
+       "a chance to think clearly and speak with respect",
+       "a way to win money"
+      ],
+      "answer": 1
+     },
+     {
+      "q": "How do you open your argument?",
+      "options": [
+       "by saying what you think and giving a reason",
+       "by staying completely silent",
+       "by asking the audience to leave"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What phrase did Sofía use to answer the other side?",
+      "options": [
+       "“You are completely wrong.”",
+       "“I don't care what you think.”",
+       "“I see your point, but on the other hand…”"
+      ],
+      "answer": 2
+     },
+     {
+      "q": "Why is a clear conclusion useful?",
+      "options": [
+       "it helps the audience remember your best idea",
+       "it makes the debate much longer",
+       "it confuses the other team"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "grammar_box",
+   "title": "Grammar — Language for debating",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "title": "Language for debating",
+    "intro": "In a debate we use fixed phrases to give our opinion, answer the other side and finish clearly. These connectors make you sound organised and polite.",
+    "examples": [
+     {
+      "text": "<b>I believe that</b> school days should be shorter.",
+      "note": "giving your opinion"
+     },
+     {
+      "text": "<b>On the other hand</b>, longer days give more practice.",
+      "note": "showing the other side"
+     },
+     {
+      "text": "<b>I see your point, but</b> I don't fully agree.",
+      "note": "disagreeing politely"
+     },
+     {
+      "text": "<b>To sum up</b>, both sides have good ideas.",
+      "note": "concluding"
+     }
+    ],
+    "rules": [
+     "Open with your opinion: <b>I believe / In my opinion / I strongly feel that…</b>",
+     "Answer the other side politely: <b>I see your point, but… / On the other hand…</b>",
+     "Finish with a clear conclusion: <b>To sum up / In conclusion / Overall…</b>"
+    ],
+    "practice": {
+     "instructions": "Choose the best phrase to complete each sentence.",
+     "items": [
+      {
+       "sentence": "___ believe that every student should learn a trade.",
+       "options": [
+        "I",
+        "It",
+        "There"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "I see your point, ___ I don't completely agree.",
+       "options": [
+        "but",
+        "so",
+        "because"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "On the other ___, some students prefer academic subjects.",
+       "options": [
+        "hand",
+        "side",
+        "way"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "To ___ up, a trade gives you a real skill for life.",
+       "options": [
+        "sum",
+        "add",
+        "put"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "In my ___, practical skills are just as valuable.",
+       "options": [
+        "opinion",
+        "idea",
+        "brain"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "code": "D",
+   "type": "gap_text",
+   "title": "Open cloze — complete the speech. Write ONE word in each gap.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "helps",
+     "believe",
+     "however",
+     "hand",
+     "sum",
+     "agree"
+    ],
+    "text": "In my opinion, our project clearly {1} the whole school. I strongly {2} that trade skills matter for the future. Some people, {3}, worry about the cost. On the other {4}, the benefits are far bigger. To {5} up, we should support the plan. I hope you will {6} with us tonight.",
+    "answers": [
+     "helps",
+     "believe",
+     "however",
+     "hand",
+     "sum",
+     "agree"
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "listening",
+   "title": "Listening — the debate rules. Write ONE word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "pet/u12-e.mp3",
+   "data": {
+    "voice_note": "Voz: la profesora (Miss Vega), explicando las reglas del debate.",
+    "script": "Hello, Grade 9. This week you are preparing a formal debate for Inspiring Nordic. Remember the golden rules. First, state your opinion clearly and stay calm. Second, always support your argument with an example. When you disagree, do it politely and respect the other team. Mateo will chair the debate on Friday. Each speaker has two minutes, so practise your timing. To sum up your ideas, use a strong final sentence. Speak with confidence, listen with respect, and enjoy it!",
+    "questions": [
+     {
+      "q": "This week you are preparing a formal … for Inspiring Nordic.",
+      "answer": "debate"
+     },
+     {
+      "q": "Always support your argument with an …",
+      "answer": "example"
+     },
+     {
+      "q": "When you disagree, do it …",
+      "answer": "politely"
+     },
+     {
+      "q": "… will chair the debate on Friday.",
+      "answer": "Mateo"
+     },
+     {
+      "q": "Each speaker has two …",
+      "answer": "minutes"
+     }
+    ]
+   }
+  },
+  {
+   "code": "F",
+   "type": "exam_task",
+   "title": "Exam task · B1 Speaking language — debating connectors.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word to complete each debating phrase, useful for the B1 Preliminary discussion.",
+    "items": [
+     {
+      "sentence": "In my ___, students should learn practical skills.",
+      "options": [
+       "opinion",
+       "head",
+       "hand"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "I see your ___, but I don't fully agree.",
+      "options": [
+       "point",
+       "line",
+       "word"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "On the other ___, some people prefer academic subjects.",
+      "options": [
+       "hand",
+       "foot",
+       "part"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "To ___ up, both teams argued very well.",
+      "options": [
+       "sum",
+       "stand",
+       "give"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "I strongly ___ that everyone should have a voice.",
+      "options": [
+       "believe",
+       "belong",
+       "become"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "pairwork",
+   "title": "Speaking — hold a mini-debate. In pairs, then record it.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "In pairs, hold a short debate on the motion “Every student should learn a practical trade at school.” Use debating language and disagree politely. Model: “I believe every student should learn a trade, because it prepares us for real life. I see your point, but on the other hand, some careers need different skills.” 1) Give your opinion and one reason. 2) Add an example. 3) Answer your partner with “On the other hand…” 4) Finish with “To sum up…” Then record it."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write a short debate speech (6–8 sentences) for or against the motion 'Every student should learn a practical trade at school.' Use debating language at least four times, for example: 'I believe that…', 'On the other hand…', 'I see your point, but…' and 'To sum up…'. Capital letters and full stops!"
+  }
+ ],
+ "scope": {
+  "grado": "G9",
+  "temaN": 6,
+  "tema": "Stand up and speak — Inspiring Nordic",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Understand debate rules and instructions and note key details (B1 Preliminary Listening)."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Discuss, argue and disagree politely in a debate (B1 Preliminary Speaking Part 3)."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read about debating and understand how to argue and answer the other side (B1 Reading)."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write a short debate speech using connectors and clear opinions."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "Language for debating (I believe / on the other hand / to sum up); vocabulary of discussion and persuasion."
+   }
+  ],
+  "vocabulario": [
+   "debate",
+   "argument",
+   "persuade",
+   "viewpoint",
+   "conclusion",
+   "motion"
+  ],
+  "gramatica": [
+   "Language for debating (I believe / on the other hand / to sum up)",
+   "Polite disagreement (I see your point, but…)"
+  ],
+  "pendiente": {}
+ },
+ "wordlist_extra": [
+  "rebuttal",
+  "audience",
+  "confident"
+ ]
+}

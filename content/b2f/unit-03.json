@@ -1,0 +1,418 @@
+{
+ "id": "b2f-03",
+ "level": "b2f",
+ "number": 3,
+ "title": "Words at work",
+ "topic": "word formation",
+ "grammar": "Word formation for B2 (noun/adjective/adverb suffixes, negative prefixes)",
+ "wordlist": [
+  "employment",
+  "qualification",
+  "reliable",
+  "ambition",
+  "expertise",
+  "productive",
+  "unemployment",
+  "creativity",
+  "responsibility",
+  "professional"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Use of English",
+  "part": 3,
+  "skill": "word formation"
+ },
+ "characters": [
+  "nova"
+ ],
+ "scene": {
+  "speaker": "nova",
+  "bubble": "Words are tools too! Meet the language of work, learn how English builds word families, and master the word-formation task.",
+  "intro": "Welcome to Unit 3. Our Trades project turns to the language of work itself. In this unit you read how English builds whole families of words from a single root, you learn the suffixes and prefixes that make nouns, adjectives and adverbs, and you practise the word-formation task from Reading and Use of English Part 3. One root, many words — let's build them together."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Vocabulary — skills and work. Match each word with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "employment",
+      "right": "the state of having paid work"
+     },
+     {
+      "left": "qualification",
+      "right": "an official record that you have completed training"
+     },
+     {
+      "left": "reliable",
+      "right": "able to be trusted to do what is expected"
+     },
+     {
+      "left": "ambition",
+      "right": "a strong desire to achieve something"
+     },
+     {
+      "left": "expertise",
+      "right": "special skill or knowledge in a field"
+     },
+     {
+      "left": "productive",
+      "right": "achieving a lot; getting good results"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "reading",
+   "title": "Reading — how English builds a career",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "kicker": "Careers Corner",
+    "title": "How English builds a career",
+    "author": "nadia",
+    "byline": "by Nadia",
+    "text": "<p>As part of <i>Inspiring Nordic</i>, our class interviewed local workers about their jobs. What fascinated me was not only what they do, but the language they use — because English builds so many work words from a single root.</p><p>Take the verb <b>employ</b>. Add a suffix and you get <i>employment</i>; add a prefix and you get <i>unemployment</i>; change it again and you describe an <i>employer</i> and an <i>employee</i>. One small word grows into a whole family.</p><p><b>Sofía</b> interviewed a nurse who spoke about <i>responsibility</i>, <i>patience</i> and <i>reliability</i> — all nouns formed from adjectives and verbs. <b>Mateo</b> met an electrician who valued <i>qualifications</i> and <i>expertise</i> above everything.</p><p>The pattern is powerful. If you know the suffixes, you can guess new words. The ending <i>-ment</i> often makes a noun; <i>-able</i> makes an adjective; <i>-ly</i> makes an adverb; and prefixes like <i>un-</i>, <i>in-</i> or <i>dis-</i> reverse a meaning. That is exactly what the Cambridge exam tests in the word-formation task.</p><p><b>Liam</b> put it well: “Learning one root is like getting several words for free.” He is right. The more you notice how words are built, the more <i>professional</i> and <i>confident</i> your English becomes — at work and in the exam.</p>",
+    "script": "As part of Inspiring Nordic, our class interviewed local workers about their jobs. What fascinated me was the language they use, because English builds so many work words from a single root. Take the verb employ. Add a suffix and you get employment; add a prefix and you get unemployment. Sofía interviewed a nurse who spoke about responsibility and reliability. Mateo met an electrician who valued qualifications and expertise. If you know the suffixes, you can guess new words. The ending -ment often makes a noun, -able makes an adjective, and prefixes like un- or dis- reverse a meaning. Learning one root gives you several words for free.",
+    "questions": [
+     {
+      "q": "What did the class do for the project?",
+      "options": [
+       "interviewed local workers",
+       "wrote a novel",
+       "built a workshop"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What grows from the verb 'employ'?",
+      "options": [
+       "a whole family of words",
+       "nothing new",
+       "only one noun"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "Who interviewed a nurse?",
+      "options": [
+       "Sofía",
+       "Mateo",
+       "Liam"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What did the electrician value most?",
+      "options": [
+       "qualifications and expertise",
+       "money and fame",
+       "long holidays"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "According to Liam, learning one root is like …",
+      "options": [
+       "getting several words for free",
+       "wasting your time",
+       "forgetting old words"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "grammar_box",
+   "title": "Grammar — Word formation for B2",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "title": "Word formation for B2",
+    "intro": "In word formation you change the form of a root word — usually by adding a suffix or prefix — so that it fits the gap. Common changes make nouns, adjectives, adverbs, or opposites.",
+    "examples": [
+     {
+      "text": "They offered her secure <b>employment</b>.",
+      "note": "verb → noun (-ment)"
+     },
+     {
+      "text": "He is a very <b>reliable</b> worker.",
+      "note": "verb → adjective (-able)"
+     },
+     {
+      "text": "She spoke <b>professionally</b> to the client.",
+      "note": "noun → adverb (-ly)"
+     },
+     {
+      "text": "Sadly, <b>unemployment</b> rose last year.",
+      "note": "negative prefix (un-)"
+     }
+    ],
+    "rules": [
+     "Suffixes often change word class: <b>-ment/-tion/-ity</b> make nouns, <b>-able/-ful/-ive</b> make adjectives, <b>-ly</b> makes adverbs.",
+     "Negative prefixes like <b>un-, in-, im-, dis-</b> reverse the meaning (happy → unhappy).",
+     "Read the whole sentence: decide the word class and whether it is positive, negative, singular or plural."
+    ],
+    "practice": {
+     "instructions": "Choose the correct form of the word in capitals.",
+     "items": [
+      {
+       "sentence": "The job gives her a real sense of ___. (RESPONSIBLE)",
+       "options": [
+        "responsibility",
+        "responsible",
+        "responsibly"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "He solved the problem very ___. (CREATIVE)",
+       "options": [
+        "creatively",
+        "creative",
+        "creativity"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "Sadly, ___ rose again this year. (EMPLOY)",
+       "options": [
+        "unemployment",
+        "employment",
+        "employee"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "A good electrician must be ___. (RELY)",
+       "options": [
+        "reliable",
+        "reliably",
+        "reliability"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "We admired her ___ and skill. (EXPERT)",
+       "options": [
+        "expertise",
+        "expertly",
+        "experted"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "code": "D",
+   "type": "key_transform",
+   "title": "Use of English Part 4 — key word transformations",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete the second sentence so that it means the same as the first. Use the KEY WORD. Write between two and five words.",
+    "items": [
+     {
+      "first": "She acts in a professional manner at work.",
+      "key": "PROFESSIONALLY",
+      "second_start": "She",
+      "second_end": "at work.",
+      "answers": [
+       "acts very professionally",
+       "behaves professionally"
+      ]
+     },
+     {
+      "first": "It is not easy to replace a reliable worker.",
+      "key": "IMPOSSIBLE",
+      "second_start": "It is nearly",
+      "second_end": "a reliable worker.",
+      "answers": [
+       "impossible to replace"
+      ]
+     },
+     {
+      "first": "The team works together extremely well.",
+      "key": "TEAMWORK",
+      "second_start": "The team shows",
+      "second_end": ".",
+      "answers": [
+       "excellent teamwork",
+       "very good teamwork"
+      ]
+     },
+     {
+      "first": "We can always depend on him.",
+      "key": "RELIABLE",
+      "second_start": "He is",
+      "second_end": ".",
+      "answers": [
+       "extremely reliable",
+       "very reliable"
+      ]
+     },
+     {
+      "first": "More and more people lost their jobs last year.",
+      "key": "UNEMPLOYMENT",
+      "second_start": "Last year, there was a rise in",
+      "second_end": ".",
+      "answers": [
+       "the level of unemployment"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "gap_text",
+   "title": "Use of English Part 2 — open cloze. Write ONE word in each gap.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "which",
+     "can",
+     "with",
+     "if",
+     "that",
+     "in"
+    ],
+    "text": "English is a language {1} builds new words easily. From one root you {2} make many forms. For example, the verb 'employ' gives us 'employment' and, {3} a negative prefix, 'unemployment'. {4} you know the common suffixes, you can guess words {5} you have never seen before. This skill is tested {6} the Cambridge exam.",
+    "answers": [
+     "which",
+     "can",
+     "with",
+     "If",
+     "that",
+     "in"
+    ]
+   }
+  },
+  {
+   "code": "F",
+   "type": "listening",
+   "title": "Listening — the word-formation task. Write ONE word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "b2f/u03-f.mp3",
+   "data": {
+    "voice_note": "Voz: la profesora (Miss Vega), sobre la tarea de formación de palabras.",
+    "script": "Hello, Grade 10. Today we focus on word formation, which appears in Part three of the exam. Remember three simple tricks. First, decide the word class you need: a noun, an adjective, or an adverb. Second, watch for negative prefixes; sometimes the answer must be negative, like unemployment. Third, check whether the noun should be plural. For homework, choose one root, such as employ, and build a whole family of words around it. Nadia will collect your lists on Friday. Work carefully, and your vocabulary will grow quickly.",
+    "questions": [
+     {
+      "q": "Word formation appears in which part of the exam? Part …",
+      "answer": "three"
+     },
+     {
+      "q": "First, decide the word … you need.",
+      "answer": "class"
+     },
+     {
+      "q": "Watch for negative …",
+      "answer": "prefixes"
+     },
+     {
+      "q": "Check whether the noun should be …",
+      "answer": "plural"
+     },
+     {
+      "q": "… will collect your lists on Friday.",
+      "answer": "Nadia"
+     }
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "pairwork",
+   "title": "Speaking — skills and word families. In pairs, then record it.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "In pairs, talk about skills and jobs. Model: “A good nurse needs patience, reliability and real expertise.” 1) Which three qualities make someone employable, and why? 2) Turn each quality into a noun, an adjective and an adverb (e.g. create → creativity → creative → creatively). 3) Which job in your town do people most admire, and what skills does it need? Give reasons and examples, then record your discussion."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Choose four root words connected with work (e.g. employ, create, rely, profession). For each, write two sentences using different formed words — a noun, an adjective, an adverb or a negative form. Aim for 8–10 sentences in total. Capital letters and full stops!"
+  }
+ ],
+ "scope": {
+  "grado": "G10",
+  "temaN": 3,
+  "tema": "Words at Work — Inspiring Nordic",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Understand advice about an exam task and note key points (B2 First Listening)."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Discuss skills and careers, forming word families accurately (B2 First Speaking)."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read an informative text about language and work (B2 First Reading)."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write sentences that show control of word formation."
+   },
+   {
+    "destreza": "Use of English",
+    "puede": "Word formation with suffixes and prefixes (Part 3)."
+   }
+  ],
+  "vocabulario": [
+   "employment",
+   "qualification",
+   "reliable",
+   "ambition",
+   "expertise",
+   "productive"
+  ],
+  "gramatica": [
+   "Word formation: suffixes and prefixes",
+   "Word-formation task (Part 3)"
+  ],
+  "pendiente": {}
+ },
+ "wordlist_extra": [
+  "apprenticeship",
+  "motivation",
+  "teamwork"
+ ]
+}

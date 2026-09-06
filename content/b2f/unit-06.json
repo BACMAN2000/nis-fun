@@ -1,0 +1,415 @@
+{
+ "id": "b2f-06",
+ "level": "b2f",
+ "number": 6,
+ "title": "Our voice, our world",
+ "topic": "review & debate",
+ "grammar": "Discourse markers for debating (having said that, on balance, all in all)",
+ "wordlist": [
+  "debate",
+  "concede",
+  "rebuttal",
+  "moderator",
+  "consensus",
+  "motion",
+  "standpoint",
+  "persuasive",
+  "articulate",
+  "confidence"
+ ],
+ "exam_focus": {
+  "paper": "Speaking",
+  "part": 4,
+  "skill": "discussion"
+ },
+ "characters": [
+  "nova"
+ ],
+ "scene": {
+  "speaker": "nova",
+  "bubble": "The final debate! Reflect on the year, learn discourse markers for debating, and speak with confidence.",
+  "intro": "Welcome to Unit 6, the finale of Inspiring Nordic. The class holds a formal debate and looks back on a year of growth. In this unit you read about our closing debate, you learn discourse markers that make a discussion flow (on balance, having said that, all in all), and you prepare for Speaking Part 4. This year gave us a voice — let's use it well."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Vocabulary — debate and discussion. Match each word with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "debate",
+      "right": "a formal discussion of opposing views"
+     },
+     {
+      "left": "concede",
+      "right": "to admit that something is true after first disagreeing"
+     },
+     {
+      "left": "rebuttal",
+      "right": "a reply that argues against a point"
+     },
+     {
+      "left": "moderator",
+      "right": "the person who controls a debate"
+     },
+     {
+      "left": "consensus",
+      "right": "an opinion that everyone in a group agrees on"
+     },
+     {
+      "left": "motion",
+      "right": "the statement that a debate argues for or against"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "reading",
+   "title": "Reading — the debate that ended our year",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "kicker": "Project Finale",
+    "title": "The debate that ended our year",
+    "author": "mateo",
+    "byline": "by Mateo",
+    "text": "<p>Our <i>Inspiring Nordic</i> year ended with a formal debate. The motion was simple but sharp: “This house believes that practical trades matter as much as university degrees.” For weeks we had researched, argued and rehearsed. Now it was real.</p><p><b>Sofía</b> opened for the proposal. She spoke calmly, using the phrases we had practised: “On balance, the evidence is clear.” <b>Liam</b>, on the opposing side, was quick and clever. “Having said that,” he replied, “not every job needs a workshop.” The audience leaned forward.</p><p>What impressed our teacher was not who won, but how we spoke. A year ago, most of us were nervous. Now <b>Nadia</b>, once the quietest in the class, delivered a rebuttal that silenced the room. “All in all,” she concluded, “a society that respects every kind of work is a stronger society.”</p><p>I acted as moderator, keeping time and calm. It was harder than speaking. You must listen to both sides, concede good points fairly, and never take over.</p><p>When the vote came, the room was almost split — which felt right. The best debates rarely have easy answers. Looking back, the project gave us more than grammar and vocabulary. It gave us a voice. And a voice, used well, can change a small part of the world.</p>",
+    "script": "Our Inspiring Nordic year ended with a formal debate. The motion was: this house believes that practical trades matter as much as university degrees. For weeks we had researched, argued and rehearsed. Sofía opened for the proposal, using the phrases we had practised: on balance, the evidence is clear. Liam, on the opposing side, replied, having said that, not every job needs a workshop. What impressed our teacher was not who won, but how we spoke. Nadia, once the quietest in the class, delivered a rebuttal that silenced the room. I acted as moderator, keeping time and calm. The project gave us a voice.",
+    "questions": [
+     {
+      "q": "How did the project year end?",
+      "options": [
+       "with a formal debate",
+       "with a long test",
+       "with a holiday"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "Who opened for the proposal?",
+      "options": [
+       "Sofía",
+       "Liam",
+       "Nadia"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What impressed the teacher most?",
+      "options": [
+       "how the students spoke",
+       "who won the vote",
+       "the room decoration"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What was Mateo's role in the debate?",
+      "options": [
+       "moderator",
+       "opening speaker",
+       "audience member"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What did the project give the students?",
+      "options": [
+       "a voice",
+       "a prize",
+       "a holiday"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "grammar_box",
+   "title": "Grammar — Discourse markers for debating",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "title": "Discourse markers for debating",
+    "intro": "Discourse markers organise a discussion and signal your attitude. In a debate they help you concede a point, balance ideas, or sum up. They make you sound fluent and controlled — exactly what Speaking Part 4 rewards.",
+    "examples": [
+     {
+      "text": "<b>On balance</b>, the evidence supports the trades.",
+      "note": "weighing both sides"
+     },
+     {
+      "text": "<b>Having said that</b>, not every job needs a workshop.",
+      "note": "conceding, then adding a contrast"
+     },
+     {
+      "text": "<b>All in all</b>, it was a fair debate.",
+      "note": "summing up"
+     },
+     {
+      "text": "<b>That said</b>, we should still respect degrees.",
+      "note": "similar to 'having said that'"
+     }
+    ],
+    "rules": [
+     "Use <b>on balance</b> and <b>all in all</b> to weigh arguments or conclude.",
+     "Use <b>having said that / that said</b> to concede a point before disagreeing.",
+     "Put the marker at the start of your sentence, followed by a comma."
+    ],
+    "practice": {
+     "instructions": "Choose the correct discourse marker.",
+     "items": [
+      {
+       "sentence": "___, both sides made good points.",
+       "options": [
+        "On balance",
+        "In balance",
+        "At balance"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "I love the plan. ___, it is expensive.",
+       "options": [
+        "Having said that",
+        "Having say that",
+        "Have said that"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "___, it was the best project of the year.",
+       "options": [
+        "All in all",
+        "All at all",
+        "All of all"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "Degrees are useful. ___, trades are just as valuable.",
+       "options": [
+        "That said",
+        "That saying",
+        "That say"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "___, I think we should respect every kind of work.",
+       "options": [
+        "On the whole",
+        "On the all",
+        "In the whole"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "code": "D",
+   "type": "key_transform",
+   "title": "Use of English Part 4 — key word transformations",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete the second sentence so that it means the same as the first. Use the KEY WORD. Write between two and five words.",
+    "items": [
+     {
+      "first": "The plan is good, but I admit it is expensive.",
+      "key": "SAID",
+      "second_start": "The plan is good.",
+      "second_end": ", it is expensive.",
+      "answers": [
+       "Having said that"
+      ]
+     },
+     {
+      "first": "Degrees are useful, but trades are equally valuable.",
+      "key": "THAT",
+      "second_start": "Degrees are useful.",
+      "second_end": ", trades are equally valuable.",
+      "answers": [
+       "That said"
+      ]
+     },
+     {
+      "first": "When we consider all the arguments, the debate was fair.",
+      "key": "BALANCE",
+      "second_start": "The debate was,",
+      "second_end": ", a fair one.",
+      "answers": [
+       "on balance"
+      ]
+     },
+     {
+      "first": "In summary, the project was a great success.",
+      "key": "ALL",
+      "second_start": "The project,",
+      "second_end": ", was a great success.",
+      "answers": [
+       "all in all"
+      ]
+     },
+     {
+      "first": "Generally, the students spoke with great confidence.",
+      "key": "WHOLE",
+      "second_start": "The students,",
+      "second_end": ", spoke with great confidence.",
+      "answers": [
+       "on the whole"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "gap_text",
+   "title": "Use of English Part 2 — open cloze. Write ONE word in each gap.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "balance",
+     "so",
+     "that",
+     "who",
+     "in",
+     "on"
+    ],
+    "text": "A good debate is not about shouting. On {1}, the calmest speaker is often the most convincing. You should listen carefully {2} you can answer the other side. Having said {3}, do not be afraid to disagree. It is the person {4} gives clear reasons who wins respect. All {5} all, a debate teaches you to think {6} your feet.",
+    "answers": [
+     "balance",
+     "so",
+     "that",
+     "who",
+     "in",
+     "on"
+    ]
+   }
+  },
+  {
+   "code": "F",
+   "type": "listening",
+   "title": "Listening — the final debate. Write ONE word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "b2f/u06-f.mp3",
+   "data": {
+    "voice_note": "Voz: la profesora (Miss Vega), preparando el debate final del proyecto.",
+    "script": "Well done, Grade 10 — we have reached the final debate. Here is how it works. The motion is that practical trades matter as much as degrees. One team argues for, the other against. Mateo will be the moderator, keeping time and order. Use the discourse markers we practised: on balance, having said that, all in all. Speak clearly, listen to your opponents, and concede a good point when you hear one. In Speaking Part four, examiners reward exactly this: fluency, respect and confidence. Take a breath, and let your voice be heard.",
+    "questions": [
+     {
+      "q": "The motion is that practical trades matter as much as …",
+      "answer": "degrees"
+     },
+     {
+      "q": "Mateo will be the …",
+      "answer": "moderator"
+     },
+     {
+      "q": "Concede a good point when you hear …",
+      "answer": "one"
+     },
+     {
+      "q": "Listen to your …",
+      "answer": "opponents"
+     },
+     {
+      "q": "Examiners reward fluency, respect and …",
+      "answer": "confidence"
+     }
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "pairwork",
+   "title": "Speaking — a mini-debate. In pairs, then record it.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "In pairs, hold a mini-debate. Model: “On balance, I believe practical skills deserve more respect at school.” 1) This house believes every student should learn a trade — argue for or against. 2) Use one discourse marker in every turn (on balance, having said that, all in all). 3) At the end, concede one good point your partner made. Give reasons and examples, then record your discussion."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write a short reflection (8–10 sentences) on the Inspiring Nordic project: what did you learn and how did your English improve? Use at least four discourse markers for debating (on balance, having said that, that said, all in all). Capital letters and full stops!"
+  }
+ ],
+ "scope": {
+  "grado": "G10",
+  "temaN": 6,
+  "tema": "Our Voice, Our World — Inspiring Nordic",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Follow instructions for a debate and note key details (B2 First Listening)."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Take part in a discussion using discourse markers and conceding points (B2 First Speaking Part 4)."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read a reflective account of a class debate (B2 First Reading)."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write a reflective text using discourse markers to organise ideas."
+   },
+   {
+    "destreza": "Use of English",
+    "puede": "Discourse markers for debating; open cloze (Part 2)."
+   }
+  ],
+  "vocabulario": [
+   "debate",
+   "concede",
+   "rebuttal",
+   "moderator",
+   "consensus",
+   "motion"
+  ],
+  "gramatica": [
+   "Discourse markers for debating",
+   "Speaking Part 4 discussion"
+  ],
+  "pendiente": {}
+ },
+ "wordlist_extra": [
+  "interruption",
+  "turn-taking",
+  "summarise"
+ ]
+}

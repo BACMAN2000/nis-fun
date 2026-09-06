@@ -1,0 +1,415 @@
+{
+ "id": "b2f-04",
+ "level": "b2f",
+ "number": 4,
+ "title": "The bigger picture",
+ "topic": "relative clauses",
+ "grammar": "Relative clauses (defining, non-defining and reduced)",
+ "wordlist": [
+  "sustainable",
+  "recycle",
+  "landfill",
+  "waste",
+  "durable",
+  "resource",
+  "pollution",
+  "consumption",
+  "secondhand",
+  "repair"
+ ],
+ "exam_focus": {
+  "paper": "Reading & Use of English",
+  "part": 6,
+  "skill": "gapped text"
+ },
+ "characters": [
+  "nova"
+ ],
+ "scene": {
+  "speaker": "nova",
+  "bubble": "Zoom out! See why mending matters for the planet, learn relative clauses, and master the gapped text.",
+  "intro": "Welcome to Unit 4. The Inspiring Nordic project looks at the bigger picture: what our throwaway habits do to the environment, and why the trades are part of the answer. In this unit you read a documentary-style article on sustainability, you learn relative clauses to add information smoothly, and you practise the gapped-text task from Reading and Use of English Part 6. Can repairing help save the planet? Let's see."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Vocabulary — waste and the planet. Match each word with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "sustainable",
+      "right": "able to continue without harming the environment"
+     },
+     {
+      "left": "recycle",
+      "right": "to treat used materials so they can be used again"
+     },
+     {
+      "left": "landfill",
+      "right": "a place where rubbish is buried in the ground"
+     },
+     {
+      "left": "waste",
+      "right": "material that is no longer wanted and thrown away"
+     },
+     {
+      "left": "durable",
+      "right": "strong and able to last a long time"
+     },
+     {
+      "left": "resource",
+      "right": "a material or supply that a country or person can use"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "reading",
+   "title": "Reading — why mending matters",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "kicker": "Planet Watch",
+    "title": "Why mending matters",
+    "author": "sofia",
+    "byline": "by Sofía",
+    "text": "<p>For <i>Inspiring Nordic</i>, we researched a question that felt huge: what happens to all the things we throw away? The answer, which shocked us, is that most of them end up in a <b>landfill</b> or are burned, releasing gases that warm the planet.</p><p>Every year the world produces millions of tonnes of waste, much of which could be avoided. A chair that is broken is usually replaced, not repaired. Yet the trades we have been studying — carpenters, tailors and electricians, whose skills keep objects alive — offer a quiet solution.</p><p><b>Sofía</b>, who led our research, discovered a local workshop where old furniture is restored instead of dumped. <b>Mateo</b>, whose grandfather was a shoemaker, reminded us that mending was once completely normal.</p><p>The idea is simple. Products that are built to last, and craftspeople who can repair them, reduce the waste that damages our environment. A jacket repaired is a jacket that never reaches the landfill.</p><p><b>Nadia</b> summed it up: “The most sustainable object is the one you already own.” Seen this way, the humble trades — which many people ignore — are part of the bigger picture. Every repaired item is a small victory for the planet, and a reason to value the people who make things last.</p>",
+    "script": "For Inspiring Nordic, we researched a question that felt huge: what happens to all the things we throw away? Most of them end up in a landfill or are burned, releasing gases that warm the planet. Every year the world produces millions of tonnes of waste, much of which could be avoided. The trades we have been studying, whose skills keep objects alive, offer a quiet solution. Sofía discovered a local workshop where old furniture is restored instead of dumped. Nadia summed it up: the most sustainable object is the one you already own. Every repaired item is a small victory for the planet.",
+    "questions": [
+     {
+      "q": "What did the class research?",
+      "options": [
+       "what happens to things we throw away",
+       "how to build a rocket",
+       "the history of Nordic music"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "Where do most thrown-away things end up?",
+      "options": [
+       "in a landfill or burned",
+       "in a museum",
+       "back in the shops"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "Who led the research?",
+      "options": [
+       "Sofía",
+       "Mateo",
+       "Liam"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What did Mateo's grandfather do?",
+      "options": [
+       "he was a shoemaker",
+       "he was a pilot",
+       "he was a doctor"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What is Nadia's main idea?",
+      "options": [
+       "the most sustainable object is one you already own",
+       "everyone should buy more",
+       "repairing is pointless"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "grammar_box",
+   "title": "Grammar — Relative clauses (defining, non-defining and reduced)",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "title": "Relative clauses (defining, non-defining and reduced)",
+    "intro": "Relative clauses give more information about a noun. Defining clauses identify which one we mean; non-defining clauses (with commas) add extra information; reduced clauses leave out the relative pronoun and the auxiliary.",
+    "examples": [
+     {
+      "text": "The workshop <b>that restores furniture</b> is near school.",
+      "note": "defining — no commas"
+     },
+     {
+      "text": "Sofía, <b>who led our research</b>, found the workshop.",
+      "note": "non-defining — commas"
+     },
+     {
+      "text": "Mateo, <b>whose grandfather was a shoemaker</b>, agreed.",
+      "note": "whose = possessive"
+     },
+     {
+      "text": "A jacket <b>repaired</b> never reaches the landfill.",
+      "note": "reduced (which is repaired)"
+     }
+    ],
+    "rules": [
+     "Defining clauses identify the noun and use <b>who/which/that</b> with no commas.",
+     "Non-defining clauses add extra information, use <b>commas</b>, and never use <b>that</b>.",
+     "You can reduce a clause by dropping <b>who/which + be</b> (the man who is waiting → the man waiting)."
+    ],
+    "practice": {
+     "instructions": "Choose the correct word.",
+     "items": [
+      {
+       "sentence": "The tailor ___ repaired my coat is very skilled.",
+       "options": [
+        "who",
+        "which",
+        "whose"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "Nadia, ___ idea impressed us, spoke last.",
+       "options": [
+        "whose",
+        "who",
+        "which"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "That is the workshop ___ we visited last week.",
+       "options": [
+        "which",
+        "who",
+        "whose"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "My uncle, ___ lives in Lima, is a carpenter.",
+       "options": [
+        "who",
+        "which",
+        "that"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "The items ___ in the bin could have been repaired.",
+       "options": [
+        "thrown",
+        "throwing",
+        "throws"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "code": "D",
+   "type": "key_transform",
+   "title": "Use of English Part 4 — key word transformations",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Complete the second sentence so that it means the same as the first. Use the KEY WORD. Write between two and five words.",
+    "items": [
+     {
+      "first": "The workshop is near school. It restores old furniture.",
+      "key": "WHICH",
+      "second_start": "The workshop,",
+      "second_end": ", is near school.",
+      "answers": [
+       "which restores old furniture"
+      ]
+     },
+     {
+      "first": "Sofía found the workshop. She led our research.",
+      "key": "WHO",
+      "second_start": "Sofía,",
+      "second_end": ", found the workshop.",
+      "answers": [
+       "who led our research"
+      ]
+     },
+     {
+      "first": "Mateo told us about mending. His grandfather was a shoemaker.",
+      "key": "WHOSE",
+      "second_start": "Mateo,",
+      "second_end": ", told us about mending.",
+      "answers": [
+       "whose grandfather was a shoemaker"
+      ]
+     },
+     {
+      "first": "The jacket was repaired, so it never reached the landfill.",
+      "key": "REPAIRED",
+      "second_start": "The jacket",
+      "second_end": "never reached the landfill.",
+      "answers": [
+       "that was repaired"
+      ]
+     },
+     {
+      "first": "We visited a workshop last week. It restores furniture.",
+      "key": "THAT",
+      "second_start": "The workshop",
+      "second_end": "last week restores furniture.",
+      "answers": [
+       "that we visited"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "gap_text",
+   "title": "Use of English Part 2 — open cloze. Write ONE word in each gap.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "one",
+     "with",
+     "who",
+     "which",
+     "of",
+     "that"
+    ],
+    "text": "Repairing an old object is often better than buying a new {1}. A chair {2} a broken leg can easily be mended. The people {3} do this work are skilled craftspeople. Their workshop, {4} we visited last week, was full {5} restored furniture. It is a habit {6} we should all develop.",
+    "answers": [
+     "one",
+     "with",
+     "who",
+     "which",
+     "of",
+     "that"
+    ]
+   }
+  },
+  {
+   "code": "F",
+   "type": "listening",
+   "title": "Listening — the reading task. Write ONE word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "b2f/u04-f.mp3",
+   "data": {
+    "voice_note": "Voz: la profesora (Miss Vega), presentando el texto sobre el medio ambiente.",
+    "script": "Good morning, Grade 10. Our reading today is about sustainability, which links directly to the trades project. Here is the key idea: every object we repair is one less object in the landfill. The Cambridge exam calls this task the gapped text, where you fit missing paragraphs into an article. Read carefully and follow the pronouns; a word like which or who often tells you what comes before. For Thursday, find one thing at home that could be repaired instead of replaced. Sofía will start our discussion. Small choices matter.",
+    "questions": [
+     {
+      "q": "Today's reading is about …",
+      "answer": "sustainability"
+     },
+     {
+      "q": "Every object we repair is one less object in the …",
+      "answer": "landfill"
+     },
+     {
+      "q": "The Cambridge task here is called the … text.",
+      "answer": "gapped"
+     },
+     {
+      "q": "Follow the pronouns like 'which' or …",
+      "answer": "who"
+     },
+     {
+      "q": "… will start the discussion.",
+      "answer": "Sofía"
+     }
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "pairwork",
+   "title": "Speaking — consumption and the planet. In pairs, then record it.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "In pairs, discuss consumption and the environment. Model: “The most sustainable jacket is the one that you already own.” 1) What is something you own that you could repair instead of replacing? 2) Why do you think people, who used to mend things, now throw them away? 3) Should schools teach basic repair skills, which many families have lost? Give reasons and examples, then record your discussion."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write a short opinion text (8–10 sentences) about reducing waste in your community. Use at least four relative clauses — defining, non-defining and one reduced (e.g. 'The workshop, which restores furniture, is popular' / 'items thrown away too soon'). Capital letters and full stops!"
+  }
+ ],
+ "scope": {
+  "grado": "G10",
+  "temaN": 4,
+  "tema": "The Bigger Picture — Inspiring Nordic",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Follow an introduction to a text and note key details (B2 First Listening)."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Discuss the environment using relative clauses to add information (B2 First Speaking)."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read a documentary-style article and follow how paragraphs connect (B2 First Reading)."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write an opinion text using defining and non-defining relative clauses."
+   },
+   {
+    "destreza": "Use of English",
+    "puede": "Relative clauses; the gapped-text task (Part 6)."
+   }
+  ],
+  "vocabulario": [
+   "sustainable",
+   "recycle",
+   "landfill",
+   "waste",
+   "durable",
+   "resource"
+  ],
+  "gramatica": [
+   "Relative clauses (defining, non-defining, reduced)",
+   "Gapped text (Part 6)"
+  ],
+  "pendiente": {}
+ },
+ "wordlist_extra": [
+  "emissions",
+  "biodegradable",
+  "throwaway"
+ ]
+}

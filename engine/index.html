@@ -84,6 +84,9 @@ if(/\.github\.io$/i.test(location.hostname)){
     padding:.9rem 1.1rem;text-align:left;max-width:44rem;margin-inline:auto}
   .sc-grado h4{margin:0 0 .2rem;font-family:"Baloo 2",sans-serif;color:var(--accent)}
   .sc-nota{margin:0 0 .5rem;color:var(--soft);font-size:.9rem}
+  /* el aviso de lo que la unidad deja oir pero todavia no se le pide */
+  .sc-adelanto{margin:.9rem 0 0;padding:.6rem .9rem;border-left:3px solid var(--accent);
+    background:var(--surface2);border-radius:0 10px 10px 0;color:var(--ink);font-size:.94rem}
   .sc-grado ul{margin:0;padding-left:1.1rem}
   .sc-grado li{margin:.25rem 0;line-height:1.5}
   /* palabras de ampliacion que pide la secuencia */
@@ -666,6 +669,19 @@ if(/\.github\.io$/i.test(location.hostname)){
   .gb-rules{margin:.2rem 0 0;padding-left:1.2rem;color:var(--ink);display:flex;flex-direction:column;gap:.25rem}
   .gb-practice{margin-top:1rem}
   .gb-ph{margin-bottom:.5rem}
+  /* ===== key word transformations ===== */
+  .kwt{max-width:46rem;margin-inline:auto}
+  .kwt-instr{margin-bottom:.8rem}
+  .kwt-item{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:.7rem .9rem;margin-bottom:.7rem}
+  .kwt-first{margin:0 0 .3rem;font-weight:600}
+  .kwt-key{margin:.2rem 0;color:var(--soft)}
+  .kwt-tag{background:var(--accent);color:#fff;font-family:"Source Sans 3";font-weight:700;font-size:.66rem;letter-spacing:.06em;padding:.1rem .4rem;border-radius:5px;margin-right:.3rem}
+  .kwt-second{margin:.3rem 0 .1rem;line-height:1.9}
+  .kwt-in{border:none;border-bottom:2px solid var(--accent);background:var(--surface2);border-radius:6px 6px 0 0;padding:.2rem .5rem;font-family:"Source Sans 3";font-weight:600;min-width:9rem}
+  .kwt-in.ok{border-color:var(--ok);background:#e2f2e9}
+  .kwt-in.bad{border-color:var(--bad);background:#fbe6e3}
+  .kwt-mark{font-weight:700;font-size:.9rem}
+  .kwt-mark.good{color:var(--ok)} .kwt-mark.bad{color:var(--bad)}
 </style>
 </head>
 <body>
@@ -682,7 +698,7 @@ if(/\.github\.io$/i.test(location.hostname)){
 <script src="orientacion.js?v=1"></script>
 <script src="screens.js?v=6"></script>
 <script src="banner.js?v=12"></script>
-<script src="magicbox.js?v=6"></script>
+<script src="magicbox.js?v=8"></script>
 <script src="recorder.js?v=3"></script>
 <script src="paint-layer.js?v=2"></script>
 <!-- el curso comparte dominio y sesion con el portal -->
@@ -724,7 +740,7 @@ const slugArte = k => String((window.VOCAB_ART && VOCAB_ART.base(k)) || k)
   if (el) el.textContent = txt;
 });
 const app = document.getElementById('app');
-const COLORS = { starters:'#d97d0d', movers:'#2f9268', flyers:'#3b6fb5', ket:'#6d5bd0', pet:'#0e7490' };
+const COLORS = { starters:'#d97d0d', movers:'#2f9268', flyers:'#3b6fb5', ket:'#6d5bd0', pet:'#0e7490', b2f:'#a3324e' };
 // Escapa el texto que va dentro de un atributo (las palabras del wordlist
 // llevan apostrofes: chemist's).
 // Modo demostracion (?demo=1): solo las dos primeras unidades de cada nivel,
@@ -1026,7 +1042,7 @@ const MASCOTA = {
                   "Je suis le facteur de l'école. J'apporte des lettres et des cartes postales de très loin — mais je me pose très mal !") },
 };
 
-const GUIA = { starters: 'pip', movers: 'luna', flyers: 'kili', ket: 'nova', pet: 'nova' };
+const GUIA = { starters: 'pip', movers: 'luna', flyers: 'kili', ket: 'nova', pet: 'nova', b2f: 'nova' };
 
 /* La tira de la mascota presentando algo.
  *
@@ -1427,12 +1443,29 @@ function pintaSelfCheck(el, digital){
     if (t && !puedo.includes(t)) puedo.push(t);
   });
 
+  /* Lo que la unidad ensena por encima de su nivel. Antes salia mezclado
+     con el resto y el alumno lo daba por suyo: hay estructuras que aparecen
+     en el dialogo de una unidad de Movers pero que Cambridge pide en Flyers.
+     Se dice, y se dice donde se aprende de verdad. */
+  function adelanto(){
+    const a = UD.grammar_ahead;
+    if (!a || !a.structure) return '';
+    const donde = a.level && a.unit
+      ? T(` You will learn it in ${a.level[0].toUpperCase()+a.level.slice(1)}, unit ${a.unit}.`,
+          ` Tu l'apprendras en ${a.level}, unité ${a.unit}.`)
+      : '';
+    return `<p class="sc-adelanto"><b>${T('Coming later:','Pour plus tard :')}</b>
+      ${T('you will also hear','tu entendras aussi')} <b>${esc(a.structure)}</b>
+      ${T('in this unit — just listen to it for now.',"dans cette unité — écoute-la, c'est tout pour l'instant.")}${donde}</p>`;
+  }
+
   el.innerHTML = `
     <p class="sc-intro">${T('Tick the things you can do. Be honest — it helps your teacher.','Coche ce que tu sais faire. Sois honnête — ça aide ton professeur.')}</p>
     <ul class="sc-lista">${puedo.map((t,i)=>`
       <li><label><input type="checkbox" data-i="${i}"${marcado[i]?' checked':''}>
         <span>${t}</span></label></li>`).join('')}</ul>
     <p class="sc-cuenta"></p>
+    ${adelanto()}
     ${delGrado.length ? `<div class="sc-grado">
       <h4>${esc(((UD.scope||{}).tema)||'')} · ${esc(((UD.scope||{}).grado)||'')}</h4>
       <p class="sc-nota">${T('This unit is part of what you will be able to do by the end of the year:',
@@ -2707,6 +2740,40 @@ grammar_box(act, el){
     const sc=el.querySelector('.score'); sc.textContent=`${ok} / ${pr.length}`;
     sc.className='score '+(ok===pr.length?'good':'partial');
     if(ok===pr.length) complete(act.code);
+  };
+},
+
+/* ---- key_transform: key word transformations (B2/C1 Use of English) ----
+   Reescribe la segunda frase con la palabra clave, en 2-5 palabras. */
+key_transform(act, el){
+  el.classList.add('kwt');
+  const d = act.data || {};
+  const items = d.items || [];
+  el.innerHTML = `<p class="kwt-instr"><i>${esc(d.instructions || T('Complete the second sentence so it means the same as the first. Use the key word. Write between two and five words.','Complète la deuxième phrase.'))}</i></p>
+    ${items.map((it,i)=>`<div class="kwt-item" data-i="${i}">
+      <p class="kwt-first">${i+1}. ${esc(it.first)}</p>
+      <p class="kwt-key"><span class="kwt-tag">${T('KEY WORD','MOT')}</span> <b>${esc(it.key)}</b></p>
+      <p class="kwt-second">${esc(it.second_start||'')} <input class="kwt-in" autocomplete="off" placeholder="2-5 words"> ${esc(it.second_end||'')}</p>
+      <span class="kwt-mark"></span>
+    </div>`).join('')}
+    <div class="checkrow"><button class="chk">${T('Check','Vérifier')}</button><span class="score"></span></div>`;
+  const norm = v => String(v||'').toLowerCase().replace(/[.,!?;]/g,'').replace(/\s+/g,' ').replace(/^ | $/g,'');
+  el.querySelector('.chk').onclick=()=>{
+    let ok=0;
+    el.querySelectorAll('.kwt-item').forEach(row=>{
+      const it=items[+row.dataset.i];
+      const inp=row.querySelector('.kwt-in');
+      const val=norm(inp.value);
+      const good=(it.answers||[]).some(a=>norm(a)===val);
+      inp.className='kwt-in '+(good?'ok':'bad');
+      const m=row.querySelector('.kwt-mark');
+      m.textContent = good ? '✓' : ('✗  ' + (it.answers&&it.answers[0]?('('+it.answers[0]+')'):''));
+      m.className='kwt-mark '+(good?'good':'bad');
+      if(good) ok++;
+    });
+    const s=el.querySelector('.score'); s.textContent=`${ok} / ${items.length}`;
+    s.className='score '+(ok===items.length?'good':'partial');
+    if(ok===items.length) complete(act.code);
   };
 },
 
