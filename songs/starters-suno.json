@@ -413,7 +413,8 @@
    "groove": "campo",
    "estado": "listo",
    "ojo": "Chant y cancion de esta unidad se llaman los dos 'Breakfast Time' en Suno. Distinguir por estilo (playground chant / country hoedown) o por id.",
-   "elegida": "2b796240-d7ba-4168-ae2a-6366cff8a287"
+   "elegida": "2b796240-d7ba-4168-ae2a-6366cff8a287",
+   "descargada": "en-starters-34-cancion.mp3"
   },
   "35": {
    "titulo": "Open the Lunchbox",
@@ -424,7 +425,8 @@
    ],
    "groove": "calipso",
    "estado": "listo",
-   "elegida": "9b899a3d-759b-4c01-8303-114b7944c1a5"
+   "elegida": "9b899a3d-759b-4c01-8303-114b7944c1a5",
+   "descargada": "en-starters-35-cancion.mp3"
   },
   "36": {
    "titulo": "It's Your Day",
@@ -435,7 +437,8 @@
    ],
    "groove": "rocanrol",
    "estado": "listo",
-   "elegida": "6c70d046-e3ce-4527-bc6e-0fc3fa05e7b8"
+   "elegida": "6c70d046-e3ce-4527-bc6e-0fc3fa05e7b8",
+   "descargada": "en-starters-36-cancion.mp3"
   },
   "37": {
    "titulo": "Wiggle and Wave",
@@ -446,7 +449,8 @@
    ],
    "groove": "funk",
    "estado": "listo",
-   "elegida": "49b72810-4b92-4683-8e13-c3d764bbd3f0"
+   "elegida": "49b72810-4b92-4683-8e13-c3d764bbd3f0",
+   "descargada": "en-starters-37-cancion.mp3"
   },
   "38": {
    "titulo": "Animals Can",
@@ -457,7 +461,8 @@
    ],
    "groove": "banda",
    "estado": "listo",
-   "elegida": "7949e917-6a13-4027-9f2b-be42559ef418"
+   "elegida": "7949e917-6a13-4027-9f2b-be42559ef418",
+   "descargada": "en-starters-38-cancion.mp3"
   },
   "39": {
    "titulo": "Past Ten",
@@ -468,7 +473,8 @@
    ],
    "groove": "electro",
    "estado": "listo",
-   "elegida": "fb05db51-2e2e-4572-8388-59f650ca33b3"
+   "elegida": "fb05db51-2e2e-4572-8388-59f650ca33b3",
+   "descargada": "en-starters-39-cancion.mp3"
   },
   "40": {
    "titulo": "Twenty-Six Letters",
@@ -479,7 +485,8 @@
    ],
    "groove": "funk",
    "estado": "listo",
-   "elegida": "842aa83f-b3d2-4279-82db-6ded06a61d17"
+   "elegida": "842aa83f-b3d2-4279-82db-6ded06a61d17",
+   "descargada": "en-starters-40-cancion.mp3"
   },
   "41": {
    "titulo": "Letter by Letter",
@@ -490,7 +497,8 @@
    ],
    "groove": "electro",
    "estado": "listo",
-   "elegida": "2aca217f-25ce-468c-917f-bc89894f2b4b"
+   "elegida": "2aca217f-25ce-468c-917f-bc89894f2b4b",
+   "descargada": "en-starters-41-cancion.mp3"
   },
   "42": {
    "titulo": "He Is, She Is, It Is",
@@ -501,7 +509,8 @@
    ],
    "groove": "doowop",
    "estado": "listo",
-   "elegida": "a37e2c55-7426-476d-a65a-5498374e0e75"
+   "elegida": "a37e2c55-7426-476d-a65a-5498374e0e75",
+   "descargada": "en-starters-42-cancion.mp3"
   },
   "43": {
    "titulo": "Here and There",
@@ -512,7 +521,8 @@
    ],
    "groove": "polka",
    "estado": "listo",
-   "elegida": "4147c094-5ba3-46bd-8fa4-3bd37fd66039"
+   "elegida": "4147c094-5ba3-46bd-8fa4-3bd37fd66039",
+   "descargada": "en-starters-43-cancion.mp3"
   },
   "44": {
    "titulo": "The Magic Word",
@@ -523,7 +533,8 @@
    ],
    "groove": "rocanrol",
    "estado": "listo",
-   "elegida": "b92f7a72-2e75-41fb-af37-143c9da427ec"
+   "elegida": "b92f7a72-2e75-41fb-af37-143c9da427ec",
+   "descargada": "en-starters-44-cancion.mp3"
   },
   "45": {
    "titulo": "The Lighthouse Party",
@@ -534,7 +545,8 @@
    ],
    "groove": "gospel",
    "estado": "listo",
-   "elegida": "918c397a-b7fa-4579-ac51-a71509077af1"
+   "elegida": "918c397a-b7fa-4579-ac51-a71509077af1",
+   "descargada": "en-starters-45-cancion.mp3"
   }
  },
  "chants": {
@@ -547,7 +559,8 @@
    ],
    "estado": "listo",
    "elegida": "f057a6c9-af64-423c-abf7-77fd6d1119a9",
-   "elegida_por": "Claude, primera de las dos: el usuario dijo que en los chants cualquiera vale (3-sep-2026)"
+   "elegida_por": "Claude, primera de las dos: el usuario dijo que en los chants cualquiera vale (3-sep-2026)",
+   "descargada": "en-starters-01-chant.mp3"
   },
   "02": {
    "titulo": "Who Is This?",
@@ -562,7 +575,8 @@
     "5cf39c5c-0cbf-44d4-9421-1d38f95a2c6a",
     "808302ae-c881-41b9-9dd9-7386f6d47ba1"
    ],
-   "elegida_por": "Claude, primera de las dos: el usuario dijo que en los chants cualquiera vale (3-sep-2026)"
+   "elegida_por": "Claude, primera de las dos: el usuario dijo que en los chants cualquiera vale (3-sep-2026)",
+   "descargada": "en-starters-02-chant.mp3"
   },
   "03": {
    "titulo": "It Can!",
@@ -920,7 +934,8 @@
     "3f7cd9ce-1c5e-454f-8593-88aa67abc622"
    ],
    "estado": "listo",
-   "elegida": "3f7cd9ce-1c5e-454f-8593-88aa67abc622"
+   "elegida": "3f7cd9ce-1c5e-454f-8593-88aa67abc622",
+   "descargada": "en-starters-36-chant.mp3"
   },
   "37": {
    "titulo": "Hands Up!",
@@ -930,7 +945,8 @@
     "6986eaae-59db-4dff-90df-ea125a9e265c"
    ],
    "estado": "listo",
-   "elegida": "6986eaae-59db-4dff-90df-ea125a9e265c"
+   "elegida": "6986eaae-59db-4dff-90df-ea125a9e265c",
+   "descargada": "en-starters-37-chant.mp3"
   },
   "38": {
    "titulo": "Can It Fly?",
@@ -940,7 +956,8 @@
     "eafaafe7-76ff-48fa-892a-bab9ccaf072e"
    ],
    "estado": "listo",
-   "elegida": "eafaafe7-76ff-48fa-892a-bab9ccaf072e"
+   "elegida": "eafaafe7-76ff-48fa-892a-bab9ccaf072e",
+   "descargada": "en-starters-38-chant.mp3"
   },
   "39": {
    "titulo": "Eleven What?",
@@ -950,7 +967,8 @@
     "9fb280de-9f03-482c-a394-5630f45e4d46"
    ],
    "estado": "listo",
-   "elegida": "9fb280de-9f03-482c-a394-5630f45e4d46"
+   "elegida": "9fb280de-9f03-482c-a394-5630f45e4d46",
+   "descargada": "en-starters-39-chant.mp3"
   },
   "40": {
    "titulo": "A Is First",
@@ -960,7 +978,8 @@
     "f6c5d939-a9a9-4e27-95f8-a28855125f73"
    ],
    "estado": "listo",
-   "elegida": "f6c5d939-a9a9-4e27-95f8-a28855125f73"
+   "elegida": "f6c5d939-a9a9-4e27-95f8-a28855125f73",
+   "descargada": "en-starters-40-chant.mp3"
   },
   "41": {
    "titulo": "How Do You Spell It?",
@@ -971,7 +990,8 @@
    ],
    "estado": "listo",
    "ojo": "Chant y cancion de esta unidad se llaman los dos 'Spell Your Name' en Suno. Distinguir por estilo (playground chant / electro-pop) o por id.",
-   "elegida": "deb93746-ff3c-43de-be62-ac5ddc0c034a"
+   "elegida": "deb93746-ff3c-43de-be62-ac5ddc0c034a",
+   "descargada": "en-starters-41-chant.mp3"
   },
   "43": {
    "titulo": "This or That?",
@@ -981,7 +1001,8 @@
     "f9fe4cfb-7e9f-4e13-842d-b1c5215bfd7b"
    ],
    "estado": "listo",
-   "elegida": "f9fe4cfb-7e9f-4e13-842d-b1c5215bfd7b"
+   "elegida": "f9fe4cfb-7e9f-4e13-842d-b1c5215bfd7b",
+   "descargada": "en-starters-43-chant.mp3"
   },
   "44": {
    "titulo": "Guess the Word!",
@@ -991,7 +1012,8 @@
     "2fc88403-ebfd-4782-ba9b-a73201b45ea4"
    ],
    "estado": "listo",
-   "elegida": "2fc88403-ebfd-4782-ba9b-a73201b45ea4"
+   "elegida": "2fc88403-ebfd-4782-ba9b-a73201b45ea4",
+   "descargada": "en-starters-44-chant.mp3"
   },
   "45": {
    "titulo": "Hooray!",
@@ -1001,7 +1023,8 @@
     "59c5d47d-cf0d-4b89-afb2-6309fffc0d15"
    ],
    "estado": "listo",
-   "elegida": "59c5d47d-cf0d-4b89-afb2-6309fffc0d15"
+   "elegida": "59c5d47d-cf0d-4b89-afb2-6309fffc0d15",
+   "descargada": "en-starters-45-chant.mp3"
   },
   "42": {
    "titulo": "He or She?",
@@ -1012,7 +1035,8 @@
    ],
    "estado": "listo",
    "nota": "Rechazada dos veces por copyright sin que se viera el aviso. La letra vieja era casi la del chant de la unidad 19 (misma pregunta, misma respuesta 'It's a boy! It's a girl!'). Reescrita eligiendo entre dos (he or she?), paso a la primera.",
-   "elegida": "b79747f6-6164-4013-b933-e479f2479950"
+   "elegida": "b79747f6-6164-4013-b933-e479f2479950",
+   "descargada": "en-starters-42-chant.mp3"
   }
  },
  "descartar": {
@@ -1033,5 +1057,6 @@
  "_captcha": "Cloudflare puede meter un CAPTCHA en mitad de una tanda. Mientras esta puesto, la pagina no responde: la caja de letra no se vacia y el Create no llega. Lo resuelve el usuario, no Claude. Sintoma: el borrado falla dos veces seguidas.",
  "_aviso_dura_poco": "El aviso rojo dura unos 5 segundos: hay que mirarlo a los 3-4, no a los 8. Comprobandolo tarde parece que no hubo rechazo y la pieza se da por buena cuando en realidad no existe.",
  "_descargas": "La cuenta Pro trae un CUPO DE DESCARGAS, no ilimitado: el 3-sep-2026 quedaban 27 y se renueva el 20-sep. Las 90 piezas NO caben. El dialogo de Download lo dice abajo ('Downloads / Refreshes'); mirarlo antes de empezar una tanda de descargas.",
- "_seleccion": "'elegida' es el id de la toma que marco el usuario. Null cuando marco las dos o ninguna: eso lo decide el usuario, no se elige por cuenta propia."
+ "_seleccion": "'elegida' es el id de la toma que marco el usuario. Null cuando marco las dos o ninguna: eso lo decide el usuario, no se elige por cuenta propia.",
+ "_flujo_descarga": "Suno pide DOS pulsaciones: Unlock & Download (gasta cupo, cierra el dialogo) y despues Download (baja el archivo). Ademas Chrome exige un gesto de usuario REAL para iniciar la descarga: un click por JS abre el dialogo pero no baja nada. Por eso esto no se puede automatizar de forma fiable desde aqui."
 }
