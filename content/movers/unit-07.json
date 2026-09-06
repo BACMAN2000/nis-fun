@@ -32,7 +32,8 @@
    "sofia": 8,
    "valentina": 1
   },
-  "bubble": "Market day! We need fruit for the club milkshakes — and Luna is carrying the basket!"
+  "bubble": "Market day! We need fruit for the club milkshakes — and Luna is carrying the basket!",
+  "intro": "Market day! Sofía and Valentina need fruit for the club milkshakes. How many pears? Six. How much are the grapes? Not expensive. They buy lemons, two coconuts and a bag of carrots, and the bags are heavier every step. Luna carries nothing but walks in front like the leader of the expedition. How much is your favourite fruit? Come to the market and ask!"
  },
  "activities": [
   {
@@ -151,7 +152,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

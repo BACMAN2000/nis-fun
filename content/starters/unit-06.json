@@ -32,7 +32,8 @@
    "nico": 1,
    "pip": 1
   },
-  "bubble": "Colour hunt! Find something red, something blue… Pip found something black and white: himself!"
+  "bubble": "Colour hunt! Find something red, something blue… Pip found something black and white: himself!",
+  "intro": "Colour hunt in the lighthouse! Nico looks for something red and finds an apple. He looks for something blue and finds the sea from the window. He looks for something green and finds… a green sock under the bed! And Pip? Pip finds something black and white: himself, in the mirror. What colour is your bag? What colour is your door? Look around you and say the colours with Nico!"
  },
  "activities": [
   {
@@ -147,7 +148,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct colour.",
+   "title": "Quick check · Choose the correct colour.",
    "outputs": [
     "book",
     "digital",

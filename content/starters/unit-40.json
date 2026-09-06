@@ -32,7 +32,8 @@
    "freya": 1,
    "pip": 3
   },
-  "bubble": "A-B-C-D… the alphabet song! Twenty-six letters, one big song, and Pip whistling along!"
+  "bubble": "A-B-C-D… the alphabet song! Twenty-six letters, one big song, and Pip whistling along!",
+  "intro": "A-B-C-D… the alphabet song! Freya knows all twenty-six letters and she sings them very fast. A is the first letter, Z is the last one. Big letters for names, small letters for the rest. Pip stops on the letter P, because P is for Pip, P is for puffin — his two favourite words. Can you sing the whole alphabet? Take a big breath and start with Freya!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct letter fact.",
+   "title": "Quick check · Choose the correct letter fact.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

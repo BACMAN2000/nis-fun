@@ -32,7 +32,8 @@
    "tomas": 7,
    "pip": 1
   },
-  "bubble": "I can jump, I can run, I can swim! Pip can fly… but he can't ride a bike!"
+  "bubble": "I can jump, I can run, I can swim! Pip can fly… but he can't ride a bike!",
+  "intro": "I can jump! says Tomás, and he jumps. I can run! And he runs. I can swim, I can climb, I can dance — badly, but I can dance! Pip looks at him and opens his wings: I can fly, and you can't! True. But Pip can't ride a bicycle, and Tomás can. Everybody can do something. What can YOU do? Show us — and then find something you can't do yet!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose can or can't.",
+   "title": "Quick check · Choose can or can't.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

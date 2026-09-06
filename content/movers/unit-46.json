@@ -32,7 +32,8 @@
    "mateo": 3,
    "valentina": 1
   },
-  "bubble": "Club tradition: pancake Saturday at Café Aurora! I always order the same… everything."
+  "bubble": "Club tradition: pancake Saturday at Café Aurora! I always order the same… everything.",
+  "intro": "Club tradition: pancake Saturday at Café Aurora! Can I have pancakes with honey, please? asks Mateo, who always orders the same. Can I have a hot chocolate and some toast? asks Valentina. Anything else? says the waiter. Yes — more pancakes. Then comes the bill, and everybody looks for coins. What do you order in a café? Practise and ask politely!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the polite order.",
+   "title": "Quick check · Choose the polite order.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the best reply.",
+   "title": "Quick check · Choose the best reply.",
    "outputs": [
     "book",
     "digital",

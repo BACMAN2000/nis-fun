@@ -32,7 +32,8 @@
    "diego": 3,
    "oliver": 10
   },
-  "bubble": "Sports report! Our school volleyball team won the regional cup — Oliver scored the last point!"
+  "bubble": "Sports report! Our school volleyball team won the regional cup — Oliver scored the last point!",
+  "intro": "Sports report by Diego! Our school volleyball team won the regional final on Saturday. We play volleyball and football, we go skating and snowboarding in winter, and we do gymnastics on Thursdays. Oliver went sledging last year and still talks about it. There is a race next month, and the whole school is training. What sports do YOU play, go or do? Get the verb right!"
  },
  "activities": [
   {
@@ -151,7 +152,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

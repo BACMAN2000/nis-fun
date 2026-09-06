@@ -32,7 +32,8 @@
    "erik": 3,
    "sofia": 4
   },
-  "bubble": "The new neighbours arrive today! Let's learn to describe people — without pointing, Mateo!"
+  "bubble": "The new neighbours arrive today! Let's learn to describe people — without pointing, Mateo!",
+  "intro": "The new neighbours arrive today, so Erik and Sofía practise describing people. He has got short dark hair and glasses. She has got long hair and green eyes. The grandfather has got a white beard and he is quite old; the baby is very young. Nobody is 'normal' — everybody is different. Describe someone in your class and let your friends guess who it is!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct word to describe.",
+   "title": "Quick check · Choose the correct word to describe.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

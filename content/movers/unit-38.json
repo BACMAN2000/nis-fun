@@ -32,7 +32,8 @@
    "sofia": 2,
    "erik": 5
   },
-  "bubble": "Simon Says, club edition! Stand up, turn around, don't laugh… Erik always laughs."
+  "bubble": "Simon Says, club edition! Stand up, turn around, don't laugh… Erik always laughs.",
+  "intro": "Simon Says, club edition! Stand up. Turn around. Open your book. Don't look at your friend's page! Sit down, wait, listen. Sofía gives the orders very fast and Erik does everything one second late, so he is always out. Then Erik gives the orders and nobody understands his inventions. Play with your class: give the order, and be quick!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct imperative.",
+   "title": "Quick check · Choose the correct imperative.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

@@ -32,7 +32,8 @@
    "valentina": 4,
    "sofia": 3
   },
-  "bubble": "Sofía has got a cold, so today the Club meets at her window — with soup, comics and songs from the garden!"
+  "bubble": "Sofía has got a cold, so today the Club meets at her window — with soup, comics and songs from the garden!",
+  "intro": "Sofía has got a cold, so today the Club meets at her window! What's the matter? asks Valentina from the garden. I've got a cough and a headache, and I think I've got a temperature, says Sofía from her bed with three blankets. Luna sits under the window all afternoon, waiting. Are you ill? Have you got a stomach-ache? Learn to say what's wrong!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct answer.",
+   "title": "Quick check · Choose the correct answer.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

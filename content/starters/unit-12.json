@@ -32,7 +32,8 @@
    "tomas": 3,
    "nico": 1
   },
-  "bubble": "Lunch time! I like chicken and rice. Nico likes pizza. Pip likes… everything!"
+  "bubble": "Lunch time! I like chicken and rice. Nico likes pizza. Pip likes… everything!",
+  "intro": "Lunch time in the lighthouse! Tomás likes chicken and rice, and he eats it very fast. Nico doesn't like fish, so he puts it under his bread — but everybody sees it! Then comes the cake, and now Nico likes everything again. Pip likes ice cream, cheese, eggs… Pip likes food. What do YOU like? What don't you like? Sit down at the table and tell us!"
  },
  "activities": [
   {
@@ -147,7 +148,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",
@@ -226,6 +227,92 @@
    ],
    "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
    "data": {}
+  },
+  {
+   "code": "G",
+   "type": "grammar_box",
+   "title": "Grammar · Me too!",
+   "instructions": "Read the sentences. Then choose the right word.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "structure": "Me too!",
+   "data": {
+    "title": "Me too!",
+    "intro": "Your friend says something and you feel the same. Two words and you are in: <b>Me too!</b>",
+    "can": "I can say <b>Me too!</b> when I like the same thing as my friend.",
+    "examples": [
+     {
+      "text": "I like football. <b>Me too.</b>",
+      "note": "Cambridge"
+     },
+     {
+      "text": "Nico: I like pizza. — Tomas: <b>Me too!</b>"
+     },
+     {
+      "text": "Nico: I want some cake. — Tomas: <b>Me too!</b>"
+     },
+     {
+      "text": "Nico: I have got a red bag. — Tomas: <b>Me too!</b>"
+     }
+    ],
+    "rules": [
+     "Say <b>Me too!</b> when the same thing is true for you.",
+     "It is very short. Say it quickly and smile!",
+     "Now try it: tell your partner one food you like and wait for \"Me too!\""
+    ],
+    "practice": {
+     "instructions": "Choose the right answer.",
+     "items": [
+      {
+       "sentence": "— I like cake. — ___!",
+       "options": [
+        "Me too",
+        "I too",
+        "Too me"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "— I'm happy today. — Me ___!",
+       "options": [
+        "to",
+        "two",
+        "too"
+       ],
+       "answer": 2
+      },
+      {
+       "sentence": "— I like ice cream. — ___",
+       "options": [
+        "You too!",
+        "Me too!",
+        "Too me!"
+       ],
+       "answer": 1
+      },
+      {
+       "sentence": "Tomas likes milk. Nico likes milk. Nico says: ___",
+       "options": [
+        "Me too!",
+        "Me and!",
+        "Too!"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "— I have got a cat. — Me ___! Her name is Pip.",
+       "options": [
+        "to",
+        "too",
+        "so"
+       ],
+       "answer": 1
+      }
+     ]
+    }
+   }
   }
  ],
  "homework": [

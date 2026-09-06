@@ -32,7 +32,8 @@
    "sofia": 7,
    "mateo": 10
   },
-  "bubble": "Sports day! Green team against blue team — and Luna is the official ball-fetcher!"
+  "bubble": "Sports day! Green team against blue team — and Luna is the official ball-fetcher!",
+  "intro": "Sports day! Green team against blue team, and Luna is the loudest supporter of both. Sofía runs fast, very fast, and she jumps high in the long jump. Mateo throws the ball well but catches it badly, so his team laughs and then wins anyway. Everybody runs, everybody claps. Who runs fastest in YOUR class? Come to the race and cheer!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",
@@ -253,6 +254,92 @@
    ],
    "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
    "data": {}
+  },
+  {
+   "code": "G",
+   "type": "grammar_box",
+   "title": "Grammar · I'm good at running!",
+   "instructions": "Read the sentences. Then choose the right word.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "structure": "Be good at + noun",
+   "data": {
+    "title": "I'm good at running!",
+    "intro": "What can you do well? Say <b>good at</b> and then the sport — or the verb with <b>-ing</b>.",
+    "can": "I can say what I am <b>good at</b>, and ask my friends what they are good at.",
+    "examples": [
+     {
+      "text": "She's very <b>good at basketball</b>.",
+      "note": "Cambridge"
+     },
+     {
+      "text": "Mateo is <b>good at running</b>. He is always the winner."
+     },
+     {
+      "text": "I'm not very <b>good at throwing</b>, but I can catch!"
+     },
+     {
+      "text": "Are you <b>good at football</b>, Sofia?"
+     }
+    ],
+    "rules": [
+     "am / is / are + <b>good at</b> + a sport, or a verb with <b>-ing</b>.",
+     "Always <b>at</b>. Not \"good in\", not \"good of\".",
+     "For the negative: <b>is not very good at</b>… It sounds kinder."
+    ],
+    "practice": {
+     "instructions": "Choose the right word.",
+     "items": [
+      {
+       "sentence": "Sofia is very good ___ tennis.",
+       "options": [
+        "in",
+        "at",
+        "on"
+       ],
+       "answer": 1
+      },
+      {
+       "sentence": "I'm good at ___.",
+       "options": [
+        "swim",
+        "swims",
+        "swimming"
+       ],
+       "answer": 2
+      },
+      {
+       "sentence": "___ you good at catching the ball?",
+       "options": [
+        "Do",
+        "Are",
+        "Is"
+       ],
+       "answer": 1
+      },
+      {
+       "sentence": "Mateo isn't very good ___ jumping.",
+       "options": [
+        "at",
+        "to",
+        "for"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "Which one is right?",
+       "options": [
+        "He's good in football.",
+        "He's good football.",
+        "He's good at football."
+       ],
+       "answer": 2
+      }
+     ]
+    }
+   }
   }
  ],
  "homework": [

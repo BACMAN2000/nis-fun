@@ -32,7 +32,8 @@
    "nico": 5,
    "astrid": 2
   },
-  "bubble": "The elephant is SO big and the monkey is SO funny! Zoo day is the best day!"
+  "bubble": "The elephant is SO big and the monkey is SO funny! Zoo day is the best day!",
+  "intro": "Zoo day is the best day! Nico and Astrid stop in front of the elephant: it is SO big! Then the monkey, small and funny, jumps from tree to tree. The giraffe is very tall, the hippo is very fat, and the snake is long and quiet. The lion can roar, the monkey can climb, and the tiger can run. What can the animals do? Come with them and find out!"
  },
  "activities": [
   {
@@ -147,7 +148,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

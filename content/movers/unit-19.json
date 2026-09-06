@@ -32,7 +32,8 @@
    "sofia": 2,
    "erik": 1
   },
-  "bubble": "Question of the day: how does everyone come to school? Bus, bike, boots… or robot?"
+  "bubble": "Question of the day: how does everyone come to school? Bus, bike, boots… or robot?",
+  "intro": "Question of the day: how does everyone come to school? Sofía comes by bus and knows the driver's name. Erik comes by bike, even in the rain, because his bike has got an umbrella on top — his own invention. Some children walk, some come by car, one comes by train. How do YOU go to school? Ask your friends and make a chart with all the answers!"
  },
  "activities": [
   {
@@ -151,7 +152,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

@@ -32,7 +32,8 @@
    "mateo": 8,
    "valentina": 1
   },
-  "bubble": "Picnic day! I'm carrying the biscuits… well, most of the biscuits. Some fell into my mouth."
+  "bubble": "Picnic day! I'm carrying the biscuits… well, most of the biscuits. Some fell into my mouth.",
+  "intro": "Picnic day by the fjord! Mateo carries the biscuits… well, most of the biscuits, because two of them disappear on the way. Would you like a sandwich? asks Valentina, opening the basket. Would you like some juice, or water? There is cake for everybody and one apple that nobody wants. Offer something to your friend today — and say it politely, like them!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the polite words.",
+   "title": "Quick check · Choose the polite words.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",
@@ -253,6 +254,92 @@
    ],
    "instructions": "Look at picture A and picture B. Find the 11 differences and tell your partner about them.",
    "data": {}
+  },
+  {
+   "code": "G",
+   "type": "grammar_box",
+   "title": "Grammar · Shall I help you?",
+   "instructions": "Read the sentences. Then choose the right word.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "structure": "Shall for offers",
+   "data": {
+    "title": "Shall I help you?",
+    "intro": "You want to help somebody. Do not just do it — offer first. <b>Shall I…?</b> is the polite way in.",
+    "can": "I can offer to help with <b>Shall I…?</b> and answer an offer politely.",
+    "examples": [
+     {
+      "text": "<b>Shall I help</b> you wash the car, Mum?",
+      "note": "Cambridge"
+     },
+     {
+      "text": "You're hungry? <b>Shall I get</b> you a sandwich?"
+     },
+     {
+      "text": "<b>Shall I open</b> the bottle for you?"
+     },
+     {
+      "text": "<b>Shall I carry</b> the blanket? — Yes, please!"
+     }
+    ],
+    "rules": [
+     "<b>Shall I</b> + verb, with no <i>to</i>: Shall I help? Shall I open it?",
+     "The answer is short: <b>Yes, please!</b> or <b>No, thanks.</b>",
+     "<b>Shall we…?</b> is for both of you: \"Shall we have the picnic here?\""
+    ],
+    "practice": {
+     "instructions": "Choose the right word.",
+     "items": [
+      {
+       "sentence": "___ I help you with the picnic?",
+       "options": [
+        "Am",
+        "Shall",
+        "Do"
+       ],
+       "answer": 1
+      },
+      {
+       "sentence": "Shall I ___ the bottle for you?",
+       "options": [
+        "open",
+        "opens",
+        "opening"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "— Shall I get you some water? — ___",
+       "options": [
+        "Yes, I shall.",
+        "Yes, I do.",
+        "Yes, please!"
+       ],
+       "answer": 2
+      },
+      {
+       "sentence": "Mum has got a lot of bags. Mateo says: '___ I carry one?'",
+       "options": [
+        "Shall",
+        "Am",
+        "Do"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "Which one is right?",
+       "options": [
+        "Shall I to help you?",
+        "Shall I help you?",
+        "Shall I helping you?"
+       ],
+       "answer": 1
+      }
+     ]
+    }
+   }
   }
  ],
  "homework": [

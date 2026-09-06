@@ -36,7 +36,8 @@
    "astrid": 10,
    "tomas": 10
   },
-  "bubble": "Forty-five units! The Explorers did it! Party at the lighthouse — and Pip turns on the great light for us!"
+  "bubble": "Forty-five units! The Explorers did it! Party at the lighthouse — and Pip turns on the great light for us!",
+  "intro": "Forty-five units — the Lighthouse Explorers did it! There is a party at the lighthouse tonight: balloons on the stairs, music, and a certificate with a golden star for every explorer. Freya, Nico, Astrid and Tomás sing and dance, and Pip stands on the top of the lighthouse like a tiny lamp. They are proud, and they are friends. And YOU did it too. Come and celebrate!"
  },
  "activities": [
   {
@@ -82,7 +83,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "The final review · Choose the correct answer.",
+   "title": "Quick check · The final review · Choose the correct answer.",
    "outputs": [
     "book",
     "digital",
@@ -178,7 +179,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

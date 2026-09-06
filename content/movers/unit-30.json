@@ -32,7 +32,8 @@
    "erik": 2,
    "valentina": 1
   },
-  "bubble": "Science of sizes! My robot is smaller than Luna, but Luna is faster than my robot. Data collected!"
+  "bubble": "Science of sizes! My robot is smaller than Luna, but Luna is faster than my robot. Data collected!",
+  "intro": "Science of sizes! Erik measures everything in the club house with a very long tape. My robot is smaller than Luna, he says, but Luna is faster than my robot. Valentina is taller than Mateo, this box is bigger than that one, and the old lamp is older than everybody in the room. Which is bigger, a whale or a bus? Compare two things near you and say it!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct comparative.",
+   "title": "Quick check · Choose the correct comparative.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

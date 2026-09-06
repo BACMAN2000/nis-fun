@@ -32,7 +32,8 @@
    "freya": 10,
    "nico": 10
   },
-  "bubble": "The magic word game! Two teams, many words, one golden star… and Pip as the judge!"
+  "bubble": "The magic word game! Two teams, many words, one golden star… and Pip as the judge!",
+  "intro": "The magic word game! Two teams, a pile of word cards and one golden star for the winner. Freya's team points at the pictures and guesses fast; Nico's team guesses even faster, but they shout the words in the wrong order. Point, guess, clap! Pip is the referee, and Pip is not very fair. Do you remember all the words of the course? Choose a team and play!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Guess the magic word.",
+   "title": "Quick check · Guess the magic word.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

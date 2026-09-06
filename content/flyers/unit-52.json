@@ -32,7 +32,8 @@
    "ingrid": 10,
    "oliver": 3
   },
-  "bubble": "Word Games Championship! Six rounds, two teams, one dictionary as the judge. May the best spellers win!"
+  "bubble": "Word Games Championship! Six rounds, two teams, one dictionary as the judge. May the best spellers win!",
+  "intro": "Word Games Championship! Six rounds, two teams and one enormous dictionary as referee. Round one: spelling. Round two: find the vowels. Round three: which word has this sound? Ingrid's team is faster, Oliver's team is louder, and the dictionary settles two arguments. In the last round, a single letter decides everything. Do you remember the words of the whole course? Choose your team and start playing!"
  },
  "activities": [
   {
@@ -151,7 +152,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

@@ -32,7 +32,8 @@
    "valentina": 5,
    "mateo": 10
   },
-  "bubble": "Mateo's lunch: a bowl of soup, two pieces of chicken, a mountain of rice… and he says he's still hungry!"
+  "bubble": "Mateo's lunch: a bowl of soup, two pieces of chicken, a mountain of rice… and he says he's still hungry!",
+  "intro": "Mateo's lunch is famous: a bowl of soup, two pieces of chicken, a lot of bread, some salad — a little salad, to be honest — and a big glass of milk. Valentina eats some rice and an apple, and looks at his plate with respect. There is a lot of food on this table, she says, but not for long. How much do YOU eat for lunch? Describe your plate!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct quantity word.",
+   "title": "Quick check · Choose the correct quantity word.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

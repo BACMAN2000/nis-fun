@@ -91,6 +91,14 @@ def trabajos(filtro):
                 for w in ((a.get("data") or {}).get("words") or []):
                     if w.get("clue"):
                         anade("clues", w["clue"], VOZ_PISTA, r)
+            # Los ejemplos de la caja de gramatica. En Starters el alumno
+            # todavia no lee bien: ver "Me too!" escrito no le ensena a
+            # decirlo, y estas once estructuras son justo las que se dicen.
+            if (not filtro or "grammar" in filtro) and a.get("type") == "grammar_box":
+                for e in ((a.get("data") or {}).get("examples") or []):
+                    t = e.get("text") if isinstance(e, dict) else e
+                    if t:
+                        anade("grammar", t, VOZ_GUIA, r)
 
     if not filtro or "readers" in filtro:
         for f in sorted(glob.glob(os.path.join(READERS, "data", "g*.json"))):

@@ -32,7 +32,8 @@
    "tomas": 10,
    "freya": 1
   },
-  "bubble": "The moving song! Shake your hands, stamp your feet, wiggle your fingers… don't stop!"
+  "bubble": "The moving song! Shake your hands, stamp your feet, wiggle your fingers… don't stop!",
+  "intro": "The moving song! Shake your hands, nod your head, raise your arms, wave to your friend. Stamp your feet — louder! Wiggle your fingers, touch your ears, close your eyes… and open them again. Tomás does everything twice as fast and Freya does everything twice as slowly, so the song never ends the same way. Stand up: can you do all the actions with them?"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct action.",
+   "title": "Quick check · Choose the correct action.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

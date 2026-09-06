@@ -32,7 +32,8 @@
    "maya": 3,
    "kili": 2
   },
-  "bubble": "Quiz time! Which river is longer — the Amazon or the Nile? Kili has flown over both!"
+  "bubble": "Quiz time! Which river is longer — the Amazon or the Nile? Kili has flown over both!",
+  "intro": "Quiz time with Maya! Which river is longer, the Amazon or the Nile? Which ocean is the deepest? Which is the widest bridge in the world? Kili answers everything with total confidence and gets almost everything wrong, but he says it so well that nobody argues. The longest, the deepest, the highest: the planet loves records. Which is the longest river in YOUR country?"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Read about the Amazon and choose the right answer.",
+   "title": "Quick check · Read about the Amazon and choose the right answer.",
    "outputs": [
     "book",
     "digital",
@@ -175,7 +176,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

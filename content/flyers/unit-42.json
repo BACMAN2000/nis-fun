@@ -32,7 +32,8 @@
    "diego": 3,
    "kili": 5
   },
-  "bubble": "The school phone rang six times today — and one call was for Kili. A condor with phone calls, imagine that!"
+  "bubble": "The school phone rang six times today — and one call was for Kili. A condor with phone calls, imagine that!",
+  "intro": "The school phone rang six times today and one call was very strange. Hello, can I speak to the director, please? Could you hold on a moment? said Kili, who should never answer a phone. He took a message, lost it, found it, and read it upside down. One caller had the wrong number and stayed talking for ten minutes anyway. Can YOU answer the phone in English? Practise it!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the best phone reply.",
+   "title": "Quick check · Choose the best phone reply.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

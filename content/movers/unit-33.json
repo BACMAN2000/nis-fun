@@ -32,7 +32,8 @@
    "sofia": 2,
    "erik": 5
   },
-  "bubble": "Erik built a clock that barks the hours. Luna is confused. The neighbours too."
+  "bubble": "Erik built a clock that barks the hours. Luna is confused. The neighbours too.",
+  "intro": "Erik built a clock that barks the hours, and Luna is very confused: at three o'clock she answers three times. What time is it? Half past eight — time for school. What time is the film? At seven o'clock in the evening. Sofía prefers her old watch, which is quiet and always right. What time do you get up? Look at the clock and say it in English!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct time words.",
+   "title": "Quick check · Choose the correct time words.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

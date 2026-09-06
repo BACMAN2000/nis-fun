@@ -32,7 +32,8 @@
    "astrid": 3,
    "freya": 1
   },
-  "bubble": "Grammar magic: HE for boys, SHE for girls, IT for Pip's fish! Easy when you practise."
+  "bubble": "Grammar magic: HE for boys, SHE for girls, IT for Pip's fish! Easy when you practise.",
+  "intro": "Grammar magic with Astrid and Freya! HE is for a boy: he is my brother, he is a doctor. SHE is for a girl: she is my friend, she is a teacher. And IT? IT is for things and animals: it is a fish, it is a book. He is, she is, it is — three little words that say who everybody is. Who is in your class? Point at them and say it correctly!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose he, she or it.",
+   "title": "Quick check · Choose he, she or it.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

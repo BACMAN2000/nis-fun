@@ -32,7 +32,8 @@
    "valentina": 3,
    "erik": 10
   },
-  "bubble": "Yesterday we visited the science museum — and Erik talked to the robot for one whole hour!"
+  "bubble": "Yesterday we visited the science museum — and Erik talked to the robot for one whole hour!",
+  "intro": "Yesterday the class visited the science museum! They walked around the big hall, they watched a film about the planets and they listened to a guide with a very loud voice. Valentina played with the light machine three times. Erik talked to the guide for twenty minutes and the bus waited for him. What did YOU do yesterday? Tell the story in the past!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Read about the trip and choose the right answer.",
+   "title": "Quick check · Read about the trip and choose the right answer.",
    "outputs": [
     "book",
     "digital",
@@ -175,7 +176,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct past form.",
+   "title": "Quick check · Choose the correct past form.",
    "outputs": [
     "book",
     "digital",

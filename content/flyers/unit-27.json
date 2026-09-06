@@ -32,7 +32,8 @@
    "oliver": 5,
    "kili": 5
   },
-  "bubble": "Kili has just crashed into the window with today's mail! Don't worry — the window is fine. Kili too… more or less."
+  "bubble": "Kili has just crashed into the window with today's mail! Don't worry — the window is fine. Kili too… more or less.",
+  "intro": "Kili has just crashed into the window with today's mail. Again. He has already delivered nine letters this morning, but he hasn't finished yet — there are six more in his bag. Oliver has just written a new song, Ingrid has already read it, and nobody has told him yet that it sounds exactly like the last one. What have YOU just done? Say it before the moment passes!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose just, already or yet.",
+   "title": "Quick check · Choose just, already or yet.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct form.",
+   "title": "Quick check · Choose the correct form.",
    "outputs": [
     "book",
     "digital",

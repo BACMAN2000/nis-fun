@@ -32,7 +32,8 @@
    "freya": 3,
    "nico": 1
   },
-  "bubble": "Funny faces game! Big eyes, silly nose, giant smile… Nico always wins this game."
+  "bubble": "Funny faces game! Big eyes, silly nose, giant smile… Nico always wins this game.",
+  "intro": "Funny faces game! Freya makes big round eyes, a small nose and an enormous smile. Then Nico tries: he has got one eye open, one eye closed and his teeth outside. He always wins this game! She has got a nice smile, he has got a very silly one. Look at your friend's face: what has he got? What has she got? Make a funny face and play with Freya and Nico!"
  },
  "activities": [
   {
@@ -147,7 +148,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

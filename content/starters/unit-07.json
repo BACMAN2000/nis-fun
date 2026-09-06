@@ -32,7 +32,8 @@
    "tomas": 7,
    "pip": 1
   },
-  "bubble": "Head, arms, legs, feet — my body loves to MOVE! Ready for body gymnastics?"
+  "bubble": "Head, arms, legs, feet — my body loves to MOVE! Ready for body gymnastics?",
+  "intro": "Tomás cannot sit still today! He has got two arms, two legs, two feet and one very fast body — and he wants to move all of them. Head, arms, hands, legs, feet: he touches them one by one and then jumps up again. Pip has got two little wings and one orange beak, so he tries the game too. What have YOU got? Touch your head, touch your nose, and let's move with Tomás!"
  },
  "activities": [
   {
@@ -147,7 +148,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

@@ -32,7 +32,8 @@
    "tomas": 7,
    "nico": 10
   },
-  "bubble": "GOOOAL! Football at break, basketball after school, swimming on Monday… sport is my favourite word!"
+  "bubble": "GOOOAL! Football at break, basketball after school, swimming on Monday… sport is my favourite word!",
+  "intro": "GOOOAL! Tomás scores and the whole team shouts. He plays football at break, basketball after school and he swims on Mondays. Nico prefers tennis, because you can play it with only one friend. Let's play! says Tomás every single day, with the ball already in his hands. What sport do YOU play? Choose your team and come to the field!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",
@@ -253,6 +254,92 @@
    ],
    "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
    "data": {}
+  },
+  {
+   "code": "G",
+   "type": "grammar_box",
+   "title": "Grammar · So do I!",
+   "instructions": "Read the sentences. Then choose the right word.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "structure": "So do I",
+   "data": {
+    "title": "So do I!",
+    "intro": "Another way to say <i>me too</i> — a bit bigger, and grown-ups love it: <b>So do I.</b>",
+    "can": "I can answer <b>So do I!</b> when my friend and I do the same thing.",
+    "examples": [
+     {
+      "text": "I love hippos. <b>So do I.</b>",
+      "note": "Cambridge"
+     },
+     {
+      "text": "Tomas: I play football. — Nico: <b>So do I!</b>"
+     },
+     {
+      "text": "Tomas: I like swimming. — Nico: <b>So do I!</b>"
+     },
+     {
+      "text": "Tomas: I want a new ball. — Nico: <b>So do I!</b>"
+     }
+    ],
+    "rules": [
+     "After <b>I like…</b>, <b>I play…</b>, <b>I want…</b> you answer: <b>So do I.</b>",
+     "The words go in this order: <b>So — do — I</b>. Not \"So I do\".",
+     "Say a sport you play and let your partner answer \"So do I!\""
+    ],
+    "practice": {
+     "instructions": "Choose the right word.",
+     "items": [
+      {
+       "sentence": "— I play basketball. — So ___ I!",
+       "options": [
+        "am",
+        "do",
+        "is"
+       ],
+       "answer": 1
+      },
+      {
+       "sentence": "— I like swimming. — ___ do I!",
+       "options": [
+        "Very",
+        "Too",
+        "So"
+       ],
+       "answer": 2
+      },
+      {
+       "sentence": "— I want a ball. — So do ___!",
+       "options": [
+        "I",
+        "me",
+        "my"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "— I go swimming on Fridays. — So ___ I!",
+       "options": [
+        "am",
+        "go",
+        "do"
+       ],
+       "answer": 2
+      },
+      {
+       "sentence": "Which one is right?",
+       "options": [
+        "So I do.",
+        "So am I do.",
+        "So do I."
+       ],
+       "answer": 2
+      }
+     ]
+    }
+   }
   }
  ],
  "homework": [

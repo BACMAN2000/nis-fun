@@ -163,7 +163,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Reading: read Maya's diary and choose the right answer.",
+   "title": "Quick check · Reading: read Maya's diary and choose the right answer.",
    "outputs": [
     "book",
     "digital",

@@ -32,7 +32,8 @@
    "nico": 7,
    "freya": 1
   },
-  "bubble": "Action time! Walk, stop, turn, jump… my favourite class is the moving class!"
+  "bubble": "Action time! Walk, stop, turn, jump… my favourite class is the moving class!",
+  "intro": "Action time with Nico and Freya! Walk, walk, walk… STOP! Look at the window. Listen to the birds. Clap your hands three times. Turn around. Touch your nose. Point at something blue. Nico always does the wrong one and everybody laughs, and then everybody starts again. This is the moving class, the favourite class of the week. Stand up: can you follow all the actions?"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct action.",
+   "title": "Quick check · Choose the correct action.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

@@ -32,7 +32,8 @@
    "freya": 2,
    "pip": 1
   },
-  "bubble": "Let's count everything! One sun, two shoes, three birds… and one Pip!"
+  "bubble": "Let's count everything! One sun, two shoes, three birds… and one Pip!",
+  "intro": "Freya wants to count everything in the lighthouse! One sun in the window, two shoes by the door, three birds on the roof, four spoons on the table. Pip helps her — but Pip counts the same fish five times, so the numbers are always wrong! How many books can you see? How many hands have you got? Count with Freya from one to ten, and then count everything in YOUR room!"
  },
  "activities": [
   {
@@ -143,7 +144,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct number.",
+   "title": "Quick check · Choose the correct number.",
    "outputs": [
     "book",
     "digital",

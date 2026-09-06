@@ -32,7 +32,8 @@
    "tomas": 1,
    "pip": 5
   },
-  "bubble": "Farm trip! Moo, baa, quack — it's like a big animal song. Pip is talking to the ducks!"
+  "bubble": "Farm trip! Moo, baa, quack — it's like a big animal song. Pip is talking to the ducks!",
+  "intro": "Farm trip! The bus stops and Tomás runs to the animals. It is a cow — moo! It is a duck — quack! It is a sheep, it is a horse, it is a very pink pig in the mud. The grass is wet and everybody's shoes are dirty. Pip is talking to the hens, and the hens answer him! It is a hen, says Tomás, laughing. What animals live on a farm? Come and hear them all!"
  },
  "activities": [
   {
@@ -147,7 +148,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

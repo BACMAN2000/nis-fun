@@ -32,7 +32,8 @@
    "sofia": 4,
    "mateo": 3
   },
-  "bubble": "Toy sale for the school garden! Everything on this table needs a price… and first, an owner!"
+  "bubble": "Toy sale for the school garden! Everything on this table needs a price… and first, an owner!",
+  "intro": "Toy sale for the school garden! Everything on this table has an owner: whose robot is this? It's Erik's. Whose kite is this? It's Mateo's — no, it's Sofía's, look at the name. This ball is mine, that one is yours. They sell almost everything, and at the end Mateo buys back his own robot. Whose things are on your desk? Ask and answer with Whose!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct possessive.",
+   "title": "Quick check · Choose the correct possessive.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

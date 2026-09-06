@@ -32,7 +32,8 @@
    "sofia": 1,
    "mateo": 3
   },
-  "bubble": "Show and tell: my favourite animal! Mine can jump three metres. Mateo's can sleep twenty hours. Guess them!"
+  "bubble": "Show and tell: my favourite animal! Mine can jump three metres. Mateo's can sleep twenty hours. Guess them!",
+  "intro": "Show and tell: my favourite animal! Sofía chooses the dolphin, because it is clever and it can swim very fast. Mateo chooses the kangaroo: mine can jump three metres, he says, and he tries to jump too. The penguin can't fly but it can swim; the parrot can talk but it can't be quiet. Which animal do YOU like? Say what it can and can't do!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose can or can't.",
+   "title": "Quick check · Choose can or can't.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

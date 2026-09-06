@@ -32,7 +32,8 @@
    "diego": 8,
    "maya": 8
   },
-  "bubble": "Maya's family is moving today! Everyone is carrying boxes… and nobody can find the cat."
+  "bubble": "Maya's family is moving today! Everyone is carrying boxes… and nobody can find the cat.",
+  "intro": "Maya's family is moving today and the whole street can see it. Two men are carrying the sofa down the stairs very slowly. Her father is rolling up the carpet, her mother is taking down the curtains, and Maya is holding a mirror and trying not to look at herself. Diego is filming everything for Radio Aurora. Nobody is finding the lamp. What is happening in your house right now? Describe it as you watch!"
  },
  "activities": [
   {
@@ -151,7 +152,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct form.",
+   "title": "Quick check · Choose the correct form.",
    "outputs": [
     "book",
     "digital",

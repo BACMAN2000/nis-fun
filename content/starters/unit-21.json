@@ -32,7 +32,8 @@
    "nico": 2,
    "pip": 1
   },
-  "bubble": "The elephant is big, the mouse is small, my shoes are dirty… and Mum is not happy about that!"
+  "bubble": "The elephant is big, the mouse is small, my shoes are dirty… and Mum is not happy about that!",
+  "intro": "Nico plays the opposites game and he never gets it right! The elephant is big, the mouse is small. This road is long, that pencil is short. His shoes are dirty, his sister's shoes are clean. My jacket is old, says Nico, and my hat is… old too! Pip looks at him: the puffin is small, but his beak is big. Big or small? Long or short? Play the game and say the opposite!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct adjective.",
+   "title": "Quick check · Choose the correct adjective.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

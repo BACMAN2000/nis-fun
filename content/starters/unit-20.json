@@ -32,7 +32,8 @@
    "tomas": 1,
    "freya": 1
   },
-  "bubble": "This is my best friend Nico. His jokes are terrible… and that's why we laugh so much!"
+  "bubble": "This is my best friend Nico. His jokes are terrible… and that's why we laugh so much!",
+  "intro": "This is my best friend, says Tomás. His name is Nico and his jokes are terrible — that is why we laugh! Freya smiles: this is my friend too. Her name is Astrid and she is very kind, she always shares her crayons. Friends play together, friends share, friends are funny. What is YOUR friend's name? Say his name, say her name, and tell us why he or she is special!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose his or her.",
+   "title": "Quick check · Choose his or her.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

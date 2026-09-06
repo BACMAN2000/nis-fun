@@ -32,7 +32,8 @@
    "astrid": 4,
    "pip": 4
   },
-  "bubble": "Where is the little car? In the box? On the chair? Under the bed? Let's find all the toys!"
+  "bubble": "Where is the little car? In the box? On the chair? Under the bed? Let's find all the toys!",
+  "intro": "Where is the little red car? Astrid can't find it anywhere. Is it in the toy box? No. Is it on the table? No. Is it under the chair? No! Is it under the bed, with the socks and the dust? Yes — and Pip is under the bed too, sitting on the car like an egg. In, on, under: three small words that find everything. Where are YOUR things? Let's look for them!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose in, on or under.",
+   "title": "Quick check · Choose in, on or under.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

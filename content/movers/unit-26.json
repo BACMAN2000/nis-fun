@@ -32,7 +32,8 @@
    "erik": 4,
    "mateo": 5
   },
-  "bubble": "Mateo's dentist day! Don't worry — Doctor Ana counts your teeth and gives you a sticker. Science says: painless!"
+  "bubble": "Mateo's dentist day! Don't worry — Doctor Ana counts your teeth and gives you a sticker. Science says: painless!",
+  "intro": "Mateo's dentist day, and he is NOT happy. Open your mouth, please, says the dentist. You should brush your teeth twice a day, and you shouldn't eat sweets every afternoon. Erik takes notes, because he wants to invent a toothbrush that works alone. The medicine tastes terrible but the tooth is strong again. What should we do to stay healthy? Ask the doctor!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose should or shouldn't.",
+   "title": "Quick check · Choose should or shouldn't.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

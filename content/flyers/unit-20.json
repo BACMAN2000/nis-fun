@@ -32,7 +32,8 @@
    "maya": 8,
    "diego": 4
   },
-  "bubble": "Museum challenge! This box is made of wood, that ring is made of gold… What about your microphone, Diego?"
+  "bubble": "Museum challenge! This box is made of wood, that ring is made of gold… What about your microphone, Diego?",
+  "intro": "Museum challenge with Diego and Maya! This box is made of wood and it is three hundred years old. That ring is made of metal, this window is made of glass, and these old toys are made of paper and wool. The modern chair is made of plastic and nobody is impressed by it at all. The guide asks one last question and Diego, for once, knows the answer. Look around your classroom: what is your table made of? Find five things and say it!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct material.",
+   "title": "Quick check · Choose the correct material.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

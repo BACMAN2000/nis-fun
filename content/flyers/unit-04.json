@@ -32,7 +32,8 @@
    "maya": 3,
    "kili": 4
   },
-  "bubble": "Today's science lesson: the human body! Kili, you have wings — but have you got elbows?"
+  "bubble": "Today's science lesson: the human body! Kili, you have wings — but have you got elbows?",
+  "intro": "Today's science lesson is the human body, and Maya has brought a giant poster. She points at the shoulder, the elbow, the knee, and asks the class to touch each one. Kili tries to follow: he has got wings instead of arms, no knees that anybody can see, and a tongue that nobody has ever noticed. Has he got a beard? Certainly not. What has YOUR body got? Point, name it and learn the map of yourself!"
  },
  "activities": [
   {
@@ -151,7 +152,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

@@ -32,7 +32,8 @@
    "freya": 3,
    "tomas": 10
   },
-  "bubble": "Faces tell stories! Happy face, sleepy face, hungry face… Tomás has a hungry face right now."
+  "bubble": "Faces tell stories! Happy face, sleepy face, hungry face… Tomás has a hungry face right now.",
+  "intro": "Faces tell stories. Freya is happy today, because it is Friday. Tomás is hungry — he is always hungry — and his stomach makes noises in class. Nico is tired, Astrid is a little angry because her pencil is broken, and Pip is thirsty. Are you happy? Are you sad? I am fine, thank you! How do YOU feel today? Show your face and tell us!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct feeling.",
+   "title": "Quick check · Choose the correct feeling.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

@@ -32,7 +32,8 @@
    "erik": 5,
    "sofia": 2
   },
-  "bubble": "Jungle documentary night! Sofia knows every animal — and I brought popcorn for scientific reasons."
+  "bubble": "Jungle documentary night! Sofia knows every animal — and I brought popcorn for scientific reasons.",
+  "intro": "Jungle documentary night at the club house! Sofía knows every animal on the screen: the monkeys are noisy, the snake is long and quiet, the crocodile is dangerous and the elephant is enormous but gentle. Erik takes notes for a new invention: a camera that hangs from a tree. What lives in the jungle? Watch, listen and describe every animal!"
  },
  "activities": [
   {
@@ -151,7 +152,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

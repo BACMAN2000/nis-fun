@@ -32,7 +32,8 @@
    "mateo": 3,
    "erik": 1
   },
-  "bubble": "Saturday jobs at the club house! I feed Luna, Erik fixes things… and the rubbish goes out BEFORE it smells."
+  "bubble": "Saturday jobs at the club house! I feed Luna, Erik fixes things… and the rubbish goes out BEFORE it smells.",
+  "intro": "Saturday jobs at the club house! Mateo has to feed Luna and sweep the floor. Erik has to wash the dishes and water the plants, but first he has to fix the machine that broke last week. Everybody has to take out the rubbish — nobody wants to. When the work is finished, the club house is clean and the afternoon is free. What do YOU have to do at home?"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",
@@ -253,6 +254,92 @@
    ],
    "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
    "data": {}
+  },
+  {
+   "code": "G",
+   "type": "grammar_box",
+   "title": "Grammar · Mum wants me to help",
+   "instructions": "Read the sentences. Then choose the right word.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "structure": "Want / ask someone to do something",
+   "data": {
+    "title": "Mum wants me to help",
+    "intro": "You want something — but you want <b>somebody else</b> to do it. The person goes in the middle, between the verb and <b>to</b>.",
+    "can": "I can say who wants somebody to do something: <b>Mum wants me to wash the dishes.</b>",
+    "examples": [
+     {
+      "text": "He <b>wants the teacher to tell</b> a story.",
+      "note": "Cambridge"
+     },
+     {
+      "text": "Mum <b>wants me to wash</b> the dishes."
+     },
+     {
+      "text": "Erik <b>asked Mateo to feed</b> the cat."
+     },
+     {
+      "text": "Do you <b>want me to help</b> you with the rubbish?"
+     }
+    ],
+    "rules": [
+     "want / ask + <b>somebody</b> + <b>to</b> + verb.",
+     "The person in the middle is <b>me, you, him, her, us, them</b> — or a name.",
+     "Never \"She wants that I help\". English puts the person straight after the verb."
+    ],
+    "practice": {
+     "instructions": "Choose the right word.",
+     "items": [
+      {
+       "sentence": "Mum wants ___ to clean my room.",
+       "options": [
+        "I",
+        "me",
+        "my"
+       ],
+       "answer": 1
+      },
+      {
+       "sentence": "Erik asked Mateo ___ feed the dog.",
+       "options": [
+        "to",
+        "for",
+        "that"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "Do you want me ___ help you?",
+       "options": [
+        "and",
+        "for",
+        "to"
+       ],
+       "answer": 2
+      },
+      {
+       "sentence": "The teacher wants ___ to be quiet.",
+       "options": [
+        "we",
+        "us",
+        "our"
+       ],
+       "answer": 1
+      },
+      {
+       "sentence": "Which one is right?",
+       "options": [
+        "She wants that I help.",
+        "She wants me to help.",
+        "She wants me help."
+       ],
+       "answer": 1
+      }
+     ]
+    }
+   }
   }
  ],
  "homework": [

@@ -32,7 +32,8 @@
    "nico": 3,
    "astrid": 2
   },
-  "bubble": "N-I-C-O! Spelling your name is like a little song. How do you spell YOUR name?"
+  "bubble": "N-I-C-O! Spelling your name is like a little song. How do you spell YOUR name?",
+  "intro": "N-I-C-O! Spelling your name is like a little song. How do you spell your name? asks Astrid, with her pencil ready. Nico spells it fast, too fast, and Astrid writes NIKO. Again, please — slowly! Letter by letter, they write every name in the class, and every surname too. How do YOU spell your name? Listen, say it slowly and write it down!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct spelling.",
+   "title": "Quick check · Choose the correct spelling.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

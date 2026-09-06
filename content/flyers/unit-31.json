@@ -32,7 +32,8 @@
    "oliver": 3,
    "kili": 2
   },
-  "bubble": "Last month I broke my arm skating. A week in hospital… and the whole team visited me every single day!"
+  "bubble": "Last month I broke my arm skating. A week in hospital… and the whole team visited me every single day!",
+  "intro": "Last month Oliver broke his arm skating. First they took an X-ray, then the doctor put his arm in plaster, and he stayed in hospital for one night. Two days later everybody visited him with comics, and a week later he was playing the guitar with one hand — badly, but happily. The nurse said he was the noisiest patient of the year. What happened to YOU last year? Tell it in order!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Read Oliver's hospital diary and choose the right answer.",
+   "title": "Quick check · Read Oliver's hospital diary and choose the right answer.",
    "outputs": [
     "book",
     "digital",
@@ -175,7 +176,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

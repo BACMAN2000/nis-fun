@@ -32,7 +32,8 @@
    "diego": 3,
    "ingrid": 10
   },
-  "bubble": "Welcome to QUICK ANSWERS, the game show where long answers lose points! Yes or no, team!"
+  "bubble": "Welcome to QUICK ANSWERS, the game show where long answers lose points! Yes or no, team!",
+  "intro": "Welcome to QUICK ANSWERS, the game show where long answers lose points! Do you like maths? Yes, I do. Has she got a bike? No, she hasn't. Were they at the concert? Yes, they were. Diego answers correctly but adds three sentences of explanation every time, so Ingrid wins easily. Short and correct — that's the rule. Ready? Answer quickly and get the point!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct short answer.",
+   "title": "Quick check · Choose the correct short answer.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",
@@ -423,6 +424,92 @@
     "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
    },
    "code": "G"
+  },
+  {
+   "code": "K",
+   "type": "grammar_box",
+   "title": "Grammar · …isn't it?",
+   "instructions": "Read the sentences. Then choose the right ending.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "structure": "Tag questions",
+   "data": {
+    "title": "That's the answer, isn't it?",
+    "intro": "You are almost sure, and you want the other person to agree. Add a mini-question at the end — English does this all the time.",
+    "can": "I can add a tag question (<b>isn’t it? don’t you? did she?</b>) to check something I think is true.",
+    "examples": [
+     {
+      "text": "That's John's book, <b>isn't it</b>?",
+      "note": "Cambridge"
+     },
+     {
+      "text": "You know the answer, <b>don’t you</b>?"
+     },
+     {
+      "text": "She won the last round, <b>didn’t she</b>?"
+     },
+     {
+      "text": "It isn't the correct answer, <b>is it</b>?"
+     }
+    ],
+    "rules": [
+     "Positive sentence → <b>negative</b> tag. Negative sentence → <b>positive</b> tag.",
+     "Use the same helper verb: is → isn’t · can → can’t · has → hasn’t · was → wasn’t.",
+     "No helper verb in the sentence? Then use <b>do / does / did</b>: \"You play tennis, <b>don’t you</b>?\""
+    ],
+    "practice": {
+     "instructions": "Choose the right ending.",
+     "items": [
+      {
+       "sentence": "That's the correct answer, ___?",
+       "options": [
+        "is it",
+        "isn't it",
+        "doesn't it"
+       ],
+       "answer": 1
+      },
+      {
+       "sentence": "You know the question, ___?",
+       "options": [
+        "aren't you",
+        "didn't you",
+        "don't you"
+       ],
+       "answer": 2
+      },
+      {
+       "sentence": "She won the last round, ___?",
+       "options": [
+        "wasn't she",
+        "didn't she",
+        "doesn't she"
+       ],
+       "answer": 1
+      },
+      {
+       "sentence": "It isn't your turn, ___?",
+       "options": [
+        "is it",
+        "isn't it",
+        "does it"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "They can't hear the buzzer, ___?",
+       "options": [
+        "can't they",
+        "do they",
+        "can they"
+       ],
+       "answer": 2
+      }
+     ]
+    }
+   }
   }
  ],
  "homework": [

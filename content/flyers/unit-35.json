@@ -32,7 +32,8 @@
    "oliver": 3,
    "kili": 3
   },
-  "bubble": "When I'm sad, I play my guitar. When Kili is sad, he eats seven biscuits. Everyone has their own medicine!"
+  "bubble": "When I'm sad, I play my guitar. When Kili is sad, he eats seven biscuits. Everyone has their own medicine!",
+  "intro": "When I'm sad, I play my guitar, says Oliver. When I'm happy, I play it louder — much louder. When Kili is angry, he sits on the roof and refuses to speak to anybody for hours. When Ingrid is worried, she makes lists; when Maya is surprised, she takes notes instead of screaming. And when everybody is proud, they celebrate together by the sea. What do YOU do when you're sad or happy? Say it with when!"
  },
  "activities": [
   {
@@ -151,7 +152,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

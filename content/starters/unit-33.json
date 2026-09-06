@@ -32,7 +32,8 @@
    "tomas": 1,
    "pip": 6
   },
-  "bubble": "The sun says good morning, the moon says good night… and Pip sleeps at both times!"
+  "bubble": "The sun says good morning, the moon says good night… and Pip sleeps at both times!",
+  "intro": "The sun says good morning and the moon says good night. In the morning Tomás wakes up, eats his breakfast and runs to school. In the afternoon he plays outside. In the evening he reads a book, and at night he sleeps — well, almost. Pip sleeps all day and wakes up at night, because puffins have their own clock! What do you do in the morning? Tell us your day!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

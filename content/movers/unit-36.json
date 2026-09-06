@@ -32,7 +32,8 @@
    "erik": 4,
    "valentina": 3
   },
-  "bubble": "Top secret: Sofía's birthday is on Friday. We're going to prepare the BEST surprise party in club history!"
+  "bubble": "Top secret: Sofía's birthday is on Friday. We're going to prepare the BEST surprise party in club history!",
+  "intro": "Top secret! Sofía's birthday is on Friday, so the Club is going to prepare a surprise. Valentina is going to make the cake, Erik is going to invent something that throws balloons, and Mateo is going to invite everybody — quietly. Next week they are going to remember this party for a long time. What are YOU going to do at the weekend? Make a plan!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct going to form.",
+   "title": "Quick check · Choose the correct going to form.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the best reply.",
+   "title": "Quick check · Choose the best reply.",
    "outputs": [
     "book",
     "digital",

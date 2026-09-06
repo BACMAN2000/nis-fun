@@ -32,7 +32,8 @@
    "valentina": 3,
    "sofia": 9
   },
-  "bubble": "In my grandparents' village the bread smells like morning and the stars are SO close!"
+  "bubble": "In my grandparents' village the bread smells like morning and the stars are SO close!",
+  "intro": "In her grandparents' village, says Valentina, the bread smells like morning. There was a river with a stone bridge, and there were fields of yellow flowers behind the church. There was one small shop and there were no cars — only a quiet path where you could hear the birds. Sofía listens with her eyes closed. What was there in YOUR grandparents' place? Tell us!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose There was or There were.",
+   "title": "Quick check · Choose There was or There were.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

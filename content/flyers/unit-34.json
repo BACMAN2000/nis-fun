@@ -32,7 +32,8 @@
    "maya": 5,
    "oliver": 3
   },
-  "bubble": "Oliver! Your new speaker is TOO loud — my experiment glasses are dancing on the table!"
+  "bubble": "Oliver! Your new speaker is TOO loud — my experiment glasses are dancing on the table!",
+  "intro": "Oliver! Your new speaker is TOO loud — my experiment is shaking! shouts Maya from the other room. It's not loud enough, answers Oliver. The box is too heavy to move, the volume button is too small to find and the instructions are too difficult to read. Maya is not patient enough for any of this today. Is your bag too heavy? Say what is too much and what is not enough!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose too or enough.",
+   "title": "Quick check · Choose too or enough.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

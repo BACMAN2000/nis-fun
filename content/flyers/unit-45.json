@@ -32,7 +32,8 @@
    "ingrid": 8,
    "kili": 2
   },
-  "bubble": "Kili found an old bottle on the beach… with a REAL treasure map inside! Expedition, assemble!"
+  "bubble": "Kili found an old bottle on the beach… with a REAL treasure map inside! Expedition, assemble!",
+  "intro": "Kili found an old bottle on the beach with a REAL map inside! Ingrid unfolds it carefully: go north from the harbour, then east along the cliffs, then south at the third rock, and dig where the two paths cross. West of that point there is only the sea. They walk all afternoon and find… another bottle, with another map. Can YOU follow directions? Grab a compass!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Follow the map instructions.",
+   "title": "Quick check · Follow the map instructions.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

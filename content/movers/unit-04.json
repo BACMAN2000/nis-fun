@@ -32,7 +32,8 @@
    "valentina": 3,
    "mateo": 5
   },
-  "bubble": "Mateo wakes up at seven… but he always loses one sock, so he catches the bus at the last second!"
+  "bubble": "Mateo wakes up at seven… but he always loses one sock, so he catches the bus at the last second!",
+  "intro": "Mateo wakes up at seven every morning, and every morning the same thing happens: he washes his face, he brushes his teeth, he gets dressed — and then he loses one sock. Valentina waits at the door with the bus tickets, looking at her watch. He always finds the sock at the last second, under the bed, and they always catch the bus by ten centimetres. What time do YOU wake up? Tell us your morning, step by step!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Put Mateo's morning in order. Choose the correct word.",
+   "title": "Quick check · Put Mateo's morning in order. Choose the correct word.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

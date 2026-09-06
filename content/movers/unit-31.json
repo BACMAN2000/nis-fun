@@ -32,7 +32,8 @@
    "valentina": 10,
    "mateo": 10
   },
-  "bubble": "Class records day! The fastest runner, the best singer, the funniest joke… everyone wins at something!"
+  "bubble": "Class records day! The fastest runner, the best singer, the funniest joke… everyone wins at something!",
+  "intro": "Class records day! Who is the fastest runner? Mateo, easily. Who is the best singer? Valentina, and everybody agrees. Who has got the biggest lunchbox? Mateo again. Who is the funniest? Erik, but he doesn't want to be. They write every record on the wall with a golden star. Who is the tallest in YOUR class? Find your records and write them down!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct superlative.",
+   "title": "Quick check · Choose the correct superlative.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

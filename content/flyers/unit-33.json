@@ -32,7 +32,8 @@
    "ingrid": 3,
    "diego": 4
   },
-  "bubble": "Saturday is free! How about tennis? Or shall we go to the pool? Diego, stop filming and help us decide!"
+  "bubble": "Saturday is free! How about tennis? Or shall we go to the pool? Diego, stop filming and help us decide!",
+  "intro": "Saturday is free! How about tennis? says Ingrid. Diego prefers the cinema. Shall we go to the beach instead? Maybe — but the forecast says rain. Let's decide by lunchtime, then. They suggest six different plans, agree on none of them, and end up doing the best thing of all: nothing, together, by the sea. How about YOUR Saturday? Suggest a plan to a friend!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct form of the suggestion.",
+   "title": "Quick check · Choose the correct form of the suggestion.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the best reply.",
+   "title": "Quick check · Choose the best reply.",
    "outputs": [
     "book",
     "digital",

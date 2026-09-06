@@ -1417,11 +1417,13 @@ function pintaSelfCheck(el, digital){
                       'Je sais écouter et associer chaque personne à une image.'),
     picture_story:  T('I can look at three pictures and write the story in 20-25 words.',
                       "Je sais regarder trois images et écrire l'histoire en 20-25 mots."),
+    grammar_box:    T('I can use the new grammar of this unit in my own sentences.',
+                      'Je sais employer la nouvelle règle de cette unité dans mes phrases.'),
   };
   // Sin repetir: dos actividades del mismo tipo son la misma frase, y
   // verla dos veces en la lista parece un fallo de la pagina.
   digital.forEach(a => {
-    const t = PUEDO_POR_TIPO[a.type];
+    const t = (a.type === 'grammar_box' && a.data && a.data.can) ? a.data.can : PUEDO_POR_TIPO[a.type];
     if (t && !puedo.includes(t)) puedo.push(t);
   });
 
@@ -2671,13 +2673,26 @@ grammar_box(act, el){
     <div class="gb-card">
       <div class="gb-h"><span class="gb-tag">${T('Grammar','Grammaire')}</span><h3>${esc(d.title||'')}</h3></div>
       ${d.intro ? `<p class="gb-intro">${d.intro}</p>` : ''}
-      ${(d.examples||[]).length ? `<ul class="gb-ex">${d.examples.map(e=>`<li>${(e && e.text) ? e.text : e}${(e && e.note)?` <span class="gb-note">${esc(e.note)}</span>`:''}</li>`).join('')}</ul>` : ''}
+      ${(d.examples||[]).length ? `<ul class="gb-ex">${d.examples.map((e,i)=>`<li>
+        <button class="clue-say" type="button" data-ex="${i}"
+          title="${T('Listen to the example',"Écoute l'exemple")}"
+          aria-label="${T('Listen to example','Écoute exemple')} ${i+1}">🔊</button>
+        ${(e && e.text) ? e.text : e}${(e && e.note)?` <span class="gb-note">${esc(e.note)}</span>`:''}</li>`).join('')}</ul>` : ''}
       ${(d.rules||[]).length ? `<ol class="gb-rules">${d.rules.map(r=>`<li>${r}</li>`).join('')}</ol>` : ''}
     </div>
     ${pr.length ? `<div class="gb-practice"><p class="gb-ph"><b>${T('Your turn','À toi')}</b>${d.practice.instructions?` · ${esc(d.practice.instructions)}`:''}</p>
       ${pr.map((it,i)=>`<div class="item" data-i="${i}"><div class="stem">${i+1}. ${it.sentence.replace('___','<b>____</b>')}</div>
         <div class="opts">${it.options.map((o,k)=>`<button class="obtn" data-k="${k}">${esc(o)}</button>`).join('')}</div></div>`).join('')}
       <div class="checkrow"><button class="chk">${T('Check','Vérifier')}</button><span class="score"></span></div></div>` : ''}`;
+  // Los ejemplos se oyen. En Starters el alumno todavia no lee bien: ver
+  // "Me too!" escrito no le ensena a decirlo. Los graba gen_audio_edge.py
+  // en audio/grammar con el mismo slug, y si falta el mp3 queda la voz del
+  // navegador, igual que en las pistas del crucigrama.
+  el.querySelectorAll('.gb-ex .clue-say').forEach(b=>b.onclick=()=>{
+    const e = (d.examples||[])[+b.dataset.ex];
+    const t = (e && e.text) ? e.text : e;
+    if (t) SAY.frase(String(t), b, 'grammar');
+  });
   el.querySelectorAll('.gb-practice .item').forEach(item=>{
     item.querySelectorAll('.obtn').forEach(b=>b.onclick=()=>{
       item.querySelectorAll('.obtn').forEach(x=>x.classList.remove('sel')); b.classList.add('sel'); }); });

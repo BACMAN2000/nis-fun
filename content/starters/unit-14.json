@@ -32,7 +32,8 @@
    "nico": 3,
    "tomas": 7
   },
-  "bubble": "After football we are SO thirsty! Water for Tomás, lemonade for me… and a little water bowl for Pip."
+  "bubble": "After football we are SO thirsty! Water for Tomás, lemonade for me… and a little water bowl for Pip.",
+  "intro": "After football Nico and Tomás are SO thirsty! Can I have some water, please? says Tomás, and he drinks a big glass in one second. Can I have a lemonade? says Nico. And then, in a small voice: can I have a hot chocolate too? Pip only wants the cup — to sit in it. What can YOU ask for when you are thirsty? Say it politely and try it with your friends!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the polite words.",
+   "title": "Quick check · Choose the polite words.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

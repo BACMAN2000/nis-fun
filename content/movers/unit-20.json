@@ -32,7 +32,8 @@
    "mateo": 2,
    "sofia": 1
   },
-  "bubble": "Town tour for my cousin! First the playground, then the café… and the library, because Valentina says so."
+  "bubble": "Town tour for my cousin! First the playground, then the café… and the library, because Valentina says so.",
+  "intro": "Town tour for Mateo's cousin! First the playground, then the library where you must be quiet, then the swimming pool and the cinema on the corner. Where is the hospital? Behind the supermarket. Where is the school? Next to the park. Mateo gets lost twice in his own town, and Sofía finds the way twice. Where are these places in YOUR town? Draw the map!"
  },
  "activities": [
   {
@@ -151,7 +152,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

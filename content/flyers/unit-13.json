@@ -32,7 +32,8 @@
    "ingrid": 2,
    "diego": 5
   },
-  "bubble": "Mission: cross the whole city in one hour using four kinds of transport. Ready, Diego?"
+  "bubble": "Mission: cross the whole city in one hour using four kinds of transport. Ready, Diego?",
+  "intro": "Mission: cross the whole city in one hour using four kinds of transport! Ingrid and Diego go by tram to the centre, by bicycle along the river, by train from the platform at ten past four, and finally by taxi because they are late. They never touch the motorway, which Diego says is cheating anyway. Fifty-eight minutes — mission accomplished. How do you get to school? By bus, by bike, on foot? Plan your own city mission!"
  },
  "activities": [
   {
@@ -151,7 +152,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

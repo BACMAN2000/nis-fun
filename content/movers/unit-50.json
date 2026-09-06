@@ -36,7 +36,8 @@
    "valentina": 10,
    "mateo": 10
   },
-  "bubble": "Fifty units! The Fjord Club did it — and Luna gets a diploma too. Next stop: FLYERS!"
+  "bubble": "Fifty units! The Fjord Club did it — and Luna gets a diploma too. Next stop: FLYERS!",
+  "intro": "Fifty units — the Fjord Club did it! There is a graduation at the club house: certificates on the table, one for each explorer, and a diploma for Luna too, with a paw print instead of a signature. Erik, Valentina, Sofía and Mateo remember every adventure: the lake, the farm, the lost bag, the surprise party. Thank you, team. And YOU are in the photo too!"
  },
  "activities": [
   {
@@ -82,7 +83,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "The final review · Choose the correct answer.",
+   "title": "Quick check · The final review · Choose the correct answer.",
    "outputs": [
     "book",
     "digital",
@@ -178,7 +179,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

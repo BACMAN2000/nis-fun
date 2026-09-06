@@ -32,7 +32,8 @@
    "freya": 1,
    "pip": 6
   },
-  "bubble": "My bedroom is my little world: my bed, my books, my toy box… and Pip sleeping on my pillow!"
+  "bubble": "My bedroom is my little world: my bed, my books, my toy box… and Pip sleeping on my pillow!",
+  "intro": "Freya's bedroom is her little world. There is a small bed with a blue blanket, there is a yellow lamp, there is a clock on the wall and there is a big toy box in the corner. And there is one puffin under the pillow — Pip again! Is he sleeping? Yes, he is. What is in YOUR bedroom? Is there a lamp? Is there a picture? Come in and look with Freya!"
  },
  "activities": [
   {
@@ -147,7 +148,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

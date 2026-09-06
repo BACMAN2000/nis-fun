@@ -32,7 +32,8 @@
    "valentina": 6,
    "erik": 1
   },
-  "bubble": "Grandma's photo album! Look — my mum when she was little… with the SAME smile as me!"
+  "bubble": "Grandma's photo album! Look — my mum when she was little… with the SAME smile as me!",
+  "intro": "Grandma's photo album is open on the table. Look — this is Valentina's mother when she was little, with a huge hat. Here is grandpa with his first bicycle. In this photo Erik was a baby and he was already looking at a machine. They laugh, they remember, and they take a new photo for the album. What were YOU like when you were little?"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose was or were.",
+   "title": "Quick check · Choose was or were.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

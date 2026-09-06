@@ -32,7 +32,8 @@
    "valentina": 3,
    "mateo": 5
   },
-  "bubble": "Story time: the octopus who wanted to hug everyone! Eight arms, eight hugs at the same time."
+  "bubble": "Story time: the octopus who wanted to hug everyone! Eight arms, eight hugs at the same time.",
+  "intro": "Story time with Valentina: the octopus who wanted to hug everyone! He had eight arms and too much love, so the crab ran away, the starfish said no thank you and the jellyfish just floated past. In the end a friendly shell said yes, and they were friends for ever. Under the sea, between the waves, everything has a story. What lives under the sea?"
  },
  "activities": [
   {
@@ -151,7 +152,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

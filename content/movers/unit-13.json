@@ -32,7 +32,8 @@
    "sofia": 2,
    "mateo": 1
   },
-  "bubble": "New class rules, written by us! Rule one: we must help each other. Rule two: Luna must stay OUT of the lunch boxes."
+  "bubble": "New class rules, written by us! Rule one: we must help each other. Rule two: Luna must stay OUT of the lunch boxes.",
+  "intro": "New class rules, written by the students! Rule one: we must help each other. Rule two: we must listen when someone speaks. Rule three: we mustn't shout in the corridor. Sofía writes them on a big poster with beautiful letters, and Mateo adds rule four: we mustn't run — and then he runs to hang the poster. What rules have YOU got in your class?"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose must or mustn't.",
+   "title": "Quick check · Choose must or mustn't.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

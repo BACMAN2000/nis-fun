@@ -32,7 +32,8 @@
    "nico": 3,
    "pip": 4
   },
-  "bubble": "Welcome to my house! Kitchen, bedroom, garden… and Pip's favourite room: the kitchen, of course."
+  "bubble": "Welcome to my house! Kitchen, bedroom, garden… and Pip's favourite room: the kitchen, of course.",
+  "intro": "Welcome to Nico's house! Come in: this is the kitchen, where the bread smells wonderful. This is the bedroom, this is the bathroom, and here is the door to the garden. Where is Pip? He is not in the kitchen. He is not in the garden. He is in the bathroom, in the water, very happy! Where is the door of YOUR house? Let's visit every room with Nico."
  },
  "activities": [
   {
@@ -147,7 +148,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

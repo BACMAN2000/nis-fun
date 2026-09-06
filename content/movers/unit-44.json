@@ -32,7 +32,8 @@
    "valentina": 6,
    "sofia": 1
   },
-  "bubble": "My friend Emma moved to another city, so now we write real letters — with stamps, stickers and secret jokes!"
+  "bubble": "My friend Emma moved to another city, so now we write real letters — with stamps, stickers and secret jokes!",
+  "intro": "Valentina's friend Emma moved to another city, so now they write real letters. Dear Emma, she writes, we have got news: Luna found a bag with a map inside! She tells her about school, about the club and about the rain. At the end: write soon, love from Valentina. Then she sends it at the post office. Who would YOU write to? Start your letter with Dear!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Read Emma's letter and choose the right answer.",
+   "title": "Quick check · Read Emma's letter and choose the right answer.",
    "outputs": [
     "book",
     "digital",
@@ -175,7 +176,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

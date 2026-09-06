@@ -32,7 +32,8 @@
    "freya": 1,
    "astrid": 3
   },
-  "bubble": "Pet day at school! Dogs, cats, one rabbit… and Pip, the only puffin in the whole school!"
+  "bubble": "Pet day at school! Dogs, cats, one rabbit… and Pip, the only puffin in the whole school!",
+  "intro": "Pet day at school! Freya has got a little brown rabbit with very long ears. Astrid has got two orange fish in a glass bowl. Have you got a dog? Have you got a cat? Everybody shows their pet — and then everybody looks at Pip, the only puffin in the class, sitting on the teacher's table like a king. Have YOU got a pet? Tell us its name!"
  },
  "activities": [
   {
@@ -147,7 +148,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

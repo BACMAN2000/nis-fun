@@ -32,7 +32,8 @@
    "erik": 3,
    "mateo": 4
   },
-  "bubble": "Numbers mission: count everything in the club house! Mateo is counting the biscuits… slowly and suspiciously."
+  "bubble": "Numbers mission: count everything in the club house! Mateo is counting the biscuits… slowly and suspiciously.",
+  "intro": "Numbers mission: count everything in the club house! Erik counts the books — forty-two. Mateo counts the pencils and gets sixty, then seventy, then starts again because he lost the number. There are ninety steps to the tower and one hundred stars on the ceiling, painted by Valentina. How many chairs are there in your classroom? Count in tens and check!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct number word.",
+   "title": "Quick check · Choose the correct number word.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

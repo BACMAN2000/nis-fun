@@ -32,7 +32,8 @@
    "mateo": 1,
    "erik": 3
   },
-  "bubble": "The best hour of the day: after school! Bikes, the park, and Luna running behind us."
+  "bubble": "The best hour of the day: after school! Bikes, the park, and Luna running behind us.",
+  "intro": "The best hour of the day: after school! Mateo likes riding his bike and skateboarding down the small hill. Erik likes reading science books and drawing his inventions, and he doesn't like watching TV. Both like playing outside until the sun goes down. What do YOU like doing after school? Tell us and find someone who likes the same thing!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct -ing form.",
+   "title": "Quick check · Choose the correct -ing form.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

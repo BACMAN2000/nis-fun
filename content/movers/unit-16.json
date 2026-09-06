@@ -32,7 +32,8 @@
    "valentina": 3,
    "sofia": 1
   },
-  "bubble": "Seven days, seven adventures! My favourite is Friday — club day at the lighthouse."
+  "bubble": "Seven days, seven adventures! My favourite is Friday — club day at the lighthouse.",
+  "intro": "Seven days, seven adventures! On Monday Valentina has dance class after school. On Wednesday Sofía goes to the library and comes home with four books. On Thursday they meet at the club house to plan the weekend. And on Friday? Club day — the best one of all. When do you play sport? When do you see your friends? Look at your week and tell us what you do on each day!"
  },
  "activities": [
   {
@@ -151,7 +152,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

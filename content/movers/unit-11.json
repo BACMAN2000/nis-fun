@@ -32,7 +32,8 @@
    "valentina": 1,
    "erik": 5
   },
-  "bubble": "The lake is like a mirror today! Let's take the little boat — and Erik, please don't bring inventions that sink."
+  "bubble": "The lake is like a mirror today! Let's take the little boat — and Erik, please don't bring inventions that sink.",
+  "intro": "The lake is like a mirror today. Let's take the little boat! says Valentina. Let's have the picnic on that rock! says Erik. They row to the middle of the water, with the forest behind them and the mountain over everything. A fish jumps twice, very close. Let's stay here for ever — but the sandwiches are already finished. What shall we do today? Choose a plan and say Let's!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct suggestion with Let's.",
+   "title": "Quick check · Choose the correct suggestion with Let's.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",
@@ -253,6 +254,92 @@
    ],
    "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
    "data": {}
+  },
+  {
+   "code": "G",
+   "type": "grammar_box",
+   "title": "Grammar · Go for a swim!",
+   "instructions": "Read the sentences. Then choose the right word.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "structure": "Go for a + noun",
+   "data": {
+    "title": "Let's go for a swim!",
+    "intro": "You can <b>go for a</b> walk, <b>a</b> swim, <b>a</b> ride or <b>a</b> picnic. The action turns into a thing you go for — and the little <b>a</b> is never missing.",
+    "can": "I can say <b>go for a walk / a swim / a ride</b> to talk about what we do outside.",
+    "examples": [
+     {
+      "text": "Yesterday we <b>went for a drive</b> in my brother's new car.",
+      "note": "Cambridge"
+     },
+     {
+      "text": "Let's <b>go for a swim</b> in the lake!"
+     },
+     {
+      "text": "We <b>went for a walk</b> in the forest and saw a big rock."
+     },
+     {
+      "text": "Erik <b>goes for a ride</b> on his bike every Saturday."
+     }
+    ],
+    "rules": [
+     "go / goes / went + <b>for a</b> + walk, swim, ride, drive, picnic.",
+     "Never \"go for swim\". The <b>a</b> always stays.",
+     "<b>Go swimming</b> is also correct — but then there is no <i>for</i> and no <i>a</i>."
+    ],
+    "practice": {
+     "instructions": "Choose the right word.",
+     "items": [
+      {
+       "sentence": "Let's go ___ a swim in the lake!",
+       "options": [
+        "to",
+        "for",
+        "at"
+       ],
+       "answer": 1
+      },
+      {
+       "sentence": "Yesterday we went for a ___ in the forest.",
+       "options": [
+        "walk",
+        "walked",
+        "walking"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "Valentina ___ for a ride on her bike every Saturday.",
+       "options": [
+        "go",
+        "going",
+        "goes"
+       ],
+       "answer": 2
+      },
+      {
+       "sentence": "Shall we go for a ___ by the lake? I've got sandwiches.",
+       "options": [
+        "cold",
+        "picnic",
+        "jump"
+       ],
+       "answer": 1
+      },
+      {
+       "sentence": "Which one is right?",
+       "options": [
+        "We went for swim.",
+        "We went a swim.",
+        "We went for a swim."
+       ],
+       "answer": 2
+      }
+     ]
+    }
+   }
   }
  ],
  "homework": [

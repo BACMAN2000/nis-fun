@@ -32,7 +32,8 @@
    "sofia": 5,
    "mateo": 3
   },
-  "bubble": "The scariest afternoon of the year: for two hours, nobody knew where Luna was…"
+  "bubble": "The scariest afternoon of the year: for two hours, nobody knew where Luna was…",
+  "intro": "The scariest afternoon of the year: for two hours nobody knew where Luna was. First Sofía looked for her in the garden. Then she called her name at the lake. Then Mateo made a poster with her photo and put it on the bench in the park. They were very worried — until a small girl arrived with Luna on a lead. First, then, finally: that is how you tell a story!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct word for the story.",
+   "title": "Quick check · Choose the correct word for the story.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",
@@ -253,6 +254,92 @@
    ],
    "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
    "data": {}
+  },
+  {
+   "code": "G",
+   "type": "grammar_box",
+   "title": "Grammar · When he got home…",
+   "instructions": "Read the sentences. Then choose the right word.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "structure": "When clauses (not with future meaning)",
+   "data": {
+    "title": "When he got home…",
+    "intro": "Two things happened. <b>When</b> tells your reader which one came first — and it lets you put two short sentences into one good one.",
+    "can": "I can join two past sentences with <b>when</b> to tell a story in order.",
+    "examples": [
+     {
+      "text": "<b>When he got home</b>, he had his dinner.",
+      "note": "Cambridge"
+     },
+     {
+      "text": "<b>When Sofia came home</b>, Luna wasn't there."
+     },
+     {
+      "text": "Mateo was very happy <b>when he saw the dog</b>."
+     },
+     {
+      "text": "<b>When they looked under the bench</b>, they found her!"
+     }
+    ],
+    "rules": [
+     "<b>When</b> + what happened first, then the other thing.",
+     "Start with <b>When</b> and you need a comma. Put it in the middle and you do not.",
+     "Both halves are in the past: <b>When he got…, he had…</b>"
+    ],
+    "practice": {
+     "instructions": "Choose the right word.",
+     "items": [
+      {
+       "sentence": "___ Sofia came home, the dog wasn't there.",
+       "options": [
+        "When",
+        "What",
+        "Who"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "When they ___ into the park, they called her name.",
+       "options": [
+        "walk",
+        "walked",
+        "walking"
+       ],
+       "answer": 1
+      },
+      {
+       "sentence": "Mateo was very happy ___ he saw Luna again.",
+       "options": [
+        "then",
+        "what",
+        "when"
+       ],
+       "answer": 2
+      },
+      {
+       "sentence": "When he got home, he ___ his dinner.",
+       "options": [
+        "have",
+        "had",
+        "having"
+       ],
+       "answer": 1
+      },
+      {
+       "sentence": "Which one is right?",
+       "options": [
+        "When he opened the door when the cat ran out.",
+        "He opened the door when.",
+        "When he opened the door, the cat ran out."
+       ],
+       "answer": 2
+      }
+     ]
+    }
+   }
   }
  ],
  "homework": [

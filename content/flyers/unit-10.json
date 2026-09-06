@@ -30,7 +30,8 @@
    "diego": 2,
    "kili": 2
   },
-  "bubble": "Breaking news: Kili's lost-and-found box is FULL. Whose are all these things?"
+  "bubble": "Breaking news: Kili's lost-and-found box is FULL. Whose are all these things?",
+  "intro": "Breaking news: Kili's lost-and-found box is completely FULL. Whose scarf is this? It's Ingrid's. Whose notebook is this? Not mine — it's his. Diego holds up a very strange hat and nobody claims it: it isn't ours, it isn't theirs, and it certainly isn't hers. Kili keeps it for himself. Whose things are lost in your classroom? Ask around and give them back!"
  },
  "activities": [
   {
@@ -76,7 +77,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct possessive.",
+   "title": "Quick check · Choose the correct possessive.",
    "outputs": [
     "book",
     "digital",
@@ -172,7 +173,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

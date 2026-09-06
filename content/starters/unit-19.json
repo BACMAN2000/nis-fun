@@ -32,7 +32,8 @@
    "astrid": 2,
    "nico": 3
   },
-  "bubble": "Look at the square: a man with a dog, a woman with flowers, three children playing… and one puffin watching!"
+  "bubble": "Look at the square: a man with a dog, a woman with flowers, three children playing… and one puffin watching!",
+  "intro": "Astrid and Nico sit in the square and look at the people. There is a man with a big dog. There is a woman with yellow flowers. There are three children playing with a ball, and there is a baby sleeping in his mother's arms. A man, a woman, a boy, a girl — every person has a story. Who can YOU see in your street? Sit down and look with them!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

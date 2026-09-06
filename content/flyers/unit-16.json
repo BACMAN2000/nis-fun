@@ -32,7 +32,8 @@
    "ingrid": 5,
    "maya": 3
   },
-  "bubble": "When the lights went out at the sports centre, everyone was doing something different. Let's find out what!"
+  "bubble": "When the lights went out at the sports centre, everyone was doing something different. Let's find out what!",
+  "intro": "When the lights went out at the sports centre, everybody was doing something. Ingrid was practising her jump. Maya was swimming in the pool, and she didn't notice for a whole minute. Somebody was blowing a whistle in the dark and two children were laughing in the changing room. Nobody was scared — well, almost nobody. What were YOU doing at eight o'clock yesterday?"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose was or were.",
+   "title": "Quick check · Choose was or were.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct form.",
+   "title": "Quick check · Choose the correct form.",
    "outputs": [
     "book",
     "digital",

@@ -32,7 +32,8 @@
    "maya": 4,
    "oliver": 3
   },
-  "bubble": "I might be a scientist… or a vet… or a scientist FOR animals! The future has too many good options."
+  "bubble": "I might be a scientist… or a vet… or a scientist FOR animals! The future has too many good options.",
+  "intro": "I might be a scientist, says Maya, or a vet — or a scientist who studies vets. I may work at sea, or I may not. Oliver is completely sure: he might be a musician, he might be a farmer, and he sees no problem with being both. Nothing is decided yet, and perhaps that is the best part. What might YOU be in the future? Nothing is certain — say it with might!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose might, will or won't.",
+   "title": "Quick check · Choose might, will or won't.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the best answer.",
+   "title": "Quick check · Choose the best answer.",
    "outputs": [
     "book",
     "digital",

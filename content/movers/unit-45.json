@@ -32,7 +32,8 @@
    "sofia": 10,
    "erik": 10
   },
-  "bubble": "SURPRISE! It worked! Ten guests, thirty balloons, one confetti storm… and the best club in the world!"
+  "bubble": "SURPRISE! It worked! Ten guests, thirty balloons, one confetti storm… and the best club in the world!",
+  "intro": "SURPRISE! It worked! Sofía opens the door and finds ten guests, thirty balloons and one enormous cake with candles. Her birthday is on the fourth of May and today she is eleven. There are presents on the table and games in the garden, and Erik's balloon machine works — a little too well. When is YOUR birthday? How old are you? Come and celebrate!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct party words.",
+   "title": "Quick check · Choose the correct party words.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

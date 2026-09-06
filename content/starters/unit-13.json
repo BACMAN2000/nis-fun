@@ -32,7 +32,8 @@
    "astrid": 8,
    "freya": 1
   },
-  "bubble": "Fruit salad day! Apples, bananas, mango… we cut, we mix, we eat. The best lesson ever!"
+  "bubble": "Fruit salad day! Apples, bananas, mango… we cut, we mix, we eat. The best lesson ever!",
+  "intro": "Fruit salad day! Astrid brings two apples and three bananas, and Freya brings one enormous watermelon that she can hardly carry. They cut the oranges, they mix the grapes and the strawberries, and the kitchen smells like summer. One mango, two mangoes, three mangoes — say them all! Which fruit do you like best? Bring it to the table and make the salad with them!"
  },
  "activities": [
   {
@@ -147,7 +148,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

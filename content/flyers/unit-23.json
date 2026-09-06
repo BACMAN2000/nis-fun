@@ -32,7 +32,8 @@
    "oliver": 5,
    "maya": 2
   },
-  "bubble": "I dreamed we landed on a purple planet where the rivers were made of lemonade! What a strange dream!"
+  "bubble": "I dreamed we landed on a purple planet where the rivers were made of lemonade! What a strange dream!",
+  "intro": "What a strange dream! Oliver landed on a purple planet where the rivers ran upwards and the moons sang at night. What an enormous rocket! What a friendly alien! What terrible food! Maya listens and asks scientific questions that ruin everything, like: what were the stars made of? Describe something amazing with What a…! and tell your own strange dream."
  },
  "activities": [
   {
@@ -151,7 +152,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

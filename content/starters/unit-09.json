@@ -32,7 +32,8 @@
    "astrid": 2,
    "tomas": 1
   },
-  "bubble": "Dress-up day at school! I am wearing my green dress and Tomás is wearing… a pirate hat?"
+  "bubble": "Dress-up day at school! I am wearing my green dress and Tomás is wearing… a pirate hat?",
+  "intro": "Dress-up day at school! Astrid is wearing her green dress, her white socks and her favourite hat. Tomás is wearing a red t-shirt, blue trousers and one shoe — the other shoe is lost! They look for it in the classroom, in the garden and under the table. What are YOU wearing today? A jacket? Shorts? Say it in English and join the dress-up day!"
  },
  "activities": [
   {
@@ -147,7 +148,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

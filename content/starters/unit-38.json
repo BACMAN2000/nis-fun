@@ -32,7 +32,8 @@
    "nico": 3,
    "pip": 1
   },
-  "bubble": "Animal talents! Birds can fly, fish can swim, monkeys can climb… and Pip can do almost everything!"
+  "bubble": "Animal talents! Birds can fly, fish can swim, monkeys can climb… and Pip can do almost everything!",
+  "intro": "Animal talents! Birds can fly high over the sea. Fish can swim, and they never get tired. Monkeys can climb the tallest trees, dogs can run very fast, and cats can sleep for hours and hours. Nico wants to know: can a puffin sing? Pip opens his beak… and everybody covers their ears! What can animals do? Come and find out with Nico and Pip!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "True or not? Choose the correct option.",
+   "title": "Quick check · True or not? Choose the correct option.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

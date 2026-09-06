@@ -32,7 +32,8 @@
    "diego": 3,
    "maya": 2
   },
-  "bubble": "Special report: our town, 50 years ago and today! Grandpa says the main square was much quieter… and had more pigeons."
+  "bubble": "Special report: our town, 50 years ago and today! Grandpa says the main square was much quieter… and had more pigeons.",
+  "intro": "Special report by Diego and Maya: our town, fifty years ago and today! The old photos show a smaller town, quieter and emptier, with one shop and no traffic lights. Today it is bigger, noisier and much more crowded, but there is also a new library and a park. Is the modern town better than the ancient one? Compare YOUR town then and now — and decide!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct comparative.",
+   "title": "Quick check · Choose the correct comparative.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

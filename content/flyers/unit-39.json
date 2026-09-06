@@ -32,7 +32,8 @@
    "ingrid": 2,
    "maya": 3
   },
-  "bubble": "Every great expedition learns from the past. Today: real explorers who crossed oceans, jungles and ice!"
+  "bubble": "Every great expedition learns from the past. Today: real explorers who crossed oceans, jungles and ice!",
+  "intro": "Every great expedition learns from the past. Maya tells the class about explorers who crossed oceans in wooden ships, who drew the first maps of coasts nobody had seen, and who climbed mountains without modern equipment. Some discovered new places; many simply came home and wrote everything down. Ingrid takes notes. Which explorer would YOU like to be? Tell their story in the past!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Read about Roald Amundsen and choose the right answer.",
+   "title": "Quick check · Read about Roald Amundsen and choose the right answer.",
    "outputs": [
     "book",
     "digital",
@@ -175,7 +176,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",
@@ -636,6 +637,92 @@
     "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
    },
    "code": "G"
+  },
+  {
+   "code": "K",
+   "type": "grammar_box",
+   "title": "Grammar · Before she sailed, after she returned",
+   "instructions": "Read the sentences. Then choose the right word.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "structure": "Before / after clauses (not with future reference)",
+   "data": {
+    "title": "Before she sailed, after she returned",
+    "intro": "<b>Before</b> and <b>after</b> put two past actions in order. Careful: the order of the <i>words</i> is not always the order of the <i>story</i>.",
+    "can": "I can put two past actions in order with <b>before</b> and <b>after</b>.",
+    "examples": [
+     {
+      "text": "I finished my homework <b>before I played</b> football.",
+      "note": "Cambridge"
+     },
+     {
+      "text": "<b>Before she sailed</b> to the pole, Ingrid studied the map for a year."
+     },
+     {
+      "text": "<b>After they climbed</b> the mountain, they wrote everything down."
+     },
+     {
+      "text": "The explorers ate their breakfast <b>before they left</b> the ship."
+     }
+    ],
+    "rules": [
+     "<b>before</b> / <b>after</b> + a whole clause: a person <i>and</i> a verb, not just a word.",
+     "Both verbs are in the past simple: before she <b>sailed</b>, after they <b>climbed</b>.",
+     "Read to the end before you decide what happened first — that is exactly what the exam asks you to do."
+    ],
+    "practice": {
+     "instructions": "Choose the right word.",
+     "items": [
+      {
+       "sentence": "First they climbed the mountain. Then they took a photo. So they took a photo ___ they climbed it.",
+       "options": [
+        "before",
+        "after",
+        "while"
+       ],
+       "answer": 1
+      },
+      {
+       "sentence": "___ they left the ship, the explorers looked at the map one last time.",
+       "options": [
+        "Before",
+        "Then",
+        "So"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "After she ___ home, she wrote a book about her journey.",
+       "options": [
+        "come",
+        "came",
+        "coming"
+       ],
+       "answer": 1
+      },
+      {
+       "sentence": "He read the map carefully before he ___ the ship.",
+       "options": [
+        "leave",
+        "leaving",
+        "left"
+       ],
+       "answer": 2
+      },
+      {
+       "sentence": "Which one is right?",
+       "options": [
+        "Before the journey started, they got everything ready.",
+        "Before started the journey, they got everything ready.",
+        "Before, the journey started they got everything ready."
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
   }
  ],
  "homework": [

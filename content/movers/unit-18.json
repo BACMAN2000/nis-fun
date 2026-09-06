@@ -32,7 +32,8 @@
    "erik": 5,
    "valentina": 1
   },
-  "bubble": "Snow day! Put on your coat, your hat, your gloves… and now nobody can move. Perfect."
+  "bubble": "Snow day! Put on your coat, your hat, your gloves… and now nobody can move. Perfect.",
+  "intro": "Snow day! Put on your coat, put on your hat, put on your gloves — it's very cold outside! Erik goes out with all of it, plays for ten minutes, and comes back too warm: now he takes off the hat, takes off the scarf… and goes out again. Valentina laughs from the window with her cup of hot chocolate. Is it cold where YOU are? What do you put on to go out?"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose put on or take off.",
+   "title": "Quick check · Choose put on or take off.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

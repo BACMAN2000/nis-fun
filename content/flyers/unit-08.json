@@ -32,7 +32,8 @@
    "ingrid": 3,
    "oliver": 1
   },
-  "bubble": "Expedition dinner tonight! Oliver, wash your hands — we're making pizza for the whole team."
+  "bubble": "Expedition dinner tonight! Oliver, wash your hands — we're making pizza for the whole team.",
+  "intro": "Expedition dinner tonight — pizza! Oliver, wash your hands, says Ingrid, taking charge. Have we got any cheese? Yes, we've got some. Have we got any mushrooms? No, we haven't got any, so we'll use olives and onion instead. Put the tomato on first, then the cheese, then everything else. Into the oven for twelve minutes! What do YOU put on your pizza? Give the instructions!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose some or any.",
+   "title": "Quick check · Choose some or any.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Put the recipe in order. Choose the correct word.",
+   "title": "Quick check · Put the recipe in order. Choose the correct word.",
    "outputs": [
     "book",
     "digital",

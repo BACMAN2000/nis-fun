@@ -32,7 +32,8 @@
    "astrid": 2,
    "tomas": 1
   },
-  "bubble": "Street rules: stop, look, listen… and cross with the green light. Safety first, explorers!"
+  "bubble": "Street rules: stop, look, listen… and cross with the green light. Safety first, explorers!",
+  "intro": "Astrid and Tomás walk to school and the street is full of noise: a red bus, three cars, one bike and a very big lorry. Stop! says Astrid at the corner. Look left, look right, listen. The light is red — wait. Now the light is green — cross! Tomás wants to run, but in the street we walk. What can you see in YOUR street? Learn the rules and cross safely with them!"
  },
  "activities": [
   {
@@ -147,7 +148,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

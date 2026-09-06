@@ -32,7 +32,8 @@
    "oliver": 4,
    "kili": 4
   },
-  "bubble": "Atchoo! I've got a cold and the concert is on Friday… What should I do, Kili?"
+  "bubble": "Atchoo! I've got a cold and the concert is on Friday… What should I do, Kili?",
+  "intro": "Atchoo! Oliver has got a cold and the concert is on Friday. You should drink hot lemon and honey, says Kili, who is not a doctor but has strong opinions. You shouldn't sing tonight, you should sleep. Oliver has also got a headache and, he thinks, a temperature. He takes the medicine and goes to bed at eight — a world record. What should you do when you're ill?"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "What do you say? Choose the best answer.",
+   "title": "Quick check · What do you say? Choose the best answer.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

@@ -32,7 +32,8 @@
    "freya": 1,
    "pip": 1
   },
-  "bubble": "The sea is Pip's home! Waves, fish, little boats… and the lighthouse watching everything."
+  "bubble": "The sea is Pip's home! Waves, fish, little boats… and the lighthouse watching everything.",
+  "intro": "The sea is Pip's home. Freya sits on the sand and looks: there is one little boat, there are three white waves, there are two crabs walking sideways and there is a star under the water. There are shells everywhere, and Freya puts the best ones in her pocket. Pip is on a rock, very serious, like a small sea captain. What is in the sea? Look and say it with Freya!"
  },
  "activities": [
   {
@@ -147,7 +148,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

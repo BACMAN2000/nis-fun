@@ -32,7 +32,8 @@
    "diego": 3,
    "kili": 2
   },
-  "bubble": "Kili delivered a photo album… to the wrong house! It belongs to a monster family. Let's describe them to find their home!"
+  "bubble": "Kili delivered a photo album… to the wrong house! It belongs to a monster family. Let's describe them to find their home!",
+  "intro": "Kili delivered a photo album to the wrong house, and Diego opened it by mistake. Inside there is a very unusual family: the mother has got long curly green hair, the father has got a short dark beard and only one eye, and the tall child has got straight fair hair down to the floor. They all look extremely happy. Describe the people in YOUR photos: what have they got?"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Who is who? Choose the correct monster.",
+   "title": "Quick check · Who is who? Choose the correct monster.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

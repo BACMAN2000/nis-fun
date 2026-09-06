@@ -32,7 +32,8 @@
    "maya": 5,
    "kili": 5
   },
-  "bubble": "Look at those black clouds over the sea! Kili, come inside — a big storm is coming!"
+  "bubble": "Look at those black clouds over the sea! Kili, come inside — a big storm is coming!",
+  "intro": "Look at those black clouds over the sea! Kili, come inside! Last winter there was a terrible storm here: the lightning lit up the whole bay, the thunder shook the windows and the fog arrived so thick that Maya couldn't see the lighthouse from her door. There was ice on the path and, later, a small flood in the basement. What was the worst weather YOU remember?"
  },
  "activities": [
   {
@@ -151,7 +152,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

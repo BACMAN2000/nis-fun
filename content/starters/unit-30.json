@@ -32,7 +32,8 @@
    "nico": 10,
    "pip": 1
   },
-  "bubble": "Beach day! Sun, sand, a giant castle… and Pip swimming like a champion!"
+  "bubble": "Beach day! Sun, sand, a giant castle… and Pip swimming like a champion!",
+  "intro": "Beach day! Nico builds a giant castle with wet sand and puts one shell on every tower. The sun is hot, so he wears his blue hat and eats a very fast ice cream before it melts. And Pip? Pip swims like a champion, up and down, up and down — he is a sea bird after all. Do you like the beach? What do you do there? Take your hat and come to the sand!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

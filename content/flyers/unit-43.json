@@ -32,7 +32,8 @@
    "ingrid": 2,
    "maya": 1
   },
-  "bubble": "Summer plans! We're going to stay ONE night in each place: a farm, a caravan… and a real lighthouse!"
+  "bubble": "Summer plans! We're going to stay ONE night in each place: a farm, a caravan… and a real lighthouse!",
+  "intro": "Summer plans! We're going to stay one night in each place, says Ingrid, reading her list: a hotel in the city, a tent by the lake, an old caravan on the farm and — the best one — a real lighthouse by the sea. Maya is going to pack one small suitcase; Ingrid is going to pack four. They aren't going to be bored for a single minute. Where are YOU going to go this summer?"
  },
  "activities": [
   {
@@ -151,7 +152,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

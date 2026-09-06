@@ -32,7 +32,8 @@
    "mateo": 1,
    "sofia": 5
   },
-  "bubble": "Yesterday Luna found something in the park… and that's how our small adventure began!"
+  "bubble": "Yesterday Luna found something in the park… and that's how our small adventure began!",
+  "intro": "Yesterday Luna found something in the park, and that is how the adventure started. She went under a bench, she took an old leather bag in her mouth and she came back very proud. Mateo saw the bag, Sofía opened it, and inside they got a surprise: a map, a photo and a small silver key. Who lost it? Nobody knows yet. What happened to YOU yesterday? Tell it with went, saw and found!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct past form.",
+   "title": "Quick check · Choose the correct past form.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

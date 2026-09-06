@@ -32,7 +32,8 @@
    "astrid": 10,
    "pip": 1
   },
-  "bubble": "Happy birthday to me! Eight candles, one wish, and all my friends singing. Best day of the year!"
+  "bubble": "Happy birthday to me! Eight candles, one wish, and all my friends singing. Best day of the year!",
+  "intro": "Happy birthday to Astrid! There are eight candles on the cake, one for every year. How old are you? Eight! She closes her eyes, makes a secret wish and blows — and all the candles go out at once. There are balloons everywhere, there are presents on the table, and everybody sings. Pip eats a piece of cake bigger than his head. How old are YOU? Come to the party!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

@@ -32,7 +32,8 @@
    "erik": 10,
    "sofia": 2
   },
-  "bubble": "Word Games afternoon! Spelling, opposites, guessing… and the champion gets the golden pencil!"
+  "bubble": "Word Games afternoon! Spelling, opposites, guessing… and the champion gets the golden pencil!",
+  "intro": "Word Games afternoon! Erik and Sofía play everything: spelling races, opposites, guessing with clues, finding pairs. Big — small. Hot — cold. Clue: it is an animal, it can fly, it is not a bird. A bat! Luna sleeps under the table, tired of so many words. Do you remember all the words of the course? Choose a game and play with your class!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Guess the word from the clue.",
+   "title": "Quick check · Guess the word from the clue.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

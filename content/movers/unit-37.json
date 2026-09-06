@@ -32,7 +32,8 @@
    "valentina": 10,
    "mateo": 5
   },
-  "bubble": "The school show is ON! The curtain is opening, the lights are shining… and Mateo is looking for his costume!"
+  "bubble": "The school show is ON! The curtain is opening, the lights are shining… and Mateo is looking for his costume!",
+  "intro": "The school show is ON! The curtain is opening, the lights are changing colour and the audience is clapping. Valentina is dancing in a blue costume, Mateo is acting like a very dramatic king, and behind the stage somebody is looking for the lost hat. Everybody is doing something at the same time. What is happening around you right now? Say it as you see it!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "What is happening on stage? Choose the correct form.",
+   "title": "Quick check · What is happening on stage? Choose the correct form.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

@@ -32,7 +32,8 @@
    "erik": 2,
    "mateo": 7
   },
-  "bubble": "I made a treasure game in the club garden! Follow the map: ten steps, two turns… and don't step on the tomatoes!"
+  "bubble": "I made a treasure game in the club garden! Follow the map: ten steps, two turns… and don't step on the tomatoes!",
+  "intro": "Erik made a treasure game in the club garden! Follow the map: go straight for ten steps, turn left at the tree, cross the little bridge and turn right at the flowers. Mateo turns left when the map says right and ends up in the neighbour's garden — twice. The treasure is a box of biscuits. Give directions to your friend: can they find the treasure?"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Follow the game map. Choose the correct word.",
+   "title": "Quick check · Follow the game map. Choose the correct word.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

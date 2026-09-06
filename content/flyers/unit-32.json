@@ -32,7 +32,8 @@
    "ingrid": 5,
    "kili": 2
   },
-  "bubble": "Kili has brought postcards from five different countries — and one is for us, from Grandpa Sven in Norway!"
+  "bubble": "Kili has brought postcards from five different countries — and one is for us, from Grandpa Sven in Norway!",
+  "intro": "Kili has brought postcards from five different countries in one week, and nobody knows how. This one has got a beautiful stamp and an address in tiny letters. That one was sent from a mountain village and arrived three months late. Ingrid reads them all out loud: the weather, the food, the sea. Then she writes one back. Who would YOU send a postcard to? Write it!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Read Grandpa Sven's postcard and choose the right answer.",
+   "title": "Quick check · Read Grandpa Sven's postcard and choose the right answer.",
    "outputs": [
     "book",
     "digital",
@@ -175,7 +176,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

@@ -32,7 +32,8 @@
    "ingrid": 4,
    "kili": 4
   },
-  "bubble": "Every good captain has a plan B. If it rains on Saturday, the picnic moves to the lighthouse!"
+  "bubble": "Every good captain has a plan B. If it rains on Saturday, the picnic moves to the lighthouse!",
+  "intro": "Every good captain has a plan B. If it rains on Saturday, we'll do the quiz inside, says Ingrid, writing on the board. If it's sunny, we'll have the picnic by the lake and swim before lunch. If the bus is late, we'll walk. And if Kili delivers the invitations on time, everybody will come — which is the biggest 'if' of all. What will you do if it rains this weekend? Make your own plan A and plan B!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct form.",
+   "title": "Quick check · Choose the correct form.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

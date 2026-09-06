@@ -32,7 +32,8 @@
    "astrid": 3,
    "freya": 1
   },
-  "bubble": "Look around the class: Freya is drawing, Nico is counting, Tomás is… where is Tomás?"
+  "bubble": "Look around the class: Freya is drawing, Nico is counting, Tomás is… where is Tomás?",
+  "intro": "Look around the classroom: Freya is drawing a big blue whale. Astrid is writing the date on the board. Nico is counting his crayons — one, two, five, seven — no, Nico! And Tomás is cutting paper for everybody. Everyone is doing something different at the same time. What is your friend doing right now? Look, point and say it in English!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "What are they doing? Choose the correct form.",
+   "title": "Quick check · What are they doing? Choose the correct form.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

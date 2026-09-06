@@ -32,7 +32,8 @@
    "erik": 3,
    "mateo": 1
   },
-  "bubble": "Club survey: pasta or rice? Soup or salad? The results will be very scientific… and very tasty!"
+  "bubble": "Club survey: pasta or rice? Soup or salad? The results will be very scientific… and very tasty!",
+  "intro": "Club survey! Erik walks around with a notebook: pasta or rice? Soup or salad? Mateo likes everything and answers yes to every question, which is not very useful for a survey. I like cheese but I don't like soup, says Erik, writing it down. And the milkshake? Everybody likes the milkshake. What do you like? What don't you like? Answer the survey and count the votes!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose like or likes.",
+   "title": "Quick check · Choose like or likes.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

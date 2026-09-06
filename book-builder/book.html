@@ -78,6 +78,15 @@
   .exam .opt{display:inline-block;margin-left:4mm}
   .exam .opt::before{content:"○ "}
   .pair{background:var(--band);border-radius:3mm;padding:3mm 4mm;font-size:9.5pt}
+  /* la caja de gramatica: la regla y los ejemplos en un recuadro, y debajo
+     la practica con la misma pinta que la de examen para no inventar otra */
+  .gbx{background:var(--band);border-radius:3mm;padding:3mm 4mm;font-size:9.5pt;
+    break-inside:avoid;page-break-inside:avoid}
+  .gbx .gtitle{font-weight:700;margin:0 0 1.5mm}
+  .gbx ul.gex{list-style:none;margin:1.5mm 0;padding:0}
+  .gbx ul.gex li{background:#fff;border-radius:2mm;padding:1mm 3mm;margin-bottom:1mm}
+  .gbx ol.grul{margin:1.5mm 0 0;padding-left:5mm;font-size:9pt;color:#3c4a58}
+  .gbx .gsrc{font-style:italic;color:#6b7b8c;font-size:7.5pt}
   /* la ampliacion, con el mismo + que en pantalla */
   .pw.pw-extra{position:relative}
   .pw.pw-extra::after{content:"+";position:absolute;top:.6mm;right:1mm;
@@ -229,8 +238,28 @@ function examHTML(data){
       it.options.map(o=>`<span class="opt">${o}</span>`).join('')}</span></div>`).join('')}</div>`;
 }
 
+/* La caja de gramatica de las once estructuras oficiales que faltaban.
+   En papel no hay boton de oir ni correccion: queda la regla, los ejemplos
+   y los items para rodear la opcion a lapiz, como en las de examen. */
+function grammarHTML(data){
+  const ex = (data.examples||[]).map(e=>{
+    const t = (e && e.text) ? e.text : e;
+    return `<li>${t}${(e && e.note)?` <span class="gsrc">${e.note}</span>`:''}</li>`;
+  }).join('');
+  const pr = (data.practice && data.practice.items) || [];
+  return `<div class="gbx">
+      <p class="gtitle">${data.title||''}</p>
+      ${data.intro?`<p>${data.intro}</p>`:''}
+      ${ex?`<ul class="gex">${ex}</ul>`:''}
+      ${(data.rules||[]).length?`<ol class="grul">${data.rules.map(r=>`<li>${r}</li>`).join('')}</ol>`:''}
+    </div>
+    ${pr.length?`<div class="exam" style="margin-top:2mm">
+      ${pr.map((it,i)=>`<div class="item">${i+1}. ${it.sentence.replace('___','______')}<span class="opts">${
+        it.options.map(o=>`<span class="opt">${o}</span>`).join('')}</span></div>`).join('')}</div>`:''}`;
+}
+
 const AB = { crossword: crosswordHTML, match_words: matchHTML, exam_task: examHTML,
-             gap_text: gapTextHTML, spot_diff: spotDiffHTML,
+             gap_text: gapTextHTML, spot_diff: spotDiffHTML, grammar_box: grammarHTML,
              pairwork: d=>`<div class="pair">👥 ${d.text}</div>` };
 
 function sceneFor(ud){
@@ -315,7 +344,8 @@ function picwordsHTML(wordlist, extras){
   return `<div class="act"><h2><span class="abadge" style="background:var(--accent)">✎</span>${T('Picture words — look, say and copy.','Les mots en images — regarde, dis et recopie.')}</h2>
     <div class="picwords">${cards}</div></div>`;
 }
-const BADGE = { A:'cA', B:'cB', C:'cC', D:'cD', E:'cE', F:'cF', G:'cG', H:'cA' };
+const BADGE = { A:'cA', B:'cB', C:'cC', D:'cD', E:'cE', F:'cF', G:'cG', H:'cA',
+                I:'cB', J:'cC', K:'cD', L:'cE' };
 function sbPage(ud, pageno){
   // por letra, no por el orden del JSON: una actividad anadida despues
   // se escribe al final del array y saldria fuera de sitio en el libro
@@ -390,6 +420,11 @@ function keyUnit(ud, zonas){
         linea = '(listening) ' + d(a).questions.map((q,i)=>`${i+1}. ${q.answer}`).join('  ');
       } else if (a.type === 'exam_task' && d(a).items) {
         linea = d(a).items.map((it,i)=>`${i+1}. ${it.options[it.answer]}`).join('  ');
+      } else if (a.type === 'grammar_box' && (d(a).practice||{}).items) {
+        // el profesor necesita las respuestas y, sobre todo, saber que
+        // estructura oficial esta dando: va delante, con su nombre
+        linea = (a.structure ? `<i>${a.structure}</i> — ` : '')
+          + d(a).practice.items.map((it,i)=>`${i+1}. ${it.options[it.answer]}`).join('  ');
       } else if (a.type === 'gap_text' && d(a).answers) {
         linea = '(gap text) ' + d(a).answers.map((x,i)=>`${i+1}. ${x}`).join('  ');
       } else if (a.type === 'spot_diff') {

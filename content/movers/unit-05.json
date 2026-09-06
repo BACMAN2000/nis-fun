@@ -32,7 +32,8 @@
    "sofia": 2,
    "erik": 1
   },
-  "bubble": "A traveller packs smart: one jacket, two jumpers, and boots for every adventure!"
+  "bubble": "A traveller packs smart: one jacket, two jumpers, and boots for every adventure!",
+  "intro": "A traveller packs smart, says Sofía, and she folds one jacket, two jumpers and a pair of boots. Erik packs differently: he takes six shirts, no trousers and a machine that folds socks by itself — and does not work. In winter they wear scarves, in spring they wear light shirts. What do YOU wear when it is cold? Open your wardrobe and tell us!"
  },
  "activities": [
   {
@@ -151,7 +152,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

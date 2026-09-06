@@ -83,7 +83,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose was, were or did.",
+   "title": "Quick check · Choose was, were or did.",
    "outputs": [
     "book",
     "digital",
@@ -179,7 +179,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct past form.",
+   "title": "Quick check · Choose the correct past form.",
    "outputs": [
     "book",
     "digital",

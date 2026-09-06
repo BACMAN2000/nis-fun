@@ -32,7 +32,8 @@
    "valentina": 4,
    "mateo": 5
   },
-  "bubble": "The neighbour's cat is somewhere in our club house — and Luna is NOT happy about it!"
+  "bubble": "The neighbour's cat is somewhere in our club house — and Luna is NOT happy about it!",
+  "intro": "The neighbour's cat is somewhere in the club house — and Luna knows it! Is it under the table? No. Is it behind the door? No. Is it between the boxes, next to the window, in front of the shelf? Valentina looks everywhere. Finally Mateo looks up: the cat is ON the cupboard, watching everybody, very comfortable. Where are your things? Say it exactly!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Where is it? Choose the correct preposition.",
+   "title": "Quick check · Where is it? Choose the correct preposition.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

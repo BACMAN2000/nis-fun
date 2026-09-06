@@ -32,7 +32,8 @@
    "valentina": 1,
    "erik": 2
   },
-  "bubble": "Four seasons, four adventures: flowers in spring, the lake in summer, leaves in autumn and snowmen in winter!"
+  "bubble": "Four seasons, four adventures: flowers in spring, the lake in summer, leaves in autumn and snowmen in winter!",
+  "intro": "Four seasons, four adventures! In spring the fjord is full of flowers and the rain makes rainbows. In summer they swim in the lake every afternoon. In autumn the wind takes the leaves and the sky is grey with clouds. In winter everything is white and quiet. Erik likes all of them; Valentina likes summer twice as much. Which season do YOU like best?"
  },
  "activities": [
   {
@@ -151,7 +152,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

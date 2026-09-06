@@ -32,7 +32,8 @@
    "diego": 8,
    "kili": 1
   },
-  "bubble": "Big news: the city TV channel wants a report about our school… and Kili will be on TV!"
+  "bubble": "Big news: the city TV channel wants a report about our school… and Kili will be on TV!",
+  "intro": "Big news: the city TV channel wants a report about our school! Diego is delighted, obviously. He thinks documentaries are more interesting than cartoons; Kili strongly disagrees and says cartoons are clearly superior. They watch the programme together on a tiny screen and argue happily all afternoon. What kind of programmes do YOU like? Give your opinion and defend it!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Read about the TV visit and choose the right answer.",
+   "title": "Quick check · Read about the TV visit and choose the right answer.",
    "outputs": [
     "book",
     "digital",
@@ -175,7 +176,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

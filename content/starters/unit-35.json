@@ -32,7 +32,8 @@
    "nico": 8,
    "tomas": 3
   },
-  "bubble": "Lunchbox surprise! What's inside today? A sandwich, an apple… and a little note from Mum!"
+  "bubble": "Lunchbox surprise! What's inside today? A sandwich, an apple… and a little note from Mum!",
+  "intro": "Lunchbox surprise! What is inside today? There is a sandwich with cheese, there is one red apple and there are two biscuits. There is a small bottle of water and a paper napkin. But in Nico's box there are only carrots — his mother wins today! Tomás shares his biscuits, because friends share. What is in YOUR lunchbox? Open it and tell us!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

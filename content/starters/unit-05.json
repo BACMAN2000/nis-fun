@@ -32,7 +32,8 @@
    "astrid": 2,
    "pip": 2
   },
-  "bubble": "Everything in its place! My pencils here, my books there… and Pip on my chair. Again."
+  "bubble": "Everything in its place! My pencils here, my books there… and Pip on my chair. Again.",
+  "intro": "Astrid opens her school bag and puts everything in its place: this is her pen, this is her red pencil, this is her book, and this is her ruler. Everything is tidy — Astrid loves tidy things! But look at her chair… Pip is sleeping on it again, on top of the crayons. This is my chair, says Astrid. This is MY chair, says Pip. What is in YOUR school bag? Open it and say it in English!"
  },
  "activities": [
   {
@@ -147,7 +148,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",
@@ -226,6 +227,92 @@
    ],
    "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
    "data": {}
+  },
+  {
+   "code": "G",
+   "type": "grammar_box",
+   "title": "Grammar · I have a book to read.",
+   "instructions": "Read the sentences. Then choose the right word.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "structure": "Have + object + infinitive",
+   "data": {
+    "title": "I have a book to read.",
+    "intro": "First say <b>what you have</b>. Then say <b>what you do with it</b>. One little word joins them: <b>to</b>.",
+    "can": "I can say what I have and what I do with it: <b>a book to read</b>.",
+    "examples": [
+     {
+      "text": "Lucy has a book <b>to read</b>.",
+      "note": "Cambridge"
+     },
+     {
+      "text": "Astrid has a pencil <b>to draw</b>."
+     },
+     {
+      "text": "I have an apple <b>to eat</b>."
+     },
+     {
+      "text": "Pip has a fish <b>to eat</b>. Look at him!"
+     }
+    ],
+    "rules": [
+     "have / has + a thing + <b>to</b> + do it.",
+     "The verb after <b>to</b> never changes: to read, to eat, to draw.",
+     "Now say one to your partner: \"I have a ___ to ___.\""
+    ],
+    "practice": {
+     "instructions": "Choose the right word.",
+     "items": [
+      {
+       "sentence": "I have a book ___ read.",
+       "options": [
+        "to",
+        "and",
+        "is"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "Astrid has an apple to ___.",
+       "options": [
+        "eats",
+        "eat",
+        "eating"
+       ],
+       "answer": 1
+      },
+      {
+       "sentence": "We have a song to ___.",
+       "options": [
+        "sing",
+        "sings",
+        "singing"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "Pip has a fish ___ eat.",
+       "options": [
+        "at",
+        "for",
+        "to"
+       ],
+       "answer": 2
+      },
+      {
+       "sentence": "She ___ a nice book to read.",
+       "options": [
+        "have",
+        "has",
+        "having"
+       ],
+       "answer": 1
+      }
+     ]
+    }
+   }
   }
  ],
  "homework": [

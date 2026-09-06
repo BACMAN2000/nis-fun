@@ -32,7 +32,8 @@
    "erik": 3,
    "sofia": 1
   },
-  "bubble": "Science in the garden! My new invention waters the plants… and sometimes the gardener too."
+  "bubble": "Science in the garden! My new invention waters the plants… and sometimes the gardener too.",
+  "intro": "Science in the garden! Erik is testing his new invention: a machine that waters the plants alone. Right now it is watering the flowers, the grass, the tree and — oh no — Sofía, who is reading on the bench. She is not laughing. The leaves are moving, the plants are growing, and the machine is still working. What is happening in your garden right now? Come and see!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "What is happening now? Choose the correct form.",
+   "title": "Quick check · What is happening now? Choose the correct form.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

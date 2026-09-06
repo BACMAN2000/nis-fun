@@ -32,7 +32,8 @@
    "sofia": 1,
    "mateo": 5
   },
-  "bubble": "Farm trip! Mateo, that's not a small horse… that's a donkey, and he likes your sandwich!"
+  "bubble": "Farm trip! Mateo, that's not a small horse… that's a donkey, and he likes your sandwich!",
+  "intro": "Farm trip! Mateo runs to the field: look, a small horse! That is not a horse, says Sofía, that is a donkey. The cow can walk very slowly, the duck can swim, the hen can't fly very far and the goat can eat anything — including Mateo's map. What can these animals do, and what can't they do? Put on your boots and find out on the farm!"
  },
  "activities": [
   {
@@ -151,7 +152,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

@@ -32,7 +32,8 @@
    "tomas": 2,
    "nico": 2
   },
-  "bubble": "THIS ball is here in my hand. THAT bird is far in the sky. Near and far — easy!"
+  "bubble": "THIS ball is here in my hand. THAT bird is far in the sky. Near and far — easy!",
+  "intro": "THIS ball is here, in Tomás's hand. THAT bird is there, far away in the sky. These shoes are near, those clouds are far. Nico gets everything wrong on purpose: this house! — while pointing at a mountain. Everybody laughs and corrects him, and that is how you learn. Near or far? Here or there? Point at something and say it with them!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose this, that, these or those.",
+   "title": "Quick check · Choose this, that, these or those.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

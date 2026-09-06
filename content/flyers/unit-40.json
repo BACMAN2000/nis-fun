@@ -32,7 +32,8 @@
    "oliver": 10,
    "ingrid": 1
   },
-  "bubble": "Question of the week: what was the best day of your life? Mine had a stage, a storm and 500 people singing!"
+  "bubble": "Question of the week: what was the best day of your life? Mine had a stage, a storm and 500 people singing!",
+  "intro": "Question of the week: what was the best day of your life? For Oliver it was the first concert, with the worst sound and the biggest happiness. For Ingrid it was the day the expedition started. The funniest day was the pizza disaster; the most beautiful, the night of the northern lights. Nobody agrees, and that is the point. What was YOUR best day ever?"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct superlative.",
+   "title": "Quick check · Choose the correct superlative.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

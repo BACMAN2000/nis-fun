@@ -32,7 +32,8 @@
    "valentina": 3,
    "mateo": 1
   },
-  "bubble": "Exam secrets from the Fjord Club: listen twice, colour carefully… and remember to breathe!"
+  "bubble": "Exam secrets from the Fjord Club: listen twice, colour carefully… and remember to breathe!",
+  "intro": "Exam secrets from the Fjord Club! Valentina's rules: listen twice, because you always hear the answer the second time. Read the example first — it tells you what to do. Colour carefully and only what they ask. Mateo adds his own rule: check everything at the end, because he always writes his name last. Ready for the exam? Take a pencil and breathe!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "What should you do? Choose the best option.",
+   "title": "Quick check · What should you do? Choose the best option.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

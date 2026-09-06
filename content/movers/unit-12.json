@@ -32,7 +32,8 @@
    "erik": 8,
    "valentina": 4
   },
-  "bubble": "My backpack has got 23 things inside. Valentina says 20 of them are little machines. She is correct."
+  "bubble": "My backpack has got 23 things inside. Valentina says 20 of them are little machines. She is correct.",
+  "intro": "My backpack has got twenty-three things inside, says Erik proudly. Valentina looks at them one by one: a pencil case, a ruler, two rubbers, some glue, scissors, three notebooks… and a small stone. Twenty of these things you don't need, she says. Erik has got an answer for each one. Have you got a ruler? Have you got glue? Open your bag and count what YOU have got!"
  },
  "activities": [
   {
@@ -151,7 +152,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

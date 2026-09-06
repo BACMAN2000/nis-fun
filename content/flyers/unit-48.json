@@ -32,7 +32,8 @@
    "maya": 3,
    "diego": 4
   },
-  "bubble": "Riddle time! A person WHO flies, a place WHERE ships sleep, a thing WHICH rings… Can you guess them all?"
+  "bubble": "Riddle time! A person WHO flies, a place WHERE ships sleep, a thing WHICH rings… Can you guess them all?",
+  "intro": "Riddle time with Maya and Diego! A person who flies and carries letters. A place where ships stop. A thing which tells you the time. A person who cures animals; a place where you borrow books; a thing which you use to see far away. Diego invents one that nobody can solve, including himself. Write your own riddle with who, which and where — and test your class!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose who, which or where.",
+   "title": "Quick check · Choose who, which or where.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

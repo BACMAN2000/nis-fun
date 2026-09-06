@@ -32,7 +32,8 @@
    "freya": 1,
    "astrid": 3
   },
-  "bubble": "Good morning! Milk, bread with jam, one banana… breakfast makes explorers strong!"
+  "bubble": "Good morning! Milk, bread with jam, one banana… breakfast makes explorers strong!",
+  "intro": "Good morning! Freya has milk and bread with jam for breakfast, and one banana to take to school. Astrid has an egg and a glass of juice. The spoon falls, the milk goes on the table, and everybody laughs. Breakfast makes the day happy — and long, if you eat slowly like Freya. What do YOU have for breakfast? Sit down with them and say it in English!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",

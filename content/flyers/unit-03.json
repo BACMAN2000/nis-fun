@@ -82,7 +82,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose just, already or yet.",
+   "title": "Quick check · Choose just, already or yet.",
    "outputs": [
     "book",
     "digital",
@@ -178,7 +178,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Exam task · Choose the correct form.",
+   "title": "Quick check · Choose the correct form.",
    "outputs": [
     "book",
     "digital",

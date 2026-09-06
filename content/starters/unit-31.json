@@ -32,7 +32,8 @@
    "freya": 2,
    "pip": 1
   },
-  "bubble": "Weather window game: look outside and tell me — is it sunny, cloudy or rainy today?"
+  "bubble": "Weather window game: look outside and tell me — is it sunny, cloudy or rainy today?",
+  "intro": "Weather window game! Every morning Freya looks outside and says the weather. Today it is windy: the trees are dancing and her hat flies away. Yesterday it was rainy and she needed her red umbrella. When it is sunny they go out, when it is cold they stay in with hot chocolate. Look — after the rain, a rainbow! Is it sunny or rainy where YOU are? Look out and tell us!"
  },
  "activities": [
   {
@@ -78,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Choose the correct weather word.",
+   "title": "Quick check · Choose the correct weather word.",
    "outputs": [
     "book",
     "digital",
@@ -174,7 +175,7 @@
   {
    "code": "D",
    "type": "exam_task",
-   "title": "Choose the correct word.",
+   "title": "Quick check · Choose the correct word.",
    "outputs": [
     "book",
     "digital",
