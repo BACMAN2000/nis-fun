@@ -74,6 +74,28 @@ POR_TEMA = {
  "letters": "electro",     "spelling": "electro",    "he / she": "doowop",
  "this / that": "polka",   "review": "rocanrol",
  "review & celebration": "gospel",
+
+ # --- Movers. Mismo criterio: el ritmo refuerza lo que se aprende.
+ "past simple": "rocanrol",        "daily routine": "skiffle",
+ "fruit & vegetables": "bossa",    "farm animals": "campo",
+ "nature": "campo",                "school things": "skiffle",
+ "must / mustn't": "banda",        "free time": "calipso",
+ "days of the week": "polka",      "food & drink": "calipso",
+ "clothes & weather": "polka",     "transport": "skiffle",
+ "describing people": "doowop",    "countryside": "campo",
+ "chores": "funk",                 "health": "vals",
+ "past simple: -ed": "rocanrol",   "irregular pasts": "rocanrol",
+ "past story": "vals",             "comparatives": "electro",
+ "superlatives": "banda",          "numbers to 100": "electro",
+ "time": "polka",                  "weather & seasons": "reggae",
+ "possessives": "doowop",          "plans & wishes": "vals",
+ "present continuous": "funk",     "imperatives": "funk",
+ "quantities": "calipso",          "can + descriptions": "banda",
+ "wild animals": "banda",          "sea animals": "reggae",
+ "directions": "electro",          "writing": "nana",
+ "celebrations": "rocanrol",       "ordering food": "calipso",
+ "past + family": "vals",          "vocabulary review": "polka",
+ "exam practice": "skiffle",
 }
 
 RUEDA = ["ukelele", "banda", "bossa", "funk", "polka", "campo",

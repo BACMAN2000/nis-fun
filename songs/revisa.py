@@ -39,7 +39,10 @@ There Where What Who How Why When It He She We You I My His Her Our Their Do
 Does Did Can Have Has Had Is Are Am Was Were Be Been Will Would Let Lets Now
 Then Once Twice Both Even Just Only Very Too Also Well Down Almost Off On In At
 To Of For With From By Up Out Over Above Below Between Behind Beside Beneath
-Around Across Through Into Onto Raise Guess Blow Scary Team""".split())
+Around Across Through Into Onto Raise Guess Blow Scary Team
+Club Fjord English Maths Science Art History Music Geography Biology
+Chemistry Drama January February March April June July August
+September October November December Aaah Whee Moo Neigh Oink Quack""".split())
 
 # Temas conocidos que el filtro corta. La lista crece con cada rechazo.
 MINAS = [r"old macdonald", r"e-?i-?e-?i-?o",
