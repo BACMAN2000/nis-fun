@@ -161,38 +161,38 @@
      {
       "sentence": "Avec qui Maya est-elle allée au musée ?",
       "options": [
-       "son cousin",
        "sa tante",
+       "son cousin",
        "Diego"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Qu'est-ce qu'il y avait dans la salle préférée de Maya ?",
       "options": [
        "de vieux tableaux",
-       "des os de dinosaure",
-       "des bagues en or"
+       "des bagues en or",
+       "des os de dinosaure"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Où était le restaurant ?",
       "options": [
-       "près du pont",
        "dans le stade",
+       "près du pont",
        "à côté du théâtre"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "La pièce au théâtre parlait…",
       "options": [
-       "d'une équipe de football",
+       "d'un dragon",
        "d'un musée",
-       "d'un dragon"
+       "d'une équipe de football"
       ],
-      "answer": 2
+      "answer": 0
      },
      {
       "sentence": "Qui a marqué le premier but dimanche ?",

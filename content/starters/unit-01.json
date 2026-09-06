@@ -175,11 +175,11 @@
      {
       "sentence": "It is round. You play football with it.",
       "options": [
-       "a ball",
+       "a car",
        "a kite",
-       "a car"
+       "a ball"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "It flies in the sky.",
@@ -193,29 +193,29 @@
      {
       "sentence": "A banana is …",
       "options": [
-       "blue",
+       "yellow",
        "red",
-       "yellow"
-      ],
-      "answer": 2
-     },
-     {
-      "sentence": "It goes choo-choo on rails.",
-      "options": [
-       "a train",
-       "a doll",
-       "a ball"
+       "blue"
       ],
       "answer": 0
      },
      {
-      "sentence": "A frog is …",
+      "sentence": "It goes choo-choo on rails.",
       "options": [
-       "orange",
-       "green",
-       "black"
+       "a doll",
+       "a train",
+       "a ball"
       ],
       "answer": 1
+     },
+     {
+      "sentence": "A frog is …",
+      "options": [
+       "green",
+       "orange",
+       "black"
+      ],
+      "answer": 0
      }
     ]
    }

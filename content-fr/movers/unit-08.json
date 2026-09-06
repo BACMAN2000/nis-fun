@@ -94,16 +94,16 @@
        "Il y a",
        "C'est"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "___ deux lits dans ma chambre — un pour les invités.",
       "options": [
        "Il y a",
-       "Il y a",
-       "Ce sont"
+       "Ce sont",
+       "Il y a"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "___ une télé dans ta chambre ?",
@@ -117,20 +117,20 @@
      {
       "sentence": "Il ___ quatre affiches sur mon mur.",
       "options": [
-       "est",
        "sont",
+       "est",
        "suis"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Il ___ une armoire à côté du bureau.",
       "options": [
-       "est",
        "sont",
+       "est",
        "être"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -186,47 +186,47 @@
      {
       "sentence": "Tu ranges tes vêtements dans une …",
       "options": [
-       "armoire",
+       "affiche",
        "horloge",
-       "affiche"
+       "armoire"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Tu fais tes devoirs à ton …",
       "options": [
-       "lit",
        "bureau",
+       "lit",
        "bain"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "L'___ te donne l'heure.",
       "options": [
-       "horloge",
        "affiche",
+       "horloge",
        "oreiller"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Tu prépares le dîner dans la …",
       "options": [
        "salle de bains",
-       "cuisine",
-       "couloir"
+       "couloir",
+       "cuisine"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Une image sur ton mur est une …",
       "options": [
-       "affiche",
+       "bureau",
        "armoire",
-       "bureau"
+       "affiche"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

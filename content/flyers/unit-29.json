@@ -100,38 +100,38 @@
      {
       "sentence": "Which is correct?",
       "options": [
-       "She never eats fish.",
+       "Never she eats fish.",
        "She eats never fish.",
-       "Never she eats fish."
+       "She never eats fish."
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Which is correct?",
       "options": [
-       "We go usually by bus.",
        "We usually go by bus.",
+       "We go usually by bus.",
        "Usually we go by the bus always."
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "\"How ___ do you train?\" — \"Twice a week.\"",
       "options": [
-       "often",
        "much",
+       "often",
        "long"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "I visit my grandparents ___ a month.",
       "options": [
-       "once",
+       "first",
        "one",
-       "first"
+       "once"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -197,37 +197,37 @@
       "sentence": "Something you do every day is a daily …",
       "options": [
        "prize",
-       "habit",
-       "news"
+       "news",
+       "habit"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "\"Once\" means ___ time.",
       "options": [
-       "one",
        "two",
+       "one",
        "no"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "It ___ snows in Lima — almost never!",
       "options": [
-       "always",
        "rarely",
+       "always",
        "usually"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "I brush my teeth ___ a day: morning and night.",
       "options": [
        "once",
-       "twice",
-       "never"
+       "never",
+       "twice"
       ],
-      "answer": 1
+      "answer": 2
      }
     ]
    }

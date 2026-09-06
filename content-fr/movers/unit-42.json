@@ -163,11 +163,11 @@
      {
       "sentence": "Une pieuvre a ___ bras.",
       "options": [
-       "huit",
        "six",
+       "huit",
        "dix"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Tu entends la mer dans un …",
@@ -181,20 +181,20 @@
      {
       "sentence": "Le fond de l'océan est très …",
       "options": [
-       "profond",
+       "ensoleillé",
        "sec",
-       "ensoleillé"
+       "profond"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Les poissons ___ toute la journée.",
       "options": [
-       "nager",
+       "voler",
        "courir",
-       "voler"
+       "nager"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "La ___ fait monter et descendre les bateaux.",

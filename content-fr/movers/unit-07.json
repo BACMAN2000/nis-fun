@@ -173,19 +173,19 @@
       "sentence": "« ___ de poires tu veux ? » — « Trois, s'il te plaît. »",
       "options": [
        "beaucoup",
-       "beaucoup de",
-       "long"
+       "long",
+       "beaucoup de"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Tu portes les courses dans un …",
       "options": [
-       "panier",
        "botte",
+       "panier",
        "bol"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Le fruit avec du lait dedans est la …",
@@ -199,11 +199,11 @@
      {
       "sentence": "Couper un ___ fait pleurer les gens.",
       "options": [
-       "oignon",
        "pomme",
+       "oignon",
        "orange"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

@@ -90,20 +90,20 @@
      {
       "sentence": "Luna était ___ — personne ne la trouvait.",
       "options": [
-       "perdu",
        "a trouvé",
+       "perdu",
        "fatigué"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "On l'___ partout.",
       "options": [
-       "a cherchée",
+       "cherche",
        "regarder",
-       "cherche"
+       "a cherchée"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Tout le monde était très ___ pour elle.",
@@ -117,20 +117,20 @@
      {
       "sentence": "On a mis des ___ avec sa photo sur les arbres.",
       "options": [
-       "affiches",
        "cartes postales",
+       "affiches",
        "timbres"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "À la fin elle est rentrée ___ et contente.",
       "options": [
+       "hôtel",
        "maison",
-       "maison",
-       "hôtel"
+       "maison"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -195,20 +195,20 @@
      {
       "sentence": "On s'est assis sur le ___ du parc pour se reposer.",
       "options": [
-       "banc",
+       "branche",
        "plage",
-       "branche"
+       "banc"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "« Tu as vu mon chat ? » — « Il est ___ ? »",
       "options": [
-       "perdu",
        "fort",
+       "perdu",
        "long"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "On ___ mamie tous les dimanches soir.",
@@ -222,11 +222,11 @@
      {
       "sentence": "Le contraire d'inquiet est …",
       "options": [
-       "calme",
+       "bouclé",
        "froid",
-       "bouclé"
+       "calme"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

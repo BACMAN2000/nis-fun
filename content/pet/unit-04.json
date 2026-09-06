@@ -91,20 +91,20 @@
      {
       "q": "What did the group study for the project?",
       "options": [
-       "advertisements",
        "the weather",
+       "advertisements",
        "a football match"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "q": "According to the text, what does a good advert do?",
       "options": [
-       "it changes how you feel about a product",
+       "it hides the product",
        "it only lists the price",
-       "it hides the product"
+       "it changes how you feel about a product"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "q": "How is the word 'useful' built?",
@@ -127,11 +127,11 @@
      {
       "q": "How does the group want to use word power?",
       "options": [
-       "honestly, to value real skills",
+       "to trick people",
        "to sell expensive things",
-       "to trick people"
+       "honestly, to value real skills"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -177,29 +177,29 @@
       {
        "sentence": "This tool is very ___. It helps a lot.",
        "options": [
-        "useful",
         "useless",
+        "useful",
         "use"
        ],
-       "answer": 0
+       "answer": 1
       },
       {
        "sentence": "He never listens; he is so ___.",
        "options": [
-        "careless",
         "careful",
+        "careless",
         "care"
        ],
-       "answer": 0
+       "answer": 1
       },
       {
        "sentence": "The whole class felt great ___ when we won.",
        "options": [
-        "happiness",
+        "unhappy",
         "happy",
-        "unhappy"
+        "happiness"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "Sorry, that is ___. We can't do it.",
@@ -213,11 +213,11 @@
       {
        "sentence": "I ___ with you. I think you're wrong.",
        "options": [
-        "disagree",
         "agree",
+        "disagree",
         "agreement"
        ],
-       "answer": 0
+       "answer": 1
       }
      ]
     }
@@ -312,29 +312,29 @@
      {
       "sentence": "Reading Wonder taught us about ___ and respect.",
       "options": [
-       "kindness",
+       "unkind",
        "kind",
-       "unkind"
+       "kindness"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Don't be ___ with the tools; you could get hurt.",
       "options": [
-       "careless",
+       "carefully",
        "careful",
-       "carefully"
+       "careless"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "It is ___ to finish everything in a single day.",
       "options": [
-       "impossible",
        "possible",
+       "impossible",
        "possibly"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "I completely ___ with that idea; I think it's wrong.",

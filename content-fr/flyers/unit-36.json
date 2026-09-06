@@ -90,20 +90,20 @@
      {
       "sentence": "Ne ___ pas tant de bruit — le bébé dort !",
       "options": [
-       "fabriquer",
+       "avoir",
        "faire",
-       "avoir"
+       "fabriquer"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Je ___ mes devoirs à la bibliothèque.",
       "options": [
-       "fabriquer",
        "faire",
+       "fabriquer",
        "prendre"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Tout le monde ___ des erreurs quand on apprend.",
@@ -127,10 +127,10 @@
       "sentence": "Tu peux m'aider à ___ un gâteau pour papa ?",
       "options": [
        "faire",
-       "fabriquer",
-       "cuisiner le"
+       "cuisiner le",
+       "fabriquer"
       ],
-      "answer": 1
+      "answer": 2
      }
     ]
    }
@@ -214,10 +214,10 @@
       "sentence": "« J'ai ___ de mon mieux, mais je suis arrivé troisième. » — « Bravo quand même ! »",
       "options": [
        "a fait",
-       "a fait",
-       "est allé"
+       "est allé",
+       "a fait"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Oups, j'ai ___ une erreur à l'exercice deux.",

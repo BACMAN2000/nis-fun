@@ -100,38 +100,38 @@
      {
       "sentence": "The giraffe's neck is very …",
       "options": [
-       "long",
+       "cold",
        "dirty",
-       "cold"
+       "long"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "My shoes are ___ after football.",
       "options": [
-       "dirty",
        "clean",
+       "dirty",
        "new"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Grandpa's radio is very …",
       "options": [
-       "old",
+       "green",
        "young",
-       "green"
+       "old"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The flowers are ___ — I love them!",
       "options": [
-       "beautiful",
        "dirty",
+       "beautiful",
        "sad"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -196,11 +196,11 @@
      {
       "sentence": "After a bath, you are …",
       "options": [
-       "clean",
+       "old",
        "dirty",
-       "old"
+       "clean"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "A snake is …",
@@ -214,20 +214,20 @@
      {
       "sentence": "My new toy is ___, not old.",
       "options": [
-       "new",
        "dirty",
+       "new",
        "sad"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "On my birthday I am very …",
       "options": [
-       "happy",
+       "cold",
        "sad",
-       "cold"
+       "happy"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

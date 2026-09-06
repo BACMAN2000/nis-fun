@@ -91,20 +91,20 @@
      {
       "q": "How does Esperanza behave when she comes home?",
       "options": [
-       "She comes home late and says almost nothing.",
        "She sings and laughs loudly.",
+       "She comes home late and says almost nothing.",
        "She invites all her friends inside."
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "q": "Why does Mateo think something happened at school?",
       "options": [
        "because she brought home a prize",
-       "because she looks upset",
-       "because she is very hungry"
+       "because she is very hungry",
+       "because she looks upset"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "q": "What clue does Nadia notice by the door?",
@@ -119,10 +119,10 @@
       "q": "Why does the writer think Esperanza's mother read the letter?",
       "options": [
        "because the letter is missing",
-       "because her mother told everyone",
-       "because her mother's eyes are red"
+       "because her mother's eyes are red",
+       "because her mother told everyone"
       ],
-      "answer": 2
+      "answer": 1
      },
      {
       "q": "What does the writer say about Cisneros's style?",
@@ -177,47 +177,47 @@
       {
        "sentence": "Her eyes are red; she ___ have been crying.",
        "options": [
-        "must",
+        "won't",
         "can't",
-        "won't"
+        "must"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "The page is empty, so she ___ have felt like writing.",
        "options": [
-        "must",
         "can't",
+        "must",
         "should"
        ],
-       "answer": 1
+       "answer": 0
       },
       {
        "sentence": "Nobody is sure, but she ___ have run home.",
        "options": [
-        "might",
         "must",
+        "might",
         "can't"
        ],
-       "answer": 0
+       "answer": 1
       },
       {
        "sentence": "He knew nothing about it; he ___ have read the letter.",
        "options": [
-        "can't",
+        "should",
         "must",
-        "should"
+        "can't"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "The door was open, so someone ___ have come in.",
        "options": [
-        "must",
         "can't",
+        "must",
         "won't"
        ],
-       "answer": 0
+       "answer": 1
       }
      ]
     }
@@ -313,19 +313,19 @@
       "sentence": "She was at home all day, so she ___ have seen the accident.",
       "options": [
        "must",
-       "can't",
-       "should"
+       "should",
+       "can't"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "I'm not sure, but they ___ have missed the bus.",
       "options": [
-       "might",
        "must",
+       "might",
        "can't"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "He passed easily, so he ___ have studied a lot.",
@@ -340,10 +340,10 @@
       "sentence": "The lights are off, so nobody ___ have been at home.",
       "options": [
        "can",
-       "can't",
-       "must"
+       "must",
+       "can't"
       ],
-      "answer": 1
+      "answer": 2
      }
     ]
    }

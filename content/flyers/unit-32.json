@@ -101,29 +101,29 @@
      {
       "sentence": "What colour is his boat?",
       "options": [
-       "red",
+       "blue",
        "green",
-       "blue"
+       "red"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "How many waterfalls did he see?",
       "options": [
-       "seventeen",
        "seven",
+       "seventeen",
        "seventy"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "What did the fat seal do?",
       "options": [
        "swam all day",
-       "slept on a rock",
-       "ate his lunch"
+       "ate his lunch",
+       "slept on a rock"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "What is in the parcel?",
@@ -188,11 +188,11 @@
      {
       "sentence": "You stick a ___ on a postcard.",
       "options": [
-       "stamp",
        "pillow",
+       "stamp",
        "mirror"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Yesterday I ___ a letter to my cousin.",
@@ -216,19 +216,19 @@
       "sentence": "\"___ from Norway!\" is a typical postcard start.",
       "options": [
        "Directions",
-       "Greetings",
-       "Stairs"
+       "Stairs",
+       "Greetings"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "At the end of a card, you ___ your name.",
       "options": [
-       "sign",
+       "send",
        "sing",
-       "send"
+       "sign"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

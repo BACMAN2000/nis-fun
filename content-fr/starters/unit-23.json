@@ -90,20 +90,20 @@
      {
       "sentence": "Un oiseau ___ voler.",
       "options": [
-       "pouvoir",
        "ne peut pas",
+       "pouvoir",
        "est"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Un poisson ___ marcher.",
       "options": [
-       "ne peut pas",
+       "n'est pas",
        "pouvoir",
-       "n'est pas"
+       "ne peut pas"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Je ___ sauter très haut !",
@@ -117,11 +117,11 @@
      {
       "sentence": "___ tu nager ? — Oui, je sais !",
       "options": [
-       "Peux-tu",
        "Sont",
+       "Peux-tu",
        "Est-ce que"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Un bébé ___ conduire une voiture.",
@@ -186,20 +186,20 @@
      {
       "sentence": "Les grenouilles savent ___ très haut.",
       "options": [
-       "sauter",
+       "lire",
        "chanter",
-       "lire"
+       "sauter"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Tu ___ avec tes jambes.",
       "options": [
-       "courir",
+       "chanter",
        "dessiner",
-       "chanter"
+       "courir"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Tu chantes avec ta …",
@@ -213,20 +213,20 @@
      {
       "sentence": "Les singes savent ___ aux arbres.",
       "options": [
-       "grimper",
        "cuisinier",
+       "grimper",
        "laver"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Les manchots savent nager mais ils ___ voler.",
       "options": [
-       "ne peut pas",
        "pouvoir",
+       "ne peut pas",
        "sont"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

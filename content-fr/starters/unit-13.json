@@ -159,11 +159,11 @@
      {
       "sentence": "Une banane est …",
       "options": [
-       "jaune",
+       "noire",
        "bleu",
-       "noire"
+       "jaune"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Une pomme, deux …",
@@ -177,20 +177,20 @@
      {
       "sentence": "Une pastèque est ___ dedans.",
       "options": [
-       "rouge",
        "jaune",
+       "rouge",
        "blanc"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Fruit orange + eau = jus d'…",
       "options": [
-       "jus",
+       "soupe",
        "gâteau",
-       "soupe"
+       "jus"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Les fruits sont ___ et bons pour la santé.",

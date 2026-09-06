@@ -173,38 +173,38 @@
      {
       "sentence": "\"Dog\" and \"frog\" …",
       "options": [
-       "rhyme",
        "spell",
+       "rhyme",
        "mean"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "You look up a word's ___ in the dictionary.",
       "options": [
-       "meaning",
+       "prize",
        "queue",
-       "prize"
+       "meaning"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The English ___ has 26 letters.",
       "options": [
-       "alphabet",
+       "sound",
        "dictionary",
-       "sound"
+       "alphabet"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "\"Empty\" is the ___ of \"full\".",
       "options": [
-       "opposite",
        "spelling",
+       "opposite",
        "vowel"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

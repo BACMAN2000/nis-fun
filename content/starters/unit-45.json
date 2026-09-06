@@ -104,20 +104,20 @@
      {
       "sentence": "Ten plus ten is …",
       "options": [
-       "twenty",
+       "two",
        "twelve",
-       "two"
+       "twenty"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "You sleep in the …",
       "options": [
-       "bedroom",
        "kitchen",
+       "bedroom",
        "garden"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "A bird ___ fly.",
@@ -131,11 +131,11 @@
      {
       "sentence": "This is Freya. ___ is happy.",
       "options": [
-       "She",
        "He",
+       "She",
        "It"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -191,29 +191,29 @@
      {
       "sentence": "The paper with the golden star is a …",
       "options": [
-       "certificate",
+       "letter",
        "ticket",
-       "letter"
+       "certificate"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Your family is ___ of you!",
       "options": [
-       "proud",
        "tired",
+       "proud",
        "cold"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "At a party we sing and …",
       "options": [
-       "dance",
+       "study",
        "sleep",
-       "study"
+       "dance"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "\"___ you, teachers!\"",
@@ -227,11 +227,11 @@
      {
       "sentence": "Next book: Fun for Nordic 2 — …!",
       "options": [
-       "Movers",
+       "Starters",
        "Flyers",
-       "Starters"
+       "Movers"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

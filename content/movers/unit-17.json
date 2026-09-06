@@ -100,20 +100,20 @@
      {
       "sentence": "\"Would you like some juice?\" — \"Yes, ___.\"",
       "options": [
-       "please",
        "here",
+       "please",
        "juice"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "\"More cake?\" — \"No, ___ you. I'm full!\"",
       "options": [
-       "thank",
+       "sorry",
        "please",
-       "sorry"
+       "thank"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "I'm ___ — when do we eat?",
@@ -127,11 +127,11 @@
      {
       "sentence": "Can you ___ the biscuits, please?",
       "options": [
-       "pass",
+       "wash",
        "kick",
-       "wash"
+       "pass"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -187,29 +187,29 @@
      {
       "sentence": "Juice comes in a …",
       "options": [
-       "bottle",
        "blanket",
+       "bottle",
        "basket"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "A yellow fruit that monkeys love is a …",
       "options": [
-       "banana",
        "biscuit",
+       "banana",
        "bottle"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "When you need food, you are …",
       "options": [
-       "hungry",
+       "noisy",
        "sleepy",
-       "noisy"
+       "hungry"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Bread with cheese inside is a …",
@@ -308,38 +308,38 @@
       {
        "sentence": "Shall I ___ the bottle for you?",
        "options": [
-        "open",
+        "opening",
         "opens",
-        "opening"
+        "open"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "— Shall I get you some water? — ___",
        "options": [
         "Yes, I shall.",
-        "Yes, I do.",
-        "Yes, please!"
+        "Yes, please!",
+        "Yes, I do."
        ],
-       "answer": 2
+       "answer": 1
       },
       {
        "sentence": "Mum has got a lot of bags. Mateo says: '___ I carry one?'",
        "options": [
-        "Shall",
+        "Do",
         "Am",
-        "Do"
+        "Shall"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "Which one is right?",
        "options": [
-        "Shall I to help you?",
         "Shall I help you?",
+        "Shall I to help you?",
         "Shall I helping you?"
        ],
-       "answer": 1
+       "answer": 0
       }
      ]
     }

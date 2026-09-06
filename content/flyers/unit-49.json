@@ -91,29 +91,29 @@
      {
       "sentence": "\"Does Maya wear glasses?\"",
       "options": [
-       "Yes, she does.",
        "Yes, she is.",
+       "Yes, she does.",
        "Yes, she has."
-      ],
-      "answer": 0
-     },
-     {
-      "sentence": "\"Are you ready?\"",
-      "options": [
-       "Yes, I do.",
-       "Yes, I am.",
-       "Yes, I can."
       ],
       "answer": 1
      },
      {
-      "sentence": "\"Has Oliver got a guitar?\"",
+      "sentence": "\"Are you ready?\"",
       "options": [
-       "Yes, he has.",
-       "Yes, he does.",
-       "Yes, he is."
+       "Yes, I am.",
+       "Yes, I do.",
+       "Yes, I can."
       ],
       "answer": 0
+     },
+     {
+      "sentence": "\"Has Oliver got a guitar?\"",
+      "options": [
+       "Yes, he is.",
+       "Yes, he does.",
+       "Yes, he has."
+      ],
+      "answer": 2
      },
      {
       "sentence": "\"Did you see the film?\"",
@@ -127,11 +127,11 @@
      {
       "sentence": "\"Can penguins fly?\"",
       "options": [
-       "No, they can't.",
+       "No, they aren't.",
        "No, they don't.",
-       "No, they aren't."
+       "No, they can't."
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -187,11 +187,11 @@
      {
       "sentence": "If your answer is right, it is …",
       "options": [
-       "correct",
        "wrong",
+       "correct",
        "quick"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "In a quiz you win a ___ for each correct answer.",
@@ -205,20 +205,20 @@
      {
       "sentence": "\"Is this seat free?\" — \"Yes, it ___.\"",
       "options": [
-       "is",
        "does",
+       "is",
        "has"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "\"Do condors eat biscuits?\" — \"Ours ___!\"",
       "options": [
-       "does",
+       "has",
        "is",
-       "has"
+       "does"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The person with most points is the …",
@@ -470,37 +470,37 @@
        "sentence": "That's the correct answer, ___?",
        "options": [
         "is it",
-        "isn't it",
-        "doesn't it"
+        "doesn't it",
+        "isn't it"
        ],
-       "answer": 1
+       "answer": 2
       },
       {
        "sentence": "You know the question, ___?",
        "options": [
         "aren't you",
-        "didn't you",
-        "don't you"
-       ],
-       "answer": 2
-      },
-      {
-       "sentence": "She won the last round, ___?",
-       "options": [
-        "wasn't she",
-        "didn't she",
-        "doesn't she"
+        "don't you",
+        "didn't you"
        ],
        "answer": 1
       },
       {
-       "sentence": "It isn't your turn, ___?",
+       "sentence": "She won the last round, ___?",
        "options": [
-        "is it",
-        "isn't it",
-        "does it"
+        "didn't she",
+        "wasn't she",
+        "doesn't she"
        ],
        "answer": 0
+      },
+      {
+       "sentence": "It isn't your turn, ___?",
+       "options": [
+        "isn't it",
+        "is it",
+        "does it"
+       ],
+       "answer": 1
       },
       {
        "sentence": "They can't hear the buzzer, ___?",

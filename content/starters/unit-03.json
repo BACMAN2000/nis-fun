@@ -167,20 +167,20 @@
      {
       "sentence": "It says meow and likes milk.",
       "options": [
-       "a cat",
        "a dog",
+       "a cat",
        "a duck"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "It is very big and grey.",
       "options": [
-       "a fish",
        "an elephant",
+       "a fish",
        "a bird"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "A fish can …",

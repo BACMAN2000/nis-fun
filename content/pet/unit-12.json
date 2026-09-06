@@ -91,47 +91,47 @@
      {
       "q": "What is the motion of the debate?",
       "options": [
-       "Every student should learn a practical trade at school.",
+       "Students should have no homework.",
        "School should start one hour later.",
-       "Students should have no homework."
-      ],
-      "answer": 0
-     },
-     {
-      "q": "According to the writer, a good debate is …",
-      "options": [
-       "a shouting match",
-       "a chance to think clearly and speak with respect",
-       "a way to win money"
-      ],
-      "answer": 1
-     },
-     {
-      "q": "How do you open your argument?",
-      "options": [
-       "by saying what you think and giving a reason",
-       "by staying completely silent",
-       "by asking the audience to leave"
-      ],
-      "answer": 0
-     },
-     {
-      "q": "What phrase did Sofía use to answer the other side?",
-      "options": [
-       "“You are completely wrong.”",
-       "“I don't care what you think.”",
-       "“I see your point, but on the other hand…”"
+       "Every student should learn a practical trade at school."
       ],
       "answer": 2
      },
      {
-      "q": "Why is a clear conclusion useful?",
+      "q": "According to the writer, a good debate is …",
       "options": [
-       "it helps the audience remember your best idea",
-       "it makes the debate much longer",
-       "it confuses the other team"
+       "a chance to think clearly and speak with respect",
+       "a shouting match",
+       "a way to win money"
       ],
       "answer": 0
+     },
+     {
+      "q": "How do you open your argument?",
+      "options": [
+       "by staying completely silent",
+       "by saying what you think and giving a reason",
+       "by asking the audience to leave"
+      ],
+      "answer": 1
+     },
+     {
+      "q": "What phrase did Sofía use to answer the other side?",
+      "options": [
+       "“I see your point, but on the other hand…”",
+       "“I don't care what you think.”",
+       "“You are completely wrong.”"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "Why is a clear conclusion useful?",
+      "options": [
+       "it makes the debate much longer",
+       "it helps the audience remember your best idea",
+       "it confuses the other team"
+      ],
+      "answer": 1
      }
     ]
    }
@@ -177,11 +177,11 @@
       {
        "sentence": "___ believe that every student should learn a trade.",
        "options": [
-        "I",
+        "There",
         "It",
-        "There"
+        "I"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "I see your point, ___ I don't completely agree.",
@@ -195,29 +195,29 @@
       {
        "sentence": "On the other ___, some students prefer academic subjects.",
        "options": [
-        "hand",
         "side",
+        "hand",
         "way"
        ],
-       "answer": 0
+       "answer": 1
       },
       {
        "sentence": "To ___ up, a trade gives you a real skill for life.",
        "options": [
-        "sum",
+        "put",
         "add",
-        "put"
+        "sum"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "In my ___, practical skills are just as valuable.",
        "options": [
-        "opinion",
+        "brain",
         "idea",
-        "brain"
+        "opinion"
        ],
-       "answer": 0
+       "answer": 2
       }
      ]
     }
@@ -303,11 +303,11 @@
      {
       "sentence": "In my ___, students should learn practical skills.",
       "options": [
-       "opinion",
        "head",
+       "opinion",
        "hand"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "I see your ___, but I don't fully agree.",
@@ -321,20 +321,20 @@
      {
       "sentence": "On the other ___, some people prefer academic subjects.",
       "options": [
-       "hand",
        "foot",
+       "hand",
        "part"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "To ___ up, both teams argued very well.",
       "options": [
-       "sum",
+       "give",
        "stand",
-       "give"
+       "sum"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "I strongly ___ that everyone should have a voice.",

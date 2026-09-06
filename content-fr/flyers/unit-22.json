@@ -92,37 +92,37 @@
       "sentence": "L'Amazone est en …",
       "options": [
        "Afrique",
-       "Amérique du Sud",
-       "Europe"
+       "Europe",
+       "Amérique du Sud"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "À la saison des pluies certaines parties font presque ___ de large.",
       "options": [
-       "cinquante kilomètres",
        "cinq kilomètres",
+       "cinquante kilomètres",
        "quinze mètres"
-      ],
-      "answer": 0
-     },
-     {
-      "sentence": "Plus de deux mille espèces de ___ y vivent.",
-      "options": [
-       "oiseaux",
-       "poisson",
-       "singes"
       ],
       "answer": 1
      },
      {
+      "sentence": "Plus de deux mille espèces de ___ y vivent.",
+      "options": [
+       "poisson",
+       "oiseaux",
+       "singes"
+      ],
+      "answer": 0
+     },
+     {
       "sentence": "Les dauphins de l'Amazone sont …",
       "options": [
-       "gris",
+       "rose",
        "bleu",
-       "rose"
+       "gris"
       ],
-      "answer": 2
+      "answer": 0
      },
      {
       "sentence": "Les gens voyagent entre les villages en …",
@@ -188,37 +188,37 @@
       "sentence": "Le Nil est ___ que la Tamise.",
       "options": [
        "long",
-       "plus long",
-       "le plus long"
+       "le plus long",
+       "plus long"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Le Pacifique est l'océan le ___ du monde.",
       "options": [
        "plus grand",
-       "le plus grand",
-       "grand"
+       "grand",
+       "le plus grand"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Mille mètres font un …",
       "options": [
-       "kilomètre",
        "siècle",
+       "kilomètre",
        "minute"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Le contraire de nord est …",
       "options": [
-       "ouest",
+       "sud",
        "est",
-       "sud"
+       "ouest"
       ],
-      "answer": 2
+      "answer": 0
      },
      {
       "sentence": "Cette partie du fleuve est très ___ — ne plonge pas ici !",

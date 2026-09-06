@@ -91,20 +91,20 @@
      {
       "sentence": "A bird ___ fly.",
       "options": [
-       "can",
        "can't",
+       "can",
        "is"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "A fish ___ walk.",
       "options": [
-       "can't",
+       "isn't",
        "can",
-       "isn't"
+       "can't"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "I ___ jump very high!",
@@ -118,11 +118,11 @@
      {
       "sentence": "___ you swim? — Yes, I can!",
       "options": [
-       "Can",
        "Are",
+       "Can",
        "Do"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "A baby ___ drive a car.",
@@ -187,20 +187,20 @@
      {
       "sentence": "Frogs can ___ very high.",
       "options": [
-       "jump",
+       "read",
        "sing",
-       "read"
+       "jump"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "You ___ with your legs.",
       "options": [
-       "run",
+       "sing",
        "draw",
-       "sing"
+       "run"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "You sing with your …",
@@ -214,20 +214,20 @@
      {
       "sentence": "Monkeys can ___ trees.",
       "options": [
-       "climb",
        "cook",
+       "climb",
        "wash"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Penguins can swim but they ___ fly.",
       "options": [
-       "can't",
        "can",
+       "can't",
        "are"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

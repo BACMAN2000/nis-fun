@@ -164,29 +164,29 @@
      {
       "sentence": "I ___ got a blue pencil case.",
       "options": [
-       "have",
+       "am",
        "has",
-       "am"
+       "have"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "She ___ got new crayons.",
       "options": [
-       "have",
        "has",
+       "have",
        "is"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "You cut paper with …",
       "options": [
-       "scissors",
        "glue",
+       "scissors",
        "a ruler"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "___ you got a red pen?",
@@ -200,11 +200,11 @@
      {
       "sentence": "My pencil is broken — I need the …",
       "options": [
-       "sharpener",
        "rubber",
+       "sharpener",
        "diary"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

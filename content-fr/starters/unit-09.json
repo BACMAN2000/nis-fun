@@ -168,38 +168,38 @@
      {
       "sentence": "En été je porte un …",
       "options": [
-       "short",
        "une veste",
+       "short",
        "deux manteaux"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Je ___ un t-shirt rouge aujourd'hui.",
       "options": [
-       "en train de porter",
+       "en train de lire",
        "mange",
-       "en train de lire"
+       "en train de porter"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Quand il fait froid, mets ton …",
       "options": [
-       "veste",
        "short",
+       "veste",
        "lunettes de soleil"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Les chaussettes vont ___ les chaussures.",
       "options": [
-       "sous",
+       "derrière",
        "au-dessus de",
-       "derrière"
+       "sous"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

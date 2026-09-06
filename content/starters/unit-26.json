@@ -91,20 +91,20 @@
      {
       "sentence": "Freya ___ drawing a boat.",
       "options": [
-       "is",
+       "am",
        "are",
-       "am"
+       "is"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The children ___ counting to twenty.",
       "options": [
-       "are",
        "is",
+       "are",
        "am"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "I ___ writing my name.",
@@ -127,11 +127,11 @@
      {
       "sentence": "We are ___ English!",
       "options": [
-       "learning",
        "learn",
+       "learning",
        "learns"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -187,11 +187,11 @@
      {
       "sentence": "You ___ a book with your eyes.",
       "options": [
-       "read",
+       "paint",
        "eat",
-       "paint"
+       "read"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "You ___ paper with scissors.",
@@ -205,20 +205,20 @@
      {
       "sentence": "The teacher asks, the children …",
       "options": [
-       "answer",
+       "run",
        "sleep",
-       "run"
+       "answer"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "One, two, three… I am …",
       "options": [
-       "counting",
        "cutting",
+       "counting",
        "closing"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "At school we ___ new things every day.",

@@ -168,20 +168,20 @@
      {
       "sentence": "Tu marches avec tes …",
       "options": [
-       "jambes",
+       "oreilles",
        "bras",
-       "oreilles"
+       "jambes"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Deux pied = deux …",
       "options": [
-       "pieds",
        "pieds s",
+       "pieds",
        "piedes"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "J'___ deux bras.",
@@ -195,11 +195,11 @@
      {
       "sentence": "Ta jambe se plie au …",
       "options": [
-       "genou",
        "nez",
+       "genou",
        "cou"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

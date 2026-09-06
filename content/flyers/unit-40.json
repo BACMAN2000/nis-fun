@@ -100,38 +100,38 @@
      {
       "sentence": "The blue whale is the ___ animal in the world.",
       "options": [
-       "bigger",
        "biggest",
+       "bigger",
        "most big"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "This is the ___ interesting museum in the city.",
       "options": [
-       "most",
+       "much",
        "more",
-       "much"
+       "most"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Monday was the ___ day of my week — everything went wrong!",
       "options": [
-       "worst",
+       "bad",
        "worse",
-       "bad"
+       "worst"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Kili is the ___ postman ever!",
       "options": [
-       "funnier",
        "funniest",
+       "funnier",
        "most funny"
       ],
-      "answer": 1
+      "answer": 0
      }
     ]
    }
@@ -187,29 +187,29 @@
      {
       "sentence": "A special time you always remember is a …",
       "options": [
-       "memory",
        "chore",
+       "memory",
        "channel"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "\"This is the best pizza ___!\"",
       "options": [
-       "ever",
        "never",
+       "ever",
        "yet"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The mouse is one of the ___ animals on the farm.",
       "options": [
-       "smallest",
+       "most small",
        "smaller",
-       "most small"
+       "smallest"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The ___ exciting part of the film was the end.",
@@ -223,11 +223,11 @@
      {
       "sentence": "My ___ subject is maths — I always get low marks!",
       "options": [
-       "worst",
        "best",
+       "worst",
        "biggest"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

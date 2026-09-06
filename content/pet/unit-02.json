@@ -100,20 +100,20 @@
      {
       "q": "Why is only dry wood used?",
       "options": [
-       "Wet wood is easily damaged.",
+       "Wet wood is too heavy to cut.",
        "Dry wood is much cheaper.",
-       "Wet wood is too heavy to cut."
+       "Wet wood is easily damaged."
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "q": "What is still done by hand?",
       "options": [
-       "the most important parts",
        "nothing at all",
+       "the most important parts",
        "only the painting"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "q": "What happens if a note sounds wrong?",
@@ -127,11 +127,11 @@
      {
       "q": "What lesson did the group learn for the project?",
       "options": [
-       "Real things are made with skill, time and care.",
        "Machines can make everything alone.",
+       "Real things are made with skill, time and care.",
        "Guitars are cheap and easy to make."
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -177,20 +177,20 @@
       {
        "sentence": "Guitars ___ from wood.",
        "options": [
-        "are made",
+        "is making",
         "make",
-        "is making"
+        "are made"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "The workshop ___ yesterday.",
        "options": [
-        "was visited",
+        "is visit",
         "visited",
-        "is visit"
+        "was visited"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "Only dry wood ___ for the body.",
@@ -204,11 +204,11 @@
       {
        "sentence": "The strings ___ at the end.",
        "options": [
-        "are added",
         "add",
+        "are added",
         "is added"
        ],
-       "answer": 0
+       "answer": 1
       },
       {
        "sentence": "The guitar was built ___ a craftsman.",
@@ -303,29 +303,29 @@
      {
       "sentence": "Our chairs are ___ in the school workshop.",
       "options": [
-       "produced",
+       "producing",
        "product",
-       "producing"
+       "produced"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The wood must be strong, so it is chosen with great ___.",
       "options": [
-       "care",
        "careful",
+       "care",
        "carefully"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Every product is ___ before it leaves the workshop.",
       "options": [
-       "checked",
+       "checks",
        "checking",
-       "checks"
+       "checked"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "A good guitar is never made in a ___.",
@@ -339,11 +339,11 @@
      {
       "sentence": "These instruments are played for many ___.",
       "options": [
-       "years",
        "year",
+       "years",
        "yearly"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

@@ -91,11 +91,11 @@
      {
       "q": "What does Writing Part one always ask for?",
       "options": [
-       "an essay",
        "a poem",
+       "an essay",
        "a story"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "q": "What does a strong essay need?",
@@ -109,29 +109,29 @@
      {
       "q": "What did Sofía suggest including?",
       "options": [
-       "a counter-argument",
+       "a drawing",
        "a joke",
-       "a drawing"
+       "a counter-argument"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "q": "What is Nadia's golden rule?",
       "options": [
-       "always plan before you write",
+       "write as much as possible",
        "never plan",
-       "write as much as possible"
+       "always plan before you write"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "q": "According to the writer, a persuasive essay is about …",
       "options": [
-       "clear thinking and honest reasons",
        "using the biggest words",
+       "clear thinking and honest reasons",
        "writing as fast as you can"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -195,29 +195,29 @@
       {
        "sentence": "It is vital that the school ___ practical skills.",
        "options": [
-        "teach",
+        "teaching",
         "teaches",
-        "teaching"
+        "teach"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "We recommend that he ___ his plan first.",
        "options": [
-        "write",
         "writes",
+        "write",
         "wrote"
        ],
-       "answer": 0
+       "answer": 1
       },
       {
        "sentence": "It is important that every paragraph ___ one clear idea.",
        "options": [
-        "have",
         "has",
+        "have",
         "having"
        ],
-       "answer": 0
+       "answer": 1
       }
      ]
     }

@@ -95,20 +95,20 @@
      {
       "sentence": "The funfair ___ fantastic!",
       "options": [
-       "was",
        "were",
+       "was",
        "did"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "There ___ a lot of people there.",
       "options": [
-       "was",
        "were",
+       "was",
        "did"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "___ you ride the big wheel?",
@@ -122,20 +122,20 @@
      {
       "sentence": "Mateo ___ very hungry, so he ate two ice creams.",
       "options": [
-       "were",
        "was",
+       "were",
        "did"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "We ___ not win the big teddy bear.",
       "options": [
-       "did",
        "was",
+       "did",
        "were"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -192,28 +192,28 @@
       "sentence": "Yesterday we ___ to the funfair.",
       "options": [
        "go",
-       "went",
-       "goed"
+       "goed",
+       "went"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "I ___ a clown with a funny hat.",
       "options": [
-       "saw",
+       "seen",
        "see",
-       "seen"
+       "saw"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Mateo ___ two ice creams!",
       "options": [
-       "eat",
+       "ate",
        "ated",
-       "ate"
+       "eat"
       ],
-      "answer": 2
+      "answer": 0
      },
      {
       "sentence": "We ___ the big wheel three times.",
@@ -227,11 +227,11 @@
      {
       "sentence": "Erik ___ a prize at the ring game.",
       "options": [
-       "won",
        "win",
+       "won",
        "winned"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

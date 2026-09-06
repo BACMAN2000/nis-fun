@@ -99,20 +99,20 @@
      {
       "sentence": "« Tu veux du jus ? » — « Oui, ___. »",
       "options": [
-       "s'il te plaît",
        "ici",
+       "s'il te plaît",
        "jus"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "« Encore du gâteau ? » — « Non, ___. Je n'ai plus faim ! »",
       "options": [
-       "merci",
+       "pardon",
        "s'il te plaît",
-       "pardon"
+       "merci"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "J'ai ___ — on mange quand ?",
@@ -126,11 +126,11 @@
      {
       "sentence": "Tu peux ___ les biscuits, s'il te plaît ?",
       "options": [
-       "passer",
+       "laver",
        "donner un coup de pied",
-       "laver"
+       "passer"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -186,29 +186,29 @@
      {
       "sentence": "Le jus arrive dans une …",
       "options": [
-       "bouteille",
        "couverture",
+       "bouteille",
        "panier"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Un fruit jaune que les singes adorent est une …",
       "options": [
-       "banane",
        "biscuit",
+       "banane",
        "bouteille"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Quand tu as besoin de manger, tu as …",
       "options": [
-       "affamé",
+       "bruyant",
        "endormi",
-       "bruyant"
+       "affamé"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Du pain avec du fromage dedans est un …",

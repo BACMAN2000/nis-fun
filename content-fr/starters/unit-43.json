@@ -90,20 +90,20 @@
      {
       "sentence": "___ est mon crayon, ici dans ma main.",
       "options": [
-       "Ce",
        "Celui-là",
+       "Ce",
        "Ceux-là"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "___ est le phare, là-bas au loin !",
       "options": [
-       "Celui-là",
+       "Ceux-ci",
        "Ce",
-       "Ceux-ci"
+       "Celui-là"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "___ sont mes chaussures, à mes pieds.",
@@ -117,11 +117,11 @@
      {
       "sentence": "___ sont des oiseaux, là-haut dans le ciel.",
       "options": [
-       "Ceux-là",
+       "Ce",
        "Ceux-ci",
-       "Ce"
+       "Ceux-là"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "« Qu'est-ce que c'___ ? » — « C'est un coquillage ! »",
@@ -190,7 +190,7 @@
        "ce",
        "ceux-là"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Pour une chose loin : …",
@@ -204,29 +204,29 @@
      {
       "sentence": "Pour plusieurs choses près : …",
       "options": [
-       "ceux-ci",
        "ceux-là",
+       "ceux-ci",
        "ce"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Le contraire de près est …",
       "options": [
-       "loin",
+       "amusant",
        "rapide",
-       "amusant"
+       "loin"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "« Regarde ___ ! » — tu montres avec ton doigt.",
       "options": [
-       "là",
+       "le",
        "ensuite",
-       "le"
+       "là"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

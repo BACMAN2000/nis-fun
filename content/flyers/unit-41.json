@@ -91,11 +91,11 @@
      {
       "sentence": "The new streets are ___ than the old ones.",
       "options": [
-       "wider",
        "more wide",
+       "wider",
        "widest"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The town centre is ___ than before — so many cars!",
@@ -110,10 +110,10 @@
       "sentence": "The old market was ___ than the new supermarket.",
       "options": [
        "more friendly",
-       "friendlier",
-       "friendliest"
+       "friendliest",
+       "friendlier"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Life in the countryside is ___ peaceful than in the city.",
@@ -127,11 +127,11 @@
      {
       "sentence": "The library is much ___ than the sports centre.",
       "options": [
-       "quieter",
        "quiet",
+       "quieter",
        "quietest"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -187,11 +187,11 @@
      {
       "sentence": "A very old building is …",
       "options": [
-       "ancient",
+       "narrow",
        "modern",
-       "narrow"
+       "ancient"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "When a bus is full of people, it is …",
@@ -205,11 +205,11 @@
      {
       "sentence": "The open place in the town centre is the …",
       "options": [
-       "square",
+       "screen",
        "shelf",
-       "screen"
+       "square"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "You can buy fruit and cheese at the …",
@@ -223,11 +223,11 @@
      {
       "sentence": "The night here is ___ than in the city — no cars, no music.",
       "options": [
-       "more peaceful",
+       "most peaceful",
        "peacefuler",
-       "most peaceful"
+       "more peaceful"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

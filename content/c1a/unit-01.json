@@ -91,20 +91,20 @@
      {
       "q": "What is Captain Ahab obsessed with?",
       "options": [
-       "hunting the white whale",
+       "returning safely home",
        "finding buried treasure",
-       "returning safely home"
+       "hunting the white whale"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "q": "What does Ahab's obsession do to his crew?",
       "options": [
-       "it drags them towards disaster",
        "it makes them all rich",
+       "it drags them towards disaster",
        "it saves their lives"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "q": "What did Nadia say?",
@@ -118,11 +118,11 @@
      {
       "q": "What does the whale mean, according to the text?",
       "options": [
-       "different things to different people",
        "only money and profit",
+       "different things to different people",
        "nothing important at all"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "q": "What is the story's warning?",
@@ -177,11 +177,11 @@
       {
        "sentence": "Never before ___ such a storm.",
        "options": [
-        "had we seen",
+        "we saw",
         "we had seen",
-        "we saw"
+        "had we seen"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "Not only ___ late, but he also forgot the tickets.",
@@ -195,29 +195,29 @@
       {
        "sentence": "Rarely ___ a book move me so much.",
        "options": [
-        "does",
+        "is",
         "do",
-        "is"
+        "does"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "No sooner ___ we arrived than it started to rain.",
        "options": [
-        "had",
         "have",
+        "had",
         "did"
        ],
-       "answer": 0
+       "answer": 1
       },
       {
        "sentence": "Only after the exam ___ how hard it was.",
        "options": [
-        "did I realise",
         "I realised",
+        "did I realise",
         "I did realise"
        ],
-       "answer": 0
+       "answer": 1
       }
      ]
     }

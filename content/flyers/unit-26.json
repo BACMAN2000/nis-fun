@@ -91,11 +91,11 @@
      {
       "sentence": "Have you ___ flown in a helicopter?",
       "options": [
-       "ever",
+       "just",
        "never",
-       "just"
+       "ever"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "I have ___ swum in the ocean — I'm afraid of waves!",
@@ -109,29 +109,29 @@
      {
       "sentence": "She has ___ won a gold medal. She's amazing!",
       "options": [
-       "never",
        "just",
+       "never",
        "ever"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "___ you ever climbed a mountain?",
       "options": [
-       "Do",
        "Have",
+       "Do",
        "Are"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "We have ___ been to Australia, but we want to go.",
       "options": [
        "ever",
-       "already",
-       "never"
+       "never",
+       "already"
       ],
-      "answer": 2
+      "answer": 1
      }
     ]
    }
@@ -188,10 +188,10 @@
       "sentence": "Have you ever ___ a famous person?",
       "options": [
        "meet",
-       "met",
-       "meeting"
+       "meeting",
+       "met"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "I have never ___ in a helicopter.",
@@ -223,11 +223,11 @@
      {
       "sentence": "They have ___ ridden a camel. It was in Egypt.",
       "options": [
-       "ever",
+       "already",
        "never",
-       "already"
+       "ever"
       ],
-      "answer": 2
+      "answer": 0
      }
     ]
    }

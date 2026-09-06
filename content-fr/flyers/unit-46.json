@@ -90,38 +90,38 @@
      {
       "sentence": "Je ne sais pas encore — j'étudierai ___ la biologie.",
       "options": [
-       "peut-être",
-       "va",
-       "ne va pas"
-      ],
-      "answer": 0
-     },
-     {
-      "sentence": "Le ciel est noir. Il ___ pleuvoir d'une minute à l'autre !",
-      "options": [
-       "peut",
        "ne va pas",
-       "n'est pas"
-      ],
-      "answer": 0
-     },
-     {
-      "sentence": "Ne t'inquiète pas, je ___ ton anniversaire. Promis !",
-      "options": [
-       "peut-être",
        "va",
-       "ne va pas"
+       "peut-être"
       ],
       "answer": 2
      },
      {
-      "sentence": "On ira ___ camper — ça dépend du temps.",
+      "sentence": "Le ciel est noir. Il ___ pleuvoir d'une minute à l'autre !",
       "options": [
-       "peut-être",
-       "devoir",
-       "a fait"
+       "ne va pas",
+       "peut",
+       "n'est pas"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Ne t'inquiète pas, je ___ ton anniversaire. Promis !",
+      "options": [
+       "ne va pas",
+       "va",
+       "peut-être"
       ],
       "answer": 0
+     },
+     {
+      "sentence": "On ira ___ camper — ça dépend du temps.",
+      "options": [
+       "a fait",
+       "devoir",
+       "peut-être"
+      ],
+      "answer": 2
      },
      {
       "sentence": "« Tu viens ? » — « ___. Je te dirai ce soir. »",
@@ -186,20 +186,20 @@
      {
       "sentence": "« Tu seras quoi plus tard ? »",
       "options": [
-       "Je serai peut-être styliste.",
        "J'étais à la fête foraine.",
+       "Je serai peut-être styliste.",
        "C'est à côté de la banque."
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "« Tu viendras demain ? »",
       "options": [
-       "Peut-être — je ne sais pas encore.",
+       "C'est en laine.",
        "Hier matin.",
-       "C'est en laine."
+       "Peut-être — je ne sais pas encore."
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Une personne qui soigne les animaux malades est un …",
@@ -213,20 +213,20 @@
      {
       "sentence": "Une personne qui écrit des livres est un …",
       "options": [
-       "écrivain",
        "agriculteur",
+       "écrivain",
        "présentateur"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "« ___ » veut dire la même chose que « peut-être ».",
       "options": [
-       "Peut-être",
        "Jamais",
+       "Peut-être",
        "Hier"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

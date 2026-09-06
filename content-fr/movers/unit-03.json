@@ -95,20 +95,20 @@
      {
       "sentence": "La fête foraine ___ fantastique !",
       "options": [
-       "était",
        "étaient",
+       "était",
        "a fait"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Il y ___ beaucoup de monde.",
       "options": [
-       "était",
        "étaient",
+       "était",
        "a fait"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "___ tu fait la grande roue ?",
@@ -122,20 +122,20 @@
      {
       "sentence": "Mateo ___ très affamé, alors il a mangé deux glaces.",
       "options": [
-       "étaient",
        "était",
+       "étaient",
        "a fait"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "On n'___ pas gagné le gros nounours.",
       "options": [
-       "a fait",
        "était",
+       "a fait",
        "étaient"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -192,28 +192,28 @@
       "sentence": "Hier nous ___ à la fête foraine.",
       "options": [
        "aller",
-       "est allé",
-       "j'ai allé"
+       "j'ai allé",
+       "est allé"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "J'___ un clown avec un chapeau rigolo.",
       "options": [
-       "a vu",
+       "vu",
        "voir",
-       "vu"
+       "a vu"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Mateo ___ deux glaces !",
       "options": [
-       "manger",
+       "a mangé",
        "a mangi",
-       "a mangé"
+       "manger"
       ],
-      "answer": 2
+      "answer": 0
      },
      {
       "sentence": "On ___ la grande roue trois fois.",
@@ -227,11 +227,11 @@
      {
       "sentence": "Erik ___ un prix au jeu des anneaux.",
       "options": [
-       "a gagné",
        "gagner",
+       "a gagné",
        "j'ai gagni"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

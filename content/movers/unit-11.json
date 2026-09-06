@@ -91,11 +91,11 @@
      {
       "sentence": "It's hot! ___ swim in the lake.",
       "options": [
-       "Let's",
+       "Let",
        "Lets",
-       "Let"
+       "Let's"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Let's ___ the boat to the island.",
@@ -109,29 +109,29 @@
      {
       "sentence": "I'm hungry. Let's ___ the picnic now!",
       "options": [
-       "have",
        "having",
+       "have",
        "has"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "\"Let's jump from the rock!\" — \"___\"",
       "options": [
-       "Good idea!",
        "Yesterday.",
+       "Good idea!",
        "It's hers."
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Let's ___ home before it gets dark.",
       "options": [
-       "go",
+       "going",
        "goes",
-       "going"
+       "go"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -205,29 +205,29 @@
      {
       "sentence": "You travel on the water in a …",
       "options": [
-       "boat",
        "basket",
+       "boat",
        "bed"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The opposite of hot water is ___ water.",
       "options": [
-       "cold",
+       "heavy",
        "tasty",
-       "heavy"
+       "cold"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Eating outside on a blanket is a …",
       "options": [
-       "picnic",
+       "pond",
        "poster",
-       "pond"
+       "picnic"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -299,20 +299,20 @@
       {
        "sentence": "Let's go ___ a swim in the lake!",
        "options": [
-        "to",
         "for",
+        "to",
         "at"
        ],
-       "answer": 1
+       "answer": 0
       },
       {
        "sentence": "Yesterday we went for a ___ in the forest.",
        "options": [
-        "walk",
         "walked",
+        "walk",
         "walking"
        ],
-       "answer": 0
+       "answer": 1
       },
       {
        "sentence": "Valentina ___ for a ride on her bike every Saturday.",
@@ -326,20 +326,20 @@
       {
        "sentence": "Shall we go for a ___ by the lake? I've got sandwiches.",
        "options": [
-        "cold",
         "picnic",
+        "cold",
         "jump"
        ],
-       "answer": 1
+       "answer": 0
       },
       {
        "sentence": "Which one is right?",
        "options": [
         "We went for swim.",
-        "We went a swim.",
-        "We went for a swim."
+        "We went for a swim.",
+        "We went a swim."
        ],
-       "answer": 2
+       "answer": 1
       }
      ]
     }

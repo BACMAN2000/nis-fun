@@ -90,11 +90,11 @@
      {
       "sentence": "___ avoir de l'eau, s'il te plaît ?",
       "options": [
-       "Peux-tu",
+       "Est",
        "Suis",
-       "Est"
+       "Peux-tu"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "« Voilà ! » — « ___ ! »",
@@ -108,20 +108,20 @@
      {
       "sentence": "Quand tu as besoin de boire, tu as …",
       "options": [
-       "assoiffé",
        "endormi",
+       "assoiffé",
        "drôle"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Le lait se met dans une ___ ou un verre.",
       "options": [
-       "tasse",
+       "boîte",
        "sac",
-       "boîte"
+       "tasse"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "La limonade est ___ et sucrée.",
@@ -186,29 +186,29 @@
      {
       "sentence": "Les vaches nous donnent du …",
       "options": [
-       "lait",
        "jus",
+       "lait",
        "limonade"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Un jour de froid je bois du … chaud.",
       "options": [
-       "chocolat",
+       "limonade",
        "glace",
-       "limonade"
+       "chocolat"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Le jus vient des …",
       "options": [
-       "fruit",
        "poisson",
+       "fruit",
        "pain"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Tu bois de l'eau dans un …",

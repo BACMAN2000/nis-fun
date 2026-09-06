@@ -90,11 +90,11 @@
      {
       "sentence": "Le soleil est là. Il fait …",
       "options": [
-       "ensoleillé",
        "pluvieux",
+       "ensoleillé",
        "froid"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Prends ton parapluie — il …",
@@ -108,11 +108,11 @@
      {
       "sentence": "Mon cerf-volant adore les jours de …",
       "options": [
-       "venteux",
+       "mouillé",
        "calme",
-       "mouillé"
+       "venteux"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Après la pluie et le soleil : un ___ !",
@@ -126,11 +126,11 @@
      {
       "sentence": "« Quel temps fait-il ___ ? »",
       "options": [
-       "aujourd'hui",
+       "dix",
        "jaune",
-       "dix"
+       "aujourd'hui"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -186,11 +186,11 @@
      {
       "sentence": "La pluie tombe du …",
       "options": [
-       "nuages",
        "soleil",
+       "nuages",
        "herbe"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Un arc-en-ciel a beaucoup de …",
@@ -204,29 +204,29 @@
      {
       "sentence": "Il fait froid — mets ta …",
       "options": [
-       "veste",
+       "chapeau de soleil",
        "short",
-       "chapeau de soleil"
+       "veste"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Le vent fait bouger les …",
       "options": [
-       "cerfs-volants",
        "murs",
+       "cerfs-volants",
        "sols"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "« Il fait chaud ! » — « Buvons de l'___ froide ! »",
       "options": [
-       "eau",
        "soupe",
+       "eau",
        "thé"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

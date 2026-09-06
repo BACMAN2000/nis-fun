@@ -101,37 +101,37 @@
       "sentence": "We're inside now. You can ___ your gloves.",
       "options": [
        "put on",
-       "take off",
-       "throw"
+       "throw",
+       "take off"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "___ your boots before the snow!",
       "options": [
-       "Put on",
        "Take off",
+       "Put on",
        "Kick"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "It's warm here. ___ your scarf.",
       "options": [
-       "Take off",
+       "Catch",
        "Put on",
-       "Catch"
+       "Take off"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "It's snowing! Everything outside is …",
       "options": [
-       "white",
        "green",
+       "white",
        "dry"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -196,11 +196,11 @@
      {
       "sentence": "The opposite of put on is …",
       "options": [
-       "take off",
        "turn on",
+       "take off",
        "get up"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Between hot and cold is …",
@@ -214,20 +214,20 @@
      {
       "sentence": "A big warm jacket for winter is a …",
       "options": [
-       "coat",
+       "skirt",
        "cap",
-       "skirt"
+       "coat"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Snow is falling — let's make a …",
       "options": [
-       "snowman",
+       "salad",
        "sandcastle",
-       "salad"
+       "snowman"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

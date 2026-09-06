@@ -90,20 +90,20 @@
      {
       "sentence": "Et si on ___ à la plage ?",
       "options": [
-       "aller",
        "en train d'aller",
+       "aller",
        "aller"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "___ on joue aux échecs après le déjeuner ?",
       "options": [
-       "Et si",
        "Est-ce que",
+       "Et si",
        "Comment"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Allons ___ le nouveau musée !",
@@ -117,11 +117,11 @@
      {
       "sentence": "Pourquoi ___ on pas toute la classe ?",
       "options": [
-       "ne... pas",
+       "n'invitons",
        "ne sont pas",
-       "n'invitons"
+       "ne... pas"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Je préfère nager ___ de courir.",
@@ -186,11 +186,11 @@
      {
       "sentence": "« Et si on allait patiner ? »",
       "options": [
-       "Bonne idée !",
        "C'est en laine.",
+       "Bonne idée !",
        "Deux fois par semaine."
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "« On commence maintenant ? »",
@@ -204,29 +204,29 @@
      {
       "sentence": "« Je n'aime pas ce jeu. »",
       "options": [
-       "Alors jouons à autre chose.",
+       "Il a une barbe.",
        "Le train est en retard.",
-       "Il a une barbe."
+       "Alors jouons à autre chose."
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "« Pourquoi on ne s'inscrirait pas au club d'échecs ? »",
       "options": [
-       "Peut-être — c'est le vendredi ?",
        "C'est en face de la banque.",
+       "Peut-être — c'est le vendredi ?",
        "Elle vient d'arriver."
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "« Tu es d'accord avec le plan ? »",
       "options": [
-       "Oui, tout à fait !",
+       "Deux heures et quart.",
        "En hélicoptère.",
-       "Deux heures et quart."
+       "Oui, tout à fait !"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

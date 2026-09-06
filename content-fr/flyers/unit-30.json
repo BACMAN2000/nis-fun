@@ -164,10 +164,10 @@
       "sentence": "Regarde ! Ils ___ le piano en bas.",
       "options": [
        "porte",
-       "portent",
-       "portez"
+       "portez",
+       "portent"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Elle ___ les tasses dans du papier doux en ce moment.",
@@ -191,19 +191,19 @@
       "sentence": "Tu poses ta tête sur un ___ pour dormir.",
       "options": [
        "tapis",
-       "oreiller",
-       "miroir"
+       "miroir",
+       "oreiller"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Ferme les ___ — le soleil est trop fort.",
       "options": [
-       "rideaux",
        "tiroirs",
+       "rideaux",
        "cartons"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

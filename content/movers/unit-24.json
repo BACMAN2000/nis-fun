@@ -109,29 +109,29 @@
      {
       "sentence": "We ___ the dishes after lunch.",
       "options": [
-       "wash",
+       "washing",
        "washes",
-       "washing"
+       "wash"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Please take out the ___ — it's full!",
       "options": [
-       "rubbish",
        "table",
+       "rubbish",
        "plants"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "A person who likes helping is …",
       "options": [
-       "helpful",
+       "heavy",
        "hopeless",
-       "heavy"
+       "helpful"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -196,11 +196,11 @@
      {
       "sentence": "Give food to an animal = ___ it.",
       "options": [
-       "feed",
        "water",
+       "feed",
        "clean"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Before dinner, we set the …",
@@ -214,20 +214,20 @@
      {
       "sentence": "Plants need you to ___ them.",
       "options": [
-       "water",
+       "wash",
        "sweep",
-       "wash"
+       "water"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Old paper and empty bottles go in the …",
       "options": [
-       "rubbish",
        "fridge",
+       "rubbish",
        "wardrobe"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -300,10 +300,10 @@
        "sentence": "Mum wants ___ to clean my room.",
        "options": [
         "I",
-        "me",
-        "my"
+        "my",
+        "me"
        ],
-       "answer": 1
+       "answer": 2
       },
       {
        "sentence": "Erik asked Mateo ___ feed the dog.",
@@ -318,28 +318,28 @@
        "sentence": "Do you want me ___ help you?",
        "options": [
         "and",
-        "for",
-        "to"
+        "to",
+        "for"
        ],
-       "answer": 2
+       "answer": 1
       },
       {
        "sentence": "The teacher wants ___ to be quiet.",
        "options": [
-        "we",
         "us",
+        "we",
         "our"
        ],
-       "answer": 1
+       "answer": 0
       },
       {
        "sentence": "Which one is right?",
        "options": [
         "She wants that I help.",
-        "She wants me to help.",
-        "She wants me help."
+        "She wants me help.",
+        "She wants me to help."
        ],
-       "answer": 1
+       "answer": 2
       }
      ]
     }

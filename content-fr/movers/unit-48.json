@@ -99,29 +99,29 @@
      {
       "sentence": "Tu dors dessus toutes les nuits.",
       "options": [
-       "un lit",
        "un bureau",
+       "un lit",
        "une étagère"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "La saison où les feuilles tombent.",
       "options": [
-       "automne",
+       "été",
        "printemps",
-       "été"
+       "automne"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "La personne qui apporte les plats au café.",
       "options": [
-       "le serveur",
        "le dentiste",
+       "le serveur",
        "le conducteur"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Tu les souffles à ton anniversaire.",
@@ -186,20 +186,20 @@
      {
       "sentence": "Dire un mot lettre par lettre, c'est l'___.",
       "options": [
-       "épeler",
+       "sentir",
        "renverser",
-       "sentir"
+       "épeler"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Chaud et froid sont des …",
       "options": [
-       "contraires",
+       "saisons",
        "paires de chaussures",
-       "saisons"
+       "contraires"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Une petite aide pour trouver la réponse est un …",
@@ -213,11 +213,11 @@
      {
       "sentence": "Quand tu ne sais pas, tu peux …",
       "options": [
-       "deviner",
        "dormir",
+       "deviner",
        "crier"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Chaque bonne réponse te donne un …",

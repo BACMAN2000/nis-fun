@@ -159,11 +159,11 @@
      {
       "sentence": "Tu écris dans ton …",
       "options": [
-       "livre",
        "chaise",
+       "livre",
        "sac"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Tu t'assois sur une …",
@@ -177,29 +177,29 @@
      {
       "sentence": "Le maître écrit au …",
       "options": [
-       "tableau",
+       "gomme",
        "sac",
-       "gomme"
+       "tableau"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Tu colories avec des …",
       "options": [
-       "crayons de couleur",
+       "livres",
        "chaises",
-       "livres"
+       "crayons de couleur"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Voici ___ crayon.",
       "options": [
-       "mon",
        "Je",
+       "mon",
        "moi"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

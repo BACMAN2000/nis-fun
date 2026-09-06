@@ -91,20 +91,20 @@
      {
       "sentence": "Luna was ___ — nobody could find her.",
       "options": [
-       "lost",
        "found",
+       "lost",
        "tired"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "We ___ for her everywhere.",
       "options": [
-       "looked",
+       "looks",
        "look",
-       "looks"
+       "looked"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Everyone was very ___ about her.",
@@ -118,20 +118,20 @@
      {
       "sentence": "We put ___ with her photo on the trees.",
       "options": [
-       "posters",
        "postcards",
+       "posters",
        "stamps"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "In the end she came ___ safe and happy.",
       "options": [
-       "home",
+       "hotel",
        "house",
-       "hotel"
+       "home"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -196,20 +196,20 @@
      {
       "sentence": "We sat on the park ___ to rest.",
       "options": [
-       "bench",
+       "branch",
        "beach",
-       "branch"
+       "bench"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "\"Have you seen my cat?\" — \"Is it ___?\"",
       "options": [
-       "lost",
        "loud",
+       "lost",
        "long"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "We ___ Grandma every Sunday evening.",
@@ -223,11 +223,11 @@
      {
       "sentence": "The opposite of worried is …",
       "options": [
-       "calm",
+       "curly",
        "cold",
-       "curly"
+       "calm"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -299,38 +299,38 @@
       {
        "sentence": "___ Sofia came home, the dog wasn't there.",
        "options": [
-        "When",
         "What",
+        "When",
         "Who"
        ],
-       "answer": 0
+       "answer": 1
       },
       {
        "sentence": "When they ___ into the park, they called her name.",
        "options": [
-        "walk",
         "walked",
+        "walk",
         "walking"
        ],
-       "answer": 1
+       "answer": 0
       },
       {
        "sentence": "Mateo was very happy ___ he saw Luna again.",
        "options": [
         "then",
-        "what",
-        "when"
+        "when",
+        "what"
        ],
-       "answer": 2
+       "answer": 1
       },
       {
        "sentence": "When he got home, he ___ his dinner.",
        "options": [
-        "have",
         "had",
+        "have",
         "having"
        ],
-       "answer": 1
+       "answer": 0
       },
       {
        "sentence": "Which one is right?",

@@ -90,47 +90,47 @@
      {
       "sentence": "Marche ___ la rivière jusqu'à ce que tu voies le pont.",
       "options": [
-       "le long de",
+       "dedans",
        "au-dessus",
-       "dedans"
+       "le long de"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Traverse ___ pont et tourne à droite.",
       "options": [
-       "à travers",
        "au-dessus",
+       "à travers",
        "entre"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Passe ___ le supermarché — ne t'arrête pas là.",
       "options": [
-       "passé",
        "sous",
+       "passé",
        "dedans"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "La pharmacie est ___ la banque, de l'autre côté.",
       "options": [
-       "en face de",
+       "au-dessus",
        "sur",
-       "au-dessus"
+       "en face de"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Tourne à gauche au ___ de la rue.",
       "options": [
-       "toit",
        "coin",
+       "toit",
        "étagère"
       ],
-      "answer": 1
+      "answer": 0
      }
     ]
    }
@@ -186,38 +186,38 @@
      {
       "sentence": "« Pardon, ___ est la gare ? » — « Tourne à droite. »",
       "options": [
-       "où",
        "quand",
+       "où",
        "à qui"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Le train passe ___ un long tunnel sombre.",
       "options": [
-       "à travers",
+       "passé",
        "en face de",
-       "passé"
+       "à travers"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Le café est ___ le cinéma — ils partagent un mur.",
       "options": [
-       "à côté de",
        "au-dessus",
+       "à côté de",
        "à travers"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Ne tourne pas. Va tout ___.",
       "options": [
-       "gauche",
        "tout droit",
+       "gauche",
        "passé"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Marche ___ la plage et profite de l'air marin.",

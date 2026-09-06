@@ -90,20 +90,20 @@
      {
       "q": "What is the class project called?",
       "options": [
-       "Inspiring Nordic — Trades",
+       "Football for All",
        "The Reading Club",
-       "Football for All"
+       "Inspiring Nordic — Trades"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "q": "Who does Mateo play chess with?",
       "options": [
-       "his cousin",
        "his little brother",
+       "his cousin",
        "Liam"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "q": "Which club has Sofía joined?",
@@ -117,11 +117,11 @@
      {
       "q": "What does Liam do every day after school?",
       "options": [
-       "plays football",
        "reads Charlotte's Web",
+       "plays football",
        "plays chess"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "q": "What does Nadia want to make for the project?",
@@ -176,11 +176,11 @@
       {
        "sentence": "Mateo ___ chess every weekend.",
        "options": [
-        "plays",
+        "playing",
         "play",
-        "playing"
+        "plays"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "My cousins ___ to school by bus.",
@@ -194,29 +194,29 @@
       {
        "sentence": "Nadia ___ football. She prefers art.",
        "options": [
-        "doesn't play",
+        "not play",
         "don't play",
-        "not play"
+        "doesn't play"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "___ you like reading?",
        "options": [
-        "Do",
         "Does",
+        "Do",
         "Are"
        ],
-       "answer": 0
+       "answer": 1
       },
       {
        "sentence": "Liam ___ his homework after football.",
        "options": [
-        "does",
         "do",
+        "does",
         "doing"
        ],
-       "answer": 0
+       "answer": 1
       }
      ]
     }
@@ -302,20 +302,20 @@
      {
       "sentence": "Message from Miss Vega: “Chess club is now on TUESDAY, not Monday. Same room.”",
       "options": [
-       "The chess club has a new day.",
+       "The chess club is closed this week.",
        "The chess club has a new room.",
-       "The chess club is closed this week."
+       "The chess club has a new day."
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Sign on the art room door: “Please clean your brushes before you leave.”",
       "options": [
-       "You must bring your own brushes.",
        "You must wash the brushes after class.",
+       "You must bring your own brushes.",
        "You cannot use the brushes today."
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Text to Sofía: “Don't forget to bring your book to the reading club tomorrow!”",

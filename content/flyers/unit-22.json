@@ -93,37 +93,37 @@
       "sentence": "The Amazon is in …",
       "options": [
        "Africa",
-       "South America",
-       "Europe"
+       "Europe",
+       "South America"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "In the rainy season some parts are almost ___ wide.",
       "options": [
-       "fifty kilometres",
        "five kilometres",
+       "fifty kilometres",
        "fifteen metres"
-      ],
-      "answer": 0
-     },
-     {
-      "sentence": "More than two thousand kinds of ___ live there.",
-      "options": [
-       "birds",
-       "fish",
-       "monkeys"
       ],
       "answer": 1
      },
      {
+      "sentence": "More than two thousand kinds of ___ live there.",
+      "options": [
+       "fish",
+       "birds",
+       "monkeys"
+      ],
+      "answer": 0
+     },
+     {
       "sentence": "The dolphins in the Amazon are …",
       "options": [
-       "grey",
+       "pink",
        "blue",
-       "pink"
+       "grey"
       ],
-      "answer": 2
+      "answer": 0
      },
      {
       "sentence": "People travel between villages by …",
@@ -189,37 +189,37 @@
       "sentence": "The Nile is ___ than the Thames.",
       "options": [
        "long",
-       "longer",
-       "longest"
+       "longest",
+       "longer"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "The Pacific is the ___ ocean in the world.",
       "options": [
        "bigger",
-       "biggest",
-       "big"
+       "big",
+       "biggest"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "One thousand metres is one …",
       "options": [
-       "kilometre",
        "century",
+       "kilometre",
        "minute"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The opposite of north is …",
       "options": [
-       "west",
+       "south",
        "east",
-       "south"
+       "west"
       ],
-      "answer": 2
+      "answer": 0
      },
      {
       "sentence": "This part of the river is very ___ — don't dive here!",

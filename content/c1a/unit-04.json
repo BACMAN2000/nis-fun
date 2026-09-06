@@ -91,20 +91,20 @@
      {
       "q": "In academic writing, according to Sofía, the people often …",
       "options": [
-       "disappear",
        "shout",
+       "disappear",
        "celebrate"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "q": "What is nominalisation?",
       "options": [
-       "turning verbs and adjectives into nouns",
+       "removing all nouns",
        "adding many more verbs",
-       "removing all nouns"
+       "turning verbs and adjectives into nouns"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "q": "Why did the rewritten paragraph sound more authoritative to Mateo?",
@@ -127,11 +127,11 @@
      {
       "q": "The best academic writing is …",
       "options": [
-       "precise, not pompous",
+       "full of jokes",
        "long and vague",
-       "full of jokes"
+       "precise, not pompous"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -177,29 +177,29 @@
       {
        "sentence": "The ___ of the bridge took two years. (construct)",
        "options": [
-        "construction",
         "constructive",
+        "construction",
         "constructed"
        ],
-       "answer": 0
+       "answer": 1
       },
       {
        "sentence": "Her ___ to detail is remarkable. (attend)",
        "options": [
-        "attention",
         "attentive",
+        "attention",
         "attentively"
        ],
-       "answer": 0
+       "answer": 1
       },
       {
        "sentence": "The plan was a complete ___. (fail)",
        "options": [
-        "failure",
+        "failed",
         "failing",
-        "failed"
+        "failure"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "We admired the ___ of his prose. (clear)",
@@ -213,11 +213,11 @@
       {
        "sentence": "The ___ of the results was surprising. (analyse)",
        "options": [
-        "analysis",
         "analyst",
+        "analysis",
         "analytical"
        ],
-       "answer": 0
+       "answer": 1
       }
      ]
     }

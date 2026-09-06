@@ -163,11 +163,11 @@
      {
       "sentence": "Tu empruntes des livres à la …",
       "options": [
-       "bibliothèque",
+       "banque",
        "cinéma",
-       "banque"
+       "bibliothèque"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Les malades vont à l'…",
@@ -181,29 +181,29 @@
      {
       "sentence": "« ___ est la piscine ? » — « À côté du parc. »",
       "options": [
-       "Où",
        "Quand",
+       "Où",
        "Qui"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Tu regardes des films au …",
       "options": [
-       "cinéma",
        "supermarché",
+       "cinéma",
        "école"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Les enfants jouent aux balançoires à l'…",
       "options": [
-       "cour de récréation",
+       "banque",
        "hôpital",
-       "banque"
+       "cour de récréation"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

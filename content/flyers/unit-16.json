@@ -91,29 +91,29 @@
      {
       "sentence": "At six o'clock, Ingrid ___ swimming in the pool.",
       "options": [
-       "was",
        "were",
+       "was",
        "is"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The boys ___ playing volleyball on the court.",
       "options": [
-       "was",
        "were",
+       "was",
        "are"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "What ___ you doing when the lights went out?",
       "options": [
        "was",
-       "were",
-       "did"
+       "did",
+       "were"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Maya ___ reading in the changing room.",
@@ -128,10 +128,10 @@
       "sentence": "We ___ not sleeping — everybody saw us on the court!",
       "options": [
        "was",
-       "were",
-       "are"
+       "are",
+       "were"
       ],
-      "answer": 1
+      "answer": 2
      }
     ]
    }
@@ -196,38 +196,38 @@
      {
       "sentence": "They ___ in the gym at five o'clock.",
       "options": [
-       "was training",
        "were training",
+       "was training",
        "training"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "He slipped while he ___ to the pool.",
       "options": [
-       "was running",
        "were running",
+       "was running",
        "runs"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "___ she carrying the sports bag?",
       "options": [
        "Were",
-       "Was",
-       "Did"
+       "Did",
+       "Was"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "The trainer blew the ___ to stop the game.",
       "options": [
-       "whistle",
+       "prize",
        "shelf",
-       "prize"
+       "whistle"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

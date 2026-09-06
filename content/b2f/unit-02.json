@@ -100,20 +100,20 @@
      {
       "q": "Who contacted a carpenter?",
       "options": [
-       "Sofía",
+       "Nadia",
        "Mateo",
-       "Nadia"
+       "Sofía"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "q": "What were the workbenches made from?",
       "options": [
-       "recycled timber",
        "plastic sheets",
+       "recycled timber",
        "old glass"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "q": "Which job did the students not do themselves?",
@@ -127,11 +127,11 @@
      {
       "q": "What has the project taught the students?",
       "options": [
-       "to respect the trades",
        "that planning is unnecessary",
+       "to respect the trades",
        "to do every job alone"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -177,20 +177,20 @@
       {
        "sentence": "We ___ the walls painted by a professional.",
        "options": [
-        "had",
+        "have paint",
         "painted",
-        "have paint"
+        "had"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "She is getting her bike ___ at the shop.",
        "options": [
-        "repaired",
+        "to repair",
         "repair",
-        "to repair"
+        "repaired"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "They had the photos ___ last month.",
@@ -204,11 +204,11 @@
       {
        "sentence": "We need to ___ the heater checked before winter.",
        "options": [
-        "get",
         "getting",
+        "get",
         "got"
        ],
-       "answer": 0
+       "answer": 1
       },
       {
        "sentence": "He had his hair ___ yesterday.",

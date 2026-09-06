@@ -100,20 +100,20 @@
      {
       "q": "How does Ahab get his crew to hunt the whale?",
       "options": [
-       "he persuades them",
+       "he forces them in silence",
        "he pays them well",
-       "he forces them in silence"
+       "he persuades them"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "q": "What did Nadia say a crowd remembers?",
       "options": [
-       "a feeling, rarely the exact words",
        "every word precisely",
+       "a feeling, rarely the exact words",
        "only the speaker's name"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "q": "Why does emphasis matter for the Inspiring Nordic project?",
@@ -127,11 +127,11 @@
      {
       "q": "What does the cleft sentence force a writer to do?",
       "options": [
-       "decide what truly counts",
        "use much longer words",
+       "decide what truly counts",
        "avoid all punctuation"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -177,20 +177,20 @@
       {
        "sentence": "___ the message that matters, not the noise.",
        "options": [
-        "It is",
+        "That is",
         "There is",
-        "That is"
+        "It is"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "___ great writers do is cut every unnecessary word.",
        "options": [
-        "What",
+        "It",
         "That",
-        "It"
+        "What"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "It was Liam ___ opened the debate.",
@@ -204,11 +204,11 @@
       {
        "sentence": "___ we remember is the feeling, not the words.",
        "options": [
-        "What",
         "It",
+        "What",
         "Who"
        ],
-       "answer": 0
+       "answer": 1
       },
       {
        "sentence": "It ___ in the final line that the point became clear.",

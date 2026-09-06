@@ -90,11 +90,11 @@
      {
       "sentence": "Un manchot ___ nager, mais il ___ voler.",
       "options": [
-       "sait / ne sait pas",
        "ne sait pas / sait",
+       "sait / ne sait pas",
        "sait / sait"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Les perroquets ___ répéter des mots !",
@@ -108,20 +108,20 @@
      {
       "sentence": "Un lapin ___ sauter très vite.",
       "options": [
-       "pouvoir",
+       "n'est pas",
        "ne peut pas",
-       "n'est pas"
+       "pouvoir"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Les poissons ___ marcher sur la terre.",
       "options": [
-       "ne peut pas",
+       "ne savent pas de",
        "pouvoir",
-       "ne savent pas de"
+       "ne peut pas"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "___ les dauphins chanter ? — Oui, à leur façon !",
@@ -186,29 +186,29 @@
      {
       "sentence": "Les oiseaux volent avec leurs …",
       "options": [
-       "ailes",
        "queues",
+       "ailes",
        "oreilles"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Un lapin ne marche pas, il …",
       "options": [
-       "saute",
        "nage",
+       "saute",
        "chante"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Un animal très intelligent est …",
       "options": [
-       "malin",
+       "nuageux",
        "bouclé",
-       "nuageux"
+       "malin"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "L'animal que tu aimes le plus est ton animal ___.",
@@ -222,11 +222,11 @@
      {
       "sentence": "Les chiens sont contents quand ils remuent leur …",
       "options": [
-       "queue",
        "dents",
+       "queue",
        "orteils"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

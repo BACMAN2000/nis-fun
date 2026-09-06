@@ -90,11 +90,11 @@
      {
       "sentence": "Comment s'écrit CHAT ?",
       "options": [
-       "C-H-A-T",
        "K-A-T",
+       "C-H-A-T",
        "C-T-A-H"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Comment s'écrit CHIEN ?",
@@ -108,11 +108,11 @@
      {
       "sentence": "Comment s'écrit SOLEIL ?",
       "options": [
-       "S-O-L-E-I-L",
+       "Z-O-L-E-I-L",
        "S-O-L-A-I-L",
-       "Z-O-L-E-I-L"
+       "S-O-L-E-I-L"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "« ___ s'écrit ton prénom ? »",
@@ -126,11 +126,11 @@
      {
       "sentence": "« Tu peux le dire ___, s'il te plaît ? » — lentement !",
       "options": [
-       "encore",
        "jamais",
+       "encore",
        "hier"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -186,29 +186,29 @@
      {
       "sentence": "Dire un mot lettre par lettre, c'est l'___.",
       "options": [
-       "épeler",
+       "manger",
        "chanter",
-       "manger"
+       "épeler"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Ton nom de famille est ton …",
       "options": [
-       "nom de famille",
        "couleur",
+       "nom de famille",
        "nombre"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Si tu n'entends pas bien, dis : « ___, s'il te plaît ! »",
       "options": [
-       "Encore",
+       "Jamais",
        "Au revoir",
-       "Jamais"
+       "Encore"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "P-I-P s'écrit …",
@@ -222,11 +222,11 @@
      {
       "sentence": "Quand ton camarade épelle bien, dis : « ___ ! »",
       "options": [
-       "Bravo",
+       "Dommage",
        "Oh non",
-       "Dommage"
+       "Bravo"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

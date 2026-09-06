@@ -91,11 +91,11 @@
      {
       "sentence": "The first letter of the alphabet is …",
       "options": [
-       "A",
        "B",
+       "A",
        "Z"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The last letter is …",
@@ -109,20 +109,20 @@
      {
       "sentence": "The alphabet has twenty-six …",
       "options": [
-       "letters",
+       "colours",
        "numbers",
-       "colours"
+       "letters"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Names start with a ___ letter.",
       "options": [
-       "big",
+       "blue",
        "small",
-       "blue"
+       "big"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "After A and B comes …",
@@ -187,29 +187,29 @@
      {
       "sentence": "Dog starts with the letter …",
       "options": [
-       "D",
        "B",
+       "D",
        "G"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Cat ends with the letter …",
       "options": [
-       "T",
        "C",
+       "T",
        "A"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "A, E, I, O, U are special …",
       "options": [
-       "letters",
+       "animals",
        "numbers",
-       "animals"
+       "letters"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "\"Freya\" starts with a ___ F.",
@@ -223,11 +223,11 @@
      {
       "sentence": "We ___ the alphabet song together.",
       "options": [
-       "sing",
        "eat",
+       "sing",
        "wash"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

@@ -161,46 +161,46 @@
       "sentence": "Une baleine est ___ qu'un dauphin.",
       "options": [
        "grand",
-       "plus grand",
-       "le plus grand"
+       "le plus grand",
+       "plus grand"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Un escargot est ___ qu'un kangourou.",
       "options": [
-       "plus lent",
        "lent",
+       "plus lent",
        "le plus lent"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Cet animal vole la nuit.",
       "options": [
-       "un requin",
        "une chauve-souris",
+       "un requin",
        "un panda"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Les manchots savent ___ très bien.",
       "options": [
        "voler",
-       "chanter",
-       "nager"
+       "nager",
+       "chanter"
       ],
-      "answer": 2
+      "answer": 1
      },
      {
       "sentence": "Un lion est ___ qu'un chat.",
       "options": [
-       "le plus fort",
+       "plus fort",
        "fort",
-       "plus fort"
+       "le plus fort"
       ],
-      "answer": 2
+      "answer": 0
      }
     ]
    }

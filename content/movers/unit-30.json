@@ -91,11 +91,11 @@
      {
       "sentence": "An elephant is ___ than a horse.",
       "options": [
-       "bigger",
+       "biggest",
        "big",
-       "biggest"
+       "bigger"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "A mouse is ___ than a cat.",
@@ -109,29 +109,29 @@
      {
       "sentence": "My brother is two years ___ than me.",
       "options": [
-       "older",
        "old",
+       "older",
        "oldest"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "A bike is ___ than a plane.",
       "options": [
-       "slower",
+       "slowest",
        "slow",
-       "slowest"
+       "slower"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The river is longer ___ the street.",
       "options": [
-       "than",
        "that",
+       "than",
        "then"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -205,29 +205,29 @@
      {
       "sentence": "Grandpa is ___ than Dad.",
       "options": [
-       "older",
+       "taller",
        "younger",
-       "taller"
+       "older"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "A snake is ___ than a worm.",
       "options": [
-       "longer",
        "shorter",
+       "longer",
        "slower"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "My bag is heavy, but yours is ___!",
       "options": [
-       "heavier",
        "heavy",
+       "heavier",
        "heaviest"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

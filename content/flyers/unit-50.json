@@ -100,38 +100,38 @@
      {
       "sentence": "The baby is sleeping. Talk ___!",
       "options": [
-       "quietly",
        "quiet",
+       "quietly",
        "loudly"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Ingrid swims very ___ — she wins every race.",
       "options": [
        "good",
-       "well",
-       "goodly"
+       "goodly",
+       "well"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "___ , the lights went out and everyone screamed!",
       "options": [
-       "Suddenly",
        "Slowly",
+       "Suddenly",
        "Happily"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Maya solved the puzzle ___ — in two minutes!",
       "options": [
-       "easily",
+       "badly",
        "easy",
-       "badly"
+       "easily"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -205,29 +205,29 @@
      {
       "sentence": "The opposite of loudly is …",
       "options": [
-       "quietly",
        "quickly",
+       "quietly",
        "easily"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "She speaks three languages very …",
       "options": [
-       "well",
+       "best",
        "good",
-       "best"
+       "well"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "They lived ___ ever after. The end!",
       "options": [
-       "happily",
        "happy",
+       "happily",
        "happier"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

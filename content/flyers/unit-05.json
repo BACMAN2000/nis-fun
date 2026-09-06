@@ -101,38 +101,38 @@
      {
       "sentence": "Who is brilliant at the guitar?",
       "options": [
-       "Ingrid",
+       "Oliver",
        "Mr Holm",
-       "Oliver"
+       "Ingrid"
       ],
-      "answer": 2
+      "answer": 0
      },
      {
       "sentence": "What did they make in science last week?",
       "options": [
-       "a volcano",
+       "a cake",
        "a map",
-       "a cake"
+       "a volcano"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "What time is lunch?",
       "options": [
        "at half past eight",
-       "at one o'clock",
-       "at half past three"
+       "at half past three",
+       "at one o'clock"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "What does Ingrid always paint?",
       "options": [
        "volcanoes",
-       "rivers",
-       "mountains"
+       "mountains",
+       "rivers"
       ],
-      "answer": 2
+      "answer": 1
      }
     ]
    }
@@ -188,11 +188,11 @@
      {
       "sentence": "You study maps and countries in …",
       "options": [
-       "history",
        "geography",
+       "history",
        "music"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "The paper that shows your lessons is a …",
@@ -207,28 +207,28 @@
       "sentence": "Between lessons you have a short …",
       "options": [
        "subject",
-       "break",
-       "timetable"
+       "timetable",
+       "break"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "In … you learn about kings and queens of the past.",
       "options": [
-       "history",
        "maths",
+       "history",
        "art"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Work that you do at home is …",
       "options": [
        "break",
-       "sport",
-       "homework"
+       "homework",
+       "sport"
       ],
-      "answer": 2
+      "answer": 1
      }
     ]
    }

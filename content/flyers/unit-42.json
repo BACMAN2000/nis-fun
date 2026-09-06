@@ -91,11 +91,11 @@
      {
       "sentence": "\"Hello, is Maya there?\"",
       "options": [
-       "Hold on, I'll get her.",
        "It's made of glass.",
+       "Hold on, I'll get her.",
        "Twice a week."
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "\"Who's speaking?\"",
@@ -109,20 +109,20 @@
      {
       "sentence": "\"Can I leave a message?\"",
       "options": [
-       "Of course, one moment.",
+       "Next to the bank.",
        "It's too heavy.",
-       "Next to the bank."
+       "Of course, one moment."
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "\"Sorry, I think you've got the wrong number.\"",
       "options": [
-       "Oh, excuse me!",
+       "He's the funniest.",
        "Great idea!",
-       "He's the funniest."
+       "Oh, excuse me!"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "\"The line is busy.\"",
@@ -187,20 +187,20 @@
      {
       "sentence": "The phone is ___ — listen to that sound!",
       "options": [
-       "ringing",
        "sleeping",
+       "ringing",
        "raining"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "If nobody answers, you can leave a …",
       "options": [
-       "message",
+       "prize",
        "stamp",
-       "prize"
+       "message"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "\"___ on, please, I'll get my dad.\"",
@@ -214,11 +214,11 @@
      {
       "sentence": "A phone you carry with you is a …",
       "options": [
-       "mobile",
        "screen",
+       "mobile",
        "channel"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "I knew it was grandma by her …",

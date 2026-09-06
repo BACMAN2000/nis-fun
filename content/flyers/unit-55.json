@@ -170,11 +170,11 @@
      {
       "sentence": "You carry your clothes in this when you travel.",
       "options": [
-       "a suitcase",
+       "a stamp",
        "a shelf",
-       "a stamp"
+       "a suitcase"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Have you ___ met a famous person?",
@@ -188,29 +188,29 @@
      {
       "sentence": "The whale is the ___ animal in the sea.",
       "options": [
-       "biggest",
        "bigger",
+       "biggest",
        "most big"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "If it rains, we ___ the picnic inside.",
       "options": [
-       "will have",
+       "having",
        "had",
-       "having"
+       "will have"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "A person ___ helps ill people is a nurse.",
       "options": [
-       "who",
        "which",
+       "who",
        "where"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

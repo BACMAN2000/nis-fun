@@ -109,28 +109,28 @@
       "sentence": "Elle était excitée ___ c'était son anniversaire.",
       "options": [
        "alors",
-       "parce que",
-       "et"
+       "et",
+       "parce que"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Le film était ennuyeux, ___ on est partis tôt.",
       "options": [
        "parce que",
-       "alors",
-       "si"
+       "si",
+       "alors"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Il a mal dormi, ___ il est fatigué aujourd'hui.",
       "options": [
-       "parce que",
+       "alors",
        "mais",
-       "alors"
+       "parce que"
       ],
-      "answer": 2
+      "answer": 0
      }
     ]
    }
@@ -186,11 +186,11 @@
      {
       "sentence": "Quand tu as besoin d'eau, tu as …",
       "options": [
-       "assoiffé",
        "ennuyé",
+       "assoiffé",
        "fatigué"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Quand rien n'est intéressant, tu t'…",
@@ -204,11 +204,11 @@
      {
       "sentence": "Avant une fête d'anniversaire, les enfants sont …",
       "options": [
-       "excité",
+       "effrayé",
        "fatigué",
-       "effrayé"
+       "excité"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Il avait ___ du gros chien, alors il a traversé la rue.",
@@ -222,11 +222,11 @@
      {
       "sentence": "La ___ pour laquelle je suis en retard, c'est la circulation.",
       "options": [
-       "nouvelles",
        "raison",
+       "nouvelles",
        "prix"
       ],
-      "answer": 1
+      "answer": 0
      }
     ]
    }

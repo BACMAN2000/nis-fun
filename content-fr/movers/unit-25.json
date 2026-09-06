@@ -90,20 +90,20 @@
      {
       "sentence": "« Qu'est-ce qui ne va pas ? »",
       "options": [
-       "J'ai mal à la tête.",
        "C'est sur l'étagère.",
+       "J'ai mal à la tête.",
        "Deux kilos, s'il vous plaît."
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "« Tu as de la fièvre ? »",
       "options": [
-       "Oui, trente-huit degrés.",
+       "En bus.",
        "Non, c'est mardi.",
-       "En bus."
+       "Oui, trente-huit degrés."
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "« Comment tu te sens aujourd'hui ? »",
@@ -117,20 +117,20 @@
      {
       "sentence": "« Tu devrais te reposer. »",
       "options": [
-       "D'accord, je reste au lit.",
+       "Vendredi.",
        "C'est en bois.",
-       "Vendredi."
+       "D'accord, je reste au lit."
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "« Bon rétablissement ! »",
       "options": [
-       "Merci !",
        "C'est combien ?",
+       "Merci !",
        "Tourne à gauche."
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -195,11 +195,11 @@
      {
       "sentence": "Quand tu es malade tu devrais beaucoup te …",
       "options": [
-       "se reposer",
+       "crier",
        "courir",
-       "crier"
+       "se reposer"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Atchoum ! Je crois que j'ai un …",
@@ -213,20 +213,20 @@
      {
       "sentence": "Après les médicaments et le sommeil tu te sens …",
       "options": [
-       "meilleur",
        "plus grand",
+       "meilleur",
        "plus tard"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "La ___ chaude est parfaite les jours de maladie.",
       "options": [
-       "soupe",
+       "barbe à papa",
        "glace",
-       "barbe à papa"
+       "soupe"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

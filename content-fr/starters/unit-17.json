@@ -168,20 +168,20 @@
      {
       "sentence": "L'éléphant est très …",
       "options": [
-       "grand",
        "petit",
+       "grand",
        "rose"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Le singe sait ___ aux arbres.",
       "options": [
-       "grimper",
+       "lire",
        "cuisinier",
-       "lire"
+       "grimper"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Le lion fait …",
@@ -195,11 +195,11 @@
      {
       "sentence": "Les animaux sauvages vivent au ___ ou dans la nature.",
       "options": [
-       "zoo",
+       "cuisine",
        "école",
-       "cuisine"
+       "zoo"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

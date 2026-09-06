@@ -91,11 +91,11 @@
      {
       "q": "Where does the story happen?",
       "options": [
-       "in the school library",
        "at Sofía's house",
+       "in the school library",
        "in the workshop"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "q": "Why was the book moving?",
@@ -109,29 +109,29 @@
      {
       "q": "Which book was open on the table?",
       "options": [
-       "Matilda",
+       "Charlie and the Chocolate Factory",
        "Charlotte's Web",
-       "Charlie and the Chocolate Factory"
+       "Matilda"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "q": "How did Sofía feel when she first heard the noise?",
       "options": [
-       "scared",
+       "angry",
        "bored",
-       "angry"
+       "scared"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "q": "What did Sofía do the next day?",
       "options": [
-       "She told the story to her class.",
        "She lost the book.",
+       "She told the story to her class.",
        "She closed the library."
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -195,29 +195,29 @@
       {
        "sentence": "Matilda reads ___ and remembers everything.",
        "options": [
-        "carefully",
+        "care",
         "careful",
-        "care"
+        "carefully"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "___, the rain started and we ran inside.",
        "options": [
-        "Suddenly",
         "Sudden",
+        "Suddenly",
         "Suddenness"
        ],
-       "answer": 0
+       "answer": 1
       },
       {
        "sentence": "Liam plays football very ___.",
        "options": [
-        "well",
         "good",
+        "well",
         "goodly"
        ],
-       "answer": 0
+       "answer": 1
       }
      ]
     }
@@ -303,11 +303,11 @@
      {
       "sentence": "The rain started ___, so we ran inside.",
       "options": [
-       "suddenly",
+       "quietly",
        "slowly",
-       "quietly"
+       "suddenly"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Please close the door ___ — the baby is sleeping.",
@@ -330,20 +330,20 @@
      {
       "sentence": "We waited a long time, and ___ the bus arrived.",
       "options": [
-       "finally",
        "never",
+       "finally",
        "already"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The turtle moved ___ across the garden.",
       "options": [
-       "slowly",
+       "happily",
        "suddenly",
-       "happily"
+       "slowly"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

@@ -100,38 +100,38 @@
      {
       "sentence": "Qui joue super bien de la guitare ?",
       "options": [
-       "Ingrid",
+       "Oliver",
        "M. Holm",
-       "Oliver"
+       "Ingrid"
       ],
-      "answer": 2
+      "answer": 0
      },
      {
       "sentence": "Qu'est-ce qu'ils ont fabriqué en sciences la semaine dernière ?",
       "options": [
-       "un volcan",
+       "un gâteau",
        "une carte",
-       "un gâteau"
+       "un volcan"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "À quelle heure est le déjeuner ?",
       "options": [
        "à huit heures et demie",
-       "à une heure",
-       "à trois heures et demie"
+       "à trois heures et demie",
+       "à une heure"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Qu'est-ce qu'Ingrid peint toujours ?",
       "options": [
        "volcans",
-       "des rivières",
-       "montagnes"
+       "montagnes",
+       "des rivières"
       ],
-      "answer": 2
+      "answer": 1
      }
     ]
    }
@@ -187,11 +187,11 @@
      {
       "sentence": "Tu étudies les cartes et les pays en …",
       "options": [
-       "histoire",
        "géographie",
+       "histoire",
        "musique"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "La feuille qui montre tes cours, c'est un …",
@@ -206,28 +206,28 @@
       "sentence": "Entre les cours tu as une courte …",
       "options": [
        "matière",
-       "casser",
-       "emploi du temps"
+       "emploi du temps",
+       "casser"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "En … tu apprends les rois et les reines du passé.",
       "options": [
-       "histoire",
        "maths",
+       "histoire",
        "art"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Le travail que tu fais à la maison, ce sont les …",
       "options": [
        "casser",
-       "sport",
-       "devoirs"
+       "devoirs",
+       "sport"
       ],
-      "answer": 2
+      "answer": 1
      }
     ]
    }

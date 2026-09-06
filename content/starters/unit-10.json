@@ -160,20 +160,20 @@
      {
       "sentence": "You cook in the …",
       "options": [
-       "kitchen",
        "bedroom",
+       "kitchen",
        "garden"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "You sleep in the …",
       "options": [
-       "bedroom",
+       "kitchen",
        "bathroom",
-       "kitchen"
+       "bedroom"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Flowers grow in the …",
@@ -187,11 +187,11 @@
      {
       "sentence": "You look through the …",
       "options": [
-       "window",
        "wall",
+       "window",
        "floor"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "\"___ is the cat?\" — \"In the garden.\"",

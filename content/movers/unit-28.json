@@ -91,11 +91,11 @@
      {
       "sentence": "Yesterday we ___ to the park after school.",
       "options": [
-       "went",
        "go",
+       "went",
        "goed"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Luna ___ an old key in the grass!",
@@ -109,20 +109,20 @@
      {
       "sentence": "We ___ a map on the back of the key ring.",
       "options": [
-       "saw",
+       "seed",
        "see",
-       "seed"
+       "saw"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Erik ___ his torch and we followed the map.",
       "options": [
-       "took",
+       "taked",
        "take",
-       "taked"
+       "took"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The adventure ___ a happy ending!",
@@ -187,29 +187,29 @@
      {
       "sentence": "She ___ to my party last Saturday.",
       "options": [
-       "came",
        "come",
+       "came",
        "comed"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "I ___ my homework before dinner.",
       "options": [
-       "made",
        "maked",
+       "made",
        "make"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "\"Thank you!\" he ___.",
       "options": [
-       "said",
+       "sayed",
        "say",
-       "sayed"
+       "said"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "We ___ a beautiful rainbow after the rain.",

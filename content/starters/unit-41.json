@@ -91,11 +91,11 @@
      {
       "sentence": "How do you spell CAT?",
       "options": [
-       "C-A-T",
        "K-A-T",
+       "C-A-T",
        "C-T-A"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "How do you spell DOG?",
@@ -109,11 +109,11 @@
      {
       "sentence": "How do you spell SUN?",
       "options": [
-       "S-U-N",
+       "Z-U-N",
        "S-O-N",
-       "Z-U-N"
+       "S-U-N"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "\"___ do you spell your name?\"",
@@ -127,11 +127,11 @@
      {
       "sentence": "\"Can you say it ___, please?\" — slowly!",
       "options": [
-       "again",
        "never",
+       "again",
        "yesterday"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -187,29 +187,29 @@
      {
       "sentence": "To say a word letter by letter is to ___ it.",
       "options": [
-       "spell",
+       "eat",
        "sing",
-       "eat"
+       "spell"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Your family name is your …",
       "options": [
-       "surname",
        "colour",
+       "surname",
        "number"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "If you don't hear well, say: \"___, please!\"",
       "options": [
-       "Again",
+       "Never",
        "Goodbye",
-       "Never"
+       "Again"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "P-I-P spells …",
@@ -223,11 +223,11 @@
      {
       "sentence": "When your friend spells well, say: \"___!\"",
       "options": [
-       "Well done",
+       "Too bad",
        "Oh no",
-       "Too bad"
+       "Well done"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

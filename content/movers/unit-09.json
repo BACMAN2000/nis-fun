@@ -109,11 +109,11 @@
      {
       "sentence": "Luna ___ a hole under the tree. Again!",
       "options": [
-       "is digging",
+       "dug",
        "digs",
-       "dug"
+       "is digging"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "What ___ you planting, Erik?",
@@ -127,11 +127,11 @@
      {
       "sentence": "The sun ___ and the garden is happy.",
       "options": [
-       "is shining",
+       "shone",
        "shines",
-       "shone"
+       "is shining"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -205,29 +205,29 @@
      {
       "sentence": "Plants need water and sun to …",
       "options": [
-       "grow",
        "fly",
+       "grow",
        "sing"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Dogs love to ___ holes in the garden.",
       "options": [
-       "dig",
+       "cook",
        "read",
-       "cook"
+       "dig"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "We sit on the ___ for the picnic.",
       "options": [
-       "grass",
        "leaf",
+       "grass",
        "bee"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

@@ -91,38 +91,38 @@
      {
       "sentence": "I'm not sure yet — I ___ study biology.",
       "options": [
-       "might",
-       "will",
-       "won't"
-      ],
-      "answer": 0
-     },
-     {
-      "sentence": "The sky is black. It ___ rain any minute!",
-      "options": [
-       "may",
        "won't",
-       "isn't"
-      ],
-      "answer": 0
-     },
-     {
-      "sentence": "Don't worry, I ___ forget your birthday. I promise!",
-      "options": [
-       "might",
        "will",
-       "won't"
+       "might"
       ],
       "answer": 2
      },
      {
-      "sentence": "We ___ go camping — it depends on the weather.",
+      "sentence": "The sky is black. It ___ rain any minute!",
       "options": [
-       "might",
-       "must",
-       "did"
+       "won't",
+       "may",
+       "isn't"
+      ],
+      "answer": 1
+     },
+     {
+      "sentence": "Don't worry, I ___ forget your birthday. I promise!",
+      "options": [
+       "won't",
+       "will",
+       "might"
       ],
       "answer": 0
+     },
+     {
+      "sentence": "We ___ go camping — it depends on the weather.",
+      "options": [
+       "did",
+       "must",
+       "might"
+      ],
+      "answer": 2
      },
      {
       "sentence": "\"Are you coming?\" — \"___. I'll tell you tonight.\"",
@@ -187,20 +187,20 @@
      {
       "sentence": "\"What might you be in the future?\"",
       "options": [
-       "I might be a designer.",
        "I was at the funfair.",
+       "I might be a designer.",
        "It's next to the bank."
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "\"Will you come tomorrow?\"",
       "options": [
-       "Perhaps — I'm not sure yet.",
+       "It's made of wool.",
        "Yesterday morning.",
-       "It's made of wool."
+       "Perhaps — I'm not sure yet."
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "A person who looks after ill animals is a …",
@@ -214,20 +214,20 @@
      {
       "sentence": "A person who writes books is a …",
       "options": [
-       "writer",
        "farmer",
+       "writer",
        "presenter"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "\"___\" means the same as \"maybe\".",
       "options": [
-       "Perhaps",
        "Never",
+       "Perhaps",
        "Yesterday"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

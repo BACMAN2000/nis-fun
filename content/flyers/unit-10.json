@@ -89,29 +89,29 @@
      {
       "sentence": "This umbrella isn't ___. It's Anna's.",
       "options": [
-       "mine",
        "my",
+       "mine",
        "me"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Is this pencil ___, Diego?",
       "options": [
        "your",
-       "yours",
-       "you"
+       "you",
+       "yours"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "That's Maya's coat. It's ___.",
       "options": [
-       "his",
        "hers",
+       "his",
        "theirs"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "___ bag is this? — It's Oliver's.",
@@ -125,11 +125,11 @@
      {
       "sentence": "These books belong to my parents. They're ___.",
       "options": [
-       "ours",
+       "theirs",
        "hers",
-       "theirs"
+       "ours"
       ],
-      "answer": 2
+      "answer": 0
      }
     ]
    }
@@ -185,11 +185,11 @@
      {
       "sentence": "This is my sister's room. It's ___ room.",
       "options": [
-       "her",
+       "she",
        "hers",
-       "she"
+       "her"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The classroom is ___ — it belongs to all of us.",
@@ -221,11 +221,11 @@
      {
       "sentence": "This nest belongs to Kili. It's ___ nest.",
       "options": [
-       "his",
        "her",
+       "his",
        "their"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

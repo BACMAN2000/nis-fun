@@ -100,29 +100,29 @@
      {
       "sentence": "We see the ___ at night.",
       "options": [
-       "moon",
        "sun",
+       "moon",
        "rainbow"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "I sleep ___ night.",
       "options": [
-       "at",
+       "in",
        "on",
-       "in"
+       "at"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "\"Good ___!\" — you say it before bed.",
       "options": [
-       "night",
+       "afternoon",
        "morning",
-       "afternoon"
+       "night"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "When you sleep, you can …",
@@ -187,11 +187,11 @@
      {
       "sentence": "Breakfast is in the …",
       "options": [
-       "morning",
        "night",
+       "morning",
        "evening"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Dinner is in the …",
@@ -205,29 +205,29 @@
      {
       "sentence": "The sky is dark at …",
       "options": [
-       "night",
+       "morning",
        "midday",
-       "morning"
+       "night"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "You ___ up when the sun rises.",
       "options": [
-       "wake",
        "sleep",
+       "wake",
        "sit"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Little lights in the night sky are …",
       "options": [
-       "stars",
+       "socks",
        "sums",
-       "socks"
+       "stars"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

@@ -102,10 +102,10 @@
       "sentence": "The film was about …",
       "options": [
        "whales",
-       "volcanoes",
-       "robots"
+       "robots",
+       "volcanoes"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "The small robot was called …",
@@ -188,29 +188,29 @@
      {
       "sentence": "Yesterday we ___ the old castle.",
       "options": [
-       "visited",
+       "visiting",
        "visit",
-       "visiting"
+       "visited"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "She ___ a funny film last night.",
       "options": [
-       "watched",
+       "watches",
        "watch",
-       "watches"
+       "watched"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "They ___ football in the rain!",
       "options": [
-       "played",
        "play",
+       "played",
        "plays"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "He ___ up the tall tree.",
@@ -224,11 +224,11 @@
      {
       "sentence": "We ___ so much at the whale song!",
       "options": [
-       "laughed",
+       "laughs",
        "laugh",
-       "laughs"
+       "laughed"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

@@ -155,20 +155,20 @@
      {
       "sentence": "Deux plus deux font …",
       "options": [
-       "quatre",
        "cinq",
+       "quatre",
        "trois"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Tu as ___ doigts à une main.",
       "options": [
-       "cinq",
+       "deux",
        "dix",
-       "deux"
+       "cinq"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Un chat a ___ pattes.",
@@ -191,11 +191,11 @@
      {
       "sentence": "Le plus grand nombre ici est …",
       "options": [
-       "dix",
+       "six",
        "un",
-       "six"
+       "dix"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

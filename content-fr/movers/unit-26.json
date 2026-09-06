@@ -90,11 +90,11 @@
      {
       "sentence": "Tu ___ te brosser les dents deux fois par jour.",
       "options": [
-       "devrait",
+       "ne sont pas",
        "ne devrait pas",
-       "ne sont pas"
+       "devrait"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Tu ___ manger des bonbons avant de dormir.",
@@ -117,20 +117,20 @@
      {
       "sentence": "Tu ___ regarder la télé tout l'après-midi.",
       "options": [
-       "devrait",
        "ne devrait pas",
+       "devrait",
        "dois à"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Tu ___ boire beaucoup d'eau tous les jours.",
       "options": [
-       "devrait",
        "ne devrait pas",
+       "devrait",
        "ne va pas"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -186,11 +186,11 @@
      {
       "sentence": "Le ___ dit : ouvre la bouche, s'il te plaît.",
       "options": [
-       "dentiste",
+       "serveur",
        "conducteur",
-       "serveur"
+       "dentiste"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Manger des fruits te garde en bonne …",
@@ -204,20 +204,20 @@
      {
       "sentence": "Le médecin te donne des ___ quand tu es malade.",
       "options": [
-       "médicament",
+       "bonbons",
        "autocollants",
-       "bonbons"
+       "médicament"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Le lait et le fromage rendent tes ___ solides.",
       "options": [
-       "dents",
        "cheveux",
+       "dents",
        "chaussettes"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Une bonne nuit de ___ te donne de l'énergie.",

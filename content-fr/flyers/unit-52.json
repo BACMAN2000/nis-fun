@@ -172,38 +172,38 @@
      {
       "sentence": "« Chat » et « rat » …",
       "options": [
-       "rime",
        "épeler",
+       "rime",
        "vouloir dire"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Tu cherches le ___ d'un mot dans le dictionnaire.",
       "options": [
-       "sens",
+       "prix",
        "file d'attente",
-       "prix"
+       "sens"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "L'___ français a 26 lettres.",
       "options": [
-       "alphabet",
+       "son",
        "dictionnaire",
-       "son"
+       "alphabet"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "« Vide » est le ___ de « plein ».",
       "options": [
-       "en face de",
        "orthographe",
+       "en face de",
        "voyelle"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

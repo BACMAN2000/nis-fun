@@ -91,20 +91,20 @@
      {
       "sentence": "___ is my pencil, here in my hand.",
       "options": [
-       "This",
        "That",
+       "This",
        "Those"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "___ is the lighthouse, far away!",
       "options": [
-       "That",
+       "These",
        "This",
-       "These"
+       "That"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "___ are my shoes, on my feet.",
@@ -118,11 +118,11 @@
      {
       "sentence": "___ are birds, up in the sky.",
       "options": [
-       "Those",
+       "This",
        "These",
-       "This"
+       "Those"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "\"What is ___?\" — \"It's a shell!\"",
@@ -187,11 +187,11 @@
      {
       "sentence": "For one near thing: …",
       "options": [
-       "this",
        "that",
+       "this",
        "those"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "For one far thing: …",
@@ -205,29 +205,29 @@
      {
       "sentence": "For many near things: …",
       "options": [
-       "these",
        "those",
+       "these",
        "this"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The opposite of near is …",
       "options": [
-       "far",
+       "fun",
        "fast",
-       "fun"
+       "far"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "\"Look ___!\" — you point with your finger.",
       "options": [
-       "there",
+       "the",
        "then",
-       "the"
+       "there"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

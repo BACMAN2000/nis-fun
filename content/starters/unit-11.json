@@ -160,11 +160,11 @@
      {
       "sentence": "At night I turn on my …",
       "options": [
-       "lamp",
+       "rug",
        "pillow",
-       "rug"
+       "lamp"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "There ___ a clock on the wall.",
@@ -178,29 +178,29 @@
      {
       "sentence": "Your head sleeps on the …",
       "options": [
-       "pillow",
        "shelf",
+       "pillow",
        "clock"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The toys live in the toy …",
       "options": [
-       "box",
        "bed",
+       "box",
        "wall"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "When it is cold, I sleep under my …",
       "options": [
-       "blanket",
+       "picture",
        "lamp",
-       "picture"
+       "blanket"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

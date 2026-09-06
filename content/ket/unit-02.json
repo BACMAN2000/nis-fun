@@ -100,20 +100,20 @@
      {
       "q": "How often does Sofía read?",
       "options": [
-       "every night",
+       "only at the weekend",
        "never",
-       "only at the weekend"
+       "every night"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "q": "Why hasn't Liam started the reading?",
       "options": [
-       "He has football practice every day.",
        "He doesn't like books.",
+       "He has football practice every day.",
        "He has lost the book."
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "q": "What has Nadia just made?",
@@ -127,11 +127,11 @@
      {
       "q": "What hasn't Mateo done yet?",
       "options": [
-       "chosen his job for the poster",
        "tidied the project table",
+       "chosen his job for the poster",
        "written his notes"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -177,20 +177,20 @@
       {
        "sentence": "Mateo ___ his notes.",
        "options": [
-        "has written",
+        "write",
         "have written",
-        "write"
+        "has written"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "We ___ our topic already.",
        "options": [
-        "have chosen",
+        "choose",
         "has chosen",
-        "choose"
+        "have chosen"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "Liam ___ the book yet.",
@@ -204,11 +204,11 @@
       {
        "sentence": "___ you ever won a game?",
        "options": [
-        "Have",
         "Has",
+        "Have",
         "Do"
        ],
-       "answer": 0
+       "answer": 1
       },
       {
        "sentence": "Nadia has ___ made the drawing.",
@@ -303,11 +303,11 @@
      {
       "sentence": "I have ___ finished my homework, so now I can play.",
       "options": [
-       "already",
+       "never",
        "yet",
-       "never"
+       "already"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Have you ___ been to Lima?",

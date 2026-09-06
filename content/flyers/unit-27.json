@@ -91,11 +91,11 @@
      {
       "sentence": "Shhh! The baby has ___ fallen asleep.",
       "options": [
-       "just",
        "yet",
+       "just",
        "ever"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Have you finished your project ___?",
@@ -109,11 +109,11 @@
      {
       "sentence": "I've ___ seen that film twice — let's watch another.",
       "options": [
-       "yet",
        "already",
+       "yet",
        "never"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "The post hasn't arrived ___.",
@@ -188,19 +188,19 @@
       "sentence": "The train has just ___.",
       "options": [
        "arrive",
-       "arrived",
-       "arriving"
+       "arriving",
+       "arrived"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Oh no! I've ___ my pencil!",
       "options": [
        "broke",
-       "broken",
-       "break"
+       "break",
+       "broken"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "___ they finished the game yet?",
@@ -214,20 +214,20 @@
      {
       "sentence": "She has already ___ her homework.",
       "options": [
-       "finish",
+       "finished",
        "finishes",
-       "finished"
+       "finish"
       ],
-      "answer": 2
+      "answer": 0
      },
      {
       "sentence": "Great ___! We've won the competition!",
       "options": [
-       "news",
+       "noise",
        "new",
-       "noise"
+       "news"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

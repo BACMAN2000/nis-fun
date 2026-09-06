@@ -91,20 +91,20 @@
      {
       "sentence": "Breakfast is in the …",
       "options": [
-       "morning",
+       "afternoon",
        "night",
-       "afternoon"
+       "morning"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "I drink milk from a …",
       "options": [
-       "cup",
        "plate",
+       "cup",
        "box"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "I eat cereal with a …",
@@ -127,11 +127,11 @@
      {
       "sentence": "Orange ___ is my favourite drink.",
       "options": [
-       "juice",
        "soup",
+       "juice",
        "sand"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -187,11 +187,11 @@
      {
       "sentence": "The first meal of the day is …",
       "options": [
-       "breakfast",
+       "lunch",
        "dinner",
-       "lunch"
+       "breakfast"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Jam is …",
@@ -205,29 +205,29 @@
      {
       "sentence": "Cows give us …",
       "options": [
-       "milk",
        "juice",
+       "milk",
        "jam"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Hens give us …",
       "options": [
-       "eggs",
+       "bananas",
        "bread",
-       "bananas"
+       "eggs"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "\"What do you ___ for breakfast?\"",
       "options": [
-       "have",
+       "make being",
        "has",
-       "make being"
+       "have"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

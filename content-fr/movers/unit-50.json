@@ -103,38 +103,38 @@
      {
       "sentence": "Hier nous ___ à la fête foraine.",
       "options": [
-       "est allé",
        "aller",
+       "est allé",
        "j'ai allé"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Un éléphant est ___ qu'un cheval.",
       "options": [
-       "plus grand",
+       "le plus grand",
        "grand",
-       "le plus grand"
+       "plus grand"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Tu ___ pas courir à côté de la piscine.",
       "options": [
-       "ne doit pas",
        "devoir",
+       "ne doit pas",
        "devrais à"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "On ___ faire la fête aujourd'hui !",
       "options": [
-       "sont",
+       "suis",
        "est",
-       "suis"
+       "sont"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -208,29 +208,29 @@
      {
       "sentence": "Un groupe qui travaille ensemble est une …",
       "options": [
-       "équipe",
        "file d'attente",
+       "équipe",
        "liste"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "« ___ pour tout, les maîtres ! »",
       "options": [
-       "Remercie",
+       "Désolé",
        "S'il te plaît",
-       "Désolé"
+       "Remercie"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Garder quelque chose dans sa tête pour toujours, c'est s'en ___.",
       "options": [
-       "se souvenir",
        "oublier",
+       "se souvenir",
        "vendre"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

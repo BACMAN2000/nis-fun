@@ -100,20 +100,20 @@
      {
       "sentence": "Blow out the ___ and make a wish!",
       "options": [
-       "candles",
+       "presents",
        "balloons",
-       "presents"
+       "candles"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Everyone sings Happy ___ to You.",
       "options": [
-       "Birthday",
        "Sunday",
+       "Birthday",
        "Holiday"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The people at a party are the …",
@@ -127,11 +127,11 @@
      {
       "sentence": "Don't tell the wish — it's a ___!",
       "options": [
-       "secret",
        "song",
+       "secret",
        "sandwich"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -187,29 +187,29 @@
      {
       "sentence": "On your birthday you get …",
       "options": [
-       "presents",
+       "rules",
        "homework",
-       "rules"
+       "presents"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Balloons are full of …",
       "options": [
-       "air",
        "water",
+       "air",
        "juice"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "To have a party for something special is to ___ it.",
       "options": [
-       "celebrate",
+       "climb",
        "calculate",
-       "climb"
+       "celebrate"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "A party ___ can be musical chairs.",
@@ -223,11 +223,11 @@
      {
       "sentence": "When you blow out the candles, you make a …",
       "options": [
-       "wish",
+       "watch",
        "wash",
-       "watch"
+       "wish"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

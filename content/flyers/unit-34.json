@@ -91,11 +91,11 @@
      {
       "sentence": "Turn it down! The volume is ___ loud.",
       "options": [
-       "too",
+       "very much",
        "enough",
-       "very much"
+       "too"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "This box is light ___ for me to carry alone.",
@@ -109,29 +109,29 @@
      {
       "sentence": "The test was ___ difficult — nobody finished it!",
       "options": [
-       "enough",
        "too",
+       "enough",
        "little"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "I'm not old ___ to drive a car.",
       "options": [
-       "too",
+       "enough",
        "very",
-       "enough"
+       "too"
       ],
-      "answer": 2
+      "answer": 0
      },
      {
       "sentence": "These shoes are ___ small. I need a bigger size.",
       "options": [
-       "too",
        "enough",
+       "too",
        "much"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -187,20 +187,20 @@
      {
       "sentence": "The opposite of loud is …",
       "options": [
-       "quiet",
+       "cheap",
        "heavy",
-       "cheap"
+       "quiet"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The opposite of expensive is …",
       "options": [
-       "easy",
        "cheap",
+       "easy",
        "light"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "A feather is very …",
@@ -214,20 +214,20 @@
      {
       "sentence": "I can't buy it — I haven't got ___ money.",
       "options": [
-       "enough",
+       "many",
        "too",
-       "many"
+       "enough"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "This puzzle is ___ for a baby — give it to an adult!",
       "options": [
-       "too difficult",
+       "very cheap",
        "enough easy",
-       "very cheap"
+       "too difficult"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

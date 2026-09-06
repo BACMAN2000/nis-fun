@@ -163,20 +163,20 @@
      {
       "sentence": "Les abeilles font cette nourriture sucrée.",
       "options": [
-       "beurre",
        "miel",
+       "beurre",
        "sel"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Il te faut cette poudre blanche pour les gâteaux.",
       "options": [
-       "farine",
+       "céréales",
        "poivre",
-       "céréales"
+       "farine"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "« Tu veux ___ sucre dans ton thé ? »",
@@ -200,10 +200,10 @@
       "sentence": "C'est noir ou blanc et ça relève les plats.",
       "options": [
        "confiture",
-       "yaourt",
-       "poivre"
+       "poivre",
+       "yaourt"
       ],
-      "answer": 2
+      "answer": 1
      }
     ]
    }

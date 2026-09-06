@@ -164,11 +164,11 @@
      {
       "sentence": "An octopus has ___ arms.",
       "options": [
-       "eight",
        "six",
+       "eight",
        "ten"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "You hear the sea inside a …",
@@ -182,20 +182,20 @@
      {
       "sentence": "The bottom of the ocean is very …",
       "options": [
-       "deep",
+       "sunny",
        "dry",
-       "sunny"
+       "deep"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Fish ___ all day long.",
       "options": [
-       "swim",
+       "fly",
        "run",
-       "fly"
+       "swim"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The ___ moves the boats up and down.",

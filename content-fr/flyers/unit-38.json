@@ -119,19 +119,19 @@
       "sentence": "Où Kili s'est-il posé ?",
       "options": [
        "sur le toit",
-       "sur la caméra",
-       "sur un bureau"
+       "sur un bureau",
+       "sur la caméra"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Quand passe le reportage à la télé ?",
       "options": [
-       "dimanche après le journal",
        "jeudi à neuf heures",
+       "dimanche après le journal",
        "lundi matin"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -187,11 +187,11 @@
      {
       "sentence": "Une émission avec des dessins qui bougent est un …",
       "options": [
-       "documentaire",
        "dessin animé",
+       "documentaire",
        "chaîne"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Tu regardes des films sur un …",
@@ -206,28 +206,28 @@
       "sentence": "Le ___ applaudit à la fin du spectacle.",
       "options": [
        "appareil photo",
-       "public",
-       "chaîne"
+       "chaîne",
+       "public"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Diego veut être ___ de télé un jour.",
       "options": [
-       "présentateur",
        "imprimante",
+       "présentateur",
        "peintre"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Ils ont filmé le concert avec trois …",
       "options": [
-       "caméras",
+       "rideaux",
        "enveloppes",
-       "rideaux"
+       "caméras"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

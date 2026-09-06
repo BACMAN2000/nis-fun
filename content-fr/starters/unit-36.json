@@ -90,11 +90,11 @@
      {
       "sentence": "« Quel ___ as-tu ? » — « J'ai huit ans ! »",
       "options": [
-       "vieux",
        "grand",
-       "grand"
+       "grand",
+       "vieux"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Il y a huit ___ sur le gâteau.",
@@ -108,29 +108,29 @@
      {
       "sentence": "On chante Joyeux ___ !",
       "options": [
-       "Anniversaire",
        "lundi",
+       "Anniversaire",
        "Matin"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Souffle les bougies et fais un …",
       "options": [
-       "souhait",
        "gâteau",
+       "souhait",
        "chaise"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "J'ai huit ___.",
       "options": [
-       "ans",
+       "gâteaux",
        "jours",
-       "gâteaux"
+       "ans"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -195,11 +195,11 @@
      {
       "sentence": "Les ballons volent parce qu'ils sont pleins d'…",
       "options": [
-       "air",
        "eau",
+       "air",
        "gâteau"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Le vœu est un …",
@@ -213,20 +213,20 @@
      {
       "sentence": "Les amis apportent des ___ à la fête.",
       "options": [
-       "cadeaux",
+       "balais",
        "devoirs",
-       "balais"
+       "cadeaux"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Chacun reçoit une part de …",
       "options": [
-       "gâteau",
        "papier",
+       "gâteau",
        "savon"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

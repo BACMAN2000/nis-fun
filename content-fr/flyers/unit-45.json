@@ -99,20 +99,20 @@
      {
       "sentence": "Tourne à l'___ au grand rocher blanc.",
       "options": [
-       "est",
+       "estant",
        "ests",
-       "estant"
+       "est"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Le trésor est ___ les deux palmiers.",
       "options": [
-       "entre",
        "à travers",
+       "entre",
        "le long de"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "___ exactement là où est la croix !",
@@ -126,11 +126,11 @@
      {
       "sentence": "Ne le dis à personne — c'est un ___ !",
       "options": [
-       "secret",
        "file d'attente",
+       "secret",
        "tâche ménagère"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -186,11 +186,11 @@
      {
       "sentence": "Le soleil se lève à l'…",
       "options": [
-       "est",
+       "nord",
        "ouest",
-       "nord"
+       "est"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Le soleil se couche à l'…",
@@ -204,11 +204,11 @@
      {
       "sentence": "X marque l'endroit — X est une …",
       "options": [
-       "traverser",
+       "pièce",
        "pas",
-       "pièce"
+       "traverser"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Les chiens adorent ___ des trous dans le jardin.",
@@ -222,11 +222,11 @@
      {
       "sentence": "L'or, l'argent et les vieilles pièces peuvent être un …",
       "options": [
-       "trésor",
+       "température",
        "billet",
-       "température"
+       "trésor"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

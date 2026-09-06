@@ -91,11 +91,11 @@
      {
       "sentence": "Qu'est-ce que Valentina a envoyé avec sa lettre ?",
       "options": [
-       "un dessin de Luna",
        "une photo",
+       "un dessin de Luna",
        "chocolat"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "L'appartement d'Emma est au ___ étage.",
@@ -109,11 +109,11 @@
      {
       "sentence": "De sa fenêtre elle voit …",
       "options": [
-       "le port",
+       "les montagnes",
        "un parc",
-       "les montagnes"
+       "le port"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "La nouvelle amie d'Emma s'appelle …",
@@ -127,11 +127,11 @@
      {
       "sentence": "Emma pose une question sur …",
       "options": [
-       "la machine à confettis",
+       "la nourriture de Luna",
        "le spectacle de l'école",
-       "la nourriture de Luna"
+       "la machine à confettis"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -187,20 +187,20 @@
      {
       "sentence": "Une lettre commence par « ___ Anna, ».",
       "options": [
-       "Chère",
        "Bonjour la",
+       "Chère",
        "De"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Quand tu réponds à une lettre, tu …",
       "options": [
-       "répondre",
        "dormir",
+       "répondre",
        "balayer"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "La lettre va dans une …",
@@ -214,11 +214,11 @@
      {
       "sentence": "Tu ___ la lettre à la poste.",
       "options": [
-       "poste",
+       "plante",
        "peindre",
-       "plante"
+       "poste"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Ce qui s'est passé récemment, ce sont tes …",

@@ -99,38 +99,38 @@
      {
       "sentence": "Le cou de la girafe est très …",
       "options": [
-       "long",
+       "froid",
        "sale",
-       "froid"
+       "long"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Mes chaussures sont ___ après le football.",
       "options": [
-       "sale",
        "propre",
+       "sale",
        "nouveau"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "La radio de papi est très …",
       "options": [
-       "vieux",
+       "vert",
        "jeune",
-       "vert"
+       "vieux"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Les fleurs sont ___ — je les adore !",
       "options": [
-       "beau",
        "sale",
+       "beau",
        "triste"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -195,11 +195,11 @@
      {
       "sentence": "Après le bain, tu es …",
       "options": [
-       "propre",
+       "vieux",
        "sale",
-       "vieux"
+       "propre"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Un serpent est …",
@@ -213,20 +213,20 @@
      {
       "sentence": "Mon nouveau jouet est ___, pas vieux.",
       "options": [
-       "nouveau",
        "sale",
+       "nouveau",
        "triste"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Le jour de mon anniversaire je suis très …",
       "options": [
-       "content",
+       "froid",
        "triste",
-       "froid"
+       "content"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

@@ -99,29 +99,29 @@
      {
       "sentence": "On voit la ___ la nuit.",
       "options": [
-       "lune",
        "soleil",
+       "lune",
        "arc-en-ciel"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Je dors ___ nuit.",
       "options": [
-       "à",
+       "dans",
        "sur",
-       "dans"
+       "à"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "« Bonne ___ ! » — tu le dis avant de dormir.",
       "options": [
-       "nuit",
+       "après-midi",
        "matin",
-       "après-midi"
+       "nuit"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Quand tu dors, tu peux …",
@@ -186,11 +186,11 @@
      {
       "sentence": "Le petit-déjeuner est le …",
       "options": [
-       "matin",
        "nuit",
+       "matin",
        "soir"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Le dîner est le …",
@@ -204,29 +204,29 @@
      {
       "sentence": "Le ciel est noir la …",
       "options": [
-       "nuit",
+       "matin",
        "midi",
-       "matin"
+       "nuit"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Tu te ___ quand le soleil se lève.",
       "options": [
-       "réveilles",
        "dormir",
+       "réveilles",
        "s'asseoir"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Les petites lumières du ciel de la nuit sont les …",
       "options": [
-       "étoiles",
+       "chaussettes",
        "additions",
-       "chaussettes"
+       "étoiles"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

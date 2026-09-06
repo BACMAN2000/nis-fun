@@ -163,11 +163,11 @@
      {
       "sentence": "Un tigre est orange avec des … noires.",
       "options": [
-       "rayures",
        "étoiles",
+       "rayures",
        "taches seulement"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Un animal qui n'est pas un animal de compagnie est …",
@@ -181,11 +181,11 @@
      {
       "sentence": "Les crocodiles sont beaux mais …",
       "options": [
-       "dangereux",
+       "calme",
        "serviable",
-       "calme"
+       "dangereux"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Les singes ___ aux arbres mieux que personne.",
@@ -199,11 +199,11 @@
      {
       "sentence": "Se ___, c'est aller là où personne ne peut te voir.",
       "options": [
-       "cacher",
        "sautiller",
+       "cacher",
        "aider"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

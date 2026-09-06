@@ -169,20 +169,20 @@
      {
       "sentence": "The elephant is very …",
       "options": [
-       "big",
        "small",
+       "big",
        "pink"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The monkey can ___ trees.",
       "options": [
-       "climb",
+       "read",
        "cook",
-       "read"
+       "climb"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The lion says …",
@@ -196,11 +196,11 @@
      {
       "sentence": "Wild animals live at the ___ or in nature.",
       "options": [
-       "zoo",
+       "kitchen",
        "school",
-       "kitchen"
+       "zoo"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

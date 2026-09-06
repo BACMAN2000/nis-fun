@@ -99,38 +99,38 @@
      {
       "sentence": "Tu as raté la question 3. Que faire ?",
       "options": [
-       "Continue d'écouter et reviens-y à la deuxième écoute",
        "Arrête-toi et réfléchis deux minutes",
+       "Continue d'écouter et reviens-y à la deuxième écoute",
        "Pleure un peu"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Le trou demande un nombre et tu entends « quarante ». Tu écris…",
       "options": [
-       "40",
+       "4",
        "quatorze",
-       "4"
+       "40"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Avant que l'enregistrement commence, tu dois…",
       "options": [
-       "lire les questions rapidement",
+       "compter les pages",
        "fermer les yeux",
-       "compter les pages"
+       "lire les questions rapidement"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Dans la partie du coloriage, il te faut…",
       "options": [
-       "des crayons de couleur prêts",
        "une calculatrice",
+       "des crayons de couleur prêts",
        "ciseaux"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -204,29 +204,29 @@
      {
       "sentence": "Écris tes réponses avec un …",
       "options": [
-       "crayon",
        "brosse",
+       "crayon",
        "cuillère"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Un espace vide où tu écris un mot est un …",
       "options": [
-       "trou",
+       "pas",
        "file d'attente",
-       "pas"
+       "trou"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Avant l'examen, respire un grand coup et …",
       "options": [
-       "se détendre",
        "courir",
+       "se détendre",
        "crier"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

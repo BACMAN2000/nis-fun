@@ -103,20 +103,20 @@
      {
       "sentence": "Dix plus dix font …",
       "options": [
-       "vingt",
+       "deux",
        "douze",
-       "deux"
+       "vingt"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Tu dors dans le …",
       "options": [
-       "chambre",
        "cuisine",
+       "chambre",
        "jardin"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Un oiseau ___ voler.",
@@ -130,11 +130,11 @@
      {
       "sentence": "Voici Freya. ___ est contente.",
       "options": [
-       "Elle",
        "Il",
+       "Elle",
        "Ça"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -190,29 +190,29 @@
      {
       "sentence": "Le papier avec l'étoile d'or est un …",
       "options": [
-       "diplôme",
+       "lettre",
        "billet",
-       "lettre"
+       "diplôme"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Ta famille est ___ de toi !",
       "options": [
-       "fier",
        "fatigué",
+       "fier",
        "froid"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "À une fête on chante et on …",
       "options": [
-       "danser",
+       "étudie",
        "dormir",
-       "étudie"
+       "danser"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "« ___ les maîtres ! »",
@@ -226,11 +226,11 @@
      {
       "sentence": "Prochain livre : Fun for Nordic 2 — … !",
       "options": [
-       "Les Aventuriers",
+       "Les Explorateurs",
        "Les Navigateurs",
-       "Les Explorateurs"
+       "Les Aventuriers"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

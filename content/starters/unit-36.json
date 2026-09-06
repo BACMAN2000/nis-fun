@@ -91,11 +91,11 @@
      {
       "sentence": "\"How ___ are you?\" — \"I'm eight!\"",
       "options": [
-       "old",
+       "tall",
        "big",
-       "tall"
+       "old"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "There are eight ___ on the cake.",
@@ -109,29 +109,29 @@
      {
       "sentence": "We sing Happy ___ to You!",
       "options": [
-       "Birthday",
        "Monday",
+       "Birthday",
        "Morning"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Blow the candles and make a …",
       "options": [
-       "wish",
        "cake",
+       "wish",
        "chair"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "I'm eight ___ old.",
       "options": [
-       "years",
+       "cakes",
        "days",
-       "cakes"
+       "years"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -196,11 +196,11 @@
      {
       "sentence": "Balloons fly because they are full of …",
       "options": [
-       "air",
        "water",
+       "air",
        "cake"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The wish is a …",
@@ -214,20 +214,20 @@
      {
       "sentence": "Friends bring ___ to the party.",
       "options": [
-       "presents",
+       "brooms",
        "homework",
-       "brooms"
+       "presents"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Everyone gets a piece of …",
       "options": [
-       "cake",
        "paper",
+       "cake",
        "soap"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

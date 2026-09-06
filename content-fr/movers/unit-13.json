@@ -90,38 +90,38 @@
      {
       "sentence": "Tu ___ faire tes devoirs tous les jours.",
       "options": [
-       "devoir",
+       "ne sont pas",
        "ne doit pas",
-       "ne sont pas"
+       "devoir"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Tu ___ manger à la bibliothèque.",
       "options": [
-       "devoir",
        "ne doit pas",
+       "devoir",
        "ne... pas"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "On ___ être silencieux pendant l'examen.",
       "options": [
-       "devoir",
        "ne doit pas",
+       "devoir",
        "ne peut être"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Tu ___ oublier tes affaires de sport le vendredi.",
       "options": [
        "devoir",
-       "ne doit pas",
-       "ne sont pas"
+       "ne sont pas",
+       "ne doit pas"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Tout le monde ___ respecter les autres.",
@@ -186,29 +186,29 @@
      {
       "sentence": "Avant de parler, ___ la main.",
       "options": [
-       "lever",
        "laver",
+       "lever",
        "fermer"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Le contraire de bruyant est …",
       "options": [
-       "calme",
        "rapide",
+       "calme",
        "sale"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "___, c'est donner une partie de ce que tu as aux autres.",
       "options": [
-       "partager",
+       "courir",
        "crier",
-       "courir"
+       "partager"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Garde ton bureau ___ et propre.",
@@ -226,7 +226,7 @@
        "règle",
        "gomme"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

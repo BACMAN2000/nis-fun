@@ -164,11 +164,11 @@
      {
       "sentence": "A tiger is orange with black …",
       "options": [
-       "stripes",
        "stars",
+       "stripes",
        "spots only"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "An animal that is not a pet is …",
@@ -182,11 +182,11 @@
      {
       "sentence": "Crocodiles are beautiful but …",
       "options": [
-       "dangerous",
+       "quiet",
        "helpful",
-       "quiet"
+       "dangerous"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Monkeys ___ trees better than anyone.",
@@ -200,11 +200,11 @@
      {
       "sentence": "To ___ is to go where nobody can see you.",
       "options": [
-       "hide",
        "hop",
+       "hide",
        "help"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

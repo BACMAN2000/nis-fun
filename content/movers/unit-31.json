@@ -91,11 +91,11 @@
      {
       "sentence": "The blue whale is ___ animal in the world.",
       "options": [
-       "the biggest",
        "the bigger",
+       "the biggest",
        "biggest"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Monday is ___ day of the week. So hard!",
@@ -109,11 +109,11 @@
      {
       "sentence": "My grandma is ___ person in our family.",
       "options": [
-       "the oldest",
+       "oldest",
        "the older",
-       "oldest"
+       "the oldest"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "That was ___ joke ever! Ha ha!",
@@ -127,11 +127,11 @@
      {
       "sentence": "Our baby cousin is ___ in the house.",
       "options": [
-       "the youngest",
+       "young",
        "the younger",
-       "young"
+       "the youngest"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -187,11 +187,11 @@
      {
       "sentence": "The cheetah is ___ land animal.",
       "options": [
-       "the fastest",
        "the faster",
+       "the fastest",
        "fast"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The ant is one of ___ insects.",
@@ -205,29 +205,29 @@
      {
       "sentence": "Dad is ___ person in our family — he carries everything!",
       "options": [
-       "the strongest",
+       "strong",
        "the stronger",
-       "strong"
+       "the strongest"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "\"Who is ___ student in class?\" — \"We all are!\"",
       "options": [
-       "the best",
        "the better",
+       "the best",
        "good"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Everest is ___ mountain on Earth.",
       "options": [
-       "the highest",
        "the higher",
+       "the highest",
        "high"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

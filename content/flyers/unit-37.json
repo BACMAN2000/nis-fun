@@ -173,20 +173,20 @@
      {
       "sentence": "She loves ___ chess with her grandpa.",
       "options": [
-       "playing",
+       "played",
        "play",
-       "played"
+       "playing"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "An activity you do for fun is a …",
       "options": [
-       "chore",
        "hobby",
+       "chore",
        "habit"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "He ___ old coins from many countries.",
@@ -200,11 +200,11 @@
      {
       "sentence": "Monopoly and chess are ___ games.",
       "options": [
-       "board",
        "bored",
+       "board",
        "broad"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

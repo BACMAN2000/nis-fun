@@ -90,29 +90,29 @@
      {
       "sentence": "Cette table est ___ bois.",
       "options": [
-       "de",
+       "dans",
        "par",
-       "dans"
+       "de"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Les pièces de monnaie sont souvent en …",
       "options": [
-       "papier",
        "métal",
+       "papier",
        "laine"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Fais attention à ce vase — il est en …",
       "options": [
-       "verre",
        "carte",
+       "verre",
        "laine"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Une carte d'anniversaire est en …",
@@ -196,37 +196,37 @@
       "sentence": "Les moutons nous donnent cette matière chaude.",
       "options": [
        "plastique",
-       "laine",
-       "métal"
+       "métal",
+       "laine"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Les livres et les cahiers sont en …",
       "options": [
-       "papier",
        "or",
+       "papier",
        "verre"
-      ],
-      "answer": 0
-     },
-     {
-      "sentence": "Les vieux châteaux sont en grosses … grises.",
-      "options": [
-       "cartes",
-       "pierres",
-       "papiers"
       ],
       "answer": 1
      },
      {
+      "sentence": "Les vieux châteaux sont en grosses … grises.",
+      "options": [
+       "pierres",
+       "cartes",
+       "papiers"
+      ],
+      "answer": 0
+     },
+     {
       "sentence": "Le métal jaune et cher des bagues, c'est l'…",
       "options": [
-       "argent",
+       "or",
        "fer",
-       "or"
+       "argent"
       ],
-      "answer": 2
+      "answer": 0
      }
     ]
    }

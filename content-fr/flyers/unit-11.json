@@ -163,20 +163,20 @@
      {
       "sentence": "Un ___ écrit les nouvelles pour la télé ou les journaux.",
       "options": [
-       "journaliste",
+       "serveur",
        "dentiste",
-       "serveur"
+       "journaliste"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Un pilote ___ un avion.",
       "options": [
-       "voler",
        "vole",
+       "voler",
        "en train de voler"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Cette personne cuisine dans un restaurant.",
@@ -190,11 +190,11 @@
      {
       "sentence": "Un ingénieur ___ des ponts et des machines.",
       "options": [
-       "conçoit",
        "concevoir",
+       "conçoit",
        "en train de concevoir"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "La personne qui dirige un magasin est le …",

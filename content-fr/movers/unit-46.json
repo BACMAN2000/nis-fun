@@ -90,20 +90,20 @@
      {
       "sentence": "___ avoir un chocolat chaud, s'il vous plaît ?",
       "options": [
-       "Peux-tu",
+       "Est-ce que",
        "Suis",
-       "Est-ce que"
+       "Peux-tu"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "« Et avec ça ? » — « ___, c'est tout. »",
       "options": [
-       "Non, merci",
        "Oui, au revoir",
+       "Non, merci",
        "Jamais"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "« Voici vos crêpes. » — « ___ ! »",
@@ -117,11 +117,11 @@
      {
       "sentence": "Tu lis la ___ pour choisir ton plat.",
       "options": [
-       "menu",
+       "lettre",
        "carte",
-       "lettre"
+       "menu"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "À la fin tu payes l'…",
@@ -186,20 +186,20 @@
      {
       "sentence": "« Qu'est-ce que vous voulez ? »",
       "options": [
-       "Des crêpes, s'il vous plaît.",
        "Jeudi.",
+       "Des crêpes, s'il vous plaît.",
        "C'est à Erik."
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "« Tout va bien ? »",
       "options": [
-       "Oui, délicieux, merci !",
+       "Deux mètres.",
        "Tourne à droite.",
-       "Deux mètres."
+       "Oui, délicieux, merci !"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "« Et avec ça ? »",
@@ -213,20 +213,20 @@
      {
       "sentence": "La personne qui apporte ton plat est le …",
       "options": [
-       "serveur",
        "conducteur",
+       "serveur",
        "dentiste"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Une nourriture qui a un goût merveilleux est …",
       "options": [
-       "délicieux",
        "dangereux",
+       "délicieux",
        "difficile"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

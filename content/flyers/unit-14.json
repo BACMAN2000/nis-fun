@@ -91,47 +91,47 @@
      {
       "sentence": "Walk ___ the river until you see the bridge.",
       "options": [
-       "along",
+       "inside",
        "over",
-       "inside"
+       "along"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Go ___ the bridge and turn right.",
       "options": [
-       "through",
        "over",
+       "through",
        "between"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Go ___ the supermarket — don't stop there.",
       "options": [
-       "past",
        "under",
+       "past",
        "inside"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The chemist's is ___ the bank, on the other side.",
       "options": [
-       "opposite",
+       "over",
        "on",
-       "over"
+       "opposite"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Turn left at the ___ of the street.",
       "options": [
-       "roof",
        "corner",
+       "roof",
        "shelf"
       ],
-      "answer": 1
+      "answer": 0
      }
     ]
    }
@@ -187,38 +187,38 @@
      {
       "sentence": "\"Excuse me, ___ is the station?\" — \"Turn right.\"",
       "options": [
-       "where",
        "when",
+       "where",
        "whose"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The train goes ___ a long dark tunnel.",
       "options": [
-       "through",
+       "past",
        "opposite",
-       "past"
+       "through"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The café is ___ the cinema — they share a wall.",
       "options": [
-       "next to",
        "over",
+       "next to",
        "through"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Don't turn. Go ___ on.",
       "options": [
-       "left",
        "straight",
+       "left",
        "past"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Walk ___ the beach and enjoy the sea air.",

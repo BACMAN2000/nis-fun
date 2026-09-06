@@ -91,20 +91,20 @@
      {
       "q": "What did the class research?",
       "options": [
-       "what happens to things we throw away",
        "how to build a rocket",
+       "what happens to things we throw away",
        "the history of Nordic music"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "q": "Where do most thrown-away things end up?",
       "options": [
-       "in a landfill or burned",
+       "back in the shops",
        "in a museum",
-       "back in the shops"
+       "in a landfill or burned"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "q": "Who led the research?",
@@ -127,11 +127,11 @@
      {
       "q": "What is Nadia's main idea?",
       "options": [
-       "the most sustainable object is one you already own",
+       "repairing is pointless",
        "everyone should buy more",
-       "repairing is pointless"
+       "the most sustainable object is one you already own"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -177,29 +177,29 @@
       {
        "sentence": "The tailor ___ repaired my coat is very skilled.",
        "options": [
-        "who",
         "which",
+        "who",
         "whose"
        ],
-       "answer": 0
+       "answer": 1
       },
       {
        "sentence": "Nadia, ___ idea impressed us, spoke last.",
+       "options": [
+        "who",
+        "whose",
+        "which"
+       ],
+       "answer": 1
+      },
+      {
+       "sentence": "That is the workshop ___ we visited last week.",
        "options": [
         "whose",
         "who",
         "which"
        ],
-       "answer": 0
-      },
-      {
-       "sentence": "That is the workshop ___ we visited last week.",
-       "options": [
-        "which",
-        "who",
-        "whose"
-       ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "My uncle, ___ lives in Lima, is a carpenter.",
@@ -213,11 +213,11 @@
       {
        "sentence": "The items ___ in the bin could have been repaired.",
        "options": [
-        "thrown",
         "throwing",
+        "thrown",
         "throws"
        ],
-       "answer": 0
+       "answer": 1
       }
      ]
     }

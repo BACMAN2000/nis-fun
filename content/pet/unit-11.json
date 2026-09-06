@@ -91,47 +91,47 @@
      {
       "q": "Who narrates the novel?",
       "options": [
-       "Scout, a curious young girl",
+       "the judge of the town",
        "Atticus, the lawyer",
-       "the judge of the town"
+       "Scout, a curious young girl"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "q": "What does Atticus decide to do?",
       "options": [
-       "leave the town quietly",
        "defend an innocent person",
+       "leave the town quietly",
        "refuse to go to court"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "q": "Why does Atticus take the case?",
       "options": [
-       "because his conscience will not let him look away",
        "because it will make him rich",
+       "because his conscience will not let him look away",
        "because everyone tells him to"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "q": "What line moved Nadia?",
       "options": [
        "a line about a beautiful house",
-       "a line about winning money",
-       "a line about real courage"
+       "a line about real courage",
+       "a line about winning money"
       ],
-      "answer": 2
+      "answer": 1
      },
      {
       "q": "What does the writer say justice needs?",
       "options": [
-       "voices that stand up and speak",
+       "faster trials",
        "more silence in court",
-       "faster trials"
+       "voices that stand up and speak"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -195,29 +195,29 @@
       {
        "sentence": "We use a pair of ___ to add extra, non-essential information.",
        "options": [
-        "commas",
         "capitals",
+        "commas",
         "numbers"
        ],
-       "answer": 0
+       "answer": 1
       },
       {
        "sentence": "Review: Justice ___ not always been served in the story.",
        "options": [
-        "has",
+        "is",
         "have",
-        "is"
+        "has"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "Review: During the trial an innocent man ___ being judged unfairly.",
        "options": [
-        "was",
+        "does",
         "has",
-        "does"
+        "was"
        ],
-       "answer": 0
+       "answer": 2
       }
      ]
     }
@@ -312,20 +312,20 @@
      {
       "sentence": "Scout, ___ as ever, asked her father difficult questions.",
       "options": [
-       "brave",
        "bravely",
+       "brave",
        "bravery"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "An innocent person ___ being defended by Atticus at that time.",
       "options": [
-       "was",
+       "does",
        "has",
-       "does"
+       "was"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Justice ___ been discussed in every reading-club meeting.",
@@ -339,11 +339,11 @@
      {
       "sentence": "If people had listened, the result ___ have been fairer.",
       "options": [
-       "might",
        "must",
+       "might",
        "can't"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

@@ -90,11 +90,11 @@
      {
       "sentence": "Sofia court très ___ — personne ne la rattrape !",
       "options": [
-       "rapide",
        "lent",
+       "rapide",
        "haut"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Mateo sait sauter très ___ — plus d'un mètre !",
@@ -108,11 +108,11 @@
      {
       "sentence": "Valentina lance le ballon très …",
       "options": [
-       "bien",
+       "le meilleur",
        "bon",
-       "le meilleur"
+       "bien"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Le ___ reçoit une médaille d'or.",
@@ -126,11 +126,11 @@
      {
       "sentence": "Notre ___ porte des maillots verts.",
       "options": [
-       "équipe",
+       "but",
        "médaille",
-       "but"
+       "équipe"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -186,29 +186,29 @@
      {
       "sentence": "Tu ___ dans le ballon avec ton pied.",
       "options": [
-       "donner un coup de pied",
        "attraper",
+       "donner un coup de pied",
        "applaudir"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Tu ___ le ballon avec tes mains.",
       "options": [
-       "attraper",
+       "courir",
        "donner un coup de pied",
-       "courir"
+       "attraper"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Une compétition de vitesse est une …",
       "options": [
-       "course",
        "règle",
+       "course",
        "toit"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Le gagnant reçoit une … d'or.",

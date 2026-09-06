@@ -100,37 +100,37 @@
       "sentence": "On est à l'intérieur maintenant. Tu peux ___ tes gants.",
       "options": [
        "mettre",
-       "décoller",
-       "lancer"
+       "lancer",
+       "décoller"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "___ tes bottes avant la neige !",
       "options": [
-       "Mets",
        "Enlève",
+       "Mets",
        "Tape"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Il fait chaud ici. ___ ton écharpe.",
       "options": [
-       "Enlève",
+       "Attrape",
        "Mets",
-       "Attrape"
+       "Enlève"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Il neige ! Dehors tout est …",
       "options": [
-       "blanc",
        "vert",
+       "blanc",
        "sec"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -195,11 +195,11 @@
      {
       "sentence": "Le contraire de mettre est …",
       "options": [
-       "décoller",
        "allumer",
+       "décoller",
        "se lever"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Entre chaud et froid il y a …",
@@ -213,20 +213,20 @@
      {
       "sentence": "Une grosse veste chaude pour l'hiver est un …",
       "options": [
-       "manteau",
+       "jupe",
        "casquette",
-       "jupe"
+       "manteau"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "La neige tombe — faisons un …",
       "options": [
-       "bonhomme de neige",
+       "salade",
        "château de sable",
-       "salade"
+       "bonhomme de neige"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

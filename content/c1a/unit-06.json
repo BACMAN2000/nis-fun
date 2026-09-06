@@ -91,11 +91,11 @@
      {
       "q": "What was the motion of the final debate?",
       "options": [
-       "ambition does more harm than good",
+       "school should be shorter",
        "phones should be banned",
-       "school should be shorter"
+       "ambition does more harm than good"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "q": "How had the club changed by June?",
@@ -109,11 +109,11 @@
      {
       "q": "What did Sofía concede at once?",
       "options": [
-       "ambition drives progress",
        "she was always wrong",
+       "ambition drives progress",
        "the debate was pointless"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "q": "According to Liam, ambition is …",
@@ -127,11 +127,11 @@
      {
       "q": "What is the purpose of a serious debate, according to Mateo?",
       "options": [
-       "understanding, not victory",
        "winning at any cost",
+       "understanding, not victory",
        "complete silence"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -177,20 +177,20 @@
       {
        "sentence": "___, the idea has weaknesses, but it is worth trying.",
        "options": [
-        "Admittedly",
+        "Never",
         "Obviously",
-        "Never"
+        "Admittedly"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "This is ___ the strongest argument on either side.",
        "options": [
-        "arguably",
         "impossibly",
+        "arguably",
         "rarely"
        ],
-       "answer": 0
+       "answer": 1
       },
       {
        "sentence": "I agree ___, though I still have doubts.",
@@ -204,11 +204,11 @@
       {
        "sentence": "___ that costs will rise, we should still invest.",
        "options": [
-        "Granted",
+        "Because",
         "Unless",
-        "Because"
+        "Granted"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "The evidence ___ that screens harm sleep.",

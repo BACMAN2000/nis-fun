@@ -90,11 +90,11 @@
      {
       "sentence": "Les nouvelles rues sont ___ que les anciennes.",
       "options": [
-       "plus larges",
        "plus larges que plus",
+       "plus larges",
        "les plus larges"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Le centre-ville est ___ qu'avant — tant de voitures !",
@@ -109,10 +109,10 @@
       "sentence": "L'ancien marché était ___ que le nouveau supermarché.",
       "options": [
        "plus sympathiquement",
-       "plus sympathique",
-       "le plus sympathique"
+       "le plus sympathique",
+       "plus sympathique"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "La vie à la campagne est ___ paisible qu'en ville.",
@@ -126,11 +126,11 @@
      {
       "sentence": "La bibliothèque est bien ___ que le centre sportif.",
       "options": [
-       "plus calme",
        "calme",
+       "plus calme",
        "la plus calme"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -186,11 +186,11 @@
      {
       "sentence": "Un bâtiment très vieux est …",
       "options": [
-       "ancien",
+       "étroit",
        "moderne",
-       "étroit"
+       "ancien"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Quand un bus est plein de gens, il est …",
@@ -204,11 +204,11 @@
      {
       "sentence": "L'espace ouvert au centre-ville est la …",
       "options": [
-       "carré",
+       "écran",
        "étagère",
-       "écran"
+       "carré"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Tu peux acheter des fruits et du fromage au …",
@@ -222,11 +222,11 @@
      {
       "sentence": "La nuit ici est ___ qu'en ville — pas de voitures, pas de musique.",
       "options": [
-       "plus paisible",
+       "le plus paisible",
        "paisiblement",
-       "le plus paisible"
+       "plus paisible"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

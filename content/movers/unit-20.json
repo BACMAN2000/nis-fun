@@ -164,11 +164,11 @@
      {
       "sentence": "You borrow books from the …",
       "options": [
-       "library",
+       "bank",
        "cinema",
-       "bank"
+       "library"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Ill people go to the …",
@@ -182,29 +182,29 @@
      {
       "sentence": "\"___ is the pool?\" — \"Next to the park.\"",
       "options": [
-       "Where",
        "When",
+       "Where",
        "Who"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "You watch films at the …",
       "options": [
-       "cinema",
        "supermarket",
+       "cinema",
        "school"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Children play on the swings at the …",
       "options": [
-       "playground",
+       "bank",
        "hospital",
-       "bank"
+       "playground"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

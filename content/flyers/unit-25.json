@@ -164,20 +164,20 @@
      {
       "sentence": "She always says \"please\" — she is very …",
       "options": [
-       "polite",
        "lazy",
+       "polite",
        "noisy"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The opposite of quiet is …",
       "options": [
        "kind",
-       "noisy",
-       "brave"
+       "brave",
+       "noisy"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "A person with lots of good ideas is …",
@@ -192,19 +192,19 @@
       "sentence": "Firefighters must be very …",
       "options": [
        "lazy",
-       "brave",
-       "noisy"
+       "noisy",
+       "brave"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Be ___ with that glass vase!",
       "options": [
-       "careful",
        "funny",
+       "careful",
        "friendly"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

@@ -90,29 +90,29 @@
      {
       "sentence": "En 2050, les gens ___ voyager en voitures volantes.",
       "options": [
-       "va",
+       "n'était pas",
        "ne va pas",
-       "n'était pas"
+       "va"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Ne t'inquiète pas, le test ___ être difficile.",
       "options": [
-       "va",
        "ne va pas",
+       "va",
        "n'est pas"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "___ tu venir à mon concert vendredi ?",
       "options": [
-       "Vas",
        "Ne vas pas",
+       "Vas",
        "Est-ce que"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Je crois que les robots ___ faire nos devoirs un jour !",
@@ -187,10 +187,10 @@
       "sentence": "Une personne qui voyage dans l'espace est un …",
       "options": [
        "artiste",
-       "astronaute",
-       "ingénieur"
+       "ingénieur",
+       "astronaute"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Après l'école, certains étudient à l'…",
@@ -204,29 +204,29 @@
      {
       "sentence": "Tout le monde connaît une personne ___.",
       "options": [
-       "célèbre",
        "vide",
+       "célèbre",
        "nuageux"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "« Tu seras quoi quand tu seras ___ ? »",
       "options": [
-       "grandir",
+       "laver",
        "cuisinier",
-       "laver"
+       "grandir"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Mon ___ est de voir les baleines dans l'océan.",
       "options": [
-       "rêve",
+       "emploi du temps",
        "frigo",
-       "emploi du temps"
+       "rêve"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

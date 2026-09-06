@@ -99,38 +99,38 @@
      {
       "sentence": "Une équipe de football a ___ joueurs.",
       "options": [
-       "onze",
+       "treize",
        "vingt",
-       "treize"
+       "onze"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Dix plus dix font …",
       "options": [
-       "vingt",
        "douze",
+       "vingt",
        "quinze"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Après treize vient …",
       "options": [
-       "quatorze",
+       "douze",
        "quinze",
-       "douze"
+       "quatorze"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Une année a ___ mois.",
       "options": [
-       "douze",
        "onze",
+       "douze",
        "vingt"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -204,29 +204,29 @@
      {
       "sentence": "Dix-neuf plus un font …",
       "options": [
-       "vingt",
+       "quatre-vingt-dix",
        "dix-huit",
-       "quatre-vingt-dix"
+       "vingt"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Entre onze et treize il y a …",
       "options": [
-       "douze",
        "quatorze",
+       "douze",
        "dix"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "17 en lettres, c'est …",
       "options": [
-       "dix-sept",
        "soixante-dix",
+       "dix-sept",
        "sept"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

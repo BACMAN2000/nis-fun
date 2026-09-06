@@ -91,20 +91,20 @@
      {
       "sentence": "Où est né Amundsen ?",
       "options": [
-       "au Pérou",
        "en Norvège",
+       "au Pérou",
        "en Antarctique"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Pourquoi dormait-il la fenêtre ouverte ?",
       "options": [
-       "pour se préparer au froid",
+       "sa chambre était trop chaude",
        "il aimait les oiseaux",
-       "sa chambre était trop chaude"
+       "pour se préparer au froid"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Qu'est-ce que son équipe a atteint en 1911 ?",
@@ -118,11 +118,11 @@
      {
       "sentence": "Avec combien de chiens ont-ils voyagé ?",
       "options": [
-       "cinquante-deux",
+       "quinze",
        "vingt-cinq",
-       "quinze"
+       "cinquante-deux"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Qu'est-ce qui porte son nom aujourd'hui ?",
@@ -205,29 +205,29 @@
      {
       "sentence": "Les explorateurs utilisent une ___ pour trouver le chemin.",
       "options": [
-       "carte",
+       "timbre",
        "oreiller",
-       "timbre"
+       "carte"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Elle ___ un nouveau papillon dans la jungle.",
       "options": [
-       "a découvert",
        "est revenu",
+       "a découvert",
        "a signé"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Après deux ans en mer, le bateau ___ à la maison.",
       "options": [
-       "est revenu",
        "a découvert",
+       "est revenu",
        "a collectionné"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

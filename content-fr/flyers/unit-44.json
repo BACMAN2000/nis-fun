@@ -90,29 +90,29 @@
      {
       "sentence": "On ___ dans la file pendant vingt minutes.",
       "options": [
-       "était debout",
        "être debout",
+       "était debout",
        "a resté debouté"
-      ],
-      "answer": 0
-     },
-     {
-      "sentence": "Diego ___ trois tickets pour la grande roue.",
-      "options": [
-       "a achetu",
-       "a acheté",
-       "acheter"
       ],
       "answer": 1
      },
      {
-      "sentence": "Ingrid ___ un nounours géant au jeu des anneaux !",
+      "sentence": "Diego ___ trois tickets pour la grande roue.",
       "options": [
-       "a gagné",
-       "gagner",
-       "j'ai gagni"
+       "a acheté",
+       "a achetu",
+       "acheter"
       ],
       "answer": 0
+     },
+     {
+      "sentence": "Ingrid ___ un nounours géant au jeu des anneaux !",
+      "options": [
+       "j'ai gagni",
+       "gagner",
+       "a gagné"
+      ],
+      "answer": 2
      },
      {
       "sentence": "Le ballon d'Oliver ___ jusqu'aux nuages.",
@@ -127,10 +127,10 @@
       "sentence": "On ___ tout notre argent, mais ça valait le coup !",
       "options": [
        "a dépensu",
-       "a dépensé",
-       "dépenser"
+       "dépenser",
+       "a dépensé"
       ],
-      "answer": 1
+      "answer": 2
      }
     ]
    }
@@ -186,20 +186,20 @@
      {
       "sentence": "La file de gens qui attendent est la …",
       "options": [
-       "file d'attente",
        "vue",
+       "file d'attente",
        "voix"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Le nuage sucré rose sur un bâton, c'est la …",
       "options": [
-       "barbe à papa",
        "yaourt",
+       "barbe à papa",
        "céréales"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "L'attraction qui monte, descend et fait des loopings, ce sont les …",
@@ -213,11 +213,11 @@
      {
       "sentence": "Il te faut un ___ pour entrer dans chaque attraction.",
       "options": [
-       "billet",
+       "cuillère",
        "timbre",
-       "cuillère"
+       "billet"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "La grande roue ___ lentement pendant qu'on regardait la ville.",

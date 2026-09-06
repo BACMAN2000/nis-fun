@@ -90,38 +90,38 @@
      {
       "sentence": "Il est très grand et mince, avec des cheveux violets bouclés.",
       "options": [
-       "Papi Grum",
        "Oncle Zog",
+       "Papi Grum",
        "Baby Boo"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Elle est vieille et petite, avec un sourire gentil et des cheveux gris bouclés.",
       "options": [
-       "Mamie Gloop",
        "Cousin Zip",
+       "Mamie Gloop",
        "Maman Moo"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "C'est le plus jeune, avec trois petites dents.",
       "options": [
        "Oncle Zog",
-       "Baby Boo",
-       "Papi Grum"
+       "Papi Grum",
+       "Baby Boo"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Elle a de longs cheveux bleus raides et de grandes lunettes.",
       "options": [
-       "Cousin Zip",
        "Mamie Gloop",
+       "Cousin Zip",
        "Baby Boo"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Il a une très longue barbe blanche — c'est le plus vieux.",
@@ -204,20 +204,20 @@
      {
       "sentence": "Il ___ des cheveux bruns et des yeux marron.",
       "options": [
-       "est",
        "a",
+       "est",
        "avoir"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Le contraire de cheveux blonds, ce sont les cheveux ___.",
       "options": [
-       "sombre",
+       "bouclé",
        "court",
-       "bouclé"
+       "sombre"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Un joueur de basket est en général très …",

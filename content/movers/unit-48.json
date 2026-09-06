@@ -100,29 +100,29 @@
      {
       "sentence": "You sleep on it every night.",
       "options": [
-       "a bed",
        "a desk",
+       "a bed",
        "a shelf"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The season when the leaves fall.",
       "options": [
-       "autumn",
+       "summer",
        "spring",
-       "summer"
+       "autumn"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The person who brings food in a café.",
       "options": [
-       "the waiter",
        "the dentist",
+       "the waiter",
        "the driver"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "You blow them out on your birthday.",
@@ -187,20 +187,20 @@
      {
       "sentence": "To say a word letter by letter is to ___ it.",
       "options": [
-       "spell",
+       "smell",
        "spill",
-       "smell"
+       "spell"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Hot and cold are …",
       "options": [
-       "opposites",
+       "seasons",
        "pairs of shoes",
-       "seasons"
+       "opposites"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "A small help to find the answer is a …",
@@ -214,11 +214,11 @@
      {
       "sentence": "When you don't know, you can …",
       "options": [
-       "guess",
        "sleep",
+       "guess",
        "shout"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Each correct answer gives you a …",

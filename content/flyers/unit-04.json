@@ -174,10 +174,10 @@
       "sentence": "Hair on a man's chin is a …",
       "options": [
        "moustache",
-       "beard",
-       "tongue"
+       "tongue",
+       "beard"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "You taste food with your …",
@@ -191,20 +191,20 @@
      {
       "sentence": "Your food goes to your …",
       "options": [
-       "back",
+       "stomach",
        "knee",
-       "stomach"
+       "back"
       ],
-      "answer": 2
+      "answer": 0
      },
      {
       "sentence": "You carry a heavy bag on your …",
       "options": [
        "tongue",
-       "shoulders",
-       "fingers"
+       "fingers",
+       "shoulders"
       ],
-      "answer": 1
+      "answer": 2
      }
     ]
    }

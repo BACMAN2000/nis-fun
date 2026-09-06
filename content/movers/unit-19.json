@@ -173,38 +173,38 @@
      {
       "sentence": "If you go walking, you go ___ foot.",
       "options": [
-       "on",
        "by",
+       "on",
        "at"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The bus ___ drives carefully.",
       "options": [
-       "driver",
+       "seat",
        "ticket",
-       "seat"
+       "driver"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Wait for the bus at the bus …",
       "options": [
-       "stop",
        "shop",
+       "stop",
        "step"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The train runs on …",
       "options": [
-       "rails",
+       "water",
        "grass",
-       "water"
+       "rails"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

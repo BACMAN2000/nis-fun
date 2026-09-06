@@ -120,19 +120,19 @@
       "sentence": "Where did Kili land?",
       "options": [
        "on the roof",
-       "on the camera",
-       "on a desk"
+       "on a desk",
+       "on the camera"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "When is the report on TV?",
       "options": [
-       "Sunday after the news",
        "Thursday at nine",
+       "Sunday after the news",
        "Monday morning"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -188,11 +188,11 @@
      {
       "sentence": "A programme with moving drawings is a …",
       "options": [
-       "documentary",
        "cartoon",
+       "documentary",
        "channel"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "You watch films on a …",
@@ -207,28 +207,28 @@
       "sentence": "The ___ claps at the end of the show.",
       "options": [
        "camera",
-       "audience",
-       "channel"
+       "channel",
+       "audience"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Diego wants to be a TV ___ one day.",
       "options": [
-       "presenter",
        "printer",
+       "presenter",
        "painter"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "They filmed the concert with three …",
       "options": [
-       "cameras",
+       "curtains",
        "envelopes",
-       "curtains"
+       "cameras"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

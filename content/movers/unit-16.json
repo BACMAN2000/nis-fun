@@ -164,11 +164,11 @@
      {
       "sentence": "The day after Tuesday is …",
       "options": [
-       "Wednesday",
        "Monday",
+       "Wednesday",
        "Friday"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Saturday and Sunday are the …",
@@ -182,29 +182,29 @@
      {
       "sentence": "My piano lesson is ___ Thursday.",
       "options": [
-       "on",
+       "at",
        "in",
-       "at"
+       "on"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "If today is Sunday, ___ is Monday.",
       "options": [
-       "tomorrow",
        "yesterday",
+       "tomorrow",
        "today"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "\"___ is the match?\" — \"On Friday.\"",
       "options": [
-       "When",
+       "Whose",
        "Who",
-       "Whose"
+       "When"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

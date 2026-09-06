@@ -90,11 +90,11 @@
      {
       "sentence": "___ est ce cerf-volant ? — C'est celui de Sofia.",
       "options": [
-       "À qui",
+       "Quel",
        "Qui",
-       "Quel"
+       "À qui"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Ce robot n'est pas le tien, c'est ___ !",
@@ -108,20 +108,20 @@
      {
       "sentence": "Ce ballon est ___, Mateo ?",
       "options": [
-       "le tien",
        "ton",
+       "le tien",
        "tu"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "C'est la poupée de ma ___ — elle l'a depuis des années.",
       "options": [
-       "sœur",
        "sœurs",
+       "sœur",
        "sœur"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "L'os appartient à Luna. Elle en est la …",
@@ -186,11 +186,11 @@
      {
       "sentence": "« ___ est ce crayon par terre ? » — « À Ana. »",
       "options": [
-       "À qui",
+       "Lequel de",
        "Qui est le",
-       "Lequel de"
+       "À qui"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "C'est le robot d'Erik. C'est ___ jouet préféré.",
@@ -204,29 +204,29 @@
      {
       "sentence": "Cette poupée est à ma sœur. C'est ___.",
       "options": [
-       "le sien",
        "son",
+       "le sien",
        "elle"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Les jeux de la classe sont ___ — ils sont à nous tous.",
       "options": [
-       "le nôtre",
+       "les leurs seulement",
        "le mien",
-       "les leurs seulement"
+       "le nôtre"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "La personne à qui appartient une chose en est le …",
       "options": [
-       "propriétaire",
        "gagnant",
+       "propriétaire",
        "conducteur"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

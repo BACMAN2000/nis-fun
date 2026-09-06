@@ -91,20 +91,20 @@
      {
       "sentence": "My grandma is 70 years old, but she feels …",
       "options": [
-       "young",
+       "curly",
        "tall",
-       "curly"
+       "young"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "He can carry two big boxes — he is very …",
       "options": [
-       "strong",
        "short",
+       "strong",
        "old"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "She has ___ blue eyes.",
@@ -127,11 +127,11 @@
      {
       "sentence": "I can't read without my …",
       "options": [
-       "glasses",
        "gloves",
+       "glasses",
        "goals"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -187,29 +187,29 @@
      {
       "sentence": "Hair that goes round and round is …",
       "options": [
-       "curly",
+       "old",
        "strong",
-       "old"
+       "curly"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The opposite of tall is …",
       "options": [
-       "short",
+       "pretty",
        "young",
-       "pretty"
+       "short"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "My baby brother is one year old. He is very …",
       "options": [
-       "young",
        "old",
+       "young",
        "tall"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "She has got green ___ and dark hair.",
@@ -301,28 +301,28 @@
        "sentence": "Sofia is the girl ___ has got long black hair.",
        "options": [
         "which",
-        "who",
-        "where"
+        "where",
+        "who"
        ],
-       "answer": 1
+       "answer": 2
       },
       {
        "sentence": "That is the bike ___ my grandma gave me.",
        "options": [
-        "which",
         "who",
+        "which",
         "when"
        ],
-       "answer": 0
+       "answer": 1
       },
       {
        "sentence": "This is the park ___ we play football on Saturdays.",
        "options": [
-        "who",
+        "where",
         "which",
-        "where"
+        "who"
        ],
-       "answer": 2
+       "answer": 0
       },
       {
        "sentence": "A doctor is a person ___ helps you when you are ill.",
@@ -337,10 +337,10 @@
        "sentence": "Which one is right?",
        "options": [
         "The boy who he is running.",
-        "The boy who is running.",
-        "The boy which is running."
+        "The boy which is running.",
+        "The boy who is running."
        ],
-       "answer": 1
+       "answer": 2
       }
      ]
     }

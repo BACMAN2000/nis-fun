@@ -100,29 +100,29 @@
      {
       "sentence": "De quelle couleur est son bateau ?",
       "options": [
-       "rouge",
+       "bleu",
        "vert",
-       "bleu"
+       "rouge"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Combien de cascades a-t-il vues ?",
       "options": [
-       "dix-sept",
        "sept",
+       "dix-sept",
        "soixante-dix"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Qu'a fait le gros phoque ?",
       "options": [
        "il a nagé toute la journée",
-       "il a dormi sur un rocher",
-       "il a mangé son déjeuner"
+       "il a mangé son déjeuner",
+       "il a dormi sur un rocher"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Qu'y a-t-il dans le colis ?",
@@ -187,11 +187,11 @@
      {
       "sentence": "Tu colles un ___ sur une carte postale.",
       "options": [
-       "timbre",
        "oreiller",
+       "timbre",
        "miroir"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Hier j'ai ___ une lettre à mon cousin.",
@@ -215,19 +215,19 @@
       "sentence": "« ___ de Norvège ! » est un début typique de carte postale.",
       "options": [
        "Indications",
-       "Bonjour",
-       "Escalier"
+       "Escalier",
+       "Bonjour"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "À la fin d'une carte, tu ___ ton nom.",
       "options": [
-       "panneau",
+       "envoyer",
        "chanter",
-       "envoyer"
+       "panneau"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

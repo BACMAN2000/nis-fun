@@ -99,38 +99,38 @@
      {
       "sentence": "Le bébé dort. Parle ___ !",
       "options": [
-       "doucement",
        "calme",
+       "doucement",
        "fort"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Ingrid nage très ___ — elle gagne toutes les courses.",
       "options": [
        "bon",
-       "bien",
-       "bienment"
+       "bienment",
+       "bien"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "___, la lumière s'est éteinte et tout le monde a crié !",
       "options": [
-       "Soudain",
        "Lentement",
+       "Soudain",
        "Joyeusement"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Maya a résolu le puzzle ___ — en deux minutes !",
       "options": [
-       "facilement",
+       "mal",
        "facile",
-       "mal"
+       "facilement"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -204,29 +204,29 @@
      {
       "sentence": "Le contraire de fort est …",
       "options": [
-       "doucement",
        "vite",
+       "doucement",
        "facilement"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Elle parle trois langues très …",
       "options": [
-       "bien",
+       "le meilleur",
        "bon",
-       "le meilleur"
+       "bien"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Ils vécurent ___ et eurent beaucoup d'enfants. Fin !",
       "options": [
-       "joyeusement",
        "content",
+       "joyeusement",
        "plus content"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

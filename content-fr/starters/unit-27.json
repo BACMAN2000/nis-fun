@@ -90,20 +90,20 @@
      {
       "sentence": "Je ___ au football avec mes amis.",
       "options": [
-       "jouer",
        "aller",
+       "jouer",
        "faire"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "___ au basket après l'école !",
       "options": [
-       "Allons-y",
+       "Laisse",
        "Alons-y",
-       "Laisse"
+       "Allons-y"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Envoie le ballon dans le …",
@@ -117,11 +117,11 @@
      {
       "sentence": "Dans la piscine on fait de la …",
       "options": [
-       "natation",
        "course",
+       "natation",
        "en train de lire"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Notre ___ porte des maillots rouges.",
@@ -186,29 +186,29 @@
      {
       "sentence": "Tu tapes dans le ballon avec ton …",
       "options": [
-       "pied",
+       "nez",
        "main",
-       "nez"
+       "pied"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Au basket le panier est très …",
       "options": [
-       "haut",
+       "mouillé",
        "petit",
-       "mouillé"
+       "haut"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Tu nages dans la …",
       "options": [
-       "piscine",
        "but",
+       "piscine",
        "sac"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "L'équipe qui a le plus de buts …",
@@ -222,11 +222,11 @@
      {
       "sentence": "Le tennis se joue avec une ___ balle.",
       "options": [
-       "petit",
+       "carré",
        "géante",
-       "carré"
+       "petit"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

@@ -90,38 +90,38 @@
      {
       "sentence": "L'école commence à 8 h 00. Diego arrive à 8 h 20. Il est …",
       "options": [
-       "tôt",
        "tard",
+       "tôt",
        "prêt"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Le film commence à 18 h 00. On arrive à 17 h 40. On est …",
       "options": [
        "tard",
-       "tôt",
-       "lent"
+       "lent",
+       "tôt"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "« ___-toi ! Le bus part dans deux minutes ! »",
       "options": [
-       "Dépêche",
        "Dors",
+       "Dépêche",
        "Assieds-toi"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Mon ___ sonne à six heures et demie.",
       "options": [
-       "réveil",
+       "soleil",
        "mur",
-       "soleil"
+       "réveil"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Soixante secondes font une …",
@@ -186,11 +186,11 @@
      {
       "sentence": "7 h 45, c'est huit heures ___ le quart.",
       "options": [
-       "passé",
        "à",
+       "passé",
        "à"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "12 h 00 la nuit, c'est …",
@@ -204,29 +204,29 @@
      {
       "sentence": "3 h 30, c'est trois heures ___.",
       "options": [
-       "quart",
        "moitié",
+       "quart",
        "dix"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Le contraire d'en avance est en …",
       "options": [
-       "tard",
+       "prêt",
        "rapide",
-       "prêt"
+       "tard"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "« Quelle heure ___-il ? » — « Il est dix heures. »",
       "options": [
        "sont",
-       "est",
-       "fait"
+       "fait",
+       "est"
       ],
-      "answer": 1
+      "answer": 2
      }
     ]
    }

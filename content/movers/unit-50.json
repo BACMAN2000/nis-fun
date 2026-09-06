@@ -104,38 +104,38 @@
      {
       "sentence": "Yesterday we ___ to the funfair.",
       "options": [
-       "went",
        "go",
+       "went",
        "goed"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "An elephant is ___ than a horse.",
       "options": [
-       "bigger",
+       "biggest",
        "big",
-       "biggest"
+       "bigger"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "You ___ run next to the swimming pool.",
       "options": [
-       "mustn't",
        "must",
+       "mustn't",
        "should to"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "We ___ going to celebrate today!",
       "options": [
-       "are",
+       "am",
        "is",
-       "am"
+       "are"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -209,29 +209,29 @@
      {
       "sentence": "A group that works together is a …",
       "options": [
-       "team",
        "queue",
+       "team",
        "list"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "\"___ you for everything, teachers!\"",
       "options": [
-       "Thank",
+       "Sorry",
        "Please",
-       "Sorry"
+       "Thank"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "To keep something in your mind forever is to ___ it.",
       "options": [
-       "remember",
        "forget",
+       "remember",
        "sell"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

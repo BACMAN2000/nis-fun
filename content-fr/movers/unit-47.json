@@ -90,20 +90,20 @@
      {
       "sentence": "Quand j'___ petite, j'avais les cheveux bouclés.",
       "options": [
-       "était",
        "étaient",
+       "était",
        "suis"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Mes grands-parents ___ très jeunes sur cette photo.",
       "options": [
        "était",
-       "étaient",
-       "sont étant"
+       "sont étant",
+       "étaient"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Luna ___ plus petite qu'une chaussure !",
@@ -126,11 +126,11 @@
      {
       "sentence": "Les photos ___ en noir et blanc du temps de papi.",
       "options": [
-       "était",
        "étaient",
+       "était",
        "être"
       ],
-      "answer": 1
+      "answer": 0
      }
     ]
    }
@@ -186,11 +186,11 @@
      {
       "sentence": "Tu ranges les photos dans un …",
       "options": [
-       "album",
+       "four",
        "enveloppe",
-       "four"
+       "album"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Tu prends des photos avec un …",
@@ -204,29 +204,29 @@
      {
       "sentence": "« Tu te ___ de ton premier jour d'école ? »",
       "options": [
-       "se souvenir",
+       "revenir",
        "répondre",
-       "revenir"
+       "se souvenir"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Un tout jeune enfant est un …",
       "options": [
-       "bébé",
        "invité",
+       "bébé",
        "serveur"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Un moment que tu gardes dans ta tête est un …",
       "options": [
-       "mémoire",
+       "médaille",
        "menu",
-       "médaille"
+       "mémoire"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

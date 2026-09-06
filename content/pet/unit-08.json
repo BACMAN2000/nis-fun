@@ -91,20 +91,20 @@
      {
       "q": "What is happening to the school workshop this month?",
       "options": [
-       "It is being renovated.",
        "It is being sold.",
+       "It is being renovated.",
        "It is being closed forever."
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "q": "What are being installed along the walls?",
       "options": [
        "old computers",
-       "new workbenches",
-       "glass windows"
+       "glass windows",
+       "new workbenches"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "q": "What was being replaced when Liam visited on Monday?",
@@ -118,20 +118,20 @@
      {
       "q": "Who is designing the safety posters?",
       "options": [
-       "a TV company",
+       "the art class",
        "the head teacher",
-       "the art class"
+       "a TV company"
       ],
-      "answer": 2
+      "answer": 0
      },
      {
       "q": "Who is doing much of the work?",
       "options": [
-       "the students themselves",
        "only professional builders",
+       "the students themselves",
        "workers from another school"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -177,47 +177,47 @@
       {
        "sentence": "Right now the workshop ___ being renovated.",
        "options": [
-        "is",
+        "does",
         "has",
-        "does"
+        "is"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "New tools ___ being installed this week.",
        "options": [
-        "is",
         "are",
+        "is",
         "was"
        ],
-       "answer": 1
+       "answer": 0
       },
       {
        "sentence": "Yesterday the floor ___ being replaced.",
        "options": [
-        "was",
         "is",
+        "was",
         "are"
        ],
-       "answer": 0
+       "answer": 1
       },
       {
        "sentence": "Last term the walls ___ being painted.",
        "options": [
-        "were",
+        "has",
         "is",
-        "has"
+        "were"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "Look! A new sign ___ being made right now.",
        "options": [
-        "is",
+        "have",
         "were",
-        "have"
+        "is"
        ],
-       "answer": 0
+       "answer": 2
       }
      ]
     }
@@ -321,11 +321,11 @@
      {
       "sentence": "When we arrived, lunch ___ being prepared in the kitchen.",
       "options": [
-       "was",
+       "are",
        "is",
-       "are"
+       "was"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "New computers are ___ set up in the lab right now.",
@@ -339,11 +339,11 @@
      {
       "sentence": "Be careful — the wet floor ___ being cleaned.",
       "options": [
-       "is",
        "are",
+       "is",
        "were"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

@@ -90,29 +90,29 @@
      {
       "sentence": "J'___ les sandwichs au fromage.",
       "options": [
-       "aimer",
+       "en train d'aimer",
        "aime",
-       "en train d'aimer"
+       "aimer"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Mateo ___ les milk-shakes au chocolat.",
       "options": [
-       "aimer",
        "aime",
+       "aimer",
        "en train d'aimer"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Luna n'___ pas les légumes.",
       "options": [
-       "aimer",
        "aime",
+       "aimer",
        "aimé"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "___ tu la soupe de tomate ?",
@@ -121,7 +121,7 @@
        "Est-ce que",
        "Est"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "On n'___ pas la soupe froide. Beurk !",
@@ -130,7 +130,7 @@
        "ne... pas",
        "ne sont pas"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -186,20 +186,20 @@
      {
       "sentence": "Les carottes et les petits pois sont des …",
       "options": [
-       "légumes",
+       "saucisses",
        "milk-shakes",
-       "saucisses"
+       "légumes"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Une nourriture très bonne est …",
       "options": [
-       "savoureux",
        "sale",
+       "savoureux",
        "bruyant"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "La soupe est en général …",
@@ -213,11 +213,11 @@
      {
       "sentence": "Le fromage est fait avec du …",
       "options": [
-       "lait",
+       "eau",
        "riz",
-       "eau"
+       "lait"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "« Quel est ton ___ préféré ? » — « Les pâtes ! »",

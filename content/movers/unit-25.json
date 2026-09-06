@@ -91,20 +91,20 @@
      {
       "sentence": "\"What's the matter?\"",
       "options": [
-       "I've got a headache.",
        "It's on the shelf.",
+       "I've got a headache.",
        "Two kilos, please."
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "\"Have you got a temperature?\"",
       "options": [
-       "Yes, thirty-eight degrees.",
+       "By bus.",
        "No, it's Tuesday.",
-       "By bus."
+       "Yes, thirty-eight degrees."
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "\"How do you feel today?\"",
@@ -118,20 +118,20 @@
      {
       "sentence": "\"You should rest.\"",
       "options": [
-       "Okay, I'll stay in bed.",
+       "On Friday.",
        "It's made of wood.",
-       "On Friday."
+       "Okay, I'll stay in bed."
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "\"Get well soon!\"",
       "options": [
-       "Thank you!",
        "How much is it?",
+       "Thank you!",
        "Turn left."
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -196,11 +196,11 @@
      {
       "sentence": "When you are ill you should ___ a lot.",
       "options": [
-       "rest",
+       "shout",
        "run",
-       "shout"
+       "rest"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Atchoo! I think I've got a …",
@@ -214,20 +214,20 @@
      {
       "sentence": "After medicine and sleep you feel …",
       "options": [
-       "better",
        "bigger",
+       "better",
        "later"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Hot ___ is perfect food for ill days.",
       "options": [
-       "soup",
+       "candy floss",
        "ice cream",
-       "candy floss"
+       "soup"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

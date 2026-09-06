@@ -160,11 +160,11 @@
      {
       "sentence": "Milk is …",
       "options": [
-       "white",
+       "green",
        "black",
-       "green"
+       "white"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "A banana is …",
@@ -178,11 +178,11 @@
      {
       "sentence": "The night sky is …",
       "options": [
-       "black",
        "pink",
+       "black",
        "orange"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "\"What ___ is the frog?\" — \"Green!\"",
@@ -196,11 +196,11 @@
      {
       "sentence": "Red and yellow make …",
       "options": [
-       "orange",
        "blue",
+       "orange",
        "black"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

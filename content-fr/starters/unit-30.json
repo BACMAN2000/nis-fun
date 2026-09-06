@@ -90,11 +90,11 @@
      {
       "sentence": "À la plage le soleil est très …",
       "options": [
-       "chaud",
+       "vert",
        "froid",
-       "vert"
+       "chaud"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "On construit un château de …",
@@ -108,29 +108,29 @@
      {
       "sentence": "Je ___ dans la mer avec mon papa.",
       "options": [
-       "nager",
        "dormir",
+       "nager",
        "écrire"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Mets ton ___ — le soleil tape fort !",
       "options": [
-       "chapeau",
+       "gants",
        "bottes",
-       "gants"
+       "chapeau"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "La glace ___ au soleil. Mange-la vite !",
       "options": [
-       "fond",
        "pousse",
+       "fond",
        "chante"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -204,29 +204,29 @@
      {
       "sentence": "La ___ est grande, bleue et salée.",
       "options": [
-       "mer",
+       "verre",
        "piscine",
-       "verre"
+       "mer"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Les jours de chaleur on mange des …",
       "options": [
-       "glace",
        "soupe chaude",
+       "glace",
        "toast"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Le ___ brille dans le ciel.",
       "options": [
-       "soleil",
        "sable",
+       "soleil",
        "coquillage"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

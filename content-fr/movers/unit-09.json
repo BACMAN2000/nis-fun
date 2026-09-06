@@ -108,11 +108,11 @@
      {
       "sentence": "Luna ___ un trou sous l'arbre. Encore !",
       "options": [
-       "creuse",
+       "a creusé",
        "creusait",
-       "a creusé"
+       "creuse"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Qu'est-ce que tu ___, Erik ?",
@@ -126,11 +126,11 @@
      {
       "sentence": "Le soleil ___ et le jardin est content.",
       "options": [
-       "brille",
+       "a brillé",
        "brillait",
-       "a brillé"
+       "brille"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -204,29 +204,29 @@
      {
       "sentence": "Les plantes ont besoin d'eau et de soleil pour …",
       "options": [
-       "grandir",
        "voler",
+       "grandir",
        "chanter"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Les chiens adorent ___ des trous dans le jardin.",
       "options": [
-       "creuser",
+       "cuisinier",
        "lire",
-       "cuisinier"
+       "creuser"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "On s'assoit sur l'___ pour le pique-nique.",
       "options": [
-       "herbe",
        "feuille",
+       "herbe",
        "abeille"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

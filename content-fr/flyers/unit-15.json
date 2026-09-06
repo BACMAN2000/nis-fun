@@ -163,11 +163,11 @@
      {
       "sentence": "La personne qui gagne est le …",
       "options": [
-       "champion",
        "serveur",
+       "champion",
        "directeur"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "En hiver tu peux faire ___ en descendant la colline.",
@@ -182,10 +182,10 @@
       "sentence": "On ___ au volley tous les vendredis.",
       "options": [
        "aller",
-       "jouer",
-       "faire"
+       "faire",
+       "jouer"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Le ___ à la fin était trois-un.",
@@ -200,10 +200,10 @@
       "sentence": "Elle ___ du patinage sur le lac gelé.",
       "options": [
        "joue",
-       "va",
-       "fait"
+       "fait",
+       "va"
       ],
-      "answer": 1
+      "answer": 2
      }
     ]
    }

@@ -194,6 +194,52 @@ def revisa(unidad, a):
                 apunta(MEDIO, unidad, act, 'la palabra clave «%s» no aparece en la respuesta' % it['key'])
 
 
+LETRAS = 'ABCDEFGH'
+REPARTO = {}
+
+
+def revisa_reparto(nombre, unidad):
+    """Donde cae la respuesta correcta dentro de la unidad.
+
+    Se paso por alto durante todo el curso: la clave estaba en la primera
+    opcion el 81% de las veces y 93 de las 180 unidades tenian el 100% de sus
+    respuestas en la A, porque quien escribe una pregunta pone la buena primero
+    y le anade dos distractores detras. Como el motor pinta las opciones en
+    orden y corrige con `+b.dataset.k === it.answer`, al alumno le bastaba
+    pulsar siempre la primera. picture_mc no entra: guarda la clave como
+    palabra y ya salia repartido."""
+    claves = []
+    for a in (unidad.get('activities') or []):
+        if a.get('type') == 'picture_mc':
+            continue
+
+        def anda(n):
+            if isinstance(n, dict):
+                o, k = n.get('options'), n.get('answer')
+                if (isinstance(o, list) and o and all(isinstance(x, str) for x in o)
+                        and isinstance(k, int) and not isinstance(k, bool) and 0 <= k < len(o)):
+                    claves.append(LETRAS[k]); return
+                for v in n.values():
+                    anda(v)
+            elif isinstance(n, list):
+                for v in n:
+                    anda(v)
+        anda(a)
+    for c in claves:
+        REPARTO[c] = REPARTO.get(c, 0) + 1
+    if len(claves) < 4:
+        return
+    cuenta = {}
+    for c in claves:
+        cuenta[c] = cuenta.get(c, 0) + 1
+    letra, n = sorted(cuenta.items(), key=lambda x: -x[1])[0]
+    if n == len(claves):
+        apunta(GRAVE, nombre, 'reparto', 'las %d respuestas de la unidad son «%s»' % (n, letra))
+    elif n / float(len(claves)) >= 0.6 and len(claves) >= 5:
+        apunta(MEDIO, nombre, 'reparto', '%d de %d respuestas son «%s» (%d%%)'
+               % (n, len(claves), letra, round(100.0 * n / len(claves))))
+
+
 def main():
     unidades = sorted(glob.glob(os.path.join(BASE, '*', 'unit-*.json')))
     for f in unidades:
@@ -202,6 +248,7 @@ def main():
         UNIDAD.clear(); UNIDAD.update({'level': u.get('level'), 'number': u.get('number')})
         for a in (u.get('activities') or []):
             revisa(nombre, a)
+        revisa_reparto(nombre, u)
     print('=' * 74)
     print('AUDITORIA DEL CURSO \u2014 %d unidades, %d avisos' % (len(unidades), len(GRAVE) + len(MEDIO) + len(LEVE)))
     for titulo, lista in (('GRAVE (rompe la actividad)', GRAVE), ('MEDIO (revisar)', MEDIO), ('LEVE', LEVE)):
@@ -210,6 +257,15 @@ def main():
             print('   ', x)
         if len(lista) > 60:
             print('    ... y %d mas' % (len(lista) - 60))
+    if REPARTO:
+        total = sum(REPARTO.values())
+        print('\n--- donde cae la respuesta correcta (%d preguntas de opcion multiple)' % total)
+        print('   ' + '   '.join('%s %d (%d%%)' % (l, REPARTO[l], round(100.0 * REPARTO[l] / total))
+                                 for l in sorted(REPARTO)))
+        pico = max(REPARTO.values()) / float(total)
+        if pico >= 0.42:
+            print('   ✗ una sola letra se lleva el %d%%: reparte con  '
+                  'python tools/reparte_claves.py --escribe' % round(pico * 100))
 
 
 if __name__ == '__main__':

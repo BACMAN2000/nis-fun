@@ -160,20 +160,20 @@
      {
       "sentence": "Red light means …",
       "options": [
-       "stop",
        "go",
+       "stop",
        "sing"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Green light means you can …",
       "options": [
-       "cross",
+       "shout",
        "sleep",
-       "shout"
+       "cross"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "A ___ is bigger than a car.",
@@ -187,20 +187,20 @@
      {
       "sentence": "Be ___ on the street!",
       "options": [
-       "careful",
        "dirty",
+       "careful",
        "funny"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "On your bike, wear a …",
       "options": [
-       "helmet",
+       "scarf",
        "hat only",
-       "scarf"
+       "helmet"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

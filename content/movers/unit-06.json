@@ -91,47 +91,47 @@
      {
       "sentence": "I ___ cheese sandwiches.",
       "options": [
-       "like",
+       "liking",
        "likes",
-       "liking"
+       "like"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Mateo ___ chocolate milkshakes.",
       "options": [
-       "like",
        "likes",
+       "like",
        "liking"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Luna doesn't ___ vegetables.",
       "options": [
-       "like",
        "likes",
+       "like",
        "liked"
-      ],
-      "answer": 0
-     },
-     {
-      "sentence": "___ you like tomato soup?",
-      "options": [
-       "Does",
-       "Do",
-       "Is"
       ],
       "answer": 1
      },
      {
-      "sentence": "We ___ like cold soup. Yuck!",
+      "sentence": "___ you like tomato soup?",
       "options": [
-       "don't",
-       "doesn't",
-       "aren't"
+       "Do",
+       "Does",
+       "Is"
       ],
       "answer": 0
+     },
+     {
+      "sentence": "We ___ like cold soup. Yuck!",
+      "options": [
+       "doesn't",
+       "don't",
+       "aren't"
+      ],
+      "answer": 1
      }
     ]
    }
@@ -187,20 +187,20 @@
      {
       "sentence": "Carrots and peas are …",
       "options": [
-       "vegetables",
+       "sausages",
        "milkshakes",
-       "sausages"
+       "vegetables"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Food that is very good is …",
       "options": [
-       "tasty",
        "dirty",
+       "tasty",
        "noisy"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Soup is usually …",
@@ -214,11 +214,11 @@
      {
       "sentence": "Cheese is made from …",
       "options": [
-       "milk",
+       "water",
        "rice",
-       "water"
+       "milk"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "\"What's your favourite ___?\" — \"Pasta!\"",

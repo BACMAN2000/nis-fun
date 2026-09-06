@@ -168,38 +168,38 @@
      {
       "sentence": "Tu fais des châteaux avec du …",
       "options": [
-       "sable",
+       "coquillages",
        "eau",
-       "coquillages"
+       "sable"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Un ___ navigue sur la mer.",
       "options": [
-       "bateau",
        "vélo",
+       "bateau",
        "bus"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Il ___ beaucoup de poissons dans la mer.",
       "options": [
-       "sont",
+       "suis",
        "est",
-       "suis"
+       "sont"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Les poissons savent très bien …",
       "options": [
-       "nager",
        "voler",
+       "nager",
        "chanter"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

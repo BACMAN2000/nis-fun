@@ -99,38 +99,38 @@
      {
       "sentence": "L'horloge est ___ la porte, en haut du mur.",
       "options": [
-       "au-dessus",
+       "entre",
        "sous",
-       "entre"
+       "au-dessus"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "La poubelle est ___ le bureau et le mur.",
       "options": [
-       "entre",
        "sur",
+       "entre",
        "dans"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Mon sac est ___ la chaise. Regarde derrière !",
       "options": [
-       "derrière",
+       "sur",
        "au-dessus",
-       "sur"
+       "derrière"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Les clés sont ___ le tiroir, dedans.",
       "options": [
-       "dans",
        "sur",
+       "dans",
        "à côté de"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -195,11 +195,11 @@
      {
       "sentence": "Le poisson est ___ l'eau.",
       "options": [
-       "dans",
+       "au-dessus",
        "sur",
-       "au-dessus"
+       "dans"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Le contraire d'ici est …",
@@ -213,20 +213,20 @@
      {
       "sentence": "B est ___ A et C dans l'alphabet.",
       "options": [
-       "entre",
        "derrière",
+       "entre",
        "sous"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Le soleil est ___ les nuages aujourd'hui.",
       "options": [
-       "derrière",
+       "à côté de",
        "devant",
-       "à côté de"
+       "derrière"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

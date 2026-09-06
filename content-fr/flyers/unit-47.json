@@ -90,20 +90,20 @@
      {
       "sentence": "S'il ___ demain, on restera à la maison.",
       "options": [
-       "pleut",
        "pleuvra",
+       "pleut",
        "pleuvait"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Si tu étudies, tu ___ le test.",
       "options": [
-       "réussiras",
+       "as réussi",
        "passer",
-       "as réussi"
+       "réussiras"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "On annulera le match ___ le terrain est mouillé.",
@@ -117,11 +117,11 @@
      {
       "sentence": "Si elle ___ son parapluie, elle ne sera pas mouillée.",
       "options": [
-       "apporte",
        "apportera",
+       "apporte",
        "a apporté"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "___ je vois Kili, je lui donnerai ton message.",
@@ -186,11 +186,11 @@
      {
       "sentence": "Si le film est ennuyeux, on partira jouer au football …",
       "options": [
-       "à la place",
+       "encore",
        "dedans",
-       "encore"
+       "à la place"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "S'il fait froid, on mangera ___ la maison, pas dans le jardin.",
@@ -204,29 +204,29 @@
      {
       "sentence": "Arrêter complètement un plan, c'est l'___.",
       "options": [
-       "annuler",
+       "creuser",
        "apporter",
-       "creuser"
+       "annuler"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Si tu es en retard, on ne t'___ pas. Règle de l'équipe !",
       "options": [
-       "encore",
        "jamais",
+       "encore",
        "encore"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "S'il te plaît, ___ tes affaires de piscine s'il fait beau.",
       "options": [
-       "apporter",
+       "perdre",
        "annuler",
-       "perdre"
+       "apporter"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

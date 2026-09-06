@@ -91,11 +91,11 @@
      {
       "q": "According to Nadia, communication is …",
       "options": [
-       "less reliable than we believe",
        "always perfectly clear",
+       "less reliable than we believe",
        "completely unimportant"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "q": "If Mateo 'admitted forgetting', we picture …",
@@ -109,11 +109,11 @@
      {
       "q": "What had Liam actually seen between Sofía and the teacher?",
       "options": [
-       "a lively debate",
+       "complete silence",
        "a serious fight",
-       "complete silence"
+       "a lively debate"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "q": "Verb + object + infinitive patterns encode …",
@@ -127,11 +127,11 @@
      {
       "q": "Before reporting an expert for the project, we should ask whether our verbs are …",
       "options": [
-       "faithful or merely convenient",
        "long enough",
+       "faithful or merely convenient",
        "in the past tense"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -177,20 +177,20 @@
       {
        "sentence": "Nadia advised Mateo ___ the letter.",
        "options": [
-        "to rewrite",
+        "rewrite",
         "rewriting",
-        "rewrite"
+        "to rewrite"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "Liam admitted ___ the vase.",
        "options": [
-        "breaking",
+        "break",
         "to break",
-        "break"
+        "breaking"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "We heard someone ___ in the next room.",
@@ -204,20 +204,20 @@
       {
        "sentence": "The sign warns visitors ___ the animals.",
        "options": [
-        "not to feed",
         "not feeding",
+        "not to feed",
         "to not feeding"
        ],
-       "answer": 0
+       "answer": 1
       },
       {
        "sentence": "She suggested ___ a different approach.",
        "options": [
-        "trying",
         "to try",
+        "trying",
         "try"
        ],
-       "answer": 0
+       "answer": 1
       }
      ]
     }

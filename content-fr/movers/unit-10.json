@@ -163,20 +163,20 @@
      {
       "sentence": "Le lait vient de la …",
       "options": [
-       "vache",
        "poule",
+       "vache",
        "canard"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Un mouton ___ voler.",
       "options": [
        "pouvoir",
-       "ne peut pas",
-       "ne... pas"
+       "ne... pas",
+       "ne peut pas"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Un cheval ___ courir très vite.",
@@ -190,11 +190,11 @@
      {
       "sentence": "Les vaches mangent de l'herbe dans le …",
       "options": [
-       "champ",
        "cuisine",
+       "champ",
        "armoire"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "L'animal aux longues oreilles qui porte des sacs est l'…",

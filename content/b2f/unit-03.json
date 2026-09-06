@@ -91,11 +91,11 @@
      {
       "q": "What did the class do for the project?",
       "options": [
-       "interviewed local workers",
        "wrote a novel",
+       "interviewed local workers",
        "built a workshop"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "q": "What grows from the verb 'employ'?",
@@ -109,11 +109,11 @@
      {
       "q": "Who interviewed a nurse?",
       "options": [
-       "Sofía",
+       "Liam",
        "Mateo",
-       "Liam"
+       "Sofía"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "q": "What did the electrician value most?",
@@ -127,11 +127,11 @@
      {
       "q": "According to Liam, learning one root is like …",
       "options": [
-       "getting several words for free",
        "wasting your time",
+       "getting several words for free",
        "forgetting old words"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -177,20 +177,20 @@
       {
        "sentence": "The job gives her a real sense of ___. (RESPONSIBLE)",
        "options": [
-        "responsibility",
+        "responsibly",
         "responsible",
-        "responsibly"
+        "responsibility"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "He solved the problem very ___. (CREATIVE)",
        "options": [
-        "creatively",
+        "creativity",
         "creative",
-        "creativity"
+        "creatively"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "Sadly, ___ rose again this year. (EMPLOY)",
@@ -204,20 +204,20 @@
       {
        "sentence": "A good electrician must be ___. (RELY)",
        "options": [
-        "reliable",
         "reliably",
+        "reliable",
         "reliability"
        ],
-       "answer": 0
+       "answer": 1
       },
       {
        "sentence": "We admired her ___ and skill. (EXPERT)",
        "options": [
-        "expertise",
         "expertly",
+        "expertise",
         "experted"
        ],
-       "answer": 0
+       "answer": 1
       }
      ]
     }

@@ -173,38 +173,38 @@
      {
       "sentence": "\"___ a strange planet!\"",
       "options": [
-       "What",
+       "Which",
        "How",
-       "Which"
+       "What"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "An ___ travels in a spaceship.",
       "options": [
-       "alien",
        "astronaut",
+       "alien",
        "engineer"
-      ],
-      "answer": 1
-     },
-     {
-      "sentence": "The Earth is ___, like a ball.",
-      "options": [
-       "round",
-       "square",
-       "flat"
       ],
       "answer": 0
      },
      {
-      "sentence": "At night the sky is full of …",
+      "sentence": "The Earth is ___, like a ball.",
       "options": [
-       "rockets",
-       "stars",
-       "floods"
+       "square",
+       "round",
+       "flat"
       ],
       "answer": 1
+     },
+     {
+      "sentence": "At night the sky is full of …",
+      "options": [
+       "stars",
+       "rockets",
+       "floods"
+      ],
+      "answer": 0
      }
     ]
    }

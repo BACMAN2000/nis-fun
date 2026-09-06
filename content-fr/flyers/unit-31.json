@@ -110,28 +110,28 @@
       "sentence": "Qui était la personne la plus gentille ?",
       "options": [
        "le médecin",
-       "Mademoiselle Elena",
-       "Diego"
+       "Diego",
+       "Mademoiselle Elena"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Qu'est-ce que Maya a apporté ?",
       "options": [
-       "une carte immense",
+       "une bande dessinée scientifique",
        "fleurs",
-       "une bande dessinée scientifique"
+       "une carte immense"
       ],
-      "answer": 2
+      "answer": 0
      },
      {
       "sentence": "Combien de signatures y avait-il sur le plâtre ?",
       "options": [
        "quatre",
-       "quatorze",
-       "quarante"
+       "quarante",
+       "quatorze"
       ],
-      "answer": 1
+      "answer": 2
      }
     ]
    }
@@ -205,11 +205,11 @@
      {
       "sentence": "Les amis envoient une ___ de bon rétablissement aux malades.",
       "options": [
-       "carte",
+       "rideau",
        "tapis",
-       "rideau"
+       "carte"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Je suis content que tu ailles ___ !",
@@ -223,11 +223,11 @@
      {
       "sentence": "Les gens apportent souvent des ___ à l'hôpital.",
       "options": [
-       "fleurs",
        "tempêtes",
+       "fleurs",
        "quais"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

@@ -100,20 +100,20 @@
      {
       "q": "How does money first change Pip?",
       "options": [
-       "he becomes proud and forgets kind people",
+       "he leaves school at once",
        "he becomes very generous",
-       "he leaves school at once"
+       "he becomes proud and forgets kind people"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "q": "What did Mateo say in the discussion?",
       "options": [
-       "if Pip hadn't become rich so easily, he might have appreciated it more",
        "the book was far too boring",
+       "if Pip hadn't become rich so easily, he might have appreciated it more",
        "Pip was always perfectly kind"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "q": "What does Dickens make readers ask?",
@@ -127,11 +127,11 @@
      {
       "q": "What does Pip learn by the end?",
       "options": [
-       "kindness, honesty and gratitude matter most",
        "money is the only thing that matters",
+       "kindness, honesty and gratitude matter most",
        "friends are a waste of time"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -173,20 +173,20 @@
       {
        "sentence": "If Pip had been wiser, he ___ his friends.",
        "options": [
-        "wouldn't have hurt",
+        "doesn't hurt",
         "won't hurt",
-        "doesn't hurt"
+        "wouldn't have hurt"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "If I ___ earlier, I would have caught the bus.",
        "options": [
-        "had left",
+        "would leave",
         "left",
-        "would leave"
+        "had left"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "She would have passed if she ___ harder.",
@@ -200,20 +200,20 @@
       {
        "sentence": "We ___ won if we had trained more.",
        "options": [
-        "might have",
         "might",
+        "might have",
         "will"
        ],
-       "answer": 0
+       "answer": 1
       },
       {
        "sentence": "If they had listened, this ___ happened.",
        "options": [
-        "wouldn't have",
         "won't have",
+        "wouldn't have",
         "didn't"
        ],
-       "answer": 0
+       "answer": 1
       }
      ]
     }
@@ -299,11 +299,11 @@
      {
       "sentence": "If we had left earlier, we ___ the train.",
       "options": [
-       "would have caught",
+       "catch",
        "would catch",
-       "catch"
+       "would have caught"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "She ___ have passed if she had revised.",
@@ -317,20 +317,20 @@
      {
       "sentence": "If I ___ your number, I would have called.",
       "options": [
-       "had had",
+       "have",
        "had",
-       "have"
+       "had had"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "They wouldn't have got lost if they ___ a map.",
       "options": [
-       "had used",
        "used",
+       "had used",
        "would use"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "If Pip had been humbler, he ___ happier.",

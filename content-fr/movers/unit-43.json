@@ -90,20 +90,20 @@
      {
       "sentence": "___ à la porte du jardin.",
       "options": [
-       "Commence",
        "Arrête",
+       "Commence",
        "Dors"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Fais dix ___ vers le grand arbre.",
       "options": [
-       "marches",
+       "étoiles",
        "arrêts",
-       "étoiles"
+       "marches"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "___ à droite aux pots de fleurs.",
@@ -117,11 +117,11 @@
      {
       "sentence": "Va ___ jusqu'au petit pont.",
       "options": [
-       "tout droit",
+       "étrange",
        "fort",
-       "étrange"
+       "tout droit"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Le ___ est sous le seau jaune !",
@@ -186,11 +186,11 @@
      {
       "sentence": "Le contraire de gauche est …",
       "options": [
-       "droite",
        "tout droit",
+       "droite",
        "en haut"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Le dessin qui montre le chemin est une …",
@@ -204,29 +204,29 @@
      {
       "sentence": "Le jeu commence au point de ___.",
       "options": [
-       "commencer",
        "finir",
+       "commencer",
        "milieu"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Marcher sans tourner = aller …",
       "options": [
-       "tout droit",
+       "dos",
        "de côté",
-       "dos"
+       "tout droit"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Le dernier point d'une course est l'…",
       "options": [
-       "finir",
+       "coin",
        "commencer",
-       "coin"
+       "finir"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

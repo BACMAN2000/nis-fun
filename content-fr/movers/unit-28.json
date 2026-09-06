@@ -90,11 +90,11 @@
      {
       "sentence": "Hier on ___ au parc après l'école.",
       "options": [
-       "est allé",
        "aller",
+       "est allé",
        "j'ai allé"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Luna ___ une vieille clé dans l'herbe !",
@@ -108,20 +108,20 @@
      {
       "sentence": "On ___ un plan au dos du porte-clés.",
       "options": [
-       "a vu",
+       "a vi",
        "voir",
-       "a vi"
+       "a vu"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Erik ___ sa lampe et on a suivi le plan.",
       "options": [
-       "a pris",
+       "a prendu",
        "prendre",
-       "a prendu"
+       "a pris"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "L'aventure ___ une fin heureuse !",
@@ -186,29 +186,29 @@
      {
       "sentence": "Elle ___ à ma fête samedi dernier.",
       "options": [
-       "est venu",
        "venir",
+       "est venu",
        "a venu"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "J'___ mes devoirs avant le dîner.",
       "options": [
-       "a fait",
        "ai faisu",
+       "a fait",
        "fabriquer"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "« Merci ! » ___-il.",
       "options": [
-       "a dit",
+       "a disé",
        "dire",
-       "a disé"
+       "a dit"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "On ___ un bel arc-en-ciel après la pluie.",

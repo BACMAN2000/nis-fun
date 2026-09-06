@@ -159,11 +159,11 @@
      {
       "sentence": "Le lait est …",
       "options": [
-       "blanc",
+       "vert",
        "noire",
-       "vert"
+       "blanc"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Une banane est …",
@@ -177,11 +177,11 @@
      {
       "sentence": "Le ciel de la nuit est …",
       "options": [
-       "noire",
        "rose",
+       "noire",
        "orange"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "« De quelle ___ est la grenouille ? » — « Verte ! »",
@@ -195,11 +195,11 @@
      {
       "sentence": "Le rouge et le jaune font de l'…",
       "options": [
-       "orange",
        "bleu",
+       "orange",
        "noire"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

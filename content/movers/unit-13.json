@@ -91,38 +91,38 @@
      {
       "sentence": "You ___ do your homework every day.",
       "options": [
-       "must",
+       "aren't",
        "mustn't",
-       "aren't"
+       "must"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "You ___ eat in the library.",
       "options": [
-       "must",
        "mustn't",
+       "must",
        "don't"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "We ___ be quiet during the exam.",
       "options": [
-       "must",
        "mustn't",
+       "must",
        "can't be"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "You ___ forget your sports clothes on Friday.",
       "options": [
        "must",
-       "mustn't",
-       "aren't"
+       "aren't",
+       "mustn't"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Everyone ___ respect the others.",
@@ -187,29 +187,29 @@
      {
       "sentence": "Before speaking, ___ your hand.",
       "options": [
-       "raise",
        "wash",
+       "raise",
        "close"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The opposite of noisy is …",
       "options": [
-       "quiet",
        "fast",
+       "quiet",
        "dirty"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "To ___ is to give part of yours to others.",
       "options": [
-       "share",
+       "run",
        "shout",
-       "run"
+       "share"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Keep your desk ___ and clean.",
@@ -223,11 +223,11 @@
      {
       "sentence": "A ___ tells you what you must or mustn't do.",
       "options": [
-       "rule",
        "ruler",
+       "rule",
        "rubber"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

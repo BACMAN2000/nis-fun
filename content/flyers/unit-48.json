@@ -118,20 +118,20 @@
      {
       "sentence": "The girl ___ won the race is in my class!",
       "options": [
-       "who",
        "which",
+       "who",
        "where"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "That's the café ___ we had breakfast.",
       "options": [
-       "who",
+       "where",
        "which",
-       "where"
+       "who"
       ],
-      "answer": 2
+      "answer": 0
      }
     ]
    }
@@ -187,38 +187,38 @@
      {
       "sentence": "A question game with clues is a …",
       "options": [
-       "riddle",
+       "chore",
        "queue",
-       "chore"
+       "riddle"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "A dentist is a person ___ looks after teeth.",
-      "options": [
-       "who",
-       "which",
-       "where"
-      ],
-      "answer": 0
-     },
-     {
-      "sentence": "An oven is a machine ___ cooks food.",
       "options": [
        "where",
        "which",
        "who"
       ],
-      "answer": 1
+      "answer": 2
+     },
+     {
+      "sentence": "An oven is a machine ___ cooks food.",
+      "options": [
+       "which",
+       "where",
+       "who"
+      ],
+      "answer": 0
      },
      {
       "sentence": "A kitchen is the room ___ we cook.",
       "options": [
        "which",
-       "who",
-       "where"
+       "where",
+       "who"
       ],
-      "answer": 2
+      "answer": 1
      },
      {
       "sentence": "\"What does this word ___?\" — \"Look in the dictionary!\"",

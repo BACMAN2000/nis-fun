@@ -160,11 +160,11 @@
      {
       "sentence": "You write in your …",
       "options": [
-       "book",
        "chair",
+       "book",
        "bag"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "You sit on a …",
@@ -178,29 +178,29 @@
      {
       "sentence": "The teacher writes on the …",
       "options": [
-       "board",
+       "eraser",
        "bag",
-       "eraser"
+       "board"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "You colour with …",
       "options": [
-       "crayons",
+       "books",
        "chairs",
-       "books"
+       "crayons"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "This is ___ pencil.",
       "options": [
-       "my",
        "I",
+       "my",
        "me"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -281,29 +281,29 @@
       {
        "sentence": "Astrid has an apple to ___.",
        "options": [
-        "eats",
         "eat",
+        "eats",
         "eating"
        ],
-       "answer": 1
+       "answer": 0
       },
       {
        "sentence": "We have a song to ___.",
        "options": [
-        "sing",
+        "singing",
         "sings",
-        "singing"
+        "sing"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "Pip has a fish ___ eat.",
        "options": [
         "at",
-        "for",
-        "to"
+        "to",
+        "for"
        ],
-       "answer": 2
+       "answer": 1
       },
       {
        "sentence": "She ___ a nice book to read.",

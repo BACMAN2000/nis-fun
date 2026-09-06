@@ -174,10 +174,10 @@
       "sentence": "A very small river is a …",
       "options": [
        "waterfall",
-       "stream",
-       "flood"
+       "flood",
+       "stream"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "There ___ two tents next to the trees.",
@@ -191,11 +191,11 @@
      {
       "sentence": "Bats sleep in dark …",
       "options": [
-       "caves",
+       "paths",
        "streams",
-       "paths"
+       "caves"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "We walked along the ___ through the wood.",

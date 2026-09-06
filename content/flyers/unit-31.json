@@ -111,28 +111,28 @@
       "sentence": "Who was the kindest person?",
       "options": [
        "the doctor",
-       "Miss Elena",
-       "Diego"
+       "Diego",
+       "Miss Elena"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "What did Maya bring?",
       "options": [
-       "a huge card",
+       "a science comic",
        "flowers",
-       "a science comic"
+       "a huge card"
       ],
-      "answer": 2
+      "answer": 0
      },
      {
       "sentence": "How many signatures were on the cast?",
       "options": [
        "four",
-       "fourteen",
-       "forty"
+       "forty",
+       "fourteen"
       ],
-      "answer": 1
+      "answer": 2
      }
     ]
    }
@@ -206,11 +206,11 @@
      {
       "sentence": "Friends send a get-well ___ to ill people.",
       "options": [
-       "card",
+       "curtain",
        "carpet",
-       "curtain"
+       "card"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "I'm happy you are getting ___!",
@@ -224,11 +224,11 @@
      {
       "sentence": "People often bring ___ to the hospital.",
       "options": [
-       "flowers",
        "storms",
+       "flowers",
        "platforms"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

@@ -159,11 +159,11 @@
      {
       "sentence": "J'___ la glace. C'est ma préférée !",
       "options": [
-       "aimer",
+       "suis",
        "aime",
-       "suis"
+       "aimer"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Il ___ aime pas le poisson.",
@@ -177,11 +177,11 @@
      {
       "sentence": "Le jour de mon anniversaire je mange du …",
       "options": [
-       "gâteau",
        "soupe",
+       "gâteau",
        "riz"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "La pizza a du fromage et de la ___ dessus.",
@@ -195,11 +195,11 @@
      {
       "sentence": "« Tu aimes le pain ? » — « Oui, j'___ ! »",
       "options": [
-       "faire",
        "suis",
+       "faire",
        "aime fais"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

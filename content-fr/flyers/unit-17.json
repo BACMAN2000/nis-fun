@@ -163,47 +163,47 @@
      {
       "sentence": "Mon anniversaire est ___ juillet.",
       "options": [
-       "sur",
        "dans",
+       "sur",
        "à"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Le concert est ___ 15 mai.",
       "options": [
        "dans",
-       "à",
-       "sur"
+       "sur",
+       "à"
       ],
-      "answer": 2
+      "answer": 1
      },
      {
       "sentence": "Cent ans, c'est un …",
       "options": [
        "quinzaine",
-       "siècle",
-       "saison"
-      ],
-      "answer": 1
-     },
-     {
-      "sentence": "Le mois après février est …",
-      "options": [
-       "janvier",
-       "avril",
-       "mars"
+       "saison",
+       "siècle"
       ],
       "answer": 2
      },
      {
-      "sentence": "En ___ les feuilles tombent des arbres.",
+      "sentence": "Le mois après février est …",
       "options": [
-       "automne",
-       "printemps",
-       "été"
+       "mars",
+       "avril",
+       "janvier"
       ],
       "answer": 0
+     },
+     {
+      "sentence": "En ___ les feuilles tombent des arbres.",
+      "options": [
+       "été",
+       "printemps",
+       "automne"
+      ],
+      "answer": 2
      }
     ]
    }

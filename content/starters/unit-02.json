@@ -173,29 +173,29 @@
      {
       "sentence": "Your mum's mother is your …",
       "options": [
-       "sister",
        "grandma",
+       "sister",
        "baby"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "A boy in your family is your …",
       "options": [
-       "brother",
+       "mother",
        "sister",
-       "mother"
+       "brother"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The smallest person in a family is the …",
       "options": [
        "father",
-       "grandpa",
-       "baby"
+       "baby",
+       "grandpa"
       ],
-      "answer": 2
+      "answer": 1
      },
      {
       "sentence": "\"Dad\" is a short word for …",

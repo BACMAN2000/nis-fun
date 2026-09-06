@@ -90,29 +90,29 @@
      {
       "sentence": "« Est-ce que Maya porte des lunettes ? »",
       "options": [
-       "Oui, elle en porte.",
        "Oui, elle l'est.",
+       "Oui, elle en porte.",
        "Oui, elle en a."
-      ],
-      "answer": 0
-     },
-     {
-      "sentence": "« Tu es prêt ? »",
-      "options": [
-       "Oui.",
-       "Oui, je le suis.",
-       "Oui, je peux."
       ],
       "answer": 1
      },
      {
-      "sentence": "« Est-ce qu'Oliver a une guitare ? »",
+      "sentence": "« Tu es prêt ? »",
       "options": [
-       "Oui, il en a une.",
-       "Oui, il le fait.",
-       "Oui, il l'est."
+       "Oui, je le suis.",
+       "Oui.",
+       "Oui, je peux."
       ],
       "answer": 0
+     },
+     {
+      "sentence": "« Est-ce qu'Oliver a une guitare ? »",
+      "options": [
+       "Oui, il l'est.",
+       "Oui, il le fait.",
+       "Oui, il en a une."
+      ],
+      "answer": 2
      },
      {
       "sentence": "« Tu as vu le film ? »",
@@ -126,11 +126,11 @@
      {
       "sentence": "« Les manchots savent voler ? »",
       "options": [
-       "Non, ils ne savent pas.",
+       "Non, ils ne le sont pas.",
        "Non, ils n'en font pas.",
-       "Non, ils ne le sont pas."
+       "Non, ils ne savent pas."
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -186,11 +186,11 @@
      {
       "sentence": "Si ta réponse est bonne, elle est …",
       "options": [
-       "correct",
        "faux",
+       "correct",
        "rapide"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Dans un quiz tu gagnes un ___ par bonne réponse.",
@@ -204,20 +204,20 @@
      {
       "sentence": "« Cette place est libre ? » — « Oui, elle l'___. »",
       "options": [
-       "est",
        "fait",
+       "est",
        "a"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "« Les condors mangent des biscuits ? » — « Le nôtre, ___ ! »",
       "options": [
-       "fait",
+       "a",
        "est",
-       "a"
+       "fait"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "La personne qui a le plus de points est le …",

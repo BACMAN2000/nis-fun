@@ -91,20 +91,20 @@
      {
       "sentence": "The curtain ___ opening now!",
       "options": [
-       "is",
        "are",
+       "is",
        "am"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The first group ___ dancing.",
       "options": [
-       "is",
+       "be",
        "are",
-       "be"
+       "is"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Valentina ___ a princess in the play.",
@@ -127,11 +127,11 @@
      {
       "sentence": "What ___ they singing now?",
       "options": [
-       "are",
        "is",
+       "are",
        "do"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -187,20 +187,20 @@
      {
       "sentence": "Actors perform on the …",
       "options": [
-       "stage",
+       "shelf",
        "stairs",
-       "shelf"
+       "stage"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "A pirate ___ is perfect for the show.",
       "options": [
-       "costume",
+       "cushion",
        "curtain",
-       "cushion"
+       "costume"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "At the end, everybody …",
@@ -214,11 +214,11 @@
      {
       "sentence": "Look! The baby ___ dancing to the music!",
       "options": [
-       "is",
        "are",
+       "is",
        "do"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The people watching the show are the …",

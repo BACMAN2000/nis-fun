@@ -163,20 +163,20 @@
      {
       "sentence": "L'année a ___ saisons.",
       "options": [
-       "quatre",
+       "douze",
        "sept",
-       "douze"
+       "quatre"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Les feuilles tombent en …",
       "options": [
-       "automne",
        "printemps",
+       "automne",
        "été"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Un ___ a sept couleurs.",
@@ -199,11 +199,11 @@
      {
       "sentence": "« Quel temps fait-il ? » — « ___ nuageux. »",
       "options": [
-       "C'est",
        "Il est",
+       "C'est",
        "Je suis"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

@@ -109,20 +109,20 @@
      {
       "q": "What has been planted behind the building?",
       "options": [
-       "a small garden",
+       "nothing at all",
        "a large tree",
-       "nothing at all"
+       "a small garden"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "q": "Who has given a generous donation?",
       "options": [
-       "a local carpenter",
        "the government",
+       "a local carpenter",
        "a famous singer"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "q": "What has been organised for December?",
@@ -186,38 +186,38 @@
       {
        "sentence": "New tools ___ been bought with our budget.",
        "options": [
-        "has",
         "have",
+        "has",
         "was"
        ],
-       "answer": 1
+       "answer": 0
       },
       {
        "sentence": "A garden has been ___ behind the building.",
        "options": [
-        "planted",
         "planting",
+        "planted",
         "plant"
        ],
-       "answer": 0
+       "answer": 1
       },
       {
        "sentence": "The safety posters have ___ printed already.",
        "options": [
-        "been",
+        "be",
         "being",
-        "be"
+        "been"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "Our deadline ___ been met without stress.",
        "options": [
-        "has",
         "have",
+        "has",
         "are"
        ],
-       "answer": 0
+       "answer": 1
       }
      ]
     }
@@ -303,38 +303,38 @@
      {
       "sentence": "The whole project ___ been finished on time.",
       "options": [
-       "has",
+       "is",
        "have",
-       "is"
+       "has"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "All the tickets ___ been sold for the exhibition.",
       "options": [
-       "has",
        "have",
+       "has",
        "was"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "The report has ___ written by the whole team.",
       "options": [
-       "been",
+       "be",
        "being",
-       "be"
+       "been"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "New chairs have been ___ in the hall.",
       "options": [
-       "installed",
        "installing",
+       "installed",
        "install"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "A prize ___ been given to the best group.",

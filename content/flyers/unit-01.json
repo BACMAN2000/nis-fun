@@ -183,46 +183,46 @@
       "sentence": "You wear this soft, long thing round your neck when the weather is cold and windy.",
       "options": [
        "a belt",
-       "a scarf",
-       "a pocket"
+       "a pocket",
+       "a scarf"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "People carry their clothes and other things in this when they travel to another city.",
       "options": [
-       "a suitcase",
        "a uniform",
+       "a suitcase",
        "a ring"
-      ],
-      "answer": 0
-     },
-     {
-      "sentence": "You can wear this round thing on your head on a hot and sunny day at the beach.",
-      "options": [
-       "gloves",
-       "a sunhat",
-       "an umbrella"
       ],
       "answer": 1
      },
      {
-      "sentence": "You put these on your feet before your shoes, and they keep your feet warm in winter.",
+      "sentence": "You can wear this round thing on your head on a hot and sunny day at the beach.",
       "options": [
-       "socks",
-       "belts",
-       "scarves"
+       "a sunhat",
+       "gloves",
+       "an umbrella"
       ],
       "answer": 0
      },
      {
+      "sentence": "You put these on your feet before your shoes, and they keep your feet warm in winter.",
+      "options": [
+       "belts",
+       "socks",
+       "scarves"
+      ],
+      "answer": 1
+     },
+     {
       "sentence": "Some people wear this small, pretty thing on a finger. It is sometimes made of gold.",
       "options": [
-       "a pocket",
+       "a ring",
        "a sock",
-       "a ring"
+       "a pocket"
       ],
-      "answer": 2
+      "answer": 0
      }
     ]
    }

@@ -110,28 +110,28 @@
       "sentence": "She was excited ___ it was her birthday.",
       "options": [
        "so",
-       "because",
-       "and"
+       "and",
+       "because"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "The film was boring, ___ we left early.",
       "options": [
        "because",
-       "so",
-       "if"
+       "if",
+       "so"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "He didn't sleep well, ___ he is tired today.",
       "options": [
-       "because",
+       "so",
        "but",
-       "so"
+       "because"
       ],
-      "answer": 2
+      "answer": 0
      }
     ]
    }
@@ -187,11 +187,11 @@
      {
       "sentence": "When you need water, you are …",
       "options": [
-       "thirsty",
        "bored",
+       "thirsty",
        "tired"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "When nothing is interesting, you are …",
@@ -205,11 +205,11 @@
      {
       "sentence": "Before a birthday party, children are …",
       "options": [
-       "excited",
+       "afraid",
        "tired",
-       "afraid"
+       "excited"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "He was ___ of the big dog, so he crossed the street.",
@@ -223,11 +223,11 @@
      {
       "sentence": "The ___ why I'm late is the traffic.",
       "options": [
-       "news",
        "reason",
+       "news",
        "prize"
       ],
-      "answer": 1
+      "answer": 0
      }
     ]
    }

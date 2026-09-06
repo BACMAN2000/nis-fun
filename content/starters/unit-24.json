@@ -100,38 +100,38 @@
      {
       "sentence": "___ your hands three times!",
       "options": [
-       "Clap",
        "Wash only",
+       "Clap",
        "Close"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "___ at the board, please.",
       "options": [
-       "Look",
+       "Sing",
        "Jump",
-       "Sing"
+       "Look"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "___ down on your chair.",
       "options": [
-       "Sit",
        "Stand",
+       "Sit",
        "Run"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Red light! ___!",
       "options": [
-       "Stop",
+       "Dance",
        "Go",
-       "Dance"
+       "Stop"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -196,11 +196,11 @@
      {
       "sentence": "The opposite of go is …",
       "options": [
-       "stop",
        "run",
+       "stop",
        "walk"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "You ___ with your finger to show something.",
@@ -214,20 +214,20 @@
      {
       "sentence": "Slow feet ___, fast feet run.",
       "options": [
-       "walk",
+       "swim",
        "fly",
-       "swim"
+       "walk"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "\"___ the table with one hand!\"",
       "options": [
-       "Touch",
        "Eat",
+       "Touch",
        "Listen"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

@@ -91,20 +91,20 @@
      {
       "sentence": "\"What's the matter?\"",
       "options": [
-       "I've got a headache.",
+       "Yes, please.",
        "It's half past two.",
-       "Yes, please."
+       "I've got a headache."
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "\"How do you feel today?\"",
       "options": [
-       "By bus.",
        "Much better, thanks.",
+       "By bus.",
        "It's made of wood."
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "\"Should I go to school with a temperature?\"",
@@ -127,11 +127,11 @@
      {
       "sentence": "\"My tooth hurts!\"",
       "options": [
-       "You should see the dentist.",
        "It's too loud.",
+       "You should see the dentist.",
        "He's a pilot."
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -188,46 +188,46 @@
       "sentence": "When your head hurts, you have a …",
       "options": [
        "cough",
-       "headache",
-       "cold"
+       "cold",
+       "headache"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "You buy medicine at the …",
       "options": [
-       "chemist's",
        "stadium",
+       "chemist's",
        "funfair"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "If you are very hot and ill, you have a …",
       "options": [
-       "timetable",
        "temperature",
+       "timetable",
        "toothache"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "You ___ eat lots of sweets before bed.",
       "options": [
        "should",
-       "shouldn't",
-       "have"
+       "have",
+       "shouldn't"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "A person who helps you when you are ill is a …",
       "options": [
-       "driver",
+       "doctor",
        "singer",
-       "doctor"
+       "driver"
       ],
-      "answer": 2
+      "answer": 0
      }
     ]
    }

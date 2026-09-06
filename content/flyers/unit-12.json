@@ -91,29 +91,29 @@
      {
       "sentence": "In 2050, people ___ travel in flying cars.",
       "options": [
-       "will",
+       "wasn't",
        "won't",
-       "wasn't"
+       "will"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Don't worry, the test ___ be difficult.",
       "options": [
-       "will",
        "won't",
+       "will",
        "isn't"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "___ you come to my concert on Friday?",
       "options": [
-       "Will",
        "Won't",
+       "Will",
        "Did"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "I think robots ___ do our homework one day!",
@@ -188,10 +188,10 @@
       "sentence": "A person who travels to space is an …",
       "options": [
        "artist",
-       "astronaut",
-       "engineer"
+       "engineer",
+       "astronaut"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "After school, some people study at …",
@@ -205,29 +205,29 @@
      {
       "sentence": "Everybody knows a ___ person.",
       "options": [
-       "famous",
        "empty",
+       "famous",
        "cloudy"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "\"What will you be when you ___ up?\"",
       "options": [
-       "grow",
+       "wash",
        "cook",
-       "wash"
+       "grow"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "My ___ is to see the whales in the ocean.",
       "options": [
-       "dream",
+       "timetable",
        "fridge",
-       "timetable"
+       "dream"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

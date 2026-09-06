@@ -91,11 +91,11 @@
      {
       "sentence": "At the beach the sun is very …",
       "options": [
-       "hot",
+       "green",
        "cold",
-       "green"
+       "hot"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "We build a sand …",
@@ -109,29 +109,29 @@
      {
       "sentence": "I ___ in the sea with my dad.",
       "options": [
-       "swim",
        "sleep",
+       "swim",
        "write"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Put on your ___ — the sun is strong!",
       "options": [
-       "hat",
+       "gloves",
        "boots",
-       "gloves"
+       "hat"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Ice cream ___ in the sun. Eat it fast!",
       "options": [
-       "melts",
        "grows",
+       "melts",
        "sings"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -205,29 +205,29 @@
      {
       "sentence": "The ___ is big, blue and salty.",
       "options": [
-       "sea",
+       "glass",
        "pool",
-       "glass"
+       "sea"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "On hot days we eat …",
       "options": [
-       "ice cream",
        "hot soup",
+       "ice cream",
        "toast"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The ___ shines in the sky.",
       "options": [
-       "sun",
        "sand",
+       "sun",
        "shell"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

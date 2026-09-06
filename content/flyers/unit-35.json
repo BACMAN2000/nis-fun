@@ -165,10 +165,10 @@
       "sentence": "When you are happy, you …",
       "options": [
        "cry",
-       "smile",
-       "shout"
+       "shout",
+       "smile"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "When something is very funny, you …",
@@ -191,11 +191,11 @@
      {
       "sentence": "A warm ___ can make a sad friend feel better.",
       "options": [
-       "hug",
        "storm",
+       "hug",
        "stamp"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "___ I'm worried, I talk to my mum.",

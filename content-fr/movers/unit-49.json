@@ -90,11 +90,11 @@
      {
       "sentence": "Tu entends « colorie le petit poisson en vert ». Tu…",
       "options": [
-       "colories le petit poisson en vert",
        "colories tous les poissons",
+       "colories le petit poisson en vert",
        "attends une autre consigne"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Tu ne comprends pas un mot de la question. Tu…",
@@ -108,11 +108,11 @@
      {
       "sentence": "Tu finis en avance. Tu…",
       "options": [
-       "revérifies tes réponses",
+       "dessines des dinosaures",
        "dormir",
-       "dessines des dinosaures"
+       "revérifies tes réponses"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "L'enregistrement commence. Tu…",
@@ -126,11 +126,11 @@
      {
       "sentence": "Avant l'examen tu devrais…",
       "options": [
-       "bien dormir et prendre un petit-déjeuner",
+       "boire cinq colas",
        "étudier toute la nuit",
-       "boire cinq colas"
+       "bien dormir et prendre un petit-déjeuner"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -186,11 +186,11 @@
      {
       "sentence": "Chaque partie de l'écoute commence par un …",
       "options": [
-       "exemple",
        "examen",
+       "exemple",
        "sortie"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Tu entends chaque enregistrement …",
@@ -204,20 +204,20 @@
      {
       "sentence": "Dans une partie tu ___ des images.",
       "options": [
-       "couleur",
        "couper",
+       "couleur",
        "cuisinier"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "À la fin, ___ tes réponses.",
       "options": [
-       "vérifier",
+       "oublier",
        "change toutes",
-       "oublier"
+       "vérifier"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Nerveux ? Respire et reste …",

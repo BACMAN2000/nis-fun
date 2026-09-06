@@ -91,20 +91,20 @@
      {
       "sentence": "I want food. I am …",
       "options": [
-       "hungry",
+       "clean",
        "happy",
-       "clean"
+       "hungry"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "I want water. I am …",
       "options": [
-       "thirsty",
        "tired",
+       "thirsty",
        "tall"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "It's my birthday! I am …",
@@ -127,11 +127,11 @@
      {
       "sentence": "\"___ you okay?\" — \"Yes, I'm fine!\"",
       "options": [
-       "Are",
        "Is",
+       "Are",
        "Am"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -187,29 +187,29 @@
      {
       "sentence": "When you are happy, you …",
       "options": [
-       "smile",
+       "sleep",
        "cry",
-       "sleep"
+       "smile"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "When you are very sad, you can …",
       "options": [
-       "cry",
+       "jump",
        "laugh",
-       "jump"
+       "cry"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "After playing all day, you are …",
       "options": [
-       "tired",
        "new",
+       "tired",
        "long"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "\"How are you?\" — \"I'm ___, thank you!\"",

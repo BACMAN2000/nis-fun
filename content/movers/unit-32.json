@@ -91,20 +91,20 @@
      {
       "sentence": "Half of one hundred is …",
       "options": [
-       "fifty",
        "forty",
+       "fifty",
        "sixty"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Twenty plus ten is …",
       "options": [
-       "thirty",
+       "fifty",
        "forty",
-       "fifty"
+       "thirty"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Grandpa is ___ years old: 7-0.",
@@ -118,11 +118,11 @@
      {
       "sentence": "There are ___ minutes in one hour.",
       "options": [
-       "sixty",
+       "thirty",
        "seventy",
-       "thirty"
+       "sixty"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "___ many stairs are there? — Forty-two!",
@@ -187,20 +187,20 @@
      {
       "sentence": "10, 20, 30, ___ …",
       "options": [
-       "forty",
        "fourteen",
+       "forty",
        "four"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "One century = one ___ years.",
       "options": [
-       "hundred",
        "thousand",
+       "hundred",
        "ninety"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "80 in words is …",
@@ -214,20 +214,20 @@
      {
       "sentence": "To say numbers one by one is to …",
       "options": [
-       "count",
+       "carry",
        "cut",
-       "carry"
+       "count"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Fifty plus forty is …",
       "options": [
-       "ninety",
+       "seventy",
        "sixty",
-       "seventy"
+       "ninety"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

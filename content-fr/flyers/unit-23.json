@@ -172,38 +172,38 @@
      {
       "sentence": "« ___ drôle de planète ! »",
       "options": [
-       "Quoi",
+       "Quel",
        "Comment",
-       "Quel"
+       "Quoi"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Un ___ voyage dans un vaisseau spatial.",
       "options": [
-       "extraterrestre",
        "astronaute",
+       "extraterrestre",
        "ingénieur"
-      ],
-      "answer": 1
-     },
-     {
-      "sentence": "La Terre est ___, comme une balle.",
-      "options": [
-       "rond",
-       "carré",
-       "plat"
       ],
       "answer": 0
      },
      {
-      "sentence": "La nuit le ciel est plein d'…",
+      "sentence": "La Terre est ___, comme une balle.",
       "options": [
-       "fusées",
-       "étoiles",
-       "inondations"
+       "carré",
+       "rond",
+       "plat"
       ],
       "answer": 1
+     },
+     {
+      "sentence": "La nuit le ciel est plein d'…",
+      "options": [
+       "étoiles",
+       "fusées",
+       "inondations"
+      ],
+      "answer": 0
      }
     ]
    }

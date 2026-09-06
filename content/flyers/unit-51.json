@@ -91,20 +91,20 @@
      {
       "sentence": "\"Tell me about your family.\"",
       "options": [
-       "I live with my parents and my little sister.",
        "Yes.",
+       "I live with my parents and my little sister.",
        "At half past two."
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "\"What do you do at the weekend?\"",
       "options": [
-       "I usually play football and visit my grandma.",
+       "It's too heavy.",
        "Blue.",
-       "It's too heavy."
+       "I usually play football and visit my grandma."
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "\"What's your favourite subject?\"",
@@ -118,11 +118,11 @@
      {
       "sentence": "\"Have you got a pet?\"",
       "options": [
-       "Yes, a cat called Misha. She's very lazy!",
        "It's opposite the bank.",
+       "Yes, a cat called Misha. She's very lazy!",
        "Ninety-two spoons."
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "\"What did you do yesterday?\"",
@@ -187,20 +187,20 @@
      {
       "sentence": "Your family name is your …",
       "options": [
-       "surname",
+       "age",
        "hobby",
-       "age"
+       "surname"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The town where you were born is your …",
       "options": [
-       "hometown",
        "homework",
+       "hometown",
        "household"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "\"How ___ are you?\" — \"I'm twelve.\"",
@@ -214,20 +214,20 @@
      {
       "sentence": "Talk about ___ : your likes, your family, your school.",
       "options": [
-       "yourself",
+       "itself",
        "himself",
-       "itself"
+       "yourself"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "\"What's your ___ colour?\" — \"Green!\"",
       "options": [
-       "favourite",
        "heaviest",
+       "favourite",
        "worst"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

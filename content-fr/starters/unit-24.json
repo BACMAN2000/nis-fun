@@ -99,38 +99,38 @@
      {
       "sentence": "___ des mains trois fois !",
       "options": [
-       "Tape",
        "Lave seulement",
+       "Tape",
        "Ferme"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "___ le tableau, s'il te plaît.",
       "options": [
-       "Regarde",
+       "Chante",
        "Saute",
-       "Chante"
+       "Regarde"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "___-toi sur ta chaise.",
       "options": [
-       "Assieds-toi",
        "Lève-toi",
+       "Assieds-toi",
        "Cours"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Feu rouge ! ___ !",
       "options": [
-       "Arrête",
+       "Danse",
        "Va",
-       "Danse"
+       "Arrête"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -195,11 +195,11 @@
      {
       "sentence": "Le contraire d'aller est s'…",
       "options": [
-       "arrêter",
        "courir",
+       "arrêter",
        "marcher"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Tu ___ avec ton doigt pour montrer quelque chose.",
@@ -213,20 +213,20 @@
      {
       "sentence": "Les pieds lents ___, les pieds rapides courent.",
       "options": [
-       "marcher",
+       "nager",
        "voler",
-       "nager"
+       "marcher"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "« ___ la table avec une main ! »",
       "options": [
-       "Touche",
        "Mange",
+       "Touche",
        "Écoute"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

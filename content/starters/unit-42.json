@@ -91,11 +91,11 @@
      {
       "sentence": "This is Nico. ___ is funny.",
       "options": [
-       "He",
        "She",
+       "He",
        "It"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "This is Astrid. ___ is tidy.",
@@ -109,20 +109,20 @@
      {
       "sentence": "This is my ball. ___ is red.",
       "options": [
-       "It",
-       "He",
-       "She"
-      ],
-      "answer": 0
-     },
-     {
-      "sentence": "My grandma is kind. ___ makes cakes.",
-      "options": [
        "She",
        "He",
        "It"
       ],
-      "answer": 0
+      "answer": 2
+     },
+     {
+      "sentence": "My grandma is kind. ___ makes cakes.",
+      "options": [
+       "It",
+       "He",
+       "She"
+      ],
+      "answer": 2
      },
      {
       "sentence": "Pip is a bird. ___ is black and white.",
@@ -187,20 +187,20 @@
      {
       "sentence": "For a boy we say …",
       "options": [
-       "he",
        "she",
+       "he",
        "it"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "For a girl we say …",
       "options": [
-       "she",
+       "it",
        "he",
-       "it"
+       "she"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "For a toy we say …",
@@ -214,11 +214,11 @@
      {
       "sentence": "My mum is a doctor. ___ helps people.",
       "options": [
-       "She",
        "He",
+       "She",
        "It"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "He ___ my best friend.",

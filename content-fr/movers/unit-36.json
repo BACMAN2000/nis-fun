@@ -90,11 +90,11 @@
      {
       "sentence": "On ___ faire une fête vendredi.",
       "options": [
-       "sont",
+       "suis",
        "est",
-       "suis"
+       "sont"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Elle ___ adorer la surprise !",
@@ -108,29 +108,29 @@
      {
       "sentence": "Je vais ___ la carte d'anniversaire.",
       "options": [
-       "à",
        "pour",
+       "à",
        "à"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "___ tu inviter toute la classe ?",
       "options": [
-       "Sont",
        "Est",
+       "Sont",
        "Est-ce que"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Ils ne vont rien ___ à Sofia !",
       "options": [
-       "dire",
+       "a dit",
        "disant",
-       "a dit"
+       "dire"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -195,11 +195,11 @@
      {
       "sentence": "« Tu vas venir à la fête ? »",
       "options": [
-       "Oui, bien sûr !",
        "Il est deux heures et demie.",
+       "Oui, bien sûr !",
        "Sous le lit."
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "« Qui va apporter la musique ? »",
@@ -213,20 +213,20 @@
      {
       "sentence": "Une fête que personne n'attend est une …",
       "options": [
-       "surprise",
+       "plan B",
        "liste secrète",
-       "plan B"
+       "surprise"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Avant une fête tu ___ tout.",
       "options": [
-       "préparer",
        "oublier",
+       "préparer",
        "fermer"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

@@ -91,11 +91,11 @@
      {
       "sentence": "We ___ to have a party on Friday.",
       "options": [
-       "want",
+       "wanting",
        "wants",
-       "wanting"
+       "want"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "She would ___ to help with the cake.",
@@ -109,29 +109,29 @@
      {
       "sentence": "I want ___ make the birthday card.",
       "options": [
-       "to",
        "for",
+       "to",
        "at"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "___ you want to invite the whole class?",
       "options": [
-       "Do",
        "Are",
+       "Do",
        "Is"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "They don't want to ___ anything to Sofia!",
       "options": [
-       "say",
+       "said",
        "saying",
-       "said"
+       "say"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -196,11 +196,11 @@
      {
       "sentence": "\"Would you like to come to the party?\"",
       "options": [
-       "Yes, please!",
        "It's half past two.",
+       "Yes, please!",
        "Under the bed."
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "\"Who wants to bring the music?\"",
@@ -214,20 +214,20 @@
      {
       "sentence": "A party that nobody expects is a …",
       "options": [
-       "surprise",
+       "plan B",
        "secret list",
-       "plan B"
+       "surprise"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Before a party you ___ everything.",
       "options": [
-       "prepare",
        "forget",
+       "prepare",
        "close"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

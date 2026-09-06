@@ -160,11 +160,11 @@
      {
       "sentence": "Il est rond. Tu joues au foot avec.",
       "options": [
-       "un ballon",
+       "une voiture",
        "un cerf-volant",
-       "une voiture"
+       "un ballon"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Il vole dans le ciel.",
@@ -178,29 +178,29 @@
      {
       "sentence": "Une banane est …",
       "options": [
-       "bleu",
+       "jaune",
        "rouge",
-       "jaune"
-      ],
-      "answer": 2
-     },
-     {
-      "sentence": "Il fait tchou-tchou sur les rails.",
-      "options": [
-       "un train",
-       "une poupée",
-       "un ballon"
+       "bleu"
       ],
       "answer": 0
      },
      {
-      "sentence": "Une grenouille est …",
+      "sentence": "Il fait tchou-tchou sur les rails.",
       "options": [
-       "orange",
-       "vert",
-       "noire"
+       "une poupée",
+       "un train",
+       "un ballon"
       ],
       "answer": 1
+     },
+     {
+      "sentence": "Une grenouille est …",
+      "options": [
+       "vert",
+       "orange",
+       "noire"
+      ],
+      "answer": 0
      }
     ]
    }

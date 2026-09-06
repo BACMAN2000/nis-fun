@@ -91,11 +91,11 @@
      {
       "q": "What day was it?",
       "options": [
-       "presentation day",
+       "story night",
        "the first day of school",
-       "story night"
+       "presentation day"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "q": "What did Mateo's group talk about?",
@@ -109,11 +109,11 @@
      {
       "q": "Why were they able to speak clearly?",
       "options": [
-       "They practised a lot.",
        "They read from a book.",
+       "They practised a lot.",
        "The teacher spoke for them."
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "q": "What did Sofía do at the end?",
@@ -127,11 +127,11 @@
      {
       "q": "Why does Liam like the project?",
       "options": [
-       "They learn about real life.",
        "There is no homework.",
+       "They learn about real life.",
        "It is very short."
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -177,20 +177,20 @@
       {
        "sentence": "I like our project ___ it is about real jobs.",
        "options": [
-        "because",
+        "or",
         "but",
-        "or"
+        "because"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "Mateo is shy, ___ he spoke very clearly.",
        "options": [
-        "but",
         "because",
+        "but",
         "so"
        ],
-       "answer": 0
+       "answer": 1
       },
       {
        "sentence": "We finished the poster, ___ we started the poem.",
@@ -204,11 +204,11 @@
       {
        "sentence": "I enjoy reading ___ writing stories.",
        "options": [
-        "and",
+        "because",
         "but",
-        "because"
+        "and"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "The talk was short ___ very interesting.",
@@ -304,29 +304,29 @@
      {
       "sentence": "What is the poem about?",
       "options": [
-       "the writer's year at school",
+       "a football match",
        "a holiday by the sea",
-       "a football match"
+       "the writer's year at school"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Which two words rhyme in the poem?",
       "options": [
-       "write and right",
        "read and speak",
+       "write and right",
        "book and friend"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "How does the writer feel at the end?",
       "options": [
-       "proud and confident",
        "tired and sad",
+       "proud and confident",
        "angry"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "What did the writer do this year?",
@@ -340,11 +340,11 @@
      {
       "sentence": "What has changed for the writer?",
       "options": [
-       "They are not shy anymore.",
+       "They have stopped reading.",
        "They have moved to a new school.",
-       "They have stopped reading."
+       "They are not shy anymore."
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

@@ -172,38 +172,38 @@
      {
       "sentence": "Si tu y vas en marchant, tu y vas à ___.",
       "options": [
-       "sur",
        "par",
+       "sur",
        "à"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Le ___ du bus conduit prudemment.",
       "options": [
-       "conducteur",
+       "siège",
        "billet",
-       "siège"
+       "conducteur"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Attends le bus à l'… de bus.",
       "options": [
-       "arrêter",
        "magasin",
+       "arrêter",
        "pas"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Le train roule sur des …",
       "options": [
-       "rails",
+       "eau",
        "herbe",
-       "eau"
+       "rails"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

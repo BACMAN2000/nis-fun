@@ -91,11 +91,11 @@
      {
       "sentence": "You ___ brush your teeth twice a day.",
       "options": [
-       "must",
+       "aren't",
        "mustn't",
-       "aren't"
+       "must"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "You ___ eat sweets before bed.",
@@ -118,20 +118,20 @@
      {
       "sentence": "You ___ watch TV all afternoon.",
       "options": [
-       "must",
        "mustn't",
+       "must",
        "must to"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "— What's the ___ , Mateo? — I've got a toothache.",
       "options": [
-       "matter",
        "medicine",
+       "matter",
        "morning"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -187,11 +187,11 @@
      {
       "sentence": "The ___ says: open your mouth, please.",
       "options": [
-       "dentist",
+       "waiter",
        "driver",
-       "waiter"
+       "dentist"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Eating fruit keeps you …",
@@ -205,20 +205,20 @@
      {
       "sentence": "The doctor gives you ___ when you are ill.",
       "options": [
-       "medicine",
+       "sweets",
        "stickers",
-       "sweets"
+       "medicine"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Milk and cheese make your ___ strong.",
       "options": [
-       "teeth",
        "hair",
+       "teeth",
        "socks"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "A good night's ___ gives you energy.",

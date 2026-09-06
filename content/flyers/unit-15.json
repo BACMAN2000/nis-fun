@@ -164,11 +164,11 @@
      {
       "sentence": "The person who wins is the …",
       "options": [
-       "champion",
        "waiter",
+       "champion",
        "manager"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "In winter you can go ___ down the hill.",
@@ -183,10 +183,10 @@
       "sentence": "We ___ volleyball every Friday.",
       "options": [
        "go",
-       "play",
-       "do"
+       "do",
+       "play"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "The ___ at the end was three–one.",
@@ -201,10 +201,10 @@
       "sentence": "She ___ skating on the frozen lake.",
       "options": [
        "plays",
-       "goes",
-       "does"
+       "does",
+       "goes"
       ],
-      "answer": 1
+      "answer": 2
      }
     ]
    }

@@ -163,47 +163,47 @@
      {
       "sentence": "Les jours de froid je porte un … bien chaud.",
       "options": [
-       "pull",
        "casquette",
+       "pull",
        "jupe"
-      ],
-      "answer": 0
-     },
-     {
-      "sentence": "Tu portes des ___ aux mains en hiver.",
-      "options": [
-       "chaussettes",
-       "gants",
-       "bottes"
       ],
       "answer": 1
      },
      {
-      "sentence": "Il ___ une chemise bleue aujourd'hui.",
+      "sentence": "Tu portes des ___ aux mains en hiver.",
       "options": [
-       "en train de porter",
-       "porter",
-       "portes"
+       "gants",
+       "chaussettes",
+       "bottes"
       ],
       "answer": 0
+     },
+     {
+      "sentence": "Il ___ une chemise bleue aujourd'hui.",
+      "options": [
+       "portes",
+       "porter",
+       "en train de porter"
+      ],
+      "answer": 2
      },
      {
       "sentence": "Pour la pluie, mets ton …",
       "options": [
-       "bottes",
+       "jupe",
        "casquette",
-       "jupe"
+       "bottes"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Une ___ garde ton cou au chaud.",
       "options": [
-       "écharpe",
        "chaussette",
+       "écharpe",
        "chemise"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

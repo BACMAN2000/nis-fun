@@ -90,11 +90,11 @@
      {
       "sentence": "J'aime ___ à vélo au bord de la rivière.",
       "options": [
-       "en train de rouler",
+       "a roulé",
        "rouler",
-       "a roulé"
+       "en train de rouler"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Elle adore ___ des dragons et des châteaux.",
@@ -108,20 +108,20 @@
      {
       "sentence": "Ils aiment ___ au football après l'école.",
       "options": [
-       "en train de jouer",
        "jouer",
+       "en train de jouer",
        "a joué"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Il n'aime pas ___ la télé le matin.",
       "options": [
+       "regarde",
        "regarder",
-       "regarder",
-       "regarde"
+       "regarder"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "On adore ___ notre cerf-volant sur la colline.",
@@ -186,29 +186,29 @@
      {
       "sentence": "Tu fais voler un ___ les jours de vent.",
       "options": [
-       "cerf-volant",
        "vélo",
+       "cerf-volant",
        "livre"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Une planche à quatre roues est un …",
       "options": [
-       "skateboard",
+       "règle",
        "cerf-volant",
-       "règle"
+       "skateboard"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Les enfants jouent dehors dans le …",
       "options": [
-       "parc",
        "frigo",
+       "parc",
        "armoire"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "« Qu'est-ce que tu fais après l'école ? » — « Je ___ du vélo. »",

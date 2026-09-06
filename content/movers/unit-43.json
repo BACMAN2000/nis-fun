@@ -91,20 +91,20 @@
      {
       "sentence": "___ at the garden door.",
       "options": [
-       "Start",
        "Stop",
+       "Start",
        "Sleep"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Take ten ___ towards the big tree.",
       "options": [
-       "steps",
+       "stars",
        "stops",
-       "stars"
+       "steps"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "___ right at the flower pots.",
@@ -118,11 +118,11 @@
      {
       "sentence": "Go ___ until the little bridge.",
       "options": [
-       "straight",
+       "strange",
        "strong",
-       "strange"
+       "straight"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The ___ is under the yellow bucket!",
@@ -187,11 +187,11 @@
      {
       "sentence": "The opposite of left is …",
       "options": [
-       "right",
        "straight",
+       "right",
        "up"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The drawing that shows the way is a …",
@@ -205,29 +205,29 @@
      {
       "sentence": "The game begins at the ___ point.",
       "options": [
-       "start",
        "finish",
+       "start",
        "middle"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Walk without turning = go …",
       "options": [
-       "straight",
+       "back",
        "sideways",
-       "back"
+       "straight"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The last point of a race is the …",
       "options": [
-       "finish",
+       "corner",
        "start",
-       "corner"
+       "finish"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

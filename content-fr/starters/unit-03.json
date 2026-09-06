@@ -155,20 +155,20 @@
      {
       "sentence": "Il fait miaou et il aime le lait.",
       "options": [
-       "un chat",
        "un chien",
+       "un chat",
        "un canard"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Il est très grand et gris.",
       "options": [
-       "un poisson",
        "un éléphant",
+       "un poisson",
        "un oiseau"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Un poisson peut …",

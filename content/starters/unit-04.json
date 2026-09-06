@@ -156,20 +156,20 @@
      {
       "sentence": "Two plus two is …",
       "options": [
-       "four",
        "five",
+       "four",
        "three"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "You have ___ fingers on one hand.",
       "options": [
-       "five",
+       "two",
        "ten",
-       "two"
+       "five"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "A cat has ___ legs.",
@@ -192,11 +192,11 @@
      {
       "sentence": "The biggest number here is …",
       "options": [
-       "ten",
+       "six",
        "one",
-       "six"
+       "ten"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

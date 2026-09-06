@@ -90,11 +90,11 @@
      {
       "sentence": "Voici Nico. ___ est drôle.",
       "options": [
-       "Il",
        "Elle",
+       "Il",
        "Ça"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Voici Astrid. ___ est bien rangée.",
@@ -108,20 +108,20 @@
      {
       "sentence": "Voici mon ballon. ___ rouge.",
       "options": [
-       "Ça",
-       "Il",
-       "Elle"
-      ],
-      "answer": 0
-     },
-     {
-      "sentence": "Ma mamie est gentille. ___ fait des gâteaux.",
-      "options": [
        "Elle",
        "Il",
        "Ça"
       ],
-      "answer": 0
+      "answer": 2
+     },
+     {
+      "sentence": "Ma mamie est gentille. ___ fait des gâteaux.",
+      "options": [
+       "Ça",
+       "Il",
+       "Elle"
+      ],
+      "answer": 2
      },
      {
       "sentence": "Pip est un oiseau. ___ est noir et blanc.",
@@ -186,20 +186,20 @@
      {
       "sentence": "Pour un garçon on dit …",
       "options": [
-       "il",
        "elle",
+       "il",
        "ça"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Pour une fille on dit …",
       "options": [
-       "elle",
+       "ça",
        "il",
-       "ça"
+       "elle"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Pour un jouet on dit …",
@@ -213,11 +213,11 @@
      {
       "sentence": "Ma mère est médecin. ___ aide les gens.",
       "options": [
-       "Elle",
        "Il",
+       "Elle",
        "Ça"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Il ___ mon meilleur ami.",

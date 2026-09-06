@@ -160,11 +160,11 @@
      {
       "sentence": "You go down the ___ very fast.",
       "options": [
-       "slide",
        "bench",
+       "slide",
        "tree"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Birds make their homes in …",
@@ -178,20 +178,20 @@
      {
       "sentence": "\"___ go to the park!\"",
       "options": [
-       "Let's",
+       "Let",
        "Lets",
-       "Let"
+       "Let's"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "You sit and fly on the …",
       "options": [
-       "swing",
+       "flower",
        "grass",
-       "flower"
+       "swing"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The park is full of ___ after school.",
@@ -290,29 +290,29 @@
       {
        "sentence": "It's a story about ___ a kite.",
        "options": [
-        "flying",
+        "flies",
         "fly",
-        "flies"
+        "flying"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "This is a song about ___ and jumping.",
        "options": [
-        "runs",
+        "running",
         "run",
-        "running"
+        "runs"
        ],
-       "answer": 2
+       "answer": 0
       },
       {
        "sentence": "Which one is right?",
        "options": [
-        "a story about eat",
+        "a story about eating",
         "a story about eats",
-        "a story about eating"
+        "a story about eat"
        ],
-       "answer": 2
+       "answer": 0
       }
      ]
     }

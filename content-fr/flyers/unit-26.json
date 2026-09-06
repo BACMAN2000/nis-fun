@@ -90,11 +90,11 @@
      {
       "sentence": "Tu as ___ volé en hélicoptère ?",
       "options": [
-       "déjà",
+       "juste",
        "jamais",
-       "juste"
+       "déjà"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Je n'ai ___ nagé dans l'océan — j'ai peur des vagues !",
@@ -108,29 +108,29 @@
      {
       "sentence": "Elle a ___ gagné une médaille d'or. Elle est incroyable !",
       "options": [
-       "jamais",
        "juste",
+       "jamais",
        "déjà"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Tu as ___ grimpé une montagne ?",
       "options": [
-       "Est-ce que",
        "Avoir",
+       "Est-ce que",
        "Sont"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "On n'est ___ allés en Australie, mais on veut y aller.",
       "options": [
        "déjà",
-       "déjà",
-       "jamais"
+       "jamais",
+       "déjà"
       ],
-      "answer": 2
+      "answer": 1
      }
     ]
    }
@@ -187,10 +187,10 @@
       "sentence": "Tu as déjà ___ une personne célèbre ?",
       "options": [
        "rencontrer",
-       "a rencontré",
-       "rencontrer"
+       "rencontrer",
+       "a rencontré"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Je n'ai jamais ___ en hélicoptère.",
@@ -226,7 +226,7 @@
        "jamais",
        "déjà"
       ],
-      "answer": 2
+      "answer": 0
      }
     ]
    }

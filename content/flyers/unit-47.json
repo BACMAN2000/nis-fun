@@ -91,20 +91,20 @@
      {
       "sentence": "If it ___ tomorrow, we'll stay at home.",
       "options": [
-       "rains",
        "will rain",
+       "rains",
        "rained"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "If you study, you ___ the test.",
       "options": [
-       "will pass",
+       "passed",
        "pass",
-       "passed"
+       "will pass"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "We'll cancel the match ___ the field is wet.",
@@ -118,11 +118,11 @@
      {
       "sentence": "If she ___ her umbrella, she won't get wet.",
       "options": [
-       "brings",
        "will bring",
+       "brings",
        "brought"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "___ I see Kili, I'll give him your message.",
@@ -187,11 +187,11 @@
      {
       "sentence": "If the film is boring, we'll leave and play football …",
       "options": [
-       "instead",
+       "still",
        "inside",
-       "still"
+       "instead"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "If it's cold, we'll eat ___ the house, not in the garden.",
@@ -205,29 +205,29 @@
      {
       "sentence": "To stop a plan completely is to ___ it.",
       "options": [
-       "cancel",
+       "dig",
        "bring",
-       "dig"
+       "cancel"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "If you're late, we'll ___ wait for you. Team rule!",
       "options": [
-       "still",
        "never",
+       "still",
        "yet"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Please ___ your swimming things if it's sunny.",
       "options": [
-       "bring",
+       "lose",
        "cancel",
-       "lose"
+       "bring"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -488,28 +488,28 @@
        "sentence": "If it rains tomorrow, we ___ the picnic inside.",
        "options": [
         "have",
-        "will have",
-        "had"
+        "had",
+        "will have"
        ],
-       "answer": 1
+       "answer": 2
       },
       {
        "sentence": "Which one is right?",
        "options": [
-        "If it will rain, we stay inside.",
         "If it rains, we stay inside.",
+        "If it will rain, we stay inside.",
         "If it rain, we will stayed inside."
        ],
-       "answer": 1
+       "answer": 0
       },
       {
        "sentence": "Luna runs to the door if she ___ my bike. Every time!",
        "options": [
         "hear",
-        "will hear",
-        "hears"
+        "hears",
+        "will hear"
        ],
-       "answer": 2
+       "answer": 1
       }
      ]
     }

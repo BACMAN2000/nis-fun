@@ -159,11 +159,11 @@
      {
       "sentence": "Tu descends le ___ très vite.",
       "options": [
-       "toboggan",
        "banc",
+       "toboggan",
        "arbre"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Les oiseaux font leur maison dans les …",
@@ -177,20 +177,20 @@
      {
       "sentence": "« ___ au parc ! »",
       "options": [
-       "Allons-y",
+       "Laisse",
        "Alons-y",
-       "Laisse"
+       "Allons-y"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Tu t'assois et tu voles sur la …",
       "options": [
-       "balançoire",
+       "fleur",
        "herbe",
-       "fleur"
+       "balançoire"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Le parc est plein d'___ après l'école.",

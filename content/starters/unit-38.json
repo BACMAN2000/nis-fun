@@ -91,20 +91,20 @@
      {
       "sentence": "A fish can ___ but it can't walk.",
       "options": [
-       "swim",
        "fly",
+       "swim",
        "sing"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "A bird can fly and …",
       "options": [
-       "sing",
+       "read",
        "drive",
-       "read"
+       "sing"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "An elephant can walk but it can't …",
@@ -118,20 +118,20 @@
      {
       "sentence": "A monkey can ___ very well.",
       "options": [
-       "climb",
+       "fly",
        "swim only",
-       "fly"
+       "climb"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "A horse can run very …",
       "options": [
-       "fast",
        "slow only",
+       "fast",
        "high"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -205,29 +205,29 @@
      {
       "sentence": "Cats sleep many ___ every day.",
       "options": [
-       "hours",
+       "shoes",
        "books",
-       "shoes"
+       "hours"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Frogs can ___ from leaf to leaf.",
       "options": [
-       "jump",
        "read",
+       "jump",
        "cook"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "\"Can you swim?\" — \"Yes, I ___!\"",
       "options": [
-       "can",
+       "do",
        "am",
-       "do"
+       "can"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

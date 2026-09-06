@@ -90,20 +90,20 @@
      {
       "sentence": "La réponse dans le texte est « un vieux château ». Tu écris…",
       "options": [
-       "un vieux château",
        "un château vieux",
+       "un vieux château",
        "un vieu chateau"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Tu ne connais pas un mot du texte. Tu dois…",
       "options": [
-       "le deviner grâce aux autres mots",
+       "inventer une nouvelle question",
        "arrêter de lire",
-       "inventer une nouvelle question"
+       "le deviner grâce aux autres mots"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Dans la partie de l'histoire, les noms commencent toujours par…",
@@ -117,11 +117,11 @@
      {
       "sentence": "La consigne dit « écris UN mot ». Tu écris…",
       "options": [
-       "exactement un mot",
+       "une phrase entière",
        "deux, pour être sûr",
-       "une phrase entière"
+       "exactement un mot"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Il te reste 5 minutes. Tu dois…",
@@ -186,20 +186,20 @@
      {
       "sentence": "Une phrase se termine par un …",
       "options": [
-       "point",
        "voyelle",
+       "point",
        "titre"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Londres, Kili et Pérou commencent par une ___.",
       "options": [
-       "majuscule",
+       "muet",
        "petit",
-       "muet"
+       "majuscule"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Écris tes réponses sur la … de réponses.",
@@ -213,11 +213,11 @@
      {
       "sentence": "Un long texte est divisé en …",
       "options": [
-       "paragraphes",
        "crayons",
+       "paragraphes",
        "prix"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "___ les mots importants de la question pour te concentrer.",

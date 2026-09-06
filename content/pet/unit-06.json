@@ -91,11 +91,11 @@
      {
       "q": "What was today?",
       "options": [
-       "presentation day for the Trades project",
+       "a sports competition",
        "the first day of school",
-       "a sports competition"
+       "presentation day for the Trades project"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "q": "What did the group argue?",
@@ -109,11 +109,11 @@
      {
       "q": "How did Mateo feel at first?",
       "options": [
-       "nervous",
        "bored",
+       "nervous",
        "angry"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "q": "What order does the writer suggest for presenting?",
@@ -127,11 +127,11 @@
      {
       "q": "What did the group learn about a good project?",
       "options": [
-       "it is about sharing ideas clearly",
        "it is only about knowing facts",
+       "it is about sharing ideas clearly",
        "it should be as long as possible"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -177,20 +177,20 @@
       {
        "sentence": "___ it was difficult, we enjoyed the project.",
        "options": [
-        "Although",
+        "Therefore",
         "However",
-        "Therefore"
+        "Although"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "The talk was short. ___, it was very clear.",
        "options": [
-        "However",
         "Although",
+        "However",
         "Because"
        ],
-       "answer": 0
+       "answer": 1
       },
       {
        "sentence": "Machines can't be creative; ___, we need people.",
@@ -204,11 +204,11 @@
       {
        "sentence": "We need real skills, ___ carpentry and cooking.",
        "options": [
-        "for example",
+        "although",
         "however",
-        "although"
+        "for example"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "I was nervous. ___, I did my best.",
@@ -303,29 +303,29 @@
      {
       "sentence": "___ the project was long, we loved it.",
       "options": [
-       "Although",
+       "Therefore",
        "However",
-       "Therefore"
+       "Although"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Our poster was simple. ___, it was very clear.",
       "options": [
-       "However",
        "Although",
+       "However",
        "Because"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Machines can't be creative; ___, we need people.",
       "options": [
-       "therefore",
        "although",
+       "therefore",
        "however"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "We should value real skills, ___ carpentry and cooking.",
@@ -339,11 +339,11 @@
      {
       "sentence": "I practised a lot, ___ I felt confident.",
       "options": [
-       "so",
+       "however",
        "although",
-       "however"
+       "so"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

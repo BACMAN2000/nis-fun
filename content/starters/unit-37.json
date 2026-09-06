@@ -91,20 +91,20 @@
      {
       "sentence": "___ your head to say yes.",
       "options": [
-       "Nod",
        "Wave",
+       "Nod",
        "Stamp"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "___ your hand to say hello.",
       "options": [
-       "Wave",
+       "Eat",
        "Close",
-       "Eat"
+       "Wave"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "___ your eyes and count to ten.",
@@ -127,11 +127,11 @@
      {
       "sentence": "___ your feet like a big elephant.",
       "options": [
-       "Stamp",
        "Nod",
+       "Stamp",
        "Draw"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -187,20 +187,20 @@
      {
       "sentence": "To say yes without words, you ___ your head.",
       "options": [
-       "nod",
+       "wash",
        "close",
-       "wash"
+       "nod"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "To say no, you ___ your head.",
       "options": [
-       "shake",
+       "stamp",
        "raise",
-       "stamp"
+       "shake"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "You wave with your …",
@@ -214,11 +214,11 @@
      {
       "sentence": "The opposite of open your eyes is ___ them.",
       "options": [
-       "close",
        "wiggle",
+       "close",
        "raise"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "In class, ___ your hand to speak.",

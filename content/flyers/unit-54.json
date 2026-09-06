@@ -91,20 +91,20 @@
      {
       "sentence": "The answer in the text is \"an old castle\". You write…",
       "options": [
-       "an old castle",
        "a castle old",
+       "an old castle",
        "old kastle"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "You don't know a word in the text. You should…",
       "options": [
-       "guess it from the other words",
+       "invent a new question",
        "stop reading",
-       "invent a new question"
+       "guess it from the other words"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "In the story part, names always start with…",
@@ -118,11 +118,11 @@
      {
       "sentence": "The question says \"write ONE word\". You write…",
       "options": [
-       "exactly one word",
+       "a full sentence",
        "two, to be safe",
-       "a full sentence"
+       "exactly one word"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "You have 5 minutes left. You should…",
@@ -187,20 +187,20 @@
      {
       "sentence": "A sentence ends with a …",
       "options": [
-       "full stop",
        "vowel",
+       "full stop",
        "title"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "London, Kili and Peru start with a ___ letter.",
       "options": [
-       "capital",
+       "silent",
        "small",
-       "silent"
+       "capital"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Write your answers on the answer …",
@@ -214,11 +214,11 @@
      {
       "sentence": "A long text is divided into …",
       "options": [
-       "paragraphs",
        "pencils",
+       "paragraphs",
        "prizes"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "___ the key words in the question to focus.",

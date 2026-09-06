@@ -90,29 +90,29 @@
      {
       "sentence": "On a ___ fromage, mais on n'a pas ___ olives.",
       "options": [
-       "du / d'",
        "d' / du",
+       "du / d'",
        "du / du"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Est-ce qu'il y a ___ champignons dans le frigo ?",
       "options": [
        "quelques",
-       "des",
-       "un"
+       "un",
+       "des"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Je peux avoir ___ eau, s'il te plaît ?",
       "options": [
-       "des",
+       "quelques",
        "une",
-       "quelques"
+       "des"
       ],
-      "answer": 2
+      "answer": 0
      },
      {
       "sentence": "Il ne reste pas ___ farine !",
@@ -186,47 +186,47 @@
      {
       "sentence": "D'abord, ___ la farine et l'eau.",
       "options": [
-       "mélanger",
+       "ouvrir",
        "manger",
-       "ouvrir"
+       "mélanger"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Ensuite ___ les tomates en morceaux.",
       "options": [
-       "boire",
        "couper",
+       "boire",
        "fermer"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "___ du fromage et des champignons dessus.",
       "options": [
-       "Ajoute",
        "Lave",
+       "Ajoute",
        "Lis"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Mets la pizza dans le … chaud.",
       "options": [
        "frigo",
-       "four",
-       "placard"
+       "placard",
+       "four"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Au bout de quinze minutes, la pizza est …",
       "options": [
-       "prêt",
+       "vide",
        "froid",
-       "vide"
+       "prêt"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

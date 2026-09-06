@@ -90,29 +90,29 @@
      {
       "sentence": "À six heures, Ingrid ___ dans la piscine.",
       "options": [
-       "était",
        "étaient",
+       "était",
        "est"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Les garçons ___ au volley sur le terrain.",
       "options": [
-       "était",
        "étaient",
+       "était",
        "sont"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Qu'est-ce que tu ___ quand la lumière s'est éteinte ?",
       "options": [
        "était",
-       "étaient",
-       "a fait"
+       "a fait",
+       "étaient"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Maya ___ dans le vestiaire.",
@@ -127,10 +127,10 @@
       "sentence": "On ne dormait pas — on ___ !",
       "options": [
        "était",
-       "étaient",
-       "sont"
+       "sont",
+       "étaient"
       ],
-      "answer": 1
+      "answer": 2
      }
     ]
    }
@@ -195,38 +195,38 @@
      {
       "sentence": "Ils ___ au gymnase à cinq heures.",
       "options": [
-       "s'entraînait",
        "s'entraînaient",
+       "s'entraînait",
        "s'entraîner"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Il a glissé pendant qu'il ___ vers la piscine.",
       "options": [
-       "courait",
        "couraient",
+       "courait",
        "court"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "___ elle portait le sac de sport ?",
       "options": [
        "Étaient",
-       "Était",
-       "Est-ce que"
+       "Est-ce que",
+       "Était"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "L'entraîneur a soufflé dans le ___ pour arrêter le match.",
       "options": [
-       "sifflet",
+       "prix",
        "étagère",
-       "prix"
+       "sifflet"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

@@ -164,47 +164,47 @@
      {
       "sentence": "On cold days I wear a warm …",
       "options": [
-       "jumper",
        "cap",
+       "jumper",
        "skirt"
-      ],
-      "answer": 0
-     },
-     {
-      "sentence": "You wear ___ on your hands in winter.",
-      "options": [
-       "socks",
-       "gloves",
-       "boots"
       ],
       "answer": 1
      },
      {
-      "sentence": "He is ___ a blue shirt today.",
+      "sentence": "You wear ___ on your hands in winter.",
       "options": [
-       "wearing",
-       "wear",
-       "wears"
+       "gloves",
+       "socks",
+       "boots"
       ],
       "answer": 0
+     },
+     {
+      "sentence": "He is ___ a blue shirt today.",
+      "options": [
+       "wears",
+       "wear",
+       "wearing"
+      ],
+      "answer": 2
      },
      {
       "sentence": "For the rain, put on your …",
       "options": [
-       "boots",
+       "skirt",
        "cap",
-       "skirt"
+       "boots"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "A ___ keeps your neck warm.",
       "options": [
-       "scarf",
        "sock",
+       "scarf",
        "shirt"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

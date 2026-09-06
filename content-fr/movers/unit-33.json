@@ -99,29 +99,29 @@
      {
       "sentence": "6 h 30, c'est six heures et …",
       "options": [
-       "moitié",
        "quart",
+       "moitié",
        "trente"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "L'école commence à huit heures …",
       "options": [
+       "moitié",
        "heures",
-       "heures",
-       "moitié"
+       "heures"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Tu portes une ___ au poignet pour voir l'heure.",
       "options": [
-       "regarder",
+       "bague",
        "horloge",
-       "bague"
+       "regarder"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Le film commence à 18 h 00. On est arrivés à 18 h 20 — trop ___ !",
@@ -186,11 +186,11 @@
      {
       "sentence": "Le soleil se lève le …",
       "options": [
-       "matin",
        "soir",
+       "matin",
        "nuit"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Après l'après-midi vient le …",
@@ -204,29 +204,29 @@
      {
       "sentence": "9 h 30, c'est neuf heures et …",
       "options": [
-       "neuf",
+       "huit",
        "dix",
-       "huit"
+       "neuf"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "La grande ___ du mur dit que c'est l'heure de déjeuner.",
       "options": [
-       "horloge",
        "regarder",
+       "horloge",
        "téléphone"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Le contraire d'en retard est en …",
       "options": [
-       "tôt",
+       "premier",
        "rapide",
-       "premier"
+       "tôt"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

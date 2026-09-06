@@ -91,20 +91,20 @@
      {
       "sentence": "Don't ___ so much noise — the baby is sleeping!",
       "options": [
-       "make",
+       "have",
        "do",
-       "have"
+       "make"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "I ___ my homework in the library.",
       "options": [
-       "make",
        "do",
+       "make",
        "take"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Everyone ___ mistakes when they learn.",
@@ -128,10 +128,10 @@
       "sentence": "Can you help me ___ a cake for Dad?",
       "options": [
        "do",
-       "make",
-       "cook the"
+       "cook the",
+       "make"
       ],
-      "answer": 1
+      "answer": 2
      }
     ]
    }
@@ -215,10 +215,10 @@
       "sentence": "\"I ___ my best, but I only came third.\" — \"Well done anyway!\"",
       "options": [
        "made",
-       "did",
-       "went"
+       "went",
+       "did"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Oops, I ___ a mistake in exercise two.",

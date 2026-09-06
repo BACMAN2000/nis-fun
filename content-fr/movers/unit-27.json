@@ -101,10 +101,10 @@
       "sentence": "Le film parlait des …",
       "options": [
        "baleines",
-       "volcans",
-       "robots"
+       "robots",
+       "volcans"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Le petit robot s'appelait …",
@@ -187,29 +187,29 @@
      {
       "sentence": "Hier on ___ le vieux château.",
       "options": [
-       "a visité",
+       "en train de visiter",
        "visiter",
-       "en train de visiter"
+       "a visité"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Elle ___ un film drôle hier soir.",
       "options": [
-       "a regardé",
+       "regarde",
        "regarder",
-       "regarde"
+       "a regardé"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Ils ___ au football sous la pluie !",
       "options": [
-       "a joué",
        "jouer",
+       "a joué",
        "joue"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Il ___ au grand arbre.",
@@ -223,11 +223,11 @@
      {
       "sentence": "On ___ tellement au chant de la baleine !",
       "options": [
-       "a ri",
+       "rit",
        "rire",
-       "rit"
+       "a ri"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

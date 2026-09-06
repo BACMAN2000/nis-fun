@@ -94,16 +94,16 @@
        "Il y avait",
        "Il y a"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "___ trois chevaux blancs dans le champ.",
       "options": [
        "Il y avait",
-       "Il y avait",
-       "Il y a"
+       "Il y a",
+       "Il y avait"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "___ de la musique et de la danse jusqu'à tard.",
@@ -186,20 +186,20 @@
      {
       "sentence": "Une toute petite ville à la campagne est un …",
       "options": [
-       "village",
+       "cour de récréation",
        "ville",
-       "cour de récréation"
+       "village"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Tu traverses la rivière par le …",
       "options": [
-       "pont",
+       "chemin",
        "champ",
-       "chemin"
+       "pont"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Le contraire de bruyant est …",
@@ -213,20 +213,20 @@
      {
       "sentence": "Le pain fait ce matin est …",
       "options": [
-       "frais",
        "froid",
+       "frais",
        "bouclé"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Aller voir quelqu'un, c'est lui rendre ___.",
       "options": [
-       "visiter",
        "compter",
+       "visiter",
        "porter"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

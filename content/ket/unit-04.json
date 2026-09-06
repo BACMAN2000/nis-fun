@@ -91,20 +91,20 @@
      {
       "q": "How did Nadia feel before the workshop?",
       "options": [
-       "excited but a little nervous",
        "angry",
+       "excited but a little nervous",
        "bored"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "q": "What must the students wear?",
       "options": [
-       "safety glasses and closed shoes",
+       "a special uniform",
        "gloves and a helmet",
-       "a special uniform"
+       "safety glasses and closed shoes"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "q": "What did the teacher say about the rules?",
@@ -127,11 +127,11 @@
      {
       "q": "What do the students have to bring next week?",
       "options": [
-       "their own ideas for the poster",
+       "their lunch",
        "new tools",
-       "their lunch"
+       "their own ideas for the poster"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -177,29 +177,29 @@
       {
        "sentence": "You ___ wear a helmet on a bike. It's the law.",
        "options": [
-        "must",
         "might",
+        "must",
         "could"
        ],
-       "answer": 0
+       "answer": 1
       },
       {
        "sentence": "You ___ run in the lab. It's dangerous.",
        "options": [
-        "mustn't",
         "don't have to",
+        "mustn't",
         "should"
        ],
-       "answer": 0
+       "answer": 1
       },
       {
        "sentence": "You look tired. You ___ go to bed early.",
        "options": [
-        "should",
+        "can't",
         "mustn't",
-        "can't"
+        "should"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "We ___ bring our own ideas next week.",
@@ -213,11 +213,11 @@
       {
        "sentence": "It's Saturday, so we ___ get up early.",
        "options": [
-        "don't have to",
         "must",
+        "don't have to",
         "should"
        ],
-       "answer": 0
+       "answer": 1
       }
      ]
     }
@@ -312,29 +312,29 @@
      {
       "sentence": "You ___ run in the science lab. It's dangerous.",
       "options": [
-       "mustn't",
+       "should",
        "don't have to",
-       "should"
+       "mustn't"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "You look tired. You ___ go to bed early tonight.",
       "options": [
-       "should",
+       "can't",
        "mustn't",
-       "can't"
+       "should"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "You ___ be quiet in the library so people can read.",
       "options": [
-       "have to",
        "don't have to",
+       "have to",
        "couldn't"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "It's Saturday, so we ___ get up early. We can sleep!",

@@ -90,20 +90,20 @@
      {
       "sentence": "___ la tête pour dire oui.",
       "options": [
-       "Hoche la tête",
        "Fais signe",
+       "Hoche la tête",
        "Tape du pied"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "___ la main pour dire bonjour.",
       "options": [
-       "Fais signe",
+       "Mange",
        "Ferme",
-       "Mange"
+       "Fais signe"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "___ les yeux et compte jusqu'à dix.",
@@ -126,11 +126,11 @@
      {
       "sentence": "___ des pieds comme un gros éléphant.",
       "options": [
-       "Tape du pied",
        "Hoche la tête",
+       "Tape du pied",
        "Dessine"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -186,20 +186,20 @@
      {
       "sentence": "Pour dire oui sans parler, tu ___ la tête.",
       "options": [
-       "hocher la tête",
+       "laver",
        "fermer",
-       "laver"
+       "hocher la tête"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Pour dire non, tu ___ la tête.",
       "options": [
-       "secouer",
+       "timbre",
        "lever",
-       "timbre"
+       "secouer"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Tu fais signe avec ta …",
@@ -213,11 +213,11 @@
      {
       "sentence": "Le contraire d'ouvrir les yeux, c'est les ___.",
       "options": [
-       "fermer",
        "remuer",
+       "fermer",
        "lever"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "En classe, ___ la main pour parler.",

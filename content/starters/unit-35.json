@@ -91,11 +91,11 @@
      {
       "sentence": "There ___ a sandwich in my lunchbox.",
       "options": [
-       "is",
+       "am",
        "are",
-       "am"
+       "is"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "There ___ two biscuits today!",
@@ -109,20 +109,20 @@
      {
       "sentence": "I clean my hands with a …",
       "options": [
-       "napkin",
        "carrot",
+       "napkin",
        "biscuit"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Good friends ___ their biscuits.",
       "options": [
-       "share",
        "hide",
+       "share",
        "throw"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "My sandwich is very …",
@@ -187,11 +187,11 @@
      {
       "sentence": "You carry your lunch in a …",
       "options": [
-       "lunchbox",
+       "shoe",
        "pencil case",
-       "shoe"
+       "lunchbox"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "An apple is a …",
@@ -205,29 +205,29 @@
      {
       "sentence": "Carrots are ___ and orange.",
       "options": [
-       "crunchy",
        "soft",
+       "crunchy",
        "purple"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Drink ___ at break.",
       "options": [
-       "water",
+       "glue",
        "sand",
-       "glue"
+       "water"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "To give half to a friend is to …",
       "options": [
-       "share",
        "shout",
+       "share",
        "sleep"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

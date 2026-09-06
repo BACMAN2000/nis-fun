@@ -100,38 +100,38 @@
      {
       "sentence": "Can I have ___ water, please? Just a bit.",
       "options": [
-       "a little",
+       "many",
        "a lot",
-       "many"
+       "a little"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "We need ___ eggs for the cake — six.",
       "options": [
-       "some",
        "a little",
+       "some",
        "a piece of"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "He ate a ___ of cake. It was very big!",
       "options": [
-       "piece",
+       "bag",
        "glass",
-       "bag"
+       "piece"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "After lunch I was completely …",
       "options": [
-       "full",
        "empty",
+       "full",
        "early"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -205,29 +205,29 @@
      {
       "sentence": "\"How much rice?\" — \"Just ___, thanks.\"",
       "options": [
-       "a little",
+       "many",
        "a lot much",
-       "many"
+       "a little"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Potatoes cut and fried are …",
       "options": [
-       "chips",
        "chops",
+       "chips",
        "cheeks"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "There are ___ stars in the sky — millions!",
       "options": [
-       "a lot of",
        "a little",
+       "a lot of",
        "a piece of"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

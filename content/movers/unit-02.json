@@ -182,20 +182,20 @@
      {
       "sentence": "What did they do in the morning?",
       "options": [
-       "flew a kite",
        "played board games",
+       "flew a kite",
        "went swimming"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "What was the weather like in the afternoon?",
       "options": [
-       "sunny and windy",
+       "snowy",
        "rainy and cold",
-       "snowy"
+       "sunny and windy"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Where was the picnic?",
@@ -219,10 +219,10 @@
       "sentence": "What did they see after the rain?",
       "options": [
        "a snowman",
-       "a boat",
-       "a rainbow"
+       "a rainbow",
+       "a boat"
       ],
-      "answer": 2
+      "answer": 1
      }
     ]
    }

@@ -159,11 +159,11 @@
      {
       "sentence": "La nuit j'allume ma …",
       "options": [
-       "lampe",
+       "tapis",
        "oreiller",
-       "tapis"
+       "lampe"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Il ___ une horloge sur le mur.",
@@ -177,29 +177,29 @@
      {
       "sentence": "Ta tête dort sur l'…",
       "options": [
-       "oreiller",
        "étagère",
+       "oreiller",
        "horloge"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Les jouets vivent dans la … à jouets.",
       "options": [
-       "boîte",
        "lit",
+       "boîte",
        "mur"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Quand il fait froid, je dors sous ma …",
       "options": [
-       "couverture",
+       "image",
        "lampe",
-       "image"
+       "couverture"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

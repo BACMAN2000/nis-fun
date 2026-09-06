@@ -163,38 +163,38 @@
      {
       "sentence": "Avant un voyage, tu fais ta …",
       "options": [
-       "valise",
        "étagère",
+       "valise",
        "rideau"
-      ],
-      "answer": 0
-     },
-     {
-      "sentence": "Réserver une chambre d'hôtel, c'est la ___.",
-      "options": [
-       "livre",
-       "lire",
-       "panneau"
-      ],
-      "answer": 0
-     },
-     {
-      "sentence": "On ___ dormir deux nuits.",
-      "options": [
-       "est",
-       "sont",
-       "suis"
       ],
       "answer": 1
      },
      {
-      "sentence": "De notre chambre il y a une belle ___ sur la mer.",
+      "sentence": "Réserver une chambre d'hôtel, c'est la ___.",
       "options": [
-       "vue",
-       "voix",
-       "visiter"
+       "panneau",
+       "lire",
+       "livre"
+      ],
+      "answer": 2
+     },
+     {
+      "sentence": "On ___ dormir deux nuits.",
+      "options": [
+       "sont",
+       "est",
+       "suis"
       ],
       "answer": 0
+     },
+     {
+      "sentence": "De notre chambre il y a une belle ___ sur la mer.",
+      "options": [
+       "visiter",
+       "voix",
+       "vue"
+      ],
+      "answer": 2
      },
      {
       "sentence": "Une maison sur roues est une …",

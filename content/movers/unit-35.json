@@ -91,11 +91,11 @@
      {
       "sentence": "___ kite is this? — It's Sofia's.",
       "options": [
-       "Whose",
+       "Which",
        "Who",
-       "Which"
+       "Whose"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "This robot isn't yours, it's ___!",
@@ -109,20 +109,20 @@
      {
       "sentence": "Is this ball ___, Mateo?",
       "options": [
-       "yours",
        "your",
+       "yours",
        "you"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "That's my ___ doll — she's had it for years.",
       "options": [
-       "sister's",
        "sisters",
+       "sister's",
        "sister"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The bone belongs to Luna. She is the …",
@@ -187,11 +187,11 @@
      {
       "sentence": "\"___ pencil is on the floor?\" — \"It's Ana's.\"",
       "options": [
-       "Whose",
+       "Which of",
        "Who's the",
-       "Which of"
+       "Whose"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "This is Erik's robot. It's ___ favourite toy.",
@@ -205,29 +205,29 @@
      {
       "sentence": "That doll is my sister's. It's ___.",
       "options": [
-       "hers",
        "her",
+       "hers",
        "she"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The classroom games are ___ — they belong to all of us.",
       "options": [
-       "ours",
+       "theirs only",
        "mine",
-       "theirs only"
+       "ours"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The person a thing belongs to is its …",
       "options": [
-       "owner",
        "winner",
+       "owner",
        "driver"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

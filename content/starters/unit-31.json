@@ -91,11 +91,11 @@
      {
       "sentence": "The sun is out. It's …",
       "options": [
-       "sunny",
        "rainy",
+       "sunny",
        "cold"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Take your umbrella — it's …",
@@ -109,11 +109,11 @@
      {
       "sentence": "My kite loves ___ days.",
       "options": [
-       "windy",
+       "wet",
        "quiet",
-       "wet"
+       "windy"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "After rain and sun: a ___!",
@@ -127,11 +127,11 @@
      {
       "sentence": "\"What's the weather like ___?\"",
       "options": [
-       "today",
+       "ten",
        "yellow",
-       "ten"
+       "today"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -187,11 +187,11 @@
      {
       "sentence": "Rain falls from the …",
       "options": [
-       "clouds",
        "sun",
+       "clouds",
        "grass"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "A rainbow has many …",
@@ -205,29 +205,29 @@
      {
       "sentence": "It's cold — put on your …",
       "options": [
-       "jacket",
+       "sunhat",
        "shorts",
-       "sunhat"
+       "jacket"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The wind moves the …",
       "options": [
-       "kites",
        "walls",
+       "kites",
        "floors"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "\"It's hot!\" — \"Let's drink cold ___!\"",
       "options": [
-       "water",
        "soup",
+       "water",
        "tea"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

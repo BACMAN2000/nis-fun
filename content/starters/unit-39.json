@@ -100,38 +100,38 @@
      {
       "sentence": "A football team has ___ players.",
       "options": [
-       "eleven",
+       "thirteen",
        "twenty",
-       "thirteen"
+       "eleven"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Ten plus ten is …",
       "options": [
-       "twenty",
        "twelve",
+       "twenty",
        "fifteen"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "After thirteen comes …",
       "options": [
-       "fourteen",
+       "twelve",
        "fifteen",
-       "twelve"
+       "fourteen"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "One year has ___ months.",
       "options": [
-       "twelve",
        "eleven",
+       "twelve",
        "twenty"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -205,29 +205,29 @@
      {
       "sentence": "Nineteen plus one is …",
       "options": [
-       "twenty",
+       "ninety",
        "eighteen",
-       "ninety"
+       "twenty"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Between eleven and thirteen is …",
       "options": [
-       "twelve",
        "fourteen",
+       "twelve",
        "ten"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "17 in words is …",
       "options": [
-       "seventeen",
        "seventy",
+       "seventeen",
        "seven"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

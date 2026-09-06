@@ -91,11 +91,11 @@
      {
       "sentence": "You hear \"colour the small fish green\". You…",
       "options": [
-       "colour the small fish green",
        "colour all the fish",
+       "colour the small fish green",
        "wait for instructions again"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "You don't understand a word in a question. You…",
@@ -109,11 +109,11 @@
      {
       "sentence": "You finish early. You…",
       "options": [
-       "check your answers again",
+       "draw dinosaurs",
        "sleep",
-       "draw dinosaurs"
+       "check your answers again"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The audio starts. You…",
@@ -127,11 +127,11 @@
      {
       "sentence": "Before the exam you should…",
       "options": [
-       "sleep well and have breakfast",
+       "drink five colas",
        "study all night",
-       "drink five colas"
+       "sleep well and have breakfast"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -187,11 +187,11 @@
      {
       "sentence": "Every listening part starts with an …",
       "options": [
-       "example",
        "exam",
+       "example",
        "exit"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "You hear each recording …",
@@ -205,20 +205,20 @@
      {
       "sentence": "In one part you ___ pictures.",
       "options": [
-       "colour",
        "cut",
+       "colour",
        "cook"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "At the end, ___ your answers.",
       "options": [
-       "check",
+       "forget",
        "change all",
-       "forget"
+       "check"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Nervous? Breathe and stay …",

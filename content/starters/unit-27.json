@@ -91,20 +91,20 @@
      {
       "sentence": "I ___ football with my friends.",
       "options": [
-       "play",
        "go",
+       "play",
        "do"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "___ play basketball after school!",
       "options": [
-       "Let's",
+       "Let",
        "Lets",
-       "Let"
+       "Let's"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Kick the ball into the …",
@@ -118,11 +118,11 @@
      {
       "sentence": "In the pool we go …",
       "options": [
-       "swimming",
        "running",
+       "swimming",
        "reading"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Our ___ wears red shirts.",
@@ -187,29 +187,29 @@
      {
       "sentence": "You kick the ball with your …",
       "options": [
-       "foot",
+       "nose",
        "hand",
-       "nose"
+       "foot"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "In basketball the basket is very …",
       "options": [
-       "high",
+       "wet",
        "small",
-       "wet"
+       "high"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "You swim in the …",
       "options": [
-       "pool",
        "goal",
+       "pool",
        "bag"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The team with more goals …",
@@ -223,11 +223,11 @@
      {
       "sentence": "Tennis uses a ___ ball.",
       "options": [
-       "small",
+       "square",
        "giant",
-       "square"
+       "small"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -308,11 +308,11 @@
       {
        "sentence": "— I like swimming. — ___ do I!",
        "options": [
-        "Very",
+        "So",
         "Too",
-        "So"
+        "Very"
        ],
-       "answer": 2
+       "answer": 0
       },
       {
        "sentence": "— I want a ball. — So do ___!",
@@ -327,10 +327,10 @@
        "sentence": "— I go swimming on Fridays. — So ___ I!",
        "options": [
         "am",
-        "go",
-        "do"
+        "do",
+        "go"
        ],
-       "answer": 2
+       "answer": 1
       },
       {
        "sentence": "Which one is right?",

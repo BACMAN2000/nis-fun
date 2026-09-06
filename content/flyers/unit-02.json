@@ -176,38 +176,38 @@
      {
       "sentence": "Who did Maya go to the museum with?",
       "options": [
-       "her cousin",
        "her aunt",
+       "her cousin",
        "Diego"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "What was in Maya's favourite room?",
       "options": [
        "old paintings",
-       "dinosaur bones",
-       "gold rings"
+       "gold rings",
+       "dinosaur bones"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Where was the restaurant?",
       "options": [
-       "near the bridge",
        "in the stadium",
+       "near the bridge",
        "next to the theatre"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The play at the theatre was about…",
       "options": [
-       "a football team",
+       "a dragon",
        "a museum",
-       "a dragon"
+       "a football team"
       ],
-      "answer": 2
+      "answer": 0
      },
      {
       "sentence": "Who scored the first goal on Sunday?",

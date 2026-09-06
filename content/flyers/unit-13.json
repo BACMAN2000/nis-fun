@@ -164,38 +164,38 @@
      {
       "sentence": "You wait for the train on the …",
       "options": [
-       "platform",
+       "balcony",
        "roof",
-       "balcony"
+       "platform"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "A big fast road between cities is a …",
       "options": [
-       "railway",
        "motorway",
+       "railway",
        "corner"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "When there are too many cars, there is a lot of …",
       "options": [
-       "traffic",
        "weather",
+       "traffic",
        "homework"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "We went to the airport ___ taxi.",
       "options": [
        "on",
-       "by",
-       "at"
+       "at",
+       "by"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Trains travel on the …",

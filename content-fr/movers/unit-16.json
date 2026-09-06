@@ -163,11 +163,11 @@
      {
       "sentence": "Le jour après mardi est …",
       "options": [
-       "mercredi",
        "lundi",
+       "mercredi",
        "vendredi"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Samedi et dimanche sont le …",
@@ -181,29 +181,29 @@
      {
       "sentence": "Mon cours de piano est ___ jeudi.",
       "options": [
-       "sur",
+       "à",
        "dans",
-       "à"
+       "sur"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Si aujourd'hui c'est dimanche, ___ c'est lundi.",
       "options": [
-       "demain",
        "hier",
+       "demain",
        "aujourd'hui"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "« ___ est le match ? » — « Vendredi. »",
       "options": [
-       "Quand",
+       "À qui",
        "Qui",
-       "À qui"
+       "Quand"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

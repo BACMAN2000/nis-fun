@@ -91,20 +91,20 @@
      {
       "sentence": "When I ___ little, I had curly hair.",
       "options": [
-       "was",
        "were",
+       "was",
        "am"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "My grandparents ___ very young in this photo.",
       "options": [
        "was",
-       "were",
-       "are being"
+       "are being",
+       "were"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Luna ___ smaller than a shoe!",
@@ -127,11 +127,11 @@
      {
       "sentence": "The photos ___ black and white in grandpa's time.",
       "options": [
-       "was",
        "were",
+       "was",
        "be"
       ],
-      "answer": 1
+      "answer": 0
      }
     ]
    }
@@ -187,11 +187,11 @@
      {
       "sentence": "You keep photos in an …",
       "options": [
-       "album",
+       "oven",
        "envelope",
-       "oven"
+       "album"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "You take photos with a …",
@@ -205,29 +205,29 @@
      {
       "sentence": "\"Do you ___ your first day of school?\"",
       "options": [
-       "remember",
+       "return",
        "reply",
-       "return"
+       "remember"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "A very young child is a …",
       "options": [
-       "baby",
        "guest",
+       "baby",
        "waiter"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "A moment you keep in your mind is a …",
       "options": [
-       "memory",
+       "medal",
        "menu",
-       "medal"
+       "memory"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

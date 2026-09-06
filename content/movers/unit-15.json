@@ -91,11 +91,11 @@
      {
       "sentence": "Sofia runs very ___ — nobody catches her!",
       "options": [
-       "fast",
        "slow",
+       "fast",
        "high"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Mateo can jump really ___ — over one metre!",
@@ -109,11 +109,11 @@
      {
       "sentence": "Valentina throws the ball very …",
       "options": [
-       "well",
+       "best",
        "good",
-       "best"
+       "well"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The ___ gets a gold medal.",
@@ -127,11 +127,11 @@
      {
       "sentence": "Our ___ wears green shirts.",
       "options": [
-       "team",
+       "goal",
        "medal",
-       "goal"
+       "team"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -187,29 +187,29 @@
      {
       "sentence": "You ___ the ball with your foot.",
       "options": [
-       "kick",
        "catch",
+       "kick",
        "clap"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "You ___ the ball with your hands.",
       "options": [
-       "catch",
+       "run",
        "kick",
-       "run"
+       "catch"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "A competition of speed is a …",
       "options": [
-       "race",
        "rule",
+       "race",
        "roof"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The winner receives a gold …",
@@ -300,46 +300,46 @@
        "sentence": "Sofia is very good ___ tennis.",
        "options": [
         "in",
-        "at",
-        "on"
+        "on",
+        "at"
        ],
-       "answer": 1
+       "answer": 2
       },
       {
        "sentence": "I'm good at ___.",
        "options": [
         "swim",
-        "swims",
-        "swimming"
+        "swimming",
+        "swims"
        ],
-       "answer": 2
+       "answer": 1
       },
       {
        "sentence": "___ you good at catching the ball?",
        "options": [
         "Do",
-        "Are",
-        "Is"
+        "Is",
+        "Are"
        ],
-       "answer": 1
+       "answer": 2
       },
       {
        "sentence": "Mateo isn't very good ___ jumping.",
        "options": [
-        "at",
         "to",
+        "at",
         "for"
        ],
-       "answer": 0
+       "answer": 1
       },
       {
        "sentence": "Which one is right?",
        "options": [
-        "He's good in football.",
+        "He's good at football.",
         "He's good football.",
-        "He's good at football."
+        "He's good in football."
        ],
-       "answer": 2
+       "answer": 0
       }
      ]
     }

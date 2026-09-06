@@ -90,11 +90,11 @@
      {
       "sentence": "« Allô, est-ce que Maya est là ? »",
       "options": [
-       "Ne quitte pas, je vais la chercher.",
        "C'est en verre.",
+       "Ne quitte pas, je vais la chercher.",
        "Deux fois par semaine."
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "« Qui est à l'appareil ? »",
@@ -108,20 +108,20 @@
      {
       "sentence": "« Je peux laisser un message ? »",
       "options": [
-       "Bien sûr, un instant.",
+       "À côté de la banque.",
        "C'est trop lourd.",
-       "À côté de la banque."
+       "Bien sûr, un instant."
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "« Désolé, je crois que vous vous êtes trompé de numéro. »",
       "options": [
-       "Oh, excusez-moi !",
+       "C'est le plus drôle.",
        "Bonne idée !",
-       "C'est le plus drôle."
+       "Oh, excusez-moi !"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "« La ligne est occupée. »",
@@ -186,20 +186,20 @@
      {
       "sentence": "Le téléphone ___ — écoute ce bruit !",
       "options": [
-       "sonne",
        "dort",
+       "sonne",
        "pleut"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Si personne ne répond, tu peux laisser un …",
       "options": [
-       "message",
+       "prix",
        "timbre",
-       "prix"
+       "message"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "« Ne ___ pas, s'il te plaît, je vais chercher mon papa. »",
@@ -213,11 +213,11 @@
      {
       "sentence": "Un téléphone que tu emportes avec toi est un …",
       "options": [
-       "portable",
        "écran",
+       "portable",
        "chaîne"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "J'ai reconnu mamie à sa …",

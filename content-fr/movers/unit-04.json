@@ -90,20 +90,20 @@
      {
       "sentence": "D'abord, Mateo se ___ à sept heures.",
       "options": [
-       "réveille",
        "lave",
+       "réveille",
        "attrape"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Ensuite il se ___ le visage à l'eau froide.",
       "options": [
        "peigne",
-       "lave",
-       "mange"
+       "mange",
+       "lave"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Il s'___ vite — où est cette chaussette ?!",
@@ -117,20 +117,20 @@
      {
       "sentence": "Il prend son ___ : du pain avec de la confiture et du lait.",
       "options": [
-       "une serviette",
        "petit-déjeuner",
+       "une serviette",
        "un peigne"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "À huit heures il ___ le bus scolaire.",
       "options": [
-       "attrape",
+       "sèche",
        "brosse",
-       "sèche"
+       "attrape"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -186,11 +186,11 @@
      {
       "sentence": "Tu te sèches les mains avec une …",
       "options": [
-       "serviette",
        "peigne",
+       "serviette",
        "cuillère"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Elle se ___ les cheveux tous les matins.",
@@ -199,16 +199,16 @@
        "peigne",
        "coiffant"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Le premier repas de la journée est le …",
       "options": [
        "dîner",
-       "petit-déjeuner",
-       "déjeuner"
+       "déjeuner",
+       "petit-déjeuner"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Je m'___ avant l'école : chemise, pantalon, chaussures.",
@@ -222,11 +222,11 @@
      {
       "sentence": "« Dépêche-toi ou tu vas rater le ___ ! »",
       "options": [
-       "bus",
        "serviette",
+       "bus",
        "chaussette"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

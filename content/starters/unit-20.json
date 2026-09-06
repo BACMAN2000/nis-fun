@@ -91,11 +91,11 @@
      {
       "sentence": "This is Nico. ___ name is Nico.",
       "options": [
-       "His",
+       "My",
        "Her",
-       "My"
+       "His"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "This is Freya. ___ hair is yellow.",
@@ -109,29 +109,29 @@
      {
       "sentence": "That is my teacher. ___ name is Miss Lily.",
       "options": [
-       "Her",
        "His",
+       "Her",
        "You"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "My friend shares ___ crayons with me.",
       "options": [
-       "his",
        "he",
+       "his",
        "him"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "A friend who helps is …",
       "options": [
-       "kind",
+       "blue",
        "cold",
-       "blue"
+       "kind"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -196,20 +196,20 @@
      {
       "sentence": "Good friends ___ their toys.",
       "options": [
-       "share",
+       "eat",
        "hide",
-       "eat"
+       "share"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "This is Ana. ___ smile is big.",
       "options": [
-       "Her",
        "His",
+       "Her",
        "My"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "This is Pedro. ___ bag is red.",

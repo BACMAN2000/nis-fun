@@ -88,29 +88,29 @@
      {
       "sentence": "Ce parapluie n'est pas ___. Le mien est rouge.",
       "options": [
-       "le mien",
        "mon",
+       "le mien",
        "moi"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Ce crayon est ___, Diego ?",
       "options": [
        "ton",
-       "le tien",
-       "tu"
+       "tu",
+       "le tien"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "C'est le manteau de Maya. C'est ___.",
       "options": [
-       "son",
        "le sien",
+       "son",
        "le leur"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "___ est ce sac ? — C'est celui d'Oliver.",
@@ -124,11 +124,11 @@
      {
       "sentence": "Ces livres sont à mes parents. Ce sont ___.",
       "options": [
-       "le nôtre",
+       "le leur",
        "le sien",
-       "le leur"
+       "le nôtre"
       ],
-      "answer": 2
+      "answer": 0
      }
     ]
    }
@@ -184,11 +184,11 @@
      {
       "sentence": "C'est la chambre de ma sœur. C'est ___ chambre.",
       "options": [
-       "son",
+       "elle",
        "le sien",
-       "elle"
+       "son"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "La classe est ___ — elle est à nous tous.",
@@ -224,7 +224,7 @@
        "son",
        "leur"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

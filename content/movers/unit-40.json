@@ -91,11 +91,11 @@
      {
       "sentence": "A penguin ___ swim, but it ___ fly.",
       "options": [
-       "can / can't",
        "can't / can",
+       "can / can't",
        "can / can"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Parrots ___ repeat words!",
@@ -109,20 +109,20 @@
      {
       "sentence": "A rabbit ___ hop very fast.",
       "options": [
-       "can",
+       "isn't",
        "can't",
-       "isn't"
+       "can"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Fish ___ walk on land.",
       "options": [
-       "can't",
+       "don't can",
        "can",
-       "don't can"
+       "can't"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "___ dolphins sing? — Yes, in their way!",
@@ -187,29 +187,29 @@
      {
       "sentence": "Birds fly with their …",
       "options": [
-       "wings",
        "tails",
+       "wings",
        "ears"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "A rabbit doesn't walk, it …",
       "options": [
-       "hops",
        "swims",
+       "hops",
        "sings"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "A very intelligent animal is …",
       "options": [
-       "clever",
+       "cloudy",
        "curly",
-       "cloudy"
+       "clever"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The animal you love most is your ___ animal.",
@@ -223,11 +223,11 @@
      {
       "sentence": "Dogs are happy when they move their …",
       "options": [
-       "tail",
        "teeth",
+       "tail",
        "toes"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

@@ -91,20 +91,20 @@
      {
       "sentence": "___ a big clock in the kitchen.",
       "options": [
-       "There is",
        "There are",
+       "There is",
        "It is"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "___ two beds in my room — one is for visits.",
       "options": [
        "There is",
-       "There are",
-       "They are"
+       "They are",
+       "There are"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "___ there a TV in your bedroom?",
@@ -118,20 +118,20 @@
      {
       "sentence": "There ___ four posters on my wall.",
       "options": [
-       "is",
        "are",
+       "is",
        "am"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "There ___ a wardrobe next to the desk.",
       "options": [
-       "is",
        "are",
+       "is",
        "be"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -187,47 +187,47 @@
      {
       "sentence": "You keep your clothes in a …",
       "options": [
-       "wardrobe",
+       "poster",
        "clock",
-       "poster"
+       "wardrobe"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "You do your homework at your …",
       "options": [
-       "bed",
        "desk",
+       "bed",
        "bath"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "The ___ tells you the time.",
       "options": [
-       "clock",
        "poster",
+       "clock",
        "pillow"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "You cook dinner in the …",
       "options": [
        "bathroom",
-       "kitchen",
-       "hall"
+       "hall",
+       "kitchen"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "A picture on your wall is a …",
       "options": [
-       "poster",
+       "desk",
        "wardrobe",
-       "desk"
+       "poster"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

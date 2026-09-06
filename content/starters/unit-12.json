@@ -160,11 +160,11 @@
      {
       "sentence": "I ___ ice cream. It's my favourite!",
       "options": [
-       "like",
+       "am",
        "likes",
-       "am"
+       "like"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "He ___ like fish.",
@@ -178,11 +178,11 @@
      {
       "sentence": "On my birthday I eat …",
       "options": [
-       "cake",
        "soup",
+       "cake",
        "rice"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Pizza has cheese and ___ on top.",
@@ -196,11 +196,11 @@
      {
       "sentence": "\"Do you like bread?\" — \"Yes, I ___!\"",
       "options": [
-       "do",
        "am",
+       "do",
        "like do"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -272,20 +272,20 @@
       {
        "sentence": "— I like cake. — ___!",
        "options": [
-        "Me too",
+        "Too me",
         "I too",
-        "Too me"
+        "Me too"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "— I'm happy today. — Me ___!",
        "options": [
-        "to",
+        "too",
         "two",
-        "too"
+        "to"
        ],
-       "answer": 2
+       "answer": 0
       },
       {
        "sentence": "— I like ice cream. — ___",
@@ -299,20 +299,20 @@
       {
        "sentence": "Tomas likes milk. Nico likes milk. Nico says: ___",
        "options": [
-        "Me too!",
+        "Too!",
         "Me and!",
-        "Too!"
+        "Me too!"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "— I have got a cat. — Me ___! Her name is Pip.",
        "options": [
         "to",
-        "too",
-        "so"
+        "so",
+        "too"
        ],
-       "answer": 1
+       "answer": 2
       }
      ]
     }

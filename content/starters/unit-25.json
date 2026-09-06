@@ -91,20 +91,20 @@
      {
       "sentence": "The cat is ___ the table. On top!",
       "options": [
-       "on",
        "in",
+       "on",
        "under"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The shoes are ___ the bed. Below it!",
       "options": [
-       "under",
+       "in",
        "on",
-       "in"
+       "under"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The pencils are ___ the pencil case. Inside!",
@@ -118,20 +118,20 @@
      {
       "sentence": "\"___ is my ball?\" — \"Under the chair!\"",
       "options": [
-       "Where",
+       "Who",
        "What",
-       "Who"
+       "Where"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The book is ___ the shelf.",
       "options": [
-       "on",
        "in",
+       "on",
        "under"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -196,11 +196,11 @@
      {
       "sentence": "The hat is ___ my head.",
       "options": [
-       "on",
+       "under",
        "in",
-       "under"
+       "on"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The dog sleeps ___ the table.",
@@ -214,20 +214,20 @@
      {
       "sentence": "The juice is ___ the glass.",
       "options": [
-       "in",
        "on",
+       "in",
        "under"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "\"Here\" is close, \"___\" is far.",
       "options": [
-       "there",
+       "the",
        "then",
-       "the"
+       "there"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

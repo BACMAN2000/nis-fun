@@ -163,47 +163,47 @@
      {
       "sentence": "Tu entends le ___ après avoir vu l'éclair.",
       "options": [
-       "brouillard",
        "tonnerre",
+       "brouillard",
        "glace"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Le contraire de mouillé est …",
       "options": [
-       "sec",
        "froid",
+       "sec",
        "venteux"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Hier le vent ___ très fort.",
       "options": [
-       "a soufflé",
+       "a souffli",
        "souffler",
-       "a souffli"
+       "a soufflé"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Le soleil ___ toute la journée hier.",
       "options": [
-       "a brillé",
        "briller",
+       "a brillé",
        "a brilli"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Dans un ___ épais tu devrais marcher lentement.",
       "options": [
-       "brouillard",
+       "arc-en-ciel",
        "soleil",
-       "arc-en-ciel"
+       "brouillard"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

@@ -91,20 +91,20 @@
      {
       "sentence": "How about ___ to the beach?",
       "options": [
-       "go",
        "going",
+       "go",
        "to go"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "___ we play chess after lunch?",
       "options": [
-       "Shall",
        "Do",
+       "Shall",
        "How"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Let's ___ the new museum!",
@@ -118,11 +118,11 @@
      {
       "sentence": "Why ___ we invite the whole class?",
       "options": [
-       "don't",
+       "haven't",
        "aren't",
-       "haven't"
+       "don't"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "I prefer swimming ___ of running.",
@@ -187,11 +187,11 @@
      {
       "sentence": "\"How about going skating?\"",
       "options": [
-       "Great idea!",
        "It's made of wool.",
+       "Great idea!",
        "Twice a week."
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "\"Shall we start now?\"",
@@ -205,29 +205,29 @@
      {
       "sentence": "\"I don't like this game.\"",
       "options": [
-       "Let's play another one, then.",
+       "He's got a beard.",
        "The train is late.",
-       "He's got a beard."
+       "Let's play another one, then."
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "\"Why don't we join the chess club?\"",
       "options": [
-       "Maybe — is it on Fridays?",
        "It's opposite the bank.",
+       "Maybe — is it on Fridays?",
        "She has just arrived."
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "\"Do you agree with the plan?\"",
       "options": [
-       "Yes, totally!",
+       "A quarter past two.",
        "By helicopter.",
-       "A quarter past two."
+       "Yes, totally!"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

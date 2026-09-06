@@ -163,38 +163,38 @@
      {
       "sentence": "Tu attends le train sur le …",
       "options": [
-       "quai",
+       "balcon",
        "toit",
-       "balcon"
+       "quai"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Une grande route rapide entre les villes est une …",
       "options": [
-       "chemin de fer",
        "autoroute",
+       "chemin de fer",
        "coin"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Quand il y a trop de voitures, il y a beaucoup de …",
       "options": [
-       "circulation",
        "météo",
+       "circulation",
        "devoirs"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "On est allés à l'aéroport ___ taxi.",
       "options": [
        "sur",
-       "par",
-       "à"
+       "à",
+       "par"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Les trains roulent sur le …",

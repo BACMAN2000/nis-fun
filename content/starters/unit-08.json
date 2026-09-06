@@ -160,20 +160,20 @@
      {
       "sentence": "You see with your …",
       "options": [
-       "eyes",
        "ears",
+       "eyes",
        "teeth"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "You hear with your …",
       "options": [
-       "ears",
+       "hair",
        "nose",
-       "hair"
+       "ears"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "She ___ got long hair.",
@@ -196,11 +196,11 @@
      {
       "sentence": "A happy mouth makes a …",
       "options": [
-       "smile",
        "nose",
+       "smile",
        "hand"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

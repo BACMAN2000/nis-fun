@@ -100,38 +100,38 @@
      {
       "sentence": "You missed question 3. What now?",
       "options": [
-       "Keep listening and return to it in the second playing",
        "Stop and think about it for two minutes",
+       "Keep listening and return to it in the second playing",
        "Cry a little"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The gap asks for a number and you hear \"forty\". You write…",
       "options": [
-       "40",
+       "4",
        "fourteen",
-       "4"
+       "40"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Before the audio starts, you should…",
       "options": [
-       "read the questions quickly",
+       "count the pages",
        "close your eyes",
-       "count the pages"
+       "read the questions quickly"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "In the colouring part, you need…",
       "options": [
-       "coloured pencils ready",
        "a calculator",
+       "coloured pencils ready",
        "scissors"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -205,29 +205,29 @@
      {
       "sentence": "Write your answers with a …",
       "options": [
-       "pencil",
        "brush",
+       "pencil",
        "spoon"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "An empty space where you write a word is a …",
       "options": [
-       "gap",
+       "step",
        "queue",
-       "step"
+       "gap"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Before the exam, take a deep breath and …",
       "options": [
-       "relax",
        "run",
+       "relax",
        "shout"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

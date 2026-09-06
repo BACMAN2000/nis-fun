@@ -94,20 +94,20 @@
      {
       "sentence": "Hurry up! The bus has ___ arrived — I can see it!",
       "options": [
-       "just",
        "yet",
+       "just",
        "for"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "I've ___ done my homework, so I can play now.",
       "options": [
-       "yet",
        "already",
+       "yet",
        "ever"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Oliver hasn't found his guitar ___.",
@@ -191,19 +191,19 @@
       "sentence": "I ___ my umbrella at school!",
       "options": [
        "have forgot",
-       "have forgotten",
-       "has forgotten"
+       "has forgotten",
+       "have forgotten"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Maya ___ that film three times.",
       "options": [
-       "has seen",
+       "has saw",
        "have seen",
-       "has saw"
+       "has seen"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "They ___ to the funfair yet.",
@@ -218,10 +218,10 @@
       "sentence": "___ you ever ___ a famous person?",
       "options": [
        "Have / meet",
-       "Has / met",
-       "Have / met"
+       "Have / met",
+       "Has / met"
       ],
-      "answer": 2
+      "answer": 1
      },
      {
       "sentence": "Look! Kili ___ another letter.",

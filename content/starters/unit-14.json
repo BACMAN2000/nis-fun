@@ -91,11 +91,11 @@
      {
       "sentence": "___ I have some water, please?",
       "options": [
-       "Can",
+       "Is",
        "Am",
-       "Is"
+       "Can"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "\"Here you are!\" — \"___!\"",
@@ -109,20 +109,20 @@
      {
       "sentence": "When you need a drink, you are …",
       "options": [
-       "thirsty",
        "sleepy",
+       "thirsty",
        "funny"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Milk goes in a ___ or a glass.",
       "options": [
-       "cup",
+       "box",
        "bag",
-       "box"
+       "cup"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Lemonade is ___ and sweet.",
@@ -187,29 +187,29 @@
      {
       "sentence": "Cows give us …",
       "options": [
-       "milk",
        "juice",
+       "milk",
        "lemonade"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "On a cold day I drink hot …",
       "options": [
-       "chocolate",
+       "lemonade",
        "ice",
-       "lemonade"
+       "chocolate"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Juice comes from …",
       "options": [
-       "fruit",
        "fish",
+       "fruit",
        "bread"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "You drink water from a …",
@@ -310,37 +310,37 @@
        "sentence": "Would you like ___ apple?",
        "options": [
         "a",
-        "an",
-        "the"
+        "the",
+        "an"
        ],
-       "answer": 1
+       "answer": 2
       },
       {
        "sentence": "Would you like ___ play with my ball?",
        "options": [
-        "to",
         "for",
+        "to",
         "and"
        ],
-       "answer": 0
+       "answer": 1
       },
       {
        "sentence": "— Would you like some cake? — ___",
        "options": [
         "Yes, I would like.",
-        "Yes, please!",
-        "Yes, I do like."
+        "Yes, I do like.",
+        "Yes, please!"
        ],
-       "answer": 1
+       "answer": 2
       },
       {
        "sentence": "I ___ like some water, please.",
        "options": [
-        "am",
         "would",
+        "am",
         "do"
        ],
-       "answer": 1
+       "answer": 0
       }
      ]
     }

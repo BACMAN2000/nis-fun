@@ -164,10 +164,10 @@
       "sentence": "Quand tu es content, tu …",
       "options": [
        "pleurer",
-       "sourire",
-       "crier"
+       "crier",
+       "sourire"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Quand quelque chose est très drôle, tu …",
@@ -190,11 +190,11 @@
      {
       "sentence": "Un bon ___ peut faire du bien à un ami triste.",
       "options": [
-       "câlin",
        "tempête",
+       "câlin",
        "timbre"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "___ je suis inquiet, je parle à ma mère.",

@@ -90,20 +90,20 @@
      {
       "sentence": "Le chat est ___ la table. Dessus !",
       "options": [
-       "sur",
        "dans",
+       "sur",
        "sous"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Les chaussures sont ___ le lit. En dessous !",
       "options": [
-       "sous",
+       "dans",
        "sur",
-       "dans"
+       "sous"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Les crayons sont ___ la trousse. Dedans !",
@@ -117,20 +117,20 @@
      {
       "sentence": "« ___ est mon ballon ? » — « Sous la chaise ! »",
       "options": [
-       "Où",
+       "Qui",
        "Quoi",
-       "Qui"
+       "Où"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Le livre est ___ l'étagère.",
       "options": [
-       "sur",
        "dans",
+       "sur",
        "sous"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -195,11 +195,11 @@
      {
       "sentence": "Le chapeau est ___ ma tête.",
       "options": [
-       "sur",
+       "sous",
        "dans",
-       "sous"
+       "sur"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Le chien dort ___ la table.",
@@ -213,20 +213,20 @@
      {
       "sentence": "Le jus est ___ le verre.",
       "options": [
-       "dans",
        "sur",
+       "dans",
        "sous"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "« Ici » c'est près, « ___ » c'est loin.",
       "options": [
-       "là",
+       "le",
        "ensuite",
-       "le"
+       "là"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

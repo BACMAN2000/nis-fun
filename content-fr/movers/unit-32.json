@@ -90,20 +90,20 @@
      {
       "sentence": "La moitié de cent est …",
       "options": [
-       "cinquante",
        "quarante",
+       "cinquante",
        "soixante"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Vingt plus dix font …",
       "options": [
-       "trente",
+       "cinquante",
        "quarante",
-       "cinquante"
+       "trente"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Papi a ___ ans : 7-0.",
@@ -117,11 +117,11 @@
      {
       "sentence": "Il y a ___ minutes dans une heure.",
       "options": [
-       "soixante",
+       "trente",
        "soixante-dix",
-       "trente"
+       "soixante"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "___ y a-t-il de marches ? — Quarante-deux !",
@@ -186,20 +186,20 @@
      {
       "sentence": "10, 20, 30, ___ …",
       "options": [
-       "quarante",
        "quatorze",
+       "quarante",
        "quatre"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Un siècle = ___ ans.",
       "options": [
-       "cent",
        "mille",
+       "cent",
        "quatre-vingt-dix"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "80 en lettres, c'est …",
@@ -213,20 +213,20 @@
      {
       "sentence": "Dire les nombres un par un, c'est …",
       "options": [
-       "compter",
+       "porter",
        "couper",
-       "porter"
+       "compter"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Cinquante plus quarante font …",
       "options": [
-       "quatre-vingt-dix",
+       "soixante-dix",
        "soixante",
-       "soixante-dix"
+       "quatre-vingt-dix"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

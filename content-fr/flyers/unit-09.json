@@ -163,20 +163,20 @@
      {
       "sentence": "Tu gardes la nourriture au froid dans le …",
       "options": [
-       "étagère",
        "frigo",
+       "étagère",
        "toit"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Si l'ascenseur est en panne, prends l'…",
       "options": [
-       "escalier",
        "portail",
+       "escalier",
        "balcon"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "La pièce sous la maison, c'est le …",
@@ -190,20 +190,20 @@
      {
       "sentence": "Le chat est ___ les deux chaises.",
       "options": [
-       "entre",
        "dedans",
+       "entre",
        "sur"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Tu ouvres le ___ pour entrer dans le jardin.",
       "options": [
        "frigo",
-       "portail",
-       "étagère"
+       "étagère",
+       "portail"
       ],
-      "answer": 1
+      "answer": 2
      }
     ]
    }

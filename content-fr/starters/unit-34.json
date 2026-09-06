@@ -90,20 +90,20 @@
      {
       "sentence": "Le petit-déjeuner est le …",
       "options": [
-       "matin",
+       "après-midi",
        "nuit",
-       "après-midi"
+       "matin"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Je bois le lait dans une …",
       "options": [
-       "tasse",
        "assiette",
+       "tasse",
        "boîte"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Je mange les céréales avec une …",
@@ -126,11 +126,11 @@
      {
       "sentence": "Le ___ d'orange est ma boisson préférée.",
       "options": [
-       "jus",
        "soupe",
+       "jus",
        "sable"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -186,11 +186,11 @@
      {
       "sentence": "Le premier repas de la journée est le …",
       "options": [
-       "petit-déjeuner",
+       "déjeuner",
        "dîner",
-       "déjeuner"
+       "petit-déjeuner"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "La confiture est …",
@@ -204,29 +204,29 @@
      {
       "sentence": "Les vaches nous donnent du …",
       "options": [
-       "lait",
        "jus",
+       "lait",
        "confiture"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Les poules nous donnent des …",
       "options": [
-       "œufs",
+       "bananes",
        "pain",
-       "bananes"
+       "œufs"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "« Qu'est-ce que tu ___ au petit-déjeuner ? »",
       "options": [
-       "avoir",
+       "fais être",
        "a",
-       "fais être"
+       "avoir"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

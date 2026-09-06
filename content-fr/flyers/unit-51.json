@@ -90,20 +90,20 @@
      {
       "sentence": "« Parle-moi de ta famille. »",
       "options": [
-       "J'habite avec mes parents et ma petite sœur.",
        "Oui.",
+       "J'habite avec mes parents et ma petite sœur.",
        "À deux heures et demie."
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "« Qu'est-ce que tu fais le week-end ? »",
       "options": [
-       "D'habitude je joue au football et je vais voir ma mamie.",
+       "C'est trop lourd.",
        "Bleu.",
-       "C'est trop lourd."
+       "D'habitude je joue au football et je vais voir ma mamie."
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "« Quelle est ta matière préférée ? »",
@@ -117,11 +117,11 @@
      {
       "sentence": "« Tu as un animal ? »",
       "options": [
-       "Oui, une chatte qui s'appelle Misha. Elle est très paresseuse !",
        "C'est en face de la banque.",
+       "Oui, une chatte qui s'appelle Misha. Elle est très paresseuse !",
        "Quatre-vingt-douze cuillères."
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "« Qu'est-ce que tu as fait hier ? »",
@@ -186,20 +186,20 @@
      {
       "sentence": "Ton nom de famille est ton …",
       "options": [
-       "nom de famille",
+       "âge",
        "passe-temps",
-       "âge"
+       "nom de famille"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "La ville où tu es né est ta ville …",
       "options": [
-       "ville natale",
        "devoirs",
+       "ville natale",
        "foyer"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "« Quel ___ as-tu ? » — « J'ai douze ans. »",
@@ -213,20 +213,20 @@
      {
       "sentence": "Parle de ___ : ce que tu aimes, ta famille, ton école.",
       "options": [
-       "toi-même",
+       "soi-même",
        "lui-même",
-       "soi-même"
+       "toi-même"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "« Quelle est ta ___ préférée ? » — « Le vert ! »",
       "options": [
-       "préféré",
        "le plus lourd",
+       "préféré",
        "le pire"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

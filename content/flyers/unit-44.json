@@ -91,29 +91,29 @@
      {
       "sentence": "We ___ in the queue for twenty minutes.",
       "options": [
-       "stood",
        "stand",
+       "stood",
        "standed"
-      ],
-      "answer": 0
-     },
-     {
-      "sentence": "Diego ___ three tickets for the big wheel.",
-      "options": [
-       "buyed",
-       "bought",
-       "buy"
       ],
       "answer": 1
      },
      {
-      "sentence": "Ingrid ___ a giant teddy at the ring game!",
+      "sentence": "Diego ___ three tickets for the big wheel.",
       "options": [
-       "won",
-       "win",
-       "winned"
+       "bought",
+       "buyed",
+       "buy"
       ],
       "answer": 0
+     },
+     {
+      "sentence": "Ingrid ___ a giant teddy at the ring game!",
+      "options": [
+       "winned",
+       "win",
+       "won"
+      ],
+      "answer": 2
      },
      {
       "sentence": "Oliver's balloon ___ up into the clouds.",
@@ -128,10 +128,10 @@
       "sentence": "We ___ all our money, but it was worth it!",
       "options": [
        "spended",
-       "spent",
-       "spend"
+       "spend",
+       "spent"
       ],
-      "answer": 1
+      "answer": 2
      }
     ]
    }
@@ -187,20 +187,20 @@
      {
       "sentence": "The line of people waiting is the …",
       "options": [
-       "queue",
        "view",
+       "queue",
        "voice"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The sweet pink cloud on a stick is …",
       "options": [
-       "candy floss",
        "yoghurt",
+       "candy floss",
        "cereal"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The ride that goes up, down and loops is the …",
@@ -214,11 +214,11 @@
      {
       "sentence": "You need a ___ to enter each ride.",
       "options": [
-       "ticket",
+       "spoon",
        "stamp",
-       "spoon"
+       "ticket"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The big wheel ___ slowly while we watched the town.",

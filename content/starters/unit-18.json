@@ -169,38 +169,38 @@
      {
       "sentence": "You make castles with …",
       "options": [
-       "sand",
+       "shells",
        "water",
-       "shells"
+       "sand"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "A ___ sails on the sea.",
       "options": [
-       "boat",
        "bike",
+       "boat",
        "bus"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "There ___ many fish in the sea.",
       "options": [
-       "are",
+       "am",
        "is",
-       "am"
+       "are"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Fish can ___ very well.",
       "options": [
-       "swim",
        "fly",
+       "swim",
        "sing"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

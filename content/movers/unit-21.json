@@ -100,38 +100,38 @@
      {
       "sentence": "The clock is ___ the door, up on the wall.",
       "options": [
-       "above",
+       "between",
        "under",
-       "between"
+       "above"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The bin is ___ the desk and the wall.",
       "options": [
-       "between",
        "on",
+       "between",
        "in"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "My bag is ___ the chair — you can't see it from here.",
       "options": [
-       "behind",
+       "on",
        "above",
-       "on"
+       "behind"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The keys are ___ the drawer, inside.",
       "options": [
-       "in",
        "on",
+       "in",
        "next to"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -196,11 +196,11 @@
      {
       "sentence": "The fish is ___ the water.",
       "options": [
-       "in",
+       "above",
        "on",
-       "above"
+       "in"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The opposite of here is …",
@@ -214,20 +214,20 @@
      {
       "sentence": "B is ___ A and C in the alphabet.",
       "options": [
-       "between",
        "behind",
+       "between",
        "under"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The sun is ___ the clouds today.",
       "options": [
-       "behind",
+       "next to",
        "in front of",
-       "next to"
+       "behind"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

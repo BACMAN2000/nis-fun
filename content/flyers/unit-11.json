@@ -164,20 +164,20 @@
      {
       "sentence": "A ___ writes news for TV or newspapers.",
       "options": [
-       "journalist",
+       "waiter",
        "dentist",
-       "waiter"
+       "journalist"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "A pilot ___ a plane.",
       "options": [
-       "fly",
        "flies",
+       "fly",
        "flying"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "This person cooks food in a restaurant.",
@@ -191,11 +191,11 @@
      {
       "sentence": "An engineer ___ bridges and machines.",
       "options": [
-       "designs",
        "design",
+       "designs",
        "designing"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The person who is the boss of a shop is the …",

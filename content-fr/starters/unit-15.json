@@ -159,11 +159,11 @@
      {
       "sentence": "___ tu un animal ?",
       "options": [
-       "Avoir",
        "Sont",
+       "Avoir",
        "Fais as"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Un lapin a de longues …",
@@ -177,11 +177,11 @@
      {
       "sentence": "Un poisson vit dans …",
       "options": [
-       "eau",
+       "un arbre",
        "un lit",
-       "un arbre"
+       "eau"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Un chien content remue sa …",
@@ -195,11 +195,11 @@
      {
       "sentence": "Un animal de compagnie est un petit …",
       "options": [
-       "ami",
+       "chaise",
        "jouet",
-       "chaise"
+       "ami"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

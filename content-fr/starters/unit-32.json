@@ -90,20 +90,20 @@
      {
       "sentence": "Le premier jour d'école est …",
       "options": [
-       "lundi",
        "dimanche",
+       "lundi",
        "vendredi"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Après mardi vient …",
       "options": [
-       "mercredi",
+       "dimanche",
        "lundi",
-       "dimanche"
+       "mercredi"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Les jours du week-end sont samedi et …",
@@ -117,11 +117,11 @@
      {
       "sentence": "Ma fête est ___ samedi.",
       "options": [
-       "sur",
+       "à",
        "dans",
-       "à"
+       "sur"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Une semaine a ___ jours.",
@@ -186,20 +186,20 @@
      {
       "sentence": "Hier, ___, demain.",
       "options": [
-       "aujourd'hui",
        "dimanche",
+       "aujourd'hui",
        "semaine"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Avant vendredi vient …",
       "options": [
-       "jeudi",
        "samedi",
+       "jeudi",
        "lundi"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Si aujourd'hui c'est samedi, demain c'est …",
@@ -213,20 +213,20 @@
      {
       "sentence": "Les jours d'école vont de lundi à …",
       "options": [
-       "vendredi",
+       "samedi",
        "dimanche",
-       "samedi"
+       "vendredi"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Sept jours font une …",
       "options": [
-       "semaine",
+       "année",
        "jour",
-       "année"
+       "semaine"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

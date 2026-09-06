@@ -164,47 +164,47 @@
      {
       "sentence": "You hear ___ after you see lightning.",
       "options": [
-       "fog",
        "thunder",
+       "fog",
        "ice"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "The opposite of wet is …",
       "options": [
-       "dry",
        "cold",
+       "dry",
        "windy"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Yesterday the wind ___ very hard.",
       "options": [
-       "blew",
+       "blowed",
        "blow",
-       "blowed"
+       "blew"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The sun ___ all day yesterday.",
       "options": [
-       "shone",
        "shine",
+       "shone",
        "shined"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "In thick ___ you should walk slowly.",
       "options": [
-       "fog",
+       "rainbow",
        "sun",
-       "rainbow"
+       "fog"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

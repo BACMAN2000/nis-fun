@@ -99,38 +99,38 @@
      {
       "sentence": "Freya est une …",
       "options": [
-       "fille",
        "garçon",
+       "fille",
        "homme"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Mon papa est un …",
       "options": [
-       "homme",
+       "bébé",
        "femme",
-       "bébé"
+       "homme"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Une personne, plusieurs …",
       "options": [
-       "gens",
        "personne",
+       "gens",
        "gentes"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "« Quel est ton ___ ? » — « Tomás ! »",
       "options": [
-       "nom",
+       "nombre",
        "couleur",
-       "nombre"
+       "nom"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -195,11 +195,11 @@
      {
       "sentence": "Mamie est une …",
       "options": [
-       "femme",
        "homme",
+       "femme",
        "garçon"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "La plus petite personne de la famille est le …",
@@ -213,20 +213,20 @@
      {
       "sentence": "Plusieurs personnes ensemble sont des …",
       "options": [
-       "gens",
+       "enfantes",
        "gentes",
-       "enfantes"
+       "gens"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Tomás et Nico sont deux …",
       "options": [
-       "garçons",
+       "femmes",
        "filles",
-       "femmes"
+       "garçons"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

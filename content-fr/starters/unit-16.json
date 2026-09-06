@@ -159,11 +159,11 @@
      {
       "sentence": "La vache fait …",
       "options": [
-       "meuh",
        "miaou",
+       "meuh",
        "ouaf"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Les œufs viennent de la …",
@@ -177,29 +177,29 @@
      {
       "sentence": "Le mouton nous donne de la …",
       "options": [
-       "laine",
+       "jus",
        "œufs",
-       "jus"
+       "laine"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Le cochon adore la …",
       "options": [
-       "boue",
        "ciel",
+       "boue",
        "étagère"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Les vaches mangent de l'…",
       "options": [
-       "herbe",
+       "poisson",
        "gâteau",
-       "poisson"
+       "herbe"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

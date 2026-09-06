@@ -164,20 +164,20 @@
      {
       "sentence": "The year has ___ seasons.",
       "options": [
-       "four",
+       "twelve",
        "seven",
-       "twelve"
+       "four"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The leaves fall in …",
       "options": [
-       "autumn",
        "spring",
+       "autumn",
        "summer"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "A ___ has seven colours.",
@@ -200,11 +200,11 @@
      {
       "sentence": "\"What's the weather like?\" — \"___ cloudy.\"",
       "options": [
-       "It's",
        "He's",
+       "It's",
        "I'm"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

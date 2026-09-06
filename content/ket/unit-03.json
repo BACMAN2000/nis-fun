@@ -91,11 +91,11 @@
      {
       "q": "Why is Liam writing to Sam?",
       "options": [
-       "to reply to Sam's email",
        "to invite Sam to Peru",
+       "to reply to Sam's email",
        "to say goodbye"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "q": "When does Liam play football?",
@@ -109,11 +109,11 @@
      {
       "q": "Which book is Liam's class reading?",
       "options": [
-       "Charlie and the Chocolate Factory",
+       "Matilda",
        "Charlotte's Web",
-       "Matilda"
+       "Charlie and the Chocolate Factory"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "q": "Who is Liam's best friend?",
@@ -127,11 +127,11 @@
      {
       "q": "What does Liam ask Sam?",
       "options": [
-       "what he does in his free time",
        "how old he is",
+       "what he does in his free time",
        "where his house is"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -177,20 +177,20 @@
       {
        "sentence": "___ you like reading?",
        "options": [
-        "Do",
+        "Are",
         "Does",
-        "Are"
+        "Do"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "Where ___ your cousin live?",
        "options": [
-        "does",
+        "is",
         "do",
-        "is"
+        "does"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "What ___ your favourite hobby?",
@@ -204,20 +204,20 @@
       {
        "sentence": "Does Liam ___ football?",
        "options": [
-        "play",
         "plays",
+        "play",
         "playing"
        ],
-       "answer": 0
+       "answer": 1
       },
       {
        "sentence": "___ your friends from many countries?",
        "options": [
-        "Are",
         "Do",
+        "Are",
         "Does"
        ],
-       "answer": 0
+       "answer": 1
       }
      ]
     }
@@ -303,11 +303,11 @@
      {
       "sentence": "Email from Sam: “Got your message! I'll write a long reply this weekend.”",
       "options": [
-       "Sam will answer Liam soon.",
+       "Sam wants to stop writing.",
        "Sam didn't get the message.",
-       "Sam wants to stop writing."
+       "Sam will answer Liam soon."
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Note on the club board: “Reading club moves to the library from today.”",
@@ -330,20 +330,20 @@
      {
       "sentence": "Sign: “Please put your letters in the blue box before 9 a.m.”",
       "options": [
-       "Post your letters in the blue box in the morning.",
+       "Letters cost more after 9 a.m.",
        "The blue box is closed today.",
-       "Letters cost more after 9 a.m."
+       "Post your letters in the blue box in the morning."
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Message from Mum: “I've posted your pen-friend letter today.”",
       "options": [
-       "Mum has sent the letter.",
        "Mum forgot the letter.",
+       "Mum has sent the letter.",
        "Mum needs a stamp."
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

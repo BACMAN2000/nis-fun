@@ -99,38 +99,38 @@
      {
       "sentence": "La baleine bleue est le ___ animal du monde.",
       "options": [
-       "plus grand",
        "le plus grand",
+       "plus grand",
        "plus grand"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "C'est le musée le ___ intéressant de la ville.",
       "options": [
-       "le plus",
+       "beaucoup",
        "plus",
-       "beaucoup"
+       "le plus"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Lundi a été le ___ jour de ma semaine — tout est allé de travers !",
       "options": [
-       "le pire",
+       "mauvais",
        "pire",
-       "mauvais"
+       "le pire"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Kili est le ___ facteur de tous les temps !",
       "options": [
-       "plus drôle",
        "le plus drôle",
+       "plus drôle",
        "plus drôle"
       ],
-      "answer": 1
+      "answer": 0
      }
     ]
    }
@@ -186,29 +186,29 @@
      {
       "sentence": "Un moment spécial dont tu te souviens toujours est un …",
       "options": [
-       "mémoire",
        "tâche ménagère",
+       "mémoire",
        "chaîne"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "« C'est la meilleure pizza ___ ! »",
       "options": [
-       "déjà",
        "jamais",
+       "déjà",
        "encore"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "La souris est un des ___ animaux de la ferme.",
       "options": [
-       "le plus petit",
+       "le plus petits",
        "plus petit",
-       "le plus petits"
+       "le plus petit"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "La partie la ___ passionnante du film était la fin.",
@@ -222,11 +222,11 @@
      {
       "sentence": "Ma ___ matière est les maths — j'ai toujours de mauvaises notes !",
       "options": [
-       "le pire",
        "le meilleur",
+       "le pire",
        "le plus grand"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

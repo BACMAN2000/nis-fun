@@ -91,20 +91,20 @@
      {
       "q": "What are Poe's stories about?",
       "options": [
-       "people who make bad choices and the consequences",
+       "famous animals in a zoo",
        "happy families on holiday",
-       "famous animals in a zoo"
+       "people who make bad choices and the consequences"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "q": "What happens to the main character in The Black Cat?",
       "options": [
-       "He changes and everything goes wrong.",
        "He becomes rich and famous.",
+       "He changes and everything goes wrong.",
        "He moves to a new city."
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "q": "What did Nadia say about choices?",
@@ -118,11 +118,11 @@
      {
       "q": "According to the text, if you help a classmate today,…",
       "options": [
-       "they will probably help you tomorrow",
        "nothing will happen",
+       "they will probably help you tomorrow",
        "you will feel sad"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "q": "What is the main message of the article?",
@@ -177,11 +177,11 @@
       {
        "sentence": "If you heat water to 100°C, it ___.",
        "options": [
-        "boils",
+        "boiled",
         "will boil",
-        "boiled"
+        "boils"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "If we finish the project early, we ___ a game.",
@@ -195,29 +195,29 @@
       {
        "sentence": "You won't pass the exam ___ you study.",
        "options": [
-        "unless",
+        "when",
         "if",
-        "when"
+        "unless"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "If Nadia ___ the poster, it will look great.",
        "options": [
-        "makes",
         "will make",
+        "makes",
         "made"
        ],
-       "answer": 0
+       "answer": 1
       },
       {
        "sentence": "If you tell a small lie, you often ___ to tell a bigger one.",
        "options": [
-        "have",
         "will have",
+        "have",
         "had"
        ],
-       "answer": 0
+       "answer": 1
       }
      ]
     }
@@ -303,11 +303,11 @@
      {
       "sentence": "Library notice: “Reading club books must be returned within two weeks.”",
       "options": [
-       "You can keep a club book for a maximum of two weeks.",
+       "Club books cost two euros.",
        "You must finish the book in two weeks.",
-       "Club books cost two euros."
+       "You can keep a club book for a maximum of two weeks."
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Message to the club: “Can't come today — I'll send my notes to Liam.”",
@@ -321,20 +321,20 @@
      {
       "sentence": "Sign: “Please switch off phones during the discussion.”",
       "options": [
-       "You mustn't use your phone in the discussion.",
+       "You can text quietly.",
        "Phones are banned from the library.",
-       "You can text quietly."
+       "You mustn't use your phone in the discussion."
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Email from teacher: “If you haven't chosen a story, do it before Friday.”",
       "options": [
-       "Choose a story by Friday if you haven't already.",
        "Everyone has already chosen a story.",
+       "Choose a story by Friday if you haven't already.",
        "There is no story this week."
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Note: “The scary film is only for students with permission.”",

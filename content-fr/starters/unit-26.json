@@ -90,20 +90,20 @@
      {
       "sentence": "Freya ___ un bateau.",
       "options": [
-       "est",
+       "suis",
        "sont",
-       "suis"
+       "est"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Les enfants ___ jusqu'à vingt.",
       "options": [
-       "sont",
        "est",
+       "sont",
        "suis"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "J'___ mon prénom.",
@@ -126,11 +126,11 @@
      {
       "sentence": "Nous ___ le français !",
       "options": [
-       "apprenons",
        "apprendre",
+       "apprenons",
        "apprend"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -186,11 +186,11 @@
      {
       "sentence": "Tu ___ un livre avec tes yeux.",
       "options": [
-       "lire",
+       "peindre",
        "manger",
-       "peindre"
+       "lire"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Tu ___ le papier avec des ciseaux.",
@@ -204,20 +204,20 @@
      {
       "sentence": "Le maître demande, les enfants …",
       "options": [
-       "réponse",
+       "courir",
        "dormir",
-       "courir"
+       "réponse"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Un, deux, trois… je …",
       "options": [
-       "compte",
        "découpe",
+       "compte",
        "ferme"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "À l'école on ___ de nouvelles choses tous les jours.",

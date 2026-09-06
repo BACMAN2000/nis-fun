@@ -94,20 +94,20 @@
      {
       "sentence": "Dépêche-toi ! Le bus ___ d'arriver — je le vois !",
       "options": [
-       "juste",
        "encore",
+       "juste",
        "pour"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "J'ai ___ fait mes devoirs, alors je peux jouer maintenant.",
       "options": [
-       "encore",
        "déjà",
+       "encore",
        "déjà"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Oliver n'a ___ trouvé sa guitare.",
@@ -191,19 +191,19 @@
       "sentence": "J'___ mon parapluie à l'école !",
       "options": [
        "ai oublié le",
-       "ai oublié",
-       "a oublié"
+       "a oublié",
+       "ai oublié"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Maya ___ ce film trois fois.",
       "options": [
-       "a vu",
+       "a voyu",
        "ont vu",
-       "a voyu"
+       "a vu"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Ils ne ___ pas encore allés à la fête foraine.",
@@ -218,10 +218,10 @@
       "sentence": "Est-ce que tu ___ déjà ___ une personne célèbre ?",
       "options": [
        "as / rencontrer",
-       "a / rencontré",
-       "as / rencontré"
+       "as / rencontré",
+       "a / rencontré"
       ],
-      "answer": 2
+      "answer": 1
      },
      {
       "sentence": "Regarde ! Kili ___ une autre lettre.",

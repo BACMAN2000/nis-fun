@@ -90,11 +90,11 @@
      {
       "sentence": "Il ___ un sandwich dans ma boîte.",
       "options": [
-       "est",
+       "suis",
        "sont",
-       "suis"
+       "est"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Il ___ deux biscuits aujourd'hui !",
@@ -108,20 +108,20 @@
      {
       "sentence": "Je nettoie mes mains avec une …",
       "options": [
-       "serviette",
        "carotte",
+       "serviette",
        "biscuit"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Les bons amis ___ leurs biscuits.",
       "options": [
-       "partager",
        "cacher",
+       "partager",
        "lancer"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Mon sandwich est très …",
@@ -186,11 +186,11 @@
      {
       "sentence": "Tu emportes ton goûter dans une …",
       "options": [
-       "boîte à goûter",
+       "chaussure",
        "trousse",
-       "chaussure"
+       "boîte à goûter"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Une pomme est un …",
@@ -204,29 +204,29 @@
      {
       "sentence": "Les carottes sont ___ et orange.",
       "options": [
-       "croquantes",
        "molles",
+       "croquantes",
        "violet"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Bois de l'___ à la récré.",
       "options": [
-       "eau",
+       "colle",
        "sable",
-       "colle"
+       "eau"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Donner la moitié à un ami, c'est …",
       "options": [
-       "partager",
        "crier",
+       "partager",
        "dormir"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

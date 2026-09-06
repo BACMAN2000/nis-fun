@@ -173,10 +173,10 @@
       "sentence": "Une toute petite rivière est un …",
       "options": [
        "cascade",
-       "ruisseau",
-       "inondation"
+       "inondation",
+       "ruisseau"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Il ___ deux tentes à côté des arbres.",
@@ -190,11 +190,11 @@
      {
       "sentence": "Les chauves-souris dorment dans des … sombres.",
       "options": [
-       "grottes",
+       "chemins",
        "ruisseaux",
-       "chemins"
+       "grottes"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "On a marché le long du ___ à travers le bois.",

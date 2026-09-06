@@ -160,11 +160,11 @@
      {
       "sentence": "A banana is …",
       "options": [
-       "yellow",
+       "black",
        "blue",
-       "black"
+       "yellow"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "One apple, two …",
@@ -178,20 +178,20 @@
      {
       "sentence": "A watermelon is ___ inside.",
       "options": [
-       "red",
        "yellow",
+       "red",
        "white"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Orange fruit + water = orange …",
       "options": [
-       "juice",
+       "soup",
        "cake",
-       "soup"
+       "juice"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Fruit is ___ and healthy.",

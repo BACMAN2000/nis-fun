@@ -100,29 +100,29 @@
      {
       "sentence": "6:30 is ___ past six.",
       "options": [
-       "half",
        "quarter",
+       "half",
        "thirty"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "School starts at eight ___ exactly.",
       "options": [
-       "o'clock",
+       "half",
        "hours",
-       "half"
+       "o'clock"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "You wear a ___ on your wrist to see the time.",
       "options": [
-       "watch",
+       "ring",
        "clock",
-       "ring"
+       "watch"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The film starts at 6:00. We arrived at 6:20 — too ___!",
@@ -187,11 +187,11 @@
      {
       "sentence": "The sun comes up in the …",
       "options": [
-       "morning",
        "evening",
+       "morning",
        "night"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "After the afternoon comes the …",
@@ -205,29 +205,29 @@
      {
       "sentence": "9:30 is half past …",
       "options": [
-       "nine",
+       "eight",
        "ten",
-       "eight"
+       "nine"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The big ___ on the wall says it's lunch time.",
       "options": [
-       "clock",
        "watch",
+       "clock",
        "phone"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The opposite of late is …",
       "options": [
-       "early",
+       "first",
        "fast",
-       "first"
+       "early"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

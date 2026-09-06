@@ -91,38 +91,38 @@
      {
       "sentence": "He is very tall and thin, with curly purple hair.",
       "options": [
-       "Grandpa Grum",
        "Uncle Zog",
+       "Grandpa Grum",
        "Baby Boo"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "She is old and short, with a kind smile and grey curly hair.",
       "options": [
-       "Granny Gloop",
        "Cousin Zip",
+       "Granny Gloop",
        "Mummy Moo"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "He is the youngest, with three little teeth.",
       "options": [
        "Uncle Zog",
-       "Baby Boo",
-       "Grandpa Grum"
+       "Grandpa Grum",
+       "Baby Boo"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "She has got long straight blue hair and big glasses.",
       "options": [
-       "Cousin Zip",
        "Granny Gloop",
+       "Cousin Zip",
        "Baby Boo"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "He has got a very long white beard — he's the oldest.",
@@ -205,20 +205,20 @@
      {
       "sentence": "He ___ got dark hair and brown eyes.",
       "options": [
-       "is",
        "has",
+       "is",
        "have"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "The opposite of fair hair is ___ hair.",
       "options": [
-       "dark",
+       "curly",
        "short",
-       "curly"
+       "dark"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "A basketball player is usually very …",

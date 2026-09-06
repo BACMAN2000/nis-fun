@@ -91,20 +91,20 @@
      {
       "q": "Who is Oliver?",
       "options": [
-       "an orphan who grows up in poverty",
+       "a cruel businessman",
        "a rich young lord",
-       "a cruel businessman"
+       "an orphan who grows up in poverty"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "q": "What uncomfortable question does the novel raise?",
       "options": [
-       "how much our past decides our present",
        "how to become rich quickly",
+       "how much our past decides our present",
        "where to find the best food"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "q": "What did Nadia argue?",
@@ -118,11 +118,11 @@
      {
       "q": "Why did Dickens write the book?",
       "options": [
-       "to change minds about the poor",
        "to make readers laugh",
+       "to change minds about the poor",
        "to describe London's buildings"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "q": "What is the writer's final point?",
@@ -173,11 +173,11 @@
       {
        "sentence": "If she had studied medicine, she ___ a doctor now.",
        "options": [
-        "would be",
+        "is",
         "would have been",
-        "is"
+        "would be"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "If I weren't so tired, I ___ to the party last night.",
@@ -191,29 +191,29 @@
       {
        "sentence": "If he had saved money, he ___ his own workshop today.",
        "options": [
-        "would have",
+        "has",
         "would have had",
-        "has"
+        "would have"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "If we understood each other, there ___ fewer problems now.",
        "options": [
-        "would be",
         "would have been",
+        "would be",
         "are"
        ],
-       "answer": 0
+       "answer": 1
       },
       {
        "sentence": "If they had planned better, we ___ lost yesterday.",
        "options": [
-        "wouldn't have",
         "wouldn't",
+        "wouldn't have",
         "don't"
        ],
-       "answer": 0
+       "answer": 1
       }
      ]
     }

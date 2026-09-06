@@ -90,11 +90,11 @@
      {
       "sentence": "La première lettre de l'alphabet est …",
       "options": [
-       "A",
        "B",
+       "A",
        "Z"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "La dernière lettre est …",
@@ -108,20 +108,20 @@
      {
       "sentence": "L'alphabet a vingt-six …",
       "options": [
-       "lettres",
+       "couleurs",
        "les nombres",
-       "couleurs"
+       "lettres"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Les prénoms commencent par une ___ lettre.",
       "options": [
-       "grand",
+       "bleu",
        "petit",
-       "bleu"
+       "grand"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Après A et B vient …",
@@ -186,29 +186,29 @@
      {
       "sentence": "Chien commence par la lettre …",
       "options": [
-       "D",
        "B",
+       "D",
        "G"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Chat finit par la lettre …",
       "options": [
-       "T",
        "C",
+       "T",
        "A"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "A, E, I, O, U sont des … spéciales",
       "options": [
-       "lettres",
+       "animaux",
        "les nombres",
-       "animaux"
+       "lettres"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "« Freya » commence par un grand ___.",
@@ -222,11 +222,11 @@
      {
       "sentence": "On ___ la chanson de l'alphabet ensemble.",
       "options": [
-       "chanter",
        "manger",
+       "chanter",
        "laver"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

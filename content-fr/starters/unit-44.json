@@ -90,11 +90,11 @@
      {
       "sentence": "C'est jaune, c'est long, et les singes l'adorent.",
       "options": [
-       "une banane",
        "un citron",
+       "une banane",
        "une carotte"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Tu dors dessus.",
@@ -108,11 +108,11 @@
      {
       "sentence": "Il fait ouaf !",
       "options": [
-       "un chien",
+       "un canard",
        "un chat",
-       "un canard"
+       "un chien"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Tu les portes aux pieds.",
@@ -126,11 +126,11 @@
      {
       "sentence": "Elle brille dans le ciel la nuit.",
       "options": [
-       "la lune",
+       "l'herbe",
        "le soleil",
-       "l'herbe"
+       "la lune"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -186,20 +186,20 @@
      {
       "sentence": "Quand tu ne sais pas, tu peux …",
       "options": [
-       "deviner",
        "pleurer",
+       "deviner",
        "dormir"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "L'équipe qui a le plus de points est l'équipe …",
       "options": [
-       "gagnant",
        "chanteur",
+       "gagnant",
        "dîner"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Pour une bonne réponse, tout le monde …",
@@ -213,11 +213,11 @@
      {
       "sentence": "« Encore une fois ! » veut dire : …",
       "options": [
-       "encore",
+       "salut",
        "jamais",
-       "salut"
+       "encore"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Les jeux à l'école sont …",

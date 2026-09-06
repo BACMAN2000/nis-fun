@@ -90,11 +90,11 @@
      {
       "sentence": "Voici Nico. ___ prénom est Nico.",
       "options": [
-       "Son",
+       "Mon",
        "Sa",
-       "Mon"
+       "Son"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Voici Freya. ___ cheveux sont blonds.",
@@ -108,29 +108,29 @@
      {
       "sentence": "Voilà ma maîtresse. ___ nom est Mademoiselle Lily.",
       "options": [
-       "Sa",
        "Son",
+       "Sa",
        "Tu"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Mon ami partage ___ crayons avec moi.",
       "options": [
-       "son",
        "il",
+       "son",
        "lui"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Un ami qui aide est …",
       "options": [
-       "gentil",
+       "bleu",
        "froid",
-       "bleu"
+       "gentil"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -195,20 +195,20 @@
      {
       "sentence": "Les bons amis ___ leurs jouets.",
       "options": [
-       "partager",
+       "manger",
        "cacher",
-       "manger"
+       "partager"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Voici Ana. ___ sourire est grand.",
       "options": [
-       "Sa",
        "Son",
+       "Sa",
        "Mon"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Voici Pedro. ___ sac est rouge.",

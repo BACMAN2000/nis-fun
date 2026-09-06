@@ -163,20 +163,20 @@
      {
       "sentence": "Elle dit toujours « s'il te plaît » — elle est très …",
       "options": [
-       "poli",
        "paresseux",
+       "poli",
        "bruyant"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Le contraire de calme est …",
       "options": [
        "gentil",
-       "bruyant",
-       "courageux"
+       "courageux",
+       "bruyant"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Une personne qui a plein de bonnes idées est …",
@@ -191,19 +191,19 @@
       "sentence": "Les pompiers doivent être très …",
       "options": [
        "paresseux",
-       "courageux",
-       "bruyant"
+       "bruyant",
+       "courageux"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Sois ___ avec ce vase en verre !",
       "options": [
-       "prudent",
        "drôle",
+       "prudent",
        "sympathique"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

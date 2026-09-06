@@ -176,46 +176,46 @@
       "sentence": "A whale is ___ than a dolphin.",
       "options": [
        "big",
-       "bigger",
-       "biggest"
+       "biggest",
+       "bigger"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "A snail is ___ than a kangaroo.",
       "options": [
-       "slower",
        "slow",
+       "slower",
        "slowest"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "This animal flies at night.",
       "options": [
-       "a shark",
        "a bat",
+       "a shark",
        "a panda"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Penguins can ___ very well.",
       "options": [
        "fly",
-       "sing",
-       "swim"
+       "swim",
+       "sing"
       ],
-      "answer": 2
+      "answer": 1
      },
      {
       "sentence": "A lion is ___ than a cat.",
       "options": [
-       "strongest",
+       "stronger",
        "strong",
-       "stronger"
+       "strongest"
       ],
-      "answer": 2
+      "answer": 0
      }
     ]
    }

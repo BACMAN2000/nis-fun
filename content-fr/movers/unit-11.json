@@ -90,11 +90,11 @@
      {
       "sentence": "Il fait chaud ! ___ nager dans le lac.",
       "options": [
-       "Allons-y",
+       "Laisse",
        "Alons-y",
-       "Laisse"
+       "Allons-y"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Allons ___ la barque jusqu'à l'île.",
@@ -108,29 +108,29 @@
      {
       "sentence": "J'ai faim. Allons ___ le pique-nique maintenant !",
       "options": [
-       "avoir",
        "en train d'avoir",
+       "avoir",
        "a"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "« Sautons du rocher ! » — « ___ »",
       "options": [
-       "Bonne idée !",
        "Hier.",
+       "Bonne idée !",
        "C'est à elle."
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Rentrons ___ avant qu'il fasse nuit.",
       "options": [
-       "aller",
+       "en train d'aller",
        "va",
-       "en train d'aller"
+       "aller"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -204,29 +204,29 @@
      {
       "sentence": "Tu voyages sur l'eau dans une …",
       "options": [
-       "bateau",
        "panier",
+       "bateau",
        "lit"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Le contraire d'eau chaude est de l'eau ___.",
       "options": [
-       "froid",
+       "lourd",
        "savoureux",
-       "lourd"
+       "froid"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Manger dehors sur une couverture, c'est un …",
       "options": [
-       "pique-nique",
+       "mare",
        "affiche",
-       "mare"
+       "pique-nique"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

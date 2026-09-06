@@ -90,20 +90,20 @@
      {
       "sentence": "Je veux manger. Je suis …",
       "options": [
-       "affamé",
+       "propre",
        "content",
-       "propre"
+       "affamé"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Je veux de l'eau. Je suis …",
       "options": [
-       "assoiffé",
        "fatigué",
+       "assoiffé",
        "grand"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "C'est mon anniversaire ! Je suis …",
@@ -126,11 +126,11 @@
      {
       "sentence": "« ___ ça va ? » — « Oui, ça va ! »",
       "options": [
-       "Sont",
        "Est",
+       "Sont",
        "Suis"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -186,29 +186,29 @@
      {
       "sentence": "Quand tu es content, tu …",
       "options": [
-       "sourire",
+       "dormir",
        "pleurer",
-       "dormir"
+       "sourire"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Quand tu es très triste, tu peux …",
       "options": [
-       "pleurer",
+       "sauter",
        "rire",
-       "sauter"
+       "pleurer"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Après avoir joué toute la journée, tu es …",
       "options": [
-       "fatigué",
        "nouveau",
+       "fatigué",
        "long"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "« Comment ça va ? » — « ___, merci ! »",

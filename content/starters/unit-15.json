@@ -160,11 +160,11 @@
      {
       "sentence": "___ you got a pet?",
       "options": [
-       "Have",
        "Are",
+       "Have",
        "Do have"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "A rabbit has long …",
@@ -178,11 +178,11 @@
      {
       "sentence": "A fish lives in …",
       "options": [
-       "water",
+       "a tree",
        "a bed",
-       "a tree"
+       "water"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "A happy dog moves its …",
@@ -196,11 +196,11 @@
      {
       "sentence": "A pet is a little …",
       "options": [
-       "friend",
+       "chair",
        "toy",
-       "chair"
+       "friend"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

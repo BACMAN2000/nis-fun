@@ -169,38 +169,38 @@
      {
       "sentence": "In summer I wear …",
       "options": [
-       "shorts",
        "a jacket",
+       "shorts",
        "two coats"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "I am ___ a red t-shirt today.",
       "options": [
-       "wearing",
+       "reading",
        "eating",
-       "reading"
+       "wearing"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "When it is cold, put on your …",
       "options": [
-       "jacket",
        "shorts",
+       "jacket",
        "sunglasses"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Socks go ___ the shoes.",
       "options": [
-       "under",
+       "behind",
        "on top of",
-       "behind"
+       "under"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

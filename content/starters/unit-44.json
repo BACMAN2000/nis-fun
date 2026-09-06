@@ -91,11 +91,11 @@
      {
       "sentence": "It is yellow, long, and monkeys love it.",
       "options": [
-       "a banana",
        "a lemon",
+       "a banana",
        "a carrot"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "You sleep on it.",
@@ -109,11 +109,11 @@
      {
       "sentence": "It says woof!",
       "options": [
-       "a dog",
+       "a duck",
        "a cat",
-       "a duck"
+       "a dog"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "You wear them on your feet.",
@@ -127,11 +127,11 @@
      {
       "sentence": "It shines in the sky at night.",
       "options": [
-       "the moon",
+       "the grass",
        "the sun",
-       "the grass"
+       "the moon"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -187,20 +187,20 @@
      {
       "sentence": "When you don't know, you can …",
       "options": [
-       "guess",
        "cry",
+       "guess",
        "sleep"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The team with more points is the …",
       "options": [
-       "winner",
        "singer",
+       "winner",
        "dinner"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "For a good answer, everyone …",
@@ -214,11 +214,11 @@
      {
       "sentence": "\"One more time!\" means: …",
       "options": [
-       "again",
+       "goodbye",
        "never",
-       "goodbye"
+       "again"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Games at school are …",

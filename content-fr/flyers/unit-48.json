@@ -117,20 +117,20 @@
      {
       "sentence": "La fille ___ a gagné la course est dans ma classe !",
       "options": [
-       "qui",
        "quel",
+       "qui",
        "où"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "C'est le café ___ on a pris le petit-déjeuner.",
       "options": [
-       "qui",
+       "où",
        "quel",
-       "où"
+       "qui"
       ],
-      "answer": 2
+      "answer": 0
      }
     ]
    }
@@ -186,38 +186,38 @@
      {
       "sentence": "Un jeu de questions avec des indices est une …",
       "options": [
-       "devinette",
+       "tâche ménagère",
        "file d'attente",
-       "tâche ménagère"
+       "devinette"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Un dentiste est une personne ___ s'occupe des dents.",
-      "options": [
-       "qui",
-       "quel",
-       "où"
-      ],
-      "answer": 0
-     },
-     {
-      "sentence": "Un four est une machine ___ cuit la nourriture.",
       "options": [
        "où",
        "quel",
        "qui"
       ],
-      "answer": 1
+      "answer": 2
+     },
+     {
+      "sentence": "Un four est une machine ___ cuit la nourriture.",
+      "options": [
+       "quel",
+       "où",
+       "qui"
+      ],
+      "answer": 0
      },
      {
       "sentence": "La cuisine est la pièce ___ on cuisine.",
       "options": [
        "quel",
-       "qui",
-       "où"
+       "où",
+       "qui"
       ],
-      "answer": 2
+      "answer": 1
      },
      {
       "sentence": "« Qu'est-ce que ce mot veut ___ ? » — « Cherche dans le dictionnaire ! »",

@@ -91,20 +91,20 @@
      {
       "sentence": "___ the window, please. It's cold!",
       "options": [
-       "Close",
        "Closing",
+       "Close",
        "Closed"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "___ touch the wet paint!",
       "options": [
-       "Don't",
+       "Not",
        "Doesn't",
-       "Not"
+       "Don't"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "___ up, everyone! The teacher is here.",
@@ -118,20 +118,20 @@
      {
       "sentence": "___ carefully — this is the important part.",
       "options": [
-       "Listen",
+       "Listened",
        "Listening",
-       "Listened"
+       "Listen"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "___ be late for the show!",
       "options": [
-       "Don't",
        "Doesn't",
+       "Don't",
        "No"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -205,29 +205,29 @@
      {
       "sentence": "Before you answer, ___ to the question.",
       "options": [
-       "listen",
+       "jump",
        "cook",
-       "jump"
+       "listen"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "\"Be ___ with the scissors!\"",
       "options": [
-       "careful",
        "curly",
+       "careful",
        "cloudy"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "\"___ here, please. The doctor will call you.\"",
       "options": [
-       "Wait",
+       "Waiting",
        "Waits",
-       "Waiting"
+       "Wait"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

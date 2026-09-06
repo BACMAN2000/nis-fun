@@ -172,20 +172,20 @@
      {
       "sentence": "Elle adore ___ aux échecs avec son papi.",
       "options": [
-       "en train de jouer",
+       "a joué",
        "jouer",
-       "a joué"
+       "en train de jouer"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Une activité que tu fais pour le plaisir est un …",
       "options": [
-       "tâche ménagère",
        "passe-temps",
+       "tâche ménagère",
        "habitude"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Il ___ de vieilles pièces de beaucoup de pays.",
@@ -199,11 +199,11 @@
      {
       "sentence": "Le Monopoly et les échecs sont des jeux de …",
       "options": [
-       "tableau",
        "ennuyé",
+       "tableau",
        "large"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

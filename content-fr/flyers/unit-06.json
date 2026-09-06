@@ -90,20 +90,20 @@
      {
       "sentence": "« Qu'est-ce qui ne va pas ? »",
       "options": [
-       "J'ai mal à la tête.",
+       "Oui, s'il te plaît.",
        "Il est deux heures et demie.",
-       "Oui, s'il te plaît."
+       "J'ai mal à la tête."
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "« Comment tu te sens aujourd'hui ? »",
       "options": [
-       "En bus.",
        "Beaucoup mieux, merci.",
+       "En bus.",
        "C'est en bois."
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "« Je devrais aller à l'école avec de la fièvre ? »",
@@ -126,11 +126,11 @@
      {
       "sentence": "« J'ai mal aux dents ! »",
       "options": [
-       "Tu devrais aller chez le dentiste.",
        "C'est trop fort.",
+       "Tu devrais aller chez le dentiste.",
        "Il est pilote."
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -187,46 +187,46 @@
       "sentence": "Quand tu as mal à la tête, tu as un …",
       "options": [
        "toux",
-       "mal de tête",
-       "froid"
+       "froid",
+       "mal de tête"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Tu achètes des médicaments à la …",
       "options": [
-       "pharmacie",
        "stade",
+       "pharmacie",
        "fête foraine"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Si tu es très chaud et malade, tu as de la …",
       "options": [
-       "emploi du temps",
        "température",
+       "emploi du temps",
        "mal de dents"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Tu ___ manger beaucoup de bonbons avant de dormir.",
       "options": [
        "devrait",
-       "ne devrait pas",
-       "avoir"
+       "avoir",
+       "ne devrait pas"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "La personne qui t'aide quand tu es malade est un …",
       "options": [
-       "conducteur",
+       "médecin",
        "chanteur",
-       "médecin"
+       "conducteur"
       ],
-      "answer": 2
+      "answer": 0
      }
     ]
    }

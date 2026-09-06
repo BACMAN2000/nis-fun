@@ -164,38 +164,38 @@
      {
       "sentence": "Before a trip, you pack your …",
       "options": [
-       "suitcase",
        "shelf",
+       "suitcase",
        "curtain"
-      ],
-      "answer": 0
-     },
-     {
-      "sentence": "To reserve a hotel room is to ___ it.",
-      "options": [
-       "book",
-       "read",
-       "sign"
-      ],
-      "answer": 0
-     },
-     {
-      "sentence": "We ___ going to stay two nights.",
-      "options": [
-       "is",
-       "are",
-       "am"
       ],
       "answer": 1
      },
      {
-      "sentence": "From our room there is a beautiful ___ of the sea.",
+      "sentence": "To reserve a hotel room is to ___ it.",
       "options": [
-       "view",
-       "voice",
-       "visit"
+       "sign",
+       "read",
+       "book"
+      ],
+      "answer": 2
+     },
+     {
+      "sentence": "We ___ going to stay two nights.",
+      "options": [
+       "are",
+       "is",
+       "am"
       ],
       "answer": 0
+     },
+     {
+      "sentence": "From our room there is a beautiful ___ of the sea.",
+      "options": [
+       "visit",
+       "voice",
+       "view"
+      ],
+      "answer": 2
      },
      {
       "sentence": "A house on wheels is a …",

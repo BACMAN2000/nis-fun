@@ -108,29 +108,29 @@
      {
       "sentence": "On ___ la vaisselle après le déjeuner.",
       "options": [
-       "laver",
+       "lavant",
        "lave",
-       "lavant"
+       "laver"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Sors les ___, s'il te plaît — c'est plein !",
       "options": [
-       "déchets",
        "table",
+       "déchets",
        "plantes"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Une personne qui aime aider est …",
       "options": [
-       "serviable",
+       "lourd",
        "nulle",
-       "lourd"
+       "serviable"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -195,11 +195,11 @@
      {
       "sentence": "Donner à manger à un animal = le ___.",
       "options": [
-       "nourrir",
        "eau",
+       "nourrir",
        "propre"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Avant le dîner, on met la …",
@@ -213,20 +213,20 @@
      {
       "sentence": "Les plantes ont besoin que tu les ___.",
       "options": [
-       "eau",
+       "laver",
        "balayer",
-       "laver"
+       "eau"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Le vieux papier et les bouteilles vides vont au …",
       "options": [
-       "déchets",
        "frigo",
+       "déchets",
        "armoire"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

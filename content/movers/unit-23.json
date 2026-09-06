@@ -91,20 +91,20 @@
      {
       "sentence": "___ a big fiesta in the village square.",
       "options": [
-       "There was",
        "There were",
+       "There was",
        "There is"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "___ three white horses in the field.",
       "options": [
        "There was",
-       "There were",
-       "There are"
+       "There are",
+       "There were"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "___ music and dancing until late.",
@@ -187,20 +187,20 @@
      {
       "sentence": "A very small town in the countryside is a …",
       "options": [
-       "village",
+       "playground",
        "city",
-       "playground"
+       "village"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "You cross the river over the …",
       "options": [
-       "bridge",
+       "path",
        "field",
-       "path"
+       "bridge"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The opposite of noisy is …",
@@ -214,20 +214,20 @@
      {
       "sentence": "Bread made this morning is …",
       "options": [
-       "fresh",
        "cold",
+       "fresh",
        "curly"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "To go and see somebody is to ___ them.",
       "options": [
-       "visit",
        "count",
+       "visit",
        "carry"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

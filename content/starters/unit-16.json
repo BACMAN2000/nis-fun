@@ -160,11 +160,11 @@
      {
       "sentence": "The cow says …",
       "options": [
-       "moo",
        "meow",
+       "moo",
        "woof"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Eggs come from the …",
@@ -178,29 +178,29 @@
      {
       "sentence": "The sheep gives us …",
       "options": [
-       "wool",
+       "juice",
        "eggs",
-       "juice"
+       "wool"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The pig loves the …",
       "options": [
-       "mud",
        "sky",
+       "mud",
        "shelf"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Cows eat …",
       "options": [
-       "grass",
+       "fish",
        "cake",
-       "fish"
+       "grass"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

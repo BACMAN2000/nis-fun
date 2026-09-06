@@ -164,47 +164,47 @@
      {
       "sentence": "My birthday is ___ July.",
       "options": [
-       "on",
        "in",
+       "on",
        "at"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "The concert is ___ the 15th of May.",
       "options": [
        "in",
-       "at",
-       "on"
+       "on",
+       "at"
       ],
-      "answer": 2
+      "answer": 1
      },
      {
       "sentence": "One hundred years is a …",
       "options": [
        "fortnight",
-       "century",
-       "season"
-      ],
-      "answer": 1
-     },
-     {
-      "sentence": "The month after February is …",
-      "options": [
-       "January",
-       "April",
-       "March"
+       "season",
+       "century"
       ],
       "answer": 2
      },
      {
-      "sentence": "In ___ the leaves fall from the trees.",
+      "sentence": "The month after February is …",
       "options": [
-       "autumn",
-       "spring",
-       "summer"
+       "March",
+       "April",
+       "January"
       ],
       "answer": 0
+     },
+     {
+      "sentence": "In ___ the leaves fall from the trees.",
+      "options": [
+       "summer",
+       "spring",
+       "autumn"
+      ],
+      "answer": 2
      }
     ]
    }

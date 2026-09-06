@@ -174,19 +174,19 @@
       "sentence": "\"How ___ pears do you want?\" — \"Three, please.\"",
       "options": [
        "much",
-       "many",
-       "long"
+       "long",
+       "many"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "You carry the shopping in a …",
       "options": [
-       "basket",
        "boot",
+       "basket",
        "bowl"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The fruit with milk inside is the …",
@@ -200,11 +200,11 @@
      {
       "sentence": "Cutting an ___ makes people cry.",
       "options": [
-       "onion",
        "apple",
+       "onion",
        "orange"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

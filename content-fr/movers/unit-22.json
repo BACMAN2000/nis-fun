@@ -90,20 +90,20 @@
      {
       "sentence": "Ma mamie a 70 ans, mais elle se sent …",
       "options": [
-       "jeune",
+       "bouclé",
        "grand",
-       "bouclé"
+       "jeune"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Il peut porter deux grands cartons — il est très …",
       "options": [
-       "fort",
        "court",
+       "fort",
        "vieux"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Elle a ___ yeux bleus.",
@@ -126,11 +126,11 @@
      {
       "sentence": "Je ne peux pas lire sans mes …",
       "options": [
-       "lunettes",
        "gants",
+       "lunettes",
        "buts"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -186,29 +186,29 @@
      {
       "sentence": "Des cheveux qui font des boucles sont …",
       "options": [
-       "bouclé",
+       "vieux",
        "fort",
-       "vieux"
+       "bouclé"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Le contraire de grand est …",
       "options": [
-       "court",
+       "joli",
        "jeune",
-       "joli"
+       "court"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Mon petit frère a un an. Il est très …",
       "options": [
-       "jeune",
        "vieux",
+       "jeune",
        "grand"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Elle a les ___ verts et les cheveux foncés.",

@@ -99,38 +99,38 @@
      {
       "sentence": "Je peux avoir ___ eau, s'il te plaît ? Juste un peu.",
       "options": [
-       "un peu",
+       "beaucoup de",
        "beaucoup",
-       "beaucoup de"
+       "un peu"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Il nous faut ___ œufs pour le gâteau — six.",
       "options": [
-       "quelques",
        "un peu",
+       "quelques",
        "un morceau de"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Il a mangé un ___ de gâteau. Un très gros morceau !",
       "options": [
-       "morceau",
+       "sac",
        "verre",
-       "sac"
+       "morceau"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Après le déjeuner j'étais complètement …",
       "options": [
-       "plein",
        "vide",
+       "plein",
        "tôt"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -204,29 +204,29 @@
      {
       "sentence": "« Combien de riz ? » — « Juste ___, merci. »",
       "options": [
-       "un peu",
+       "beaucoup de",
        "beaucoup très",
-       "beaucoup de"
+       "un peu"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Des pommes de terre coupées et frites, ce sont des …",
       "options": [
-       "frites",
        "côtelettes",
+       "frites",
        "joues"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Il y a ___ étoiles dans le ciel — des millions !",
       "options": [
-       "beaucoup de",
        "un peu",
+       "beaucoup de",
        "un morceau de"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

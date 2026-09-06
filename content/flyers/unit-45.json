@@ -100,20 +100,20 @@
      {
       "sentence": "Turn ___ at the big white rock.",
       "options": [
-       "east",
+       "easting",
        "easts",
-       "easting"
+       "east"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The treasure is ___ the two palm trees.",
       "options": [
-       "between",
        "through",
+       "between",
        "along"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "___ exactly where the cross is!",
@@ -127,11 +127,11 @@
      {
       "sentence": "Tell nobody — it's a ___!",
       "options": [
-       "secret",
        "queue",
+       "secret",
        "chore"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -187,11 +187,11 @@
      {
       "sentence": "The sun rises in the …",
       "options": [
-       "east",
+       "north",
        "west",
-       "north"
+       "east"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The sun goes down in the …",
@@ -205,11 +205,11 @@
      {
       "sentence": "X marks the spot — X is a …",
       "options": [
-       "cross",
+       "coin",
        "step",
-       "coin"
+       "cross"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Dogs love to ___ holes in the garden.",
@@ -223,11 +223,11 @@
      {
       "sentence": "Gold, silver and old coins can be a …",
       "options": [
-       "treasure",
+       "temperature",
        "ticket",
-       "temperature"
+       "treasure"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

@@ -90,20 +90,20 @@
      {
       "sentence": "Un poisson sait ___ mais il ne sait pas marcher.",
       "options": [
-       "nager",
        "voler",
+       "nager",
        "chanter"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Un oiseau sait voler et …",
       "options": [
-       "chanter",
+       "lire",
        "conduire",
-       "lire"
+       "chanter"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Un éléphant sait marcher mais il ne sait pas …",
@@ -117,20 +117,20 @@
      {
       "sentence": "Un singe sait ___ très bien.",
       "options": [
-       "grimper",
+       "voler",
        "nager seulement",
-       "voler"
+       "grimper"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Un cheval sait courir très …",
       "options": [
-       "rapide",
        "lentement seulement",
+       "rapide",
        "haut"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -204,29 +204,29 @@
      {
       "sentence": "Les chats dorment beaucoup d'___ par jour.",
       "options": [
-       "heures",
+       "chaussures",
        "livres",
-       "chaussures"
+       "heures"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Les grenouilles savent ___ d'une feuille à l'autre.",
       "options": [
-       "sauter",
        "lire",
+       "sauter",
        "cuisinier"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "« Tu sais nager ? » — « Oui, je ___ ! »",
       "options": [
-       "pouvoir",
+       "faire",
        "suis",
-       "faire"
+       "pouvoir"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

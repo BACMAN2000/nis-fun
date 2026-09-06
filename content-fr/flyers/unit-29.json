@@ -99,38 +99,38 @@
      {
       "sentence": "Quelle phrase est correcte ?",
       "options": [
-       "Elle ne mange jamais de poisson.",
+       "Jamais elle mange de poisson.",
        "Elle mange jamais de poisson.",
-       "Jamais elle mange de poisson."
+       "Elle ne mange jamais de poisson."
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Quelle phrase est correcte ?",
       "options": [
-       "On va d'habitude en bus.",
        "On va d'habitude en bus le matin.",
+       "On va d'habitude en bus.",
        "D'habitude on va toujours en bus."
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "« ___ souvent tu t'entraînes ? » — « Deux fois par semaine. »",
       "options": [
-       "souvent",
        "beaucoup",
+       "souvent",
        "long"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Je rends visite à mes grands-parents une fois par ___.",
       "options": [
-       "une fois",
+       "premier",
        "un",
-       "premier"
+       "une fois"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -196,37 +196,37 @@
       "sentence": "Quelque chose que tu fais tous les jours est une habitude …",
       "options": [
        "prix",
-       "habitude",
-       "nouvelles"
+       "nouvelles",
+       "habitude"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "« Une fois » veut dire ___ fois.",
       "options": [
-       "un",
        "deux",
+       "un",
        "non"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Il ___ neige à Lima — presque jamais !",
       "options": [
-       "toujours",
        "rarement",
+       "toujours",
        "d'habitude"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Je me brosse les dents ___ fois par jour : le matin et le soir.",
       "options": [
        "une fois",
-       "deux fois",
-       "jamais"
+       "jamais",
+       "deux fois"
       ],
-      "answer": 1
+      "answer": 2
      }
     ]
    }

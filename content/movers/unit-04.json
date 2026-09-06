@@ -91,20 +91,20 @@
      {
       "sentence": "First, Mateo ___ up at seven o'clock.",
       "options": [
-       "wakes",
        "washes",
+       "wakes",
        "catches"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Then he ___ his face with cold water.",
       "options": [
        "combs",
-       "washes",
-       "eats"
+       "eats",
+       "washes"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "He gets ___ quickly — where is that sock?!",
@@ -118,20 +118,20 @@
      {
       "sentence": "He has ___ : bread with jam and milk.",
       "options": [
-       "a towel",
        "breakfast",
+       "a towel",
        "a comb"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "At eight he ___ the school bus.",
       "options": [
-       "catches",
+       "dries",
        "brushes",
-       "dries"
+       "catches"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -187,29 +187,29 @@
      {
       "sentence": "You dry your hands with a …",
       "options": [
-       "towel",
        "comb",
+       "towel",
        "spoon"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "She ___ her hair every morning.",
       "options": [
-       "combs",
        "comb",
+       "combs",
        "combing"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The first meal of the day is …",
       "options": [
        "dinner",
-       "breakfast",
-       "lunch"
+       "lunch",
+       "breakfast"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "I get ___ before school: shirt, trousers, shoes.",
@@ -223,11 +223,11 @@
      {
       "sentence": "\"Hurry or you'll miss the ___!\"",
       "options": [
-       "bus",
        "towel",
+       "bus",
        "sock"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

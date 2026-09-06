@@ -91,29 +91,29 @@
      {
       "sentence": "This table is made ___ wood.",
       "options": [
-       "of",
+       "in",
        "by",
-       "in"
+       "of"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Coins are usually made of …",
       "options": [
-       "paper",
        "metal",
+       "paper",
        "wool"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Be careful with that vase — it's made of …",
       "options": [
-       "glass",
        "card",
+       "glass",
        "wool"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "A birthday card is made of …",
@@ -197,37 +197,37 @@
       "sentence": "Sheep give us this warm material.",
       "options": [
        "plastic",
-       "wool",
-       "metal"
+       "metal",
+       "wool"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Books and notebooks are made of …",
       "options": [
-       "paper",
        "gold",
+       "paper",
        "glass"
-      ],
-      "answer": 0
-     },
-     {
-      "sentence": "Old castles are made of big grey …",
-      "options": [
-       "cards",
-       "stones",
-       "papers"
       ],
       "answer": 1
      },
      {
+      "sentence": "Old castles are made of big grey …",
+      "options": [
+       "stones",
+       "cards",
+       "papers"
+      ],
+      "answer": 0
+     },
+     {
       "sentence": "The yellow, expensive metal in rings is …",
       "options": [
-       "silver",
+       "gold",
        "iron",
-       "gold"
+       "silver"
       ],
-      "answer": 2
+      "answer": 0
      }
     ]
    }

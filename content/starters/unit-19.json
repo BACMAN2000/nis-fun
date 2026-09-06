@@ -100,38 +100,38 @@
      {
       "sentence": "Freya is a …",
       "options": [
-       "girl",
        "boy",
+       "girl",
        "man"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "My dad is a …",
       "options": [
-       "man",
+       "baby",
        "woman",
-       "baby"
+       "man"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "One person, many …",
       "options": [
-       "people",
        "persons",
+       "people",
        "peoples"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "\"What's your ___?\" — \"Tomás!\"",
       "options": [
-       "name",
+       "number",
        "colour",
-       "number"
+       "name"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -196,11 +196,11 @@
      {
       "sentence": "Grandma is a …",
       "options": [
-       "woman",
        "man",
+       "woman",
        "boy"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The smallest person in a family is the …",
@@ -214,20 +214,20 @@
      {
       "sentence": "Many persons together are …",
       "options": [
-       "people",
+       "childs",
        "peoples",
-       "childs"
+       "people"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Tomás and Nico are two …",
       "options": [
-       "boys",
+       "women",
        "girls",
-       "women"
+       "boys"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

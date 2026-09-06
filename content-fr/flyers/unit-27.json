@@ -90,11 +90,11 @@
      {
       "sentence": "Chut ! Le bébé ___ de s'endormir.",
       "options": [
-       "juste",
        "encore",
+       "juste",
        "déjà"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Tu as ___ fini ton projet ?",
@@ -108,11 +108,11 @@
      {
       "sentence": "J'ai ___ vu ce film deux fois — regardons-en un autre.",
       "options": [
-       "encore",
        "déjà",
+       "encore",
        "jamais"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Le courrier n'est ___ arrivé.",
@@ -187,19 +187,19 @@
       "sentence": "Le train vient d'___.",
       "options": [
        "arriver",
-       "est arrivé",
-       "en train d'arriver"
+       "en train d'arriver",
+       "est arrivé"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Oh non ! J'ai ___ mon crayon !",
       "options": [
        "a cassé",
-       "cassé",
-       "casser"
+       "casser",
+       "cassé"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "___ ils déjà fini le jeu ?",
@@ -213,20 +213,20 @@
      {
       "sentence": "Elle a déjà ___ ses devoirs.",
       "options": [
-       "finir",
+       "a fini",
        "finit",
-       "a fini"
+       "finir"
       ],
-      "answer": 2
+      "answer": 0
      },
      {
       "sentence": "Super ___ ! On a gagné le concours !",
       "options": [
-       "nouvelles",
+       "bruit",
        "nouveau",
-       "bruit"
+       "nouvelles"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

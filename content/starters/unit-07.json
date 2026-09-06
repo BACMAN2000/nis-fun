@@ -169,20 +169,20 @@
      {
       "sentence": "You walk with your …",
       "options": [
-       "legs",
+       "ears",
        "arms",
-       "ears"
+       "legs"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Two foot = two …",
       "options": [
-       "feet",
        "foots",
+       "feet",
        "feets"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "I have ___ two arms.",
@@ -196,11 +196,11 @@
      {
       "sentence": "Your leg bends at the …",
       "options": [
-       "knee",
        "nose",
+       "knee",
        "neck"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

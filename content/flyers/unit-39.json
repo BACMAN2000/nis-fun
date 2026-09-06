@@ -92,20 +92,20 @@
      {
       "sentence": "Where was Amundsen born?",
       "options": [
-       "in Peru",
        "in Norway",
+       "in Peru",
        "in Antarctica"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Why did he sleep with the window open?",
       "options": [
-       "to prepare for the cold",
+       "his room was hot",
        "he liked birds",
-       "his room was hot"
+       "to prepare for the cold"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "What did his team reach in 1911?",
@@ -119,11 +119,11 @@
      {
       "sentence": "How many dogs did they travel with?",
       "options": [
-       "fifty-two",
+       "fifteen",
        "twenty-five",
-       "fifteen"
+       "fifty-two"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "What has his name today?",
@@ -206,29 +206,29 @@
      {
       "sentence": "Explorers use a ___ to find the way.",
       "options": [
-       "map",
+       "stamp",
        "pillow",
-       "stamp"
+       "map"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "She ___ a new kind of butterfly in the jungle.",
       "options": [
-       "discovered",
        "returned",
+       "discovered",
        "signed"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "After two years at sea, the ship ___ home.",
       "options": [
-       "returned",
        "discovered",
+       "returned",
        "collected"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -683,10 +683,10 @@
        "sentence": "First they climbed the mountain. Then they took a photo. So they took a photo ___ they climbed it.",
        "options": [
         "before",
-        "after",
-        "while"
+        "while",
+        "after"
        ],
-       "answer": 1
+       "answer": 2
       },
       {
        "sentence": "___ they left the ship, the explorers looked at the map one last time.",
@@ -700,11 +700,11 @@
       {
        "sentence": "After she ___ home, she wrote a book about her journey.",
        "options": [
-        "come",
         "came",
+        "come",
         "coming"
        ],
-       "answer": 1
+       "answer": 0
       },
       {
        "sentence": "He read the map carefully before he ___ the ship.",
@@ -718,11 +718,11 @@
       {
        "sentence": "Which one is right?",
        "options": [
-        "Before the journey started, they got everything ready.",
         "Before started the journey, they got everything ready.",
+        "Before the journey started, they got everything ready.",
         "Before, the journey started they got everything ready."
        ],
-       "answer": 0
+       "answer": 1
       }
      ]
     }

@@ -159,20 +159,20 @@
      {
       "sentence": "Tu cuisines dans la …",
       "options": [
-       "cuisine",
        "chambre",
+       "cuisine",
        "jardin"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Tu dors dans le …",
       "options": [
-       "chambre",
+       "cuisine",
        "salle de bains",
-       "cuisine"
+       "chambre"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Les fleurs poussent dans le …",
@@ -186,11 +186,11 @@
      {
       "sentence": "Tu regardes à travers la …",
       "options": [
-       "fenêtre",
        "mur",
+       "fenêtre",
        "sol"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "« ___ est le chat ? » — « Dans le jardin. »",

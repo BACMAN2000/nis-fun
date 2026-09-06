@@ -165,46 +165,46 @@
       "sentence": "Tu portes cette chose douce et longue autour du cou quand il fait froid et qu'il y a du vent.",
       "options": [
        "une ceinture",
-       "une écharpe",
-       "une poche"
+       "une poche",
+       "une écharpe"
       ],
-      "answer": 1
+      "answer": 2
      },
      {
       "sentence": "Les gens y mettent leurs vêtements et leurs affaires quand ils voyagent dans une autre ville.",
       "options": [
-       "une valise",
        "un uniforme",
+       "une valise",
        "une bague"
-      ],
-      "answer": 0
-     },
-     {
-      "sentence": "Tu peux porter cette chose ronde sur la tête un jour de plage bien ensoleillé.",
-      "options": [
-       "gants",
-       "un chapeau de soleil",
-       "un parapluie"
       ],
       "answer": 1
      },
      {
-      "sentence": "Tu les mets aux pieds avant tes chaussures, et elles tiennent tes pieds au chaud en hiver.",
+      "sentence": "Tu peux porter cette chose ronde sur la tête un jour de plage bien ensoleillé.",
       "options": [
-       "chaussettes",
-       "ceintures",
-       "écharpes"
+       "un chapeau de soleil",
+       "gants",
+       "un parapluie"
       ],
       "answer": 0
      },
      {
+      "sentence": "Tu les mets aux pieds avant tes chaussures, et elles tiennent tes pieds au chaud en hiver.",
+      "options": [
+       "ceintures",
+       "chaussettes",
+       "écharpes"
+      ],
+      "answer": 1
+     },
+     {
       "sentence": "Certaines personnes portent cette petite chose jolie au doigt. Elle est parfois en or.",
       "options": [
-       "une poche",
+       "une bague",
        "une chaussette",
-       "une bague"
+       "une poche"
       ],
-      "answer": 2
+      "answer": 0
      }
     ]
    }

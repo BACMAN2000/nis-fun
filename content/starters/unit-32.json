@@ -91,20 +91,20 @@
      {
       "sentence": "The first school day is …",
       "options": [
-       "Monday",
        "Sunday",
+       "Monday",
        "Friday"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "After Tuesday comes …",
       "options": [
-       "Wednesday",
+       "Sunday",
        "Monday",
-       "Sunday"
+       "Wednesday"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "The weekend days are Saturday and …",
@@ -118,11 +118,11 @@
      {
       "sentence": "My party is ___ Saturday.",
       "options": [
-       "on",
+       "at",
        "in",
-       "at"
+       "on"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "A week has ___ days.",
@@ -187,20 +187,20 @@
      {
       "sentence": "Yesterday, ___, tomorrow.",
       "options": [
-       "today",
        "Sunday",
+       "today",
        "week"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Before Friday comes …",
       "options": [
-       "Thursday",
        "Saturday",
+       "Thursday",
        "Monday"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "If today is Saturday, tomorrow is …",
@@ -214,20 +214,20 @@
      {
       "sentence": "School days are Monday to …",
       "options": [
-       "Friday",
+       "Saturday",
        "Sunday",
-       "Saturday"
+       "Friday"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Seven days make a …",
       "options": [
-       "week",
+       "year",
        "day",
-       "year"
+       "week"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

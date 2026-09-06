@@ -90,11 +90,11 @@
      {
       "sentence": "Baisse le son ! Le volume est ___ fort.",
       "options": [
-       "trop",
+       "beaucoup",
        "assez",
-       "beaucoup"
+       "trop"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Ce carton est ___ léger pour que je le porte tout seul.",
@@ -108,29 +108,29 @@
      {
       "sentence": "Le test était ___ difficile — personne n'a fini !",
       "options": [
-       "assez",
        "trop",
+       "assez",
        "petit"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Je ne suis pas ___ grand pour conduire une voiture.",
       "options": [
-       "trop",
+       "assez",
        "très",
-       "assez"
+       "trop"
       ],
-      "answer": 2
+      "answer": 0
      },
      {
       "sentence": "Ces chaussures sont ___ petites. Il me faut une taille au-dessus.",
       "options": [
-       "trop",
        "assez",
+       "trop",
        "beaucoup"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -186,20 +186,20 @@
      {
       "sentence": "Le contraire de fort est …",
       "options": [
-       "calme",
+       "bon marché",
        "lourd",
-       "bon marché"
+       "calme"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Le contraire de cher est …",
       "options": [
-       "facile",
        "bon marché",
+       "facile",
        "lumière"
       ],
-      "answer": 1
+      "answer": 0
      },
      {
       "sentence": "Une plume est très …",
@@ -213,20 +213,20 @@
      {
       "sentence": "Je ne peux pas l'acheter — je n'ai pas ___ d'argent.",
       "options": [
-       "assez",
+       "beaucoup de",
        "trop",
-       "beaucoup de"
+       "assez"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Ce puzzle est ___ pour un bébé — donne-le à un adulte !",
       "options": [
-       "trop difficile",
+       "très bon marché",
        "assez facile",
-       "très bon marché"
+       "trop difficile"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }

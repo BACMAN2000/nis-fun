@@ -92,11 +92,11 @@
      {
       "sentence": "What did Valentina send with her letter?",
       "options": [
-       "a drawing of Luna",
        "a photo",
+       "a drawing of Luna",
        "chocolate"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Emma's flat is on the ___ floor.",
@@ -110,11 +110,11 @@
      {
       "sentence": "From her window she can see …",
       "options": [
-       "the port",
+       "the mountains",
        "a park",
-       "the mountains"
+       "the port"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Emma's new friend is called …",
@@ -128,11 +128,11 @@
      {
       "sentence": "Emma asks about …",
       "options": [
-       "the confetti machine",
+       "Luna's food",
        "the school show",
-       "Luna's food"
+       "the confetti machine"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
@@ -188,20 +188,20 @@
      {
       "sentence": "A letter starts with \"___ Anna,\".",
       "options": [
-       "Dear",
        "Hello the",
+       "Dear",
        "From"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "When you answer a letter, you …",
       "options": [
-       "reply",
        "sleep",
+       "reply",
        "sweep"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "The letter goes inside an …",
@@ -215,11 +215,11 @@
      {
       "sentence": "You ___ the letter at the post office.",
       "options": [
-       "post",
+       "plant",
        "paint",
-       "plant"
+       "post"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Things that happened recently are your …",

@@ -91,11 +91,11 @@
      {
       "q": "How did the project year end?",
       "options": [
-       "with a formal debate",
+       "with a holiday",
        "with a long test",
-       "with a holiday"
+       "with a formal debate"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "q": "Who opened for the proposal?",
@@ -109,11 +109,11 @@
      {
       "q": "What impressed the teacher most?",
       "options": [
-       "how the students spoke",
        "who won the vote",
+       "how the students spoke",
        "the room decoration"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "q": "What was Mateo's role in the debate?",
@@ -127,11 +127,11 @@
      {
       "q": "What did the project give the students?",
       "options": [
-       "a voice",
        "a prize",
+       "a voice",
        "a holiday"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -177,20 +177,20 @@
       {
        "sentence": "___, both sides made good points.",
        "options": [
-        "On balance",
+        "At balance",
         "In balance",
-        "At balance"
+        "On balance"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "I love the plan. ___, it is expensive.",
        "options": [
-        "Having said that",
         "Having say that",
+        "Having said that",
         "Have said that"
        ],
-       "answer": 0
+       "answer": 1
       },
       {
        "sentence": "___, it was the best project of the year.",
@@ -204,11 +204,11 @@
       {
        "sentence": "Degrees are useful. ___, trades are just as valuable.",
        "options": [
-        "That said",
+        "That say",
         "That saying",
-        "That say"
+        "That said"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
        "sentence": "___, I think we should respect every kind of work.",

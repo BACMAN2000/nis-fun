@@ -159,20 +159,20 @@
      {
       "sentence": "Tu vois avec tes …",
       "options": [
-       "yeux",
        "oreilles",
+       "yeux",
        "dents"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "Tu entends avec tes …",
       "options": [
-       "oreilles",
+       "cheveux",
        "nez",
-       "cheveux"
+       "oreilles"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "Elle ___ de longs cheveux.",
@@ -195,11 +195,11 @@
      {
       "sentence": "Une bouche joyeuse fait un …",
       "options": [
-       "sourire",
        "nez",
+       "sourire",
        "main"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }

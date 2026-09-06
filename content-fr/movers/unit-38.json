@@ -90,20 +90,20 @@
      {
       "sentence": "___ la fenêtre, s'il te plaît. Il fait froid !",
       "options": [
-       "Ferme",
        "Fermant",
+       "Ferme",
        "Fermé"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "___ pas la peinture fraîche !",
       "options": [
+       "Non",
        "Ne",
-       "Ne",
-       "Non"
+       "Ne"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "___-vous, tout le monde ! La maîtresse arrive.",
@@ -117,11 +117,11 @@
      {
       "sentence": "___ bien — c'est la partie importante.",
       "options": [
-       "Écoute",
+       "Écouté",
        "Écouter",
-       "Écouté"
+       "Écoute"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "___ pas en retard au spectacle !",
@@ -130,7 +130,7 @@
        "Ne",
        "Pas"
       ],
-      "answer": 0
+      "answer": 1
      }
     ]
    }
@@ -204,29 +204,29 @@
      {
       "sentence": "Avant de répondre, ___ la question.",
       "options": [
-       "écouter",
+       "sauter",
        "cuisinier",
-       "sauter"
+       "écouter"
       ],
-      "answer": 0
+      "answer": 2
      },
      {
       "sentence": "« Sois ___ avec les ciseaux ! »",
       "options": [
-       "prudent",
        "bouclé",
+       "prudent",
        "nuageux"
       ],
-      "answer": 0
+      "answer": 1
      },
      {
       "sentence": "« ___ ici, s'il te plaît. Le médecin va t'appeler. »",
       "options": [
-       "Attends",
+       "Attendant",
        "Attend",
-       "Attendant"
+       "Attends"
       ],
-      "answer": 0
+      "answer": 2
      }
     ]
    }
