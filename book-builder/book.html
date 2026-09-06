@@ -87,6 +87,8 @@
   .gbx ul.gex li{background:#fff;border-radius:2mm;padding:1mm 3mm;margin-bottom:1mm}
   .gbx ol.grul{margin:1.5mm 0 0;padding-left:5mm;font-size:9pt;color:#3c4a58}
   .gbx .gsrc{font-style:italic;color:#6b7b8c;font-size:7.5pt}
+  .keyahead{background:var(--band);border-left:.7mm solid #b3771a;border-radius:0 2mm 2mm 0;
+    padding:1.5mm 3mm;margin:0 0 2mm;font-size:8.5pt;color:#3c4a58}
   /* la ampliacion, con el mismo + que en pantalla */
   .pw.pw-extra{position:relative}
   .pw.pw-extra::after{content:"+";position:absolute;top:.6mm;right:1mm;
@@ -378,7 +380,9 @@ function sbPage(ud, pageno){
     ${picwordsHTML(ud.wordlist, ud.wordlist_extra)}
     ${actHTML}
     <div class="persbox"><b>${T('All about me:','Moi, c\'est moi :')}</b> ${T('my two favourite words of this unit are','mes deux mots préférés de cette unité sont')} <span></span> ${T('and','et')} <span></span>.</div>
-    <div class="wordlist"><b>${T('Wordlist:','Les mots :')}</b> ${ud.wordlist.join(' · ')} &nbsp;·&nbsp; <b>${T('Grammar:','Grammaire :')}</b> ${ud.grammar}</div>
+    <div class="wordlist"><b>${T('Wordlist:','Les mots :')}</b> ${ud.wordlist.join(' · ')} &nbsp;·&nbsp; <b>${T('Grammar:','Grammaire :')}</b> ${ud.grammar}${
+      ud.grammar_ahead && ud.grammar_ahead.structure
+        ? ` &nbsp;·&nbsp; <b>${T('Coming later:','Pour plus tard :')}</b> ${ud.grammar_ahead.structure}` : ''}</div>
     <span class="pagebubble">${pageno}</span></div>`;
 }
 
@@ -443,7 +447,16 @@ function keyUnit(ud, zonas){
     } catch (e) { linea = ''; }
     if (linea) parts.push(`<p><b>${a.code}</b> · ${linea}</p>`);
   }
-  return `<div class="keyu"><h2>${T('Unit','Unité')} ${ud.number} · ${ud.title}</h2>${parts.join('')}</div>`;
+  // Lo que la unidad deja oir pero todavia no le pide al alumno. El profesor
+  // necesita saberlo antes de las respuestas: si un nino lo usa, no es un
+  // fallo suyo, y si no lo usa, tampoco hay que corregirselo.
+  const ade = ud.grammar_ahead && ud.grammar_ahead.structure
+    ? `<p class="keyahead"><b>${T('Coming later','Pour plus tard')}:</b> <i>${ud.grammar_ahead.structure}</i>${
+        ud.grammar_ahead.level && ud.grammar_ahead.unit
+          ? ` — ${T('taught in','vu en')} ${ud.grammar_ahead.level} ${T('unit','unité')} ${ud.grammar_ahead.unit}` : ''}. ${
+        T('It is in this unit, but it is not tested here.',
+          "C'est dans cette unité, mais ce n'est pas évalué ici.")}</p>` : '';
+  return `<div class="keyu"><h2>${T('Unit','Unité')} ${ud.number} · ${ud.title}</h2>${ade}${parts.join('')}</div>`;
 }
 
 async function build(){

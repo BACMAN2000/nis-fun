@@ -4,7 +4,7 @@
  "number": 22,
  "title": "People I know",
  "topic": "describing people",
- "grammar": "adjectives + have got (describing people)",
+ "grammar": "adjectives + have got · the person who…",
  "wordlist": [
   "hair",
   "eyes",
@@ -254,6 +254,93 @@
    ],
    "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
    "data": {}
+  },
+  {
+   "code": "G",
+   "type": "grammar_box",
+   "title": "Grammar · The girl who is riding a bike",
+   "instructions": "Read the sentences. Then choose the right word.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "structure": "Relative clauses (who, which, where)",
+   "data": {
+    "title": "One sentence, not two",
+    "intro": "Two short sentences about the same person? Join them with <b>who</b>. For a thing use <b>which</b>, for a place use <b>where</b>. In the Speaking test this is how you say which person you mean.",
+    "can": "I can join two sentences with <b>who</b>, <b>which</b> and <b>where</b> to say exactly which person, thing or place I mean.",
+    "examples": [
+     {
+      "text": "Vicky is the girl <b>who</b> is riding a bike.",
+      "note": "Cambridge"
+     },
+     {
+      "text": "This person helps people <b>who</b> aren’t well.",
+      "note": "Cambridge"
+     },
+     {
+      "text": "My friend is the boy <b>who</b> has got curly hair and a green shirt."
+     },
+     {
+      "text": "That’s the shop <b>which</b> has the best bread, next to the park <b>where</b> we play."
+     }
+    ],
+    "rules": [
+     "<b>who</b> for people · <b>which</b> for things and animals · <b>where</b> for places.",
+     "The joining word comes straight after the person or thing: <i>the girl <b>who</b>…</i>, not <i>the girl she…</i>",
+     "Do not say the person twice: never <i>the girl who she is riding a bike</i>."
+    ],
+    "practice": {
+     "instructions": "Choose the right word.",
+     "items": [
+      {
+       "sentence": "Sofia is the girl ___ has got long black hair.",
+       "options": [
+        "which",
+        "who",
+        "where"
+       ],
+       "answer": 1
+      },
+      {
+       "sentence": "That is the bike ___ my grandma gave me.",
+       "options": [
+        "which",
+        "who",
+        "when"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "This is the park ___ we play football on Saturdays.",
+       "options": [
+        "who",
+        "which",
+        "where"
+       ],
+       "answer": 2
+      },
+      {
+       "sentence": "A doctor is a person ___ helps you when you are ill.",
+       "options": [
+        "where",
+        "who",
+        "which"
+       ],
+       "answer": 1
+      },
+      {
+       "sentence": "Which one is right?",
+       "options": [
+        "The boy who he is running.",
+        "The boy who is running.",
+        "The boy which is running."
+       ],
+       "answer": 1
+      }
+     ]
+    }
+   }
   }
  ],
  "homework": [

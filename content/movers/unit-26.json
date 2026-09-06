@@ -4,7 +4,7 @@
  "number": 26,
  "title": "At the doctor's",
  "topic": "health",
- "grammar": "should / shouldn't (first look)",
+ "grammar": "What's the matter? + must / mustn't (health advice)",
  "wordlist": [
   "doctor",
   "nurse",
@@ -33,7 +33,7 @@
    "mateo": 5
   },
   "bubble": "Mateo's dentist day! Don't worry — Doctor Ana counts your teeth and gives you a sticker. Science says: painless!",
-  "intro": "Mateo's dentist day, and he is NOT happy. Open your mouth, please, says the dentist. You should brush your teeth twice a day, and you shouldn't eat sweets every afternoon. Erik takes notes, because he wants to invent a toothbrush that works alone. The medicine tastes terrible but the tooth is strong again. What should we do to stay healthy? Ask the doctor!"
+  "intro": "Mateo's dentist day, and he is NOT happy. Open your mouth, please, says the dentist. You must brush your teeth twice a day, and you mustn't eat sweets every afternoon. Erik takes notes, because he wants to invent a toothbrush that works alone. The medicine tastes terrible but the tooth is strong again. What's the matter? Ask the doctor, and do what she says!"
  },
  "activities": [
   {
@@ -79,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Quick check · Choose should or shouldn't.",
+   "title": "Quick check · Choose must or mustn't.",
    "outputs": [
     "book",
     "digital",
@@ -91,8 +91,8 @@
      {
       "sentence": "You ___ brush your teeth twice a day.",
       "options": [
-       "should",
-       "shouldn't",
+       "must",
+       "mustn't",
        "aren't"
       ],
       "answer": 0
@@ -100,8 +100,8 @@
      {
       "sentence": "You ___ eat sweets before bed.",
       "options": [
-       "should",
-       "shouldn't",
+       "must",
+       "mustn't",
        "don't"
       ],
       "answer": 1
@@ -109,8 +109,8 @@
      {
       "sentence": "Children ___ sleep ten hours.",
       "options": [
-       "should",
-       "shouldn't",
+       "must",
+       "mustn't",
        "can't"
       ],
       "answer": 0
@@ -118,18 +118,18 @@
      {
       "sentence": "You ___ watch TV all afternoon.",
       "options": [
-       "should",
-       "shouldn't",
+       "must",
+       "mustn't",
        "must to"
       ],
       "answer": 1
      },
      {
-      "sentence": "You ___ drink lots of water every day.",
+      "sentence": "— What's the ___ , Mateo? — I've got a toothache.",
       "options": [
-       "should",
-       "shouldn't",
-       "won't"
+       "matter",
+       "medicine",
+       "morning"
       ],
       "answer": 0
      }
@@ -241,7 +241,7 @@
     "digital"
    ],
    "data": {
-    "text": "Health poster team: write 4 rules for a healthy life (2 should, 2 shouldn't) and draw one icon for each. Present it in 30 seconds."
+    "text": "Health poster team: write 4 rules for a healthy life (2 with must, 2 with mustn't) and draw one icon for each. Present it in 30 seconds."
    }
   },
   {
@@ -259,7 +259,7 @@
  "homework": [
   {
    "type": "write_sentences",
-   "prompt": "Write your healthy day: 5 sentences with should/shouldn't about food, sleep and sport."
+   "prompt": "Write your healthy day: 5 sentences with must/mustn't about food, sleep and sport."
   }
  ],
  "scope": {
@@ -302,5 +302,11 @@
  },
  "wordlist_extra": [
   "sick"
- ]
+ ],
+ "grammar_ahead": {
+  "structure": "should / shouldn’t",
+  "level": "flyers",
+  "unit": 6,
+  "nota": "Suena dos veces en el dialogo de la dentista, pero no se practica: es de A2 Flyers."
+ }
 }

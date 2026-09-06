@@ -4,7 +4,7 @@
  "number": 2,
  "title": "What's the weather like?",
  "topic": "weather",
- "grammar": "be going to + weather words",
+ "grammar": "What is the weather like? + weather words",
  "wordlist": [
   "weather",
   "sunny",
@@ -31,7 +31,7 @@
    "sofia": 2,
    "erik": 1
   },
-  "bubble": "Look at my map! We're going to have a picnic by the fjord on Saturday… if it doesn't rain!",
+  "bubble": "Look at my map! We've got a picnic by the fjord on Saturday… if the weather is good!",
   "intro": "Erik's newest invention is a weather machine made from an umbrella, two spoons and a bicycle bell. Does it work? Nobody knows! But this Saturday the Club really needs it, because there is a picnic planned by the fjord. Will it be sunny or rainy? Should they take the kite or the board games? In this unit you will learn to talk about every kind of weather — and maybe, like Sofia, you will see a rainbow with both ends in the water."
  },
  "activities": [
@@ -236,7 +236,7 @@
     "digital"
    ],
    "data": {
-    "text": "Student A is the TV weather presenter: draw four weather symbols for Monday–Thursday and present them: \"On Monday it's going to be rainy…\" Student B chooses what to wear each day. Then swap."
+    "text": "Student A is the TV weather presenter: draw four weather symbols for Monday–Thursday. Student B asks \"What’s the weather like on Monday?\" and Student A answers \"It’s rainy.\" Student B chooses what to wear each day. Then swap."
    }
   },
   {
@@ -377,5 +377,11 @@
  "wordlist_extra": [
   "foggy",
   "stormy"
- ]
+ ],
+ "grammar_ahead": {
+  "structure": "be going to",
+  "level": "flyers",
+  "unit": 43,
+  "nota": "Suena en el dialogo de Erik y Sofia, pero no se practica: es de A2 Flyers."
+ }
 }

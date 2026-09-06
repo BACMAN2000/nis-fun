@@ -215,6 +215,21 @@ window.MAGICBOX = (function () {
       reto: { p: 'Tomorrow it ___ rain.', ops: ['will', 'was', 'is'], bien: 0 },
     },
     {
+      /* Las dos mitades de una frase con «if». La de siempre (zero
+         conditional) es la que pide A2 Flyers; la del plan de este sabado
+         (first conditional) ya es B1, y por eso van juntas y separadas. */
+      id: 'si',
+      busca: /conditional|if \+ present|if clause|if-clause/i,
+      titulo: 'If…, then…',
+      pasos: [
+        { arte: () => figura('feliz', 'arriba'), pal: "If it's sunny,", fin: ' we go swimming',   frase: 'Always. Every sunny day.' },
+        { arte: () => figura('triste', 'abajo'), pal: 'If it rains,',   fin: " we'll stay inside", frase: 'Only this Saturday.' },
+        { arte: () => figura('feliz', 'abajo'),  pal: "If you're late,", fin: " we'll wait",       frase: 'A promise for today.' },
+      ],
+      pie: "After if, never will. The will goes in the other half.",
+      reto: { p: 'If it ___ tomorrow, we will stay at home.', ops: ['will rain', 'rains', 'rained'], bien: 1 },
+    },
+    {
       id: 'este',
       busca: /this \/ that|these \/ those|this|that|these|those|demonstrat/i,
       titulo: 'Near me, far from me',
@@ -345,6 +360,21 @@ window.MAGICBOX = (function () {
       ],
       pie: 'a before most words, an before a, e, i, o, u.',
       reto: { p: 'It is ___ elephant.', ops: ['a', 'an', 'the'], bien: 1 },
+    },
+    {
+      /* Los planes y los deseos: es lo que pide «want to / would like to»,
+         que en el curso estaba dado con «going to» — una estructura de A2
+         Flyers dentro de una unidad de A1 Movers. */
+      id: 'quiero',
+      busca: /want to|wants to|would like to|ambition|wishes/i,
+      titulo: 'What do you want?',
+      pasos: [
+        { arte: () => figura('feliz', 'abajo'),  pal: 'I want',       fin: ' a cake',      frase: 'A thing? Just say it.' },
+        { arte: () => figura('feliz', 'arriba'), pal: 'I want',       fin: ' to make it',  frase: 'An action? Add to.' },
+        { arte: () => figura('feliz', 'abajo'),  pal: 'I would like', fin: ' to help you', frase: 'The polite one.' },
+      ],
+      pie: "want + to + verb. Never 'I want make'.",
+      reto: { p: 'I ___ to invite everybody.', ops: ['wanting', 'want', 'wants'], bien: 1 },
     },
     {
       id: 'me-gusta',

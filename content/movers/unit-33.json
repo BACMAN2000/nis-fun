@@ -4,7 +4,7 @@
  "number": 33,
  "title": "Telling the time",
  "topic": "time",
- "grammar": "o'clock / half past + What time",
+ "grammar": "o'clock / half past · When…?",
  "wordlist": [
   "o'clock",
   "half past",
@@ -33,7 +33,7 @@
    "erik": 5
   },
   "bubble": "Erik built a clock that barks the hours. Luna is confused. The neighbours too.",
-  "intro": "Erik built a clock that barks the hours, and Luna is very confused: at three o'clock she answers three times. What time is it? Half past eight — time for school. What time is the film? At seven o'clock in the evening. Sofía prefers her old watch, which is quiet and always right. What time do you get up? Look at the clock and say it in English!"
+  "intro": "Erik built a clock that barks the hours, and Luna is very confused: at three o'clock she answers three times. What time is it? Half past eight — time for school. When is the film? At seven o'clock in the evening. Sofía prefers her old watch, which is quiet and always right. When do you get up? Look at the clock and say it in English!"
  },
  "activities": [
   {
@@ -307,5 +307,11 @@
  "wordlist_extra": [
   "quarter to",
   "past"
- ]
+ ],
+ "grammar_ahead": {
+  "structure": "What time does…?",
+  "level": "flyers",
+  "unit": 18,
+  "nota": "Preguntar la hora de algo con «What time does…?» es de A2 Flyers; aqui basta «When…?»."
+ }
 }

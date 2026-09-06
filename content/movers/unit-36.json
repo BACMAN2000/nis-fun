@@ -2,9 +2,9 @@
  "id": "movers-36",
  "level": "movers",
  "number": 36,
- "title": "I'm going to…",
- "topic": "going to",
- "grammar": "going to (planes)",
+ "title": "The surprise party",
+ "topic": "plans & wishes",
+ "grammar": "want to / would like to (plans and wishes)",
  "wordlist": [
   "plan",
   "tomorrow",
@@ -32,14 +32,14 @@
    "erik": 4,
    "valentina": 3
   },
-  "bubble": "Top secret: Sofía's birthday is on Friday. We're going to prepare the BEST surprise party in club history!",
-  "intro": "Top secret! Sofía's birthday is on Friday, so the Club is going to prepare a surprise. Valentina is going to make the cake, Erik is going to invent something that throws balloons, and Mateo is going to invite everybody — quietly. Next week they are going to remember this party for a long time. What are YOU going to do at the weekend? Make a plan!"
+  "bubble": "Top secret: Sofía's birthday is on Friday. We want to prepare the BEST surprise party in club history!",
+  "intro": "Top secret! Sofía's birthday is on Friday, and the Club wants to prepare a surprise. Valentina would like to make the cake, Erik wants to invent something that throws balloons, and Mateo wants to invite everybody — quietly. What do YOU want to do at the weekend? Make a plan!"
  },
  "activities": [
   {
    "code": "A",
    "type": "match_words",
-   "title": "Match the person with their party job.",
+   "title": "Match the person with the job they want.",
    "outputs": [
     "book",
     "digital",
@@ -50,27 +50,27 @@
     "right_label": "Job",
     "pairs": [
      {
-      "left": "Erik is going to",
+      "left": "Erik wants to",
       "right": "build a confetti machine"
      },
      {
-      "left": "Valentina is going to",
+      "left": "Valentina would like to",
       "right": "write the invitation cards"
      },
      {
-      "left": "Mateo is going to",
+      "left": "Mateo wants to",
       "right": "guard the biscuits (dangerous!)"
      },
      {
-      "left": "Grandma is going to",
+      "left": "Grandma would like to",
       "right": "bake the chocolate cake"
      },
      {
-      "left": "Luna is going to",
+      "left": "Luna wants to",
       "right": "keep Sofia away until five"
      },
      {
-      "left": "Everyone is going to",
+      "left": "Everyone wants to",
       "right": "shout SURPRISE at the door"
      }
     ]
@@ -79,7 +79,7 @@
   {
    "code": "B",
    "type": "exam_task",
-   "title": "Quick check · Choose the correct going to form.",
+   "title": "Quick check · Choose the correct form.",
    "outputs": [
     "book",
     "digital",
@@ -89,25 +89,25 @@
     "instructions": "Complete each sentence.",
     "items": [
      {
-      "sentence": "We ___ going to have a party on Friday.",
+      "sentence": "We ___ to have a party on Friday.",
       "options": [
-       "are",
-       "is",
-       "am"
+       "want",
+       "wants",
+       "wanting"
       ],
       "answer": 0
      },
      {
-      "sentence": "She ___ going to love the surprise!",
+      "sentence": "She would ___ to help with the cake.",
       "options": [
-       "is",
-       "are",
-       "am"
+       "like",
+       "likes",
+       "liking"
       ],
       "answer": 0
      },
      {
-      "sentence": "I'm going ___ make the birthday card.",
+      "sentence": "I want ___ make the birthday card.",
       "options": [
        "to",
        "for",
@@ -116,16 +116,16 @@
       "answer": 0
      },
      {
-      "sentence": "___ you going to invite the whole class?",
+      "sentence": "___ you want to invite the whole class?",
       "options": [
+       "Do",
        "Are",
-       "Is",
-       "Do"
+       "Is"
       ],
       "answer": 0
      },
      {
-      "sentence": "They aren't going to ___ anything to Sofia!",
+      "sentence": "They don't want to ___ anything to Sofia!",
       "options": [
        "say",
        "saying",
@@ -147,14 +147,14 @@
    "audio": "movers/u36-c.mp3",
    "data": {
     "voice_note": "Voces: Erik (susurrando el plan) y Valentina (lista en mano).",
-    "script": "Erik: Secret meeting! The party is going to be on Friday at five. … Valentina: I'm going to write twelve invitations tonight. … Erik: My confetti machine is going to shoot confetti for one minute! … Valentina: Grandma is going to bake a chocolate cake with strawberries. … Erik: And Mateo? … Valentina: He's going to blow up thirty balloons. Green and gold. … Erik: Luna's mission: to walk with Sofia in the park until five. … Valentina: This is going to be the best surprise ever!",
+    "script": "Erik: Secret meeting! The party is going to be on Friday at five. … Valentina: I'm going to write twelve invitations tonight. … Erik: My confetti machine is going to shoot confetti for one minute! … Valentina: Grandma would like to bake a chocolate cake with strawberries. … Erik: And Mateo? … Valentina: He's going to blow up thirty balloons. Green and gold. … Erik: Luna's mission: to walk with Sofia in the park until five. … Valentina: This is going to be the best surprise ever!",
     "questions": [
      {
       "q": "The party is on Friday at …",
       "answer": "five"
      },
      {
-      "q": "Valentina is going to write … invitations.",
+      "q": "Valentina would like to write … invitations.",
       "answer": "twelve"
      },
      {
@@ -166,7 +166,7 @@
       "answer": "strawberries"
      },
      {
-      "q": "Mateo is going to blow up … balloons.",
+      "q": "Mateo wants to blow up … balloons.",
       "answer": "thirty"
      }
     ]
@@ -185,27 +185,27 @@
     "instructions": "Choose the best answer.",
     "items": [
      {
-      "sentence": "\"What are you going to do tomorrow?\"",
+      "sentence": "\"What do you want to do tomorrow?\"",
       "options": [
-       "I'm going to visit my cousins.",
+       "I want to visit my cousins.",
        "Yesterday morning.",
        "It's Luna's."
       ],
       "answer": 0
      },
      {
-      "sentence": "\"Are you going to come to the party?\"",
+      "sentence": "\"Would you like to come to the party?\"",
       "options": [
-       "Yes, of course!",
+       "Yes, please!",
        "It's half past two.",
        "Under the bed."
       ],
       "answer": 0
      },
      {
-      "sentence": "\"Who is going to bring the music?\"",
+      "sentence": "\"Who wants to bring the music?\"",
       "options": [
-       "Erik is.",
+       "Erik does.",
        "Two soles.",
        "In the kitchen."
       ],
@@ -241,7 +241,7 @@
     "digital"
    ],
    "data": {
-    "text": "Plan a surprise party for an imaginary friend: 5 sentences with going to (who, where, food, music, surprise). Present your plan in 30 seconds!"
+    "text": "Plan a surprise party for an imaginary friend: 5 sentences with want to / would like to (who, where, food, music, surprise). Present your plan in 30 seconds!"
    }
   },
   {
@@ -259,7 +259,7 @@
  "homework": [
   {
    "type": "write_sentences",
-   "prompt": "Write 5 plans for next weekend with going to: I'm going to… My family is going to…"
+   "prompt": "Write 5 plans for next weekend with want to: I want to… My family would like to…"
   }
  ],
  "scope": {
@@ -295,5 +295,11 @@
   "pendiente": {
    "vocabulario": []
   }
+ },
+ "grammar_ahead": {
+  "structure": "be going to",
+  "level": "flyers",
+  "unit": 43,
+  "nota": "Suena en el plan secreto de Erik y Valentina, pero no se practica: es de A2 Flyers."
  }
 }

@@ -1,60 +1,265 @@
 {
-  "level": "movers",
-  "name": "Fun for Nordic 2 · Movers",
-  "cast": "The Fjord Club",
-  "color": "#2f9268",
-  "mascot": "luna",
-  "kids": ["erik", "valentina", "sofia", "mateo"],
-  "units": [
-    { "n": 1,  "title": "Our animal friends", "topic": "animals" },
-    { "n": 2,  "title": "What's the weather like?", "topic": "weather" },
-    { "n": 3,  "title": "Yesterday at the funfair", "topic": "past simple" },
-    { "n": 4,  "title": "My busy morning", "topic": "daily routine" },
-    { "n": 5,  "title": "Clothes for the week", "topic": "clothes" },
-    { "n": 6,  "title": "Food I love", "topic": "food" },
-    { "n": 7,  "title": "At the market", "topic": "fruit & vegetables" },
-    { "n": 8,  "title": "My home, my room", "topic": "home" },
-    { "n": 9,  "title": "In the garden", "topic": "garden" },
-    { "n": 10, "title": "A day at the farm", "topic": "farm animals" },
-    { "n": 11, "title": "At the lake", "topic": "nature" },
-    { "n": 12, "title": "My school bag", "topic": "school things" },
-    { "n": 13, "title": "Classroom rules", "topic": "must / mustn't" },
-    { "n": 14, "title": "After school", "topic": "free time" },
-    { "n": 15, "title": "Sports day", "topic": "sports" },
-    { "n": 16, "title": "My week", "topic": "days of the week" },
-    { "n": 17, "title": "The picnic", "topic": "food & drink" },
-    { "n": 18, "title": "Dressed for winter", "topic": "clothes & weather" },
-    { "n": 19, "title": "The bus to school", "topic": "transport" },
-    { "n": 20, "title": "Around the town", "topic": "places" },
-    { "n": 21, "title": "Where is the cat?", "topic": "prepositions" },
-    { "n": 22, "title": "People I know", "topic": "describing people" },
-    { "n": 23, "title": "My grandparents' village", "topic": "countryside" },
-    { "n": 24, "title": "Helping at home", "topic": "chores" },
-    { "n": 25, "title": "I'm ill!", "topic": "health" },
-    { "n": 26, "title": "At the doctor's", "topic": "health" },
-    { "n": 27, "title": "The class trip", "topic": "past simple: -ed" },
-    { "n": 28, "title": "Yesterday's adventure", "topic": "irregular pasts" },
-    { "n": 29, "title": "The lost dog", "topic": "past story" },
-    { "n": 30, "title": "Bigger and smaller", "topic": "comparatives" },
-    { "n": 31, "title": "The best in the class", "topic": "superlatives" },
-    { "n": 32, "title": "Numbers everywhere", "topic": "numbers to 100" },
-    { "n": 33, "title": "Telling the time", "topic": "time" },
-    { "n": 34, "title": "The weather today", "topic": "weather & seasons" },
-    { "n": 35, "title": "Whose toys?", "topic": "possessives" },
-    { "n": 36, "title": "I'm going to…", "topic": "going to" },
-    { "n": 37, "title": "The school show", "topic": "present continuous" },
-    { "n": 38, "title": "Quiet, please!", "topic": "imperatives" },
-    { "n": 39, "title": "Big appetite", "topic": "quantities" },
-    { "n": 40, "title": "My favourite animal", "topic": "can + descriptions" },
-    { "n": 41, "title": "In the jungle", "topic": "wild animals" },
-    { "n": 42, "title": "Under the sea", "topic": "sea animals" },
-    { "n": 43, "title": "The treasure game", "topic": "directions" },
-    { "n": 44, "title": "A letter to a friend", "topic": "writing" },
-    { "n": 45, "title": "The birthday party", "topic": "celebrations" },
-    { "n": 46, "title": "At the café", "topic": "ordering food" },
-    { "n": 47, "title": "The photo album", "topic": "past + family" },
-    { "n": 48, "title": "Word games", "topic": "vocabulary review" },
-    { "n": 49, "title": "Exam day tips", "topic": "exam practice" },
-    { "n": 50, "title": "The Fjord Club graduation", "topic": "review & celebration" }
-  ]
+ "level": "movers",
+ "name": "Fun for Nordic 2 · Movers",
+ "cast": "The Fjord Club",
+ "color": "#2f9268",
+ "mascot": "luna",
+ "kids": [
+  "erik",
+  "valentina",
+  "sofia",
+  "mateo"
+ ],
+ "units": [
+  {
+   "n": 1,
+   "title": "Our animal friends",
+   "topic": "animals"
+  },
+  {
+   "n": 2,
+   "title": "What's the weather like?",
+   "topic": "weather"
+  },
+  {
+   "n": 3,
+   "title": "Yesterday at the funfair",
+   "topic": "past simple"
+  },
+  {
+   "n": 4,
+   "title": "My busy morning",
+   "topic": "daily routine"
+  },
+  {
+   "n": 5,
+   "title": "Clothes for the week",
+   "topic": "clothes"
+  },
+  {
+   "n": 6,
+   "title": "Food I love",
+   "topic": "food"
+  },
+  {
+   "n": 7,
+   "title": "At the market",
+   "topic": "fruit & vegetables"
+  },
+  {
+   "n": 8,
+   "title": "My home, my room",
+   "topic": "home"
+  },
+  {
+   "n": 9,
+   "title": "In the garden",
+   "topic": "garden"
+  },
+  {
+   "n": 10,
+   "title": "A day at the farm",
+   "topic": "farm animals"
+  },
+  {
+   "n": 11,
+   "title": "At the lake",
+   "topic": "nature"
+  },
+  {
+   "n": 12,
+   "title": "My school bag",
+   "topic": "school things"
+  },
+  {
+   "n": 13,
+   "title": "Classroom rules",
+   "topic": "must / mustn't"
+  },
+  {
+   "n": 14,
+   "title": "After school",
+   "topic": "free time"
+  },
+  {
+   "n": 15,
+   "title": "Sports day",
+   "topic": "sports"
+  },
+  {
+   "n": 16,
+   "title": "My week",
+   "topic": "days of the week"
+  },
+  {
+   "n": 17,
+   "title": "The picnic",
+   "topic": "food & drink"
+  },
+  {
+   "n": 18,
+   "title": "Dressed for winter",
+   "topic": "clothes & weather"
+  },
+  {
+   "n": 19,
+   "title": "The bus to school",
+   "topic": "transport"
+  },
+  {
+   "n": 20,
+   "title": "Around the town",
+   "topic": "places"
+  },
+  {
+   "n": 21,
+   "title": "Where is the cat?",
+   "topic": "prepositions"
+  },
+  {
+   "n": 22,
+   "title": "People I know",
+   "topic": "describing people"
+  },
+  {
+   "n": 23,
+   "title": "My grandparents' village",
+   "topic": "countryside"
+  },
+  {
+   "n": 24,
+   "title": "Helping at home",
+   "topic": "chores"
+  },
+  {
+   "n": 25,
+   "title": "I'm ill!",
+   "topic": "health"
+  },
+  {
+   "n": 26,
+   "title": "At the doctor's",
+   "topic": "health"
+  },
+  {
+   "n": 27,
+   "title": "The class trip",
+   "topic": "past simple: -ed"
+  },
+  {
+   "n": 28,
+   "title": "Yesterday's adventure",
+   "topic": "irregular pasts"
+  },
+  {
+   "n": 29,
+   "title": "The lost dog",
+   "topic": "past story"
+  },
+  {
+   "n": 30,
+   "title": "Bigger and smaller",
+   "topic": "comparatives"
+  },
+  {
+   "n": 31,
+   "title": "The best in the class",
+   "topic": "superlatives"
+  },
+  {
+   "n": 32,
+   "title": "Numbers everywhere",
+   "topic": "numbers to 100"
+  },
+  {
+   "n": 33,
+   "title": "Telling the time",
+   "topic": "time"
+  },
+  {
+   "n": 34,
+   "title": "The weather today",
+   "topic": "weather & seasons"
+  },
+  {
+   "n": 35,
+   "title": "Whose toys?",
+   "topic": "possessives"
+  },
+  {
+   "n": 36,
+   "title": "The surprise party",
+   "topic": "plans & wishes"
+  },
+  {
+   "n": 37,
+   "title": "The school show",
+   "topic": "present continuous"
+  },
+  {
+   "n": 38,
+   "title": "Quiet, please!",
+   "topic": "imperatives"
+  },
+  {
+   "n": 39,
+   "title": "Big appetite",
+   "topic": "quantities"
+  },
+  {
+   "n": 40,
+   "title": "My favourite animal",
+   "topic": "can + descriptions"
+  },
+  {
+   "n": 41,
+   "title": "In the jungle",
+   "topic": "wild animals"
+  },
+  {
+   "n": 42,
+   "title": "Under the sea",
+   "topic": "sea animals"
+  },
+  {
+   "n": 43,
+   "title": "The treasure game",
+   "topic": "directions"
+  },
+  {
+   "n": 44,
+   "title": "A letter to a friend",
+   "topic": "writing"
+  },
+  {
+   "n": 45,
+   "title": "The birthday party",
+   "topic": "celebrations"
+  },
+  {
+   "n": 46,
+   "title": "At the café",
+   "topic": "ordering food"
+  },
+  {
+   "n": 47,
+   "title": "The photo album",
+   "topic": "past + family"
+  },
+  {
+   "n": 48,
+   "title": "Word games",
+   "topic": "vocabulary review"
+  },
+  {
+   "n": 49,
+   "title": "Exam day tips",
+   "topic": "exam practice"
+  },
+  {
+   "n": 50,
+   "title": "The Fjord Club graduation",
+   "topic": "review & celebration"
+  }
+ ]
 }

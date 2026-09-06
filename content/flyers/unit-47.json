@@ -4,7 +4,7 @@
  "number": 47,
  "title": "If it rains on Saturday…",
  "topic": "if / when",
- "grammar": "first conditional (if + present, will)",
+ "grammar": "if + present: zero conditional (always) · first conditional (this time)",
  "wordlist": [
   "if",
   "when",
@@ -333,7 +333,7 @@
     "model": "One morning Ingrid is in the lighthouse kitchen. Then Ingrid meets Samu at the funfair. At the viewpoint they are very happy together.",
     "words": [],
     "support": {
-     "grammar": "first conditional (if + present, will)",
+     "grammar": "if + present: zero conditional for what always happens, will for this Saturday",
      "words": [
       "if",
       "when",
@@ -424,6 +424,92 @@
     "voice_note": "Voces: Diego (nino, reportero) pregunta y Maya (nina, cientifica) responde."
    },
    "code": "G"
+  },
+  {
+   "code": "L",
+   "type": "grammar_box",
+   "title": "Grammar · If it’s sunny, we go swimming",
+   "instructions": "Read the sentences. Then choose the right form.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "structure": "If clauses (zero conditional)",
+   "data": {
+    "title": "Two kinds of if",
+    "intro": "This unit is full of plans for <i>next</i> Saturday. But there is another <b>if</b>, the one for what is <b>always</b> true — and that is the one the Flyers exam asks for.",
+    "can": "I can tell the two kinds of <b>if</b> apart: what always happens, and what we will do this time.",
+    "examples": [
+     {
+      "text": "<b>If it’s sunny, we go swimming.</b> — always, every sunny day.",
+      "note": "Cambridge"
+     },
+     {
+      "text": "If Kili smells biscuits, he <b>comes</b> to the window. It happens every time."
+     },
+     {
+      "text": "If it rains on Saturday, we<b>’ll</b> do the quiz inside. — just this Saturday."
+     },
+     {
+      "text": "If you open the door, the light <b>comes</b> on. Try it!"
+     }
+    ],
+    "rules": [
+     "Always true → present in <b>both</b> halves: <i>If it’s sunny, we <b>go</b> swimming.</i>",
+     "A plan for one day → present + <b>will</b>: <i>If it rains, we<b>’ll</b> stay inside.</i>",
+     "Either way, <b>never put will after if</b>. The <i>will</i> goes in the other half."
+    ],
+    "practice": {
+     "instructions": "Choose the right form.",
+     "items": [
+      {
+       "sentence": "If you leave ice in the sun, it ___ into water. It always does.",
+       "options": [
+        "will change",
+        "changes",
+        "changed"
+       ],
+       "answer": 1
+      },
+      {
+       "sentence": "If it ___ sunny, we go swimming. That is what we always do.",
+       "options": [
+        "is",
+        "will be",
+        "was"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "If it rains tomorrow, we ___ the picnic inside.",
+       "options": [
+        "have",
+        "will have",
+        "had"
+       ],
+       "answer": 1
+      },
+      {
+       "sentence": "Which one is right?",
+       "options": [
+        "If it will rain, we stay inside.",
+        "If it rains, we stay inside.",
+        "If it rain, we will stayed inside."
+       ],
+       "answer": 1
+      },
+      {
+       "sentence": "Luna runs to the door if she ___ my bike. Every time!",
+       "options": [
+        "hear",
+        "will hear",
+        "hears"
+       ],
+       "answer": 2
+      }
+     ]
+    }
+   }
   }
  ],
  "homework": [
@@ -463,5 +549,10 @@
   "pendiente": {
    "vocabulario": []
   }
+ },
+ "grammar_ahead": {
+  "structure": "first conditional (if + present, will)",
+  "level": "b1",
+  "nota": "La lista de A2 Flyers solo pide el zero conditional; el first conditional ya es B1. Se ensena porque el plan A / plan B lo necesita, pero el examen no lo exige."
  }
 }

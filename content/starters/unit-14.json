@@ -4,7 +4,7 @@
  "number": 14,
  "title": "Drinks",
  "topic": "drinks",
- "grammar": "Can I have…?",
+ "grammar": "Can I have…? / Would you like…?",
  "wordlist": [
   "water",
   "milk",
@@ -254,6 +254,93 @@
    ],
    "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
    "data": {}
+  },
+  {
+   "code": "G",
+   "type": "grammar_box",
+   "title": "Grammar · Would you like…?",
+   "instructions": "Read the sentences. Then choose the right word.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "structure": "Would like + noun or verb",
+   "data": {
+    "title": "Would you like a drink?",
+    "intro": "You ask for something with <b>Can I have…?</b> You <i>offer</i> something with <b>Would you like…?</b> Both are polite, and the exam loves them.",
+    "can": "I can offer a drink with <b>Would you like…?</b> and answer <b>Yes, please</b> or <b>No, thank you</b>.",
+    "examples": [
+     {
+      "text": "I would like some grapes. <b>Would you like</b> to colour that ball?",
+      "note": "Cambridge"
+     },
+     {
+      "text": "<b>Would you like</b> an apple? — Yes, please. Here you are.",
+      "note": "Cambridge"
+     },
+     {
+      "text": "Astrid: <b>Would you like</b> some milk? — Nico: No, thank you. I would like water."
+     },
+     {
+      "text": "<b>Would you like</b> to play with my ball? — Yes, please!"
+     }
+    ],
+    "rules": [
+     "<b>Would you like</b> + a thing: <i>Would you like an apple?</i>",
+     "<b>Would you like</b> + <b>to</b> + verb: <i>Would you like to play?</i>",
+     "Two answers, and both are polite: <b>Yes, please.</b> / <b>No, thank you.</b>"
+    ],
+    "practice": {
+     "instructions": "Choose the right word.",
+     "items": [
+      {
+       "sentence": "___ you like some milk?",
+       "options": [
+        "Are",
+        "Would",
+        "Do you"
+       ],
+       "answer": 1
+      },
+      {
+       "sentence": "Would you like ___ apple?",
+       "options": [
+        "a",
+        "an",
+        "the"
+       ],
+       "answer": 1
+      },
+      {
+       "sentence": "Would you like ___ play with my ball?",
+       "options": [
+        "to",
+        "for",
+        "and"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "— Would you like some cake? — ___",
+       "options": [
+        "Yes, I would like.",
+        "Yes, please!",
+        "Yes, I do like."
+       ],
+       "answer": 1
+      },
+      {
+       "sentence": "I ___ like some water, please.",
+       "options": [
+        "am",
+        "would",
+        "do"
+       ],
+       "answer": 1
+      }
+     ]
+    }
+   }
   }
  ],
  "homework": [
