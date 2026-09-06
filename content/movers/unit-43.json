@@ -51,11 +51,11 @@
     "pairs": [
      {
       "left": "Turn left.",
-      "right": "go to this side ←"
+      "right": "← go to this side"
      },
      {
       "left": "Turn right.",
-      "right": "go to this side →"
+      "right": "→ go to this side"
      },
      {
       "left": "Go straight.",
