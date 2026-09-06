@@ -18,9 +18,9 @@
   "juice"
  ],
  "exam_focus": {
-  "paper": "Listening",
-  "part": 4,
-  "skill": "fruit & colours"
+  "paper": "Reading & Writing",
+  "part": 3,
+  "skill": "writing"
  },
  "characters": [
   "astrid",
@@ -227,6 +227,45 @@
    ],
    "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
    "data": {}
+  },
+  {
+   "code": "G",
+   "type": "unscramble",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "title": "Exam part · Look at the picture. Write the word.",
+   "instructions": "The letters are not in order. Look at the picture and write the word.",
+   "data": {
+    "items": [
+     {
+      "letters": "p p a l e",
+      "word": "apple",
+      "e": "🍎"
+     },
+     {
+      "letters": "n a a n b a",
+      "word": "banana",
+      "e": "🍌"
+     },
+     {
+      "letters": "g o n e r a",
+      "word": "orange",
+      "e": "🍊"
+     },
+     {
+      "letters": "o l m e n",
+      "word": "lemon",
+      "e": "🍋"
+     },
+     {
+      "letters": "r e p a",
+      "word": "pear",
+      "e": "🍐"
+     }
+    ]
+   }
   }
  ],
  "homework": [

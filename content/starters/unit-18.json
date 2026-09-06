@@ -18,9 +18,9 @@
   "blue"
  ],
  "exam_focus": {
-  "paper": "Listening",
+  "paper": "Reading & Writing",
   "part": 4,
-  "skill": "sea words"
+  "skill": "reading"
  },
  "characters": [
   "freya",
@@ -227,6 +227,34 @@
    ],
    "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
    "data": {}
+  },
+  {
+   "code": "G",
+   "type": "gap_text",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "title": "Exam part · Choose the word and write it in the gap.",
+   "instructions": "Read about the sea. Choose a word from the box and write it in each gap.",
+   "data": {
+    "box": [
+     "sea",
+     "fish",
+     "boat",
+     "sand",
+     "birds",
+     "water"
+    ],
+    "text": "The {1} is very big and blue. There are a lot of {2} in it. Some are small and some are very big. You can go on the {3} with your family. On the beach you can play with the {4}. Look up! Two white {5} are flying.",
+    "answers": [
+     "sea",
+     "fish",
+     "boat",
+     "sand",
+     "birds"
+    ]
+   }
   }
  ],
  "homework": [

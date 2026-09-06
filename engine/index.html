@@ -448,6 +448,19 @@ if(/\.github\.io$/i.test(location.hostname)){
   .gt-text{background:var(--surface2);border-radius:10px;padding:1rem 1.2rem;max-width:46rem;line-height:2.1}
   .gt-text input{border:0;border-bottom:2px solid var(--accent);background:transparent;font:600 1rem "Source Sans 3";width:7.5rem;text-align:center;color:var(--ink)}
   .gt-text input.ok{color:var(--ok);border-color:var(--ok)}
+  /* Hueco con alternativas: el mismo de los examenes YLE. Se pulsa el numero y
+     las opciones salen donde esta, sin subir al banco de palabras del principio. */
+  .gapw{position:relative;display:inline-block;vertical-align:baseline;margin:0 .15rem}
+  .gapb{border:0;border-bottom:2px solid var(--accent);background:var(--surface2);border-radius:7px 7px 0 0;padding:.15rem .6rem;font:700 1rem "Source Sans 3";color:var(--accent);cursor:pointer;min-width:5.5rem}
+  .gapb i{font-style:normal;font-size:.8em;opacity:.7;margin-right:.35rem}
+  .gapb.puesto{color:var(--ink);background:#fff}
+  .gapm.hidden{display:none}
+  .gapm{position:absolute;z-index:40;left:0;top:calc(100% + 2px);background:#fff;border:1.5px solid var(--accent);border-radius:11px;box-shadow:0 12px 28px rgba(0,0,0,.18);padding:.3rem;display:flex;flex-direction:column;min-width:100%;max-height:46vh;overflow:auto}
+  .gapm button{border:0;background:none;text-align:left;padding:.45rem .8rem;border-radius:8px;font:600 1rem "Source Sans 3";color:var(--ink);cursor:pointer;white-space:nowrap}
+  .gapm button:hover,.gapm button.on{background:var(--surface2)}
+  .gapw.ok .gapb{background:#e3f3ea;border-bottom-color:var(--ok)}
+  .gapw.bad .gapb{background:#f8e1e1;border-bottom-color:var(--bad,#b53a3a)}
+  .gapw .sol{font:700 .85rem "Source Sans 3";color:var(--ok);margin-left:.2rem}
   .gt-text input.bad{color:var(--bad);border-color:var(--bad)}
   .gt-text .gn{font-size:.7rem;color:var(--soft);font-weight:700;vertical-align:super}
   /* spot the difference */
@@ -668,6 +681,22 @@ if(/\.github\.io$/i.test(location.hostname)){
   .gb-note{float:right;color:var(--soft);font-style:italic;font-size:.85rem}
   .gb-rules{margin:.2rem 0 0;padding-left:1.2rem;color:var(--ink);display:flex;flex-direction:column;gap:.25rem}
   .gb-practice{margin-top:1rem}
+  /* ordenar las letras (Reading & Writing 3) */
+  .unsc{display:flex;flex-direction:column;gap:.6rem;max-width:34rem;margin-inline:auto}
+  .unsc-it{display:flex;align-items:center;gap:.8rem;background:var(--surface2);border-radius:12px;padding:.5rem .8rem;flex-wrap:wrap}
+  .unsc-pic{font-size:1.8rem;line-height:1}
+  .unsc-let{font-family:"Baloo 2",sans-serif;font-weight:800;letter-spacing:.35em;color:var(--accent);font-size:1.1rem;flex:1}
+  .unsc-it input{border:none;border-bottom:2px solid var(--line);background:#fff;border-radius:8px 8px 0 0;padding:.3rem .6rem;width:9rem;font-family:"Source Sans 3";font-weight:600}
+  .unsc-it input.ok{border-color:var(--ok);background:#e2f2e9}
+  .unsc-it input.bad{border-color:var(--bad);background:#fbe6e3}
+  /* la historia con preguntas de una palabra (Reading & Writing 5) */
+  .sqa{max-width:40rem;margin:.8rem auto 0;padding-left:1.4rem;display:flex;flex-direction:column;gap:.55rem}
+  .sqa li{line-height:1.9}
+  .sqa-q{margin-right:.5rem}
+  .sqa input{border:none;border-bottom:2px solid var(--accent);background:var(--surface2);border-radius:6px 6px 0 0;padding:.2rem .5rem;min-width:7rem;font-family:"Source Sans 3";font-weight:600}
+  .sqa input.ok{border-color:var(--ok);background:#e2f2e9}
+  .sqa input.bad{border-color:var(--bad);background:#fbe6e3}
+  .sol{margin-left:.5rem;color:var(--bad);font-weight:700;font-size:.9rem}
   .gb-ph{margin-bottom:.5rem}
   /* ===== key word transformations ===== */
   .kwt{max-width:46rem;margin-inline:auto}
@@ -1435,6 +1464,10 @@ function pintaSelfCheck(el, digital){
                       "Je sais regarder trois images et écrire l'histoire en 20-25 mots."),
     grammar_box:    T('I can use the new grammar of this unit in my own sentences.',
                       'Je sais employer la nouvelle règle de cette unité dans mes phrases.'),
+    unscramble:     T('I can put the letters in order and spell the word.',
+                      "Je sais remettre les lettres dans l'ordre et écrire le mot."),
+    story_qa:       T('I can read a short story and answer with one word.',
+                      'Je sais lire une petite histoire et répondre en un mot.'),
   };
   // Sin repetir: dos actividades del mismo tipo son la misma frase, y
   // verla dos veces en la lista parece un fallo de la pagina.
@@ -2634,7 +2667,14 @@ listening(act, el){
 gap_text(act, el){
   const d = act.data;
   let i = 0;
-  const html = d.text.replace(/\{(\d+)\}/g, (m,n)=>`<span class="gn">${n}</span><input data-i="${n-1}" autocomplete="off">`);
+  /* con banco de palabras el hueco ofrece las alternativas al pulsarlo; sin banco
+     (open cloze) se escribe, que es lo que pide el examen */
+  const banco = (d.box && d.box.length) ? d.box : null;
+  const html = d.text.replace(/\{(\d+)\}/g, (m,n)=> banco
+    ? `<span class="gapw" data-n="${n}"><button type="button" class="gapb"><i>${n}</i>\u2026</button><span class="gapm hidden">`
+      + banco.map(w=>`<button type="button" data-v="${esc(w)}">${esc(w)}</button>`).join('')
+      + `</span><input type="hidden" data-i="${n-1}"></span>`
+    : `<span class="gn">${n}</span><input data-i="${n-1}" autocomplete="off">`);
   // Si la lectura habla de una foto ("Read about the photo"), aqui esta:
   // sin ella el ejercicio pedia imaginarsela.
   const foto = `<img class="rphoto" src="../assets/reading-photos/${LEVEL}-${UD.number}-${act.code}.jpg?v=${ART_V}"
@@ -2642,11 +2682,34 @@ gap_text(act, el){
   el.innerHTML = `${foto}${d.box?`<div class="gt-box">${[...d.box].sort(()=>Math.random()-.5).map(w=>`<span>${w}</span>`).join('')}</div>`:''}
     <div class="gt-text">${html}</div>
     <div class="checkrow"><button class="chk">${T("Check","Vérifier")}</button><span class="score"></span></div>`;
+  el.querySelectorAll('.gapb').forEach(b=>{ b.onclick=e=>{
+    e.stopPropagation();
+    const m=b.parentNode.querySelector('.gapm'), abierto=!m.classList.contains('hidden');
+    el.querySelectorAll('.gapm').forEach(x=>x.classList.add('hidden'));
+    if(abierto) return;
+    m.classList.remove('hidden'); m.style.left='0'; m.style.right='auto';
+    const caja=el.getBoundingClientRect(), r=m.getBoundingClientRect();
+    if(r.right > caja.right-4){ m.style.left='auto'; m.style.right='0'; }
+  };});
+  el.querySelectorAll('.gapm button').forEach(o=>{ o.onclick=e=>{
+    e.stopPropagation();
+    const w=o.parentNode.parentNode, inp=w.querySelector('input'), bt=w.querySelector('.gapb');
+    inp.value=o.dataset.v; bt.textContent=o.dataset.v; bt.classList.add('puesto');
+    w.querySelectorAll('.gapm button').forEach(x=>x.classList.toggle('on', x===o));
+    w.querySelector('.gapm').classList.add('hidden');
+  };});
+  document.addEventListener('click', ()=>el.querySelectorAll('.gapm').forEach(x=>x.classList.add('hidden')));
   el.querySelector('.chk').onclick = ()=>{
     let ok=0;
     el.querySelectorAll('.gt-text input').forEach(inp=>{
       const good = inp.value.trim().toLowerCase()===d.answers[+inp.dataset.i].toLowerCase();
-      inp.className = good?'ok':'bad'; if(good) ok++;
+      const w = inp.closest('.gapw');
+      if(w){                                   // hueco con alternativas: se marca la casilla
+        w.classList.remove('ok','bad'); w.classList.add(good?'ok':'bad');
+        const vieja = w.querySelector('.sol'); if(vieja) vieja.remove();
+        if(!good) w.insertAdjacentHTML('beforeend', `<span class="sol">\u2192 ${esc(d.answers[+inp.dataset.i])}</span>`);
+      } else inp.className = good?'ok':'bad';
+      if(good) ok++;
     });
     const s=el.querySelector('.score');
     s.textContent=`${ok} / ${d.answers.length}`;
@@ -2693,6 +2756,65 @@ reading(act, el){
     const sc=el.querySelector('.score'); sc.textContent=`${ok} / ${q.length}`;
     sc.className='score '+(ok===q.length?'good':'partial');
     if(ok===q.length) complete(act.code);
+  };
+},
+
+/* ---- unscramble: Reading & Writing 3 de Starters. Las letras desordenadas y
+   el dibujo; el nino escribe la palabra. Es la parte que mide la ortografia, y
+   el curso no la entrenaba en ninguna de sus 45 unidades. ---- */
+unscramble(act, el){
+  const d = act.data, it = d.items || [];
+  el.innerHTML = `<div class="unsc">${it.map((x,i)=>`
+    <div class="unsc-it" data-i="${i}">
+      <span class="unsc-pic">${x.e || '\u270f\ufe0f'}</span>
+      <span class="unsc-let">${esc((x.letters||'').toUpperCase())}</span>
+      <input data-i="${i}" autocomplete="off" spellcheck="false" aria-label="word ${i+1}">
+    </div>`).join('')}</div>
+    <div class="checkrow"><button class="chk">${T('Check','V\u00e9rifier')}</button><span class="score"></span></div>`;
+  el.querySelector('.chk').onclick = ()=>{
+    let ok = 0;
+    el.querySelectorAll('.unsc input').forEach(inp=>{
+      const w = it[+inp.dataset.i], bien = inp.value.trim().toLowerCase() === String(w.word).toLowerCase();
+      inp.className = bien ? 'ok' : 'bad';
+      const caja = inp.closest('.unsc-it'), vieja = caja.querySelector('.sol');
+      if (vieja) vieja.remove();
+      if (!bien) caja.insertAdjacentHTML('beforeend', `<span class="sol">\u2192 ${esc(w.word)}</span>`);
+      if (bien) ok++;
+    });
+    const s = el.querySelector('.score');
+    s.textContent = `${ok} / ${it.length}`;
+    s.className = 'score ' + (ok === it.length ? 'good' : 'partial');
+    if (ok === it.length) complete(act.code);
+  };
+},
+
+/* ---- story_qa: Reading & Writing 5 de Starters. Una historia corta y
+   preguntas que se contestan con UNA palabra, como en el examen. Se aceptan
+   varias formas (la clave de Cambridge tambien las acepta). ---- */
+story_qa(act, el){
+  const d = act.data, q = d.questions || [];
+  const foto = `<img class="rphoto" src="../assets/reading-photos/${LEVEL}-${UD.number}-${act.code}.jpg?v=${ART_V}"
+                  alt="" onerror="this.remove()">`;
+  el.innerHTML = `${foto}<div class="reading">${(d.text||'').split('\n').map(p=>`<p>${p}</p>`).join('')}</div>
+    <ol class="sqa">${q.map((x,i)=>`<li><span class="sqa-q">${esc(x.q)}</span>
+      <input data-i="${i}" autocomplete="off" spellcheck="false" aria-label="answer ${i+1}"></li>`).join('')}</ol>
+    <div class="checkrow"><button class="chk">${T('Check','V\u00e9rifier')}</button><span class="score"></span></div>`;
+  el.querySelector('.chk').onclick = ()=>{
+    let ok = 0;
+    el.querySelectorAll('.sqa input').forEach(inp=>{
+      const x = q[+inp.dataset.i];
+      const validas = (Array.isArray(x.a) ? x.a : [x.a]).map(v=>String(v).toLowerCase().trim());
+      const bien = validas.includes(inp.value.toLowerCase().trim());
+      inp.className = bien ? 'ok' : 'bad';
+      const li = inp.closest('li'), vieja = li.querySelector('.sol');
+      if (vieja) vieja.remove();
+      if (!bien) li.insertAdjacentHTML('beforeend', `<span class="sol">\u2192 ${esc(validas[0])}</span>`);
+      if (bien) ok++;
+    });
+    const s = el.querySelector('.score');
+    s.textContent = `${ok} / ${q.length}`;
+    s.className = 'score ' + (ok === q.length ? 'good' : 'partial');
+    if (ok === q.length) complete(act.code);
   };
 },
 

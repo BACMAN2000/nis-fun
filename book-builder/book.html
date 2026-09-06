@@ -87,6 +87,15 @@
   .gbx ul.gex li{background:#fff;border-radius:2mm;padding:1mm 3mm;margin-bottom:1mm}
   .gbx ol.grul{margin:1.5mm 0 0;padding-left:5mm;font-size:9pt;color:#3c4a58}
   .gbx .gsrc{font-style:italic;color:#6b7b8c;font-size:7.5pt}
+  /* ordenar las letras y la historia con preguntas (Starters R&W 3 y 5) */
+  .unsc{display:flex;flex-direction:column;gap:2mm}
+  .unsc-it{display:flex;align-items:center;gap:3mm;font-size:9.5pt}
+  .unsc-pic{font-size:6mm}
+  .unsc-let{letter-spacing:2mm;font-weight:700}
+  .unsc-line{flex:1;border-bottom:.3mm solid var(--line);height:4mm;max-width:45mm}
+  .sqa{margin:2mm 0 0;padding-left:6mm;font-size:9.5pt}
+  .sqa li{margin-bottom:2.5mm}
+  .sqa-line{display:inline-block;width:35mm;border-bottom:.3mm solid var(--line);margin-left:3mm}
   .keyahead{background:var(--band);border-left:.7mm solid #b3771a;border-radius:0 2mm 2mm 0;
     padding:1.5mm 3mm;margin:0 0 2mm;font-size:8.5pt;color:#3c4a58}
   /* la ampliacion, con el mismo + que en pantalla */
@@ -260,8 +269,24 @@ function grammarHTML(data){
         it.options.map(o=>`<span class="opt">${o}</span>`).join('')}</span></div>`).join('')}</div>`:''}`;
 }
 
+/* Reading & Writing 3 de Starters: las letras desordenadas y una raya para
+   escribir la palabra. En papel no hay correccion, se escribe a lapiz. */
+function unscrambleHTML(data){
+  return `<div class="unsc">${(data.items||[]).map(x=>`<div class="unsc-it">
+      <span class="unsc-pic">${x.e||''}</span>
+      <span class="unsc-let">${String(x.letters||'').toUpperCase()}</span>
+      <span class="unsc-line"></span></div>`).join('')}</div>`;
+}
+
+/* Reading & Writing 5: la historia y las preguntas de una palabra. */
+function storyQaHTML(data){
+  return `<div class="rtext">${String(data.text||'').split('\n').map(p=>`<p>${p}</p>`).join('')}</div>
+    <ol class="sqa">${(data.questions||[]).map(q=>`<li>${q.q}<span class="sqa-line"></span></li>`).join('')}</ol>`;
+}
+
 const AB = { crossword: crosswordHTML, match_words: matchHTML, exam_task: examHTML,
              gap_text: gapTextHTML, spot_diff: spotDiffHTML, grammar_box: grammarHTML,
+             unscramble: unscrambleHTML, story_qa: storyQaHTML,
              pairwork: d=>`<div class="pair">👥 ${d.text}</div>` };
 
 function sceneFor(ud){
@@ -424,6 +449,10 @@ function keyUnit(ud, zonas){
         linea = '(listening) ' + d(a).questions.map((q,i)=>`${i+1}. ${q.answer}`).join('  ');
       } else if (a.type === 'exam_task' && d(a).items) {
         linea = d(a).items.map((it,i)=>`${i+1}. ${it.options[it.answer]}`).join('  ');
+      } else if (a.type === 'unscramble' && d(a).items) {
+        linea = d(a).items.map((it,i)=>`${i+1}. ${it.word}`).join('  ');
+      } else if (a.type === 'story_qa' && d(a).questions) {
+        linea = d(a).questions.map((q,i)=>`${i+1}. ${Array.isArray(q.a)?q.a[0]:q.a}`).join('  ');
       } else if (a.type === 'grammar_box' && (d(a).practice||{}).items) {
         // el profesor necesita las respuestas y, sobre todo, saber que
         // estructura oficial esta dando: va delante, con su nombre

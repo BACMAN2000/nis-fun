@@ -18,8 +18,8 @@
  ],
  "exam_focus": {
   "paper": "Listening",
-  "part": 4,
-  "skill": "colours and numbers"
+  "part": 3,
+  "skill": "listening"
  },
  "characters": [
   "tomas",
@@ -286,6 +286,96 @@
       2,
       3
      ]
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "picture_mc",
+   "outputs": [
+    "digital"
+   ],
+   "audio": "starters/u03-g.mp3",
+   "title": "Exam part · Listen and tick the right picture.",
+   "instructions": "Listen. Which one is right? Tick A, B or C.",
+   "data": {
+    "script": "Listen and tick the box. There is one example. … Which animal can swim? … Nico: Look! The fish is swimming in the water. … Which animal is very big and grey? … Astrid: The elephant! It is very big and grey. … Which animal can fly? … Nico: The parrot can fly. It is green and red. … Which animal has got a long neck? … Astrid: The giraffe has got a very long neck. … Which animal is orange and black? … Nico: The tiger! It is orange and black.",
+    "questions": [
+     {
+      "q": "Which animal can swim?",
+      "answer": "fish",
+      "options": [
+       {
+        "word": "tiger"
+       },
+       {
+        "word": "fish"
+       },
+       {
+        "word": "giraffe"
+       }
+      ]
+     },
+     {
+      "q": "Which animal is very big and grey?",
+      "answer": "elephant",
+      "options": [
+       {
+        "word": "elephant"
+       },
+       {
+        "word": "rabbit"
+       },
+       {
+        "word": "bird"
+       }
+      ]
+     },
+     {
+      "q": "Which animal can fly?",
+      "answer": "parrot",
+      "options": [
+       {
+        "word": "snake"
+       },
+       {
+        "word": "cow"
+       },
+       {
+        "word": "parrot"
+       }
+      ]
+     },
+     {
+      "q": "Which animal has got a long neck?",
+      "answer": "giraffe",
+      "options": [
+       {
+        "word": "giraffe"
+       },
+       {
+        "word": "mouse"
+       },
+       {
+        "word": "frog"
+       }
+      ]
+     },
+     {
+      "q": "Which animal is orange and black?",
+      "answer": "tiger",
+      "options": [
+       {
+        "word": "panda"
+       },
+       {
+        "word": "tiger"
+       },
+       {
+        "word": "penguin"
+       }
+      ]
+     }
     ]
    }
   }

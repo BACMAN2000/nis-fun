@@ -18,9 +18,9 @@
   "swim"
  ],
  "exam_focus": {
-  "paper": "Listening",
-  "part": 4,
-  "skill": "beach words"
+  "paper": "Reading & Writing",
+  "part": 5,
+  "skill": "reading"
  },
  "characters": [
   "nico",
@@ -254,6 +254,57 @@
    ],
    "instructions": "Look at picture A and picture B. Find the 12 differences and tell your partner about them.",
    "data": {}
+  },
+  {
+   "code": "G",
+   "type": "story_qa",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "title": "Exam part · Read the story. Answer with one word.",
+   "instructions": "Read the story about the beach. Answer each question with ONE word.",
+   "data": {
+    "text": "It is a hot day and Nico is at the beach with Freya.\nNico is making a big castle with the sand. Freya is swimming in the sea.\nPip is sleeping under a red hat. He is very happy.\nThen Freya sees a small fish. 'Come here, Nico!' she says. 'Look at this fish!'",
+    "questions": [
+     {
+      "q": "Where are Nico and Freya?",
+      "a": [
+       "beach",
+       "the beach",
+       "at the beach"
+      ]
+     },
+     {
+      "q": "What is Nico making?",
+      "a": [
+       "castle",
+       "a castle",
+       "sandcastle"
+      ]
+     },
+     {
+      "q": "What colour is the hat?",
+      "a": [
+       "red"
+      ]
+     },
+     {
+      "q": "Who is sleeping?",
+      "a": [
+       "pip"
+      ]
+     },
+     {
+      "q": "What does Freya see in the sea?",
+      "a": [
+       "fish",
+       "a fish",
+       "a small fish"
+      ]
+     }
+    ]
+   }
   }
  ],
  "homework": [

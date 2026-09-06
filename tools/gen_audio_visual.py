@@ -32,11 +32,11 @@ import sys
 import edge_tts
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CONTENIDO = os.path.join(RAIZ, "content", "flyers")
+NIVELES = ("starters", "flyers")   # los dos que tienen tareas visuales con audio
 AUDIO = os.path.join(RAIZ, "audio")
 CAST = json.load(io.open(os.path.join(RAIZ, "content", "cast-flyers.json"), encoding="utf-8"))
 
-RITMO = "-8%"          # A2, ninos de diez anos
+RITMO = {"starters": "-12%", "movers": "-9%", "flyers": "-8%"}   # mas lento cuanto mas pequeno
 CONTAR = "--contar" in sys.argv
 REHACER = "--rehacer" in sys.argv
 
@@ -79,21 +79,22 @@ def turnos(guion):
 
 def trabajos():
     out = []
-    for ruta in sorted(glob.glob(os.path.join(CONTENIDO, "unit-*.json"))):
-        d = json.load(io.open(ruta, encoding="utf-8"))
-        for a in d.get("activities", []):
-            if not a.get("audio"):
-                continue
-            guion = (a.get("data") or {}).get("script")
-            if not guion or a["type"] not in ("label_people", "picture_mc", "match_pictures"):
-                continue
-            destino = os.path.join(AUDIO, *a["audio"].split("/"))
-            out.append((d["number"], a["code"], destino, turnos(guion)))
+    for nivel in NIVELES:
+        for ruta in sorted(glob.glob(os.path.join(RAIZ, "content", nivel, "unit-*.json"))):
+            d = json.load(io.open(ruta, encoding="utf-8"))
+            for a in d.get("activities", []):
+                if not a.get("audio"):
+                    continue
+                guion = (a.get("data") or {}).get("script")
+                if not guion or a["type"] not in ("label_people", "picture_mc", "match_pictures"):
+                    continue
+                destino = os.path.join(AUDIO, *a["audio"].split("/"))
+                out.append((nivel, d["number"], a["code"], destino, turnos(guion)))
     return out
 
 
-async def turno(voz, texto):
-    com = edge_tts.Communicate(texto, voz, rate=RITMO)
+async def turno(voz, texto, ritmo):
+    com = edge_tts.Communicate(texto, voz, rate=ritmo)
     buf = io.BytesIO()
     async for t in com.stream():
         if t["type"] == "audio":
@@ -101,14 +102,14 @@ async def turno(voz, texto):
     return buf.getvalue()
 
 
-async def graba(partes, destino):
+async def graba(partes, destino, ritmo="-8%"):
     """Los turnos se piden a la vez y se pegan en orden.
 
     Uno detras de otro tardaba minuto y medio por dialogo (107 dialogos, unos
     once turnos cada uno): hora y media para algo que se puede pedir en
     paralelo. gather conserva el orden de la lista, que es lo unico que
     importa aqui."""
-    trozos = await asyncio.gather(*(turno(v, x) for v, x in partes))
+    trozos = await asyncio.gather(*(turno(v, x, ritmo) for v, x in partes))
     datos = b"".join(trozos)
     if len(datos) < 800:
         raise RuntimeError("salio un mp3 vacio")
@@ -120,16 +121,16 @@ async def graba(partes, destino):
 async def principal():
     todo = trabajos()
     pend = [t for t in todo
-            if REHACER or not (os.path.exists(t[2]) and os.path.getsize(t[2]) > 800)]
+            if REHACER or not (os.path.exists(t[3]) and os.path.getsize(t[3]) > 800)]
     print("%d dialogos · %d por grabar · %d turnos"
-          % (len(todo), len(pend), sum(len(t[3]) for t in pend)))
+          % (len(todo), len(pend), sum(len(t[4]) for t in pend)))
     if CONTAR or not pend:
         return
 
     hechos = fallos = 0
-    for u, code, destino, partes in pend:
+    for nivel, u, code, destino, partes in pend:
         try:
-            await graba(partes, destino)
+            await graba(partes, destino, RITMO.get(nivel, "-8%"))
             hechos += 1
         except Exception as e:                      # noqa: BLE001
             fallos += 1
