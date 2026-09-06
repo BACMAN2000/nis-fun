@@ -455,7 +455,8 @@ if(/\.github\.io$/i.test(location.hostname)){
   .gapb i{font-style:normal;font-size:.8em;opacity:.7;margin-right:.35rem}
   .gapb.puesto{color:var(--ink);background:#fff}
   .gapm.hidden{display:none}
-  .gapm{position:absolute;z-index:40;left:0;top:calc(100% + 2px);background:#fff;border:1.5px solid var(--accent);border-radius:11px;box-shadow:0 12px 28px rgba(0,0,0,.18);padding:.3rem;display:flex;flex-direction:column;min-width:100%;max-height:46vh;overflow:auto}
+  .gapm{position:absolute;z-index:40;left:0;top:calc(100% + 2px);background:#fff;border:1.5px solid var(--accent);border-radius:11px;box-shadow:0 12px 28px rgba(0,0,0,.18);padding:.25rem;display:flex;flex-wrap:wrap;align-items:center;width:max-content;gap:.15rem;max-width:min(92vw,34rem);max-height:46vh;overflow:auto}
+  .gapx{border:0;background:var(--surface2);border-radius:8px;padding:.4rem .6rem;cursor:pointer;font:700 1rem "Source Sans 3"}
   .gapm button{border:0;background:none;text-align:left;padding:.45rem .8rem;border-radius:8px;font:600 1rem "Source Sans 3";color:var(--ink);cursor:pointer;white-space:nowrap}
   .gapm button:hover,.gapm button.on{background:var(--surface2)}
   .gapw.ok .gapb{background:#e3f3ea;border-bottom-color:var(--ok)}
@@ -681,6 +682,11 @@ if(/\.github\.io$/i.test(location.hostname)){
   .gb-note{float:right;color:var(--soft);font-style:italic;font-size:.85rem}
   .gb-rules{margin:.2rem 0 0;padding-left:1.2rem;color:var(--ink);display:flex;flex-direction:column;gap:.25rem}
   .gb-practice{margin-top:1rem}
+  /* la parte del examen oral que ensaya el pairwork */
+  .pw-parte{max-width:46rem;margin:0 auto .7rem;display:flex;align-items:center;gap:.5rem;
+    font-size:.92rem;color:var(--soft)}
+  .pw-parte span{background:var(--accent);color:#fff;border-radius:999px;padding:.15rem .7rem;
+    font-family:"Source Sans 3";font-weight:700;font-size:.78rem;white-space:nowrap}
   /* ordenar las letras (Reading & Writing 3) */
   .unsc{display:flex;flex-direction:column;gap:.6rem;max-width:34rem;margin-inline:auto}
   .unsc-it{display:flex;align-items:center;gap:.8rem;background:var(--surface2);border-radius:12px;padding:.5rem .8rem;flex-wrap:wrap}
@@ -2579,7 +2585,11 @@ match_words(act, el){
 
 /* ---- hablar en parejas: la consigna y la grabadora ---- */
 pairwork(act, el){
-  el.innerHTML = `<div class="pw-task"><p>${act.data.text || act.data.instructions || ''}</p></div>`;
+  // Que parte del examen oral ensaya este juego. Vale 5 de los 15 escudos y
+  // hasta ahora el alumno no sabia que lo estaba entrenando.
+  const sp = act.speaking;
+  const chip = sp ? `<p class="pw-parte"><span>${T('Speaking','Oral')} \u00b7 ${T('Part','Partie')} ${sp.part}</span> ${esc(sp.name || '')}</p>` : '';
+  el.innerHTML = `${chip}<div class="pw-task"><p>${act.data.text || act.data.instructions || ''}</p></div>`;
 },
 
 /* ---- listening ---- */
@@ -2671,7 +2681,7 @@ gap_text(act, el){
      (open cloze) se escribe, que es lo que pide el examen */
   const banco = (d.box && d.box.length) ? d.box : null;
   const html = d.text.replace(/\{(\d+)\}/g, (m,n)=> banco
-    ? `<span class="gapw" data-n="${n}"><button type="button" class="gapb"><i>${n}</i>\u2026</button><span class="gapm hidden">`
+    ? `<span class="gapw" data-n="${n}"><button type="button" class="gapb"><i>${n}</i>\u2026</button><span class="gapm hidden"><button type="button" class="gapx">✕</button>`
       + banco.map(w=>`<button type="button" data-v="${esc(w)}">${esc(w)}</button>`).join('')
       + `</span><input type="hidden" data-i="${n-1}"></span>`
     : `<span class="gn">${n}</span><input data-i="${n-1}" autocomplete="off">`);
@@ -2687,13 +2697,18 @@ gap_text(act, el){
     const m=b.parentNode.querySelector('.gapm'), abierto=!m.classList.contains('hidden');
     el.querySelectorAll('.gapm').forEach(x=>x.classList.add('hidden'));
     if(abierto) return;
-    m.classList.remove('hidden'); m.style.left='0'; m.style.right='auto';
+    m.classList.remove('hidden'); m.style.left='0'; m.style.right='auto'; m.style.marginLeft='0';
+    /* la barra se corre lo justo para no salirse por ningun lado */
     const caja=el.getBoundingClientRect(), r=m.getBoundingClientRect();
-    if(r.right > caja.right-4){ m.style.left='auto'; m.style.right='0'; }
+    let dx=0;
+    if(r.right > caja.right-6) dx=(caja.right-6)-r.right;
+    if(r.left+dx < caja.left+6) dx=(caja.left+6)-r.left;
+    m.style.marginLeft=Math.round(dx)+'px';
   };});
   el.querySelectorAll('.gapm button').forEach(o=>{ o.onclick=e=>{
     e.stopPropagation();
     const w=o.parentNode.parentNode, inp=w.querySelector('input'), bt=w.querySelector('.gapb');
+    if(!o.dataset.v){ w.querySelector('.gapm').classList.add('hidden'); return; }   /* la X solo cierra */
     inp.value=o.dataset.v; bt.textContent=o.dataset.v; bt.classList.add('puesto');
     w.querySelectorAll('.gapm button').forEach(x=>x.classList.toggle('on', x===o));
     w.querySelector('.gapm').classList.add('hidden');
