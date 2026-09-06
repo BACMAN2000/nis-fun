@@ -469,7 +469,7 @@ if(/\.github\.io$/i.test(location.hostname)){
     transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
   .lvcard:hover,.lvcard:focus-visible{border-color:var(--lv);transform:translateY(-6px);
     box-shadow:0 18px 38px rgba(20,40,70,.18);outline:none}
-  .lvmedia{position:relative;aspect-ratio:16/9;overflow:hidden;background:var(--surface2)}
+  .lvmedia{position:relative;aspect-ratio:16/9;overflow:hidden;background:var(--lv,var(--surface2))}
   .lvmedia video,.lvmedia .lvfallback{position:absolute;inset:0;width:100%;height:100%;
     object-fit:cover;display:block;transition:transform .5s ease,filter .3s ease}
   .lvmedia .lvfallback{z-index:0}
@@ -818,17 +818,25 @@ async function j(path){
 /* ---------------- PORTADA: los 3 niveles ---------------- */
 async function levels(){
   const data = await j(CDIR + '/levels.json');
+  // Niveles gateados por grado (p. ej. KET solo 6.º/7.º). Sin "grades" = abierto.
+  let visibles = data.levels;
+  try {
+    const per = (window.BACKEND && window.BACKEND.perfil) ? await window.BACKEND.perfil() : null;
+    const staff = per && (per.role === 'admin' || per.role === 'teacher');
+    const g = per && per.grade_id;
+    visibles = data.levels.filter(l => !Array.isArray(l.grades) || staff || (g != null && l.grades.includes(g)));
+  } catch (e) {}
   document.title = 'Fun for Nordic';
   app.innerHTML = `
     ${PORTAL ? `<p class="crumb" style="margin:.6rem 0 0"><a href="${PORTAL}">‹ ${T('Portal','Portail')}</a></p>` : ''}
     <h1 style="font-size:2.2rem;margin:.6rem 0 .2rem">Fun for Nordic</h1>
     <p style="color:var(--soft);margin:0 0 1.4rem">${T("Cambridge Young Learners", "Français · niveaux A1-A2")} · Nordic International School</p>
     <div class="campus-banner"><img src="../assets/scenes/main-building.jpg?v=${ART_V}" alt="${T('Nordic campus','Le campus Nordic')}"></div>
-    <div class="lvcards">${data.levels.map(l=>`
+    <div class="lvcards">${visibles.map(l=>`
       <a class="lvcard" href="${Q(`?level=${l.id}`)}" style="--lv:${l.color}"
          aria-label="${T(`Open ${l.name}, ${l.exam}`, `Ouvrir ${l.name}, ${l.exam}`)}">
         <div class="lvmedia">
-          <img class="lvfallback" src="../assets/videos/posters/${l.mascot}-intro.jpg?v=${VIDEO_V}"
+          <img class="lvfallback" onerror="this.remove()" src="../assets/videos/posters/${l.mascot}-intro.jpg?v=${VIDEO_V}"
                alt="${T(`${l.mascot[0].toUpperCase()+l.mascot.slice(1)} invites you to explore ${l.name}`, `${l.mascot[0].toUpperCase()+l.mascot.slice(1)} t'invite à découvrir ${l.name}`)}">
           <video muted playsinline preload="metadata"
                  poster="../assets/videos/posters/${l.mascot}-intro.jpg?v=${VIDEO_V}"

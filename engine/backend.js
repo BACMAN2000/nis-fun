@@ -62,6 +62,23 @@ window.BACKEND = (function () {
     return _permiso;
   }
 
+  /* ---- perfil del alumno (grado y rol) para la portada ----
+   * Se cachea igual que el permiso; lo usa levels() para gatear tarjetas
+   * de nivel por grado (p. ej. KET solo 6.º/7.º). null = sin sesion. */
+  let _perfil;
+  async function perfil() {
+    if (_perfil !== undefined) return _perfil;
+    _perfil = null;
+    await arranca();
+    if (!sb || !alumno) return _perfil;
+    try {
+      const { data } = await sb.from('profiles')
+        .select('grade_id,role').eq('id', alumno.id).maybeSingle();
+      _perfil = data || null;
+    } catch (e) { _perfil = null; }
+    return _perfil;
+  }
+
   function puedeAbrir(p, n) {
     return !p || (n >= p.desde && n <= p.hasta);
   }
@@ -134,5 +151,5 @@ window.BACKEND = (function () {
   };
 
   return { arranca, hayAlumno, guardar, progreso, subirAudio,
-           permiso, puedeAbrir, alumno: () => alumno };
+           permiso, perfil, puedeAbrir, alumno: () => alumno };
 })();

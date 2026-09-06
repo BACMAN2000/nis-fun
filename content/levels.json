@@ -1,8 +1,40 @@
 {
   "levels": [
-    { "id": "starters", "name": "Fun for Nordic 1", "exam": "Pre A1 Starters", "cast": "The Lighthouse Explorers", "mascot": "pip", "color": "#d97d0d" },
-    { "id": "movers",   "name": "Fun for Nordic 2", "exam": "A1 Movers",       "cast": "The Fjord Club",       "mascot": "luna", "color": "#2f9268" },
-    { "id": "flyers",   "name": "Fun for Nordic 3", "exam": "A2 Flyers",       "cast": "The Aurora Expedition",     "mascot": "kili", "color": "#3b6fb5" },
-    { "id": "ket",      "name": "Cambridge · KET",  "exam": "A2 Key for Schools", "cast": "Grade 6 · Inspiring Nordic", "mascot": "nova", "color": "#6d5bd0" }
+    {
+      "id": "starters",
+      "name": "Fun for Nordic 1",
+      "exam": "Pre A1 Starters",
+      "cast": "The Lighthouse Explorers",
+      "mascot": "pip",
+      "color": "#d97d0d"
+    },
+    {
+      "id": "movers",
+      "name": "Fun for Nordic 2",
+      "exam": "A1 Movers",
+      "cast": "The Fjord Club",
+      "mascot": "luna",
+      "color": "#2f9268"
+    },
+    {
+      "id": "flyers",
+      "name": "Fun for Nordic 3",
+      "exam": "A2 Flyers",
+      "cast": "The Aurora Expedition",
+      "mascot": "kili",
+      "color": "#3b6fb5"
+    },
+    {
+      "id": "ket",
+      "name": "Cambridge · KET",
+      "exam": "A2 Key for Schools",
+      "cast": "Grade 6 · Inspiring Nordic",
+      "mascot": "nova",
+      "color": "#6d5bd0",
+      "grades": [
+        6,
+        7
+      ]
+    }
   ]
 }
