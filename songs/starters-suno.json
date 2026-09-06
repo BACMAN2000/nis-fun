@@ -11,7 +11,9 @@
     "bba0913d-6139-45d9-8778-89d2156ffed2"
    ],
    "estado": "listo",
-   "groove": "ukelele"
+   "groove": "ukelele",
+   "elegida": "bba0913d-6139-45d9-8778-89d2156ffed2",
+   "descargada": "en-starters-01-cancion.mp3"
   },
   "02": {
    "titulo": "This Is My Family",
@@ -25,7 +27,8 @@
     "1054b764-91d8-44ec-9a4c-c01e1d2afdc7",
     "82b6ae89-d497-4f77-80df-86b17034dd4c"
    ],
-   "groove": "waltz"
+   "groove": "waltz",
+   "elegida": "82b6ae89-d497-4f77-80df-86b17034dd4c"
   },
   "03": {
    "titulo": "A Day at the Zoo",
@@ -39,7 +42,8 @@
     "ab4219ba-8939-408c-948b-5663ec1a5293",
     "ede22670-efdf-4b1a-8755-602db024d4a0"
    ],
-   "groove": "banda"
+   "groove": "banda",
+   "elegida": "ab4219ba-8939-408c-948b-5663ec1a5293"
   },
   "04": {
    "titulo": "Count With Pip",
@@ -53,7 +57,8 @@
     "748d4de3-716a-4f86-ad4b-b4e4edf19e05",
     "cecf6a05-c3b9-4df8-8560-4385404214d4"
    ],
-   "groove": "electro"
+   "groove": "electro",
+   "elegida": "cecf6a05-c3b9-4df8-8560-4385404214d4"
   },
   "05": {
    "titulo": "Everything in My Bag",
@@ -67,7 +72,8 @@
     "ead86f60-0b75-43ac-9fe8-baf16d1f0528",
     "6a2e7680-8800-412b-bc4b-66303ed5fac4"
    ],
-   "groove": "skiffle"
+   "groove": "skiffle",
+   "elegida": "6a2e7680-8800-412b-bc4b-66303ed5fac4"
   },
   "06": {
    "titulo": "What Colour Is the Sky?",
@@ -81,7 +87,8 @@
     "a40e9fa2-138e-42ff-bc26-c469032ff0a4",
     "c52e7179-39f9-458d-99c2-a05b18436ec0"
    ],
-   "groove": "bossa"
+   "groove": "bossa",
+   "elegida": "c52e7179-39f9-458d-99c2-a05b18436ec0"
   },
   "07": {
    "titulo": "This Is My Body",
@@ -95,7 +102,8 @@
     "fe6b297e-af4d-423c-b30c-5192a8b1f69c",
     "51a8e298-15b1-48fd-a3bb-6217a77dab6c"
    ],
-   "groove": "funk"
+   "groove": "funk",
+   "elegida": "fe6b297e-af4d-423c-b30c-5192a8b1f69c"
   },
   "08": {
    "titulo": "Look at My Face",
@@ -109,9 +117,425 @@
     "4d23d7b7-4e04-4933-82e6-d881e3ab302e",
     "cc9e58e2-38a7-4859-a52a-7834e88fca63"
    ],
-   "groove": "doowop"
+   "groove": "doowop",
+   "elegida": "cc9e58e2-38a7-4859-a52a-7834e88fca63"
   },
-  "_nota_v1": "'ids_v1_ukelele' son los clips de la primera tanda, cuando las ocho sonaban igual. Se dejan por si hace falta comparar; no son los buenos."
+  "_nota_v1": "'ids_v1_ukelele' son los clips de la primera tanda, cuando las ocho sonaban igual. Se dejan por si hace falta comparar; no son los buenos.",
+  "09": {
+   "titulo": "I Am Wearing",
+   "suno": "What Am I Wearing?",
+   "ids": [
+    "e02d0b82-11e1-4d80-bd62-718b55f42ea6",
+    "3335a242-e641-4aab-8bc5-52e1e0d9c1b4"
+   ],
+   "groove": "polka",
+   "estado": "listo",
+   "elegida": "e02d0b82-11e1-4d80-bd62-718b55f42ea6"
+  },
+  "10": {
+   "titulo": "Come Into My House",
+   "suno": "This Is My House",
+   "ids": [
+    "78166476-9d4a-485c-87f0-fdce40cc65dc",
+    "bf8cac78-63b8-4ff1-b695-d51dc4c044a5"
+   ],
+   "groove": "vals",
+   "estado": "listo",
+   "elegida": "78166476-9d4a-485c-87f0-fdce40cc65dc"
+  },
+  "11": {
+   "titulo": "My Little Room",
+   "suno": "My Little Room",
+   "ids": [
+    "e949f967-13a9-47f8-ae5c-6124136ac340",
+    "ca9aa491-64be-47cc-b181-57241ebeb3f7"
+   ],
+   "groove": "nana",
+   "estado": "listo",
+   "elegida": "ca9aa491-64be-47cc-b181-57241ebeb3f7"
+  },
+  "12": {
+   "titulo": "My Favourite Food",
+   "suno": "What You Like",
+   "ids": [
+    "20d5cefd-4086-4844-b89c-ab8ac278a733",
+    "e23c8c3e-c420-4dcb-8437-b71fe253dc9d"
+   ],
+   "groove": "calipso",
+   "estado": "listo",
+   "elegida": "e23c8c3e-c420-4dcb-8437-b71fe253dc9d"
+  },
+  "13": {
+   "titulo": "The Fruit Shop",
+   "suno": "Fruit for You and Me",
+   "ids": [
+    "c753cc24-cbf1-4829-b317-3a3e0386f1fb",
+    "37fdae11-31ae-422e-b61d-9b7ed3033385"
+   ],
+   "groove": "bossa",
+   "estado": "listo",
+   "elegida": "37fdae11-31ae-422e-b61d-9b7ed3033385"
+  },
+  "14": {
+   "titulo": "A Cup and a Glass",
+   "suno": "Can I Have a Drink?",
+   "ids": [
+    "ac90177d-2717-4919-a0da-8e944f598478",
+    "2bfb484b-5f7c-45c6-8091-38d8f3e45adc"
+   ],
+   "groove": "calipso",
+   "estado": "listo",
+   "elegida": "2bfb484b-5f7c-45c6-8091-38d8f3e45adc"
+  },
+  "15": {
+   "titulo": "My Little Friend",
+   "suno": "Pet to Call Your Friend",
+   "ids": [
+    "390d0c56-c397-43ec-b441-f51729ab3ed9",
+    "94a80616-18ee-4e9b-8433-ae0a04d0853f"
+   ],
+   "groove": "campo",
+   "estado": "listo",
+   "elegida": "94a80616-18ee-4e9b-8433-ae0a04d0853f"
+  },
+  "16": {
+   "titulo": "Morning on the Farm",
+   "suno": "Farm and It Is Good",
+   "ids": [
+    "3a3acaa4-1e30-43b4-b77a-6ebebb90d03a",
+    "2b17adf3-d5b0-495c-b053-e47f7be902b6"
+   ],
+   "groove": "funk",
+   "estado": "listo",
+   "elegida": "2b17adf3-d5b0-495c-b053-e47f7be902b6"
+  },
+  "17": {
+   "titulo": "At the Big Zoo",
+   "suno": "Big and Wild",
+   "ids": [
+    "82af4529-5ed8-4ee9-ad17-f2707cfe0d4d",
+    "aa113010-de80-4586-b591-6746fec77853"
+   ],
+   "groove": "banda",
+   "estado": "listo",
+   "elegida": "aa113010-de80-4586-b591-6746fec77853"
+  },
+  "18": {
+   "titulo": "Down by the Blue Sea",
+   "suno": "Down by the Blue Sea",
+   "ids": [
+    "26b8687d-c2ed-4808-bc39-772d0d682685",
+    "704c16bc-2376-4a77-ac13-4df16635014f"
+   ],
+   "groove": "reggae",
+   "estado": "listo",
+   "elegida": "704c16bc-2376-4a77-ac13-4df16635014f"
+  },
+  "19": {
+   "titulo": "One Big World of People",
+   "suno": "That's What a Name Is For",
+   "ids": [
+    "46cff1ef-d101-40c1-875b-25e7586e5c4b",
+    "5c7b7ac9-55dc-4c26-b485-7378461dc46c"
+   ],
+   "groove": "doowop",
+   "estado": "listo",
+   "elegida": "5c7b7ac9-55dc-4c26-b485-7378461dc46c"
+  },
+  "20": {
+   "titulo": "Best Friends",
+   "suno": "Friends Until the End",
+   "ids": [
+    "6bcff645-7845-4b01-a887-861110aff379",
+    "61d41a30-2fbf-4053-af1a-688562242211"
+   ],
+   "groove": "electro",
+   "estado": "listo",
+   "elegida": "61d41a30-2fbf-4053-af1a-688562242211"
+  },
+  "21": {
+   "titulo": "Big, Small, Old, New",
+   "suno": "Big and Small",
+   "ids": [
+    "9cc4530c-3176-4fac-98ef-ebeb39d93007",
+    "7e136895-24ef-4b62-830c-d5aea8184163"
+   ],
+   "groove": "polka",
+   "estado": "listo",
+   "elegida": "7e136895-24ef-4b62-830c-d5aea8184163"
+  },
+  "22": {
+   "titulo": "How Are You Today?",
+   "suno": "How You Feel Today",
+   "ids": [
+    "7f3e9f14-35cd-4f49-a436-fe1c50064f83",
+    "077c37fb-37c3-4774-983e-e4460f076a33"
+   ],
+   "groove": "vals",
+   "estado": "listo",
+   "elegida": "077c37fb-37c3-4774-983e-e4460f076a33"
+  },
+  "23": {
+   "titulo": "I Can, I Can't",
+   "suno": "I Can, I Can't",
+   "ids": [
+    "6c5cdd7b-98ff-49f0-888e-f85610a612f1",
+    "61d88ecf-174c-4d3f-82d2-77c903c91a77"
+   ],
+   "groove": "funk",
+   "estado": "listo",
+   "elegida": "6c5cdd7b-98ff-49f0-888e-f85610a612f1"
+  },
+  "24": {
+   "titulo": "Follow Me",
+   "suno": "Follow Me",
+   "ids": [
+    "31cdfe75-1ebb-4696-8dc7-0d2b69dfb7cc",
+    "b6fed43e-f9e6-4714-8710-fc4fc4f8239b"
+   ],
+   "groove": "vals",
+   "estado": "listo",
+   "elegida": "b6fed43e-f9e6-4714-8710-fc4fc4f8239b"
+  },
+  "25": {
+   "titulo": "The Toy Box Game",
+   "suno": "Where Is It?",
+   "ids": [
+    "9a89b553-31ae-4924-bf47-101c7a8d07be",
+    "e9854139-80fb-4838-8e15-3d9c2f1939ca"
+   ],
+   "groove": "skiffle",
+   "estado": "listo",
+   "ojo": "Suno llamo IGUAL al chant y a la cancion de esta unidad, 'Where Is It?'. Se distinguen por el estilo (playground chant / skiffle shuffle) y por los ids.",
+   "elegida": "e9854139-80fb-4838-8e15-3d9c2f1939ca"
+  },
+  "26": {
+   "titulo": "In Our Classroom",
+   "suno": "That's How We Learn",
+   "ids": [
+    "28079724-0edb-4166-82ed-cbc5769c1d2c",
+    "35eee86f-96b2-4841-8fa5-759f84e4a09f"
+   ],
+   "groove": "banda",
+   "estado": "listo",
+   "elegida": "35eee86f-96b2-4841-8fa5-759f84e4a09f"
+  },
+  "27": {
+   "titulo": "One Big Team",
+   "suno": "Let's Play, Let's Play",
+   "ids": [
+    "50cfb9fd-c8e6-4af4-9724-7ba716580047",
+    "1cb957e6-8c21-432d-a22c-db17a2a86a29"
+   ],
+   "groove": "bossa",
+   "estado": "listo",
+   "elegida": "1cb957e6-8c21-432d-a22c-db17a2a86a29"
+  },
+  "28": {
+   "titulo": "Down the Slide",
+   "suno": "Park and Flowers",
+   "ids": [
+    "56abde09-3902-430f-ba36-7c58acc8cc85",
+    "0f804abe-8946-4654-bf98-eb82aebe32f1"
+   ],
+   "groove": "calipso",
+   "estado": "listo",
+   "elegida": "0f804abe-8946-4654-bf98-eb82aebe32f1"
+  },
+  "29": {
+   "titulo": "Careful in the Street",
+   "suno": "Red Light, Green Light",
+   "ids": [
+    "d76a520c-8492-492f-b59b-5c3a0c02553f",
+    "0ebe8aea-a950-4d61-bcf0-c39c4b6fd1e2"
+   ],
+   "groove": "skiffle",
+   "estado": "listo",
+   "elegida": "0ebe8aea-a950-4d61-bcf0-c39c4b6fd1e2"
+  },
+  "30": {
+   "titulo": "A Day at the Beach",
+   "suno": "At the Beach",
+   "ids": [
+    "8e51f307-8114-4cd7-8e1a-123c9a8e5fe4",
+    "0b3a9bed-3faf-4237-b9af-41f8c93cc029"
+   ],
+   "groove": "reggae",
+   "estado": "listo",
+   "ojo": "Suno llamo a esta cancion 'At the Beach', que es el titulo que nosotros le damos al CHANT de la misma unidad. Mirar el estilo o el id.",
+   "elegida": "0b3a9bed-3faf-4237-b9af-41f8c93cc029"
+  },
+  "31": {
+   "titulo": "Look at the Sky",
+   "suno": "Rainbow Made of Gold",
+   "ids": [
+    "14e93e7e-c8e6-4d0e-aa81-3d1a53d4d820",
+    "45f7d1c2-14ca-491d-958f-e49f1cd22f00"
+   ],
+   "groove": "calipso",
+   "estado": "listo",
+   "elegida": "45f7d1c2-14ca-491d-958f-e49f1cd22f00"
+  },
+  "32": {
+   "titulo": "Seven Days",
+   "suno": "One Week for Me and You",
+   "ids": [
+    "32e7e480-9470-47a3-bf4f-4e7765c9fc99",
+    "7aea58b6-7936-4a99-805f-388cb9cc72fc"
+   ],
+   "groove": "polka",
+   "estado": "listo",
+   "elegida": "7aea58b6-7936-4a99-805f-388cb9cc72fc"
+  },
+  "33": {
+   "titulo": "The Sun and the Moon",
+   "suno": "Every Star Is Bright",
+   "ids": [
+    "678b98db-5cdf-425e-8552-33141010d0c4",
+    "92f8a8e5-41e0-4372-bf6f-3b3fedd3427e"
+   ],
+   "groove": "nana",
+   "estado": "listo",
+   "elegida": "678b98db-5cdf-425e-8552-33141010d0c4",
+   "marcadas": [
+    "678b98db-5cdf-425e-8552-33141010d0c4",
+    "92f8a8e5-41e0-4372-bf6f-3b3fedd3427e"
+   ],
+   "elegida_por": "el usuario, 3-sep-2026: las dos duran 2:42 y eligio la primera de la biblioteca"
+  },
+  "34": {
+   "titulo": "Good Morning, Breakfast!",
+   "suno": "Breakfast Time",
+   "ids": [
+    "08f7b9f3-6c6d-46cc-ac73-f870e7131788",
+    "2b796240-d7ba-4168-ae2a-6366cff8a287"
+   ],
+   "groove": "campo",
+   "estado": "listo",
+   "ojo": "Chant y cancion de esta unidad se llaman los dos 'Breakfast Time' en Suno. Distinguir por estilo (playground chant / country hoedown) o por id.",
+   "elegida": "2b796240-d7ba-4168-ae2a-6366cff8a287"
+  },
+  "35": {
+   "titulo": "Open the Lunchbox",
+   "suno": "Lunchbox Fun",
+   "ids": [
+    "93dd875c-b705-469e-91b8-03067bb33bf1",
+    "9b899a3d-759b-4c01-8303-114b7944c1a5"
+   ],
+   "groove": "calipso",
+   "estado": "listo",
+   "elegida": "9b899a3d-759b-4c01-8303-114b7944c1a5"
+  },
+  "36": {
+   "titulo": "It's Your Day",
+   "suno": "It's Your Day",
+   "ids": [
+    "a27197c5-bda5-4517-a00e-e8b17de3b9e6",
+    "6c70d046-e3ce-4527-bc6e-0fc3fa05e7b8"
+   ],
+   "groove": "rocanrol",
+   "estado": "listo",
+   "elegida": "6c70d046-e3ce-4527-bc6e-0fc3fa05e7b8"
+  },
+  "37": {
+   "titulo": "Wiggle and Wave",
+   "suno": "Hands Up, Shake and Nod",
+   "ids": [
+    "f82c55ba-7dcf-4c79-91ab-8f8a87b75027",
+    "49b72810-4b92-4683-8e13-c3d764bbd3f0"
+   ],
+   "groove": "funk",
+   "estado": "listo",
+   "elegida": "49b72810-4b92-4683-8e13-c3d764bbd3f0"
+  },
+  "38": {
+   "titulo": "Animals Can",
+   "suno": "Animals Can Do",
+   "ids": [
+    "b0b93bdd-1f80-4985-b8ea-5666ed0dad20",
+    "7949e917-6a13-4027-9f2b-be42559ef418"
+   ],
+   "groove": "banda",
+   "estado": "listo",
+   "elegida": "7949e917-6a13-4027-9f2b-be42559ef418"
+  },
+  "39": {
+   "titulo": "Past Ten",
+   "suno": "Past Ten and Counting",
+   "ids": [
+    "65d62fbb-4c8f-40d7-affa-a3b64395cd04",
+    "fb05db51-2e2e-4572-8388-59f650ca33b3"
+   ],
+   "groove": "electro",
+   "estado": "listo",
+   "elegida": "fb05db51-2e2e-4572-8388-59f650ca33b3"
+  },
+  "40": {
+   "titulo": "Twenty-Six Letters",
+   "suno": "Sing the Alphabet",
+   "ids": [
+    "9012b9ba-f583-45dc-a139-11663ae5a6ee",
+    "842aa83f-b3d2-4279-82db-6ded06a61d17"
+   ],
+   "groove": "funk",
+   "estado": "listo",
+   "elegida": "842aa83f-b3d2-4279-82db-6ded06a61d17"
+  },
+  "41": {
+   "titulo": "Letter by Letter",
+   "suno": "Spell Your Name",
+   "ids": [
+    "261c1186-f361-41bf-933e-0270cb8a0613",
+    "2aca217f-25ce-468c-917f-bc89894f2b4b"
+   ],
+   "groove": "electro",
+   "estado": "listo",
+   "elegida": "2aca217f-25ce-468c-917f-bc89894f2b4b"
+  },
+  "42": {
+   "titulo": "He Is, She Is, It Is",
+   "suno": "He Is",
+   "ids": [
+    "e846f559-3350-4c26-b089-c75d199afae1",
+    "a37e2c55-7426-476d-a65a-5498374e0e75"
+   ],
+   "groove": "doowop",
+   "estado": "listo",
+   "elegida": "a37e2c55-7426-476d-a65a-5498374e0e75"
+  },
+  "43": {
+   "titulo": "Here and There",
+   "suno": "This and That",
+   "ids": [
+    "63b245ce-e7b0-47f6-bb21-bf0602644a0c",
+    "4147c094-5ba3-46bd-8fa4-3bd37fd66039"
+   ],
+   "groove": "polka",
+   "estado": "listo",
+   "elegida": "4147c094-5ba3-46bd-8fa4-3bd37fd66039"
+  },
+  "44": {
+   "titulo": "The Magic Word",
+   "suno": "Guess the Word",
+   "ids": [
+    "b92f7a72-2e75-41fb-af37-143c9da427ec",
+    "0e3924d9-85fb-4b64-86ad-482298e24d1d"
+   ],
+   "groove": "rocanrol",
+   "estado": "listo",
+   "elegida": "b92f7a72-2e75-41fb-af37-143c9da427ec"
+  },
+  "45": {
+   "titulo": "The Lighthouse Party",
+   "suno": "Sing and Dance",
+   "ids": [
+    "918c397a-b7fa-4579-ac51-a71509077af1",
+    "eeb5cf5c-dd49-414f-89db-3685734dc380"
+   ],
+   "groove": "gospel",
+   "estado": "listo",
+   "elegida": "918c397a-b7fa-4579-ac51-a71509077af1"
+  }
  },
  "chants": {
   "01": {
@@ -121,7 +545,9 @@
     "f057a6c9-af64-423c-abf7-77fd6d1119a9",
     "85066db2-156b-488f-8f81-54496d1012ba"
    ],
-   "estado": "listo"
+   "estado": "listo",
+   "elegida": "f057a6c9-af64-423c-abf7-77fd6d1119a9",
+   "elegida_por": "Claude, primera de las dos: el usuario dijo que en los chants cualquiera vale (3-sep-2026)"
   },
   "02": {
    "titulo": "Who Is This?",
@@ -130,7 +556,13 @@
     "5cf39c5c-0cbf-44d4-9421-1d38f95a2c6a",
     "808302ae-c881-41b9-9dd9-7386f6d47ba1"
    ],
-   "estado": "listo"
+   "estado": "listo",
+   "elegida": "5cf39c5c-0cbf-44d4-9421-1d38f95a2c6a",
+   "marcadas": [
+    "5cf39c5c-0cbf-44d4-9421-1d38f95a2c6a",
+    "808302ae-c881-41b9-9dd9-7386f6d47ba1"
+   ],
+   "elegida_por": "Claude, primera de las dos: el usuario dijo que en los chants cualquiera vale (3-sep-2026)"
   },
   "03": {
    "titulo": "It Can!",
@@ -139,7 +571,9 @@
     "1998dee8-c88f-498b-a57f-d7c898a388c4",
     "aee518fa-30b5-46d5-abdf-76d0223d0f78"
    ],
-   "estado": "listo"
+   "estado": "listo",
+   "elegida": "1998dee8-c88f-498b-a57f-d7c898a388c4",
+   "elegida_por": "Claude, primera de las dos: el usuario dijo que en los chants cualquiera vale (3-sep-2026)"
   },
   "04": {
    "titulo": "How Many?",
@@ -149,7 +583,13 @@
     "cebf4ff0-ecf7-4515-b2aa-e5e99b55635a"
    ],
    "estado": "listo",
-   "nota": "La letra original la rechazo Suno tres veces con \"Your lyrics contain copyrighted material\": el recitado seco uno-a-diez coincide con canciones infantiles conocidas. Se reescribio contando objetos (tres balls, seis kites, nueve cars) y paso. La letra buena esta en starters.json, ya cambiada."
+   "nota": "La letra original la rechazo Suno tres veces con \"Your lyrics contain copyrighted material\": el recitado seco uno-a-diez coincide con canciones infantiles conocidas. Se reescribio contando objetos (tres balls, seis kites, nueve cars) y paso. La letra buena esta en starters.json, ya cambiada.",
+   "elegida": "9b68e592-7b8c-47a0-a53d-067fd540a0ba",
+   "marcadas": [
+    "9b68e592-7b8c-47a0-a53d-067fd540a0ba",
+    "cebf4ff0-ecf7-4515-b2aa-e5e99b55635a"
+   ],
+   "elegida_por": "Claude, primera de las dos: el usuario dijo que en los chants cualquiera vale (3-sep-2026)"
   },
   "05": {
    "titulo": "This Is My Bag",
@@ -158,7 +598,8 @@
     "8c0871e9-619a-41a5-9683-6c7b95bca450",
     "bdf61f34-4c88-4537-a7a4-436d944a0d86"
    ],
-   "estado": "listo"
+   "estado": "listo",
+   "elegida": "bdf61f34-4c88-4537-a7a4-436d944a0d86"
   },
   "06": {
    "titulo": "Colours Everywhere",
@@ -167,7 +608,8 @@
     "4e6a8f8f-b731-4199-8a20-969991b4c51c",
     "ad8cc4f7-2c7a-41ae-8b3e-3844b1b93267"
    ],
-   "estado": "listo"
+   "estado": "listo",
+   "elegida": "ad8cc4f7-2c7a-41ae-8b3e-3844b1b93267"
   },
   "07": {
    "titulo": "I Have Got",
@@ -176,7 +618,8 @@
     "40dd7099-54ff-4793-bb92-a5ed4708d02b",
     "bba2ea35-71fd-4130-a933-052fd8e73360"
    ],
-   "estado": "listo"
+   "estado": "listo",
+   "elegida": "40dd7099-54ff-4793-bb92-a5ed4708d02b"
   },
   "08": {
    "titulo": "She Has Got",
@@ -185,7 +628,391 @@
     "f92401d4-ea60-4d0d-8978-695ce93f0a1a",
     "fa508709-d283-4f1b-add1-9c5316a2c050"
    ],
-   "estado": "listo"
+   "estado": "listo",
+   "elegida": "f92401d4-ea60-4d0d-8978-695ce93f0a1a"
+  },
+  "09": {
+   "titulo": "What Are You Wearing?",
+   "suno": "What Are You Wearing?",
+   "ids": [
+    "9cb17124-d37c-4e22-bef6-1277da17ab66",
+    "cc214c98-c9b1-4959-9c83-216ab28b4549"
+   ],
+   "estado": "listo",
+   "elegida": "cc214c98-c9b1-4959-9c83-216ab28b4549"
+  },
+  "10": {
+   "titulo": "Where Is Pip?",
+   "suno": "Where Is Pip?",
+   "ids": [
+    "a3a1baea-c390-4db0-848d-dfb85690886a",
+    "f2017a28-038c-4376-a69e-29fe2bec5971"
+   ],
+   "estado": "listo",
+   "elegida": "a3a1baea-c390-4db0-848d-dfb85690886a"
+  },
+  "11": {
+   "titulo": "There Is, There Is",
+   "suno": "Where Is the Bed?",
+   "ids": [
+    "bec86632-6445-4496-8e1b-62c533f2604a",
+    "3e8d2a02-1e80-43d3-a38f-0b737db42b98"
+   ],
+   "estado": "listo",
+   "elegida": "bec86632-6445-4496-8e1b-62c533f2604a"
+  },
+  "12": {
+   "titulo": "Do You Like It?",
+   "suno": "What You Like Tonight",
+   "ids": [
+    "21e48c62-e895-4e4d-b500-52e2f4af23ba",
+    "d359fe26-bde5-4974-8d36-c994a5833153"
+   ],
+   "estado": "listo",
+   "elegida": "21e48c62-e895-4e4d-b500-52e2f4af23ba"
+  },
+  "13": {
+   "titulo": "One Apple, Two Apples",
+   "suno": "Fruit Counting Song",
+   "ids": [
+    "19fd244a-f46c-4bd6-b023-ed3cdde8badb",
+    "6688a246-2092-4d5b-891d-ecb4832b1eeb"
+   ],
+   "estado": "listo",
+   "elegida": "19fd244a-f46c-4bd6-b023-ed3cdde8badb"
+  },
+  "14": {
+   "titulo": "Can I Have?",
+   "suno": "Healthy Drinks",
+   "ids": [
+    "ccd75b89-1a11-49ba-bb3c-a259331b3dc7",
+    "40cb12f6-df18-4623-b1f8-2fc1d76cc3a7"
+   ],
+   "estado": "listo",
+   "elegida": "40cb12f6-df18-4623-b1f8-2fc1d76cc3a7"
+  },
+  "15": {
+   "titulo": "Have You Got a Pet?",
+   "suno": "Every Pet's a Little Friend",
+   "ids": [
+    "cca09cf2-6cc5-43df-8351-7959534b1e43",
+    "cf520f48-95e6-4255-bba3-72857049208f"
+   ],
+   "estado": "listo",
+   "elegida": "cca09cf2-6cc5-43df-8351-7959534b1e43"
+  },
+  "16": {
+   "titulo": "What Is It?",
+   "suno": "Farmyard Animals",
+   "ids": [
+    "bdb92348-27cd-4697-9d0e-9f9d8e07b359",
+    "fb05b989-02f3-4dad-8e14-4b403a3d88a6"
+   ],
+   "estado": "listo",
+   "elegida": "fb05b989-02f3-4dad-8e14-4b403a3d88a6"
+  },
+  "17": {
+   "titulo": "Big or Small?",
+   "suno": "Big or Small?",
+   "ids": [
+    "27213238-a3f0-4ba9-aacb-c7bd3bb4a3ea",
+    "8263bc41-9c05-47da-9ed3-5c3989e34ea2"
+   ],
+   "estado": "listo",
+   "elegida": "8263bc41-9c05-47da-9ed3-5c3989e34ea2"
+  },
+  "18": {
+   "titulo": "There Is, There Are",
+   "suno": "Boat on the Blue Sea",
+   "ids": [
+    "3f4f3e59-57f7-4d5e-98a4-5249096751cc",
+    "d6ef3b10-48fe-4d65-8060-b1a34da46412"
+   ],
+   "estado": "listo",
+   "elegida": "d6ef3b10-48fe-4d65-8060-b1a34da46412"
+  },
+  "19": {
+   "titulo": "Who Is It?",
+   "suno": "People Round the World",
+   "ids": [
+    "3f8bf089-bc1b-4d03-aeb3-25bf972d9d1b",
+    "d01968ab-9602-42b1-b378-cca42e3c9227"
+   ],
+   "estado": "listo",
+   "nota": "El primer Create no produjo clip y no dio aviso ninguno; se relanzo el 3-sep. Igual que paso con el chant de la 04: si una pieza no aparece en la biblioteca, no esta, aunque el boton pareciera responder.",
+   "elegida": "d01968ab-9602-42b1-b378-cca42e3c9227"
+  },
+  "20": {
+   "titulo": "What's His Name?",
+   "suno": "Friends Together",
+   "ids": [
+    "cb45dbd2-06ba-4a21-b5c4-2784bd55b48a",
+    "e5b856cc-bd93-44f4-bf8d-17d04dbb5936"
+   ],
+   "estado": "listo",
+   "elegida": "cb45dbd2-06ba-4a21-b5c4-2784bd55b48a"
+  },
+  "21": {
+   "titulo": "Big! Small!",
+   "suno": "Big and Small",
+   "ids": [
+    "108d8332-35cd-40ad-ba29-10f9e9d175ae",
+    "585c9d1f-8bc1-4ee9-b1c7-698680345151"
+   ],
+   "estado": "listo",
+   "elegida": "585c9d1f-8bc1-4ee9-b1c7-698680345151"
+  },
+  "22": {
+   "titulo": "Are You Happy?",
+   "suno": "Smile at Me",
+   "ids": [
+    "1374da24-0e23-4e6b-862c-81dc438db1e5",
+    "388b3bc0-816f-4785-b0ad-ddb41bbd7545"
+   ],
+   "estado": "listo",
+   "elegida": "388b3bc0-816f-4785-b0ad-ddb41bbd7545"
+  },
+  "23": {
+   "titulo": "I Can!",
+   "suno": "Pip Can Fly",
+   "ids": [
+    "185f8307-a564-4ff6-b327-6b38482414c2",
+    "e8b3d410-d78e-487e-a8aa-26d0e824b3f7"
+   ],
+   "estado": "listo",
+   "elegida": "e8b3d410-d78e-487e-a8aa-26d0e824b3f7"
+  },
+  "24": {
+   "titulo": "Stop and Go!",
+   "suno": "Walk",
+   "ids": [
+    "70330ec1-5e01-43fb-a44a-fd3779162a70",
+    "aa568020-4c4f-4b87-af5a-fc4018a5d6ff"
+   ],
+   "estado": "listo",
+   "elegida": "aa568020-4c4f-4b87-af5a-fc4018a5d6ff"
+  },
+  "26": {
+   "titulo": "What Are You Doing?",
+   "suno": "Read",
+   "ids": [
+    "619c4e77-81c7-4bbf-8e7d-bf60c21846de",
+    "8e51c04c-604b-46f7-8b2d-8a14c920896a"
+   ],
+   "estado": "listo",
+   "elegida": "8e51c04c-604b-46f7-8b2d-8a14c920896a"
+  },
+  "27": {
+   "titulo": "Let's Play!",
+   "suno": "Play Together",
+   "ids": [
+    "845313b0-dc94-4b63-9951-9661c9d918fd",
+    "85f1a0e0-ef5c-400b-920c-e4a9570841f6"
+   ],
+   "estado": "listo",
+   "elegida": "85f1a0e0-ef5c-400b-920c-e4a9570841f6"
+  },
+  "28": {
+   "titulo": "Let's Go to the Park!",
+   "suno": "Let's Go to the Park",
+   "ids": [
+    "3ac4b43f-ffd3-463d-ab2d-728f9993aa2c",
+    "2334b7b6-efa2-4b6f-8bc5-bb9d04aa957b"
+   ],
+   "estado": "listo",
+   "elegida": "2334b7b6-efa2-4b6f-8bc5-bb9d04aa957b"
+  },
+  "25": {
+   "titulo": "In, On or Under?",
+   "suno": "Where Is It?",
+   "ids": [
+    "8f514e04-e035-4bdf-9ef7-b2d22ff2747a",
+    "a0442c14-051a-4bfc-9a96-ee4dd340f147"
+   ],
+   "ids_duplicados": [
+    "38b90b5b-cb33-4482-bc12-e1c72ec41422",
+    "fc2cd64c-f73a-4328-b336-18b4e8eee3c3"
+   ],
+   "estado": "listo",
+   "nota": "Parecia no generarse y se relanzo tres veces: el listado del workspace iba varios minutos retrasado, no habia rechazo. De ahi los 4 clips en vez de 2. La letra se reescribio por el camino y la nueva es la que esta en starters.json.",
+   "elegida": "8f514e04-e035-4bdf-9ef7-b2d22ff2747a",
+   "marcadas": [
+    "8f514e04-e035-4bdf-9ef7-b2d22ff2747a",
+    "a0442c14-051a-4bfc-9a96-ee4dd340f147"
+   ],
+   "elegida_por": "Claude, primera de las dos: el usuario dijo que en los chants cualquiera vale (3-sep-2026)"
+  },
+  "29": {
+   "titulo": "Stop! Look! Listen!",
+   "suno": "Cross the Street",
+   "ids": [
+    "3526f9be-4f59-452a-b41d-289a15f2c34f",
+    "a33b4444-1ebd-49e1-9515-e71f90e6eb6f"
+   ],
+   "estado": "listo",
+   "elegida": "a33b4444-1ebd-49e1-9515-e71f90e6eb6f"
+  },
+  "30": {
+   "titulo": "At the Beach",
+   "suno": "Sun",
+   "ids": [
+    "fc8e1fec-820e-4e61-a042-ff2fe2e04b7f",
+    "bdc5d143-c756-4d59-a335-f28d173f79fe"
+   ],
+   "estado": "listo",
+   "elegida": "bdc5d143-c756-4d59-a335-f28d173f79fe"
+  },
+  "31": {
+   "titulo": "What's the Weather?",
+   "suno": "What's the Weather?",
+   "ids": [
+    "44d30252-043c-49a4-a9b6-38e82b6f0316",
+    "3a27715b-489d-45a5-b306-a166a01be50c"
+   ],
+   "estado": "listo",
+   "elegida": "3a27715b-489d-45a5-b306-a166a01be50c"
+  },
+  "32": {
+   "titulo": "On Monday",
+   "suno": "Seven Days Make a Week",
+   "ids": [
+    "c96ce811-f862-46e2-9889-ca07e2345ef2",
+    "432bb708-01b8-4054-8ae9-8ca168306843"
+   ],
+   "estado": "listo",
+   "elegida": "432bb708-01b8-4054-8ae9-8ca168306843"
+  },
+  "33": {
+   "titulo": "Morning, Night",
+   "suno": "Morning",
+   "ids": [
+    "03202794-9592-4667-96dd-f88f660ba636",
+    "1f8b1d86-7de8-4dd2-9b92-86869098dac5"
+   ],
+   "estado": "listo",
+   "elegida": "03202794-9592-4667-96dd-f88f660ba636"
+  },
+  "34": {
+   "titulo": "For Breakfast",
+   "suno": "Breakfast Time",
+   "ids": [
+    "00fdeb86-825b-4322-abec-a3611c6111d1",
+    "14fd1463-8e7d-4f60-9529-8dc529386f90"
+   ],
+   "estado": "listo",
+   "elegida": "14fd1463-8e7d-4f60-9529-8dc529386f90"
+  },
+  "35": {
+   "titulo": "In My Lunchbox",
+   "suno": "What's in Your Lunchbox?",
+   "ids": [
+    "49c8b46a-a416-4574-99b2-b6c63c272d06",
+    "734739e0-8628-465c-a31e-a021babd2d41"
+   ],
+   "estado": "listo",
+   "elegida": "734739e0-8628-465c-a31e-a021babd2d41"
+  },
+  "36": {
+   "titulo": "How Old Are You?",
+   "suno": "Birthday Party Never Ends",
+   "ids": [
+    "53e9d9f8-5be8-43a5-9f9f-df2ed40a3389",
+    "3f7cd9ce-1c5e-454f-8593-88aa67abc622"
+   ],
+   "estado": "listo",
+   "elegida": "3f7cd9ce-1c5e-454f-8593-88aa67abc622"
+  },
+  "37": {
+   "titulo": "Hands Up!",
+   "suno": "Hands Up High",
+   "ids": [
+    "f4aa2c7f-74e4-4383-a51f-256708d7c12f",
+    "6986eaae-59db-4dff-90df-ea125a9e265c"
+   ],
+   "estado": "listo",
+   "elegida": "6986eaae-59db-4dff-90df-ea125a9e265c"
+  },
+  "38": {
+   "titulo": "Can It Fly?",
+   "suno": "Animals Can, So Can I",
+   "ids": [
+    "8d59b276-41d3-4fd1-8740-415c87d267be",
+    "eafaafe7-76ff-48fa-892a-bab9ccaf072e"
+   ],
+   "estado": "listo",
+   "elegida": "eafaafe7-76ff-48fa-892a-bab9ccaf072e"
+  },
+  "39": {
+   "titulo": "Eleven What?",
+   "suno": "Count to Twenty",
+   "ids": [
+    "4ed0f32e-1a48-4574-81f7-5c0f75390ea0",
+    "9fb280de-9f03-482c-a394-5630f45e4d46"
+   ],
+   "estado": "listo",
+   "elegida": "9fb280de-9f03-482c-a394-5630f45e4d46"
+  },
+  "40": {
+   "titulo": "A Is First",
+   "suno": "Alphabet Off We Go",
+   "ids": [
+    "2e56f5d4-d34e-4716-bd39-808a7b105a4a",
+    "f6c5d939-a9a9-4e27-95f8-a28855125f73"
+   ],
+   "estado": "listo",
+   "elegida": "f6c5d939-a9a9-4e27-95f8-a28855125f73"
+  },
+  "41": {
+   "titulo": "How Do You Spell It?",
+   "suno": "Spell Your Name",
+   "ids": [
+    "21eedd29-bf67-4b1b-b6fd-8e8abb6b1c13",
+    "deb93746-ff3c-43de-be62-ac5ddc0c034a"
+   ],
+   "estado": "listo",
+   "ojo": "Chant y cancion de esta unidad se llaman los dos 'Spell Your Name' en Suno. Distinguir por estilo (playground chant / electro-pop) o por id.",
+   "elegida": "deb93746-ff3c-43de-be62-ac5ddc0c034a"
+  },
+  "43": {
+   "titulo": "This or That?",
+   "suno": "Here and There",
+   "ids": [
+    "b1add2d1-6e2d-4df8-bdd8-d1d7468b3286",
+    "f9fe4cfb-7e9f-4e13-842d-b1c5215bfd7b"
+   ],
+   "estado": "listo",
+   "elegida": "f9fe4cfb-7e9f-4e13-842d-b1c5215bfd7b"
+  },
+  "44": {
+   "titulo": "Guess the Word!",
+   "suno": "Guess the Magic Word",
+   "ids": [
+    "19a76aa7-ccb2-4a07-92a0-facebe694536",
+    "2fc88403-ebfd-4782-ba9b-a73201b45ea4"
+   ],
+   "estado": "listo",
+   "elegida": "2fc88403-ebfd-4782-ba9b-a73201b45ea4"
+  },
+  "45": {
+   "titulo": "Hooray!",
+   "suno": "The Lighthouse Party",
+   "ids": [
+    "9c14481c-6dd4-48f2-8526-6ecfc325aa9a",
+    "59c5d47d-cf0d-4b89-afb2-6309fffc0d15"
+   ],
+   "estado": "listo",
+   "elegida": "59c5d47d-cf0d-4b89-afb2-6309fffc0d15"
+  },
+  "42": {
+   "titulo": "He or She?",
+   "suno": "Three Small Words",
+   "ids": [
+    "b79747f6-6164-4013-b933-e479f2479950",
+    "f6ba4436-8e78-433f-b694-0a6fab5a462b"
+   ],
+   "estado": "listo",
+   "nota": "Rechazada dos veces por copyright sin que se viera el aviso. La letra vieja era casi la del chant de la unidad 19 (misma pregunta, misma respuesta 'It's a boy! It's a girl!'). Reescrita eligiendo entre dos (he or she?), paso a la primera.",
+   "elegida": "b79747f6-6164-4013-b933-e479f2479950"
   }
  },
  "descartar": {
@@ -200,5 +1027,11 @@
   "ojo": "en la biblioteca hay OTROS dos clips con este mismo titulo que si valen: son la cancion de la unidad 2. Se distinguen por el estilo: estos dicen \"children's music, chant\"."
  },
  "_moderacion": "Suno tiene un filtro de copyright que corta SIN decir nada en la biblioteca: solo sale un aviso rojo un par de segundos sobre el boton Create. Si una pieza no aparece, es esto. Hay que mirar la pantalla justo despues de pulsar, no la lista.",
- "_grooves": "Las 45 canciones ya no comparten formula: cada unidad coge un groove distinto segun su tema (desfile para el zoo, vals para la familia, funk para mover el cuerpo) y dos unidades seguidas nunca llevan el mismo. Lo decide monta.py, no se escribe a mano. La 01 conserva el ukelele de la primera tanda."
+ "_grooves": "Las 45 canciones ya no comparten formula: cada unidad coge un groove distinto segun su tema (desfile para el zoo, vals para la familia, funk para mover el cuerpo) y dos unidades seguidas nunca llevan el mismo. Lo decide monta.py, no se escribe a mano. La 01 conserva el ukelele de la primera tanda.",
+ "_toast": "El aviso rojo de Suno se queda en el DOM despues de desaparecer de la pantalla: buscarlo por texto da falsos positivos y hace creer que se rechazo una pieza que si se genero. Hay que mirar que el nodo sea VISIBLE (getBoundingClientRect con ancho y alto), y aun asi la unica verdad es la biblioteca.",
+ "_listado_lento": "El workspace puede tardar VARIOS MINUTOS en mostrar un clip recien creado, y mientras tanto no distingue de un fallo. Antes de repetir un Create hay que recargar la pagina y esperar; repetir a ciegas duplica y gasta creditos.",
+ "_captcha": "Cloudflare puede meter un CAPTCHA en mitad de una tanda. Mientras esta puesto, la pagina no responde: la caja de letra no se vacia y el Create no llega. Lo resuelve el usuario, no Claude. Sintoma: el borrado falla dos veces seguidas.",
+ "_aviso_dura_poco": "El aviso rojo dura unos 5 segundos: hay que mirarlo a los 3-4, no a los 8. Comprobandolo tarde parece que no hubo rechazo y la pieza se da por buena cuando en realidad no existe.",
+ "_descargas": "La cuenta Pro trae un CUPO DE DESCARGAS, no ilimitado: el 3-sep-2026 quedaban 27 y se renueva el 20-sep. Las 90 piezas NO caben. El dialogo de Download lo dice abajo ('Downloads / Refreshes'); mirarlo antes de empezar una tanda de descargas.",
+ "_seleccion": "'elegida' es el id de la toma que marco el usuario. Null cuando marco las dos o ninguna: eso lo decide el usuario, no se elige por cuenta propia."
 }
