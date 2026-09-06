@@ -56,8 +56,35 @@ y voz, sin instrumentos melodicos. Ahi lo que varia es la letra.
   unidades mezcladas — pasa desapercibido porque Suno genera algo. Se borra
   con el teclado (`Ctrl+A`, `Supr`) y se comprueba el LARGO de la caja antes
   de pulsar Create.
+- **El clic para enfocar la caja tiene que caer DENTRO del texto.** Pinchar
+  arriba del todo (donde estan «Lyrics» y los iconos) no da el foco, asi que
+  el `Ctrl+A` no selecciona nada, el `Supr` no borra y la letra siguiente se
+  pega detras de la anterior. Se pilla comprobando el largo de la caja antes
+  de pulsar Create — si no esta a 0 despues de borrar, hay que parar.
 - **Leer la caja en la misma llamada que el pegado devuelve el valor viejo.**
   Hay que leerla en una llamada aparte, o esperar dentro del script.
+- **El aviso rojo dura unos 5 segundos.** Hay que mirarlo a los 3-4, no a
+  los 8: comprobandolo tarde parece que no hubo rechazo y la pieza se da por
+  buena cuando en realidad no existe. Asi se perdieron dos intentos del chant
+  de la unidad 42.
+- **Una letra demasiado parecida a otra del propio curso tambien la rechaza.**
+  El chant de la 42 repetia casi palabra por palabra el de la 19; reescrito
+  con otra pregunta, paso a la primera.
+- **Cloudflare mete un CAPTCHA en mitad de una tanda.** Mientras esta puesto
+  la pagina no responde: la caja de letra no se vacia y el Create no llega al
+  servidor. El sintoma es que el borrado falla dos veces seguidas. Lo tiene
+  que marcar el usuario — Claude no resuelve CAPTCHAs — y la generacion que
+  se pulso justo en ese momento se pierde sin dejar aviso.
+- **El workspace tarda MINUTOS en mostrar un clip recien creado.** Mientras
+  tanto es indistinguible de un fallo, y ahi esta la trampa: si se vuelve a
+  pulsar Create se duplica y se gastan creditos. Antes de repetir hay que
+  recargar la pagina y esperar de verdad. (El chant de la unidad 25 acabo con
+  4 clips por esto.)
+- **El aviso rojo se queda en el DOM cuando ya no se ve.** Buscarlo por
+  texto da falsos positivos: hace creer que se rechazo una pieza que en
+  realidad se genero. Hay que comprobar que el nodo sea VISIBLE
+  (`getBoundingClientRect()` con ancho y alto) — y aun asi la unica verdad
+  es la biblioteca, no el aviso.
 - **El filtro de copyright de Suno corta en silencio.** El aviso («Your
   lyrics contain copyrighted material») solo sale un par de segundos encima
   del boton Create; en la biblioteca no queda ni rastro, asi que parece que
