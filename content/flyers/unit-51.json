@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Full exam simulation: Student A is the examiner with the 6 questions from activity A. Student B answers with COMPLETE sentences (2 ideas per answer). Then swap. Time it: 3 minutes each!"
+   },
+   "speaking": {
+    "part": 4,
+    "name": "Personal questions"
    }
   },
   {

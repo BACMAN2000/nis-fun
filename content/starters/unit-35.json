@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Lunchbox show: tell your partner what is in your real lunchbox today (There is… There are…). Whose box is more colourful?"
+   },
+   "speaking": {
+    "part": 4,
+    "name": "Personal questions"
    }
   },
   {

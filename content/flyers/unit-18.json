@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Student A draws a clock time on paper. Student B says it in words (\"It's quarter to four\") and tells one thing they do at that time. Five clocks each."
+   },
+   "speaking": {
+    "part": 2,
+    "name": "Information exchange with cards"
    }
   },
   {

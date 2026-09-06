@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Party questions: \"When is your birthday? How old are you? What cake do you like?\" Three questions each!"
+   },
+   "speaking": {
+    "part": 4,
+    "name": "Personal questions"
    }
   },
   {

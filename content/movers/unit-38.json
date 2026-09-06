@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Play Simon Says in pairs: 10 instructions each, at least 3 with Don't. The listener does only the Simon says ones!"
+   },
+   "speaking": {
+    "part": 4,
+    "name": "Personal questions"
    }
   },
   {

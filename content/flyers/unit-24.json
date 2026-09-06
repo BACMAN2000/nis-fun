@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Draw a monster secretly. Describe it to your partner (has got…, is…) while they draw it. Compare drawings — the funniest difference wins!"
+   },
+   "speaking": {
+    "part": 1,
+    "name": "Find six differences"
    }
   },
   {

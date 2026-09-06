@@ -215,6 +215,10 @@
    ],
    "data": {
     "text": "Draw your house with 4 rooms. Give your partner a tour: \"This is the kitchen. This is my bedroom.\" They ask: \"Where is the…?\""
+   },
+   "speaking": {
+    "part": 4,
+    "name": "Personal questions"
    }
   },
   {

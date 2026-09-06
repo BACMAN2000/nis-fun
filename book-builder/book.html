@@ -96,6 +96,7 @@
   .sqa{margin:2mm 0 0;padding-left:6mm;font-size:9.5pt}
   .sqa li{margin-bottom:2.5mm}
   .sqa-line{display:inline-block;width:35mm;border-bottom:.3mm solid var(--line);margin-left:3mm}
+  .spart{background:#b3771a;color:#fff;border-radius:2mm;padding:.4mm 2mm;font-size:7pt;font-weight:700;margin-left:2mm}
   .keyahead{background:var(--band);border-left:.7mm solid #b3771a;border-radius:0 2mm 2mm 0;
     padding:1.5mm 3mm;margin:0 0 2mm;font-size:8.5pt;color:#3c4a58}
   /* la ampliacion, con el mismo + que en pantalla */
@@ -287,7 +288,7 @@ function storyQaHTML(data){
 const AB = { crossword: crosswordHTML, match_words: matchHTML, exam_task: examHTML,
              gap_text: gapTextHTML, spot_diff: spotDiffHTML, grammar_box: grammarHTML,
              unscramble: unscrambleHTML, story_qa: storyQaHTML,
-             pairwork: d=>`<div class="pair">👥 ${d.text}</div>` };
+             pairwork: (d, ud, code, a)=>`<div class="pair">👥 ${d.text}</div>` };
 
 function sceneFor(ud){
   const t = ((ud.topic||'')+' '+(ud.title||'')+' '+(ud.grammar||'')).toLowerCase();
@@ -387,7 +388,8 @@ function sbPage(ud, pageno){
       body = AB[a.type] ? AB[a.type](a.data, ud, a.code) : '';
       if (a.type === 'exam_task' && !a.data.text) body += `<div class="writelines" style="margin-top:2mm"><div></div></div>`;
     }
-    return `<div class="act"><h2><span class="abadge ${BADGE[a.code]||'cA'}">${a.code}</span>${a.title}</h2>${body}</div>`;
+    const sp = a.speaking ? ` <span class="spart">${T('Speaking','Oral')} \u00b7 ${T('Part','Partie')} ${a.speaking.part}</span>` : '';
+    return `<div class="act"><h2><span class="abadge ${BADGE[a.code]||'cA'}">${a.code}</span>${a.title}${sp}</h2>${body}</div>`;
   }).join('');
   return `<div class="page">
     <div class="sb2-head"><span class="balloon">${ud.number}</span><h1>${ud.title}</h1>

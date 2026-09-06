@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Make a mini treasure map of the classroom (5 instructions). Guide your partner with your voice only. Treasure found = high five!"
+   },
+   "speaking": {
+    "part": 1,
+    "name": "Find four differences"
    }
   },
   {

@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Invent a mini adventure in 6 sentences using went, saw, found, took, came, said. Tell it to another pair — best adventure wins!"
+   },
+   "speaking": {
+    "part": 2,
+    "name": "Describe the picture story"
    }
   },
   {

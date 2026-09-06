@@ -219,6 +219,10 @@
    ],
    "data": {
     "text": "Animal quiz: \"It can swim but it can't fly high. It says quack.\" Your partner guesses. Three animals each — use can/can't in every clue!"
+   },
+   "speaking": {
+    "part": 1,
+    "name": "Find four differences"
    }
   },
   {

@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Complaints game: Student A suggests something impossible (\"Let's swim to Australia!\"). Student B rejects it with too/enough (\"It's too far! I'm not strong enough!\"). Five rounds, then swap."
+   },
+   "speaking": {
+    "part": 2,
+    "name": "Information exchange with cards"
    }
   },
   {

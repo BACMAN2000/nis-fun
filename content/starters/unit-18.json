@@ -215,6 +215,10 @@
    ],
    "data": {
     "text": "Draw the sea together: each says one thing to add (\"There is a boat… There are two crabs…\") until the picture is full!"
+   },
+   "speaking": {
+    "part": 2,
+    "name": "Questions about the scene"
    }
   },
   {

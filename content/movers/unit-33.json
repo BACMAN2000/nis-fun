@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Draw 4 clocks with different times. Your partner says each time and one thing they do at that hour: \"It's half past four — I play football.\""
+   },
+   "speaking": {
+    "part": 1,
+    "name": "Find four differences"
    }
   },
   {

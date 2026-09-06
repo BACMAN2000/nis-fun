@@ -243,6 +243,10 @@
    ],
    "data": {
     "text": "Design a get-well card together for an imaginary patient: write the message (3 sentences, one funny) and decide the drawing. Read it aloud with your best kind voice."
+   },
+   "speaking": {
+    "part": 2,
+    "name": "Information exchange with cards"
    }
   },
   {

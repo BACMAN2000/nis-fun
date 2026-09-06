@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Mime a classroom action. Your partner says: \"You are reading! You are cutting!\" Four mimes each."
+   },
+   "speaking": {
+    "part": 2,
+    "name": "Questions about the scene"
    }
   },
   {

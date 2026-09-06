@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Write 3 riddles with who/which/where for another pair (a person who…, a thing which…, a place where…). Exchange and solve. One point per correct guess!"
+   },
+   "speaking": {
+    "part": 1,
+    "name": "Find six differences"
    }
   },
   {

@@ -243,6 +243,10 @@
    ],
    "data": {
     "text": "Write a mini postcard (4 lines) to your partner from an imaginary trip. Exchange, read aloud, and answer one question about it: \"What did you see there?\""
+   },
+   "speaking": {
+    "part": 3,
+    "name": "Describe the picture story"
    }
   },
   {

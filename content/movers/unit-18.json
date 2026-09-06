@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Dress the explorer: tell your partner what to put on for (a) the beach, (b) the snow, (c) the rain. They mime putting each thing on. Then swap!"
+   },
+   "speaking": {
+    "part": 1,
+    "name": "Find four differences"
    }
   },
   {

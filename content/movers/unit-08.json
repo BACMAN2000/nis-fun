@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Describe your room with 5 sentences (There is / There are). Your partner draws it. Compare the drawing with the truth!"
+   },
+   "speaking": {
+    "part": 1,
+    "name": "Find four differences"
    }
   },
   {

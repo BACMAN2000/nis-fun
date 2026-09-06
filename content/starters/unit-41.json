@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Spell your name and surname for your partner. They write it and show you. Correct? Now spell your favourite animal!"
+   },
+   "speaking": {
+    "part": 4,
+    "name": "Personal questions"
    }
   },
   {

@@ -237,6 +237,10 @@
    ],
    "data": {
     "text": "Student A chooses a thing from the wordlist and describes it without saying its name. Student B guesses. Then swap. Example: \"You wear these on your hands.\" — \"Gloves!\""
+   },
+   "speaking": {
+    "part": 1,
+    "name": "Find six differences"
    }
   },
   {

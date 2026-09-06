@@ -215,6 +215,10 @@
    ],
    "data": {
     "text": "Animal mime: move like an animal (elephant, monkey, snake…). Your partner guesses: \"You are a…!\" Three animals each."
+   },
+   "speaking": {
+    "part": 2,
+    "name": "Questions about the scene"
    }
   },
   {

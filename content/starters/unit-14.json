@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Juice bar: Student A asks \"Can I have…?\" for 3 drinks. Student B serves with \"Here you are!\" Then swap. Always say thank you!"
+   },
+   "speaking": {
+    "part": 3,
+    "name": "Questions about object cards"
    }
   },
   {

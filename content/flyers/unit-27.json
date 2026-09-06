@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Mime something that has just happened (you've just woken up, you've just won a race…). Your partner says the sentence: \"You have just…!\" Three mimes each."
+   },
+   "speaking": {
+    "part": 1,
+    "name": "Find six differences"
    }
   },
   {

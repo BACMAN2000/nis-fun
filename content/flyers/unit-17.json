@@ -219,6 +219,10 @@
    ],
    "data": {
     "text": "Find out your partner's three favourite dates of the year (\"When is your birthday? When is…?\") and why. Report: \"Luca's favourite date is the 24th of December because…\""
+   },
+   "speaking": {
+    "part": 2,
+    "name": "Information exchange with cards"
    }
   },
   {

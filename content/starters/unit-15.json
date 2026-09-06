@@ -215,6 +215,10 @@
    ],
    "data": {
     "text": "Ask your partner: \"Have you got a pet? What is it? What's its name?\" If they haven't, ask: \"What pet do you want?\""
+   },
+   "speaking": {
+    "part": 4,
+    "name": "Personal questions"
    }
   },
   {

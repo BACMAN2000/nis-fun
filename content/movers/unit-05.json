@@ -219,6 +219,10 @@
    ],
    "data": {
     "text": "Describe a classmate's clothes without saying the name: \"This person is wearing a red jumper…\" Your partner guesses who. Two people each."
+   },
+   "speaking": {
+    "part": 1,
+    "name": "Find four differences"
    }
   },
   {

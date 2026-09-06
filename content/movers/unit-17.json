@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Picnic offers: Student A offers 4 foods (Would you like…?), Student B accepts or refuses politely. Then swap. Extra point for the most British \"No, thank you\"!"
+   },
+   "speaking": {
+    "part": 3,
+    "name": "Odd one out, and why"
    }
   },
   {

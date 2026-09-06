@@ -219,6 +219,10 @@
    ],
    "data": {
     "text": "Student A draws a monster in one minute. Student B asks questions to draw the same monster without looking: \"How many eyes has it got? Has it got a beard?\" Compare the drawings and laugh!"
+   },
+   "speaking": {
+    "part": 1,
+    "name": "Find six differences"
    }
   },
   {

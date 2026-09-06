@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Tell your partner about a place you visit in holidays: who lives there, what there is, your favourite moment. They ask 2 questions. Then swap."
+   },
+   "speaking": {
+    "part": 2,
+    "name": "Describe the picture story"
    }
   },
   {

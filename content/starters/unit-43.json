@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Point and say: 2 near things (This is… These are…) and 2 far things (That is… Those are…). Your partner checks: near or far?"
+   },
+   "speaking": {
+    "part": 1,
+    "name": "Scene picture and object cards"
    }
   },
   {

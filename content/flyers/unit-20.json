@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "I spy with materials: \"I can see something made of glass…\" Your partner guesses the object in the classroom. Three objects each."
+   },
+   "speaking": {
+    "part": 1,
+    "name": "Find six differences"
    }
   },
   {

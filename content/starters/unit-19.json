@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Look at a picture in your book: find and say \"a man, a woman, a boy, a girl…\" Who finds more people in one minute?"
+   },
+   "speaking": {
+    "part": 2,
+    "name": "Questions about the scene"
    }
   },
   {

@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Robot game: give your robot-partner 5 instructions (walk, stop, turn, clap, sit). The robot only moves with clear English! Then swap."
+   },
+   "speaking": {
+    "part": 3,
+    "name": "Questions about object cards"
    }
   },
   {

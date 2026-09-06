@@ -219,6 +219,10 @@
    ],
    "data": {
     "text": "Hotel role play: Student A is the receptionist, Student B books a room (how many nights, what view, breakfast?). Use \"I'd like to…\" and \"We're going to…\". Then swap."
+   },
+   "speaking": {
+    "part": 2,
+    "name": "Information exchange with cards"
    }
   },
   {

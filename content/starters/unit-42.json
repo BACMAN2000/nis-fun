@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Point (kindly!) at classmates and say: \"He is… She is…\" with one nice word each (fast, kind, funny). Five people!"
+   },
+   "speaking": {
+    "part": 3,
+    "name": "Questions about object cards"
    }
   },
   {

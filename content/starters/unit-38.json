@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Animal quiz battle: 4 questions each (\"Can a … fly?\"). Answer with full short answers: \"Yes, it can! / No, it can't!\""
+   },
+   "speaking": {
+    "part": 3,
+    "name": "Questions about object cards"
    }
   },
   {

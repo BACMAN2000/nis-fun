@@ -215,6 +215,10 @@
    ],
    "data": {
     "text": "I spy colours: \"I can see something blue…\" Your partner finds it in the classroom. Three colours each!"
+   },
+   "speaking": {
+    "part": 1,
+    "name": "Scene picture and object cards"
    }
   },
   {

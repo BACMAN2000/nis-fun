@@ -225,6 +225,10 @@
    ],
    "data": {
     "text": "Write and give a 30-second graduation speech: your favourite unit, the funniest moment, one thing you'll remember, and a thank-you. The class claps for everyone!"
+   },
+   "speaking": {
+    "part": 3,
+    "name": "Describe the picture story"
    }
   },
   {

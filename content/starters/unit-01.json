@@ -230,6 +230,10 @@
    ],
    "data": {
     "text": "Student A points at something in the classroom and asks: \"What colour is it?\" Student B answers: \"It's blue!\" Three things each, then swap. Bonus: find something orange!"
+   },
+   "speaking": {
+    "part": 1,
+    "name": "Scene picture and object cards"
    }
   },
   {

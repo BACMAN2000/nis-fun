@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Point and say: find things in class that are big, small, long, new. \"The board is big! Your pencil is short!\" Five each."
+   },
+   "speaking": {
+    "part": 1,
+    "name": "Scene picture and object cards"
    }
   },
   {

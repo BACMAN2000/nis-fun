@@ -219,6 +219,10 @@
    ],
    "data": {
     "text": "Feelings mime: show a feeling only with your face and body. Your partner guesses and asks: \"When do you feel like that?\" Answer with When I… Three feelings each."
+   },
+   "speaking": {
+    "part": 1,
+    "name": "Find six differences"
    }
   },
   {

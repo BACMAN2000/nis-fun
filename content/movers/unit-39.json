@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Restaurant order: Student A is the waiter, Student B orders a full meal using quantities (a bowl of…, a glass of…). Then swap. Bon appétit!"
+   },
+   "speaking": {
+    "part": 3,
+    "name": "Odd one out, and why"
    }
   },
   {

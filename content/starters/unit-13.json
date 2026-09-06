@@ -215,6 +215,10 @@
    ],
    "data": {
     "text": "Fruit shop: Student A sells, Student B buys 3 fruits (\"Two apples, please!\"). Use please and thank you. Then swap."
+   },
+   "speaking": {
+    "part": 3,
+    "name": "Questions about object cards"
    }
   },
   {

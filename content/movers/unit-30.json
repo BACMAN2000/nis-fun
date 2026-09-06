@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Compare 5 things on your desks: \"My pencil is longer than yours. Your book is heavier…\" Check each one — is it true?"
+   },
+   "speaking": {
+    "part": 1,
+    "name": "Find four differences"
    }
   },
   {

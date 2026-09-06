@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Compare chores: \"Do you have to make your bed? Do you have to wash dishes?\" Find one chore you both do and one only your partner does."
+   },
+   "speaking": {
+    "part": 4,
+    "name": "Personal questions"
    }
   },
   {

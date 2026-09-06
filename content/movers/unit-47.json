@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Describe a family photo you love (from memory): who was there, where it was, why you like it. Your partner asks 2 questions."
+   },
+   "speaking": {
+    "part": 2,
+    "name": "Describe the picture story"
    }
   },
   {

@@ -215,6 +215,10 @@
    ],
    "data": {
     "text": "Show 4 things from your bag: \"This is my pencil. This is my book.\" Your partner says the colour of each one."
+   },
+   "speaking": {
+    "part": 1,
+    "name": "Scene picture and object cards"
    }
   },
   {

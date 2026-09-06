@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Number ping-pong from 11 to 20 and back. Then: point at things and ask \"How many?\" — answers over ten only!"
+   },
+   "speaking": {
+    "part": 1,
+    "name": "Scene picture and object cards"
    }
   },
   {

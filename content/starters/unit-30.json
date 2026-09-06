@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Pack the beach bag: take turns adding things (\"In my bag there is a hat… a hat and a bucket…\"). Remember the whole list — who forgets first?"
+   },
+   "speaking": {
+    "part": 3,
+    "name": "Questions about object cards"
    }
   },
   {

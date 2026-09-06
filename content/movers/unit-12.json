@@ -219,6 +219,10 @@
    ],
    "data": {
     "text": "Memory game: look inside your partner's pencil case for 10 seconds. Close it. Say everything you remember: \"You have got two pencils, a rubber…\" Count the correct ones!"
+   },
+   "speaking": {
+    "part": 1,
+    "name": "Find four differences"
    }
   },
   {

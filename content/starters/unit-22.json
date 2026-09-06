@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Make a feeling face. Your partner guesses: \"Are you sad? Are you angry?\" — \"Yes, I am! / No, I'm not!\" Four faces each."
+   },
+   "speaking": {
+    "part": 4,
+    "name": "Personal questions"
    }
   },
   {

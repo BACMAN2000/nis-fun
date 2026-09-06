@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Whose is it? Collect 5 small objects from classmates (with permission). Your partner guesses the owner of each: \"I think it's Marco's.\" Check and return everything!"
+   },
+   "speaking": {
+    "part": 1,
+    "name": "Find four differences"
    }
   },
   {

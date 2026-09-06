@@ -219,6 +219,10 @@
    ],
    "data": {
     "text": "Mime a job for your partner (no words!). They guess with full questions: \"Do you work in a hospital? Are you a nurse?\" Three jobs each."
+   },
+   "speaking": {
+    "part": 1,
+    "name": "Find six differences"
    }
   },
   {

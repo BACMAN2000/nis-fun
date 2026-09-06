@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Chain story: Student A starts \"I was hungry, so…\". Student B continues the result and adds a new cause: \"…so I opened the fridge, but it was empty, so…\". Keep the chain going for 6 turns!"
+   },
+   "speaking": {
+    "part": 3,
+    "name": "Describe the picture story"
    }
   },
   {

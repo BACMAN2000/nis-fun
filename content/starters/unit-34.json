@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Breakfast interview: \"What do you have for breakfast?\" Ask about food and drink. Find one thing you both have!"
+   },
+   "speaking": {
+    "part": 4,
+    "name": "Personal questions"
    }
   },
   {

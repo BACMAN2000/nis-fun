@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Say the days in order, taking turns, faster each time. Then ask: \"What do you do on Saturday?\" — two questions each."
+   },
+   "speaking": {
+    "part": 4,
+    "name": "Personal questions"
    }
   },
   {

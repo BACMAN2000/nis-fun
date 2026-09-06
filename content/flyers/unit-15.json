@@ -219,6 +219,10 @@
    ],
    "data": {
     "text": "Sports commentators: choose a sport and narrate 30 seconds of an imaginary final like Diego (\"She jumps… she scores!\"). Your partner guesses the sport. Then swap."
+   },
+   "speaking": {
+    "part": 1,
+    "name": "Find six differences"
    }
   },
   {

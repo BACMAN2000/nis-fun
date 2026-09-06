@@ -246,6 +246,10 @@
    ],
    "data": {
     "text": "Say 3 sentences to the class: your favourite unit, one word you love in English, and thank you to someone. Big clap for everyone!"
+   },
+   "speaking": {
+    "part": 4,
+    "name": "Personal questions"
    }
   },
   {

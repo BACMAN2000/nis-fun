@@ -243,6 +243,10 @@
    ],
    "data": {
     "text": "Write a 4-line letter to your partner (greeting, one news, one question, goodbye). Exchange, read aloud and answer the question!"
+   },
+   "speaking": {
+    "part": 4,
+    "name": "Personal questions"
    }
   },
   {

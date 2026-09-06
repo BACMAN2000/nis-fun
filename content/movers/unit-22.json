@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Describe a famous person or cartoon character (3 clues, one at a time). Your partner guesses as fast as possible. Two each — count the clues needed!"
+   },
+   "speaking": {
+    "part": 1,
+    "name": "Find four differences"
    }
   },
   {

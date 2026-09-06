@@ -215,6 +215,10 @@
    ],
    "data": {
     "text": "Play the crossing game: one is the traffic light (says red! green!), the other walks or stops. Then swap. Always look both ways!"
+   },
+   "speaking": {
+    "part": 1,
+    "name": "Scene picture and object cards"
    }
   },
   {

@@ -219,6 +219,10 @@
    ],
    "data": {
     "text": "Invent a planet with your partner: name, colour, what the rivers are made of, what the aliens look like. Present it with at least two exclamations: \"What a … planet!\""
+   },
+   "speaking": {
+    "part": 3,
+    "name": "Describe the picture story"
    }
   },
   {

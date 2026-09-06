@@ -240,6 +240,10 @@
    ],
    "data": {
     "text": "Each student puts one small object on the desk (a pencil, a key ring…). Mix them. Take turns asking: \"Whose is this?\" — \"I think it's Carla's.\" Check with the owner!"
+   },
+   "speaking": {
+    "part": 2,
+    "name": "Information exchange with cards"
    }
   },
   {

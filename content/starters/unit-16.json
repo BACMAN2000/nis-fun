@@ -215,6 +215,10 @@
    ],
    "data": {
     "text": "Animal sound quiz: make a sound, your partner names the animal in English. Three sounds each!"
+   },
+   "speaking": {
+    "part": 3,
+    "name": "Questions about object cards"
    }
   },
   {

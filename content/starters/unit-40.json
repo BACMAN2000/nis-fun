@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Letter game: say a letter, your partner says a word that starts with it. Five letters each — no repeating words!"
+   },
+   "speaking": {
+    "part": 3,
+    "name": "Questions about object cards"
    }
   },
   {

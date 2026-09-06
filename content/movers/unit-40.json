@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Present your favourite animal in 4 sentences: what it is, what it can do, what it can't do, why you love it. Your partner asks one question."
+   },
+   "speaking": {
+    "part": 4,
+    "name": "Personal questions"
    }
   },
   {

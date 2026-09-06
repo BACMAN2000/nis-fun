@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Play Quick Answers: 6 yes/no questions each, only short answers allowed (Yes, I do / No, she hasn't…). A full-sentence answer loses the point!"
+   },
+   "speaking": {
+    "part": 2,
+    "name": "Information exchange with cards"
    }
   },
   {

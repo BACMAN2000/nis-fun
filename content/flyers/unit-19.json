@@ -219,6 +219,10 @@
    ],
    "data": {
     "text": "You are TV reporters in extreme weather. Student A reports from a storm, Student B from a heatwave. 30 seconds each, with sound effects! The class votes for the best report."
+   },
+   "speaking": {
+    "part": 3,
+    "name": "Describe the picture story"
    }
   },
   {

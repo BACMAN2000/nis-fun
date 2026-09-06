@@ -231,6 +231,10 @@
    ],
    "data": {
     "text": "Student A mimes something you do at one of the places in the wordlist. Student B guesses the place with a full question: \"Did you go to the funfair?\" Then swap."
+   },
+   "speaking": {
+    "part": 1,
+    "name": "Find six differences"
    }
   },
   {

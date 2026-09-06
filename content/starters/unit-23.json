@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Can-can game: \"Can you jump? Show me!\" Ask 4 questions and your partner shows the action. Then swap!"
+   },
+   "speaking": {
+    "part": 3,
+    "name": "Questions about object cards"
    }
   },
   {

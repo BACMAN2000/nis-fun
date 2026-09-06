@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Make 3 magic word clues for another pair (colour + size + what it does). Can they guess all three?"
+   },
+   "speaking": {
+    "part": 4,
+    "name": "Personal questions"
    }
   },
   {

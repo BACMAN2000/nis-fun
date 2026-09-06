@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Truth or lie: say 3 sentences about chores you do at home (one is a lie!): \"I make my bed every day…\" Your partner guesses the lie."
+   },
+   "speaking": {
+    "part": 1,
+    "name": "Find six differences"
    }
   },
   {

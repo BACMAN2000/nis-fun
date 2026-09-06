@@ -222,6 +222,10 @@
    ],
    "data": {
     "text": "Student A makes an animal sound. Student B guesses: \"It's a cow!\" Then Student B mimes an animal (no sound!) and Student A guesses. Three animals each."
+   },
+   "speaking": {
+    "part": 2,
+    "name": "Questions about the scene"
    }
   },
   {

@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Doctor role play: patient invents a problem (I've got…), doctor asks 2 questions and gives advice (You should…). Then swap."
+   },
+   "speaking": {
+    "part": 3,
+    "name": "Odd one out, and why"
    }
   },
   {

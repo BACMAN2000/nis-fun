@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Weather reporters: look out of the window and give a 20-second report: \"Today it's… We can…\" Then your partner reports an invented crazy weather!"
+   },
+   "speaking": {
+    "part": 2,
+    "name": "Questions about the scene"
    }
   },
   {

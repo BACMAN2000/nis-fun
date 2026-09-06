@@ -215,6 +215,10 @@
    ],
    "data": {
     "text": "Play Touch: say a body part, your partner touches it fast (\"Touch your knee!\"). Five each — faster every time!"
+   },
+   "speaking": {
+    "part": 1,
+    "name": "Scene picture and object cards"
    }
   },
   {

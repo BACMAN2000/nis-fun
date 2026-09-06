@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Alibi game: yesterday at 6 pm something happened at school. Student A is the detective: \"What were you doing at six?\" Student B invents an alibi. The detective asks 3 more questions to find contradictions!"
+   },
+   "speaking": {
+    "part": 2,
+    "name": "Information exchange with cards"
    }
   },
   {

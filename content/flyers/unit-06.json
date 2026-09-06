@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Role play: Student A is the doctor, Student B is the patient with a funny illness (a dragon bit my elbow!). The doctor asks \"What's the matter?\" and gives advice with should/shouldn't. Then swap."
+   },
+   "speaking": {
+    "part": 2,
+    "name": "Information exchange with cards"
    }
   },
   {

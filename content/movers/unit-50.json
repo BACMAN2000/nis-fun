@@ -246,6 +246,10 @@
    ],
    "data": {
     "text": "Give a 20-second speech: your favourite unit, the funniest moment and a thank-you. The class claps for everyone!"
+   },
+   "speaking": {
+    "part": 4,
+    "name": "Personal questions"
    }
   },
   {

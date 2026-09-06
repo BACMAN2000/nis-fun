@@ -230,6 +230,10 @@
    ],
    "data": {
     "text": "Student A thinks of an animal from the wordlist. Student B asks yes/no questions to guess it: \"Is it bigger than a dog? Can it swim?\" Maximum 5 questions, then swap."
+   },
+   "speaking": {
+    "part": 1,
+    "name": "Find four differences"
    }
   },
   {

@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Story chain: retell the Luna story together — one sentence each, in order (First… Then… After that… In the end…). No notes allowed!"
+   },
+   "speaking": {
+    "part": 2,
+    "name": "Describe the picture story"
    }
   },
   {

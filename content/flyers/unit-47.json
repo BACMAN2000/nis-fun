@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Chain of consequences: Student A starts \"If I wake up late…\". B continues \"…you'll miss the bus. If you miss the bus…\". Keep the chain for 6 links — the crazier, the better!"
+   },
+   "speaking": {
+    "part": 3,
+    "name": "Describe the picture story"
    }
   },
   {

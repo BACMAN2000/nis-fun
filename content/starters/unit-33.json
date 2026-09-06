@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Day theatre: mime a moment of the day (waking up, having lunch, sleeping). Your partner guesses: \"It's the morning! You are waking up!\""
+   },
+   "speaking": {
+    "part": 4,
+    "name": "Personal questions"
    }
   },
   {

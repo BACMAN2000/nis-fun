@@ -219,6 +219,10 @@
    ],
    "data": {
     "text": "Hobby detective: ask yes/no questions to discover your partner's favourite hobby: \"Do you do it inside? Do you need music?\" Maximum 8 questions!"
+   },
+   "speaking": {
+    "part": 2,
+    "name": "Information exchange with cards"
    }
   },
   {

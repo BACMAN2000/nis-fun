@@ -219,6 +219,10 @@
    ],
    "data": {
     "text": "Jungle guide: take your partner on an imaginary jungle walk. Point and describe 4 animals: \"Look! A snake is hiding under…\" Whisper — don't wake the tiger!"
+   },
+   "speaking": {
+    "part": 2,
+    "name": "Describe the picture story"
    }
   },
   {

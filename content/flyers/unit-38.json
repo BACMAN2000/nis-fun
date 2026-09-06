@@ -243,6 +243,10 @@
    ],
    "data": {
     "text": "TV interview: Student A is the presenter, Student B is a famous person (real or invented). Do a 1-minute interview with 4 questions. Then swap roles. Best interview goes \"on air\" for the class!"
+   },
+   "speaking": {
+    "part": 4,
+    "name": "Personal questions"
    }
   },
   {

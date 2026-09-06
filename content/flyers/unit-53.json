@@ -242,6 +242,10 @@
    ],
    "data": {
     "text": "Dictation duel: read 5 words from this book to your partner, letter by letter if they ask. They write; then check spelling together. Swap. Champion = fewer mistakes."
+   },
+   "speaking": {
+    "part": 2,
+    "name": "Information exchange with cards"
    }
   },
   {
