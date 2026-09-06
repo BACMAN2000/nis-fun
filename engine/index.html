@@ -1523,7 +1523,7 @@ function pintaSelfCheck(el, digital){
     // y al portal, para que el profesor vea que dice saber hacer
     if (window.BACKEND) BACKEND.guardar('selfcheck',
       {nivel: LEVEL, unidad: UD.number, codigo: 'SC'},
-      {puede: puedo.filter((_,i)=>marcado[i]), total: puedo.length});
+      {puede: puedo.filter((_,i)=>marcado[i]), total: puedo.length}).then(avisaEntrega);
   });
   cuenta();
 }
@@ -1892,6 +1892,33 @@ function wirePictureWords(){
   });
 }
 
+/* ---- aviso de entrega ------------------------------------------------------
+   BACKEND.guardar() devuelve {ok, motivo}. Si nadie lo mira, un fallo deja al
+   alumno creyendo que entrego: la actividad se marca hecha y sale la
+   celebracion igual. Esta franja lo dice. Solo aparece si hay sesion — sin
+   cuenta no hay nada que guardar y el aviso seria ruido. */
+function avisaEntrega(r){
+  if (!r || r.ok) return;
+  if (!(window.BACKEND && BACKEND.hayAlumno && BACKEND.hayAlumno())) return;
+  var id = 'fun-no-guardado';
+  var v = document.getElementById(id);
+  if (!v){
+    v = document.createElement('div');
+    v.id = id;
+    v.style.cssText = 'position:fixed;left:50%;bottom:18px;transform:translateX(-50%);z-index:9999;' +
+      'max-width:min(560px,92vw);padding:12px 18px;border-radius:12px;background:#fff;color:#0f172a;' +
+      'border-left:5px solid #ef4444;box-shadow:0 12px 34px rgba(15,23,42,.24);' +
+      'font-family:"Gotham","Montserrat",system-ui,sans-serif;font-size:.92rem;line-height:1.5';
+    document.body.appendChild(v);
+  }
+  v.textContent = T('Careful: your work has not been saved to your account (' + (r.motivo || '') +
+                    '). Tell your teacher before you close this page.',
+                    'Attention : ton travail n\'a pas ete enregistre sur ton compte (' + (r.motivo || '') +
+                    '). Previens ton professeur avant de fermer cette page.');
+  clearTimeout(avisaEntrega._t);
+  avisaEntrega._t = setTimeout(function(){ if (v && v.parentNode) v.remove(); }, 12000);
+}
+
 function complete(code, msg){
   if(!PROG.done[code]){
     PROG.done[code]=true; store.set(UD.number, PROG);
@@ -1909,7 +1936,7 @@ function complete(code, msg){
     const escrito = caja ? [...caja.querySelectorAll('input[type=text],input:not([type]),textarea')]
       .map(i => (i.value||'').trim()).filter(Boolean) : [];
     if (escrito.length) BACKEND.guardar('writing',
-      {nivel: LEVEL, unidad: UD.number, codigo: code}, {respuestas: escrito});
+      {nivel: LEVEL, unidad: UD.number, codigo: code}, {respuestas: escrito}).then(avisaEntrega);
   }
   document.getElementById('act-'+code).classList.add('done');
   const total = UD.activities.filter(a=>a.outputs.includes('digital')).length;
