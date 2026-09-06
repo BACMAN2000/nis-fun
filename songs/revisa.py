@@ -23,6 +23,9 @@ ELENCO = {"Freya", "Nico", "Astrid", "Tomás", "Pip",          # Starters
           "Erik", "Valentina", "Sofía", "Mateo", "Luna",      # Movers
           "Rosa", "Juan", "Lucía", "Beto", "Pablo", "Carmen", # familias
           "Ana", "Carla", "Pedro",
+          "Ingrid", "Diego", "Maya", "Oliver", "Kili",       # Flyers
+          "Sven", "Nora", "Tom", "Leo", "Vega",
+          "Grum", "Zog", "Zip",        # la familia monstruo, solo Flyers 24
           "Lía", "Bruno", "Aiko", "Samu", "Iris", "Tino"}     # companeros
 
 # Mayusculas que no son nombres de persona (inicio de verso, etiquetas,
@@ -42,7 +45,8 @@ To Of For With From By Up Out Over Above Below Between Behind Beside Beneath
 Around Across Through Into Onto Raise Guess Blow Scary Team
 Club Fjord English Maths Science Art History Music Geography Biology
 Chemistry Drama January February March April June July August
-September October November December Aaah Whee Moo Neigh Oink Quack""".split())
+September October November December Aaah Whee Moo Neigh Oink Quack
+Earth Aurora Fjord Lighthouse Movers Starters Flyers Nordic""".split())
 
 # Temas conocidos que el filtro corta. La lista crece con cada rechazo.
 MINAS = [r"old macdonald", r"e-?i-?e-?i-?o",
