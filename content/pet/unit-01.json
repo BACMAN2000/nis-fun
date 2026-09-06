@@ -1,0 +1,415 @@
+{
+ "id": "pet-01",
+ "level": "pet",
+ "number": 1,
+ "title": "Choices and consequences",
+ "topic": "conditionals",
+ "grammar": "Zero and first conditional",
+ "wordlist": [
+  "decision",
+  "choose",
+  "consequence",
+  "avoid",
+  "warn",
+  "mistake",
+  "chance",
+  "risk",
+  "prefer",
+  "unless"
+ ],
+ "exam_focus": {
+  "paper": "Reading",
+  "part": 1,
+  "skill": "notices & messages"
+ },
+ "characters": [
+  "nova"
+ ],
+ "scene": {
+  "speaker": "nova",
+  "bubble": "Welcome to B1! Read what our club says about The Black Cat, then learn to talk about choices with conditionals.",
+  "intro": "Welcome to Grade 8 and to B1 Preliminary. This year in the Inspiring Nordic project we look more deeply at the choices people make and the consequences that follow. In this first unit you read what our reading club thinks about Edgar Allan Poe's The Black Cat, you learn to use the zero and first conditional to talk about causes and results, and you give your own opinion about good and bad choices. Every choice has a consequence — so let's choose to begin."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Vocabulary — choices and consequences. Match each word with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "consequence",
+      "right": "something that happens as a result of an action"
+     },
+     {
+      "left": "decision",
+      "right": "a choice you make after thinking about it"
+     },
+     {
+      "left": "avoid",
+      "right": "to stay away from something or stop it happening"
+     },
+     {
+      "left": "warn",
+      "right": "to tell someone about a possible danger or problem"
+     },
+     {
+      "left": "risk",
+      "right": "the chance that something bad could happen"
+     },
+     {
+      "left": "unless",
+      "right": "except if; if not"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "reading",
+   "title": "Reading — the reading club on The Black Cat",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "kicker": "Reading Club",
+    "title": "The Black Cat: choices that haunt us",
+    "author": "sofia",
+    "byline": "by the Grade 8 reading club",
+    "text": "<p>This month our Grade 8 reading club is reading <i>The Black Cat and other Stories</i> by Edgar Allan Poe. They are dark, clever stories about people who make terrible choices — and the consequences that follow.</p><p>In <i>The Black Cat</i>, the main character changes completely. At first he is kind to animals, but he starts to drink, and everything goes wrong. As <b>Nadia</b> said in our meeting, “If you make one bad choice, it is easier to make the next one.”</p><p>We talked a lot about consequences. If you tell a small lie, you often have to tell a bigger one. If you ignore a problem, it usually gets worse. Poe understood this very well, more than a hundred years ago.</p><p>Of course, choices can be positive too. If you help a classmate today, they will probably help you tomorrow. If we listen to each other in the club, everyone enjoys the book more.</p><p>The stories are old, but the lesson is modern: every choice has a consequence. What will you choose this week? If you read <i>The Black Cat</i>, you will not forget it!</p>",
+    "script": "This month our Grade 8 reading club is reading The Black Cat and other Stories by Edgar Allan Poe. They are dark, clever stories about people who make terrible choices, and the consequences that follow. In The Black Cat, the main character changes completely. At first he is kind to animals, but everything goes wrong. As Nadia said, if you make one bad choice, it is easier to make the next one. We talked a lot about consequences. If you tell a small lie, you often have to tell a bigger one. But choices can be positive too. If you help a classmate today, they will probably help you tomorrow. Every choice has a consequence. If you read The Black Cat, you will not forget it!",
+    "questions": [
+     {
+      "q": "What are Poe's stories about?",
+      "options": [
+       "people who make bad choices and the consequences",
+       "happy families on holiday",
+       "famous animals in a zoo"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What happens to the main character in The Black Cat?",
+      "options": [
+       "He changes and everything goes wrong.",
+       "He becomes rich and famous.",
+       "He moves to a new city."
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What did Nadia say about choices?",
+      "options": [
+       "One bad choice makes the next one easier.",
+       "Choices are never important.",
+       "Poe was completely wrong."
+      ],
+      "answer": 0
+     },
+     {
+      "q": "According to the text, if you help a classmate today,…",
+      "options": [
+       "they will probably help you tomorrow",
+       "nothing will happen",
+       "you will feel sad"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What is the main message of the article?",
+      "options": [
+       "Every choice has a consequence.",
+       "Old books are always boring.",
+       "Cats are dangerous animals."
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "grammar_box",
+   "title": "Grammar — Zero and first conditional",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "title": "Zero and first conditional",
+    "intro": "We use conditionals to link a condition (if…) with its result. At B1 the zero and first conditionals are the most common.",
+    "examples": [
+     {
+      "text": "If you heat ice, it <b>melts</b>.",
+      "note": "zero: a general truth"
+     },
+     {
+      "text": "If you tell a lie, the next one <b>is</b> easier.",
+      "note": "zero: always true"
+     },
+     {
+      "text": "If you help a friend, they <b>will help</b> you.",
+      "note": "first: likely future"
+     },
+     {
+      "text": "I <b>won't finish</b> unless you help me.",
+      "note": "unless = if not"
+     }
+    ],
+    "rules": [
+     "<b>Zero conditional</b> (general truths): If + present simple, present simple.",
+     "<b>First conditional</b> (a real future possibility): If + present simple, <b>will</b> + verb.",
+     "<b>unless</b> means 'if not': I'll be late <b>unless</b> I leave now."
+    ],
+    "practice": {
+     "instructions": "Choose the correct form.",
+     "items": [
+      {
+       "sentence": "If you heat water to 100°C, it ___.",
+       "options": [
+        "boils",
+        "will boil",
+        "boiled"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "If we finish the project early, we ___ a game.",
+       "options": [
+        "will play",
+        "play",
+        "played"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "You won't pass the exam ___ you study.",
+       "options": [
+        "unless",
+        "if",
+        "when"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "If Nadia ___ the poster, it will look great.",
+       "options": [
+        "makes",
+        "will make",
+        "made"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "If you tell a small lie, you often ___ to tell a bigger one.",
+       "options": [
+        "have",
+        "will have",
+        "had"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "code": "D",
+   "type": "gap_text",
+   "title": "Language in context — complete the club notice with ONE word in each gap.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "If",
+     "will",
+     "because",
+     "and",
+     "unless",
+     "so"
+    ],
+    "text": "{1} you read The Black Cat, you {2} love it, {3} it is clever and a bit scary! Our club meets on Fridays, {4} everyone is welcome. You can't join the big discussion {5} you finish the first story, {6} please read it this week.",
+    "answers": [
+     "If",
+     "will",
+     "because",
+     "and",
+     "unless",
+     "so"
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "listening",
+   "title": "Listening — the reading club plan. Write ONE word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "pet/u01-e.mp3",
+   "data": {
+    "voice_note": "Voz: la profesora (Miss Vega), presentando el club de lectura.",
+    "script": "Hello, Grade 8. Here is the plan for our reading club this month. We are reading The Black Cat by Poe. If you finish the first story by Friday, you can join the big discussion. Remember, if you don't have the book, ask in the library. On Thursday, Sofía will present the main character. If we have time, we will also watch a short film. And don't worry, if the story is too scary, you can read it with a friend!",
+    "questions": [
+     {
+      "q": "This month the club is reading a book by …",
+      "answer": "Poe"
+     },
+     {
+      "q": "You can join the discussion if you finish the first story by …",
+      "answer": "Friday"
+     },
+     {
+      "q": "If you don't have the book, ask in the …",
+      "answer": "library"
+     },
+     {
+      "q": "On Thursday, … will present the main character.",
+      "answer": "Sofía"
+     },
+     {
+      "q": "If the story is too scary, read it with a …",
+      "answer": "friend"
+     }
+    ]
+   }
+  },
+  {
+   "code": "F",
+   "type": "exam_task",
+   "title": "Exam task · B1 Reading Part 1 — read the message. What does it mean?",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Read each notice or message. Choose the correct answer A, B or C, like in the B1 Preliminary for Schools exam.",
+    "items": [
+     {
+      "sentence": "Library notice: “Reading club books must be returned within two weeks.”",
+      "options": [
+       "You can keep a club book for a maximum of two weeks.",
+       "You must finish the book in two weeks.",
+       "Club books cost two euros."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Message to the club: “Can't come today — I'll send my notes to Liam.”",
+      "options": [
+       "The writer will give their notes to Liam.",
+       "Liam is not coming today.",
+       "The club is cancelled today."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Sign: “Please switch off phones during the discussion.”",
+      "options": [
+       "You mustn't use your phone in the discussion.",
+       "Phones are banned from the library.",
+       "You can text quietly."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Email from teacher: “If you haven't chosen a story, do it before Friday.”",
+      "options": [
+       "Choose a story by Friday if you haven't already.",
+       "Everyone has already chosen a story.",
+       "There is no story this week."
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Note: “The scary film is only for students with permission.”",
+      "options": [
+       "You need permission to watch the film.",
+       "The film is for everyone.",
+       "There is no film this month."
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "pairwork",
+   "title": "Speaking — talk about choices. In pairs, then record it.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Ask and answer with a partner, using conditionals. Model: “What will you do if it rains at the weekend?” — “If it rains, I'll stay home and read.”  1) What will you do if you have free time this weekend? 2) If you could choose any book, which would you read? 3) What happens if you don't do your homework? 4) If you help a friend, what do you expect in return? 5) What will our class do if we finish the project early? Then record your best answers."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write a short opinion paragraph (6–8 sentences) about choices and consequences for our reading club blog. Use at least three conditionals with if or unless, for example: 'If you make a promise, you should keep it.' Say what you think makes a good decision. Capital letters and full stops!"
+  }
+ ],
+ "scope": {
+  "grado": "G8",
+  "temaN": 1,
+  "tema": "Choices and Consequences — Inspiring Nordic",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Follow a plan and note key details, including conditions (B1 Preliminary Listening)."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Talk about future possibilities and give opinions using conditionals (B1 Speaking)."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read a longer opinion text and understand the main idea and the writer's message (B1 Reading)."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write an opinion paragraph using conditionals, with clear organisation and punctuation."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "Zero and first conditional; unless; vocabulary of choices, risks and consequences."
+   }
+  ],
+  "vocabulario": [
+   "decision",
+   "consequence",
+   "avoid",
+   "warn",
+   "risk",
+   "unless"
+  ],
+  "gramatica": [
+   "Zero conditional (general truths)",
+   "First conditional (real future); unless"
+  ],
+  "pendiente": {}
+ },
+ "wordlist_extra": [
+  "opinion",
+  "cause",
+  "result"
+ ]
+}

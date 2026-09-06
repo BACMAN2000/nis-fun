@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 140" width="120" height="140">
+  <defs><clipPath id="c"><rect x="0" y="0" width="120" height="140" rx="10"/></clipPath></defs>
+  <g clip-path="url(#c)">
+    <rect width="120" height="140" fill="#eef3f7"/>
+    <!-- shoulders / top -->
+    <path d="M12 140 C16 108 40 96 60 96 C80 96 104 108 108 140 Z" fill="#e0a91f"/>
+    <path d="M50 96 h20 v10 a10 10 0 0 1 -20 0 Z" fill="#e0b48c"/>
+    <!-- neck -->
+    <rect x="53" y="82" width="14" height="16" rx="6" fill="#e0b48c"/>
+    <!-- head -->
+    <ellipse cx="60" cy="60" rx="27" ry="30" fill="#e0b48c"/>
+    <!-- ears -->
+    <circle cx="34" cy="62" r="5" fill="#e0b48c"/><circle cx="86" cy="62" r="5" fill="#e0b48c"/>
+    <!-- hair -->
+    <path d="M31 62 C29 30 47 24 60 24 C73 24 91 30 89 62 C89 50 86 44 84 42 L84 92 C84 92 78 78 78 60 C70 40 50 40 42 60 C42 78 36 92 36 92 L36 42 C34 44 31 50 31 62 Z" fill="#241a12"/>
+    <!-- eyes + smile -->
+    <circle cx="50" cy="60" r="3" fill="#2b2540"/><circle cx="70" cy="60" r="3" fill="#2b2540"/>
+    <path d="M52 72 Q60 79 68 72" stroke="#7a4a3a" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+    <path d="M45 52 Q50 49 55 52" stroke="#241a12" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M65 52 Q70 49 75 52" stroke="#241a12" stroke-width="2" fill="none" stroke-linecap="round"/>
+    
+  </g>
+</svg>

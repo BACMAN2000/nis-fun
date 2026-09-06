@@ -1,0 +1,415 @@
+{
+ "id": "pet-06",
+ "level": "pet",
+ "number": 6,
+ "title": "Our project, our voice",
+ "topic": "presenting & connectors",
+ "grammar": "Linking words (although, however, therefore, for example)",
+ "wordlist": [
+  "opinion",
+  "argue",
+  "however",
+  "although",
+  "therefore",
+  "example",
+  "audience",
+  "confident",
+  "persuade",
+  "conclusion"
+ ],
+ "exam_focus": {
+  "paper": "Speaking",
+  "part": 2,
+  "skill": "opinions with reasons"
+ },
+ "characters": [
+  "nova"
+ ],
+ "scene": {
+  "speaker": "nova",
+  "bubble": "It's presentation day! Learn the linking words that make an argument clear, then share your voice.",
+  "intro": "This is the last unit of the year and presentation day for the Inspiring Nordic Trades project. In this unit you read Mateo's account of the big day, you learn the linking words that connect ideas — although, however, therefore, for example — and you prepare your own short presentation. A good project is not only about knowing things; it is about sharing them clearly. What is your voice going to say?"
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Vocabulary — giving opinions. Match each word with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "argue",
+      "right": "to give reasons for or against an idea"
+     },
+     {
+      "left": "however",
+      "right": "a word that introduces a contrast"
+     },
+     {
+      "left": "therefore",
+      "right": "for that reason; as a result"
+     },
+     {
+      "left": "audience",
+      "right": "the people who listen to a presentation"
+     },
+     {
+      "left": "confident",
+      "right": "sure of yourself and your abilities"
+     },
+     {
+      "left": "conclusion",
+      "right": "the final part, where you sum up your ideas"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "reading",
+   "title": "Reading — presentation day",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "kicker": "Inspiring Nordic · Trades",
+    "title": "Our project, our voice",
+    "author": "mateo",
+    "byline": "by Mateo",
+    "text": "<p>Today was presentation day for our Inspiring Nordic Trades project, and it was the proudest moment of the year. Each group had ten minutes to explain what they had learned about real skills and the world of work.</p><p>Our group argued that trades and technology need each other. On the one hand, machines can produce things quickly. On the other hand, only people can design with imagination and care. Although robots are powerful, they are not creative. Therefore, we said, the future belongs to people who can do both.</p><p>Presenting was not easy. At first I was nervous; however, once I started, I forgot my fear. It really helps to organise your ideas: first, give your opinion; then, give a reason; finally, give an example. For instance, we explained how a handmade guitar can last fifty years, while a cheap one breaks in months.</p><p><b>Nadia</b> showed our posters, <b>Sofía</b> read a short poem, and <b>Liam</b> answered the audience's questions with confidence. In conclusion, we learned that a good project is not only about knowing things — it is about sharing them clearly.</p><p>What is your voice going to say?</p>",
+    "script": "Today was presentation day for our Inspiring Nordic Trades project, and it was the proudest moment of the year. Each group had ten minutes to explain what they had learned. Our group argued that trades and technology need each other. On the one hand, machines can produce things quickly. On the other hand, only people can design with imagination and care. Although robots are powerful, they are not creative. Presenting was not easy. At first I was nervous; however, once I started, I forgot my fear. It helps to organise your ideas: first, give your opinion; then a reason; finally an example. Nadia showed our posters, Sofía read a poem, and Liam answered questions with confidence. In conclusion, a good project is about sharing ideas clearly.",
+    "questions": [
+     {
+      "q": "What was today?",
+      "options": [
+       "presentation day for the Trades project",
+       "the first day of school",
+       "a sports competition"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What did the group argue?",
+      "options": [
+       "trades and technology need each other",
+       "machines are completely useless",
+       "people should never use technology"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "How did Mateo feel at first?",
+      "options": [
+       "nervous",
+       "bored",
+       "angry"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What order does the writer suggest for presenting?",
+      "options": [
+       "opinion, reason, example",
+       "example, opinion, reason",
+       "reason, example, opinion"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What did the group learn about a good project?",
+      "options": [
+       "it is about sharing ideas clearly",
+       "it is only about knowing facts",
+       "it should be as long as possible"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "grammar_box",
+   "title": "Grammar — Linking words",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "title": "Linking words for opinions",
+    "intro": "Good speakers and writers connect their ideas with linking words. They make an argument clear and easy to follow.",
+    "examples": [
+     {
+      "text": "<b>Although</b> robots are powerful, they aren't creative.",
+      "note": "although: contrast"
+     },
+     {
+      "text": "I was nervous; <b>however</b>, I started.",
+      "note": "however: contrast"
+     },
+     {
+      "text": "Machines are fast. <b>Therefore</b>, we use them.",
+      "note": "therefore: result"
+     },
+     {
+      "text": "…with care, <b>for example</b> a handmade guitar.",
+      "note": "for example: gives an example"
+     }
+    ],
+    "rules": [
+     "<b>Although</b> and <b>however</b> show a contrast (like 'but'). <i>Although</i> joins two clauses; <i>however</i> often starts a new sentence.",
+     "<b>Therefore</b> and <b>so</b> show a result (what happens next).",
+     "<b>For example / for instance</b> and <b>in addition</b> introduce examples and extra ideas."
+    ],
+    "practice": {
+     "instructions": "Choose the correct linking word.",
+     "items": [
+      {
+       "sentence": "___ it was difficult, we enjoyed the project.",
+       "options": [
+        "Although",
+        "However",
+        "Therefore"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "The talk was short. ___, it was very clear.",
+       "options": [
+        "However",
+        "Although",
+        "Because"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "Machines can't be creative; ___, we need people.",
+       "options": [
+        "therefore",
+        "although",
+        "however"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "We need real skills, ___ carpentry and cooking.",
+       "options": [
+        "for example",
+        "however",
+        "although"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "I was nervous. ___, I did my best.",
+       "options": [
+        "However",
+        "Therefore",
+        "Although"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "code": "D",
+   "type": "gap_text",
+   "title": "Open cloze — complete the advice. Write ONE word in each gap.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "Although",
+     "however",
+     "and",
+     "because",
+     "example",
+     "therefore"
+    ],
+    "text": "{1} presenting is hard, it is worth it. I was nervous; {2}, I did my best. Plan your time {3} organise your ideas. Explain your opinion, {4} it helps the audience. For {5}, say why skills matter. Robots can't create; {6}, we still need people.",
+    "answers": [
+     "Although",
+     "however",
+     "and",
+     "because",
+     "example",
+     "therefore"
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "listening",
+   "title": "Listening — the presentation-day plan. Write ONE word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "pet/u06-e.mp3",
+   "data": {
+    "voice_note": "Voz: la profesora (Miss Vega), tono de día especial.",
+    "script": "Good morning, Grade 8. Today is our Inspiring Nordic presentation day. Here is how it works. Each group has ten minutes to present. Speak clearly and look at your audience. Remember to give an opinion, a reason and an example. Use linking words like 'although' and 'however' to connect your ideas. After each talk, the audience will ask two questions. Good luck — we are all very proud of you!",
+    "questions": [
+     {
+      "q": "Each group has … minutes to present.",
+      "answer": "ten"
+     },
+     {
+      "q": "Speak clearly and look at your …",
+      "answer": "audience"
+     },
+     {
+      "q": "Give an opinion, a reason and an …",
+      "answer": "example"
+     },
+     {
+      "q": "Use linking words like 'although' and …",
+      "answer": "however"
+     },
+     {
+      "q": "After each talk, the audience will ask two …",
+      "answer": "questions"
+     }
+    ]
+   }
+  },
+  {
+   "code": "F",
+   "type": "exam_task",
+   "title": "Exam task · B1 Reading & Grammar — choose the correct linking word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct linking word to complete each sentence, like in the B1 Preliminary exam.",
+    "items": [
+     {
+      "sentence": "___ the project was long, we loved it.",
+      "options": [
+       "Although",
+       "However",
+       "Therefore"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Our poster was simple. ___, it was very clear.",
+      "options": [
+       "However",
+       "Although",
+       "Because"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Machines can't be creative; ___, we need people.",
+      "options": [
+       "therefore",
+       "although",
+       "however"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "We should value real skills, ___ carpentry and cooking.",
+      "options": [
+       "for example",
+       "however",
+       "although"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "I practised a lot, ___ I felt confident.",
+      "options": [
+       "so",
+       "although",
+       "however"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "pairwork",
+   "title": "Speaking — give a mini-presentation. In pairs, then record it.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Give a two-minute mini-presentation about your Inspiring Nordic year, like a B1 Speaking long turn. Model: “In my opinion, the best part was the workshop, because we learned real skills. For example, I built a wooden box.” Say: your opinion of the project, one reason and one example. Use linking words (although, however, for example, therefore). Look at your audience and speak with confidence. Then record it."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write a short opinion text (8–10 sentences) about your Inspiring Nordic year for presentation day. Give your opinion, two reasons and an example. Connect your ideas with although, however, therefore and for example. Capital letters and full stops!"
+  }
+ ],
+ "scope": {
+  "grado": "G8",
+  "temaN": 6,
+  "tema": "Our Project, Our Voice — Inspiring Nordic",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Understand the plan for a presentation and note the key points (B1 Preliminary Listening)."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Give a short presentation with an opinion, reasons and examples (B1 Speaking Part 2)."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read an opinion text and follow the argument and the linking words (B1 Reading)."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write an opinion text connecting ideas with although, however, therefore and for example."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "Linking words for contrast, result and examples; vocabulary of presenting and opinions."
+   }
+  ],
+  "vocabulario": [
+   "argue",
+   "however",
+   "therefore",
+   "audience",
+   "confident",
+   "conclusion"
+  ],
+  "gramatica": [
+   "Linking words: although, however (contrast)",
+   "therefore, so (result); for example (examples)"
+  ],
+  "pendiente": {}
+ },
+ "wordlist_extra": [
+  "opinion",
+  "reason",
+  "present"
+ ]
+}

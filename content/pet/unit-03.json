@@ -1,0 +1,415 @@
+{
+ "id": "pet-03",
+ "level": "pet",
+ "number": 3,
+ "title": "What people say",
+ "topic": "reported speech",
+ "grammar": "Reported speech (statements)",
+ "wordlist": [
+  "kindness",
+  "advice",
+  "admit",
+  "explain",
+  "promise",
+  "complain",
+  "agree",
+  "mention",
+  "encourage",
+  "quote"
+ ],
+ "exam_focus": {
+  "paper": "Reading",
+  "part": 3,
+  "skill": "reading for detail"
+ },
+ "characters": [
+  "nova"
+ ],
+ "scene": {
+  "speaker": "nova",
+  "bubble": "We've finished Wonder! Learn to report what people say — and remember Mr Browne's rule: choose kind.",
+  "intro": "Our reading club has just finished Wonder, a story about kindness. In this unit you read what the characters — and our own classmates — say about it, you learn reported speech to tell others what someone said, and you report your partner's ideas to the class. Words matter, and how we repeat them matters too. As Mr Browne says in the book, when you have a choice, choose kind."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Vocabulary — talking and reporting. Match each word with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "admit",
+      "right": "to agree that something is true, often unwillingly"
+     },
+     {
+      "left": "explain",
+      "right": "to make something clear so people understand"
+     },
+     {
+      "left": "promise",
+      "right": "to say you will certainly do something"
+     },
+     {
+      "left": "complain",
+      "right": "to say you are not happy about something"
+     },
+     {
+      "left": "encourage",
+      "right": "to give someone confidence to do something"
+     },
+     {
+      "left": "quote",
+      "right": "the exact words that a person said or wrote"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "reading",
+   "title": "Reading — the club on Wonder",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "kicker": "Reading Club",
+    "title": "Wonder: what kindness sounds like",
+    "author": "sofia",
+    "byline": "by Sofía",
+    "text": "<p>Our reading club has just finished <i>Wonder</i> by R. J. Palacio, and everyone loved it. It tells the story of Auggie, a boy with a different face who starts school for the first time in Grade 5.</p><p>At the beginning, Auggie says that he is just an ordinary kid. But the other students stare at him, and some are unkind. His teacher, Mr Browne, gives the class a rule for the year: he tells them that they should always choose to be kind. He explains that being right is not as important as being kind.</p><p>Auggie's mother tells him that everyone has marks on their face — the map of where they have been. His sister admits that she sometimes feels invisible, because everyone worries about Auggie. Little by little, the students learn to see the real Auggie, and by the end they say that he is the bravest boy in the school.</p><p>In our meeting, <b>Mateo</b> said that the book had changed how he thinks about new students. <b>Nadia</b> agreed and promised to be kinder this year. We decided that our Inspiring Nordic class needs Mr Browne's rule too: when you have a choice, choose kind.</p>",
+    "script": "Our reading club has just finished Wonder by R. J. Palacio, and everyone loved it. It tells the story of Auggie, a boy with a different face who starts school for the first time in Grade 5. At the beginning, Auggie says that he is just an ordinary kid. But some students are unkind. His teacher, Mr Browne, gives the class a rule: he tells them that they should always choose to be kind. Auggie's mother tells him that everyone has marks on their face. His sister admits that she sometimes feels invisible. By the end, the students say that Auggie is the bravest boy in the school. In our meeting, Mateo said that the book had changed how he thinks about new students, and Nadia promised to be kinder this year.",
+    "questions": [
+     {
+      "q": "What is Wonder about?",
+      "options": [
+       "a boy with a different face starting school",
+       "a magic school for wizards",
+       "a school football team"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What rule does Mr Browne give the class?",
+      "options": [
+       "always choose to be kind",
+       "always be the first to answer",
+       "never speak in class"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What does Auggie's mother tell him about marks on the face?",
+      "options": [
+       "they are the map of where you have been",
+       "they are a serious problem",
+       "they are not really there"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "Why does Auggie's sister sometimes feel invisible?",
+      "options": [
+       "everyone worries about Auggie",
+       "she is extremely shy",
+       "she is often ill"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What did Mateo say in the meeting?",
+      "options": [
+       "the book had changed how he thinks about new students",
+       "the book was far too long",
+       "he had not finished the book"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "grammar_box",
+   "title": "Grammar — Reported speech",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "title": "Reported speech",
+    "intro": "We use reported speech to tell someone what another person said. The verb usually moves 'one step back' into the past.",
+    "examples": [
+     {
+      "text": "“I am kind.” → He said that he <b>was</b> kind.",
+      "note": "am → was"
+     },
+     {
+      "text": "“I like the book.” → She said she <b>liked</b> it.",
+      "note": "like → liked"
+     },
+     {
+      "text": "“We will help.” → They said they <b>would</b> help.",
+      "note": "will → would"
+     },
+     {
+      "text": "“I have finished.” → He said he <b>had</b> finished.",
+      "note": "have → had"
+     }
+    ],
+    "rules": [
+     "Move the verb back one tense: present → past, will → would, have → had.",
+     "Use <b>said</b> (that…) or <b>told</b> + person (that…): She <b>told me</b> that…",
+     "Change the pronouns to match: “I” → he / she; “my” → his / her."
+    ],
+    "practice": {
+     "instructions": "Choose the correct answer.",
+     "items": [
+      {
+       "sentence": "“I am tired.” → She said she ___ tired.",
+       "options": [
+        "was",
+        "is",
+        "will be"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "“We like Wonder.” → They said they ___ Wonder.",
+       "options": [
+        "liked",
+        "like",
+        "will like"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "“I will read it.” → He said he ___ read it.",
+       "options": [
+        "would",
+        "will",
+        "was"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "She ___ me that the book was great.",
+       "options": [
+        "told",
+        "said",
+        "spoke"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "“I have finished.” → He said he ___ finished.",
+       "options": [
+        "had",
+        "has",
+        "have"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "code": "D",
+   "type": "gap_text",
+   "title": "Language in context — report the meeting. Write ONE word in each gap.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "said",
+     "was",
+     "told",
+     "that",
+     "liked",
+     "would"
+    ],
+    "text": "After the meeting, Sofía {1} that the book {2} amazing. Mateo {3} us {4} he really {5} it, and Nadia said she {6} read it again.",
+    "answers": [
+     "said",
+     "was",
+     "told",
+     "that",
+     "liked",
+     "would"
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "listening",
+   "title": "Listening — a message from the club. Write ONE word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "pet/u03-e.mp3",
+   "data": {
+    "voice_note": "Voz: la profesora (Miss Vega), leyendo mensajes del club.",
+    "script": "Good morning, Grade 8. I have some messages from the reading club. Sofía told me that the Wonder discussion will be on Wednesday. She said that everyone should bring their favourite quote. Mateo asked me to remind you that the club now meets in a new room. And Mr Browne said that the kindest comment of the week will win a book. So remember: choose kind, and choose Wednesday!",
+    "questions": [
+     {
+      "q": "Sofía said the Wonder discussion will be on …",
+      "answer": "Wednesday"
+     },
+     {
+      "q": "Everyone should bring their favourite …",
+      "answer": "quote"
+     },
+     {
+      "q": "The club now meets in a new …",
+      "answer": "room"
+     },
+     {
+      "q": "The kindest … of the week will win a book.",
+      "answer": "comment"
+     },
+     {
+      "q": "Mr Browne's rule is: choose …",
+      "answer": "kind"
+     }
+    ]
+   }
+  },
+  {
+   "code": "F",
+   "type": "exam_task",
+   "title": "Exam task · B1 Reading & Grammar — choose the correct reported sentence.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct reported form to complete each sentence, like in the B1 Preliminary exam.",
+    "items": [
+     {
+      "sentence": "“I am reading Wonder.” → She said that she ___ Wonder.",
+      "options": [
+       "was reading",
+       "is reading",
+       "will read"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "“We finished the book.” → They said they ___ the book.",
+      "options": [
+       "had finished",
+       "have finished",
+       "finish"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "“I'll bring a quote.” → He said he ___ bring a quote.",
+      "options": [
+       "would",
+       "will",
+       "was"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "“I don't like the ending.” → She said she ___ like the ending.",
+      "options": [
+       "didn't",
+       "doesn't",
+       "won't"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Mr Browne ___ the class that kindness matters.",
+      "options": [
+       "told",
+       "said",
+       "asked"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "pairwork",
+   "title": "Speaking — report your partner. In pairs, then record it.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "Work in pairs. Student A answers three questions: What's your favourite book? What did you do last weekend? What will you do this summer? Then Student B reports the answers, using reported speech. Model: “Mateo said that his favourite book was Wonder. He told me that he had played football last weekend.” Then swap and record your report."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write 6–8 sentences reporting what three classmates said about Wonder (or another book), using reported speech. Example: 'Nadia said that she loved the ending. Liam told me that he had cried.' Use said and told, and move the verbs back one tense. Capital letters and full stops!"
+  }
+ ],
+ "scope": {
+  "grado": "G8",
+  "temaN": 3,
+  "tema": "What People Say — Inspiring Nordic",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Understand messages and note what different people said (B1 Preliminary Listening)."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Report what another person said using reported speech (B1 Speaking)."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read about a novel and understand what characters say and why (B1 Reading Part 3)."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Report several people's opinions in writing using said and told."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "Reported speech (tense back-shift, said / told); vocabulary of talking and reporting."
+   }
+  ],
+  "vocabulario": [
+   "admit",
+   "explain",
+   "promise",
+   "complain",
+   "encourage",
+   "quote"
+  ],
+  "gramatica": [
+   "Reported speech: back-shift of tenses",
+   "said (that) / told + person"
+  ],
+  "pendiente": {}
+ },
+ "wordlist_extra": [
+  "kindness",
+  "opinion",
+  "character"
+ ]
+}

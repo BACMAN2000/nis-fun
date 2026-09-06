@@ -1,0 +1,415 @@
+{
+ "id": "pet-02",
+ "level": "pet",
+ "number": 2,
+ "title": "How it's made",
+ "topic": "the passive",
+ "grammar": "The passive (present and past simple)",
+ "wordlist": [
+  "material",
+  "produce",
+  "factory",
+  "tool",
+  "design",
+  "build",
+  "machine",
+  "process",
+  "product",
+  "skill"
+ ],
+ "exam_focus": {
+  "paper": "Reading",
+  "part": 5,
+  "skill": "multiple-choice cloze"
+ },
+ "characters": [
+  "nova"
+ ],
+ "scene": {
+  "speaker": "nova",
+  "bubble": "For the Trades project, learn how things are made — and how to use the passive to describe a process.",
+  "intro": "The heart of the Inspiring Nordic project is Trades: understanding how real things are made. In this unit you read Liam's report from a guitar workshop, you learn the passive voice — the grammar we use to describe a process when the action matters more than the person — and you describe how something is made yourself. Real things are made with skill, time and care. Let's find out how."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Vocabulary — making and materials. Match each word with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "material",
+      "right": "what something is made of, like wood or metal"
+     },
+     {
+      "left": "produce",
+      "right": "to make something, often in large amounts"
+     },
+     {
+      "left": "tool",
+      "right": "an object you use with your hands to do a job"
+     },
+     {
+      "left": "process",
+      "right": "a series of steps to make or do something"
+     },
+     {
+      "left": "product",
+      "right": "something that is made to be used or sold"
+     },
+     {
+      "left": "skill",
+      "right": "the ability to do something well"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "reading",
+   "title": "Reading — a report from the workshop",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "kicker": "Inspiring Nordic · Trades",
+    "title": "How a guitar is made",
+    "author": "liam",
+    "byline": "by Liam, workshop reporter",
+    "text": "<p>For our Inspiring Nordic Trades project, my group visited a small workshop where guitars are made by hand. It was amazing to see how a simple piece of wood is turned into a musical instrument.</p><p>First, the wood is chosen very carefully. Only dry, strong wood is used, because wet wood is easily damaged. Then the pieces are cut and shaped by machine, but the most important parts are still done by hand.</p><p>Next, the body of the guitar is glued together and left to dry for several days. After that, it is painted and polished until it shines. Finally, the strings are added and the guitar is tested. If a note sounds wrong, the guitar is checked again.</p><p>The maker told us that a good guitar is never made quickly. “Each instrument is built with patience,” she said. “If it is made well, it will be played for fifty years.”</p><p>Our group learned an important lesson for the Trades project: real things are made with skill, time and care — not by machines alone.</p>",
+    "script": "For our Inspiring Nordic Trades project, my group visited a small workshop where guitars are made by hand. It was amazing to see how a simple piece of wood is turned into a musical instrument. First, the wood is chosen very carefully. Only dry, strong wood is used, because wet wood is easily damaged. Then the pieces are cut and shaped by machine, but the most important parts are still done by hand. Next, the body is glued together and left to dry. After that, it is painted and polished. Finally, the strings are added and the guitar is tested. The maker told us that a good guitar is never made quickly. Real things are made with skill, time and care.",
+    "questions": [
+     {
+      "q": "Where did Liam's group go?",
+      "options": [
+       "a workshop where guitars are made by hand",
+       "a music concert",
+       "a large modern factory"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "Why is only dry wood used?",
+      "options": [
+       "Wet wood is easily damaged.",
+       "Dry wood is much cheaper.",
+       "Wet wood is too heavy to cut."
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What is still done by hand?",
+      "options": [
+       "the most important parts",
+       "nothing at all",
+       "only the painting"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What happens if a note sounds wrong?",
+      "options": [
+       "The guitar is checked again.",
+       "The guitar is thrown away.",
+       "Nothing is done about it."
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What lesson did the group learn for the project?",
+      "options": [
+       "Real things are made with skill, time and care.",
+       "Machines can make everything alone.",
+       "Guitars are cheap and easy to make."
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "grammar_box",
+   "title": "Grammar — The passive",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "title": "The passive",
+    "intro": "We use the passive when the action is more important than the person who does it, or when we don't know who does it. We form it with be + past participle.",
+    "examples": [
+     {
+      "text": "The wood <b>is cut</b> by machine.",
+      "note": "present passive"
+     },
+     {
+      "text": "The guitar <b>was tested</b> yesterday.",
+      "note": "past passive"
+     },
+     {
+      "text": "Only strong wood <b>is used</b>.",
+      "note": "we don't say who"
+     },
+     {
+      "text": "Each guitar <b>is made</b> by a craftsman.",
+      "note": "by + agent"
+     }
+    ],
+    "rules": [
+     "Form: <b>be</b> (am / is / are / was / were) + <b>past participle</b>: is made, was built.",
+     "Use the passive when the doer is unknown or not important: The door <b>was opened</b>.",
+     "Add <b>by</b> + person only to say who did it: It was made <b>by</b> a craftsman."
+    ],
+    "practice": {
+     "instructions": "Choose the correct passive form.",
+     "items": [
+      {
+       "sentence": "Guitars ___ from wood.",
+       "options": [
+        "are made",
+        "make",
+        "is making"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "The workshop ___ yesterday.",
+       "options": [
+        "was visited",
+        "visited",
+        "is visit"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "Only dry wood ___ for the body.",
+       "options": [
+        "is used",
+        "uses",
+        "use"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "The strings ___ at the end.",
+       "options": [
+        "are added",
+        "add",
+        "is added"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "The guitar was built ___ a craftsman.",
+       "options": [
+        "by",
+        "from",
+        "with"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "code": "D",
+   "type": "gap_text",
+   "title": "Language in context — complete the process. Write ONE word in each gap.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "is",
+     "because",
+     "are",
+     "and",
+     "by",
+     "was"
+    ],
+    "text": "In our workshop, the wood {1} chosen with care {2} it must be strong. The pieces {3} cut by machine, {4} the body is glued {5} hand. Last week a new guitar {6} finished and tested.",
+    "answers": [
+     "is",
+     "because",
+     "are",
+     "and",
+     "by",
+     "was"
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "listening",
+   "title": "Listening — a workshop tour. Write ONE word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "pet/u02-e.mp3",
+   "data": {
+    "voice_note": "Voz: el maestro del taller (Mr Ríos), tono explicativo.",
+    "script": "Welcome to the Trades workshop, Grade 8. Let me explain how our chairs are made. First, the wood is measured and cut. Then the legs are joined to the seat with strong glue. After that, the chair is left to dry for two days. Next, it is painted in the school colours. Finally, every chair is checked before it is used in a classroom. Nothing is sold here; everything is made for our school.",
+    "questions": [
+     {
+      "q": "First, the wood is measured and …",
+      "answer": "cut"
+     },
+     {
+      "q": "The legs are joined to the seat with strong …",
+      "answer": "glue"
+     },
+     {
+      "q": "The chair is left to dry for … days.",
+      "answer": "two"
+     },
+     {
+      "q": "It is painted in the school …",
+      "answer": "colours"
+     },
+     {
+      "q": "Every chair is … before it is used.",
+      "answer": "checked"
+     }
+    ]
+   }
+  },
+  {
+   "code": "F",
+   "type": "exam_task",
+   "title": "Exam task · B1 Reading Part 5 — choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word to complete each sentence, like in the B1 Preliminary exam.",
+    "items": [
+     {
+      "sentence": "Our chairs are ___ in the school workshop.",
+      "options": [
+       "produced",
+       "product",
+       "producing"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "The wood must be strong, so it is chosen with great ___.",
+      "options": [
+       "care",
+       "careful",
+       "carefully"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Every product is ___ before it leaves the workshop.",
+      "options": [
+       "checked",
+       "checking",
+       "checks"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "A good guitar is never made in a ___.",
+      "options": [
+       "hurry",
+       "hurried",
+       "hurrying"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "These instruments are played for many ___.",
+      "options": [
+       "years",
+       "year",
+       "yearly"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "pairwork",
+   "title": "Speaking — describe a process. In pairs, then record it.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "In pairs, describe how something is made or done, using the passive. Model: “How is bread made?” — “First, the flour is mixed with water. Then it is baked in an oven.” Choose one: how bread is made, how a house is built, or how your favourite dish is cooked. Explain three or four steps, then record it."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write a short 'how it's made' text (6–8 sentences) for the Inspiring Nordic Trades blog. Choose a product (a chair, a cake, a poster…) and describe how it is made, using the passive (is made, is cut, is painted…). Capital letters and full stops!"
+  }
+ ],
+ "scope": {
+  "grado": "G8",
+  "temaN": 2,
+  "tema": "How It's Made — Inspiring Nordic",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Follow the steps of a process and note key details (B1 Preliminary Listening)."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Describe how something is made using the passive and sequence words (B1 Speaking)."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read a report about a process and understand the main idea and details (B1 Reading)."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write a clear 'how it's made' text using the passive and sequence words."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "The passive (present and past simple); by + agent; vocabulary of making and materials."
+   }
+  ],
+  "vocabulario": [
+   "material",
+   "produce",
+   "tool",
+   "process",
+   "product",
+   "skill"
+  ],
+  "gramatica": [
+   "The passive: be + past participle",
+   "by + agent"
+  ],
+  "pendiente": {}
+ },
+ "wordlist_extra": [
+  "craftsman",
+  "workshop",
+  "step"
+ ]
+}

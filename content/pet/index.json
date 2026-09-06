@@ -1,0 +1,18 @@
+{
+  "level": "pet",
+  "name": "Cambridge · PET · Grade 8",
+  "cast": "Grade 8 · Inspiring Nordic",
+  "color": "#0e7490",
+  "mascot": "nova",
+  "kids": ["mateo", "sofia", "liam", "nadia"],
+  "exam": "B1 Preliminary for Schools",
+  "project": "Inspiring Nordic — Trades",
+  "units": [
+    { "n": 1, "title": "Choices and consequences", "topic": "conditionals" },
+    { "n": 2, "title": "How it's made", "topic": "the passive" },
+    { "n": 3, "title": "What people say", "topic": "reported speech" },
+    { "n": 4, "title": "The power of words", "topic": "word formation" },
+    { "n": 5, "title": "The future of work", "topic": "future forms" },
+    { "n": 6, "title": "Our project, our voice", "topic": "presenting & connectors" }
+  ]
+}

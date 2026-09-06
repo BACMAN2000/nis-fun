@@ -1,0 +1,415 @@
+{
+ "id": "pet-05",
+ "level": "pet",
+ "number": 5,
+ "title": "The future of work",
+ "topic": "future forms",
+ "grammar": "Future forms: will, going to, present continuous",
+ "wordlist": [
+  "career",
+  "apprentice",
+  "employ",
+  "opportunity",
+  "robot",
+  "future",
+  "earn",
+  "creative",
+  "curious",
+  "replace"
+ ],
+ "exam_focus": {
+  "paper": "Reading",
+  "part": 4,
+  "skill": "gapped text"
+ },
+ "characters": [
+  "nova"
+ ],
+ "scene": {
+  "speaker": "nova",
+  "bubble": "What will work look like? Learn will, going to and the present continuous to talk about the future.",
+  "intro": "For the last part of the Inspiring Nordic project, we asked a big question: what will work look like in the future? In this unit you read what a robotics engineer told our class, you learn the different future forms — will, going to and the present continuous — and you talk about your own plans and predictions. Nobody knows exactly what the future will bring, but if you learn a real skill, the future will need you."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Vocabulary — work and the future. Match each word with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "career",
+      "right": "the series of jobs a person has in life"
+     },
+     {
+      "left": "apprentice",
+      "right": "a young person learning a job from an expert"
+     },
+     {
+      "left": "opportunity",
+      "right": "a chance to do something good"
+     },
+     {
+      "left": "earn",
+      "right": "to get money for the work you do"
+     },
+     {
+      "left": "creative",
+      "right": "good at making new ideas or things"
+     },
+     {
+      "left": "replace",
+      "right": "to take the place of something or someone"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "reading",
+   "title": "Reading — the future of work",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "kicker": "Inspiring Nordic · Trades",
+    "title": "What will work look like?",
+    "author": "sofia",
+    "byline": "by Sofía",
+    "text": "<p>For the last part of our Inspiring Nordic project, we asked a big question: what will work look like in the future? We interviewed teachers, parents and even a robotics engineer.</p><p>Some things are going to change a lot. Robots are already building cars, and soon they will do many simple jobs. Our engineer said, “Machines are getting cleverer every year.” But she also told us not to worry. “Machines will never replace real skills,” she explained. “A robot can cut wood, but it can't design a beautiful chair or comfort a frightened patient.”</p><p>In the future, many students in this class are going to have jobs that don't exist yet. That sounds a little scary, but it is also exciting. The most important thing, everyone agreed, is to keep learning.</p><p>Interestingly, some very old trades are coming back. People want real, handmade things again — furniture, bread, clothes made with care. Even in <i>The Hunchback of Notre Dame</i>, the craftsmen who built the cathedral are still remembered today.</p><p>So what are you going to be? Nobody knows for sure. But if you learn a real skill and never stop being curious, the future will need you.</p>",
+    "script": "For the last part of our Inspiring Nordic project, we asked a big question: what will work look like in the future? We interviewed teachers, parents and even a robotics engineer. Some things are going to change a lot. Robots are already building cars, and soon they will do many simple jobs. But our engineer told us not to worry. Machines will never replace real skills. A robot can cut wood, but it can't design a beautiful chair. In the future, many students are going to have jobs that don't exist yet. Interestingly, some very old trades are coming back. People want real, handmade things again. So what are you going to be? If you learn a real skill and stay curious, the future will need you.",
+    "questions": [
+     {
+      "q": "What big question did the group ask?",
+      "options": [
+       "what work will look like in the future",
+       "who built the school",
+       "when the holidays start"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What did the engineer say about machines?",
+      "options": [
+       "they will never replace real skills",
+       "they will do absolutely every job",
+       "they are completely useless"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What will many students in the class have in the future?",
+      "options": [
+       "jobs that don't exist yet",
+       "exactly the same jobs as today",
+       "no jobs at all"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "Why are some old trades coming back?",
+      "options": [
+       "people want real, handmade things again",
+       "machines have all stopped working",
+       "they are the cheapest option"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What is the writer's advice for the future?",
+      "options": [
+       "learn a real skill and stay curious",
+       "choose the easiest possible job",
+       "never change your mind"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "grammar_box",
+   "title": "Grammar — Future forms",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "title": "Future forms: will, going to, present continuous",
+    "intro": "At B1 we choose between three ways to talk about the future, depending on the meaning.",
+    "examples": [
+     {
+      "text": "Robots <b>will</b> do many jobs.",
+      "note": "will: prediction"
+     },
+     {
+      "text": "I'<b>m going to</b> study engineering.",
+      "note": "going to: plan / intention"
+     },
+     {
+      "text": "We'<b>re meeting</b> the engineer on Friday.",
+      "note": "present continuous: arrangement"
+     },
+     {
+      "text": "I think it<b>'ll be</b> exciting.",
+      "note": "will after 'I think'"
+     }
+    ],
+    "rules": [
+     "<b>will</b> for predictions and quick decisions: It <b>will</b> rain. I<b>'ll</b> help you.",
+     "<b>going to</b> for plans and intentions you already have: I<b>'m going to</b> be a designer.",
+     "<b>present continuous</b> for fixed arrangements with a time: We<b>'re visiting</b> the lab at 10."
+    ],
+    "practice": {
+     "instructions": "Choose the correct future form.",
+     "items": [
+      {
+       "sentence": "I think robots ___ many simple jobs soon.",
+       "options": [
+        "will do",
+        "are doing",
+        "do"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "I've decided: I ___ study medicine.",
+       "options": [
+        "'m going to",
+        "will",
+        "'m"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "We ___ the engineer at 3 p.m. tomorrow. It's arranged.",
+       "options": [
+        "'re meeting",
+        "will meet",
+        "meet"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "Look at those clouds! It ___ rain.",
+       "options": [
+        "'s going to",
+        "will",
+        "is"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "The phone's ringing — I ___ answer it.",
+       "options": [
+        "'ll",
+        "'m going to",
+        "'m"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "code": "D",
+   "type": "gap_text",
+   "title": "Open cloze — complete the text. Write ONE word in each gap.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "because",
+     "will",
+     "are",
+     "going",
+     "to",
+     "and"
+    ],
+    "text": "The future is exciting, {1} nobody knows what it {2} bring. Many students {3} {4} to have new jobs. I'm going {5} keep learning {6} stay curious.",
+    "answers": [
+     "because",
+     "will",
+     "are",
+     "going",
+     "to",
+     "and"
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "listening",
+   "title": "Listening — a visit from an engineer. Write ONE word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "pet/u05-e.mp3",
+   "data": {
+    "voice_note": "Voz: la profesora (Miss Vega), presentando a la ingeniera.",
+    "script": "Good morning, Grade 8. Today we welcome a robotics engineer, Ms Torres. She's going to talk about the future of work. She says that robots will do many simple jobs, but they will never replace human creativity. In ten years, she thinks, most of you will work in teams with machines. Her advice is simple: learn a real skill and keep your curiosity. After the talk, we're visiting the robotics lab at eleven o'clock. Bring your questions!",
+    "questions": [
+     {
+      "q": "Today's visitor is a robotics …",
+      "answer": "engineer"
+     },
+     {
+      "q": "She says robots will never replace human …",
+      "answer": "creativity"
+     },
+     {
+      "q": "In ten years, most students will work in teams with …",
+      "answer": "machines"
+     },
+     {
+      "q": "Her advice: learn a real skill and keep your …",
+      "answer": "curiosity"
+     },
+     {
+      "q": "After the talk, they are visiting the robotics …",
+      "answer": "lab"
+     }
+    ]
+   }
+  },
+  {
+   "code": "F",
+   "type": "exam_task",
+   "title": "Exam task · B1 Reading & Grammar — choose the correct future form.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct future form to complete each sentence, like in the B1 Preliminary exam.",
+    "items": [
+     {
+      "sentence": "I've decided. I ___ become an engineer.",
+      "options": [
+       "'m going to",
+       "will",
+       "'m"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Don't worry, I ___ help you with the project.",
+      "options": [
+       "'ll",
+       "'m going to",
+       "am"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "We ___ the workshop at 10 tomorrow. It's arranged.",
+      "options": [
+       "'re visiting",
+       "will visit",
+       "visit"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Look at that old machine — it ___ fall!",
+      "options": [
+       "'s going to",
+       "will",
+       "is"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "I think the future ___ need real skills.",
+      "options": [
+       "will",
+       "is going to",
+       "is"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "pairwork",
+   "title": "Speaking — talk about the future. In pairs, then record it.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "In pairs, talk about the future using will, going to and the present continuous. Model: “What are you going to do after school?” — “I'm going to study design. I think it'll be useful.” 1) What are you going to do next weekend? 2) What job do you think you'll have one day? 3) How will technology change our school? 4) What are you doing this evening? Then record your best answers."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write a short paragraph (6–8 sentences) about your future for the Inspiring Nordic project, using future forms. Say what you are going to study, what job you think you will have, and one prediction about the future of work. Use will, going to and the present continuous. Capital letters and full stops!"
+  }
+ ],
+ "scope": {
+  "grado": "G8",
+  "temaN": 5,
+  "tema": "The Future of Work — Inspiring Nordic",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Understand a short talk about the future and note the main advice (B1 Preliminary Listening)."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Talk about plans, predictions and arrangements using future forms (B1 Speaking)."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read an article about the future of work and follow the argument (B1 Reading)."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write about my future plans and predictions using will, going to and the present continuous."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "Future forms (will / going to / present continuous); vocabulary of work and careers."
+   }
+  ],
+  "vocabulario": [
+   "career",
+   "apprentice",
+   "opportunity",
+   "creative",
+   "curious",
+   "replace"
+  ],
+  "gramatica": [
+   "will (predictions, offers)",
+   "going to (plans); present continuous (arrangements)"
+  ],
+  "pendiente": {}
+ },
+ "wordlist_extra": [
+  "technology",
+  "skill",
+  "prediction"
+ ]
+}

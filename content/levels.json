@@ -35,6 +35,18 @@
         6,
         7
       ]
+    },
+    {
+      "id": "pet",
+      "name": "Cambridge · PET",
+      "exam": "B1 Preliminary for Schools",
+      "cast": "Grade 8 · Inspiring Nordic",
+      "mascot": "nova",
+      "color": "#0e7490",
+      "grades": [
+        8,
+        9
+      ]
     }
   ]
 }

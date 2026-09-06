@@ -1,0 +1,415 @@
+{
+ "id": "pet-04",
+ "level": "pet",
+ "number": 4,
+ "title": "The power of words",
+ "topic": "word formation",
+ "grammar": "Word formation (prefixes and suffixes)",
+ "wordlist": [
+  "useful",
+  "useless",
+  "careful",
+  "careless",
+  "happiness",
+  "kindness",
+  "possible",
+  "impossible",
+  "powerful",
+  "disagree"
+ ],
+ "exam_focus": {
+  "paper": "Reading",
+  "part": 6,
+  "skill": "open cloze"
+ },
+ "characters": [
+  "nova"
+ ],
+ "scene": {
+  "speaker": "nova",
+  "bubble": "Words have power. Learn how prefixes and suffixes build meaning — and how adverts use them.",
+  "intro": "For the Inspiring Nordic project, our group looked at advertisements and discovered how powerful words can be. In this unit you read about the words that change our minds, you learn how prefixes and suffixes build new words, and you write your own honest advert. One small ending can change everything: 'use' becomes 'useful' or 'useless'. Let's learn to use word power well."
+ },
+ "activities": [
+  {
+   "code": "A",
+   "type": "match_words",
+   "title": "Vocabulary — word power. Match each word with its meaning.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "left_label": "Word",
+    "right_label": "Meaning",
+    "pairs": [
+     {
+      "left": "useful",
+      "right": "helpful; good for a purpose"
+     },
+     {
+      "left": "useless",
+      "right": "not helpful at all"
+     },
+     {
+      "left": "careless",
+      "right": "not paying enough attention"
+     },
+     {
+      "left": "kindness",
+      "right": "the quality of being kind"
+     },
+     {
+      "left": "impossible",
+      "right": "not able to happen or be done"
+     },
+     {
+      "left": "powerful",
+      "right": "having a strong effect"
+     }
+    ]
+   }
+  },
+  {
+   "code": "B",
+   "type": "reading",
+   "title": "Reading — the words that sell",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "kicker": "Inspiring Nordic · Media",
+    "title": "The words that change your mind",
+    "author": "mateo",
+    "byline": "by Mateo",
+    "text": "<p>For the Inspiring Nordic project, our group studied advertisements — and we discovered how powerful words can be. A good advert doesn't just describe a product; it changes how you feel about it.</p><p>Look at the words companies choose. A drink is not just 'nice'; it is 'refreshing' and 'natural'. A phone is 'powerful' and 'unbelievable'. Even a boring product becomes 'useful' and 'comfortable'. These words are built from smaller parts: 'use' becomes 'useful' or 'useless', and 'comfort' becomes 'comfortable'. One small ending can change everything.</p><p>Advertisers also use words that create feelings. 'Happiness', 'freedom' and 'success' are not things you can touch, but they sound wonderful. Sometimes the words are almost dishonest: an 'unmissable offer' or an 'impossible price'.</p><p>Our teacher warned us to be careful. She said that a careful reader is never fooled by clever language. If you understand how words are built, you understand the message behind them.</p><p>For our project posters, we decided to use word power honestly. We want to persuade people to value real skills — and that is a message worth spreading with the right words.</p>",
+    "script": "For the Inspiring Nordic project, our group studied advertisements, and we discovered how powerful words can be. A good advert doesn't just describe a product; it changes how you feel about it. Look at the words companies choose. A drink is not just nice; it is refreshing and natural. A phone is powerful and unbelievable. These words are built from smaller parts: use becomes useful or useless. Advertisers also use words that create feelings, like happiness, freedom and success. Our teacher warned us to be careful. She said that a careful reader is never fooled by clever language. For our project posters, we decided to use word power honestly.",
+    "questions": [
+     {
+      "q": "What did the group study for the project?",
+      "options": [
+       "advertisements",
+       "the weather",
+       "a football match"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "According to the text, what does a good advert do?",
+      "options": [
+       "it changes how you feel about a product",
+       "it only lists the price",
+       "it hides the product"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "How is the word 'useful' built?",
+      "options": [
+       "from 'use' plus an ending",
+       "from the word 'full' only",
+       "it is not built from anything"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "What did the teacher warn the students about?",
+      "options": [
+       "to be careful with clever language",
+       "to buy more products",
+       "to write longer adverts"
+      ],
+      "answer": 0
+     },
+     {
+      "q": "How does the group want to use word power?",
+      "options": [
+       "honestly, to value real skills",
+       "to sell expensive things",
+       "to trick people"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "C",
+   "type": "grammar_box",
+   "title": "Grammar — Word formation",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "title": "Word formation: prefixes and suffixes",
+    "intro": "We build new words by adding parts. A prefix goes before a word; a suffix goes after. They change the meaning or the type of word.",
+    "examples": [
+     {
+      "text": "use → use<b>ful</b> / use<b>less</b>",
+      "note": "suffix → adjective"
+     },
+     {
+      "text": "happy → happi<b>ness</b>",
+      "note": "suffix → noun"
+     },
+     {
+      "text": "<b>un</b>happy, <b>im</b>possible",
+      "note": "prefix → opposite"
+     },
+     {
+      "text": "care → care<b>ful</b> / care<b>less</b>",
+      "note": "opposite meanings"
+     }
+    ],
+    "rules": [
+     "<b>-ful</b> = full of (useful, careful); <b>-less</b> = without (useless, careless).",
+     "<b>-ness</b> makes a noun from an adjective: happy → happi<b>ness</b>, kind → kind<b>ness</b>.",
+     "Prefixes <b>un-, im-, dis-</b> make the opposite: unhappy, impossible, disagree."
+    ],
+    "practice": {
+     "instructions": "Choose the correct word.",
+     "items": [
+      {
+       "sentence": "This tool is very ___. It helps a lot.",
+       "options": [
+        "useful",
+        "useless",
+        "use"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "He never listens; he is so ___.",
+       "options": [
+        "careless",
+        "careful",
+        "care"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "The whole class felt great ___ when we won.",
+       "options": [
+        "happiness",
+        "happy",
+        "unhappy"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "Sorry, that is ___. We can't do it.",
+       "options": [
+        "impossible",
+        "possible",
+        "possibly"
+       ],
+       "answer": 0
+      },
+      {
+       "sentence": "I ___ with you. I think you're wrong.",
+       "options": [
+        "disagree",
+        "agree",
+        "agreement"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "code": "D",
+   "type": "gap_text",
+   "title": "Open cloze — complete the text. Write ONE word in each gap.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "box": [
+     "useful",
+     "because",
+     "careless",
+     "and",
+     "powerful",
+     "so"
+    ],
+    "text": "Words are {1} tools. A good advert uses them {2} they change how we feel. A {3} reader believes everything, {4} that can be a problem. The most {5} words create feelings, {6} we must read them carefully.",
+    "answers": [
+     "useful",
+     "because",
+     "careless",
+     "and",
+     "powerful",
+     "so"
+    ]
+   }
+  },
+  {
+   "code": "E",
+   "type": "listening",
+   "title": "Listening — the advert project. Write ONE word in each gap.",
+   "outputs": [
+    "digital",
+    "quiz"
+   ],
+   "audio": "pet/u04-e.mp3",
+   "data": {
+    "voice_note": "Voz: la profesora (Miss Vega), cerrando el proyecto de anuncios.",
+    "script": "Good morning, Grade 8. Today we finish our advertisement project. Remember three things about word power. First, adjectives like 'powerful' and 'amazing' create strong feelings. Second, be careful with words like 'free' and 'unmissable' — they are often tricks. Third, a suffix can change a word completely: 'use' becomes 'useful'. For homework, choose one advert and find five powerful words. Bring your list on Monday!",
+    "questions": [
+     {
+      "q": "Adjectives like 'powerful' and 'amazing' create strong …",
+      "answer": "feelings"
+     },
+     {
+      "q": "Be careful with words like 'free' and …",
+      "answer": "unmissable"
+     },
+     {
+      "q": "Words like these are often …",
+      "answer": "tricks"
+     },
+     {
+      "q": "A suffix can change a word: 'use' becomes …",
+      "answer": "useful"
+     },
+     {
+      "q": "Bring your list of five powerful words on …",
+      "answer": "Monday"
+     }
+    ]
+   }
+  },
+  {
+   "code": "F",
+   "type": "exam_task",
+   "title": "Exam task · B1 Reading — choose the correct word.",
+   "outputs": [
+    "book",
+    "digital",
+    "quiz"
+   ],
+   "data": {
+    "instructions": "Choose the correct word to complete each sentence, like in the B1 Preliminary exam.",
+    "items": [
+     {
+      "sentence": "Thank you for your help — it was really ___.",
+      "options": [
+       "useful",
+       "useless",
+       "use"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Reading Wonder taught us about ___ and respect.",
+      "options": [
+       "kindness",
+       "kind",
+       "unkind"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "Don't be ___ with the tools; you could get hurt.",
+      "options": [
+       "careless",
+       "careful",
+       "carefully"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "It is ___ to finish everything in a single day.",
+      "options": [
+       "impossible",
+       "possible",
+       "possibly"
+      ],
+      "answer": 0
+     },
+     {
+      "sentence": "I completely ___ with that idea; I think it's wrong.",
+      "options": [
+       "disagree",
+       "agree",
+       "agreement"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  },
+  {
+   "code": "G",
+   "type": "pairwork",
+   "title": "Speaking — persuade with words. In pairs, then record it.",
+   "outputs": [
+    "book",
+    "digital"
+   ],
+   "data": {
+    "text": "In pairs, invent a short advert for a school product (a pencil, a chair, a book club). Use powerful, positive words: useful, amazing, comfortable, unmissable… Try to persuade your partner, then swap. Record your best advert."
+   }
+  }
+ ],
+ "homework": [
+  {
+   "type": "write_sentences",
+   "prompt": "Write a short, honest advert (5–7 sentences) for the Inspiring Nordic project — a real school skill or club you believe in. Use word power: at least four words with prefixes or suffixes (useful, powerful, kindness, impossible…). Persuade honestly. Capital letters and full stops!"
+  }
+ ],
+ "scope": {
+  "grado": "G8",
+  "temaN": 4,
+  "tema": "The Power of Words — Inspiring Nordic",
+  "outcomes": [
+   {
+    "destreza": "Listening",
+    "puede": "Note the key points of a lesson about persuasive language (B1 Preliminary Listening)."
+   },
+   {
+    "destreza": "Speaking",
+    "puede": "Persuade someone using positive, well-chosen words (B1 Speaking)."
+   },
+   {
+    "destreza": "Reading",
+    "puede": "Read a text about media language and understand its argument (B1 Reading)."
+   },
+   {
+    "destreza": "Writing",
+    "puede": "Write a short persuasive text using words built with prefixes and suffixes."
+   },
+   {
+    "destreza": "Grammar & Vocabulary",
+    "puede": "Word formation: -ful, -less, -ness and prefixes un-, im-, dis-."
+   }
+  ],
+  "vocabulario": [
+   "useful",
+   "careless",
+   "kindness",
+   "impossible",
+   "powerful",
+   "disagree"
+  ],
+  "gramatica": [
+   "Suffixes: -ful, -less, -ness",
+   "Prefixes: un-, im-, dis-"
+  ],
+  "pendiente": {}
+ },
+ "wordlist_extra": [
+  "persuade",
+  "advertisement",
+  "honest"
+ ]
+}
