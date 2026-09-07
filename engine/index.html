@@ -1221,13 +1221,20 @@ function sceneFor(ud){
   // Palabras y letras
   if (has('librar','book','read','stor','writ','letter','spell','alphabet','biograph','diary','note')) return 'library';
   // Aula: lo escolar y la gramatica que no tiene mundo propio
-  if (has('school','classroom','lesson','subject','timetable','homework','study','exam','test','practice','teacher','pencil','material')) return 'classroom';
+  // El colegio como sitio va al edificio; lo que pasa dentro del aula, al aula.
+  // Estaban las dos dibujadas y solo se usaba una.
+  if (has('school','timetable','subject','campus')) return 'main-building-v2';
+  if (has('classroom','lesson','homework','study','exam','test','practice','teacher','pencil','material')) return 'classroom';
   // Mirador: mar, cielo, clima, mundo
   if (has('beach','sea','ocean','island','boat','fish','swim','sail','geograph','space','sky','star','planet','world','country','weather','season','rain','snow','sunny','cloud','wind','storm')) return 'mirador';
   // Picnic: comida y celebraciones de mesa
-  if (has('food','fruit','vegetable','eat','drink','breakfast','lunch','dinner','picnic','meal','snack','cook','hungry','thirst','cake','kitchen')) return 'picnic-garden';
+  // Cocina del faro: cocinar. Comer es el picnic; hacer la comida, esto.
+  if (has('cook','kitchen','recipe','chef','bake')) return 'lighthouse-kitchen';
+  if (has('food','fruit','vegetable','eat','drink','breakfast','lunch','dinner','picnic','meal','snack','hungry','thirst','cake')) return 'picnic-garden';
   // Huerto: naturaleza y animales
-  if (has('garden','plant','flower','tree','farm','countryside','nature','grow','animal','pet','bird','insect','zoo')) return 'garden';
+  // Zoo: los animales. Estaba dibujado y sin usar, y caian todos en el huerto.
+  if (has('zoo','animal','pet','bird','insect','wild')) return 'zoo';
+  if (has('garden','plant','flower','tree','farm','countryside','nature','grow')) return 'garden';
   // Plaza del ajedrez: numeros, cantidades y comparaciones
   if (has('number','count','math','quantit','compar','superlativ','measure','money','price','how many','how much','more','most','less')) return 'chess-plaza';
   // Fachada: la ciudad, la casa, el trabajo, los viajes
@@ -1236,14 +1243,17 @@ function sceneFor(ud){
   if (has('hello','welcome','greet','friend','family','people','person','name','telephone','phone','feel','happy','sad','personal','who')) return 'entrance';
   // Anfiteatro: fiesta, musica y repaso
   if (has('review','party','celebrat','music','show','concert','birthday','danc','sing','hobb','free time','screen')) return 'amphitheater';
-  // Laberinto: juego y posicion
-  // el laberinto es una vista aerea y un personaje de pie encima no pega
-  if (has('game','play','toy','prepos','position','where is','behind','between','hide')) return 'mirador';
+  // Feria: el juego y los juguetes. Lo suyo seria el laberinto, pero es una
+  // vista aerea y un personaje de pie encima no pega; la feria si.
+  if (has('toy','game','play','fun','fair','ride','circus')) return 'funfair';
+  // Mirador: la posicion, que es de lo que habla esa gramatica
+  if (has('prepos','position','where is','behind','between','hide')) return 'mirador';
   // Tiempo y rutina
   if (has('time','clock','hour','day','week','month','routine','morning','afternoon','night','often','always','frequen')) return 'campus-hex';
   // Sin tema propio (gramatica pura): se reparte por numero de unidad para
   // que ninguna pagina quede sin ilustracion y no salga siempre la misma.
-  const pool = ['campus-hex','chess-plaza','amphitheater','entrance','facade','garden','mirador','classroom'];
+  const pool = ['campus-hex','chess-plaza','amphitheater','entrance','facade','garden',
+                'mirador','classroom','main-building-v2','zoo','funfair'];
   return pool[(Number(ud.number)||0) % pool.length];
 }
 async function unit(){
