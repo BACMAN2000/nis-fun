@@ -31,6 +31,12 @@ CHARS = os.path.join(ROOT, "assets", "characters")
 BLANCO = 246        # a partir de aqui es fondo del todo
 CASI = 224          # por debajo de aqui es figura; en medio, rampa de alpha
 ALTO_MINIMO = 800   # la portada pinta a 200 CSS px, y en pantalla retina son 400
+# El generador devuelve figuras de 2300 px y mas de 3 MB. En la portada se
+# ven a 200 px (400 en pantalla retina) y en video 1080p no pasan de 700, asi
+# que guardarlas enteras solo sirve para que el alumno se descargue megas de
+# mas: con 1000 px sobra para las dos cosas. Reducir la paleta a 256 colores
+# bajaria a 80 KB, pero mancha la piel: el degradado 3D necesita color pleno.
+ALTO_MAXIMO = 1000
 
 
 def sin_fondo(im):
@@ -86,6 +92,9 @@ def main():
     im = Image.open(origen)
     entra = im.size
     im = recorta(sin_fondo(im))
+    if im.height > ALTO_MAXIMO:
+        im = im.resize((max(1, round(im.width * ALTO_MAXIMO / im.height)), ALTO_MAXIMO),
+                       Image.LANCZOS)
 
     nombre = "fullbody.png" if pose is None else "pose-%s.png" % str(pose).zfill(2)
     destino = os.path.join(CHARS, nivel, slug, nombre)
@@ -105,8 +114,8 @@ def main():
     if os.path.exists(destino):
         viejo = Image.open(destino)
         print("reemplaza %s (%dx%d)" % (destino, viejo.width, viejo.height))
-    im.save(destino)
-    print("guardado en %s" % destino)
+    im.save(destino, optimize=True)
+    print("guardado en %s  (%d KB)" % (destino, os.path.getsize(destino) // 1024))
     return 0
 
 
