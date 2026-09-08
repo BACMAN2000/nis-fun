@@ -49,6 +49,61 @@ window.REC = (function () {
     } catch (e) { return null; }
   }
 
+  /* Marca si la grabacion llego al servidor.
+
+     Los registros anteriores a esto NO la llevan, y a proposito no se
+     reintentan: no hay forma de saber si se subieron, y volver a mandarlos
+     crearia una segunda entrega del mismo audio. Solo se reintenta lo que
+     fallo despues de este cambio, que es lo que se marca con subido:false. */
+  async function marca(id, subido) {
+    try {
+      const r = await leerLocal(id);
+      if (!r) return;
+      r.subido = subido;
+      const db = await abrirDB();
+      await new Promise((ok, mal) => {
+        const t = db.transaction(TIENDA, 'readwrite');
+        t.objectStore(TIENDA).put(r);
+        t.oncomplete = ok; t.onerror = () => mal(t.error);
+      });
+    } catch (e) { /* si no se puede marcar, se reintentara la proxima vez */ }
+  }
+
+  async function pendientes() {
+    try {
+      const db = await abrirDB();
+      return await new Promise(ok => {
+        const q = db.transaction(TIENDA, 'readonly').objectStore(TIENDA).getAll();
+        q.onsuccess = () => ok((q.result || []).filter(r => r.subido === false && r.blob));
+        q.onerror = () => ok([]);
+      });
+    } catch (e) { return []; }
+  }
+
+  /* Sube lo que quedo pendiente. Se llama al montar una grabadora y cuando el
+     navegador avisa de que hay red otra vez.
+
+     Si uno falla se PARA: si no hay red, seguir intentando con los demas solo
+     gasta bateria y no arregla nada. El proximo evento vuelve a intentarlo. */
+  let reenviando = false;
+  async function reenviaPendientes() {
+    if (reenviando || !window.REC_SUBIR) return;
+    reenviando = true;
+    try {
+      for (const r of await pendientes()) {
+        try {
+          await window.REC_SUBIR(r.blob, {
+            id: r.id, nivel: r.nivel, unidad: r.unidad,
+            codigo: r.codigo, segundos: r.segundos
+          });
+          await marca(r.id, true);
+        } catch (e) { break; }
+      }
+    } finally { reenviando = false; }
+  }
+
+  window.addEventListener('online', reenviaPendientes);
+
   function montar(el, info) {
     const id = `${info.nivel}-u${info.unidad}-${info.codigo}`;
     el.innerHTML = `
@@ -68,6 +123,9 @@ window.REC = (function () {
     const reloj = el.querySelector('.rec-tiempo');
     const estado = el.querySelector('.rec-estado');
     let mr = null, trozos = [], t0 = 0, tic = null;
+
+    // por si quedo alguna grabacion sin salir de una vez anterior
+    reenviaPendientes();
 
     // si ya grabo antes, que pueda volver a oirse
     leerLocal(id).then(r => {
@@ -108,8 +166,12 @@ window.REC = (function () {
         if (window.REC_SUBIR) {
           try {
             await window.REC_SUBIR(blob, Object.assign({ id }, info));
+            await marca(id, true);
             estado.textContent = T('Saved. Your teacher can hear it now.',"Enregistré. Ton professeur peut l’écouter.");
           } catch (e) {
+            /* Queda en la cola: el mensaje promete que saldra solo, y ahora es
+               verdad — lo reintenta el evento 'online' y el proximo montaje. */
+            await marca(id, false);
             estado.textContent = T('Saved on this device. It will be sent when you are online.','Gardé sur cet appareil. Il partira quand tu seras connecté.');
           }
         }
