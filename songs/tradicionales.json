@@ -1,0 +1,2501 @@
+{
+  "_nota": "Rimas tradicionales inglesas (dominio público), primeras palabras y frases de uso diario, para Fun for Nordic; las notas al profesor van en inglés porque se leen en el portal. 'palabras_yle' son las palabras de la pieza que están en la lista oficial YLE 2025 y 'nivel_yle' el nivel más bajo que cubre 9 de cada 10 de ellas. Los ids con nota de autoría del s. XX llevan sólo el primer verso.",
+  "_fuente_yle": "nis-portal/yle/wordlist-2025.json",
+  "tipos": {
+    "contar": "Counting-out",
+    "palmas": "Clapping",
+    "comba": "Skipping",
+    "gestos": "Actions & fingerplays",
+    "nursery": "Nursery rhymes"
+  },
+  "rimas": [
+    {
+      "id": "eeny-meeny",
+      "tipo": "contar",
+      "titulo": "Eeny, meeny, miny, moe",
+      "edad": "4+",
+      "letra": "Eeny, meeny, miny, moe,\nCatch a tiger by the toe.\nIf he hollers, let him go,\nEeny, meeny, miny, moe.",
+      "coda": "My mother told me to pick the very best one, and you are not it.",
+      "uso": "Point at one child per word; the last one pointed at is 'it' (or is out).",
+      "gramatica": "imperatives: catch, let him go",
+      "palabras_yle": [
+        "catch",
+        "a",
+        "tiger",
+        "by",
+        "the",
+        "toe",
+        "if",
+        "he",
+        "let",
+        "him",
+        "go",
+        "my",
+        "mother",
+        "me",
+        "to",
+        "very",
+        "best",
+        "one",
+        "and",
+        "you",
+        "not",
+        "it"
+      ],
+      "yle_por_nivel": {
+        "starters": 17,
+        "movers": 2,
+        "flyers": 3
+      },
+      "nivel_yle": "flyers"
+    },
+    {
+      "id": "one-potato",
+      "tipo": "contar",
+      "titulo": "One potato, two potato",
+      "edad": "4+",
+      "letra": "One potato, two potato, three potato, four,\nFive potato, six potato, seven potato, more.",
+      "uso": "Everyone holds out two fists ('spuds up!'). The counter taps one fist per word; the fist tapped on 'more' goes behind the back. The last fist left wins.",
+      "gramatica": "numbers 1-7",
+      "palabras_yle": [
+        "one",
+        "potato",
+        "more"
+      ],
+      "yle_por_nivel": {
+        "starters": 2,
+        "movers": 1,
+        "flyers": 0
+      },
+      "nivel_yle": "movers"
+    },
+    {
+      "id": "ip-dip",
+      "tipo": "contar",
+      "titulo": "Ip dip",
+      "edad": "4+",
+      "letra": "Ip dip, sky blue,\nWho's it? Not you.",
+      "variante": "Ip dip do, the cat's got the flu,\nthe dog's got the chicken pox,\nout goes you.",
+      "uso": "British version. One child per word; whoever lands on 'you' is out.",
+      "gramatica": "Who's it? / has got",
+      "palabras_yle": [
+        "sky",
+        "blue",
+        "it",
+        "not",
+        "you",
+        "do",
+        "the",
+        "chicken",
+        "out"
+      ],
+      "yle_por_nivel": {
+        "starters": 7,
+        "movers": 2,
+        "flyers": 0
+      },
+      "nivel_yle": "movers"
+    },
+    {
+      "id": "bubble-gum",
+      "tipo": "contar",
+      "titulo": "Bubble gum, bubble gum",
+      "edad": "5+",
+      "letra": "Bubble gum, bubble gum, in a dish,\nHow many pieces do you wish?",
+      "uso": "The child pointed at on 'wish' says a number; keep counting up to that number and that child is out.",
+      "gramatica": "How many …?",
+      "palabras_yle": [
+        "in",
+        "a",
+        "how",
+        "many",
+        "do",
+        "you",
+        "wish"
+      ],
+      "yle_por_nivel": {
+        "starters": 6,
+        "movers": 0,
+        "flyers": 1
+      },
+      "nivel_yle": "flyers"
+    },
+    {
+      "id": "engine-engine",
+      "tipo": "contar",
+      "titulo": "Engine, engine, number nine",
+      "edad": "5+",
+      "letra": "Engine, engine, number nine,\nGoing down Chicago line.\nIf the train should jump the track,\nDo you want your money back?",
+      "coda": "Yes → Y-E-S spells yes, and you are not it. / No → N-O spells no, and you are not it.",
+      "uso": "The child pointed at on 'back' answers yes or no; spell the answer out and keep counting.",
+      "gramatica": "Do you want …? / spelling",
+      "palabras_yle": [
+        "engine",
+        "number",
+        "down",
+        "line",
+        "if",
+        "the",
+        "train",
+        "should",
+        "jump",
+        "do",
+        "you",
+        "want",
+        "your",
+        "money",
+        "back",
+        "yes",
+        "and",
+        "not",
+        "it",
+        "no"
+      ],
+      "yle_por_nivel": {
+        "starters": 14,
+        "movers": 2,
+        "flyers": 4
+      },
+      "nivel_yle": "flyers"
+    },
+    {
+      "id": "inky-pinky",
+      "tipo": "contar",
+      "titulo": "Inky pinky ponky",
+      "edad": "4+",
+      "letra": "Inky pinky ponky,\nDaddy bought a donkey,\nDonkey died, Daddy cried,\nInky pinky ponky.",
+      "uso": "One child per word; the last one is 'it'.",
+      "gramatica": "past simple: bought, died, cried",
+      "palabras_yle": [
+        "a",
+        "donkey"
+      ],
+      "yle_por_nivel": {
+        "starters": 2,
+        "movers": 0,
+        "flyers": 0
+      },
+      "nivel_yle": "starters"
+    },
+    {
+      "id": "tinker-tailor",
+      "tipo": "contar",
+      "titulo": "Tinker, tailor",
+      "edad": "6+",
+      "letra": "Tinker, tailor, soldier, sailor,\nRich man, poor man, beggar man, thief.",
+      "uso": "Count buttons, seeds or petals: the word you land on says 'what you will be when you grow up'.",
+      "gramatica": "jobs",
+      "palabras_yle": [
+        "rich",
+        "man",
+        "poor"
+      ],
+      "yle_por_nivel": {
+        "starters": 1,
+        "movers": 0,
+        "flyers": 2
+      },
+      "nivel_yle": "flyers"
+    },
+    {
+      "id": "fish-alive",
+      "tipo": "contar",
+      "titulo": "One, two, three, four, five",
+      "edad": "4+",
+      "letra": "One, two, three, four, five,\nOnce I caught a fish alive.\nSix, seven, eight, nine, ten,\nThen I let it go again.\n\nWhy did you let it go?\nBecause it bit my finger so.\nWhich finger did it bite?\nThis little finger on my right.",
+      "uso": "Count on your fingers; at the end hold up the little finger of your right hand.",
+      "gramatica": "numbers 1-10 · past simple · Why …? Because …",
+      "palabras_yle": [
+        "one",
+        "once",
+        "i",
+        "a",
+        "fish",
+        "then",
+        "let",
+        "it",
+        "go",
+        "again",
+        "why",
+        "you",
+        "because",
+        "bit",
+        "my",
+        "finger",
+        "so",
+        "which",
+        "this",
+        "little",
+        "on",
+        "right"
+      ],
+      "yle_por_nivel": {
+        "starters": 15,
+        "movers": 3,
+        "flyers": 4
+      },
+      "nivel_yle": "flyers"
+    },
+    {
+      "id": "icka-bicka",
+      "tipo": "contar",
+      "titulo": "Icka bicka soda cracker",
+      "edad": "4+",
+      "letra": "Icka bicka soda cracker,\nIcka bicka boo.\nIcka bicka soda cracker,\nOut goes you!",
+      "uso": "One child per word; whoever lands on 'you' is out.",
+      "palabras_yle": [
+        "out",
+        "you"
+      ],
+      "yle_por_nivel": {
+        "starters": 1,
+        "movers": 1,
+        "flyers": 0
+      },
+      "nivel_yle": "movers"
+    },
+    {
+      "id": "sky-blue",
+      "tipo": "contar",
+      "titulo": "One, two, sky blue",
+      "edad": "4+",
+      "letra": "One, two, sky blue,\nAll out but you!",
+      "uso": "The shortest one: good for choosing quickly between two or three.",
+      "palabras_yle": [
+        "one",
+        "sky",
+        "blue",
+        "all",
+        "out",
+        "but",
+        "you"
+      ],
+      "yle_por_nivel": {
+        "starters": 4,
+        "movers": 3,
+        "flyers": 0
+      },
+      "nivel_yle": "movers"
+    },
+    {
+      "id": "miss-mary-mack",
+      "tipo": "palmas",
+      "titulo": "Miss Mary Mack",
+      "edad": "6+",
+      "letra": "Miss Mary Mack, Mack, Mack,\nAll dressed in black, black, black,\nWith silver buttons, buttons, buttons,\nAll down her back, back, back.\n\nShe asked her mother, mother, mother,\nFor fifty cents, cents, cents,\nTo see the elephants, elephants, elephants,\nJump over the fence, fence, fence.\n\nThey jumped so high, high, high,\nThey reached the sky, sky, sky,\nAnd they didn't come back, back, back,\nTill the Fourth of July, ly, ly.",
+      "uso": "In pairs, face to face. Basic pattern: clap your own hands – cross-clap with your partner – own clap – both hands with your partner. Each word said three times gets three beats.",
+      "gramatica": "past simple: asked, jumped, reached, didn't come",
+      "palabras_yle": [
+        "miss",
+        "mary",
+        "all",
+        "in",
+        "black",
+        "with",
+        "silver",
+        "down",
+        "her",
+        "back",
+        "she",
+        "mother",
+        "for",
+        "to",
+        "see",
+        "the",
+        "jump",
+        "over",
+        "they",
+        "so",
+        "high",
+        "sky",
+        "and",
+        "come",
+        "of",
+        "july"
+      ],
+      "yle_por_nivel": {
+        "starters": 17,
+        "movers": 5,
+        "flyers": 4
+      },
+      "nivel_yle": "flyers"
+    },
+    {
+      "id": "sailor-went-to-sea",
+      "tipo": "palmas",
+      "titulo": "A Sailor Went to Sea",
+      "edad": "5+",
+      "letra": "A sailor went to sea, sea, sea,\nTo see what he could see, see, see,\nBut all that he could see, see, see,\nWas the bottom of the deep blue sea, sea, sea.",
+      "uso": "Clapping in pairs; on every 'sea' put a hand to your forehead as if looking far away. Variants: 'went to chop' (chopping gesture), 'went to knee' (touch knee), and finally 'sea, chop, knee' with all three gestures in a row.",
+      "gramatica": "past simple: went, could see · homophones sea/see",
+      "palabras_yle": [
+        "a",
+        "to",
+        "sea",
+        "see",
+        "what",
+        "he",
+        "could",
+        "but",
+        "all",
+        "that",
+        "the",
+        "bottom",
+        "of",
+        "deep",
+        "blue"
+      ],
+      "yle_por_nivel": {
+        "starters": 11,
+        "movers": 3,
+        "flyers": 1
+      },
+      "nivel_yle": "movers"
+    },
+    {
+      "id": "pat-a-cake",
+      "tipo": "palmas",
+      "titulo": "Pat-a-cake",
+      "edad": "3+",
+      "letra": "Pat-a-cake, pat-a-cake, baker's man,\nBake me a cake as fast as you can;\nPat it and prick it and mark it with B,\nPut it in the oven for baby and me.",
+      "uso": "Clap with an adult or a partner; mime 'pat', 'prick' and 'mark'; swap the letter for the child's initial.",
+      "gramatica": "imperatives: bake, pat, prick, mark, put",
+      "palabras_yle": [
+        "pat",
+        "a",
+        "cake",
+        "man",
+        "me",
+        "as",
+        "fast",
+        "you",
+        "can",
+        "it",
+        "and",
+        "mark",
+        "with",
+        "put",
+        "in",
+        "the",
+        "oven",
+        "for",
+        "baby"
+      ],
+      "yle_por_nivel": {
+        "starters": 16,
+        "movers": 0,
+        "flyers": 3
+      },
+      "nivel_yle": "flyers"
+    },
+    {
+      "id": "double-double",
+      "tipo": "palmas",
+      "titulo": "Double, double",
+      "edad": "5+",
+      "letra": "Double, double, this, this,\nDouble, double, that, that,\nDouble this, double that,\nDouble, double, this, that.",
+      "uso": "'Double' = fists against fists; 'this' = palms against palms; 'that' = backs of the hands together. Faster every round.",
+      "gramatica": "this / that",
+      "palabras_yle": [
+        "double",
+        "this",
+        "that"
+      ],
+      "yle_por_nivel": {
+        "starters": 3,
+        "movers": 0,
+        "flyers": 0
+      },
+      "nivel_yle": "starters"
+    },
+    {
+      "id": "down-down-baby",
+      "tipo": "palmas",
+      "titulo": "Down, down, baby",
+      "edad": "6+",
+      "letra": "Down, down, baby, down by the roller coaster,\nSweet, sweet baby, I'll never let you go.\nShimmy, shimmy, cocoa pop, shimmy, shimmy, pow!\nShimmy, shimmy, cocoa pop, shimmy, shimmy, pow!",
+      "nota": "Playground rhyme with countless versions; this is the most common one. First block only.",
+      "uso": "Clapping in pairs with a shoulder shake on 'shimmy'.",
+      "palabras_yle": [
+        "down",
+        "baby",
+        "by",
+        "the",
+        "sweet",
+        "never",
+        "let",
+        "you",
+        "go"
+      ],
+      "yle_por_nivel": {
+        "starters": 5,
+        "movers": 3,
+        "flyers": 1
+      },
+      "nivel_yle": "flyers"
+    },
+    {
+      "id": "teddy-bear",
+      "tipo": "comba",
+      "titulo": "Teddy Bear, Teddy Bear",
+      "edad": "5+",
+      "letra": "Teddy bear, teddy bear, turn around,\nTeddy bear, teddy bear, touch the ground,\nTeddy bear, teddy bear, show your shoe,\nTeddy bear, teddy bear, that will do.\n\nTeddy bear, teddy bear, go upstairs,\nTeddy bear, teddy bear, say your prayers,\nTeddy bear, teddy bear, turn out the light,\nTeddy bear, teddy bear, say good night!",
+      "uso": "While skipping, do each command without stopping. Without a rope it works as an action rhyme (TPR).",
+      "gramatica": "imperatives: turn around, touch, show, go, say",
+      "palabras_yle": [
+        "teddy",
+        "bear",
+        "turn",
+        "around",
+        "touch",
+        "the",
+        "ground",
+        "show",
+        "your",
+        "shoe",
+        "that",
+        "will",
+        "do",
+        "go",
+        "upstairs",
+        "say",
+        "out",
+        "light",
+        "good",
+        "night"
+      ],
+      "yle_por_nivel": {
+        "starters": 12,
+        "movers": 4,
+        "flyers": 4
+      },
+      "nivel_yle": "flyers"
+    },
+    {
+      "id": "cinderella",
+      "tipo": "comba",
+      "titulo": "Cinderella, dressed in yella",
+      "edad": "6+",
+      "letra": "Cinderella, dressed in yella,\nWent upstairs to kiss a fella.\nMade a mistake and kissed a snake.\nHow many doctors did it take?\nOne, two, three, four …",
+      "uso": "Count until the skipper trips on the rope: that number is her score.",
+      "gramatica": "past simple · How many …?",
+      "palabras_yle": [
+        "in",
+        "upstairs",
+        "to",
+        "a",
+        "mistake",
+        "and",
+        "snake",
+        "how",
+        "many",
+        "it",
+        "take",
+        "one"
+      ],
+      "yle_por_nivel": {
+        "starters": 9,
+        "movers": 3,
+        "flyers": 0
+      },
+      "nivel_yle": "movers"
+    },
+    {
+      "id": "i-like-coffee",
+      "tipo": "comba",
+      "titulo": "I like coffee, I like tea",
+      "edad": "5+",
+      "letra": "I like coffee, I like tea,\nI like [Freya] to jump with me!",
+      "uso": "The skipper calls a classmate by name and that child jumps in with her. Great for learning everyone's names.",
+      "gramatica": "I like … · to + infinitive",
+      "palabras_yle": [
+        "i",
+        "like",
+        "coffee",
+        "tea",
+        "to",
+        "jump",
+        "with",
+        "me"
+      ],
+      "yle_por_nivel": {
+        "starters": 6,
+        "movers": 2,
+        "flyers": 0
+      },
+      "nivel_yle": "movers"
+    },
+    {
+      "id": "head-shoulders",
+      "tipo": "gestos",
+      "titulo": "Head, Shoulders, Knees and Toes",
+      "edad": "3+",
+      "letra": "Head, shoulders, knees and toes, knees and toes,\nHead, shoulders, knees and toes, knees and toes,\nAnd eyes and ears and mouth and nose,\nHead, shoulders, knees and toes, knees and toes.",
+      "uso": "Touch each part as you name it; faster every round; then leave words out one by one and only do the gesture.",
+      "gramatica": "parts of the body",
+      "palabras_yle": [
+        "head",
+        "and",
+        "mouth",
+        "nose"
+      ],
+      "yle_por_nivel": {
+        "starters": 4,
+        "movers": 0,
+        "flyers": 0
+      },
+      "nivel_yle": "starters"
+    },
+    {
+      "id": "if-youre-happy",
+      "tipo": "gestos",
+      "titulo": "If You're Happy and You Know It",
+      "edad": "3+",
+      "letra": "If you're happy and you know it, clap your hands. (clap, clap)\nIf you're happy and you know it, clap your hands. (clap, clap)\nIf you're happy and you know it, and you really want to show it,\nIf you're happy and you know it, clap your hands. (clap, clap)",
+      "coda": "… stamp your feet · nod your head · shout 'Hooray!' · do all four.",
+      "gramatica": "If + present · imperatives",
+      "palabras_yle": [
+        "if",
+        "happy",
+        "and",
+        "you",
+        "know",
+        "it",
+        "clap",
+        "your",
+        "really",
+        "want",
+        "to",
+        "show",
+        "stamp",
+        "feet",
+        "head",
+        "shout",
+        "hooray",
+        "do",
+        "all"
+      ],
+      "yle_por_nivel": {
+        "starters": 15,
+        "movers": 2,
+        "flyers": 2
+      },
+      "nivel_yle": "flyers"
+    },
+    {
+      "id": "open-shut-them",
+      "tipo": "gestos",
+      "titulo": "Open, Shut Them",
+      "edad": "3+",
+      "letra": "Open, shut them, open, shut them,\nGive a little clap, clap, clap.\nOpen, shut them, open, shut them,\nPut them in your lap, lap, lap.",
+      "uso": "Open and close both hands; a gentle way to ask for quiet and still hands on the carpet.",
+      "gramatica": "imperatives",
+      "palabras_yle": [
+        "open",
+        "them",
+        "give",
+        "a",
+        "little",
+        "clap",
+        "put",
+        "in",
+        "your"
+      ],
+      "yle_por_nivel": {
+        "starters": 8,
+        "movers": 1,
+        "flyers": 0
+      },
+      "nivel_yle": "movers"
+    },
+    {
+      "id": "two-little-dickie-birds",
+      "tipo": "gestos",
+      "titulo": "Two Little Dickie Birds",
+      "edad": "3+",
+      "letra": "Two little dickie birds sitting on a wall,\nOne named Peter, one named Paul.\nFly away, Peter! Fly away, Paul!\nCome back, Peter! Come back, Paul!",
+      "uso": "Both index fingers are the birds; hide them behind your back on 'fly away' and bring them back on 'come back'. Swap the names for children in the class.",
+      "gramatica": "imperatives: fly away, come back",
+      "palabras_yle": [
+        "little",
+        "on",
+        "a",
+        "wall",
+        "one",
+        "peter",
+        "paul",
+        "fly",
+        "away",
+        "come",
+        "back"
+      ],
+      "yle_por_nivel": {
+        "starters": 6,
+        "movers": 4,
+        "flyers": 1
+      },
+      "nivel_yle": "movers"
+    },
+    {
+      "id": "this-little-piggy",
+      "tipo": "gestos",
+      "titulo": "This Little Piggy",
+      "edad": "2+",
+      "letra": "This little piggy went to market,\nThis little piggy stayed home,\nThis little piggy had roast beef,\nThis little piggy had none,\nAnd this little piggy cried 'Wee, wee, wee!'\nAll the way home.",
+      "uso": "One toe (or finger) per line; tickle on the last one.",
+      "gramatica": "past simple: went, stayed, had, cried",
+      "palabras_yle": [
+        "this",
+        "little",
+        "to",
+        "market",
+        "home",
+        "and",
+        "all",
+        "the",
+        "way"
+      ],
+      "yle_por_nivel": {
+        "starters": 5,
+        "movers": 3,
+        "flyers": 1
+      },
+      "nivel_yle": "flyers"
+    },
+    {
+      "id": "round-the-garden",
+      "tipo": "gestos",
+      "titulo": "Round and Round the Garden",
+      "edad": "2+",
+      "letra": "Round and round the garden,\nLike a teddy bear;\nOne step, two step,\nTickle you under there!",
+      "uso": "Circle a finger on the child's palm, two steps up the arm, and tickle under the arm.",
+      "palabras_yle": [
+        "round",
+        "and",
+        "the",
+        "garden",
+        "like",
+        "a",
+        "teddy",
+        "bear",
+        "one",
+        "step",
+        "you",
+        "under",
+        "there"
+      ],
+      "yle_por_nivel": {
+        "starters": 11,
+        "movers": 1,
+        "flyers": 1
+      },
+      "nivel_yle": "movers"
+    },
+    {
+      "id": "itsy-bitsy-spider",
+      "tipo": "gestos",
+      "titulo": "Itsy Bitsy Spider",
+      "edad": "3+",
+      "letra": "The itsy bitsy spider climbed up the water spout.\nDown came the rain and washed the spider out.\nOut came the sun and dried up all the rain,\nAnd the itsy bitsy spider climbed up the spout again.",
+      "nota": "In the UK: Incy Wincy Spider.",
+      "uso": "Fingers climb (thumb to index finger, alternating), rain falls with wiggling fingers, the sun is a circle with both arms.",
+      "gramatica": "past simple: climbed, came, washed, dried",
+      "palabras_yle": [
+        "the",
+        "spider",
+        "up",
+        "water",
+        "down",
+        "rain",
+        "and",
+        "out",
+        "sun",
+        "all",
+        "again"
+      ],
+      "yle_por_nivel": {
+        "starters": 6,
+        "movers": 5,
+        "flyers": 0
+      },
+      "nivel_yle": "movers"
+    },
+    {
+      "id": "wind-the-bobbin",
+      "tipo": "gestos",
+      "titulo": "Wind the Bobbin Up",
+      "edad": "3+",
+      "letra": "Wind the bobbin up, wind the bobbin up,\nPull, pull, clap, clap, clap.\nWind it back again, wind it back again,\nPull, pull, clap, clap, clap.\n\nPoint to the ceiling, point to the floor,\nPoint to the window, point to the door.\nClap your hands together, one, two, three,\nPut your hands upon your knee.",
+      "uso": "Roll your fists around each other, pull, clap; then point to each thing in the classroom.",
+      "gramatica": "imperatives · ceiling, floor, window, door",
+      "palabras_yle": [
+        "wind",
+        "the",
+        "up",
+        "pull",
+        "clap",
+        "it",
+        "back",
+        "again",
+        "point",
+        "to",
+        "floor",
+        "window",
+        "door",
+        "your",
+        "together",
+        "one",
+        "put",
+        "knee"
+      ],
+      "yle_por_nivel": {
+        "starters": 12,
+        "movers": 3,
+        "flyers": 3
+      },
+      "nivel_yle": "flyers"
+    },
+    {
+      "id": "five-little-ducks",
+      "tipo": "gestos",
+      "titulo": "Five Little Ducks",
+      "edad": "4+",
+      "letra": "Five little ducks went swimming one day,\nOver the hills and far away.\nMother duck said, 'Quack, quack, quack, quack!'\nBut only four little ducks came back.",
+      "coda": "Repeat with four, three, two, one … 'But none of the five little ducks came back.' Last verse: 'Sad mother duck went out one day … and all of the five little ducks came back!'",
+      "uso": "One hand is the ducklings (fold one finger down each round), the other is the mother duck.",
+      "gramatica": "counting down · past simple: went, said, came",
+      "palabras_yle": [
+        "little",
+        "one",
+        "day",
+        "over",
+        "the",
+        "and",
+        "far",
+        "away",
+        "mother",
+        "duck",
+        "but",
+        "only",
+        "back",
+        "repeat",
+        "with",
+        "of",
+        "last",
+        "sad",
+        "out",
+        "all"
+      ],
+      "yle_por_nivel": {
+        "starters": 10,
+        "movers": 6,
+        "flyers": 4
+      },
+      "nivel_yle": "flyers"
+    },
+    {
+      "id": "five-little-monkeys",
+      "tipo": "gestos",
+      "titulo": "Five Little Monkeys",
+      "edad": "4+",
+      "letra": "Five little monkeys jumping on the bed,\nOne fell off and bumped his head.\nMama called the doctor and the doctor said,\n'No more monkeys jumping on the bed!'",
+      "coda": "Repeat with four, three, two, one. Ending: 'No little monkeys jumping on the bed, none fell off and bumped their head …'",
+      "uso": "Five fingers jump on your palm; take one away each round; wag a finger on 'No more monkeys'.",
+      "gramatica": "counting down · No more …!",
+      "palabras_yle": [
+        "little",
+        "on",
+        "the",
+        "bed",
+        "one",
+        "off",
+        "and",
+        "his",
+        "head",
+        "doctor",
+        "no",
+        "more",
+        "repeat",
+        "with",
+        "their"
+      ],
+      "yle_por_nivel": {
+        "starters": 10,
+        "movers": 4,
+        "flyers": 1
+      },
+      "nivel_yle": "movers"
+    },
+    {
+      "id": "ten-in-the-bed",
+      "tipo": "gestos",
+      "titulo": "Ten in the Bed",
+      "edad": "4+",
+      "letra": "There were ten in the bed and the little one said,\n'Roll over, roll over!'\nSo they all rolled over and one fell out.",
+      "coda": "Repeat from nine down to one. Ending: 'There was one in the bed and the little one said, Good night!'",
+      "uso": "Roll your arms on 'roll over'; show the number with your fingers.",
+      "gramatica": "There were … · counting down",
+      "palabras_yle": [
+        "there",
+        "in",
+        "the",
+        "bed",
+        "and",
+        "little",
+        "one",
+        "over",
+        "so",
+        "they",
+        "all",
+        "out",
+        "repeat",
+        "from",
+        "down",
+        "to",
+        "good",
+        "night"
+      ],
+      "yle_por_nivel": {
+        "starters": 12,
+        "movers": 4,
+        "flyers": 2
+      },
+      "nivel_yle": "flyers"
+    },
+    {
+      "id": "twinkle-twinkle",
+      "tipo": "nursery",
+      "titulo": "Twinkle, Twinkle, Little Star",
+      "edad": "2+",
+      "letra": "Twinkle, twinkle, little star,\nHow I wonder what you are!\nUp above the world so high,\nLike a diamond in the sky.\nTwinkle, twinkle, little star,\nHow I wonder what you are!",
+      "nota": "Jane Taylor, 1806. Same tune as the ABC song and Baa, Baa, Black Sheep.",
+      "palabras_yle": [
+        "little",
+        "star",
+        "how",
+        "i",
+        "what",
+        "you",
+        "up",
+        "above",
+        "the",
+        "world",
+        "so",
+        "high",
+        "like",
+        "a",
+        "in",
+        "sky"
+      ],
+      "yle_por_nivel": {
+        "starters": 9,
+        "movers": 6,
+        "flyers": 1
+      },
+      "nivel_yle": "movers"
+    },
+    {
+      "id": "humpty-dumpty",
+      "tipo": "nursery",
+      "titulo": "Humpty Dumpty",
+      "edad": "3+",
+      "letra": "Humpty Dumpty sat on a wall,\nHumpty Dumpty had a great fall.\nAll the king's horses and all the king's men\nCouldn't put Humpty together again.",
+      "gramatica": "past simple: sat, had, couldn't",
+      "palabras_yle": [
+        "on",
+        "a",
+        "wall",
+        "great",
+        "fall",
+        "all",
+        "the",
+        "and",
+        "men",
+        "put",
+        "together",
+        "again"
+      ],
+      "yle_por_nivel": {
+        "starters": 9,
+        "movers": 2,
+        "flyers": 1
+      },
+      "nivel_yle": "movers"
+    },
+    {
+      "id": "hickory-dickory",
+      "tipo": "nursery",
+      "titulo": "Hickory Dickory Dock",
+      "edad": "3+",
+      "letra": "Hickory dickory dock,\nThe mouse ran up the clock.\nThe clock struck one,\nThe mouse ran down,\nHickory dickory dock.",
+      "coda": "Carry on with two (the mouse said 'boo'), three (the mouse said 'whee') … up to twelve.",
+      "gramatica": "telling the time · up / down",
+      "palabras_yle": [
+        "the",
+        "mouse",
+        "up",
+        "clock",
+        "one",
+        "down",
+        "carry",
+        "on",
+        "with",
+        "to"
+      ],
+      "yle_por_nivel": {
+        "starters": 7,
+        "movers": 3,
+        "flyers": 0
+      },
+      "nivel_yle": "movers"
+    },
+    {
+      "id": "hey-diddle-diddle",
+      "tipo": "nursery",
+      "titulo": "Hey Diddle Diddle",
+      "edad": "3+",
+      "letra": "Hey diddle diddle,\nThe cat and the fiddle,\nThe cow jumped over the moon.\nThe little dog laughed to see such fun,\nAnd the dish ran away with the spoon.",
+      "gramatica": "past simple: jumped, laughed, ran away",
+      "palabras_yle": [
+        "the",
+        "cat",
+        "and",
+        "cow",
+        "over",
+        "moon",
+        "little",
+        "dog",
+        "to",
+        "see",
+        "such",
+        "fun",
+        "away",
+        "with",
+        "spoon"
+      ],
+      "yle_por_nivel": {
+        "starters": 9,
+        "movers": 2,
+        "flyers": 4
+      },
+      "nivel_yle": "flyers"
+    },
+    {
+      "id": "jack-and-jill",
+      "tipo": "nursery",
+      "titulo": "Jack and Jill",
+      "edad": "3+",
+      "letra": "Jack and Jill went up the hill\nTo fetch a pail of water.\nJack fell down and broke his crown,\nAnd Jill came tumbling after.",
+      "gramatica": "past simple: went, fell, broke, came",
+      "palabras_yle": [
+        "jack",
+        "and",
+        "jill",
+        "up",
+        "the",
+        "hill",
+        "to",
+        "fetch",
+        "a",
+        "of",
+        "water",
+        "down",
+        "his",
+        "crown",
+        "after"
+      ],
+      "yle_por_nivel": {
+        "starters": 8,
+        "movers": 4,
+        "flyers": 3
+      },
+      "nivel_yle": "flyers"
+    },
+    {
+      "id": "little-miss-muffet",
+      "tipo": "nursery",
+      "titulo": "Little Miss Muffet",
+      "edad": "3+",
+      "letra": "Little Miss Muffet\nSat on a tuffet,\nEating her curds and whey.\nAlong came a spider,\nWho sat down beside her,\nAnd frightened Miss Muffet away.",
+      "palabras_yle": [
+        "little",
+        "miss",
+        "on",
+        "a",
+        "her",
+        "and",
+        "along",
+        "spider",
+        "who",
+        "down",
+        "frightened",
+        "away"
+      ],
+      "yle_por_nivel": {
+        "starters": 7,
+        "movers": 4,
+        "flyers": 1
+      },
+      "nivel_yle": "movers"
+    },
+    {
+      "id": "london-bridge",
+      "tipo": "nursery",
+      "titulo": "London Bridge Is Falling Down",
+      "edad": "4+",
+      "letra": "London Bridge is falling down,\nFalling down, falling down.\nLondon Bridge is falling down,\nMy fair lady.",
+      "coda": "Build it up with wood and clay … / Wood and clay will wash away … / Build it up with iron bars … / Iron bars will bend and break … / Build it up with silver and gold …",
+      "uso": "Two children make a bridge with their arms; the others file underneath and the bridge falls on whoever is passing at 'my fair lady'.",
+      "gramatica": "present continuous: is falling",
+      "palabras_yle": [
+        "london",
+        "bridge",
+        "down",
+        "my",
+        "fair",
+        "build",
+        "it",
+        "up",
+        "with",
+        "wood",
+        "and",
+        "will",
+        "wash",
+        "away",
+        "break",
+        "silver",
+        "gold"
+      ],
+      "yle_por_nivel": {
+        "starters": 4,
+        "movers": 6,
+        "flyers": 7
+      },
+      "nivel_yle": "flyers"
+    },
+    {
+      "id": "mary-had-a-little-lamb",
+      "tipo": "nursery",
+      "titulo": "Mary Had a Little Lamb",
+      "edad": "3+",
+      "letra": "Mary had a little lamb,\nLittle lamb, little lamb,\nMary had a little lamb,\nIts fleece was white as snow.\n\nAnd everywhere that Mary went,\nMary went, Mary went,\nEverywhere that Mary went,\nThe lamb was sure to go.",
+      "nota": "Sarah Josepha Hale, 1830.",
+      "gramatica": "past simple: had, was, went",
+      "palabras_yle": [
+        "mary",
+        "a",
+        "little",
+        "its",
+        "white",
+        "as",
+        "snow",
+        "and",
+        "everywhere",
+        "that",
+        "the",
+        "sure",
+        "to",
+        "go"
+      ],
+      "yle_por_nivel": {
+        "starters": 8,
+        "movers": 3,
+        "flyers": 3
+      },
+      "nivel_yle": "flyers"
+    },
+    {
+      "id": "row-your-boat",
+      "tipo": "nursery",
+      "titulo": "Row, Row, Row Your Boat",
+      "edad": "3+",
+      "letra": "Row, row, row your boat,\nGently down the stream.\nMerrily, merrily, merrily, merrily,\nLife is but a dream.",
+      "uso": "In pairs, sitting face to face holding hands, rowing back and forth. Can be sung as a round.",
+      "gramatica": "imperative: row",
+      "palabras_yle": [
+        "your",
+        "boat",
+        "down",
+        "the",
+        "stream",
+        "but",
+        "a",
+        "dream"
+      ],
+      "yle_por_nivel": {
+        "starters": 5,
+        "movers": 2,
+        "flyers": 1
+      },
+      "nivel_yle": "flyers"
+    },
+    {
+      "id": "rain-rain",
+      "tipo": "nursery",
+      "titulo": "Rain, Rain, Go Away",
+      "edad": "2+",
+      "letra": "Rain, rain, go away,\nCome again another day.\nLittle [Nico] wants to play,\nRain, rain, go away.",
+      "uso": "Put a child's name in the third line.",
+      "gramatica": "imperatives · wants to play",
+      "palabras_yle": [
+        "rain",
+        "go",
+        "away",
+        "come",
+        "again",
+        "another",
+        "day",
+        "little",
+        "to",
+        "play"
+      ],
+      "yle_por_nivel": {
+        "starters": 6,
+        "movers": 3,
+        "flyers": 1
+      },
+      "nivel_yle": "movers"
+    },
+    {
+      "id": "buckle-my-shoe",
+      "tipo": "nursery",
+      "titulo": "One, Two, Buckle My Shoe",
+      "edad": "3+",
+      "letra": "One, two, buckle my shoe;\nThree, four, knock at the door;\nFive, six, pick up sticks;\nSeven, eight, lay them straight;\nNine, ten, a big fat hen.",
+      "gramatica": "numbers 1-10 · rhyming sounds",
+      "palabras_yle": [
+        "one",
+        "my",
+        "shoe",
+        "at",
+        "the",
+        "door",
+        "up",
+        "them",
+        "straight",
+        "a",
+        "big",
+        "fat"
+      ],
+      "yle_por_nivel": {
+        "starters": 9,
+        "movers": 3,
+        "flyers": 0
+      },
+      "nivel_yle": "movers"
+    },
+    {
+      "id": "baa-baa-black-sheep",
+      "tipo": "nursery",
+      "titulo": "Baa, Baa, Black Sheep",
+      "edad": "2+",
+      "letra": "Baa, baa, black sheep,\nHave you any wool?\nYes sir, yes sir,\nThree bags full.\nOne for the master,\nAnd one for the dame,\nAnd one for the little boy\nWho lives down the lane.",
+      "gramatica": "Have you any …? / Yes, sir",
+      "palabras_yle": [
+        "black",
+        "sheep",
+        "have",
+        "you",
+        "any",
+        "wool",
+        "yes",
+        "full",
+        "one",
+        "for",
+        "the",
+        "and",
+        "little",
+        "boy",
+        "who",
+        "down"
+      ],
+      "yle_por_nivel": {
+        "starters": 11,
+        "movers": 3,
+        "flyers": 2
+      },
+      "nivel_yle": "flyers"
+    },
+    {
+      "id": "three-blind-mice",
+      "tipo": "nursery",
+      "titulo": "Three Blind Mice",
+      "edad": "4+",
+      "letra": "Three blind mice, three blind mice,\nSee how they run, see how they run!\nThey all ran after the farmer's wife,\nWho cut off their tails with a carving knife.\nDid you ever see such a thing in your life\nAs three blind mice?",
+      "nota": "Can be sung as a round.",
+      "palabras_yle": [
+        "mice",
+        "see",
+        "how",
+        "they",
+        "run",
+        "all",
+        "after",
+        "the",
+        "wife",
+        "who",
+        "cut",
+        "off",
+        "their",
+        "with",
+        "a",
+        "knife",
+        "you",
+        "ever",
+        "such",
+        "thing",
+        "in",
+        "your",
+        "as"
+      ],
+      "yle_por_nivel": {
+        "starters": 14,
+        "movers": 3,
+        "flyers": 6
+      },
+      "nivel_yle": "flyers"
+    },
+    {
+      "id": "ring-a-ring",
+      "tipo": "nursery",
+      "titulo": "Ring a Ring o' Roses",
+      "edad": "2+",
+      "letra": "Ring-a-ring o' roses,\nA pocket full of posies,\nA-tishoo! A-tishoo!\nWe all fall down.",
+      "uso": "Circle holding hands, walking round; everyone drops to the floor on 'fall down'.",
+      "palabras_yle": [
+        "ring",
+        "a",
+        "pocket",
+        "full",
+        "of",
+        "we",
+        "all",
+        "fall",
+        "down"
+      ],
+      "yle_por_nivel": {
+        "starters": 3,
+        "movers": 3,
+        "flyers": 3
+      },
+      "nivel_yle": "flyers"
+    },
+    {
+      "id": "hot-cross-buns",
+      "tipo": "nursery",
+      "titulo": "Hot Cross Buns",
+      "edad": "3+",
+      "letra": "Hot cross buns! Hot cross buns!\nOne a penny, two a penny,\nHot cross buns!\nIf you have no daughters,\nGive them to your sons,\nOne a penny, two a penny,\nHot cross buns!",
+      "palabras_yle": [
+        "hot",
+        "cross",
+        "one",
+        "a",
+        "if",
+        "you",
+        "have",
+        "no",
+        "give",
+        "them",
+        "to",
+        "your"
+      ],
+      "yle_por_nivel": {
+        "starters": 10,
+        "movers": 1,
+        "flyers": 1
+      },
+      "nivel_yle": "movers"
+    },
+    {
+      "id": "old-macdonald",
+      "tipo": "nursery",
+      "titulo": "Old MacDonald Had a Farm",
+      "edad": "3+",
+      "letra": "Old MacDonald had a farm, E-I-E-I-O!\nAnd on that farm he had a cow, E-I-E-I-O!\nWith a moo-moo here and a moo-moo there,\nHere a moo, there a moo, everywhere a moo-moo,\nOld MacDonald had a farm, E-I-E-I-O!",
+      "coda": "Repeat with pig (oink), duck (quack), sheep (baa), horse (neigh), dog (woof), chicken (cluck) … adding up the sounds.",
+      "gramatica": "farm animals · here / there / everywhere",
+      "palabras_yle": [
+        "old",
+        "a",
+        "farm",
+        "i",
+        "and",
+        "on",
+        "that",
+        "he",
+        "cow",
+        "with",
+        "here",
+        "there",
+        "everywhere",
+        "repeat",
+        "duck",
+        "sheep",
+        "horse",
+        "dog",
+        "chicken",
+        "up",
+        "the"
+      ],
+      "yle_por_nivel": {
+        "starters": 17,
+        "movers": 2,
+        "flyers": 2
+      },
+      "nivel_yle": "movers"
+    },
+    {
+      "id": "little-bo-peep",
+      "tipo": "nursery",
+      "titulo": "Little Bo Peep",
+      "edad": "4+",
+      "letra": "Little Bo Peep has lost her sheep,\nAnd doesn't know where to find them.\nLeave them alone, and they'll come home,\nWagging their tails behind them.",
+      "gramatica": "present perfect: has lost · they'll come",
+      "palabras_yle": [
+        "little",
+        "her",
+        "sheep",
+        "and",
+        "know",
+        "where",
+        "to",
+        "find",
+        "them",
+        "leave",
+        "alone",
+        "come",
+        "home",
+        "their",
+        "behind"
+      ],
+      "yle_por_nivel": {
+        "starters": 12,
+        "movers": 1,
+        "flyers": 2
+      },
+      "nivel_yle": "flyers"
+    },
+    {
+      "id": "polly-kettle",
+      "tipo": "nursery",
+      "titulo": "Polly Put the Kettle On",
+      "edad": "3+",
+      "letra": "Polly put the kettle on,\nPolly put the kettle on,\nPolly put the kettle on,\nWe'll all have tea.\n\nSukey take it off again,\nSukey take it off again,\nSukey take it off again,\nThey've all gone away.",
+      "gramatica": "put on / take off",
+      "palabras_yle": [
+        "put",
+        "the",
+        "on",
+        "all",
+        "have",
+        "tea",
+        "take",
+        "it",
+        "off",
+        "again",
+        "away"
+      ],
+      "yle_por_nivel": {
+        "starters": 6,
+        "movers": 4,
+        "flyers": 1
+      },
+      "nivel_yle": "movers"
+    },
+    {
+      "id": "pease-porridge",
+      "tipo": "nursery",
+      "titulo": "Pease Porridge Hot",
+      "edad": "3+",
+      "letra": "Pease porridge hot,\nPease porridge cold,\nPease porridge in the pot,\nNine days old.\n\nSome like it hot,\nSome like it cold,\nSome like it in the pot,\nNine days old.",
+      "uso": "Also a clapping game: own hands – knees – partner's hands.",
+      "gramatica": "hot / cold · Some like it …",
+      "palabras_yle": [
+        "hot",
+        "cold",
+        "in",
+        "the",
+        "old",
+        "some",
+        "like",
+        "it"
+      ],
+      "yle_por_nivel": {
+        "starters": 6,
+        "movers": 2,
+        "flyers": 0
+      },
+      "nivel_yle": "movers"
+    },
+    {
+      "id": "star-light",
+      "tipo": "nursery",
+      "titulo": "Star Light, Star Bright",
+      "edad": "3+",
+      "letra": "Star light, star bright,\nFirst star I see tonight,\nI wish I may, I wish I might,\nHave the wish I wish tonight.",
+      "gramatica": "I wish …",
+      "palabras_yle": [
+        "star",
+        "light",
+        "first",
+        "i",
+        "see",
+        "tonight",
+        "wish",
+        "may",
+        "might",
+        "have",
+        "the"
+      ],
+      "yle_por_nivel": {
+        "starters": 5,
+        "movers": 2,
+        "flyers": 4
+      },
+      "nivel_yle": "flyers"
+    },
+    {
+      "id": "jack-be-nimble",
+      "tipo": "nursery",
+      "titulo": "Jack Be Nimble",
+      "edad": "3+",
+      "letra": "Jack be nimble,\nJack be quick,\nJack jump over\nThe candlestick.",
+      "uso": "Jump over an object on the floor on 'jump over'.",
+      "gramatica": "imperatives · adjectives",
+      "palabras_yle": [
+        "jack",
+        "be",
+        "quick",
+        "jump",
+        "over",
+        "the"
+      ],
+      "yle_por_nivel": {
+        "starters": 3,
+        "movers": 2,
+        "flyers": 1
+      },
+      "nivel_yle": "flyers"
+    },
+    {
+      "id": "little-jack-horner",
+      "tipo": "nursery",
+      "titulo": "Little Jack Horner",
+      "edad": "4+",
+      "letra": "Little Jack Horner\nSat in the corner,\nEating a Christmas pie;\nHe put in his thumb,\nAnd pulled out a plum,\nAnd said, 'What a good boy am I!'",
+      "palabras_yle": [
+        "little",
+        "jack",
+        "in",
+        "the",
+        "corner",
+        "a",
+        "pie",
+        "he",
+        "put",
+        "his",
+        "and",
+        "out",
+        "what",
+        "good",
+        "boy",
+        "i"
+      ],
+      "yle_por_nivel": {
+        "starters": 12,
+        "movers": 3,
+        "flyers": 1
+      },
+      "nivel_yle": "movers"
+    },
+    {
+      "id": "rub-a-dub-dub",
+      "tipo": "nursery",
+      "titulo": "Rub-a-dub-dub",
+      "edad": "4+",
+      "letra": "Rub-a-dub-dub,\nThree men in a tub,\nAnd who do you think they be?\nThe butcher, the baker,\nThe candlestick-maker,\nTurn them out, knaves all three.",
+      "gramatica": "jobs",
+      "palabras_yle": [
+        "a",
+        "men",
+        "in",
+        "and",
+        "who",
+        "do",
+        "you",
+        "think",
+        "they",
+        "be",
+        "the",
+        "turn",
+        "them",
+        "out",
+        "all"
+      ],
+      "yle_por_nivel": {
+        "starters": 11,
+        "movers": 3,
+        "flyers": 1
+      },
+      "nivel_yle": "movers"
+    },
+    {
+      "id": "hush-little-baby",
+      "tipo": "nursery",
+      "titulo": "Hush, Little Baby",
+      "edad": "2+",
+      "letra": "Hush, little baby, don't say a word,\nMama's gonna buy you a mockingbird.\nAnd if that mockingbird won't sing,\nMama's gonna buy you a diamond ring.",
+      "nota": "Traditional lullaby; it goes on as a chain (diamond ring → looking glass → billy goat …).",
+      "gramatica": "going to · if … won't",
+      "palabras_yle": [
+        "little",
+        "baby",
+        "say",
+        "a",
+        "word",
+        "buy",
+        "you",
+        "and",
+        "if",
+        "that",
+        "sing",
+        "ring"
+      ],
+      "yle_por_nivel": {
+        "starters": 8,
+        "movers": 2,
+        "flyers": 2
+      },
+      "nivel_yle": "flyers"
+    },
+    {
+      "id": "rock-a-bye",
+      "tipo": "nursery",
+      "titulo": "Rock-a-bye Baby",
+      "edad": "2+",
+      "letra": "Rock-a-bye baby, on the tree top,\nWhen the wind blows, the cradle will rock.\nWhen the bough breaks, the cradle will fall,\nAnd down will come baby, cradle and all.",
+      "gramatica": "When + present, will",
+      "palabras_yle": [
+        "rock",
+        "a",
+        "bye",
+        "baby",
+        "on",
+        "the",
+        "tree",
+        "top",
+        "when",
+        "wind",
+        "will",
+        "fall",
+        "and",
+        "down",
+        "come",
+        "all"
+      ],
+      "yle_por_nivel": {
+        "starters": 8,
+        "movers": 7,
+        "flyers": 1
+      },
+      "nivel_yle": "movers"
+    },
+    {
+      "id": "wheels-on-the-bus",
+      "tipo": "gestos",
+      "titulo": "The Wheels on the Bus",
+      "edad": "3+",
+      "letra": "The wheels on the bus go round and round …",
+      "nota": "Verna Hills, 1939. Lyrics under copyright, not included. Pattern: wheels (round and round), wipers (swish), horn (beep), doors (open and shut), people (up and down), babies (wah), mummies (shh).",
+      "uso": "Each verse has its gesture; the children suggest new parts of the bus.",
+      "palabras_yle": [
+        "the",
+        "on",
+        "bus",
+        "go",
+        "round",
+        "and"
+      ],
+      "yle_por_nivel": {
+        "starters": 5,
+        "movers": 1,
+        "flyers": 0
+      },
+      "nivel_yle": "movers"
+    },
+    {
+      "id": "little-teapot",
+      "tipo": "gestos",
+      "titulo": "I'm a Little Teapot",
+      "edad": "3+",
+      "letra": "I'm a little teapot, short and stout …",
+      "nota": "Kelley and Sanders, 1939. Lyrics under copyright, not included.",
+      "uso": "One arm on the hip (the handle), the other is the spout; tip over on 'tip me over'.",
+      "palabras_yle": [
+        "a",
+        "little",
+        "short",
+        "and"
+      ],
+      "yle_por_nivel": {
+        "starters": 3,
+        "movers": 1,
+        "flyers": 0
+      },
+      "nivel_yle": "movers"
+    }
+  ],
+  "vocabulario": {
+    "primeras_100": {
+      "people_family": [
+        {
+          "palabra": "I",
+          "yle": "starters"
+        },
+        {
+          "palabra": "you",
+          "yle": "starters"
+        },
+        {
+          "palabra": "he",
+          "yle": "starters"
+        },
+        {
+          "palabra": "she",
+          "yle": "starters"
+        },
+        {
+          "palabra": "we",
+          "yle": "starters"
+        },
+        {
+          "palabra": "they",
+          "yle": "starters"
+        },
+        {
+          "palabra": "mom",
+          "yle": null
+        },
+        {
+          "palabra": "dad",
+          "yle": "starters"
+        },
+        {
+          "palabra": "friend",
+          "yle": "starters"
+        },
+        {
+          "palabra": "teacher",
+          "yle": "starters"
+        }
+      ],
+      "home_school": [
+        {
+          "palabra": "home",
+          "yle": "starters"
+        },
+        {
+          "palabra": "school",
+          "yle": "starters"
+        },
+        {
+          "palabra": "room",
+          "yle": "starters"
+        },
+        {
+          "palabra": "door",
+          "yle": "starters"
+        },
+        {
+          "palabra": "window",
+          "yle": "starters"
+        },
+        {
+          "palabra": "chair",
+          "yle": "starters"
+        },
+        {
+          "palabra": "table",
+          "yle": "starters"
+        },
+        {
+          "palabra": "book",
+          "yle": "starters"
+        },
+        {
+          "palabra": "pencil",
+          "yle": "starters"
+        },
+        {
+          "palabra": "bag",
+          "yle": "starters"
+        }
+      ],
+      "food_drink": [
+        {
+          "palabra": "water",
+          "yle": "starters"
+        },
+        {
+          "palabra": "milk",
+          "yle": "starters"
+        },
+        {
+          "palabra": "bread",
+          "yle": "starters"
+        },
+        {
+          "palabra": "apple",
+          "yle": "starters"
+        },
+        {
+          "palabra": "banana",
+          "yle": "starters"
+        },
+        {
+          "palabra": "rice",
+          "yle": "starters"
+        },
+        {
+          "palabra": "egg",
+          "yle": "starters"
+        },
+        {
+          "palabra": "soup",
+          "yle": "movers"
+        },
+        {
+          "palabra": "juice",
+          "yle": "starters"
+        },
+        {
+          "palabra": "cookie",
+          "yle": "flyers"
+        }
+      ],
+      "animals": [
+        {
+          "palabra": "dog",
+          "yle": "starters"
+        },
+        {
+          "palabra": "cat",
+          "yle": "starters"
+        },
+        {
+          "palabra": "bird",
+          "yle": "starters"
+        },
+        {
+          "palabra": "fish",
+          "yle": "starters"
+        },
+        {
+          "palabra": "horse",
+          "yle": "starters"
+        },
+        {
+          "palabra": "cow",
+          "yle": "starters"
+        },
+        {
+          "palabra": "sheep",
+          "yle": "starters"
+        },
+        {
+          "palabra": "duck",
+          "yle": "starters"
+        },
+        {
+          "palabra": "lion",
+          "yle": "movers"
+        },
+        {
+          "palabra": "rabbit",
+          "yle": "movers"
+        }
+      ],
+      "colours_size": [
+        {
+          "palabra": "red",
+          "yle": "starters"
+        },
+        {
+          "palabra": "blue",
+          "yle": "starters"
+        },
+        {
+          "palabra": "green",
+          "yle": "starters"
+        },
+        {
+          "palabra": "yellow",
+          "yle": "starters"
+        },
+        {
+          "palabra": "black",
+          "yle": "starters"
+        },
+        {
+          "palabra": "white",
+          "yle": "starters"
+        },
+        {
+          "palabra": "big",
+          "yle": "starters"
+        },
+        {
+          "palabra": "small",
+          "yle": "starters"
+        },
+        {
+          "palabra": "long",
+          "yle": "starters"
+        },
+        {
+          "palabra": "short",
+          "yle": "starters"
+        }
+      ],
+      "actions": [
+        {
+          "palabra": "go",
+          "yle": "starters"
+        },
+        {
+          "palabra": "come",
+          "yle": "starters"
+        },
+        {
+          "palabra": "eat",
+          "yle": "starters"
+        },
+        {
+          "palabra": "drink",
+          "yle": "starters"
+        },
+        {
+          "palabra": "play",
+          "yle": "starters"
+        },
+        {
+          "palabra": "read",
+          "yle": "starters"
+        },
+        {
+          "palabra": "write",
+          "yle": "starters"
+        },
+        {
+          "palabra": "draw",
+          "yle": "starters"
+        },
+        {
+          "palabra": "run",
+          "yle": "starters"
+        },
+        {
+          "palabra": "jump",
+          "yle": "starters"
+        }
+      ],
+      "feelings_needs": [
+        {
+          "palabra": "happy",
+          "yle": "starters"
+        },
+        {
+          "palabra": "sad",
+          "yle": "starters"
+        },
+        {
+          "palabra": "tired",
+          "yle": "movers"
+        },
+        {
+          "palabra": "hungry",
+          "yle": "movers"
+        },
+        {
+          "palabra": "thirsty",
+          "yle": "movers"
+        },
+        {
+          "palabra": "sick",
+          "yle": "movers"
+        },
+        {
+          "palabra": "good",
+          "yle": "starters"
+        },
+        {
+          "palabra": "bad",
+          "yle": "movers"
+        },
+        {
+          "palabra": "please",
+          "yle": "starters"
+        },
+        {
+          "palabra": "sorry",
+          "yle": "starters"
+        }
+      ],
+      "daily_routine": [
+        {
+          "palabra": "wake",
+          "yle": "movers"
+        },
+        {
+          "palabra": "sleep",
+          "yle": "starters"
+        },
+        {
+          "palabra": "wash",
+          "yle": "movers"
+        },
+        {
+          "palabra": "brush",
+          "yle": "flyers"
+        },
+        {
+          "palabra": "dress",
+          "yle": "starters"
+        },
+        {
+          "palabra": "open",
+          "yle": "starters"
+        },
+        {
+          "palabra": "close",
+          "yle": "starters"
+        },
+        {
+          "palabra": "sit",
+          "yle": "starters"
+        },
+        {
+          "palabra": "stand",
+          "yle": "starters"
+        },
+        {
+          "palabra": "listen",
+          "yle": "starters"
+        }
+      ],
+      "places_nature": [
+        {
+          "palabra": "park",
+          "yle": "starters"
+        },
+        {
+          "palabra": "street",
+          "yle": "starters"
+        },
+        {
+          "palabra": "car",
+          "yle": "starters"
+        },
+        {
+          "palabra": "bus",
+          "yle": "starters"
+        },
+        {
+          "palabra": "tree",
+          "yle": "starters"
+        },
+        {
+          "palabra": "flower",
+          "yle": "starters"
+        },
+        {
+          "palabra": "sun",
+          "yle": "starters"
+        },
+        {
+          "palabra": "rain",
+          "yle": "movers"
+        },
+        {
+          "palabra": "sky",
+          "yle": "movers"
+        },
+        {
+          "palabra": "beach",
+          "yle": "starters"
+        }
+      ],
+      "function_words": [
+        {
+          "palabra": "the",
+          "yle": "starters"
+        },
+        {
+          "palabra": "a",
+          "yle": "starters"
+        },
+        {
+          "palabra": "and",
+          "yle": "starters"
+        },
+        {
+          "palabra": "or",
+          "yle": "starters"
+        },
+        {
+          "palabra": "in",
+          "yle": "starters"
+        },
+        {
+          "palabra": "on",
+          "yle": "starters"
+        },
+        {
+          "palabra": "under",
+          "yle": "starters"
+        },
+        {
+          "palabra": "with",
+          "yle": "starters"
+        },
+        {
+          "palabra": "from",
+          "yle": "starters"
+        },
+        {
+          "palabra": "to",
+          "yle": "starters"
+        }
+      ]
+    },
+    "dolch_pre_primer": [
+      {
+        "palabra": "a",
+        "yle": "starters"
+      },
+      {
+        "palabra": "and",
+        "yle": "starters"
+      },
+      {
+        "palabra": "away",
+        "yle": "flyers"
+      },
+      {
+        "palabra": "big",
+        "yle": "starters"
+      },
+      {
+        "palabra": "blue",
+        "yle": "starters"
+      },
+      {
+        "palabra": "can",
+        "yle": "starters"
+      },
+      {
+        "palabra": "come",
+        "yle": "starters"
+      },
+      {
+        "palabra": "down",
+        "yle": "movers"
+      },
+      {
+        "palabra": "find",
+        "yle": "starters"
+      },
+      {
+        "palabra": "for",
+        "yle": "starters"
+      },
+      {
+        "palabra": "funny",
+        "yle": "starters"
+      },
+      {
+        "palabra": "go",
+        "yle": "starters"
+      },
+      {
+        "palabra": "help",
+        "yle": "movers"
+      },
+      {
+        "palabra": "here",
+        "yle": "starters"
+      },
+      {
+        "palabra": "I",
+        "yle": "starters"
+      },
+      {
+        "palabra": "in",
+        "yle": "starters"
+      },
+      {
+        "palabra": "is",
+        "yle": null
+      },
+      {
+        "palabra": "it",
+        "yle": "starters"
+      },
+      {
+        "palabra": "jump",
+        "yle": "starters"
+      },
+      {
+        "palabra": "little",
+        "yle": "movers"
+      },
+      {
+        "palabra": "look",
+        "yle": "starters"
+      },
+      {
+        "palabra": "make",
+        "yle": "starters"
+      },
+      {
+        "palabra": "me",
+        "yle": "starters"
+      },
+      {
+        "palabra": "my",
+        "yle": "starters"
+      },
+      {
+        "palabra": "not",
+        "yle": "starters"
+      },
+      {
+        "palabra": "one",
+        "yle": "starters"
+      },
+      {
+        "palabra": "play",
+        "yle": "starters"
+      },
+      {
+        "palabra": "red",
+        "yle": "starters"
+      },
+      {
+        "palabra": "run",
+        "yle": "starters"
+      },
+      {
+        "palabra": "said",
+        "yle": null
+      },
+      {
+        "palabra": "see",
+        "yle": "starters"
+      },
+      {
+        "palabra": "the",
+        "yle": "starters"
+      },
+      {
+        "palabra": "three",
+        "yle": null
+      },
+      {
+        "palabra": "to",
+        "yle": "starters"
+      },
+      {
+        "palabra": "two",
+        "yle": null
+      },
+      {
+        "palabra": "up",
+        "yle": "movers"
+      },
+      {
+        "palabra": "we",
+        "yle": "starters"
+      },
+      {
+        "palabra": "where",
+        "yle": "starters"
+      },
+      {
+        "palabra": "yellow",
+        "yle": "starters"
+      },
+      {
+        "palabra": "you",
+        "yle": "starters"
+      }
+    ],
+    "dolch_primer": [
+      {
+        "palabra": "all",
+        "yle": "movers"
+      },
+      {
+        "palabra": "am",
+        "yle": null
+      },
+      {
+        "palabra": "are",
+        "yle": null
+      },
+      {
+        "palabra": "at",
+        "yle": "starters"
+      },
+      {
+        "palabra": "ate",
+        "yle": null
+      },
+      {
+        "palabra": "be",
+        "yle": "starters"
+      },
+      {
+        "palabra": "black",
+        "yle": "starters"
+      },
+      {
+        "palabra": "brown",
+        "yle": "starters"
+      },
+      {
+        "palabra": "but",
+        "yle": "starters"
+      },
+      {
+        "palabra": "came",
+        "yle": null
+      },
+      {
+        "palabra": "did",
+        "yle": null
+      },
+      {
+        "palabra": "do",
+        "yle": "starters"
+      },
+      {
+        "palabra": "eat",
+        "yle": "starters"
+      },
+      {
+        "palabra": "four",
+        "yle": null
+      },
+      {
+        "palabra": "get",
+        "yle": "starters"
+      },
+      {
+        "palabra": "good",
+        "yle": "starters"
+      },
+      {
+        "palabra": "have",
+        "yle": "starters"
+      },
+      {
+        "palabra": "he",
+        "yle": "starters"
+      },
+      {
+        "palabra": "into",
+        "yle": "movers"
+      },
+      {
+        "palabra": "like",
+        "yle": "starters"
+      },
+      {
+        "palabra": "must",
+        "yle": "movers"
+      },
+      {
+        "palabra": "new",
+        "yle": "starters"
+      },
+      {
+        "palabra": "no",
+        "yle": "starters"
+      },
+      {
+        "palabra": "now",
+        "yle": "starters"
+      },
+      {
+        "palabra": "on",
+        "yle": "starters"
+      },
+      {
+        "palabra": "our",
+        "yle": "starters"
+      },
+      {
+        "palabra": "out",
+        "yle": "movers"
+      },
+      {
+        "palabra": "please",
+        "yle": "starters"
+      },
+      {
+        "palabra": "pretty",
+        "yle": "movers"
+      },
+      {
+        "palabra": "ran",
+        "yle": null
+      },
+      {
+        "palabra": "ride",
+        "yle": "starters"
+      },
+      {
+        "palabra": "saw",
+        "yle": null
+      },
+      {
+        "palabra": "say",
+        "yle": "starters"
+      },
+      {
+        "palabra": "she",
+        "yle": "starters"
+      },
+      {
+        "palabra": "so",
+        "yle": "starters"
+      },
+      {
+        "palabra": "soon",
+        "yle": "flyers"
+      },
+      {
+        "palabra": "that",
+        "yle": "starters"
+      },
+      {
+        "palabra": "there",
+        "yle": "starters"
+      },
+      {
+        "palabra": "they",
+        "yle": "starters"
+      },
+      {
+        "palabra": "this",
+        "yle": "starters"
+      },
+      {
+        "palabra": "too",
+        "yle": "starters"
+      },
+      {
+        "palabra": "under",
+        "yle": "starters"
+      },
+      {
+        "palabra": "want",
+        "yle": "starters"
+      },
+      {
+        "palabra": "was",
+        "yle": null
+      },
+      {
+        "palabra": "well",
+        "yle": "starters"
+      },
+      {
+        "palabra": "went",
+        "yle": null
+      },
+      {
+        "palabra": "what",
+        "yle": "starters"
+      },
+      {
+        "palabra": "white",
+        "yle": "starters"
+      },
+      {
+        "palabra": "who",
+        "yle": "starters"
+      },
+      {
+        "palabra": "will",
+        "yle": "flyers"
+      },
+      {
+        "palabra": "with",
+        "yle": "starters"
+      },
+      {
+        "palabra": "yes",
+        "yle": "starters"
+      }
+    ]
+  },
+  "frases": {
+    "greetings": [
+      "Hello! How are you?",
+      "I'm fine, thank you. And you?",
+      "My name is …. What's your name?",
+      "Nice to meet you.",
+      "Good morning! / Good afternoon!",
+      "Goodbye! See you tomorrow."
+    ],
+    "classroom": [
+      "May I go to the bathroom?",
+      "I don't understand.",
+      "Can you repeat that, please?",
+      "How do you say … in English?",
+      "I forgot my pencil.",
+      "I know the answer!",
+      "Can I have a rubber, please?",
+      "I've finished.",
+      "Please open your book.",
+      "Let's read aloud."
+    ],
+    "playground": [
+      "Do you want to play?",
+      "Can I play too?",
+      "Your turn!",
+      "My turn!",
+      "I'm it!",
+      "Let's make a team.",
+      "You're out!",
+      "That's not fair.",
+      "Good game!",
+      "Let's play again."
+    ],
+    "needs_feelings": [
+      "I'm hungry.",
+      "I'm thirsty.",
+      "I want some water, please.",
+      "I'm tired.",
+      "I feel sick.",
+      "Can I have …, please?",
+      "Excuse me.",
+      "I'm sorry.",
+      "Thank you very much.",
+      "You're welcome."
+    ],
+    "home": [
+      "It's time for bed.",
+      "Wash your hands.",
+      "Brush your teeth.",
+      "Put on your shoes.",
+      "Switch off the light.",
+      "Shut the door, please.",
+      "What's for lunch?",
+      "Can I watch TV?"
+    ]
+  }
+}
