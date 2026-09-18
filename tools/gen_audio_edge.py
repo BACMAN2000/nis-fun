@@ -14,6 +14,7 @@ Edge TTS es gratis y sin limite, asi que se graba todo:
   stories/      la historia de apertura de cada unidad
   bubbles/      lo que dice el personaje en su bocadillo
   acts/         la instruccion que lee la mascota en cada actividad
+  grammar/      los ejemplos de grammar_box y la clase de la caja magica
   readers/      las frases de los cuentos de Nordic Little Readers
 
 El nombre del archivo se saca del propio texto, con el mismo criterio que
@@ -99,6 +100,16 @@ def trabajos(filtro):
                     t = e.get("text") if isinstance(e, dict) else e
                     if t:
                         anade("grammar", t, VOZ_GUIA, r)
+
+    # La clase de la caja magica: lo que dice la mascota en cada familia
+    # (gancho, pasos, regla, truco y reto). Vive en engine/magicbox.js y lo
+    # saca node, para no tener la lista dos veces.
+    if not filtro or "magicbox" in filtro:
+        import subprocess
+        salida = subprocess.run(["node", os.path.join(ROOT, "tools", "magicbox_lineas.js")],
+                                capture_output=True, text=True, encoding="utf-8")
+        for t in json.loads(salida.stdout):
+            anade("grammar", t, VOZ_GUIA, "-12%")
 
     if not filtro or "readers" in filtro:
         for f in sorted(glob.glob(os.path.join(READERS, "data", "g*.json"))):
