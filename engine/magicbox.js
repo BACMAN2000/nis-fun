@@ -1457,18 +1457,25 @@ window.MAGICBOX = (function () {
     </svg></div>`;
   }
 
+  /* SAY es un const del script de index.html: se ve por su nombre desde
+     aqui, pero NO existe window.SAY (por eso las tarjetas nunca sonaron).
+     Se resuelve al usarlo, porque este archivo carga antes que ese script. */
+  const say = () => (typeof SAY !== 'undefined' ? SAY : window.SAY) || null;
+
   /* ---------- hablar y esperar ----------
      SAY.frase no devuelve nada, asi que se espera a que el boton pierda
      la clase .saying (y a que la voz del navegador termine si fue ella).
      Aunque no suene nada, cada linea se queda en pantalla el tiempo de
      leerla: la clase funciona igual con el sonido apagado. */
   const espera = ms => new Promise(r => setTimeout(r, ms));
-  function habla(t, btn) {
+  function habla(t, btn, vivo) {
     return new Promise(res => {
       const t0 = Date.now(), minimo = t0 + 900 + t.length * 42;
-      if (!window.SAY || !btn) return setTimeout(res, minimo - t0);
-      SAY.frase(t, btn, 'grammar');
+      const S = say();
+      if (!S || !btn) return setTimeout(res, minimo - t0);
+      S.frase(t, btn, 'grammar');
       const tick = () => {
+        if (vivo && !vivo()) { S.parar(); return res(); }   // cambio de pantalla a media frase
         const suena = btn.classList.contains('saying') || (window.speechSynthesis && speechSynthesis.speaking);
         if ((suena && Date.now() < t0 + 25000) || Date.now() < minimo) return setTimeout(tick, 120);
         res();
@@ -1537,7 +1544,7 @@ window.MAGICBOX = (function () {
         // la mascota dice la linea: se lee en el bocadillo y Listen la repite
         const dice = t => {
           if (bocaP) bocaP.textContent = t;
-          if (bocaBtn) bocaBtn.onclick = () => { parar(); if (window.SAY) SAY.frase(t, bocaBtn, 'grammar'); };
+          if (bocaBtn) bocaBtn.onclick = () => { parar(); if (say()) say().frase(t, bocaBtn, 'grammar'); };
         };
         const foco = k => {
           tarjetas.forEach((b, i) => b.classList.toggle('on', k === i));
@@ -1559,7 +1566,7 @@ window.MAGICBOX = (function () {
             foco(linea.foco);
             dice(linea.t);
             guia && guia.classList.add('mb-habla');
-            await habla(linea.t, bocaBtn);
+            await habla(linea.t, bocaBtn, vivo);
             guia && guia.classList.remove('mb-habla');
             if (!estado.viva || estado.id !== id) return;
             const otro = document.querySelector('.saying');
@@ -1572,16 +1579,16 @@ window.MAGICBOX = (function () {
           setTimeout(() => { if (vivo() && !estado.respondido && !estado.viva) raiz.querySelectorAll('.mb-op').forEach(o => o.classList.add('pide')); }, 9000);
         }
 
-        if (ver) ver.onclick = () => { if (estado.viva) { parar(); if (window.SAY) SAY.parar(); } else clase(); };
+        if (ver) ver.onclick = () => { if (estado.viva) { parar(); if (say()) say().parar(); } else clase(); };
 
         tarjetas.forEach(b => b.onclick = () => {
           parar();
           const i = +b.dataset.i, p = f.pasos[i], t = conClase ? habla_de(p) : frase(p).texto;
           foco(i); dice(t);
-          if (window.SAY) SAY.frase(t, bocaBtn || b, 'grammar');
+          if (say()) say().frase(t, bocaBtn || b, 'grammar');
         });
-        if (regla) regla.onclick = () => { parar(); foco('regla'); dice(f.pie); if (window.SAY) SAY.frase(f.pie, bocaBtn || regla, 'grammar'); };
-        if (truco) truco.onclick = () => { parar(); foco('truco'); dice(f.truco); if (window.SAY) SAY.frase(f.truco, bocaBtn || truco, 'grammar'); };
+        if (regla) regla.onclick = () => { parar(); foco('regla'); dice(f.pie); if (say()) say().frase(f.pie, bocaBtn || regla, 'grammar'); };
+        if (truco) truco.onclick = () => { parar(); foco('truco'); dice(f.truco); if (say()) say().frase(f.truco, bocaBtn || truco, 'grammar'); };
 
         if (f.reto) {
           const eco = raiz.querySelector('.mb-eco');
@@ -1594,7 +1601,7 @@ window.MAGICBOX = (function () {
             const t = bien ? (f.reto.explica || '') : (f.reto.pista || '');
             eco.textContent = (bien ? T('Yes! ⭐', 'Oui ! ⭐') : T('Try another one…', 'Essaie encore…')) + (t ? ' ' + t : '');
             eco.style.color = bien ? '' : 'var(--bad)';
-            if (t) { dice(t); if (window.SAY) SAY.frase(t, bocaBtn || b, 'grammar'); }
+            if (t) { dice(t); if (say()) say().frase(t, bocaBtn || b, 'grammar'); }
             if (bien) { estado.respondido = true; raiz.querySelectorAll('.mb-op').forEach(o => o.disabled = true); confeti(retoEl); }
           });
         }

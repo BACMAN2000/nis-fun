@@ -23,7 +23,8 @@ window.SCREENS = (function () {
 
     // lo que estuviera sonando se corta aqui: la historia seguia oyendose
     // encima de la actividad siguiente
-    if (window.SAY && SAY.parar) SAY.parar();
+    // SAY es un const del script de index.html: existe por su nombre, no como window.SAY
+    if (typeof SAY !== 'undefined' && SAY.parar) SAY.parar();
     if (window.speechSynthesis) { try { speechSynthesis.cancel(); } catch(e){} }
     cont.querySelectorAll('audio, video').forEach(m => { try { m.pause(); } catch(e){} });
 
