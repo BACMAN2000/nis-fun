@@ -1,0 +1,64 @@
+[
+  {
+    "start": 1.0600000000000003,
+    "end": 2.86,
+    "text": " It's my toy box.",
+    "words": [
+      {
+        "start": 1.0600000000000003,
+        "end": 1.82,
+        "word": " It's",
+        "probability": 0.9078712463378906
+      },
+      {
+        "start": 1.82,
+        "end": 2.0,
+        "word": " my",
+        "probability": 0.9865145087242126
+      },
+      {
+        "start": 2.0,
+        "end": 2.3,
+        "word": " toy",
+        "probability": 0.9601117968559265
+      },
+      {
+        "start": 2.3,
+        "end": 2.86,
+        "word": " box.",
+        "probability": 0.9613211154937744
+      }
+    ]
+  },
+  {
+    "start": 3.4,
+    "end": 5.66,
+    "text": " It's my toy box.",
+    "words": [
+      {
+        "start": 3.4,
+        "end": 4.16,
+        "word": " It's",
+        "probability": 0.994828075170517
+      },
+      {
+        "start": 4.16,
+        "end": 4.4,
+        "word": " my",
+        "probability": 0.9991211295127869
+      },
+      {
+        "start": 4.4,
+        "end": 4.78,
+        "word": " toy",
+        "probability": 0.9862289428710938
+      },
+      {
+        "start": 4.78,
+        "end": 5.66,
+        "word": " box.",
+        "probability": 0.9925202131271362
+      }
+    ]
+  }
+]

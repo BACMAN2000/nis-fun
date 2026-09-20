@@ -1,0 +1,441 @@
+[
+  {
+    "start": 0.0,
+    "end": 28.12,
+    "text": " What color is it? What color is it? Red, red, the ball is red. What color is it? What color is it? Yellow, yellow, the kite is yellow. What color is it? What color is it? Blue, blue, the train is blue. What color is it? What color is it? Green, green, the car is green. Red ball, yellow kite, blue train, green car. It's my toy box. It's my toy box.",
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.26,
+        "word": " What",
+        "probability": 0.9064377546310425
+      },
+      {
+        "start": 0.26,
+        "end": 0.7,
+        "word": " color",
+        "probability": 0.3634256422519684
+      },
+      {
+        "start": 0.7,
+        "end": 0.98,
+        "word": " is",
+        "probability": 0.997383177280426
+      },
+      {
+        "start": 0.98,
+        "end": 1.18,
+        "word": " it?",
+        "probability": 0.9947013854980469
+      },
+      {
+        "start": 1.4,
+        "end": 1.52,
+        "word": " What",
+        "probability": 0.6115096211433411
+      },
+      {
+        "start": 1.52,
+        "end": 1.98,
+        "word": " color",
+        "probability": 0.9932250380516052
+      },
+      {
+        "start": 1.98,
+        "end": 2.22,
+        "word": " is",
+        "probability": 0.998773992061615
+      },
+      {
+        "start": 2.22,
+        "end": 2.48,
+        "word": " it?",
+        "probability": 0.9969225525856018
+      },
+      {
+        "start": 2.68,
+        "end": 3.2,
+        "word": " Red,",
+        "probability": 0.9793023467063904
+      },
+      {
+        "start": 3.32,
+        "end": 3.76,
+        "word": " red,",
+        "probability": 0.9653770327568054
+      },
+      {
+        "start": 4.04,
+        "end": 4.12,
+        "word": " the",
+        "probability": 0.9930596351623535
+      },
+      {
+        "start": 4.12,
+        "end": 4.4,
+        "word": " ball",
+        "probability": 0.9972707629203796
+      },
+      {
+        "start": 4.4,
+        "end": 4.7,
+        "word": " is",
+        "probability": 0.9987666606903076
+      },
+      {
+        "start": 4.7,
+        "end": 4.98,
+        "word": " red.",
+        "probability": 0.9976862668991089
+      },
+      {
+        "start": 5.16,
+        "end": 5.28,
+        "word": " What",
+        "probability": 0.9981526732444763
+      },
+      {
+        "start": 5.28,
+        "end": 5.7,
+        "word": " color",
+        "probability": 0.9945554733276367
+      },
+      {
+        "start": 5.7,
+        "end": 5.96,
+        "word": " is",
+        "probability": 0.9992824196815491
+      },
+      {
+        "start": 5.96,
+        "end": 6.18,
+        "word": " it?",
+        "probability": 0.9997219443321228
+      },
+      {
+        "start": 6.28,
+        "end": 6.54,
+        "word": " What",
+        "probability": 0.9700281023979187
+      },
+      {
+        "start": 6.54,
+        "end": 6.98,
+        "word": " color",
+        "probability": 0.9993495345115662
+      },
+      {
+        "start": 6.98,
+        "end": 7.2,
+        "word": " is",
+        "probability": 0.9993959665298462
+      },
+      {
+        "start": 7.2,
+        "end": 7.46,
+        "word": " it?",
+        "probability": 0.9995611310005188
+      },
+      {
+        "start": 7.68,
+        "end": 8.2,
+        "word": " Yellow,",
+        "probability": 0.9960287809371948
+      },
+      {
+        "start": 8.44,
+        "end": 8.76,
+        "word": " yellow,",
+        "probability": 0.9994489550590515
+      },
+      {
+        "start": 9.04,
+        "end": 9.12,
+        "word": " the",
+        "probability": 0.9992768168449402
+      },
+      {
+        "start": 9.12,
+        "end": 9.42,
+        "word": " kite",
+        "probability": 0.9989628791809082
+      },
+      {
+        "start": 9.42,
+        "end": 9.72,
+        "word": " is",
+        "probability": 0.9986503720283508
+      },
+      {
+        "start": 9.72,
+        "end": 10.02,
+        "word": " yellow.",
+        "probability": 0.9998606443405151
+      },
+      {
+        "start": 10.16,
+        "end": 10.32,
+        "word": " What",
+        "probability": 0.9992473125457764
+      },
+      {
+        "start": 10.32,
+        "end": 10.72,
+        "word": " color",
+        "probability": 0.998830258846283
+      },
+      {
+        "start": 10.72,
+        "end": 10.96,
+        "word": " is",
+        "probability": 0.9997796416282654
+      },
+      {
+        "start": 10.96,
+        "end": 11.22,
+        "word": " it?",
+        "probability": 0.9969967603683472
+      },
+      {
+        "start": 11.32,
+        "end": 11.54,
+        "word": " What",
+        "probability": 0.985945999622345
+      },
+      {
+        "start": 11.54,
+        "end": 11.96,
+        "word": " color",
+        "probability": 0.9995617270469666
+      },
+      {
+        "start": 11.96,
+        "end": 12.2,
+        "word": " is",
+        "probability": 0.9997542500495911
+      },
+      {
+        "start": 12.2,
+        "end": 12.46,
+        "word": " it?",
+        "probability": 0.9979739785194397
+      },
+      {
+        "start": 12.64,
+        "end": 13.12,
+        "word": " Blue,",
+        "probability": 0.9969874024391174
+      },
+      {
+        "start": 13.5,
+        "end": 13.72,
+        "word": " blue,",
+        "probability": 0.9990098476409912
+      },
+      {
+        "start": 14.0,
+        "end": 14.08,
+        "word": " the",
+        "probability": 0.9997944235801697
+      },
+      {
+        "start": 14.08,
+        "end": 14.38,
+        "word": " train",
+        "probability": 0.9984108209609985
+      },
+      {
+        "start": 14.38,
+        "end": 14.66,
+        "word": " is",
+        "probability": 0.9997668862342834
+      },
+      {
+        "start": 14.66,
+        "end": 14.94,
+        "word": " blue.",
+        "probability": 0.9997319579124451
+      },
+      {
+        "start": 15.16,
+        "end": 15.3,
+        "word": " What",
+        "probability": 0.9986953139305115
+      },
+      {
+        "start": 15.3,
+        "end": 15.72,
+        "word": " color",
+        "probability": 0.999574601650238
+      },
+      {
+        "start": 15.72,
+        "end": 15.96,
+        "word": " is",
+        "probability": 0.9999216794967651
+      },
+      {
+        "start": 15.96,
+        "end": 16.2,
+        "word": " it?",
+        "probability": 0.9991546869277954
+      },
+      {
+        "start": 16.34,
+        "end": 16.52,
+        "word": " What",
+        "probability": 0.8928334712982178
+      },
+      {
+        "start": 16.52,
+        "end": 16.94,
+        "word": " color",
+        "probability": 0.9997627139091492
+      },
+      {
+        "start": 16.94,
+        "end": 17.2,
+        "word": " is",
+        "probability": 0.9998354911804199
+      },
+      {
+        "start": 17.2,
+        "end": 17.48,
+        "word": " it?",
+        "probability": 0.9994373917579651
+      },
+      {
+        "start": 17.64,
+        "end": 18.14,
+        "word": " Green,",
+        "probability": 0.9886966943740845
+      },
+      {
+        "start": 18.48,
+        "end": 18.74,
+        "word": " green,",
+        "probability": 0.9993788003921509
+      },
+      {
+        "start": 19.04,
+        "end": 19.1,
+        "word": " the",
+        "probability": 0.9994639754295349
+      },
+      {
+        "start": 19.1,
+        "end": 19.44,
+        "word": " car",
+        "probability": 0.9990118741989136
+      },
+      {
+        "start": 19.44,
+        "end": 19.7,
+        "word": " is",
+        "probability": 0.9998537302017212
+      },
+      {
+        "start": 19.7,
+        "end": 20.1,
+        "word": " green.",
+        "probability": 0.9998438358306885
+      },
+      {
+        "start": 20.36,
+        "end": 20.62,
+        "word": " Red",
+        "probability": 0.9965417981147766
+      },
+      {
+        "start": 20.62,
+        "end": 20.94,
+        "word": " ball,",
+        "probability": 0.6590569615364075
+      },
+      {
+        "start": 21.04,
+        "end": 21.26,
+        "word": " yellow",
+        "probability": 0.9996757507324219
+      },
+      {
+        "start": 21.26,
+        "end": 21.54,
+        "word": " kite,",
+        "probability": 0.9514046311378479
+      },
+      {
+        "start": 21.7,
+        "end": 21.86,
+        "word": " blue",
+        "probability": 0.9982095956802368
+      },
+      {
+        "start": 21.86,
+        "end": 22.18,
+        "word": " train,",
+        "probability": 0.9848988652229309
+      },
+      {
+        "start": 22.32,
+        "end": 22.5,
+        "word": " green",
+        "probability": 0.9940809607505798
+      },
+      {
+        "start": 22.5,
+        "end": 22.98,
+        "word": " car.",
+        "probability": 0.9989317059516907
+      },
+      {
+        "start": 23.6,
+        "end": 24.12,
+        "word": " It's",
+        "probability": 0.9986684620380402
+      },
+      {
+        "start": 24.12,
+        "end": 24.56,
+        "word": " my",
+        "probability": 0.9907817244529724
+      },
+      {
+        "start": 24.56,
+        "end": 25.06,
+        "word": " toy",
+        "probability": 0.9476425051689148
+      },
+      {
+        "start": 25.06,
+        "end": 25.58,
+        "word": " box.",
+        "probability": 0.9905499815940857
+      },
+      {
+        "start": 26.08,
+        "end": 26.6,
+        "word": " It's",
+        "probability": 0.9987943768501282
+      },
+      {
+        "start": 26.6,
+        "end": 27.0,
+        "word": " my",
+        "probability": 0.9997947812080383
+      },
+      {
+        "start": 27.0,
+        "end": 27.46,
+        "word": " toy",
+        "probability": 0.9992974996566772
+      },
+      {
+        "start": 27.46,
+        "end": 28.12,
+        "word": " box.",
+        "probability": 0.9993035793304443
+      }
+    ]
+  }
+]

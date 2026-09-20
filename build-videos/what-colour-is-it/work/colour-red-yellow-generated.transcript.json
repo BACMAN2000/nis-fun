@@ -1,0 +1,144 @@
+[
+  {
+    "start": 0.0,
+    "end": 2.16,
+    "text": " What color is it?",
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.62,
+        "word": " What",
+        "probability": 0.9159325957298279
+      },
+      {
+        "start": 0.62,
+        "end": 1.12,
+        "word": " color",
+        "probability": 0.9003250002861023
+      },
+      {
+        "start": 1.12,
+        "end": 1.76,
+        "word": " is",
+        "probability": 0.9958794116973877
+      },
+      {
+        "start": 1.76,
+        "end": 2.16,
+        "word": " it?",
+        "probability": 0.9955546259880066
+      }
+    ]
+  },
+  {
+    "start": 4.0,
+    "end": 5.24,
+    "text": " Red! Red!",
+    "words": [
+      {
+        "start": 3.6,
+        "end": 4.08,
+        "word": " Red!",
+        "probability": 0.9506116509437561
+      },
+      {
+        "start": 4.56,
+        "end": 5.24,
+        "word": " Red!",
+        "probability": 0.9630207419395447
+      }
+    ]
+  },
+  {
+    "start": 9.760000000000002,
+    "end": 14.08,
+    "text": " What color is it? What color is it?",
+    "words": [
+      {
+        "start": 9.760000000000002,
+        "end": 10.72,
+        "word": " What",
+        "probability": 0.7465430498123169
+      },
+      {
+        "start": 10.72,
+        "end": 11.28,
+        "word": " color",
+        "probability": 0.9979142546653748
+      },
+      {
+        "start": 11.28,
+        "end": 11.82,
+        "word": " is",
+        "probability": 0.9989399313926697
+      },
+      {
+        "start": 11.82,
+        "end": 12.16,
+        "word": " it?",
+        "probability": 0.9987755417823792
+      },
+      {
+        "start": 12.36,
+        "end": 12.64,
+        "word": " What",
+        "probability": 0.8552972078323364
+      },
+      {
+        "start": 12.64,
+        "end": 13.28,
+        "word": " color",
+        "probability": 0.9995713829994202
+      },
+      {
+        "start": 13.28,
+        "end": 13.74,
+        "word": " is",
+        "probability": 0.9995229244232178
+      },
+      {
+        "start": 13.74,
+        "end": 14.08,
+        "word": " it?",
+        "probability": 0.9997069239616394
+      }
+    ]
+  },
+  {
+    "start": 14.24,
+    "end": 16.96,
+    "text": " Yellow! The kite is yellow!",
+    "words": [
+      {
+        "start": 14.24,
+        "end": 14.8,
+        "word": " Yellow!",
+        "probability": 0.9956142902374268
+      },
+      {
+        "start": 15.68,
+        "end": 15.8,
+        "word": " The",
+        "probability": 0.9972724318504333
+      },
+      {
+        "start": 15.8,
+        "end": 16.18,
+        "word": " kite",
+        "probability": 0.9956021308898926
+      },
+      {
+        "start": 16.18,
+        "end": 16.5,
+        "word": " is",
+        "probability": 0.9994775652885437
+      },
+      {
+        "start": 16.5,
+        "end": 16.96,
+        "word": " yellow!",
+        "probability": 0.9957805871963501
+      }
+    ]
+  }
+]

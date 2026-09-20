@@ -7,6 +7,22 @@ build-videos/*
 # Los clips en bruto pesan 450 MB y no van; los guiones que los montan, si.
 !build-videos/*.py
 
+# Video del chant What Colour Is It (2026-09-20): docs, scripts, ASS y
+# transcripciones si; la media (mp4/mp3/wav) y los frames de auditoria no.
+!build-videos/what-colour-is-it/
+build-videos/what-colour-is-it/**
+!build-videos/what-colour-is-it/README.md
+!build-videos/what-colour-is-it/outputs/
+!build-videos/what-colour-is-it/outputs/**
+build-videos/what-colour-is-it/outputs/*.mp4
+build-videos/what-colour-is-it/outputs/*.mp3
+!build-videos/what-colour-is-it/work/
+!build-videos/what-colour-is-it/work/**
+build-videos/what-colour-is-it/work/*.mp4
+build-videos/what-colour-is-it/work/*.mp3
+build-videos/what-colour-is-it/work/*.wav
+build-videos/what-colour-is-it/work/audit/**
+
 # cache de Python de las herramientas
 __pycache__/
 *.pyc

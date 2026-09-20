@@ -1,0 +1,25 @@
+What Colour Is It?
+
+[Leader]
+What colour is it? What colour is it?
+[Kids]
+Red! Red! The ball is red!
+
+[Leader]
+What colour is it? What colour is it?
+[Kids]
+Yellow! Yellow! The kite is yellow!
+
+[Leader]
+What colour is it? What colour is it?
+[Kids]
+Blue! Blue! The train is blue!
+
+[Leader]
+What colour is it? What colour is it?
+[Kids]
+Green! Green! The car is green!
+
+[All]
+Red ball, yellow kite, blue train, green car!
+It's my toy box! It's my toy box!

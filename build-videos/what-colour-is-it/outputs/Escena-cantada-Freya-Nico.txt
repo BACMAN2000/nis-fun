@@ -1,0 +1,30 @@
+FUN FOR NORDIC — PRUEBA DE INTERPRETACIÓN CANTADA
+
+Referencia visual: Referencia-Freya-Nico.jpg (fotograma de la introducción existente).
+Duración prevista: 8 segundos. Horizontal 16:9. Idioma: inglés.
+Estado: preparada; no generada. La carga de referencia en Chrome está bloqueada.
+
+PROMPT PARA GENERACIÓN DE VIDEO
+
+Create an 8-second animated musical scene with synchronized sung audio using the attached approved frame from our own Fun for Nordic school series. Preserve the exact identities, facial proportions, outfits, hair and 3D cartoon rendering of both existing characters, and the school entrance environment. Do not introduce other people or redesign the cast.
+
+FREYA is the blonde girl with two braids, light blue T-shirt, blue jeans and white sneakers. NICO is the dark-haired boy with a red T-shirt, blue jeans and sneakers. They are fictional child characters in our educational series. Keep their approved appearance from the reference as the primary identity constraint.
+
+This must be a genuine singing performance with articulated facial animation, natural blinking, breathing and small coordinated body movements. Mouth shapes must follow the audible sung words. Keep both faces clearly visible in a steady medium two-shot. No flat cutouts, still-image panning or bouncing stickers.
+
+Audio: cheerful original children's melody, light ukulele and soft handclaps, approximately 112 BPM. Two distinct bright, natural cartoon-child singing voices, clear beginner-level English. Sing the following lyrics, do not speak or narrate them:
+
+Freya sings: "It's a ball! It's a kite!"
+Nico answers: "It's a train! It's a car!"
+
+Freya performs her line first while Nico listens and smiles, then Nico sings his line while Freya listens. A small step and a gentle hand gesture accompany each line. Complete both sung lines within the clip. Finish on a shared happy pose. No voiceover, no subtitles, no onscreen text, no logos added, no unrelated vocals.
+
+CRITERIOS DE REVISIÓN
+
+- Se oyen ambas frases cantadas, no recitadas.
+- La boca del personaje que canta acompaña las palabras.
+- Las caras, la ropa y el escenario conservan la identidad de la introducción.
+- No hay niños adicionales, cambios de cara ni manos deformadas.
+- El resultado sirve como prueba corta antes de producir una canción completa.
+
+Esta prueba genera una melodía nueva para el fragmento. No demuestra sincronización exacta con la grabación escolar existente; esa versión requeriría usar el audio original como pista de referencia en una herramienta compatible.

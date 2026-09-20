@@ -1,0 +1,18 @@
+;FFMETADATA1
+title=Fun for Nordic - Sing and Play
+artist=Nordic International School
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=94480
+title=Pip's Toy Box
+[CHAPTER]
+TIMEBASE=1/1000
+START=94480
+END=190001
+title=Open the Lunchbox
+[CHAPTER]
+TIMEBASE=1/1000
+START=190001
+END=305241
+title=Wiggle and Wave
