@@ -38,3 +38,11 @@ _sb1.pdf
 # con contenido peor. El trabajo se rehizo desde cero en gen_visual_flyers.py;
 # lo que aportaron esta contado en la memoria del proyecto.
 tools/_de_lenovo_*/
+
+# Chants y clases con canción: scripts, letras, tiempos y JSON sí; la media
+# (mp3, mp4, portadas y pruebas) vive en el servidor, no en git.
+songs/audio/chants/
+songs/chants-video/out/
+songs/clases/**/*.mp4
+songs/clases/**/*.png
+songs/clases/**/*.jpg

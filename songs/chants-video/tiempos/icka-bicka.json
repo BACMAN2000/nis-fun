@@ -1,0 +1,311 @@
+{
+ "id": "icka-bicka",
+ "duration": 24.76,
+ "hit": 26,
+ "total": 39,
+ "lines": [
+  {
+   "sec": "Intro",
+   "who": "Freya",
+   "text": "Feet in the circle! Ready?",
+   "words": [
+    "Feet",
+    "in",
+    "the",
+    "circle!",
+    "Ready?"
+   ],
+   "t": [
+    [
+     0.47,
+     0.93
+    ],
+    [
+     0.93,
+     1.4
+    ],
+    [
+     1.4,
+     1.86
+    ],
+    [
+     1.86,
+     2.33
+    ],
+    [
+     2.33,
+     2.8
+    ]
+   ]
+  },
+  {
+   "sec": "Verse",
+   "who": null,
+   "text": "Icka bicka soda cracker,",
+   "words": [
+    "Icka",
+    "bicka",
+    "soda",
+    "cracker,"
+   ],
+   "t": [
+    [
+     2.8,
+     3.26
+    ],
+    [
+     3.26,
+     3.73
+    ],
+    [
+     3.73,
+     4.2
+    ],
+    [
+     4.2,
+     4.66
+    ]
+   ]
+  },
+  {
+   "sec": "Verse",
+   "who": null,
+   "text": "Icka bicka boo.",
+   "words": [
+    "Icka",
+    "bicka",
+    "boo."
+   ],
+   "t": [
+    [
+     4.66,
+     5.13
+    ],
+    [
+     5.13,
+     5.59
+    ],
+    [
+     5.59,
+     6.06
+    ]
+   ]
+  },
+  {
+   "sec": "Verse",
+   "who": null,
+   "text": "Icka bicka soda cracker,",
+   "words": [
+    "Icka",
+    "bicka",
+    "soda",
+    "cracker,"
+   ],
+   "t": [
+    [
+     6.06,
+     6.78
+    ],
+    [
+     6.78,
+     7.02
+    ],
+    [
+     7.02,
+     7.38
+    ],
+    [
+     7.38,
+     10.86
+    ]
+   ]
+  },
+  {
+   "sec": "Verse",
+   "who": null,
+   "text": "Out goes you!",
+   "words": [
+    "Out",
+    "goes",
+    "you!"
+   ],
+   "t": [
+    [
+     11.0,
+     11.0
+    ],
+    [
+     11.0,
+     11.44
+    ],
+    [
+     11.44,
+     11.8
+    ]
+   ]
+  },
+  {
+   "sec": "Verse",
+   "who": "Kids",
+   "text": "Bye, Samu!",
+   "words": [
+    "Bye,",
+    "Samu!"
+   ],
+   "t": [
+    [
+     11.94,
+     12.14
+    ],
+    [
+     12.36,
+     12.88
+    ]
+   ]
+  },
+  {
+   "sec": "Verse",
+   "who": null,
+   "text": "Icka bicka soda cracker,",
+   "words": [
+    "Icka",
+    "bicka",
+    "soda",
+    "cracker,"
+   ],
+   "t": [
+    [
+     14.16,
+     14.82
+    ],
+    [
+     14.82,
+     15.06
+    ],
+    [
+     15.06,
+     15.42
+    ],
+    [
+     15.42,
+     15.94
+    ]
+   ]
+  },
+  {
+   "sec": "Verse",
+   "who": null,
+   "text": "Icka bicka boo.",
+   "words": [
+    "Icka",
+    "bicka",
+    "boo."
+   ],
+   "t": [
+    [
+     16.0,
+     16.3
+    ],
+    [
+     16.3,
+     16.6
+    ],
+    [
+     16.6,
+     16.96
+    ]
+   ]
+  },
+  {
+   "sec": "Verse",
+   "who": null,
+   "text": "Icka bicka soda cracker,",
+   "words": [
+    "Icka",
+    "bicka",
+    "soda",
+    "cracker,"
+   ],
+   "t": [
+    [
+     17.42,
+     17.74
+    ],
+    [
+     17.74,
+     17.98
+    ],
+    [
+     17.98,
+     18.4
+    ],
+    [
+     18.4,
+     18.86
+    ]
+   ]
+  },
+  {
+   "sec": "Verse",
+   "who": null,
+   "text": "Out goes you!",
+   "words": [
+    "Out",
+    "goes",
+    "you!"
+   ],
+   "t": [
+    [
+     18.94,
+     19.08
+    ],
+    [
+     19.08,
+     19.46
+    ],
+    [
+     19.46,
+     19.84
+    ]
+   ]
+  },
+  {
+   "sec": "Verse",
+   "who": "Kids",
+   "text": "Bye, Iris!",
+   "words": [
+    "Bye,",
+    "Iris!"
+   ],
+   "t": [
+    [
+     20.04,
+     20.24
+    ],
+    [
+     20.74,
+     20.84
+    ]
+   ]
+  },
+  {
+   "sec": "Outro",
+   "who": "Nico",
+   "text": "Me? Oops!",
+   "words": [
+    "Me?",
+    "Oops!"
+   ],
+   "t": [
+    [
+     21.49,
+     22.14
+    ],
+    [
+     22.14,
+     22.48
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,244 @@
+{
+  "_nota": "Los 18 chants de patio (contar, palmas, comba) de Rhymes & chants, con musica.",
+  "chants": [
+    {
+      "id": "eeny-meeny",
+      "estilo_v2": "old-school hip-hop for kids, boom bap drums, vinyl scratches, a confident boy rapper leads and a kids crew answers, 90 BPM, deep bass, playful, very clear diction",
+      "titulo_nis": "Who Is It?",
+      "letra_nis": "[Intro]\n[Freya] Hello, friends! Who is it today? Let's count!\n\n[Verse]\nNico, Freya, Astrid, Pip,\nRound the circle, hop and skip.\nPoint your finger, round we go,\nWho is it? We want to know!\nOne, two, three, it's not you,\nNot you, not you, and not you!\n\n[Break]\n[Kids] Not you, Astrid! Not you, Tomás!\n\n[Verse]\nNico, Freya, Astrid, Pip,\nRound the circle, hop and skip.\nPoint your finger, round we go,\nWho is it? We want to know!\n\n[Outro]\n[Freya] It's you, Nico!\n[Nico] Oops!",
+      "estilo": "playground counting-out chant for 7-year-olds, call and response, handclaps and foot stomps, a cheerful girl leader voice and a small chorus of children answering, spoken-sung, 96 BPM, bouncy bass and light marimba under the voices, very clear consonants, fun and lively",
+      "personajes": [
+        "freya",
+        "nico",
+        "astrid",
+        "tomas"
+      ],
+      "escena": "classroom",
+      "letra": "[Intro]\n[Freya] Hello, friends! Who is it today? Let's count!\n\n[Verse]\nEeny, meeny, miny, moe,\nCatch a tiger by the toe.\nIf he hollers, let him go,\nEeny, meeny, miny, moe.\nMy mother told me to pick the very best one,\nand you are not it!\n\n[Break]\n[Kids] Not you, Astrid! Not you, Tomás!\n\n[Verse]\nEeny, meeny, miny, moe,\nCatch a tiger by the toe.\nIf he hollers, let him go,\nEeny, meeny, miny, moe.\n\n[Outro]\n[Freya] It's you, Nico!\n[Nico] Oops!"
+    },
+    {
+      "id": "one-potato",
+      "estilo_v2": "sea shanty for children, accordion, fiddle and big foot stomps, a hearty adult male captain voice and a kids choir answering, 108 BPM, swinging 6/8 feel, very clear diction",
+      "titulo_nis": "One Puffin, Two Puffin",
+      "letra_nis": "[Intro]\n[Tomás] Fists in! Ready? Let's go!\n\n[Verse]\nOne puffin, two puffins, on the rocks,\nThree puffins, four puffins, in red socks!\nFive puffins, six puffins, in the sea,\nSeven puffins, eight puffins, look at me!\n\n[Break]\n[Kids] Count again! Count again!\n\n[Verse]\nOne puffin, two puffins, on the rocks,\nThree puffins, four puffins, in red socks!\nFive puffins, six puffins, in the sea,\nSeven puffins, eight puffins, look at me!\n\n[Outro]\n[Tomás] Eight! You're out, Freya!",
+      "estilo": "playground counting-out chant for 7-year-olds, call and response, handclaps and foot stomps, a cheerful girl leader voice and a small chorus of children answering, spoken-sung, 100 BPM, bouncy bass and light marimba under the voices, very clear consonants, fun and lively",
+      "personajes": [
+        "tomas",
+        "freya",
+        "nico",
+        "astrid"
+      ],
+      "escena": "picnic-garden",
+      "letra": "[Intro]\n[Tomás] Fists in! Ready? Let's go!\n\n[Verse]\nOne potato, two potato, three potato, four,\nFive potato, six potato, seven potato, more!\n\n[Verse]\nOne potato, two potato, three potato, four,\nFive potato, six potato, seven potato, more!\n\n[Break]\n[Kids] Count again! Count again!\n\n[Verse]\nOne potato, two potato, three potato, four,\nFive potato, six potato, seven potato, more!\n\n[Outro]\n[Tomás] More! You're out, Freya!"
+    },
+    {
+      "id": "ip-dip",
+      "estilo_v2": "children's reggae, one-drop rhythm, offbeat guitar skank, warm bass, laid-back girl voice with kids echoing, 76 BPM, sunny and relaxed, very clear diction",
+      "estilo": "playground counting-out chant for 7-year-olds, call and response, handclaps and foot stomps, a cheerful girl leader voice and a small chorus of children answering, spoken-sung, 92 BPM, bouncy bass and light marimba under the voices, very clear consonants, fun and lively",
+      "personajes": [
+        "astrid",
+        "lia",
+        "bruno",
+        "nico"
+      ],
+      "escena": "track",
+      "letra": "[Intro]\n[Astrid] Stand in a circle. One finger out!\n\n[Verse]\nIp dip, sky blue,\nWho's it? Not you!\n[Kids] Not you, Lía!\n\nIp dip, sky blue,\nWho's it? Not you!\n[Kids] Not you, Bruno!\n\nIp dip, sky blue,\nWho's it? Not you!\n[Kids] Not you, Astrid!\n\n[Outro]\n[Astrid] Nico, you're it!\n[Nico] Oops!"
+    },
+    {
+      "id": "bubble-gum",
+      "estilo_v2": "1950s rock and roll doo-wop for kids, walking upright bass, piano boogie, handclaps, a girl lead with doo-wop backing kids, 150 BPM, bright and bouncy, very clear diction",
+      "titulo_nis": "Cookies on a Plate",
+      "letra_nis": "[Intro]\n[Freya] Yum, yum! Cookie time!\n\n[Verse]\nCookies on a yellow plate,\nTake some, Aiko! Don't be late!\n[Aiko] Three!\n[Kids] One, two, three!\n\n[Verse]\nCookies on a yellow plate,\nTake some, Samu! Don't be late!\n[Samu] Five!\n[Kids] One, two, three, four, five!\n\n[Outro]\n[Freya] Crunch! You're out!",
+      "estilo": "playground counting-out chant for 7-year-olds, call and response, handclaps and foot stomps, a cheerful girl leader voice and a small chorus of children answering, spoken-sung, 98 BPM, bouncy bass and light marimba under the voices, very clear consonants, fun and lively",
+      "personajes": [
+        "freya",
+        "aiko",
+        "samu"
+      ],
+      "escena": "funfair",
+      "letra": "[Intro]\n[Freya] Pop, pop! Bubble gum time!\n\n[Verse]\nBubble gum, bubble gum, in a dish,\nHow many pieces do you wish?\n[Aiko] Three!\n[Kids] One, two, three!\n\n[Verse]\nBubble gum, bubble gum, in a dish,\nHow many pieces do you wish?\n[Samu] Five!\n[Kids] One, two, three, four, five!\n\n[Outro]\n[Freya] Pop! You're out!"
+    },
+    {
+      "id": "engine-engine",
+      "estilo_v2": "country hoedown train song for kids, chugging snare, banjo, fiddle, harmonica train whistle, a cowboy-style boy lead and kids shouting answers, 140 BPM, very clear diction",
+      "estilo": "playground counting-out chant for 7-year-olds, call and response, handclaps and foot stomps, a cheerful girl leader voice and a small chorus of children answering, spoken-sung, 104 BPM, bouncy bass and light marimba under the voices, very clear consonants, fun and lively, train whistle",
+      "personajes": [
+        "tomas",
+        "nico",
+        "iris"
+      ],
+      "escena": "entrance",
+      "letra": "[Intro]\n[Tomás] Choo choo! All aboard!\n\n[Verse]\nEngine, engine, number nine,\nGoing down Chicago line.\nIf the train should jump the track,\nDo you want your money back?\n[Nico] Yes!\n[Kids] Y-E-S spells yes, and you are not it!\n\n[Verse]\nEngine, engine, number nine,\nGoing down Chicago line.\nIf the train should jump the track,\nDo you want your money back?\n[Iris] No!\n[Kids] N-O spells no, and you are not it!\n\n[Outro]\n[Tomás] Choo choo!"
+    },
+    {
+      "id": "inky-pinky",
+      "estilo_v2": "Andean huayno for children, charango, quena flute, bombo drum, a cheerful girl lead and kids chorus, 120 BPM, festive, very clear diction",
+      "estilo": "playground counting-out chant for 7-year-olds, call and response, handclaps and foot stomps, a cheerful girl leader voice and a small chorus of children answering, spoken-sung, 94 BPM, bouncy bass and light marimba under the voices, very clear consonants, fun and lively",
+      "personajes": [
+        "nico",
+        "tino",
+        "freya"
+      ],
+      "escena": "zoo",
+      "letra": "[Intro]\n[Nico] Inky pinky! Say it with me!\n\n[Verse]\nInky pinky ponky,\nDaddy bought a donkey,\nDonkey died, Daddy cried,\nInky pinky ponky.\n\n[Verse]\nInky pinky ponky,\nDaddy bought a donkey,\nDonkey died, Daddy cried,\nInky pinky ponky.\n\n[Outro]\n[Kids] Ponky! Ponky! You're it, Tino!"
+    },
+    {
+      "id": "tinker-tailor",
+      "estilo_v2": "school marching band, brass, glockenspiel and snare drum cadence, a bossy girl drum-major voice and kids chorus, 116 BPM, proud and bright, very clear diction",
+      "titulo_nis": "Teacher, Doctor",
+      "letra_nis": "[Intro]\n[Astrid] Count the buttons on your coat! What will you be?\n\n[Verse]\nTeacher, doctor, farmer, pilot,\nDriver, dancer, singer, cook!\n\n[Verse]\nTeacher, doctor, farmer, pilot,\nDriver, dancer, singer, cook!\n\n[Break]\n[Freya] One more time, Bruno!\n\n[Verse]\nTeacher, doctor, farmer, pilot,\nDriver, dancer, singer, cook!\n\n[Outro]\n[Kids] Pilot! Bruno is a pilot!",
+      "estilo": "playground counting-out chant for 7-year-olds, call and response, handclaps and foot stomps, a cheerful girl leader voice and a small chorus of children answering, spoken-sung, 96 BPM, bouncy bass and light marimba under the voices, very clear consonants, fun and lively",
+      "personajes": [
+        "astrid",
+        "freya",
+        "bruno"
+      ],
+      "escena": "library",
+      "letra": "[Intro]\n[Astrid] Count the buttons on your coat!\n\n[Verse]\nTinker, tailor, soldier, sailor,\nRich man, poor man, beggar man, thief.\n\n[Verse]\nTinker, tailor, soldier, sailor,\nRich man, poor man, beggar man, thief.\n\n[Break]\n[Freya] One more time, Bruno!\n\n[Verse]\nTinker, tailor, soldier, sailor,\nRich man, poor man, beggar man, thief.\n\n[Outro]\n[Kids] Sailor! Bruno is a sailor!"
+    },
+    {
+      "id": "fish-alive",
+      "estilo_v2": "Caribbean calypso for kids, steel drums, shakers, congas, a smiling boy lead and kids chorus, 104 BPM, tropical seaside, very clear diction",
+      "estilo": "playground counting-out chant for 7-year-olds, call and response, handclaps and foot stomps, a cheerful girl leader voice and a small chorus of children answering, spoken-sung, 96 BPM, bouncy bass and light marimba under the voices, very clear consonants, fun and lively, ocean waves",
+      "personajes": [
+        "pip",
+        "freya",
+        "nico"
+      ],
+      "escena": "mirador",
+      "solo_nis": true,
+      "letra": "[Intro]\n[Freya] Where is Pip? He's at the sea!\n\n[Verse]\nOne, two, three, four, five,\nPip the puffin takes a dive.\nSix, seven, eight, nine, ten,\nUp he comes with a fish again!\n\n[Verse]\nWhy does Pip go down so deep?\nFish for dinner, then he'll sleep.\nWhich fish did Pip bring back?\nA little silver one. Snap, snap, snap!\n\n[Outro]\n[Nico] Snap, snap! Good job, Pip!"
+    },
+    {
+      "id": "icka-bicka",
+      "estilo_v2": "upbeat ska for children, offbeat guitar, trumpet and trombone stabs, fast hi-hats, a cheeky boy lead and kids shouting, 160 BPM, energetic, very clear diction",
+      "estilo": "playground counting-out chant for 7-year-olds, call and response, handclaps and foot stomps, a cheerful girl leader voice and a small chorus of children answering, spoken-sung, 100 BPM, bouncy bass and light marimba under the voices, very clear consonants, fun and lively",
+      "personajes": [
+        "freya",
+        "samu",
+        "iris",
+        "nico"
+      ],
+      "escena": "campus-hex",
+      "letra": "[Intro]\n[Freya] Feet in the circle! Ready?\n\n[Verse]\nIcka bicka soda cracker,\nIcka bicka boo.\nIcka bicka soda cracker,\nOut goes you!\n[Kids] Bye, Samu!\n\n[Verse]\nIcka bicka soda cracker,\nIcka bicka boo.\nIcka bicka soda cracker,\nOut goes you!\n[Kids] Bye, Iris!\n\n[Outro]\n[Nico] Me? Oops!"
+    },
+    {
+      "id": "sky-blue",
+      "estilo_v2": "gentle bossa nova for children, nylon guitar, soft brushes, light flute, a soft dreamy girl voice with kids humming, 88 BPM, calm and airy, very clear diction",
+      "estilo": "playground counting-out chant for 7-year-olds, call and response, handclaps and foot stomps, a cheerful girl leader voice and a small chorus of children answering, spoken-sung, 92 BPM, bouncy bass and light marimba under the voices, very clear consonants, fun and lively",
+      "personajes": [
+        "astrid",
+        "aiko",
+        "tomas",
+        "freya"
+      ],
+      "escena": "garden",
+      "letra": "[Intro]\n[Astrid] Look up! What colour is the sky?\n\n[Verse]\nOne, two, sky blue,\nAll out but you!\n[Kids] Aiko!\n\nOne, two, sky blue,\nAll out but you!\n[Kids] Tomás!\n\nOne, two, sky blue,\nAll out but you!\n[Kids] Freya!\n\n[Outro]\n[Astrid] Blue, blue, sky blue!"
+    },
+    {
+      "id": "miss-mary-mack",
+      "estilo_v2": "bubblegum K-pop for kids, bright synths, punchy claps, catchy hook, two girls and a boy trading lines, 124 BPM, sparkly and fun, very clear diction",
+      "titulo_nis": "Little Pip, Pip, Pip",
+      "letra_nis": "[Intro]\n[Freya] Clap with me, Astrid! Clap, clap!\n\n[Verse 1]\nLittle Pip, Pip, Pip,\nWent on a trip, trip, trip,\nHe took his hat, hat, hat,\nAnd his yellow map, map, map.\n\n[Verse 2]\nHe flew so far, far, far,\nOver a car, car, car,\nOver the school, school, school,\nAnd the swimming pool, pool, pool.\n\n[Verse 3]\nHe saw the moon, moon, moon,\nHe came back soon, soon, soon,\nAnd he said hello, lo, lo,\nTo the kids below, low, low!\n\n[Outro]\n[Nico] Hello, Pip! Oops, he's gone!",
+      "estilo": "children's hand-clapping game song, two girls and a boy singing, crisp handclap patterns on every beat, 104 BPM, ukulele and bass, playful, call and response, very clear diction, schoolyard energy",
+      "personajes": [
+        "freya",
+        "astrid",
+        "nico"
+      ],
+      "escena": "amphitheater",
+      "letra": "[Intro]\n[Freya] Clap with me, Astrid! Clap, clap!\n\n[Verse 1]\nMiss Mary Mack, Mack, Mack,\nAll dressed in black, black, black,\nWith silver buttons, buttons, buttons,\nAll down her back, back, back.\n\n[Verse 2]\nShe asked her mother, mother, mother,\nFor fifty cents, cents, cents,\nTo see the elephants, elephants, elephants,\nJump over the fence, fence, fence.\n\n[Verse 3]\nThey jumped so high, high, high,\nThey reached the sky, sky, sky,\nAnd they didn't come back, back, back,\nTill the Fourth of July, ly, ly.\n\n[Outro]\n[Nico] Elephants can't jump! Oops!"
+    },
+    {
+      "id": "sailor-went-to-sea",
+      "estilo_v2": "surf rock for children, reverb twangy guitar, tom-tom drums, ocean waves, a boy and girl duet with kids shouting sea sea sea, 150 BPM, very clear diction",
+      "estilo": "children's hand-clapping game song, two girls and a boy singing, crisp handclap patterns on every beat, 108 BPM, ukulele and bass, playful, call and response, very clear diction, schoolyard energy, ocean waves",
+      "personajes": [
+        "freya",
+        "nico",
+        "pip"
+      ],
+      "escena": "mirador",
+      "letra": "[Intro]\n[Freya] Look at the sea! Clap with me!\n\n[Verse]\nA sailor went to sea, sea, sea,\nTo see what he could see, see, see,\nBut all that he could see, see, see,\nWas the bottom of the deep blue sea, sea, sea.\n\n[Verse]\nA sailor went to sea, sea, sea,\nTo see what he could see, see, see,\nBut all that he could see, see, see,\nWas the bottom of the deep blue sea, sea, sea.\n\n[Outro]\n[Nico] And Pip! He saw Pip!"
+    },
+    {
+      "id": "pat-a-cake",
+      "estilo_v2": "Italian tarantella for kids, mandolin, accordion, tambourine, getting faster and faster, a jolly boy lead and kids clapping, 130 BPM rising, very clear diction",
+      "titulo_nis": "Roll the Pizza",
+      "letra_nis": "[Intro]\n[Tomás] Let's make a pizza! Clap, clap!\n\n[Verse]\nRoll it, roll it, round and flat,\nMake a pizza, just like that!\nCheese on top and tomatoes red,\nInto the oven, Tomás said!\n\n[Verse]\nRoll it, roll it, round and flat,\nMake a pizza, just like that!\nCheese on top and green beans too,\nPizza for Freya, and pizza for you!\n\n[Outro]\n[Freya] Mmm! Yummy pizza!",
+      "estilo": "children's hand-clapping game song, two girls and a boy singing, crisp handclap patterns on every beat, 100 BPM, ukulele and bass, playful, call and response, very clear diction, schoolyard energy",
+      "personajes": [
+        "tomas",
+        "freya"
+      ],
+      "escena": "lighthouse-kitchen",
+      "letra": "[Intro]\n[Tomás] Let's make a cake! Clap, clap!\n\n[Verse]\nPat-a-cake, pat-a-cake, baker's man,\nBake me a cake as fast as you can;\nPat it and prick it and mark it with B,\nPut it in the oven for baby and me.\n\n[Verse]\nPat-a-cake, pat-a-cake, baker's man,\nBake me a cake as fast as you can;\nPat it and prick it and mark it with T,\nPut it in the oven for Tomás and me!\n\n[Outro]\n[Freya] Mmm! Yummy cake!"
+    },
+    {
+      "id": "double-double",
+      "estilo_v2": "Peruvian cumbia for kids, guiro, timbales, electric guitar melody, two girls clapping and singing, 100 BPM, joyful dance groove, very clear diction",
+      "estilo": "children's hand-clapping game song, two girls and a boy singing, crisp handclap patterns on every beat, 112 BPM, ukulele and bass, playful, call and response, very clear diction, schoolyard energy",
+      "personajes": [
+        "astrid",
+        "bruno"
+      ],
+      "escena": "chess-plaza",
+      "letra": "[Intro]\n[Astrid] Double clap! Faster and faster!\n\n[Verse]\nDouble, double, this, this,\nDouble, double, that, that,\nDouble this, double that,\nDouble, double, this, that.\n\n[Verse]\nDouble, double, this, this,\nDouble, double, that, that,\nDouble this, double that,\nDouble, double, this, that.\n\n[Outro]\n[Bruno] Faster! This, that, this, that!"
+    },
+    {
+      "id": "down-down-baby",
+      "estilo_v2": "Motown soul for children, tambourine, horn section, groovy bass, a girl lead with kids backing vocals, 108 BPM, warm and groovy, very clear diction",
+      "estilo": "children's hand-clapping game song, two girls and a boy singing, crisp handclap patterns on every beat, 106 BPM, ukulele and bass, playful, call and response, very clear diction, schoolyard energy",
+      "personajes": [
+        "freya",
+        "iris",
+        "tomas"
+      ],
+      "escena": "funfair",
+      "letra": "[Intro]\n[Iris] Freya, clap with me!\n\n[Verse]\nDown, down, baby, down by the roller coaster,\nSweet, sweet baby, I'll never let you go.\nShimmy, shimmy, cocoa pop, shimmy, shimmy, pow!\nShimmy, shimmy, cocoa pop, shimmy, shimmy, pow!\n\n[Verse]\nDown, down, baby, down by the roller coaster,\nSweet, sweet baby, I'll never let you go.\nShimmy, shimmy, cocoa pop, shimmy, shimmy, pow!\nShimmy, shimmy, cocoa pop, shimmy, shimmy, pow!\n\n[Outro]\n[Tomás] Pow!"
+    },
+    {
+      "id": "teddy-bear",
+      "estilo_v2": "Afrobeat for kids, talking drum, shekere, bright guitar riffs, horns, a girl caller and kids response, 112 BPM, jumping energy, very clear diction",
+      "titulo_nis": "Jump, Tomás, Jump",
+      "letra_nis": "[Intro]\n[Freya] Turn the rope! Jump in, Tomás!\n\n[Verse 1]\nJump, Tomás, jump, Tomás, clap your hands,\nJump, Tomás, jump, Tomás, now you stand,\nJump, Tomás, touch your nose,\nJump, Tomás, touch your toes.\n\n[Verse 2]\nJump, Tomás, jump, Tomás, turn and spin,\nJump, Tomás, jump, Tomás, smile and grin,\nJump, Tomás, one, two, three,\nJump out now and come to me!\n\n[Outro]\n[Astrid] Well done, Tomás!",
+      "estilo": "jump-rope skipping rhyme for children, rope swish and slap on the beat, kids chanting together with a girl leader, 100 BPM, funky bass and snare, claps, very clear diction, joyful playground energy",
+      "personajes": [
+        "freya",
+        "tomas",
+        "astrid"
+      ],
+      "escena": "track",
+      "letra": "[Intro]\n[Freya] Turn the rope! Jump in, Tomás!\n\n[Verse 1]\nTeddy bear, teddy bear, turn around,\nTeddy bear, teddy bear, touch the ground,\nTeddy bear, teddy bear, show your shoe,\nTeddy bear, teddy bear, that will do.\n\n[Verse 2]\nTeddy bear, teddy bear, go upstairs,\nTeddy bear, teddy bear, say your prayers,\nTeddy bear, teddy bear, turn out the light,\nTeddy bear, teddy bear, say good night!\n\n[Outro]\n[Astrid] Good night, Tomás!"
+    },
+    {
+      "id": "cinderella",
+      "estilo_v2": "Brazilian samba batucada for children, surdo, tamborim, whistles, jungle animal sounds, a girl lead and kids chorus, 124 BPM, carnival fun, very clear diction",
+      "titulo_nis": "Freya at the Zoo",
+      "letra_nis": "[Intro]\n[Astrid] Jump in, Aiko! Ready, go!\n\n[Verse]\nFreya, Freya, at the zoo,\nSaw a monkey and a kangaroo.\nThe monkey jumped and lost his shoe.\nHow many jumps can Aiko do?\n[Kids] One, two, three, four, five, six, seven, eight, nine, ten!\n\n[Outro]\n[Nico] Ten jumps! Wow!",
+      "estilo": "jump-rope skipping rhyme for children, rope swish and slap on the beat, kids chanting together with a girl leader, 104 BPM, funky bass and snare, claps, very clear diction, joyful playground energy",
+      "personajes": [
+        "astrid",
+        "aiko",
+        "nico"
+      ],
+      "escena": "hockey",
+      "letra": "[Intro]\n[Astrid] Jump in, Aiko! Ready, go!\n\n[Verse]\nCinderella, dressed in yella,\nWent upstairs to kiss a fella.\nMade a mistake and kissed a snake.\nHow many doctors did it take?\n[Kids] One, two, three, four, five, six, seven, eight, nine, ten!\n\n[Outro]\n[Nico] Ten doctors! Oops!"
+    },
+    {
+      "id": "i-like-coffee",
+      "estilo_v2": "electro swing for kids, swing brass, upright bass, four-on-the-floor beat, a jazzy boy lead and kids chorus, 122 BPM, playful, very clear diction",
+      "titulo_nis": "Apple, Orange, Pear",
+      "letra_nis": "[Intro]\n[Freya] Jump with me! Who's next?\n\n[Verse]\nApple, apple, orange, pear,\nJump in, Tomás, if you dare!\n\nApple, apple, orange, pear,\nJump in, Astrid, with your hair!\n\nApple, apple, orange, pear,\nJump in, Nico, over there!\n\n[Outro]\n[Nico] Jump, jump! Oops!",
+      "estilo": "jump-rope skipping rhyme for children, rope swish and slap on the beat, kids chanting together with a girl leader, 98 BPM, funky bass and snare, claps, very clear diction, joyful playground energy",
+      "personajes": [
+        "freya",
+        "tomas",
+        "astrid",
+        "nico"
+      ],
+      "escena": "track",
+      "letra": "[Intro]\n[Freya] Jump with me! Who's next?\n\n[Verse]\nI like coffee, I like tea,\nI like Tomás to jump with me!\n\nI like coffee, I like tea,\nI like Astrid to jump with me!\n\nI like coffee, I like tea,\nI like Nico to jump with me!\n\n[Outro]\n[Nico] Jump, jump! Oops!"
+    }
+  ]
+}

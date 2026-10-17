@@ -1,0 +1,304 @@
+{
+ "id": "tinker-tailor",
+ "duration": 37.2,
+ "hit": 43,
+ "total": 43,
+ "lines": [
+  {
+   "sec": "Intro",
+   "who": "Astrid",
+   "text": "Count the buttons on your coat! What will you be?",
+   "words": [
+    "Count",
+    "the",
+    "buttons",
+    "on",
+    "your",
+    "coat!",
+    "What",
+    "will",
+    "you",
+    "be?"
+   ],
+   "t": [
+    [
+     3.56,
+     4.24
+    ],
+    [
+     4.24,
+     4.92
+    ],
+    [
+     4.92,
+     5.26
+    ],
+    [
+     5.26,
+     5.62
+    ],
+    [
+     5.62,
+     5.82
+    ],
+    [
+     5.82,
+     6.32
+    ],
+    [
+     8.6,
+     8.78
+    ],
+    [
+     8.78,
+     9.14
+    ],
+    [
+     9.14,
+     9.48
+    ],
+    [
+     9.48,
+     10.0
+    ]
+   ]
+  },
+  {
+   "sec": "Verse",
+   "who": null,
+   "text": "Teacher, doctor, farmer, pilot,",
+   "words": [
+    "Teacher,",
+    "doctor,",
+    "farmer,",
+    "pilot,"
+   ],
+   "t": [
+    [
+     10.68,
+     10.98
+    ],
+    [
+     11.2,
+     11.5
+    ],
+    [
+     11.58,
+     12.02
+    ],
+    [
+     12.1,
+     12.48
+    ]
+   ]
+  },
+  {
+   "sec": "Verse",
+   "who": null,
+   "text": "Driver, dancer, singer, cook!",
+   "words": [
+    "Driver,",
+    "dancer,",
+    "singer,",
+    "cook!"
+   ],
+   "t": [
+    [
+     12.68,
+     13.04
+    ],
+    [
+     13.24,
+     13.52
+    ],
+    [
+     13.68,
+     14.06
+    ],
+    [
+     14.18,
+     14.36
+    ]
+   ]
+  },
+  {
+   "sec": "Verse",
+   "who": null,
+   "text": "Teacher, doctor, farmer, pilot,",
+   "words": [
+    "Teacher,",
+    "doctor,",
+    "farmer,",
+    "pilot,"
+   ],
+   "t": [
+    [
+     14.36,
+     15.0
+    ],
+    [
+     15.22,
+     15.5
+    ],
+    [
+     15.5,
+     16.0
+    ],
+    [
+     16.0,
+     16.52
+    ]
+   ]
+  },
+  {
+   "sec": "Verse",
+   "who": null,
+   "text": "Driver, dancer, singer, cook!",
+   "words": [
+    "Driver,",
+    "dancer,",
+    "singer,",
+    "cook!"
+   ],
+   "t": [
+    [
+     16.64,
+     17.02
+    ],
+    [
+     17.3,
+     17.48
+    ],
+    [
+     17.74,
+     18.04
+    ],
+    [
+     18.22,
+     18.46
+    ]
+   ]
+  },
+  {
+   "sec": "Break",
+   "who": "Freya",
+   "text": "One more time, Bruno!",
+   "words": [
+    "One",
+    "more",
+    "time,",
+    "Bruno!"
+   ],
+   "t": [
+    [
+     20.24,
+     20.98
+    ],
+    [
+     20.98,
+     21.44
+    ],
+    [
+     21.44,
+     22.06
+    ],
+    [
+     22.22,
+     22.5
+    ]
+   ]
+  },
+  {
+   "sec": "Verse",
+   "who": null,
+   "text": "Teacher, doctor, farmer, pilot,",
+   "words": [
+    "Teacher,",
+    "doctor,",
+    "farmer,",
+    "pilot,"
+   ],
+   "t": [
+    [
+     24.44,
+     25.1
+    ],
+    [
+     25.2,
+     25.58
+    ],
+    [
+     25.66,
+     26.14
+    ],
+    [
+     26.34,
+     26.6
+    ]
+   ]
+  },
+  {
+   "sec": "Verse",
+   "who": null,
+   "text": "Driver, dancer, singer, cook!",
+   "words": [
+    "Driver,",
+    "dancer,",
+    "singer,",
+    "cook!"
+   ],
+   "t": [
+    [
+     26.84,
+     27.06
+    ],
+    [
+     27.42,
+     27.58
+    ],
+    [
+     27.7,
+     28.14
+    ],
+    [
+     28.18,
+     28.56
+    ]
+   ]
+  },
+  {
+   "sec": "Outro",
+   "who": "Kids",
+   "text": "Pilot! Bruno is a pilot!",
+   "words": [
+    "Pilot!",
+    "Bruno",
+    "is",
+    "a",
+    "pilot!"
+   ],
+   "t": [
+    [
+     29.54,
+     29.54
+    ],
+    [
+     30.8,
+     31.42
+    ],
+    [
+     31.42,
+     32.34
+    ],
+    [
+     32.34,
+     32.9
+    ],
+    [
+     32.9,
+     33.54
+    ]
+   ]
+  }
+ ]
+}

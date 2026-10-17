@@ -1,0 +1,334 @@
+<title>Where Is Teddy? · 2B</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;800&display=swap">
+<style>
+/* Layout: una pizarra para proyectar — barra de pasos arriba, un paso a la vez, tarjetas grandes que se leen desde el fondo del aula */
+:root{
+  --bg:#EEF5FA; --surface:#FFFFFF; --ink:#1B2A4A; --muted:#5B6782; --line:#D5E1EC; --accent:#2980B9;
+  --p-in:#E84C3D; --p-on:#E08A0B; --p-behind:#8E44AD; --p-front:#27AE60; --p-next:#2980B9; --p-between:#D3548C;
+  --ok:#1E9E5A; --bad:#D9443A;
+  --display:"Fredoka","Trebuchet MS",system-ui,sans-serif;
+  --body:"Nunito","Segoe UI",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0E1726; --surface:#17233A; --ink:#EAF1FA; --muted:#A3B1C8; --line:#2A3A57; --accent:#5DADE2;
+  --p-in:#FF6B5C; --p-on:#F5A623; --p-behind:#B57CD6; --p-front:#3DD27F; --p-next:#5DADE2; --p-between:#F07AAE;
+  --ok:#3DD27F; --bad:#FF6B5C; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0E1726; --surface:#17233A; --ink:#EAF1FA; --muted:#A3B1C8; --line:#2A3A57; --accent:#5DADE2;
+  --p-in:#FF6B5C; --p-on:#F5A623; --p-behind:#B57CD6; --p-front:#3DD27F; --p-next:#5DADE2; --p-between:#F07AAE;
+  --ok:#3DD27F; --bad:#FF6B5C; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:1.05rem;line-height:1.5}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:clamp(16px,3vw,32px);padding-block:20px 48px}
+header.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 24px;margin-bottom:18px}
+.eyebrow{font-weight:800;font-size:.78rem;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(2rem,5vw,3.2rem);line-height:1.05;margin:.15em 0 0;text-wrap:balance}
+h2{font-family:var(--display);font-weight:600;font-size:clamp(1.5rem,3.4vw,2.2rem);margin:0 0 .4em;text-wrap:balance}
+h3{font-family:var(--display);font-weight:600;font-size:1.25rem;margin:0 0 .3em}
+nav.steps{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 22px;position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);padding-block:10px;z-index:5}
+nav.steps button{font:600 1rem var(--display);border:2px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:.5em 1.05em;cursor:pointer}
+nav.steps button[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+nav.steps button:focus-visible,button:focus-visible,video:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+section.step{display:grid;gap:20px}
+.lead{color:var(--muted);max-width:62ch;margin:0}
+/* plan del profesor */
+.plan{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,320px);gap:24px}
+@media (max-width:860px){.plan{grid-template-columns:minmax(0,1fr)}}
+.timeline{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.timeline li{display:grid;grid-template-columns:76px minmax(0,1fr);gap:14px;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:14px 16px}
+.timeline .min{font:700 1.4rem var(--display);color:var(--accent);font-variant-numeric:tabular-nums;line-height:1.1}
+.timeline .min small{display:block;font:600 .72rem var(--body);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.timeline p{margin:.2em 0 0;color:var(--muted)}
+.timeline .new{display:inline-block;font:800 .68rem var(--body);letter-spacing:.08em;text-transform:uppercase;color:var(--surface);background:var(--accent);border-radius:6px;padding:.15em .5em;margin-left:.4em;vertical-align:middle}
+aside.box{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:16px 18px;display:grid;gap:10px;align-content:start}
+aside.box ul{margin:0;padding-left:1.1em}
+aside.box p{margin:0}
+/* chips de color por preposición */
+.c-in{--c:var(--p-in)}.c-on{--c:var(--p-on)}.c-behind{--c:var(--p-behind)}.c-front{--c:var(--p-front)}.c-next{--c:var(--p-next)}.c-between{--c:var(--p-between)}
+.prep{color:var(--c);font-weight:800}
+/* tarjetas de aprender */
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+@media (max-width:860px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:520px){.cards{grid-template-columns:minmax(0,1fr)}}
+.card{background:var(--surface);border:3px solid var(--c);border-radius:22px;overflow:hidden;display:grid;cursor:pointer;text-align:left;padding:0;color:var(--ink);font:inherit}
+.card img{display:block;width:100%;aspect-ratio:840/498;object-fit:cover}
+.card .lbl{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 16px 4px}
+.card .word{font:700 clamp(1.6rem,3vw,2.2rem) var(--display);color:var(--c)}
+.card .say{font:600 .85rem var(--body);color:var(--muted)}
+.card .sent{padding:0 16px 14px;color:var(--muted);font-weight:600}
+.card .gest{padding:0 16px 14px;font-size:.9rem;color:var(--muted)}
+.card.playing{box-shadow:0 0 0 6px color-mix(in srgb,var(--c) 30%,transparent)}
+/* canción */
+.song{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:22px;align-items:start}
+@media (max-width:900px){.song{grid-template-columns:minmax(0,1fr)}}
+video{width:100%;max-width:100%;border-radius:18px;background:#000;display:block;aspect-ratio:16/9}
+.lyrics{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:16px 18px;max-height:640px;overflow:auto}
+.lyrics .sec{font:800 .72rem var(--body);letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin:14px 0 2px}
+.lyrics .sec:first-child{margin-top:0}
+.lyrics p{margin:0;font-weight:600}
+.rounds{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+@media (max-width:700px){.rounds{grid-template-columns:minmax(0,1fr)}}
+.rounds div{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px 14px}
+.rounds b{font-family:var(--display);font-size:1.1rem}
+.rounds p{margin:.2em 0 0;color:var(--muted)}
+/* juego */
+.game{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:22px;align-items:start}
+@media (max-width:860px){.game{grid-template-columns:minmax(0,1fr)}}
+.stage{position:relative;background:var(--surface);border-radius:22px;overflow:hidden;border:1px solid var(--line)}
+.stage img{display:block;width:100%;aspect-ratio:840/498;object-fit:cover}
+.stage .q{position:absolute;left:16px;top:14px;font:700 clamp(1.4rem,3vw,2.2rem) var(--display);background:var(--surface);color:var(--ink);border-radius:999px;padding:.15em .7em}
+.answers{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.answers button{font:700 clamp(1.15rem,2.2vw,1.6rem) var(--display);padding:.7em .4em;border-radius:18px;border:3px solid var(--c);background:var(--surface);color:var(--c);cursor:pointer}
+.answers button.right{background:var(--c);color:var(--surface)}
+.answers button.wrong{opacity:.35}
+.feedback{min-height:2.2em;font:700 1.4rem var(--display);margin:0}
+.feedback.ok{color:var(--ok)}.feedback.bad{color:var(--bad)}
+.stars{font:600 1rem var(--body);color:var(--muted)}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.btn{font:600 1.05rem var(--display);border:0;border-radius:999px;padding:.6em 1.3em;background:var(--ink);color:var(--bg);cursor:pointer}
+.btn.ghost{background:transparent;color:var(--ink);border:2px solid var(--line)}
+/* simon says */
+.simon{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:clamp(20px,5vw,56px);display:grid;gap:18px;justify-items:start}
+.cmd{font:700 clamp(2rem,6vw,4.2rem) var(--display);line-height:1.1;margin:0;text-wrap:balance}
+.cmd .who{display:block;font-size:.5em;color:var(--muted)}
+.cmd .who.trap{color:var(--bad)}
+.hint{color:var(--muted);margin:0}
+label.toggle{display:flex;gap:8px;align-items:center;font-weight:600;color:var(--muted)}
+footer{margin-top:28px;color:var(--muted);font-size:.9rem}
+@media (prefers-reduced-motion:no-preference){.card,.answers button{transition:transform .15s,box-shadow .15s}.card:hover,.answers button:hover{transform:translateY(-3px)}}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <div class="eyebrow">English 2B · Unit 5 · Welcome to My Town! · Week 2</div>
+      <h1>Where Is Teddy?</h1>
+    </div>
+    <p class="lead">Prepositions of place: <span class="prep c-in">in</span>, <span class="prep c-on">on</span>, <span class="prep c-behind">behind</span>, <span class="prep c-front">in front of</span>, <span class="prep c-next">next to</span>, <span class="prep c-between">between</span>.</p>
+  </header>
+
+  <nav class="steps" role="tablist" aria-label="Lesson steps">
+    <button role="tab" id="t-plan" aria-controls="plan" aria-selected="true">Teacher's plan</button>
+    <button role="tab" id="t-learn" aria-controls="learn" aria-selected="false">1 · Learn</button>
+    <button role="tab" id="t-song" aria-controls="song" aria-selected="false">2 · Song</button>
+    <button role="tab" id="t-game" aria-controls="game" aria-selected="false">3 · Where is Teddy?</button>
+    <button role="tab" id="t-simon" aria-controls="simon" aria-selected="false">4 · Simon says</button>
+  </nav>
+
+  <!-- PLAN -->
+  <section class="step" id="plan" role="tabpanel" aria-labelledby="t-plan">
+    <div class="plan">
+      <div>
+        <h2>Lesson flow · 45 minutes</h2>
+        <p class="lead" style="margin-bottom:14px">Same structure as the Toddle plan. New pieces are the song, the on-screen cards and the guessing game.</p>
+        <ol class="timeline">
+          <li><div class="min">5'<small>Warm-up</small></div><div><h3>The plushie hides</h3>
+            Students on the rug. Put the class plushie in, on, behind, in front of and next to the box, and between the box and the basket. Ask each time: <b>Where is our plushie?</b> Accept pointing first, then words.</div></li>
+          <li><div class="min">8'<small>Present</small></div><div><h3>Meet the six words <span class="new">new</span></h3>
+            Open <b>1 · Learn</b>. Tap each card: Teddy says the sentence and the class repeats it with the gesture. Then move to the Canva presentation and do its exercises together.
+            <p>Order matters: <span class="prep c-in">in</span> and <span class="prep c-on">on</span> first, <span class="prep c-between">between</span> last, because it needs two objects.</p></div></li>
+          <li><div class="min">8'<small>Song</small></div><div><h3>Where Is Teddy? <span class="new">new</span></h3>
+            Open <b>2 · Song</b>. Play it three times: listen and point, then sing with the gestures, then sing standing up. In each verse Teddy is hidden while the class sings "Where is Teddy?", so they can guess before he appears.</div></li>
+          <li><div class="min">7'<small>Practice</small></div><div><h3>Guess where Teddy is <span class="new">new</span></h3>
+            Open <b>3 · Where is Teddy?</b>. One student comes to the board, says the full sentence ("Teddy is behind the box") and then taps the answer.</div></li>
+          <li><div class="min">12'<small>Notebook</small></div><div><h3>Anchor chart and worksheet</h3>
+            Hand out the anchor chart to stick in the notebook. Students complete the worksheet on their own while you walk around and ask "Where is the…?"</div></li>
+          <li><div class="min">5'<small>Closure</small></div><div><h3>Simon says</h3>
+            Open <b>4 · Simon says</b> and read the commands aloud. Some have no "Simon says": whoever moves sits down.</div></li>
+        </ol>
+      </div>
+      <aside class="box">
+        <h3>Objective</h3>
+        <p>Students name and use six prepositions of place to say where an object or person is: <i>"Teddy is next to the basket."</i></p>
+        <h3>Materials</h3>
+        <ul>
+          <li>Class plushie, a box and a basket</li>
+          <li>Canva presentation (Toddle resource)</li>
+          <li>Anchor chart and worksheet</li>
+          <li>This page on the projector, with sound</li>
+        </ul>
+        <h3>Check for understanding</h3>
+        <ul>
+          <li>Can point to the right place when they hear the word</li>
+          <li>Can say a full sentence: <i>Teddy is … the box.</i></li>
+          <li>Distinguishes <span class="prep c-behind">behind</span> from <span class="prep c-front">in front of</span> (the usual mix-up)</li>
+        </ul>
+        <h3>Link to the project</h3>
+        <p>The song's bridge moves to the town: <i>the park is next to the bakery, the school is behind the big green tree</i>. Students can describe the ideal town they drew last week the same way.</p>
+      </aside>
+    </div>
+  </section>
+
+  <!-- LEARN -->
+  <section class="step" id="learn" role="tabpanel" aria-labelledby="t-learn" hidden>
+    <div><h2>Where is Teddy?</h2><p class="lead">Tap a card to hear the sentence. Say it together and do the gesture.</p></div>
+    <div class="cards" id="cards"></div>
+  </section>
+
+  <!-- SONG -->
+  <section class="step" id="song" role="tabpanel" aria-labelledby="t-song" hidden>
+    <div class="song">
+      <div style="display:grid;gap:14px;min-width:0">
+        <video id="vid" controls preload="metadata" poster="in.jpg" src="where-is-teddy.mp4"></video>
+        <div class="rounds">
+          <div><b>1st time</b><p>Listen and point to Teddy.</p></div>
+          <div><b>2nd time</b><p>Sing and do the gestures.</p></div>
+          <div><b>3rd time</b><p>Stand up and sing loud!</p></div>
+        </div>
+      </div>
+      <div class="lyrics" id="lyrics" aria-label="Lyrics"></div>
+    </div>
+  </section>
+
+  <!-- GAME -->
+  <section class="step" id="game" role="tabpanel" aria-labelledby="t-game" hidden>
+    <div class="game">
+      <div class="stage"><img id="g-img" src="in.jpg" alt="Teddy and the box"><span class="q">Where is Teddy?</span></div>
+      <div style="display:grid;gap:14px;min-width:0">
+        <p class="hint">Say the whole sentence first: <b>Teddy is … the box.</b> Then tap.</p>
+        <div class="answers" id="answers"></div>
+        <p class="feedback" id="fb" aria-live="polite"></p>
+        <div class="row"><button class="btn" id="g-next">Next picture</button><span class="stars" id="stars">0 correct</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SIMON -->
+  <section class="step" id="simon" role="tabpanel" aria-labelledby="t-simon" hidden>
+    <div class="simon">
+      <p class="cmd" id="cmd"><span class="who">Simon says…</span>stand next to your chair.</p>
+      <div class="row">
+        <button class="btn" id="s-next">Next command</button>
+        <label class="toggle"><input type="checkbox" id="s-traps" checked> Include tricks (no "Simon says")</label>
+      </div>
+      <p class="hint">Read it aloud with a big voice. If there is no "Simon says", nobody moves!</p>
+    </div>
+  </section>
+
+  <footer>Song, video and pictures made for English 2B, Nordic International School · October 2026.</footer>
+</div>
+
+<script>
+const P = [
+  {k:"in", c:"c-in", img:"in.jpg", s:"Teddy is in the box.", g:"Make a box with one hand and put your other fist inside."},
+  {k:"on", c:"c-on", img:"on.jpg", s:"Teddy is on the box.", g:"Put one flat hand on top of your fist."},
+  {k:"behind", c:"c-behind", img:"behind.jpg", s:"Teddy is behind the box.", g:"Hide both hands behind your back."},
+  {k:"in front of", c:"c-front", img:"in-front-of.jpg", s:"Teddy is in front of the box.", g:"Push both hands forward, in front of your tummy."},
+  {k:"next to", c:"c-next", img:"next-to.jpg", s:"Teddy is next to the basket.", g:"Put two fists side by side."},
+  {k:"between", c:"c-between", img:"between.jpg", s:"Teddy is between the box and the basket.", g:"Hands apart, then pop your head in the middle."}
+];
+const file = k => "say-" + k.replace(/ /g,"-") + ".mp3";
+let audio = null;
+function say(src){ try{ if(audio){audio.pause();} audio = new Audio(src); audio.play().catch(()=>{}); }catch(e){} }
+
+/* tabs */
+const tabs=[...document.querySelectorAll('nav.steps [role=tab]')];
+function show(id){
+  tabs.forEach(t=>{const on=t.getAttribute('aria-controls')===id;t.setAttribute('aria-selected',on);document.getElementById(t.getAttribute('aria-controls')).hidden=!on;});
+  if(id!=="song"){const v=document.getElementById('vid');v.pause();}
+  try{localStorage.setItem('teddy-step',id)}catch(e){}
+}
+tabs.forEach(t=>t.addEventListener('click',()=>show(t.getAttribute('aria-controls'))));
+const fromHash=location.hash.slice(1); let saved=null; try{saved=localStorage.getItem('teddy-step')}catch(e){}
+show(["plan","learn","song","game","simon"].includes(fromHash)?fromHash:(saved||"plan"));
+
+/* cards */
+const cards=document.getElementById('cards');
+P.forEach(p=>{
+  const b=document.createElement('button'); b.className='card '+p.c; b.type='button';
+  b.innerHTML=`<img src="${p.img}" alt="${p.s}"><div class="lbl"><span class="word">${p.k}</span><span class="say">▶ listen</span></div><div class="sent">${p.s}</div><div class="gest">✋ ${p.g}</div>`;
+  b.addEventListener('click',()=>{document.querySelectorAll('.card.playing').forEach(x=>x.classList.remove('playing'));b.classList.add('playing');say(file(p.k));});
+  cards.appendChild(b);
+});
+
+/* lyrics */
+const LYR=`[Verse 1]
+Where is Teddy? Where is he?
+Look, look, look and you will see!
+Teddy is in the box, in the box,
+Teddy is in the box today!
+[Verse 2]
+Where is Teddy? Where is he?
+Look, look, look and you will see!
+Teddy is on the box, on the box,
+Teddy is on the box today!
+[Chorus]
+In, on, next to, behind,
+in front of, between!
+Where is Teddy? Look and find!
+Where, oh where has Teddy been?
+[Verse 3]
+Where is Teddy? Where is he?
+Look, look, look and you will see!
+Teddy is behind the box, behind the box,
+Teddy is behind the box today!
+[Verse 4]
+Where is Teddy? Where is he?
+Look, look, look and you will see!
+Teddy is in front of the box, in front of the box,
+Teddy is in front of the box today!
+[Chorus]
+In, on, next to, behind…
+[Verse 5]
+Where is Teddy? Where is he?
+Look, look, look and you will see!
+Teddy is next to the basket, next to the basket,
+Teddy is next to the basket today!
+[Verse 6]
+Where is Teddy? Where is he?
+Look, look, look and you will see!
+Teddy is between the box and the basket,
+between the box and the basket today!
+[Chorus]
+In, on, next to, behind…
+[Bridge]
+Welcome to my town, come and see,
+the park is next to the bakery!
+The school is behind the big green tree,
+and Teddy is in front of me!
+[Final chorus]
+In, on, next to, behind,
+in front of, between!
+Where is Teddy? Look and find!
+Teddy is here with me!`;
+const COL={"in front of":"c-front","next to":"c-next","between":"c-between","behind":"c-behind","on":"c-on","in":"c-in"};
+const re=/\b(in front of|next to|between|behind|on|in)\b/gi;
+const esc=s=>s.replace(/[&<>]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[m]));
+document.getElementById('lyrics').innerHTML=LYR.split("\n").map(l=>{
+  if(l.startsWith("[")) return `<div class="sec">${esc(l.slice(1,-1))}</div>`;
+  return `<p>${esc(l).replace(re,m=>`<span class="prep ${COL[m.toLowerCase()]}">${m}</span>`)}</p>`;
+}).join("");
+
+/* game */
+let cur=-1, score=0, locked=false;
+const ans=document.getElementById('answers'), fb=document.getElementById('fb'), img=document.getElementById('g-img');
+P.forEach((p,i)=>{const b=document.createElement('button');b.type='button';b.className=p.c;b.textContent=p.k;b.dataset.i=i;b.addEventListener('click',()=>pick(i,b));ans.appendChild(b);});
+function next(){
+  let n; do{n=Math.floor(Math.random()*P.length)}while(n===cur); cur=n; locked=false;
+  img.src=P[n].img; img.alt="Where is Teddy?"; fb.textContent=""; fb.className="feedback";
+  ans.querySelectorAll('button').forEach(b=>b.className=P[b.dataset.i].c);
+}
+function pick(i,b){
+  if(locked) return;
+  if(i===cur){locked=true;b.classList.add('right');fb.textContent=P[i].s;fb.className="feedback ok";score++;
+    document.getElementById('stars').textContent=score+" correct "+"⭐".repeat(Math.min(score,10));say(file(P[i].k));}
+  else{b.classList.add('wrong');fb.textContent="Oops! Try again.";fb.className="feedback bad";say("say-try.mp3");}
+}
+document.getElementById('g-next').addEventListener('click',next);
+next();
+
+/* simon says */
+const CMDS=["stand next to your chair.","put your pencil on your head.","put your hands behind your back.","stand in front of your desk.",
+  "put your eraser in your pencil case.","stand between two friends.","put your book on your desk.","put your hands in front of your eyes.",
+  "stand behind your chair.","put your pencil next to your book.","put your hands on your knees.","put your eraser between two pencils."];
+let last=-1;
+document.getElementById('s-next').addEventListener('click',()=>{
+  let n; do{n=Math.floor(Math.random()*CMDS.length)}while(n===last); last=n;
+  const trap=document.getElementById('s-traps').checked && Math.random()<0.25;
+  const t=CMDS[n];
+  document.getElementById('cmd').innerHTML = trap
+    ? `<span class="who trap">(no Simon!)</span>${t.charAt(0).toUpperCase()+t.slice(1)}`
+    : `<span class="who">Simon says…</span>${t}`;
+});
+</script>

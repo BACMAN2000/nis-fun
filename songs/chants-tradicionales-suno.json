@@ -1,0 +1,281 @@
+{
+  "_cuenta": "pbaca",
+  "_modelo": "v6",
+  "_fecha": "2026-10-10",
+  "_nota": "Chants de Rhymes & chants. 'version': intacta = rima tradicional + entrada/cierre del elenco; nis = Suno rechazo la tradicional por copyright y se uso letra_nis de chants-tradicionales.py. Rechazadas tal cual: eeny-meeny (la quito DESPUES de generar), one-potato, bubble-gum (y tambien 'Popcorn in a cup'), tinker-tailor, miss-mary-mack, pat-a-cake, teddy-bear, i-like-coffee, cinderella (quitada despues de generar). Falta: elegir toma de oido y descargar (cupo). | 10-oct: el usuario pidio mas variedad (todas sonaban igual). v2 = un genero distinto por chant (estilo_v2 en el .py: hip-hop, shanty, reggae, rock and roll, country, huayno, marching band, calypso, ska, bossa, K-pop, surf, tarantella, cumbia, Motown, Afrobeat, samba, electro swing). elegida_v1 = la toma marcada de la v1 (reserva). | Chrome (perfil Default) descarga en C:/Users/Public/Downloads, no en Descargas del usuario.",
+  "chants": {
+    "eeny-meeny": {
+      "titulo_suno": "Who Is It?",
+      "ids": [
+        "4ec710a6-4490-4d12-9d0c-dafcad68f9bc",
+        "e07ada4b-bc57-4b5d-b5ed-7be3f5a6f5ad"
+      ],
+      "version": "nis",
+      "descargada": "songs/audio/chants/eeny-meeny.mp3",
+      "ids_v2": [
+        "5629c9b6-80fa-4c78-9675-4b01a98962c5",
+        "a2123275-6f02-4ebe-9f5f-14ff36d1d622"
+      ],
+      "elegida_v1": "e07ada4b-bc57-4b5d-b5ed-7be3f5a6f5ad",
+      "elegida": "5629c9b6-80fa-4c78-9675-4b01a98962c5"
+    },
+    "one-potato": {
+      "titulo_suno": "One Puffin, Two Puffin",
+      "ids": [
+        "16db4faf-78ac-4a12-acaa-b92c16897816",
+        "298eb7a1-1959-4841-853f-09e424b720d5"
+      ],
+      "version": "nis",
+      "descargada": "songs/audio/chants/one-potato.mp3",
+      "ids_v2": [
+        "5eb601cc-61bf-46b2-86bf-9f53f00a11e5",
+        "677dec6d-6301-4e6d-b940-2d233660868e"
+      ],
+      "elegida_v1": "298eb7a1-1959-4841-853f-09e424b720d5",
+      "elegida": "677dec6d-6301-4e6d-b940-2d233660868e"
+    },
+    "ip-dip": {
+      "titulo_suno": "Ip Dip",
+      "ids": [
+        "a4258026-2c09-4ab6-8d95-112155a5125d",
+        "a80bf2b7-ad70-47ac-8027-a07e48e1376b"
+      ],
+      "version": "intacta",
+      "descargada": "songs/audio/chants/ip-dip.mp3",
+      "ids_v2": [
+        "6573de11-985d-42b5-8c93-86d3d88b46d3",
+        "7eb3f214-8c08-428c-a403-34750b72f623"
+      ],
+      "elegida_v1": "a80bf2b7-ad70-47ac-8027-a07e48e1376b",
+      "elegida": "7eb3f214-8c08-428c-a403-34750b72f623"
+    },
+    "bubble-gum": {
+      "titulo_suno": "Cookies on a Plate",
+      "ids": [
+        "f7ec4980-67f0-4230-8a82-59a78cec103f",
+        "b0b32f7d-240d-477a-87fc-b131938972da"
+      ],
+      "version": "nis",
+      "descargada": null,
+      "ids_v2": [
+        "0b52bfb7-fc51-4a0d-8879-75b6f311ff94",
+        "963d48c7-30ab-4686-aced-1130da9f98d1"
+      ],
+      "elegida_v1": "f7ec4980-67f0-4230-8a82-59a78cec103f",
+      "elegida": null,
+      "pendiente": "el usuario marco las dos tomas v2: falta elegir"
+    },
+    "engine-engine": {
+      "titulo_suno": "Engine Engine",
+      "ids": [
+        "11c638ed-d447-4750-9309-298b11314ca0",
+        "a3ab6228-a651-4d1b-a4cc-af3595a433ee"
+      ],
+      "version": "intacta",
+      "descargada": "songs/audio/chants/engine-engine.mp3",
+      "ids_v2": [
+        "c9c64e46-ef82-4faa-9bcc-46b85df79d43",
+        "e0eb7dc3-0557-4d6a-bc18-b5f9dbb0175b"
+      ],
+      "elegida_v1": "11c638ed-d447-4750-9309-298b11314ca0",
+      "elegida": "e0eb7dc3-0557-4d6a-bc18-b5f9dbb0175b"
+    },
+    "inky-pinky": {
+      "titulo_suno": "Inky Pinky",
+      "ids": [
+        "11516855-356f-49ca-b86d-0516ad6a4b5e",
+        "76627f39-7624-4692-8501-989a53ca948c"
+      ],
+      "version": "intacta",
+      "descargada": null,
+      "ids_v2": [
+        "2865ee0d-e159-4df2-9789-f46f47e1b5e1",
+        "95e6d79e-2307-40f8-a670-c9bde4785f8f"
+      ],
+      "elegida_v1": "11516855-356f-49ca-b86d-0516ad6a4b5e",
+      "elegida": null,
+      "pendiente": "el usuario marco las dos tomas v2: falta elegir"
+    },
+    "tinker-tailor": {
+      "titulo_suno": "Teacher, Doctor",
+      "ids": [
+        "c9662310-e666-4c81-a857-78152f501f50",
+        "da09ad8b-980e-4c35-963d-c35a81a89ebc"
+      ],
+      "version": "nis",
+      "descargada": "songs/audio/chants/tinker-tailor.mp3",
+      "ids_v2": [
+        "15fd12b0-9168-4ef6-a98b-ba4496fad775",
+        "16476ffd-84f7-4608-a901-1424559cd50d"
+      ],
+      "elegida_v1": "da09ad8b-980e-4c35-963d-c35a81a89ebc",
+      "elegida": "15fd12b0-9168-4ef6-a98b-ba4496fad775"
+    },
+    "fish-alive": {
+      "titulo_suno": "Pip Takes a Dive",
+      "ids": [
+        "9e5d3004-9313-4de7-be43-5a2998001227",
+        "ed21166e-b9d8-4050-8dd8-df31eee27b49"
+      ],
+      "version": "nis",
+      "descargada": "songs/audio/chants/fish-alive.mp3",
+      "ids_v2": [
+        "50281d00-5ce5-4c96-aabb-20544ad74e65",
+        "9d8cb812-6f34-4a36-88b0-3f151fc6736e"
+      ],
+      "elegida_v1": "9e5d3004-9313-4de7-be43-5a2998001227",
+      "elegida": "50281d00-5ce5-4c96-aabb-20544ad74e65"
+    },
+    "icka-bicka": {
+      "titulo_suno": "Icka Bicka",
+      "ids": [
+        "142aaaf8-7987-4625-b084-fe0032f086b1",
+        "378133ce-8204-44bf-8a53-e45da0ae8728"
+      ],
+      "version": "intacta",
+      "descargada": "songs/audio/chants/icka-bicka.mp3",
+      "ids_v2": [
+        "a65e63c4-6596-447b-8489-951276acce92",
+        "dc95e0bb-e629-4ebb-b2ba-f75bf44b0a37"
+      ],
+      "elegida_v1": "378133ce-8204-44bf-8a53-e45da0ae8728",
+      "elegida": "a65e63c4-6596-447b-8489-951276acce92"
+    },
+    "sky-blue": {
+      "titulo_suno": "Sky Blue",
+      "ids": [
+        "30366276-c4a1-43e8-995c-5a117c4fb10f",
+        "5e61aa4d-2893-4d0e-9e4a-b8a5a14f1f67"
+      ],
+      "version": "intacta",
+      "descargada": "songs/audio/chants/sky-blue.mp3",
+      "ids_v2": [
+        "11161bf3-b2c2-4dbd-a782-efd902190b8a",
+        "e86bab17-2735-4141-ade4-4730762168e1"
+      ],
+      "elegida_v1": "30366276-c4a1-43e8-995c-5a117c4fb10f",
+      "elegida": "e86bab17-2735-4141-ade4-4730762168e1"
+    },
+    "miss-mary-mack": {
+      "titulo_suno": "Little Pip, Pip, Pip",
+      "ids": [
+        "91e11de8-00e6-4df7-95a3-0e722b16a763",
+        "f2c303c6-0ebe-4791-951f-e0779f571913"
+      ],
+      "version": "nis",
+      "descargada": "songs/audio/chants/miss-mary-mack.mp3",
+      "ids_v2": [
+        "0d5f387a-aa11-4c9d-b628-fa31d254d1ac",
+        "6c3855c6-a60d-4e3f-88a4-06d47a8eaab4"
+      ],
+      "elegida_v1": "f2c303c6-0ebe-4791-951f-e0779f571913",
+      "elegida": "0d5f387a-aa11-4c9d-b628-fa31d254d1ac"
+    },
+    "sailor-went-to-sea": {
+      "titulo_suno": "A Sailor Went to Sea",
+      "ids": [
+        "322ba692-ec0b-40c0-8c95-80f9164ea0e9",
+        "3928ba68-5296-4933-af52-4b93b493c6a5"
+      ],
+      "version": "intacta",
+      "descargada": "songs/audio/chants/sailor-went-to-sea.mp3",
+      "ids_v2": [
+        "838ce80c-c2f2-497e-8470-6aa0c11de141",
+        "b91b46b1-6c22-4b5d-9b6e-9658c3ed395c"
+      ],
+      "elegida_v1": "3928ba68-5296-4933-af52-4b93b493c6a5",
+      "elegida": "838ce80c-c2f2-497e-8470-6aa0c11de141"
+    },
+    "pat-a-cake": {
+      "titulo_suno": "Roll the Pizza",
+      "ids": [
+        "bd231dea-1d41-49e4-a315-44b1cbc08bfc",
+        "2fa33164-9afd-406b-8087-b22b70b7d4a1"
+      ],
+      "version": "nis",
+      "descargada": "songs/audio/chants/pat-a-cake.mp3",
+      "ids_v2": [
+        "85fbcbea-85b9-4549-9a6c-a59c883b576f",
+        "df726ec4-44b7-4a49-a63c-6dd7982a07bf"
+      ],
+      "elegida_v1": "2fa33164-9afd-406b-8087-b22b70b7d4a1",
+      "elegida": "85fbcbea-85b9-4549-9a6c-a59c883b576f"
+    },
+    "double-double": {
+      "titulo_suno": "Double Double",
+      "ids": [
+        "1cfa2f2a-762a-411f-8b55-1dc47cfcf44a",
+        "cb27a7cb-9c40-4361-849e-537e9f446017"
+      ],
+      "version": "intacta",
+      "descargada": "songs/audio/chants/double-double.mp3",
+      "ids_v2": [
+        "435ec792-3ffd-4964-b4af-96f754b3edee",
+        "54008d90-0ffe-4f93-bd9c-3f544b5e39f2"
+      ],
+      "elegida_v1": "1cfa2f2a-762a-411f-8b55-1dc47cfcf44a",
+      "elegida": "435ec792-3ffd-4964-b4af-96f754b3edee"
+    },
+    "down-down-baby": {
+      "titulo_suno": "Down Down Baby",
+      "ids": [
+        "483d7da8-ed01-4ac6-b747-256c11de622f",
+        "a63f4d20-ba8a-4b6e-83dd-6e58371be613"
+      ],
+      "version": "intacta",
+      "descargada": null,
+      "ids_v2": [
+        "603491d9-65db-44fc-a2c7-0ee3bcdb46a1",
+        "b5bb5edd-06a7-4bef-9f5c-4e00c8344296"
+      ],
+      "elegida_v1": "483d7da8-ed01-4ac6-b747-256c11de622f",
+      "elegida": "b5bb5edd-06a7-4bef-9f5c-4e00c8344296"
+    },
+    "teddy-bear": {
+      "titulo_suno": "Jump, Tomás, Jump",
+      "ids": [
+        "3339482b-1729-49cf-bf2d-338e4ec03f7f",
+        "d45689bd-2711-41e6-88b5-62638d292d6b"
+      ],
+      "version": "nis",
+      "descargada": null,
+      "ids_v2": [
+        "0e7cda79-73c1-40a6-bc74-89804dafb550",
+        "b3132bb1-8f4a-4b95-8945-df7404208334"
+      ],
+      "elegida_v1": "d45689bd-2711-41e6-88b5-62638d292d6b",
+      "elegida": "b3132bb1-8f4a-4b95-8945-df7404208334"
+    },
+    "cinderella": {
+      "titulo_suno": "Freya at the Zoo",
+      "ids": [
+        "c90bf27b-bd8e-4848-a01b-0af7054da1cc",
+        "057720f1-1884-4d30-9fa3-bdba810623ec"
+      ],
+      "version": "nis",
+      "descargada": null,
+      "ids_v2": [
+        "c25da8d3-524b-426f-b47e-a8aa9ea83f3b",
+        "dbada4a4-6c7f-4f27-8041-dd61b63bd53b"
+      ],
+      "elegida_v1": "c90bf27b-bd8e-4848-a01b-0af7054da1cc",
+      "elegida": "c25da8d3-524b-426f-b47e-a8aa9ea83f3b"
+    },
+    "i-like-coffee": {
+      "titulo_suno": "Apple, Orange, Pear",
+      "ids": [
+        "64328d5b-bf79-4fc9-b7c9-b3aa72d05438",
+        "d3936b1f-2f43-44b0-8abc-f8fcf25a0458"
+      ],
+      "version": "nis",
+      "descargada": null,
+      "ids_v2": [
+        "26ef8bf1-9225-45f0-85c5-6b8a7a350d8b",
+        "2ab56414-a5b9-426f-8406-fa4db69615a3"
+      ],
+      "elegida_v1": "d3936b1f-2f43-44b0-8abc-f8fcf25a0458",
+      "elegida": null,
+      "pendiente": "el usuario marco las dos tomas v2: falta elegir"
+    }
+  }
+}

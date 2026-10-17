@@ -1,0 +1,113 @@
+{
+ "_nota": "Generado por nis-fun/songs/chants-video/publica.py. Canción (Suno) y video karaoke de cada chant.",
+ "chants": {
+  "eeny-meeny": {
+   "titulo": "Who Is It?",
+   "nueva_letra": true,
+   "genero": "hip-hop",
+   "mp3": "/nis-fun/audio/chants/eeny-meeny.mp3",
+   "mp4": "/nis-fun/assets/videos/chants/eeny-meeny.mp4",
+   "poster": "/nis-fun/assets/videos/chants/eeny-meeny.jpg",
+   "letra": "[Freya] Hello, friends! Who is it today? Let's count!\n\nNico, Freya, Astrid, Pip,\nRound the circle, hop and skip.\nPoint your finger, round we go,\nWho is it? We want to know!\nOne, two, three, it's not you,\nNot you, not you, and not you!\n\n[Kids] Not you, Astrid! Not you, Tomás!\n\nNico, Freya, Astrid, Pip,\nRound the circle, hop and skip.\nPoint your finger, round we go,\nWho is it? We want to know!\n\n[Freya] It's you, Nico!\n[Nico] Oops!"
+  },
+  "one-potato": {
+   "titulo": "One Puffin, Two Puffin",
+   "nueva_letra": true,
+   "genero": "sea shanty",
+   "mp3": "/nis-fun/audio/chants/one-potato.mp3",
+   "mp4": "/nis-fun/assets/videos/chants/one-potato.mp4",
+   "poster": "/nis-fun/assets/videos/chants/one-potato.jpg",
+   "letra": "[Tomás] Fists in! Ready? Let's go!\n\nOne puffin, two puffins, on the rocks,\nThree puffins, four puffins, in red socks!\nFive puffins, six puffins, in the sea,\nSeven puffins, eight puffins, look at me!\n\n[Kids] Count again! Count again!\n\nOne puffin, two puffins, on the rocks,\nThree puffins, four puffins, in red socks!\nFive puffins, six puffins, in the sea,\nSeven puffins, eight puffins, look at me!\n\n[Tomás] Eight! You're out, Freya!"
+  },
+  "ip-dip": {
+   "titulo": "Ip Dip",
+   "nueva_letra": false,
+   "genero": "reggae",
+   "mp3": "/nis-fun/audio/chants/ip-dip.mp3",
+   "mp4": "/nis-fun/assets/videos/chants/ip-dip.mp4",
+   "poster": "/nis-fun/assets/videos/chants/ip-dip.jpg",
+   "letra": "[Astrid] Stand in a circle. One finger out!\n\nIp dip, sky blue,\nWho's it? Not you!\n[Kids] Not you, Lía!\n\nIp dip, sky blue,\nWho's it? Not you!\n[Kids] Not you, Bruno!\n\nIp dip, sky blue,\nWho's it? Not you!\n[Kids] Not you, Astrid!\n\n[Astrid] Nico, you're it!\n[Nico] Oops!"
+  },
+  "engine-engine": {
+   "titulo": "Engine Engine",
+   "nueva_letra": false,
+   "genero": "country",
+   "mp3": "/nis-fun/audio/chants/engine-engine.mp3",
+   "mp4": "/nis-fun/assets/videos/chants/engine-engine.mp4",
+   "poster": "/nis-fun/assets/videos/chants/engine-engine.jpg",
+   "letra": "[Tomás] Choo choo! All aboard!\n\nEngine, engine, number nine,\nGoing down Chicago line.\nIf the train should jump the track,\nDo you want your money back?\n[Nico] Yes!\n[Kids] Y-E-S spells yes, and you are not it!\n\nEngine, engine, number nine,\nGoing down Chicago line.\nIf the train should jump the track,\nDo you want your money back?\n[Iris] No!\n[Kids] N-O spells no, and you are not it!\n\n[Tomás] Choo choo!"
+  },
+  "tinker-tailor": {
+   "titulo": "Teacher, Doctor",
+   "nueva_letra": true,
+   "genero": "marching band",
+   "mp3": "/nis-fun/audio/chants/tinker-tailor.mp3",
+   "mp4": "/nis-fun/assets/videos/chants/tinker-tailor.mp4",
+   "poster": "/nis-fun/assets/videos/chants/tinker-tailor.jpg",
+   "letra": "[Astrid] Count the buttons on your coat! What will you be?\n\nTeacher, doctor, farmer, pilot,\nDriver, dancer, singer, cook!\n\nTeacher, doctor, farmer, pilot,\nDriver, dancer, singer, cook!\n\n[Freya] One more time, Bruno!\n\nTeacher, doctor, farmer, pilot,\nDriver, dancer, singer, cook!\n\n[Kids] Pilot! Bruno is a pilot!"
+  },
+  "fish-alive": {
+   "titulo": "Pip Takes a Dive",
+   "nueva_letra": true,
+   "genero": "calypso",
+   "mp3": "/nis-fun/audio/chants/fish-alive.mp3",
+   "mp4": "/nis-fun/assets/videos/chants/fish-alive.mp4",
+   "poster": "/nis-fun/assets/videos/chants/fish-alive.jpg",
+   "letra": "[Freya] Where is Pip? He's at the sea!\n\nOne, two, three, four, five,\nPip the puffin takes a dive.\nSix, seven, eight, nine, ten,\nUp he comes with a fish again!\n\nWhy does Pip go down so deep?\nFish for dinner, then he'll sleep.\nWhich fish did Pip bring back?\nA little silver one. Snap, snap, snap!\n\n[Nico] Snap, snap! Good job, Pip!"
+  },
+  "icka-bicka": {
+   "titulo": "Icka Bicka",
+   "nueva_letra": false,
+   "genero": "ska",
+   "mp3": "/nis-fun/audio/chants/icka-bicka.mp3",
+   "mp4": "/nis-fun/assets/videos/chants/icka-bicka.mp4",
+   "poster": "/nis-fun/assets/videos/chants/icka-bicka.jpg",
+   "letra": "[Freya] Feet in the circle! Ready?\n\nIcka bicka soda cracker,\nIcka bicka boo.\nIcka bicka soda cracker,\nOut goes you!\n[Kids] Bye, Samu!\n\nIcka bicka soda cracker,\nIcka bicka boo.\nIcka bicka soda cracker,\nOut goes you!\n[Kids] Bye, Iris!\n\n[Nico] Me? Oops!"
+  },
+  "sky-blue": {
+   "titulo": "Sky Blue",
+   "nueva_letra": false,
+   "genero": "bossa nova",
+   "mp3": "/nis-fun/audio/chants/sky-blue.mp3",
+   "mp4": "/nis-fun/assets/videos/chants/sky-blue.mp4",
+   "poster": "/nis-fun/assets/videos/chants/sky-blue.jpg",
+   "letra": "[Astrid] Look up! What colour is the sky?\n\nOne, two, sky blue,\nAll out but you!\n[Kids] Aiko!\n\nOne, two, sky blue,\nAll out but you!\n[Kids] Tomás!\n\nOne, two, sky blue,\nAll out but you!\n[Kids] Freya!\n\n[Astrid] Blue, blue, sky blue!"
+  },
+  "miss-mary-mack": {
+   "titulo": "Little Pip, Pip, Pip",
+   "nueva_letra": true,
+   "genero": "K-pop",
+   "mp3": "/nis-fun/audio/chants/miss-mary-mack.mp3",
+   "mp4": "/nis-fun/assets/videos/chants/miss-mary-mack.mp4",
+   "poster": "/nis-fun/assets/videos/chants/miss-mary-mack.jpg",
+   "letra": "[Freya] Clap with me, Astrid! Clap, clap!\n\nLittle Pip, Pip, Pip,\nWent on a trip, trip, trip,\nHe took his hat, hat, hat,\nAnd his yellow map, map, map.\n\nHe flew so far, far, far,\nOver a car, car, car,\nOver the school, school, school,\nAnd the swimming pool, pool, pool.\n\nHe saw the moon, moon, moon,\nHe came back soon, soon, soon,\nAnd he said hello, lo, lo,\nTo the kids below, low, low!\n\n[Nico] Hello, Pip! Oops, he's gone!"
+  },
+  "sailor-went-to-sea": {
+   "titulo": "A Sailor Went to Sea",
+   "nueva_letra": false,
+   "genero": "surf rock",
+   "mp3": "/nis-fun/audio/chants/sailor-went-to-sea.mp3",
+   "mp4": "/nis-fun/assets/videos/chants/sailor-went-to-sea.mp4",
+   "poster": "/nis-fun/assets/videos/chants/sailor-went-to-sea.jpg",
+   "letra": "[Freya] Look at the sea! Clap with me!\n\nA sailor went to sea, sea, sea,\nTo see what he could see, see, see,\nBut all that he could see, see, see,\nWas the bottom of the deep blue sea, sea, sea.\n\nA sailor went to sea, sea, sea,\nTo see what he could see, see, see,\nBut all that he could see, see, see,\nWas the bottom of the deep blue sea, sea, sea.\n\n[Nico] And Pip! He saw Pip!"
+  },
+  "pat-a-cake": {
+   "titulo": "Roll the Pizza",
+   "nueva_letra": true,
+   "genero": "tarantella",
+   "mp3": "/nis-fun/audio/chants/pat-a-cake.mp3",
+   "mp4": "/nis-fun/assets/videos/chants/pat-a-cake.mp4",
+   "poster": "/nis-fun/assets/videos/chants/pat-a-cake.jpg",
+   "letra": "[Tomás] Let's make a pizza! Clap, clap!\n\nRoll it, roll it, round and flat,\nMake a pizza, just like that!\nCheese on top and tomatoes red,\nInto the oven, Tomás said!\n\nRoll it, roll it, round and flat,\nMake a pizza, just like that!\nCheese on top and green beans too,\nPizza for Freya, and pizza for you!\n\n[Freya] Mmm! Yummy pizza!"
+  },
+  "double-double": {
+   "titulo": "Double Double",
+   "nueva_letra": false,
+   "genero": "Peruvian cumbia",
+   "mp3": "/nis-fun/audio/chants/double-double.mp3",
+   "mp4": "/nis-fun/assets/videos/chants/double-double.mp4",
+   "poster": "/nis-fun/assets/videos/chants/double-double.jpg",
+   "letra": "[Astrid] Double clap! Faster and faster!\n\nDouble, double, this, this,\nDouble, double, that, that,\nDouble this, double that,\nDouble, double, this, that.\n\nDouble, double, this, this,\nDouble, double, that, that,\nDouble this, double that,\nDouble, double, this, that.\n\n[Bruno] Faster! This, that, this, that!"
+  }
+ }
+}

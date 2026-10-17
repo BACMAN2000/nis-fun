@@ -1,0 +1,452 @@
+{
+ "id": "one-potato",
+ "duration": 52.32,
+ "hit": 69,
+ "total": 69,
+ "lines": [
+  {
+   "sec": "Intro",
+   "who": "Tomás",
+   "text": "Fists in! Ready? Let's go!",
+   "words": [
+    "Fists",
+    "in!",
+    "Ready?",
+    "Let's",
+    "go!"
+   ],
+   "t": [
+    [
+     1.8,
+     2.72
+    ],
+    [
+     2.72,
+     3.14
+    ],
+    [
+     3.4,
+     3.78
+    ],
+    [
+     5.34,
+     6.26
+    ],
+    [
+     6.26,
+     6.7
+    ]
+   ]
+  },
+  {
+   "sec": "Verse",
+   "who": null,
+   "text": "One puffin, two puffins, on the rocks,",
+   "words": [
+    "One",
+    "puffin,",
+    "two",
+    "puffins,",
+    "on",
+    "the",
+    "rocks,"
+   ],
+   "t": [
+    [
+     7.16,
+     7.16
+    ],
+    [
+     7.16,
+     7.82
+    ],
+    [
+     8.0,
+     8.26
+    ],
+    [
+     8.26,
+     9.02
+    ],
+    [
+     9.04,
+     9.42
+    ],
+    [
+     9.42,
+     9.98
+    ],
+    [
+     9.98,
+     10.5
+    ]
+   ]
+  },
+  {
+   "sec": "Verse",
+   "who": null,
+   "text": "Three puffins, four puffins, in red socks!",
+   "words": [
+    "Three",
+    "puffins,",
+    "four",
+    "puffins,",
+    "in",
+    "red",
+    "socks!"
+   ],
+   "t": [
+    [
+     11.2,
+     11.48
+    ],
+    [
+     11.48,
+     12.2
+    ],
+    [
+     12.34,
+     12.64
+    ],
+    [
+     12.64,
+     13.36
+    ],
+    [
+     13.5,
+     13.74
+    ],
+    [
+     13.74,
+     14.26
+    ],
+    [
+     14.26,
+     14.88
+    ]
+   ]
+  },
+  {
+   "sec": "Verse",
+   "who": null,
+   "text": "Five puffins, six puffins, in the sea,",
+   "words": [
+    "Five",
+    "puffins,",
+    "six",
+    "puffins,",
+    "in",
+    "the",
+    "sea,"
+   ],
+   "t": [
+    [
+     15.66,
+     15.96
+    ],
+    [
+     15.96,
+     16.54
+    ],
+    [
+     16.74,
+     16.96
+    ],
+    [
+     16.96,
+     17.7
+    ],
+    [
+     17.7,
+     18.16
+    ],
+    [
+     18.16,
+     18.68
+    ],
+    [
+     18.68,
+     19.26
+    ]
+   ]
+  },
+  {
+   "sec": "Verse",
+   "who": null,
+   "text": "Seven puffins, eight puffins, look at me!",
+   "words": [
+    "Seven",
+    "puffins,",
+    "eight",
+    "puffins,",
+    "look",
+    "at",
+    "me!"
+   ],
+   "t": [
+    [
+     19.88,
+     20.16
+    ],
+    [
+     20.16,
+     20.92
+    ],
+    [
+     21.06,
+     21.26
+    ],
+    [
+     21.26,
+     21.92
+    ],
+    [
+     22.0,
+     22.3
+    ],
+    [
+     22.3,
+     22.9
+    ],
+    [
+     22.9,
+     23.32
+    ]
+   ]
+  },
+  {
+   "sec": "Break",
+   "who": "Kids",
+   "text": "Count again! Count again!",
+   "words": [
+    "Count",
+    "again!",
+    "Count",
+    "again!"
+   ],
+   "t": [
+    [
+     23.32,
+     23.5
+    ],
+    [
+     23.5,
+     24.12
+    ],
+    [
+     25.52,
+     25.68
+    ],
+    [
+     25.68,
+     26.2
+    ]
+   ]
+  },
+  {
+   "sec": "Verse",
+   "who": null,
+   "text": "One puffin, two puffins, on the rocks,",
+   "words": [
+    "One",
+    "puffin,",
+    "two",
+    "puffins,",
+    "on",
+    "the",
+    "rocks,"
+   ],
+   "t": [
+    [
+     28.36,
+     28.9
+    ],
+    [
+     28.9,
+     29.5
+    ],
+    [
+     29.68,
+     29.96
+    ],
+    [
+     29.96,
+     30.68
+    ],
+    [
+     30.68,
+     31.1
+    ],
+    [
+     31.1,
+     31.66
+    ],
+    [
+     31.66,
+     32.18
+    ]
+   ]
+  },
+  {
+   "sec": "Verse",
+   "who": null,
+   "text": "Three puffins, four puffins, in red socks!",
+   "words": [
+    "Three",
+    "puffins,",
+    "four",
+    "puffins,",
+    "in",
+    "red",
+    "socks!"
+   ],
+   "t": [
+    [
+     32.54,
+     33.16
+    ],
+    [
+     33.16,
+     33.86
+    ],
+    [
+     34.0,
+     34.3
+    ],
+    [
+     34.3,
+     35.02
+    ],
+    [
+     35.08,
+     35.38
+    ],
+    [
+     35.38,
+     35.9
+    ],
+    [
+     35.9,
+     36.48
+    ]
+   ]
+  },
+  {
+   "sec": "Verse",
+   "who": null,
+   "text": "Five puffins, six puffins, in the sea,",
+   "words": [
+    "Five",
+    "puffins,",
+    "six",
+    "puffins,",
+    "in",
+    "the",
+    "sea,"
+   ],
+   "t": [
+    [
+     37.24,
+     37.58
+    ],
+    [
+     37.58,
+     38.16
+    ],
+    [
+     38.36,
+     38.58
+    ],
+    [
+     38.58,
+     39.32
+    ],
+    [
+     39.32,
+     39.78
+    ],
+    [
+     39.78,
+     40.28
+    ],
+    [
+     40.28,
+     40.88
+    ]
+   ]
+  },
+  {
+   "sec": "Verse",
+   "who": null,
+   "text": "Seven puffins, eight puffins, look at me!",
+   "words": [
+    "Seven",
+    "puffins,",
+    "eight",
+    "puffins,",
+    "look",
+    "at",
+    "me!"
+   ],
+   "t": [
+    [
+     41.52,
+     41.78
+    ],
+    [
+     41.78,
+     42.52
+    ],
+    [
+     42.64,
+     42.86
+    ],
+    [
+     42.86,
+     43.54
+    ],
+    [
+     43.64,
+     43.88
+    ],
+    [
+     43.88,
+     44.54
+    ],
+    [
+     44.54,
+     45.04
+    ]
+   ]
+  },
+  {
+   "sec": "Outro",
+   "who": "Tomás",
+   "text": "Eight! You're out, Freya!",
+   "words": [
+    "Eight!",
+    "You're",
+    "out,",
+    "Freya!"
+   ],
+   "t": [
+    [
+     45.42,
+     45.7
+    ],
+    [
+     45.92,
+     46.28
+    ],
+    [
+     46.28,
+     46.48
+    ],
+    [
+     46.78,
+     47.16
+    ]
+   ]
+  }
+ ]
+}
