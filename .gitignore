@@ -44,5 +44,6 @@ tools/_de_lenovo_*/
 songs/audio/chants/
 songs/chants-video/out/
 songs/clases/**/*.mp4
+songs/clases/**/*.mp3
 songs/clases/**/*.png
 songs/clases/**/*.jpg
